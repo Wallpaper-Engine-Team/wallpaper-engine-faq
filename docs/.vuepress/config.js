@@ -18,11 +18,17 @@ module.exports = {
 				selectText: 'Languages',
 				label: 'English',
 				ariaLabel: 'Languages',
+				sidebar: {
+					'/': getTopLevelSidebar('General', "Video Wallpapers", "Error Analysis"),
+				}
 			},
 			'/de/': {
 				selectText: 'Sprachen',
 				label: 'Deutsch',
 				ariaLabel: 'Sprachen',
+				sidebar: {
+					'/': getTopLevelSidebar('Allgemein', "Video-Wallpaper", "Fehleranalyse"),
+				}
 			},
 		}
 	},
@@ -31,3 +37,30 @@ module.exports = {
 		['@vuepress/google-analytics', { ga: '' }],
 	],
 };
+
+function getTopLevelSidebar(generalGroup, videoGroup, debugGroup) {
+	return [
+		{
+			title: generalGroup,
+			collapsable: false,
+			children: [
+				'/general/bsod',
+			]
+		},
+		{
+			title: videoGroup,
+			collapsable: false,
+			children: [
+				'/videos/notplaying',
+				'/videos/lav',
+			]
+		},
+		{
+			title: debugGroup,
+			collapsable: false,
+			children: [
+				'/debug/scantool'
+			]
+		}
+	]
+}

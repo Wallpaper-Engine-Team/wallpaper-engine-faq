@@ -31,4 +31,4 @@ You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/fil
 
 ## Additional video codecs
 
-6. If it still does not work after this, download LAV and use DirectShow as described in this guide: [Click here](/videos/lav).
+6. If it still does not work after this, download LAV and use DirectShow as described in this guide: [Click here](/videos/lav.html).
