@@ -26,7 +26,10 @@ You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/fil
 5. If it does not work after this:
 
 * Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Apply these settings: http://i.imgur.com/KcQcmTX.png
+* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+
+![Uncheck all options in the Media Foundation options](./codectweak.gif)
+
 * Restart the PC and try the affected wallpapers again.
 
 ## Additional video codecs

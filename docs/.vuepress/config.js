@@ -13,6 +13,7 @@ module.exports = {
 		},
 	},
 	themeConfig: {
+		logo: '/img/wallpaperenginelogo.png',
 		locales: {
 			'/': {
 				selectText: 'Languages',
