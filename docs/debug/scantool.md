@@ -1,6 +1,6 @@
 # Use the Wallpaper Engine scan tool to create a debug log
 
-* Make sure Wallpaper Engine is running.
+* Make sure Wallpaper Engine is running (if possible).
 * Choose the 4th launch option in Steam (Scan for conflicting applications):
   
 ![Scan Tool Launch Option](./scantoollaunch.gif)
