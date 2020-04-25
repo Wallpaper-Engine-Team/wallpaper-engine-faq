@@ -1,3 +1,14 @@
 .site-name {
   color: $accentColor !important;
 }
+
+.search-box input {
+  border-width: 2px !important;
+  animation: pulse 2.5s infinite;
+}
+
+@keyframes pulse {
+  from { border-color: $borderColor; }
+  50% { border-color: $accentColor; }
+  to { border-color: $borderColor; }
+}

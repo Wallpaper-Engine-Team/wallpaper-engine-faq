@@ -1,26 +1,26 @@
 module.exports = {
 	title: 'Wallpaper Engine FAQ',
 	locales: {
-		'/': {
+		'/en/': {
 			lang: 'en-US',
-			title: 'Wallpaper Engine - Troubleshooting & Frequent Questions',
+			title: 'Wallpaper Engine - Troubleshooting & FAQ',
 			description: 'This websites covers frequent Wallpaper Engine-related questions and issues',
 		},
 		'/de/': {
 			lang: 'de-DE',
-			title: 'Wallpaper Engine - Technische Problemlösungen & Häufige Fragen',
+			title: 'Wallpaper Engine - Problemlösungen & Häufige Fragen',
 			description: 'Diese Website befasst sich mit häufig gestellten Fragen und Problemen rund um Wallpaper Engine'
 		},
 	},
 	themeConfig: {
 		logo: '/img/wallpaperenginelogo.png',
 		locales: {
-			'/': {
+			'/en/': {
 				selectText: 'Languages',
 				label: 'English',
 				ariaLabel: 'Languages',
 				sidebar: {
-					'/': getTopLevelSidebar('/', 'General', "Video Wallpapers", "Error Analysis"),
+					'/': getTopLevelSidebar('/en/', 'General', "Video Wallpapers", "Error Analysis"),
 				}
 			},
 			'/de/': {
@@ -35,7 +35,8 @@ module.exports = {
 	},
 	plugins: [
 		['@vuepress/back-to-top', true],
-		['@vuepress/google-analytics', { ga: '' }]
+		['@vuepress/google-analytics', { ga: '' }],
+		['vuepress-plugin-redirect', { locales: true, fuzzyLocales: true } ],
 	],
 };
 
@@ -54,6 +55,10 @@ function getTopLevelSidebar(locale, generalGroup, videoGroup, debugGroup) {
 			children: [
 				locale + 'videos/notplaying',
 				locale + 'videos/lav',
+				locale + 'videos/windows-n',
+				locale + 'videos/performance',
+				locale + 'videos/artifacts',
+				locale + 'videos/redline',
 			]
 		},
 		{
