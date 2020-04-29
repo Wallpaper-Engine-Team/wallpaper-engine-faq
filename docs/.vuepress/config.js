@@ -20,7 +20,7 @@ module.exports = {
 				label: 'English',
 				ariaLabel: 'Languages',
 				sidebar: {
-					'/': getTopLevelSidebar('/en/', 'General', "Video Wallpapers", "Error Analysis"),
+					'/': getTopLevelSidebar('/en/', 'General', "Video Wallpapers", "Error Analysis", "Audio"),
 				}
 			},
 			'/de/': {
@@ -28,7 +28,7 @@ module.exports = {
 				label: 'Deutsch',
 				ariaLabel: 'Sprachen',
 				sidebar: {
-					'/de/': getTopLevelSidebar('/de/', 'Allgemein', "Video-Wallpaper", "Fehleranalyse"),
+					'/de/': getTopLevelSidebar('/de/', 'Allgemein', "Video-Wallpaper", "Fehleranalyse", "Audio"),
 				}
 			},
 		}
@@ -40,7 +40,7 @@ module.exports = {
 	],
 };
 
-function getTopLevelSidebar(locale, generalGroup, videoGroup, debugGroup) {
+function getTopLevelSidebar(locale, generalGroup, videoGroup, debugGroup, audioGroup) {
 	return [
 		{
 			title: generalGroup,
@@ -53,12 +53,20 @@ function getTopLevelSidebar(locale, generalGroup, videoGroup, debugGroup) {
 			title: videoGroup,
 			collapsable: false,
 			children: [
-				locale + 'videos/notplaying',
 				locale + 'videos/lav',
+				locale + 'videos/notplaying',
 				locale + 'videos/windows-n',
 				locale + 'videos/performance',
 				locale + 'videos/artifacts',
 				locale + 'videos/redline',
+			]
+		},
+		{
+			title: audioGroup,
+			collapsable: false,
+			children: [
+				locale + 'audio/audiodetection',
+				locale + 'audio/intermittent',
 			]
 		},
 		{
