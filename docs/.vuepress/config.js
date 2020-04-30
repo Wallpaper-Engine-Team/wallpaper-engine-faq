@@ -20,7 +20,7 @@ module.exports = {
 				label: 'English',
 				ariaLabel: 'Languages',
 				sidebar: {
-					'/': getTopLevelSidebar('/en/', 'General', "Video Wallpapers", "Error Analysis", "Audio"),
+					'/': getTopLevelSidebar('/en/', "General", "Crashes", "Video Wallpapers", "Error Analysis", "Audio"),
 				}
 			},
 			'/de/': {
@@ -28,7 +28,7 @@ module.exports = {
 				label: 'Deutsch',
 				ariaLabel: 'Sprachen',
 				sidebar: {
-					'/de/': getTopLevelSidebar('/de/', 'Allgemein', "Video-Wallpaper", "Fehleranalyse", "Audio"),
+					'/de/': getTopLevelSidebar('/de/', "Allgemein", "Abstürze", "Video-Wallpaper", "Fehleranalyse", "Audio"),
 				}
 			},
 		}
@@ -40,13 +40,21 @@ module.exports = {
 	],
 };
 
-function getTopLevelSidebar(locale, generalGroup, videoGroup, debugGroup, audioGroup) {
+function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugGroup, audioGroup) {
 	return [
 		{
 			title: generalGroup,
 			collapsable: false,
 			children: [
-				locale + 'general/bsod',
+				locale + 'general/tray'
+			]
+		},
+		{
+			title: crashGroup,
+			collapsable: false,
+			children: [
+				locale + 'crash/application',
+				locale + 'crash/system',
 			]
 		},
 		{
