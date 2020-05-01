@@ -1,4 +1,4 @@
-# GPU usage misconception
+# High GPU usage misconception
 
 The Windows Task Manager does not show the real GPU usage in most cases which is the cause for a lot of confusion. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
 
@@ -15,7 +15,7 @@ Notice *GPU load* in the screenshot is at 24%. However, at the top you can see t
 A card could have clock rates between 100mhz and 2000mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 1000 MHz or 50% of 2000 MHz**. 
 
 ::: tip
-To summarize: It's important to keep the GPU clock rate in mind when looking at the GPU load. 50% of 200 MHz is better than 3% of 2000 MHz.
+To summarize: It's important to keep the GPU clock rate in mind when looking at the GPU load. 50% of 200 MHz is better than 5% of 2000 MHz.
 :::
 
 If you want to improve GPU performance:

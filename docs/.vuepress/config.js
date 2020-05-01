@@ -46,6 +46,8 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			title: generalGroup,
 			collapsable: false,
 			children: [
+				locale + 'general/nowallpaper',
+				locale + 'general/blackinterface',
 				locale + 'general/tray'
 			]
 		},
@@ -55,13 +57,6 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			children: [
 				locale + 'crash/application',
 				locale + 'crash/system',
-			]
-		},
-		{
-			title: performanceGroup,
-			collapsable: false,
-			children: [
-				locale + 'performance/gpu',
 			]
 		},
 		{
@@ -82,6 +77,15 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			children: [
 				locale + 'audio/audiodetection',
 				locale + 'audio/intermittent',
+			]
+		},
+		{
+			title: performanceGroup,
+			collapsable: false,
+			children: [
+				locale + 'performance/gpu',
+				locale + 'performance/refresh',
+				locale + 'performance/dwm',
 			]
 		},
 		{
