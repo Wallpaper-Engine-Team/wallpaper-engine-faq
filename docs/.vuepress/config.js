@@ -20,7 +20,7 @@ module.exports = {
 				label: 'English',
 				ariaLabel: 'Languages',
 				sidebar: {
-					'/': getTopLevelSidebar('/en/', "General", "Crashes", "Video Wallpapers", "Error Analysis", "Audio"),
+					'/': getTopLevelSidebar('/en/', "General", "Crashes", "Video Wallpapers", "Error Analysis", "Audio", "Performance"),
 				}
 			},
 			'/de/': {
@@ -28,7 +28,7 @@ module.exports = {
 				label: 'Deutsch',
 				ariaLabel: 'Sprachen',
 				sidebar: {
-					'/de/': getTopLevelSidebar('/de/', "Allgemein", "Abstürze", "Video-Wallpaper", "Fehleranalyse", "Audio"),
+					'/de/': getTopLevelSidebar('/de/', "Allgemein", "Abstürze", "Video-Wallpaper", "Fehleranalyse", "Audio", "Leistung"),
 				}
 			},
 		}
@@ -40,7 +40,7 @@ module.exports = {
 	],
 };
 
-function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugGroup, audioGroup) {
+function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup) {
 	return [
 		{
 			title: generalGroup,
@@ -55,6 +55,13 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			children: [
 				locale + 'crash/application',
 				locale + 'crash/system',
+			]
+		},
+		{
+			title: performanceGroup,
+			collapsable: false,
+			children: [
+				locale + 'performance/gpu',
 			]
 		},
 		{
