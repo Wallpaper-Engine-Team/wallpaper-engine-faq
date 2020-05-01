@@ -20,7 +20,7 @@ module.exports = {
 				label: 'English',
 				ariaLabel: 'Languages',
 				sidebar: {
-					'/': getTopLevelSidebar('/en/', "General", "Crashes", "Video Wallpapers", "Error Analysis", "Audio", "Performance"),
+					'/': getTopLevelSidebar('/en/', "General", "Crashes", "Video Wallpapers", "Error Analysis", "Audio", "Performance", "Wallpapers not showing", "User Interface"),
 				}
 			},
 			'/de/': {
@@ -28,7 +28,7 @@ module.exports = {
 				label: 'Deutsch',
 				ariaLabel: 'Sprachen',
 				sidebar: {
-					'/de/': getTopLevelSidebar('/de/', "Allgemein", "Abstürze", "Video-Wallpaper", "Fehleranalyse", "Audio", "Leistung"),
+					'/de/': getTopLevelSidebar('/de/', "Allgemein", "Abstürze", "Video-Wallpaper", "Fehleranalyse", "Audio", "Leistung", "Nicht sichtbare Wallpaper", "Benutzeroberfläche"),
 				}
 			},
 		}
@@ -40,20 +40,30 @@ module.exports = {
 	],
 };
 
-function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup) {
+function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup, notShowingGroup, interfaceGroup) {
 	return [
 		{
 			title: generalGroup,
 			collapsable: false,
 			children: [
-				locale + 'general/nowallpaper',
 				locale + 'general/autostart',
-				locale + 'general/blackinterface',
 				locale + 'general/brokensleep',
+				locale + 'general/rgb',
 				locale + 'general/focusloss',
+				locale + 'general/bits',
 				locale + 'general/restoredefaults',
 				locale + 'general/tray',
-				locale + 'general/aero'
+				locale + 'general/linuxmacos',
+				locale + 'general/aero',
+			]
+		},
+		{
+			title: notShowingGroup,
+			collapsable: false,
+			children: [
+				locale + 'noshow/nowallpaper',
+				locale + 'noshow/notplaying',
+
 			]
 		},
 		{
@@ -65,11 +75,19 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			]
 		},
 		{
+			title: interfaceGroup,
+			collapsable: false,
+			children: [
+				locale + 'interface/broken',
+				locale + 'interface/transparent',
+
+			]
+		},
+		{
 			title: videoGroup,
 			collapsable: false,
 			children: [
 				locale + 'videos/lav',
-				locale + 'videos/notplaying',
 				locale + 'videos/windows-n',
 				locale + 'videos/performance',
 				locale + 'videos/artifacts',

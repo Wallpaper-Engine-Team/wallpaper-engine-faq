@@ -1,6 +1,6 @@
-# Questions & Problems with autostarting Wallpaper Engine when Windows starts
+# Wallpaper Engine autostart
 
-## How do I make Wallpaper Engine launch when my computer starts?
+## How do I make Wallpaper Engine launch when my computer boots?
 
 Go to the Wallpaper Engine settings and navigate to the "General" tab. At the top, you can enable autostart.
 

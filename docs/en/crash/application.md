@@ -38,7 +38,7 @@ This is a crash in DirectX, it is usually caused by antivirus applications or br
 
 This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
 
-[Click here](/videos/notplaying.html)
+[Click here](/nowshow/notplaying.html)
 
 ### atiumdag.dll / atiumd64.dll
 
