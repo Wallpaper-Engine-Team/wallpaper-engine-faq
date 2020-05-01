@@ -47,8 +47,13 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			collapsable: false,
 			children: [
 				locale + 'general/nowallpaper',
+				locale + 'general/autostart',
 				locale + 'general/blackinterface',
-				locale + 'general/tray'
+				locale + 'general/brokensleep',
+				locale + 'general/focusloss',
+				locale + 'general/restoredefaults',
+				locale + 'general/tray',
+				locale + 'general/aero'
 			]
 		},
 		{
@@ -84,6 +89,7 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			collapsable: false,
 			children: [
 				locale + 'performance/gpu',
+				locale + 'performance/game',
 				locale + 'performance/refresh',
 				locale + 'performance/dwm',
 			]
