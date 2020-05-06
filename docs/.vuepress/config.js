@@ -20,7 +20,7 @@ module.exports = {
 				label: 'English',
 				ariaLabel: 'Languages',
 				sidebar: {
-					'/': getTopLevelSidebar('/en/', "General", "Crashes", "Video Wallpapers", "Error Analysis", "Audio", "Performance", "Wallpapers not showing", "User Interface"),
+					'/': getTopLevelSidebar('/en/', "General", "Crashes", "Video Wallpapers", "Error Analysis", "Audio", "Performance", "Wallpapers not showing", "User Interface", "Downloads / Steam"),
 				}
 			},
 			'/de/': {
@@ -28,7 +28,7 @@ module.exports = {
 				label: 'Deutsch',
 				ariaLabel: 'Sprachen',
 				sidebar: {
-					'/de/': getTopLevelSidebar('/de/', "Allgemein", "Abstürze", "Video-Wallpaper", "Fehleranalyse", "Audio", "Leistung", "Nicht sichtbare Wallpaper", "Benutzeroberfläche"),
+					'/de/': getTopLevelSidebar('/de/', "Allgemein", "Abstürze", "Video-Wallpaper", "Fehleranalyse", "Audio", "Leistung", "Nicht sichtbare Wallpaper", "Benutzeroberfläche", "Downloads / Steam"),
 				}
 			},
 		}
@@ -40,7 +40,7 @@ module.exports = {
 	],
 };
 
-function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup, notShowingGroup, interfaceGroup) {
+function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup, notShowingGroup, interfaceGroup, steamGroup) {
 	return [
 		{
 			title: generalGroup,
@@ -52,9 +52,17 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 				locale + 'general/focusloss',
 				locale + 'general/bits',
 				locale + 'general/restoredefaults',
+				locale + 'general/export',
 				locale + 'general/tray',
 				locale + 'general/linuxmacos',
 				locale + 'general/aero',
+			]
+		},
+		{
+			title: steamGroup,
+			collapsable: false,
+			children: [
+				locale + 'steam/backup',
 			]
 		},
 		{
