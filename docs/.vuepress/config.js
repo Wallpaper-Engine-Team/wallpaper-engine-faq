@@ -63,6 +63,7 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			collapsable: false,
 			children: [
 				locale + 'steam/download',
+				locale + 'steam/steamworks',
 				locale + 'steam/backup',
 			]
 		},
@@ -89,7 +90,7 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			children: [
 				locale + 'interface/broken',
 				locale + 'interface/transparent',
-
+				locale + 'interface/exclude',
 			]
 		},
 		{
