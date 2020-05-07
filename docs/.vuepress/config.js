@@ -62,6 +62,7 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			title: steamGroup,
 			collapsable: false,
 			children: [
+				locale + 'steam/download',
 				locale + 'steam/backup',
 			]
 		},
