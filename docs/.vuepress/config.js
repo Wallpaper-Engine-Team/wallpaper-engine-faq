@@ -5,12 +5,7 @@ module.exports = {
 			lang: 'en-US',
 			title: 'Wallpaper Engine - Troubleshooting & FAQ',
 			description: 'This websites covers frequent Wallpaper Engine-related questions and issues',
-		},
-		'/de/': {
-			lang: 'de-DE',
-			title: 'Wallpaper Engine - Problemlösungen & Häufige Fragen',
-			description: 'Diese Website befasst sich mit häufig gestellten Fragen und Problemen rund um Wallpaper Engine'
-		},
+		}
 	},
 	themeConfig: {
 		logo: '/img/wallpaperenginelogo.png',
@@ -20,17 +15,9 @@ module.exports = {
 				label: 'English',
 				ariaLabel: 'Languages',
 				sidebar: {
-					'/': getTopLevelSidebar('/en/', "General", "Crashes", "Video Wallpapers", "Error Analysis", "Audio", "Performance", "Wallpapers not showing", "User Interface", "Downloads / Steam"),
+					'/': getTopLevelSidebar('/en/', "General", "Crashes", "Video Wallpapers", "Error Analysis & Contact", "Audio", "Performance", "Wallpapers not showing", "User Interface", "Steam / Downloads / Uploads"),
 				}
-			},
-			'/de/': {
-				selectText: 'Sprachen',
-				label: 'Deutsch',
-				ariaLabel: 'Sprachen',
-				sidebar: {
-					'/de/': getTopLevelSidebar('/de/', "Allgemein", "Abstürze", "Video-Wallpaper", "Fehleranalyse", "Audio", "Leistung", "Nicht sichtbare Wallpaper", "Benutzeroberfläche", "Downloads / Steam"),
-				}
-			},
+			}
 		}
 	},
 	plugins: [
@@ -56,6 +43,8 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 				locale + 'general/tray',
 				locale + 'general/linuxmacos',
 				locale + 'general/aero',
+				locale + 'general/multiscreencenter',
+				locale + 'general/editingwallpapers'
 			]
 		},
 		{
@@ -64,7 +53,10 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			children: [
 				locale + 'steam/download',
 				locale + 'steam/steamworks',
+				locale + 'steam/redownload',
 				locale + 'steam/backup',
+				locale + 'steam/uploads',
+				locale + 'steam/ingame'
 			]
 		},
 		{
@@ -90,6 +82,7 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			children: [
 				locale + 'interface/broken',
 				locale + 'interface/transparent',
+				locale + 'interface/emptyresults',
 				locale + 'interface/exclude',
 			]
 		},
@@ -126,7 +119,8 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			title: debugGroup,
 			collapsable: false,
 			children: [
-				locale + 'debug/scantool'
+				locale + 'debug/scantool',
+				locale + 'debug/contact'
 			]
 		}
 	]

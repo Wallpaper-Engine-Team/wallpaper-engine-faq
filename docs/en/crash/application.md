@@ -22,7 +22,7 @@ Always also try to verify the Wallpaper Engine files through steam to ensure the
 
 ## Wallpaper Engine was likely crashed by another application
 
-### KERNELBASE.dll
+### KERNELBASE.dll / ntdll.dll
 
 This is a crash in the core of the Windows kernel itself, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
 
@@ -58,7 +58,7 @@ The Nvidia drivers on your system are crashing. Go to the Nvidia website, downlo
 Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
 :::
 
-#  igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
+###  igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
 The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
 
