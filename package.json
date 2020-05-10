@@ -12,6 +12,8 @@
     "vuepress": "^1.4.0"
   },
   "dependencies": {
-    "vuepress-plugin-redirect": "^1.2.3"
+    "vuepress-plugin-redirect": "^1.2.3",
+    "vuepress-plugin-robots": "https://github.com/TiEul/vuepress-plugin-robots#master",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

@@ -22,9 +22,21 @@ module.exports = {
 	},
 	plugins: [
 		['@vuepress/back-to-top', true],
-		['@vuepress/google-analytics', { ga: '' }],
-		['vuepress-plugin-redirect', { locales: true, fuzzyLocales: true } ],
-	],
+		['@vuepress/google-analytics', { ga: 'UA-145121163-3' }],
+		['vuepress-plugin-redirect', { locales: true } ],
+		['sitemap', { hostname: 'https://help.wallpaperengine.io' } ],
+		['robots', {
+				host: "https://help.wallpaperengine.io",
+				allowAll: true,      
+				sitemap: "/sitemap.xml",
+				policies: [
+					{
+						userAgent: '*',
+					}
+				]
+			},
+		],
+	]
 };
 
 function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup, notShowingGroup, interfaceGroup, steamGroup) {
@@ -33,7 +45,7 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			title: generalGroup,
 			collapsable: false,
 			children: [
-				locale + 'general/autostart',
+				locale + 'general/automaticstartup',
 				locale + 'general/brokensleep',
 				locale + 'general/rgb',
 				locale + 'general/focusloss',

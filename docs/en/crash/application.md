@@ -1,3 +1,7 @@
+---
+tags:
+  - mdmp
+---
 # Wallpaper Engine crashing
 
 ## Quick Fix Guide for Application Crashes
