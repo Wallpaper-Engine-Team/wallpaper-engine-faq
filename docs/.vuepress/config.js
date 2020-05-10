@@ -66,6 +66,7 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 				locale + 'steam/download',
 				locale + 'steam/steamworks',
 				locale + 'steam/redownload',
+				locale + 'steam/contentfile',
 				locale + 'steam/backup',
 				locale + 'steam/uploads',
 				locale + 'steam/ingame'

@@ -1,3 +1,12 @@
+---
+tags:
+  - downtime
+  - server
+  - downloads
+  - progress
+  - workshop
+  - connection
+---
 # Steam Wallpaper Download Issues
 
 Keep in mind that **all downloads are performed by Steam**. Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
@@ -53,13 +62,3 @@ Steam is unable to download some files, this can be due to anti-virus applicatio
   * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
 If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-
-## "Content file locked" / Disk Write Error
-
-If Steam fails to download Wallpaper Engine either while installing or updating the app, it is most likely your anti-virus deleting files, putting files into quarantine or blocking entire directories on your disk without informing you about this. You will get 'content file locked' or 'access denied' errors in Steam. This needs to be resolved in your anti-virus by undoing the changes it did to your PC, most anti-virus programs have a quarantine window from where you can restore files or create whitelist. Make sure your antivirus application ignores the following directories:
-
-* `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
-* `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* `C:\Program Files (x86)\Steam\steamapps\downloading`
-
-*If your Steam or Wallpaper Engine is installed in a different directory, you need to adjust the directories to your actual Steam installation path.*
