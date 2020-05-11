@@ -29,8 +29,7 @@ Steam is not done downloading and verifying the files. If the downloads are stuc
     * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
 * Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
 
-**The steps above fix download issues for most people, if that did not fix the issue for you, try these additional steps:**
-
+::: details If the steps above did not fix your download problems, click here to view more possible fixes.
 * Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
 * Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
 * Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
@@ -40,6 +39,7 @@ Steam is not done downloading and verifying the files. If the downloads are stuc
 * Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
 * Try again after waiting at least for a day in case there are Steam server issues.
 * **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!).
+:::
 
 ::: tip
 Steam servers go offline every week for maintenance at a fixed time:

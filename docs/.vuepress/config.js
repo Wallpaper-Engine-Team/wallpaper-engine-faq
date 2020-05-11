@@ -11,6 +11,7 @@ module.exports = {
 		logo: '/img/wallpaperenginelogo.png',
 		locales: {
 			'/en/': {
+				searchPlaceholder: 'Keyword Search',
 				selectText: 'Languages',
 				label: 'English',
 				ariaLabel: 'Languages',

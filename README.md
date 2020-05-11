@@ -23,7 +23,7 @@ server {
         listen 443 default_server ssl;
         root /var/www/help.wallpaperengine.io/docs/.vuepress/dist;
         server_name help.wallpaperengine.io;
-        index index.html;
+        index /en/index.html;
 
         ssl_certificate     /etc/letsencrypt/live/help.wallpaperengine.io/fullchain.pem;
         ssl_certificate_key /etc/letsencrypt/live/help.wallpaperengine.io/privkey.pem;
