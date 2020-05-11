@@ -2,7 +2,7 @@
 
 ```
 git pull origin master
-npm install / yarn install
+yarn install
 npm run docs:build
 ```
 

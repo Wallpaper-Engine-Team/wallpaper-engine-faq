@@ -1,5 +1,5 @@
 module.exports = {
-	title: 'Wallpaper Engine FAQ',
+	title: 'Wallpaper Engine - Troubleshooting & FAQ',
 	locales: {
 		'/en/': {
 			lang: 'en-US',
@@ -11,6 +11,7 @@ module.exports = {
 		logo: '/img/wallpaperenginelogo.png',
 		locales: {
 			'/en/': {
+				contactUs: 'Cannot fix your problem? Contact us!',
 				searchPlaceholder: 'Keyword Search',
 				selectText: 'Languages',
 				label: 'English',

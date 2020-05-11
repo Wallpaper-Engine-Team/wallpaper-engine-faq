@@ -1,13 +1,12 @@
 ---
 tags: 
   - autostart
+  - launch
 ---
 
 # Automatic start-up at boot
 
-## How do I make Wallpaper Engine launch when my computer boots?
-
-Go to the Wallpaper Engine settings and navigate to the "General" tab. At the top, you can enable the automatic startup functionality.
+You can make Wallpaper Engine launch when your computer starts by going to the Wallpaper Engine settings and navigate to the "General" tab. At the top, you can enable the automatic startup functionality.
 
 ## What is the difference between "high-priority" and the "normal" start-up option?
 

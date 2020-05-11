@@ -1,7 +1,5 @@
 # 32-Bit & 64-Bit Version
 
-## What is the difference between the 32 and 64 Bit version and which one is recommended?
-
 The 64-bit version can handle larger files (more than 2GB) but it will always use more memory, no matter the file size of the wallpapers. For example, with a normal video wallpaper, the 64-bit version may use about 50 MB more RAM compared to the 32-bit version, otherwise there is nothing different or improved.
 
 ::: tip

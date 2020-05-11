@@ -4,8 +4,6 @@ tags:
 ---
 # Wallpaper Engine crashing
 
-## Quick Fix Guide for Application Crashes
-
 Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. If the crash message you are seeing mentions any **.dll** files, scroll down this page first and see if you can find the relevant .dll file here for a more accurate error description.
 
 ::: tip
