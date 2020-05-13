@@ -27,9 +27,10 @@ Steam is not done downloading and verifying the files. If the downloads are stuc
 * If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
     * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
+    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
 * Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
 
-::: details If the steps above did not fix your download problems, click here to view more possible fixes.
+::: details Click here to see more possible solutions if the steps above did not fix your download problems
 * Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
 * Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
 * Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
@@ -58,6 +59,7 @@ Steam is unable to download some files, this can be due to anti-virus applicatio
 * Turn off Steam.
 * Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
 * Start Steam and verify the Wallpaper Engine files:
   * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 

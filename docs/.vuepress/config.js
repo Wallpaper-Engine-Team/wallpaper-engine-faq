@@ -9,6 +9,8 @@ module.exports = {
 	},
 	themeConfig: {
 		logo: '/img/wallpaperenginelogo.png',
+		nextLinks: false,
+		prevLinks: false,
 		locales: {
 			'/en/': {
 				contactUs: 'Cannot fix your problem? Contact us!',
@@ -17,7 +19,7 @@ module.exports = {
 				label: 'English',
 				ariaLabel: 'Languages',
 				sidebar: {
-					'/': getTopLevelSidebar('/en/', "General", "Crashes", "Video Wallpapers", "Error Analysis & Contact", "Audio", "Performance", "Wallpapers not showing", "User Interface", "Steam / Downloads / Uploads"),
+					'/': getTopLevelSidebar('/en/', "Windows", "Crashes", "Video Wallpapers", "Error Analysis & Contact", "Audio", "Performance", "Wallpapers not showing", "User Interface", "Steam / Downloads / Uploads", "General"),
 				}
 			}
 		}
@@ -41,24 +43,32 @@ module.exports = {
 	]
 };
 
-function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup, notShowingGroup, interfaceGroup, steamGroup) {
+function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup, notShowingGroup, interfaceGroup, steamGroup, functionalityGroup) {
 	return [
 		{
-			title: generalGroup,
+			title: functionalityGroup,
 			collapsable: false,
 			children: [
-				locale + 'general/automaticstartup',
-				locale + 'general/brokensleep',
-				locale + 'general/rgb',
-				locale + 'general/focusloss',
+				locale + 'functionality/automaticstartup',
+				locale + 'functionality/rgb',
+				locale + 'functionality/restoredefaults',
+				locale + 'functionality/export',
+				locale + 'functionality/tray',
+				locale + 'functionality/editingwallpapers',
+				locale + 'functionality/linuxmacos',
+				locale + 'functionality/applicationrules'
+			]
+		},
+		{
+			title: windowsGroup,
+			collapsable: false,
+			children: [
 				locale + 'general/bits',
-				locale + 'general/restoredefaults',
-				locale + 'general/export',
-				locale + 'general/tray',
-				locale + 'general/linuxmacos',
-				locale + 'general/aero',
+				locale + 'general/brokensleep',
+				locale + 'general/focusloss',
 				locale + 'general/multiscreencenter',
-				locale + 'general/editingwallpapers'
+				locale + 'general/aero',
+				locale + 'videos/windows-n',
 			]
 		},
 		{
@@ -106,10 +116,10 @@ function getTopLevelSidebar(locale, generalGroup, crashGroup, videoGroup, debugG
 			collapsable: false,
 			children: [
 				locale + 'videos/lav',
-				locale + 'videos/windows-n',
 				locale + 'videos/performance',
 				locale + 'videos/artifacts',
 				locale + 'videos/redline',
+				locale + 'videos/windows-n',
 			]
 		},
 		{

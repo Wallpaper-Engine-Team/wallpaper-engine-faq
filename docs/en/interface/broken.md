@@ -1,9 +1,10 @@
 # Wallpaper Engine window not displayed correctly
 
-## Wallpaper Engine User Interface is Black
 ::: warning Please note
-This section is about the Wallpaper Engine **interface** being black. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html).
+This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html).
 :::
+
+## Wallpaper Engine User Interface is Black
 
 ### Antivirus Application Blocking the Wallpaper Engine Interface
 
