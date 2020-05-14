@@ -19,7 +19,7 @@ module.exports = {
 				label: 'English',
 				ariaLabel: 'Languages',
 				sidebar: {
-					'/': getTopLevelSidebar('/en/', "Windows", "Crashes", "Video Wallpapers", "Error Analysis & Contact", "Audio", "Performance", "Wallpapers not showing", "User Interface", "Steam / Downloads / Uploads", "General"),
+					'/': getTopLevelSidebar('/en/', "Windows", "Crashes", "Video Wallpapers", "Error Analysis & Contact", "Audio", "Performance", "Wallpapers not showing", "Wallpaper Browser", "Steam / Downloads / Uploads", "General"),
 				}
 			}
 		}
