@@ -7,7 +7,7 @@ tags:
 Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. If the crash message you are seeing mentions any **.dll** files, scroll down this page first and see if you can find the relevant .dll file here for a more accurate error description.
 
 ::: tip
-90% Wallpaper Engine crashes are caused by either broken graphics card drivers or antivirus applications.
+Almost all crash reports we receive from users turn out to be caused by broken graphics card drivers, antivirus applications or other defective software that makes the computer unstable.
 :::
 
 If you are unsure what is crashing Wallpaper Engine, please do a clean re-installation of your graphics card drivers. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
@@ -16,7 +16,7 @@ If you are unsure what is crashing Wallpaper Engine, please do a clean re-instal
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you have an anti-virus application installed (except Windows Defender), make sure to set up an exception for Wallpaper Engine in your anti-virus settings. Sometimes a re-installation of Wallpaper Engine is necessary after this if your anti-virus has permanently broken or locked some files.
+If you have an antivirus application installed (except Windows Defender), make sure to set up an exception for Wallpaper Engine in your antivirus settings. Sometimes a re-installation of Wallpaper Engine is necessary after this if your antivirus has permanently broken or locked some files.
 
 Always also try to verify the Wallpaper Engine files through steam to ensure they are not broken:
 
@@ -85,3 +85,7 @@ This means that a Windows module has been corrupted by something on your system 
 Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
 
 If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
+
+## Crashing after Hibernation / Sleep
+
+If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option "Safe start after hibernation" in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
