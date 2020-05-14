@@ -12,7 +12,7 @@ We have built an automatic Steam fixer that you can use to attempt to make Steam
 * Restart Steam and verify the Wallpaper Engine files:
   * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-You have to repeat this every time Steam screws itself up, unfortunately. Please keep in mind that we have not built Steam and fix  Steam ourselves.
+You have to repeat this every time Steam screws itself up, unfortunately. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
 
 ## Re-install Steam
 
@@ -25,7 +25,7 @@ The most reliable long-term fix for most users affected by this Steam bug regula
 
 ## Use local backups as a workaround
 
-If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not re-download wallpapers that you are not subscribed to, so the workaround is to simply only rely on local backups. You can find our guide on how to create backups here:
+If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not re-download wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
 
 * [Using wallpaper backups](/steam/backup)
 
