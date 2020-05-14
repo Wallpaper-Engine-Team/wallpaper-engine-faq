@@ -4,7 +4,7 @@
 This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html).
 :::
 
-## Wallpaper Engine User Interface is Black
+## Wallpaper Engine User Interface is Black or White
 
 ### Antivirus Application Blocking the Wallpaper Engine Interface
 
@@ -14,7 +14,7 @@ In some cases, it is necessary to verify the Wallpaper Engine files afterwards o
 
 * [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam.
+If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
 
 ### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
 
