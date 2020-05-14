@@ -5,12 +5,12 @@ Steam's download cache was broken and now Steam re-downloads all files (for no p
 ## Fix Steam automatically
 We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
 * Turn off Steam
-* Go to the `ẁallpaper_engine` installation directory
+* Go to the `wallpaper_engine` installation directory
   * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
   * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
 * Restart Steam and verify the Wallpaper Engine files:
-  * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335
+  * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
 You have to repeat this every time Steam screws itself up, unfortunately. Please keep in mind that we have not built Steam and fix  Steam ourselves.
 
