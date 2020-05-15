@@ -1,10 +1,10 @@
 # Black Screen / Videos not Playing 
 
+Black screens and other issues with wallpapers of the type "Video" are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
+
 ::: warning Please note
 This topic is about the Wallpaper Engine **wallpapers** being black. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black).
 :::
-
-Black screens and other issues with wallpapers of the type "Video" are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
 
 ## Clean graphics card driver re-installation
 

@@ -116,6 +116,7 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 			collapsable: false,
 			children: [
 				locale + 'videos/lav',
+				locale + 'noshow/notplaying',
 				locale + 'videos/performance',
 				locale + 'videos/artifacts',
 				locale + 'videos/redline',
