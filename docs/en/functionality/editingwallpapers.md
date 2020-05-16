@@ -70,14 +70,14 @@ If you deleted your project you can still overwrite it, but depending on the typ
 Add this line at the top right after `{`:
 
 ```json
-	"workshopid" : 12345678,
+	"workshopid" : "12345678",
 ```
 So that it looks like:
 
 ```json{2}
 {
-	"workshopid" : 12345678,
-	"description" : "Exemplary wallpaper to demonstrate new ember particle preset.",
+	"workshopid" : "12345678",
+	"description" : "Cool description",
 	"file" : "scene.json",
 	[...]
 ```
