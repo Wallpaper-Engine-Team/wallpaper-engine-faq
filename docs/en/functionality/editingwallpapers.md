@@ -4,6 +4,8 @@ Generally, Wallpaper Engine does not support editing downloaded wallpapers itsel
 
 Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
 
+[[toc]]
+
 ## How do I find the source files of a wallpaper?
 
 Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
@@ -18,11 +20,7 @@ Scene wallpapers are packed into a .pkg file which is not editable out of the bo
 
 However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
 
-https://wetranslate.thiscould.work/scene.pkg/
-
-The source code for this can be found here, if you want to dig deeper into this project:
-
-https://github.com/redpfire/we
+* [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
 ::: warning Please note
 We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators.
@@ -38,4 +36,52 @@ Video-based wallpapers are video files. You can find the video file as described
 
 ### Application wallpapers
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help. 
+Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+
+## Updating a lost project
+
+If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+
+```json
+{
+	"description" : "Cool description",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.7647058823529411 0.3764705882352941 0.07450980392156863"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Relaxing" ],
+	"title" : "Cool title of your wallpaper",
+	"type" : "scene",
+	"visibility" : "private"
+}
+```
+
+Add this line at the top right after `{`:
+
+```json
+	"workshopid" : 12345678,
+```
+So that it looks like:
+
+```json{2}
+{
+	"workshopid" : 12345678,
+	"description" : "Exemplary wallpaper to demonstrate new ember particle preset.",
+	"file" : "scene.json",
+	[...]
+```
+
+**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+
+![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)

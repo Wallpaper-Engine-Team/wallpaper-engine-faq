@@ -64,3 +64,5 @@ Steam is unable to download some files, this can be due to anti-virus applicatio
   * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
 If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+
+#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
