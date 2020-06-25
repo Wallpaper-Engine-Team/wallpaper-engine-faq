@@ -17,11 +17,11 @@
 
 USB/无线耳麦很容易出现声音驱动程序问题。 对于许多设备来说，将 Windows 设备设置中的音频采样频率更改为“44100 Hz”可以永久解决此问题：
 
-右键单击 Windows 右下角托盘区域中的音频图标，然后选择“打开声音设置”。 在所打开窗口的“输出”部分中，单击“设备属性”。 然后单击“其他设备属性”，再导航到“高级”选项卡。 You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+右键单击 Windows 右下角托盘区域中的音频图标，然后选择“打开声音设置”。 在所打开窗口的“输出”部分中，单击“设备属性”。 然后单击“其他设备属性”，再导航到“高级”选项卡。 您可以在那里显示的菜单中更改采样频率。 确切的位置因 Windows 的版本而异。 如果找不到此选项，请在 Web 上搜索相关指南，了解如何更改您的 Windows 版本的声音设备采样频率。
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer headsets with THX
+### Razer 耳麦（已通过 THX 认证）
 
 Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
 
