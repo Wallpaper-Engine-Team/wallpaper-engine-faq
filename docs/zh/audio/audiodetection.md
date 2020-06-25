@@ -7,7 +7,7 @@
 
 如果选择了正确的音频设备，但您仍听不到任何音频，或者音频可视化工具无法正常工作，请确保您没有在 Windows 音量合成器中将 Wallpaper Engine 静音，也没有将其设置为非常安静的音量。 Windows 不区分音频录制和音频播放的音量。 这意味着，如果您在 Windows 中设置了较低的音量，那么音频录制也无法正常工作：
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![提高音量，并在 Windows 音量合成器中取消 Wallpaper Engine 静音](./audiomixer.png)
 
 如果检测到了音频，但音频过于安静，请记住（音乐播放器、Web 浏览器等）应用程序的音量会影响音频检测质量。 如果不想提高应用程序音量（默认录制音量值为 50），则可在 Wallpaper Engine 设置的“常规”选项卡中增强声音检测。
 
@@ -27,14 +27,14 @@ USB/无线耳麦很容易出现声音驱动程序问题。 对于许多设备来
 
 ## 3. 应用程序冲突
 
-如果您认为自己的音频设置正确，但音频响应壁纸对音频没有反应，则您很可能拥有可禁用整个 PC 上环回录制功能的声音硬件或软件。 It needs to be configured correctly or removed:
+如果您认为自己的音频设置正确，但音频响应壁纸对音频没有反应，则您很可能拥有能够禁用整个 PC 上环回录制功能的声音硬件或软件。 您需要正确配置或删除这些声音硬件或软件：
 
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* Various other applications, especially pre-installed ones on notebooks
+* 其他各种应用程序，尤其是笔记本电脑上预先安装的应用程序
 
-If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
+如果不确定是否安装了任何此类应用程序，您还可以使用 Wallpaper Engine 扫描工具，它将报告一些已知可导致这些问题的程序：
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Wallpaper Engine 扫描工具](/debug/scantool.html)
 
