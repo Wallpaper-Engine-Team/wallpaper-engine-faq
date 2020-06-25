@@ -27,7 +27,7 @@ USB/无线耳麦很容易出现声音驱动程序问题。 对于许多设备来
 
 ## 3. 应用程序冲突
 
-If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
+如果您认为自己的音频设置正确，但音频响应壁纸对音频没有反应，则您很可能拥有可禁用整个 PC 上环回录制功能的声音硬件或软件。 It needs to be configured correctly or removed:
 
 * Nahimic
 * Sonic Suite
