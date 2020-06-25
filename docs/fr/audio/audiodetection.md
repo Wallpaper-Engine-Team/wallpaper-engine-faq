@@ -1,4 +1,4 @@
-# Audio visualizers do not work / no sound detected
+# La visualisation audio ne fonctionne pas / Aucun son détecté
 
 There are multiple reasons why audio visualizers may not work. We are listing all known possible reasons here, please read the full guide to ensure you have not missed any of the possible reasons why it does not work.
 
