@@ -5,11 +5,11 @@
 ## 1. 音频设备设置
 请转到 Wallpaper Engine 设置，然后导航到“常规”选项卡。 您可以在该选项卡的中心位置找到“媒体”部分，然后在其中选择音频输入设备。 请确保选择了正确的设备。 如果不确定哪个设备正确，请在听音乐的同时尝试所有可能的设备，直到音频可视化工具开始工作。
 
-If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
+如果选择了正确的音频设备，但您仍听不到任何音频，或者音频可视化工具无法正常工作，请确保您没有在 Windows 音频混音器中将 Wallpaper Engine 静音，也没有将其设置为非常安静的音量。 Windows 不区分音频录制和音频播放的音量。 这意味着，如果您在 Windows 中设置了较低的音量，那么音频录制也无法正常工作：
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-If audio is detected but is too quiet, keep in mind that the application volume (of your music player, web browser, etc.) affects how well audio is detected. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+如果检测到了音频，但音频过于安静，请记住（音乐播放器、Web 浏览器等）应用程序的音量会影响音频检测质量。 You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
 
 ## 2. Hardware-specific issues
 
