@@ -21,9 +21,9 @@ USB/无线耳麦很容易出现声音驱动程序问题。 对于许多设备来
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer 耳麦（已通过 THX 认证）
+### Razer 耳麦（具有 THX 音效）
 
-Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
+将 Wallpaper Engine 中的音频输入更改为“扬声器 (Razer XYZ)”设备。 This option is in the general settings and any Razer headset with THX effects should work with this solution.
 
 ## 3. Conflicting applications
 
