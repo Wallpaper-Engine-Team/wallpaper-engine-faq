@@ -3,7 +3,7 @@
 音频可视化工具无法正常工作可能有多种原因。 我们在此处列出了所有已知的可能原因，请阅读完整指南，以确保充分了解可能导致其无法正常工作的所有原因。
 
 ## 1. 音频设备设置
-请转到 Wallpaper Engine 设置，然后导航到“常规”选项卡。 您可以在该选项卡的中心位置找到“媒体”部分，然后在其中选择音频输入设备。 请确保选择了正确的设备。 If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
+请转到 Wallpaper Engine 设置，然后导航到“常规”选项卡。 您可以在该选项卡的中心位置找到“媒体”部分，然后在其中选择音频输入设备。 请确保选择了正确的设备。 如果不确定哪个设备正确，请在听音乐的同时尝试所有可能的设备，直到音频可视化工具开始工作。
 
 If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
 
