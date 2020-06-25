@@ -9,15 +9,15 @@
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-如果检测到了音频，但音频过于安静，请记住（音乐播放器、Web 浏览器等）应用程序的音量会影响音频检测质量。 You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+如果检测到了音频，但音频过于安静，请记住（音乐播放器、Web 浏览器等）应用程序的音量会影响音频检测质量。 如果不想提高应用程序音量（默认录制音量值为 50），则可在 Wallpaper Engine 设置的“常规”选项卡中增强声音检测。
 
-## 2. Hardware-specific issues
+## 2. 硬件特定问题
 
-### Corsair Void Pro / Bluetooth / USB headsets
+### Corsair Void Pro/蓝牙/USB 耳麦
 
-USB / wireless headsets are prone to sound driver issues. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:
+USB/无线耳麦很容易出现声音驱动程序问题。 对于许多设备来说，将 Windows 设备设置中的音频采样率更改为“44100 Hz”可以永久解决此问题：
 
-Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+右键单击 Windows 右下角托盘区域中的音频图标，然后选择“打开声音设置”。 Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
