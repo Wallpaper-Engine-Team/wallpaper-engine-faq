@@ -4,5 +4,5 @@
 如果您的显卡的确支持 DirectX 10，却出现了此错误，请尝试重新安装最新的驱动程序（或更稳定的旧版驱动程序）。 从 PC 上删除可能阻止 Wallpaper Engine 访问显卡的侵入性安全软件。
 
 ## DuetDisplay 和其他显示扩展软件
-Display extension software like DuetDisplay installs a fake graphics card which is not capable of the same features as a real graphics card. This can also be the cause for Wallpaper Engine to show this error as Wallpaper Engine requires a real graphics card with DirectX 10 support. Display extension software like DuetDisplay is not compatible with Wallpaper Engine and must be turned off.
+DuetDisplay 等显示扩展软件会安装功能不同于真实显卡的虚设显卡。 This can also be the cause for Wallpaper Engine to show this error as Wallpaper Engine requires a real graphics card with DirectX 10 support. Display extension software like DuetDisplay is not compatible with Wallpaper Engine and must be turned off.
 
