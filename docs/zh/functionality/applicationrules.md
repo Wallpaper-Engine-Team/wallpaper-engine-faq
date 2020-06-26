@@ -26,9 +26,9 @@ tags:
 
 ![Application Rules Overview](./applicationrule.gif)
 
-此时将显示系统上所有正在运行的 .exe 文件的列表。 从列表中选择一个 .exe，或键入发生问题的 .exe 的确切名称。 You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+此时将显示系统上所有正在运行的 .exe 文件的列表。 从列表中选择一个 .exe，或键入发生问题的 .exe 的确切名称。 您可以使用另外两个选项配置条件和行为。 请参阅下文内容，以了解更多信息和具体示例。
 
-::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: 提示 Wallpaper Engine 仅在意确切的 .exe 名称，位置则无关紧要，因此您只需在*应用程序名称*字段中键入任意 .exe 即可。 Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
 
 ### Fixing performance problems with apps or games
 
