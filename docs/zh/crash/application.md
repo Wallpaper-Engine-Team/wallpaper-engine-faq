@@ -72,15 +72,15 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 ### MMDEvAPI.dll
 
-发生此类崩溃的原因是，系统上安装的音频软件已损坏。 这通常由“声音增强”软件导致，尤其是预先安装在各种笔记本电脑上的“声音增强”软件。 此类软件经常导致崩溃，因为它们以错误的方式与 Windows 交互，请尝试查找“Sonic Studio”或“Nahimic”，然后对其进行更新。 If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+发生此类崩溃的原因是，系统上安装的音频软件已损坏。 这通常由“声音增强”软件导致，尤其是预先安装在各种笔记本电脑上的“声音增强”软件。 此类软件经常导致崩溃，因为它们以错误的方式与 Windows 交互，请尝试查找“Sonic Studio”或“Nahimic”，然后对其进行更新。 如果找不到这些程序的更新，您也可以将其卸载，因为它们对于计算机音频的正常运行并不必要。
 
 ### fraps32.dll
 
-The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
+此类崩溃由 FPS 显示器和屏幕录制应用程序 Fraps 导致。 Fraps 应用程序自 2013 年起再未进行任何更新，已经严重过时。 请使用 Fraps 的替代应用程序，因为这是 Fraps 的一个错误，由于该软件已被放弃，此错误可能永远无法修复。
 
-## Crash error 0xc000007b
+## 崩溃错误 0xc000007b
 
-This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
+这意味着，有个 Windows 模块已被系统上的某些东西破坏 — 在这种情况下，DirectX 本身通常已经损坏。 请尝试手动删除以下文件：
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
