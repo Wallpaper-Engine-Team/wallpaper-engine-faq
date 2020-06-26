@@ -10,7 +10,7 @@ tags:
 
 * Wallpaper Engine 所需的硬件已损坏。
 * Wallpaper Engine 所需硬件的驱动程序有错误或已损坏。
-* Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
+* Wallpaper Engine 运行时，安装了干扰驱动程序或 Windows 的侵入性软件。
 
 Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
 
