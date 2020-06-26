@@ -5,9 +5,9 @@ tags:
   - 支持
 ---
 
-# Contact
+# 联系方式
 
-If you have a technical problem with Wallpaper Engine, please try and resolve it with the FAQ first. Most technical support tickets we received can be fixed with the FAQ.
+如果您在使用 Wallpaper Engine 时遇到技术问题，请先尝试通过常见问题解答予以解决。 我们收到的大多数技术支持工单均可通过常见问题解答得以解决。
 
 You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
 
