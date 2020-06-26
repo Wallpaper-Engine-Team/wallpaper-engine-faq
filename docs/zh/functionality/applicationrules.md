@@ -36,7 +36,7 @@ tags:
 
 ### 修复后台录制工具遇到的间歇性声音问题
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is playing audio** and **Wallpaper playback** to **Keep running**. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
+从列表中选择您希望具有特殊规则的程序的 .exe，或在**应用程序名称**字段中键入该 .exe 的名称。 然后，将**条件**设置为**播放音频时**，将**壁纸播放**设置为**保持运行**。 这意味着，当相关应用程序播放或录制音频时，Wallpaper Engine 不会自行静音。 Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
 
 ### Other behavior
 
