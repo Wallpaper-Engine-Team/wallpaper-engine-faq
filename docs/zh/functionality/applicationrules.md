@@ -24,7 +24,7 @@ tags:
 
 在 Wallpaper Engine 设置的*性能*选项卡中，单击*应用程序规则*标签旁边的*编辑*按钮，将显示您已设置的所有自定义规则的概览。 通过单击*创建新规则*，您可以针对特定应用程序，设置 Wallpaper Engine 的特殊行为。
 
-![Application Rules Overview](./applicationrule.gif)
+![应用程序规则概览](./applicationrule.gif)
 
 此时将显示系统上所有正在运行的 .exe 文件的列表。 从列表中选择一个 .exe，或键入发生问题的 .exe 的确切名称。 您可以使用另外两个选项配置条件和行为。 请参阅下文内容，以了解更多信息和具体示例。
 
@@ -42,4 +42,4 @@ tags:
 
 查看所有可能的条件和壁纸播放选项，了解更多类型的应用程序规则。 您还可以配置 Wallpaper Engine，使其在您启动特定应用程序时静音或暂停。
 
-::: 提示 您还可以在 Wallpaper Engine 设置的**性能**选项卡中，针对所有应用程序更改这些设置。 If you are having performance issues in multiple games, for example, it may make sense to just change the **Other applications fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
+::: 提示 您还可以在 Wallpaper Engine 设置的**性能**选项卡中，针对所有应用程序更改这些设置。 例如，如果您在多个游戏中遇到性能问题，合理的做法可能是，将**其他应用程序全屏时**选项更改为**停止（释放内存）**，这样 Wallpaper Engine 会在您启动任何游戏或全屏应用程序时自行关闭。 :::
