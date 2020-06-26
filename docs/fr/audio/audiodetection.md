@@ -17,22 +17,22 @@ Si l'audio est bien détecté, mais que le son n'est pas assez fort, n'oubliez p
 
 Les casques sans fil ou USB posent souvent des problèmes de drivers audio. Modifier la fréquence d'échantillonnage audio dans les paramètres de Windows à 44100 Hz peut résoudre définitivement le problème :
 
-Faites un clic droit sur l'icône du volume dans le coin inférieur droit de la barre des tâches et choisissez "Ouvrir les paramètres de son". Allez dans "Sortie", puis "Propriétés du périphérique". Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+Faites un clic droit sur l'icône du volume dans le coin inférieur droit de la barre des tâches et choisissez "Ouvrir les paramètres de son". Allez dans "Sortie", puis "Propriétés du périphérique". Cliquez sur "Propriétés des périphériques supplémentaires" et choisissez l'onglet "Statistiques avancées". Vous pourrez y définir le taux d'échantillonnage. Ce menu ne se trouve pas toujours au même endroit selon votre version de Windows. Si vous ne trouvez pas cette option, nous vous conseillez de chercher des tutoriels pour changer le taux d'échantillonnage selon votre version de Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer headsets with THX
+### Casques Razer avec THX
 
-Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
+Modifiez l'entrée audio dans Wallpaper Engine par "Haut-parleurs (Razer XYZ)". Cette option se trouve dans les paramètres généraux et cette solution devrait fonctionner avec tous les casques Razer disposant de THX.
 
-## 3. Conflicting applications
+## 3. Conflit entre les applications
 
-If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
+Si vous pensez que vos paramètres audio sont corrects, mais que les fonds d'écran sensibles à l'audio ne réagissent pas, vous utilisez probablement du matériel ou un logiciel audio qui désactive la fonction d'enregistrement en boucle sur votre PC. Vous devrez configurer ou désinstaller :
 
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* Various other applications, especially pre-installed ones on notebooks
+* De nombreux autres logiciels, notamment ceux installés d'office dans les ordinateurs portables
 
 If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
 
