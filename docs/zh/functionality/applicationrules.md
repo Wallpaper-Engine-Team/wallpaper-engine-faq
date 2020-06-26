@@ -1,22 +1,22 @@
 ---
 tags:
-  - application
-  - rules
-  - exception
-  - whitelist
-  - blacklist
-  - lags
-  - laggy
-  - game
-  - performance
-  - fps
-  - crash
-  - sound
-  - audio
-  - intermittent
+  - 应用程序
+  - 规则
+  - 例外
+  - 白名单
+  - 黑名单
+  - 滞后
+  - 延迟
+  - 游戏
+  - 性能
+  - 帧/秒
+  - 崩溃
+  - 声音
+  - 音频
+  - 间歇性
 ---
 
-# Fix issues with specific apps or games
+# 修复特定应用程序或游戏的问题
 
 If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
 
