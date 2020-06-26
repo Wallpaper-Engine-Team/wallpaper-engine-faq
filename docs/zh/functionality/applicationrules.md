@@ -18,7 +18,7 @@ tags:
 
 # 修复特定应用程序或游戏的问题
 
-If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
+如果遇到特定应用程序或游戏的问题，您可以对 Wallpaper Engine 进行配置，例如使其在检测到出现问题的应用程序已启动或正在播放音频时以某种方式行事。
 
 ## Setting up an application rule
 
