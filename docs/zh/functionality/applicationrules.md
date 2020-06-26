@@ -36,10 +36,10 @@ tags:
 
 ### 修复后台录制工具遇到的间歇性声音问题
 
-从列表中选择您希望具有特殊规则的程序的 .exe，或在**应用程序名称**字段中键入该 .exe 的名称。 然后，将**条件**设置为**播放音频时**，将**壁纸播放**设置为**保持运行**。 这意味着，当相关应用程序播放或录制音频时，Wallpaper Engine 不会自行静音。 Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
+从列表中选择您希望具有特殊规则的程序的 .exe，或在**应用程序名称**字段中键入该 .exe 的名称。 然后，将**条件**设置为**播放音频时**，将**壁纸播放**设置为**保持运行**。 这意味着，当相关应用程序播放或录制音频时，Wallpaper Engine 不会自行静音。 Windows 无法区分是在播放还是录制音频，因此，如果您在录制音频，Wallpaper Engine 会不断自行静音和取消静音。 许多游戏流应用程序可能会在您不知情的情况下意外执行此操作。
 
-### Other behavior
+### 其他行为
 
-Check out all possible conditions and wallpaper playback options for more types of application rules. You can also configure Wallpaper Engine to mute or pause when you launch a certain application.
+查看所有可能的条件和壁纸播放选项，了解更多类型的应用程序规则。 您还可以配置 Wallpaper Engine，使其在您启动特定应用程序时静音或暂停。
 
-::: tip You can also change these settings for all applications in the **Performance** tab of the Wallpaper Engine settings. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other applications fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
+::: 提示 您还可以在 Wallpaper Engine 设置的**性能**选项卡中，针对所有应用程序更改这些设置。 If you are having performance issues in multiple games, for example, it may make sense to just change the **Other applications fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
