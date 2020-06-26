@@ -34,7 +34,7 @@ Si vous pensez que vos paramètres audio sont corrects, mais que les fonds d'éc
 * Alienware Audio
 * De nombreux autres logiciels, notamment ceux installés d'office dans les ordinateurs portables
 
-If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
+Si vous ne savez pas si des logiciels de ce genre sont installés, vous pouvez également utiliser l'outil d'analyse de Wallpaper Engine. Il vous signalera si un programme est susceptible de poser problème :
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Outil d'analyse de Wallpaper Engine](/debug/scantool.html)
 
