@@ -1,11 +1,11 @@
 ---
 tags:
-  - hardware
+  - 硬件
   - bsod
-  - blue screen
+  - 蓝屏
 ---
 
-# System crash / System Freeze
+# 系统崩溃/系统冻结
 Wallpaper Engine alone cannot crash your system and it does not affect other programs. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
 
 * Hardware required by Wallpaper Engine is broken.
