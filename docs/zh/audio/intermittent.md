@@ -1,4 +1,4 @@
-# Sound / audio turns on and off intermittently
+# 声音/音频间歇性打开和关闭
 
 Windows does not differentiate between recording and playing audio, therefore it notifies Wallpaper Engine that another program is producing sound while it is actually recording your computer audio.
 
