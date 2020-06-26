@@ -11,7 +11,7 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 ::: 提示 我们从用户那里收到的崩溃报告几乎全都是由损坏的显卡驱动程序、防病毒应用程序或导致计算机不稳定的其他缺陷软件引起的。 :::
 
-## Wallpaper Engine Crash Quick Fix Attempt
+## Wallpaper Engine 崩溃快速修复尝试
 
 If you are unsure what is crashing Wallpaper Engine, please do a clean re-installation of your graphics card drivers. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
