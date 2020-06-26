@@ -28,13 +28,13 @@ tags:
 
 此时将显示系统上所有正在运行的 .exe 文件的列表。 从列表中选择一个 .exe，或键入发生问题的 .exe 的确切名称。 您可以使用另外两个选项配置条件和行为。 请参阅下文内容，以了解更多信息和具体示例。
 
-::: 提示 Wallpaper Engine 仅在意确切的 .exe 名称，位置则无关紧要，因此您只需在*应用程序名称*字段中键入任意 .exe 即可。 Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: 提示 Wallpaper Engine 仅在意确切的 .exe 名称，位置则无关紧要，因此您只需在*应用程序名称*字段中键入任意 .exe 即可。 请务必确保 .exe 名称完全匹配，包括大写和小写字母。 :::
 
-### Fixing performance problems with apps or games
+### 修复应用程序或游戏的性能问题
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+从列表中选择您希望具有特殊规则的程序的 .exe，或在**应用程序名称**字段中键入该 .exe 的名称。 然后，将**条件**设置为**运行时**，将**壁纸播放**设置为**停止（释放内存）**。 这意味着，Wallpaper Engine 将在应用程序或游戏启动时，完全移除内存中的所有壁纸，从而解决所有兼容性问题。
 
-### Fixing intermittent sound with background recording tools
+### 修复后台录制工具遇到的间歇性声音问题
 
 Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is playing audio** and **Wallpaper playback** to **Keep running**. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
 
