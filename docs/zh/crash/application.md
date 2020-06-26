@@ -53,26 +53,26 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: 提示 请注意： 请确保在设置过程中选中“执行全新安装”复选框，或者先手动卸载当前的驱动程序。 如果当前的驱动程序已损坏，请务必先将其完全清除。 :::
 
 ### nvwgf2umx.dll
 
-The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
+系统上的 Nvidia 驱动程序崩溃了。 请访问 Nvidia 网站，从那里下载最新的驱动程序并安装：
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: 提示 请注意： 请确保在设置过程中选中“执行全新安装”复选框，或者先手动卸载当前的驱动程序。 如果当前的驱动程序已损坏，请务必先将其完全清除。 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+系统上的 Intel Graphics 驱动程序崩溃了。 请访问 Intel 网站，从那里下载最新的驱动程序并安装：
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 
 ### MMDEvAPI.dll
 
-This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+发生此类崩溃的原因是，系统上安装的音频软件已损坏。 这通常由“声音增强”软件导致，尤其是预先安装在各种笔记本电脑上的“声音增强”软件。 此类软件经常导致崩溃，因为它们以错误的方式与 Windows 交互，请尝试查找“Sonic Studio”或“Nahimic”，然后对其进行更新。 If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
