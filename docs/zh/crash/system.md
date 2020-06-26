@@ -5,11 +5,11 @@ tags:
   - 蓝屏
 ---
 
-# 系统崩溃/系统冻结
-单单 Wallpaper Engine 不会导致系统崩溃，也不会影响其他程序。 If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
+# 系统崩溃/系统死机
+单单 Wallpaper Engine 不会导致系统崩溃，也不会影响其他程序。 如果运行 Wallpaper Engine 时遇到系统崩溃、系统死机、蓝屏或其他程序崩溃，原因可能是以下之一：
 
-* Hardware required by Wallpaper Engine is broken.
-* A driver for some hardware Wallpaper Engine needs is buggy or broken.
+* Wallpaper Engine 所需的硬件已损坏。
+* Wallpaper Engine 所需硬件的驱动程序有错误或已损坏。
 * Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
 
 Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
