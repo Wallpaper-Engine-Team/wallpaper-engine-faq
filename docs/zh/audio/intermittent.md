@@ -8,11 +8,11 @@ Windows 不区分音频录制和音频播放的音量，因此，Windows 会在�
 
 * 在桌面上关闭录制程序，或对其进行重新配置，以免其错误录制 Wallpaper Engine。
     * 对于许多用户而言，此问题是由 **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** 引起的，您可在 **Nvidia GeForce Experience** 设置中将其关闭。 对于 AMD 显卡用户，**AMD ReLive** 同样可能导致这些问题，而且它还是 AMD 显卡驱动程序的一部分。 如果不确定可能是什么程序在录制您的桌面，请先试着检查一下这点。
-    * 如果您不知道导致此问题的应用程序是什么，请检查 Windows 音量合成器，看看当前有哪些应用程序正在访问音频，这可能会有所帮助。 Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
-* If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
+    * 如果您不知道导致此问题的应用程序是什么，请检查 Windows 音量合成器，看看当前有哪些应用程序正在访问音频，这可能会有所帮助。 或者，关闭尽可能多的程序，将范围缩小到 Windows 任务管理器进程列表中的某些 .exe 文件。
+* 如果是特意在后台录音，或者如果找不到将其关闭的方法，您可以在 Wallpaper Engine 设置的“性能”选项卡中，设置*应用程序规则*。 将“条件”设置为“正在播放音频”，将“壁纸播放”设置为“保持运行”：
 
 ![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
 
-Replace some.exe with .exe files you can find in the task manager until you have narrowed it down to the responsible .exe.
+用可在任务管理器中找到的 .exe 文件替换某些 .exe，直到将范围缩小到应为问题负责的 .exe。
 
-* Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
+* 最后，您还可以将“正在播放音频的其他应用程序”选项更改为“保持运行”。 However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
