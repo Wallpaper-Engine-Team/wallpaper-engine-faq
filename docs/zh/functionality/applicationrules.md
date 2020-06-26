@@ -20,9 +20,9 @@ tags:
 
 如果遇到特定应用程序或游戏的问题，您可以对 Wallpaper Engine 进行配置，例如使其在检测到出现问题的应用程序已启动或正在播放音频时以某种方式行事。
 
-## Setting up an application rule
+## 设置应用程序规则
 
-In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+在 Wallpaper Engine 设置的*性能*选项卡中，单击*应用程序规则*标签旁边的*编辑*按钮，将显示您已设置的所有自定义规则的概览。 通过单击*创建新规则*，您可以针对特定应用程序，设置 Wallpaper Engine 的特殊行为。
 
 ![Application Rules Overview](./applicationrule.gif)
 
