@@ -17,7 +17,7 @@ Wallpaper Engine 不安装任何驱动程序，不替换系统文件，也不执
 即使在最糟糕的情况下，Wallpaper Engine 中的任何错误也只会导致其本身崩溃，而不会使整个系统或其他程序崩溃。 这是因为 Microsoft 对 Windows 的设计方式会避免系统或其他程序发生崩溃，Wallpaper Engine 也遵循了这一设计方式。
 
 ## 查找系统崩溃的原因
-Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
+Wallpaper Engine 需要 PC 提供以下功能：3D 加速、视频加速、音频。 您可以尝试使用不同的壁纸类型，分离出 PC 出现问题的地方。 例如，如果只有“视频”类型的壁纸遇到问题，则问题可能出在显卡的视频解码硬件上。 It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
 
 If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
 
