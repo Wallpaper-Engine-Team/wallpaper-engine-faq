@@ -99,6 +99,8 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 			children: [
 				locale + 'crash/application',
 				locale + 'crash/system',
+				locale + 'crash/dxsupport',
+				locale + 'crash/battleye',
 			]
 		},
 		{
