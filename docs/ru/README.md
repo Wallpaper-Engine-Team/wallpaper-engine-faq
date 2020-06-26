@@ -1,5 +1,5 @@
 # Типичные проблемы и часто задаваемые вопросы
-If you are having a technical problem or just a question about Wallpaper Engine, you will likely find an answer here. 95% of questions and problems we get asked are the same so it is likely that you will find your answer here.
+Если у вас возникла техническая проблема или появился вопрос касательно работы Wallpaper Engine, вы, скорее всего, найдете решения и ответы здесь. 95% запросов, которые мы получаем, одинаковые, поэтому вы с большой вероятностью сможете решить вашу проблему в этом разделе.
 
 **It's best if you use the search bar in the upper right corner** or simply look on the list of all articles on the left - we have tried to categorize them sensibly. We have also listed the most frequently accessed help articles below, check if your problem is in there.
 
