@@ -43,11 +43,11 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 这是 Windows Media Foundation 中发生的崩溃，可能由显卡驱动程序损坏导致，但更常见的原因是系统上的视频编解码器损坏或丢失。 请按照我们视频修复指南中的修复程序，来修复以下各类崩溃：
 
-[Click here](/noshow/notplaying.html)
+[单击此处](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+这种崩溃通常由 Windows 本身存在的问题导致。 请尝试重新安装最新版本的声卡驱动程序，因为这或许可以解决问题。 您还可以通过以下方法修复此类崩溃：在 Wallpaper Engine 设置的*性能*选项卡中，将*其他应用程序播放音频时*选项，更改为*保持运行*。
 
 ### atiumdag.dll / atiumd64.dll
 
