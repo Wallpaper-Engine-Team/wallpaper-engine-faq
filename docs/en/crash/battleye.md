@@ -24,4 +24,4 @@ If the steps above do not fix your issues with a BattlEye-powered multiplayer ga
 
 * [BattlEye Support](https://www.battleye.com/contact/)
 
-On some systems, BattlEye will terminate Wallpaper Engine for no apparent reason and this is not something we can prevent as BattlEye is a rather intrusive anti-cheat which is able to terminate any application on your computer without notifying you. In these cases, BattlEye will need to investigate the issue on your system as its a faulty behavior in their software.
+On some systems, BattlEye will terminate Wallpaper Engine for no apparent reason and this is not something we can prevent as BattlEye is a rather intrusive anti-cheat which is able to terminate any application on your computer without notifying you. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
