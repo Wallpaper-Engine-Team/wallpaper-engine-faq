@@ -3,7 +3,7 @@
 La visualisation audio peut ne pas fonctionner à cause de plusieurs raisons. Voici une liste de tous les facteurs qui pourraient être à la source de vos problèmes.
 
 ## 1. Configuration du périphérique audio
-Go to the Wallpaper Engine settings and navigate to the "General" tab. Towards the center you can find the "Media" section where you can select an audio input device. Make sure the correct device is selected. If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
+Allez dans les paramètres de Wallpaper Engine et trouvez l'onglet "Général". Vers le milieu, vous devriez trouver la section "Média" où vous pourrez choisir le périphérique audio. Assurez vous que le bon périphérique est connecté. Si vous ne savez pas quel périphérique est le bon, essayez-les tous en écoutant de la musique jusqu'à ce que la visualisation fonctionne.
 
 If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
 
