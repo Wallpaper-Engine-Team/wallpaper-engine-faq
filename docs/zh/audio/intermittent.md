@@ -1,6 +1,6 @@
 # 声音/音频间歇性打开和关闭
 
-Windows does not differentiate between recording and playing audio, therefore it notifies Wallpaper Engine that another program is producing sound while it is actually recording your computer audio.
+Windows 不区分音频录制和音频播放的音量，因此，Windows 会在其实际录制计算机音频时，通知 Wallpaper Engine 有另一个程序正在发出声音。
 
 Check the "Performance" tab of the Wallpaper Engine settings. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
 
