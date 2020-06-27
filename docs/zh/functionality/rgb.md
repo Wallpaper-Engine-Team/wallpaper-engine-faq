@@ -3,11 +3,11 @@ tags:
   - 硬件
 ---
 
-# RGB hardware support (iCUE & Chroma)
+# RGB 硬件支持 (iCUE & Chroma)
 
-Wallpaper Engine supports [**Razer Chroma**](https://www.razer.com/chroma) and [**Corsair iCUE**](https://www.corsair.com/icue), including systems which may integrate into either ecosystem.
+Wallpaper Engine 支持 [**Razer Chroma**](https://www.razer.com/chroma) 和 [**Corsair iCUE**](https://www.corsair.com/icue) 生态系统，包括可以集成到二者之一中的系统。
 
-## How do I enable / disable RGB hardware
+## 如何启用/禁用 RGB 硬件
 
 In the "Plugins" section of the Wallpaper Engine settings, you can find the **iCUE & Chroma SDK plugin**. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. You can also click on the cogwheel symbol next to it to further configure individual parts of it.
 
