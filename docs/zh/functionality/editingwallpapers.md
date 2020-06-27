@@ -26,15 +26,15 @@
 
 如想对自己以前丢失了项目文件的壁纸进行编辑，请参见下文*更新丢失的项目*部分，详细了解需要对 project.json 进行哪些更改，才能将更新推送到您现有的壁纸。
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: 警告 请注意 我们不为此工具提供官方支持，也不保证其可以正常工作。 如果您对这款解包工具有任何问题或疑问，请与原始创建者联系。 :::
 
-### Web wallpapers
+### Web 壁纸
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Web 壁纸基于 HTML 和 JavaScript。 您可以按照上文的说明访问源文件，然后将这些文件用作自己 Web 壁纸的基础。
 
-### Video wallpapers
+### 视频壁纸
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+视频壁纸为视频文件。 You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
 
 ### Application wallpapers
 
