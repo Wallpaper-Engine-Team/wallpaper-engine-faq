@@ -17,4 +17,4 @@
 5. 双击注册表项，为其指定以下值：*1*
 6. 重新启动 Wallpaper Engine，该应用程序此时将不会显示托盘图标。
 
-You can reverse this process by setting *hideTrayIcon* to *0* or deleting it altogether, followed by restarting Wallpaper Engine. 
+通过将 *hideTrayIcon* 设置为 *0* 或将其完全删除，然后重新启动Wallpaper Engine，您可以显示托盘图标。 
