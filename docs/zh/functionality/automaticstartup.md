@@ -32,4 +32,4 @@ tags:
 
  ## Wallpaper Engine 在系统启动时分配了错误的壁纸
 
- This is the same problem as in the previous section, if you have multiple monitors and the wallpapers are being assigned to the wrong monitor at start-up, try changing the *Monitor identification* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*.
+ 此问题与上一节的问题相同，都是在具有多台显示器的情况下，在启动时将壁纸分配给了错误的显示器。请尝试在 Wallpaper Engine 设置的*常规*选项卡中，将*显示器标识*选项更改为*布局*或 *GDI*。
