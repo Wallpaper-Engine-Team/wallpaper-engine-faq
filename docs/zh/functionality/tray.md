@@ -13,8 +13,8 @@
 1. 转到以下注册表目录：*HKEY_CURRENT_USER\Software\WallpaperEngine*
 2. 右键单击 *WallpaperEngine* 注册表文件夹，选择*新建*，然后选择 *DWORD（32 位）值*。
 3. 为注册表指定以下名称：*hideTrayIcon*
-4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
-5. Double-click on the registry key and give it the value: *1*
-6. Restart Wallpaper Engine, the application will now not show a tray icon.
+4. 请确保名称正确无误，名称不能包含空格，而且书写方式必须与上文完全相同。
+5. 双击注册表项，为其指定以下值：*1*
+6. 重新启动 Wallpaper Engine，该应用程序此时将不会显示托盘图标。
 
 You can reverse this process by setting *hideTrayIcon* to *0* or deleting it altogether, followed by restarting Wallpaper Engine. 
