@@ -14,9 +14,9 @@
 
 ### 场景壁纸
 
-场景壁纸会打包到一个 .pkg 文件中，因为该文件缺少所有项目相关数据，所以不可直接编辑。 尝试打开 .pkg 文件将显示错误消息“壁纸包无法打开”。 An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+场景壁纸会打包到一个 .pkg 文件中，因为该文件缺少所有项目相关数据，所以不可直接编辑。 尝试打开 .pkg 文件将显示错误消息“壁纸包无法打开”。 打个比方，.jpeg 图像文件也不附带 Photoshop 项目数据 — 这些数据始终留在原作者的系统上。
 
-#### Unofficial Community Scene Unpacker
+#### 非官方社区场景解包器
 
 However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
 
