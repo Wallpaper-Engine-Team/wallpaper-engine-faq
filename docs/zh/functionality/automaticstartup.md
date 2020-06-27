@@ -24,11 +24,11 @@ tags:
 
 另一个罕见的原因可能是，如果您（或系统上的应用程序）将 Wallpaper Engine 的 .exe 文件设置为仅以管理员身份运行，那么它也无法自动启动，您需要删除管理员设置，关闭自动启动功能，然后再将其重新打开。
 
-If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
+如果自动启动无法正常工作，原因实际总是与过于尽职的防病毒软件有关。 如果安装了防病毒或防火墙应用程序，请仔细检查其所有设置和安全级别。
 
-## Wallpaper Engine starts with Windows but (some) wallpapers are not shown
+## Wallpaper Engine 与 Windows 一起启动，但（有些）壁纸不显示
 
- Check if the Wallpaper Engine icon is visible in the Windows tray next to the clock after you start your computer. If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
+ 启动计算机后，检查时钟旁边的 Windows 托盘中是否显示 Wallpaper Engine 图标。 If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
 
  ## Wallpaper Engine assigns wrong wallpapers at system start-up
 
