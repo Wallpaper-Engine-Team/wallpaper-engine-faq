@@ -2,7 +2,7 @@
 
 您可以手动创建注册表项，让 Wallpaper Engine 隐藏位于 Windows 时钟旁边的托盘图标。
 
-::: warning We do not recommend to do this unless you are absolutely sure that the tray icon is annoying you so much that you are willing to accept the downsides of hiding the tray icon. :::
+::: 警告 我们不建议您执行此操作，除非您完全确定托盘图标给您造成极大的烦扰，以至于您愿意接受隐藏托盘图标的弊端。 :::
 
 Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
 
