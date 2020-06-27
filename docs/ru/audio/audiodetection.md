@@ -17,7 +17,7 @@
 
 USB / беспроводные гарнитуры склонны к проблемам драйвера звука. Для многих устройств изменения звуковой частоты дискретизации в настройках устройств Windows до 44100Гц сразу исправляет проблему:
 
-Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+ПКМ по иконке аудио на панели задач в правом углу панели, затем выберите «Открыть настройки звука», либо через Панель управления - Звук. Выберите устройство, затем нажмите на кнопку «Свойства», откроется окно. Перейдите на вкладку "Дополнительно". Замените частоту дискретизации на рекомендованную нами. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
