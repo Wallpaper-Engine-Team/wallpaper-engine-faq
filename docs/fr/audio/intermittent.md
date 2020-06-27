@@ -11,7 +11,7 @@ Pour régler ce problème, voilà trois choses à faire :
     * Si vous ne savez pas quels logiciels sont en cause, vérifier le mélangeur de volume Windows. Vous pourrez y voir quels logiciels ont actuellement accès au son de votre ordinateur. Vous pouvez également fermer autant de programmes que possible et vérifier ainsi certains .exe de la liste des processus du gestionnaire de tâches Windows.
 * Si l'enregistrement audio en arrière-plan est intentionnel ou si vous ne trouvez pas un moyen de le désactiver, vous pouvez configurer une *règle d'application* dans la section "Performances" des paramètres de Wallpaper Engine. Paramétrez "Condition" sur "Lit un fichier audio" et "Lecture du fond d'écran" sur "Continuer d’exécuter" :
 
-![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
+![Les Règles de l'application se trouvent dans la section "Performances" des paramètres de Wallpaper Engine](./applicationrule.png)
 
 Remplacez certains fichiers .exe par des fichiers .exe que vous pouvez trouver dans le gestionnaire de tâches jusqu'à ce que vous trouviez le coupable.
 
