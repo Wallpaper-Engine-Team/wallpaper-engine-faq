@@ -1,4 +1,4 @@
-# Restoring deleted default wallpapers
+# 恢复已删除的默认壁纸
 
 If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
 
