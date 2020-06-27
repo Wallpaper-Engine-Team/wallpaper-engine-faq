@@ -1,18 +1,18 @@
-# Sound / audio turns on and off intermittently
+# Le son s'allume et s'éteint par intermittence
 
-Windows does not differentiate between recording and playing audio, therefore it notifies Wallpaper Engine that another program is producing sound while it is actually recording your computer audio.
+Windows ne fait pas de différence entre l'enregistrement et la lecture, il informe donc Wallpaper Engine qu'un autre programme produit du son alors qu'il enregistre en réalité l'audio de votre ordinateur.
 
-Check the "Performance" tab of the Wallpaper Engine settings. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
+Allez dans la section "Performances" des paramètres de Wallpaper Engine. Si vous avez l'option *"Une autre application émet du son"* réglée sur *"Muet"* et que vous remarquez que le son de Wallpaper Engine continue de s'allumer et de s'éteindre, vous avez probablement un programme en arrière-plan enregistrant votre écran et le son.
 
-To solve this do any of these three things:
+Pour régler ce problème, voilà trois choses à faire :
 
-* Turn off the recording program on your desktop or reconfigure it to not record Wallpaper Engine by mistake.
-    * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
-    * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
-* If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
+* Désactivez le programme d'enregistrement ou reconfigurez-le pour qu'il n'enregistre pas Wallpaper Engine.
+    * Ce problème vient souvent de **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay**. Vous pouvez désactiver ces programmes dans les paramètres de **Nvidia GeForce Experience**. Pour les cartes graphiques AMD, **AMD ReLive** peut également poser problèmes. Il fait partie des drivers des cartes graphiques d'AMD. Si vous ne savez pas ce qui pourrait être en train d'enregistrer, ces logiciels sont de bonnes pistes.
+    * Si vous ne savez pas quels logiciels sont en cause, vérifier le mélangeur de volume Windows. Vous pourrez y voir quels logiciels ont actuellement accès au son de votre ordinateur. Vous pouvez également fermer autant de programmes que possible et vérifier ainsi certains .exe de la liste des processus du gestionnaire de tâches Windows.
+* Si l'enregistrement audio en arrière-plan est intentionnel ou si vous ne trouvez pas un moyen de le désactiver, vous pouvez configurer une *règle d'application* dans la section "Performances" des paramètres de Wallpaper Engine. Paramétrez "Condition" sur "Lit un fichier audio" et "Lecture du fond d'écran" sur "Continuer d’exécuter" :
 
 ![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
 
-Replace some.exe with .exe files you can find in the task manager until you have narrowed it down to the responsible .exe.
+Remplacez certains fichiers .exe par des fichiers .exe que vous pouvez trouver dans le gestionnaire de tâches jusqu'à ce que vous trouviez le coupable.
 
-* Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
+* Vous pouvez également paramétrer l'option "Autre application lisant un fichier audio" sur "Continuer d’exécuter". Cependant, cela signifie que Wallpaper Engine ne coupera pas automatiquement le son de votre fond d'écran lorsque vous écouterez de la musique ou regarderez des vidéos qui ne sont pas en plein écran.
