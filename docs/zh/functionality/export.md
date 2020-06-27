@@ -8,8 +8,8 @@
 
 * [OBS Studio](https://obsproject.com/)（更多高级功能）
 
-#### Getting a clear shot of your wallpapers
+#### 查看清晰的壁纸
 
-You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+在“已安装”选项卡中，右键单击壁纸，然后单击“窗口内播放”，这将打开一个包含壁纸的窗口，让您轻松查看清晰的壁纸并调整壁纸大小。 这使您无需隐藏桌面图标和其他 Windows 元素，并能够调整窗口大小，以获取“导出”所需的大小和宽高比：
 
-![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
+![右键单击壁纸，然后选择"窗口内播放"](./playinwindow.gif)
