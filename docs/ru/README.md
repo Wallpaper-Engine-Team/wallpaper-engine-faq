@@ -1,9 +1,9 @@
-# Типичные проблемы и часто задаваемые вопросы
+# Wallpaper Engine: Инструкция по решению проблем и ЧаВо
 Если у вас возникла техническая проблема или появился вопрос касательно работы Wallpaper Engine, вы, скорее всего, найдете решения и ответы здесь. 95% запросов, которые мы получаем, одинаковые, поэтому вы с большой вероятностью сможете решить вашу проблему в этом разделе.
 
-**It's best if you use the search bar in the upper right corner** or simply look on the list of all articles on the left - we have tried to categorize them sensibly. We have also listed the most frequently accessed help articles below, check if your problem is in there.
+**Лучше всего будет, если вы используете панель поиска в верхнем правом углу** или просто посмотреть на список всех статей слева - мы попытались классифицировать их благоразумно. Мы также перечислили наиболее часто используемые справочные статьи ниже, проверьте, есть ли ваша проблема там.
 
-::: tip Use the search bar in the upper right corner with single keywords. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black". :::
+::: Подсказка Используйте панель поиска в правом верхнем углу для поиска отдельных ключевых слов. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black". :::
 
 ## Most popular support articles
 
