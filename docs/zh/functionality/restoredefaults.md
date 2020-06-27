@@ -12,4 +12,4 @@
 
 3. 删除该文件后，再次启动 Wallpaper Engine，所有默认壁纸均将还原。
 
-::: 提示 如果您出于某种原因找不到“visibility.json”文件，还可以随时重新安装 Wallpaper Engine。 This will also restore all default wallpapers but will require you to re-download all wallpapers which you can avoid by following the steps above. :::
+::: 提示 如果您出于某种原因找不到“visibility.json”文件，还可以随时重新安装 Wallpaper Engine。 这也将还原所有默认壁纸，但您需要重新下载所有壁纸，而按照上述步骤操作则无需重新下载壁纸。 :::
