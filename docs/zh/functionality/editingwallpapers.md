@@ -42,7 +42,7 @@ Web 壁纸基于 HTML 和 JavaScript。 您可以按照上文的说明访问源�
 
 ## 更新丢失的项目
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+如果删除了自己的项目，您仍然可以覆盖它，但是视乎您发布的壁纸类型，您可能无法再对其进行编辑。 照例创建一张新壁纸，通过“编辑”>“在资源管理器中打开”来打开其项目目录。 使用文本编辑器打开 `project.json` 文件，将显示与以下类似的内容：
 
 ```json
 {
