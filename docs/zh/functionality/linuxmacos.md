@@ -8,6 +8,6 @@ Wallpaper Engine 目前仅适用于 Windows，近期也没有支持其他平台�
 
 尽管从理论上讲所有这些都是可行的，但事实很简单，目前添加对 Linux 或 Mac 操作系统的支持在经济上并不可行。 如果查看 [Steam 硬件调查](https://store.steampowered.com/hwsurvey)，您会发现只有不到 1% 的 Steam 用户使用 Linux。 而就这些用户还要进一步细分到 Linux 的各个发行版（主要是 Ubuntu，而其用户数量仅占 Steam 用户总数的 0.25%）。
 
-As explained above, the time needed to port Wallpaper Engine to another operating system is immense and it will also increase the costs of on-going maintenance work significantly, while the possible user group benefiting of this is comparatively tiny. We would much rather focus our time and energy on improving the Windows version for over 96% of Steam users.
+如上所述，将 Wallpaper Engine 移植到其他操作系统，不但需要花费大量时间，还会显著增加持续维护工作的成本，而可能从中受益的用户群体相对较小。 我们宁愿将时间和精力集中在为超过 96% 的 Steam 用户改进 Windows 版本上。
 
 However, we are keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable. 
