@@ -6,7 +6,7 @@
 
 托盘图标隐藏后，关闭 Wallpaper Engine 的唯一方法是通过 Windows 任务管理器结束任务。 您将只能通过 Steam 或 .exe 文件打开用户界面，这非常不便，而且令人困惑。
 
-If you still want to proceed with hiding the tray icon, this is how you do it:
+如果您仍想继续隐藏托盘图标，请按照以下说明操作：
 
 In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
 
