@@ -4,11 +4,11 @@
 
 1. 完全关闭 Wallpaper Engine（右键单击托盘中的 Wallpaper Engine ->“退出”）
 
-2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
+2. 转到 Wallpaper Engine 目录，然后删除一个名为“visibility.json”的文件。 默认情况下，该文件可在以下路径找到：
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
-If your Steam or Wallpaper Engine are installed in a different place / directory, the directory will be slightly different, but *wallpaper_engine\projects\defaultprojects\visibility.json* sub-directory is always the same.
+如果您的 Steam 或 Wallpaper Engine 安装在不同的位置/目录中，则目录将稍有不同，但子目录 *wallpaper_engine\projects\defaultprojects\visibility.json* 始终不变。
 
 3. Once the file is deleted, start Wallpaper Engine again, you will have all default wallpapers back.
 
