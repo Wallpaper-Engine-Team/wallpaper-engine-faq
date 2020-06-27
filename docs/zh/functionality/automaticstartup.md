@@ -8,17 +8,17 @@ tags:
 
 您可以通过以下方法，让 Wallpaper Engine 在开机时启动：转到 Wallpaper Engine 设置，然后导航到“常规”选项卡。 您可以启用顶部的自动启动选项，这会使该应用程序在系统每次启动时于后台安静地启动。
 
-## What is the difference between "high-priority" and the "normal" start-up option?
+## “高优先级”和“正常”启动选项之间有什么区别？
 
-When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+如果选择高优先级选项，Wallpaper Engine 将注册 Windows 服务。 这意味着，Wallpaper Engine 的启动将早于已配置为 Windows 启动时自动启动的其他程序。 此选项不会以任何其他方式影响该应用程序的性能。
 
-The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
+使用这个高优先级选项的弊端是可靠性较差，这主要是因为某些防病毒软件会反应过度，阻止 Wallpaper Engine 在这种模式下启动，因为它们误认为这属于恶意行为。
 
-## I have enabled the automatic startup but it is not working, what can I do?
+## 自动启动功能启用后无法正常工作，该怎么办？
 
-If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
+如果使用了*高优先级*选项，请尝试禁用高优先级选项，以切换到*正常*自动启动。 如上所述，高优先级模式的启动速度较快，但由于各种原因，其可靠性较差，这主要是因为该模式有时会被防病毒软件阻止。
 
-If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
+如果使用了普通优先级选项，而该应用程序未与 Windows 一起启动，请尝试将该选项更改为高优先级，然后查看问题是否消失。
 
 If neither the high-priority or normal-priority option work for you, check the antivirus software you have installed on your system. Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
 
