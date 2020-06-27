@@ -15,9 +15,9 @@
 
 ![Enable "Allow the computer to sleep"](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## “Web”类型墙纸的休眠问题
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+“Web”壁纸使用类似于 Google Chrome 的网络浏览器（“CEF”），因而会阻止休眠模式。 Until this is fixed in the browser, you can get around this with some command-line prompts.
 
 1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
 2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
