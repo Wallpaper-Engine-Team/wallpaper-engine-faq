@@ -6,11 +6,11 @@
 
 如有任何活动音频流处于打开状态，Windows 就不会进入休眠。 要解决此问题，您可以在 Wallpaper Engine 设置的“常规”选项卡中禁用音频输出，或者重新配置 Windows，使其可在启用了音频播放的情况下进入睡眠状态：
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
+1. 通过在 Windows 搜索中键入名称，转到 Windows 的“电源和睡眠设置”。
+2. 单击“其他电源设置”
+3. 单击所选计划旁边的“更改计划设置”
+4. 单击“更改高级电源设置”
+5. 向下滚动并展开“多媒体设置”
 6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
 
 ![Enable "Allow the computer to sleep"](./power.gif)
