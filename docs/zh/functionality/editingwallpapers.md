@@ -1,18 +1,18 @@
 # 编辑下载的壁纸
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+一般来说，Wallpaper Engine 本身并不支持编辑所下载壁纸的功能。 但视乎壁纸的类型（类型可在右侧预览图像的下方找到），您通常可以借助第三方应用程序编辑壁纸。
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+请始终牢记，您可能需要获得原作者的授权，才能重新发布其作品。 如有疑问，请在将作品发布到 Steam 创意工坊之前与原作者联系。
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## 如何找到壁纸的源文件？
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+右键单击“已安装”选项卡中的壁纸，然后选择“在资源管理器中打开”。
 
-## How to edit wallpapers of different types
+## 如何编辑不同类型的壁纸
 
-### Scene wallpapers
+### 场景壁纸
 
 Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
