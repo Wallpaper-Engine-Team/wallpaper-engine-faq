@@ -11,8 +11,8 @@
 要创建注册表项，请打开 Windows 开始菜单，然后键入“regedit.exe”，这将打开“注册表编辑器”。
 
 1. 转到以下注册表目录：*HKEY_CURRENT_USER\Software\WallpaperEngine*
-2. Right-click on the *WallpaperEngine* registry folder, select *New* and then *DWORD (32 Bit) Value*.
-3. Give the registry the following name: *hideTrayIcon*
+2. 右键单击 *WallpaperEngine* 注册表文件夹，选择*新建*，然后选择 *DWORD（32 位）值*。
+3. 为注册表指定以下名称：*hideTrayIcon*
 4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
 5. Double-click on the registry key and give it the value: *1*
 6. Restart Wallpaper Engine, the application will now not show a tray icon.
