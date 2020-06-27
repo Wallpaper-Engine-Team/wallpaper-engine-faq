@@ -1,8 +1,8 @@
 # 恢复已删除的默认壁纸
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+如果删除了 Wallpaper Engine 预先安装的壁纸，您可以通过删除 *wallpaper_engine* 安装目录中的配置文件将其恢复：
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. 完全关闭 Wallpaper Engine（右键单击托盘中的 Wallpaper Engine ->“退出”）
 
 2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
 
