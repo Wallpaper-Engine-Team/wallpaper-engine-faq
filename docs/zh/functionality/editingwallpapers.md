@@ -16,13 +16,13 @@
 
 场景壁纸会打包到一个 .pkg 文件中，因为该文件缺少所有项目相关数据，所以不可直接编辑。 尝试打开 .pkg 文件将显示错误消息“壁纸包无法打开”。 打个比方，.jpeg 图像文件也不附带 Photoshop 项目数据 — 这些数据始终留在原作者的系统上。
 
-#### 非官方社区场景解包器
+#### 非官方社区场景解包工具
 
 但是，社区成员创建了一款非官方场景壁纸解包工具，可让您解包场景文件，并将其用作自己壁纸的起点。 请访问以下网站，了解更多信息：
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+您还需要一个有效的 project.json 文件，创建方法如下：在编辑器中创建新的空白壁纸，关闭 Wallpaper Engine，对下载的壁纸进行解包，然后将其内容复制粘贴到新的项目目录中。
 
 If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
 
