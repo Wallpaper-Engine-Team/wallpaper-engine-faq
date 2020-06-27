@@ -84,6 +84,6 @@ Web 壁纸基于 HTML 和 JavaScript。 您可以按照上文的说明访问源�
     [...]
 ```
 
-**将数字 12345678 替换为您的提交的 ID！ You can find this ID in the URL of your existing upload:**
+**将数字 12345678 替换为您的提交的 ID！ 您可以在现有上传的 URL 中找到此 ID：**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
