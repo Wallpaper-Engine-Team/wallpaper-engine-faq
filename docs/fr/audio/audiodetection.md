@@ -19,7 +19,7 @@ Les casques sans fil ou USB posent souvent des problèmes de drivers audio. Modi
 
 Faites un clic droit sur l'icône du volume dans le coin inférieur droit de la barre des tâches et choisissez "Ouvrir les paramètres de son". Allez dans "Sortie", puis "Propriétés du périphérique". Cliquez sur "Propriétés des périphériques supplémentaires" et choisissez l'onglet "Statistiques avancées". Vous pourrez y définir le taux d'échantillonnage. Ce menu ne se trouve pas toujours au même endroit selon votre version de Windows. Si vous ne trouvez pas cette option, nous vous conseillez de chercher des tutoriels pour changer le taux d'échantillonnage selon votre version de Windows.
 
-![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
+![Mettre le taux d'échantillonnage sur "24 bits, 44100 Hz"](./samplingrate.png)
 
 ### Casques Razer avec THX
 
