@@ -7,7 +7,7 @@ Allez dans les paramètres de Wallpaper Engine et trouvez l'onglet "Général". 
 
 Si le bon périphérique audio est sélectionné, mais que vous n'entendez toujours aucun son ou si vos visualiseurs audio ne fonctionnent pas, assurez-vous de ne pas avoir mis Wallpaper Engine en muet dans le mélangeur de volume de Windows ou de ne pas avoir mis le son trop bas. Windows ne fait pas la différence entre le volume d'enregistrement et le volume de lecture. Cela veut dire que si vous avez choisi un volume faible avec Windows, les enregistrements audio ne fonctionneront pas non plus :
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![Augmenter le volume rétablir l'audio de Wallpaper Engine dans le mélangeur de volume Windows](./audiomixer.png)
 
 Si l'audio est bien détecté, mais que le son n'est pas assez fort, n'oubliez pas que le volume des logiciels (votre lecteur de musique, votre navigateur, etc.) joue sur la détection du son. Si vous ne souhaitez pas augmenter le volume de l'application, vous pouvez améliorer la détection du son dans le menu "Général" des paramètres de Wallpaper Engine (le volume d'enregistrement par défaut est de 50).
 
