@@ -1,6 +1,6 @@
 ---
 tags:
-  - hardware
+  - 硬件
 ---
 
 # RGB hardware support (iCUE & Chroma)
