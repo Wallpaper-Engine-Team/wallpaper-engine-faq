@@ -8,7 +8,7 @@ tags:
 
 您可以通过以下方法，让 Wallpaper Engine 在开机时启动：转到 Wallpaper Engine 设置，然后导航到“常规”选项卡。 您可以启用顶部的自动启动选项，这会使该应用程序在系统每次启动时于后台安静地启动。
 
-## “高优先级”和“正常”启动选项之间有什么区别？
+## “高优先级”和“普通”启动选项之间有什么区别？
 
 如果选择高优先级选项，Wallpaper Engine 将注册 Windows 服务。 这意味着，Wallpaper Engine 的启动将早于已配置为 Windows 启动时自动启动的其他程序。 此选项不会以任何其他方式影响该应用程序的性能。
 
@@ -16,13 +16,13 @@ tags:
 
 ## 自动启动功能启用后无法正常工作，该怎么办？
 
-如果使用了*高优先级*选项，请尝试禁用高优先级选项，以切换到*正常*自动启动。 如上所述，高优先级模式的启动速度较快，但由于各种原因，其可靠性较差，这主要是因为该模式有时会被防病毒软件阻止。
+如果使用了*高优先级*选项，请尝试禁用高优先级选项，以切换到*普通*自动启动。 如上所述，高优先级模式的启动速度较快，但由于各种原因，其可靠性较差，这主要是因为该模式有时会被防病毒软件阻止。
 
 如果使用了普通优先级选项，而该应用程序未与 Windows 一起启动，请尝试将该选项更改为高优先级，然后查看问题是否消失。
 
-If neither the high-priority or normal-priority option work for you, check the antivirus software you have installed on your system. Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
+如果高优先级或普通优先级选项都不起作用，请检查系统上安装的防病毒软件。 某些防病毒和防火墙应用程序有时会阻止 Wallpaper Engine 在开机时自动启动。 您的防病毒软件可能具有允许忽略某些文件夹或应用程序的“白名单”功能，请务必将 wallpaper_engine 安装目录和其中的所有可执行文件列入白名单。
 
-Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
+另一个罕见的原因可能是，如果您（或系统上的应用程序）将 Wallpaper Engine 的 .exe 文件设置为仅以管理员身份运行，那么它也无法自动启动，您需要删除管理员设置，关闭自动启动功能，然后再将其重新打开。
 
 If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
 
