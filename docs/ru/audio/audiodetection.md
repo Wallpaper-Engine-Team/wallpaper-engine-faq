@@ -34,7 +34,7 @@ USB / беспроводные гарнитуры склонны к пробле
 * Alienware Audio
 * Различные другие приложения, особенно предустановленные на ноутбуках
 
-If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
+Если вы не знаете, установлены ли у вас какие-либо такие приложения, вы можете также использовать инструмент сканирования Wallpaper Engine и он сообщит о программах, которые, как известно, вызывают эти проблемы:
 
 * [Wallpaper Engine Scan Tool](/debug/scantool.html)
 
