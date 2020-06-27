@@ -2,11 +2,11 @@
 
 在 Wallpaper Engine 编辑器中制作的壁纸，更像是计算机游戏中的关卡而非视频文件。 它们没有明确定义的开始或结束，而且包含随机性元素。 就像您无法将计算机游戏导出为视频文件一样，您同样无法将壁纸导出为视频或 GIF。
 
-However, you can create a recording of your wallpapers and manually try to create a perfect loop if the elements in your wallpaper allow for that. For this purpose, we recommend free tools like *ScreenToGif* or *OBS Studio*:
+但您可以创建壁纸录制，并在壁纸元素允许的情况下，尝试手动创建完美循环。 为此，我们建议使用 *ScreenToGif* 或 *OBS Studio* 等免费工具：
 
-* [ScreenToGif](https://www.screentogif.com/) (Easy to use)
+* [ScreenToGif](https://www.screentogif.com/)（易于使用）
 
-* [OBS Studio](https://obsproject.com/) (More advanced features)
+* [OBS Studio](https://obsproject.com/)（更多高级功能）
 
 #### Getting a clear shot of your wallpapers
 
