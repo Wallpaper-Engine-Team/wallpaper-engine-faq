@@ -34,13 +34,13 @@ Web 壁纸基于 HTML 和 JavaScript。 您可以按照上文的说明访问源�
 
 ### 视频壁纸
 
-视频壁纸为视频文件。 You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+视频壁纸为视频文件。 您可以按照上文的说明找到视频文件，然后使用您选择的第三方视频编辑应用程序来修改视频。
 
-### Application wallpapers
+### 应用程序壁纸
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+一般来说，应用程序壁纸无法编辑。 应用程序壁纸通常为经过编译的程序，这意味着您无权访问源代码。 如果确实想更改应用程序壁纸，请尝试与壁纸的作者联系，看看他们是否愿意提供帮助。
 
-## Updating a lost project
+## 更新丢失的项目
 
 If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
 
