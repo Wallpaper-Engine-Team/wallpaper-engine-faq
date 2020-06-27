@@ -8,9 +8,9 @@
 
 如果您仍想继续隐藏托盘图标，请按照以下说明操作：
 
-In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
+要创建注册表项，请打开 Windows 开始菜单，然后键入“regedit.exe”，这将打开“注册表编辑器”。
 
-1. Go to the following registry directory: *HKEY_CURRENT_USER\Software\WallpaperEngine*
+1. 转到以下注册表目录：*HKEY_CURRENT_USER\Software\WallpaperEngine*
 2. Right-click on the *WallpaperEngine* registry folder, select *New* and then *DWORD (32 Bit) Value*.
 3. Give the registry the following name: *hideTrayIcon*
 4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
