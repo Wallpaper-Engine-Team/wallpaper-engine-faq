@@ -2,9 +2,9 @@
 
 64 位版本可处理更大的文件（大于 2GB），但无论壁纸文件大小如何，它都始终占用更多内存。 例如，对于普通视频壁纸，与 32 位版本相比，64 位版本可能使用大约 50 MB 以上的 RAM，此外没有任何区别或改进。
 
-::: tip We recommend you stick to the 32-bit version unless you have huge wallpapers that would make the 32-bit version crash. The large majority of users never encounter this problem. :::
+::: 提示 我们建议您坚持使用 32 位版本，除非您的壁纸非常大，会使 32 位版本崩溃。 绝大多数用户从未遇到此问题。 :::
 
-You may also opt for the 64-bit version when the video system on your PC has errors that only affect 32-bit programs. Should you ever have installed codec packs or alike, they may have permanently damaged the 32-bit Windows video system that Wallpaper Engine uses. If the 64-bit system is not affected, you'll be able to take advantage of that by using the 64-bit version of Wallpaper Engine and so you can avoid having to fix whatever got broken.
+如果 PC 上的视频系统出现仅影响 32 位程序的错误，您也可以选择 64 位版本。 如果您曾经安装过编解码器包或类似程序，它们可能已经永久损坏了 Wallpaper Engine 使用的 32 位 Windows 视频系统。 如果 64 位系统不受影响，您可以使用 64 位版本的 Wallpaper Engine，这样就不必修复任何损坏的内容了。
 
 ::: warning Note Note that "Web" type wallpapers will always be executed with a 32-Bit executable (webwallpaper32.exe). The same applies to the user interface itself (ui32.exe). 64-Bit only applies when selecting wallpapers of the type "Scene" or "Video". :::
 
