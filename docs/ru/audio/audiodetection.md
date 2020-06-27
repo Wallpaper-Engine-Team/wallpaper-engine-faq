@@ -7,7 +7,7 @@
 
 Если правильное аудиоустройство выбрано, но вы все равно не слышите звук или если ваши аудио визуализаторы не работают, убедитесь, что вы не приглушаете Wallpaper Engine в окне звукового микшера или не установили для него малую громкость. Windows не различает между собой устройства записи и воспроизведения звука. Это означает, что если вы установили низкую громкость в Windows, запись звука также не будет работать:
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![Увеличьте звук и включите звук от Wallpaper Engine в аудиомикшере Windows](./audiomixer.png)
 
 Если звук обнаружен, но слишком тихий, имейте в виду, что звук приложений (из музыкального проигрывателя, веб-браузера и т. д.) влияет на то, насколько хорошо звук может быть обнаружен. Вы можете усилить обнаружение звука в «Общей» вкладке настроек Wallpaper Engine, если вы не хотите, чтобы повышалась громкость остальных приложений (значение громкости записи по умолчанию равна 50).
 
@@ -17,22 +17,22 @@
 
 USB / беспроводные гарнитуры склонны к проблемам драйвера звука. Для многих устройств изменения звуковой частоты дискретизации в настройках устройств Windows до 44100Гц сразу исправляет проблему:
 
-ПКМ по иконке аудио на панели задач в правом углу панели, затем выберите «Открыть настройки звука», либо через Панель управления - Звук. Выберите устройство, затем нажмите на кнопку «Свойства», откроется окно. Перейдите на вкладку "Дополнительно". Замените частоту дискретизации на рекомендованную нами. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+ПКМ по иконке аудио на панели задач в правом углу панели, затем выберите «Открыть настройки звука», либо через Панель управления - Звук. Выберите устройство, затем нажмите на кнопку «Свойства», откроется окно. Перейдите на вкладку "Дополнительно". Замените частоту дискретизации на рекомендованную нами. Точное расположение отличается в различных версиях Windows. Если вы не можете найти этот параметр, ищите в Интернете инструкции о том, как изменить частоту дискретизации звуковых устройств для вашей версии Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer headsets with THX
+### Razer гарнитуры с ТНХ
 
-Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
+Измените аудиовход в Wallpaper Engine на «Динамики (Raze XYZ)'. Эта опция находится в общих настройках, и любые гарнитуры Razer с THX эффектами должны работать с данной настройкой.
 
-## 3. Conflicting applications
+## 3. Конфликтующие приложения
 
-If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
+Если вы считаете, что ваши настройки звука являются правильными, но аудио-реагирующие обои не реагирует на звук, то, скорее всего, у вас есть звуковое оборудование или программное обеспечение, которое переключает на себя функцию записи на всем компьютере. Они должны быть правильно настроены или удалены:
 
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* Various other applications, especially pre-installed ones on notebooks
+* Различные другие приложения, особенно предустановленные на ноутбуках
 
 If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
 
