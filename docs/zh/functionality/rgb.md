@@ -27,13 +27,13 @@ Wallpaper Engine 无法直接与 RGB 硬件通信，所有颜色信息都要先�
 
 ### Corsair
 
-Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+某些硬件，例如 **Corsair 系统内存 (RAM)，默认禁用软件控制**，这意味着，除非您在 iCUE 软件设置中允许，否则内存模块不会根据 Wallpaper Engine 而点亮。 请确保已在内存部分的 iCUE 设备设置中，选择了“启用完全软件控制”选项：
 
 ![Enable full software control in iCUE](./icue.png)
 
-Double-check this option for any other hardware parts which are not working properly.
+仔细检查此选项，查看是否有任何其他硬件部件无法正常工作。
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+请注意，iCUE 的使用为*独占模式*，这意味着，Wallpaper Engine 将优先于其他兼容 iCUE 的软件（例如游戏）。 If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
 
 For support with Corsair iCUE hardware, please contact Corsair directly:
 
