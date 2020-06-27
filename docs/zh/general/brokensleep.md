@@ -1,6 +1,6 @@
 # 休眠/屏幕保护程序无法正常工作
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+如有任何活动音频流处于打开状态，Windows 就不会进入休眠。 要解决此问题，您可以在 Wallpaper Engine 设置的“常规”选项卡中禁用音频输出，防止 Windows 阻止休眠。 If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
 
 ## Change the Windows power settings
 
