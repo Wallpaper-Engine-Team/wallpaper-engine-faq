@@ -1,10 +1,10 @@
 # 休眠/屏幕保护程序无法正常工作
 
-如有任何活动音频流处于打开状态，Windows 就不会进入休眠。 要解决此问题，您可以在 Wallpaper Engine 设置的“常规”选项卡中禁用音频输出，防止 Windows 阻止休眠。 If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+如有任何活动音频流处于打开状态，Windows 就不会进入休眠。 要解决此问题，您可以在 Wallpaper Engine 设置的“常规”选项卡中禁用音频输出，防止 Windows 阻止休眠。 如要继续输出音频，请按照本指南中的相关步骤进行操作。
 
-## Change the Windows power settings
+## 更改 Windows 电源设置
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+如有任何活动音频流处于打开状态，Windows 就不会进入休眠。 要解决此问题，您可以在 Wallpaper Engine 设置的“常规”选项卡中禁用音频输出，或者重新配置 Windows，使其可在启用了音频播放的情况下进入睡眠状态：
 
 1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
 2. Click on "Additional power settings"
