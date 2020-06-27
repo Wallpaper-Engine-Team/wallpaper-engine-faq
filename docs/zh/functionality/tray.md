@@ -4,7 +4,7 @@
 
 ::: 警告 我们不建议您执行此操作，除非您完全确定托盘图标给您造成极大的烦扰，以至于您愿意接受隐藏托盘图标的弊端。 :::
 
-Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+托盘图标隐藏后，关闭 Wallpaper Engine 的唯一方法是通过 Windows 任务管理器结束任务。 您将只能通过 Steam 或 .exe 文件打开用户界面，这非常不便，而且令人困惑。
 
 If you still want to proceed with hiding the tray icon, this is how you do it:
 
