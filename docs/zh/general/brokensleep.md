@@ -13,7 +13,7 @@
 5. 向下滚动并展开“多媒体设置”
 6. 将“共享媒体时”设置为“允许计算机进入离开模式”（屏幕保护程序）**或**“允许计算机睡眠”（休眠）
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![启用"允许计算机睡眠"](./power.gif)
 
 ## “Web”类型墙纸的休眠问题
 
@@ -21,7 +21,7 @@
 
 1. 在 Windows 中搜索“cmd.exe”，然后右键单击它，选择“以管理员身份运行”（非常重要，否则将无法工作！）。
 2. 使用命令 `powercfg /requests` 查看阻止系统进入休眠状态的所有进程（另请检查此处是否有其他程序可能出错）。
-3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
+3. 使用以下三个命令，允许系统在 Wallpaper Engine 正在运行的情况下进入睡眠状态：
 
 ```
 powercfg /requestsoverride PROCESS webwallpaper32.exe AWAYMODE DISPLAY SYSTEM
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+此外，您还可以在 Wallpaper Engine 设置的**性能**选项卡中，将**显示屏休眠时**选项设置为*停止（释放内存）*，然后关闭显示器。 那样的话，如果您在离开电脑时关闭显示器，Wallpaper Engine 将停止所有播放。
