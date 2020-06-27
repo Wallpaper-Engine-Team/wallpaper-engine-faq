@@ -11,7 +11,7 @@
 3. 单击所选计划旁边的“更改计划设置”
 4. 单击“更改高级电源设置”
 5. 向下滚动并展开“多媒体设置”
-6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
+6. 将“共享媒体时”设置为“允许计算机进入离开模式”（屏幕保护程序）**或**“允许计算机睡眠”（休眠）
 
 ![Enable "Allow the computer to sleep"](./power.gif)
 
