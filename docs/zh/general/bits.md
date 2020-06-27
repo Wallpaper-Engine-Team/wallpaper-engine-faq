@@ -1,6 +1,6 @@
-# 32-Bit & 64-Bit Version
+# 32 位 & 64 位版本
 
-The 64-bit version can handle larger files (more than 2GB) but it will always use more memory, no matter the file size of the wallpapers. For example, with a normal video wallpaper, the 64-bit version may use about 50 MB more RAM compared to the 32-bit version, otherwise there is nothing different or improved.
+64 位版本可处理更大的文件（大于 2GB），但无论壁纸文件大小如何，它都始终占用更多内存。 例如，对于普通视频壁纸，与 32 位版本相比，64 位版本可能使用大约 50 MB 以上的 RAM，此外没有任何区别或改进。
 
 ::: tip We recommend you stick to the 32-bit version unless you have huge wallpapers that would make the 32-bit version crash. The large majority of users never encounter this problem. :::
 
