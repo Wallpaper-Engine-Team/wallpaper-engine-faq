@@ -1,4 +1,4 @@
-# Hibernation / Screensavers do not work
+# 休眠/屏幕保护程序无法正常工作
 
 Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
 
