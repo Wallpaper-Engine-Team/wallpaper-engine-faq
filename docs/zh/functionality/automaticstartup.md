@@ -28,7 +28,7 @@ tags:
 
 ## Wallpaper Engine 与 Windows 一起启动，但（有些）壁纸不显示
 
- 启动计算机后，检查时钟旁边的 Windows 托盘中是否显示 Wallpaper Engine 图标。 If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
+ 启动计算机后，检查时钟旁边的 Windows 托盘中是否显示 Wallpaper Engine 图标。 如果系统启动后该图标存在，但部分或所有显示器不显示其各自的壁纸，则显卡驱动程序存在问题。 本质上，显卡驱动程序不断为显示器分配新标识符，这会让 Wallpaper Engine 认为您在尝试配置新显示器。 要解决这一问题，您可以在 Wallpaper Engine 设置的*常规*选项卡中，将*“显示器标识”*选项更改为*布局*或 *GDI*。 We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
 
  ## Wallpaper Engine assigns wrong wallpapers at system start-up
 
