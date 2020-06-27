@@ -17,10 +17,10 @@
 
 ## “Web”类型墙纸的休眠问题
 
-“Web”壁纸使用类似于 Google Chrome 的网络浏览器（“CEF”），因而会阻止休眠模式。 Until this is fixed in the browser, you can get around this with some command-line prompts.
+“Web”壁纸使用类似于 Google Chrome 的网络浏览器（“CEF”），因而会阻止休眠模式。 在浏览器修复此问题之前，您可以通过一些命令行提示符解决此问题。
 
-1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
-2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
+1. 在 Windows 中搜索“cmd.exe”，然后右键单击它，选择“以管理员身份运行”（非常重要，否则将无法工作！）。
+2. 使用命令 `powercfg /requests` 查看阻止系统进入休眠状态的所有进程（另请检查此处是否有其他程序可能出错）。
 3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
 
 ```
