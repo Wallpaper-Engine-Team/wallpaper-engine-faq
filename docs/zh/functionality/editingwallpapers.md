@@ -18,7 +18,7 @@
 
 #### 非官方社区场景解包器
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+但是，社区成员创建了一款非官方场景壁纸解包工具，可让您解包场景文件，并将其用作自己壁纸的起点。 请访问以下网站，了解更多信息：
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
