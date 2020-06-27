@@ -1,4 +1,4 @@
-# Editing Downloaded Wallpapers
+# 编辑下载的壁纸
 
 Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
 
