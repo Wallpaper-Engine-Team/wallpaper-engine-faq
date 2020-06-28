@@ -41,9 +41,9 @@ Se trata de un error que se produce en DirectX que se debe a los antivirus o a l
 
 ### mfplat.dll
 
-Se trata de un error en Windows Media Foundation que puede deberse a los controladores dañados de la tarjeta gráfica, pero es más común que suceda por culpa de codecs de vídeo dañados o no encontrados. Follow the fixes from our video fix guide to fix these types of crashes:
+Se trata de un error en Windows Media Foundation que puede deberse a los controladores dañados de la tarjeta gráfica, pero es más común que suceda por culpa de codecs de vídeo dañados o no encontrados. Siga las instrucciones de nuestra guía para solucionar este tipo de errores:
 
-[Click here](/noshow/notplaying.html)
+[Haga clic aquí](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
