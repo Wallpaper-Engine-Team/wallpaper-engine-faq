@@ -1,6 +1,6 @@
 # 显示器刷新频率错误
 
-Depending on hardware and operating system, your graphics card may have issues updating all of your monitors at the same time if they have wildly differing refresh rates. Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
+视乎硬件和操作系统，如果显示器的刷新频率差异很大，您的显卡可能无法同时更新所有显示器。 Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
 
 Some common work-arounds:
 
