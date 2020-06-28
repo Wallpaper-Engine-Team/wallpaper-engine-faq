@@ -10,16 +10,16 @@
 
 ![Real GPU usage](./gpuz.png)
 
-请注意，屏幕截图中的 *GPU 负载*为 24%。 但您可在顶部看到，显卡处于 202.5 MHz 的低功耗状态。 这是最佳的案例场景，尽管“使用率”显示为 24%。 The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
+请注意，屏幕截图中的 *GPU 负载*为 24%。 但您可在顶部看到，显卡处于 202.5 MHz 的低功耗状态。 这是最佳的案例场景，尽管“使用率”显示为 24%。 基于 1823mhz 的最大时钟速率的实际使用率仅为 **2.6%***（24% × 202.5 MHz/1823 MHz）*。
 
-A card could have clock rates between 100 Mhz and 2000 Mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 100 MHz or 50% of 2000 MHz**.
+例如，显卡的时钟速率可能介于 100 Mhz 和 2000 Mhz 之间。 如果任务管理器显示 50% 的使用率，那么**实际值到底是 100 MHz 的 50%，还是 2000 MHz 的 50%，会有很大的差别**。
 
-::: tip To summarize: It's important to keep the GPU clock rate in mind when looking at the GPU load. 50% of 100 MHz is better than 5% of 2000 MHz. :::
+::: 提示 总结一下：查看 GPU 负载时，请务必牢记 GPU 时钟速率。 100 MHz 的 50% 优于 2000 MHz 的 5%。 :::
 
-If you want to improve GPU performance:
+如想提高 GPU 性能：
 
-* Disable or delete overlay and recording tools, including Geforce Experience.
-* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
+* 禁用或删除覆盖和录制工具，包括 Geforce Experience。
+* 降低帧速率设置，禁用 MSAA（这不会影响 2D 场景壁纸的质量）。
+    * 这不会影响视频的性能，因为它们具有固定的帧速率和质量。
+    * 视频壁纸的分辨率和帧速率将控制这些设置，使用 FPS 较低的视频来减少 GPU 负载
 * Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
