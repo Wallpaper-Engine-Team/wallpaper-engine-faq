@@ -22,7 +22,7 @@
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. 如果系统要求，请完全卸载当前的显卡驱动程序，并删除所有现有设置。 Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
 
 You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
 
