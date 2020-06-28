@@ -1,8 +1,8 @@
 ---
 tags:
-  - download
-  - re-download
-  - deleted
+  - 下载
+  - 重新下载
+  - 已删除
   - deletes
 ---
 
