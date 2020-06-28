@@ -1,4 +1,4 @@
-# Centering wallpaper with monitors of different resolutions
+# 分辨率不同的显示器的壁纸居中
 
 If you choose to display a single wallpaper across multiple monitors with different resolutions, then it will act according to the resolutions you are using, not the physical size of your monitors. Windows does not account for the physical size, only the size in pixels is relevant.
 
