@@ -47,13 +47,13 @@ Se trata de un error en Windows Media Foundation que puede deberse a los control
 
 ### AudioSes.dll
 
-Este caso suele darse por un problema de Windows. Vuelva a instalar la versión más reciente de los controladores de la tarjeta de sonido y puede que se solucione el problema. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+Este caso suele darse por un problema de Windows. Vuelva a instalar la versión más reciente de los controladores de la tarjeta de sonido y puede que se solucione el problema. También puede solucionar estos programas si cambia la opción *Otra aplicación reproduciendo audio* en la pestaña *Rendimiento* de los ajustes de Wallpaper Engine a *Seguir ejecutándose*.
 
 ### atiumdag.dll / atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: consejo Asegúrese de que ha seleccionado la casilla «Volver a instalar desde cero» durante la instalación o desinstale todos los controladores primero. If your current drivers are broken, it's important to fully clear them first. :::
 
 ### nvwgf2umx.dll
 
