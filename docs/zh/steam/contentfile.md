@@ -6,4 +6,4 @@
 * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * `C:\Program Files (x86)\Steam\steamapps\downloading`
 
-*If your Steam or Wallpaper Engine is installed in a different directory, you need to adjust the directories to your actual Steam installation path.*
+*如果您将 Steam 或 Wallpaper Engine 安装在其他目录中，则您需要将上面的目录调整为实际的 Steam 安装路径。*
