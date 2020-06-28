@@ -56,9 +56,9 @@ Steam 无法下载某些文件，这可能是因为防病毒应用程序阻止�
 * 删除以下目录的内容：`C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * 删除以下目录的内容：`C:\Program Files (x86)\Steam\steamapps\downloading\431960`
   * **注意：**`C:\Program Files (x86)\Steam` 是 Steam 的默认路径，如果您将其安装在其他位置，请查看该位置。
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* 启动 Steam 并验证 Wallpaper Engine 的文件：
+  * [验证 Wallpaper Engine 的文件](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+如果安装了防病毒应用程序：请为以下目录配置例外，防止其阻止 Steam 创意工坊下载：`C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### 相关文章：[Steam 重新下载所有壁纸](/steam/redownload)
