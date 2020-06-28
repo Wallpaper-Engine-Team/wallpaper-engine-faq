@@ -3,9 +3,9 @@
 
 **您最好使用右上角的搜索栏**，或者直接查看左侧的所有文章列表（我们已经尝试对其进行合理分类）。 我们还在下方列出了访问频率最高的帮助文章，请查看其中是否涉及您的问题。
 
-::: tip Use the search bar in the upper right corner with single keywords. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black". :::
+::: 提示 借助单个关键词，使用右上角的搜索栏。 例如，如果您的壁纸仅显示为黑色背景，请尝试直接搜索“黑色”。 :::
 
-## Most popular support articles
+## 最热门的支持文章
 
 Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
