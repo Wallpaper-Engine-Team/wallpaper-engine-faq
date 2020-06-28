@@ -1,5 +1,5 @@
 # Wallpaper Engine 故障排除指南 & 常见问题解答
-If you are having a technical problem or just a question about Wallpaper Engine, you will likely find an answer here. 95% of questions and problems we get asked are the same so it is likely that you will find your answer here.
+如果遇到了技术问题，或者对 Wallpaper Engine 存有疑问，您很可能会在这里找到答案。 我们收到的 95% 的疑问和问题都是相同的，因此您很可能会在这里找到答案。
 
 **It's best if you use the search bar in the upper right corner** or simply look on the list of all articles on the left - we have tried to categorize them sensibly. We have also listed the most frequently accessed help articles below, check if your problem is in there.
 
