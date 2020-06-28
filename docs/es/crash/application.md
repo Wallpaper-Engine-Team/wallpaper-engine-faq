@@ -65,14 +65,14 @@ Los controladores de Nvidia de su sistema se cuelgan. Diríjase a la página web
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+Los controladores gráficos de Intel de su sistema se cuelgan. Diríjase a la página web de Intel, descargue los controladores más recientes e instálelos:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 
 ### MMDEvAPI.dll
 
-This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+Se trata de un error que se produce debido a un software de sonido dañado que está instalado en el sistema. Suele ocurrir con los programas de «mejora de sonido», sobre todo con aquellos que ya vienen instalados en los portátiles. Este tipo de software puede ocasionar problemas porque interactúan con Windows causando algún error. Busque «Sonic Studio» o «Nahimic» y actualícelos. Si no encuentra la actualización de dichos programas, puede desinstalarlos, ya que no son necesarios para que el sonido del ordenador funcione correctamente.
 
 ### fraps32.dll
 
