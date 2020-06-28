@@ -5,7 +5,7 @@
 ## 1. การตั้งค่าอุปกรณ์เสียง
 ไปที่การตั้งค่า Wallpaper Engine และไปที่แท็บ "ทั่วไป" คุณจะพบหมวด "สื่อ" ในส่วนกลางซึ่งคุณสามารถเลือกอุปกรณ์รับข้อมูลเสียงได้ ตรวจสอบให้แน่ใจว่าได้เลือกอุปกรณ์ที่ถูกต้อง หากคุณไม่แน่ใจว่าอุปกรณ์ใดถูกต้อง ให้ลองใช้อุปกรณ์ที่เป็นไปได้ทั้งหมดในขณะที่ฟังเพลงจนกว่า Visualizer เสียงเริ่มทำงาน
 
-If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
+หากเลือกอุปกรณ์เสียงถูกต้องแล้วแต่คุณยังไม่ได้ยินเสียงใด ๆ หรือหาก Visualizer เสียงไม่ทำงาน ให้ตรวจสอบว่าคุณไม่ได้ปิดเสียง Wallpaper Engine ในตัวปรับแต่งเสียงของ Windows หรือตั้งค่าระดับเสียงที่เบามาก Windows ไม่แยกความแตกต่างระหว่างระดับเสียงสำหรับการบันทึกเสียงและการเล่นเสียง ซึ่งหมายความว่าหากคุณตั้งค่าระดับเสียงเบาใน Windows การบันทึกเสียงจะไม่ทำงาน:
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
