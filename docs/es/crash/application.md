@@ -11,7 +11,7 @@ Wallpaper Engine es un software que usan millones de personas y que ha recibido 
 
 ::: consejo Casi todos los informes de errores que recibimos suelen ser por culpa de controladores defectuosos de las tarjetas gráficas, antivirus o algún software que haga que el ordenador esté inestable. :::
 
-## Solución rápida evitar que se Wallpaper Engine se cuelgue
+## Solución rápida para evitar que Wallpaper Engine se cuelgue
 
 Si desconoce qué es lo que hace que Wallpaper Engine se cuelgue, vuelva a instalar los controladores de la tarjeta gráfica. Es decir, tendrá que desinstalar los controladores y volver a instalar los más actuales cuando se hayan desinstalado por completo los antiguos. Algunos controladores ofrecen la opción de reinstalar desde cero en la sección avanzada, así que asegúrese de activarla para deshacerse de los restos de los controladores defectuosos. Puede obtener controladores de las tarjetas gráficas más recientes de todos los proveedores principales aquí:
 
@@ -29,19 +29,19 @@ Intente comprobar los archivos de Wallpaper Engine a través de Steam para asegu
 
 ### KERNELBASE.dll / ntdll.dll
 
-Se trata de un error que se produce en el propio kernel de Windows que se debe a los antivirus o a los controladores dañados de las tarjetas gráficas. Lea la guía de solución rápida para obtener más información. También puede ocurrir si los componentes del sistema están dañados. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+Se trata de un error que se produce en el propio kernel de Windows que se debe a los antivirus o a los controladores dañados de las tarjetas gráficas. Lea la guía de solución rápida para obtener más información. También puede ocurrir si los componentes del sistema están dañados. Use la herramienta de Comprobación de archivos del sistema de Microsoft para reparar los archivos dañados de Windows:
 
-* [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Comprobación de archivos del sistema de Microsoft](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-This is a crash in DirectX, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+Se trata de un error que se produce en DirectX que se debe a los antivirus o a los controladores dañados de las tarjetas gráficas. Lea la guía de solución rápida para obtener más información. También puede ocurrir si los componentes del sistema están dañados. Use la herramienta de Comprobación de archivos del sistema de Microsoft para reparar los archivos dañados de Windows:
 
-* [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Comprobación de archivos del sistema de Microsoft](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
+Se trata de un error en Windows Media Foundation que puede deberse a los controladores dañados de la tarjeta gráfica, pero es más común que suceda por culpa de codecs de vídeo dañados o no encontrados. Follow the fixes from our video fix guide to fix these types of crashes:
 
 [Click here](/noshow/notplaying.html)
 
