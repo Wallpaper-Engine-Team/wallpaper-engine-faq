@@ -50,12 +50,12 @@ Steam 尚未完成下载和验证文件。 如果下载停滞了一段时间，�
 
 ## Steam：“缺少已下载的文件”错误
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+Steam 无法下载某些文件，这可能是因为防病毒应用程序阻止了 Steam 或完全随机出现的问题。 通常可以通过以下方式解决：
 
-* Turn off Steam.
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
+* 关闭 Steam。
+* 删除以下目录的内容：`C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+* 删除以下目录的内容：`C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+  * **注意：**`C:\Program Files (x86)\Steam` 是 Steam 的默认路径，如果您将其安装在其他位置，请查看该位置。
 * Start Steam and verify the Wallpaper Engine files:
   * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
