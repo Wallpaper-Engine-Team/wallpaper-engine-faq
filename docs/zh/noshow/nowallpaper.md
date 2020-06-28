@@ -18,7 +18,7 @@ tags:
 
 ## 与其他桌面修改软件冲突
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine 可与大多数桌面修改应用程序协调并存。 但有些应用程序（例如 StarDock DeskScapes）也可以修改 Windows 壁纸，因此无法同时运行这两个应用程序。 如果您使用与 Wallpaper Engine 类似的应用程序，那么您需要决定要继续使用的应用程序。
 
 ### Fences
 
