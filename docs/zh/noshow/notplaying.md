@@ -8,11 +8,11 @@
 
 # 视频黑屏/无法正常播放
 
-*视频*类型的壁纸出现黑屏和其他问题，*通常*由显卡驱动程序故障或视频编解码器故障导致。 请按照完全相同的顺序，尝试执行以下步骤。 If you follow this guide from top to bottom, the problem will be solved:
+*视频*类型的壁纸出现黑屏和其他问题，*通常*由显卡驱动程序故障或视频编解码器故障导致。 请按照完全相同的顺序，尝试执行以下步骤。 如果完全遵循本指南的指示，您就可以解决该问题：
 
-::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black or not playing properly. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: 警告 请注意 本主题涉及到 Wallpaper Engine **壁纸**为黑色或无法正常播放的问题。 如果 **Wallpaper Engine 界面为黑色**，您需要访问此处：[Wallpaper Engine 用户界面为黑色](/interface/broken.html#wallpaper-engine-interface-is-black)。 :::
 
-## Clean graphics card driver re-installation
+## 显卡驱动程序全新安装
 
 For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
 
