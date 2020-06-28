@@ -16,7 +16,7 @@ tags:
 
 ::: 提示 如果您安装了防病毒应用程序（Windows Defender 除外），那么这很可能是造成问题的原因。 如果您的前几次尝试未能解决此问题，请花些时间深入调查。 :::
 
-## Conflicts with other desktop modification software
+## 与其他桌面修改软件冲突
 
 Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
 
