@@ -21,4 +21,4 @@
 
 ## 与屏幕录制工具或覆盖功能冲突
 
-如果您使用任何游戏串流工具、游戏录制工具或带覆盖功能的软件，请确保它们不会在后台意外录制 Wallpaper Engine。 This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+如果您使用任何游戏串流工具、游戏录制工具或带覆盖功能的软件，请确保它们不会在后台意外录制 Wallpaper Engine。 如果您使用显卡驱动程序的任何游戏串流功能（例如 Nvidia ShadowPlay、Nvidia Share 或 AMD ReLive），您可能也要执行同样的操作。
