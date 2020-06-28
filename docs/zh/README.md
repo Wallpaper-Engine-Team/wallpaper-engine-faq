@@ -7,12 +7,12 @@
 
 ## 最热门的支持文章
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+请先查看此列表，了解其中是否有任何问题与您遇到的问题相符，如果没有，请使用右上角的搜索功能或查看左侧的列表，以获取更多文章：
 
-| **热门文章**                                                                                                              |
-| --------------------------------------------------------------------------------------------------------------------- |
-| 1. [Steam 下载问题](steam/download.html)                                                                                  |
-| 2. [Black Screen / Videos not Playing](noshow/notplaying.html)                                                        |
-| 3. [Video colors wrong / too bright or too dark / zoomed-in / pixelated / border around video](videos/artifacts.html) |
-| 4. [Wallpaper Engine crashing](crash/application)                                                                     |
-| 5. [Exporting wallpapers as GIF / video files](general/export)                                                        |
+| **热门文章**                                             |
+| ---------------------------------------------------- |
+| 1. [Steam 下载问题](steam/download.html)                 |
+| 2. [黑屏/视频不播放](noshow/notplaying.html)                |
+| 3. [视频颜色错误/太亮或太暗/放大/像素化/视频边框](videos/artifacts.html) |
+| 4. [Wallpaper Engine 崩溃](crash/application)          |
+| 5. [将壁纸导出为 GIF/视频文件](general/export)                 |
