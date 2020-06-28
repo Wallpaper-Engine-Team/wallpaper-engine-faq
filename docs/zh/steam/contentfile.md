@@ -1,6 +1,6 @@
 # “内容文件已锁定”/磁盘写入错误
 
-If Steam fails to download Wallpaper Engine either while installing or updating the app, it is most likely your antivirus deleting files, putting files into quarantine or blocking entire directories on your disk without informing you about this. You will get 'content file locked' or 'access denied' errors in Steam. This needs to be resolved in your antivirus by undoing the changes it did to your PC, most antivirus programs have a quarantine window from where you can restore files or create a whitelist. Make sure your antivirus application ignores the following directories:
+如果 Steam 在安装或更新 Wallpaper Engine 时无法下载该应用程序，很可能是防病毒软件删除了文件、将文件放入了隔离区、或阻止了磁盘上的整个目录，而没有通知您。 您会在 Steam 中收到“内容文件已锁定”或“拒绝访问”的错误消息。 要消除这些错误，您需要在防病毒软件中撤销其对 PC 所做的更改，大多数防病毒程序都设有隔离窗口，您可以从中还原文件或创建白名单。 请确保防病毒应用程序忽略以下目录：
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
