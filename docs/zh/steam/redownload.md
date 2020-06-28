@@ -24,7 +24,7 @@ Steam 的下载缓存已损坏，现在要重新下载所有文件（无特殊�
 
 ## 重新安装 Steam
 
-The most reliable long-term fix for most users affected by this Steam bug regularly appears to be to reinstall Steam as some Steam files may simply be broken on your system. Try to reinstall Steam completely:
+对于大多数经常受此 Steam 错误影响的用户而言，最可靠的长期修复方法似乎是重新安装 Steam，因为某些 Steam 文件可能只是在您的系统上损坏了。 请尝试完全重新安装 Steam：
 
 1. Uninstall Wallpaper Engine through Steam.
 2. Uninstall Steam itself, make sure to follow the official guide:
