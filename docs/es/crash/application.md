@@ -47,7 +47,7 @@ Se trata de un error en Windows Media Foundation que puede deberse a los control
 
 ### AudioSes.dll
 
-This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+Este caso suele darse por un problema de Windows. Vuelva a instalar la versión más reciente de los controladores de la tarjeta de sonido y puede que se solucione el problema. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
 
 ### atiumdag.dll / atiumd64.dll
 
