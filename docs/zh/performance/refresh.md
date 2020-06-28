@@ -1,9 +1,9 @@
 # 显示器刷新频率错误
 
-视乎硬件和操作系统，如果显示器的刷新频率差异很大，您的显卡可能无法同时更新所有显示器。 Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
+视乎硬件和操作系统，如果显示器的刷新频率差异很大，您的显卡可能无法同时更新所有显示器。 Microsoft 已在 Windows 10 2004 版更新（2020 年 5 月）中解决了此问题，如果遇到此问题，请确保您至少使用该版本或更高版本的 Windows 10。
 
-Some common work-arounds:
+一些常见的解决方法：
 
-* Set monitors to refresh rates that are a multiple of each other. For example, 120Hz and 60Hz instead of 144Hz and 60Hz.
-* Use pausing/stopping options in Wallpaper Engine to make this less of a problem. Set it to pause on all monitors when playing games.
-* If your system has an integrated GPU, use that for your 60Hz monitor, although this will likely decrease desktop performance overall, since your CPU now needs to make both GPUs work together!
+* 将显示器的刷新频率设置为彼此的倍数。 例如，设置为 120Hz 和 60Hz，而非 144Hz 和 60Hz。
+* 使用 Wallpaper Engine 中的暂停/停止选项降低问题的严重性。 将刷新频率设置为玩游戏时在所有显示器上暂停。
+* 如果系统具有集成 GPU，请将其用于 60Hz 的显示器，但这样做可能会降低桌面的整体性能，因为 CPU 现在需要让两个 GPU 一起工作！
