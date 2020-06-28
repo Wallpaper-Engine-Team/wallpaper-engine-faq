@@ -1,14 +1,14 @@
 ---
 tags:
-  - downtime
-  - server
-  - downloads
-  - progress
-  - workshop
-  - connection
+  - 停机时间
+  - 服务器
+  - 下载量
+  - 进度
+  - 创意工坊
+  - 连接
 ---
 
-# Steam Wallpaper Download Issues
+# Steam 壁纸下载问题
 
 Keep in mind that **all downloads are performed by Steam**. Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
 
