@@ -16,10 +16,10 @@ Steam 创意工坊允许一定程度的成人内容，例如裸体。 如果不�
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
-由于大多数内容均标记正确，这将筛选掉大部分成人内容。 如果您仍然遇到具有“所有人”年龄分级的成人内容，请使用应用程序中的举报功能。 The content will be re-classified or banned after a review.
+由于大多数内容均标记正确，这将筛选掉大部分成人内容。 如果您仍然遇到具有“所有人”年龄分级的成人内容，请使用应用程序中的举报功能。 该内容将在审核后重新分类或封禁。
 
-## Reporting rule-breaking content
+## 举报违规内容
 
-We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
+我们和 Steam 管理员/版主每天都在删除违规壁纸。 请举报违反准则的创意工坊提交内容，以帮助我们找到它们。
 
-The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
+创意工坊允许用户发布作品，而无需我们事先对其进行检查，这是 Steam 创意工坊的工作方式，我们无法改变。 We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
