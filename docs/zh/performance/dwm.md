@@ -1,6 +1,6 @@
 # 配有集成和专用 GPU 的台式机性能不佳 (dwm.exe)
 
-尽管安装了专用 GPU，但如果您在 BIOS 中启用台式电脑上的集成 GPU，您可能会遇到 *dwm.exe* 性能不佳和 CPU 使用率过高的问题。 如有可能，请不要启用集成 GPU，而要将显示器插入专用 GPU。 同时使用两个独立的图形解决方案将破坏桌面窗口管理器的硬件加速，请务必将所有显示器均插入主显卡。 This is not a bug or issue in Wallpaper Engine, it is problem that affects all mulit-monitor software with hardware setups where not all monitors are plugged into the main graphics card.
+尽管安装了专用 GPU，但如果您在 BIOS 中启用台式电脑上的集成 GPU，您可能会遇到 *dwm.exe* 性能不佳和 CPU 使用率过高的问题。 如有可能，请不要启用集成 GPU，而要将显示器插入专用 GPU。 同时使用两个独立的图形解决方案将破坏桌面窗口管理器的硬件加速，请务必将所有显示器均插入主显卡。 这并非 Wallpaper Engine 中的错误或问题，但如果采用了并非所有显示器都插入主显卡的硬件设置，所有多显示器软件都会受到影响。
 
 Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a very slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
 
