@@ -8,7 +8,7 @@
 
 安装 GPU-Z 以后，请查看“传感器”选项卡，了解 GPU 时钟速率和 GPU 负载：
 
-![Real GPU usage](./gpuz.png)
+![真实 GPU 使用率](./gpuz.png)
 
 请注意，屏幕截图中的 *GPU 负载*为 24%。 但您可在顶部看到，显卡处于 202.5 MHz 的低功耗状态。 这是最佳的案例场景，尽管“使用率”显示为 24%。 基于 1823mhz 的最大时钟速率的实际使用率仅为 **2.6%***（24% × 202.5 MHz/1823 MHz）*。
 
@@ -22,4 +22,4 @@
 * 降低帧速率设置，禁用 MSAA（这不会影响 2D 场景壁纸的质量）。
     * 这不会影响视频的性能，因为它们具有固定的帧速率和质量。
     * 视频壁纸的分辨率和帧速率将控制这些设置，使用 FPS 较低的视频来减少 GPU 负载
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+* 将显示器都连接到同一 GPU，否则 Windows 在尝试合并它们时会表现不佳。
