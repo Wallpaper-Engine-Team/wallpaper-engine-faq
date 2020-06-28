@@ -1,12 +1,12 @@
 ---
 tags:
-  - crash
-  - close
-  - nvidia
+  - 崩溃
+  - 关闭
+  - Nvidia
   - battleye
 ---
 
-# BattlEye anti-cheat terminating Wallpaper Engine
+# BattlEye 反作弊系统终止 Wallpaper Engine
 If Wallpaper Engine closes silently when you start specific games then this is most likely caused by the aBattlEye anti-cheat used by numerous multiplayer games. Known games that use BattlEye are:
 
 * Fortnite
