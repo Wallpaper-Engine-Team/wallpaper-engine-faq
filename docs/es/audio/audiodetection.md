@@ -9,7 +9,7 @@ Si el dispositivo correcto de audio está seleccionado pero aún no puede oír n
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-If audio is detected but is too quiet, keep in mind that the application volume (of your music player, web browser, etc.) affects how well audio is detected. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+Si el audio es detectado pero su volumen es muy bajo, tenga en mente que el volumen de la aplicación (de su reproductor de música, navegador web, etc.) afecta a que tan bien se detecta el audio. Puede potenciar la detección de sonido en la etiqueta "General" de la configuración de "Wallpaper Engine" en caso de que no quiera incrementar el volumen de la aplicación (el valor de volumen por defecto de la grabadora es de 50).
 
 ## 2. Hardware-specific issues
 
