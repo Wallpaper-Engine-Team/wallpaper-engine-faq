@@ -2,10 +2,10 @@
 
 如果看不到除已安装壁纸以外的壁纸的预览图像，则有防火墙或安全软件阻止浏览器访问 Internet。 您必须禁用该防火墙或安全软件，或者为“ui32.exe”添加例外。
 
-预览图像是从 Steam 服务器直接下载的图像。 如果无法加载预览图像，则说明 Wallpaper Engine 和 Steam 服务器之间的连接受阻。 Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
+预览图像是从 Steam 服务器直接下载的图像。 如果无法加载预览图像，则说明 Wallpaper Engine 和 Steam 服务器之间的连接受阻。 有些用户的网络路由器会阻止该连接，您可以将计算机通过智能手机连接到 Wi-Fi 热点，看看预览图像是否开始显示，借以测试您的路由器或计算机是否存在此问题。
 
-Some users of *accelerator software* also have issues with image previews being loaded. Make sure any type of network acceleration software is not blocking Wallpaper Engine from downloading image files in the background.
+有些*加速器软件*的用户也会遇到无法加载图像预览的问题。 请确保任何类型的网络加速软件都不会阻止 Wallpaper Engine 在后台下载图像文件。
 
-## No wallpapers or only very few wallpapers showing
+## 不显示任何壁纸或仅显示很少的壁纸
 
-You likely have too strict filters enabled. Try resetting all filters by clicking on the "Reset filters" button in the filter sidebar.
+您很可能启用了过于严格的筛选器。 通过单击筛选器侧栏中的“重置筛选器”按钮，尝试重置所有筛选器。
