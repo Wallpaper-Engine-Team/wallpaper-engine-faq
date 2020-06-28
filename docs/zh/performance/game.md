@@ -19,6 +19,6 @@
 
 现在，启动您配置的 *.exe* 以后，Wallpaper Engine 会将所有壁纸从内存中完全移除。
 
-## Conflicts with screen-recording tools or overlays
+## 与屏幕录制工具或覆盖功能冲突
 
-If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+如果您使用任何游戏串流工具、游戏录制工具或带覆盖功能的软件，请确保它们不会在后台意外录制 Wallpaper Engine。 This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
