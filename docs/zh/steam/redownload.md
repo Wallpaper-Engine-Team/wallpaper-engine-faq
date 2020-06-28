@@ -8,12 +8,12 @@ tags:
 
 # Steam 重新下载壁纸
 
-Steam 的下载缓存已损坏，现在要重新下载所有文件（无特殊原因， 或因为 Steam 发生了崩溃，并非正常关闭）。 此问题并非 Wallpaper Engine 导致，因此无法在 Wallpaper Engine 中修复，Steam 上的所有创意工坊应用程序都可能受到此 Steam 错误的困扰。 If you frequently have this problem, there are work-arounds:
+Steam 的下载缓存已损坏，现在要重新下载所有文件（无特殊原因， 或因为 Steam 发生了崩溃，并非正常关闭）。 此问题并非 Wallpaper Engine 导致，因此无法在 Wallpaper Engine 中修复，Steam 上的所有创意工坊应用程序都可能受到此 Steam 错误的困扰。 如果频繁遇到此问题，请采取以下解决方法：
 
-## Fix Steam automatically
-We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
-* Turn off Steam
-* Go to the `wallpaper_engine` installation directory
+## 自动修复 Steam
+我们构建了一个 Steam 自动修复程序，您可以用它促使 Steam 阻止该问题继续发生（希望如此）！ 请遵照以下步骤操作：
+* 关闭 Steam
+* 转到 `wallpaper_engine` 安装目录
   * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
   * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
