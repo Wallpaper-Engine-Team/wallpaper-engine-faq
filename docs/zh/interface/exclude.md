@@ -2,11 +2,11 @@
 
 始终使用应用程序中的“创意工坊”选项卡搜索新壁纸。 Steam 创意工坊网站不具备与该应用程序相同的筛选功能，而且会显示过多您不感兴趣的内容。
 
-## Excluding certain genres (anime, for example)
+## 排除某些样式（例如动漫）
 
-You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+您可以从应用程序中筛选掉您不喜欢的类别。 打开 Wallpaper Engine 中的“创意工坊”选项卡，然后通过单击左上角的“筛选结果”按钮启用筛选器侧栏。 取消选择您不希望在结果中看到的所有类别。
 
-If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+如果不想看到动漫壁纸，请移除*动漫*和*MMD (Miku-Miku-Dance)* 类别。 Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
