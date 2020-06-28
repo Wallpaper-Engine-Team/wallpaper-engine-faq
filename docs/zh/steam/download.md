@@ -40,15 +40,15 @@ Steam 尚未完成下载和验证文件。 如果下载停滞了一段时间，�
 * 等待至少一天后重试，以防 Steam 服务器出现问题。
 * **作为最后的选择**，请尝试重新安装 Wallpaper Engine，以清除所有损坏的 Steam 文件（这将重新下载所有壁纸！）。 :::
 
-::: tip Steam servers go offline every week for maintenance at a fixed time:
+::: 提示 Steam 服务器每周都会在固定时间离线以进行维护：
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* 美国西海岸：**周二下午 4 点 (UTC - 7)**
+* 中欧地区同一时间：**周三凌晨 1 点 (UTC + 1)**
+* 中国同一时间：**周三上午 8 点 (UTC + 8)**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
+如果您是在本周的大约这个时间阅读本文，服务器可能暂时处于离线状态。 请等待一两个小时，然后重试。 :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam：“缺少已下载的文件”错误
 
 Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
 
