@@ -1,9 +1,9 @@
 # Los visualizadores de audio no funcionan / No se detecta sonido
 
-Hay múltiples razones por que los visualizadores de audio podrían no funcionar. Estamos enlistando todas las razones posibles conocidas aquí, por favor lea la guía completa para asegurarse de que no se ha perdido ninguna de las posibles razones de por qué no funciona.
+Los visualizadores de audio pueden dejar de funcionar por varios motivos. Aquí tenemos una lista de todas las razones posibles. Lea la guía al completo para asegurarse de que no se pierda ninguno de los posibles motivos por los que no funciona.
 
 ## 1. Instalación del dispositivo de audio
-Vaya a la configuración de "Wallpaper Engine" y busque la etiqueta "General". Directo en el centro puede encontrar la sección "Media" donde podrá seleccionar un dispositivo de entrada de audio. Asegúrese de que el dispositivo correcto esté seleccionado. Si no está seguro de cual es el dispositivo correcto, pruebe todos los posibles dispositivos mientras está escuchando música, hasta que el visualizador de audio comience a funcionar.
+Vaya a la configuración de «Wallpaper Engine» y diríjase a la etiqueta «General». En la zona del centro podrá ver la sección «Multimedia», donde podrá elegir un dispositivo de entrada de audio. Asegúrese de que se ha seleccionado el dispositivo correcto. Si no está seguro de cuál es dicho dispositivo, pruébelos todos mientras escucha música hasta que empiezan a funcionar los visualizadores de audio.
 
 Si el dispositivo correcto de audio está seleccionado pero aún no puede oír ningún audio o su visualizador de audio no funciona, asegúrese de que no está silenciando el "Wallpaper Engine" en el mezclador de audio de Windows o que lo tenga a un volumen muy bajo. Windows no diferencia entre los volumenes para grabar audios y el reproductor de audios. Esto significa que si tiene puesto un volumen bajo en Windows, la grabadora de audios tampoco funcionará:
 
