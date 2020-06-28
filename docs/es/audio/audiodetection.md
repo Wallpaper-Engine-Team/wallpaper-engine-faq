@@ -17,11 +17,11 @@ Si detecta el sonido, pero está muy bajo, tenga en cuenta que el volumen de la 
 
 Los auriculares USB o inalámbricos tienden a tener problemas con los controladores de sonido. En muchos dispositivos se solucionan al cambiar la frecuenta de muestreo de audio a 44100 Hz en los ajustes del dispositivo de Windows.
 
-Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+Haga clic derecho en el icono de sonido en la parte inferior derecha de la barra de Windows y después haga clic en «Abrir Configuración de sonido». Haga clic en «Propiedades del dispositivo» en la sección de «Salida» de la ventana que se ha abierto. Acto seguido, haga clic en «Propiedades adicionales del dispositivo» y vaya directamente a la pestaña «Opciones avanzadas». Ahí puede cambiar la velocidad de muestra. La ubicación exacta puede variar dependiendo de la versión de Windows. Si no consigue encontrar la opción, busque guías en internet de cómo cambiar la velocidad de muestra de sonidos de los dispositivos en su versión de Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer headsets with THX
+### Auriculares Razer con THX
 
 Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
 
