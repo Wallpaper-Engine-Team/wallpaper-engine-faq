@@ -10,7 +10,7 @@
 
 ![Real GPU usage](./gpuz.png)
 
-请注意，屏幕截图中的 *GPU 负载*为 24%。 However, at the top you can see that the graphics card is in its low power state at 202.5 MHz. This is the best case scenario, although the 'usage' is displayed as 24%. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
+请注意，屏幕截图中的 *GPU 负载*为 24%。 但您可在顶部看到，显卡处于 202.5 MHz 的低功耗状态。 这是最佳的案例场景，尽管“使用率”显示为 24%。 The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
 
 A card could have clock rates between 100 Mhz and 2000 Mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 100 MHz or 50% of 2000 MHz**.
 
