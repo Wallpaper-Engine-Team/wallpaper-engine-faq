@@ -38,7 +38,7 @@
 * 下载编解码器调整工具：[单击此处](https://www.codecguide.com/download_other.htm)
 * 请确保“Media Foundation”菜单中的所有复选框均**未**选中，然后应用该设置：
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![取消选中 Media Foundation 菜单中的所有选项。](./codectweak.gif)
 
 * 重新启动 PC，然后重试受到影响的壁纸。
 
