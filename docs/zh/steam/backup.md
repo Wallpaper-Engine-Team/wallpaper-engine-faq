@@ -1,8 +1,8 @@
 # 备份 Steam 创意工坊
 
-When wallpapers are deleted from Steam for any reason, Steam will also delete them from your PC. Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
+如果您出于任何原因从 Steam 中删除了壁纸，Steam 也会从您的 PC 上删除这些壁纸。 Wallpaper Engine 无法阻止这种情况，但如果您对此感到担忧，您可以备份壁纸。
 
-Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
+与此类似，许多人报告称，Steam 会随机决定重新下载所有创意工坊文件，如果您的数据量非常庞大，这可能很令人烦恼。 Creating a backup and severing all ties to Steam can avoid that if it happens too often.
 
 # Creating a Backup
 
