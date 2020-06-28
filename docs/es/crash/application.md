@@ -80,7 +80,7 @@ Se trata de un error que se produce por los FPS del monitor y el programa de gra
 
 ## Error 0xc000007b
 
-This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
+Este error indica que algo de su sistema ha corrompido un módulo de Windows; por lo general, en este caso, DirectX está dañado. Intente eliminar estos archivos de forma manual:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
