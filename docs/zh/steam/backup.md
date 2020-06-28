@@ -1,4 +1,4 @@
-# Backup Steam Workshop
+# 备份 Steam 创意工坊
 
 When wallpapers are deleted from Steam for any reason, Steam will also delete them from your PC. Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
 
