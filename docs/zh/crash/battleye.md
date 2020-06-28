@@ -18,11 +18,11 @@ tags:
 BattlEye 会在某些系统上错误地关闭 Wallpaper Engine（和其他应用程序），这并非 Wallpaper Engine 中的错误或崩溃。 即使 Wallpaper Engine 不与系统上的游戏或软件交互，BattleEye 也会主动终止 Wallpaper Engine。
 
 ## Nvidia 低延迟模式
-受此问题影响的大多数用户均在 Nvidia 显卡中启用了*超低延迟模式*。 如果您有 Nvidia 显卡并遇到此问题，请打开 Nvidia 控制面板，然后禁用超低延迟模式以解决此问题。 选择*“管理 3D 设置”* -> *“全局设置”* -> *“低延迟模式”*，然后将此设置更改为*关闭*。 单击*应用*，然后重新启动计算机。 Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
+受此问题影响的大多数用户均在 Nvidia 显卡中启用了*超低延迟模式*。 如果您有 Nvidia 显卡并遇到此问题，请打开 Nvidia 控制面板，然后禁用超低延迟模式以解决此问题。 选择*“管理 3D 设置”* -> *“全局设置”* -> *“低延迟模式”*，然后将此设置更改为*关闭*。 单击*应用*，然后重新启动计算机。 此后，BattlEye 就不会再错误地终止 Wallpaper Engine 了。
 
-## Contacting BattlEye Support
-If the steps above do not fix your issues with a BattlEye-powered multiplayer game, you will need to reach out to BattlEye directly:
+## 联系 BattlEye 支持部门
+如果以上步骤无法解决依托 BattlEye 的多人游戏带来的问题，您需要直接与 BattlEye 联系：
 
-* [BattlEye Support](https://www.battleye.com/contact/)
+* [BattlEye 支持部门](https://www.battleye.com/contact/)
 
 On some systems, BattlEye will terminate Wallpaper Engine for no apparent reason and this is not something we can prevent as BattlEye is a rather intrusive anti-cheat which is able to terminate any application on your computer without notifying you. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
