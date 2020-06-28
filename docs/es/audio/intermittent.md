@@ -6,9 +6,9 @@ Compruebe la pestaña «Rendimiento» en los ajustes de Wallpaper Engine. Si tie
 
 Puede hacer tres cosas para solucionarlo:
 
-* Turn off the recording program on your desktop or reconfigure it to not record Wallpaper Engine by mistake.
-    * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
-    * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
+* Cierre el programa de grabación del escritorio o vuelva a configurarlo para que no grabe Wallpaper Engine por error.
+    * Muchos usuarios tienen este problema debido a **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay**, que se pueden desactivar en los ajustes de **Nvidia GeForce Experience**. Los usuarios de tarjetas gráficas AMD pueden sufrir los mismos problemas a causa de **AMD ReLive**, que forma parte de los controladores de las tarjetas gráficas AMD. Compruebe esto si no sabe con seguridad qué es lo que graba su escritorio.
+    * Si desconoce qué programa causa el problema, compruebe el mezclador de volumen de Windows para ver qué programas tienen acceso al sonido en ese mismo instante; podría serle de ayuda. En su defecto, cierre todos los programas que pueda hasta que solo queden ciertos archivos .exe en la lista de procesos del administrador de tareas de Windows.
 * If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
 
 ![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
