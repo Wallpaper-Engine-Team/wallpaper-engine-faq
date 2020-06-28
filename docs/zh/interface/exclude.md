@@ -6,17 +6,17 @@
 
 您可以从应用程序中筛选掉您不喜欢的类别。 打开 Wallpaper Engine 中的“创意工坊”选项卡，然后通过单击左上角的“筛选结果”按钮启用筛选器侧栏。 取消选择您不希望在结果中看到的所有类别。
 
-如果不想看到动漫壁纸，请移除*动漫*和*MMD (Miku-Miku-Dance)* 类别。 Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+如果不想看到动漫壁纸，请移除*动漫*和*MMD (Miku-Miku-Dance)* 类别。 此外，您可能还希望移除*卡通*和*女孩*，因为它们也包含一些动漫内容，但您很可能也会筛选掉其他内容。
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## Excluding certain age ratings
+## 排除某些年龄分级
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Steam 创意工坊允许一定程度的成人内容，例如裸体。 如果不想看到此类内容，您只需在筛选器中启用“所有人”年龄分级：
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
-Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
+由于大多数内容均标记正确，这将筛选掉大部分成人内容。 如果您仍然遇到具有“所有人”年龄分级的成人内容，请使用应用程序中的举报功能。 The content will be re-classified or banned after a review.
 
 ## Reporting rule-breaking content
 
