@@ -25,14 +25,14 @@ Steam 尚未完成下载和验证文件。 如果下载停滞了一段时间，�
   * [验证 Wallpaper Engine 的文件](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 * 如果所有下载依然停滞：**关闭 Steam**，然后**删除以下目录的内容**：
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * 如果安装了防病毒应用程序，请确保该应用程序专门排除此目录
+    * **注意：**`C:\Program Files (x86)\Steam` 是 Steam 的默认路径，如果您将其安装在其他位置，请查看该位置。
+* 重新启动 Steam。 不要启动任何游戏。 查看 Steam 中的“下载”选项卡，以了解下载进度，并继续任意暂停的下载。
 
-::: details Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
-* Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
-* Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
+::: 详细信息 如果上述步骤未能解决下载问题，请单击此处，查看更多可能的解决方案
+* 请确保防病毒软件或防火墙并未阻止 Steam。 在防病毒应用程序的设置中，排除整个 Steam 目录。
+* 取消订阅无法下载的壁纸，然后在重新启动 Steam 以后再次订阅它们。
+* 在 Steam 的设置中，选择其他内容服务器。 该选项可在 Steam 设置的“下载”选项卡中找到。
 * Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
 * Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
 * Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
