@@ -6,10 +6,10 @@
 
 这一问题与专门为多 GPU 设置（例如 Nvidia Optimus 笔记本电脑或 SLI/Crossfire）构建的硬件无关。 它们具有物理解决方案，可让多 GPU 设置正常工作。
 
-## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
+## 使用不具备 Nvidia SLI/Nvidia Optimus/AMD CrossFire 技术的台式机的辅助 GPU 性能不佳
 
-Many users assume that switching Wallpaper Engine to a secondary GPU will increase the overall system performance. However, this is merely a common misconception and the overall system performance will actually degrade.
+许多用户都认为，将 Wallpaper Engine 切换到辅助 GPU 会提高整体系统性能。 但这只是个常见的误解，整体系统性能实际上会下降。
 
-Wallpaper Engine creates wallpapers which are part of the desktop which means they are part of the Windows Explorer process. Therefore, Wallpaper Engine must use the same GPU as Windows Explorer. If this is not the case, then Windows has to force both GPUs to cooperate in order to render an image for your monitors. This has to be done by the processor which ultimately means the overall computer performance degrades significantly and often takes much more performance than the wallpapers themselves. Some proper multi-GPU technologies (Nvidia SLI, Nvidia Optimus, AMD CrossFire) solve this problem on a hardware-level but this is not applicable in cases where you use an Nvidia GPU and an Intel on-board graphics card, for example.
+Wallpaper Engine 创建的壁纸是桌面的一部分，这意味着它们也是 Windows 资源管理器进程的一部分。 因此，Wallpaper Engine 必须使用与 Windows 资源管理器相同的 GPU。 If this is not the case, then Windows has to force both GPUs to cooperate in order to render an image for your monitors. This has to be done by the processor which ultimately means the overall computer performance degrades significantly and often takes much more performance than the wallpapers themselves. Some proper multi-GPU technologies (Nvidia SLI, Nvidia Optimus, AMD CrossFire) solve this problem on a hardware-level but this is not applicable in cases where you use an Nvidia GPU and an Intel on-board graphics card, for example.
 
 You can still change the GPU of your choice in your graphics card drivers or in your overall system settings, however we strongly advise against doing this as the outcome is not an increase in system performance.
