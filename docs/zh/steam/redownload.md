@@ -14,15 +14,15 @@ Steam 的下载缓存已损坏，现在要重新下载所有文件（无特殊�
 我们构建了一个 Steam 自动修复程序，您可以用它促使 Steam 阻止该问题继续发生（希望如此）！ 请遵照以下步骤操作：
 * 关闭 Steam
 * 转到 `wallpaper_engine` 安装目录
-  * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
-* Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
-  * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
-* Restart Steam and verify the Wallpaper Engine files:
-  * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+  * 默认位置：`C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
+* 运行 `wallpaper_engine\bin\steamredownloadfixer32.exe`
+  * 如果该工具给您发送了任何错误消息，请给我们发送电子邮件，我们将研究能否对其进行改进
+* 重新启动 Steam 并验证 Wallpaper Engine 的文件：
+  * [验证 Wallpaper Engine 的文件](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-You have to repeat this every time the Steam download cache breaks up, unfortunately. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
+遗憾的是，每当 Steam 下载缓存损坏时，您都必须重复此操作。 请记住，我们并未参与构建 Steam，因而无法自行修复 Steam。
 
-## Reinstall Steam
+## 重新安装 Steam
 
 The most reliable long-term fix for most users affected by this Steam bug regularly appears to be to reinstall Steam as some Steam files may simply be broken on your system. Try to reinstall Steam completely:
 
