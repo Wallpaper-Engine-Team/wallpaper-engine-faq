@@ -26,12 +26,12 @@ Steam 的下载缓存已损坏，现在要重新下载所有文件（无特殊�
 
 对于大多数经常受此 Steam 错误影响的用户而言，最可靠的长期修复方法似乎是重新安装 Steam，因为某些 Steam 文件可能只是在您的系统上损坏了。 请尝试完全重新安装 Steam：
 
-1. Uninstall Wallpaper Engine through Steam.
-2. Uninstall Steam itself, make sure to follow the official guide:
-  * [Uninstall Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
-  * Specifically check the Manually Removing Steam section in the Steam Support article above and make a backup of your *steamapps* directory as described there to ensure you will not have to redownload all your games.
+1. 通过 Steam 卸载 Wallpaper Engine。
+2. 卸载 Steam 本身，请务必遵循官方指南：
+  * [卸载 Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
+  * 请专门查看上方 Steam 支持文章中的“手动移除 Steam”部分，然后按照其中的说明备份 *steamapps* 目录，以确保您不必重新下载您的所有游戏。
 
-## Use local backups as a workaround
+## 将本地备份用作解决方法
 
 If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
 
