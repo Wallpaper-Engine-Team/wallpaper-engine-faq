@@ -53,15 +53,15 @@ Este caso suele darse por un problema de Windows. Vuelva a instalar la versión 
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: consejo Asegúrese de que ha seleccionado la casilla «Volver a instalar desde cero» durante la instalación o desinstale todos los controladores primero. If your current drivers are broken, it's important to fully clear them first. :::
+::: consejo Asegúrese de que ha seleccionado la casilla «Volver a instalar desde cero» durante la instalación o desinstale todos los controladores primero. Es primordial que se deshaga de los controladores que tiene si están dañados. :::
 
 ### nvwgf2umx.dll
 
-The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
+Los controladores de Nvidia de su sistema se cuelgan. Diríjase a la página web de Nvidia, descargue los controladores más recientes e instálelos:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: consejo Asegúrese de que ha seleccionado la casilla «Volver a instalar desde cero» durante la instalación o desinstale todos los controladores primero. Es primordial que se deshaga de los controladores que tiene si están dañados. :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
