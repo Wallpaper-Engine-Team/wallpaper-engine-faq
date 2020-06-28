@@ -76,9 +76,9 @@ Se trata de un error que se produce debido a un software de sonido dañado que e
 
 ### fraps32.dll
 
-The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
+Se trata de un error que se produce por los FPS del monitor y el programa de grabación Fraps, un programa que no ha recibido ninguna actualización desde 2013 y está completamente obsoleto. Utilice una alternativa, ya que es probable que el error no llegue a solucionarse porque es un software que está abandonado.
 
-## Crash error 0xc000007b
+## Error 0xc000007b
 
 This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
