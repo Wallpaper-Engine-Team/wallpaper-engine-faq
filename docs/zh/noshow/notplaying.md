@@ -14,9 +14,9 @@
 
 ## 显卡驱动程序全新安装
 
-For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
+对大多数用户而言，全新安装显卡驱动程序将解决与视频壁纸有关的大多数问题。 包括黑屏以及用户壁纸显示在单独的窗口中（标题为**“ActiveMovie 窗口”**）。
 
-1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
+1. 为您的显卡下载最新版显卡驱动程序（如果您有两个显卡，例如 Nvidia 和 Intel，则要为二者均下载最新版驱动程序）：
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
