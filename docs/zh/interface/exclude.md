@@ -1,6 +1,6 @@
-# Exclude certain wallpapers from the search
+# 从搜索中排除某些壁纸
 
-Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+始终使用应用程序中的“创意工坊”选项卡搜索新壁纸。 Steam 创意工坊网站不具备与该应用程序相同的筛选功能，而且会显示过多您不感兴趣的内容。
 
 ## Excluding certain genres (anime, for example)
 
