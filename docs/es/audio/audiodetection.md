@@ -3,9 +3,9 @@
 Hay múltiples razones por que los visualizadores de audio podrían no funcionar. Estamos enlistando todas las razones posibles conocidas aquí, por favor lea la guía completa para asegurarse de que no se ha perdido ninguna de las posibles razones de por qué no funciona.
 
 ## 1. Instalación del dispositivo de audio
-Go to the Wallpaper Engine settings and navigate to the "General" tab. Towards the center you can find the "Media" section where you can select an audio input device. Make sure the correct device is selected. If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
+Vaya a la configuración de "Wallpaper Engine" y busque la etiqueta "General". Directo en el centro puede encontrar la sección "Media" donde podrá seleccionar un dispositivo de entrada de audio. Asegúrese de que el dispositivo correcto esté seleccionado. Si no está seguro de cual es el dispositivo correcto, pruebe todos los posibles dispositivos mientras está escuchando música, hasta que el visualizador de audio comience a funcionar.
 
-If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
+Si el dispositivo correcto de audio está seleccionado pero aún no puede oír ningún audio o su visualizador de audio no funciona, asegúrese de que no está silenciando el "Wallpaper Engine" en el mezclador de audio de Windows o que lo tenga a un volumen muy bajo. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
