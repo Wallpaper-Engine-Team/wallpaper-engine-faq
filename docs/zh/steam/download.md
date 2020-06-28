@@ -16,14 +16,14 @@ tags:
 
 ::: 提示 您可以通过以下方法轻松检查网络路由器是否阻止 Steam 进行下载：切换到智能手机上的移动热点，然后尝试通过该热点下载壁纸。 :::
 
-## 壁纸下载卡在 0% 或 100%（或任何其他百分比）
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## 壁纸下载停滞在 0% 或 100%（或任何其他百分比）
+Steam 尚未完成下载和验证文件。 如果下载停滞了一段时间，而且即使您等待了一段时间，Steam 下载仍无法正常工作，请尝试执行以下操作：
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+* 在 Steam 的选项中清除 Steam 的下载缓存：
+  * [清除 Steam 的下载缓存](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* 然后，在 Steam 中验证 Wallpaper Engine 的文件：
+  * [验证 Wallpaper Engine 的文件](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* 如果所有下载依然停滞：**关闭 Steam**，然后**删除以下目录的内容**：
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
     * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
     * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
