@@ -2,9 +2,9 @@
 
 尽管安装了专用 GPU，但如果您在 BIOS 中启用台式电脑上的集成 GPU，您可能会遇到 *dwm.exe* 性能不佳和 CPU 使用率过高的问题。 如有可能，请不要启用集成 GPU，而要将显示器插入专用 GPU。 同时使用两个独立的图形解决方案将破坏桌面窗口管理器的硬件加速，请务必将所有显示器均插入主显卡。 这并非 Wallpaper Engine 中的错误或问题，但如果采用了并非所有显示器都插入主显卡的硬件设置，所有多显示器软件都会受到影响。
 
-如果没有 Nvidia Optimus 或类似的技术，Windows 就得把壁纸图像从一个 GPU 复制到另一个 GPU — 这一操作的速度非常缓慢。 In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+如果不具备 Nvidia Optimus 技术或类似的技术，Windows 就得把壁纸图像从一个 GPU 复制到另一个 GPU — 这一操作的速度非常缓慢。 事实上，两个 GPU 之间的任何共享操作都会因此受到影响，这与在两台显示器之间移动游戏窗口是一样的。
 
-This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. They have a physical solution to make this work correctly.
+这一问题与专门为 Nvidia Optimus 笔记本电脑或 SLI/Crossfire 等多 GPU 设置构建的硬件无关。 它们具有物理解决方案，可让多 GPU 设置正常工作。
 
 ## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
 
