@@ -10,7 +10,7 @@ tags:
 
 # Steam 壁纸下载问题
 
-Keep in mind that **all downloads are performed by Steam**. Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+请记住，**所有下载均由 Steam 执行**。 Wallpaper Engine 仅显示 Steam 的下载状态，所有下载问题均与 Steam 出现的问题有关，而与 Wallpaper Engine 没有直接关系。 This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
 
 If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
 
