@@ -9,9 +9,9 @@
 
 Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
-| **Top Articles**                                                                                                      |
+| **热门文章**                                                                                                              |
 | --------------------------------------------------------------------------------------------------------------------- |
-| 1. [Steam Download Issues](steam/download.html)                                                                       |
+| 1. [Steam 下载问题](steam/download.html)                                                                                  |
 | 2. [Black Screen / Videos not Playing](noshow/notplaying.html)                                                        |
 | 3. [Video colors wrong / too bright or too dark / zoomed-in / pixelated / border around video](videos/artifacts.html) |
 | 4. [Wallpaper Engine crashing](crash/application)                                                                     |
