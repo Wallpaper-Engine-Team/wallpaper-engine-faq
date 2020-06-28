@@ -27,10 +27,10 @@ tags:
 
 您的显卡驱动程序已损坏或配置错误。 为显卡下载最新版驱动程序（即使您已经拥有最新版驱动程序），然后执行驱动程序的全新安装。 请务必先卸载当前的驱动程序，然后再安装最新版驱动程序，以确保删除所有损坏的文件或设置。
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+如果问题仍然存在，请关闭 Wallpaper Engine。 然后，使用 Steam 中标记为“禁用 UI 硬件加速”的第三个启动选项，重新启动 Wallpaper Engine。
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### 罕见的 Steam overlay 错误导致 Wallpaper Engine 用户界面损坏
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+导致应用程序窗口呈黑色的另一个可能的原因是，罕见的 Steam overlay 错误。 您可以尝试执行以下操作：
 
 Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
