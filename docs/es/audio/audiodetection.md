@@ -5,7 +5,7 @@ Hay múltiples razones por que los visualizadores de audio podrían no funcionar
 ## 1. Instalación del dispositivo de audio
 Vaya a la configuración de "Wallpaper Engine" y busque la etiqueta "General". Directo en el centro puede encontrar la sección "Media" donde podrá seleccionar un dispositivo de entrada de audio. Asegúrese de que el dispositivo correcto esté seleccionado. Si no está seguro de cual es el dispositivo correcto, pruebe todos los posibles dispositivos mientras está escuchando música, hasta que el visualizador de audio comience a funcionar.
 
-Si el dispositivo correcto de audio está seleccionado pero aún no puede oír ningún audio o su visualizador de audio no funciona, asegúrese de que no está silenciando el "Wallpaper Engine" en el mezclador de audio de Windows o que lo tenga a un volumen muy bajo. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
+Si el dispositivo correcto de audio está seleccionado pero aún no puede oír ningún audio o su visualizador de audio no funciona, asegúrese de que no está silenciando el "Wallpaper Engine" en el mezclador de audio de Windows o que lo tenga a un volumen muy bajo. Windows no diferencia entre los volumenes para grabar audios y el reproductor de audios. Esto significa que si tiene puesto un volumen bajo en Windows, la grabadora de audios tampoco funcionará:
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
