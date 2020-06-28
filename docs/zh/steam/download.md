@@ -34,11 +34,11 @@ Steam 尚未完成下载和验证文件。 如果下载停滞了一段时间，�
 * 取消订阅无法下载的壁纸，然后在重新启动 Steam 以后再次订阅它们。
 * 在 Steam 的设置中，选择其他内容服务器。 该选项可在 Steam 设置的“下载”选项卡中找到。
 * 请确保您未在 **Steam 设置**中，根据时间、带宽和是否在应用内限制 Steam 的下载。
-* Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
-* Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
-* Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
-* Try again after waiting at least for a day in case there are Steam server issues.
-* **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!). :::
+* 在 Steam 中，打开“下载”选项卡（库 -> 下载）。 查找暂停的下载。 如有发现，单击“继续”。
+* 在 Steam 中，右键单击 Wallpaper Engine，然后依次选择“属性”和**“允许后台下载”**。
+* 请确保 Steam 中没有待处理的游戏更新，否则它可能会暂停或禁用壁纸下载。
+* 等待至少一天后重试，以防 Steam 服务器出现问题。
+* **作为最后的选择**，请尝试重新安装 Wallpaper Engine，以清除所有损坏的 Steam 文件（这将重新下载所有壁纸！）。 :::
 
 ::: tip Steam servers go offline every week for maintenance at a fixed time:
 
