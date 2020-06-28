@@ -10,6 +10,6 @@
 
 许多用户都认为，将 Wallpaper Engine 切换到辅助 GPU 会提高整体系统性能。 但这只是个常见的误解，整体系统性能实际上会下降。
 
-Wallpaper Engine 创建的壁纸是桌面的一部分，这意味着它们也是 Windows 资源管理器进程的一部分。 因此，Wallpaper Engine 必须使用与 Windows 资源管理器相同的 GPU。 If this is not the case, then Windows has to force both GPUs to cooperate in order to render an image for your monitors. This has to be done by the processor which ultimately means the overall computer performance degrades significantly and often takes much more performance than the wallpapers themselves. Some proper multi-GPU technologies (Nvidia SLI, Nvidia Optimus, AMD CrossFire) solve this problem on a hardware-level but this is not applicable in cases where you use an Nvidia GPU and an Intel on-board graphics card, for example.
+Wallpaper Engine 创建的壁纸是桌面的一部分，这意味着它们也是 Windows 资源管理器进程的一部分。 因此，Wallpaper Engine 必须使用与 Windows 资源管理器相同的 GPU。 否则，Windows 将不得不强制两个 GPU 合作为显示器渲染图像。 此操作必须由处理器完成，这最终意味着整体计算机性能将大幅下降，而且往往要耗费比壁纸本身多很多的性能。 某些适当的多 GPU 技术（Nvidia SLI、Nvidia Optimus、AMD CrossFire）可在硬件级别解决此问题，但在某些情况下并不适用，例如在使用 Nvidia GPU 和 Intel 板载显卡的情况下。
 
-You can still change the GPU of your choice in your graphics card drivers or in your overall system settings, however we strongly advise against doing this as the outcome is not an increase in system performance.
+您仍然可以在显卡驱动程序或整体系统设置中，更改您选择的 GPU，但我们强烈建议您不要这样做，因为这并不会提高系统性能。
