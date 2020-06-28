@@ -25,4 +25,4 @@ BattlEye 会在某些系统上错误地关闭 Wallpaper Engine（和其他应用
 
 * [BattlEye 支持部门](https://www.battleye.com/contact/)
 
-On some systems, BattlEye will terminate Wallpaper Engine for no apparent reason and this is not something we can prevent as BattlEye is a rather intrusive anti-cheat which is able to terminate any application on your computer without notifying you. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
+在某些系统上，BattlEye 会无故终止 Wallpaper Engine，我们无法阻止这种情况，因为 BattlEye 是一种颇具侵入性的反作弊系统，可在不通知您的情况下，终止您计算机上的任何应用程序。 在这种情况下，BattlEye 需要调查您系统上的问题，因为该问题在其软件中属于错误行为。
