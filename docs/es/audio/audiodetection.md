@@ -5,17 +5,17 @@ Los visualizadores de audio pueden dejar de funcionar por varios motivos. Aquí 
 ## 1. Instalación del dispositivo de audio
 Vaya a la configuración de «Wallpaper Engine» y diríjase a la etiqueta «General». En la zona del centro podrá ver la sección «Multimedia», donde podrá elegir un dispositivo de entrada de audio. Asegúrese de que se ha seleccionado el dispositivo correcto. Si no está seguro de cuál es dicho dispositivo, pruébelos todos mientras escucha música hasta que empiezan a funcionar los visualizadores de audio.
 
-Si se ha seleccionado el dispositivo correcto, pero todavía no puede oír nada o el visualizador no funciona, asegúrese de que no ha silenciado Wallpaper Engine en el mezclador de Windows o de que no lo tenga a un volumen muy bajo. Windows no diferencia entre los volúmenes de grabación y reproducción de sonido. Esto significa que si tiene puesto un volumen bajo en Windows, la grabadora de audios tampoco funcionará:
+Si se ha seleccionado el dispositivo correcto, pero todavía no puede oír nada o el visualizador no funciona, asegúrese de que no ha silenciado Wallpaper Engine en el mezclador de Windows o de que no lo tenga a un volumen muy bajo. Windows no diferencia entre los volúmenes de grabación y reproducción de sonido. Esto significa que si tiene el volumen bajo en Windows, la grabadora no funcionará.
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-Si el audio es detectado pero su volumen es muy bajo, tenga en mente que el volumen de la aplicación (de su reproductor de música, navegador web, etc.) afecta a que tan bien se detecta el audio. Puede potenciar la detección de sonido en la etiqueta "General" de la configuración de "Wallpaper Engine" en caso de que no quiera incrementar el volumen de la aplicación (el valor de volumen por defecto de la grabadora es de 50).
+Si detecta el sonido, pero está muy bajo, tenga en cuenta que el volumen de la aplicación (del reproductor de música, del navegador, etc.) afecta a la detección de sonido. Si no quiere subir el volumen de la aplicación, puede mejorar la detección de sonido en la pestaña «General» de los ajustes de Wallpaper Engine (el volumen de grabación por defecto es 50).
 
-## 2. Hardware-specific issues
+## 2. Problemas con el hardware
 
-### Corsair Void Pro / Bluetooth / USB headsets
+### Corsair Void Pro / Bluetooth / Auriculares USB
 
-USB / wireless headsets are prone to sound driver issues. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:
+Los auriculares USB o inalámbricos tienden a tener problemas con los controladores de sonido. En muchos dispositivos se solucionan al cambiar la frecuenta de muestreo de audio a 44100 Hz en los ajustes del dispositivo de Windows.
 
 Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
