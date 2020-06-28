@@ -8,13 +8,13 @@
 
 如果不想看到动漫壁纸，请移除*动漫*和*MMD (Miku-Miku-Dance)* 类别。 此外，您可能还希望移除*卡通*和*女孩*，因为它们也包含一些动漫内容，但您很可能也会筛选掉其他内容。
 
-![Deselect all categories you do not like in the filter sidebar](./categories.gif)
+![在筛选器侧栏中，取消选择您不喜欢的所有类别](./categories.gif)
 
 ## 排除某些年龄分级
 
 Steam 创意工坊允许一定程度的成人内容，例如裸体。 如果不想看到此类内容，您只需在筛选器中启用“所有人”年龄分级：
 
-![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
+![在筛选器侧栏中，取消选择"成人"和"可疑"年龄分级](./ageratings.gif)
 
 由于大多数内容均标记正确，这将筛选掉大部分成人内容。 如果您仍然遇到具有“所有人”年龄分级的成人内容，请使用应用程序中的举报功能。 该内容将在审核后重新分类或封禁。
 
@@ -22,4 +22,4 @@ Steam 创意工坊允许一定程度的成人内容，例如裸体。 如果不�
 
 我们和 Steam 管理员/版主每天都在删除违规壁纸。 请举报违反准则的创意工坊提交内容，以帮助我们找到它们。
 
-创意工坊允许用户发布作品，而无需我们事先对其进行检查，这是 Steam 创意工坊的工作方式，我们无法改变。 We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
+创意工坊允许用户发布作品，而无需我们事先对其进行检查，这是 Steam 创意工坊的工作方式，我们无法改变。 我们只有在提交内容上传后，才能删除它们。 如果这给您带来困扰，请务必在筛选器设置中启用*已批准*标签，因为带有此标签的壁纸均为手工挑选，而且经过了手动检查。 请务必阅读上文有关如何配置筛选器设置的部分，以便您可以轻松移除不希望看到的某些类型的内容。
