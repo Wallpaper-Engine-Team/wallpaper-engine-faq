@@ -31,19 +31,19 @@
 
 ::: 提示 请您务必执行全新安装 — 这意味着，在安装新驱动程序之前，必须完全删除当前的显卡驱动程序和驱动程序设置，否则将无法正常工作。 :::
 
-## Codec Tweak Tool
+## 编解码器调整工具
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+如果执行显卡驱动程序的全新安装以后仍无法正常工作，请尝试重置视频编解码器：
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* 下载编解码器调整工具：[单击此处](https://www.codecguide.com/download_other.htm)
+* 请确保“Media Foundation”菜单中的所有复选框均**未**选中，然后应用该设置：
 
 ![Uncheck all options in the Media Foundation options](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* 重新启动 PC，然后重试受到影响的壁纸。
 
-## Additional video codecs
+## 其他视频编解码器
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+如果执行上述步骤以后，受到影响的视频壁纸仍无法正常工作，请下载 LAV，并按照本指南中的说明使用 DirectShow：
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [使用 LAV 和 DirectShow](/videos/lav.html)。
