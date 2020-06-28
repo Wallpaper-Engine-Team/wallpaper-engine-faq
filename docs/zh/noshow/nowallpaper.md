@@ -22,10 +22,10 @@ Wallpaper Engine 可与大多数桌面修改应用程序协调并存。 但有�
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+一般来说，Wallpaper Engine 可以很好地与 *Fences* 配合使用。 但**如果您安装了 Fences 却将其禁用**，它将隐藏 Wallpaper Engine 中的壁纸。 您需要启用它，或将其完全卸载。
 
-## Gray Wallpaper or missing textures on Windows 7
+## 壁纸在 Windows 7 系统上呈灰色或缺少纹理
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+请确保已安装 Windows 7 的更新 **KB2533623**。 您可以通过以下链接手动安装该更新，或者确保 Windows Update 正常运行并自动安装该更新。 You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
