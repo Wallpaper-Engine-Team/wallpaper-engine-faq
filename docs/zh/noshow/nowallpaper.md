@@ -1,12 +1,12 @@
 ---
 tags:
-  - antivirus
-  - showing
+  - 防病毒
+  - 显示
 ---
 
-# Wallpapers not visible
+# 壁纸不可见
 
-If some or all of your wallpapers do not show up, it's often caused by an antivirus application blocking Wallpaper Engine by mistake. If you are using an antivirus application, please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables:
+如果部分或全部墙纸不显示，其原因通常是防病毒应用程序错误地阻止了 Wallpaper Engine。 If you are using an antivirus application, please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
