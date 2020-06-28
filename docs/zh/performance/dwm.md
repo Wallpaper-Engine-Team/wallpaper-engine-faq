@@ -4,7 +4,7 @@
 
 如果不具备 Nvidia Optimus 技术或类似的技术，Windows 就得把壁纸图像从一个 GPU 复制到另一个 GPU — 这一操作的速度非常缓慢。 事实上，两个 GPU 之间的任何共享操作都会因此受到影响，这与在两台显示器之间移动游戏窗口是一样的。
 
-这一问题与专门为 Nvidia Optimus 笔记本电脑或 SLI/Crossfire 等多 GPU 设置构建的硬件无关。 它们具有物理解决方案，可让多 GPU 设置正常工作。
+这一问题与专门为多 GPU 设置（例如 Nvidia Optimus 笔记本电脑或 SLI/Crossfire）构建的硬件无关。 它们具有物理解决方案，可让多 GPU 设置正常工作。
 
 ## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
 
