@@ -1,16 +1,16 @@
 # 有关高 GPU 使用率的误解
 
-大多数情况下，Windows 任务管理器并不显示真实的 GPU 使用率，因而造成了许多困惑。 The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
+大多数情况下，Windows 任务管理器并不显示真实的 GPU 使用率，因而造成了许多困惑。 GPU 使用率忽略了显卡的*电源状态*和时钟速率，这使其极为不准确，通常会显示高出许多的数值。 要查看真实的 GPU 使用率，请使用 GPU-Z 等工具：
 
-* [Download GPU-Z](https://www.techpowerup.com/gpuz/)
+* [下载 GPU-Z](https://www.techpowerup.com/gpuz/)
 
-## Finding out your actual GPU load
+## 查明实际的 GPU 负载
 
-Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
+安装 GPU-Z 以后，请查看“传感器”选项卡，了解 GPU 时钟速率和 GPU 负载：
 
 ![Real GPU usage](./gpuz.png)
 
-Notice *GPU load* in the screenshot is at 24%. However, at the top you can see that the graphics card is in its low power state at 202.5 MHz. This is the best case scenario, although the 'usage' is displayed as 24%. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
+请注意，屏幕截图中的 *GPU 负载*为 24%。 However, at the top you can see that the graphics card is in its low power state at 202.5 MHz. This is the best case scenario, although the 'usage' is displayed as 24%. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
 
 A card could have clock rates between 100 Mhz and 2000 Mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 100 MHz or 50% of 2000 MHz**.
 
