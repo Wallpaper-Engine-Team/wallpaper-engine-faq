@@ -22,14 +22,14 @@
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. 如果系统要求，请完全卸载当前的显卡驱动程序，并删除所有现有设置。 Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. 如果系统要求，请完全卸载当前的显卡驱动程序，并删除所有现有设置。 对于 Nvidia 驱动程序，您还可以选中显示“执行全新安装”的复选框。
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+如果不确定该如何执行此操作，您还可以使用[显示驱动程序卸载程序（“DDU”）](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)。
 
-3. Install the drivers you have just downloaded in step 1.
-4. Restart your PC again, see if it works now.
+3. 安装您在第 1 步中刚刚下载的驱动程序。
+4. 再次重新启动 PC，看看现在是否可以正常工作。
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: 提示 请您务必执行全新安装 — 这意味着，在安装新驱动程序之前，必须完全删除当前的显卡驱动程序和驱动程序设置，否则将无法正常工作。 :::
 
 ## Codec Tweak Tool
 
