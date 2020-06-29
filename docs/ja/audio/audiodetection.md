@@ -9,15 +9,15 @@ Wallpaper Engine の設定画面で、「一般」タブを開きます。 中�
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-If audio is detected but is too quiet, keep in mind that the application volume (of your music player, web browser, etc.) affects how well audio is detected. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+オーディオが検知されていても非常に音が小さい場合は、アプリケーション（音楽プレイヤー、Webブラウザなど）のボリュームがオーディオの検知状態に影響を与えるという点にご注意ください。 アプリケーションのボリュームを上げたくない場合は、Wallpaper Engine 設定の「一般」タブでサウンド検知をブーストすることができます（デフォルトの録音ボリュームは50です）。
 
-## 2. Hardware-specific issues
+## 2. 特定のハードの問題
 
-### Corsair Void Pro / Bluetooth / USB headsets
+### Corsair Void Pro / Bluetooth / USB ヘッドセット
 
-USB / wireless headsets are prone to sound driver issues. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:
+USBやワイヤレスのヘッドセットでは、サウンドドライバーの問題がよく発生します。 多くのデバイスでは、Windows のデバイス設定でオーディオサンプルレートを 44100 Hz に固定すると、問題を解消することができます。
 
-Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+Windows の右下にあるトレイエリアでオーディオアイコンを右クリックし、「サウンド設定を開く」を選択します。 開いたウィンドウで、「出力」セクションの「デバイスのプロパティ」をクリックします。 その後、「追加デバイスのプロパティ」をクリックし、「詳細」タブに進みます。 You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
