@@ -1,6 +1,6 @@
 # 视频冻结/卡顿/效果不佳
 
-This could come from your hardware not being powerful enough to display the specific video properly. A video wallpaper isn't comparable to standard video players, it must be composed with the icons as well and potentially stretches over multiple screens. It is also using the video decoder of your GPU by default to reduce CPU usage to a minimum.
+出现这种问题的原因可能是硬件不够强大，无法正确显示特定视频。 视频壁纸无法与标准的视频播放器相比，它还必须包含图标，并可能延伸到多个屏幕上。 默认情况下，它还使用 GPU 的视频解码器，以最大限度地降低 CPU 使用率。
 
 ## Background recording hooks
 It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
