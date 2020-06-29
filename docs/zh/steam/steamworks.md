@@ -10,4 +10,4 @@ Wallpaper Engine 和 Steam 出于某些原因无法通信。 重新启动 Steam�
 * 从防病毒应用程序中排除 Steam 目录，或完全禁用所有第三方防病毒应用程序
 * 关闭“Steam 空闲”程序。
 * 删除覆盖 PC 上 Steam 文件的已破解 Steam 游戏。
-* Uninstall Wallpaper Engine and Steam. Delete the entire Steam folder. Reinstall Steam and Wallpaper Engine.
+* 卸载 Wallpaper Engine 和 Steam。 删除整个 Steam 文件夹。 重新安装 Steam 和 Wallpaper Engine。
