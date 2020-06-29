@@ -7,7 +7,7 @@ Wallpaper Engine 和 Steam 出于某些原因无法通信。 重新启动 Steam�
 * 重新启动 Steam，然后重新启动 Wallpaper Engine。
 * 确保您已登录拥有 Wallpaper Engine 的 Steam 帐户。
 * 请**不要**以管理员身份运行 Steam 或 Wallpaper Engine。
-* Exclude the Steam directory from your antivirus or completely disable any third-party antivirus application
-* Close "Steam idling" programs.
-* Delete cracked Steam games that override Steam's presence on the PC.
+* 从防病毒应用程序中排除 Steam 目录，或完全禁用所有第三方防病毒应用程序
+* 关闭“Steam 空闲”程序。
+* 删除覆盖 PC 上 Steam 文件的已破解 Steam 游戏。
 * Uninstall Wallpaper Engine and Steam. Delete the entire Steam folder. Reinstall Steam and Wallpaper Engine.
