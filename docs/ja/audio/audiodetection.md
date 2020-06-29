@@ -21,7 +21,7 @@ Windows の右下にあるトレイエリアでオーディオアイコンを右
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer headsets with THX
+### THX 付き Razer ヘッドセット
 
 Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
 
