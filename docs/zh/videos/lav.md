@@ -34,4 +34,4 @@ tags:
 * 将 **WebM 框架**选项更改为**首选 Native**
 * 重新启动该应用程序，然后再次尝试使用视频壁纸
 
-查看 LAV 系统托盘图标是否出现以及 CPU 使用率是否接近零，如果答案为是，那么您的 .webm 内容现已经过硬件加速。 If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+查看 LAV 系统托盘图标是否出现以及 CPU 使用率是否接近零，如果答案为是，那么您的 .webm 内容现已经过硬件加速。 如果硬件加速似乎无法正常工作，请确保已正确配置所有选项并正确安装 LAV。
