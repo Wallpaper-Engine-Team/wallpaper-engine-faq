@@ -1,6 +1,6 @@
-# Editing Downloaded Wallpapers
+# ダウンロードした壁紙の編集
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+基本的に、Wallpaper Engine はダウンロードされた壁紙自体の編集はサポートしていません。 However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
 
 Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
 
