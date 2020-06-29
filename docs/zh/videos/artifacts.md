@@ -4,16 +4,16 @@ tags:
   - 明亮
   - 黑暗
   - 缩放
-  - zoomed-in
-  - pixelated
-  - border
-  - gamma
-  - quality
-  - wrong
-  - ugly
+  - 放大
+  - 像素化
+  - 边框
+  - 伽玛
+  - 质量
+  - 错误
+  - 难看
 ---
 
-# Video wallpapers look wrong
+# 视频壁纸外观错误
 
 Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
 
