@@ -14,10 +14,10 @@ Wallpaper Engine no puede causar que falle el sistema completo, pues no afecta a
 
 Wallpaper Engine no instala ningún controlador, no sustituye archivos del sistema ni hace nada peligroso o cuestionable que podría dar lugar a un fallo del sistema o a que se cierre otro programa.
 
-Cualquier fallo que tenga Wallpaper Engine solo podría causar que se cerrara el propio programa en el peor de los casos, pero es imposible que haga que falle su sistema u otros programas. This is impossible, Microsoft has designed Windows this way and Wallpaper Engine adheres to this.
+Cualquier fallo que tenga Wallpaper Engine solo podría causar que se cerrara el propio programa en el peor de los casos, pero es imposible que haga que falle su sistema u otros programas. Es imposible, pues Microsoft ha diseñado Windows de esta forma y Wallpaper Engine se adhiere a esta.
 
-## Finding the cause of system crashes
-Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
+## Descubrir qué causa los fallos del sistema
+Wallpaper Engine necesita lo siguiente de su equipo: aceleración 3D, aceleración de vídeo y sonido. Puede intentar descubrir qué problema tiene su ordenador si usa varios tipos diferentes de fondos. Por ejemplo, si solo tiene problemas con los fondos de tipo «vídeo», puede que el problema venga del decodificador de hardware de su tarjeta gráfica. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
 
 If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
 
