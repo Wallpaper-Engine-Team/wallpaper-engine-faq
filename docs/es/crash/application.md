@@ -85,9 +85,9 @@ Este error indica que algo de su sistema ha corrompido un módulo de Windows; po
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
+Vuelva a instalarlos con el instalador de DirectX 9:*C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe*. (La ubicación exacta depende del lugar en el que esté el directorio de instalación wallpaper_engine).
 
-If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
+Si le sigue apareciendo el mismo error es que algo ha dañado a un módulo similar de DirectX. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
 
 ## Crashing after Hibernation / Sleep
 
