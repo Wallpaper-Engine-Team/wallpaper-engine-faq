@@ -3,16 +3,16 @@
 
 **建議您使用右上方角落的搜尋列**或直接檢視左方的所有文章清單，文章已經盡量以簡單明瞭的方式分類過。 下方也列出了最常使用的說明文章，或許可以解決您碰上的問題。
 
-::: tip Use the search bar in the upper right corner with single keywords. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black". :::
+::: 提示 請使用右上方角落的搜尋列輸入單一關鍵字。 例如，若您的桌布只顯示為黑色背景，請以「黑」為關鍵字執行搜尋。 :::
 
-## Most popular support articles
+## 熱門支援文章
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+請優先檢視這份清單，瞭解清單中的問題描述是否符合您碰上的問題，否則請使用右上方角落的搜尋列，或檢視左方的清單以檢視更多文章：
 
-| **Top Articles**                                                                                                      |
-| --------------------------------------------------------------------------------------------------------------------- |
-| 1. [Steam Download Issues](steam/download.html)                                                                       |
-| 2. [Black Screen / Videos not Playing](noshow/notplaying.html)                                                        |
-| 3. [Video colors wrong / too bright or too dark / zoomed-in / pixelated / border around video](videos/artifacts.html) |
-| 4. [Wallpaper Engine crashing](crash/application)                                                                     |
-| 5. [Exporting wallpapers as GIF / video files](general/export)                                                        |
+| **最常用文章**                                                      |
+| -------------------------------------------------------------- |
+| 1. [Steam 下載問題](steam/download.html)                           |
+| 2. [黑色螢幕 / 視訊無法播放](noshow/notplaying.html)                     |
+| 3. [視訊顏色錯誤 / 過亮或過暗 / 放大 / 像素化 / 視訊四周邊框](videos/artifacts.html) |
+| 4. [Wallpaper Engine 停止運作](crash/application)                  |
+| 5. [將桌布匯出為 GIF / 視訊檔案](general/export)                         |
