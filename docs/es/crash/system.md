@@ -17,10 +17,10 @@ Wallpaper Engine no instala ningún controlador, no sustituye archivos del siste
 Cualquier fallo que tenga Wallpaper Engine solo podría causar que se cerrara el propio programa en el peor de los casos, pero es imposible que haga que falle su sistema u otros programas. Es imposible, pues Microsoft ha diseñado Windows de esta forma y Wallpaper Engine se adhiere a esta.
 
 ## Descubrir qué causa los fallos del sistema
-Wallpaper Engine necesita lo siguiente de su equipo: aceleración 3D, aceleración de vídeo y sonido. Puede intentar descubrir qué problema tiene su ordenador si usa varios tipos diferentes de fondos. Por ejemplo, si solo tiene problemas con los fondos de tipo «vídeo», puede que el problema venga del decodificador de hardware de su tarjeta gráfica. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
+Wallpaper Engine necesita lo siguiente de su equipo: aceleración 3D, aceleración de vídeo y sonido. Puede intentar descubrir qué problema tiene su ordenador si usa varios tipos diferentes de fondos. Por ejemplo, si solo tiene problemas con los fondos de tipo «vídeo», puede que el problema venga del decodificador de hardware de su tarjeta gráfica. Windwos no lo usa por sí solo y la gran mayoría de juegos no lo utilizan, por lo que no experimentaría ningún problema con el a la hora de jugar.
 
-If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
+Si, por el contrario, su problema es una pantalla azul, busque el código del error en internet. Aparecerán muchos resultados que podrían servirle, ya que es un problema del sistema global.
 
-Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
+Cualquier tipo de programa superpuesto o de grabación puede causar problemas, y eso incluye Geforce Experience, así que elimínelos.
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool.html).
+Use la herramienta de escaneado que le notificará si está activo algún programa conflictivo: [Pulse aquí](/debug/scantool.html).
