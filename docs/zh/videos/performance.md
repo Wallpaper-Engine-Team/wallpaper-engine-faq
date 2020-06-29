@@ -2,8 +2,8 @@
 
 出现这种问题的原因可能是硬件不够强大，无法正确显示特定视频。 视频壁纸无法与标准的视频播放器相比，它还必须包含图标，并可能延伸到多个屏幕上。 默认情况下，它还使用 GPU 的视频解码器，以最大限度地降低 CPU 使用率。
 
-## Background recording hooks
-It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
+## 后台录制挂钩
+这还可能由旨在录制 ReLive、Shadow Play/Nvidia Share 或 Windows GameDVR 等应用程序的任何类型的驱动程序功能导致。 尝试禁用这些驱动程序功能，看看是否有效果，然后从这些功能中排除 Wallpaper Engine。 此外，还要确保没有任何其他录制/覆盖程序自行加载到 Wallpaper Engine 中，减缓渲染速度。
 
 You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
 
