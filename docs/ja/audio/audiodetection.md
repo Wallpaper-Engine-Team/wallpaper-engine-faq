@@ -1,11 +1,11 @@
-# Audio visualizers do not work / no sound detected
+# オーディオビジュアライザーが機能しません / サウンドが検知されません
 
-There are multiple reasons why audio visualizers may not work. We are listing all known possible reasons here, please read the full guide to ensure you have not missed any of the possible reasons why it does not work.
+オーディオビジュアライザーが機能しない理由としてはいくつかの原因が考えられます。 ここに、現時点でわかっている原因可能性をすべてリストアップしました。フルガイドをお読みいただき、機能しない原因として見落としているものがないか、ご確認ください。
 
-## 1. Audio device setup
-Go to the Wallpaper Engine settings and navigate to the "General" tab. Towards the center you can find the "Media" section where you can select an audio input device. Make sure the correct device is selected. If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
+## 1. オーディオデバイスのセットアップ
+Wallpaper Engine の設定画面で、「一般」タブを開きます。 中ほどに「メディア」セクションがあります。ここでオーディオ入力デバイスを選択することができます。 正しいデバイスが選択されていることを確認してください。 どのデバイスが正しいのかよくわからない場合は、音楽を聴きながら可能性のあるデバイスをすべて、オーディオビジュアライザーが動くまで試してください。
 
-If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
+正しいオーディオデバイスが選択されているにもかかわらず、音が全く聞こえなかったりオーディオビジュアライザーが動かなかったりする場合は、Windows で Wallpaper Engine がミュートされていないか、また、非常にボリュームが低くなっていないかを確認してください。 Windows は、録音と再生のボリュームを区別しません。 すなわち、Windows のボリュームが低くなっていると、録音も機能しません。
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
