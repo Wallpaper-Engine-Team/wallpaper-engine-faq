@@ -7,7 +7,7 @@ Wallpaper Engine の設定画面で、「一般」タブを開きます。 中�
 
 正しいオーディオデバイスが選択されているにもかかわらず、音が全く聞こえなかったりオーディオビジュアライザーが動かなかったりする場合は、Windows で Wallpaper Engine がミュートされていないか、また、非常にボリュームが低くなっていないかを確認してください。 Windows は、録音と再生のボリュームを区別しません。 すなわち、Windows のボリュームが低くなっていると、録音も機能しません。
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![Windows オーディオミキサーで、Wallpaper Engine のボリュームを上げるか消音を解除する](./audiomixer.png)
 
 オーディオが検知されていても非常に音が小さい場合は、アプリケーション（音楽プレイヤー、Webブラウザなど）のボリュームがオーディオの検知状態に影響を与えるという点にご注意ください。 アプリケーションのボリュームを上げたくない場合は、Wallpaper Engine 設定の「一般」タブでサウンド検知をブーストすることができます（デフォルトの録音ボリュームは50です）。
 
@@ -19,22 +19,22 @@ USBやワイヤレスのヘッドセットでは、サウンドドライバー�
 
 Windows の右下にあるトレイエリアでオーディオアイコンを右クリックし、「サウンド設定を開く」を選択します。 開いたウィンドウで、「出力」セクションの「デバイスのプロパティ」をクリックします。 その後、「追加デバイスのプロパティ」をクリックし、「詳細」タブに進みます。 そこのメニューからサンプリングレートを変更することができます。 このオプションの場所は、Windows のバージョンによって異なります。 このオプションが見つからない場合は、インターネットで検索し、お使いの Windows のバージョンでのサウンドデバイスのサンプリングレートの変更方法をお探しください。
 
-![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
+![サンプリングレートを "24 bit, 44100 Hz" にする](./samplingrate.png)
 
 ### THX 付き Razer ヘッドセット
 
-Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
+Wallpaper Engine へのオーディオ入力を、「スピーカー（Razer XYZ）」デバイスに変更します。 このオプションは一般設定の中にあります。THX エフェクト付きの Razer ヘッドセットであればどれでも、この方法で機能するはずです。
 
-## 3. Conflicting applications
+## 3. 競合するアプリケーション
 
-If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
+オーディオ設定が正しいはずなのに、オーディオ応答壁紙がオーディオに反応しない場合、可能性として高いのは、PC全体でループバック録音機能を無効にしているサウンドハードウェアまたはソフトウェアを使用されていることです。 それを正しく設定するか、削除する必要があります。
 
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* Various other applications, especially pre-installed ones on notebooks
+* その他、特にノートPCにプリインストールされている各種のアプリケーションが考えられます
 
-If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
+そのようなアプリケーションがインストールされているかどうかわからない場合は、Wallpaper Engine スキャンツールを使うと、これらの問題を引き起こすことがわかっているプログラムが通知されます。
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Wallpaper Engine スキャンツール](/debug/scantool.html)
 
