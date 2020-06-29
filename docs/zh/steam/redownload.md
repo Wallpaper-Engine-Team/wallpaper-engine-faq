@@ -33,8 +33,8 @@ Steam 的下载缓存已损坏，现在要重新下载所有文件（无特殊�
 
 ## 将本地备份用作解决方法
 
-If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+如果问题持续发生，您还可以对所有壁纸进行本地备份，然后取消订阅所有壁纸。 Steam 不会重新下载您未订阅的壁纸，因此这种解决方法无非就是完全依赖于本地备份。 您可以在此处找到有关如何创建备份的指南：
 
-* [Using wallpaper backups](/steam/backup)
+* [使用壁纸备份](/steam/backup)
 
-Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+然后，您只需取消订阅所有壁纸即可。 千万不要手动删除任何文件，Steam 必须自行删除壁纸文件，否则它将再次尝试重新下载壁纸，而只是为了自行删除这些文件。
