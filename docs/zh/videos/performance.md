@@ -13,6 +13,6 @@
 GPU 缩放/DSR 等驱动程序级别的技巧也可能导致问题，请尝试禁用它们，如果有所帮助，请专门针对 Wallpaper Engine 禁用它们。
 
 ## dwm.exe 在具有多个 GPU/多个屏幕的系统中性能不佳
-尽管安装了专用显卡，但如果您在 BIOS 中启用了台式电脑上的集成 GPU，您可能会遇到 DWM.exe 性能不佳和 CPU 使用率过高的问题。 如有可能，请不要启用集成 GPU。 **It's very important to plug all your monitors into your dedicated graphics card.** Using both GPUs at the same time will break hardware acceleration of the desktop window manager. Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+尽管安装了专用显卡，但如果您在 BIOS 中启用了台式电脑上的集成 GPU，您可能会遇到 DWM.exe 性能不佳和 CPU 使用率过高的问题。 如有可能，请不要启用集成 GPU。 **请务必将所有显示器都插入专用显卡。**同时使用两个 GPU 会破坏桌面窗口管理器的硬件加速。 如果不具备 Nvidia Optimus 技术或类似的技术，Windows 就得把壁纸图像从一个 GPU 复制到另一个 GPU — 这一操作的速度非常缓慢。 事实上，两个 GPU 之间的任何共享操作都会因此受到影响，这与在两台显示器之间移动游戏窗口是一样的。
 
-This specific issue does not affect hardware built for multi-GPU setups like laptops with Nvidia Optimus or proper Nvidia SLI / AMD Crossfire setups with a hardware bridge.
+这个特定问题不会影响专门为多 GPU 设置构建的硬件，例如采用 Nvidia Optimus 技术的笔记本电脑，或者具有硬件桥的适当 Nvidia SLI/AMD Crossfire 设置。
