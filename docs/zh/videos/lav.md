@@ -26,12 +26,12 @@ tags:
 ## 2. 启用 DirectShow
 * 打开 Wallpaper Engine 设置，然后导航到“常规”选项卡
 * 将**视频框架**选项更改为**首选 DirectShow**
-* Restart the application and try using your video wallpaper again
+* 重新启动该应用程序，然后再次尝试使用视频壁纸
 
-## Enabling WebM Hardware Acceleration
-If you are experiencing stutters at the end of your video wallpapers, you can use .webm files which do not suffer from the same issue. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **WebM framework** option to **Prefer Native**
-* Restart the application and try using your video wallpaper again
+## 启用 WebM 硬件加速
+如果视频壁纸结束时出现卡顿，您可以使用 .webm 文件，这些文件不会出现相同的问题。 您最好同时为 .webm 视频启用硬件加速，这不但可以大幅降低它们的 CPU 使用率，还将允许视频壁纸循环播放，而不会在最后一帧之后出现明显的剪切痕迹。 这是上述步骤的延续，请确保已按照上一部分的说明安装了 LAV 并启用 DirectShow。
+* 打开 Wallpaper Engine 设置，然后导航到“常规”选项卡
+* 将 **WebM 框架**选项更改为**首选 Native**
+* 重新启动该应用程序，然后再次尝试使用视频壁纸
 
-Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+查看 LAV 系统托盘图标是否出现以及 CPU 使用率是否接近零，如果答案为是，那么您的 .webm 内容现已经过硬件加速。 If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
