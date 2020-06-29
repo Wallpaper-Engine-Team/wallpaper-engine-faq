@@ -19,16 +19,16 @@ tags:
 
 **如果视频壁纸颜色错误、太亮或太暗、看似已放大、像素化或者壁纸周围存在边框**，对于 Nvidia、AMD 或 Intel 显卡，您可以通过在图形控制面板中重置视频选项来解决这些问题。 如果计算机具有多个 GPU（例如来自 Nvidia 的主显卡和来自 Intel 的辅助 GPU），请确保针对所有 GPU 重置视频选项。
 
-为了解决这些问题，您还可以重新安装显卡驱动程序，然后选择重置所有设置（“全新安装”），举例来说，这对于 Nvidia 驱动程序是可行的。 这意味着，您需要先完全卸载当前的驱动程序，然后再重新安装最新版驱动程序。 Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+为了解决这些问题，您还可以重新安装显卡驱动程序，然后选择重置所有设置（“全新安装”），举例来说，这对于 Nvidia 驱动程序是可行的。 这意味着，您需要先完全卸载当前的驱动程序，然后再重新安装最新版驱动程序。 有些驱动程序在“高级”部分提供“执行全新安装”的选项，请务必启用该选项，以自动清除损坏驱动程序的所有残留项。 您可以从以下所有大型供应商处获得最新版显卡驱动程序：
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you are uncertain what to do: Download the latest drivers for your graphics card, then use DDU to uninstall your graphics card drivers and delete all settings:
+如果您不确定该怎么做：下载最新版显卡驱动程序，然后使用 DDU 卸载显卡驱动程序，并删除所有设置：
 
-* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [显示驱动程序卸载程序下载](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-Afterwards, install the drivers you have just downloaded. This will definitely fix the problem if done right.
+然后，安装刚刚下载的驱动程序。 如果操作正确，这肯定可以解决问题。
 
-::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. Make sure you first uninstall all your current graphics card drivers and clear up all driver settings. :::
+::: 提示 如果在重新安装了显卡驱动程序以后，颜色依然不正确，那么您可能拥有多个 GPU，或者未执行“全新”安装。 请务必先卸载当前的所有显卡驱动程序，然后清除所有驱动程序设置。 :::
