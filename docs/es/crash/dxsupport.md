@@ -1,7 +1,7 @@
-# "DirectX 10 not supported" crash
-Ensure your graphics card actually supports DirectX 10 by doing a web-search on the exact name of your card. If you have an old card, installing DirectX 10 will not fix this problem if your graphics card does not support DirectX 10 on hardware level.
+# Error «No es compatible con DirectX 10»
+Haga una búsqueda en internet del nombre de su tarjeta gráfica para asegurarse de que es compatible con DirectX 10. Si tiene una tarjeta antigua e instala DirectX 10, no se solucionará el problema si la tarjeta no es compatible con DirectX10 a nivel de hardware.
 
-If your card does support it and you get this error, then try reinstalling the latest driver (or an older, more stable driver). Remove intrusive security software from the PC that could prevent Wallpaper Engine from accessing your graphics card.
+Si la tarjeta es compatible y le aparece este error, intente instalar de nuevo los controladores más recientes (o unos más antiguos y estables). Elimine cualquier software intrusivo de seguridad de su equipo que pueda impedir que Wallpaper Engine acceda a su tarjeta gráfica.
 
 ## DuetDisplay and other display extension software
 Display extension software like DuetDisplay installs a fake graphics card which is not capable of the same features as a real graphics card. This can also be the cause for Wallpaper Engine to show this error as Wallpaper Engine requires a real graphics card with DirectX 10 support. Display extension software like DuetDisplay is not compatible with Wallpaper Engine and must be turned off.
