@@ -1,9 +1,9 @@
 ---
 tags:
-  - colors
-  - bright
-  - dark
-  - zoom
+  - 颜色
+  - 明亮
+  - 黑暗
+  - 缩放
   - zoomed-in
   - pixelated
   - border
