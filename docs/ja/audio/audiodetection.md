@@ -17,7 +17,7 @@ Wallpaper Engine の設定画面で、「一般」タブを開きます。 中�
 
 USBやワイヤレスのヘッドセットでは、サウンドドライバーの問題がよく発生します。 多くのデバイスでは、Windows のデバイス設定でオーディオサンプルレートを 44100 Hz に固定すると、問題を解消することができます。
 
-Windows の右下にあるトレイエリアでオーディオアイコンを右クリックし、「サウンド設定を開く」を選択します。 開いたウィンドウで、「出力」セクションの「デバイスのプロパティ」をクリックします。 その後、「追加デバイスのプロパティ」をクリックし、「詳細」タブに進みます。 You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+Windows の右下にあるトレイエリアでオーディオアイコンを右クリックし、「サウンド設定を開く」を選択します。 開いたウィンドウで、「出力」セクションの「デバイスのプロパティ」をクリックします。 その後、「追加デバイスのプロパティ」をクリックし、「詳細」タブに進みます。 そこのメニューからサンプリングレートを変更することができます。 このオプションの場所は、Windows のバージョンによって異なります。 このオプションが見つからない場合は、インターネットで検索し、お使いの Windows のバージョンでのサウンドデバイスのサンプリングレートの変更方法をお探しください。
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
