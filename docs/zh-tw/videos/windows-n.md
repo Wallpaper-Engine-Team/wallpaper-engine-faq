@@ -14,4 +14,4 @@ Windows N 不含媒體功能！ 您需要安裝適用您 Windows 版本和組建
 
 :::警告，請注意 每一次 Microsoft 釋出 Windows 10 的主要更新時，您都必須重新安裝功能包。 若這項方法對您來說不理想，請考慮切換為正常版本的 Windows，其他版本皆包含上述功能！
 
-**The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.** :::
+**Windows N 的特點正是不含媒體功能。 若這不是您所想要的，您不應該使用 Windows N。** :::
