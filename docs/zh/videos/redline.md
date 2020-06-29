@@ -6,6 +6,6 @@
 
 * [AMD Radeon 驱动程序](https://www.amd.com/support)
 
-然后先卸载当前的驱动程序，请务必先卸载它们，并在系统提示的情况下清除所有现有设置。 然后，您可以安装刚刚下载的驱动程序。 If you are unsure how to properly uninstall your drivers, you can also use a tool like DDU ("Display Driver Uninstaller") to uninstall your drivers in a clean way:
+然后先卸载当前的驱动程序，请务必先卸载它们，并在系统提示的情况下清除所有现有设置。 然后，您可以安装刚刚下载的驱动程序。 如果不确定如何正确卸载驱动程序，您还可以使用 DDU（“显示驱动程序卸载程序”）之类的工具完全卸载驱动程序：
 
-* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [显示驱动程序卸载程序下载](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
