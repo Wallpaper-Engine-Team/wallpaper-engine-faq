@@ -22,7 +22,7 @@
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. 如果系统要求，请完全卸载当前的显卡驱动程序，并删除所有现有设置。 对于 Nvidia 驱动程序，您还可以选中显示“执行全新安装”的复选框。
+2. 请完全卸载当前的显卡驱动程序，并在系统提示的情况下删除所有现有设置。 对于 Nvidia 驱动程序，您还可以选中显示“执行全新安装”的复选框。
 
 如果不确定该如何执行此操作，您还可以使用[显示驱动程序卸载程序（“DDU”）](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)。
 
