@@ -3,13 +3,13 @@ tags:
   - 硬件
 ---
 
-# RGB 硬件支持 (iCUE & Chroma)
+# RGB 硬件支持（iCUE 和 Chroma）
 
 Wallpaper Engine 支持 [**Razer Chroma**](https://www.razer.com/chroma) 和 [**Corsair iCUE**](https://www.corsair.com/icue) 生态系统，包括可以集成到二者之一中的系统。
 
 ## 如何启用/禁用 RGB 硬件
 
-在 Wallpaper Engine 设置的“插件”部分中，您可以找到 **iCUE & Chroma SDK 插件**。 您可以通过选中左侧的复选框，来启用或禁用这个通用 RGB 插件的加载。 您还可以单击插件旁边的齿轮符号，进一步配置其各个部分。
+在 Wallpaper Engine 设置的“插件”部分中，您可以找到 **iCUE 和 Chroma SDK 插件**。 您可以通过选中左侧的复选框，来启用或禁用这个通用 RGB 插件的加载。 您还可以单击插件旁边的齿轮符号，进一步配置其各个部分。
 
 此外，您可以针对每张壁纸关闭 RGB 支持。 如果启用了插件，您可以在每张壁纸属性列表的顶部，找到**启用 LED 特效**选项，该选项允许您控制是否要让单张壁纸控制 RGB 灯。
 
