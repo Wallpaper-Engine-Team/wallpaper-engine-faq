@@ -11,9 +11,9 @@ Wallpaper Engine est un logiciel utilisé maintenant par des millions de personn
 
 ::: astuce Presque tous les rapports d'erreur que nous recevons concernent des pilotes de carte graphique corrompus, des antivirus ou d'autres logiciels défectueux qui rendent l'ordinateur instable. :::
 
-## Wallpaper Engine Crash Quick Fix Attempt
+## Réparations rapides en cas de plantage de Wallpaper Engine
 
-If you are unsure what is crashing Wallpaper Engine, please do a clean re-installation of your graphics card drivers. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Si vous ne savez pas ce qui provoque le crash de Wallpaper Engine, nous vous conseillons de réinstaller les pilotes de votre carte graphique. Cela signifie que vous devez d'abord désinstaller les pilotes, puis réinstaller les dernières versions de ces pilotes après cette opération. Certains pilotes proposent l'option "Effectuer une réinstallation propre". Assurez-vous d'activer cette option pour nettoyer automatiquement les restes de pilotes corrompus. You can get the latest graphics card drivers from all big vendors here:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
