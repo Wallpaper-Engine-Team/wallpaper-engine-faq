@@ -15,19 +15,19 @@ Se o áudio for detetado mas o volume estiver demasiado baixo, tenha em conta qu
 
 ### Corsair Void Pro / Bluetooth / Auscultadores USB
 
-Os auscultadores USB / sem fios são atreiros a problemas com o controlador de som. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:
+Os auscultadores USB / sem fios são atreiros a problemas com o controlador de som. Para muitos dispositivos, mudar a taxa de amostragem de áudio nas definições do dispositivo Windows para 44100 Hz resolve o problema de forma permanente:
 
-Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+Clique com o botão direito no ícone de áudio na área do tabuleiro, no canto inferior direito do Windows, selecione "Abrir definições de som". Clique em "Propriedades do dispositivo" na secção "Saída" da janela que aparece. Em seguida, clique em "Propriedades adicionais do dispositivo" e, em seguida, navegue para o separador "Avançadas". Pode mudar a taxa de amostragem no menu que lhe é apresentado. A localização exata varia consoante a versão do Windows. Se não encontrar estra opção, procure na web guias para mudar a taxa de amostragem dos dispositivos de som para a sua versão do Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer headsets with THX
+### Auscultadores Razer com THX
 
-Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
+Mude a entrada de áudio no Wallpaper Engine para o dispositivo 'Colunas (Razer XYZ)'. Esta opção está nas definições gerais e quaisquer auscultadores Razer com efeitos THX deverá funcionar com esta solução.
 
-## 3. Conflicting applications
+## 3. Conflitos entre aplicações
 
-If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
+Se acredita que as suas definições de áudio estão corretas mas os wallpapers com capacidade de resposta a áudionão reagem ao áudio, é muito provável que possuam hardware ou software de som que desativa a função de gravação de loopback no PC inteiro. It needs to be configured correctly or removed:
 
 * Nahimic
 * Sonic Suite
