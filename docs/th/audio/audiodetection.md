@@ -7,7 +7,7 @@
 
 หากเลือกอุปกรณ์เสียงถูกต้องแล้วแต่คุณยังไม่ได้ยินเสียงใด ๆ หรือหาก Visualizer เสียงไม่ทำงาน ให้ตรวจสอบว่าคุณไม่ได้ปิดเสียง Wallpaper Engine ในตัวปรับแต่งเสียงของ Windows หรือตั้งค่าระดับเสียงที่เบามาก Windows ไม่แยกความแตกต่างระหว่างระดับเสียงสำหรับการบันทึกเสียงและการเล่นเสียง ซึ่งหมายความว่าหากคุณตั้งค่าระดับเสียงเบาใน Windows การบันทึกเสียงจะไม่ทำงาน:
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![เพิ่มระดับเสียงและเปิดเสียง Wallpaper Engine ในตัวปรับแต่งเสียงของ Windows](./audiomixer.png)
 
 หากตรวจพบเสียงแต่ว่าเสียงเงียบเกินไป โปรดจำไว้ว่าจำนวนแอพพลิเคชัน (ของเครื่องเล่นเพลง เว็บเบราเซอร์ ฯลฯ) มีผลต่อการตรวจจับเสียง คุณสามารถบูสต์การตรวจจับเสียงในแท็บ "ทั่วไป" ของการตั้งค่า Wallpaper Engine หากคุณไม่ต้องการเพิ่มระดับเสียงแอพพลิเคชัน (ค่าระดับเสียงเริ่มต้นของการบันทึกคือ 50)
 
@@ -19,7 +19,7 @@
 
 คลิกขวาที่ไอคอนเสียงในพื้นที่แถบงานที่มุมล่างขวาของ Windows เลือก "เปิดการตั้งค่าเสียง" คลิกที่ "คุณสมบัติอุปกรณ์" ในส่วน "เอาต์พุต" ของหน้าต่างที่เปิดขึ้น หลังจากนั้นคลิกที่ "คุณสมบัติอุปกรณ์เพิ่มเติม" จากนั้นไปที่แท็บ "ขั้นสูง" คุณสามารถเปลี่ยนความถี่ได้ในเมนูที่แสดงขึ้นมา ตำแหน่งที่แน่นอนนั้นแตกต่างกันไปใน Windows แต่ละรุ่น หากคุณไม่พบตัวเลือกนี้ ให้ค้นหาคำแนะนำเกี่ยวกับวิธีการเปลี่ยนความถี่เสียงของอุปกรณ์เสียงสำหรับ Windows รุ่นที่คุณใช้
 
-![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
+![ตั้งค่าความถี่เป็น "24 bit, 44100 Hz"](./samplingrate.png)
 
 ### ชุดหูฟัง Razer (พร้อมเสียง THX)
 
@@ -27,14 +27,14 @@
 
 ## 3. แอพพลิเคชันที่ขัดแย้งกัน
 
-If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
+หากคุณคิดว่าการตั้งค่าเสียงถูกต้อง แต่วอลเปเปอร์ที่ควรตอบสนองต่อเสียงนั้นไม่ตอบสนองต่อเสียง คุณอาจมีฮาร์ดแวร์หรือซอฟต์แวร์เสียงที่ปิดการใช้งานคุณลักษณะการบันทึกลูปแบ็คทั้งหมดบนคอมพิวเตอร์ ซึ่งจำเป็นต้องกำหนดค่าอย่างถูกต้องหรือลบออก:
 
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* Various other applications, especially pre-installed ones on notebooks
+* แอพพลิเคชันอื่น ๆ โดยเฉพาะที่ติดตั้งไว้แล้วบนโน้ตบุ๊ก
 
-If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
+หากคุณไม่แน่ใจว่ามีการติดตั้งแอพพลิเคชันดังกล่าวหรือไม่ คุณสามารถใช้เครื่องมือสแกน Wallpaper Engine ซึ่งจะรายงานถึงบางโปรแกรมที่มักทำให้เกิดปัญหาเหล่านี้:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [เครื่องมือสแกน Wallpaper Engine](/debug/scantool.html)
 
