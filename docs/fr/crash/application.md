@@ -9,7 +9,7 @@ Wallpaper Engine est un logiciel utilisé maintenant par des millions de personn
 
 [[toc]]
 
-::: tip Almost all crash reports we receive from users turn out to be caused by broken graphics card drivers, antivirus applications or other defective software that makes the computer unstable. :::
+::: astuce Presque tous les rapports d'erreur que nous recevons concernent des pilotes de carte graphique corrompus, des antivirus ou d'autres logiciels défectueux qui rendent l'ordinateur instable. :::
 
 ## Wallpaper Engine Crash Quick Fix Attempt
 
