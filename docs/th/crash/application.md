@@ -5,11 +5,11 @@ tags:
 
 # Wallpaper Engine หยุดทำงาน
 
-Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. If the crash message you are seeing mentions any **.dll** files, please have a look at the following list and see if you can find a more accurate description for specific **.dll** causing the crash on your system:
+Wallpaper Engine เป็นซอฟต์แวร์ที่มีการใช้งานมาเป็นเวลานานโดยคนนับล้านและผ่านการทดสอบมาเป็นอย่างดี - มีข้อบกพร่องเพียงเล็กน้อยที่อาจทำให้แอพพลิเคชันเกิดปัญหา หากข้อความผิดพลาดที่คุณเห็นมีการกล่าวถึงไฟล์ **.dll** โปรดตรวจสอบรายการต่อไปนี้และดูว่าคุณสามารถหาไฟล์ **.dll** เฉพาะเจาะจงที่ทำให้ระบบล่มได้หรือไม่:
 
 [[toc]]
 
-::: tip Almost all crash reports we receive from users turn out to be caused by broken graphics card drivers, antivirus applications or other defective software that makes the computer unstable. :::
+::: เคล็ดลับ รายงานความผิดพลาดเกือบทั้งหมดที่เราได้รับจากผู้ใช้นั้นเกิดจากไดรเวอร์การ์ดจอที่เสียหาย แอพพลิเคชันป้องกันไวรัสหรือซอฟต์แวร์ที่มีข้อบกพร่องอื่น ๆ ซึ่งทำให้คอมพิวเตอร์เกิดความไม่เสถียร :::
 
 ## Wallpaper Engine Crash Quick Fix Attempt
 
