@@ -7,9 +7,9 @@ Windows ไม่สามารถแยกความแตกต่างร
 ในการแก้ไขปัญหาดังกล่าว ให้ดำเนินการหนึ่งในสามสิ่งต่อไปนี้:
 
 * ปิดโปรแกรมบันทึกบนเดสก์ทอปของคุณหรือกำหนดค่าใหม่เพื่อไม่ให้มีการบันทึก Wallpaper Engine โดยไม่ได้ตั้งใจ
-    * ผู้ใช้หลายคนพบปัญหานี้จาก **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** ซึ่งคุณสามารถปิดได้ในการตั้งค่า **Nvidia GeForce Experience** For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
-    * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
-* If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
+    * ผู้ใช้หลายคนพบปัญหานี้จาก **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** ซึ่งคุณสามารถปิดได้ในการตั้งค่า **Nvidia GeForce Experience** สำหรับผู้ใช้การ์ดจอ AMD **AMD ReLive** อาจทำให้เกิดปัญหาเหล่านี้และเป็นส่วนหนึ่งของไดรเวอร์การ์ดจอของ AMD หากคุณไม่แน่ใจว่าโปรแกรมใดที่อาจบันทึกเดสก์ทอปของคุณ โปรดลองตรวจสอบสิ่งนี้ก่อน
+    * หากคุณไม่ทราบว่าแอพพลิเคชันใดที่ทำให้เกิดปัญหานี้ ให้ตรวจสอบตัวปรับแต่งเสียง Windows ของคุณและดูว่าแอพพลิเคชันใดกำลังเข้าถึงเสียงของคุณอยู่ วิธีนี้อาจช่วยได้ อีกวิธีหนึ่งคือการปิดโปรแกรมให้มากที่สุดเท่าที่จะทำได้ และจำกัดจำนวนไฟล์ให้เหลือไฟล์ .exe บางตัวจากรายการในตัวจัดการงาน (Task Manager) ของ Windows
+* หากคุณต้องการบันทึกเสียงพื้นหลังหรือหากไม่สามารถหาวิธีปิดได้ คุณสามารถตั้งค่า *กฎแอพพลิเคชัน* ในแท็บ "ประสิทธิภาพการทำงาน" ในส่วนการตั้งค่า Wallpaper Engine ตั้งค่า "เงื่อนไข" เป็น "กำลังเล่นไฟล์เสียง" และ "การเล่นวอลเปเปอร์" เป็น "ทำงานต่อไป":
 
 ![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
 
