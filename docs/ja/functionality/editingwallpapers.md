@@ -1,36 +1,36 @@
 # ダウンロードした壁紙の編集
 
-基本的に、Wallpaper Engine はダウンロードされた壁紙自体の編集はサポートしていません。 However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+基本的に、Wallpaper Engine はダウンロードされた壁紙自体の編集はサポートしていません。 しかし、壁紙のタイプによって（タイプは、右側のプレビュー画像の下に書かれています）、サードパーティーのアプリケーションを使うことにより、たいていの場合、編集は可能です。
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+作品を再公開するためには、オリジナルの作者の許諾が必要である可能性があることは、常に念頭に置いておいてください。 よくわからない場合は、Steam ワークショップで公開する前に元の作者に問い合わせてください。
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## 壁紙のソースファイルを見つけるには？
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+「インストール済み」タブで壁紙を右クリックし、「エクスプローラーを開く」を選択します。
 
-## How to edit wallpapers of different types
+## さまざまな種類の壁紙の編集方法
 
-### Scene wallpapers
+### シーンの壁紙
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+シーンの壁紙は、.pkg ファイルにパックされています。プロジェクト関連のデータすべてが揃わなくなるので、ボックスの外では編集できません。 .pkg ファイルを開こうとすると、「パックされた壁紙を開くことはできません。」というエラーメッセージが表示されます。 似たものとしては、Photoshop データが添付されていない .jpeg 画像ファイルがあります。添付されていないデータは常に元の作者が持っています。
 
-#### Unofficial Community Scene Unpacker
+#### 非公式のコミュニティシーンアンパッカー
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+しかし、コミュニティのメンバーは非公式のシーン壁紙のアンパックツールを作っています。これによってシーンファイルのパックを開き、自分の壁紙のスタート地点として使うことができます。 詳しくはこちらの Web サイトをご覧ください。
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+それでも有効な project.json ファイルは必要です。これは、エディタで新しい空白の壁紙を作り、Wallpaper Engine を閉じ、その後ダウンロードした壁紙をアンパックしてその中身を新しいプロジェクトディレクトリにコピーペーストすることで、簡単に作ることができます。
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+以前にプロジェクトファイルをなくしてしまった自分の壁紙を編集したい場合は、下の「*失ったプロジェクトの更新*」セクションをご覧ください。既存の壁紙を更新するために project.json をどのように変更すればよいのかが書かれています。
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: 警告 注意 このツールは公式にサポートされておらず、これが正しく動作することを当社が保証するものではありません。 アンパッカーについて問題が起きたり疑問があったりする場合は、オリジナルのクリエイターにご連絡ください。 :::
 
-### Web wallpapers
+### Web の壁紙
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Web ベースの壁紙は、HTML および JavaScript ベースです。 You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
 
 ### Video wallpapers
 
