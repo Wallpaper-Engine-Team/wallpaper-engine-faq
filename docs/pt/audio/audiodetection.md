@@ -7,7 +7,7 @@ Vá às definições do Wallpaper Engine e navegue até ao separador "Geral". Pe
 
 Se o dispositivo de áudio c orreto for selecionado mas continuar a nãoi ouvir qualquer som ou se os seus visualizadores de áudio não funcionarem, certifique-se de que não silenciou o Wallpaper Engine no misturador de áudio do Windows ou que definiu um volume muito baixo para ele. O Windows não diferencia entre os volumes para gravação de áudio e reprodução de áudio. Isto significa que se tiver definido um volume baixo no Windows, a gravação de áudio também não funcionará:
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![Suba o volume e anule o silêncio do Wallpeper Engine no misturador de áudio do Windows](./audiomixer.png)
 
 Se o áudio for detetado mas o volume estiver demasiado baixo, tenha em conta que o volume da aplicação (do seu reprodutor de áudio, browser da web, etc.) afeta a forma como o áudio é detetado. Pode reforçar o a deteção de som n o separador "Geral" das definições do Wallpaper Engine se não quiser aumentar o volume da aplicação (o valor predefinido para o volume de gavação é 50).
 
@@ -19,7 +19,7 @@ Os auscultadores USB / sem fios são atreiros a problemas com o controlador de s
 
 Clique com o botão direito no ícone de áudio na área do tabuleiro, no canto inferior direito do Windows, selecione "Abrir definições de som". Clique em "Propriedades do dispositivo" na secção "Saída" da janela que aparece. Em seguida, clique em "Propriedades adicionais do dispositivo" e, em seguida, navegue para o separador "Avançadas". Pode mudar a taxa de amostragem no menu que lhe é apresentado. A localização exata varia consoante a versão do Windows. Se não encontrar estra opção, procure na web guias para mudar a taxa de amostragem dos dispositivos de som para a sua versão do Windows.
 
-![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
+![Defina a taxa de amostragem para "24 bits, 44100 Hz"](./samplingrate.png)
 
 ### Auscultadores Razer com THX
 
@@ -27,14 +27,14 @@ Mude a entrada de áudio no Wallpaper Engine para o dispositivo 'Colunas (Razer 
 
 ## 3. Conflitos entre aplicações
 
-Se acredita que as suas definições de áudio estão corretas mas os wallpapers com capacidade de resposta a áudionão reagem ao áudio, é muito provável que possuam hardware ou software de som que desativa a função de gravação de loopback no PC inteiro. It needs to be configured correctly or removed:
+Se acredita que as suas definições de áudio estão corretas mas os wallpapers com capacidade de resposta a áudionão reagem ao áudio, é muito provável que possuam hardware ou software de som que desativa a função de gravação de loopback no PC inteiro. Ela deve ser configurada corretamente ou removida:
 
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* Various other applications, especially pre-installed ones on notebooks
+* Diversas outras aplicações, especialmente as pré-instaladas em portáteis
 
-If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
+Caso não tenha a certeza de ter quaisquer destas aplicações instaladas, também pode usar a ferramenta de deteção do Wallpaper Engine e esta irá informá-lo sobre quaisquer programas que se saiba provocarem estes problemas:
 
 * [Wallpaper Engine Scan Tool](/debug/scantool.html)
 
