@@ -1,10 +1,10 @@
-# มีการเปิดและปิดเสียงเป็นระยะ
+# เปิดและปิดเสียงตัวเองเป็นระยะ
 
 Windows ไม่สามารถแยกความแตกต่างระหว่างการบันทึกเสียงและระดับการเล่นเสียงได้ ดังนั้น Windows จะแจ้งให้ Wallpaper Engine ทราบว่าโปรแกรมอื่นกำลังส่งเสียงในขณะที่กำลังบันทึกเสียงคอมพิวเตอร์ของคุณ
 
-Check the "Performance" tab of the Wallpaper Engine settings. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
+ตรวจสอบแท็บ "ประสิทธิภาพการทำงาน" ในส่วนของการตั้งค่า Wallpaper Engine หากคุณมีตัวเลือก *"แอพพลิเคชันอื่นกำลังเล่นไฟล์เสียง"* ที่ตั้งค่าเป็น *"ปิดเสียง"* แล้วคุณสังเกตเห็นว่าเสียงจาก Wallpaper Engine เปิดและปิดตัวเองเป็นระยะ แสดงว่าคุณอาจมีโปรแกรมบันทึกที่กำลังบันทึกหน้าจอและเสียงของคุณในพื้นหลัง
 
-To solve this do any of these three things:
+ในการแก้ไขปัญหาดังกล่าว ให้ดำเนินการหนึ่งในสามสิ่งต่อไปนี้:
 
 * Turn off the recording program on your desktop or reconfigure it to not record Wallpaper Engine by mistake.
     * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
