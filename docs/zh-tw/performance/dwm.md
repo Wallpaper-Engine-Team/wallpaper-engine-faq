@@ -2,7 +2,7 @@
 
 已經安裝專用 GPU 時，若在桌上型電腦的 BIOS 中啟用整合式 GPU，電腦可能效能不佳，*dwm.exe* 的 CPU 使用率偏高。 若可行，請勿啟用您的整合式 GPU，並將螢幕接入專用 GPU。 同時使用二項獨立顯示解決方案將中斷桌面視窗管理員的硬體加速，請確保所有螢幕皆接入主顯示卡。 這並不是 Wallpaper Engine 存在錯誤或問題，而是硬體設定影響所有多螢幕軟體的問題，其中不是所有螢幕都接入主顯示卡。
 
-Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a very slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+沒有 Nvidia Optimus 或類似技術時，Windows 會被迫將桌布圖像從一個 GPU 複製到另一個 GPU 上，這是一項非常緩慢的作業。 其實，GPU 之間的任何共用行動都會發生這項問題，跟將遊戲視窗移動到兩個螢幕之間一樣。
 
 This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. They have a physical solution to make this work correctly.
 
