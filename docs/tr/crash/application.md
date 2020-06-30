@@ -5,15 +5,15 @@ tags:
 
 # Wallpaper Engine çöktü
 
-Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. If the crash message you are seeing mentions any **.dll** files, please have a look at the following list and see if you can find a more accurate description for specific **.dll** causing the crash on your system:
+Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. Gördüğünüz çökme mesajı **.dll** dosyaları içeriyorsa, sisteminizde çökmeye neden olan **.dll** için daha doğru bir tanımlama olup olmadığını öğrenmek üzere lütfen aşağıdaki listeye bakın:
 
 [[toc]]
 
-::: tip Almost all crash reports we receive from users turn out to be caused by broken graphics card drivers, antivirus applications or other defective software that makes the computer unstable. :::
+::: ipucu Kullanıcılardan aldığımız çökme raporlarının hemen hemen hepsi bozuk grafikli kart sürücüleri, antivirüs uygulamaları ya da bilgisayarın dengesini bozan başka kusurlu yazılımlardan kaynaklanır. :::
 
-## Wallpaper Engine Crash Quick Fix Attempt
+## Wallpaper Engine Çökmesi Hızlı Çözüm Denemesi
 
-If you are unsure what is crashing Wallpaper Engine, please do a clean re-installation of your graphics card drivers. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Wallpaper Engine'i neyin çökerttiğinden emin değilseniz lütfen grafik kart sürücülerinizi temiz bir şekilde yeniden yükleyin. Öncelikle sürücülerinizi kaldırın, mevcut sürücüleriniz tamamen kaldırıldıktan sonra en son sürücüleri yeniden yükleyin. Bazı sürücülerin gelişmiş bölümünde "Temiz bir şekilde yeniden yükle" seçeneği bulunur; bozuk sürücülerin kalıntılarından otomatik olarak kurtulmak için seçeneği etkinleştirin. Tüm büyük sağlayıcıların en son grafik kart sürücülerine buradan ulaşabilirsiniz:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
