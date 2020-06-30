@@ -1,15 +1,15 @@
-# Sound / audio turns on and off intermittently
+# Som / áudio liga e desliga intermitentemente
 
-Windows does not differentiate between recording and playing audio, therefore it notifies Wallpaper Engine that another program is producing sound while it is actually recording your computer audio.
+O Windows não diferencia entre gravar e reproduzir áudio, pelo que notifica o Wallpaper Engine que outro programa está a produzir som, apesar de estar, na verdade, a gravar o áudio do seu computador.
 
-Check the "Performance" tab of the Wallpaper Engine settings. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
+Abra o separador "Desempenho" das definições do Wallpaper Engine. Se tiver a opção *"Outra aplicação está a reproduzir áudio"* definida para *"Silenciar"* e reparar que o som do Wallpaper Engine continua a ligar e desligar, é provável que tenha um programa de gravação a gravar o seu ecrã e som em segundo plano.
 
-To solve this do any of these three things:
+Para resolver isto, faça qualquer destas três coisas:
 
-* Turn off the recording program on your desktop or reconfigure it to not record Wallpaper Engine by mistake.
-    * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
-    * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
-* If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
+* Desligue o programa de gravação no seu ambiente de trabalho ou reconfigure-o para não gravar o Wallpaper Engine por engano.
+    * Para muitos utilizadores, este problema é provocado pelo **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** que pode ser desativado nas definições do **Nvidia GeForce Experience**. Para utilizadores com placas gráficas AMD, **AMD ReLive** também pode provocar estes problemas e também faz parte dos controladores de placas gráficas AMD. Experimente verificar isto primeiro se não tiver a certeza do que poderá estar a gravar o seu ambiente de trabalho.
+    * Se não sabe que aplicação esatrá a provocar isto, verifique o seu misturador de áudio do Windows e veja que aplicações tão neste momento a aceder ao seu áudio, pois isso poderá ajudar. Como alternativa, encerre o máximo possível de programas e reduza-os a certod ficheiros .exe da lista de processos do gestor de tarefas do Windows.
+* Se a gravação de áuido em segundo plano for intencional e não conseguir desligá-la, pode criar uma *regra da aplicação* no separador "Desempenho" das definições do Wallpaper Engine. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
 
 ![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
 
