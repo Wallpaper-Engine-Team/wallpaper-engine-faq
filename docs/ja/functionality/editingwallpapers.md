@@ -30,19 +30,19 @@
 
 ### Web の壁紙
 
-Web ベースの壁紙は、HTML および JavaScript ベースです。 You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Web ベースの壁紙は、HTML および JavaScript ベースです。 上のセクションに書かれた方法でソースファイルを見つけ、これらのファイルをベースとして自分の Web ベースの壁紙を作ることができます。
 
-### Video wallpapers
+### ビデオ壁紙
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+ビデオベースの壁紙は動画ファイルです。 動画ファイルは上のセクションに書かれた方法で見つかります。その後、自分の好きなサードパーティーの動画編集アプリケーションで動画を編集することができます。
 
-### Application wallpapers
+### アプリケーション壁紙
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+基本的には、アプリケーション壁紙は編集できません。 アプリケーション壁紙は、通常コンパイルされたプログラムで、ソースコードにアクセスすることはできないのです。 アプリケーションベースの壁紙をどうしても変更したい場合は、壁紙の作者に連絡し、協力してもらえるかどうか尋ねてみてください。
 
-## Updating a lost project
+## 失ったプロジェクトの更新
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+プロジェクトを削除してしまっても上書きすることはできますが、公開した壁紙のタイプによっては、もう編集は不可能です。 Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
 
 ```json
 {
