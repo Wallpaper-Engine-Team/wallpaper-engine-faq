@@ -42,7 +42,7 @@ Web ベースの壁紙は、HTML および JavaScript ベースです。 上の�
 
 ## 失ったプロジェクトの更新
 
-プロジェクトを削除してしまっても上書きすることはできますが、公開した壁紙のタイプによっては、もう編集は不可能です。 Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+プロジェクトを削除してしまっても上書きすることはできますが、公開した壁紙のタイプによっては、もう編集は不可能です。 通常の方法で新しい壁紙を作成し、「編集 → エクスプローラーを開く」でプロジェクトディレクトリを開きます。 `project.json` ファイルをテキストエディタで開きます。中身は次のようになっているはずです。
 
 ```json
 {
@@ -69,12 +69,12 @@ Web ベースの壁紙は、HTML および JavaScript ベースです。 上の�
 }
 ```
 
-Add this line at the top right after `{`:
+最初の行の `{` の直後に次の行を追加します。
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+次のようになるでしょう。
 
 ```json{2}
 {
@@ -84,6 +84,6 @@ So that it looks like:
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**12345678 という数字は、あなたの投稿の ID と置き換えてください！ この ID は、既存のアップロードの URL の中にあります。**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
