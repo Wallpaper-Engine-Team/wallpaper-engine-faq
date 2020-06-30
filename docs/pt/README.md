@@ -3,16 +3,16 @@ Se está a ter problemas técnicos ou apenas deseja fazer uma pergunta acerca do
 
 **É melhor se usar a barra de pesquisa no canto superior direito** ou simplesmente consulte a lista de artigos à esquerda - tentámos dividi-los em categorias de forma sensata. Abaixo também listámos os artigos de ajuda mais visitados, pode ver se o seu problema está nessa lista.
 
-::: tip Use the search bar in the upper right corner with single keywords. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black". :::
+::: dica Use a barra de p4esquisa no canto superior direito com palavras-chave individuais. Por exemplo, se os seus wallpapers aparecerem apenas como fundos pretos, experiemnte procurar "preto". :::
 
-## Most popular support articles
+## Artigos de assistência mais populares
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+Consulte primeiro esta lista e veja se algum dos problemas descreve a sua dificuldade, caso contrário use a pesquisa no canto superior direito ou consulte a lista à esquerda para mais artigos:
 
-| **Top Articles**                                                                                                      |
-| --------------------------------------------------------------------------------------------------------------------- |
-| 1. [Steam Download Issues](steam/download.html)                                                                       |
-| 2. [Black Screen / Videos not Playing](noshow/notplaying.html)                                                        |
-| 3. [Video colors wrong / too bright or too dark / zoomed-in / pixelated / border around video](videos/artifacts.html) |
-| 4. [Wallpaper Engine crashing](crash/application)                                                                     |
-| 5. [Exporting wallpapers as GIF / video files](general/export)                                                        |
+| **Artigos mais visitados**                                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. [Problemas de transferência no Steam](steam/download.html)                                                                                   |
+| 2. [Ecrã preto / vídeos não reproduzem](noshow/notplaying.html)                                                                                 |
+| 3. [Vídeo com cores erradas / demasiado claros ou demasiado escuros / ampliados / pixelados / moldura em volta do vídeo](videos/artifacts.html) |
+| 4. [Wallpaper Engine bloqueia](crash/application)                                                                                               |
+| 5. [Exportar wallpapers como GIF / ficheiros de vídeo ](general/export)                                                                         |
