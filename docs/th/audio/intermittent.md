@@ -6,8 +6,8 @@ Windows ไม่สามารถแยกความแตกต่างร
 
 ในการแก้ไขปัญหาดังกล่าว ให้ดำเนินการหนึ่งในสามสิ่งต่อไปนี้:
 
-* Turn off the recording program on your desktop or reconfigure it to not record Wallpaper Engine by mistake.
-    * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
+* ปิดโปรแกรมบันทึกบนเดสก์ทอปของคุณหรือกำหนดค่าใหม่เพื่อไม่ให้มีการบันทึก Wallpaper Engine โดยไม่ได้ตั้งใจ
+    * ผู้ใช้หลายคนพบปัญหานี้จาก **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** ซึ่งคุณสามารถปิดได้ในการตั้งค่า **Nvidia GeForce Experience** For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
     * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
 * If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
 
