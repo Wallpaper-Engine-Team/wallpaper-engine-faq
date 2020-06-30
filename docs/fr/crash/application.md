@@ -3,9 +3,9 @@ tags:
   - mdmp
 ---
 
-# Wallpaper Engine crashing
+# Wallpaper Engine plante
 
-Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. If the crash message you are seeing mentions any **.dll** files, please have a look at the following list and see if you can find a more accurate description for specific **.dll** causing the crash on your system:
+Wallpaper Engine est un logiciel utilisé maintenant par des millions de personnes et bien testé. Les bugs capables de faire planter l'application sont très rares. Si le message d'erreur que vous voyez mentionne des fichiers **. dll **, veuillez consulter la liste ci-dessous pour trouver une description plus précise du **. dll ** qui provoque ce problème :
 
 [[toc]]
 
