@@ -19,7 +19,7 @@ Wallpaper Engine'i neyin çökerttiğinden emin değilseniz lütfen grafik kart 
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you have an antivirus application installed (except Windows Defender), make sure to set up an exception for Wallpaper Engine in your antivirus settings. Sometimes a re-installation of Wallpaper Engine is necessary after this if your antivirus has permanently broken or locked some files.
+Bilgisayarınızda Windows Defender haricinde bir antivirüs programı yüklüyse, antivirüs ayarlarınızda Wallpaper Engine için istisna oluşturmayı unutmayın. Antivirüs programınız geçici olarak bozuksa ya da bazı dosyaları kilitlediyse Wallpaper Engine'in yeniden yüklenmesi gerekebilir.
 
 Always also try to verify the Wallpaper Engine files through steam to ensure they are not broken:
 
