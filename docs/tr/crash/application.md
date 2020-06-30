@@ -9,11 +9,11 @@ Wallpaper Engine is a matured software used by millions and well tested - it is 
 
 [[toc]]
 
-::: ipucu Kullanıcılardan aldığımız çökme raporlarının hemen hemen hepsi bozuk grafikli kart sürücüleri, antivirüs uygulamaları ya da bilgisayarın dengesini bozan başka kusurlu yazılımlardan kaynaklanır. :::
+::: ipucu Kullanıcılardan aldığımız çökme raporlarının hemen hemen hepsi bozuk grafik kartı sürücüleri, antivirüs uygulamaları ya da bilgisayarın dengesini bozan başka kusurlu yazılımlardan kaynaklanır. :::
 
 ## Wallpaper Engine Çökmesi Hızlı Çözüm Denemesi
 
-Wallpaper Engine'i neyin çökerttiğinden emin değilseniz lütfen grafik kart sürücülerinizi temiz bir şekilde yeniden yükleyin. Öncelikle sürücülerinizi kaldırın, mevcut sürücüleriniz tamamen kaldırıldıktan sonra en son sürücüleri yeniden yükleyin. Bazı sürücülerin gelişmiş bölümünde "Temiz bir şekilde yeniden yükle" seçeneği bulunur; bozuk sürücülerin kalıntılarından otomatik olarak kurtulmak için seçeneği etkinleştirin. Tüm büyük sağlayıcıların en son grafik kart sürücülerine buradan ulaşabilirsiniz:
+Wallpaper Engine'i neyin çökerttiğinden emin değilseniz lütfen grafik kartı sürücülerinizi temiz bir şekilde yeniden yükleyin. Öncelikle sürücülerinizi kaldırın, mevcut sürücüleriniz tamamen kaldırıldıktan sonra en son sürücüleri yeniden yükleyin. Bazı sürücülerin gelişmiş bölümünde "Temiz bir şekilde yeniden yükle" seçeneği bulunur; bozuk sürücülerin kalıntılarından otomatik olarak kurtulmak için seçeneği etkinleştirin. Tüm büyük sağlayıcıların en son grafik kartı sürücülerine buradan ulaşabilirsiniz:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
@@ -21,33 +21,33 @@ Wallpaper Engine'i neyin çökerttiğinden emin değilseniz lütfen grafik kart 
 
 Bilgisayarınızda Windows Defender haricinde bir antivirüs programı yüklüyse, antivirüs ayarlarınızda Wallpaper Engine için istisna oluşturmayı unutmayın. Antivirüs programınız geçici olarak bozuksa ya da bazı dosyaları kilitlediyse Wallpaper Engine'in yeniden yüklenmesi gerekebilir.
 
-Always also try to verify the Wallpaper Engine files through steam to ensure they are not broken:
+Bozulmamaları için Wallpaper Engine dosyalarınızı steam üzerinden doğrulamaya çalışın:
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam Desteği: Uygulama Dosyalarının Bütünlüğünü Doğrulama](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Wallpaper Engine was likely crashed by another application
+## Wallpaper Engine'in çökmesine muhtemelen başka bir uygulama sebep oldu
 
 ### KERNELBASE.dll / ntdll.dll
 
-This is a crash in the core of the Windows kernel itself, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+Bu çökme Windows çekirdeğinin kendisinde gerçekleşmiştir. Bu çökmeye çoğunlukla antivirüs programları ya da bozuk grafik kartı sürücüleri sebep olur. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
 
 * [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-This is a crash in DirectX, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+Bu çökme DirectX'te meydana gelir ve genellikle antivirüs uygulamalarından ya da bozuk grafik kartı sürücülerinden kaynaklanır. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
 
 * [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
+Bu çökme Windows Medya Altyapısı'nda meydana gelmiştir; bozuk grafik kartı sürücülerinden kaynaklanmış olabilir fakat daha sıklıkla sisteminizdeki bozuk ya da eksik video codec'lerinden kaynaklanır. Bu türden çökmeleri düzeltmek için video düzeltme rehberimize başvurabilirsiniz:
 
-[Click here](/noshow/notplaying.html)
+[Burayı tıklayın](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+Bu çökme, genellikle Windows'un kendisinden kaynaklanır. Sorunu çözmek için ses kartı sürücülerinizin son sürümünü yeniden yüklemeyi deneyin. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
 
 ### atiumdag.dll / atiumd64.dll
 
