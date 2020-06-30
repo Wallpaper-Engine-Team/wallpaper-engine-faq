@@ -1,7 +1,7 @@
-# Wallpaper Engine Troubleshooting Guide & FAQ
-If you are having a technical problem or just a question about Wallpaper Engine, you will likely find an answer here. 95% of questions and problems we get asked are the same so it is likely that you will find your answer here.
+# Guia para Resolução de Problemas e FAQ (Perguntas Mais Frequentes) do Wallpaper Engine
+Se está a ter problemas técnicos ou apenas deseja fazer uma pergunta acerca do Wallpaper Engine, é provável que encontre uma resposta aqui. 95% das perguntas e problemas que não são apresentados são idênticos, pelo que é provável que encontre a sua resposta aqui.
 
-**It's best if you use the search bar in the upper right corner** or simply look on the list of all articles on the left - we have tried to categorize them sensibly. We have also listed the most frequently accessed help articles below, check if your problem is in there.
+**É melhor se usar a barra de pesquisa no canto superior direito** ou simplesmente consulte a lista de artigos à esquerda - tentámos dividi-los em categorias de forma sensata. Abaixo também listámos os artigos de ajuda mais visitados, pode ver se o seu problema está nessa lista.
 
 ::: tip Use the search bar in the upper right corner with single keywords. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black". :::
 
