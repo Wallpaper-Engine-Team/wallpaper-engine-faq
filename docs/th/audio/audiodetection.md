@@ -9,15 +9,15 @@
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-If audio is detected but is too quiet, keep in mind that the application volume (of your music player, web browser, etc.) affects how well audio is detected. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+หากตรวจพบเสียงแต่ว่าเสียงเงียบเกินไป โปรดจำไว้ว่าจำนวนแอพพลิเคชัน (ของเครื่องเล่นเพลง เว็บเบราเซอร์ ฯลฯ) มีผลต่อการตรวจจับเสียง คุณสามารถบูสต์การตรวจจับเสียงในแท็บ "ทั่วไป" ของการตั้งค่า Wallpaper Engine หากคุณไม่ต้องการเพิ่มระดับเสียงแอพพลิเคชัน (ค่าระดับเสียงเริ่มต้นของการบันทึกคือ 50)
 
-## 2. Hardware-specific issues
+## 2. ปัญหาเฉพาะของฮาร์ดแวร์
 
-### Corsair Void Pro / Bluetooth / USB headsets
+### Corsair Void Pro / บลูทูธ / ชุดหูฟัง USB
 
-USB / wireless headsets are prone to sound driver issues. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:
+ชุดหูฟัง USB และแบบไร้สายมีแนวโน้มที่จะเกิดปัญหากับไดรเวอร์เสียง สำหรับอุปกรณ์จำนวนมากนั้น การเปลี่ยนความถี่เสียงในการตั้งค่าอุปกรณ์ Windows เป็น 44100 Hz จะแก้ไขปัญหาอย่างถาวร:
 
-Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+คลิกขวาที่ไอคอนเสียงในพื้นที่แถบงานที่มุมล่างขวาของ Windows เลือก "เปิดการตั้งค่าเสียง" Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
