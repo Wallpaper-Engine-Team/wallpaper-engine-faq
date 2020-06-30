@@ -17,15 +17,15 @@
 
 ชุดหูฟัง USB และแบบไร้สายมีแนวโน้มที่จะเกิดปัญหากับไดรเวอร์เสียง สำหรับอุปกรณ์จำนวนมากนั้น การเปลี่ยนความถี่เสียงในการตั้งค่าอุปกรณ์ Windows เป็น 44100 Hz จะแก้ไขปัญหาอย่างถาวร:
 
-คลิกขวาที่ไอคอนเสียงในพื้นที่แถบงานที่มุมล่างขวาของ Windows เลือก "เปิดการตั้งค่าเสียง" Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+คลิกขวาที่ไอคอนเสียงในพื้นที่แถบงานที่มุมล่างขวาของ Windows เลือก "เปิดการตั้งค่าเสียง" คลิกที่ "คุณสมบัติอุปกรณ์" ในส่วน "เอาต์พุต" ของหน้าต่างที่เปิดขึ้น หลังจากนั้นคลิกที่ "คุณสมบัติอุปกรณ์เพิ่มเติม" จากนั้นไปที่แท็บ "ขั้นสูง" คุณสามารถเปลี่ยนความถี่ได้ในเมนูที่แสดงขึ้นมา ตำแหน่งที่แน่นอนนั้นแตกต่างกันไปใน Windows แต่ละรุ่น หากคุณไม่พบตัวเลือกนี้ ให้ค้นหาคำแนะนำเกี่ยวกับวิธีการเปลี่ยนความถี่เสียงของอุปกรณ์เสียงสำหรับ Windows รุ่นที่คุณใช้
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer headsets with THX
+### ชุดหูฟัง Razer (พร้อมเสียง THX)
 
-Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
+เปลี่ยนอุปกรณ์รับข้อมูลเสียงใน Wallpaper Engine เป็นอุปกรณ์ "ลำโพง (Razer XYZ)" ตัวเลือกนี้อยู่ในการตั้งค่าทั่วไป ชุดหูฟัง Razer ใด ๆ ที่มีเอฟเฟ็กต์ THX ควรใช้งานวิธีนี้ได้
 
-## 3. Conflicting applications
+## 3. แอพพลิเคชันที่ขัดแย้งกัน
 
 If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
 
