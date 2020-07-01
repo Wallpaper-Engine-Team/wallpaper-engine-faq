@@ -1,24 +1,24 @@
 ---
 tags:
-  - crash
-  - close
+  - クラッシュ
+  - 閉じる
   - nvidia
   - battleye
 ---
 
-# BattlEye anti-cheat terminating Wallpaper Engine
-If Wallpaper Engine closes silently when you start specific games then this is most likely caused by the aBattlEye anti-cheat used by numerous multiplayer games. Known games that use BattlEye are:
+# BattlEye アンチチートが Wallpaper Engine を終了させる
+Wallpaper Engine が、特定のゲームを起動したときに音もなく終了する場合は、多くのマルチプレイヤーゲームで使用されている BattlEye アンチチートが原因となっている可能性が高いです。 BattlEye を使用している既知のゲーム：
 
 * Fortnite
 * Playerunknown's Battleground (PUBG)
 * Rainbow Six Siege
 * Escape from Tarkov
-* *And more...*
+* *その他…*
 
-BattlEye closes Wallpaper Engine (and other applications) by mistake on some systems, this is not a bug or a crash in Wallpaper Engine. Wallpaper Engine gets actively terminated by BattleEye even though Wallpaper Engine does not interact with games or software on your system.
+BattlEye はいくつかのシステムにおいて誤って Wallpaper Engine（およびその他のアプリケーション）を終了させます。これはバグでも Wallpaper Engine のクラッシュでもありません。 Wallpaper Engine は、システム上のゲームにもソフトウェアにも影響しないにもかかわらず、BattleEye に常に終了させられます。
 
 ## Nvidia Low-Latency Mode
-Most users affected by this have the *Ultra-Low Latency Mode* enabled in the Nvidia graphics drivers. If you have an Nvidia graphics card and suffer from this issue, open the Nvidia Control Panel and disable ultra-low latency mode to fix this issue. Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
+これに影響されるユーザーのほとんどは、Nvidia グラフィックスドライバーで *Ultra-Low Latency Mode* を有効にしています。 Nvidia グラフィックスカードをお持ちでこの問題に悩んでいる場合は、問題解消のために Nvidia コントロールパネルを開いて ultra-low latency mode を無効にしてください。 Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
 
 ## Contacting BattlEye Support
 If the steps above do not fix your issues with a BattlEye-powered multiplayer game, you will need to reach out to BattlEye directly:
