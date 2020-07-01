@@ -9,7 +9,7 @@ Wallpaper Engine est compatible avec [**Razer Chroma**](https://www.razer.com/ch
 
 ## Comment activer ou désactiver le matériel RGB
 
-Dans la section "Plug-ins" des paramètres de Wallpaper Engine, vous trouverez les **plug-ins iCUE & Chroma SDK**. Vous pouvez activer ou désactiver le chargement de ce plugiin RGB général en cochant la case à gauche. Vous pouvez également cliquer sur la roue dentée à côté pour avoir accès à d'autres paramètres.
+Dans l'onglet "Plug-ins" des paramètres de Wallpaper Engine, vous trouverez les **plug-ins iCUE & Chroma SDK**. Vous pouvez activer ou désactiver le chargement de ce plugiin RGB général en cochant la case à gauche. Vous pouvez également cliquer sur la roue dentée à côté pour avoir accès à d'autres paramètres.
 
 La prise en charge RGB peut être désactivée sur chaque fond d'écran. En haut des propriétés de chaque fond d'écran, vous pouvez trouver l'option **Activer les effets LED**, si le plugin est activé. Vous pourrez alors autoriser ou non un fond d'écran à contrôler vos lumières RGB.
 
@@ -21,7 +21,7 @@ Par défaut, nous intensifions les couleurs RGB. Pour la plupart des fonds d'éc
 
 Wallpaper Engine n'est pas capable de communiquer directement avec votre matériel RGB, toutes les informations concernant la couleur sont d'abord envoyées aux pilotes RGB. Si votre matériel ne fonctionne pas, le problème doit venir du côté du logiciel associé à votre matériel. Certains éléments très anciens ne sont plus entièrement pris en charge par leurs fournisseurs et ne fonctionneront plus correctement. Nous ne pouvons malheureusement rien faire de plus pour vous aider.
 
-Si la section *Plug-ins* des paramètres de Wallpaper Engine n'est pas visible, c'est que *Redistribuable Visual C++ pour Visual Studio 2015* doit être corrompu ou manquant sur votre ordinateur. Ces composants sont indispensables. Vous pouvez télécharger ce pack sur le site de Microsoft et l'installer, cela devrait régler ce problème après un redémarrage :
+Si l'onglet *Plug-ins* des paramètres de Wallpaper Engine n'est pas visible, c'est que *Redistribuable Visual C++ pour Visual Studio 2015* doit être corrompu ou manquant sur votre ordinateur. Ces composants sont indispensables. Vous pouvez télécharger ce pack sur le site de Microsoft et l'installer, cela devrait régler ce problème après un redémarrage :
 
 * [Redistribuable Visual C++ pour Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
@@ -33,7 +33,7 @@ Certains matériels comme la **mémoire système (RAM) Corsair ont des commandes
 
 Activer cette option pour tous les autres matériels qui ne fonctionnent pas correctement.
 
-iCUE est utilisé en *mode exclusif*, cela veut dire que Wallpaper Engine aura la priorité sur les autres logiciels compatibles iCUE, comme des jeux par exemple. Si vous souhaitez que vos jeux interagissent avec votre clavier, allez à la section **Performances** des paramètres de Wallpaper Engine et choisissez **Arrêter (mémoire libre) ** pour l'option **Autres applications en plein écran** afin d'arrêter les fonds d'écran pendant que vous jouez. Vous pouvez également désactiver le plug-in RGB ou désactiver l'option RGB d'un fond d'écran.
+iCUE est utilisé en *mode exclusif*, cela veut dire que Wallpaper Engine aura la priorité sur les autres logiciels compatibles iCUE, comme des jeux par exemple. Si vous souhaitez que vos jeux interagissent avec votre clavier, allez dans l'onglet **Performances** des paramètres de Wallpaper Engine et choisissez **Arrêter (mémoire libre) ** pour l'option **Autres applications en plein écran** afin d'arrêter les fonds d'écran pendant que vous jouez. Vous pouvez également désactiver le plug-in RGB ou désactiver l'option RGB d'un fond d'écran.
 
 Si vous souhaitez de l'aide pour votre matériel Corsair iCUE, contactez directement Corsair :
 
