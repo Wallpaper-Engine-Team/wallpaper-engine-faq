@@ -80,7 +80,7 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 ## ข้อผิดพลาด 0xc000007b
 
-This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
+ข้อผิดพลาดนี้หมายถึงโมดูล Windows ได้รับความเสียหายจากบางสิ่งบางอย่างในระบบของคุณ - ในกรณีนี้มักจะเป็น DirectX ที่เกิดความเสียหาย ลองลบไฟล์เหล่านี้ด้วยตนเอง:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
