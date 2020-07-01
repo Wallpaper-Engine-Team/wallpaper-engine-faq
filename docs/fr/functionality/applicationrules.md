@@ -1,28 +1,28 @@
 ---
 tags:
   - application
-  - rules
+  - règles
   - exception
-  - whitelist
-  - blacklist
-  - lags
-  - laggy
-  - game
-  - performance
+  - liste blanche
+  - liste noire
+  - ralentissement
+  - ralenti
+  - jeu
+  - performances
   - fps
   - crash
-  - sound
+  - son
   - audio
   - intermittent
 ---
 
-# Fix issues with specific apps or games
+# Résoudre des problèmes avec différents jeux ou applications
 
 If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
 
-## Setting up an application rule
+## Configurer une règle d'application
 
-In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+Dans la section *Performances* des paramètres de Wallpaper Engine, cliquez sur le bouton *Modifier* près des *Règles d'application*. Vous verrez alors toutes les règles actuelles. En cliquant sur *Créer une nouvelle règle*, vous pouvez choisir la façon dont Wallpaper Engine se comporte avec d'autres applications.
 
 ![Application Rules Overview](./applicationrule.gif)
 
