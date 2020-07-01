@@ -9,7 +9,7 @@ Wallpaper Engine est un logiciel utilisé maintenant par des millions de personn
 
 [[toc]]
 
-::: tip Presque tous les rapports d'erreur que nous recevons concernent des pilotes de carte graphique corrompus, des antivirus ou d'autres logiciels défectueux qui rendent l'ordinateur instable. :::
+::: tip Presque tous les rapports d'erreur que nous recevons concernent des pilotes de carte graphique corrompus, des antivirus ou d'autres applications défectueuses qui rendent l'ordinateur instable. :::
 
 ## Réparations rapides en cas de plantage de Wallpaper Engine
 
@@ -19,13 +19,13 @@ Si vous ne savez pas ce qui provoque le crash de Wallpaper Engine, nous vous con
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Si une application antivirus est installée (à l'exception de Windows Defender), assurez-vous de configurer une exception pour Wallpaper Engine dans vos paramètres. Une réinstallation de Wallpaper Engine est parfois nécessaire si votre antivirus a corrompu ou verrouillé certains fichiers.
+Si un antivirus est installé (à l'exception de Windows Defender), assurez-vous de configurer une exception pour Wallpaper Engine dans vos paramètres. Une réinstallation de Wallpaper Engine est parfois nécessaire si votre antivirus a corrompu ou verrouillé certains fichiers.
 
 Essayez également de vérifier l'intégrité de Wallpaper Engine grâce à Steam :
 
-* [Steamp : vérifier l'intégrité des fichiers d'un jeu](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam : vérifier l'intégrité des fichiers d'un jeu](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Wallpaper a planté à cause d'un autre logiciel
+## Wallpaper a planté à cause d'une autre application
 
 ### KERNELBASE.dll / ntdll.dll
 
