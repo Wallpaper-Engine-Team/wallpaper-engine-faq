@@ -1,10 +1,10 @@
 # 高 GPU 使用率迷思
 
-大多數情況中，Windows 工作管理員不會顯示真正的 GPU 使用率，讓人容易因此混淆。 The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
+大多數情況中，Windows 工作管理員不會顯示真正的 GPU 使用率，讓人容易因此混淆。 GPU 使用率忽略了*電源狀態*和顯示卡的時脈速率，因此極不準確，通常會顯示更高的 GPU 使用率。 若要檢視真正的 GPU 使用率，請使用 GPU-Z 這類的工具：
 
-* [Download GPU-Z](https://www.techpowerup.com/gpuz/)
+* [下載 GPU-Z](https://www.techpowerup.com/gpuz/)
 
-## Finding out your actual GPU load
+## 找出實際的 GPU 負載
 
 Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
 
