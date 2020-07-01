@@ -5,11 +5,11 @@ Ses görselleştiricilerinin çalışmamasının birden çok nedeni olabilir. Bi
 ## 1. Ses cihazı kurulumu
 Wallpaper Engine ayarlarına ve sonrasında "Genel" sekmesine gidin. Merkeze gelince bir ses giriş cihazı seçebileceğiniz "Medya" bölümünü bulabilirsiniz. Doğru cihazın seçili olduğundan emin olun. Hangi cihazın doğru olduğundan emin değilseniz ses görselleştiriciler çalışmaya başlayana kadar müzik dinleyerek tüm olası cihazları deneyin.
 
-If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
+Doğru ses cihazı seçiliyse ancak yine de ses duyamıyorsanız veya ses görselleştiricileriniz çalışmıyorsa, Wallpaper Engine'in sesini Windows ses karıştırıcısında kapatmadığınızdan veya çok düşük bir sese ayarlamadığınızdan emin olun. Windows, ses kaydı ve ses çalma için sesler arasında ayrım gözetmez. Yani Windows'ta düşük bir ses seviyesi ayarladıysanız ses kaydı da çalışmayacaktır:
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![Windows ses karıştırıcısında sesi artırın ve Wallpaper Engine'in sesini açın](./audiomixer.png)
 
-If audio is detected but is too quiet, keep in mind that the application volume (of your music player, web browser, etc.) affects how well audio is detected. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+Ses algılandıysa ancak çok azsa uygulama ses düzeyinin (müzik çalarınızın, web tarayıcınızın vb.), sesin ne kadar iyi tespit edildiğini etkilediğini aklınızda bulundurun. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
 
 ## 2. Hardware-specific issues
 
