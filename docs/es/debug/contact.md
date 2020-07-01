@@ -13,10 +13,10 @@ También puede consultar nuestro foro de discusiones de Steam, ya que intentamos
 
 * [Discusiones de Steam de Wallpaper Engine](https://steamcommunity.com/app/431960/discussions/)
 
-If you cannot find a fitting article or cannot fix your problem, you can reach us at [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
+Si no encuentra el artículo que necesita o no consigue resolver el problema, contáctenos: [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
 
-::: tip If you are having a technical issue, it helps if you include a log file from our scan tool:
+::: consejo Si tiene problemas técnicos, nos ayudará si nos envía un archivo de registro de nuestra herramienta de escaneo:
 
-* [Use the Wallpaper Engine scan tool to create a debug log](debug/scantool)
+* [Usar la herramienta de escaneo de Wallpaper Engine para crear un registro de depuración](debug/scantool)
 
-The scan tool includes technical details which usually help us point you in the right direction faster. :::
+Esta herramienta incluye detalles técnicos que nos suelen servir para indicarle qué ocurre más rápidamente. :::
