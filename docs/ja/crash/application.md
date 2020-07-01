@@ -11,25 +11,25 @@ Wallpaper Engine は、数百万のユーザーに使用され、十分にテス
 
 ::: tip ユーザーの皆さんから受け取るクラッシュレポートのほとんどすべては、破損したグラフィックスカードドライバー、アンチウイルスアプリケーション、あるいはその他の、コンピューターを不安定にする欠陥のあるソフトウェアが引き起こしたものです。 :::
 
-## Wallpaper Engine Crash Quick Fix Attempt
+## Wallpaper Engine のクラッシュのクイックフィックス
 
-If you are unsure what is crashing Wallpaper Engine, please do a clean re-installation of your graphics card drivers. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+何が Wallpaper Engine のクラッシュの原因となったかわからない場合は、グラフィックスカードドライバーのクリーン再インストールを行ってください。 これには、まずドライバーをアンインストールし、次に、現在のドライバーが完全にアンインストールされた状態で、最新のドライバーを再インストールする必要があります。 ドライバーによっては、詳細セクションに「クリーン再インストールの実行」オプションがあります。自動的に破損したドライバーの残骸を掃除するには、このオプションを有効にしてください。 メジャーなメーカーの最新グラフィックスカードドライバーは、以下から入手できます。
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you have an antivirus application installed (except Windows Defender), make sure to set up an exception for Wallpaper Engine in your antivirus settings. Sometimes a re-installation of Wallpaper Engine is necessary after this if your antivirus has permanently broken or locked some files.
+アンチウイルスアプリケーションがインストールされている場合（Windows Defender を除いて）、アンチウイルスの設定で Wallpaper Engine を例外に設定してください。 アンチウイルスがいくつかのファイルを恒久的に破損したりロックしたりしている場合は、そのあとで Wallpaper Engine の再インストールが必要になることがあります。
 
-Always also try to verify the Wallpaper Engine files through steam to ensure they are not broken:
+また、Wallpaper Engine のファイルが破損していないことを確認するために、Steam を通して検証してください。
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam サポート：アプリケーションファイルの整合性確認](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Wallpaper Engine was likely crashed by another application
+## Wallpaper Engine が、他のアプリケーションによってクラッシュした可能性がある
 
 ### KERNELBASE.dll / ntdll.dll
 
-This is a crash in the core of the Windows kernel itself, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+これは Windows カーネル自体のコアにおけるクラッシュです。通常、アンチウイルスアプリケーションか破損したグラフィックスカードドライバーによって起きます。 詳しくは上記のクイックフィックスセクションをご覧ください。 また、破損したシステムコンポーネントによって起きる可能性もあります。 Use the Microsoft System File Checker tool to repair possibly broken Windows files:
 
 * [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
