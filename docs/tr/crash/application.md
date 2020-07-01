@@ -5,23 +5,23 @@ tags:
 
 # Wallpaper Engine çöktü
 
-Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. Gördüğünüz çökme mesajı **.dll** dosyaları içeriyorsa, sisteminizde çökmeye neden olan **.dll** için daha doğru bir tanımlama olup olmadığını öğrenmek üzere lütfen aşağıdaki listeye bakın:
+Wallpaper Engine, milyonlarca kişi tarafından kullanılan ve iyi test edilmiş sağlam bir yazılımdır. Uygulamada çökmelere neden olan hataların olması oldukça nadirdir. Gördüğünüz çökme mesajı **.dll** dosyaları içeriyorsa sisteminizde çökmeye neden olan **.dll** için daha doğru bir tanımlama olup olmadığını öğrenmek üzere lütfen aşağıdaki listeye bakın:
 
 [[toc]]
 
-::: ipucu Kullanıcılardan aldığımız çökme raporlarının hemen hemen hepsi bozuk grafik kartı sürücüleri, antivirüs uygulamaları ya da bilgisayarın dengesini bozan başka kusurlu yazılımlardan kaynaklanır. :::
+::: ipucu Kullanıcılardan aldığımız çökme raporlarının hemen hemen hepsi bozuk grafik kartı sürücüleri, antivirüs uygulamaları ya da bilgisayarın dengesini bozan başka kusurlu yazılımlardan kaynaklanmaktadır. :::
 
 ## Wallpaper Engine Çökmesi Hızlı Çözüm Denemesi
 
-Wallpaper Engine'i neyin çökerttiğinden emin değilseniz lütfen grafik kartı sürücülerinizi temiz bir şekilde yeniden yükleyin. Öncelikle sürücülerinizi kaldırın, mevcut sürücüleriniz tamamen kaldırıldıktan sonra en son sürücüleri yeniden yükleyin. Bazı sürücülerin gelişmiş bölümünde "Temiz bir şekilde yeniden yükle" seçeneği bulunur; bozuk sürücülerin kalıntılarından otomatik olarak kurtulmak için seçeneği etkinleştirin. Tüm büyük sağlayıcıların en son grafik kartı sürücülerine buradan ulaşabilirsiniz:
+Wallpaper Engine'i neyin çöktürdüğünden emin değilseniz lütfen grafik kartı sürücülerinizi düzgün bir şekilde yeniden yükleyin. Öncelikle sürücülerinizi kaldırın, mevcut sürücüleriniz tamamen kaldırıldıktan sonra da en son sürücüleri yeniden yükleyin. Bazı sürücülerin gelişmiş bölümünde "Temiz bir şekilde yeniden yükle" seçeneği bulunur; bozuk sürücülerin kalıntılarından otomatik olarak kurtulmak için bu seçeneği etkinleştirin. Tüm büyük sağlayıcıların en son grafik kartı sürücülerine buradan ulaşabilirsiniz:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Bilgisayarınızda Windows Defender haricinde bir antivirüs programı yüklüyse, antivirüs ayarlarınızda Wallpaper Engine için istisna oluşturmayı unutmayın. Antivirüs programınız geçici olarak bozuksa ya da bazı dosyaları kilitlediyse Wallpaper Engine'in yeniden yüklenmesi gerekebilir.
+Bilgisayarınızda Windows Defender haricinde bir antivirüs programı yüklüyse antivirüs ayarlarınızda Wallpaper Engine için istisna oluşturmayı unutmayın. Antivirüs programınız geçici olarak bozuksa ya da bazı dosyaları kilitlediyse Wallpaper Engine'in bundan sonra yeniden yüklenmesi gerekebilir.
 
-Bozulmamaları için Wallpaper Engine dosyalarınızı steam üzerinden doğrulamaya çalışın:
+Bozulmamaları için Wallpaper Engine dosyalarınızı her zaman steam üzerinden doğrulamaya çalışın:
 
 * [Steam Desteği: Uygulama Dosyalarının Bütünlüğünü Doğrulama](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
@@ -29,7 +29,7 @@ Bozulmamaları için Wallpaper Engine dosyalarınızı steam üzerinden doğrula
 
 ### KERNELBASE.dll / ntdll.dll
 
-Bu çökme Windows çekirdeğinin kendisinde gerçekleşmiştir. Bu çökmeye çoğunlukla antivirüs programları ya da bozuk grafik kartı sürücüleri sebep olur. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
+Bu çökme Windows çekirdeğinin kendisinde gerçekleşmiştir. Bu çökmeye çoğunlukla antivirüs programları ya da bozuk grafik kartı sürücüleri sebep olur. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
 
 * [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
