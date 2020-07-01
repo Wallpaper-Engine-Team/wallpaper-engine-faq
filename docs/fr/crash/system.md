@@ -1,18 +1,18 @@
 ---
 tags:
-  - hardware
+  - matériel
   - bsod
-  - blue screen
+  - écran bleu
 ---
 
-# System crash / System Freeze
-Wallpaper Engine alone cannot crash your system and it does not affect other programs. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
+# Crash du système / Système gelé
+Wallpaper Engine seul ne peut faire planter votre système et il n'affecte pas les autres programmes. Si vous rencontrez des problèmes avec votre système, comme des blocages ou des écrans bleus ou si d'autres programmes se bloquant pendant que Wallpaper Engine est en cours d'exécution, voici des pistes pour identifier le problème :
 
-* Hardware required by Wallpaper Engine is broken.
-* A driver for some hardware Wallpaper Engine needs is buggy or broken.
-* Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
+* Le matériel requis par Wallpaper Engine est défectueux.
+* Un pilote du matériel requis par Wallpaper Engine est corrompu ou obsolète.
+* Un logiciel intrusif interfère avec les pilotes ou avec Windows pendant que Wallpaper Engine est en cours d'exécution.
 
-Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
+Wallpaper Engine n'installe aucun pilote, il ne touche pas aux fichiers système et il n'a aucune incidence sur les plantages du système ou d'un autre programme.
 
 Any bugs in Wallpaper Engine could only lead to a crash of Wallpaper Engine itself in the worst case, but no bug in Wallpaper Engine could crash your entire system or other programs. This is impossible, Microsoft has designed Windows this way and Wallpaper Engine adheres to this.
 
