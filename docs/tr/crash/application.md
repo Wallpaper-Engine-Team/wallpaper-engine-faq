@@ -31,33 +31,33 @@ Bozulmamaları için Wallpaper Engine dosyalarınızı her zaman steam üzerinde
 
 Bu çökme Windows çekirdeğinin kendisinde gerçekleşmiştir. Bu çökmeye çoğunlukla antivirüs programları ya da bozuk grafik kartı sürücüleri sebep olur. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
 
-* [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-Bu çökme DirectX'te meydana gelir ve genellikle antivirüs uygulamalarından ya da bozuk grafik kartı sürücülerinden kaynaklanır. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
+Bu çökme DirectX'te meydana gelir ve genellikle antivirüs uygulamalarından ya da bozuk grafik kartı sürücülerinden kaynaklanır. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft Sistem Dosya Denetleyicisi aracını kullanın:
 
-* [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-Bu çökme Windows Medya Altyapısı'nda meydana gelmiştir; bozuk grafik kartı sürücülerinden kaynaklanmış olabilir fakat daha sıklıkla sisteminizdeki bozuk ya da eksik video codec'lerinden kaynaklanır. Bu türden çökmeleri düzeltmek için video düzeltme rehberimize başvurabilirsiniz:
+Bu çökme Windows Medya Altyapısı'nda meydana gelmiştir; bozuk grafik kartı sürücülerinden kaynaklanmış olabilir fakat daha sıklıkla sisteminizdeki bozuk ya da eksik video codec'lerinden kaynaklanır. Bu tür çökmeleri düzeltmek için video düzeltme rehberimize başvurabilirsiniz:
 
-[Burayı tıklayın](/noshow/notplaying.html)
+[Buraya tıklayın](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-Bu çökme, genellikle Windows'un kendisinden kaynaklanır. Sorunu çözmek için ses kartı sürücülerinizin son sürümünü yeniden yüklemeyi deneyin. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+Bu çökme, genellikle Windows'un kendisinden kaynaklanır. Sorunu çözmek için ses kartı sürücülerinizin son sürümünü yeniden yüklemeyi deneyin. Bu çökmeleri, Wallpaper Engine ayarlarının *Performans* sekmesindeki *Diğer uygulamadan ses çalarken* seçeneğini *Çalıştırmaya devam et* olarak değiştirerek de düzeltebilirsiniz.
 
 ### atiumdag.dll / atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: ipucu Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay kutusunu seçtiğinizden emin olun veya önce mevcut sürücülerinizi elle kaldırın. Mevcut sürücüleriniz bozuksa önce bunları temizlemeniz önemlidir. :::
 
 ### nvwgf2umx.dll
 
-The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
+Sisteminizdeki Nvidia sürücüleri çöküyor. Nvidia internet sitesine gidin, buradan en son sürücüleri indirin ve kurun:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
