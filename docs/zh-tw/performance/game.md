@@ -13,12 +13,12 @@ Wallpaper Engine 預設為在您玩遊戲時暫停。 您可以在 Wallpaper Eng
 3. 在出現的快顯示窗中，按一下**建立新規則**
 4. 建立含有以下設定的新規則：
     * **應用程式名稱：**「game.exe」*（將檔案名稱替換為遊戲的 .exe 檔案）*
-    * **Condition:** "Is running"
-    * **Wallpaper playback:** "Stop (free memory)"
-5. Confirm by clicking on **Create**
+    * **條件：**「正在執行時」
+    * **桌布播放：**「停止（釋放記憶體）」
+5. 按一下**建立**確認
 
-Wallpaper Engine will now completely remove all wallpapers from memory when the *.exe* you configured is launched.
+現在起，Wallpaper Engine 在您設定的 *.exe* 啟動時將完全移除記憶體中的所有桌布。
 
-## Conflicts with screen-recording tools or overlays
+## 與畫面錄製工具或重疊產生衝突
 
 If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
