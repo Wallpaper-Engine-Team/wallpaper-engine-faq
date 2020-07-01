@@ -3,13 +3,13 @@ tags:
   - mdmp
 ---
 
-# Wallpaper Engine crashing
+# Wallpaper Engine のクラッシュ
 
-Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. If the crash message you are seeing mentions any **.dll** files, please have a look at the following list and see if you can find a more accurate description for specific **.dll** causing the crash on your system:
+Wallpaper Engine は、数百万のユーザーに使用され、十分にテストが行われている成熟したソフトウェアです。クラッシュを引き起こすアプリケーションバグは比較的珍しいといえます。 クラッシュメッセージに **.dll** ファイルの名前が書かれている場合は、次のリストを見て、クラッシュを引き起こした **.dll** についてより正確な記述があるかどうかを確認してください。
 
 [[toc]]
 
-::: tip Almost all crash reports we receive from users turn out to be caused by broken graphics card drivers, antivirus applications or other defective software that makes the computer unstable. :::
+::: tip ユーザーの皆さんから受け取るクラッシュレポートのほとんどすべては、破損したグラフィックスカードドライバー、アンチウイルスアプリケーション、あるいはその他の、コンピューターを不安定にする欠陥のあるソフトウェアが引き起こしたものです。 :::
 
 ## Wallpaper Engine Crash Quick Fix Attempt
 
