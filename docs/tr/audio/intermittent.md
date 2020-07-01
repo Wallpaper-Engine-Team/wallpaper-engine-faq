@@ -7,12 +7,12 @@ Wallpaper Engine ayarlarındaki "Performans" sekmesine bakın. Eğer *"Diğer uy
 Bunu çözmek için şu üç şeyden birini yapın:
 
 * Masaüstünüzdeki kayıt programını kapatın veya Wallpaper Engine'i yanlışlıkla kaydetmeyecek şekilde yeniden yapılandırın.
-    * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
-    * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
-* If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
+    * Birçok kullanıcı için bu sorunun nedeni **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay**'dir ve bu da **Nvidia GeForce Experience** ayarlarından kapatılabilir. AMD grafik kartı kullanıcıları için **AMD ReLive** aynı şekilde bu sorunlara neden olabilir ve bu da AMD grafik kartı sürücülerinin bir parçasıdır. Masaüstünüzü neyin kaydettiğinden emin değilseniz önce bunu kontrol edin.
+    * Buna hangi uygulamanın neden olduğunu bilmiyorsanız Windows ses karıştırıcınızı kontrol edin ve şu anda sesinize hangi uygulamaların eriştiğine bakın, bu da size yardımcı olabilir. Alternatif olarak mümkün olduğunca programı kapatın ve Windows görev yöneticisi işlem listesinden belirli .exe dosyalarına sınırlandırın.
+* Arka plan ses kaydı kasıtlıysa veya kapatmanın bir yolunu bulamıyorsanız Wallpaper Engine ayarlarındaki "Performans" sekmesinde bir *uygulama kuralı* belirleyebilirsiniz. "Koşul"u "Ses oynatıyor olarak ve "Duvar kâğıdı oynatma"yı "Çalıştırmaya Devam Et" olarak ayarlayın:
 
-![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
+![Uygulama Kurallarına Wallpaper Engine ayarlarındaki "Performans" sekmesinden ulaşabilirsiniz](./applicationrule.png)
 
-Replace some.exe with .exe files you can find in the task manager until you have narrowed it down to the responsible .exe.
+Sorumlu .exe ile sınırlandırana kadar bazı .exe dosyalarını görev yöneticisinde bulabileceğiniz .exe dosyalarıyla değiştirin.
 
 * Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
