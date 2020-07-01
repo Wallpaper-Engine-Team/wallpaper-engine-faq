@@ -85,10 +85,10 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
+ตอนนี้ให้ติดตั้งอีกครั้งด้วยตัวติดตั้ง DirectX 9: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (ตำแหน่งที่แน่นอนขึ้นอยู่กับตำแหน่งของไดเรกทอรีการติดตั้ง wallpaper_engine ของคุณ)
 
-If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
+หากข้อผิดพลาดนี้ยังคงเกิดขึ้นแสดงว่าโมดูล DirectX อื่นที่คล้ายคลึงกันมีบางอย่างเสียหาย สิ่งนี้มักบ่งชี้ถึงปัญหาที่อาจเกิดขึ้นกับการติดตั้ง Windows และคุณต้องแก้ไขปัญหาเหล่านี้ก่อนถึงจะสามารถเรียกใช้ Wallpaper Engine ได้
 
-## Crashing after Hibernation / Sleep
+## ความผิดพลาดหลังการไฮเบอร์เนต / โหมดสลีป
 
-If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+หาก Wallpaper Engine ขัดข้องหลังจากการไฮเบอร์เนต Windows แสดงว่า Windows ไม่สามารถกู้คืนไดรเวอร์การ์ดจอและ Wallpaper Engine ได้อย่างถูกต้องในเวลาเดียวกัน การไฮเบอร์เนตของ Windows ไม่ใช่กระบวนการที่เชื่อถือได้ You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
