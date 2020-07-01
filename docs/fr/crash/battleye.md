@@ -7,7 +7,7 @@ tags:
 ---
 
 # BattlEye ferme Wallpaper Engine
-If Wallpaper Engine closes silently when you start specific games then this is most likely caused by the BattlEye anti-cheat used by numerous multiplayer games. Voici une liste des jeux utilisant BattlEye :
+Si Wallpaper Engine se ferme lorsque vous lancez un jeu, c'est probablement à cause du logiciel BattlEye, un programme utilisé pour contrer la triche. Voici une liste des jeux utilisant BattlEye :
 
 * Fortnite
 * Playerunknown's Battleground (PUBG)
