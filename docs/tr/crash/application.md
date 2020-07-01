@@ -76,11 +76,11 @@ Bu tür bir çökme, sistemizde yüklü olan bozuk ses yazılımından dolayı o
 
 ### fraps32.dll
 
-Bu çökmeye, FPS monitör ve ekran kayıt uygulaması Fraps neden oldu. Fraps 2013 yılından beri güncellenmemiş oldukça eski bir uygulamadır. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
+Bu çökmeye, FPS monitör ve ekran kayıt uygulaması Fraps neden oldu. Fraps 2013 yılından beri güncellenmemiş oldukça eski bir uygulamadır. Bu hata Fraps ile ilgili olduğu ve yazılım artık bırakıldığı için asla düzeltilemeyeceğinden lütfen Fraps yerine başka bir alternatif kullanın.
 
-## Crash error 0xc000007b
+## Çökme hatası 0xc000007b
 
-This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
+Windows modülü sisteminizdeki bir şey tarafından bozulmuş, bu durumda genellikle DirectX'in kendisi bozulur. Şu dosyaları elle silmeyi deneyin:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
