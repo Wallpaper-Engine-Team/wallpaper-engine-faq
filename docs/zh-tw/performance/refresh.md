@@ -6,4 +6,4 @@
 
 * 將各個螢幕的更新頻率彼此設定為倍數。 例如，120Hz 和 60Hz，避免 144Hz 和 60Hz。
 * 使用 Wallpaper Engine 的暫停/停止選項減緩這項問題。 將該選項設定為玩遊戲時在所有螢幕上暫停。
-* If your system has an integrated GPU, use that for your 60Hz monitor, although this will likely decrease desktop performance overall, since your CPU now needs to make both GPUs work together!
+* 若您的系統採用整合式 GPU，請在 60Hz 螢幕上使用前一項辦法，不過這麼做可能會降低桌上型電腦的整體效能，因為 CPU 這下必須讓兩個 GPU 一起運作了！
