@@ -8,7 +8,7 @@
 
 安裝 GPU-Z 之後，請使用「感測器」分頁檢視 GPU 時脈速率和 GPU 負載：
 
-![Real GPU usage](./gpuz.png)
+![真實 GPU 使用率](./gpuz.png)
 
 請注意，螢幕畫面中的 *GPU 負載*為 24%。 不過，最上方的顯示卡處於 202.5 MHz 的低電源狀態。 這是最理想的情況，雖然顯示出的「使用率」高達 24%。 以最大時脈速率 1823mhz 為標準，實際使用率僅 **2.6%***（24% * 202.5 MHz / 1823 MHz）*。
 
@@ -16,10 +16,10 @@
 
 ::: 提示 結論：檢視 GPU 負載時，務必將 GPU 時脈速率納入考量。 100 MHz 的 50% 比 2000 MHz 的 5% 更理想。 :::
 
-If you want to improve GPU performance:
+若要改善 GPU 效能：
 
-* Disable or delete overlay and recording tools, including Geforce Experience.
-* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+* 停用或刪除重疊和錄製工具，包含 Geforce Experience。
+* 降低畫面播放速率設定並停用 MSAA（這不影響 2D 場景桌布的品質）。
+    * 這麼做不會影響視訊的效能，視訊的畫面播放速率和品質都是固定的。
+    * 視訊桌布的解析度和播放速率將掌控這些層面，請使用較低 FPS 的視訊以減少 GPU 負載
+* 請將各個螢幕連接至相同的 GPU，否則 Windows 將在融合螢幕畫面時效能不佳。
