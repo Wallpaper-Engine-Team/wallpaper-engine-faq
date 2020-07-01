@@ -18,11 +18,11 @@ tags:
 
 # Solucionar problemas con ciertos programas o juegos
 
-If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
+Si tiene algún problema con programas o juegos específicos, puede configurar Wallpaper Engine para que se comporte de una forma concreta cuando detecta que abre el programa con el que tiene problemas o cuando este reproduce audio.
 
-## Setting up an application rule
+## Establecer una regla de aplicación
 
-In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+En la pestaña *Rendimiento* de Wallpaper Engine puede hacer clic en el botón *Editar* que está junto a *Reglas de la aplicación* para la información de las reglas que ha establecido. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
 
 ![Application Rules Overview](./applicationrule.gif)
 
