@@ -20,9 +20,9 @@ Si utiliza la opción *prioridad alta*, desactívela para hacer un inicio autom�
 
 Si usa la opción de prioridad normal y la aplicación no se inicia a la vez que Windows, intente cambiarlo a prioridad alta para ver si se soluciona el problema.
 
-Si no le funcionan ninguna de las dos opciones, compruebe el antivirus que tiene instalado en el equipo. Algunos antivirus y firewall tienden a bloquear Wallpaper Engine para que no se inicie cuando enciende el equipo. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
+Si no le funcionan ninguna de las dos opciones, compruebe el antivirus que tiene instalado en el equipo. Algunos antivirus y firewall tienden a bloquear Wallpaper Engine para que no se inicie cuando enciende el equipo. Es probable que su antivirus tenga una «lista blanca» que le permite ignorar ciertas carpetas y aplicaciones. Ponga en la lista el directorio de instalación wallpaper_engine y todos sus ejecutables.
 
-Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
+Es atípico, pero si ha configurado (o lo ha hecho una aplicación de su equipo) los archivos .exe de Wallpaper Engine para ejecutarlos como administrador, el programa no puede iniciarse de forma automática, por lo que tendrá que cambiar dicha configuración y deshabilitar y habilitar el inicio automático.
 
 If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
 
