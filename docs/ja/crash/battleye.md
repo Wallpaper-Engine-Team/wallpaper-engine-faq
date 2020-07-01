@@ -25,4 +25,4 @@ BattlEye はいくつかのシステムにおいて誤って Wallpaper Engine（
 
 * [BattlEye サポート](https://www.battleye.com/contact/)
 
-いくつかのシステムにおいては、BattlEye が特に理由もなく Wallpaper Engine を終了させます。私たちがこれを防ぐことはできません。BattlEye はやや図々しいアンチチートで、あなたに通知せず、あなたのコンピューター上のどんなアプリでも終了させることができるからです。 In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
+いくつかのシステムにおいては、BattlEye が特に理由もなく Wallpaper Engine を終了させます。私たちがこれを防ぐことはできません。BattlEye はやや図々しいアンチチートで、あなたに通知せず、あなたのコンピューター上のどんなアプリでも終了させることができるからです。 これらのケースについては、BattlEye の開発者がお使いのシステムの問題を調査する必要があります。これは彼らのソフトウェアの誤った振る舞いだからです。
