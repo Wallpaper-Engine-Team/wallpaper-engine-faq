@@ -1,7 +1,7 @@
 ---
 tags:
-  - crash
-  - close
+  - ข้อผิดพลาด
+  - ปิด
   - nvidia
   - battleye
 ---
