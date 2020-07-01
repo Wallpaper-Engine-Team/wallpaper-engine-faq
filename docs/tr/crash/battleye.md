@@ -21,8 +21,8 @@ BattlEye, bazı sistemlerde Wallpaper Engine'i (ve diğer uygulamaları) yanlı�
 Bundan etkilenen çoğu kullanıcı, Nvidia grafik sürücülerindeki *Ultra Düşük Gecikme Modu*'nu etkinleştirmiştir. Eğer Nvidia grafik kartınız varsa ve bu sorunu yaşıyorsanız sorunu düzeltmek için Nvidia Kontrol Panelini açın ve ultra düşük gecikme modunu devre dışı bırakın. *"3D ayarlarını yönet"* -> *"Genel Ayarlar"* -> *"Düşük Gecikme Modu"* seçeneklerine gidin ve bu ayarı *Kapalı* olarak değiştirin. *Uygula*'ya tıklayın ve bilgisayarınızı yeniden başlatın. Sonrasında BattlEye, Wallpaper Engine'i yanlışlıkla sonlandırmayacaktır.
 
 ## BattlEye Desteğiyle İletişim
-If the steps above do not fix your issues with a BattlEye-powered multiplayer game, you will need to reach out to BattlEye directly:
+Yukarıdaki adımlar BattlEye destekli çok oyunculu oyunla ilgili sorunlarınızı çözmüyorsa doğrudan BattlEye ile iletişime geçmeniz gerekecektir:
 
-* [BattlEye Support](https://www.battleye.com/contact/)
+* [BattlEye Destek](https://www.battleye.com/contact/)
 
-On some systems, BattlEye will terminate Wallpaper Engine for no apparent reason and this is not something we can prevent as BattlEye is a rather intrusive anti-cheat which is able to terminate any application on your computer without notifying you. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
+BattlEye, bazı sistemlerde sebepsiz bir şekilde Wallpaper Engine'i sonlandıracaktır. BattlEye, bilgisayarınızdaki herhangi bir uygulamayı size bildirmeden sonlandırabilen oldukça müdahaleci bir hile karşıtı sistem olduğu için bu bizim engel olabileceğimiz bir şey değildir. Böylesi durumlarda kendi yazılımlarıyla ilgili hatalı bir davranış söz konusu olduğu için sisteminizdeki bu sorunu BattlEye geliştiricilerinin incelemesi gerekir.
