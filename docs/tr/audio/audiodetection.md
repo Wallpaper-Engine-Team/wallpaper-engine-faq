@@ -9,15 +9,15 @@ Doğru ses cihazı seçiliyse ancak yine de ses duyamıyorsanız veya ses görse
 
 ![Windows ses karıştırıcısında sesi artırın ve Wallpaper Engine'in sesini açın](./audiomixer.png)
 
-Ses algılandıysa ancak çok azsa uygulama ses düzeyinin (müzik çalarınızın, web tarayıcınızın vb.), sesin ne kadar iyi tespit edildiğini etkilediğini aklınızda bulundurun. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+Ses algılandıysa ancak çok azsa uygulama ses düzeyinin (müzik çalarınızın, web tarayıcınızın vb.), sesin ne kadar iyi tespit edildiğini etkilediğini aklınızda bulundurun. Uygulamanın ses düzeyini artırmak istemiyorsanız Wallpaper Engine ayarlarındaki "Genel" sekmesinden ses algılamayı artırabilirsiniz (varsayılan kayıt ses değeri 50'dir).
 
-## 2. Hardware-specific issues
+## 2. Donanımla ilgili sorunlar
 
-### Corsair Void Pro / Bluetooth / USB headsets
+### Corsair Void Pro / Bluetooth / USB kulaklıklar
 
-USB / wireless headsets are prone to sound driver issues. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:
+USB / kablosuz kulaklıklar, ses sürücüsü sorunlarına eğilimlidir. Birçok cihazda Windows aygıt ayarlarındaki ses örnek hızını kalıcı olarak 44100 Hz olarak değiştirmek sorunu gidermektedir:
 
-Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+Windows'un sağ alt köşesinde bulunan alandaki ses simgesine sağ tıklayın, "Ses Ayarlarını Aç"ı seçin. Açılan penceredeki "Çıkış" bölümünde "Cihaz Özellikleri"ne tıklayın. Sonrasında "Ek cihaz özellikleri"ne ve ardından "Gelişmiş" sekmesine tıklayın. Buradaki menüden örnek hızını değiştirebilirsiniz. Tam konum, Windows'un farklı sürümlerinde farklılık göstermektedir. bu seçeneği bulamıyorsanız Windows sürümünüz için ses cihazlarının örnek hızını nasıl değiştireceğiniz konusunda internetteki yönergelere göz atın.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
