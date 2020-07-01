@@ -8,14 +8,14 @@
 4. ใช้หนึ่งในสองวิธีต่อไปนี้เพื่อแชร์ไฟล์ Log ให้กับผู้พัฒนา:
     * ไปที่ [pastebin.com](https://pastebin.com/) คัดลอกและวางเนื้อหาของไฟล์ Log ที่นั่นและแชร์ลิงก์ไปยังเนื้อหาที่คุณวาง
     * หรือคุณสามารถแนบไฟล์ Log ทางอีเมลและส่งมาให้เรา หากคุณมีการสนทนาทางอีเมลก่อนหน้านี้แล้ว โปรดตอบกลับไปยังอีเมลก่อนหน้าพร้อมกับแนบไฟล์ Log หากนี่เป็นครั้งแรกที่คุณส่งอีเมลเกี่ยวกับปัญหา โปรดเพิ่มข้อมูลที่เกี่ยวข้องหรือลิงค์ไปยังการสนทนาที่มีอยู่
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones. ::: tip Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues. :::
+5. *ตัวเลือกเสริม: * หากคุณพบข้อผิดพลาด โปรดตรวจสอบไดเรกทอรี *wallpaper_engine* ของคุณเพื่อหาไฟล์ **.mdmp** ใด ๆ และส่งให้เราทางอีเมลหรืออัปโหลดไว้ที่ใดที่หนึ่ง หากคุณพบไฟล์ .mdmp จำนวนมาก โปรดส่งเฉพาะไฟล์ .mdmp ล่าสุดเท่านั้น ::: เคล็ดลับ แม้ว่าเครื่องมือสแกนจะไม่รายงานปัญหาใด ๆ ในตอนแรก การตรวจสอบไฟล์ Log เชิงลึกเพิ่มเติมมักจะพบปัญหาคอมพิวเตอร์ทั่วไปซึ่งช่วยให้เราสามารถให้คำแนะนำถึงวิธีแก้ไขปัญหาด้านเทคนิคได้อย่างรวดเร็ว :::
 
-#### Additional video help
+#### วิดีโอช่วยเหลือเพิ่มเติม
 
-**Step 2**
+**ขั้นตอนที่ 2**
 
-![Scan Tool Launch Option](./scantoollaunch.gif)
+![ตัวเลือกเริ่มการทำงานเครื่องมือสแกน](./scantoollaunch.gif)
 
-**Step 3**
+**ขั้นตอนที่ 3**
 
-![Scan Tool Save Log](./scantoolsave.gif)
+![บันทึก Log เครื่องมือสแกน](./scantoolsave.gif)
