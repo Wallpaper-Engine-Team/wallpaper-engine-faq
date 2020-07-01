@@ -47,7 +47,7 @@ Il s'agit d'un plantage dans Windows Media Foundation. Il peut être causé par 
 
 ### AudioSes.dll
 
-Ce crash est généralement dû à Windows lui-même. Essayez de réinstaller la dernière version de vos pilotes de carte son pour essayer de résoudre le problème. Vous pouvez corriger ce problème en changeant l'option *"Une autre application émet du son"* sur *"Continuer d’exécuter"* dans la section *"Performances*" des paramètres de Wallpaper Engine.
+Ce crash est généralement dû à Windows lui-même. Essayez de réinstaller la dernière version de vos pilotes de carte son pour essayer de résoudre le problème. Vous pouvez corriger ce problème en changeant l'option *"Une autre application émet du son"* sur *"Continuer d’exécuter"* dans l'onglet *"Performances*" des paramètres de Wallpaper Engine.
 
 ### atiumdag.dll / atiumd64.dll
 
