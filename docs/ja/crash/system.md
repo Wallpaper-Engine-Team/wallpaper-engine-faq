@@ -17,10 +17,10 @@ Wallpaper Engine はいかなるドライバーもインストールせず、シ
 Wallpaper Engine にバグがあると、最悪の場合でも Wallpaper Engine そのものがクラッシュするだけで、Wallpaper Engine のバグがシステム全体や他のプログラムのクラッシュを起こすことはありません。 これは不可能なのです。Microsoft は Windows をそのように設計しており、Wallpaper Engine はそれを守っています。
 
 ## システムクラッシュの原因を見つける
-Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
+Wallpaper Engine がお使いのPCから必要とするのは、3Dアクセラレーション、ビデオアクセラレーション、オーディオです。 異なる壁紙タイプを使って、PCの問題が何なのか切り分けることができます。 例えば、「ビデオ」タイプの壁紙でのみ問題が起きるときは、問題はグラフィックスカード上のビデオデコーディングハードウェアにあるかもしれません。 これは Windows 単独で使うことはなく、ほとんどのゲームは使いませんから、ゲームでは問題は起きません。
 
-If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
+ブルースクリーンが起きる場合は、エラーコードをネット検索してください。 これはグローバルなシステムの問題なので、役に立つ結果がたくさん見つかるはずです。
 
-Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
+オーバーレイおよび録画プログラムは、どんなものでも問題を引き起こす可能性があります。これには Geforce Experience などがあります。これらはすべて削除してみてください。
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool.html).
+コンフリクトすることがよく知られ、確定されているアプリケーションが動作しているかどうかをチェックするスキャンツールを試してみてください： [ここをクリック](/debug/scantool.html)。
