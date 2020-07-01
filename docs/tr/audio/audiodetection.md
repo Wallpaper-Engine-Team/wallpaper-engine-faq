@@ -19,22 +19,22 @@ USB / kablosuz kulaklıklar, ses sürücüsü sorunlarına eğilimlidir. Birçok
 
 Windows'un sağ alt köşesinde bulunan alandaki ses simgesine sağ tıklayın, "Ses Ayarlarını Aç"ı seçin. Açılan penceredeki "Çıkış" bölümünde "Cihaz Özellikleri"ne tıklayın. Sonrasında "Ek cihaz özellikleri"ne ve ardından "Gelişmiş" sekmesine tıklayın. Buradaki menüden örnek hızını değiştirebilirsiniz. Tam konum, Windows'un farklı sürümlerinde farklılık göstermektedir. bu seçeneği bulamıyorsanız Windows sürümünüz için ses cihazlarının örnek hızını nasıl değiştireceğiniz konusunda internetteki yönergelere göz atın.
 
-![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
+![Örnek hızını "24 bit, 44100" olarak ayarlayın](./samplingrate.png)
 
-### Razer headsets with THX
+### THX'li razer kulaklıklar
 
-Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
+Wallpaper Engine'deki ses girişini "Hoparlörler (Razer XYZ)" cihazı olarak değiştirin. Bu seçenek genel ayarlardadır ve THX efektli tüm Razer kulaklıklar bu çözümle çalışacaktır.
 
-## 3. Conflicting applications
+## 3. Çakışan uygulamalar
 
-If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
+Ses ayarlarınızın doğru olduğunu ancak sese duyarlı duvar kâğıtlarının sese tepki vermediğini düşünüyorsanız muhtemelen tüm PC'deki geri döngü kayıt özelliğini devre dışı bırakan bir ses donanımı veya yazılımına sahipsiniz. Doğru şekilde yapılandırılması veya kaldırılması gerekir:
 
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* Various other applications, especially pre-installed ones on notebooks
+* Diğer çeşitli uygulamalar, özellikle dizüstü bilgisayarlara önceden yüklenmiş olanlar
 
-If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
+Bu tür uygulamaların yüklü olup olmadığından emin değilseniz Wallpaper Engine tarama aracını da kullanabilirsiniz. Bu araç, sorunlara neden olduğu bilinen bazı programları bildirecektir:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Wallpaper Engine Tarama Aracı](/debug/scantool.html)
 
