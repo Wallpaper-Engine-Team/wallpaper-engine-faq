@@ -22,7 +22,7 @@ tags:
 
 ## การตั้งค่ากฎของแอพพลิเคชัน
 
-In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+ในส่วนการตั้งค่า Wallpaper Engine ที่แท็บ *ประสิทธิภาพการทำงาน* ให้คลิกที่ปุ่ม *แก้ไข* ถัดจากสัญลักษณ์ *กฎของแอพพลิเคชัน* จะแสดงภาพรวมของกฎที่กำหนดเองทั้งหมดที่คุณได้ตั้งไว้ เมื่อคลิกที่ *สร้างกฎใหม่* คุณจะสามารถตั้งค่าลักษณะพิเศษของ Wallpaper Engine โดยเจาะจงแอพพลิเคชันได้
 
 ![Application Rules Overview](./applicationrule.gif)
 
