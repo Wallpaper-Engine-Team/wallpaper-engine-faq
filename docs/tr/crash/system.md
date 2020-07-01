@@ -1,18 +1,18 @@
 ---
 tags:
-  - hardware
+  - donanım
   - bsod
-  - blue screen
+  - mavi ekran
 ---
 
-# System crash / System Freeze
-Wallpaper Engine alone cannot crash your system and it does not affect other programs. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
+# Sistemin çökmesi / Sistemin Donması
+Wallpaper Engine tek başına sisteminizi çökertmez ve diğer programları etkilemez. Wallpaper Engine çalışırken sistem çökmeleri, sistem donmaları, mavi ekranlar veya diğer programlarda çökmeler yaşıyorsanız sebebi şunlardan biri olabilir:
 
-* Hardware required by Wallpaper Engine is broken.
-* A driver for some hardware Wallpaper Engine needs is buggy or broken.
+* Wallpaper Engine için gerekli olan donanım bozuk.
+* Wallpaper Engine'in bazı donanımlar için ihtiyaç duyduğu bir sürücü hatalı veya bozuk.
 * Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
 
-Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
+Wallpaper Engine sürücü kurmaz, sistem dosyalarının yerini almaz ve sistem çökmesine veya başka bir programın çökmesine neden olabilecek tehlikeli veya kuşkulu herhangi bir eylem gerçekleştirmez.
 
 Any bugs in Wallpaper Engine could only lead to a crash of Wallpaper Engine itself in the worst case, but no bug in Wallpaper Engine could crash your entire system or other programs. This is impossible, Microsoft has designed Windows this way and Wallpaper Engine adheres to this.
 
