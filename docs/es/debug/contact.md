@@ -7,11 +7,11 @@ tags:
 
 # Contacto
 
-Si tiene algún problema técnico con Wallpaper Engine, intente leer las preguntas frecuentes antes. Most technical support tickets we received can be fixed with the FAQ.
+Si tiene algún problema técnico con Wallpaper Engine, intente leer las preguntas frecuentes antes. La mayoría de preguntas que recibimos se pueden solucionar al leer las preguntas frecuentes.
 
-You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
+También puede consultar nuestro foro de discusiones de Steam, ya que intentamos contestar a todo el mundo y casi todas las preguntas se han resuelto ahí:
 
-* [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
+* [Discusiones de Steam de Wallpaper Engine](https://steamcommunity.com/app/431960/discussions/)
 
 If you cannot find a fitting article or cannot fix your problem, you can reach us at [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
 
