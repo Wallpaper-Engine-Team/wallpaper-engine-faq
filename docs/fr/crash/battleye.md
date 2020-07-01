@@ -18,7 +18,7 @@ Si Wallpaper Engine se ferme lorsque vous lancez un jeu, c'est probablement à c
 BattlEye peut parfois fermer Wallpaper Engine et d'autres logiciels par erreur. Ce n'est pas un problème lié à Wallpaper Engine. Wallpaper Engine peut être fermé par BattlEye, même si Wallpaper Engine n'a aucune influence sur les jeux et les logiciels de votre système.
 
 ## Mode de latence ultra-faible de Nvidia
-Most users affected by this have the *Ultra-Low Latency Mode* enabled in the Nvidia graphics drivers. If you have an Nvidia graphics card and suffer from this issue, open the Nvidia Control Panel and disable ultra-low latency mode to fix this issue. Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
+La plupart des utilisateurs qui ont ce problème on le *mode de latence ultra-faible* activé dans les paramètres de leur carte graphique Nvidia. Si vous avez une carte graphique Nvidia et que vous souffrez de ce problème, ouvrez le panneau de configuration Nvidia et désactivez le mode de latence ultra-faible pour résoudre ce problème. Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
 
 ## Contacting BattlEye Support
 If the steps above do not fix your issues with a BattlEye-powered multiplayer game, you will need to reach out to BattlEye directly:
