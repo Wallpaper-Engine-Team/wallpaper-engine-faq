@@ -1,5 +1,5 @@
-# "DirectX 10 not supported" crash
-Ensure your graphics card actually supports DirectX 10 by doing a web-search on the exact name of your card. If you have an old card, installing DirectX 10 will not fix this problem if your graphics card does not support DirectX 10 on hardware level.
+# "DirectX 10 desteklenmiyor" hatası
+Kartınızın tam adıyla internette arama yaparak grafik kartınızın gerçekten DirectX 10'u desteklediğinden emin olun. Kartınız eskiyse ve grafik kartınız donanım düzeyinde DirectX 10'u desteklemiyorsa DirectX 10'u kurmak sorunu çözmeyecektir.
 
 If your card does support it and you get this error, then try reinstalling the latest driver (or an older, more stable driver). Remove intrusive security software from the PC that could prevent Wallpaper Engine from accessing your graphics card.
 
