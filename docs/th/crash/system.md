@@ -10,14 +10,14 @@ Wallpaper Engine เพียงอย่างเดียวจะไม่ท
 
 * ฮาร์ดแวร์ที่จำเป็นสำหรับ Wallpaper Engine ใช้งานไม่ได้
 * ไดรเวอร์ที่จำเป็นบางตัวสำหรับฮาร์ดแวร์ของ Wallpaper Engine เกิดผิดพลาดหรือเสียหาย
-* Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
+* มีการติดตั้งซอฟต์แวร์ที่รบกวนไดรเวอร์หรือ Windows ขณะที่ Wallpaper Engine กำลังทำงาน
 
-Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
+Wallpaper Engine ไม่ได้ติดตั้งไดรเวอร์ใด ๆ ไม่ได้แทนที่ไฟล์ระบบและไม่ดำเนินการใด ๆ ที่เป็นอันตรายหรือน่าสงสัยซึ่งอาจทำให้ระบบเกิดความผิดพลาดหรือทำให้โปรแกรมอื่นเกิดความขัดข้อง
 
-Any bugs in Wallpaper Engine could only lead to a crash of Wallpaper Engine itself in the worst case, but no bug in Wallpaper Engine could crash your entire system or other programs. This is impossible, Microsoft has designed Windows this way and Wallpaper Engine adheres to this.
+แม้ในกรณีที่เลวร้ายที่สุด ข้อผิดพลาดใด ๆ ที่เกิดขึ้นใน Wallpaper Engine อาจทำให้ Wallpaper Engine ทำงานผิดพลาด แต่จะไม่มีผลต่อระบบทั้งหมดหรือโปรแกรมอื่น ๆ ด้วยการออกแบบ Microsoft ของ Windows จะป้องกันไม่ให้ระบบหรือโปรแกรมอื่น ๆ หยุดทำงานและ Wallpaper Engine ก็ใช้วิธีการออกแบบนี้เช่นกัน
 
-## Finding the cause of system crashes
-Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
+## ค้นหาสาเหตุความผิดพลาดของระบบ
+ในการใช้ Wallpaper Engine ต้องมีสิ่งเหล่านี้ในเครื่อง: การเร่ง 3D การเร่งวิดีโอ และเสียง คุณสามารถลองใช้วอลเปเปอร์ประเภทต่าง ๆ เพื่อค้นหาสิ่งผิดปกติกับคอมพิวเตอร์ของคุณ ตัวอย่างเช่น หากคุณมีปัญหากับวอลเปเปอร์ประเภท 'วิดีโอ' ปัญหาอาจมาจากฮาร์ดแวร์ถอดรหัสวิดีโอในการ์ดจอของคุณ Windows จะไม่ใช้งานฮาร์ดแวร์นี้เพียงอย่างเดียวและเกมส่วนใหญ่ก็ไม่ได้ใช้งาน ดังนั้นคุณจะไม่ประสบปัญหาในเกม
 
 If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
 
