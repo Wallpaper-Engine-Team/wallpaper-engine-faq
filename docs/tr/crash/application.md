@@ -91,4 +91,4 @@ Hâlâ bu hatayı alıyorsanız bir şey tarafından bozulmuş başka ve benzer 
 
 ## Hazırda Bekletme / Uyku modundan sonra çökme
 
-Wallpaper Engine, Windows hazırda bekletme modundan sonra çöküyorsa Windows, grafik kartı sürücülerinizi ve Wallpaper Engine'ini doğru bir şekilde geri yükleyemiyordur. Windows hazırda bekletme güvenilir bir işlem değildir. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+Wallpaper Engine, Windows hazırda bekletme modundan sonra çöküyorsa Windows, grafik kartı sürücülerinizi ve Wallpaper Engine'ini doğru bir şekilde geri yükleyemiyordur. Windows hazırda bekletme güvenilir bir işlem değildir. Bu sorunu hafifletmek için Wallpaper Engine'deki **Uykudan sonra güvenli başlangıç** seçeneğini etkinleştirebilirsiniz. Bu seçenek, Windows'un hazırda bekletmeden sonra düzgün çalışmasını beklemek yerine Wallpaper Engine'i otomatik olarak yeniden başlatmayı deneyecektir.
