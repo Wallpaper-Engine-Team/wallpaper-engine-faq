@@ -91,4 +91,4 @@ Se continua a obter este erro, poderá ser outro módulo, semelhante ao DirectX,
 
 ## Bloqueio depois de Hibernação / Suspensão
 
-Se o Wallpaper Engine bloquear depois do Windows hibernar, isso significa que o Windows não está a restaurar os controladores da sua placa gráfica e o Wallpaper Engine em conjunto. A hibernação no Windows simplesmnete não é um processo fiável. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+Se o Wallpaper Engine bloquear depois do Windows hibernar, isso significa que o Windows não está a restaurar os controladores da sua placa gráfica e o Wallpaper Engine em conjunto. A hibernação no Windows simplesmnete não é um processo fiável. Pode ativar a opção **Iniciar em segurança depois de hibernar** no Wallpaper Engine para mitigar este problema. Esta opção tentará reiniciar o Wallpaper Engine automaticamente em vez de esperar que o Windows funcione corretamente depois da hibernação.
