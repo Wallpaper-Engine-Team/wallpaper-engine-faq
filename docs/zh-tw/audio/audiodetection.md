@@ -1,21 +1,21 @@
 # 音訊可視化工具/未偵測到音訊
 
-音訊可視化工具無法運作的原因有很多。 We are listing all known possible reasons here, please read the full guide to ensure you have not missed any of the possible reasons why it does not work.
+音訊可視化工具無法運作的原因有很多。 以下列出已知的可能原因，請閱讀完整指南，確保您知道所有無法運作的原因。
 
-## 1. Audio device setup
-Go to the Wallpaper Engine settings and navigate to the "General" tab. Towards the center you can find the "Media" section where you can select an audio input device. Make sure the correct device is selected. If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
+## 1. 音訊裝置設定
+前往 Wallpaper Engine 設定與並瀏覽「一般」標籤。 您可到中心位置找到「媒體」部分選取音訊輸入裝置。 確定已選取正確的裝置。 如果您不確定哪一個是正確的裝置，可邊聽音樂，邊確認所有可能的裝置，一直到音訊可視化工具開始運作。
 
-If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
+如果您選取了正確的音訊裝置，但仍聽不見任何音訊，或者音訊可視化工具並未運作，請確保您並未在 Windows 音訊混音器中將 Wallpaper Engine 靜音，也未設定為極低的音量。 Windows 並不會分辨音訊錄製與音訊播放這兩種功能， 如果您在 Windows 調低音量，音訊錄音功能也會無法運作：
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-If audio is detected but is too quiet, keep in mind that the application volume (of your music player, web browser, etc.) affects how well audio is detected. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+如果已偵測到音訊但過於安靜，請記得應用程式的音量 (如您的音樂播放程式、網頁瀏覽器等) 也會影響偵測音訊的效果。 如果您不想調高應用程式音量 (預設錄製音量為 50)，可至 Wallpaper Engine 設定中的「一般」標籤裡加強音訊偵測。
 
-## 2. Hardware-specific issues
+## 2. 硬體相關問題
 
-### Corsair Void Pro / Bluetooth / USB headsets
+### Corsair Void Pro/藍牙/USB 耳機
 
-USB / wireless headsets are prone to sound driver issues. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:
+USB/無線耳機容易出現音效驅動程式問題。 許多裝置都可永久解決此問題，只要到 Windows 裝置設定中調整音訊取樣率至 44100 Hz 即可：
 
 Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
