@@ -24,7 +24,7 @@ Si tiene algún problema con programas o juegos específicos, puede configurar W
 
 En la pestaña *Rendimiento* de Wallpaper Engine puede hacer clic en el botón *Editar* que está junto a *Reglas de la aplicación* para la información de las reglas que ha establecido. Si hace clic en *Crear nueva regla* podrá hacer que Wallpaper Engine se comporte de una forma concreta con un programa específico.
 
-![Application Rules Overview](./applicationrule.gif)
+![Resumen de las reglas de aplicación](./applicationrule.gif)
 
 Verá una lista de todos los .exe que están activos en su equipo. Elija un .exe de la lista o escriba el nombre exacto del .exe con el que tiene problemas. Puede configurar la condición y el comportamiento con las otras dos opciones. Abajo verá más información y ejemplos concretos.
 
@@ -42,4 +42,4 @@ Seleccione el .exe del programa con el que quiere hacer una regla especial o esc
 
 Compruebe todas las condiciones posibles y las opciones de reproducción de fondos para ver más tipos de reglas de aplicación. También puede configurar Wallpaper Engine para que se silencie o se pause cuando abra una aplicación en concreto.
 
-::: consejo Puede cambiar la configuración de todas las aplicaciones en la pestaña de **Rendimiento** en la configuración de Wallpaper Engine. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other applications fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
+::: consejo Puede cambiar la configuración de todas las aplicaciones en la pestaña de **Rendimiento** en la configuración de Wallpaper Engine. Si tiene problemas de rendimiento con varios juegos, por ejemplo, podría cambiar la opción **Otra aplicación en pantalla completa** a **Detener (liberar memoria)** para qie Wallpaper Engine se detenga cuando abra un juego o aplicación en pantalla completa. :::
