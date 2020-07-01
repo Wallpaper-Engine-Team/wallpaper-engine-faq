@@ -7,17 +7,17 @@ tags:
 ---
 
 # BattlEye ferme Wallpaper Engine
-If Wallpaper Engine closes silently when you start specific games then this is most likely caused by the aBattlEye anti-cheat used by numerous multiplayer games. Known games that use BattlEye are:
+Si Wallpaper Engine se ferme lorsque vous lancez un jeu, c'est probablement à cause du logiciel BattlEye, un programme utilisé pour contrer la triche. Voici une liste des jeux utilisant BattlEye :
 
 * Fortnite
 * Playerunknown's Battleground (PUBG)
 * Rainbow Six Siege
 * Escape from Tarkov
-* *And more...*
+* *Et bien d'autres...*
 
-BattlEye closes Wallpaper Engine (and other applications) by mistake on some systems, this is not a bug or a crash in Wallpaper Engine. Wallpaper Engine gets actively terminated by BattleEye even though Wallpaper Engine does not interact with games or software on your system.
+BattlEye peut parfois fermer Wallpaper Engine et d'autres logiciels par erreur. Ce n'est pas un problème lié à Wallpaper Engine. Wallpaper Engine peut être fermé par BattlEye, même si Wallpaper Engine n'a aucune influence sur les jeux et les logiciels de votre système.
 
-## Nvidia Low-Latency Mode
+## Mode de latence ultra-faible de Nvidia
 Most users affected by this have the *Ultra-Low Latency Mode* enabled in the Nvidia graphics drivers. If you have an Nvidia graphics card and suffer from this issue, open the Nvidia Control Panel and disable ultra-low latency mode to fix this issue. Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
 
 ## Contacting BattlEye Support
