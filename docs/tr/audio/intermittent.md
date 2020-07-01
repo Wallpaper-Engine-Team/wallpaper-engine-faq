@@ -1,12 +1,12 @@
-# Sound / audio turns on and off intermittently
+# Ses aralıklarla açılıp kapanıyor
 
-Windows does not differentiate between recording and playing audio, therefore it notifies Wallpaper Engine that another program is producing sound while it is actually recording your computer audio.
+Windows, kayıt ve ses çalma arasında ayrım gözetmez, bu nedenle Wallpaper Engine'e başka bir programın ses ürettiğini bildirir ancak aslında bilgisayarınızın sesini kaydediyordur.
 
-Check the "Performance" tab of the Wallpaper Engine settings. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
+Wallpaper Engine ayarlarındaki "Performans" sekmesine bakın. Eğer *"Diğer uygulamadan ses çalarken"* seçeneği *"Sessiz"*e ayarlanmışsa ve Wallpaper Engine'den gelen sesin kendini açıp kapadığını fark ederseniz arka planda ekranınızı ve sesi kaydeden bir kayıt programınız olabilir.
 
-To solve this do any of these three things:
+Bunu çözmek için şu üç şeyden birini yapın:
 
-* Turn off the recording program on your desktop or reconfigure it to not record Wallpaper Engine by mistake.
+* Masaüstünüzdeki kayıt programını kapatın veya Wallpaper Engine'i yanlışlıkla kaydetmeyecek şekilde yeniden yapılandırın.
     * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
     * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
 * If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
