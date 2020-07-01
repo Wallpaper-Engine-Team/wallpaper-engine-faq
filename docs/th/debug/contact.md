@@ -1,13 +1,13 @@
 ---
 tags:
-  - email
-  - help
-  - support
+  - อีเมล
+  - การช่วยเหลือ
+  - ฝ่ายสนับสนุน
 ---
 
-# Contact
+# การติดต่อ
 
-If you have a technical problem with Wallpaper Engine, please try and resolve it with the FAQ first. Most technical support tickets we received can be fixed with the FAQ.
+หากคุณพบปัญหาทางเทคนิคเมื่อใช้ Wallpaper Engine โปรดลองแก้ปัญหาด้วยคำถามที่พบบ่อยก่อน Most technical support tickets we received can be fixed with the FAQ.
 
 You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
 
