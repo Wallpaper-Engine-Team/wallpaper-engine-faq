@@ -1,7 +1,7 @@
 ---
 tags:
-  - autostart
-  - launch
+  - inicio automático
+  - iniciar
 ---
 
 # Automatic start-up at boot
