@@ -2,7 +2,7 @@
 
 Windows はオーディオの録音と再生を区別しません。そのため、実際には Wallpaper Engine がお使いのコンピューターオーディオを録音しているにもかかわらず、Wallpaper Engine に他のプログラムが音を出していると通知します。
 
-Check the "Performance" tab of the Wallpaper Engine settings. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
+Wallpaper Engine の設定で「パフォーマンス」タブをチェックしてください。 *「他のアプリケーションがオーディオ再生中」*のオプションが*「ミュート」*にセットされていて、Wallpaper Engine のサウンドがオンオフを繰り返している場合、バックグラウンドで画面とサウンドを記録する録画プログラムがある可能性が高いです。
 
 To solve this do any of these three things:
 
