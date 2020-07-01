@@ -41,13 +41,13 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 ### mfplat.dll
 
-This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
+นี่เป็นความผิดพลาดใน Windows Media Foundation ซึ่งอาจเกิดจากไดรเวอร์การ์ดจอที่เสียหาย แต่สาเหตุที่พบบ่อยคือตัวแปลงสัญญาณวิดีโอในระบบของคุณที่เสียหายหรือหายไป โปรดปฏิบัติตามขั้นตอนการซ่อมแซมในคู่มือการซ่อมแซมวิดีโอของเราเพื่อแก้ไขปัญหาการขัดข้องดังต่อไปนี้:
 
-[Click here](/noshow/notplaying.html)
+[คลิกที่นี่](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+ความผิดพลาดนี้มักจะเกิดขึ้นเนื่องจากปัญหาในตัว Windows เอง Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
 
 ### atiumdag.dll / atiumd64.dll
 
