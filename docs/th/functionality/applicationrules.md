@@ -16,7 +16,7 @@ tags:
   - ไม่ต่อเนื่อง
 ---
 
-# Fix issues with specific apps or games
+# แก้ไขปัญหาเฉพาะบางแอพพลิเคชันหรือบางเกม
 
 If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
 
