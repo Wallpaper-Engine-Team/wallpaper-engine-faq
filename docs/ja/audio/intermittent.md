@@ -11,8 +11,8 @@ Wallpaper Engine の設定で「パフォーマンス」タブをチェックし
     * どのアプリケーションがこれを引き起こしているかわからない場合は、Windows のオーディオミキサーをチェックし、現在、どのアプリケーションがオーディオにアクセスしているか見てみると役に立つことがあります。 あるいはできるだけ多くのプログラムを終了させて、Windows タスクマネージャのプロセスリストから .exe ファイルを絞り込んでみてください。
 * 意図的にバックグラウンドで録音している場合や、オフにする方法がわからない場合は、Wallpaper Engine の設定の「パフォーマンス」タブで *アプリケーションルール* を設定することができます。 「状態」を「オーディオ再生されている」に、「壁紙再生」を「再生を続ける」に設定します。
 
-![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
+![アプリケーションルールは、Wallpaper Engine 設定の "パフォーマンス" タブにあります](./applicationrule.png)
 
-Replace some.exe with .exe files you can find in the task manager until you have narrowed it down to the responsible .exe.
+原因となっている .exe ファイルが絞り込めるまで、タスクマネージャで見つかる .exe ファイルで .exe を置き換えます。
 
-* Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
+* 最後に、「オーディオを再生する他のアプリケーション」オプションを「再生を続ける」に変更することもできます。 しかし、これを行うと、全画面表示になっていない状態で音楽を聴いたり動画を見たりするときに、Wallpaper Engine が壁紙からのオーディオ出力を自動的にミュートしないことになります。
