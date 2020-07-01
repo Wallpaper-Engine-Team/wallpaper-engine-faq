@@ -9,11 +9,11 @@ tags:
   - ล้าหลัง
   - เกม
   - ประสิทธิภาพการทำงาน
-  - fps
-  - crash
-  - sound
-  - audio
-  - intermittent
+  - FPS
+  - ข้อผิดพลาด
+  - เสียง
+  - สัญญาณเสียง
+  - ไม่ต่อเนื่อง
 ---
 
 # Fix issues with specific apps or games
