@@ -22,11 +22,11 @@ Si tiene algún problema con programas o juegos específicos, puede configurar W
 
 ## Establecer una regla de aplicación
 
-En la pestaña *Rendimiento* de Wallpaper Engine puede hacer clic en el botón *Editar* que está junto a *Reglas de la aplicación* para la información de las reglas que ha establecido. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+En la pestaña *Rendimiento* de Wallpaper Engine puede hacer clic en el botón *Editar* que está junto a *Reglas de la aplicación* para la información de las reglas que ha establecido. Si hace clic en *Crear nueva regla* podrá hacer que Wallpaper Engine se comporte de una forma concreta con un programa específico.
 
 ![Application Rules Overview](./applicationrule.gif)
 
-You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+Verá una lista de todos los .exe que están activos en su equipo. Elija un .exe de la lista o escriba el nombre exacto del .exe con el que tiene problemas. Puede configurar la condición y el comportamiento con las otras dos opciones. Abajo verá más información y ejemplos concretos.
 
 ::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
 
