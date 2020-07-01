@@ -18,7 +18,7 @@ tags:
 
 # Résoudre des problèmes avec différents jeux ou applications
 
-If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
+Si vous rencontrez des problèmes avec des applications ou des jeux, vous pouvez configurer Wallpaper Engine pour qu'il se comporte d'une certaine manière lorsqu'il détecte que l'application concernée est lancée ou lit de l'audio, par exemple.
 
 ## Configurer une règle d'application
 
@@ -26,7 +26,7 @@ Dans l'onglet *Performances* des paramètres de Wallpaper Engine, cliquez sur le
 
 ![Application Rules Overview](./applicationrule.gif)
 
-You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+Vous verrez alors une liste de tous les .exe en cours d'exécution sur votre système. Sélectionnez un .exe de cette liste ou entrez le nom du .exe qui vous pose des problèmes. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
 
 ::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
 
