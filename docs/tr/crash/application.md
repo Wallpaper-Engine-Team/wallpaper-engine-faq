@@ -61,22 +61,22 @@ Sisteminizdeki Nvidia sürücüleri çöküyor. Nvidia internet sitesine gidin, 
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: ipucu Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay kutusunu seçtiğinizden emin olun veya önce mevcut sürücülerinizi elle kaldırın. Mevcut sürücüleriniz bozuksa önce bunları temizlemeniz önemlidir. :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+Sisteminizdeki Intel graphics sürücüleri çöküyor. Intel internet sitesine gidin, buradan en son sürücüleri indirin ve kurun:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 
 ### MMDEvAPI.dll
 
-This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+Bu tür bir çökme, sistemizde yüklü olan bozuk ses yazılımından dolayı ortaya çıkar. Bu genellikle "ses iyileştirme" yazılımından, özellikle de çeşitli dizüstü bilgisayarlara önceden kurulmuş yazılımlardan kaynaklanır. Bu tür yazılımlar, Windows ile hatalı bir şekilde etkileşime girdikleri için genellikle çökmelere neden olur. "Sonic Studio" ya da "Nahimic"i arayıp güncelleyin. Bu programlar bilgisayarınızın sesinin düzgün çalışması için gerekli olmadıkları için bir güncelleme bulamazsanız bunları kaldırmayı da seçebilirsiniz.
 
 ### fraps32.dll
 
-The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
+Bu çökmeye, FPS monitör ve ekran kayıt uygulaması Fraps neden oldu. Fraps 2013 yılından beri güncellenmemiş oldukça eski bir uygulamadır. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
 ## Crash error 0xc000007b
 
