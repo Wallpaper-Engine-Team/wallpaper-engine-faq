@@ -91,4 +91,4 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 ## ความผิดพลาดหลังการไฮเบอร์เนต / โหมดสลีป
 
-หาก Wallpaper Engine ขัดข้องหลังจากการไฮเบอร์เนต Windows แสดงว่า Windows ไม่สามารถกู้คืนไดรเวอร์การ์ดจอและ Wallpaper Engine ได้อย่างถูกต้องในเวลาเดียวกัน การไฮเบอร์เนตของ Windows ไม่ใช่กระบวนการที่เชื่อถือได้ You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+หาก Wallpaper Engine ขัดข้องหลังจากการไฮเบอร์เนต Windows แสดงว่า Windows ไม่สามารถกู้คืนไดรเวอร์การ์ดจอและ Wallpaper Engine ได้อย่างถูกต้องในเวลาเดียวกัน การไฮเบอร์เนตของ Windows ไม่ใช่กระบวนการที่เชื่อถือได้ คุณสามารถเปิดใช้งานตัวเลือก **เริ่มต้นอย่างปลอดภัยหลังการไฮเบอร์เนต** ใน Wallpaper Engine เพื่อลดปัญหานี้ ตัวเลือกนี้จะพยายามรีสตาร์ท Wallpaper Engine โดยอัตโนมัติแทนที่จะคาดหวังให้ Windows ทำงานตามปกติหลังการไฮเบอร์เนต
