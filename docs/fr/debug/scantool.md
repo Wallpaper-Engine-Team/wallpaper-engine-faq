@@ -1,8 +1,8 @@
-# Use the Wallpaper Engine scan tool to create a debug log
+# Utiliser l'outil d'analyse de Wallpaper Engine pour créer un rapport de bug
 
-If you are having technical issues with Wallpaper Engine that you are unable to solve with the help of the FAQ, you can create a system log file which you can share with us when contacting us:
+Si vous rencontrez des problèmes avec Wallpaper Engine que vous ne parvenez pas résoudre à l'aide de la FAQ, vous pouvez créer un rapport pour votre système que vous pourrez par la suite nous envoyer :
 
-1. Make sure Wallpaper Engine is running (if possible).
+1. Assurez-vous d'avoir lancé Wallpaper Engine (si cela est possible).
 2. Choose the 4th launch option in Steam (*"Scan for conflicting applications"*, see below for a short video):
 3. Click on **Save Full Log** and save it to your desktop (see below for a short video).
 4. Share the log file with by using either of these methods developers:
