@@ -72,13 +72,13 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 ### MMDEvAPI.dll
 
-ความผิดพลาดประเภทนี้เกิดขึ้นเนื่องจากซอฟต์แวร์เสียงที่ติดตั้งอยู่ในระบบของคุณนั้นเสียหาย ซึ่งมักจะเกิดจากซอฟต์แวร์ "การปรับปรุงคุณภาพเสียง" โดยเฉพาะซอฟต์แวร์ดังกล่าวที่ถูกติดตั้งไว้ล่วงหน้าในคอมพิวเตอร์โน้ตบุ๊คต่าง ๆ This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+ความผิดพลาดประเภทนี้เกิดขึ้นเนื่องจากซอฟต์แวร์เสียงที่ติดตั้งอยู่ในระบบของคุณนั้นเสียหาย ซึ่งมักจะเกิดจากซอฟต์แวร์ "การปรับปรุงคุณภาพเสียง" โดยเฉพาะซอฟต์แวร์ดังกล่าวที่ถูกติดตั้งไว้ล่วงหน้าในคอมพิวเตอร์โน้ตบุ๊คต่าง ๆ ซอฟต์แวร์ประเภทนี้มักจะทำให้เกิดปัญหาเนื่องจากซอฟต์แวร์ดังกล่าวทำงานโต้ตอบกับ Windows ในทางที่ผิด ลองค้นหา "Sonic Studio" หรือ "Nahimic" แล้วอัพเดท หากคุณไม่พบการอัพเดตสำหรับโปรแกรมเหล่านี้ คุณสามารถถอนการติดตั้งได้เพราะโปรแกรมข้างต้นไม่มีผลต่อการทำงานปกติของเสียงคอมพิวเตอร์
 
 ### fraps32.dll
 
-The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
+ความผิดพลาดประเภทนี้เกิดจากจอแสดงผล FPS และแอพพลิเคชันบันทึกหน้าจอ Fraps แอพพลิเคชัน Fraps นั้นไม่ได้รับการอัพเดตมาตั้งแต่ปี 2013 และล้าสมัยอย่างมาก โปรดใช้แอพพลิเคชันอื่นแทนที่ Fraps เนื่องจากนี่เป็นข้อบกพร่องที่เกิดจาก Fraps ซึ่งไม่สามารถซ่อมแซมได้
 
-## Crash error 0xc000007b
+## ข้อผิดพลาด 0xc000007b
 
 This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
