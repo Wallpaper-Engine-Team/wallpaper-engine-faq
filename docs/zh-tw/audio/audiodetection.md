@@ -17,7 +17,7 @@
 
 USB/無線耳機容易出現音效驅動程式問題。 許多裝置都可永久解決此問題，只要到 Windows 裝置設定中調整音訊取樣率至 44100 Hz 即可：
 
-Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+在 Windows 桌面右下角通知區域的音訊圖示上按滑鼠右鍵，選取「開啟音效設定」。 Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
