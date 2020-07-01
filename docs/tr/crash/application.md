@@ -85,10 +85,10 @@ Windows modülü sisteminizdeki bir şey tarafından bozulmuş, bu durumda genel
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
+Şimdi bunları DirectX 9 yükleyicisi ile tekrar yükleyin: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (Tam konum, wallpaper_engine kurulum dizininizin bulunduğu yere bağlıdır).
 
-If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
+Hâlâ bu hatayı alıyorsanız bir şey tarafından bozulmuş başka ve benzer bir DirectX modülü olabilir. Bu durum genellikle Wallpaper Engine'i çalıştırmadan önce düzeltmeniz gereken Windows kurulumunuzla ilgili daha büyük bir soruna işaret eder.
 
-## Crashing after Hibernation / Sleep
+## Hazırda Bekletme / Uyku modundan sonra çökme
 
-If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+Wallpaper Engine, Windows hazırda bekletme modundan sonra çöküyorsa Windows, grafik kartı sürücülerinizi ve Wallpaper Engine'ini doğru bir şekilde geri yükleyemiyordur. Windows hazırda bekletme güvenilir bir işlem değildir. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
