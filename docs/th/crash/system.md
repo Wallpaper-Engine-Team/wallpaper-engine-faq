@@ -1,14 +1,14 @@
 ---
 tags:
-  - hardware
+  - ฮาร์ดแวร์
   - bsod
-  - blue screen
+  - หน้าจอสีน้ำเงิน
 ---
 
-# System crash / System Freeze
-Wallpaper Engine alone cannot crash your system and it does not affect other programs. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
+# ระบบเกิดความผิดพลาด / ระบบหยุดทำงาน
+Wallpaper Engine เพียงอย่างเดียวจะไม่ทำให้ระบบขัดข้องหรือส่งผลกระทบต่อโปรแกรมอื่น ๆ หากคุณพบว่าระบบเกิดความผิดพลาด ระบบหยุดทำงาน หน้าจอสีน้ำเงินหรือหรือโปรแกรมอื่น ๆ หยุดทำงานในขณะที่เรียกใช้ Wallpaper Engine สิ่งเหล่านี้อาจเป็นสาเหตุ:
 
-* Hardware required by Wallpaper Engine is broken.
+* ฮาร์ดแวร์ที่จำเป็นสำหรับ Wallpaper Engine ใช้งานไม่ได้
 * A driver for some hardware Wallpaper Engine needs is buggy or broken.
 * Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
 
