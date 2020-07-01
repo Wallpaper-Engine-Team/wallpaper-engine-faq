@@ -19,8 +19,8 @@ Wallpaper Engine ไม่ได้ติดตั้งไดรเวอร์
 ## ค้นหาสาเหตุความผิดพลาดของระบบ
 ในการใช้ Wallpaper Engine ต้องมีสิ่งเหล่านี้ในเครื่อง: การเร่ง 3D การเร่งวิดีโอ และเสียง คุณสามารถลองใช้วอลเปเปอร์ประเภทต่าง ๆ เพื่อค้นหาสิ่งผิดปกติกับคอมพิวเตอร์ของคุณ ตัวอย่างเช่น หากคุณมีปัญหากับวอลเปเปอร์ประเภท 'วิดีโอ' ปัญหาอาจมาจากฮาร์ดแวร์ถอดรหัสวิดีโอในการ์ดจอของคุณ Windows จะไม่ใช้งานฮาร์ดแวร์นี้เพียงอย่างเดียวและเกมส่วนใหญ่ก็ไม่ได้ใช้งาน ดังนั้นคุณจะไม่ประสบปัญหาในเกม
 
-If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
+หากคุณมีปัญหาหน้าจอสีน้ำเงิน ให้ค้นหารหัสข้อผิดพลาดบนเว็บ เพราะนี่คือปัญหาทางระบบที่เกิดขึ้นทั่วโลก ในอินเทอร์เน็ตมีผลลัพธ์ที่เป็นประโยชน์มากมายซึ่งอาจช่วยได้
 
-Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
+โปรแกรมทับซ้อนและโปรแกรมบันทึกใด ๆ ทุกประเภทอาจทำให้เกิดปัญหา (รวมถึง Geforce Experience) โปรดลองลบออกทั้งหมด
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool.html).
+โปรดลองใช้เครื่องมือสแกนซึ่งจะตรวจสอบว่ามีแอพพลิเคชันที่รู้จักกันดีและได้รับการยืนยันเกิดการขัดแย้งใด ๆ หรือไม่: [คลิกที่นี่](/debug/scantool.html)
