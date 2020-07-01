@@ -15,4 +15,4 @@ Bunu çözmek için şu üç şeyden birini yapın:
 
 Sorumlu .exe ile sınırlandırana kadar bazı .exe dosyalarını görev yöneticisinde bulabileceğiniz .exe dosyalarıyla değiştirin.
 
-* Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
+* Son olarak da "diğer uygulamadan ses çalarken" seçeneğini "çalıştırmaya devam et" olarak değiştirebilirsiniz. Ancak bu demektir ki müzik dinlerken veya tam ekran olmayan videoları izlerken Wallpaper Engine duvar kâğıtlarındaki ses çıkışını otomatik olarak susturmaz.
