@@ -3,6 +3,6 @@ Kartınızın tam adıyla internette arama yaparak grafik kartınızın gerçekt
 
 Eğer kartınız destekliyorsa ve bu hatayı alıyorsanız en son sürücüyü (veya daha eski ve daha kararlı bir sürücüyü) yeniden yüklemeyi deneyin. Wallpaper Engine'nin grafik kartınıza erişimini önleyebilecek müdahaleci güvenlik yazılımını PC'den kaldırın.
 
-## DuetDisplay and other display extension software
-Display extension software like DuetDisplay installs a fake graphics card which is not capable of the same features as a real graphics card. This can also be the cause for Wallpaper Engine to show this error as Wallpaper Engine requires a real graphics card with DirectX 10 support. Display extension software like DuetDisplay is not compatible with Wallpaper Engine and must be turned off.
+## DuetDisplay ve diğer görüntüleme uzantı yazılımı
+DuetDisplay gibi bir görüntüleme uzantı yazılımı, gerçek bir grafik kartıyla aynı özelliklere sahip olmayan sahte bir grafik kartı kurar. Wallpaper Engine, DirectX 10 desteğine sahip gerçek bir grafik kartı gerektirdiği için bu da Wallpaper Engine'in bu hatayı göstermesinin nedeni olabilir. DuetDisplay gibi bir görüntüleme uzantı yazılımı, Wallpaper Engine ile uyumlu değildir ve kapatılması gerekir.
 
