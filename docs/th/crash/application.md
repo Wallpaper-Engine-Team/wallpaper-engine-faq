@@ -53,19 +53,19 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: เคล็ดลับ โปรดทราบ โปรดตรวจสอบให้แน่ใจว่าคุณได้เลือกช่องทำเครื่องหมาย "ทำการติดตั้งใหม่ทั้งหมด" ในระหว่างการติดตั้งหรือถอนการติดตั้งไดรเวอร์ปัจจุบันด้วยตนเองก่อน If your current drivers are broken, it's important to fully clear them first. :::
+::: เคล็ดลับ โปรดทราบ โปรดตรวจสอบให้แน่ใจว่าคุณได้เลือกช่องทำเครื่องหมาย "ทำการติดตั้งใหม่ทั้งหมด" ในระหว่างการติดตั้งหรือถอนการติดตั้งไดรเวอร์ปัจจุบันด้วยตนเองก่อน หากไดรเวอร์ปัจจุบันของคุณได้รับความเสียหาย สิ่งสำคัญคือการลบข้อมูลทั้งหมดก่อน :::
 
 ### nvwgf2umx.dll
 
-The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
+ไดรเวอร์ Nvidia ในระบบของคุณหยุดทำงาน โปรดเยี่ยมชมเว็บไซต์ Nvidia เพื่อดาวน์โหลดไดรเวอร์ล่าสุดจากที่นั่นและทำการติดตั้ง:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: เคล็ดลับ โปรดทราบ โปรดตรวจสอบให้แน่ใจว่าคุณได้เลือกช่องทำเครื่องหมาย "ทำการติดตั้งใหม่ทั้งหมด" ในระหว่างการติดตั้งหรือถอนการติดตั้งไดรเวอร์ปัจจุบันด้วยตนเองก่อน หากไดรเวอร์ปัจจุบันของคุณได้รับความเสียหาย สิ่งสำคัญคือการลบข้อมูลทั้งหมดก่อน :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+ไดรเวอร์ Intel Graphics ในระบบของคุณหยุดทำงาน โปรดเยี่ยมชมเว็บไซต์ Intel เพื่อดาวน์โหลดไดรเวอร์ล่าสุดจากที่นั่นและทำการติดตั้ง:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
