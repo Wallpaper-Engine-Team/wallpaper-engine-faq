@@ -17,8 +17,8 @@ tags:
 
 BattlEye จะปิดบางระบบใน Wallpaper Engine (และแอพพลิเคชันอื่น ๆ) โดยไม่ได้ตั้งใจ ซึ่งนี่ไม่ได้เกิดจากปัญหาหรือข้อผิดพลาดของ Wallpaper Engine BattleEye จะหยุดการทำงานของ Wallpaper Engine แม้ว่า Wallpaper Engine ไม่ได้ทำงานโต้ตอบกับเกมหรือซอฟต์แวร์ในระบบ
 
-## Nvidia Low-Latency Mode
-Most users affected by this have the *Ultra-Low Latency Mode* enabled in the Nvidia graphics drivers. If you have an Nvidia graphics card and suffer from this issue, open the Nvidia Control Panel and disable ultra-low latency mode to fix this issue. Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
+## Nvidia โหมดเวลาแฝงในระดับต่ำ (Low-Latency Mode)
+ผู้ใช้ส่วนใหญ่ที่ได้รับผลกระทบนี้เปิดใช้งาน *โหมดเวลาแฝงในระดับต่ำพิเศษ (Ultra-Low Latency Mode)* ในไดรเวอร์จอ Nvidia หากคุณมีการ์ดจอ Nvidia และประสบปัญหานี้ ให้เปิดแผงควบคุม Nvidia และปิดการใช้งานโหมดเวลาแฝงในระดับต่ำพิเศษเพื่อแก้ไขปัญหานี้ Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
 
 ## Contacting BattlEye Support
 If the steps above do not fix your issues with a BattlEye-powered multiplayer game, you will need to reach out to BattlEye directly:
