@@ -26,9 +26,9 @@ Dans l'onglet *Performances* des paramètres de Wallpaper Engine, cliquez sur le
 
 ![Application Rules Overview](./applicationrule.gif)
 
-Vous verrez alors une liste de tous les .exe en cours d'exécution sur votre système. Sélectionnez un .exe de cette liste ou entrez le nom du .exe qui vous pose des problèmes. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+Vous verrez alors une liste de tous les .exe en cours d'exécution sur votre système. Sélectionnez un .exe de cette liste ou entrez le nom du .exe qui vous pose des problèmes. Vous pouvez ainsi configurer le comportement avec ces deux autres options. Voir plus bas pour plus d'informations.
 
-::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: tip Wallpaper Engine ne prend en compte que le nom du fichier .exe, son emplacement n'est pas pris en compte lorsque vous entrez son nom dans *Nom de l'application*. Vous devez juste vous assurer de respecter les majuscules et les minuscules. :::
 
 ### Fixing performance problems with apps or games
 
