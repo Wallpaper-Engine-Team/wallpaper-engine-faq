@@ -15,7 +15,7 @@ tags:
 * Escape from Tarkov
 * *และอื่น ๆ...*
 
-BattlEye closes Wallpaper Engine (and other applications) by mistake on some systems, this is not a bug or a crash in Wallpaper Engine. Wallpaper Engine gets actively terminated by BattleEye even though Wallpaper Engine does not interact with games or software on your system.
+BattlEye จะปิดบางระบบใน Wallpaper Engine (และแอพพลิเคชันอื่น ๆ) โดยไม่ได้ตั้งใจ ซึ่งนี่ไม่ได้เกิดจากปัญหาหรือข้อผิดพลาดของ Wallpaper Engine BattleEye จะหยุดการทำงานของ Wallpaper Engine แม้ว่า Wallpaper Engine ไม่ได้ทำงานโต้ตอบกับเกมหรือซอฟต์แวร์ในระบบ
 
 ## Nvidia Low-Latency Mode
 Most users affected by this have the *Ultra-Low Latency Mode* enabled in the Nvidia graphics drivers. If you have an Nvidia graphics card and suffer from this issue, open the Nvidia Control Panel and disable ultra-low latency mode to fix this issue. Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
