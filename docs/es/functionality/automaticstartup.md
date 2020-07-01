@@ -6,11 +6,11 @@ tags:
 
 # Inicio automático al arrancar
 
-Puede hacer que Wallpaper Engine se inicie cuando encienda el ordenador si va a la pestaña «General» de la configuración de Wallpaper Engine. At the top, you can enable the automatic startup option which will launch the application quietly in the background whenever your system boots up.
+Puede hacer que Wallpaper Engine se inicie cuando encienda el ordenador si va a la pestaña «General» de la configuración de Wallpaper Engine. Puede activar el inicio automático al arrancar en la parte superior, lo que abrirá la aplicación en segundo plano cuando encienda el equipo.
 
-## What is the difference between "high-priority" and the "normal" start-up option?
+## ¿Qué diferencia hay entre las opciones «prioridad alta» y «normal»?
 
-When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+Si elige la opción de prioridad alta, Wallpaper Engine se registrará como un servicio de Windows. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
 
 The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
 
