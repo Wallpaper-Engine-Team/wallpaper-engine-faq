@@ -10,6 +10,6 @@
 
 許多使用者認為，將 Wallpaper Engine 切換到第二個 GPU 能增加整體系統效能。 然而，這是一項常見的迷思，反而會導致整體系統效能下降。
 
-Wallpaper Engine 會建立桌布成為桌面的一部分，這表示桌布是 Windows 檔案總管程序的一部分。 因此，Wallpaper Engine 使用的 GPU 必須和 Windows 檔案總管所用的相同。 假如不同，Windows 就必須強制兩個 GPU 合作，以便為螢幕呈現圖像。 這必須由處理器完成，到頭來代表整體電腦效能會顯著下降，使用的電腦效能常常遠超過桌布。 Some proper multi-GPU technologies (Nvidia SLI, Nvidia Optimus, AMD CrossFire) solve this problem on a hardware-level but this is not applicable in cases where you use an Nvidia GPU and an Intel on-board graphics card, for example.
+Wallpaper Engine 會建立桌布成為桌面的一部分，這表示桌布是 Windows 檔案總管程序的一部分。 因此，Wallpaper Engine 使用的 GPU 必須和 Windows 檔案總管所用的相同。 假如不同，Windows 就必須強制兩個 GPU 合作，以便為螢幕呈現圖像。 這必須由處理器完成，到頭來代表整體電腦效能會顯著下降，使用的電腦效能常常遠超過桌布。 有一些適當的多 GPU 技術（Nvidia SLI、Nvidia Optimus、AMD CrossFire）從硬體層級著手解決這項問題，但是其他情況中並不適用，例如同時使用 Nvidia GPU 和 Intel 內建顯示卡。
 
-You can still change the GPU of your choice in your graphics card drivers or in your overall system settings, however we strongly advise against doing this as the outcome is not an increase in system performance.
+您還是能在顯示卡驅動程式中自行變更 GPU，或在整體系統設定中變更，不過，我們強烈建議不要這麼做，因為結果並不會提升系統效能。
