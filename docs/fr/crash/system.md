@@ -17,10 +17,10 @@ Wallpaper Engine n'installe aucun pilote, il ne touche pas aux fichiers système
 Un problème dans Wallpaper Engine peut entraîner un plantage de Wallpaper Engine dans le pire des cas, mais cela n'a aucune influence sur votre système ou d'autres programmes. C'est ainsi que Microsoft a conçu Windows et Wallpaper Engine obéit à ces règles.
 
 ## Trouver le problème
-Wallpaper Engine n'a besoin que de ceci pour bien fonctionner : l'accélération 3D, l'accélération vidéo et l'audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
+Wallpaper Engine n'a besoin que de ceci pour bien fonctionner : l'accélération 3D, l'accélération vidéo et l'audio. Vous pouvez essayer de comprendre ce qui ne va pas avec votre PC en essayant différents types de fonds d'écran. Par exemple, si vous ne rencontrez que des problèmes avec les fonds d'écran vidéo, le problème peut provenir du décodage vidéo de votre carte graphique. Il n'est pas utilisé par Windows et la plupart des jeux ne l'utilisent pas, donc ce problème a peu de chance de se produire en général.
 
-If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
+Si vous avez un écran bleu, cherchez le code d'erreur sur internet. Vous trouverez facilement une solution car ces codes d'erreur sont utilisés par beaucoup de systèmes.
 
-Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
+Tous les programmes qui enregistrent ou se superposent peuvent poser des problèmes, comme Geforce Experience. Essayez de désinstaller les programmes de ce genre.
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool.html).
+Essayez l'outil d'analyse qui vérifiera si une application conflictuelle connue est en cours d'exécution : [cliquez ici](/debug/scantool.html).
