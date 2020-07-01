@@ -17,12 +17,12 @@ Wallpaper Engine が、特定のゲームを起動したときに音もなく終
 
 BattlEye はいくつかのシステムにおいて誤って Wallpaper Engine（およびその他のアプリケーション）を終了させます。これはバグでも Wallpaper Engine のクラッシュでもありません。 Wallpaper Engine は、システム上のゲームにもソフトウェアにも影響しないにもかかわらず、BattleEye に常に終了させられます。
 
-## Nvidia Low-Latency Mode
-これに影響されるユーザーのほとんどは、Nvidia グラフィックスドライバーで *Ultra-Low Latency Mode* を有効にしています。 Nvidia グラフィックスカードをお持ちでこの問題に悩んでいる場合は、問題解消のために Nvidia コントロールパネルを開いて ultra-low latency mode を無効にしてください。 Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
+## Nvidia 低遅延モード
+これに影響されるユーザーのほとんどは、Nvidia グラフィックスドライバーで *Ultra-低遅延モード* を有効にしています。 Nvidia グラフィックスカードをお持ちでこの問題に悩んでいる場合は、問題解消のために Nvidia コントロールパネルを開いて ultra-低遅延モードを無効にしてください。 *"3D設定の管理"* -> *"グローバル設定"* -> *"低遅延モード"* を選択し、この設定を *オフ* に変更します。 *適用* をクリックしてコンピューターを再起動します。 そのあとは、BattlEye が誤って Wallpaper Engine を終了させることはありません。
 
-## Contacting BattlEye Support
-If the steps above do not fix your issues with a BattlEye-powered multiplayer game, you will need to reach out to BattlEye directly:
+## BattlEye サポートへの問い合わせ
+上記の方法で BattlEye を使用しているマルチプレイヤーゲームの問題が解消しない場合は、BattlEye に直接連絡していただく必要があります。
 
-* [BattlEye Support](https://www.battleye.com/contact/)
+* [BattlEye サポート](https://www.battleye.com/contact/)
 
-On some systems, BattlEye will terminate Wallpaper Engine for no apparent reason and this is not something we can prevent as BattlEye is a rather intrusive anti-cheat which is able to terminate any application on your computer without notifying you. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
+いくつかのシステムにおいては、BattlEye が特に理由もなく Wallpaper Engine を終了させます。私たちがこれを防ぐことはできません。BattlEye はやや図々しいアンチチートで、あなたに通知せず、あなたのコンピューター上のどんなアプリでも終了させることができるからです。 In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
