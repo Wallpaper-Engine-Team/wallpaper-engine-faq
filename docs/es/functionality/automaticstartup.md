@@ -6,7 +6,7 @@ tags:
 
 # Inicio automático al arrancar
 
-You can make Wallpaper Engine launch when your computer starts by going to the Wallpaper Engine settings and navigating to the "General" tab. At the top, you can enable the automatic startup option which will launch the application quietly in the background whenever your system boots up.
+Puede hacer que Wallpaper Engine se inicie cuando encienda el ordenador si va a la pestaña «General» de la configuración de Wallpaper Engine. At the top, you can enable the automatic startup option which will launch the application quietly in the background whenever your system boots up.
 
 ## What is the difference between "high-priority" and the "normal" start-up option?
 
