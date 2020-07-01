@@ -9,7 +9,7 @@ tags:
 Wallpaper Engine เพียงอย่างเดียวจะไม่ทำให้ระบบขัดข้องหรือส่งผลกระทบต่อโปรแกรมอื่น ๆ หากคุณพบว่าระบบเกิดความผิดพลาด ระบบหยุดทำงาน หน้าจอสีน้ำเงินหรือหรือโปรแกรมอื่น ๆ หยุดทำงานในขณะที่เรียกใช้ Wallpaper Engine สิ่งเหล่านี้อาจเป็นสาเหตุ:
 
 * ฮาร์ดแวร์ที่จำเป็นสำหรับ Wallpaper Engine ใช้งานไม่ได้
-* A driver for some hardware Wallpaper Engine needs is buggy or broken.
+* ไดรเวอร์ที่จำเป็นบางตัวสำหรับฮาร์ดแวร์ของ Wallpaper Engine เกิดผิดพลาดหรือเสียหาย
 * Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
 
 Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
