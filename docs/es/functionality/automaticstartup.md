@@ -10,11 +10,11 @@ Puede hacer que Wallpaper Engine se inicie cuando encienda el ordenador si va a 
 
 ## ¿Qué diferencia hay entre las opciones «prioridad alta» y «normal»?
 
-Si elige la opción de prioridad alta, Wallpaper Engine se registrará como un servicio de Windows. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+Si elige la opción de prioridad alta, Wallpaper Engine se registrará como un servicio de Windows. Esto significa que Wallpaper Engine se abrirá antes que otros programas que tenga configurados para que se abran al inicio de Windows. Esto no afectará al rendimiento de la aplicación en otros aspectos.
 
-The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
+El inconveniente de usar la opción de prioridad alta es que puede resultar menos fiable, ya que es posible que algunos antivirus bloqueen Wallpaper Engine para que no se inicie en este modo al identificarlo como un comportamiento malicioso.
 
-## I have enabled the automatic startup but it is not working, what can I do?
+## He activado el inicio automático, pero no funciona. ¿Qué hago?
 
 If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
 
