@@ -9,7 +9,7 @@ Si le bon périphérique audio est sélectionné, mais que vous n'entendez toujo
 
 ![Augmenter le volume rétablir l'audio de Wallpaper Engine dans le mélangeur de volume Windows](./audiomixer.png)
 
-Si l'audio est bien détecté, mais que le son n'est pas assez fort, n'oubliez pas que le volume des logiciels (votre lecteur de musique, votre navigateur, etc.) joue sur la détection du son. Si vous ne souhaitez pas augmenter le volume de l'application, vous pouvez améliorer la détection du son dans le menu "Général" des paramètres de Wallpaper Engine (le volume d'enregistrement par défaut est de 50).
+Si l'audio est bien détecté, mais que le son n'est pas assez fort, n'oubliez pas que le volume des applications (votre lecteur de musique, votre navigateur, etc.) joue sur la détection du son. Si vous ne souhaitez pas augmenter le volume de l'application, vous pouvez améliorer la détection du son dans le menu "Général" des paramètres de Wallpaper Engine (le volume d'enregistrement par défaut est de 50).
 
 ## 2. Problèmes spécifiques liés au matériel
 
@@ -32,9 +32,9 @@ Si vous pensez que vos paramètres audio sont corrects, mais que les fonds d'éc
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* De nombreux autres logiciels, notamment ceux installés d'office dans les ordinateurs portables
+* De nombreux autres applications, notamment celles installées d'office dans les ordinateurs portables
 
-Si vous ne savez pas si des logiciels de ce genre sont installés, vous pouvez également utiliser l'outil d'analyse de Wallpaper Engine. Il vous signalera si un programme est susceptible de poser problème :
+Si vous ne savez pas si des applications de ce genre sont installées, vous pouvez également utiliser l'outil d'analyse de Wallpaper Engine. Il vous signalera si un programme est susceptible de poser problème :
 
 * [Outil d'analyse de Wallpaper Engine](/debug/scantool.html)
 
