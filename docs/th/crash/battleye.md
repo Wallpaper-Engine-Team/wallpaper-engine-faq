@@ -6,14 +6,14 @@ tags:
   - battleye
 ---
 
-# BattlEye anti-cheat terminating Wallpaper Engine
-If Wallpaper Engine closes silently when you start specific games then this is most likely caused by the aBattlEye anti-cheat used by numerous multiplayer games. Known games that use BattlEye are:
+# เครื่องมือป้องกันการโกง BattlEye ยุติการทำงานของ Wallpaper Engine
+หาก Wallpaper Engine ปิดลงอย่างเงียบ ๆ โดยเฉพาะเมื่อคุณเริ่มต้นเกมบางเกม สาเหตุที่เป็นไปได้มากที่สุดอาจเกิดจากเครื่องมือป้องกันการโกง BattlEye ที่ใช้โดยเกมที่มีผู้เล่นหลายคน เกมที่ใช้ระบบ BattlEye ที่เป็นที่รู้จักกันคือ:
 
 * Fortnite
 * Playerunknown's Battleground (PUBG)
 * Rainbow Six Siege
 * Escape from Tarkov
-* *And more...*
+* *และอื่น ๆ...*
 
 BattlEye closes Wallpaper Engine (and other applications) by mistake on some systems, this is not a bug or a crash in Wallpaper Engine. Wallpaper Engine gets actively terminated by BattleEye even though Wallpaper Engine does not interact with games or software on your system.
 
