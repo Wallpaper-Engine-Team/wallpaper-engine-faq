@@ -1,14 +1,14 @@
 ---
 tags:
-  - application
-  - rules
-  - exception
-  - whitelist
-  - blacklist
-  - lags
-  - laggy
-  - game
-  - performance
+  - แอพพลิเคชัน
+  - กฎ
+  - ข้อยกเว้น
+  - รายการที่ปลอดภัย
+  - รายการที่ไม่ยอมรับ
+  - ล่าช้า
+  - ล้าหลัง
+  - เกม
+  - ประสิทธิภาพการทำงาน
   - fps
   - crash
   - sound
