@@ -3,6 +3,6 @@
 
 カードがサポートしているのにこのエラーが出る場合は、最新の（あるいは古い、より安定した）ドライバーを再インストールしてみてください。 Wallpaper Engine がグラフィックスカードにアクセスできないようにする侵入的なセキュリティソフトウェアをPCから削除してください。
 
-## DuetDisplay およびその他のディスプレイ拡張ソフトウェア
+## Duet Display and other display extension software
 DuetDisplay のようなディスプレイ拡張ソフトウェアは、本物のグラフィックスカードと同じ機能を持たない、フェイクのグラフィックスカードをインストールします。 これもまた、Wallpaper Engine がこのエラーを表示する原因となる可能性があります。Wallpaper Engine は DirectX 10 をサポートする本物のグラフィックスカードを必要とするからです。 DuetDisplay などのディスプレイ拡張ソフトウェアは Wallpaper Engine と互換性がなく、オフにする必要があります。
 
