@@ -21,4 +21,4 @@ Wallpaper Engine 預設為在您玩遊戲時暫停。 您可以在 Wallpaper Eng
 
 ## 與畫面錄製工具或重疊產生衝突
 
-If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+若您使用了任何遊戲串流、遊戲錄製功能或有重疊的軟體，請避免它們在背景中意外錄製 Wallpaper Engine。 若您使用了顯示卡驅動程式的任何遊戲串流功能（例如 Nvidia ShadowPlay、Nvidia Share 或 AMD ReLive），也請避免相同狀況。
