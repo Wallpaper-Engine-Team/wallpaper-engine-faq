@@ -5,7 +5,7 @@ tags:
 
 # Wallpaper Engine аварийно завершил работу
 
-Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. If the crash message you are seeing mentions any **.dll** files, please have a look at the following list and see if you can find a more accurate description for specific **.dll** causing the crash on your system:
+Wallpaper Engine — тщательно тестируемая и хорошо продуманная программа с миллионами пользователей, поэтому аварийное завершение работы достаточно редко бывает вызывано внутренними ошибками. Если в сообщении об аварийном завершении работы упомянуты **.dll** файлы, пожалуйста, пройдитесь по приведенному ниже списку и попробуйте найти конкретный **.dll** файл, который приводит к сбоям в вашем случае:
 
 [[toc]]
 
