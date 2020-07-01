@@ -7,7 +7,7 @@ tags:
 ---
 
 # BattlEye アンチチートが Wallpaper Engine を終了させる
-Wallpaper Engine が、特定のゲームを起動したときに音もなく終了する場合は、多くのマルチプレイヤーゲームで使用されている BattlEye アンチチートが原因となっている可能性が高いです。 BattlEye を使用している既知のゲーム：
+If Wallpaper Engine closes silently when you start specific games then this is most likely caused by the BattlEye anti-cheat used by numerous multiplayer games. BattlEye を使用している既知のゲーム：
 
 * Fortnite
 * Playerunknown's Battleground (PUBG)
