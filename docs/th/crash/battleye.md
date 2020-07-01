@@ -18,11 +18,11 @@ tags:
 BattlEye จะปิดบางระบบใน Wallpaper Engine (และแอพพลิเคชันอื่น ๆ) โดยไม่ได้ตั้งใจ ซึ่งนี่ไม่ได้เกิดจากปัญหาหรือข้อผิดพลาดของ Wallpaper Engine BattleEye จะหยุดการทำงานของ Wallpaper Engine แม้ว่า Wallpaper Engine ไม่ได้ทำงานโต้ตอบกับเกมหรือซอฟต์แวร์ในระบบ
 
 ## Nvidia โหมดเวลาแฝงในระดับต่ำ (Low-Latency Mode)
-ผู้ใช้ส่วนใหญ่ที่ได้รับผลกระทบนี้เปิดใช้งาน *โหมดเวลาแฝงในระดับต่ำพิเศษ (Ultra-Low Latency Mode)* ในไดรเวอร์จอ Nvidia หากคุณมีการ์ดจอ Nvidia และประสบปัญหานี้ ให้เปิดแผงควบคุม Nvidia และปิดการใช้งานโหมดเวลาแฝงในระดับต่ำพิเศษเพื่อแก้ไขปัญหานี้ Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
+ผู้ใช้ส่วนใหญ่ที่ได้รับผลกระทบนี้เปิดใช้งาน *โหมดเวลาแฝงในระดับต่ำพิเศษ (Ultra-Low Latency Mode)* ในไดรเวอร์จอ Nvidia หากคุณมีการ์ดจอ Nvidia และประสบปัญหานี้ ให้เปิดแผงควบคุม Nvidia และปิดการใช้งานโหมดเวลาแฝงในระดับต่ำพิเศษเพื่อแก้ไขปัญหานี้ เลือก *"จัดการการตั้งค่า 3D (Manage 3D settings)"* -> *"การตั้งค่าส่วนกลาง (Global Settings)"* -> *"โหมดเวลาแฝงในระดับต่ำ (Low-Latency Mode)"* และเปลี่ยนการตั้งค่านี้เป็น *ปิด (Off)* คลิก *ใช้ (Apply)* แล้วรีสตาร์ทคอมพิวเตอร์ หลังจากนั้น BattlEye จะไม่หยุดทำงานของ Wallpaper Engine โดยไม่ได้ตั้งใจอีกต่อไป
 
-## Contacting BattlEye Support
-If the steps above do not fix your issues with a BattlEye-powered multiplayer game, you will need to reach out to BattlEye directly:
+## ติดต่อฝ่ายสนับสนุน BattlEye
+หากขั้นตอนข้างต้นไม่สามารถแก้ปัญหาที่เกิดจากเกมที่มีผู้เล่นหลายคนที่ใช้ BattlEye ได้ คุณต้องติดต่อ BattlEye โดยตรง:
 
-* [BattlEye Support](https://www.battleye.com/contact/)
+* [ฝ่ายสนับสนุน BattlEye](https://www.battleye.com/contact/)
 
-On some systems, BattlEye will terminate Wallpaper Engine for no apparent reason and this is not something we can prevent as BattlEye is a rather intrusive anti-cheat which is able to terminate any application on your computer without notifying you. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
+BattlEye จะหยุดการทำงานของ Wallpaper Engine โดยไม่มีเหตุผลในบางระบบ เราไม่สามารถป้องกันได้เพราะ BattlEye เป็นเครื่องมือป้องกันการโกงที่ค่อนข้างสร้างความรบกวนซึ่งสามารถยกเลิกแอพพลิเคชันใด ๆ ในคอมพิวเตอร์ของคุณได้โดยไม่แจ้งให้คุณทราบ ในกรณีนี้ ผู้พัฒนา BattlEye จะต้องตรวจสอบปัญหาในระบบของคุณเพราะเป็นความผิดพลาดของซอฟต์แวร์
