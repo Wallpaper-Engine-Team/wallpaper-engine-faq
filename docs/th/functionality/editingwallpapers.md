@@ -14,7 +14,7 @@
 
 ### วอลเปเปอร์ฉาก
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+วอลเปเปอร์ฉากถูกบรรจุเป็นไฟล์ .pkg ซึ่งไม่สามารถแก้ไขได้เนื่องจากไม่มีข้อมูลที่เกี่ยวข้องกับโปรเจกต์ทั้งหมด การพยายามเปิดไฟล์ .pkg จะทำให้แสดงข้อผิดพลาด "ไม่สามารถเปิดแพ็ควอลเปเปอร์ได้" An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
 #### Unofficial Community Scene Unpacker
 
