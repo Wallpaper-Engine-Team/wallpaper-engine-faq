@@ -19,13 +19,13 @@ Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you have an antivirus application installed (except Windows Defender), make sure to set up an exception for Wallpaper Engine in your antivirus settings. Sometimes a re-installation of Wallpaper Engine is necessary after this if your antivirus has permanently broken or locked some files.
+如果您安裝了防毒應用程式 (Windows Defender 除外)，請務必在 Wallpaper Engine 的防毒設定中設定為例外。 如果防毒軟體永久損壞或鎖定某些檔案，則有時候必須重新安裝 Wallpaper Engine。
 
-Always also try to verify the Wallpaper Engine files through steam to ensure they are not broken:
+此外，務必透過 Steam 驗證 Wallpaper Engine，確保其完好未損壞。
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam 支援：驗證應用程式檔案完整性](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Wallpaper Engine was likely crashed by another application
+## Wallpaper Engine 可能因為其他應用程式導致損毀
 
 ### KERNELBASE.dll / ntdll.dll
 
