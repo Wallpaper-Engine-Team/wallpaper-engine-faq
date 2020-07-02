@@ -1,8 +1,8 @@
 # Hata ayıklama günlüğü oluşturmak için Wallpaper Engine tarama aracını kullanın
 
-If you are having technical issues with Wallpaper Engine that you are unable to solve with the help of the FAQ, you can create a system log file which you can share with us when contacting us:
+Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'de bulamıyorsanız bir sistem günlüğü dosyası oluşturabilir ve bizimle paylaşabilirsiniz:
 
-1. Make sure Wallpaper Engine is running (if possible).
+1. Wallpaper Engine'in çalıştığından emin olun (mümkünse).
 2. Choose the 4th launch option in Steam (*"Scan for conflicting applications"*, see below for a short video):
 3. Click on **Save Full Log** and save it to your desktop (see below for a short video).
 4. Share the log file with by using either of these methods developers:
