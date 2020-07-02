@@ -26,7 +26,7 @@ tags:
 
 ![Application Rules Overview](./applicationrule.gif)
 
-You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+รายการไฟล์ .exe ที่ทำงานอยู่ทั้งหมดในระบบจะปรากฏขึ้น คุณอาจเลือก .exe จากรายการหรือพิมพ์ชื่อของ .exe ที่เป็นปัญหา You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
 
 ::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
 
