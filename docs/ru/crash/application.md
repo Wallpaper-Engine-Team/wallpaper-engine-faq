@@ -19,13 +19,13 @@ Wallpaper Engine — тщательно тестируемая и хорошо �
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Если у вас установлен антивирус, убедитесь, что Wallpaper Engine добавлен в исключения в разделе настроек (этот пункт не касается Windows Defender). Sometimes a re-installation of Wallpaper Engine is necessary after this if your antivirus has permanently broken or locked some files.
+Если у вас установлен антивирус, убедитесь, что Wallpaper Engine добавлен в исключения в разделе настроек (этот пункт не касается Windows Defender). В некоторых случаях после этого бывает необходимо переустановить Wallpaper Engine, поскольку антивирус может нарушать целостность некоторых файлов или блокировать их без возможности восстановления.
 
-Always also try to verify the Wallpaper Engine files through steam to ensure they are not broken:
+Также попробуйте провести проверку целостности файлов Wallpaper Engine с помощью Steam, чтобы убедиться, что они исправны:
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam Support: проверка целостности файлов игры](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Wallpaper Engine was likely crashed by another application
+## Причиной аварийного завершения работы Wallpaper Engine скорее всего стало другое приложение
 
 ### KERNELBASE.dll / ntdll.dll
 
