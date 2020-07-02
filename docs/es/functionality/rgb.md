@@ -35,7 +35,7 @@ Vuelva a comprobar la opción con las demás partes que no funcionen correctamen
 
 Recuerde que iCUE se usa en *modo exclusivo*, por lo que Wallpaper Engine tendrá prioridad frente al software compatible con iCUE, como por ejemplo, los juegos. Si quiere que los juegos animen el teclado, vaya a la pestaña **Rendimiento** de la configuración de Wallpaper Engine y cambie la opción **Otra aplicación en pantalla completa** a **Detener (liberar memoria)** para detener los fondos mientras juega. Asimismo, puede deshabilitar el complemento RGB o deshabilitar la opción RGB en fondos particulares.
 
-Si necesita asistencia con el hardware iCUE de Corsair, contecta con Corsair directamente:
+Si necesita asistencia con el hardware iCUE de Corsair, contacte directamente con Corsair:
 
 [help.corsair.com/hc/es/categories/360001506152-Servicio-al-cliente](https://help.corsair.com/)
 
@@ -46,8 +46,8 @@ Solo tenemos compatibilidad con Razer Synapse 3 o superior. Si usa Razer Synapse
 
 Si su hardware de Razer es bastante antiguo y no es compatible con Razer Synapse 3 o superior, sentimos comunicarle que las funciones RGB no son compatibles con Wallpaper Engine.
 
-For support with Razer hardware, please contact Razer directly:
+Si necesita asistencia con el hardware de Razer, contacte directamente con Razer:
 
-[support.razer.com](https://support.razer.com/)
+[https://support.razer.com/es-es](https://support.razer.com/)
 
-Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
+Si tiene algún problema con el servicio al cliente de Razer, póngase en contacto con nosotros y veremos si podemos ayudar.
