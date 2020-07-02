@@ -9,9 +9,9 @@ Wallpaper Engine 설정으로 이동하여 "일반" 탭을 탐색하시길 바�
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-오디오가 검색되지만 볼륨이 매우 낮지도 않다면, 응용 프로그램(음악 플레이어, 웹 브라우저 등)의 볼륨이 오디오 검색이 영향을 줄 수도 있습니다. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+오디오가 검색되지만 볼륨이 매우 낮지도 않다면, 응용 프로그램(음악 플레이어, 웹 브라우저 등)의 볼륨이 오디오 검색에 영향을 줄 수도 있습니다. 응용 프로그램의 볼륨을 높이고 싶지 않으면(기본 녹음 볼륨값은 50입니다), Wallpaper Engine의 "일반" 탭에서 사운드 검색을 증가시킬 수 있습니다.
 
-## 2. Hardware-specific issues
+## 2. 하드웨어별 문제
 
 ### Corsair Void Pro / Bluetooth / USB headsets
 
