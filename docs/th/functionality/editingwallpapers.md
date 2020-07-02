@@ -84,6 +84,6 @@
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**แทนที่หมายเลข 12345678 ด้วย ID การส่งของคุณ! คุณสามารถค้นหา ID นี้ได้จาก URL การอัปโหลดปัจจุบันของคุณ:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
