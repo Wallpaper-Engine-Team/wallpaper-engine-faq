@@ -1,26 +1,26 @@
 ---
 tags:
-  - application
-  - rules
-  - exception
-  - whitelist
-  - blacklist
-  - lags
-  - laggy
-  - game
-  - performance
+  - アプリケーション
+  - ルール
+  - 例外
+  - ホワイトリスト
+  - ブラックリスト
+  - ラグ
+  - ラギー
+  - ゲーム
+  - パフォーマンス
   - fps
-  - crash
-  - sound
-  - audio
-  - intermittent
+  - クラッシュ
+  - サウンド
+  - オーディオ
+  - 断続的
 ---
 
-# Fix issues with specific apps or games
+# 特定のアプリまたはゲームで起きる問題の修正
 
-If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
+特定のアプリケーションまたはゲームで問題が起きる場合、Wallpaper Engineを設定し、例えば、問題が起きているアプリケーションが起動したりオーディオをプレイしたりしていることを検知したときに、ある動作を行うようにすることができます。
 
-## Setting up an application rule
+## アプリケーションルールの設定
 
 In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
 
