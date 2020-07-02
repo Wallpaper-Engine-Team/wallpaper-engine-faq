@@ -7,7 +7,7 @@ tags:
 ---
 
 # Anti-batota BattlEye encerra o Wallpaper Engine
-If Wallpaper Engine closes silently when you start specific games then this is most likely caused by the BattlEye anti-cheat used by numerous multiplayer games. Jogos que se sabe utilizares o Battleye:
+Se o Wallpaper Engine encerrar em sinêncio quando inicia jogos especificos, isto provavelmente deve-se ao anti-batota BattlEye utilizado por numerosos jogos multijogador. Jogos que se sabe utilizares o Battleye:
 
 * Fortnite
 * Playerunknown's Battleground (PUBG)
