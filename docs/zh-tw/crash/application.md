@@ -72,7 +72,7 @@ Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百
 
 ### MMDEvAPI.dll
 
-此種類型的當機是因為系統安裝的音訊軟體已經損壞。 通常是因為「音效增強」軟體造成，尤其是各家筆記型電腦上預先安裝的軟體。 此類軟體以錯誤方式與 Windows 互動，因此常造成當機，請找出「Sonic Studio」或 「Nahimic」並予以更新。 如果找不到這些程式的更新，您也可以將其解除安裝，因為電腦音訊不需要這類程式也能正常運作。
+此種類型的當機是因為系統安裝的音訊軟體已經損壞。 通常是因為「音效增強」軟體造成，尤其是各家筆記型電腦上預先安裝的軟體。 此類軟體以錯誤方式與 Windows 互動，因此常造成當機，請找出「Sonic Studio」或 「Nahimic」並執行更新。 如果找不到這些程式的更新，您也可以將其解除安裝，因為電腦音訊不需要這類程式也能正常運作。
 
 ### fraps32.dll
 
@@ -91,4 +91,4 @@ Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百
 
 ## 電腦休眠/睡眠後當機
 
-If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不期望 Windows 休眠後正常運作。
