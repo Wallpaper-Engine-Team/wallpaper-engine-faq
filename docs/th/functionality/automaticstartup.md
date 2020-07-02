@@ -10,7 +10,7 @@ tags:
 
 ## อะไรคือความแตกต่างระหว่างตัวเลือกการเริ่มต้นแบบ "ลำดับความสำคัญสูง" และ "ปกติ"
 
-หากคุณเลือกตัวเลือกแบบลำดับความสำคัญสูง Wallpaper Engine จะลงทะเบียน Windows service This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+หากคุณเลือกตัวเลือกแบบลำดับความสำคัญสูง Wallpaper Engine จะลงทะเบียน Windows service ซึ่งหมายความว่า Wallpaper Engine จะเริ่มต้นก่อนโปรแกรมอื่น ๆ ที่คุณกำหนดค่าให้เริ่มต้นโดยอัตโนมัติพร้อมกับ Windows ตัวเลือกนี้จะไม่ส่งผลต่อประสิทธิภาพการทำงานของแอพพลิเคชันแต่อย่างใด
 
 The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
 
