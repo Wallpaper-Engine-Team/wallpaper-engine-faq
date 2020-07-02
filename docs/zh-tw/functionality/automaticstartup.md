@@ -6,11 +6,11 @@ tags:
 
 # Automatic start-up at boot
 
-You can make Wallpaper Engine launch when your computer starts by going to the Wallpaper Engine settings and navigating to the "General" tab. At the top, you can enable the automatic startup option which will launch the application quietly in the background whenever your system boots up.
+如果要將 Wallpaper Engine 設定為開機時自動啟動，可前往 Wallpaper Engine 的設定並開啟「一般」分頁。 您可在上方啟用自動啟動選項，此應用程式就會在系統每次開機時默默自行啟動。
 
-## What is the difference between "high-priority" and the "normal" start-up option?
+## 「高優先」與「標準」啟動選項之間有何差別？
 
-When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+如果為高優先選項，Wallpaper Engine 將使用 Windows 服務， This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
 
 The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
 
