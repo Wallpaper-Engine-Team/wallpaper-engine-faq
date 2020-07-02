@@ -13,6 +13,6 @@ Windows 並不會分辨音訊錄製與播放，因此會在錄製電腦的音訊
 
 ![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
 
-Replace some.exe with .exe files you can find in the task manager until you have narrowed it down to the responsible .exe.
+持續將部分 .exe 檔案替換成工作管理員中找到的 .exe 檔案，找到造成問題的 .exe 檔案。
 
-* Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
+* 最後，您也可以將「其他應用程式正在播放音訊」的選項改為「保持執行」。 However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
