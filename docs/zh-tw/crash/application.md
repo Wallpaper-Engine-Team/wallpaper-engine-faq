@@ -5,7 +5,7 @@ tags:
 
 # Wallpaper Engine 損毀
 
-Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百萬，此應用程式中存在極少導致損毀的錯誤。 If the crash message you are seeing mentions any **.dll** files, please have a look at the following list and see if you can find a more accurate description for specific **.dll** causing the crash on your system:
+Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百萬，此應用程式中存在極少導致損毀的錯誤。 如果您看到損毀訊息中提及任何 **.dll** 檔案，請檢視以下列表，確認是否能為導致系統損毀的特定 **.dll** 檔案找到更精確的描述：
 
 [[toc]]
 
