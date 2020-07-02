@@ -9,7 +9,7 @@ Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百
 
 [[toc]]
 
-::: tip Almost all crash reports we receive from users turn out to be caused by broken graphics card drivers, antivirus applications or other defective software that makes the computer unstable. :::
+::: 提示 使用者提供的損毀報告幾乎都是因為顯示卡驅動程式損壞、防毒應用程式或其他缺陷軟體，使得電腦運作不穩定。 :::
 
 ## Wallpaper Engine Crash Quick Fix Attempt
 
