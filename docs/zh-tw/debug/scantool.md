@@ -7,15 +7,15 @@
 3. 點選**保存完整記錄**，並儲存至桌面 (請參見下方簡短視訊)。
 4. 使用下列其中一項方式將記錄檔提供給開發人員：
     * 前往 [pastebin.com](https://pastebin.com/) 並將記錄檔內容複製貼上，接著分享連結。
-    * 或者，您可將記錄檔附加至電子郵件，一起傳送給我們。 如果您之前已經傳送電子郵件和我們討論，請回覆上一封電子郵件，並附加記錄檔。 If this is your first email, please add some information about the problem you were having or a link to an existing discussion.
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones. ::: tip Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues. :::
+    * 或者，您可將記錄檔附加至電子郵件，一起傳送給我們。 如果您之前已經傳送電子郵件和我們討論，請回覆上一封電子郵件，並附加記錄檔。 如果是您第一封電子郵件，請詳述問題的內容，或新增包含現有討論的連結。
+5. *選用：*如果遇到當機，請檢查 *wallpaper_engine* 目錄中是否存在任何 **.mdmp** 檔案，並利用電子郵件傳送或上傳至某處以提供給我們。 如果您找到許多 .mdmp 檔案，請傳送最新的即可。 ::: 提示 即使掃描工具起初並未回報任何問題，若更深入研究記錄檔，也通常能發現常見的電腦問題，有助我們快速為您提供解決方式。 :::
 
-#### Additional video help
+#### 其他視訊說明
 
-**Step 2**
+**步驟 2**
 
 ![Scan Tool Launch Option](./scantoollaunch.gif)
 
-**Step 3**
+**步驟 3**
 
 ![Scan Tool Save Log](./scantoolsave.gif)
