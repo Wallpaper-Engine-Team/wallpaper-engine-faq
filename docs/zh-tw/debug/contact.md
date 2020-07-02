@@ -7,16 +7,16 @@ tags:
 
 # 聯絡我們
 
-如果您使用 Wallpaper Engine 時遇到技術問題，請先檢視常見問題集。 Most technical support tickets we received can be fixed with the FAQ.
+如果您使用 Wallpaper Engine 時遇到技術問題，請先檢視常見問題集。 我們收到的大部分技術支援請求均列在常見問題集，遵循說明步驟即可解決問題。
 
-You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
+您也可以到 Steam 討論區提問或搜尋，我們通常會盡量解答，大部分問題也都討論過了：
 
-* [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
+* [Wallpaper Engine 的 Steam 討論區](https://steamcommunity.com/app/431960/discussions/)
 
-If you cannot find a fitting article or cannot fix your problem, you can reach us at [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
+如果找不到適合的說明文章，或仍無法解決問題，請來信至 [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request)。
 
-::: tip If you are having a technical issue, it helps if you include a log file from our scan tool:
+::: 提示 如果您遇到技術問題，透過我們的掃描工具產生記錄檔可提供協助：
 
-* [Use the Wallpaper Engine scan tool to create a debug log](debug/scantool)
+* [使用 Wallpaper Engine 掃描工具建立偵錯記錄](debug/scantool)
 
 The scan tool includes technical details which usually help us point you in the right direction faster. :::
