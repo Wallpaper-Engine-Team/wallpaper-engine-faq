@@ -4,17 +4,17 @@ tags:
   - iniciar
 ---
 
-# Automatic start-up at boot
+# Iniciar automáticamente no arranque
 
-You can make Wallpaper Engine launch when your computer starts by going to the Wallpaper Engine settings and navigating to the "General" tab. At the top, you can enable the automatic startup option which will launch the application quietly in the background whenever your system boots up.
+Pode fazer o Wallpaper Engine ser iniciado quando o seu computador é iniciado indo às definições do Wallpaper Engine e navegando até ao separador "Geral". No topo, pode ativar a opção de início automático que iniciará a aplicação discretamente em segundo plano sempre que o seu sistema arranca.
 
-## What is the difference between "high-priority" and the "normal" start-up option?
+## Qual é a diferença entre as opções de arranque "alta prioridade" e "normal"?
 
-When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+Quando seleciona a opção de alta prioridade, o Wallpaper Engine irá registar um serviço do Windows. Isto significa que o Wallpaper Engine será iniciado antes de outros programas que tenha configurado para iniciarem automaticamente juntamente com o Windows. Não afetará o desempenho da aplicação de qualquer outra forma.
 
-The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
+A desvantagem de utilizar esta opção de alta prioridade é que pode ser menos fiável, especialmente devido ao facto de alguns antivírus reagirem de forma exagerada e impedirem o Wallpaper Engine de iniciar neste modo porque identificam isto erradamente como comportamento malicioso.
 
-## I have enabled the automatic startup but it is not working, what can I do?
+## Ativei o arranque automático, mas não está a resultar. O que posso fazer?
 
 If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
 
