@@ -17,9 +17,9 @@ tags:
 
 Wallpaper Engine 使用了適用於視訊的硬體加速將效能最佳化，與大多數視訊播放器不同。 這表示，顯示卡驅動程式可能影響視訊看起來的樣子。
 
-**If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
+**若視訊桌布顏色錯誤、過亮或過暗、放大、像素化，或是桌布周圍出現邊框**，您可以在圖形控制面板中替 Nvidia、AMD 或 Intel 的顯示卡重設視訊選項，解決這項問題。 若您的電腦有多個 GPU（例如主卡為 Nvidia，第二 GPU 為 Intel），請務必替所有 GPU 重設選項。
 
-You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+您也能重新安裝顯示卡驅動程式，再選擇重設所有設定（「全新重新安裝」），例如 Nvidia 的驅動程式就能做到這點。 That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
