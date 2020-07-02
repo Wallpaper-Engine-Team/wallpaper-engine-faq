@@ -27,11 +27,11 @@ Si no puede ver la sección *Complementos* de Wallpaper Engine, es probable que 
 
 ### Corsair
 
-Hay hardware como las **memorias RAM Corsair que tienen los controles de software deshabilitados por defecto**, lo que significa que sus módulos de memoria no se encenderán de acuerdo con Wallpaper Engine si no le concede los permisos en la configuración de iCUE. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+Hay hardware como las **memorias RAM Corsair que tienen los controles de software deshabilitados por defecto**, lo que significa que sus módulos de memoria no se encenderán de acuerdo con Wallpaper Engine si no le concede los permisos en la configuración de iCUE. Asegúrese de que ha seleccionado la opción «Control de software completo» en la sección de memoria de la configuración de su dispositivo iCUE.
 
 ![Enable full software control in iCUE](./icue.png)
 
-Double-check this option for any other hardware parts which are not working properly.
+Vuelva a comprobar la opción con las demás partes que no funcionen correctamente.
 
 Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
 
