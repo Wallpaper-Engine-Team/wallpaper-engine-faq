@@ -22,7 +22,7 @@ tags:
 
 หากตัวเลือกแบบลำดับความสำคัญสูงหรือลำดับความสำคัญปกติไม่ทำงาน ให้ตรวจสอบซอฟต์แวร์ป้องกันไวรัสที่ติดตั้งในระบบ บางครั้งแอพพลิเคชันป้องกันไวรัสและไฟร์วอลล์จะป้องกันไม่ให้ Wallpaper Engine เริ่มทำงานอัตโนมัติเมื่อเปิดใช้งาน ซอฟต์แวร์ป้องกันไวรัสของคุณอาจมีหมวด "รายการที่ปลอดภัย" ที่อนุญาตให้คุณละเว้นบางโฟลเดอร์หรือแอพพลิเคชัน โปรดตรวจสอบให้แน่ใจว่าไดเรกทอรีการติดตั้ง wallpaper_engine และไฟล์ปฏิบัติการทั้งหมดอยู่รายการที่ปลอดภัย
 
-Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
+อีกสาเหตุที่เกิดขึ้นไม่บ่อยคือการที่คุณ (หรือแอพพลิเคชันในระบบของคุณ) ตั้งค่าไฟล์ .exe ของ Wallpaper Engine ให้ทำงานในฐานะแอดมินเท่านั้น โปรแกรมจึงไม่สามารถเริ่มต้นโดยอัตโนมัติได้ คุณจะต้องลบการตั้งค่าแอดมินแล้วเปิดใหม่อีกครั้ง
 
 If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
 
