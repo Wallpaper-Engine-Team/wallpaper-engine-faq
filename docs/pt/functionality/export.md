@@ -1,15 +1,15 @@
-# Exporting wallpapers as GIF / video
+# Exportar wallpapers como GIF / vídeo
 
-Wallpapers made in the Wallpaper Engine editor are more like levels in a computer game rather than a video file. They do not have a clearly defined start or end and they contain elements of randomness in them. Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
+Os wallpapers criados no editor do Wallpaper Engine são mais como níveis de um videojogo do que um ficheiro de vídeo. Não têm um início ou fim claramente definidos e podem conter elementos aleatórios. Tal como não pode exportar videojogos como ficheiros de vídeo, não pode exportar wallpapers como vídeos ou GIFs.
 
-However, you can create a recording of your wallpapers and manually try to create a perfect loop if the elements in your wallpaper allow for that. For this purpose, we recommend free tools like *ScreenToGif* or *OBS Studio*:
+No entanto, pode criar uma gravação dos seus wallpapers e tentar criar manualmente um loop perfeito, se os elementos do seu wallpaper o permitirem. Para isto, recomendamos ferramentas gratuitas como *ScreenToGif* ou *OBS Studio*:
 
-* [ScreenToGif](https://www.screentogif.com/) (Easy to use)
+* [ScreenToGif](https://www.screentogif.com/) (Fácil de usar)
 
-* [OBS Studio](https://obsproject.com/) (More advanced features)
+* [OBS Studio](https://obsproject.com/) (Funcionalidades mais avançadas)
 
-#### Getting a clear shot of your wallpapers
+#### Obter uma boa imagem dos seus wallpapers
 
-You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+Pode obter facilmente uma boa imagem do seu wallpaper e redimensioná-la clicando com o botão direito do rato no separador "Instalado" e depois clicando em "Reproduzir em janela", o que irá abrir uma janela com o seu wallpaper dentro. Isto elimina a necessidade de ocultar os icones do seu ambiente de trabalho e outros elementos do Windows, além de permitir que redimensione a janela para obter o tamanho proporção que pretende para a sua "exportação":
 
-![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
+![Clique com o botão direito num wallpaper e selecione "Reproduzir em janela"](./playinwindow.gif)
