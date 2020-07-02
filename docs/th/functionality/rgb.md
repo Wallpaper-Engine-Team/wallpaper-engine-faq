@@ -11,7 +11,7 @@ Wallpaper Engine รองรับระบบนิเวศของ [**Razer
 
 ในส่วน "ปลั๊กอิน" ของการตั้งค่า Wallpaper Engine คุณสามารถค้นหา **ปลั๊กอิน iCUE และ Chroma SDK** คุณสามารถเปิดหรือปิดใช้งานการโหลดปลั๊กอิน RGB สากลนี้โดยการทำเครื่องหมายที่ช่องทำเครื่องหมายทางด้านซ้าย คุณยังสามารถคลิกที่สัญลักษณ์รูปเฟืองถัดจากปลั๊กอินเพื่อกำหนดค่าส่วนต่าง ๆ เพิ่มเติม
 
-Additionally, RGB support can be toggled off on each wallpaper. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+นอกจากนี้คุณสามารถปิดการรองรับ RGB สำหรับแต่ละวอลเปเปอร์ At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
 
 ## The RGB hardware colors seem too bright
 
