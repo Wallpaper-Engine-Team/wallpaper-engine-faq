@@ -13,13 +13,13 @@ Wallpaper Engine — тщательно тестируемая и хорошо �
 
 ## Аварийное завершение работы Wallpaper Engine: простое решение
 
-Если вы не уверены, что стало причиной сбоя в работе Wallpaper Engine, пожалуйста, проведите чистую переустановку драйверов видеокарты. Это значит, что сначала вам надо будет удалить драйвера, и, после того, как они будут полностью деинсталлированы, переустановить последнюю версию. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Если вы не уверены, что стало причиной сбоя в работе Wallpaper Engine, пожалуйста, проведите чистую переустановку драйверов видеокарты. Это значит, что сначала вам надо будет удалить драйвера, и, после того, как они будут полностью деинсталлированы, переустановить последнюю версию. Некоторые драйвера предлагают опцию "Провести чистую переустановку" в разделе расширенных настроек. Убедитесь, что эта опция выбрана, чтобы автоматически удалить все остаточные файлы, связанные с неисправными драйверами. Вы можете скачать последние версии драйверов от основных производителей видеокарт по ссылкам:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you have an antivirus application installed (except Windows Defender), make sure to set up an exception for Wallpaper Engine in your antivirus settings. Sometimes a re-installation of Wallpaper Engine is necessary after this if your antivirus has permanently broken or locked some files.
+Если у вас установлен антивирус, убедитесь, что Wallpaper Engine добавлен в исключения в разделе настроек (этот пункт не касается Windows Defender). Sometimes a re-installation of Wallpaper Engine is necessary after this if your antivirus has permanently broken or locked some files.
 
 Always also try to verify the Wallpaper Engine files through steam to ensure they are not broken:
 
