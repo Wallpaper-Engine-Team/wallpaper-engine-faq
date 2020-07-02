@@ -1,6 +1,6 @@
-# Exporting wallpapers as GIF / video
+# ส่งออกวอลเปเปอร์เป็น GIF / วิดีโอ
 
-Wallpapers made in the Wallpaper Engine editor are more like levels in a computer game rather than a video file. They do not have a clearly defined start or end and they contain elements of randomness in them. Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
+วอลเปเปอร์ที่ทำด้วยตัวแก้ไข Wallpaper Engine นั้นเหมือนกับระดับเกมคอมพิวเตอร์มากกว่าไฟล์วิดีโอ วอลเปเปอร์เหล่านี้ไม่มีจุดเริ่มต้นหรือสิ้นสุดที่กำหนดไว้อย่างชัดเจนและมีองค์ประกอบแบบสุ่ม Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
 
 However, you can create a recording of your wallpapers and manually try to create a perfect loop if the elements in your wallpaper allow for that. For this purpose, we recommend free tools like *ScreenToGif* or *OBS Studio*:
 
