@@ -35,7 +35,7 @@ Vuelva a comprobar la opción con las demás partes que no funcionen correctamen
 
 Recuerde que iCUE se usa en *modo exclusivo*, por lo que Wallpaper Engine tendrá prioridad frente al software compatible con iCUE, como por ejemplo, los juegos. Si quiere que los juegos animen el teclado, vaya a la pestaña **Rendimiento** de la configuración de Wallpaper Engine y cambie la opción **Otra aplicación en pantalla completa** a **Detener (liberar memoria)** para detener los fondos mientras juega. Asimismo, puede deshabilitar el complemento RGB o deshabilitar la opción RGB en fondos particulares.
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+Si necesita asistencia con el hardware iCUE de Corsair, contecta con Corsair directamente:
 
 [help.corsair.com](https://help.corsair.com/)
 
