@@ -1,17 +1,17 @@
-# Hiding the Wallpaper Engine tray icon
+# Ocultar el icono de Wallpaper Engine de la bandeja
 
-It is possible to hide the Wallpaper Engine tray icon by manually creating a registry key which tells Wallpaper Engine to hide the tray icon next to the Windows clock.
+Se puede ocultar el icono de Wallpaper Engine de la bandeja si crea una clave de registro que obligue a Wallpaper Engine a ocultar el icono junto al reloj de Windows.
 
-::: warning We do not recommend to do this unless you are absolutely sure that the tray icon is annoying you so much that you are willing to accept the downsides of hiding the tray icon. :::
+::: advertencia No recomendamos hacerlo a no ser que el icono le moleste tanto que se vea en la tesitura de aceptar los inconvenientes que trae consigo ocultar el icono de la bandeja. :::
 
-Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+Una vez quede oculto el icono, la única forma de cerrar Wallpaper Engine será forzar la detención desde el Administrador de tareas de Windows. Además, solo podrá abrir la interfaz desde Steam o con el .exe, lo cual es muy poco práctico y confuso.
 
-If you still want to proceed with hiding the tray icon, this is how you do it:
+Si, a pesar de todo, quiere ocultar el icono de la bandeja, siga los pasos siguientes:
 
-In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
+Para crear una clave de registro tiene que abrir el menú de Windows y escribir «regedit.exe» para abrir el «Editor del Registro».
 
-1. Go to the following registry directory: *HKEY_CURRENT_USER\Software\WallpaperEngine*
-2. Right-click on the *WallpaperEngine* registry folder, select *New* and then *DWORD (32 Bit) Value*.
+1. Vaya al directorio del registro: *HKEY_CURRENT_USER\Software\WallpaperEngine*
+2. Haga clic derecho en la carpeta de registro *WallpaperEngine*, seleccione *Nuevo* y, a continuación, *Valor DWORD (32 Bit)*.
 3. Give the registry the following name: *hideTrayIcon*
 4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
 5. Double-click on the registry key and give it the value: *1*
