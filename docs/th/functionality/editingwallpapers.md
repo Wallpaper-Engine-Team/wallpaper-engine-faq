@@ -30,19 +30,19 @@
 
 ### เว็บวอลเปเปอร์
 
-วอลเปเปอร์บนเว็บไซต์ใช้ HTML และ JavaScript You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+วอลเปเปอร์บนเว็บไซต์ใช้ HTML และ JavaScript คุณสามารถทำตามคำแนะนำด้านบนเพื่อเข้าถึงไฟล์ต้นแบบและใช้ไฟล์เหล่านี้เป็นพื้นฐานสำหรับเว็บวอลเปเปอร์ของคุณ
 
 ### วิดีโอวอลเปเปอร์
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+วิดีโอวอลเปเปอร์เป็นไฟล์วิดีโอ คุณสามารถทำตามคำแนะนำด้านบนเพื่อค้นหาไฟล์วิดีโอ จากนั้นจึงใช้แอพพลิเคชันแก้ไขวิดีโอภายนอกอื่น ๆ ที่คุณเลือกเพื่อแก้ไขวิดีโอ
 
 ### วอลเปเปอร์แอพพลิเคชัน
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+โดยทั่วไปแล้ววอลเปเปอร์แอพพลิเคชันไม่สามารถแก้ไขได้ วอลเปเปอร์แอพพลิเคชันมักจะเกิดจากรวบรวมและแปลงรหัสเป็นโปรแกรม ซึ่งหมายความว่าคุณจะไม่สามารถเข้าถึงซอร์สโค้ดได้ หากคุณมีความจำเป็นต้องเปลี่ยนวอลเปเปอร์แอพพลิเคชัน ให้ลองติดต่อผู้สร้างวอลเปเปอร์เพื่อดูว่าพวกเขายินดีช่วยเหลือหรือไม่
 
-## การอัพเดตการอัพเดตโปรเจกต์ที่หายไป
+## การอัพเดตโปรเจกต์ที่หายไป
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+หากคุณลบโปรเจกต์ของคุณไปแล้ว คุณยังสามารถเขียนทับได้ ทั้งนี้ขึ้นอยู่กับประเภทของวอลเปเปอร์ที่คุณเผยแพร่ คุณอาจไม่สามารถแก้ไขได้อีกต่อไป Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
 
 ```json
 {
