@@ -16,11 +16,11 @@ tags:
 
 ## ฉันควรทำอย่างไรถ้าการเริ่มต้นอัตโนมัติไม่ทำงานหลังจากเปิดใช้งานปกติ
 
-หากคุณใช้ตัวเลือก *ลำดับความสำคัญสูง* ให้ลองเปลี่ยนไปใช้การเริ่มต้นอัตโนมัติแบบ *ปกติ* โดยปิดใช้งานตัวเลือกแบบลำดับความสำคัญสูง As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
+หากคุณใช้ตัวเลือก *ลำดับความสำคัญสูง* ให้ลองเปลี่ยนไปใช้การเริ่มต้นอัตโนมัติแบบ *ปกติ* โดยปิดใช้งานตัวเลือกแบบลำดับความสำคัญสูง ตามที่อธิบายไว้ข้างต้น โหมดลำดับความสำคัญสูงจะทำให้เริ่มต้นได้เร็วกว่า แต่โดยมากจะลดความน่าเชื่อถือของโปรแกรม เพราะบางครั้งทำให้ถูกปิดกั้นโดยซอฟต์แวร์ป้องกันไวรัส
 
-If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
+หากคุณใช้ตัวเลือกแบบลำดับความสำคัญปกติและแอพพลิเคชันไม่ได้เริ่มการทำงานพร้อมกับ Windows ให้ลองเปลี่ยนตัวเลือกเป็นลำดับความสำคัญสูงและดูว่าปัญหาหายไปหรือไม่
 
-If neither the high-priority or normal-priority option work for you, check the antivirus software you have installed on your system. Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
+หากตัวเลือกแบบลำดับความสำคัญสูงหรือลำดับความสำคัญปกติไม่ทำงาน ให้ตรวจสอบซอฟต์แวร์ป้องกันไวรัสที่ติดตั้งในระบบ Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
 
 Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
 
