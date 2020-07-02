@@ -15,4 +15,4 @@ GPU 縮放/DSR 這樣的驅動程式層級處理功能也可能造成問題，�
 ## dwm.exe 在擁有多個 GPU / 螢幕的系統上效能不佳
 已經安裝專用顯示卡時，若在桌上型電腦的 BIOS 中啟用整合式 GPU，則 DWM.exe 可能效能不佳，CPU 使用率偏高。 可行時，請勿啟用整合式 GPU。 **請務必確保所有螢幕皆接入主顯示卡。**同時使用兩個 GPU 將中斷桌面視窗管理員的硬體加速。 沒有 Nvidia Optimus 或類似技術時，Windows 會被迫將桌布圖像從一個 GPU 複製到另一個 GPU 上，這是一項緩慢的作業。 其實，GPU 之間的任何共用行動都會發生這項問題，跟將遊戲視窗移動到兩個螢幕之間一樣。
 
-This specific issue does not affect hardware built for multi-GPU setups like laptops with Nvidia Optimus or proper Nvidia SLI / AMD Crossfire setups with a hardware bridge.
+這項問題不會影響為了多重 GPU 設定而製造的硬體，例如搭載 Nvidia Optimus 或適當 Nvidia SLI / AMD Crossfire 設定與硬體橋接器的筆記型電腦。
