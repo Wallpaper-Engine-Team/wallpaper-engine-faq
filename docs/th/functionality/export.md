@@ -4,12 +4,12 @@
 
 อย่างไรก็ตามคุณสามารถสร้างการบันทึกวอลเปเปอร์ของคุณและพยายามสร้างการวนซ้ำที่สมบูรณ์แบบด้วยตนเองหากองค์ประกอบในวอลเปเปอร์ของคุณยินยอมให้ทำเช่นนั้น ในการทำเช่นนี้ เราขอแนะนำเครื่องมือฟรี เช่น *ScreenToGif* หรือ *OBS Studio*
 
-* [ScreenToGif](https://www.screentogif.com/) (ง่ายต่อการใช้งาน)
+* [ScreenToGif](https://www.screentogif.com/) (ใช้งานได้ง่าย)
 
-* [OBS Studio](https://obsproject.com/) (More advanced features)
+* [OBS Studio](https://obsproject.com/) (มีคุณสมบัติขั้นสูงเพิ่มเติม)
 
-#### Getting a clear shot of your wallpapers
+#### ดูวอลเปเปอร์ได้อย่างชัดเจน
 
-You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+คุณสามารถดูวอลเปเปอร์ที่ชัดเจนและปรับขนาดวอลเปเปอร์ได้อย่างง่ายดายด้วยการคลิกขวาที่วอลเปเปอร์ของคุณในแท็บ "ติดตั้งแล้ว" แล้วคลิก "เล่นในหน้าต่าง" เพื่อเปิดหน้าต่างที่มีวอลเปเปอร์ของคุณ วิธีการนี้ช่วยให้คุณไม่ต้องซ่อนไอคอนบนเดสก์ทอปและองค์ประกอบ Windows อื่น ๆ และสามารถปรับขนาดหน้าต่างเพื่อให้ได้ขนาดและอัตราส่วนภาพที่คุณต้องการสำหรับ "ส่งออก":
 
-![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
+![คลิกขวาที่วอลเปเปอร์และเลือก "เล่นในหน้าต่าง"](./playinwindow.gif)
