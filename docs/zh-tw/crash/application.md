@@ -29,19 +29,19 @@ Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百
 
 ### KERNELBASE.dll / ntdll.dll
 
-這指的是 Windows 核心本身損毀，通常是因為防毒應用程式或顯示卡驅動程式損壞而造成。 欲知詳情，請見上方快速修復方式一節。 原因也可能是系統元件損壞。 請使用 Microsoft 系統檔案檢查程式修復可能損壞的 Windows 檔案：
+此代表 Windows 核心本身損毀，通常是因為防毒應用程式或顯示卡驅動程式損壞而造成。 欲知詳情，請見上方快速修復方式一節。 原因也可能是系統元件損壞。 請使用 Microsoft 系統檔案檢查程式修復可能損壞的 Windows 檔案：
 
 * [Microsoft 系統檔案檢查程式](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-代表 DirectX 損毀，通常是因為防毒應用程式或顯示卡驅動程式損壞而造成。 See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+此代表 DirectX 損毀，通常是因為防毒應用程式或顯示卡驅動程式損壞而造成。 欲知詳情，請見上方快速修復方式一節。 原因也可能是系統元件損壞。 請使用 Microsoft 系統檔案檢查程式修復可能損壞的 Windows 檔案：
 
-* [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft 系統檔案檢查程式](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
+此代表 Windows Media Foundation 損毀，可能是因為顯示卡驅動程式損壞，但更常見的原因是系統視訊轉碼器損壞或遺失。 Follow the fixes from our video fix guide to fix these types of crashes:
 
 [Click here](/noshow/notplaying.html)
 
