@@ -1,8 +1,8 @@
 # 使用 Wallpaper Engine 掃描工具建立偵錯記錄
 
-If you are having technical issues with Wallpaper Engine that you are unable to solve with the help of the FAQ, you can create a system log file which you can share with us when contacting us:
+如果您使用 Wallpaper Engine 遇到技術問題，但常見問題集的說明無法解決，您可建立系統記錄檔後提供給我們：
 
-1. Make sure Wallpaper Engine is running (if possible).
+1. 確保 Wallpaper Engine 正在運作 (若可行)。
 2. Choose the 4th launch option in Steam (*"Scan for conflicting applications"*, see below for a short video):
 3. Click on **Save Full Log** and save it to your desktop (see below for a short video).
 4. Share the log file with by using either of these methods developers:
