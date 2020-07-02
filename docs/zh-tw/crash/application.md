@@ -27,7 +27,7 @@ Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百
 
 ## Wallpaper Engine 可能因為其他應用程式導致損毀
 
-### KERNELBASE.dll / ntdll.dll
+### KERNELBASE.dll/ntdll.dll
 
 此代表 Windows 核心本身損毀，通常是因為防毒應用程式或顯示卡驅動程式損壞而造成。 欲知詳情，請見上方快速修復方式一節。 原因也可能是系統元件損壞。 請使用 Microsoft 系統檔案檢查程式修復可能損壞的 Windows 檔案：
 
@@ -41,15 +41,15 @@ Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百
 
 ### mfplat.dll
 
-此代表 Windows Media Foundation 損毀，可能是因為顯示卡驅動程式損壞，但更常見的原因是系統視訊轉碼器損壞或遺失。 Follow the fixes from our video fix guide to fix these types of crashes:
+此代表 Windows Media Foundation 損毀，可能是因為顯示卡驅動程式損壞，但更常見的原因是系統視訊轉碼器損壞或遺失。 請按照我們提供的視訊修復指南，依損毀類型修復：
 
-[Click here](/noshow/notplaying.html)
+[點選這裡](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+發生此類損毀通常是因為 Windows 本身的問題。 重新安裝最新版本的音效卡驅動程式，可能可以解決此問題。 您也可至 Wallpaper Engine 設定中的*效能*分頁，將*其他應用程式播放音訊時*選項變更為*保持執行*。
 
-### atiumdag.dll / atiumd64.dll
+### atiumdag.dll/atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/support)
 
