@@ -5,11 +5,11 @@
 ## 1. 오디오 장치 설정
 Wallpaper Engine 설정으로 이동하여 "일반" 탭을 탐색하시길 바랍니다. 중앙에서 오디오 입력 장치를 선택할 수 있는 "미디어" 섹션을 찾을 수 있습니다. 올바른 장치가 선택되어 있는지 확인하세요. 어느 장치가 올바른지 모르겠다면, 음악을 들으며 오디오 시각화 도우미가 작동할 때까지 가능한 장치를 모두 시험해 보세요.
 
-If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
+올바른 오디오 장치가 선택되었지만 여전히 오디오가 들리지 않거나 오디오 시각화 도우미가 작동하지 않는다면, Windows 오디오 믹서에서 Wallpaper Engine을 음소거하지 않았는지 또는 볼륨이 매우 낮게 설정되었는지 확인이 필요합니다. Windows는 오디오 녹음과 오디오 재생의 볼륨을 구분하지 않습니다. 즉, Windows에서 낮은 볼륨으로 설정했다면 오디오 녹음도 작동하지 않습니다.
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-If audio is detected but is too quiet, keep in mind that the application volume (of your music player, web browser, etc.) affects how well audio is detected. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+오디오가 검색되지만 볼륨이 매우 낮지도 않다면, 응용 프로그램(음악 플레이어, 웹 브라우저 등)의 볼륨이 오디오 검색이 영향을 줄 수도 있습니다. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
 
 ## 2. Hardware-specific issues
 
