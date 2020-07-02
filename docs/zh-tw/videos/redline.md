@@ -1,11 +1,11 @@
 # 畫面出現紅線
 
-紅線來自 AMD 顯示卡驅動程式。 請停用「示範模式」以移除紅線。 這個選項可能位於不同位置，取決於顯示卡驅動程式的版本。 Look through all AMD graphics card settings, you should find it somewhere. If you are unable to locate it, you can also fix this problem by doing a clean re-installation of your graphics card drivers.
+紅線來自 AMD 顯示卡驅動程式。 請停用「示範模式」以移除紅線。 這個選項可能位於不同位置，取決於顯示卡驅動程式的版本。 請檢查所有的 AMD 顯示卡設定，該選項應該位於某處。 若您找不到該選項，也能全新重新安裝顯示卡驅動程式，解決此問題。
 
-Download the latest drivers for your graphics card from the AMD website:
+請至 AMD 網站下載適用您的顯示卡的最新驅動程式：
 
 * [AMD Radeon 驅動程式](https://www.amd.com/support)
 
-Then uninstall your current drivers first, it is very important that you first uninstall them and clear all existing settings if asked. Afterwards, you can install the drivers you have just downloaded. If you are unsure how to properly uninstall your drivers, you can also use a tool like DDU ("Display Driver Uninstaller") to uninstall your drivers in a clean way:
+接著，先解除安裝現有的驅動程式，請務必先解除安裝驅動程式，並且在畫面出現提示時選擇清除所有現有的設定。 之後，便能安裝您下載的驅動程式。 若您不確定如何正確解除安裝驅動程式，也能用像 DDU（「Display Driver Uninstaller」）這樣的工具將驅動程式完全解除安裝。
 
-* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Display Driver Uninstaller 下載](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
