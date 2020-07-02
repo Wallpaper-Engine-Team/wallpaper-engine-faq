@@ -10,9 +10,9 @@
 * [Wallpaper Engine 掃描工具](/debug/scantool.html)
 
 ## 動態超解析度（DSR）/ GPU 縮放
-Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
+GPU 縮放/DSR 這樣的驅動程式層級處理功能也可能造成問題，請停用該功能。若停用有效，請將該功能設定為使用 Wallpaper Engine 時停用。
 
-## Bad performance in dwm.exe in systems with multiple GPUs / multiple screens
-If you have enabled the integrated GPU on your desktop PC in the BIOS although a dedicated graphics card is installed, you can experience bad performance and high CPU usage of DWM.exe. If possible, do not enable your integrated GPU. **It's very important to plug all your monitors into your dedicated graphics card.** Using both GPUs at the same time will break hardware acceleration of the desktop window manager. Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+## dwm.exe 在擁有多個 GPU / 螢幕的系統上效能不佳
+已經安裝專用顯示卡時，若在桌上型電腦的 BIOS 中啟用整合式 GPU，則 DWM.exe 可能效能不佳，CPU 使用率偏高。 可行時，請勿啟用整合式 GPU。 **請務必確保所有螢幕皆接入主顯示卡。**同時使用兩個 GPU 將中斷桌面視窗管理員的硬體加速。 沒有 Nvidia Optimus 或類似技術時，Windows 會被迫將桌布圖像從一個 GPU 複製到另一個 GPU 上，這是一項緩慢的作業。 其實，GPU 之間的任何共用行動都會發生這項問題，跟將遊戲視窗移動到兩個螢幕之間一樣。
 
 This specific issue does not affect hardware built for multi-GPU setups like laptops with Nvidia Optimus or proper Nvidia SLI / AMD Crossfire setups with a hardware bridge.
