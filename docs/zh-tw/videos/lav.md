@@ -31,7 +31,7 @@ tags:
 ## 啟用 WebM 硬體加速
 若您的視訊桌布結尾出現間斷，您可以使用不會有相同問題的 .webm 檔案。 It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
 * 開啟 Wallpaper Engine 設定後前往「一般」分頁
-* 將**WebM 架構**選項變更為**偏好原生**
+* 將 **WebM 架構**選項變更為**偏好原始設定**
 * Restart the application and try using your video wallpaper again
 
 Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
