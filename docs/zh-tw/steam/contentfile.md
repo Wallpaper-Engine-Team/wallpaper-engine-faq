@@ -1,9 +1,9 @@
 # 「內容檔案已鎖定」/ 磁碟寫入錯誤
 
-If Steam fails to download Wallpaper Engine either while installing or updating the app, it is most likely your antivirus deleting files, putting files into quarantine or blocking entire directories on your disk without informing you about this. You will get 'content file locked' or 'access denied' errors in Steam. This needs to be resolved in your antivirus by undoing the changes it did to your PC, most antivirus programs have a quarantine window from where you can restore files or create a whitelist. Make sure your antivirus application ignores the following directories:
+若 Steam 無法在安裝或更新應用程式時下載 Wallpaper Engine，很有可能是您的防毒軟體在刪除檔案、隔離檔案或或阻擋磁碟上的整個目錄，但是並未告知您。 您將在 Steam 中收到「內容檔案已鎖定」或「存取遭拒」的錯誤。 這項問題需要在您的防毒軟體中解決，方法是取消復原防毒軟體對電腦所做的變更。大多數防毒程式都有一個隔離視窗，供您還原檔案或建立白名單。 請確保防毒應用程式忽略以下目錄：
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * `C:\Program Files (x86)\Steam\steamapps\downloading`
 
-*If your Steam or Wallpaper Engine is installed in a different directory, you need to adjust the directories to your actual Steam installation path.*
+*若您的 Steam 或 Wallpaper Engine 安裝在不同目錄中，您必須將目錄調整至符合實際的 Steam 安裝路徑。*
