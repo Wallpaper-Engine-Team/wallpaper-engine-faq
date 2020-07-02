@@ -47,25 +47,25 @@ Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百
 
 ### AudioSes.dll
 
-發生此類損毀通常是因為 Windows 本身的問題。 重新安裝最新版本的音效卡驅動程式，可能可以解決此問題。 您也可至 Wallpaper Engine 設定中的*效能*分頁，將*其他應用程式播放音訊時*選項變更為*保持執行*。
+發生此類損毀通常是因為 Windows 本身的問題。 重新安裝最新的音效卡驅動程式，或許即可解決此問題。 您也可至 Wallpaper Engine 設定中的*效能*分頁，將*其他應用程式播放音訊時*選項變更為*保持執行*。
 
 ### atiumdag.dll/atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: 提示 請注意 請確保在設定過程中選取「執行全新重新安裝」，或先手動解除安裝目前的驅動程式。 如果您目前的驅動程式已損，務必先將其完全清除。 :::
 
 ### nvwgf2umx.dll
 
-The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
+系統上的 Nvidia 驅動程式損壞時， 請造訪 Nvidia 網站，下載並安裝最新的驅動程式：
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: 提示 請注意 請確保在設定過程中選取「執行全新重新安裝」，或先手動解除安裝目前的驅動程式。 如果您目前的驅動程式已損，務必先將其完全清除。 :::
 
-### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
+### igdumd64.dll/igd10umd64.dll/igdumdx32.dll/igd10umd32.dll
 
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+系統上的 Intel Graphics 損壞時， 請造訪 Intel 網站，下載並安裝最新的驅動程式：
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
