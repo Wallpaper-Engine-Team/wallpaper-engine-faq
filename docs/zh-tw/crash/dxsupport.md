@@ -3,6 +3,6 @@
 
 如果您的顯示卡確實提供支援，卻出現此錯誤，請重新安裝最新的驅動程式 (或舊版但更穩定的驅動程式)。 從個人電腦移除侵入性安全軟體，也許可以防止 Wallpaper Engine 存取顯示卡。
 
-## Duet Display and other display extension software
-Display extension software like DuetDisplay installs a fake graphics card which is not capable of the same features as a real graphics card. This can also be the cause for Wallpaper Engine to show this error as Wallpaper Engine requires a real graphics card with DirectX 10 support. Display extension software like DuetDisplay is not compatible with Wallpaper Engine and must be turned off.
+## Duet 顯示器及其他顯示器擴充軟體
+「Duet 顯示器」等顯示器擴充軟體會安裝虛擬顯示卡，與真實的顯示卡具不同功能。 This can also be the cause for Wallpaper Engine to show this error as Wallpaper Engine requires a real graphics card with DirectX 10 support. Display extension software like DuetDisplay is not compatible with Wallpaper Engine and must be turned off.
 
