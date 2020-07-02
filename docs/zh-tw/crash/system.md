@@ -17,10 +17,10 @@ Wallpaper Engine 不需要安裝任何驅動程式，不會取代系統檔案，
 即使在最糟糕的情況下，Wallpaper Engine 的任何錯誤也只會造成 Wallpaper Engine 本身當機，不會造成整個系統或其他程式當機。 Wallpaper Engine 遵循 Microsoft 設計 Windows 的原則，避免一程式造成整個系統或其他程式當機。
 
 ## 尋找系統當機的原因
-Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
+Wallpaper Engine 需要個人電腦提供的功能包括：3D 加速、視訊加速、音訊。 您可嘗試使用不同的桌布類型，找出個人電腦出現問題的地方。 例如，如果只有「視訊」類型的桌布出現問題，可能是因為顯示卡的視訊解碼器故障。 Windows 本身和大部分遊戲都不會使用顯示卡的視訊解碼器，所以玩遊戲時系統並不會當機。
 
-If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
+如果出現藍色當機畫面，請上網搜尋錯誤代碼。 這是全球皆曾出現的系統問題，因此一定會獲得許多搜尋結果。
 
-Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
+任何重疊與錄製程式也可能導致問題出現，包括 Geforce Experience，請移除這類程式。
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool.html).
+請使用這項掃描工具，檢查是否已有任何公認的已知衝突應用程式正在運作：[點選這裡](/debug/scantool.html)。
