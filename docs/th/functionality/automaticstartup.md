@@ -20,7 +20,7 @@ tags:
 
 หากคุณใช้ตัวเลือกแบบลำดับความสำคัญปกติและแอพพลิเคชันไม่ได้เริ่มการทำงานพร้อมกับ Windows ให้ลองเปลี่ยนตัวเลือกเป็นลำดับความสำคัญสูงและดูว่าปัญหาหายไปหรือไม่
 
-หากตัวเลือกแบบลำดับความสำคัญสูงหรือลำดับความสำคัญปกติไม่ทำงาน ให้ตรวจสอบซอฟต์แวร์ป้องกันไวรัสที่ติดตั้งในระบบ บางครั้งแอพพลิเคชันป้องกันไวรัสและไฟร์วอลล์จะป้องกันไม่ให้ Wallpaper Engine เริ่มทำงานอัตโนมัติเมื่อเปิดใช้งาน Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
+หากตัวเลือกแบบลำดับความสำคัญสูงหรือลำดับความสำคัญปกติไม่ทำงาน ให้ตรวจสอบซอฟต์แวร์ป้องกันไวรัสที่ติดตั้งในระบบ บางครั้งแอพพลิเคชันป้องกันไวรัสและไฟร์วอลล์จะป้องกันไม่ให้ Wallpaper Engine เริ่มทำงานอัตโนมัติเมื่อเปิดใช้งาน ซอฟต์แวร์ป้องกันไวรัสของคุณอาจมีหมวด "รายการที่ปลอดภัย" ที่อนุญาตให้คุณละเว้นบางโฟลเดอร์หรือแอพพลิเคชัน โปรดตรวจสอบให้แน่ใจว่าไดเรกทอรีการติดตั้ง wallpaper_engine และไฟล์ปฏิบัติการทั้งหมดอยู่รายการที่ปลอดภัย
 
 Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
 
