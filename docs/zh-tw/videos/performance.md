@@ -3,13 +3,13 @@
 這個問題可能源自硬體效能不足，無法正確顯示特定視訊。 視訊桌布無法與標準的視訊播放器相比，必須以圖示組成，可能還有多個畫面自動縮放。 按照預設，視訊桌布也會使用 GPU 的視訊解碼器將 CPU 使用率降至最低。
 
 ## 背景錄製勾點
-It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
+上述問題也可能源自各種驅動程式錄製應用程式的功能，例如 ReLive、Shadow Play/Nvidia Share 或 Windows GameDVR。 請停用這些功能，看看狀況是否改善，再前往這些功能中將 Wallpaper Engine 排除。 此外，請避免其他錄製/重疊程式自行載入進 Wallpaper Engine，降低視訊呈現速度。
 
-You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
+您可以使用我們的掃描工具，找出有已知錄製勾點，但並未擷取任何東西的已安裝程式，常見的錄製勾點尤其會出現這種情形，例如來自 Nvidia GeForce Experience 的錄製勾點。
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Wallpaper Engine 掃描工具](/debug/scantool.html)
 
-## Dynamic Super Resolution (DSR) / GPU Scaling
+## 動態超解析度（DSR）/ GPU 縮放
 Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
 
 ## Bad performance in dwm.exe in systems with multiple GPUs / multiple screens
