@@ -1,24 +1,24 @@
-# Editing Downloaded Wallpapers
+# Editar fondos de pantalla descargados
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+Por lo general, Wallpaper Engine no permite editar los fondos de pantalla descargados. Sin embargo, es posible editarlos dependiendo del tipo (podrá ver de qué tipo son a la derecha en la imagen de vista previa) con la ayuda de aplicaciones de terceros.
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+Tenga en cuenta que es posible que necesite el permiso del autor o autora original para publicar su trabajo. Si tiene alguna duda, póngase en contacto con el autor o autora original antes de publicarlo en Steam Workshop.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## ¿Cómo encuentro los archivos de origen de un fondo de pantalla?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+Haga clic derecho en un fondo de pantalla y seleccione la opción «Abrir en el explorador» en la pestaña «Instalados».
 
-## How to edit wallpapers of different types
+## Cómo editar fondos de pantalla de varios tipos
 
-### Scene wallpapers
+### Fondos de escena
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Los fondos de escena se comprimen en un archivo .pkg que no se puede editar porque le faltan todos los archivos del proyecto. Si intenta abrir un archivo .pkg, le aparecerá el error «Los fondos empacados no se pueden abrir». Podríamos hacer una analogía simple: las imágenes .jpeg no cuentan con los datos del proyecto de Photoshop, ya que permanecen en el equipo del autor original.
 
-#### Unofficial Community Scene Unpacker
+#### Descompresor de escenas no oficial de la comunidad
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+Sin embargo, los miembros de la comunidad han creado una herramienta no oficial para descomprimir fondos de pantalla de escena, lo que le permite extraer los archivos de escena y usarlos como base para sus propios fondos. Visite esta página web para obtener más información:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
