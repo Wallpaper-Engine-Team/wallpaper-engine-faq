@@ -32,11 +32,11 @@ tags:
 
 ### แก้ไขปัญหาประสิทธิภาพการทำงานของแอพพลิเคชันหรือเกม
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. จากนั้นจึงตั้งค่า **เงื่อนไข** เป็น **กำลังทำงาน** และจาก **การเล่นวอลเปเปอร์** เป็น **หยุด (ลดการใช้หน่วยความจำ)** This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+เลือก .exe ของโปรแกรมที่คุณต้องการให้มีกฎพิเศษจากรายการ หรือพิมพ์ชื่อ .exe ลงในช่อง **ชื่อแอพพลิเคชัน** จากนั้นจึงตั้งค่า **เงื่อนไข** เป็น **กำลังทำงาน** และจาก **การเล่นวอลเปเปอร์** เป็น **หยุด (ลดการใช้หน่วยความจำ)** ซึ่งหมายความว่า Wallpaper Engine จะลบวอลเปเปอร์ทั้งหมดในหน่วยความจำเมื่อมีการเปิดแอพพลิเคชันหรือเกม ดังนั้นจึงแก้ปัญหาความเข้ากันได้ทั้งหมด
 
-### Fixing intermittent sound with background recording tools
+### แก้ไขเสียงไม่ต่อเนื่องด้วยเครื่องมือบันทึกพื้นหลัง
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is playing audio** and **Wallpaper playback** to **Keep running**. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
+เลือก .exe ของโปรแกรมที่คุณต้องการให้มีกฎพิเศษจากรายการ หรือพิมพ์ชื่อ .exe ลงในช่อง **ชื่อแอพพลิเคชัน** จากนั้นจึงตั้งค่า **เงื่อนไข** เป็น **กำลังเล่นไฟล์เสียง** และจาก **การเล่นวอลเปเปอร์** เป็น **ทำงานต่อไป** ซึ่งหมายความว่า Wallpaper Engine จะไม่ปิดเสียงเมื่อแอพพลิเคชันที่เกี่ยวข้องเล่นหรือบันทึกเสียง Windows ไม่สามารถแยกความแตกต่างระหว่างการเล่นไฟล์เสียงและการบันทึกเสียงได้ ดังนั้นหากคุณกำลังบันทึกเสียง Wallpaper Engine จะปิดและเปิดเสียงตัวเองอย่างต่อเนื่อง Many game streaming applications can do this by accident and without your knowledge.
 
 ### Other behavior
 
