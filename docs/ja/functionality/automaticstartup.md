@@ -10,17 +10,17 @@ Wallpaper Engine設定の「一般」タブで、コンピュータが起動し�
 
 ## 「優先的」と「普通」の起動オプションの違いとは？
 
-優先的オプションを選択すると、Wallpaper EngineはWindowsのサービスを登録します。 これによって、Wallpaper EngineはWindowsと同時に自動的に起動するように設定された他のプログラムよりも前に起動します。 It will not affect the performance of the application in any other way.
+優先的オプションを選択すると、Wallpaper EngineはWindowsのサービスを登録します。 これによって、Wallpaper EngineはWindowsと同時に自動的に起動するように設定された他のプログラムよりも前に起動します。 これがアプリケーションのパフォーマンスに影響することは全くありません。
 
-The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
+この優先起動オプションの短所は、信頼性に欠ける可能性があることです。これは主に、アンチウイルスが過剰反応し、Wallpaper Engineが悪意ある動作を行おうとしていると誤解して、Wallpaper Engineがこのモードで起動するのをブロックするためです。
 
-## I have enabled the automatic startup but it is not working, what can I do?
+## 自動起動を有効にしたのに起動しません。どうしたらいいですか？
 
-If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
+*優先起動*オプションを使用されている場合、このオプションを無効にして、*普通*の自動起動に切り替えてみてください。 上で説明したように、優先起動モードは速く起動しますが、さまざまな、特にアンチウイルスにブロックされることがあるという理由で信頼性に欠けます。
 
-If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
+普通のオプションを使用されていてWindowsと同時に起動しない場合は、オプションを優先起動に変えてみて、問題が解消するかどうかを確認してください。
 
-If neither the high-priority or normal-priority option work for you, check the antivirus software you have installed on your system. Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
+優先起動でも普通起動でもうまくいかない場合は、インストールされているアンチウイルスソフトをチェックしてください。 アンチウイルスやファイアーウォールアプリケーションによっては、Wallpaper Engineがコンピュータの起動時に自動的に起動することをブロックすることがあります。 アンチウイルスソフトウェアには、たいてい特定のフォルダやアプリケーションを無視する「ホワイトリスト」機能があります。wallpaper_engineのインストールディレクトリと、その中の実行可能ファイルすべてをホワイトリストに入れてください。
 
 Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
 
