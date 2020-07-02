@@ -30,6 +30,6 @@ Wallpaper Engine設定の「一般」タブで、コンピュータが起動し�
 
  コンピュータの起動後、時計の隣にあるWindowsトレイ内でWallpaper Engineのアイコンが表示されていることを確認してください。 システムが起動したあと、アイコンはそこにあるのに、モニタのいくつか、あるいは全部においてそれぞれの壁紙が表示されない場合は、グラフィックスカードドライバに問題があります。 基本的には、グラフィックスカードドライバがモニタに新しい識別子を割り当て続け、Wallpaper Engineは新しいモニタの設定が行われようとしていると解釈しています。 これは、Wallpaper Engine設定の*一般*タブ内にある*"モニター識別"*オプションを、*レイアウト*または*GDI*に変更することで解消されます。 また、この場合、グラフィックスカードドライバをクリーン再インストールすることもお勧めします。これはWindowsインストールに潜在的な問題があることを示しているからです。
 
- ## Wallpaper Engine assigns wrong wallpapers at system start-up
+ ## Wallpaper Engineが、システムスタートアップに間違った壁紙を割り当てている
 
- This is the same problem as in the previous section, if you have multiple monitors and the wallpapers are being assigned to the wrong monitor at start-up, try changing the *Monitor identification* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*.
+ これは前のセクションと同じ問題です。マルチモニターを持っていて、壁紙がスタートアップ時に間違ったモニターに割り当てられる場合、Wallpaper Engine設定の*一般*タブ内にある*モニター識別*オプションを、*レイアウト*または*GDI*に変更してみてください。
