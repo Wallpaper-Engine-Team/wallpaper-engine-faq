@@ -20,23 +20,23 @@ Los fondos de escena se comprimen en un archivo .pkg que no se puede editar porq
 
 Sin embargo, los miembros de la comunidad han creado una herramienta no oficial para descomprimir fondos de pantalla de escena, lo que le permite extraer los archivos de escena y usarlos como base para sus propios fondos. Visite esta página web para obtener más información:
 
-* [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
+* [https://wetranslate.thiscould.work/scene.pkg](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+Necesitará un archivo project.json válido. Si quiere crear uno, cree un fondo de pantalla vacío en el editor, cierre Wallpaper Engine y descomprima el fondo de pantalla descargado y pegue los contenidos en el directorio del proyecto nuevo.
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+Si quiere editar uno de sus propios fondos y ha perdido los archivos del proyecto, diríjase a la sección *Actualizar un proyecto perdido* para obtener más información sobre los cambios que ha de hacer en el archivo project.json para actualizar sus fondos de pantalla.
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: advertencia Tenga en cuenta de que no prestamos asistencia para esta herramienta y no garantizamos que funcione correctamente. Si tiene problemas o preguntas acerca de ella, póngase en contacto con los creadores. :::
 
-### Web wallpapers
+### Fondos de web
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Los fondos de web están basados en HTML y JavaScript. Puede acceder a los archivos de origen tal y como se explica en la sección superior y usar los archivos como la base de su propio fondo de web.
 
-### Video wallpapers
+### Fondos de vídeo
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+Los fondos de vídeo son archivos de vídeo. Puede encontrar el archivo tal y como se explica en la sección superior y después usar una aplicación de edición de vídeo de terceros para modificar el vídeo en cuestión.
 
-### Application wallpapers
+### Fondos de aplicación
 
 Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
 
