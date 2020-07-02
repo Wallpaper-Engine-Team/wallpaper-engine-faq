@@ -9,11 +9,11 @@ tags:
 
 Wallpaper Engine'de yaşadığınız teknik sorunlar için lütfen öncelikle SSS'ye bakın. Aldığımız teknik destek biletlerinin bir çoğunun çözümü SSS'de yer almaktadır.
 
-You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
+Ayrıca Steam Tartışma panomuza da başvurabilirsiniz; genellikle herkesin sorusunu yanıtlamaya çalışıyoruz. Ayrıca sorunuzun daha önce panoda tartışılmış olma ihtimali de var:
 
-* [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
+* [Wallpaper Engine Steam Tartışmaları](https://steamcommunity.com/app/431960/discussions/)
 
-If you cannot find a fitting article or cannot fix your problem, you can reach us at [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
+Sorununuzla uyuşan bir tartışma bulamaz ya da kendi sorunuza yanıt alamazsanız [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request) adresinden de bize ulaşabilirsiniz.
 
 ::: tip If you are having a technical issue, it helps if you include a log file from our scan tool:
 
