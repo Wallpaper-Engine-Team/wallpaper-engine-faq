@@ -3,7 +3,7 @@
 오디오 시각화 도우미가 작동하지 않는 데는 여러 이유가 있습니다. 여기 가능한 모든 이유가 있으니, 가이드를 모두 읽어 작동하지 않는 이유를 놓치지 않으시기 바랍니다.
 
 ## 1. 오디오 장치 설정
-Go to the Wallpaper Engine settings and navigate to the "General" tab. Towards the center you can find the "Media" section where you can select an audio input device. Make sure the correct device is selected. If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
+Wallpaper Engine 설정으로 이동하여 "일반" 탭을 탐색하시길 바랍니다. 중앙에서 오디오 입력 장치를 선택할 수 있는 "미디어" 섹션을 찾을 수 있습니다. 올바른 장치가 선택되어 있는지 확인하세요. If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
 
 If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
 
