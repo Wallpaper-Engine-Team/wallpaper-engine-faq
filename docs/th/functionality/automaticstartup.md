@@ -12,11 +12,11 @@ tags:
 
 หากคุณเลือกตัวเลือกแบบลำดับความสำคัญสูง Wallpaper Engine จะลงทะเบียน Windows service ซึ่งหมายความว่า Wallpaper Engine จะเริ่มต้นก่อนโปรแกรมอื่น ๆ ที่คุณกำหนดค่าให้เริ่มต้นโดยอัตโนมัติพร้อมกับ Windows ตัวเลือกนี้จะไม่ส่งผลต่อประสิทธิภาพการทำงานของแอพพลิเคชันแต่อย่างใด
 
-The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
+การใช้ตัวเลือกแบบลำดับความสำคัญสูงนั้นมีข้อเสียเพราะอาจลดความน่าเชื่อถือของโปรแกรม เพราะซอฟต์แวร์ป้องกันไวรัสบางตัวจะทำงานเกินจริงและปิดกั้น Wallpaper Engine ไม่ให้เริ่มทำงานในโหมดนี้เพราะเข้าใจว่านี่เป็นลักษณะที่เป็นอันตราย
 
-## I have enabled the automatic startup but it is not working, what can I do?
+## ฉันควรทำอย่างไรถ้าการเริ่มต้นอัตโนมัติไม่ทำงานหลังจากเปิดใช้งานปกติ
 
-If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
+หากคุณใช้ตัวเลือก *ลำดับความสำคัญสูง* ให้ลองเปลี่ยนไปใช้การเริ่มต้นอัตโนมัติแบบ *ปกติ* โดยปิดใช้งานตัวเลือกแบบลำดับความสำคัญสูง As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
 
 If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
 
