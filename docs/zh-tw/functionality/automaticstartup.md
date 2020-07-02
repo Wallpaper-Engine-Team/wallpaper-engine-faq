@@ -1,7 +1,7 @@
 ---
 tags:
   - 自動啟動
-  - launch
+  - 啟動
 ---
 
 # Automatic start-up at boot
