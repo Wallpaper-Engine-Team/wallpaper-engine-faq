@@ -11,8 +11,8 @@ Windows 並不會分辨音訊錄製與播放，因此會在錄製電腦的音訊
     * 如果您不知道導致此問題的應用程式為何，請檢查 Windows 音訊混音器，確認目前正在存取音訊的應用程式，可能會幫助您了解現況。 或者，盡量將許多程式關閉，將範圍縮小到 Windows 工作管理員流程清單中某些 .exe 檔案。
 * 如果您是特別在背景中錄製音訊，或者找不到關閉方法，可以在 Wallpaper Engine 設定中的「效能」分頁中設定*應用程式規則*。 將「條件」設定為「播放音訊時」，將「桌布播放」設定為「保持執行」：
 
-![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
+![應用程式規則可在 Wallpaper Engine 設定中的"效能"分頁中找到](./applicationrule.png)
 
 持續將部分 .exe 檔案替換成工作管理員中找到的 .exe 檔案，找到造成問題的 .exe 檔案。
 
-* 最後，您也可以將「其他應用程式正在播放音訊」的選項改為「保持執行」。 However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
+* 最後，您也可以將「其他應用程式正在播放音訊」的選項改為「保持執行」。 不過如此一來，您聽音樂或觀看非全螢幕視訊時，Wallpaper Engine 就不會自動將音訊輸出靜音。
