@@ -8,8 +8,8 @@ Sin embargo, puede crear una grabación de los fondos e intentar crear un bucle 
 
 * [OBS Studio](https://obsproject.com/) (funciones avanzadas)
 
-#### Getting a clear shot of your wallpapers
+#### Conseguir una toma clara de los fondos
 
-You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+Puede conseguir una toma clara de su fondo y cambiarlo de tamaño si hace clic derecho en la pestaña «Instalados» y después hace clic en «Reproducir en ventana». Esto abrirá una ventana con el fondo. De esta forma, no tendrá que esconder los iconos del escritorio ni otros elementos de Windows y, además, le permite cambiar la ventana de tamaño para adaptarla a las proporciones a las que quiere exportar el fondo:
 
-![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
+![Haga clic derecho en un fondo y seleccione «Reproducir en ventana».](./playinwindow.gif)
