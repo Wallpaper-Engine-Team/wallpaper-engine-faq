@@ -2,7 +2,7 @@
 
 Windows 並不會分辨音訊錄製與播放，因此會在錄製電腦的音訊時，通知 Wallpaper Engine 另一個程式正在發出聲音。
 
-在 Wallpaper Engine 設定中檢視「效能」分頁。 If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
+在 Wallpaper Engine 設定中檢視「效能」分頁。 如果您將*「其他應用程式正在播放音訊」*選項設定為*「靜音」*，並發現 Wallpaper Engine 的聲音斷斷續續，則有可能是錄製程式在背景中錄製螢幕與聲音。
 
 To solve this do any of these three things:
 
