@@ -18,15 +18,15 @@ tags:
 
 # Corrir erros com aplicações ou jogos específicos
 
-If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
+Se está a ter problemas com aplicações ou jogos específicos, pode configurar o Wallpaper Engine para agir de uma certa forma quando deteta que a aplicação com a qual está a ter problemas é iniciada ou, por exemplo, a reproduzir áudio.
 
-## Setting up an application rule
+## Definir uma regra para a plicação
 
-In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+No separador *Desempenho* das definições do Wallpaper Engine, clicar no botão *Editar* ao lado da etiqueta *Regras para aplicações* fará aparecer uma visão geral de todas as regras personalizadas que criou. Ao clicar em *Criar regra nova* pode definir um comportamento especial do Wallpaper Engine para uma aplicação específica.
 
 ![Application Rules Overview](./applicationrule.gif)
 
-You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+Ser-lhe-á apresentada uma listade todos os ficheiros .exe em execução no seu sistema. Selecione um .exe da lista ou escreva o nome exato do .exe com o qual está a ter dificuldades. Com as outras duas opções pode configurar a condição ou o comportamento. Leia mais abaixo para obter mais informações e exemplos concretos.
 
 ::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
 
