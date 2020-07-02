@@ -76,11 +76,11 @@ Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百
 
 ### fraps32.dll
 
-此種損毀是因為 FPS 顯示器與螢幕錄製應用程式 Fraps 而造成。 Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
+此種損毀是因為 FPS 顯示器與螢幕錄製應用程式 Fraps 而造成。 Fraps 應用程式自 2013 年起就未再更新，已經嚴重過時。 由於 Fraps 已遭放棄，此錯誤可能永遠無法修復，請使用其他應用程式代替。
 
-## Crash error 0xc000007b
+## 損毀錯誤 0xc000007b
 
-This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
+此類損毀代表 Windows 模組已遭到系統某種程式破壞；在此情況下，通常 DirectX 本身已損壞。 請手動刪除下列檔案：
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
