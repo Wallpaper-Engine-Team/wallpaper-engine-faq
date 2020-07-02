@@ -8,6 +8,6 @@ Algunos usuarios se preguntarán cómo es posible que sea tan fácil hacer que a
 
 Aunque, en teoría, sería posible, la verdad es que ahora mismo no es viable económicamente añadir la compatibilidad con Linux o Mac. Si echa un vistazo a [la encuesta de hardware de Steam](https://store.steampowered.com/hwsurvey), verá que menos de un 1 % de los usuarios utiliza Linux. Por si fuera poco, esa cantidad se divide incluso más entre distintas distribuciones de Linux, especialmente en Ubuntu, que cuenta solo con un 0,25 % de usuarios.
 
-Tal y como hemos explicado, hace falta muchísimo tiempo para hacer que Wallpaper Engine sea compatible con otros sistemas operativos y, a mayores, aumentaría el precio del mantenimiento, pero solo beneficiaría a un grupo diminuto de usuarios. We would much rather focus our time and energy on improving the Windows version for over 96% of Steam users.
+Tal y como hemos explicado, hace falta muchísimo tiempo para hacer que Wallpaper Engine sea compatible con otros sistemas operativos y, a mayores, aumentaría el precio del mantenimiento, pero solo beneficiaría a un grupo diminuto de usuarios. Preferimos centrar nuestro tiempo y nuestra energía en mejorar la versión de Windows para más del 96 % de usuarios de Steam.
 
-However, we are keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable. 
+Sin embargo, estamos atentos a las estadísticas de Steam y, en caso de que cambie la situación, estamos abiertos a investigar cómo hacer el programa compatible con más plataformas en el futuro en caso de que sea viable. 
