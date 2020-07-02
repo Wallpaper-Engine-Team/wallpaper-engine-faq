@@ -27,7 +27,7 @@ Si no puede ver la sección *Complementos* de Wallpaper Engine, es probable que 
 
 ### Corsair
 
-Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+Hay hardware como las **memorias RAM Corsair que tienen los controles de software deshabilitados por defecto**, lo que significa que sus módulos de memoria no se encenderán de acuerdo con Wallpaper Engine si no le concede los permisos en la configuración de iCUE. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
 
 ![Enable full software control in iCUE](./icue.png)
 
