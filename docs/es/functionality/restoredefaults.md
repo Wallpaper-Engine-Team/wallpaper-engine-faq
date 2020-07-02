@@ -2,14 +2,14 @@
 
 Si ha borrado los fondos de pantalla que ya venían instalados en Wallpaper Engine, puede recuperarlos si borra un archivo del directorio de instalación *wallpaper_engine*:
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. Cierre Wallpaper Engine (haga clic en el icono en la bandeja y -> «Salir»).
 
-2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
+2. Vaya al directorio de Wallpaper Engine y borre un archivo llamado «visibility.json». Por defecto se encuentra aquí:
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
-If your Steam or Wallpaper Engine are installed in a different place / directory, the directory will be slightly different, but *wallpaper_engine\projects\defaultprojects\visibility.json* sub-directory is always the same.
+Si ha instalado Steam o Wallpaper Engine en otro directorio, el directorio cambiará, pero el subdirectorio *wallpaper_engine\projects\defaultprojects\visibility.json* será el mismo.
 
-3. Once the file is deleted, start Wallpaper Engine again, you will have all default wallpapers back.
+3. Cuando borre el archivo, abra Wallpaper Engine de nuevo y volverá a tener los fondos por defecto.
 
-::: tip If you are unable to find the "visibility.json" file for some reason, you can also always just re-install Wallpaper Engine. This will also restore all default wallpapers but will require you to re-download all wallpapers which you can avoid by following the steps above. :::
+::: consejo Si no consigue encontrar el archivo «visibility.json», siempre puede volver a instalar Wallpaper Engine. Recuperará los fondos de pantalla por defecto, pero tendrá que volver a descargar todos los fondos. Puede evitarlo si sigue los pasos indicados anteriormente. :::
