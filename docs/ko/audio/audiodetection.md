@@ -1,6 +1,6 @@
 # 오디오 시각화 도우미가 작동하지 않습니다 / 사운드가 검색되지 않습니다
 
-오디오 시각화 도우미가 작동하지 않는 데는 여러 이유가 있습니다. We are listing all known possible reasons here, please read the full guide to ensure you have not missed any of the possible reasons why it does not work.
+오디오 시각화 도우미가 작동하지 않는 데는 여러 이유가 있습니다. 여기 가능한 모든 이유가 있으니, 가이드를 모두 읽어 작동하지 않는 이유를 놓치지 않으시기 바랍니다.
 
 ## 1. 오디오 장치 설정
 Go to the Wallpaper Engine settings and navigate to the "General" tab. Towards the center you can find the "Media" section where you can select an audio input device. Make sure the correct device is selected. If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
