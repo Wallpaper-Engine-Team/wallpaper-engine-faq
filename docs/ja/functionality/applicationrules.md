@@ -24,7 +24,7 @@ tags:
 
 Wallpaper Engine設定の*パフォーマンス*タブで、*アプリケーションルール*ラベルの隣にある*編集*ボタンをクリックすると、これまでに設定されているカスタムルールがすべて表示されます。 *新規ルール作成*をクリックすると、Wallpaper Engineの特定のアプリケーションに対する特別な動作を設定することができます。
 
-![Application Rules Overview](./applicationrule.gif)
+![アプリケーションルール概要](./applicationrule.gif)
 
 システム上で起動している.exeファイルすべてがリストアップされます。 問題のある.exeをリストから選択するか、その正確な名前を入力します。 他の2つのオプションで、条件と動作を設定することができます。 詳細と具体例については下記をご覧ください。
 
@@ -42,4 +42,4 @@ Wallpaper Engine設定の*パフォーマンス*タブで、*アプリケーシ�
 
 選択可能な条件や壁紙再生オプションをチェックして、いろいろなアプリケーションルールを設定することができます。 また、特定のアプリケーションを起動したときにWallpaper Engineをミュートしたり停止したりする設定も可能です。
 
-::: tip また、Wallpaper Engine設定の**パフォーマンス**タブで、すべてのアプリケーションに対する設定を変更することもできます。 If you are having performance issues in multiple games, for example, it may make sense to just change the **Other applications fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
+::: tip また、Wallpaper Engine設定の**パフォーマンス**タブで、すべてのアプリケーションに対する設定を変更することもできます。 例えば複数のゲームでパフォーマンスの問題が起きる場合、単に**他のアプリケーションがフルスクリーンになった場合**オプションを**停止（メモリ解放）**にしてしまうということも考えられます。そうすれば、Wallpaper Engineはゲームやフルスクリーンのアプリケーションが起動したときにオフになります。 :::
