@@ -11,9 +11,9 @@ Wallpaper Engine — тщательно тестируемая и хорошо �
 
 ::: Подсказка Практически во всех случаях, когда мы получаем от пользователей отчеты об аварийном завершении работы, причиной сбоя являются неисправные драйвера видеокарты, антивирусы или ошибки в других посторонних программах, которые дестабилизируют работу компьютера. :::
 
-## Wallpaper Engine Crash Quick Fix Attempt
+## Аварийное завершение работы Wallpaper Engine: простое решение
 
-If you are unsure what is crashing Wallpaper Engine, please do a clean re-installation of your graphics card drivers. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Если вы не уверены, что стало причиной сбоя в работе Wallpaper Engine, пожалуйста, проведите чистую переустановку драйверов видеокарты. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
