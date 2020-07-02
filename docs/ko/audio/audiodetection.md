@@ -17,15 +17,15 @@ Wallpaper Engine 설정으로 이동하여 "일반" 탭을 탐색하시길 바�
 
 USB / 무선 헤드셋은 사운드 드라이버 문제에 취약합니다. 여러 장치의 경우, Windows 장치 설정에서 오디오 샘플 속도를 44100Hz로 변경하면 문제를 영구 해결할 수 있습니다.
 
-Windows 오른쪽 아래의 트레이 지역에 있는 오디오 아이콘을 오른쪽 클릭하고, "사운드 설정 열기"를 선택하세요. 열린 창에서 "출력" 섹션의 "장치 속성" 클릭하세요.  그후 "추가 장치 속성"을 클릭한 다음 "고급" 탭을 탐색합니다. 거기서 나타나는 메뉴에서 샘플 속도를 변경할 수 있습니다. 정확한 위치는 Windows 버전에 따라 다릅니다. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+Windows 오른쪽 아래의 트레이 지역에 있는 오디오 아이콘을 오른쪽 클릭하고, "사운드 설정 열기"를 선택하세요. 열린 창에서 "출력" 섹션의 "장치 속성" 클릭하세요.  그후 "추가 장치 속성"을 클릭한 다음 "고급" 탭을 탐색합니다. 거기서 나타나는 메뉴에서 샘플 속도를 변경할 수 있습니다. 정확한 위치는 Windows 버전에 따라 다릅니다. 이 옵션을 찾을 수 없다면, 웹을 검색해 해당 Windows 버전에서 사운드 장치의 샘플 속도를 어떻게 변경하는지 확인하세요.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer headsets with THX
+### Razer 헤드셋(THX)
 
-Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
+'스피커(Razer XYZ)' 장치에서 Wallpaper Engine 오디오 입력을 변경하세요. This option is in the general settings and any Razer headset with THX effects should work with this solution.
 
-## 3. Conflicting applications
+## 3. 응용 프로그램 충돌
 
 If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
 
