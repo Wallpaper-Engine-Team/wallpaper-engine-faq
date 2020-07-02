@@ -3,25 +3,25 @@ tags:
   - hardware
 ---
 
-# Suporte para hardware RGB (iCUE e Chroma)
+# Suporte para hardware RGB (iCUE & Chroma)
 
 O Wallpaper Engine suporta [**Razer Chroma**](https://www.razer.com/chroma) e [**Corsair iCUE**](https://www.corsair.com/icue), incluindo sistemas que podem ser integrados em qualquer dos ecossistemas.
 
 ## Como ativo /desativo hardware RGB
 
-In the "Plugins" section of the Wallpaper Engine settings, you can find the **iCUE & Chroma SDK plugin**. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. You can also click on the cogwheel symbol next to it to further configure individual parts of it.
+Na secção "Plugins" das definições do Wallpaper Engine, poderá encontrar o **plugin iCUE & Chroma SDK**. Pode permitir ou não que este plugin RGB geral seja carregado marcando a caixa de verificação à esquerda. Também pode clicar no símbolo da roda dentada ao seu lado para configurar ainda mais parte individuais do plugin.
 
-Additionally, RGB support can be toggled off on each wallpaper. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+Mais ainda, o suporte para RGB pode ser desativado em cada wallpaper. No topo da lista de propriedades de cada wallpaper encontrará a opção **Ativar efeitos dos LED** se o plugin estiver ativado permitindo-lhe controlar se pretende que um wallpaper individual controle as suas luzes RGB.
 
-## The RGB hardware colors seem too bright
+## As cores do hardware RGB parecem ser demasiado fortes
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+Por predefinição, reforçamos um bocadinho as cores RGB. Na maior parte dos wallpapers, isto tende a ter melhor aspecto, o que é subjetivo, mas se não gostar pode desligá-lo desativando a opção **Reforçar cores dos LED** nas definições do plugin RGB.
 
-## My RGB hardware does not work
+## O meu hardware RGB não funciona
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+O Wallpaper Engine não é capaz de comunicar diretamente com o seu hardware RGB, todas as informações de cores são enviadas primeiro para os controladores RGB. Se um ou mais elementos de hardware não funcioanrem, o problema deverá residir no lado software do seu fabricante de hardware. Algum hardware muito antigo poderá já não ser suportado diretamente por estes fabricantes de hardware e não funcionar. Tenha em mente que isto não é nada que possamos resolver do nosso lado.
 
-If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
+Se a secção *Plugin* das definições do Wallpaper Engine não estiver visível para si, é provável que lhe falte ou tenha uma instalação danificada do *Visual C++ Redistributable for Visual Studio 2015* que é obrigatório para que estas funcionaldiades funcionem. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
 
 * [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
