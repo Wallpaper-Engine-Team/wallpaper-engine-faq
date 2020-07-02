@@ -1,18 +1,18 @@
-# Editing Downloaded Wallpapers
+# การแก้ไขวอลเปเปอร์ที่ดาวน์โหลด
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+โดยทั่วไปแล้ว Wallpaper Engine เองนั้นไม่รองรับการแก้ไขวอลเปเปอร์ที่ดาวน์โหลดมา อย่างไรก็ตาม คุณสามารถแก้ไขวอลเปเปอร์ได้โดยการใช้งานแอพพลิเคชันภายนอกอื่น ๆ ทั้งนี้ขึ้นอยู่กับประเภทของวอลเปเปอร์ (คุณสามารถค้นหาประเภทได้ที่ใต้ภาพตัวอย่างทางด้านขวา)
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+โปรดจำไว้เสมอว่าคุณอาจต้องขออนุญาตจากผู้สร้างวอลเปเปอร์ต้นแบบในการเผยแพร่งานของพวกเขาอีกครั้ง หากมีข้อสงสัย โปรดติดต่อผู้สร้างวอลเปเปอร์ต้นแบบก่อนที่จะเผยแพร่ผลงานไปยัง Steam Workshop
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## ฉันจะค้นหาไฟล์ต้นแบบของวอลเปเปอร์ได้อย่างไร
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+คลิกขวาที่วอลเปเปอร์ในแท็บ "ติดตั้งแล้ว" และเลือก "เปิดใน Explorer"
 
-## How to edit wallpapers of different types
+## วิธีแก้ไขวอลเปเปอร์ประเภทต่าง ๆ
 
-### Scene wallpapers
+### วอลเปเปอร์ฉาก
 
 Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
