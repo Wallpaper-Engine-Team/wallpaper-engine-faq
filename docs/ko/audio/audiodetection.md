@@ -17,7 +17,7 @@ Wallpaper Engine 설정으로 이동하여 "일반" 탭을 탐색하시길 바�
 
 USB / 무선 헤드셋은 사운드 드라이버 문제에 취약합니다. 여러 장치의 경우, Windows 장치 설정에서 오디오 샘플 속도를 44100Hz로 변경하면 문제를 영구 해결할 수 있습니다.
 
-Windows 오른쪽 아래의 트레이 지역에 있는 오디오 아이콘을 오른쪽 클릭하고, "사운드 설정 열기"를 선택하세요. 열린 창에서 "출력" 섹션의 "장치 속성" 클릭하세요.  그후 "추가 장치 속성"을 클릭한 다음 "고급" 탭을 탐색합니다. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+Windows 오른쪽 아래의 트레이 지역에 있는 오디오 아이콘을 오른쪽 클릭하고, "사운드 설정 열기"를 선택하세요. 열린 창에서 "출력" 섹션의 "장치 속성" 클릭하세요.  그후 "추가 장치 속성"을 클릭한 다음 "고급" 탭을 탐색합니다. 거기서 나타나는 메뉴에서 샘플 속도를 변경할 수 있습니다. 정확한 위치는 Windows 버전에 따라 다릅니다. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
