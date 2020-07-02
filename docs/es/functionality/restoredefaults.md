@@ -1,6 +1,6 @@
-# Restoring deleted default wallpapers
+# Recuperar los fondos por defecto borrados
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+Si ha borrado los fondos de pantalla que ya venían instalados en Wallpaper Engine, puede recuperarlos si borra un archivo del directorio de instalación *wallpaper_engine*:
 
 1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
 
