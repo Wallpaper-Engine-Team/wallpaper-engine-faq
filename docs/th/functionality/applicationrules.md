@@ -24,9 +24,9 @@ tags:
 
 ในส่วนการตั้งค่า Wallpaper Engine ที่แท็บ *ประสิทธิภาพการทำงาน* ให้คลิกที่ปุ่ม *แก้ไข* ถัดจากสัญลักษณ์ *กฎของแอพพลิเคชัน* จะแสดงภาพรวมของกฎที่กำหนดเองทั้งหมดที่คุณได้ตั้งไว้ เมื่อคลิกที่ *สร้างกฎใหม่* คุณจะสามารถตั้งค่าลักษณะพิเศษของ Wallpaper Engine โดยเจาะจงแอพพลิเคชันได้
 
-![Application Rules Overview](./applicationrule.gif)
+![ภาพรวมกฎของแอพพลิเคชัน](./applicationrule.gif)
 
-รายการไฟล์ .exe ที่ทำงานอยู่ทั้งหมดในระบบจะปรากฏขึ้น คุณอาจเลือก .exe จากรายการหรือพิมพ์ชื่อของ .exe ที่เป็นปัญหา คุณสามารถใช้สองตัวเลือกอื่นเพื่อปรับแต่งเงื่อนไขและลักษณะการทำงาน สำหรับข้อมูลเพิ่มเติมและตัวอย่างที่เฉพาะเจาะจงสามารถดูได้ที่ด้านล่าง
+รายการไฟล์ .exe ที่ทำงานอยู่ทั้งหมดในระบบจะปรากฏขึ้น คุณอาจเลือก .exe จากรายการหรือพิมพ์ชื่อของ .exe ที่เป็นปัญหา คุณสามารถใช้สองตัวเลือกอื่นเพื่อกำหนดค่าเงื่อนไขและลักษณะการทำงาน สำหรับข้อมูลเพิ่มเติมและตัวอย่างที่เฉพาะเจาะจงสามารถดูได้ที่ด้านล่าง
 
 ::: เคล็ดลับ Wallpaper Engine ให้ความสำคัญกับชื่อ .exe ที่ถูกต้องเท่านั้น ตำแหน่งไม่ใช่เรื่องสำคัญ ดังนั้นคุณสามารถพิมพ์ .exe ใดก็ได้ลงในช่อง *ชื่อแอพพลิเคชัน* เพียงตรวจสอบให้แน่ใจว่าชื่อ .exe ตรงกันทุกตัวอักษร รวมถึงตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก :::
 
@@ -40,6 +40,6 @@ tags:
 
 ### ลักษณะอื่น ๆ
 
-Check out all possible conditions and wallpaper playback options for more types of application rules. You can also configure Wallpaper Engine to mute or pause when you launch a certain application.
+ตรวจสอบเงื่อนไขที่เป็นไปได้ทั้งหมดและตัวเลือกการเล่นวอลเปเปอร์เพื่อเรียนรู้เกี่ยวกับกฎของแอพพลิเคชันเพิ่มเติม คุณยังสามารถกำหนดค่า Wallpaper Engine ให้ปิดเสียงหรือหยุดชั่วคราวเมื่อคุณเปิดใช้งานแอพพลิเคชันบางตัว
 
-::: tip You can also change these settings for all applications in the **Performance** tab of the Wallpaper Engine settings. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other applications fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
+::: เคล็ดลับ คุณสามารถเปลี่ยนการตั้งค่าเหล่านี้กับแอพพลิเคชันทั้งหมดในแท็บ **ประสิทธิภาพการทำงาน** ในส่วนการตั้งค่า Wallpaper Engine หากคุณพบปัญหาประสิทธิภาพการทำงานในหลาย ๆ เกม คุณอาจต้องเปลี่ยนตัวเลือก **แอพพลิเคชันอื่นทำงานแบบเต็มหน้าจอ** เป็น **หยุด (ลดการใช้หน่วยความจำ)** เพื่อให้ Wallpaper Engine ปิดตัวเองเมื่อคุณเปิดเกมหรือแอพพลิเคชันอื่นแบบเต็มหน้าจอ :::
