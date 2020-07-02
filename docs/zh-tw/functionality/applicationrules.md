@@ -22,11 +22,11 @@ tags:
 
 ## 設定應用程式規則
 
-In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+在 Wallpaper Engine 設定中的*效能*分頁，點選*應用程式規則*標籤旁邊的*編輯*按鈕，將可顯示您已設定的所有自訂規則。 點選*建立新規則*，即可為特定應用程式設定 Wallpaper Engine 的特殊行為。
 
 ![Application Rules Overview](./applicationrule.gif)
 
-You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+此時將顯示系統上所有正在運作的 .exe 檔案。 從列表中選取一個 .exe 檔案，或輸入有問題的 .exe 檔案具有的確切名稱。 您可使用其他兩種方式設定條件與行為。 請參閱下方內容，了解詳細資訊與具體實例。
 
 ::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
 
