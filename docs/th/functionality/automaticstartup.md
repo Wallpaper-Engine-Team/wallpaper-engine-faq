@@ -28,8 +28,8 @@ tags:
 
 ## Wallpaper Engine เริ่มต้นพร้อม Windows แต่วอลเปเปอร์ (บางส่วน) ไม่ปรากฏขึ้น
 
- หลังจากคอมพิวเตอร์เริ่มทำงาน ให้ตรวจสอบว่ามีไอคอน Wallpaper Engine แสดงขึ้นในแถบงาน Windows ข้างนาฬิกาหรือไม่ If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
+ หลังจากคอมพิวเตอร์เริ่มทำงาน ให้ตรวจสอบว่ามีไอคอน Wallpaper Engine แสดงขึ้นในแถบงาน Windows ข้างนาฬิกาหรือไม่ หากพบไอคอนหลังจากที่ระบบเริ่มทำงาน แต่จอแสดงผลบางส่วนหรือทั้งหมดไม่แสดงวอลเปเปอร์ที่เกี่ยวข้อง หมายความว่าไดรเวอร์การ์ดจอของคุณมีปัญหา โดยพื้นฐานแล้วไดรเวอร์การ์ดจอของคุณจะกำหนดตัวระบุใหม่ให้กับจอแสดงผลของคุณ ซึ่งจะทำให้ ​​Wallpaper Engine เชื่อว่าคุณกำลังพยายามกำหนดค่าจอแสดงผลใหม่ คุณสามารถแก้ไขปัญหานี้ได้โดยการเปลี่ยนตัวเลือก *"การระบุจอแสดงผล"* ในแท็บ *ทั่วไป* ในส่วนการตั้งค่า Wallpaper Engine เป็น *เลย์เอาต์* หรือ *GDI* นอกจากนี้ เราขอแนะนำให้คุณทำการติดตั้งไดร์เวอร์การ์ดจอใหม่ เนื่องจากสถานการณ์นี้บ่งชี้ถึงปัญหาที่อาจเกิดจากการติดตั้ง Windows ของคุณ
 
- ## Wallpaper Engine assigns wrong wallpapers at system start-up
+ ## Wallpaper Engine กำหนดวอลเปเปอร์ไม่ถูกต้องเมื่อเริ่มต้นระบบ
 
  This is the same problem as in the previous section, if you have multiple monitors and the wallpapers are being assigned to the wrong monitor at start-up, try changing the *Monitor identification* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*.
