@@ -12,9 +12,9 @@ Para crear una clave de registro tiene que abrir el menú de Windows y escribir 
 
 1. Vaya al directorio del registro: *HKEY_CURRENT_USER\Software\WallpaperEngine*
 2. Haga clic derecho en la carpeta de registro *WallpaperEngine*, seleccione *Nuevo* y, a continuación, *Valor DWORD (32 Bit)*.
-3. Give the registry the following name: *hideTrayIcon*
-4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
-5. Double-click on the registry key and give it the value: *1*
-6. Restart Wallpaper Engine, the application will now not show a tray icon.
+3. Llame al registro: *hideTrayIcon*
+4. Asegúrese de que el nombre es correcto y de que no hay ningún espacio entre las palabras. Tiene que escribirlo exactamente así.
+5. Haga doble clic en la clave de registro y otórguele el valor: *1*
+6. Reinicie Wallpaper Engine. Ahora no aparecerá el icono en la bandeja.
 
-You can reverse this process by setting *hideTrayIcon* to *0* or deleting it altogether, followed by restarting Wallpaper Engine. 
+Puede revertir el proceso si cambia el valor de *hideTrayIcon* a *0* o si borra la clave de registro y luego reinicia Wallpaper Engine. 
