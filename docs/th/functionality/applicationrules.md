@@ -28,11 +28,11 @@ tags:
 
 รายการไฟล์ .exe ที่ทำงานอยู่ทั้งหมดในระบบจะปรากฏขึ้น คุณอาจเลือก .exe จากรายการหรือพิมพ์ชื่อของ .exe ที่เป็นปัญหา คุณสามารถใช้สองตัวเลือกอื่นเพื่อปรับแต่งเงื่อนไขและลักษณะการทำงาน สำหรับข้อมูลเพิ่มเติมและตัวอย่างที่เฉพาะเจาะจงสามารถดูได้ที่ด้านล่าง
 
-::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: เคล็ดลับ Wallpaper Engine ให้ความสำคัญกับชื่อ .exe ที่ถูกต้องเท่านั้น ตำแหน่งไม่ใช่เรื่องสำคัญ ดังนั้นคุณสามารถพิมพ์ .exe ใดก็ได้ลงในช่อง *ชื่อแอพพลิเคชัน* เพียงตรวจสอบให้แน่ใจว่าชื่อ .exe ตรงกันทุกตัวอักษร รวมถึงตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก :::
 
-### Fixing performance problems with apps or games
+### แก้ไขปัญหาประสิทธิภาพการทำงานของแอพพลิเคชันหรือเกม
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. จากนั้นจึงตั้งค่า **เงื่อนไข** เป็น **กำลังทำงาน** และจาก **การเล่นวอลเปเปอร์** เป็น **หยุด (ลดการใช้หน่วยความจำ)** This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
 
 ### Fixing intermittent sound with background recording tools
 
