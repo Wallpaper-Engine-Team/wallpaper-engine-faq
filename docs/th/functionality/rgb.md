@@ -11,15 +11,15 @@ Wallpaper Engine รองรับระบบนิเวศของ [**Razer
 
 ในส่วน "ปลั๊กอิน" ของการตั้งค่า Wallpaper Engine คุณสามารถค้นหา **ปลั๊กอิน iCUE และ Chroma SDK** คุณสามารถเปิดหรือปิดใช้งานการโหลดปลั๊กอิน RGB สากลนี้โดยการทำเครื่องหมายที่ช่องทำเครื่องหมายทางด้านซ้าย คุณยังสามารถคลิกที่สัญลักษณ์รูปเฟืองถัดจากปลั๊กอินเพื่อกำหนดค่าส่วนต่าง ๆ เพิ่มเติม
 
-นอกจากนี้คุณสามารถปิดการรองรับ RGB สำหรับแต่ละวอลเปเปอร์ At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+นอกจากนี้คุณสามารถปิดการรองรับ RGB สำหรับแต่ละวอลเปเปอร์ หากเปิดใช้งานปลั๊กอิน คุณจะพบตัวเลือก **เปิดใช้งานเอฟเฟ็กต์ LED** ที่ด้านบนของรายการคุณสมบัติของวอลเปเปอร์แต่ละรายการ ตัวเลือกนี้ช่วยให้คุณสามารถควบคุมได้ว่าคุณต้องการให้วอลเปเปอร์เดี่ยวควบคุมไฟ RGB หรือไม่
 
-## The RGB hardware colors seem too bright
+## สีของฮาร์ดแวร์ RGB ดูสว่างเกินไป
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+เราเพิ่มสีสันของสี RGB เล็กน้อยในค่าเริ่มต้น สิ่งนี้มักจะทำให้วอลเปเปอร์ส่วนใหญ่ดูดีขึ้น แต่หากคุณไม่ชอบคุณสามารถปิดได้โดยปิดการใช้งานตัวเลือก **บูสต์สี LED** ในการตั้งค่าปลั๊กอิน RGB
 
-## My RGB hardware does not work
+## ฮาร์ดแวร์ RGB ของฉันไม่ทำงาน
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engine ไม่สามารถสื่อสารกับฮาร์ดแวร์ RGB ของคุณได้โดยตรงข้อมูลสีทั้งหมดจะถูกส่งไปยังไดรเวอร์ RGB ก่อน If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
 
 If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
 
