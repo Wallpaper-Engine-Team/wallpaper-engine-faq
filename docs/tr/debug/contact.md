@@ -15,8 +15,8 @@ Ayrıca Steam Tartışma panomuza da başvurabilirsiniz; genellikle herkesin sor
 
 Sorununuzla uyuşan bir tartışma bulamaz ya da kendi sorunuza yanıt alamazsanız [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request) adresinden de bize ulaşabilirsiniz.
 
-::: tip If you are having a technical issue, it helps if you include a log file from our scan tool:
+::: ipucu Teknik bir sorun yaşadığınızda tarama aracımızdan bir günlük dosyası eklemeniz faydalı olacaktır:
 
-* [Use the Wallpaper Engine scan tool to create a debug log](debug/scantool)
+* [Hata ayıklama günlüğü oluşturmak için Wallpaper Engine tarama aracını kullanın](debug/scantool)
 
-The scan tool includes technical details which usually help us point you in the right direction faster. :::
+Tarama aracında, sizi doğru yönlendirmemize yardımcı olabilecek teknik detaylar barındırır. :::
