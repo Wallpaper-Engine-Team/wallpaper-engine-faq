@@ -28,9 +28,9 @@ tags:
 
 此時將顯示系統上所有正在運作的 .exe 檔案。 從列表中選取一個 .exe 檔案，或輸入有問題的 .exe 檔案具有的確切名稱。 您可使用其他兩種方式設定條件與行為。 請參閱下方內容，了解詳細資訊與具體實例。
 
-::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: 提示 Wallpaper Engine 僅在意確切的 .exe 名稱，位置則無關緊要，所以您只需要在*應用程式名稱*欄位輸入任何 .exe 即可。 務必確保.exe 名稱完全正確，包括大寫與小寫字母。 :::
 
-### Fixing performance problems with apps or games
+### 修復應用程式或遊戲的效能問題
 
 Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
 
