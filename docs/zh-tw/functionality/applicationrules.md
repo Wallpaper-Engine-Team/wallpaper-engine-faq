@@ -32,9 +32,9 @@ tags:
 
 ### 修復應用程式或遊戲的效能問題
 
-從列表中選取您希望設定特殊規則的程式 .exe 檔案，或在**應用程式名稱**欄位輸入該 .exe 檔案名稱。 Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+從列表中選取您希望設定特殊規則的程式 .exe 檔案，或在**應用程式名稱**欄位輸入該 .exe 檔案名稱。 接著，將**條件**設定為**運作時**，並將 **Wallpaper playback** 設定為 **停止 (釋放記憶體)**。 如此一來，Wallpaper Engine 將在應用程式或遊戲啟動時，完全移除記憶體中所有桌布，進而解決所有相容性問題。
 
-### Fixing intermittent sound with background recording tools
+### 修復背景錄製工具遇到聲音斷斷續續的問題
 
 Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is playing audio** and **Wallpaper playback** to **Keep running**. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
 
