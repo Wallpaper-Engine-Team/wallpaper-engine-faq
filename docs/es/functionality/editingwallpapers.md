@@ -42,7 +42,7 @@ Por lo general, los fondos de aplicación no se pueden modificar. Como son suele
 
 ## Actualizar un proyecto perdido
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+Si ha borrado un proyecto, aún puede sobreescribirlo, pero es posible que no pueda editarlo dependiendo del tipo de fondo que haya publicado. Cree un fondo nuevo de la forma habitual y abra el directorio del proyecto con Editar -> Abrir en el explorador. Abra el archivo `project.json` con un editor de texto y verá algo así:
 
 ```json
 {
@@ -69,12 +69,12 @@ If you deleted your project you can still overwrite it, but depending on the typ
 }
 ```
 
-Add this line at the top right after `{`:
+Añada este código en la parte superior justo después de `{`:
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+Tendrá que ver algo así:
 
 ```json{2}
 {
@@ -84,6 +84,6 @@ So that it looks like:
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**Cambie el número 12345678 por la ID de su proyecto. Encontrará la ID en el enlace del fondo que ha subido:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
