@@ -10,13 +10,13 @@ tags:
 
 ## 「高優先」與「標準」啟動選項之間有何差別？
 
-如果為高優先選項，Wallpaper Engine 將使用 Windows 服務， This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+如果為高優先選項，Wallpaper Engine 將使用 Windows 服務， 因此 Windows 啟動時，比起您之前設定為與 Windows 共同開啟的程式，Wallpaper Engine 會更早啟動。 不過，此應用程式的效能不會以任何其他方式受到影響。
 
-The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
+使用高優先選項的缺點是較不可靠，主因是某些防毒軟體會過度反應，誤認成惡意行為，阻止 Wallpaper Engine 以此種模式啟動。
 
-## I have enabled the automatic startup but it is not working, what can I do?
+## 我已啟用自動啟動功能，但無法正常運作，該怎麼辦？
 
-If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
+如果您使用*高優先*選項，請停用此選項，切換至*標準*自動啟動功能。 如上所述，高優先模式自動啟動速度較快，但由於諸多因素而較不可靠，其中主因是有時候會受到防毒軟體封鎖。
 
 If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
 
