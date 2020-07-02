@@ -1,26 +1,26 @@
 ---
 tags:
-  - application
-  - rules
-  - exception
-  - whitelist
-  - blacklist
-  - lags
-  - laggy
-  - game
-  - performance
+  - 應用程式
+  - 規則
+  - 例外
+  - 白名單
+  - 黑名單
+  - 延隔
+  - 反應慢
+  - 遊戲
+  - 效能
   - fps
-  - crash
-  - sound
-  - audio
-  - intermittent
+  - 當機
+  - 聲音
+  - 音訊
+  - 斷斷續續
 ---
 
-# Fix issues with specific apps or games
+# 修復特定應用程式或遊戲的問題
 
-If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
+如果特定應用程式或遊戲出現問題，您可將 Wallpaper Engine 設定為某種行為，例如，一旦偵測到有問題的應用程式已啟動或正在播放音訊時，便以某種方式執行工作。
 
-## Setting up an application rule
+## 設定應用程式規則
 
 In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
 
