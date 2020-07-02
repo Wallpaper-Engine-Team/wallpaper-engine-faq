@@ -14,19 +14,19 @@ Clique com o botão direito num wallpaper no separador "instalado" e selecione "
 
 ### Wallpapers de cena
 
-Os wallpapers de cena são embalados num ficheiro .pkg que não é imediatamente editável porque lhe faltam todos os dados relacionados com o projeto. Tentar abrir um ficheiro .pkg esultará no erro "Wallpapers empacotados não podem ser abertos". An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Os wallpapers de cena são embalados num ficheiro .pkg que não é imediatamente editável porque lhe faltam todos os dados relacionados com o projeto. Tentar abrir um ficheiro .pkg esultará no erro "Wallpapers empacotados não podem ser abertos". Uma analogia seria que os ficheiros .jpeg também não incluem dados do projeto do Photoshop - isto fica sempre no sistema do autor original.
 
 #### Unofficial Community Scene Unpacker
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+No entanto, os membros da comundiade criaram uma ferramenta de desempacotar de wallpapers de cena, o que lhe permite desempacotar ficheiros de Cena e usá-los como ponto de partida para os seuys próprios wallpapers. Para mais informações visite este website:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+Continuará a ser necessário ter um ficheiro project.json válido. Para criar um basta criar um novo wallpaper vazio no editor, fechar o Wallpaper Engine e depois desempacotar o wallpaper transferido e copiar-colar o seu conteúdo no novo diretório do projeto.
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+Se quiser edfitar um dos seus próprios wallpapers para o quel tenha perdido ficheiros anteriores do projeto, consulte a secção *Atualizar um projeto perdido* mais abaixo para obter mais informações acerca das modificaçõesq ue será necessário fazer ao projet.json, para que possa implementar as atualizações nos seus wallpapers existentes.
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: aviso Atenção Não oferecemos assistência oficial para esta ferramenta e não garantimos que funcione corretamente. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
 
 ### Web wallpapers
 
