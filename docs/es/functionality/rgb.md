@@ -37,12 +37,12 @@ Recuerde que iCUE se usa en *modo exclusivo*, por lo que Wallpaper Engine tendr�
 
 Si necesita asistencia con el hardware iCUE de Corsair, contecta con Corsair directamente:
 
-[help.corsair.com](https://help.corsair.com/)
+[help.corsair.com/hc/es/categories/360001506152-Servicio-al-cliente](https://help.corsair.com/)
 
-Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
+Si tiene algún problema con el servicio al cliente de Corsair, póngase en contacto con nosotros y veremos si podemos ayudar.
 
 ### Razer
-We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+Solo tenemos compatibilidad con Razer Synapse 3 o superior. Si usa Razer Synapse 1 o Razer Synapse 2, asegúrese de desinstalarlos y actualizarlos a la última versión de Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
 
 If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
 
