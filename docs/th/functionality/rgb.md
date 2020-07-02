@@ -19,7 +19,7 @@ Wallpaper Engine รองรับระบบนิเวศของ [**Razer
 
 ## ฮาร์ดแวร์ RGB ของฉันไม่ทำงาน
 
-Wallpaper Engine ไม่สามารถสื่อสารกับฮาร์ดแวร์ RGB ของคุณได้โดยตรงข้อมูลสีทั้งหมดจะถูกส่งไปยังไดรเวอร์ RGB ก่อน If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engine ไม่สามารถสื่อสารกับฮาร์ดแวร์ RGB ของคุณได้โดยตรงข้อมูลสีทั้งหมดจะถูกส่งไปยังไดรเวอร์ RGB ก่อน หากฮาร์ดแวร์ตั้งแต่หนึ่งตัวขึ้นไปไม่ทำงาน จะเป็นปัญหาซอฟต์แวร์ของผู้จำหน่ายฮาร์ดแวร์ของคุณ ฮาร์ดแวร์บางตัวที่เก่ามากจะไม่ได้รับการสนับสนุนอย่างเต็มที่จากผู้จำหน่ายฮาร์ดแวร์อีกต่อไปและจะไม่ทำงาน โปรดทราบว่านี่คือสิ่งที่เราไม่สามารถทำอะไรได้เลย
 
 If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
 
