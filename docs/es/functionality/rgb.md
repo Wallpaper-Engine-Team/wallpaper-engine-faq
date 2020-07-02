@@ -3,15 +3,15 @@ tags:
   - hardware
 ---
 
-# RGB hardware support (iCUE & Chroma)
+# Compatibilidad con hardware RGB (iCUE y Chroma)
 
-Wallpaper Engine supports [**Razer Chroma**](https://www.razer.com/chroma) and [**Corsair iCUE**](https://www.corsair.com/icue), including systems which may integrate into either ecosystem.
+Wallpaper Engine es compatible con [**Razer Chroma**](https://www.razer.com/chroma) y con[ **Corsair iCUE**](https://www.corsair.com/icue), además de con los sistemas que se integran en sus ecosistemas.
 
-## How do I enable / disable RGB hardware
+## Cómo activar / desactivar hardware RGB
 
-In the "Plugins" section of the Wallpaper Engine settings, you can find the **iCUE & Chroma SDK plugin**. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. You can also click on the cogwheel symbol next to it to further configure individual parts of it.
+En la sección «Complementos» de la configuración de Wallpaper Engine, verá el **componente iCUE y Chroma SDK**. Si marca la casilla de la izquierda, puede activar o desactivar el componente general RGB. También puede hacer clic en el símbolo del engranaje para configurar las partes individuales.
 
-Additionally, RGB support can be toggled off on each wallpaper. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+Además, puede desactivar la compatibilidad RGB en cada fondo. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
 
 ## The RGB hardware colors seem too bright
 
