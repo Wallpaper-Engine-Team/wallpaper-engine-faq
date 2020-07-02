@@ -1,10 +1,10 @@
 # การกู้คืนวอลเปเปอร์เริ่มต้นที่ถูกลบ
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+หากคุณลบวอลเปเปอร์ที่ติดตั้งไว้ล่วงหน้าใน Wallpaper Engine ไป คุณสามารถนำกลับมาได้โดยการลบไฟล์ config ในไดเรกทอรีการติดตั้ง *wallpaper_engine* ของคุณ:
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. ปิด Wallpaper Engine (คลิกขวาที่ Wallpaper Engine ในแถบงาน -> "ออกจากโปรแกรม")
 
-2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
+2. ไปที่ไดเรกทอรี Wallpaper Engine ของคุณและลบไฟล์ชื่อ "visible.json" The file can be found here by default:
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
