@@ -2,19 +2,19 @@
 
 Em geral, o Wallpaper Engine não suporta a edição de wallpapers transferidos. No entanto, normalmente é possível editar wallpapers consoante o seu tipo (pode encontrar o tipo por baixo da imagem de prévisualização à direita) com a ajuda de aplicações de terceiros.
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+Tenha sempre em mente que pode ser necessário ter os direitos do(s) autor(es) original(is) para poder republicar o seu trabalho. Quando em dúvioda, contacte os autores originais antes de o publicar na Steam Workshop.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## Como encontro os ficheiros originais de um wallpaper?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+Clique com o botão direito num wallpaper no separador "instalado" e selecione "Abrir no Explorer".
 
-## How to edit wallpapers of different types
+## Como editar wallpapers de diversos tipos
 
-### Scene wallpapers
+### Wallpapers de cena
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Os wallpapers de cena são embalados num ficheiro .pkg que não é imediatamente editável porque lhe faltam todos os dados relacionados com o projeto. Tentar abrir um ficheiro .pkg esultará no erro "Wallpapers empacotados não podem ser abertos". An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
 #### Unofficial Community Scene Unpacker
 
