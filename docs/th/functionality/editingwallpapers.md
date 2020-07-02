@@ -28,15 +28,15 @@
 
 ::: คำเตือน โปรดทราบ เราไม่ได้ให้การสนับสนุนอย่างเป็นทางการสำหรับเครื่องมือนี้และไม่รับประกันว่าจะทำงานได้อย่างถูกต้อง หากคุณมีคำถามหรือข้อสงสัยเกี่ยวกับเครื่องมือแตกไฟล์ โปรดติดต่อผู้สร้างดั้งเดิม :::
 
-### Web wallpapers
+### เว็บวอลเปเปอร์
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+วอลเปเปอร์บนเว็บไซต์ใช้ HTML และ JavaScript You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
 
-### Video wallpapers
+### วิดีโอวอลเปเปอร์
 
 Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
 
-### Application wallpapers
+### วอลเปเปอร์แอพพลิเคชัน
 
 Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
 
