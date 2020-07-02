@@ -4,7 +4,7 @@ Windows 並不會分辨音訊錄製與播放，因此會在錄製電腦的音訊
 
 在 Wallpaper Engine 設定中檢視「效能」分頁。 如果您將*「其他應用程式正在播放音訊」*選項設定為*「靜音」*，並發現 Wallpaper Engine 的聲音斷斷續續，則有可能是錄製程式在背景中錄製螢幕與聲音。
 
-To solve this do any of these three things:
+若要解決此問題，請執行下列三項操作：
 
 * Turn off the recording program on your desktop or reconfigure it to not record Wallpaper Engine by mistake.
     * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
