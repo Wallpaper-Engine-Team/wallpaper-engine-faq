@@ -9,14 +9,14 @@ tags:
 Wallpaper Engine 本身不會導致系統當機，也不會影響其他程式。 如果 Wallpaper Engine 運作時系統當機、系統凍結、出現藍色當機畫面、其他程式當機，可能的原因如下：
 
 * Wallpaper Engine 所需的硬體已損壞。
-* A driver for some hardware Wallpaper Engine needs is buggy or broken.
-* Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
+* Wallpaper Engine 所需硬體的驅動程式有錯誤或已損壞。
+* Wallpaper Engine 運作時，安裝的侵入性軟體干擾驅動程式或 Windows。
 
-Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
+Wallpaper Engine 不需要安裝任何驅動程式，不會取代系統檔案，也不會執行危險或可疑的操作而可能導致系統或其他程式當機。
 
-Any bugs in Wallpaper Engine could only lead to a crash of Wallpaper Engine itself in the worst case, but no bug in Wallpaper Engine could crash your entire system or other programs. This is impossible, Microsoft has designed Windows this way and Wallpaper Engine adheres to this.
+即使在最糟糕的情況下，Wallpaper Engine 的任何錯誤也只會造成 Wallpaper Engine 本身當機，不會造成整個系統或其他程式當機。 Wallpaper Engine 遵循 Microsoft 設計 Windows 的原則，避免一程式造成整個系統或其他程式當機。
 
-## Finding the cause of system crashes
+## 尋找系統當機的原因
 Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
 
 If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
