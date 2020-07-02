@@ -26,27 +26,27 @@ Continuará a ser necessário ter um ficheiro project.json válido. Para criar u
 
 Se quiser edfitar um dos seus próprios wallpapers para o quel tenha perdido ficheiros anteriores do projeto, consulte a secção *Atualizar um projeto perdido* mais abaixo para obter mais informações acerca das modificaçõesq ue será necessário fazer ao projet.json, para que possa implementar as atualizações nos seus wallpapers existentes.
 
-::: aviso Atenção Não oferecemos assistência oficial para esta ferramenta e não garantimos que funcione corretamente. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: aviso Atenção Não oferecemos assistência oficial para esta ferramenta e não garantimos que funcione corretamente. Se tiver algum problema com o unpacker ou deseje fazer perguntas sobre ele, deve contactar os criadores originais. :::
 
-### Web wallpapers
+### Wallpapers da web
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Os wallpapers com base na web são baseados em HTML e JavaScript. Pode ir à fonte dos ficheiros, tal como é descrito na secção acima e usar estes ficheiros como base para o seu próprio wallpaper com base na web.
 
-### Video wallpapers
+### Wallpapers de vídeo
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+Os wallpapers com base em vídeo são ficheiros de vídeo. Pode procurar o ficheiro de vídeo tal como é descrito na secção acima e usar uma aplicação de edição de vídeo de terceiros à sua escolha para modificar o vídeo.
 
-### Application wallpapers
+### Wallpapers de aplicações
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+Em geral, os wallpapers de aplicações não podem ser edeitados. Os wallpapers de aplicações são normalmente programas compilados, o que significa que não tem acesso ao código de fonte. Se quiser mesmo modificar wallpapers com base em aplicações, deve contactar o autor do wallpaper e ver se ele está disposto a ajudar.
 
-## Updating a lost project
+## Atualizar um projeto perdido
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+Se apagou o seu projeto continua a poder substituí-lo, mas consoante o tipo de wallpaper que publicou, pode já não ser possível editá-lo. Crie um novo wallpaper da forma habitual e abra o seu diretório de projeto com Edit -> Abrir no Explorer. Abra o ficheiro `project.json` com um editor de texto, ele terá sensivelmente este aspecto:
 
 ```json
 {
-    "description" : "Cool description",
+    "description" : "Boa descrição",
     "file" : "scene.json",
     "general" : 
     {
@@ -62,28 +62,28 @@ If you deleted your project you can still overwrite it, but depending on the typ
         }
     },
     "preview" : "preview.jpg",
-    "tags" : [ "Relaxing" ],
-    "title" : "Cool title of your wallpaper",
+    "tags" : [ "Relaxante" ],
+    "title" : "Bom título para o seu wallpaper",
     "type" : "scene",
     "visibility" : "private"
 }
 ```
 
-Add this line at the top right after `{`:
+Adicione esta linha no topo, logo a seguir a `{`:
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+Para que tenha este aspecto:
 
 ```json{2}
 {
     "workshopid" : "12345678",
-    "description" : "Cool description",
+    "description" : "Boa descrição",
     "file" : "scene.json",
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**Substitua o número 12345678 pela ID da sua candidatura! Pode encontrar esta ID no URL do seu upload existente:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
