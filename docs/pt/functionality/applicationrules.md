@@ -28,15 +28,15 @@ No separador *Desempenho* das definições do Wallpaper Engine, clicar no botão
 
 Ser-lhe-á apresentada uma listade todos os ficheiros .exe em execução no seu sistema. Selecione um .exe da lista ou escreva o nome exato do .exe com o qual está a ter dificuldades. Com as outras duas opções pode configurar a condição ou o comportamento. Leia mais abaixo para obter mais informações e exemplos concretos.
 
-::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: dica Para o Wallpaper Engine, só o nome exato do .exe é importante, o local não é importante, pelo que pode escrever qualquer .exe no campo *Nome da aplicação*. Certifique-se apenas de que o nome do .exe é precisamente igual, incluindo letras em maiúsculas e minúsculas. :::
 
-### Fixing performance problems with apps or games
+### Corrigir problemas de desempenho com aplicações ou jogos
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+Selecione o .exe do programa para o qual pretende ter uma regra especial de entre a lista ou escreva-o no campo **Nome da aplicação**. Em seguida, defina **Condição** para **Em execução** e **Reprodução do wallpaper** para **Parar (lib. memória)**. Isto significa que o Wallpaper Engine irá remover completamente todos os wallpapers da memória quando a aplicação ou o jogo foram iniciados, o que resolverá quaisquer problemas de compatibilidade.
 
-### Fixing intermittent sound with background recording tools
+### Corrigir som intermitente com ferramentas fer gravação em segundo plano
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is playing audio** and **Wallpaper playback** to **Keep running**. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
+Selecione o .exe do programa para o qual pretende ter uma regra especial de entre a lista ou escreva-o no campo **Nome da aplicação**. Em seguida, defina **Condição** para **Está a reproduzir áudio** e **Reprodução do wallpaper** para **Continuar execução**. Isto significa que o Wallpaper Engine não será silenciado quando a aplicação em questão está a reproduzir ou gravar áudio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
 
 ### Other behavior
 
