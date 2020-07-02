@@ -12,4 +12,4 @@
 
 3. หลังจากลบไฟล์แล้วให้เริ่มต้น Wallpaper Engine อีกครั้งและวอลเปเปอร์เริ่มต้นทั้งหมดจะถูกกู้คืน
 
-::: เคล็ดลับ หากคุณไม่พบไฟล์ "visible.json" ด้วยเหตุผลบางประการ คุณสามารถติดตั้ง Wallpaper Engine ใหม่ได้ตลอดเวลา This will also restore all default wallpapers but will require you to re-download all wallpapers which you can avoid by following the steps above. :::
+::: เคล็ดลับ หากคุณไม่พบไฟล์ "visible.json" ด้วยเหตุผลบางประการ คุณสามารถติดตั้ง Wallpaper Engine ใหม่ได้ตลอดเวลา วิธีนี้จะเป็นการกู้คืนวอลเปเปอร์เริ่มต้นทั้งหมด แต่คุณจะต้องดาวน์โหลดวอลเปเปอร์ทั้งหมดอีกครั้ง คุณสามารถหลีกเลี่ยงได้โดยทำตามขั้นตอนด้านบน :::
