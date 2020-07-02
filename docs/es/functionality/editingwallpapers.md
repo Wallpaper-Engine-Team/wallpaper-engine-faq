@@ -38,9 +38,9 @@ Los fondos de vídeo son archivos de vídeo. Puede encontrar el archivo tal y co
 
 ### Fondos de aplicación
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+Por lo general, los fondos de aplicación no se pueden modificar. Como son suelen ser programas compilados, no puede acceder al código fuente. Si desea cambiar fondos de aplicación, intente contactar con el autor de dicho fondo por si quisiera colaborar.
 
-## Updating a lost project
+## Actualizar un proyecto perdido
 
 If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
 
