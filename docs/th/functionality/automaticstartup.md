@@ -24,11 +24,11 @@ tags:
 
 อีกสาเหตุที่เกิดขึ้นไม่บ่อยคือการที่คุณ (หรือแอพพลิเคชันในระบบของคุณ) ตั้งค่าไฟล์ .exe ของ Wallpaper Engine ให้ทำงานในฐานะแอดมินเท่านั้น โปรแกรมจึงไม่สามารถเริ่มต้นโดยอัตโนมัติได้ คุณจะต้องลบการตั้งค่าแอดมินแล้วเปิดใหม่อีกครั้ง
 
-If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
+หากการเริ่มต้นอัตโนมัติไม่ทำงาน สาเหตุมักจะเกี่ยวข้องกับการที่ซอฟต์แวร์ป้องกันไวรัสทำงานเกินจริง หากคุณมีแอพพลิเคชันป้องกันไวรัสหรือไฟร์วอลล์ติดตั้งอยู่ โปรดตรวจสอบการตั้งค่าและระดับความปลอดภัยทั้งหมดอีกครั้ง
 
-## Wallpaper Engine starts with Windows but (some) wallpapers are not shown
+## Wallpaper Engine เริ่มต้นพร้อม Windows แต่วอลเปเปอร์ (บางส่วน) ไม่ปรากฏขึ้น
 
- Check if the Wallpaper Engine icon is visible in the Windows tray next to the clock after you start your computer. If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
+ หลังจากคอมพิวเตอร์เริ่มทำงาน ให้ตรวจสอบว่ามีไอคอน Wallpaper Engine แสดงขึ้นในแถบงาน Windows ข้างนาฬิกาหรือไม่ If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
 
  ## Wallpaper Engine assigns wrong wallpapers at system start-up
 
