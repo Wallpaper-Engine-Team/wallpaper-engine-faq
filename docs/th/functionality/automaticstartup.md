@@ -32,4 +32,4 @@ tags:
 
  ## Wallpaper Engine กำหนดวอลเปเปอร์ไม่ถูกต้องเมื่อเริ่มต้นระบบ
 
- This is the same problem as in the previous section, if you have multiple monitors and the wallpapers are being assigned to the wrong monitor at start-up, try changing the *Monitor identification* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*.
+ ปัญหานี้เหมือนกับปัญหาในส่วนก่อนหน้า หากคุณมีหลายจอแสดงผล วอลเปเปอร์จะถูกกำหนดให้กับจอแสดงผลอย่างไม่ถูกต้องเมื่อเริ่มต้น ให้ลองเปลี่ยน *"การระบุจอแสดงผล"* ในแท็บ *ทั่วไป* ในส่วนการตั้งค่า Wallpaper Engine เป็น *เลย์เอาต์* หรือ *GDI*
