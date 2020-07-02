@@ -21,8 +21,8 @@ BattlEye 會錯誤關閉 Wallpaper Engine (以及其他應用程式)，並非 Wa
 受此問題影響的大部分使用者均在 Nvidia 顯示卡驅動程式中啟用了*超低延遲模式*。 如果您的 Nvidia 顯示卡出現此問題，請開啟 Nvidia 控制面板，停用超低延遲模式，應可解決此問題。 選取 *「管理 3D 設定」* -> *「廣域設定」* -> *「低延遲模式」*，並將此設定變更為*關閉*。 點選*套用*並重新啟動電腦。 之後，BattlEye 就不會錯誤終止 Wallpaper Engine。
 
 ## 聯絡 BattlEye 支援部門
-If the steps above do not fix your issues with a BattlEye-powered multiplayer game, you will need to reach out to BattlEye directly:
+如果上述步驟皆無法解決搭載 BattlEye 的多人遊戲，您必須直接聯絡 BattlEye：
 
 * [BattlEye 支援](https://www.battleye.com/contact/)
 
-On some systems, BattlEye will terminate Wallpaper Engine for no apparent reason and this is not something we can prevent as BattlEye is a rather intrusive anti-cheat which is able to terminate any application on your computer without notifying you. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
+在某些系統上，BattlEye 會無故終止 Wallpaper Engine，由於其為極具侵入性的反作弊系統，得以在不發出通知的情況下終止電腦任何應用程式，我們無法防止。 In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
