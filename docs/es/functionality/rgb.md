@@ -23,13 +23,13 @@ Wallpaper Engine no es capaz de comunicarse directamente con su hardware RGB, pu
 
 Si no puede ver la sección *Complementos* de Wallpaper Engine, es probable que no tenga *Visual C++ Redistributable for Visual Studio 2015* o que esté dañado, y es necesario para que funcionen estas características. Puede descargar el paquete desde la página web de Microsoft e instalarlo. El problema se solucionará tras reiniciar el equipo:
 
-* [Visual C++ Redistributable para Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
+* [Visual C++ Redistributable para Visual Studio 2015](https://www.microsoft.com/es-es/download/details.aspx?id=48145)
 
 ### Corsair
 
 Hay hardware como las **memorias RAM Corsair que tienen los controles de software deshabilitados por defecto**, lo que significa que sus módulos de memoria no se encenderán de acuerdo con Wallpaper Engine si no le concede los permisos en la configuración de iCUE. Asegúrese de que ha seleccionado la opción «Control de software completo» en la sección de memoria de la configuración de su dispositivo iCUE.
 
-![Enable full software control in iCUE](./icue.png)
+![Habilitar control de software completo en iCUE](./icue.png)
 
 Vuelva a comprobar la opción con las demás partes que no funcionen correctamente.
 
@@ -37,7 +37,7 @@ Recuerde que iCUE se usa en *modo exclusivo*, por lo que Wallpaper Engine tendr�
 
 Si necesita asistencia con el hardware iCUE de Corsair, contacte directamente con Corsair:
 
-[help.corsair.com/hc/es/categories/360001506152-Servicio-al-cliente](https://help.corsair.com/)
+[help.corsair.com/hc/es/categories/360001506152-Servicio-al-cliente](https://help.corsair.com/hc/es/categories/360001506152-Servicio-al-cliente/)
 
 Si tiene algún problema con el servicio al cliente de Corsair, póngase en contacto con nosotros y veremos si podemos ayudar.
 
@@ -48,6 +48,6 @@ Si su hardware de Razer es bastante antiguo y no es compatible con Razer Synapse
 
 Si necesita asistencia con el hardware de Razer, contacte directamente con Razer:
 
-[https://support.razer.com/es-es](https://support.razer.com/)
+[https://support.razer.com/es-es](https://https://support.razer.com/es-es/)
 
 Si tiene algún problema con el servicio al cliente de Razer, póngase en contacto con nosotros y veremos si podemos ayudar.
