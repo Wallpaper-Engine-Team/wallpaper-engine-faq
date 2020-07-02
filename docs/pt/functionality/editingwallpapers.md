@@ -1,6 +1,6 @@
-# Editing Downloaded Wallpapers
+# Editar wallpapers transferidos
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+Em geral, o Wallpaper Engine não suporta a edição de wallpapers transferidos. No entanto, normalmente é possível editar wallpapers consoante o seu tipo (pode encontrar o tipo por baixo da imagem de prévisualização à direita) com a ajuda de aplicações de terceiros.
 
 Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
 
