@@ -11,19 +11,19 @@ Wallpaper Engine es compatible con [**Razer Chroma**](https://www.razer.com/chro
 
 En la sección «Complementos» de la configuración de Wallpaper Engine, verá el **componente iCUE y Chroma SDK**. Si marca la casilla de la izquierda, puede activar o desactivar el componente general RGB. También puede hacer clic en el símbolo del engranaje para configurar las partes individuales.
 
-Además, puede desactivar la compatibilidad RGB en cada fondo. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+Además, puede desactivar la compatibilidad RGB en cada fondo. Verá si está activada la opción **«Activar efectos de LED»** en la parte superior de la lista de propiedades de cada fondo, y esto le permite decidir si desea que un fondo controle las luces RGB o no.
 
-## The RGB hardware colors seem too bright
+## Los colores RGB del hardware brillan demasiado
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+Potenciamos los colores RGB por defecto, ya que queda mejor en la mayoría de los fondos. Si no le gusta, puede desactivar la opción **«Impulsar colores de LED»** en la configuración del complemento RGB.
 
-## My RGB hardware does not work
+## Mi hardware RGB no funciona
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engine no es capaz de comunicarse directamente con su hardware RGB, pues toda la información de los colores se envía antes de los controladores RGB. Si una o más partes del hardware no funcionan, es probable que sea un problema del software del proveedor del hardware. Hay hardware muy antiguo que ya no recibe asistencia de los proveedores, y por eso no funciona. Tenga en cuenta que no podemos solucionar ese tipo de problemas.
 
-If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
+Si no puede ver la sección *Complementos* de Wallpaper Engine, es probable que no tenga *Visual C++ Redistributable for Visual Studio 2015* o que esté dañado, y es necesario para que funcionen estas características. Puede descargar el paquete desde la página web de Microsoft e instalarlo. El problema se solucionará tras reiniciar el equipo:
 
-* [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
+* [Visual C++ Redistributable para Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
 ### Corsair
 
