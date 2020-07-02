@@ -22,17 +22,17 @@ tags:
 
 ## アプリケーションルールの設定
 
-In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+Wallpaper Engine設定の*パフォーマンス*タブで、*アプリケーションルール*ラベルの隣にある*編集*ボタンをクリックすると、これまでに設定されているカスタムルールがすべて表示されます。 *新規ルール作成*をクリックすると、Wallpaper Engineの特定のアプリケーションに対する特別な動作を設定することができます。
 
 ![Application Rules Overview](./applicationrule.gif)
 
-You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+システム上で起動している.exeファイルすべてがリストアップされます。 問題のある.exeをリストから選択するか、その正確な名前を入力します。 他の2つのオプションで、条件と動作を設定することができます。 詳細と具体例については下記をご覧ください。
 
-::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: tip Wallpaper Engineは正確な.exe名だけを識別します。場所はどこにあってもかまいません。*アプリケーション名*フィールドに.exe名だけを入力してください。 大文字小文字を含め、.exe名が正確にマッチしていることを確認してください。 :::
 
-### Fixing performance problems with apps or games
+### アプリまたはゲームで起きるパフォーマンスの問題の修正
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+特別なルールを設定したいプログラムの.exeをリストから選択するか、**アプリケーション名**に入力します。 その後、**条件**を**実行中**に、**壁紙再生**を**停止（メモリ解放）**に設定します。 This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
 
 ### Fixing intermittent sound with background recording tools
 
