@@ -1,13 +1,13 @@
 ---
 tags:
-  - email
-  - help
-  - support
+  - e-posta
+  - yardım
+  - destek
 ---
 
-# Contact
+# İletişim
 
-If you have a technical problem with Wallpaper Engine, please try and resolve it with the FAQ first. Most technical support tickets we received can be fixed with the FAQ.
+Wallpaper Engine'de yaşadığınız teknik sorunlar için lütfen öncelikle SSS'ye bakın. Aldığımız teknik destek biletlerinin bir çoğunun çözümü SSS'de yer almaktadır.
 
 You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
 
