@@ -26,6 +26,6 @@ Wallpaper Engine ทำงานได้ดีกับแอพพลิเค
 
 ## วอลเปเปอร์สีเทาหรือพื้นผิวหายไปใน Windows 7
 
-โปรดตรวจสอบให้แน่ใจว่าได้ติดตั้ง Windows 7 Update **KB2533623** แล้ว Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+โปรดตรวจสอบให้แน่ใจว่าได้ติดตั้ง Windows 7 Update **KB2533623** แล้ว คุณสามารถติดตั้งการอัพเดตด้วยตนเองผ่านลิงก์ด้านล่างหรือตรวจสอบให้แน่ใจว่า Windows Update ของคุณทำงานได้อย่างถูกต้องและติดตั้งการอัพเดตอัตโนมัติ คุณสามารถดาวน์โหลดได้ด้วยตนเองจากเว็บไซต์ Microsoft แล้วรีสตาร์ทระบบของคุณในภายหลัง ปัญหาข้างต้นควรจะหายไป:
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
