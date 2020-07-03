@@ -33,12 +33,12 @@ Steam n'a pas fini de télécharger et de vérifier ces fichiers. Si les téléc
 * Assurez-vous qu'aucun antivirus ou pare-feu ne bloque Steam. Mettez une exception dans votre antivirus pour le répertoire de Steam.
 * Désabonnez-vous des fonds d'écran qui ne parviennent pas à se télécharger et abonnez-vous à nouveau après le redémarrage de Steam.
 * Choisissez un différent serveur dans les paramètres de Steam. Cette option se trouve dans l'onglet "Téléchargements" des paramètres de Steam.
-* Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
-* Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
-* Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
-* Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
-* Try again after waiting at least for a day in case there are Steam server issues.
-* **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!). :::
+* Assurez-vous que vous n'avez pas restreint les téléchargements Steam dans les **paramètres de Steam** en fonction du temps, de la bande passante, de l'application...
+* Ouvrez l'onglet "Téléchargements" de Steam (Bibliothèque > Téléchargements). Cherchez des téléchargements en pause. Si vous en voyez un, cliquez sur "Reprendre".
+* Cliquez avec le bouton droit sur Wallpaper Engine dans Steam, puis sur cliquez sur Propriétés et sélectionnez **Autoriser les téléchargements en arrière-plan**.
+* Assurez-vous que vous n'avez pas de mises à jour de jeu en attente dans Steam, cela pourrait interrompre ou désactiver les téléchargements des fonds d'écran.
+* Attendez une journée, il y a peut-être des problèmes avec les serveurs de Steam.
+* **As a last resort** en cas de dernier recours, réinstallez Wallpaper Engine pour réparer des fichiers corrompus (vous devrez télécharger tous vos fonds d'écran à nouveau !). :::
 
 ::: tip Steam servers go offline every week for maintenance at a fixed time:
 
