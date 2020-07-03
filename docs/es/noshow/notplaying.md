@@ -18,9 +18,9 @@ La mayoría de problemas con los fondos de vídeo se resuelven después de volve
 
 1. Descargue los controladores más recientes de su tarjeta gráfica (si tiene dos, como Nvidia o Intel, descárguelos todos):
 
-* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
-* [AMD Radeon](https://www.amd.com/support)
-* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+* [Nvidia GeForce](https://www.nvidia.es/Download/index.aspx?lang=es)
+* [AMD Radeon](https://www.amd.com/support/hc/es/categories/360001506152-Servicio-al-cliente)
+* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers/)
 
 2. Desinstale los controladores que tiene instalados y borre todos los archivos si le preguntan. Los controladores de Nvidia tienen una casilla llamada «Realizar instalación limpia», que también sirve.
 
@@ -38,12 +38,12 @@ Si tras hacer una instalación limpia de los controladores sigue sin funcionar, 
 * Descargue Codec Twear Tool: [haga clic aquí](https://www.codecguide.com/download_other.htm).
 * Asegúrese de que **no** están seleccionadas todas las casillas de «Media Foundation» y aplique la configuración:
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![Deseleccione todas las opciones de «Media Foundations».](./codectweak.gif)
 
 * Reinicie el equipo y compruebe los fondos afectados de nuevo.
 
-## Additional video codecs
+## Codecs de vídeo adicionales
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+Si los fondos de vídeo afectados sigue sin funcionar tras seguir los pasos anteriores, descargue LAV y use DirectShow tal y como se explica en esta guía:
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [Usar LAV y DirectShow](/videos/lav.html).
