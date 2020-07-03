@@ -65,14 +65,14 @@ Wallpaper Engine — тщательно тестируемая и хорошо �
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+В работе драйверов Intel происходят сбои. Перейдите на сайт Intel, загрузите последнюю версию драйверов и установите ее:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 
 ### MMDEvAPI.dll
 
-This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+Сбои подобного типа происходят по причине неисправности звукового программного обеспечения, установленного на вашем компьютере. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
