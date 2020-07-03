@@ -8,11 +8,11 @@
 
 ## 我該如何找到桌布的原檔案？
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+滑鼠右鍵點選「已安裝」分頁中的桌布，接著選取「在檔案總管中開啟」。
 
-## How to edit wallpapers of different types
+## 如何編輯不同類型的桌布
 
-### Scene wallpapers
+### 場景桌布
 
 Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
