@@ -36,10 +36,10 @@ Sisteminizde çalışan tüm .exe dosyalarının bir listesi sunulur. Listeden b
 
 ### Arka plan kayıt araçlarıyla kesintili sesi düzeltme
 
-Özel bir kurala sahip olmasını istediğiniz programın .exe dosyasını listeden seçin veya adını **Uygulama ismi** alanına yazın. Sonrasında **Koşul**'u **Ses oynatıyor** ve **Duvar kâğıdını oynatma**'yı **Çalıştırmaya devam et** olarak ayarlayın. Bu durumda söz konusu uygulama ses çalarken veya kayıt yaparken Wallpaper Engine kendisini sessize almayacaktır. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
+Özel bir kurala sahip olmasını istediğiniz programın .exe dosyasını listeden seçin veya adını **Uygulama ismi** alanına yazın. Sonrasında **Koşul**'u **Ses oynatıyor** ve **Duvar kâğıdını oynatma**'yı **Çalıştırmaya devam et** olarak ayarlayın. Bu durumda söz konusu uygulama ses çalarken veya kayıt yaparken Wallpaper Engine kendisini sessize almayacaktır. Windows, ses çalma ve kayıt arasında ayrım gözetmez. Bu nedenle Wallpaper Engine, kayıt yapıyorsanız sürekli olarak sesi kapatır ve açar. Birçok oyun akış uygulaması bunu yanlışlıkla ve sizin bilginiz olmadan yapabilir.
 
-### Other behavior
+### Diğer davranışlar
 
-Check out all possible conditions and wallpaper playback options for more types of application rules. You can also configure Wallpaper Engine to mute or pause when you launch a certain application.
+Daha fazla uygulama kuralı için olası tüm koşulları ve duvar kâğıdı oynatma seçeneklerini inceleyin. Ayrıca Wallpaper Engine'i belirli bir uygulamayı başlattığınızda sessize alacak veya duraklatacak şekilde de yapılandırabilirsiniz.
 
-::: tip You can also change these settings for all applications in the **Performance** tab of the Wallpaper Engine settings. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other applications fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
+::: ipucu Ayrıca tüm bu uygulama ayarlarını, Wallpaper Engine ayarlarındaki **Performans** sekmesinden de değiştirebilirsiniz. Örneğin birden fazla oyunda performans sorunları yaşıyorsanız **Diğer uygulamalar tam ekranken** seçeneğini **Dur (boş bellek)** olarak değiştirmek mantıklı olabilir. Böylelikle herhangi bir oyun veya tam ekran uygulama açtığınızda Wallpaper Engine kendisini kapatacaktır. :::
