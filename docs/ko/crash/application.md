@@ -41,13 +41,13 @@ Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 
 
 ### mfplat.dll
 
-이것은 Windows 미디어 파운데이션의 강제 종료로, 손상된 그래픽 카드 드라이버 때문에 발생할 수도 있지만 보통 시스템의 비디오 코덱 손상 또는 누락이 원인입니다. Follow the fixes from our video fix guide to fix these types of crashes:
+이것은 Windows 미디어 파운데이션의 강제 종료로, 손상된 그래픽 카드 드라이버 때문에 발생할 수도 있지만 보통 시스템의 비디오 코덱 손상 또는 누락이 원인입니다. 이런 유형의 강제 종료 문제를 해결하려면 저희의 비디오 해결 가이드를 따르세요:
 
 [여기를 클릭하세요](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+이 강제 종료는 보통 Windows의 자체 문제로 발생합니다. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
 
 ### atiumdag.dll / atiumd64.dll
 
