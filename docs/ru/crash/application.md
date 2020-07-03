@@ -53,15 +53,15 @@ Wallpaper Engine — тщательно тестируемая и хорошо �
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: Подсказка Обратите внимание Перед переустановкой убедитесь, что у вас стоит галочка в пункте "Провести чистую переустановку" или удалите текущую версию драйверов вручную. Если драйвера на вашем компьютере неисправны, важно полностью удалить их перед установкой новой версии. :::
 
 ### nvwgf2umx.dll
 
-The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
+В работе драйверов Nvidia происходят сбои. Перейдите на сайт Nvidia, загрузите последнюю версию драйверов и установите ее:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: Подсказка Обратите внимание Перед переустановкой убедитесь, что у вас стоит галочка в пункте "Провести чистую переустановку" или удалите текущую версию драйверов вручную. Если драйвера на вашем компьютере неисправны, важно полностью удалить их перед установкой новой версии. :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
