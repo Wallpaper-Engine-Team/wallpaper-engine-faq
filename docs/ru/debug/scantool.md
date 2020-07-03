@@ -8,14 +8,14 @@
 4. Поделитесь лог-файлом с разработчиками любым из этих методов:
     * Скопируйте содержимое лог-файла, зайдите на сайт [pastebin.com](https://pastebin.com/) вставьте туда скопированное, затем отправьте в техподдержку ссылку на страницу с вашим документом.
     * Вы также можете воспользоваться альтернативным вариантом: просто прикрепить лог-файл к имейлу и прислать его нам. Если обсуждение вашей проблемы уже идет, пожалуйста, ответьте на последнее письмо в цепочке, прикрепив к имейлу лог-файл. Если это ваш первый имейл, пожалуйста, добавьте к лог-файлу информацию о проблеме или ссылку на дискуссию на доске.
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones. ::: tip Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues. :::
+5. *Дополнительно:* Если вы столкнулись с аварийным завершением работы программы, пожалуйста, проверьте есть ли в каталоге *wallpaper_engine* файлы типа **.mdmp** и тоже приложите их к письму или загрузите на хостинг. Если вы видите много .mdmp файлов, пожалуйста, пришлите самые новые. ::: Подсказка Даже если на первый взгляд инструмент сканнирования не обнаружил никаких ошибок, в результате более тщательного изучения лог-файла часто обнаруживаются распространенные проблемы с компьютером. Благодаря этой информации мы можем быстрее дать вам совет по решению проблемы. :::
 
-#### Additional video help
+#### Дополнительная видео-помощь
 
-**Step 2**
+**Шаг 2**
 
-![Scan Tool Launch Option](./scantoollaunch.gif)
+![Scan Tool Launch Option](Шаг 3)
 
-**Step 3**
+**Шаг 3**
 
 ![Scan Tool Save Log](./scantoolsave.gif)
