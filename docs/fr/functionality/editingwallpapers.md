@@ -30,11 +30,11 @@ Si vous souhaitez modifier l'un de vos propres fonds d'écran, mais que vous ave
 
 ### Fond d'écran Web
 
-Les fonds d'écran Web sont en HTML et sont basés sur JavaScript. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Les fonds d'écran Web sont en HTML et sont basés sur JavaScript. Vous pouvez accéder aux fichiers sources comme décrit dans la section ci-dessus et utiliser ces fichiers comme base pour votre propre fond d'écran Web.
 
-### Video wallpapers
+### Fond d'écran vidéo
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+Ces fonds d'écran sont des fichiers vidéo. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
 
 ### Application wallpapers
 
