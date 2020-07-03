@@ -33,7 +33,7 @@ Algum hardware, tal como a **memória do sistema (RAM) do Corsair tem controlos 
 
 Confirme esta opção para quaisquer outros elementos de hardware que não estejam a funcionar corretamente.
 
-Tenha em c onta que o iCUE é usado em *modo exclusivo*, o que significa que o Wallpaper Engine terá prioridade sobre outro software compatível com iCUE, tal como jogos. Se quiser que os seus jogos animem o seu teclado, vá ao separador **Desempenho** das definições do Wallpaper Engine e defina a opção **Outras aplicações em ecrã completo** para **Parar (lib. memória)** para parar todos os wallpapers enquanto está dentro do jogo. Como alternativa, desative o plugin RGB ou desative a opção RGB em wallpapers individuais.
+Tenha em c onta que o iCUE é usado em *modo exclusivo*, o que significa que o Wallpaper Engine terá prioridade sobre outro software compatível com iCUE, tal como jogos. Se quiser que os seus jogos animem o seu teclado, vá ao separador **Desempenho** das definições do Wallpaper Engine e defina a opção **Outra aplicação em ecrã completo** para **Parar (lib. memória)** para parar todos os wallpapers enquanto está dentro do jogo. Como alternativa, desative o plugin RGB ou desative a opção RGB em wallpapers individuais.
 
 Para obter assistência para hardware Corsair iCUE, deve contactar a Corsair diretamente:
 
