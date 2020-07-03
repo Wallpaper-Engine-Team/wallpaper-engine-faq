@@ -6,8 +6,8 @@ O Windows não hiberna com streams de áudio ativos abertos. Pode ultrapassar is
 
 O Windows não hiberna com streams de áudio ativos abertos. Pode ultrapassar isto desativando a saída de áudio no separador "Geral" das definições do Wallpaper Engine ou reconfigurando o seu Windows de forma a suspender com a reprodução de áudio ativada:
 
-1. Vá às "Power and sleep settings" (Definições de alimentação e suspensão) do Windows escrevendo isto na pesquisa do Windows.
-2. Clique em "Additional power settings" (Definições adicionais de alimentação)
+1. Vá às "Definições de energia e suspensão" do Windows escrevendo isto na pesquisa do Windows.
+2. Clique em "Definições adicionais de energia"
 3. Click on "Change plan settings" next to the plan that is selected
 4. Click on "Change advanced power settings"
 5. Scroll down and expand "Multimedia settings"
