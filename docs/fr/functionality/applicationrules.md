@@ -30,9 +30,9 @@ Vous verrez alors une liste de tous les .exe en cours d'exécution sur votre sys
 
 ::: tip Wallpaper Engine ne prend en compte que le nom du fichier .exe, son emplacement n'est pas pris en compte lorsque vous entrez son nom dans *Nom de l'application*. Vous devez juste vous assurer de respecter les majuscules et les minuscules. :::
 
-### Fixing performance problems with apps or games
+### Problèmes de performances avec les applications et les jeux
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+Sélectionnez le .exe du programme pour lequel vous souhaitez avoir une règle spéciale dans cette liste ou saisissez-le dans le champ **Nom de l'application**. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
 
 ### Fixing intermittent sound with background recording tools
 
