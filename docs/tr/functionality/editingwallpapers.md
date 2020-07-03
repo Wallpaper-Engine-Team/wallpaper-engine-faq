@@ -1,6 +1,6 @@
-# Editing Downloaded Wallpapers
+# İndirilen Duvar Kağıtlarını Düzenleme
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+Wallpaper Engine çoğunlukla indirilen duvar kağıtlarının düzenlenmesini desteklemez. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
 
 Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
 
