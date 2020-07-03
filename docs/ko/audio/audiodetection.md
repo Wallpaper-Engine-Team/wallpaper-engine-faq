@@ -7,7 +7,7 @@ Wallpaper Engine 설정으로 이동하여 "일반" 탭을 탐색하시길 바�
 
 올바른 오디오 장치가 선택되었지만 여전히 오디오가 들리지 않거나 오디오 시각화 도우미가 작동하지 않는다면, Windows 오디오 믹서에서 Wallpaper Engine을 음소거하지 않았는지 또는 볼륨이 매우 낮게 설정되었는지 확인이 필요합니다. Windows는 오디오 녹음과 오디오 재생의 볼륨을 구분하지 않습니다. 즉, Windows에서 낮은 볼륨으로 설정했다면 오디오 녹음도 작동하지 않습니다.
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![볼륨을 높이고 Windows 오디오 믹서에서 Wallpaper Engine 음소거를 해제하세요](./audiomixer.png)
 
 오디오가 검색되지만 볼륨이 매우 낮지도 않다면, 응용 프로그램(음악 플레이어, 웹 브라우저 등)의 볼륨이 오디오 검색에 영향을 줄 수도 있습니다. 응용 프로그램의 볼륨을 높이고 싶지 않으면(기본 녹음 볼륨값은 50입니다), Wallpaper Engine의 "일반" 탭에서 사운드 검색을 증가시킬 수 있습니다.
 
@@ -17,9 +17,9 @@ Wallpaper Engine 설정으로 이동하여 "일반" 탭을 탐색하시길 바�
 
 USB / 무선 헤드셋은 사운드 드라이버 문제에 취약합니다. 여러 장치의 경우, Windows 장치 설정에서 오디오 샘플 속도를 44100Hz로 변경하면 문제를 영구 해결할 수 있습니다.
 
-Windows 오른쪽 아래의 트레이 지역에 있는 오디오 아이콘을 오른쪽 클릭하고, "사운드 설정 열기"를 선택하세요. 열린 창에서 "출력" 섹션의 "장치 속성" 클릭하세요.  그후 "추가 장치 속성"을 클릭한 다음 "고급" 탭을 탐색합니다. 거기서 나타나는 메뉴에서 샘플 속도를 변경할 수 있습니다. 정확한 위치는 Windows 버전에 따라 다릅니다. 이 옵션을 찾을 수 없다면, 웹을 검색해 해당 Windows 버전에서 사운드 장치의 샘플 속도를 어떻게 변경하는지 확인하세요.
+Windows 오른쪽 아래의 트레이 지역에 있는 오디오 아이콘을 오른쪽 클릭하고, "사운드 설정 열기"를 선택하세요. 열린 창에서 "출력" 섹션의 "장치 속성" 클릭하세요.  그 후 "추가 장치 속성"을 클릭한 다음 "고급" 탭을 탐색합니다. 거기서 나타나는 메뉴에서 샘플 속도를 변경할 수 있습니다. 정확한 위치는 Windows 버전에 따라 다릅니다. 이 옵션을 찾을 수 없다면, 웹을 검색해 해당 Windows 버전에서 사운드 장치의 샘플 속도를 어떻게 변경하는지 확인하세요.
 
-![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
+![샘플링 속도를 "24비트, 44100Hz"로 설정하세요](./samplingrate.png)
 
 ### Razer 헤드셋(THX)
 
@@ -32,9 +32,9 @@ Wallpaper Engine에서 '스피커(Razer XYZ)' 장치로 오디오 입력을 변�
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* Various other applications, especially pre-installed ones on notebooks
+* 기타 다양한 응용 프로그램, 특히 노트북에 사진 설치된 프로그램
 
-If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
+해당 응용 프로그램이 설치되었는지 알 수 없으면, Wallpaper Engine 스캔 도구를 사용하여 해당 문제를 유발하는 프로그램을 찾을 수 있습니다.
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Wallpaper Engine 스캔 도구](/debug/scantool.html)
 
