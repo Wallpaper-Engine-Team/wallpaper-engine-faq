@@ -85,10 +85,10 @@ Wallpaper Engine — тщательно тестируемая и хорошо �
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
+Затем установите их заново с помощью инструмента установки DirectX 9: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (точное расположение файлов будет зависеть от того, где у вас находится каталог установки wallpaper_engine).
 
-If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
+Если вы продолжаете получать эту ошибку, это значит, что другой схожий модуль DirectX был поврежден чем-то. Обычно это указывает на то, что в основе проблемы сбоев лежит более серьезная проблема с самой системой Windows, которую необходимо исправить, прежде чем запускать Wallpaper Engine.
 
-## Crashing after Hibernation / Sleep
+## Аварийное завершение работы после гибернации / спящего режима
 
 If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
