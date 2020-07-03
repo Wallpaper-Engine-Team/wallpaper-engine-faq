@@ -53,12 +53,12 @@ Steam 尚未完成下載與驗證檔案。 下載進度停住一陣子時，若�
 Steam 無法下載某些檔案，這可能是因為防毒應用程式阻擋了 Steam 或只是隨機發生。 通常能用以下方法解決：
 
 * 關閉 Steam。
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* 刪除以下目錄的內容：`C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+* 刪除以下目錄的內容：`C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+  * **請注意：** `C:\Program Files (x86)\Steam` 是 Steam 的預設路徑，若您將 Steam 安裝至別處，請指定該處。
+* 開啟 Steam 並驗證 Wallpaper Engine 的檔案：
+  * [驗證 Wallpaper Engine 的檔案](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+若安裝了防毒應用程式：將以下目錄設定為例外，避免防毒程式阻擋 Steam 的工作坊下載：`C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### 相關文章：[Steam 重新下載所有桌布](/steam/redownload)
