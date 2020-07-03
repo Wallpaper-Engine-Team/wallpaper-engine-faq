@@ -11,7 +11,7 @@ tags:
 
 หากหน้าต่างเรียกดู Wallpaper Engine ไม่ทำงาน สาเหตุมักเกิดจากความผิดปกติของไดรเวอร์การ์ดจอหรือแอพพลิเคชันป้องกันไวรัส โปรดอ่านด้านล่างสำหรับข้อมูลเพิ่มเติม
 
-::: คำเตือน โปรดทราบ เนื้อหาส่วนนี้เกี่ยวข้องกับปัญหาที่ **ส่วนต่อประสาน** ของ Wallpaper Engine เป็นสีดำหรือเสียหาย If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
+::: คำเตือน โปรดทราบ เนื้อหาส่วนนี้เกี่ยวข้องกับปัญหาที่ **ส่วนต่อประสาน** ของ Wallpaper Engine เป็นสีดำหรือเสียหาย หาก **วอลเปเปอร์เป็นสีดำ** คุณต้องไปที่: [ หน้าจอสีดำ / ไม่เล่นไฟล์วิดีโอ](/noshow/notplaying.html) :::
 
 ## Wallpaper Engine browser is Black or White
 
