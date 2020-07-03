@@ -8,19 +8,19 @@ O Windows não hiberna com streams de áudio ativos abertos. Pode ultrapassar is
 
 1. Vá às "Definições de energia e suspensão" do Windows escrevendo isto na pesquisa do Windows.
 2. Clique em "Definições adicionais de energia"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
-6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
+3. Clique em "Alterar definições do esquema" ao lado do esquema que está selecionado
+4. Clique em "Alterar definições avançadas de energia"
+5. Desloque para baixo e expanda "Definições de multimédia"
+6. Defina "Ao partilhar multimédia" como "Permitir que o computador entre no Modo Ausente" (proteção de ecrã) **ou** "Permitir suspensão do computador" (hibernação)
 
 ![Enable "Allow the computer to sleep"](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## Problemas de hibernação com wallpapers do tipo "Web"
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+Os wallpapers "Web" usam um browser semelhante ao Google Chrome ("CEF") que impedirá o modo de hibernação. Até isto ser corrigido no browser, pode ultrapassar isto com algumas instruções na linha de comandos.
 
-1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
-2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
+1. Procure "cmd.exe" no Windows e clique nele com o b otão direito e, em seguida, selecione "Executar como administrador" (é muito importante, caso contrário não funciona!).
+2. Utilize o comendo `powercfg /requests` para visualizar todos os processos que estão a impedir o seu sistema de hibernar (veja também se a responsabilidade poderá ser de outros programas).
 3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
 
 ```
