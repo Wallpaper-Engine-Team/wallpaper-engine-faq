@@ -13,9 +13,9 @@ tags:
 
 ::: คำเตือน โปรดทราบ เนื้อหาส่วนนี้เกี่ยวข้องกับปัญหาที่ **ส่วนต่อประสาน** ของ Wallpaper Engine เป็นสีดำหรือเสียหาย หาก **วอลเปเปอร์เป็นสีดำ** คุณต้องไปที่: [ หน้าจอสีดำ / ไม่เล่นไฟล์วิดีโอ](/noshow/notplaying.html) :::
 
-## Wallpaper Engine browser is Black or White
+## เบราเซอร์ Wallpaper Engine เป็นสีดำหรือสีขาว
 
-For most people, this means that the Wallpaper Engine user interface is being blocked by an antivirus application by mistake. Make sure to set up an exception in your antivirus application so that it ignores Wallpaper Engine, specifically all executables in the wallpaper_engine installation directory and especially **wallpaper_engine/bin/ui32.exe**.
+สำหรับผู้ใช้ส่วนใหญ่สิ่งนี้หมายความว่าส่วนต่อประสานกับผู้ใช้ของ Wallpaper Engine ถูกปิดกั้นโดยแอพพลิเคชันป้องกันไวรัสโดยไม่ได้ตั้งใจ ตรวจสอบให้แน่ใจว่าได้ตั้งค่าข้อยกเว้นในแอพพลิเคชันป้องกันไวรัสของคุณให้ละเว้น Wallpaper Engine โดยเฉพาะไฟล์ปฏิบัติการทั้งหมดในไดเรกทอรีการติดตั้ง wallpaper_engine โดยเฉพาะ **wallpaper_engine/bin/ui32.exe**
 
 In some cases, it is necessary to verify the Wallpaper Engine files afterwards or even to re-install Wallpaper Engine if your antivirus application has placed a permanent lock on some important Wallpaper Engine files:
 
