@@ -29,25 +29,25 @@ Se a secção *Plugin* das definições do Wallpaper Engine não estiver visíve
 
 Algum hardware, tal como a **memória do sistema (RAM) do Corsair tem controlos de software desativados por predefinição**, o que significa que os seus módulos do sistema não se iluminarão de acordo com o Wallpaper Engine a não ser que o permita nas definições do software iCUE. Certifique-se de que a opção "Enable full software control" (permitir controlo total pelo software) na secção de m emória das definições do seu dispositivo iCUE está selecionada:
 
-![Enable full software control in iCUE](./icue.png)
+!["Enable full software control" no iCUE](./icue.png)
 
 Confirme esta opção para quaisquer outros elementos de hardware que não estejam a funcionar corretamente.
 
-Tenha em c onta que o iCUE é usado em *modo exclusivo*, o que significa que o Wallpaper Engine terá prioridade sobre outro software compatível com iCUE, tal como jogos. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+Tenha em c onta que o iCUE é usado em *modo exclusivo*, o que significa que o Wallpaper Engine terá prioridade sobre outro software compatível com iCUE, tal como jogos. Se quiser que os seus jogos animem o seu teclado, vá ao separador **Desempenho** das definições do Wallpaper Engine e defina a opção **Outras aplicações em ecrã completo** para **Parar (lib. memória)** para parar todos os wallpapers enquanto está dentro do jogo. Como alternativa, desative o plugin RGB ou desative a opção RGB em wallpapers individuais.
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+Para obter assistência para hardware Corsair iCUE, deve contactar a Corsair diretamente:
 
 [help.corsair.com](https://help.corsair.com/)
 
-Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
+Caso depare com quaisquer problemas com a assistência do Corsair, continua a poder contactar-nos e faremos todos os possíveis para o ajudar.
 
 ### Razer
-We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+Só suportamos Razer Synapse 3 ou mais recente. Se está a usar o Razer Synapse 1 ou Razer Synapse 2, certifique-se de que os desinstala completeamente e atualiza para a versão mais recente do Razer Synapse. Anteriormente, alguns utilizadores tiveram problemas com restos do elho Razer Synapse que ficaram no seu sistema. Se teve o Razer Synapse 2 ou mais antigo instalado e tem problemas com a sua iluminação RGB ou até sofra bloqueios com o plugin RGB ativado, poderá ser necessário encontrar quaisquer restos de versões antigas do Razer Synapse no seu sistema e apagá-las.
 
-If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
+Se o seu hardware Razer dor relativamente antigo e não suportar o Razer Synapse 3 ou mais recente, infelizmente a sua iluminação RGB não é compatível com o Wallpaper Engine.
 
-For support with Razer hardware, please contact Razer directly:
+Para obter assistência para hardware Razer, deve contactar a Razer diretamente:
 
 [support.razer.com](https://support.razer.com/)
 
-Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
+Caso depare com quaisquer problemas com a assistência da Razer, continua a poder contactar-nos e faremos todos os possíveis para o ajudar.
