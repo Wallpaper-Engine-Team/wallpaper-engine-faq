@@ -10,14 +10,14 @@ tags:
 
 # Steam 桌布下載問題
 
-請記住，**所有下載皆是由 Steam 執行**。 Wallpaper Engine 僅顯示 Steam 的下載狀態，所有下載問題皆與您的 Steam 問題相關，與 Wallpaper Engine 無直接關聯。 This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+請記住，**所有下載皆是由 Steam 執行**。 Wallpaper Engine 僅顯示 Steam 的下載狀態，所有下載問題皆與您的 Steam 問題相關，與 Wallpaper Engine 無直接關聯。 本篇指南收錄了下載最常見的問題，許多時候問題的最初肇因是防毒應用程式過於活躍，或是網路連接埠被阻擋。
 
-If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
+若 Steam 的下載出現問題，請確定沒有防毒應用程式阻擋 Steam，以及開啟防火牆中所有必要的網路連接埠，包含網路路由器中的任何防火牆。
 
-::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
+::: 提示 您可以輕鬆檢查網路路由器是否阻擋了 Steam 的下載，方法是用智慧型手機切換為行動熱點，試著藉由熱點下載桌布。 :::
 
-## Wallpaper download stuck at 0% or 100% (or any other percentage)
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## 桌布下載停在 0% 或 100%（或任何百分比）
+Steam 尚未完成下載與驗證檔案。 下載進度停住一陣子時，若您等了一段時間後 Steam 下載仍未執行，請嘗試以下方法：
 
 * Clear Steam's download cache in Steam's options:
   * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
