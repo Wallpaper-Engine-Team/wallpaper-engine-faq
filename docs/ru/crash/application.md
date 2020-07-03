@@ -25,7 +25,7 @@ Wallpaper Engine — тщательно тестируемая и хорошо �
 
 * [Steam Support: проверка целостности файлов игры](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Причиной аварийного завершения работы Wallpaper Engine, вероятно, стало другое приложение
+## Wallpaper Engine was likely crashed by another application
 
 ### KERNELBASE.dll / ntdll.dll
 
