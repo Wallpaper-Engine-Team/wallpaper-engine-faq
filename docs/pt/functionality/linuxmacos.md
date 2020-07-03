@@ -10,4 +10,4 @@ Embora na teoria tudo isto seja possível, a simples verdade é que neste moment
 
 Tal como explicámos acima, o tempo ncessário para converter o Wallpaper Engine para outro sistema operativo é gigantesco e aumentará significativamente também os custos dos trabalhos contínuos de manutenção, enquanto o grupo possível de utilizadores que beneficiariam disto é comparativamente minúsculo. Preferimos direcionar o nosso tempo e energia em melhorar a versão Windows para mais de 96% dos utilizadores do Steam.
 
-However, we are keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable. 
+No entanto, estamos atentos às estatísticas oficiais do Steam e se a situação no Steam se alterar, estamos certamente abertos a examinar a possibilidade de adicionarmos suporte para mais plataformas no futuro, caso isso se torne viável. 
