@@ -15,11 +15,11 @@ RGB desteği her duvar kağıdında ayrı ayrı da kapatılabilir. Eklenti etkin
 
 ## RGB donanımı rengi çok parlak
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+RGB renklerini varsayılan olarak biraz parlatıyoruz. Birçok duvar kağıdında parlak renkler güzel görünüyor. Fakat bu öznel bir yargı olduğu için beğenmediğiniz takdirde RGB eklentisinin ayarlarından **LED renkleri parlat** seçeneğini devre dışı bırakabilirsiniz.
 
-## My RGB hardware does not work
+## RGB donanımım çalışmıyor
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engine RGB donanımınızla doğrudan bağlantı kuramaz, tüm renk bilgileri önce RGB sürücülerine gönderilmektedir. Donanımın birden fazla parçası çalışmıyorsa sorun donanımızın sağlayıcısının yazılımında olmalıdır. Bu donanım sağlayıcıları bazı çok eski donanımları tam olarak desteklemiyor, böyle bir durumda donanımınız çalışmayacaktır. Bu ne yazık ki bizim çözebileceğimiz bir sorun değil.
 
 If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
 
