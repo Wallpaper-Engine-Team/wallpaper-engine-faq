@@ -7,9 +7,9 @@ tags:
 
 # Контакты
 
-Если у вас возникли проблемы технического характера при использовании Wallpaper Engine, пожалуйста, в первую очередь попробуйте решить их с помощью списка часто задаваемых вопросов (FAQ). Most technical support tickets we received can be fixed with the FAQ.
+Если у вас возникли проблемы технического характера при использовании Wallpaper Engine, пожалуйста, в первую очередь попробуйте решить их с помощью списка часто задаваемых вопросов (FAQ). Большинство проблем в тикетах, которые получает наша техподдержка, могут быть решены поиском по FAQ.
 
-You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
+Также вы можете поискать информацию или задать вопрос на нашей доске обсуждений в Steam. Мы честно стараемся отвечать всем пользователям, а большинство вопросов там уже обсуждались:
 
 * [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
 
