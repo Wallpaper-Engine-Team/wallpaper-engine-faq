@@ -13,19 +13,19 @@ Wallpaper Engine는 안정적인 소프트웨어로 수백만 명이 사용하�
 
 ## Wallpaper Engine 강제 종료 빠른 해결 시도
 
-Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 드라이버를 깨끗하게 재설치하세요. 즉 우선 드라이버를 제거하여 기존 드라이버가 완전히 제거된 뒤 최신 버전의 드라이버를 재설치합니다. 일부 드라이버의 고급 섹션에는 "완전 재설치 실행" 옵션이 있습니다. 손상된 드라이버를 모두 자동으로 지우려면 이 옵션을 사용해야 합니다. You can get the latest graphics card drivers from all big vendors here:
+Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 드라이버를 깨끗하게 재설치하세요. 즉 우선 드라이버를 제거하여 기존 드라이버가 완전히 제거된 뒤 최신 버전의 드라이버를 재설치합니다. 일부 드라이버의 고급 섹션에는 "완전 재설치 실행" 옵션이 있습니다. 손상된 드라이버를 모두 자동으로 지우려면 이 옵션을 사용해야 합니다. 모든 대형 공급업체의 최신 그래픽 카드 드라이버는 아래에서 받을 수 있습니다:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you have an antivirus application installed (except Windows Defender), make sure to set up an exception for Wallpaper Engine in your antivirus settings. Sometimes a re-installation of Wallpaper Engine is necessary after this if your antivirus has permanently broken or locked some files.
+바이러스 백신 응용프로그램이 설치되었으면(Windows 방화벽 제외), 바이러스 백신 설정에서 Wallpaper Engine을 제외하세요. 바이러스 백신이 일부 파일을 영구 손상시키거나 잠그면, 이 과정 후 Wallpaper Engine의 재설치가 필요하기도 합니다.
 
 Always also try to verify the Wallpaper Engine files through steam to ensure they are not broken:
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam 지원: 응용프로그램 파일의 무결성 확인](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Wallpaper Engine was likely crashed by another application
+## Wallpaper Engine이 다른 응용프로그램을 강제 종료한 것 같습니다
 
 ### KERNELBASE.dll / ntdll.dll
 
