@@ -42,4 +42,4 @@ Selecione o .exe do programa para o qual pretende ter uma regra especial de entr
 
 Examine todas as possíveis condições e opções de reprodução do wallpeper para mais tipos de regras para aplicações. Também pode configurar o Wallpaper Engine para silenciar ou pausar quando inicia uma determinada aplicação.
 
-::: dica Também pode mudar estas definições para todas as aplicações no separador **Desempenho** das definições do Wallpaper Engine. Se está a ter problemas de desempenho em vários jogos, poderá fazer sentido mudar apenas a opção **Outras aplicações em ecrã completo** para **Parar (lib. memória)** para que o Wallpaper Engine se desative quando inicia qualquer jogo ou aplicação em ecrã completo. :::
+::: dica Também pode mudar estas definições para todas as aplicações no separador **Desempenho** das definições do Wallpaper Engine. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other application fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
