@@ -4,12 +4,12 @@
 
 ::: ipucu 32 bit sürümün çökmesine neden olacak büyük duvar kâğıtlarınız yoksa 32 bit sürümü kullanmanızı öneririz. Kullanıcıların büyük çoğunluğu bu sorunla karşılaşmıyor. :::
 
-PC'nizdeki video sisteminde yalnızca 32 bit programları etkileyen hatalar olduğunda da 64 bit sürümü tercih edebilirsiniz. Codec paketleri ya da benzerlerini kurduysanız bunlar, Wallpaper Engine'in kullandığı 32 bit Windows video sistemine kalıcı olarak zarar vermiş olabilir. If the 64-bit system is not affected, you'll be able to take advantage of that by using the 64-bit version of Wallpaper Engine and so you can avoid having to fix whatever got broken.
+PC'nizdeki video sisteminde yalnızca 32 bit programları etkileyen hatalar olduğunda da 64 bit sürümü tercih edebilirsiniz. Codec paketleri ya da benzerlerini kurduysanız bunlar, Wallpaper Engine'in kullandığı 32 bit Windows video sistemine kalıcı olarak zarar vermiş olabilir. 64 bit sistem etkilenmiyorsa Wallpaper Engine'in 64 bit sürümünü kullanarak bundan faydalanabilirsiniz. Böylelikle bozulan her neyse düzeltmek zorunda kalmazsınız.
 
-::: warning Note Note that "Web" type wallpapers will always be executed with a 32-Bit executable (webwallpaper32.exe). The same applies to the user interface itself (ui32.exe). 64-Bit only applies when selecting wallpapers of the type "Scene" or "Video". :::
+::: uyarı Notu "Web" duvar kâğıtlarının her zaman 32 Bit yürütülebilir dosya ile yürütüldüğünü unutmayın (webwallpaper32.exe). Aynısı kullanıcı arayüzü için de geçerlidir (ui32.exe). 64 Bit yalnızca "Sahne" veya "Video" türündeki duvar kâğıtlarını seçerken geçerli olur. :::
 
-## How to set-up Wallpaper Engine to autstart with either the 32 or 64 Bit version when Windows launches?
+## Windows başlatıldığında otomatik olarak 32 veya 64 Bit sürümüyle başlamak için Walpaper Engine nasıl ayarlanır?
 
-First, completely turn off Wallpaper Engine via the tray icon (right-click on the Wallpaper Engine icon in the Windows tray -> "Quit"). This is important as Steam will otherwise not launch Wallpaper Engine and only bring the already running version to the foreground.
+Öncelikle tepsi simgesi aracılığıyla Wallpaper Engine'i tamamen kapatın (Windows tepsisindeki Wallpaper Engine simgesine sağ tıklayın -> "Çıkış"). Aksi takdirde Steam, Wallpaper Engine'i başlatmayacağı ve yalnızca halihazırda çalışan sürümü öne çıkaracağı için bu nokta önemlidir.
 
-Once Wallpaper Engine is turned off, go to Steam and start either the 32 Bit or 64 Bit version, depending on which version you want to automatically start. Go to the Wallpaper Engine settings and at the top of the "General" tab, enable autostart. If it is already enabled, turn it off completely and then turn it back on. This will register the current version as the one which will be automatically started alongside Windows. 
+Wallpaper Engine kapandıktan sonra Steam'e gidin ve otomatik olarak başlatmak istediğiniz sürüme göre 32 Bit veya 64 Bit sürümünü başlatın. Wallpaper Engine ayarlarına gidin ve "Genel" sekmesinin üstünden otomatik başlatmayı etkinleştirin. Zaten etkinse tamamen kapatın ve sonra tekrar açın. Bu, geçerli sürümü Windows ile birlikte otomatik olarak başlatılacak sürüm olarak kaydeder. 
