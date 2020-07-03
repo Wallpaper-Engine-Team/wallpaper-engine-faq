@@ -24,13 +24,13 @@ Les membres de la communauté ont créé un outil de décompression de fond d'é
 
 Vous aurez toujours besoin d'un fichier project.json valide. Pour cela, créez un nouveau fond d'écran vierge dans l'éditeur, fermez Wallpaper Engine et décompressez le fond d'écran téléchargé et en copiez son contenu dans le nouveau répertoire du projet.
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+Si vous souhaitez modifier l'un de vos propres fonds d'écran, mais que vous avez perdu les fichiers du projet, consultez la section *Mettre à jour un projet perdu* ci-dessous pour plus d'informations sur les modifications que vous pouvez apporter au fichier projet.json pour mettre à jour vos fonds d'écran existants.
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: warning Attention Nous ne pouvons vous garantir que cet outil fonctionne correctement et nous ne pourrons pas vous aider si besoin. Si vous rencontrez un problème avec cet outil, contactez ses créateurs. :::
 
-### Web wallpapers
+### Fond d'écran Web
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Les fonds d'écran Web sont en HTML et sont basés sur JavaScript. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
 
 ### Video wallpapers
 
