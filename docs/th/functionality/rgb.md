@@ -27,7 +27,7 @@ Wallpaper Engine ไม่สามารถสื่อสารกับฮา
 
 ### Corsair
 
-Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+ฮาร์ดแวร์บางตัว เช่น **หน่วยความจำระบบ Corsair (RAM) ถูกปิดใช้งานการควบคุมซอฟต์แวร์โดยค่าเริ่มต้น** ซึ่งหมายความว่าโมดูลหน่วยความจำจะไม่สว่างขึ้นตาม Wallpaper Engine หากคุณไม่อนุญาตในการตั้งค่าซอฟต์แวร์ iCUE Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
 
 ![Enable full software control in iCUE](./icue.png)
 
