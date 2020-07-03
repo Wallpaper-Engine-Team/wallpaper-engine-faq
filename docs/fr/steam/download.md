@@ -23,16 +23,16 @@ Steam n'a pas fini de télécharger et de vérifier ces fichiers. Si les téléc
   * [Vider le cache de téléchargements de Steam](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
 * Vérifier les fichiers de Wallpaper Engine sur Steam :
   * [Vérifier les fichiers de Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+* Si les téléchargements sont toujours bloqués : **fermez Steam** et **effacez le contenu** de ce dossier :
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * Si vous avez un antivirus, assurez-vous qu'il ne prenne pas en compte ce dossier
+    * **Attention :** `C:\Program Files (x86)\Steam` est le chemin par défaut. Regardez ailleurs si vous avez installé l'application dans un autre dossier.
+* Redémarrez Steam. Ne lancez aucun jeu. Vérifiez les téléchargements de Steam et reprenez les téléchargements mis en pause.
 
-::: details Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
-* Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
-* Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
+::: details Cliquez ici pour voir d'autres solutions si les étapes ci-dessus n'ont pas résolu vos problèmes
+* Assurez-vous qu'aucun antivirus ou pare-feu ne bloque Steam. Mettez une exception dans votre antivirus pour le répertoire de Steam.
+* Désabonnez-vous des fonds d'écran qui ne parviennent pas à se télécharger et abonnez-vous à nouveau après le redémarrage de Steam.
+* Choisissez un différent serveur dans les paramètres de Steam. Cette option se trouve dans l'onglet "Téléchargements" des paramètres de Steam.
 * Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
 * Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
 * Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
