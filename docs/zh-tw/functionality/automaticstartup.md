@@ -4,7 +4,7 @@ tags:
   - 啟動
 ---
 
-# Automatic start-up at boot
+# 開機時自動啟動
 
 如果要將 Wallpaper Engine 設定為開機時自動啟動，可前往 Wallpaper Engine 的設定並開啟「一般」分頁。 您可在上方啟用自動啟動選項，此應用程式就會在系統每次開機時默默自行啟動。
 
@@ -32,4 +32,4 @@ tags:
 
  ## Wallpaper Engine 在系統啟動時指派錯誤的桌布
 
- This is the same problem as in the previous section, if you have multiple monitors and the wallpapers are being assigned to the wrong monitor at start-up, try changing the *Monitor identification* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*.
+ 此問題與上段所述的問題相同，如果您有多台顯示器，系統啟動時指派了錯誤的桌布，請至 Wallpaper Engine 設定中的*一般*分頁，將*顯示器識別方法*選項變更為*配置*或 *GDI*。
