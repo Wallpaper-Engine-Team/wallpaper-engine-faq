@@ -20,9 +20,9 @@ tags:
 
 如果您使用標準選項，但該應用程式並未隨著 Windows 開機而啟動，請改選高優先，看看問題是否仍存在。
 
-If neither the high-priority or normal-priority option work for you, check the antivirus software you have installed on your system. Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
+如果高優先與標準選項都未解決問題，請確認系統安裝的防毒軟體。 部分防毒與防火牆應用程式有時會阻止 Wallpaper Engine 隨著電腦開機而自動啟動。 您的防毒軟體可能設有「白名單」功能，允許您忽略特定資料夾或應用程式，請確保將 wallpaper_engine 安裝目錄與其中的可執行檔列入白名單。
 
-Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
+另一項罕見原因可能是，如果您 (或系統上的應用程式) 將 Wallpaper Engine 的 .exe 檔案設定為以管理員身分執行，這樣也無法自動啟動，您需要先刪除管理員設定，關閉自動啟動後再開啟。
 
 If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
 
