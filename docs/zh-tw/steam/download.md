@@ -38,21 +38,21 @@ Steam 尚未完成下載與驗證檔案。 下載進度停住一陣子時，若�
 * 在 Steam 中以滑鼠右鍵按一下 Wallpaper Engine，按一下「內容」後選取**允許背景下載**。
 * 確保 Steam 中沒有擱置中的遊戲更新，這可能使桌布下載暫停或停用。
 * 等至少一天後再重試一次，以免碰上 Steam 伺服器的問題。
-* **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!). :::
+* **最後方法**是重新安裝 Wallpaper Engine，清除任何損壞的 Steam 檔案（此項方法將重新下載所有桌布！）。 :::
 
-::: tip Steam servers go offline every week for maintenance at a fixed time:
+::: 提示 Steam 伺服器會在每週固定時間停機，進行維修：
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* 美國西岸：**週二下午 4 點（UTC - 7）**
+* 歐洲中部同樣時間：**週三上午 1 點（UTC + 1）**
+* 中國同樣時間：**週三上午 8 點（UTC + 8）**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
+若您閱讀本篇指南時接近上述時間，伺服器可能暫時停機中。 請稍候一或兩小時後再試一次。 :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam：「已下載的檔案遺失」錯誤
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+Steam 無法下載某些檔案，這可能是因為防毒應用程式阻擋了 Steam 或只是隨機發生。 通常能用以下方法解決：
 
-* Turn off Steam.
+* 關閉 Steam。
 * Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
   * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
