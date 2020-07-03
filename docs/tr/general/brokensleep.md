@@ -1,25 +1,25 @@
 # Hazırda bekletme / Ekran koruyucular çalışmıyor
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Windows'un en başta hazırda bekletmeyi engellemesini önlemek için Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak bunu çözebilirsiniz. Ses çıkışı almaya devam etmek istiyorsanız nasıl yapacağınızı görmek için bu rehberdeki adımlara uyun.
 
-## Change the Windows power settings
+## Windows güç ayarlarını değiştirin
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak veya Windows'u ses çalma etkinken uykuya geçmesini sağlayacak şekilde yeniden yapılandırarak bunu çözebilirsiniz:
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
+1. Windows arama kısmına yazarak "Güç ve uyku ayarları"na gidin.
 2. Click on "Additional power settings"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
-6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
+3. Seçilen planın yanındaki "Plan ayarlarını değiştir"e tıklayın
+4. "Gelişmiş güç ayarlarını değiştir"e tıklayın
+5. Aşağı inin ve "Multimedya ayarları"nı açın
+6. "Medya paylaşılırken" seçeneğini "Bilgisayarın Uzakta Modu'na girmesine izin ver" (ekran koruyucular) **veya** "Bilgisayarın uyku moduna geçmesine izin ver" (hazırda bekletme) olarak ayarlayın
 
 ![Enable "Allow the computer to sleep"](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## "Web" duvar kâğıtlarındaki hazırda bekletme sorunları
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+"Web" duvar kâğıtları, hazırda bekletme modunu engelleyecek Google Chrome ("CEF") benzeri bir web tarayıcısı kullanır. Bu durum tarayıcıda çözülene kadar bazı komut satırı bilgi istemleriyle bu sorunu çözebilirsiniz.
 
-1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
+1. Windows'ta "cmd.exe"yi aratarak sağ tıklayın ve "Yönetici olarak çalıştır"ı (çok önemli, aksi hâlde bu işe yaramayacaktır!) seçin.
 2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
 3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
 
