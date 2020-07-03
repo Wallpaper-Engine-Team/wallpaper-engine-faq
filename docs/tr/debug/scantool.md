@@ -3,8 +3,8 @@
 Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'de bulamıyorsanız bir sistem günlüğü dosyası oluşturabilir ve bizimle paylaşabilirsiniz:
 
 1. Wallpaper Engine'in çalıştığından emin olun (mümkünse).
-2. Choose the 4th launch option in Steam (*"Scan for conflicting applications"*, see below for a short video):
-3. Click on **Save Full Log** and save it to your desktop (see below for a short video).
+2. Steam'deki 4. başlatma seçeneğini tıklayın (*"Çakışan uygulamalar için tarama yapın"*, aşağıda bunun için kısa bir video bulunmaktadır):
+3. **Tam Günlüğü Kaydet** seçeneğini tıklayıp masaüstünüze kaydedin (aşağıda kısa bir video bulunmaktadır).
 4. Share the log file with by using either of these methods developers:
     * Go to [pastebin.com](https://pastebin.com/) and copy-paste the contents of the log file in there, afterwards share the link to your paste.
     * Alternatively, you can just attach the log file to an email and send it to us. If you have already an existing email discussion, please reply to the previous email with the attached log file. If this is your first email, please add some information about the problem you were having or a link to an existing discussion.
