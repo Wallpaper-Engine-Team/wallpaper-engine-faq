@@ -2,11 +2,11 @@
 
 一般而言，Wallpaper Engine 本身並未支援已下載桌布的編輯作業。 不過，依據桌布的類型 (在右側預覽圖像下方可確認類型)，通常可透過第三方應用程式來編輯桌布。
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+請謹記您可能需要原作者的授權，才能重新發布其作品。 如有疑問，請先與原作者聯繫，再將作品發布至 Steam 工作坊。
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## 我該如何找到桌布的原檔案？
 
 Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
 
