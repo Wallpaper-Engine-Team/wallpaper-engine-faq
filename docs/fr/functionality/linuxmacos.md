@@ -10,4 +10,4 @@ C'est faisable, en théorie. En revanche, le portage sur Linux ou Mac nous est f
 
 Le temps nécessaire pour porter Wallpaper Engine sur un autre système d'exploitation est donc trop important et entraînerait une hausse des coûts de maintenance actuels. C'est trop d'efforts pour des utilisateurs potentiels peu nombreux. Nous préférons donc nous consacrer à développer cette application pour Windows, le système d'exploitation de 96 % des utilisateurs de Steam.
 
-However, we are keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable. 
+Nous gardons quand même toujours un œil attentif sur les statistiques officielles de Steam. Si la situation change, nous sommes évidemment prêts à nous développer sur d'autres plateformes. 
