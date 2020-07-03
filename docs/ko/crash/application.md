@@ -61,7 +61,7 @@ Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: 팁 설치 중 "완전 재설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. If your current drivers are broken, it's important to fully clear them first. :::
+::: 팁 설치 중 "완전 재설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. 기존 드라이브가 손상되었다면, 우선 완전히 제거해야 합니다. :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
@@ -72,7 +72,7 @@ Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 
 
 ### MMDEvAPI.dll
 
-This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+이 유형의 작동 중단은 시스템에 설치된 손상된 오디오 소프트웨어 때문에 발생합니다. 보통 "사운드 향상" 소프트웨어 때문에 발생하며, 특히 여러 노트북에 사전 설치되어 있는 소프트웨어가 영향을 줍니다. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
