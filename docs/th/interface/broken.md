@@ -27,10 +27,10 @@ tags:
 
 ไดรเวอร์การ์ดจอของคุณเสียหายหรือกำหนดค่าไม่ถูกต้อง ดาวน์โหลดไดรเวอร์ล่าสุดสำหรับการ์ดจอของคุณ (แม้ว่าคุณจะมีไดรเวอร์ล่าสุดแล้ว) และทำการติดตั้งไดรเวอร์ใหม่อีกครั้ง คุณจำเป็นต้องถอนการติดตั้งไดรเวอร์ปัจจุบันก่อนติดตั้งไดรเวอร์ล่าสุดเพื่อให้แน่ใจว่าไฟล์หรือการตั้งค่าที่เสียหายทั้งหมดถูกลบ
 
-หากยังคงพบปัญหาอยู่ โปรดปิด Wallpaper Engine Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+หากยังคงพบปัญหาอยู่ โปรดปิด Wallpaper Engine จากนั้นจึงเริ่มการทำงาน Wallpaper Engine อีกครั้งโดยใช้ตัวเลือกเริ่มการทำงานข้อที่สามที่มีข้อความว่า "disable UI hardware acceleration" (ปิดใช้งานการเร่งความเร็วฮาร์ดแวร์ UI) ใน Steam
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### ข้อผิดพลาดของการโอเวอร์เลย์ที่หาได้ยากบน Steam ทำให้เกิดความเสียหายกับส่วนต่อประสานกับผู้ใช้ของ Wallpaper Engine
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+สาเหตุที่เป็นไปได้อีกประการหนึ่งของหน้าต่างแอพพลิเคชันสีดำคือข้อผิดพลาดการโอเวอร์เลย์ที่หาได้ยากบน Steam คุณสามารถลองทำดังนี้:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+ปิด Wallpaper Engine (คลิกขวาที่ Wallpaper Engine ในแถบงานและเลือก "ออกจากโปรแกรม") จากนั้นเปิด Steam ขึ้นมา คลิกขวาที่ Wallpaper Engine เลือก "คุณสมบัติ" และปิดการใช้งานตัวเลือก "เปิดการใช้งานโอเวอร์เลย์ Steam ขณะอยู่ในเกม" หลังจากปิดการใช้งานตัวเลือกแล้ว ให้ลองรีสตาร์ท Wallpaper Engine ผ่าน Steam 
