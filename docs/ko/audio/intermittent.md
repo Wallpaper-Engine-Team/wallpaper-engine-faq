@@ -7,8 +7,8 @@ Check the "Performance" tab of the Wallpaper Engine settings. If you have the op
 이 문제를 해결하려면 다음 세 가지 방법을 해보세요:
 
 * 데스크톱에서 녹음 프로그램을 끄거나 실수로 Wallpaper Engine을 녹음하지 않도록 다시 구성합니다.
-    * 여러 사용자가 **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay**로 인해 이 문제를 겪습니다. **Nvidia GeForce Experience** 설정에서 끌 수 있습니다. AMD 그래픽 카드 사용자의 경우 **AMD ReLive**가 해당 문제를 일으킬 수 있으며, AMD 그래픽 카드 드라이버의 일부입니다. Try checking this first if you are unsure what could be recording your desktop.
-    * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
+    * 여러 사용자가 **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay**로 인해 이 문제를 겪습니다. **Nvidia GeForce Experience** 설정에서 끌 수 있습니다. AMD 그래픽 카드 사용자의 경우 **AMD ReLive**가 해당 문제를 일으킬 수 있으며, AMD 그래픽 카드 드라이버의 일부입니다. 데스크톱을 녹음하는 것이 무엇인지 확실하지 않으면 우선 이걸 확인해 보세요.
+    * 어느 응용 프로그램이 이 문제를 일으키는지 알 수 없으면, Windows 오디오 믹서를 확인하고 현재 오디오에 접근하고 있는 응용 프로그램을 확인하세요. 문제 해결에 도움이 됩니다. 또는 최대한 많은 프로그램을 꺼서 Windows 작업 관리자 프로세스 목록에서 .exe 파일의 범위를 좁히세요.
 * If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
 
 ![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
