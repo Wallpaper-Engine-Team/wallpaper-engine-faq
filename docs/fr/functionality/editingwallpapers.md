@@ -14,11 +14,11 @@ Faites un clic droit sur un fond d'écran dans l'onglet "Installé" et sélectio
 
 ### Scènes
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Les scènes sont contenues dans un fichier .pkg qui n'est pas modifiable, car il vous manquera toutes les données liées à ce projet. Essayer d'ouvrir un fichier .pkg vous donnera le message d'erreur suivant : "Les wallpapers empaquetés ne peuvent être ouverts". C'est comme les images en .jpg : les données Photoshop n'y sont pas attachées et restent dans le système de leur auteur.
 
-#### Unofficial Community Scene Unpacker
+#### Outil de décompression des scènes
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+Les membres de la communauté ont créé un outil de décompression de fond d'écran non officiel, qui vous permettra de décompresser les fichiers de scène et de les utiliser comme point de départ pour vos propres fonds d'écran. Voici le lien (en anglais) pour plus d'informations :
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
