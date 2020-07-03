@@ -42,4 +42,4 @@ Wallpaper Engine設定の*パフォーマンス*タブで、*アプリケーシ�
 
 選択可能な条件や壁紙再生オプションをチェックして、いろいろなアプリケーションルールを設定することができます。 また、特定のアプリケーションを起動したときにWallpaper Engineをミュートしたり停止したりする設定も可能です。
 
-::: tip また、Wallpaper Engine設定の**パフォーマンス**タブで、すべてのアプリケーションに対する設定を変更することもできます。 If you are having performance issues in multiple games, for example, it may make sense to just change the **Other application fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
+::: tip また、Wallpaper Engine設定の**パフォーマンス**タブで、すべてのアプリケーションに対する設定を変更することもできます。 例えば複数のゲームでパフォーマンスの問題が起きる場合、単に**他のアプリケーションがフルスクリーンになった場合**オプションを**停止（メモリ解放）**にしてしまうということも考えられます。そうすれば、Wallpaper Engineはゲームやフルスクリーンのアプリケーションが起動したときにオフになります。 :::
