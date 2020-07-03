@@ -14,8 +14,8 @@
 
 **步驟 2**
 
-![Scan Tool Launch Option](./scantoollaunch.gif)
+![掃描工具啟動選項](./scantoollaunch.gif)
 
 **步驟 3**
 
-![Scan Tool Save Log](./scantoolsave.gif)
+![掃描工具儲存記錄](./scantoolsave.gif)
