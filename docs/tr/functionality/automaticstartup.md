@@ -10,13 +10,13 @@ Wallpaper Engine ayarlarına ve daha sonra "Genel" sekmesine giderek Wallpaper E
 
 ## "Yüksek öncelikli" ve "normal" başlatma seçeneği arasındaki fark nedir?
 
-When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+Yüksek öncelikli seçeneğini seçtiğinizde Wallpaper Engine bir Windows hizmeti kaydedecektir. Yani Wallpaper Engine, Windows'la birlikte otomatik olarak başlayacak şekilde yapılandırdığınız diğer programlardan önce başlayacaktır. Uygulamanın performansını başka hiçbir şekilde etkilemeyecektir.
 
-The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
+Ancak bazı antivirüsler bunun kötü amaçlı davranış olduğu yönünde yanlış tanımlama yaparak aşırı tepki verecek ve Wallpaper Engine'in bu modda başlatılmasını engelleyecektir. Dolayısıyla yüksek öncelikli seçeneğini kullanmanın dezavantajı daha az güvenilir olmasıdır.
 
-## I have enabled the automatic startup but it is not working, what can I do?
+## Otomatik başlatmayı etkinleştirdim ama çalışmıyor, ne yapabilirim?
 
-If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
+*Yüksek öncelikli* seçeneğini kullanıyorsanız bu seçeneği devre dışı bırakarak *normal* otomatik başlatmaya geçiş yapmayı deneyin. Yukarıda da açıklandığı üzere yüksek öncelikli mod daha hızlı başlar ancak çeşitli nedenlerle, özellikle de bazen antivirüs yazılımları tarafından engellendiği için daha az güvenilirdir.
 
 If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
 
