@@ -1,13 +1,13 @@
-# Hibernation / Screensavers do not work
+# Hibernação / Proteções de ecrã não funcionam
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+O Windows não hiberna com streams de áudio ativos abertos. Pode ultrapassar isto desativando a saída de áudio no separador "Geral" das definições do Wallpaper Engine para impedir que o Windows bloqueie a hibernação. Se quiser continuar a ter saída de áudio, siga as instruções deste guia para obter esse resultado.
 
-## Change the Windows power settings
+## Mudar as definições de alimentação do Windows
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+O Windows não hiberna com streams de áudio ativos abertos. Pode ultrapassar isto desativando a saída de áudio no separador "Geral" das definições do Wallpaper Engine ou reconfigurando o seu Windows de forma a suspender com a reprodução de áudio ativada:
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
+1. Vá às "Power and sleep settings" (Definições de alimentação e suspensão) do Windows escrevendo isto na pesquisa do Windows.
+2. Clique em "Additional power settings" (Definições adicionais de alimentação)
 3. Click on "Change plan settings" next to the plan that is selected
 4. Click on "Change advanced power settings"
 5. Scroll down and expand "Multimedia settings"
