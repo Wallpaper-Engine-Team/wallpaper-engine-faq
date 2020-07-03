@@ -72,7 +72,7 @@ Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 
 
 ### MMDEvAPI.dll
 
-이 유형의 작동 중단은 시스템에 설치된 손상된 오디오 소프트웨어 때문에 발생합니다. 보통 "사운드 향상" 소프트웨어 때문에 발생하며, 특히 여러 노트북에 사전 설치되어 있는 소프트웨어가 영향을 줍니다. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+이 유형의 작동 중단은 시스템에 설치된 손상된 오디오 소프트웨어 때문에 발생합니다. 보통 "사운드 향상" 소프트웨어 때문에 발생하며, 특히 여러 노트북에 사전 설치되어 있는 소프트웨어가 영향을 줍니다. 이 유형의 소프트웨어는 Windows와 이상한 방식으로 상호작용하기 때문에 종종 작동 중단을 일으킵니다. "Sonic Studio" 또는 "Nahimic"를 찾아보고 업데이트하세요. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
