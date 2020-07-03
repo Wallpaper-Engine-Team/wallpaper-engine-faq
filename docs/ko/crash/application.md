@@ -76,7 +76,7 @@ Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 
 
 ### fraps32.dll
 
-작동 중단이 FPS 모니터와 화면 녹화 앱 Fraps 때문에 발생합니다. Fraps는 2013년 이후 업데이트가 되지 않아 상당히 오래된 응용프로그램입니다. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
+작동 중단이 FPS 모니터와 화면 녹화 앱 Fraps 때문에 발생합니다. Fraps는 2013년 이후 업데이트가 되지 않아 상당히 오래된 응용프로그램입니다. Fraps는 중단된 소프트웨어로 해결할 수 없는 버그이므로, 대체 프로그램을 사용하세요.
 
 ## 작동 중단 오류 0xc000007b
 
