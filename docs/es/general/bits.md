@@ -8,8 +8,8 @@ Puede optar por la versión 64-bit si el sistema de vídeo de su equipo tiene er
 
 ::: advertencia Tenga en cuenta que los fondos de tipo web siempre se ejecutarán con un ejecutable de 32-bit (webwallpaper32.exe). Ocurre lo mismo con la interfaz de usuario (ui32.exe). Solo se utiliza 64-bit al seleccionar fondos de tipo «Escena» o «Vídeo». :::
 
-## How to set-up Wallpaper Engine to autstart with either the 32 or 64 Bit version when Windows launches?
+## ¿Cómo configuro Wallpaper Engine para iniciarse automáticamente al iniciar Windows con las versiones 32 o 64-bit?
 
-First, completely turn off Wallpaper Engine via the tray icon (right-click on the Wallpaper Engine icon in the Windows tray -> "Quit"). This is important as Steam will otherwise not launch Wallpaper Engine and only bring the already running version to the foreground.
+Primero, cierre Wallpaper Engine desde el icono de la bandeja (haga clic en el icono de Wallpaper Engine en la bandeja de Windows y después -> «Salir»). Este paso es muy importante porque si no, Steam no abrirá Wallpaper Engine desde cero, sino que abrirá la versión que se encuentra en segundo plano.
 
-Once Wallpaper Engine is turned off, go to Steam and start either the 32 Bit or 64 Bit version, depending on which version you want to automatically start. Go to the Wallpaper Engine settings and at the top of the "General" tab, enable autostart. If it is already enabled, turn it off completely and then turn it back on. This will register the current version as the one which will be automatically started alongside Windows. 
+Una vez que haya cerrado Wallpaper Engine, diríjase a Steam y abra la versión 32 o 64-bit, dependiendo de cuál quiera que se inicie de forma automática. Vaya a la configuración de Wallpaper Engine y active la opción «Inicio automático» en la pestaña «General». Si ya está activada, desmárquela y vuelva a marcarla. Así se registrará la versión actual como la que tiene que iniciarse automáticamente a la vez que Windows. 
