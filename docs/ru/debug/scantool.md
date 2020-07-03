@@ -18,4 +18,4 @@
 
 **Шаг 3**
 
-![Scan Tool Save Log](./scantoolsave.gif)
+![Сохранение лог-файла инструмента сканирования](./scantoolsave.gif)
