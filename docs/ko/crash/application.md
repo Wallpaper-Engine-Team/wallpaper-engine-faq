@@ -87,7 +87,7 @@ Windows 모듈이 시스템의 무언가 때문에 손상되었다는 의미입�
 
 이제 DirectX 9 설치 관리자로 다시 설치하세요: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (정확한 위치는 wallpaper_engine 설치 디렉토리에 따라 다릅니다.)
 
-If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
+그래도 이 오류가 발생한다면, 무언가에 의해 손상된 비슷하지만 다른 DirectX 모듈일 수도 있습니다. 이것은 보통 Wallpaper Engine을 실행하기 전 해결해야 할 Windows 설치 관련 더 큰 내부 문제를 의미합니다.
 
 ## 최대 절전 / 취침 모드 후 작동 중단
 
