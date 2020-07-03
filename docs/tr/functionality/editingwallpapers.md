@@ -1,18 +1,18 @@
 # İndirilen Duvar Kağıtlarını Düzenleme
 
-Wallpaper Engine çoğunlukla indirilen duvar kağıtlarının düzenlenmesini desteklemez. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+Wallpaper Engine çoğunlukla indirilen duvar kağıtlarının düzenlenmesini desteklemez. Fakat türlerine göre bazı duvar kağıtları üçüncü taraf uygulamaların yardımıyla düzenlenebilir (sağ taraftaki ön izleme resminin altında türleri bulabilirsiniz).
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+Lütfen, çalışmalarını yeniden yayınlamak için duvar kağıdının yaratıcısının/yaratıcılarının haklarına ihtiyaç duyabileceğinizi unutmayın. Şüpheye düşerseniz Steam Atölye'de yayınlamadan önce duvar kağıdının yaratıcısıyla iletişime geçin.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## Duvar kağıdının kaynak dosyalarını nereden bulabilirim?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+"Yüklenilenler" sekmesindeki duvar kağıdını sağ tıkladıktan sonra "Dosya Gezgini'nde Aç" seçeneğini tıklayın.
 
-## How to edit wallpapers of different types
+## Farklı tür duvar kağıtları nasıl düzenlenir?
 
-### Scene wallpapers
+### Ekran duvar kağıtları
 
 Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
