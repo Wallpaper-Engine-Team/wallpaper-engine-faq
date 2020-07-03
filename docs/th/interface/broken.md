@@ -1,9 +1,9 @@
 ---
 tags:
-  - user interface
-  - green
-  - white
-  - pixelated
+  - ส่วนต่อประสานกับผู้ใช้
+  - สีเขียว
+  - สีขาว
+  - เป็นพิกเซล
   - unreadable
 ---
 
