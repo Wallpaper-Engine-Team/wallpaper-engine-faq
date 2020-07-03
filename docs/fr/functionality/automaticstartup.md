@@ -18,18 +18,18 @@ L'inconvénient de cette option, c'est qu'elle peut être moins fiable : certain
 
 Si vous utilisez l'option *priorité élevée*, essayez de la désactiver pour passer en mode *normal*. Comme expliqué ci-dessus, le mode priorité élevée permet un démarrage plus rapide, mais peut être bloqué par des logiciels antivirus.
 
-If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
+Si vous utilisez le mode normal et que l'application ne se lance pas au démarrage de Windows, essayez de changer l'option en priorité élevée et voyez si le problème disparaît.
 
-If neither the high-priority or normal-priority option work for you, check the antivirus software you have installed on your system. Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
+Si aucune de ces solutions ne fonctionne, essayez d'aller voir du côté de votre antivirus. Certains antivirus et pare-feu empêchent parfois Wallpaper Engine de s'exécuter automatiquement lorsque votre ordinateur démarre. Votre antivirus a probablement une fonctionnalité de "liste blanche" qui vous permet de lui demander d'ignorer certains dossiers ou applications. Assurez-vous de mettre dans cette liste le répertoire d'installation de wallpaper_engine et tous les exécutables qu'il contient.
 
-Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
+Une autre cause de ce prolème peut venir du fait que vous, ou une application sur votre système, avez défini les fichiers .exe de Wallpaper Engine pour qu'ils soient exécutés en tant qu'administrateur uniquement. Ils ne peuvent donc pas s'exécuter automatiquement. Vous devrez supprimer le paramètre administrateur et désactiver le démarrage automatique, avant de le réactiver.
 
-If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
+Si l'exécution automatique ne fonctionne toujours pas, c'est probablement encore et toujours de la faute d'un antivirus trop zélé. Si vous avez installé des antivirus ou un pare-feu, veuillez vérifier leurs paramètres et leurs niveaux de sécurité.
 
-## Wallpaper Engine starts with Windows but (some) wallpapers are not shown
+## Wallpaper Engine démarre en même temps que Windows, mais (certains) fonds d'écran ne fonctionnent pas
 
- Check if the Wallpaper Engine icon is visible in the Windows tray next to the clock after you start your computer. If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
+ Vérifiez si l'icône Wallpaper Engine est toujours visible en vas à droite de l'écran, à côté de l'horloge, quand vous démarrez votre ordinateur. Si l'icône est là après le démarrage de votre système, mais que vos écrans n'ont pas leurs fonds d'écran respectifs, c'est qu'il y a un problème avec les pilotes de votre carte graphique. Les pilotes de votre carte graphique attribuent à vos écran de nouveaux identifiants, ce qui fait croire à Wallpaper Engine que vous essayez de configurer un nouvel écran. Vous pouvez corriger ce problème en passant l'option *Identification d'écrans* dans l'onglet *Général* des paramètres de Wallpaper Engine sur *Disposition* ou *GDI*. Nous vous recommandons également d'effectuer une réinstallation propre de vos pilotes de carte graphique, car il a probablement un problème sous-jacent avec votre installation de Windows.
 
- ## Wallpaper Engine assigns wrong wallpapers at system start-up
+ ## Wallpaper Engine mélange les fonds d'écran au démarrage
 
- This is the same problem as in the previous section, if you have multiple monitors and the wallpapers are being assigned to the wrong monitor at start-up, try changing the *Monitor identification* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*.
+ Comme dans la section précédente, essayer de passer l'option *Identification d'écrans* dans l'onglet *Général* des paramètres de Wallpaper Engine sur *Disposition* ou *GDI*.
