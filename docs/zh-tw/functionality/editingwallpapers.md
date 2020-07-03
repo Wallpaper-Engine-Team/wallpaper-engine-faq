@@ -74,7 +74,7 @@
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+看起來如下：
 
 ```json{2}
 {
@@ -84,6 +84,6 @@ So that it looks like:
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**將數字 12345678 取代為您提交內容的 ID！ 您可在現有上傳的 URL 中找到此 ID：**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
