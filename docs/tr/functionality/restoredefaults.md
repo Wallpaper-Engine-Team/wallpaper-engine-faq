@@ -1,8 +1,8 @@
-# Restoring deleted default wallpapers
+# Silinen varsayılan duvar kağıtlarını kurtarma
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+Wallpaper Engine ile önceden yüklenmiş duvar kağıtlarını sildiğinizde, *wallpaper_engine* yükleme dizininizdeki yapılandırma dosyasını silerek geri alabilirsiniz:
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. Wallpaper Engine'i tamamen kapatın (tepside üzerine sağ tıklayın-> "Çıkış Yap")
 
 2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
 
