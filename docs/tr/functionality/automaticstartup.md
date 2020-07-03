@@ -22,9 +22,9 @@ Normal öncelikli seçeneğini kullanıyorsanız ve uygulama Windows ile birlikt
 
 Yüksek öncelikli veya normal öncelikli seçeneklerinden her ikisi de çalışmıyorsa sisteminize yüklediğiniz antivirüs yazılımını kontrol edin. Bazı antivirüs ve güvenlik duvarı uygulamaları, bilgisayarınız başlatıldığında Wallpaper Engine'in otomatik olarak başlamasını engelleyebilir. Antivirüs yazılımınız, muhtemelen belirli klasörleri ve uygulamaları yoksaymanızı sağlayan bir "güvenilir adresler" özelliğine sahiptir. wallpaper_engine yükleme dizinini ve içindeki tüm yürütülebilir dosyaları bu listeye ekleyin.
 
-Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
+Nadir ortaya çıkan başka bir neden, Wallpaper Engine .exe dosyalarını yönetici olarak çalıştırılacak şekilde ayarlamanız (veya sisteminizdeki bir uygulamanın ayarlaması) durumunda da otomatik olarak başlayamamasıdır. Yönetici ayarını kaldırmanız ve otomatik başlatmayı kapatıp tekrar açmanız gerekecektir.
 
-If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
+Otomatik başlatma çalışmazsa bunun nedeni neredeyse her zaman aşırı duyarlı antivirüs yazılımıdır. Yüklü antivirüs veya güvenlik duvarı uygulamalarınız varsa lütfen bunların ayarlarını ve güvenlik seviyelerini iki kez kontrol edin.
 
 ## Wallpaper Engine starts with Windows but (some) wallpapers are not shown
 
