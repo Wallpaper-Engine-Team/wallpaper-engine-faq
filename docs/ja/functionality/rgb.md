@@ -1,21 +1,21 @@
 ---
 tags:
-  - hardware
+  - ハードウェア
 ---
 
-# RGB hardware support (iCUE & Chroma)
+# RGBハードウェアサポート（iCUE & Chroma）
 
-Wallpaper Engine supports [**Razer Chroma**](https://www.razer.com/chroma) and [**Corsair iCUE**](https://www.corsair.com/icue), including systems which may integrate into either ecosystem.
+Wallpaper Engineは、[**Razer Chroma**](https://www.razer.com/chroma)と[**Corsair iCUE**](https://www.corsair.com/icue)をサポートしています。また、これにはこれらのエコシステムに統合されている可能性のあるシステムが含まれます。
 
-## How do I enable / disable RGB hardware
+## RGBハードウェアを有効あるいは無効にする方法
 
-In the "Plugins" section of the Wallpaper Engine settings, you can find the **iCUE & Chroma SDK plugin**. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. You can also click on the cogwheel symbol next to it to further configure individual parts of it.
+Wallpaper Engine設定の「プラグイン」セクションに、**iCUE & Chroma SDK plugin**があります。 この左側のチェックボックスをマークすることによって、この一般的なRGBプラグインのロードを有効あるいは無効にすることができます。 また、その隣の歯車のマークをクリックすることで、さらにその個別の部分を設定することができます。
 
-Additionally, RGB support can be toggled off on each wallpaper. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+また、RGBサポートは各壁紙上で切り替えることができます。 プラグインが有効になっている場合、各壁紙のプロパティリストの最上部に、**LED効果を有効にする**オプションがあります。これにより、壁紙ごとのRGBライトをコントロールすることができます。
 
-## The RGB hardware colors seem too bright
+## RGBハードウェアの色が明るすぎる
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+デフォルトでは、RGBカラーは少し強めになっています。 On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
 
 ## My RGB hardware does not work
 
