@@ -32,11 +32,11 @@ Sisteminizde çalışan tüm .exe dosyalarının bir listesi sunulur. Listeden b
 
 ### Uygulamalar veya oyunlarla ilgili performans sorunlarını çözme
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+Özel bir kurala sahip olmasını istediğiniz programın .exe dosyasını listeden seçin veya adını **Uygulama ismi** alanına yazın. Sonrasında **Koşul**'u **Çalışıyor** ve **Duvar kâğıdını oynatma**'yı **Dur (boş bellek)** olarak ayarlayın. Bu durumda uygulama veya oyun başlatıldığında Wallpaper Engine tüm duvar kâğıtlarını bellekten tamamen kaldıracaktır ve tüm uyumluluk sorunları çözülecektir.
 
-### Fixing intermittent sound with background recording tools
+### Arka plan kayıt araçlarıyla kesintili sesi düzeltme
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is playing audio** and **Wallpaper playback** to **Keep running**. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
+Özel bir kurala sahip olmasını istediğiniz programın .exe dosyasını listeden seçin veya adını **Uygulama ismi** alanına yazın. Sonrasında **Koşul**'u **Ses oynatıyor** ve **Duvar kâğıdını oynatma**'yı **Çalıştırmaya devam et** olarak ayarlayın. Bu durumda söz konusu uygulama ses çalarken veya kayıt yaparken Wallpaper Engine kendisini sessize almayacaktır. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
 
 ### Other behavior
 
