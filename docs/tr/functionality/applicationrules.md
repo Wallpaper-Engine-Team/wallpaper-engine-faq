@@ -42,4 +42,4 @@ Sisteminizde çalışan tüm .exe dosyalarının bir listesi sunulur. Listeden b
 
 Daha fazla uygulama kuralı için olası tüm koşulları ve duvar kâğıdı oynatma seçeneklerini inceleyin. Ayrıca Wallpaper Engine'i belirli bir uygulamayı başlattığınızda sessize alacak veya duraklatacak şekilde de yapılandırabilirsiniz.
 
-::: ipucu Ayrıca tüm bu uygulama ayarlarını, Wallpaper Engine ayarlarındaki **Performans** sekmesinden de değiştirebilirsiniz. Örneğin birden fazla oyunda performans sorunları yaşıyorsanız **Diğer uygulamalar tam ekranken** seçeneğini **Dur (boş bellek)** olarak değiştirmek mantıklı olabilir. Böylelikle herhangi bir oyun veya tam ekran uygulama açtığınızda Wallpaper Engine kendisini kapatacaktır. :::
+::: ipucu Ayrıca tüm bu uygulama ayarlarını, Wallpaper Engine ayarlarındaki **Performans** sekmesinden de değiştirebilirsiniz. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other application fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
