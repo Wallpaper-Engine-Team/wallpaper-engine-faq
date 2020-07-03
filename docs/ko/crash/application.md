@@ -3,15 +3,15 @@ tags:
   - mdmp
 ---
 
-# Wallpaper Engine 강제 종료
+# Wallpaper Engine 작동 중단
 
-Wallpaper Engine는 안정적인 소프트웨어로 수백만 명이 사용하며 철저한 테스트를 거쳤습니다 - 실질적으로 본 응용프로그램을 강제 종료하는 버그가 존재할 가능성은 비교적 희박합니다. 강제 종료 메시지에서 **.dll** 파일을 언급하면, 아래의 목록을 살펴보고 시스템에서 강제 종료를 일으키는 특정 **.dll**에 대해 보다 정확한 설명이 확인하세요.
+Wallpaper Engine는 안정적인 소프트웨어로 수백만 명이 사용하며 철저한 테스트를 거쳤습니다 - 실질적으로 본 응용프로그램을 작동 중단하는 버그가 존재할 가능성은 비교적 희박합니다. 작동 중단 메시지에서 **.dll** 파일을 언급하면, 아래의 목록을 살펴보고 시스템에서 작동 중단을 일으키는 특정 **.dll**에 대해 보다 정확한 설명이 확인하세요.단
 
 [[toc]]
 
-::: 팁 사용자가 신고한 거의 모든 강제 종료의 원인은 손상된 그래픽 카드 드라이브, 바이러스 백신 응용프로그램 또는 컴퓨터의 불안정성을 일으키는 기타 결함이 있는 소프트웨어였습니다. :::
+::: 팁 사용자가 신고한 거의 모든 작동 중단의 원인은 손상된 그래픽 카드 드라이브, 바이러스 백신 응용프로그램 또는 컴퓨터의 불안정성을 일으키는 기타 결함이 있는 소프트웨어였습니다. :::
 
-## Wallpaper Engine 강제 종료 빠른 해결 시도
+## Wallpaper Engine 작동 중단 빠른 해결 시도
 
 Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 드라이버를 깨끗하게 재설치하세요. 즉 우선 드라이버를 제거하여 기존 드라이버가 완전히 제거된 뒤 최신 버전의 드라이버를 재설치합니다. 일부 드라이버의 고급 섹션에는 "완전 재설치 실행" 옵션이 있습니다. 손상된 드라이버를 모두 자동으로 지우려면 이 옵션을 사용해야 합니다. 모든 대형 공급업체의 최신 그래픽 카드 드라이버는 아래에서 받을 수 있습니다:
 
@@ -57,7 +57,7 @@ Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 
 
 ### nvwgf2umx.dll
 
-시스템의 Nvidia 드라이버가 강제 종료됩니다. Go to the Nvidia website, download the latest drivers from there and install them:
+시스템의 Nvidia 드라이버가 강제 종료됩니다. Nvidia 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
@@ -65,7 +65,7 @@ Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+시스템의 Intel 그래픽 드라이버가 강제 종료됩니다. Intel 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
@@ -78,7 +78,7 @@ This type of crash occurs to due broken audio software installed on your system.
 
 The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
-## Crash error 0xc000007b
+## 강제 종료 오류 0xc000007b
 
 This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
@@ -89,6 +89,6 @@ Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Ste
 
 If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
 
-## Crashing after Hibernation / Sleep
+## 최대 절전 / 취침 모드 후 작동 중단
 
 If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
