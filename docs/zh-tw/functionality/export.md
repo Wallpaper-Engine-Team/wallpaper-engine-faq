@@ -1,6 +1,6 @@
 # 將桌布匯出為 GIF/視訊
 
-在 Wallpaper Engine 編輯器製作的桌布，比較像是電腦遊戲的關卡，不像是視訊檔案。 這些桌布沒有定義明確的開始或結束，而且包含隨機元素。 Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
+在 Wallpaper Engine 編輯器製作的桌布，比較像是電腦遊戲的關卡，不像是視訊檔案。 這些桌布沒有定義明確的開始或結束，而且包含隨機元素。 正如您無法將電腦遊戲匯出為視訊檔案，您也無法將桌布匯出為視訊或 GIF。
 
 However, you can create a recording of your wallpapers and manually try to create a perfect loop if the elements in your wallpaper allow for that. For this purpose, we recommend free tools like *ScreenToGif* or *OBS Studio*:
 
