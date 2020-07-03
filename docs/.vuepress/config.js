@@ -1,10 +1,12 @@
+const en = require('../../app_strings/en.json');
+
 module.exports = {
 	title: 'Wallpaper Engine - Troubleshooting & FAQ',
 	locales: {
 		'/en/': {
 			lang: 'en-US',
-			title: 'Wallpaper Engine - Troubleshooting & FAQ',
-			description: 'This websites covers frequent Wallpaper Engine-related questions and issues',
+			title: en.title,
+			description: en.description,
 		}
 	},
 	themeConfig: {
@@ -13,13 +15,13 @@ module.exports = {
 		prevLinks: false,
 		locales: {
 			'/en/': {
-				contactUs: 'Cannot fix your problem? Contact us!',
-				searchPlaceholder: 'Keyword Search',
-				selectText: 'Languages',
-				label: 'English',
-				ariaLabel: 'Languages',
+				contactUs: en.contactUs,
+				searchPlaceholder: en.searchPlaceholder,
+				selectText: en.selectText,
+				label: en.language_name,
+				ariaLabel: en.selectText,
 				sidebar: {
-					'/': getTopLevelSidebar('/en/', "Windows", "Crashes", "Video Wallpapers", "Error Analysis & Contact", "Audio", "Performance", "Wallpapers not showing", "Wallpaper Browser", "Steam / Downloads / Uploads", "General"),
+					'/': getTopLevelSidebar('/en/', en.sidebar_windows, en.sidebar_crashes, en.sidebar_videos, en.sidebar_analysis, en.sidebar_audio, en.sidebar_performance, en.sidebar_nowshow, en.sidebar_browser, en.sidebar_downloads, en.sidebar_general),
 				}
 			}
 		}
