@@ -13,7 +13,7 @@ O Windows não hiberna com streams de áudio ativos abertos. Pode ultrapassar is
 5. Desloque para baixo e expanda "Definições de multimédia"
 6. Defina "Ao partilhar multimédia" como "Permitir que o computador entre no Modo Ausente" (proteção de ecrã) **ou** "Permitir suspensão do computador" (hibernação)
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![Ativar "Permitir suspensão do computador"](./power.gif)
 
 ## Problemas de hibernação com wallpapers do tipo "Web"
 
@@ -21,7 +21,7 @@ Os wallpapers "Web" usam um browser semelhante ao Google Chrome ("CEF") que impe
 
 1. Procure "cmd.exe" no Windows e clique nele com o b otão direito e, em seguida, selecione "Executar como administrador" (é muito importante, caso contrário não funciona!).
 2. Utilize o comendo `powercfg /requests` para visualizar todos os processos que estão a impedir o seu sistema de hibernar (veja também se a responsabilidade poderá ser de outros programas).
-3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
+3. Use os três comandos seguintes para permitir que o seu sistema fique suspenso com o Wallpaoer Engine em execução:
 
 ```
 powercfg /requestsoverride PROCESS webwallpaper32.exe AWAYMODE DISPLAY SYSTEM
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+Além disto, também pode definir a opção **Ecrã suspenso** no separador **Desempenho** das definições do Wallpaper Engine como *Parar (lib. memória)* e desligar o seu ecrã. Dessa forma, o Wallpaper Engine para todoa reprodução quando desliga o seu monitor e deixa o seu computador não vigiado.
