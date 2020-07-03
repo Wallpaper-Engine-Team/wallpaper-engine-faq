@@ -6,17 +6,17 @@ Use siempre la pestaña Workshop para buscar fondos nuevos. Steam Workshop no cu
 
 Puede eliminar categorías que no le gusten. Abra la pestaña «Workshop» en Wallpaper Engine y haga clic en el botón «Filtrar resultados» en la esquina superior izquierda para habilitar la barra lateral de filtros. Deseleccione todas las categorías que no quiera ver en los resultados.
 
-Si no quiere ver fondos de anime, quite las categorías *Anime* y *MMD (Miku-Miku-Dance)*. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+Si no quiere ver fondos de anime, quite las categorías *Anime* y *MMD (Miku-Miku-Dance)*. Además, también puede quitar las categorías *Dibujos animados* y *Chicas*, ya que también pueden contener anime, pero se perderá otro tipo de contenido.
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## Excluding certain age ratings
+## Excluir clasificaciones por edades
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Steam Workshop admite contenido adulto hasta cierto grado como, por ejemplo, desnudez. Si no quiere ver este tipo de contenido, seleccione solo «Para todas las edades» en los filtros de clasificación por edades:
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
-Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
+La mayoría del contenido está bien clasificado y así se excluirá la gran mayoría de contenido adulto. Si llega a encontrarse con ese tipo de contenido y porque se ha clasificado «Para todas las edades», use la función de Informar del programa. Tras inspeccionarlo, el contenido se clasificará correctamente o se eliminará.
 
 ## Reporting rule-breaking content
 
