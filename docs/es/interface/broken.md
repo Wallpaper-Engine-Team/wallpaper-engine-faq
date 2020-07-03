@@ -21,11 +21,11 @@ En algunos casos es necesario verificar los archivos de Wallpaper Engine despué
 
 * [Steam Support: Verificar la integridad de los archivos del juego](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+Si la verificación de archivos de Steam no soluciona el problema tras configurar el antivirus, intente volver a instalar Wallpaper Engine en Steam. Si el antivirus ha enloquecido, es probable que haya bloqueado de forma permanente las rutas de acceso que utiliza Wallpaper Engine. En ese caso, desinstale primero el antivirus y después instale Wallpaper Engine en un directorio diferente: puede crear una biblioteca de juegos nueva en Steam para hacerlo.
 
-## Wallpaper Engine interface with green artifacts or white lines
+## La interfaz de Wallpaper Engine tiene artefactos verdes o líneas blancas
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+Los controladores de su tarjeta gráfica están dañados o desconfigurados. Descargue los más recientes (incluso si ya los tiene instalados) y vuelva a instalarlos de cero. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
 
 If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
 
