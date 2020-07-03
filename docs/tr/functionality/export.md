@@ -10,6 +10,6 @@ Fakat, duvar kağıdınızın öğeleri izin verirse duvar kağıtlarınızı ka
 
 #### Duvar kağıtlarınızın görüntüsünü alma
 
-Duvar kağıdınızın net bir görüntüsünü alıp "Yüklenenler" sekmesinde üstüne sağ tıklayarak boyutunu değiştirebilirsiniz. Ardından "Pencerede Oynat" seçeneğine tıklarsanız duvar kağıdınızın olduğu pencere açılır. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+Duvar kağıdınızın net bir görüntüsünü alıp "Yüklenenler" sekmesinde üstüne sağ tıklayarak boyutunu değiştirebilirsiniz. Ardından "Pencerede Oynat" seçeneğine tıklarsanız duvar kağıdınızın olduğu pencere açılır. Bu şekilde masaüstü simgelerinizi ve diğer Windows öğelerini saklamak zorunda kalmaz ve "dışarı aktarma" için istediğiniz boyut ve çerçeve oranına ulaşmak için çerçeveyi yeniden boyutlandırabilirsiniz:
 
 ![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
