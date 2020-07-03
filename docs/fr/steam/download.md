@@ -43,22 +43,22 @@ Steam n'a pas fini de télécharger et de vérifier ces fichiers. Si les téléc
 ::: tip Les serveurs de Steam sont en maintenance toutes les semaines à heure fixe :
 
 * Côte ouest des États-unis : **Mardi à 16 heures (UTC - 7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* Europe centrale : **Mercredi à 13 heures (UTC + 1)**
+* En Chine : **Mercredi à 8 heures (UTC + 8)**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
+Vérifiez l'heure qu'il est chez vous au moment où vous lisez ces lignes, il se peut que les serveurs soient temporairement hors ligne. Attendez une heure ou deux avant de réessayer. :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam : "Fichiers téléchargés manquants"
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+Si Steam ne peut pas télécharger certains fichiers, cela peut être dû à un antivirus bloquant Steam ou tout simplement par manque de chance. Pour y remédier :
 
-* Turn off Steam.
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Fermez Steam.
+* Effacez le contenu de ce dossier : `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+* Effacez le contenu de ce dossier : `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+  * **Attention :** `C:\Program Files (x86)\Steam` est le chemin par défaut. Regardez ailleurs si vous avez installé l'application dans un autre dossier.
+* Redémarrez Steam et vérifier les fichiers de Wallpaper Engine :
+  * [Vérifier les fichiers de Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+Si vous avez un antivirus, configurez une exception pour ce dossier pour éviter de bloquer les téléchargements : `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
 #### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
