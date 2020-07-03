@@ -29,7 +29,7 @@ Wallpaper Engine ไม่สามารถสื่อสารกับฮา
 
 ฮาร์ดแวร์บางตัว เช่น **หน่วยความจำระบบ Corsair (RAM) ถูกปิดใช้งานการควบคุมซอฟต์แวร์โดยค่าเริ่มต้น** ซึ่งหมายความว่าโมดูลหน่วยความจำจะไม่สว่างขึ้นตาม Wallpaper Engine หากคุณไม่อนุญาตในการตั้งค่าซอฟต์แวร์ iCUE ตรวจสอบให้แน่ใจว่าได้เลือกตัวเลือก "เปิดใช้งานการควบคุมซอฟต์แวร์เต็มรูปแบบ" ในการตั้งค่าอุปกรณ์ iCUE ในส่วนหน่วยความจำ:
 
-![Enable full software control in iCUE](./icue.png)
+![เปิดใช้งานการควบคุมซอฟต์แวร์เต็มรูปแบบใน iCUE](./icue.png)
 
 ตรวจสอบตัวเลือกนี้อีกครั้งว่ามีชิ้นส่วนฮาร์ดแวร์อื่น ๆ ที่ทำงานไม่ถูกต้องหรือไม่
 
@@ -42,12 +42,12 @@ Wallpaper Engine ไม่สามารถสื่อสารกับฮา
 หากคุณพบปัญหาใด ๆ กับฝ่ายสนับสนุนของ Corsair คุณสามารถติดต่อเราได้และเราจะพยายามอย่างดีที่สุดเพื่อช่วยเหลือคุณ
 
 ### Razer
-เรารองรับ Razer Synapse 3 หรือใหม่กว่าเท่านั้น หากคุณใช้ Razer Synapse 1 หรือ Razer Synapse 2 โปรดตรวจสอบให้แน่ใจว่าได้ถอนการติดตั้งทั้งหมดแล้วและอัปเกรดเป็น Razer Synapse เวอร์ชันล่าสุด In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+เรารองรับ Razer Synapse 3 หรือใหม่กว่าเท่านั้น หากคุณใช้ Razer Synapse 1 หรือ Razer Synapse 2 โปรดตรวจสอบให้แน่ใจว่าได้ถอนการติดตั้งทั้งหมดแล้วและอัปเกรดเป็น Razer Synapse เวอร์ชันล่าสุด ในอดีตมีผู้ใช้บางคนพบปัญหากับสิ่งที่เหลือทิ้งไว้ในระบบจาก Razer Synapse รุ่นเก่า หากคุณติดตั้ง Razer Synapse 2 หรือรุ่นเก่ากว่าและมีปัญหาเกี่ยวกับแสง RGB หรือมีการหยุดทำงานหลังจากเปิดใช้งานปลั๊กอิน RGB คุณอาจต้องค้นหาส่วนที่เหลือทั้งหมดของ Razer Synapse รุ่นเก่าบนระบบของคุณแล้วลบออก
 
-If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
+หากฮาร์ดแวร์ Razer ของคุณค่อนข้างเก่าและไม่รองรับ Razer Synapse 3 ขึ้นไป น่าเสียดายที่แสง RGB นั้นจะไม่สามารถใช้งานร่วมกับ Wallpaper Engine ได้
 
-For support with Razer hardware, please contact Razer directly:
+หากคุณต้องการความช่วยเหลือเกี่ยวกับฮาร์ดแวร์ Razer โปรดติดต่อ Razer โดยตรง:
 
 [support.razer.com](https://support.razer.com/)
 
-Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
+หากคุณพบปัญหาใด ๆ กับฝ่ายสนับสนุนของ Razer คุณสามารถติดต่อเราได้และเราจะพยายามอย่างดีที่สุดเพื่อช่วยเหลือคุณ
