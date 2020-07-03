@@ -13,15 +13,15 @@
 5. เลื่อนลงและขยาย "Multimedia settings" (การตั้งค่ามัลติมีเดีย)
 6. ตั้งค่า "When sharing media" (เมื่อแบ่งปันสื่อ) เป็น "Allow the computer to enter away mode" (สกรีนเซฟเวอร์) **หรือ** "Allow the computer to sleep" (ไฮเบอร์เนต)
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![เปิดใช้งาน "Allow the computer to sleep"](./power.gif)
 
 ## ปัญหาการไฮเบอร์เนตกับวอลเปเปอร์ประเภท "เว็บ"
 
 "เว็บ" วอลเปเปอร์ ใช้เว็บเบราว์เซอร์ที่คล้ายคลึงกับ Google Chrome ("CEF") ซึ่งจะป้องกันโหมดไฮเบอร์เนต จนกว่าจะมีการแก้ไขในเบราว์เซอร์คุณสามารถแก้ไขได้โดยการพิมพ์คำสั่งที่ Command Prompt
 
 1. ค้นหา "cmd.exe" ใน Windows จากนั้นคลิกขวาแล้วเลือก "Run as administrator" (สำคัญมาก มิฉะนั้นจะใช้งานไม่ได้!)
-2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
-3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
+2. ใช้คำสั่ง `powercfg /requests` เพื่อดูกระบวนการทั้งหมดที่ปิดกั้นระบบของคุณจากโหมดไฮเบอร์เนต (ตรวจสอบด้วยว่ามีโปรแกรมอื่น ๆ ที่อาจมีข้อผิดพลาดหรือไม่)
+3. ใช้สามคำสั่งต่อไปนี้เพื่อให้ระบบเข้าสู่โหมดสลีปขณะที่ Wallpaper Engine กำลังทำงาน:
 
 ```
 powercfg /requestsoverride PROCESS webwallpaper32.exe AWAYMODE DISPLAY SYSTEM
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+นอกจากนี้คุณยังสามารถตั้งค่าตัวเลือก **การพักหน้าจอ** ในแท็บ **ประสิทธิภาพการทำงาน** ในส่วนการตั้งค่า Wallpaper Engine เป็น *หยุด (ลดการใช้หน่วยความจำ)* และปิดหน้าจอ ด้วยวิธีนี้ Wallpaper Engine จะหยุดการเล่นทั้งหมดเมื่อคุณปิดหน้าจอเวลาที่ไม่ใช้งานคอมพิวเตอร์
