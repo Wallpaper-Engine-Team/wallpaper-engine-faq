@@ -29,19 +29,19 @@ Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 
 
 ### KERNELBASE.dll / ntdll.dll
 
-이것은 Windows 커널 코어의 자체 강제 종료로, 일반적으로 바이러스 백신 응용프로그램 또는 손상된 그래픽 카드 드라이버로 발생합니다. 자세한 내용의 위의 빠른 해결 섹션을 참조하세요. 또한 이 현상은 손상된 시스템 구성 요소로 일어날 수도 있습니다. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+이것은 Windows 커널 코어의 자체 강제 종료로, 일반적으로 바이러스 백신 응용프로그램 또는 손상된 그래픽 카드 드라이버로 발생합니다. 자세한 내용의 위의 빠른 해결 섹션을 참조하세요. 또한 이 현상은 손상된 시스템 구성 요소로 일어날 수도 있습니다. Microsoft 시스템 파일 검사 도구를 사용해 손상되었을 수 있는 Windows 파일을 복구하세요:
 
 * [Microsoft 시스템 파일 검사 도구](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-This is a crash in DirectX, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+이것은 DirectX의 강제 종료로, 일반적으로 바이러스 백신 응용프로그램 또는 손상된 그래픽 카드 드라이버로 발생합니다. 자세한 내용의 위의 빠른 해결 섹션을 참조하세요. 또한 이 현상은 손상된 시스템 구성 요소로 일어날 수도 있습니다. Microsoft 시스템 파일 검사 도구를 사용해 손상되었을 수 있는 Windows 파일을 복구하세요:
 
 * [Microsoft 시스템 파일 검사 도구](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
+이것은 Windows 미디어 파운데이션의 강제 종료로, 손상된 그래픽 카드 드라이버 때문에 발생할 수도 있지만 보통 시스템의 비디오 코덱 손상 또는 누락이 원인입니다. Follow the fixes from our video fix guide to fix these types of crashes:
 
 [여기를 클릭하세요](/noshow/notplaying.html)
 
