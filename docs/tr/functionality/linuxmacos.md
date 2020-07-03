@@ -8,6 +8,6 @@ Bazı kullanıcılar oyun ve uygulama geliştiricilerinin ürünlerini Mac ve Li
 
 Teoride mümkün olsa da açıkçası bu noktada Linux veya Mac OS için destek eklemek ekonomik bir seçenek değildir. [Steam donanım anketinde](https://store.steampowered.com/hwsurvey) Steam kullanıcılarının %1'inin bile Linux kullanmadığını görebilirsiniz. Linux'un farklı dağıtımlarında kullanıcı sayısı iyice düşer; en fazla kullanıcıya sahip Ubuntu bile kullanıcıların sadece %0.25'i tarafından tercih edilmektedir.
 
-As explained above, the time needed to port Wallpaper Engine to another operating system is immense and it will also increase the costs of on-going maintenance work significantly, while the possible user group benefiting of this is comparatively tiny. We would much rather focus our time and energy on improving the Windows version for over 96% of Steam users.
+Yukarıda da açıkladığımız gibi, Wallpaper Engine'in başka bir işletme sistemine bağlanması çok büyük zaman gerektirmekle birlikte süregelen bakım işlerinin maliyeti çok yüksek ve muhtemel kullanıcı sayısı çok düşüktür. Bizler bunun yerine tüm zamanımızı ve enerjimizi Steam kullanıcılarının %96'sı için Windows sürümünü geliştirmeye harcamayı tercih ediyoruz.
 
-However, we are keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable. 
+Yine de bir gözümüz Steam istatistiklerinde. Steam'deki durum değişirse biz de mutlaka gelecekte daha fazla platformu desteklemenin yollarını aramaya koyuluruz. 
