@@ -1,15 +1,15 @@
-# Restoring deleted default wallpapers
+# 削除したデフォルトの壁紙の復元
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+Wallpaper Engineと一緒にプリインストールされた壁紙を削除してしまった場合、*wallpaper_engine*インストールディレクトリにある設定ファイルを削除することで復元できます。
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. Wallpaper Engineを完全に終了します（トレイで右クリックし、「終了」）
 
-2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
+2. Wallpaper Engineディレクトリを開き、"visibility.json"というファイルを削除します。 デフォルトでは次の場所にあります。
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
-If your Steam or Wallpaper Engine are installed in a different place / directory, the directory will be slightly different, but *wallpaper_engine\projects\defaultprojects\visibility.json* sub-directory is always the same.
+SteamまたはWallpaper Engineが別の場所にインストールされている場合、ディレクトリはわずかに異なりますが、*wallpaper_engine\projects\defaultprojects\visibility.json*サブディレクトリはいつも同じです。
 
-3. Once the file is deleted, start Wallpaper Engine again, you will have all default wallpapers back.
+3. ファイルを削除したあとWallpaper Engineを起動すると、すべてのデフォルト壁紙が戻っています。
 
-::: tip If you are unable to find the "visibility.json" file for some reason, you can also always just re-install Wallpaper Engine. This will also restore all default wallpapers but will require you to re-download all wallpapers which you can avoid by following the steps above. :::
+::: tip なんらかの理由で"visibility.json"ファイルが見つからない場合は、Wallpaper Engineを再インストールすることができます。 これによってすべてのデフォルト壁紙が復元されますが、すべての壁紙の再ダウンロードが必要になります。これは、上の手順を行うと必要ありません。 :::
