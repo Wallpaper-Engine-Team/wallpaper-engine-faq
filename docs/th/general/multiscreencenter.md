@@ -1,6 +1,6 @@
-# Centering wallpaper with monitors of different resolutions
+# การจัดวางวอลเปเปอร์ให้อยู่กึ่งกลางจอด้วยความละเอียดที่แตกต่างกัน
 
-If you choose to display a single wallpaper across multiple monitors with different resolutions, then it will act according to the resolutions you are using, not the physical size of your monitors. Windows does not account for the physical size, only the size in pixels is relevant.
+หากคุณเลือกที่จะแสดงวอลเปเปอร์เดียวบนจอแสดงผลหลายจอที่มีความละเอียดต่างกัน ผลที่แสดงจะเป็นไปตามความละเอียดที่คุณใช้ ไม่ใช่ขนาดของจอแสดงผล Windows does not account for the physical size, only the size in pixels is relevant.
 
 Imagine you would center a single, normal window like Steam between your monitors. You cannot scale one side up or down without affecting the other monitor. This is exactly how a wallpaper works too. Live wallpapers are not static images, so they cannot be cut up and stitched together continuously like it would be possible with an image.
 
