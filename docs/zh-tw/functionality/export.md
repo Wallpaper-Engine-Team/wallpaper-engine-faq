@@ -10,6 +10,6 @@
 
 #### 仔細檢視桌布
 
-You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+您只要在「安裝」分頁中以滑鼠右鍵按一下桌布，接著按一下「在視窗中播放」，就會開啟呈現該桌布的視窗，此時即可調整桌布大小，輕鬆檢視清晰的桌布。 This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
 
 ![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
