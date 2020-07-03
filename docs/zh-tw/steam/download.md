@@ -29,12 +29,12 @@ Steam 尚未完成下載與驗證檔案。 下載進度停住一陣子時，若�
     * **請注意：** `C:\Program Files (x86)\Steam` 是 Steam 的預設路徑，若您將 Steam 安裝至別處，請指定該處。
 * 重新啟動 Steam。 別開啟任何遊戲。 在 Steam 的下載分頁中檢查進度並繼續任何已暫停的下載。
 
-::: details Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
-* Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
-* Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
-* Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
-* Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
+::: 詳細資料：若以上步驟並未解決下載問題，按一下這裡檢視更多可行的解決方法
+* 避免防毒軟體或防火牆阻擋 Steam。 在防毒應用程式設定中排除整個 Steam 目錄。
+* 取消訂閱無法下載的桌布，重新啟動 Steam 之後再訂閱一次。
+* 在 Steam 的設定中選擇不同的內容伺服器。 此選項可在 Steam 設定的「下載」分頁中找到。
+* 避免在 **Steam 設定**中依照時間、頻寬、使用應用程式時而限制 Steam 的下載。
+* 開啟 Steam 的「下載」分頁（收藏庫 -> 下載）。 尋找已暫停的下載。 If you can see any, click on 'Resume'.
 * Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
 * Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
 * Try again after waiting at least for a day in case there are Steam server issues.
