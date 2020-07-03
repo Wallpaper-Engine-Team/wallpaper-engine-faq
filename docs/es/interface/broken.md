@@ -25,12 +25,12 @@ Si la verificación de archivos de Steam no soluciona el problema tras configura
 
 ## La interfaz de Wallpaper Engine tiene artefactos verdes o líneas blancas
 
-Los controladores de su tarjeta gráfica están dañados o desconfigurados. Descargue los más recientes (incluso si ya los tiene instalados) y vuelva a instalarlos de cero. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+Los controladores de su tarjeta gráfica están dañados o desconfigurados. Descargue los más recientes (incluso si ya los tiene instalados) y vuelva a instalarlos de cero. Es necesario que desinstale los controladores que tiene instalados e instale los más recientes para asegurarse de que se eliminen los archivos o ajustes dañados.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+Si el problema persiste, cierre Wallpaper Engine Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### Error de la interfaz de Steam que destroza la interfaz de Wallpaper Engine
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+La interfaz de Steam tiene un error atípico que puede causar que la pantalla del programa se vea negra. Puede hacer lo siguiente:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Cierre Wallpaper Engine (haga clic en el icono en la bandeja y seleccione «Salir»). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
