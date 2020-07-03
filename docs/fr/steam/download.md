@@ -40,9 +40,9 @@ Steam n'a pas fini de télécharger et de vérifier ces fichiers. Si les téléc
 * Attendez une journée, il y a peut-être des problèmes avec les serveurs de Steam.
 * **As a last resort** en cas de dernier recours, réinstallez Wallpaper Engine pour réparer des fichiers corrompus (vous devrez télécharger tous vos fonds d'écran à nouveau !). :::
 
-::: tip Steam servers go offline every week for maintenance at a fixed time:
+::: tip Les serveurs de Steam sont en maintenance toutes les semaines à heure fixe :
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
+* Côte ouest des États-unis : **Mardi à 16 heures (UTC - 7)**
 * Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
 * Same time in China: **Wednesday at 8 am (UTC + 8)**
 
