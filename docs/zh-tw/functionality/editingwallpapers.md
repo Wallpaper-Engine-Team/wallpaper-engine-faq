@@ -14,7 +14,7 @@
 
 ### 場景桌布
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+場景桌布封裝至一個 .pkg 檔案中，因該檔案缺少專案相關的資料，所以無法直接編輯。 開啟 .pkg 檔案將顯示錯誤訊息：已封裝桌布無法開啟。 An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
 #### Unofficial Community Scene Unpacker
 
