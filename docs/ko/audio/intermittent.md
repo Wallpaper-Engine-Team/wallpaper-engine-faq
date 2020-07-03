@@ -1,4 +1,4 @@
-# Sound / audio turns on and off intermittently
+# 사운드 / 오디오가 간헐적으로 켜지고 꺼집니다
 
 Windows does not differentiate between recording and playing audio, therefore it notifies Wallpaper Engine that another program is producing sound while it is actually recording your computer audio.
 
