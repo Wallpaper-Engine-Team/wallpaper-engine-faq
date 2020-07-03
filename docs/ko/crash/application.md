@@ -9,11 +9,11 @@ Wallpaper Engine는 안정적인 소프트웨어로 수백만 명이 사용하�
 
 [[toc]]
 
-::: tip Almost all crash reports we receive from users turn out to be caused by broken graphics card drivers, antivirus applications or other defective software that makes the computer unstable. :::
+::: 팁 사용자가 신고한 거의 모든 강제 종료의 원인은 손상된 그래픽 카드 드라이브, 바이러스 백신 응용프로그램 또는 컴퓨터의 불안정성을 일으키는 기타 결함이 있는 소프트웨어였습니다. :::
 
-## Wallpaper Engine Crash Quick Fix Attempt
+## Wallpaper Engine 강제 종료 빠른 해결 시도
 
-If you are unsure what is crashing Wallpaper Engine, please do a clean re-installation of your graphics card drivers. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 드라이버를 깨끗하게 재설치하세요. 즉 우선 드라이버를 제거하여 기존 드라이버가 완전히 제거된 뒤 최신 버전의 드라이버를 재설치합니다. 일부 드라이버의 고급 섹션에는 "완전 재설치 실행" 옵션이 있습니다. 손상된 드라이버를 모두 자동으로 지우려면 이 옵션을 사용해야 합니다. You can get the latest graphics card drivers from all big vendors here:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
