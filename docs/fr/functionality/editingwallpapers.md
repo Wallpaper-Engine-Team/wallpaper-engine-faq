@@ -22,7 +22,7 @@ Les membres de la communauté ont créé un outil de décompression de fond d'é
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+Vous aurez toujours besoin d'un fichier project.json valide. Pour cela, créez un nouveau fond d'écran vierge dans l'éditeur, fermez Wallpaper Engine et décompressez le fond d'écran téléchargé et en copiez son contenu dans le nouveau répertoire du projet.
 
 If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
 
@@ -40,7 +40,7 @@ Video-based wallpapers are video files. You can find the video file as described
 
 Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
 
-## Updating a lost project
+## Mettre un jour un projet perdu
 
 If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
 
