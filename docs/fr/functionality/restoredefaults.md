@@ -1,10 +1,10 @@
-# Restoring deleted default wallpapers
+# Restaurer les paramètres par défaut
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+Si vous avez supprimé des fonds d'écran fournis avec Wallpaper Engine, vous pouvez les récupérer en supprimant un fichier de configuration dans le répertoire d'installation *wallpaper_engine* :
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. Fermez complètement Wallpaper Engine (clic droit sur l'icône dans la barre des tâches > "Quitter")
 
-2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
+2. Dans le dossier de Wallpaper Engine, supprimez un fichier appelé "visibility.json". Par défaut, ce fichier se trouve ici :
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
