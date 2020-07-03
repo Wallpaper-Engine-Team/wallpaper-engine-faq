@@ -1,5 +1,5 @@
-# เพลย์ลิสต์ทำให้เกิดการสูญเสียโฟกัส / ย่อขนาดเกม
+# เพลย์ลิสต์ทำให้เสียโฟกัส / ย่อขนาดเกม
 
-If you have a playlist with wallpapers of the type **Web** and experience focus loss while playing games, make sure to pause the playlist while other applications are fullscreen. You can do so by turning **off** the **Allow wallpaper to change while paused** option in the playlist settings) or alternatively remove the web-based wallpapers from the playlist.
+หากคุณมีเพลย์ลิสต์ที่มีวอลเปเปอร์ประเภท**เว็บ** และคุณเสียโฟกัสในขณะที่เล่นเกม โปรดตรวจสอบให้แน่ใจว่าคุณได้หยุดเล่นเพลย์ลิสต์ชั่วคราวแล้วในขณะที่แอพพลิเคชันอื่นแสดงผลแบบเต็มหน้าจอ คุณสามารถทำได้โดยการ **ปิด** การ **อนุญาตให้เปลี่ยนวอลเปเปอร์ในขณะที่หยุดชั่วคราว** ในการตั้งค่าเพลย์ลิสต์ หรือลบเว็บวอลเปเปอร์ออกจากเพลย์ลิสต์
 
-Chromium itself - which is the software used to display "Web" type wallpapers - is stealing the focus of your current window when loading a new wallpaper so we cannot fix this issue easily unfortunately.
+Chromium - คือซอฟต์แวร์ที่ใช้ในการแสดงวอลเปเปอร์ประเภท "เว็บ" ซึ่งจะดึงโฟกัสของหน้าต่างปัจจุบันเมื่อมีการโหลดวอลเปเปอร์ใหม่ ดังนั้นเราจึงไม่สามารถแก้ไขปัญหานี้ได้โดยง่าย
