@@ -20,7 +20,7 @@ Ancak bazı antivirüsler bunun kötü amaçlı davranış olduğu yönünde yan
 
 Normal öncelikli seçeneğini kullanıyorsanız ve uygulama Windows ile birlikte başlamıyorsa yüksek öncelikli seçeneğine geçmeyi deneyin ve sorunun ortadan kalkıp kalkmadığına bakın.
 
-Yüksek öncelikli veya normal öncelikli seçeneklerinden her ikisi de çalışmıyorsa sisteminize yüklediğiniz antivirüs yazılımını kontrol edin. Bazı antivirüs ve güvenlik duvarı uygulamaları, bilgisayarınız başlatıldığında Wallpaper Engine'in otomatik olarak başlamasını engelleyebilir. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
+Yüksek öncelikli veya normal öncelikli seçeneklerinden her ikisi de çalışmıyorsa sisteminize yüklediğiniz antivirüs yazılımını kontrol edin. Bazı antivirüs ve güvenlik duvarı uygulamaları, bilgisayarınız başlatıldığında Wallpaper Engine'in otomatik olarak başlamasını engelleyebilir. Antivirüs yazılımınız, muhtemelen belirli klasörleri ve uygulamaları yoksaymanızı sağlayan bir "güvenilir adresler" özelliğine sahiptir. wallpaper_engine yükleme dizinini ve içindeki tüm yürütülebilir dosyaları bu listeye ekleyin.
 
 Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
 
