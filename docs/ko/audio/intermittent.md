@@ -2,7 +2,7 @@
 
 Windows does not differentiate between recording and playing audio, therefore it notifies Wallpaper Engine that another program is producing sound while it is actually recording your computer audio.
 
-Check the "Performance" tab of the Wallpaper Engine settings. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
+Wallpaper Engine 설정의 "성능" 탭을 확인하세요. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
 
 이 문제를 해결하려면 다음 세 가지 방법을 해보세요:
 
