@@ -9,9 +9,9 @@ tags:
 
 # หน้าต่าง Engine Wallpaper แสดงผลไม่ถูกต้อง
 
-If your Wallpaper Engine browse window is not working, it is usually caused by faulty graphics card drivers or antivirus applications. Read below for more information.
+หากหน้าต่างเรียกดู Wallpaper Engine ไม่ทำงาน สาเหตุมักเกิดจากความผิดปกติของไดรเวอร์การ์ดจอหรือแอพพลิเคชันป้องกันไวรัส โปรดอ่านด้านล่างสำหรับข้อมูลเพิ่มเติม
 
-::: warning Please note This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
+::: คำเตือน โปรดทราบ เนื้อหาส่วนนี้เกี่ยวข้องกับปัญหาที่ **ส่วนต่อประสาน** ของ Wallpaper Engine เป็นสีดำหรือเสียหาย If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
 
 ## Wallpaper Engine browser is Black or White
 
