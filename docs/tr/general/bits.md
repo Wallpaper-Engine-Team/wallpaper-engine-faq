@@ -1,10 +1,10 @@
-# 32-Bit & 64-Bit Sürümü
+# 32 Bit & 64 Bit Sürümü
 
-64-bit sürüm daha büyük dosyaları (2GB üzeri) işleyebilir ancak duvar kâğıtlarının dosya boyutu ne olursa olsun her zaman daha fazla bellek kullanır. For example, with a normal video wallpaper, the 64-bit version may use about 50 MB more RAM compared to the 32-bit version, otherwise there is nothing different or improved.
+64 bit sürüm daha büyük dosyaları (2GB üzeri) işleyebilir ancak duvar kâğıtlarının dosya boyutu ne olursa olsun her zaman daha fazla bellek kullanır. Örneğin normal bir video duvar kâğıdı ile 64 bit sürümü, 32 bit sürüme kıyasla yaklaşık 50 MB daha fazla RAM kullanabilir. Bunun dışında farklı ya da gelişmiş bir şey yoktur.
 
-::: tip We recommend you stick to the 32-bit version unless you have huge wallpapers that would make the 32-bit version crash. The large majority of users never encounter this problem. :::
+::: ipucu 32 bit sürümün çökmesine neden olacak büyük duvar kâğıtlarınız yoksa 32 bit sürümü kullanmanızı öneririz. Kullanıcıların büyük çoğunluğu bu sorunla karşılaşmıyor. :::
 
-You may also opt for the 64-bit version when the video system on your PC has errors that only affect 32-bit programs. Should you ever have installed codec packs or alike, they may have permanently damaged the 32-bit Windows video system that Wallpaper Engine uses. If the 64-bit system is not affected, you'll be able to take advantage of that by using the 64-bit version of Wallpaper Engine and so you can avoid having to fix whatever got broken.
+PC'nizdeki video sisteminde yalnızca 32 bit programları etkileyen hatalar olduğunda da 64 bit sürümü tercih edebilirsiniz. Codec paketleri ya da benzerlerini kurduysanız bunlar, Wallpaper Engine'in kullandığı 32 bit Windows video sistemine kalıcı olarak zarar vermiş olabilir. If the 64-bit system is not affected, you'll be able to take advantage of that by using the 64-bit version of Wallpaper Engine and so you can avoid having to fix whatever got broken.
 
 ::: warning Note Note that "Web" type wallpapers will always be executed with a 32-Bit executable (webwallpaper32.exe). The same applies to the user interface itself (ui32.exe). 64-Bit only applies when selecting wallpapers of the type "Scene" or "Video". :::
 
