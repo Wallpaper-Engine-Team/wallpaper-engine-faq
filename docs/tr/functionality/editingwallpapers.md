@@ -12,11 +12,11 @@ Lütfen, çalışmalarını yeniden yayınlamak için duvar kağıdının yarat�
 
 ## Farklı tür duvar kağıtları nasıl düzenlenir?
 
-### Ekran duvar kağıtları
+### Scene duvar kağıtları
 
-Manzara duvar kağıtları bir .pkg dosyası olarak sıkıştırılır ve tüm proje verileri olmadığı için dışarıdan düzenlemezler. .pkg dosyalarını açmaya çalışırsanız "Sıkıştırılmış duvar kağıtları açılamaz." hatasını görürsünüz. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Scene duvar kağıtları bir .pkg dosyası olarak sıkıştırılır ve tüm proje verileri olmadığı için dışarıdan düzenlemezler. .pkg dosyalarını açmaya çalışırsanız "Sıkıştırılmış duvar kağıtları açılamaz." hatasını görürsünüz. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
-#### Gayriresmi Manzara Paketi Açma Topluluğu
+#### Resmi Olmayan Scene Unpacker Topluluğu
 
 However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
 
