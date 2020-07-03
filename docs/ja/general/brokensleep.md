@@ -1,12 +1,12 @@
-# Hibernation / Screensavers do not work
+# ハイバネーションやスクリーンセーバーが動作しない
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+Windowsは、アクティブなオーディオストリームが開いているとハイバネーションしません。 これを回避するために、Wallpaper Engine設定の「一般」タブでオーディオ出力を無効にし、Windowsにハイバネーションをブロックさせないようにすることができます。 オーディオ出力を続けさせたい場合は、このガイドのステップに従ってください。
 
-## Change the Windows power settings
+## Windowsのパワー設定を変更する
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windowsは、アクティブなオーディオストリームが開いているとハイバネーションしません。 これを回避するために、Wallpaper Engine設定の「一般」タブでオーディオ出力を無効にするか、Windowsがオーディオ再生を有効にしたままでスリープに入るよう設定し直すことができます。
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
+1. Windowsの検索画面で入力して、「電源とスリープ」設定を開きます。
 2. Click on "Additional power settings"
 3. Click on "Change plan settings" next to the plan that is selected
 4. Click on "Change advanced power settings"
