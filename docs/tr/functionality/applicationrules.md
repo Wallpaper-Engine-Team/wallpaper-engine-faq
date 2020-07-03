@@ -5,22 +5,22 @@ tags:
   - istisna
   - güvenilir adresler
   - kara liste
-  - lags
-  - laggy
-  - game
-  - performance
+  - gecikmeler
+  - gecikmeli
+  - oyun
+  - performans
   - fps
-  - crash
-  - sound
-  - audio
-  - intermittent
+  - çökme
+  - ses
+  - müzik
+  - aralıklı
 ---
 
-# Fix issues with specific apps or games
+# Belirli uygulamalar veya oyunlarla ilgili sorunları giderme
 
-If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
+Belirli uygulamalar veya oyunlarla ilgili sorun yaşıyorsanız Wallpaper Engine'in örneğin sorun yaşadığınız uygulamanın başlatıldığını veya ses çaldığını tespit ettiğinde belirli bir şekilde davranması için Wallpaper Engine'i yapılandırabilirsiniz.
 
-## Setting up an application rule
+## Uygulama kuralı oluşturma
 
 In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
 
