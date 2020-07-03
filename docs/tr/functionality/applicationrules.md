@@ -22,7 +22,7 @@ Belirli uygulamalar veya oyunlarla ilgili sorun yaşıyorsanız Wallpaper Engine
 
 ## Uygulama kuralı oluşturma
 
-In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+Wallpaper Engine ayarlarında, *Performans* sekmesindeki *Uygulama Kuralları* etiketinin yanında bulunan *Düzenle* tuşuna tıklayarak ayarladığınız tüm özel kurallara göz atabilirsiniz. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
 
 ![Application Rules Overview](./applicationrule.gif)
 
