@@ -6,10 +6,10 @@ tags:
 ---
 
 # Аварийное завершение работы или зависание системы
-Программа Wallpaper Engine не влияет на другие программы и сама по себе не может стать причиной аварийного завершения работы системы. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
+Программа Wallpaper Engine не влияет на другие программы и сама по себе не может стать причиной аварийного завершения работы системы. Если во время работы Wallpaper Engine вы сталкиваетесь с аварийными завершениями работы системы или посторонних программ, зависанием, синими экранами, скорее всего причина заключается в одной из следующих проблем:
 
-* Hardware required by Wallpaper Engine is broken.
-* A driver for some hardware Wallpaper Engine needs is buggy or broken.
+* Аппаратное обеспечение, которое требуется для работы Wallpaper Engine, неисправно.
+* Драйвер для одной из комплектующих аппаратного обеспечения, которое требуется для работы Wallpaper Engine, работает с ошибками или неисправен.
 * Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
 
 Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
