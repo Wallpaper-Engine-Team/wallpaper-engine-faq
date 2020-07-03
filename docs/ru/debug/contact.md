@@ -11,11 +11,11 @@ tags:
 
 Также вы можете поискать информацию или задать вопрос на нашей доске обсуждений в Steam. Мы честно стараемся отвечать всем пользователям, а большинство вопросов там уже обсуждались:
 
-* [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
+* [Обсуждения Wallpaper Engine в Steam](https://steamcommunity.com/app/431960/discussions/)
 
-If you cannot find a fitting article or cannot fix your problem, you can reach us at [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
+Если вы не нашли статью, которая описывает ваш случай, или не смогли решить проблему, вы можете написать нам на адрес [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
 
-::: tip If you are having a technical issue, it helps if you include a log file from our scan tool:
+::: Подсказка Если проблема, с которой вы обращаетесь, имеет технический характер, в ее решении нам очень поможет приложенный к письму протокол сканирования:
 
 * [Use the Wallpaper Engine scan tool to create a debug log](debug/scantool)
 
