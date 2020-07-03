@@ -1,16 +1,16 @@
 # No funcionan los salvapantallas / hibernación
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+Windows no puede hibernar si hay transmisiones de audio activas. Puede solventar esto si deshabilita la salida de audio en la pestaña «General» de la configuración de Wallpaper Engine para evitar que Windows bloquee la hibernación. Si quiere conservar la salida de audio, siga los pasos de esta guía para hacerlo.
 
-## Change the Windows power settings
+## Cambiar la configuración de energía de Windows
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windows no puede hibernar si hay transmisiones de audio activas. Puede solventar esto si deshabilita la salida de audio en la pestaña «General» de la configuración de Wallpaper Engine o si reconfigura Windows para que pueda hibernar con el sonido activado:
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
+1. Escriba «Configuración de energía y suspensión» en la búsqueda de Windows.
+2. Haga clic en «Configuración adicional de energía».
+3. Haga clic en «Cambiar la configuración del plan» junto al plan seleccionado.
+4. Haga clic en «Cambiar la configuración avanzada de energía».
+5. Baje hasta encontrar «Configuración multimedia».
 6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
 
 ![Enable "Allow the computer to sleep"](./power.gif)
