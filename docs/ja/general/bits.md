@@ -12,4 +12,4 @@
 
 まず、トレイアイコンからWallpaper Engineを完全に終了します（WindowsのトレイでWallpaper Engineを右クリックし、「終了」）。 これが重要なのは、こうしないとSteamはWallpaper Engineを起動せず、既に実行されているバージョンを前面に持ってくるだけだからです。
 
-Once Wallpaper Engine is turned off, go to Steam and start either the 32 Bit or 64 Bit version, depending on which version you want to automatically start. Go to the Wallpaper Engine settings and at the top of the "General" tab, enable autostart. If it is already enabled, turn it off completely and then turn it back on. This will register the current version as the one which will be automatically started alongside Windows. 
+Wallpaper Engineを終了させたらSteamを開き、32-bitまたは64-bitのうち、自動起動させたい方を起動させます。 Wallpaper Engine設定の「一般」タブの最上部で、自動起動を有効にします。 既に有効になっている場合は、完全にオフにしてからもう一度オンにします。 これにより、使用中のバージョンがWindowsと同時に自動的に起動するように設定されます。 
