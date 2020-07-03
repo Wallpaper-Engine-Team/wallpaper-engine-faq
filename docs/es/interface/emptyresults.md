@@ -1,6 +1,6 @@
-# Preview images / search results not showing
+# No aparecen las vistas previas / resultados de búsqueda
 
-If you cannot see preview images for wallpapers except for installed ones, there is a firewall or security software that blocks the browser from accessing the internet. You must disable that or add an exception for 'ui32.exe'.
+Si solo puede ver las vistas previas de los fondos instalados, tiene un firewall u otro programa de seguridad que impide que el buscador acceda a internet. Tiene que cambiarlo o añadir una excepción para «ui32.exe».
 
 The preview images are direct image downloads from the Steam servers. If the preview images are not loading, something is blocking the connection between Wallpaper Engine and the Steam servers. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
 
