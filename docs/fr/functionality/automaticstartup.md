@@ -10,13 +10,13 @@ Wallpaper Engine peut s’exécuter automatiquement au démarrage de votre ordin
 
 ## Quelle est la différence entre l'option de démarrage "priorité élevée" et l'option de démarrage "normal" ?
 
-When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+Lorsque vous sélectionnez l'option priorité élevée, Wallpaper Engine s'enregistre comme un service Windows. Wallpaper Engine démarrera avant les autres programmes configurés pour démarrer automatiquement avec Windows. Cela n'a aucune incidence sur les performances de l'application.
 
-The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
+L'inconvénient de cette option, c'est qu'elle peut être moins fiable : certains antivirus pourront empêcher Wallpaper Engine de démarrer, car ils penseront qu'il s'agit un comportement malveillant.
 
-## I have enabled the automatic startup but it is not working, what can I do?
+## J'ai activé l'exécution automatique, mais ça ne marque pas. Que puis-je faire ?
 
-If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
+Si vous utilisez l'option *priorité élevée*, essayez de la désactiver pour passer en mode *normal*. Comme expliqué ci-dessus, le mode priorité élevée permet un démarrage plus rapide, mais peut être bloqué par des logiciels antivirus.
 
 If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
 
