@@ -23,11 +23,11 @@ Windows 오른쪽 아래의 트레이 지역에 있는 오디오 아이콘을 �
 
 ### Razer 헤드셋(THX)
 
-'스피커(Razer XYZ)' 장치에서 Wallpaper Engine 오디오 입력을 변경하세요. This option is in the general settings and any Razer headset with THX effects should work with this solution.
+Wallpaper Engine에서 '스피커(Razer XYZ)' 장치로 오디오 입력을 변경하세요. 이 옵션은 일반 설정으로 어떤 Razer 헤드셋(THX) 효과에든 이 해결책을 적용할 수 있습니다.
 
 ## 3. 응용 프로그램 충돌
 
-If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
+오디오 설정이 올바르지만 오디오 응답 배경화면이 오디오에 반응하지 않는다면, 사운드 하드웨어 또는 소프트웨어가 PC 전체에서 루프백 녹음 기능을 사용하지 않을 가능성이 높습니다. 정확히 구성하거나 제거해야 합니다:
 
 * Nahimic
 * Sonic Suite
