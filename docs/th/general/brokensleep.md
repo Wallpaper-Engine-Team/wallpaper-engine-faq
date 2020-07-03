@@ -17,9 +17,9 @@
 
 ## ปัญหาการไฮเบอร์เนตกับวอลเปเปอร์ประเภท "เว็บ"
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+"เว็บ" วอลเปเปอร์ ใช้เว็บเบราว์เซอร์ที่คล้ายคลึงกับ Google Chrome ("CEF") ซึ่งจะป้องกันโหมดไฮเบอร์เนต จนกว่าจะมีการแก้ไขในเบราว์เซอร์คุณสามารถแก้ไขได้โดยการพิมพ์คำสั่งที่ Command Prompt
 
-1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
+1. ค้นหา "cmd.exe" ใน Windows จากนั้นคลิกขวาแล้วเลือก "Run as administrator" (สำคัญมาก มิฉะนั้นจะใช้งานไม่ได้!)
 2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
 3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
 
