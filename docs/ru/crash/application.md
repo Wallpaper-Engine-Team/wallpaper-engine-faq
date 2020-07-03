@@ -29,25 +29,25 @@ Wallpaper Engine — тщательно тестируемая и хорошо �
 
 ### KERNELBASE.dll / ntdll.dll
 
-This is a crash in the core of the Windows kernel itself, it is usually caused by antivirus applications or broken graphics card drivers. Вы найдете подробную информацию по решению этой проблемы в разделе "быстрое решение" выше. Также подобный сбой может быть вызван неисправностями в самой системе. Воспользуйтесь инструментом Microsoft System File Checker, который восстановит потенциально неисправные файлы Windows:
+В данном случае речь сбой произошел в самом ядре Windows. Обычно причиной подобного сбоя являются антивирусные программы или неисправные драйвера видеокарты. Вы найдете подробную информацию по решению этой проблемы в разделе "быстрое решение" выше. Также подобный сбой может быть вызван неисправностями в самой системе. Воспользуйтесь инструментом Microsoft System File Checker, который восстановит потенциально неисправные файлы Windows:
 
 * [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-This is a crash in DirectX, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+В данном случае сбой произошел в DirectX. Обычно причиной подобного сбоя являются антивирусные программы или неисправные драйвера видеокарты. Вы найдете подробную информацию по решению этой проблемы в разделе "быстрое решение" выше. Также подобный сбой может быть вызван неисправностями в самой системе. Воспользуйтесь инструментом Microsoft System File Checker, который восстановит потенциально неисправные файлы Windows:
 
 * [Microsoft System File Checker Tool](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
+В данном случае сбой произошел в Windows Media Foundation. Причиной подобного сбоя могут быть неисправные драйвера видеокарты, но чаще проблема связана с неисправными или отсутствующими видеокодеками в системе. Посмотрите наше видео с руководством по решению данной проблемы, чтобы устранить сбои в работе программы:
 
-[Click here](/noshow/notplaying.html)
+[Кликните сюда](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+В данном случае аварийное завершение работы обычно бывает вызвано проблемой в самой системе Windows. Попробуйте переустановить последнюю версию драйверов звуковой карты, это может решить проблему. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
 
 ### atiumdag.dll / atiumd64.dll
 
