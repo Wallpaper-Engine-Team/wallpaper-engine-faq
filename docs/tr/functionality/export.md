@@ -1,15 +1,15 @@
 # Duvar kağıtlarını GIF/video olarak dışarı aktarma
 
-Wallpaper Engine düzenleyicisinde duvar kağıdı oluşturma video dosyasından çok bilgisayar oyunu seviyeleri gibidir. They do not have a clearly defined start or end and they contain elements of randomness in them. Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
+Wallpaper Engine düzenleyicisinde duvar kağıdı oluşturma video dosyasından çok bilgisayar oyunu seviyeleri gibidir. Başlangıç ve sonları net bir şekilde tanımlanmaz ve içlerinde rastgele öğeler bulunur. Bilgisayar oyununu video dosyası olarak dışarı aktaramadığınız gibi duvar kağıtlarını da video ya da GIF olarak aktaramazsınız.
 
-However, you can create a recording of your wallpapers and manually try to create a perfect loop if the elements in your wallpaper allow for that. For this purpose, we recommend free tools like *ScreenToGif* or *OBS Studio*:
+Fakat, duvar kağıdınızın öğeleri izin verirse duvar kağıtlarınızı kaydedebilir ve elle harika döngüler oluşturabilirsiniz. Bunun için *ScreenToGif* ve *OBS Studio* gibi harika araçlar vardır:
 
-* [ScreenToGif](https://www.screentogif.com/) (Easy to use)
+* [ScreenToGif](https://www.screentogif.com/) (Kolay kullanım)
 
-* [OBS Studio](https://obsproject.com/) (More advanced features)
+* [OBS Studio](https://obsproject.com/) (Daha gelişmiş özellikler)
 
-#### Getting a clear shot of your wallpapers
+#### Duvar kağıtlarınızın görüntüsünü alma
 
-You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+Duvar kağıdınızın net bir görüntüsünü alıp "Yüklenenler" sekmesinde üstüne sağ tıklayarak boyutunu değiştirebilirsiniz. Ardından "Pencerede Oynat" seçeneğine tıklarsanız duvar kağıdınızın olduğu pencere açılır. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
 
 ![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
