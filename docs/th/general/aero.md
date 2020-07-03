@@ -4,8 +4,8 @@ Aero คือคุณสมบัติหนึ่งของ Windows แล
 
 Windows Aero ทำหน้าที่สร้างเอฟเฟ็กต์โปร่งใสให้กับแถบงานด้านบนของ Windows หากแถบงานของคุณนั้นทึบ (และมีสีฟ้าอ่อน) หมายความว่า Aero ถูกปิดใช้งาน คุณสามารถเปิดใช้งาน Aero ได้ในส่วนการตั้งค่าธีม Windows 7 หลังจากเปิดใช้งานธีม Aero แล้ว Windows 7 ของคุณควรมีลักษณะเช่นนี้ (สังเกตแถบงานแบบโปร่งใสและเมนูเริ่มต้น):
 
-![Windows 7 with Aero](./w7.png)
+![Windows 7 กับ Aero](./w7.png)
 
-If your hardware supports Windows Aero but you cannot enable it, **it usually means your graphics card drivers are broken**. Download the latest graphics card drivers for Windows 7 and try again.
+หากฮาร์ดแวร์ของคุณรองรับ Windows Aero แต่คุณไม่สามารถเปิดใช้งานได้ **โดยปกติแล้วเกิดจากไดรเวอร์การ์ดจอเสีย ** ดาวน์โหลดไดรเวอร์การ์ดจอล่าสุดสำหรับ Windows 7 แล้วลองอีกครั้ง
 
-::: tip **We recommend using Windows 10** because this problem only exists Windows 7. Windows 7 is not receiving any more updates and most hardware manufacturers have abandoned support for it. This can lead to issues with hardware drivers which cause Aero to be broken. :::
+::: เคล็ดลับ **เราขอแนะนำให้ใช้ Windows 10** เนื่องจากปัญหานี้มีอยู่ใน Windows 7 เท่านั้น Windows 7 ไม่ได้รับการอัพเดตอีกต่อไปและผู้ผลิตฮาร์ดแวร์ส่วนใหญ่ได้ยกเลิกการสนับสนุนแล้ว สิ่งนี้อาจทำให้เกิดปัญหากับไดรเวอร์ฮาร์ดแวร์ซึ่งทำให้เกิดความเสียหายกับ Aero :::
