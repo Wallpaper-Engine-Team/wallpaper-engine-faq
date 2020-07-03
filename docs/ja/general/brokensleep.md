@@ -7,17 +7,17 @@ Windowsは、アクティブなオーディオストリームが開いている�
 Windowsは、アクティブなオーディオストリームが開いているとハイバネーションしません。 これを回避するために、Wallpaper Engine設定の「一般」タブでオーディオ出力を無効にするか、Windowsがオーディオ再生を有効にしたままでスリープに入るよう設定し直すことができます。
 
 1. Windowsの検索画面で入力して、「電源とスリープ」設定を開きます。
-2. Click on "Additional power settings"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
-6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
+2. 「追加電源設定」をクリックします。
+3. 選択したプランの隣にある「プラン設定の変更」をクリックします。
+4. 「詳細電源設定の変更」をクリックします。
+5. 下にスクロールし、「マルチメディア設定」を拡張します。
+6. 「メディアの共有時」を「コンピュータがアウェーモードに入ることを許可する」（スクリーンセーバー）**または**「コンピュータがスリープすることを許可する」（ハイバネーション）に設定します。
 
 ![Enable "Allow the computer to sleep"](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## 「Web」タイプ壁紙でのハイバネーション問題
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+「Web」壁紙は、Google Chromeに似た、ハイバネーションモードを妨害するブラウザ（CEF）を使用します。 ブラウザでこれが修正されるまでは、コマンドラインのプロンプトで回避することができます。
 
 1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
 2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
