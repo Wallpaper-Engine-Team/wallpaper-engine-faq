@@ -14,15 +14,15 @@
 
 ### 場景桌布
 
-場景桌布封裝至一個 .pkg 檔案中，因該檔案缺少專案相關的資料，所以無法直接編輯。 開啟 .pkg 檔案將顯示錯誤訊息：已封裝桌布無法開啟。 An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+場景桌布封裝至一個 .pkg 檔案中，因該檔案缺少專案相關的資料，所以無法直接編輯。 開啟 .pkg 檔案將顯示錯誤訊息：已封裝桌布無法開啟。 同樣道理是，.jpeg 圖像檔案也不會附帶 Photoshop 專案資料，這些資料始終留在原作者的系統。
 
-#### Unofficial Community Scene Unpacker
+#### 非官方社群場景解封裝工具
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+不過，社群成員已自行建立非官方的社群場景桌布解封裝工具，您可用來解封裝場景檔案，將其當作桌布製作的起點。 詳情請造訪以下網站：
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+您仍需要有效的 project.json 檔案，建立方法為：在編輯器建立新的空白桌布，關閉 Wallpaper Engine，將已下載的桌布解封裝，接著將其內容複製貼上至新的專案目錄中。
 
 If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
 
