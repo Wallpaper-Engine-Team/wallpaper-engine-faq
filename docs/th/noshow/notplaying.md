@@ -8,9 +8,9 @@
 
 # วิดีโอสีดำ / ไม่สามารถเล่นได้ตามปกติ
 
-Black screens and other issues with wallpapers of the type *Video* are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
+หน้าจอสีดำและปัญหาอื่น ๆ ที่เกิดขึ้นกับวอลเปเปอร์ประเภท *วิดีโอ* นั้น *โดยปกติแล้ว* เกิดจากไดรเวอร์การ์ดจอผิดพลาดหรือตัวแปลงสัญญาณวิดีโอผิดพลาด ลองทำตามขั้นตอนต่อไปนี้ตามลำดับ หากคุณทำตามคำแนะนำนี้จากบนลงล่าง คุณจะสามารถแก้ไขปัญหาได้:
 
-::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black or not playing properly. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: คำเตือน โปรดทราบ หัวข้อนี้เกี่ยวข้องกับปัญหาที่ **วอลเปเปอร์** ของ Wallpaper Engine เป็นสีดำหรือเล่นไม่ถูกต้อง หาก **ส่วนต่อประสาน ของ Wallpaper Engine เป็นสีดำ** คุณต้องไปที่นี่: [ส่วนต่อประสานกับผู้ใช้ของ Wallpaper Engine เป็นสีดำ](/interface/broken.html#wallpaper-engine-interface-is-black) :::
 
 ## Clean graphics card driver re-installation
 
