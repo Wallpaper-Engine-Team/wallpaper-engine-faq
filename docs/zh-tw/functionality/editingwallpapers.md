@@ -2,7 +2,7 @@
 
 一般而言，Wallpaper Engine 本身並未支援已下載桌布的編輯作業。 不過，依據桌布的類型 (在右側預覽圖像下方可確認類型)，通常可透過第三方應用程式來編輯桌布。
 
-請謹記您可能需要原作者的授權，才能重新發布其作品。 如有疑問，請先與原作者聯繫，再將作品發布至 Steam 工作坊。
+請謹記您可能需要原作者的授權，才能重新發布其作品。 如有疑問，請先與原作者聯絡，再將作品發布至 Steam 工作坊。
 
 [[toc]]
 
@@ -24,25 +24,25 @@
 
 您仍需要有效的 project.json 檔案，建立方法為：在編輯器建立新的空白桌布，關閉 Wallpaper Engine，將已下載的桌布解封裝，接著將其內容複製貼上至新的專案目錄中。
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+如果您想編輯之前已遺失專案檔案的桌布，請見以下*更新遺失的專案*區段，進一步了解您需要對 project.json 變更哪些部分，才能將更新現有的桌布。
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: 警告 請注意 我們不為此工具提供官方支援，也不保證其能正常運作。 如果您對此解封裝工具有任何問題，請與原建立者聯絡。 :::
 
-### Web wallpapers
+### 網頁桌布
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+網頁桌布以 HTML 及 JavaScript 為基礎。 您可按照上文說明找出原檔案，再將這些檔案當作基礎，建立自己的網頁桌布。
 
-### Video wallpapers
+### 視訊桌布
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+視訊桌布即為視訊檔案。 您可按照上文說明找出視訊檔案，再選擇任一第三方視訊編輯應用程式來修改視訊。
 
-### Application wallpapers
+### 應用程式桌布
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+一般而言，應用程式桌布無法編輯。 應用程式桌布通常為經過編譯的程式，代表您無權存取原始程式碼。 如果您真的想變更應用程式桌布，請聯絡該桌布的作者，詢問其是否願意協助。
 
-## Updating a lost project
+## 更新遺失的專案
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+如果您刪除了專案，仍然可以覆寫，但可能無法再次編輯某些所發布的桌布類型。 照常建立新的桌布，至 [編輯] -> [在檔案總管中開啟] 即可開啟專案目錄。 使用文字編輯器開啟 `project.json` 檔案後，將顯示與以下類似的內容：
 
 ```json
 {
@@ -69,7 +69,7 @@ If you deleted your project you can still overwrite it, but depending on the typ
 }
 ```
 
-Add this line at the top right after `{`:
+將此行新增至右上方的 `{` 之後：
 
 ```json
     "workshopid" : "12345678",
