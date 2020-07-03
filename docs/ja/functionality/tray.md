@@ -4,13 +4,13 @@ Windowsの時計の隣にあるトレイアイコンを非表示にするようW
 
 ::: warning あなたが、トレイアイコンを非表示にすることによる短所を積極的に受け入れてもいいと思うほどトレイアイコンを嫌っているのでない限り、これはお勧めしません。 :::
 
-Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+トレイアイコンが非表示になっていると、Wallpaper Engineを終了させる方法は、Windowsのタスクマネージャを通すしかなくなります。 ユーザーインターフェースは、Steamか.exeファイルからしか開けません。これは不便で、混乱を引き起こす可能性がある方法です。
 
-If you still want to proceed with hiding the tray icon, this is how you do it:
+それでもトレイアイコンを非表示にしたい場合は、次のようにすれば行えます。
 
-In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
+レジストリキーを作成するには、Windowsのスタートメニューを開き、"regedit.exe"と入力します。すると"レジストリ エディター"が開きます。
 
-1. Go to the following registry directory: *HKEY_CURRENT_USER\Software\WallpaperEngine*
+1. 次のレジストリディレクトリに行きます： *HKEY_CURRENT_USER\Software\WallpaperEngine*
 2. Right-click on the *WallpaperEngine* registry folder, select *New* and then *DWORD (32 Bit) Value*.
 3. Give the registry the following name: *hideTrayIcon*
 4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
