@@ -34,13 +34,13 @@ Les fonds d'écran Web sont en HTML et sont basés sur JavaScript. Vous pouvez a
 
 ### Fond d'écran vidéo
 
-Ces fonds d'écran sont des fichiers vidéo. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+Ces fonds d'écran sont des fichiers vidéo. Vous pouvez trouver le fichier vidéo comme décrit dans la section ci-dessus, puis utiliser une application de montage de votre choix pour modifier la vidéo.
 
-### Application wallpapers
+### Fond d'écran d'application
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+Ces fonds d'écran peuvent rarement être modifiés. Les fonds d'écran d'application sont généralement des programmes compilés, ce qui signifie que vous n'avez pas accès au code source. Contactez l'auteur de ces fonds d'écran. Ils accepteront peut-être de vous aider.
 
-## Mettre un jour un projet perdu
+## Mettre à jour un projet perdu
 
 If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
 
