@@ -1,12 +1,12 @@
 - - -
-tags:
-  - activemovie window
-  - active movie
-  - black
+แท็ก:
+  - หน้าต่าง ActiveMovie
+  - Active Movie
+  - สีดำ
 - - -
 
 
-# Videos Black / Not Playing Properly
+# วิดีโอสีดำ / ไม่สามารถเล่นได้ตามปกติ
 
 Black screens and other issues with wallpapers of the type *Video* are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
 
