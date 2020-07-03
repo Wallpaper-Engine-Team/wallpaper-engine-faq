@@ -1,10 +1,10 @@
 # เวอร์ชัน 32-Bit และ 64-Bit
 
-เวอร์ชัน 64-bit สามารถรองรับไฟล์ที่มีขนาดใหญ่กว่า (มากกว่า 2GB) แต่จะใช้หน่วยความจำมากขึ้นเสมอ โดยไม่คำนึงถึงขนาดไฟล์วอลเปเปอร์ For example, with a normal video wallpaper, the 64-bit version may use about 50 MB more RAM compared to the 32-bit version, otherwise there is nothing different or improved.
+เวอร์ชัน 64-bit สามารถรองรับไฟล์ที่มีขนาดใหญ่กว่า (มากกว่า 2GB) แต่จะใช้หน่วยความจำมากขึ้นเสมอ โดยไม่คำนึงถึงขนาดไฟล์วอลเปเปอร์ เช่น สำหรับวิดีโอวอลเปเปอร์ปกติ เวอร์ชัน 64-bit อาจใช้ RAM มากกว่าเวอร์ชัน 32-bit ประมาณ 50 MB โดยไม่เกิดความแตกต่างหรือมีการปรับปรุงให้ดีขึ้น
 
-::: tip We recommend you stick to the 32-bit version unless you have huge wallpapers that would make the 32-bit version crash. The large majority of users never encounter this problem. :::
+::: เคล็ดลับ เราขอแนะนำให้คุณใช้งานเวอร์ชัน 32-bit เว้นแต่ว่าวอลเปเปอร์ของคุณจะมีขนาดใหญ่มากจนทำให้เวอร์ชัน 32-bit เกิดความขัดข้อง ผู้ใช้ส่วนใหญ่ไม่เคยประสบปัญหานี้ :::
 
-You may also opt for the 64-bit version when the video system on your PC has errors that only affect 32-bit programs. Should you ever have installed codec packs or alike, they may have permanently damaged the 32-bit Windows video system that Wallpaper Engine uses. If the 64-bit system is not affected, you'll be able to take advantage of that by using the 64-bit version of Wallpaper Engine and so you can avoid having to fix whatever got broken.
+ในกรณีที่ระบบวิดีโอบนคอมพิวเตอร์ของคุณพบข้อผิดพลาดที่มีผลต่อโปรแกรม 32-bit เท่านั้น คุณสามารถเลือกเวอร์ชัน 64-bit ได้ หากคุณเคยติดตั้งชุดตัวแปลงสัญญาณหรือโปรแกรมที่คล้ายกัน ตัวแปลงเหล่านั้นอาจสร้างความเสียหายอย่างถาวรต่อระบบวิดีโอ 32-bit ของ Windows ที่ใช้โดย Wallpaper Engine หากระบบ 64-bit ไม่ได้รับผลกระทบ คุณสามารถใช้ Wallpaper Engine เวอร์ชัน 64-bit ได้โดยไม่จำเป็นต้องซ่อมแซมในส่วนที่เสียหาย
 
 ::: warning Note Note that "Web" type wallpapers will always be executed with a 32-Bit executable (webwallpaper32.exe). The same applies to the user interface itself (ui32.exe). 64-Bit only applies when selecting wallpapers of the type "Scene" or "Video". :::
 
