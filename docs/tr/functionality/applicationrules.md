@@ -1,10 +1,10 @@
 ---
 tags:
-  - application
-  - rules
-  - exception
-  - whitelist
-  - blacklist
+  - uygulama
+  - kurallar
+  - istisna
+  - güvenilir adresler
+  - kara liste
   - lags
   - laggy
   - game
