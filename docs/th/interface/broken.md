@@ -17,17 +17,17 @@ tags:
 
 สำหรับผู้ใช้ส่วนใหญ่สิ่งนี้หมายความว่าส่วนต่อประสานกับผู้ใช้ของ Wallpaper Engine ถูกปิดกั้นโดยแอพพลิเคชันป้องกันไวรัสโดยไม่ได้ตั้งใจ ตรวจสอบให้แน่ใจว่าได้ตั้งค่าข้อยกเว้นในแอพพลิเคชันป้องกันไวรัสของคุณให้ละเว้น Wallpaper Engine โดยเฉพาะไฟล์ปฏิบัติการทั้งหมดในไดเรกทอรีการติดตั้ง wallpaper_engine โดยเฉพาะ **wallpaper_engine/bin/ui32.exe**
 
-In some cases, it is necessary to verify the Wallpaper Engine files afterwards or even to re-install Wallpaper Engine if your antivirus application has placed a permanent lock on some important Wallpaper Engine files:
+ในบางกรณีหากแอพพลิเคชันป้องกันไวรัสล็อคไฟล์สำคัญของ Wallpaper Engine บางไฟล์ไว้อย่างถาวร คุณจำเป็นต้องตรวจสอบไฟล์ Wallpaper Engine หรือติดตั้ง Wallpaper Engine ใหม่อีกครั้ง
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [ฝ่ายสนับสนุน Steam: ตรวจสอบความถูกต้องของไฟล์แอพพลิเคชัน](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+หากคุณกำหนดค่าแอพพลิเคชันป้องกันไวรัสของคุณแล้ว แต่การตรวจสอบผ่าน Steam ยังไม่สามารถแก้ไขปัญหานี้ได้ ให้ลองติดตั้ง Wallpaper Engine ผ่าน Steam อีกครั้ง หากไม่สามารถควบคุมซอฟต์แวร์ป้องกันไวรัสได้ ซอฟต์แวร์อาจปิดกั้นพาธไฟล์ที่ใช้โดย Wallpaper Engine อย่างถาวร ในกรณีนี้โปรดถอนการติดตั้งซอฟต์แวร์ป้องกันไวรัสก่อนที่จะติดตั้ง Wallpaper Engine ไปยังไดเรกทอรีอื่น คุณสามารถเลือกสร้างคลังเกมใหม่ใน Steam เพื่อวัตถุประสงค์นี้
 
-## Wallpaper Engine interface with green artifacts or white lines
+## ส่วนต่อประสาน Wallpaper Engine กับสิ่งประดิษฐ์สีเขียวหรือเส้นสีขาว
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+ไดรเวอร์การ์ดจอของคุณเสียหายหรือกำหนดค่าไม่ถูกต้อง ดาวน์โหลดไดรเวอร์ล่าสุดสำหรับการ์ดจอของคุณ (แม้ว่าคุณจะมีไดรเวอร์ล่าสุดแล้ว) และทำการติดตั้งไดรเวอร์ใหม่อีกครั้ง คุณจำเป็นต้องถอนการติดตั้งไดรเวอร์ปัจจุบันก่อนติดตั้งไดรเวอร์ล่าสุดเพื่อให้แน่ใจว่าไฟล์หรือการตั้งค่าที่เสียหายทั้งหมดถูกลบ
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+หากยังคงพบปัญหาอยู่ โปรดปิด Wallpaper Engine Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
 
 ### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
 
