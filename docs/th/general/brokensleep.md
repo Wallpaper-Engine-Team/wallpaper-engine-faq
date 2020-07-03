@@ -4,18 +4,18 @@
 
 ## เปลี่ยนการตั้งค่าพลังงานของ Windows
 
-หากมีการเปิดใช้งานสตรีมข้อมูลเสียงอยู่ Windows จะไม่เข้าสู่โหมดไฮเบอร์เนต You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+หากมีการเปิดใช้งานสตรีมข้อมูลเสียงอยู่ Windows จะไม่เข้าสู่โหมดไฮเบอร์เนต คุณสามารถหลีกเลี่ยงปัญหานี้ได้โดยการปิดใช้งานอุปกรณ์เสียงในแท็บ "ทั่วไป" ในส่วนการตั้งค่า Wallpaper Engine หรือกำหนดค่า Windows ของคุณใหม่เพื่อให้เข้าสู่โหมดสลีปได้เมื่อเปิดใช้งานการเล่นเสียง:
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
-6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
+1. ไปที่ "Power and sleep settings" (การตั้งค่าพลังงานและโหมดสลีป) ของ Windows โดยพิมพ์ชื่อลงในการค้นหาของ Windows
+2. คลิกที่ "Additional power settings" (การตั้งค่าพลังงานอื่น ๆ)
+3. คลิกที่ "Change plan settings" (เปลี่ยนค่าแผนการทำงาน) ถัดจากแผนที่เลือก
+4. คลิกที่ "Change advanced power settings" (เปลี่ยนการตั้งค่าพลังงานขั้นสูง)
+5. เลื่อนลงและขยาย "Multimedia settings" (การตั้งค่ามัลติมีเดีย)
+6. ตั้งค่า "When sharing media" (เมื่อแบ่งปันสื่อ) เป็น "Allow the computer to enter away mode" (สกรีนเซฟเวอร์) **หรือ** "Allow the computer to sleep" (ไฮเบอร์เนต)
 
 ![Enable "Allow the computer to sleep"](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## ปัญหาการไฮเบอร์เนตกับวอลเปเปอร์ประเภท "เว็บ"
 
 "Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
 
