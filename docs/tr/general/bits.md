@@ -1,6 +1,6 @@
-# 32-Bit & 64-Bit Version
+# 32-Bit & 64-Bit Sürümü
 
-The 64-bit version can handle larger files (more than 2GB) but it will always use more memory, no matter the file size of the wallpapers. For example, with a normal video wallpaper, the 64-bit version may use about 50 MB more RAM compared to the 32-bit version, otherwise there is nothing different or improved.
+64-bit sürüm daha büyük dosyaları (2GB üzeri) işleyebilir ancak duvar kâğıtlarının dosya boyutu ne olursa olsun her zaman daha fazla bellek kullanır. For example, with a normal video wallpaper, the 64-bit version may use about 50 MB more RAM compared to the 32-bit version, otherwise there is nothing different or improved.
 
 ::: tip We recommend you stick to the 32-bit version unless you have huge wallpapers that would make the 32-bit version crash. The large majority of users never encounter this problem. :::
 
