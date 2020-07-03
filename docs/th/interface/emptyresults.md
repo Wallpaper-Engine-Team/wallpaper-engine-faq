@@ -2,10 +2,10 @@
 
 หากคุณไม่เห็นรูปภาพตัวอย่างวอลเปเปอร์อื่นนอกเหนือจากที่คุณติดตั้งไว้ หมายความว่ามีไฟร์วอลล์หรือซอฟต์แวร์ความปลอดภัยที่ป้องกันไม่ให้เบราเซอร์เข้าถึงอินเทอร์เน็ต คุณต้องปิดการใช้งานไฟร์วอลล์หรือซอฟต์แวร์ความปลอดภัยหรือเพิ่มข้อยกเว้นสำหรับ "ui32.exe"
 
-รูปภาพตัวอย่างคือภาพที่ดาวน์โหลดโดยตรงจากเซิร์ฟเวอร์ Steam If the preview images are not loading, something is blocking the connection between Wallpaper Engine and the Steam servers. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
+รูปภาพตัวอย่างคือภาพที่ดาวน์โหลดโดยตรงจากเซิร์ฟเวอร์ Steam หากไม่สามารถโหลดรูปภาพตัวอย่างได้ แสดงว่ามีบางสิ่งปิดกั้นการเชื่อมต่อระหว่าง Wallpaper Engine และเซิร์ฟเวอร์ Steam เราเตอร์เครือข่ายของผู้ใช้บางรายอาจปิดกั้นการเชื่อมต่อ คุณสามารถตรวจสอบได้ว่าเป็นปัญหาจากเราเตอร์หรือคอมพิวเตอร์โดยการเชื่อมต่อคอมพิวเตอร์ของคุณกับฮอตสปอต Wi-Fi ผ่านสมาร์ทโฟนของคุณ แล้วดูว่ารูปภาพตัวอย่างปรากฏบนจอคอมพิวเตอร์หรือไม่
 
-Some users of *accelerator software* also have issues with image previews being loaded. Make sure any type of network acceleration software is not blocking Wallpaper Engine from downloading image files in the background.
+ผู้ใช้ *ซอฟต์แวร์เพิ่มประสิทธิภาพ* บางส่วนจะพบปัญหาในการโหลดรูปภาพตัวอย่าง ตรวจสอบให้แน่ใจว่าไม่มีซอฟต์แวร์เพิ่มประสิทธิภาพเครือข่ายประเภทใดกำลังปิดกั้น Wallpaper Engine จากการดาวน์โหลดไฟล์ภาพในพื้นหลัง
 
-## No wallpapers or only very few wallpapers showing
+## ไม่แสดงวอลเปเปอร์หรือมีวอลเปเปอร์เพียงเล็กน้อย
 
-You likely have too strict filters enabled. Try resetting all filters by clicking on the "Reset filters" button in the filter sidebar.
+คุณอาจเปิดใช้งานตัวกรองที่เข้มงวดเกินไป ลองรีเซ็ตตัวกรองทั้งหมดโดยคลิกปุ่ม "รีเซ็ตตัวกรอง" ในแถบด้านข้างตัวกรอง
