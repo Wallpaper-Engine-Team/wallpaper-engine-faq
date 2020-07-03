@@ -27,13 +27,13 @@ Wallpaper Engine ไม่สามารถสื่อสารกับฮา
 
 ### Corsair
 
-ฮาร์ดแวร์บางตัว เช่น **หน่วยความจำระบบ Corsair (RAM) ถูกปิดใช้งานการควบคุมซอฟต์แวร์โดยค่าเริ่มต้น** ซึ่งหมายความว่าโมดูลหน่วยความจำจะไม่สว่างขึ้นตาม Wallpaper Engine หากคุณไม่อนุญาตในการตั้งค่าซอฟต์แวร์ iCUE Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+ฮาร์ดแวร์บางตัว เช่น **หน่วยความจำระบบ Corsair (RAM) ถูกปิดใช้งานการควบคุมซอฟต์แวร์โดยค่าเริ่มต้น** ซึ่งหมายความว่าโมดูลหน่วยความจำจะไม่สว่างขึ้นตาม Wallpaper Engine หากคุณไม่อนุญาตในการตั้งค่าซอฟต์แวร์ iCUE ตรวจสอบให้แน่ใจว่าได้เลือกตัวเลือก "เปิดใช้งานการควบคุมซอฟต์แวร์เต็มรูปแบบ" ในการตั้งค่าอุปกรณ์ iCUE ในส่วนหน่วยความจำ:
 
 ![Enable full software control in iCUE](./icue.png)
 
-Double-check this option for any other hardware parts which are not working properly.
+ตรวจสอบตัวเลือกนี้อีกครั้งว่ามีชิ้นส่วนฮาร์ดแวร์อื่น ๆ ที่ทำงานไม่ถูกต้องหรือไม่
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+โปรดทราบว่ามีการใช้ iCUE ใน *โหมดเฉพาะ* ดังนั้น Wallpaper Engine จะมีความสำคัญเหนือกว่าซอฟต์แวร์อื่นที่เข้ากันได้กับ iCUE เช่น เกม ฯลฯ If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
 
 For support with Corsair iCUE hardware, please contact Corsair directly:
 
