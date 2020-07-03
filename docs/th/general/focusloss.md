@@ -1,4 +1,4 @@
-# Playlist Causes focus loss / minimizes games
+# เพลย์ลิสต์ทำให้เกิดการสูญเสียโฟกัส / ย่อขนาดเกม
 
 If you have a playlist with wallpapers of the type **Web** and experience focus loss while playing games, make sure to pause the playlist while other applications are fullscreen. You can do so by turning **off** the **Allow wallpaper to change while paused** option in the playlist settings) or alternatively remove the web-based wallpapers from the playlist.
 
