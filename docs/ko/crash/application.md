@@ -80,12 +80,12 @@ Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 
 
 ## 작동 중단 오류 0xc000007b
 
-This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
+Windows 모듈이 시스템의 무언가 때문에 손상되었다는 의미입니다. 이 경우 보통 DirectX 자체가 손상됩니다. 다음 파일을 수동으로 제거해 보세요:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
+이제 DirectX 9 설치 관리자로 다시 설치하세요: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (정확한 위치는 wallpaper_engine 설치 디렉토리에 따라 다릅니다.)
 
 If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
 
