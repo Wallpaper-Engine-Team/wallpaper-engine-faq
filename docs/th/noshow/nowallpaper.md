@@ -6,7 +6,7 @@ tags:
 
 # มองไม่เห็นวอลเปเปอร์
 
-If some or all of your wallpapers do not show up, it's often caused by an antivirus application blocking Wallpaper Engine by mistake. If you are using an antivirus application, please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables:
+หากวอลเปเปอร์ของคุณบางส่วนหรือทั้งหมดไม่ปรากฏขึ้น สาเหตุมักเกิดจากแอพพลิเคชันป้องกันไวรัสที่ปิดกั้นการใช้งาน Wallpaper Engine โดยไม่ได้ตั้งใจ หากคุณใช้แอพพลิเคชันป้องกันไวรัส โปรดตรวจสอบให้แน่ใจว่าได้ตั้งค่าเพื่อให้ละเว้นไดเร็กทอรีการติดตั้ง *wallpaper_engine* และไฟล์ปฏิบัติการที่สำคัญทั้งหมดของ Wallpaper Engine:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -14,9 +14,9 @@ If some or all of your wallpapers do not show up, it's often caused by an antivi
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: tip If you have an anti-virus application installed (except Windows Defender), it's very likely that this is the cause of your problems. Take some time to investigate this further if your first attempts do not fix this issue. :::
+::: เคล็ดลับ หากคุณติดตั้งแอปพลิเคชันป้องกันไวรัส (ยกเว้น Windows Defender) เป็นไปได้มากว่านี่คือสาเหตุของปัญหาของคุณ หากความพยายามครั้งแรกของคุณไม่สามารถแก้ไขปัญหานี้ได้ โปรดใช้เวลาสักครู่เพื่อตรวจสอบเพิ่มเติม :::
 
-## Conflicts with other desktop modification software
+## ความขัดแย้งกับซอฟต์แวร์การแก้ไขเดสก์ทอปอื่น ๆ
 
 Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
 
