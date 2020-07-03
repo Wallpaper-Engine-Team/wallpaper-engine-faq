@@ -1,6 +1,6 @@
 ---
 tags:
-  - hardware
+  - donanım
 ---
 
 # RGB hardware support (iCUE & Chroma)
