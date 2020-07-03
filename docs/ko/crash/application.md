@@ -47,17 +47,17 @@ Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 
 
 ### AudioSes.dll
 
-이 강제 종료는 보통 Windows의 자체 문제로 발생합니다. 사운드 카드 드라이버를 최신 버전으로 재설치해보세요. 이 방법으로 문제를 해결할 수도 있습니다. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+이 강제 종료는 보통 Windows의 자체 문제로 발생합니다. 사운드 카드 드라이버를 최신 버전으로 재설치해보세요. 이 방법으로 문제를 해결할 수 있습니다. 또한 Wallpaper Engine 설정의 *성능* 탭에서 *타 응용프로그램 오디오 재생* 옵션을 *계속 실행*으로 변경하여 이 강제 종료 문제를 해결할 수도 있습니다.
 
 ### atiumdag.dll / atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. 기존 드라이버가 손상되었으면, 우선 완전히 제거하는 것이 중요합니다. :::
 
 ### nvwgf2umx.dll
 
-The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
+시스템의 Nvidia 드라이버가 강제 종료됩니다. Go to the Nvidia website, download the latest drivers from there and install them:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
