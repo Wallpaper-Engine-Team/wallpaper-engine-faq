@@ -14,7 +14,7 @@ Lütfen, çalışmalarını yeniden yayınlamak için duvar kağıdının yarat�
 
 ### Ekran duvar kağıtları
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Manzara duvar kağıtları bir .pkg dosyası olarak sıkıştırılır ve tüm proje verileri olmadığı için dışarıdan düzenlemezler. .pkg dosyalarını açmaya çalışırsanız "Sıkıştırılmış duvar kağıtları açılamaz." hatasını görürsünüz. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
 #### Unofficial Community Scene Unpacker
 
