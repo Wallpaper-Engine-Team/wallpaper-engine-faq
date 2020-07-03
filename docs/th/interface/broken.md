@@ -4,10 +4,10 @@ tags:
   - สีเขียว
   - สีขาว
   - เป็นพิกเซล
-  - unreadable
+  - ไม่สามารถอ่านได้
 ---
 
-# Wallpaper Engine window not displayed correctly
+# หน้าต่าง Engine Wallpaper แสดงผลไม่ถูกต้อง
 
 If your Wallpaper Engine browse window is not working, it is usually caused by faulty graphics card drivers or antivirus applications. Read below for more information.
 
