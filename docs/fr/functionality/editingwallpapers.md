@@ -42,7 +42,7 @@ Ces fonds d'écran peuvent rarement être modifiés. Les fonds d'écran d'applic
 
 ## Mettre à jour un projet perdu
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+Si vous avez supprimé votre projet, vous pouvez toujours le remplacer. Mais selon le type de fond d'écran que vous avez publié, vous ne pourrez peut-être plus le modifier. Créez un nouveau fond d'écran et ouvrez le dossier du projet avec Modifier > Ouvrir dans l'explorateur de fichiers. Ouvrez `project.json` avec un éditeur de texte. Vous obtiendrez quelque chose comme :
 
 ```json
 {
@@ -62,28 +62,28 @@ If you deleted your project you can still overwrite it, but depending on the typ
         }
     },
     "preview" : "preview.jpg",
-    "tags" : [ "Relaxing" ],
-    "title" : "Cool title of your wallpaper",
+    "tags" : [ "Relaxant" ],
+    "title" : "Titre de votre fond d'écran",
     "type" : "scene",
     "visibility" : "private"
 }
 ```
 
-Add this line at the top right after `{`:
+Ajoutez cette ligne juste après `{` :
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+Pour obtenir ceci :
 
 ```json{2}
 {
     "workshopid" : "12345678",
-    "description" : "Cool description",
+    "description" : "Description sympa du projet",
     "file" : "scene.json",
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**Remplacez 12345678 par l'ID de votre projet ! Vous trouverez l'ID dans l'URL de votre projet en ligne :**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
