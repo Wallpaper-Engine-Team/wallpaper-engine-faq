@@ -42,4 +42,4 @@ tags:
 
 檢視所有可能的條件與桌布播放選項，了解更多類型的應用程式規則。 您也可以設定為，啟動特定應用程式時，Wallpaper Engine 就會靜音或暫停。
 
-::: 提示 您也可以在 Wallpaper Engine 設定中的**效能**分頁為所有應用程式變更這些設定。 舉例來說，如果您在多個遊戲中遇到效能問題，合理做法可能是將**其他應用程式全螢幕顯示時**的選項變更為**停止 (釋放記憶體)**，這樣您啟動任何遊戲或全螢幕應用程式時，Wallpaper Engine 將自行關閉。 :::
+::: 提示 您也可以在 Wallpaper Engine 設定中的**效能**分頁為所有應用程式變更這些設定。 If you are having performance issues in multiple games, for example, it may make sense to just change the **Other application fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
