@@ -1,12 +1,12 @@
-# Exclude certain wallpapers from the search
+# Excluir ciertos fondos de la búsqueda
 
-Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+Use siempre la pestaña Workshop para buscar fondos nuevos. Steam Workshop no cuenta con la misma capacidad de filtrado que el programa, por lo que le mostrará más contenido que no le interese.
 
-## Excluding certain genres (anime, for example)
+## Excluir géneros concretos (por ejemplo, anime)
 
-You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+Puede eliminar categorías que no le gusten. Abra la pestaña «Workshop» en Wallpaper Engine y haga clic en el botón «Filtrar resultados» en la esquina superior izquierda para habilitar la barra lateral de filtros. Deseleccione todas las categorías que no quiera ver en los resultados.
 
-If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+Si no quiere ver fondos de anime, quite las categorías *Anime* y *MMD (Miku-Miku-Dance)*. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
