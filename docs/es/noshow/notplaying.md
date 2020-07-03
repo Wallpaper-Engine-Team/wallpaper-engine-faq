@@ -2,15 +2,15 @@
 etiquetas:
   - ventana activemovie
   - active movie
-  - black
+  - negro
 - - -
 
 
-# Videos Black / Not Playing Properly
+# Vídeos en negro / no se reproducen correctamente
 
-Black screens and other issues with wallpapers of the type *Video* are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
+Las pantallas negras y otros problemas con los fondos de tipo *vídeo* son *siempre* culpa de codecs de vídeo o controladores de tarjeta gráfica dañados. Siga los siguientes pasos en orden. Si sigue la guía de principio a fin, se solucionará el problema:
 
-::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black or not playing properly. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: advertencia Tenga en cuenta que esta sección trata de que los **fondos** de Wallpaper Engine se quedan en negro o no se reproducen correctamente. Si la **interfaz de Wallpaper Engine se queda negra**, visite esta sección: [La interfaz a de Wallpaper Engine se queda en negro](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
 ## Clean graphics card driver re-installation
 
