@@ -19,10 +19,10 @@ Si vous rencontrez des problèmes de téléchargement avec Steam, assurez-vous q
 ## Téléchargement bloqué à 0 % ou 100 % (ou tout autre pourcentage)
 Steam n'a pas fini de télécharger et de vérifier ces fichiers. Si les téléchargements restent bloqués un long moment, voici quelques astuces :
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Vider le cache de téléchargement de Steam dans les options :
+  * [Vider le cache de téléchargements de Steam](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* Vérifier les fichiers de Wallpaper Engine sur Steam :
+  * [Vérifier les fichiers de Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 * If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
     * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
