@@ -1,10 +1,10 @@
 # การไฮเบอร์เนต / สกรีนเซฟเวอร์ไม่ทำงาน
 
-หากมีการเปิดใช้งานสตรีมข้อมูลเสียงอยู่ Windows จะไม่เข้าสู่โหมดไฮเบอร์เนต You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+หากมีการเปิดใช้งานสตรีมข้อมูลเสียงอยู่ Windows จะไม่เข้าสู่โหมดไฮเบอร์เนต คุณสามารถหลีกเลี่ยงปัญหานี้ได้โดยการปิดใช้งานอุปกรณ์เสียงในแท็บ "ทั่วไป" ในส่วนการตั้งค่า Wallpaper Engine เพื่อป้องกันไม่ให้ Windows ปิดกั้นการไฮเบอร์เนต หากคุณต้องการใช้อุปกรณ์เสียงต่อ โปรดทำตามขั้นตอนในคู่มือนี้
 
-## Change the Windows power settings
+## เปลี่ยนการตั้งค่าพลังงานของ Windows
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+หากมีการเปิดใช้งานสตรีมข้อมูลเสียงอยู่ Windows จะไม่เข้าสู่โหมดไฮเบอร์เนต You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
 
 1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
 2. Click on "Additional power settings"
