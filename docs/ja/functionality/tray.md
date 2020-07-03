@@ -11,10 +11,10 @@ Windowsの時計の隣にあるトレイアイコンを非表示にするようW
 レジストリキーを作成するには、Windowsのスタートメニューを開き、"regedit.exe"と入力します。すると"レジストリ エディター"が開きます。
 
 1. 次のレジストリディレクトリに行きます： *HKEY_CURRENT_USER\Software\WallpaperEngine*
-2. Right-click on the *WallpaperEngine* registry folder, select *New* and then *DWORD (32 Bit) Value*.
-3. Give the registry the following name: *hideTrayIcon*
-4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
-5. Double-click on the registry key and give it the value: *1*
-6. Restart Wallpaper Engine, the application will now not show a tray icon.
+2. *WallpaperEngine*レジストリフォルダを右クリックし、*新規*、次に*DWORD (32 Bit) Value*を選択します。
+3. レジストリに次の名前をつけます：*hideTrayIcon*
+4. 名前が正しいことをよく確認します。スペースを入れず、全く同じように入力します。
+5. レジストリキーをダブルクリックし、値を入れます：*1*
+6. Wallpaper Engineを再起動すると、トレイアイコンはもう表示されません。
 
-You can reverse this process by setting *hideTrayIcon* to *0* or deleting it altogether, followed by restarting Wallpaper Engine. 
+元に戻すには、*hideTrayIcon*を*0*にするか、これを削除します。その後Wallpaper Engineを再起動します。 
