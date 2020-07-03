@@ -5,8 +5,8 @@ tags:
   - blue screen
 ---
 
-# System crash / System Freeze
-Wallpaper Engine alone cannot crash your system and it does not affect other programs. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
+# Аварийное завершение работы или зависание системы
+Программа Wallpaper Engine не влияет на другие программы и сама по себе не может стать причиной аварийного завершения работы системы. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
 
 * Hardware required by Wallpaper Engine is broken.
 * A driver for some hardware Wallpaper Engine needs is buggy or broken.
