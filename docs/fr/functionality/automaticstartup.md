@@ -1,14 +1,14 @@
 ---
 tags:
-  - démarrage automatique
-  - lancement
+  - exécution automatique
+  - démarrage
 ---
 
 # Démarrage automatique
 
-You can make Wallpaper Engine launch when your computer starts by going to the Wallpaper Engine settings and navigating to the "General" tab. At the top, you can enable the automatic startup option which will launch the application quietly in the background whenever your system boots up.
+Wallpaper Engine peut s’exécuter automatiquement au démarrage de votre ordinateur en choisissant cette option l'onglet "Général" des paramètres de Wallpaper Engine. En haut, vous pourrez activer l'option d'exécution automatique qui lancera discrètement l'application en arrière-plan à chaque démarrage de votre système.
 
-## What is the difference between "high-priority" and the "normal" start-up option?
+## Quelle est la différence entre l'option de démarrage "priorité élevée" et l'option de démarrage "normal" ?
 
 When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
 
