@@ -18,7 +18,7 @@ tags:
 
 如果您使用*高優先*選項，請停用此選項，切換至*標準*自動啟動功能。 如上所述，高優先模式自動啟動速度較快，但由於諸多因素而較不可靠，其中主因是有時候會受到防毒軟體封鎖。
 
-If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
+如果您使用標準選項，但該應用程式並未隨著 Windows 開機而啟動，請改選高優先，看看問題是否仍存在。
 
 If neither the high-priority or normal-priority option work for you, check the antivirus software you have installed on your system. Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
 
