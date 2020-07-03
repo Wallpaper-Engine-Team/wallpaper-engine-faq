@@ -9,17 +9,17 @@ tags:
 
 # A janela do Wallpaper Engine não é apresentada corretamente
 
-Se a sua janela de exploração do Wallpaper Engine não estiver a funcionar, isso normalmente deve-se a controladores da placa gráfica danificados ou a aplicações antivírus. Para mais informações, leia mais abaixo.
+Se a janela do browser do Wallpaper Engine não estiver a funcionar, isso normalmente deve-se a controladores da placa gráfica danificados ou a aplicações antivírus. Para mais informações, leia mais abaixo.
 
-::: aviso Atenção Esta secção é acerca do **interface** do Wallpaper Engine estar preto ou danificado. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
+::: aviso Atenção Esta secção é acerca do **interface** do Wallpaper Engine estar preto ou danificado. Se os seus **wallpapers estiverem pretos** deve ir aqui: [Ecrã preto / vídeos não reproduzem](/noshow/notplaying.html). :::
 
-## Wallpaper Engine browser is Black or White
+## O browser do Wallpaper Engine está preto ou branco
 
-For most people, this means that the Wallpaper Engine user interface is being blocked by an antivirus application by mistake. Make sure to set up an exception in your antivirus application so that it ignores Wallpaper Engine, specifically all executables in the wallpaper_engine installation directory and especially **wallpaper_engine/bin/ui32.exe**.
+Para a maior parte das pessoas, isto significa que o internace para o utilizador do Wallpaper Engine está a ser bloqueado erradamente por uma aplicação antivírus. Certifique-se de que configura uma exceção na sua aplicação antivírus para que ignore o Wallpaper Engine, especificamente todos os executáveis do diretório de instalação wallpaper_engine e especialmente **wallpaper_engine/bin/ui32.exe**.
 
-In some cases, it is necessary to verify the Wallpaper Engine files afterwards or even to re-install Wallpaper Engine if your antivirus application has placed a permanent lock on some important Wallpaper Engine files:
+Em certos casos, a seguir é necessário verificar os ficheiros do Wallpaper Engine ou até reinstalar o Wallpaper Engine se a sua aplicação antivírus colocou um bloqueio permanente em alguns ficheiros importantes do Wallpaper Engine:
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Assistência do Steam: Verificar a integridade dos ficheiros da aplicação](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
 If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
 
