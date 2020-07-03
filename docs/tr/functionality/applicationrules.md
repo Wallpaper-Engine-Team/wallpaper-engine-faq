@@ -22,15 +22,15 @@ Belirli uygulamalar veya oyunlarla ilgili sorun yaşıyorsanız Wallpaper Engine
 
 ## Uygulama kuralı oluşturma
 
-Wallpaper Engine ayarlarında, *Performans* sekmesindeki *Uygulama Kuralları* etiketinin yanında bulunan *Düzenle* tuşuna tıklayarak ayarladığınız tüm özel kurallara göz atabilirsiniz. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+Wallpaper Engine ayarlarında, *Performans* sekmesindeki *Uygulama Kuralları* etiketinin yanında bulunan *Düzenle* tuşuna tıklayarak ayarladığınız tüm özel kurallara göz atabilirsiniz. Belirli bir uygulama için *Yeni kural oluştur*'a tıklayarak Wallpaper Engine'e belirli bir davranış atayabilirsiniz.
 
-![Application Rules Overview](./applicationrule.gif)
+![Uygulama Kurallarına Genel Bakış](./applicationrule.gif)
 
-You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+Sisteminizde çalışan tüm .exe dosyalarının bir listesi sunulur. Listeden bir .exe seçebilir veya sorun yaşadığınız .exe'nin tam adını yazabilirsiniz. Koşul ve davranışı diğer iki seçenekle yapılandırabilirsiniz. Daha fazla bilgi ve somut örnek için aşağıya bakın.
 
-::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: ipucu Wallpaper Engine yalnızca tam .exe adını önemser, konum önemli değildir. Bu nedenle *Uygulama ismi* alanına herhangi bir .exe adını yazabilirsiniz. Sadece büyük ve küçük harfler de dâhil olmak üzere .exe adının tam olarak eşleştiğinden emin olun. :::
 
-### Fixing performance problems with apps or games
+### Uygulamalar veya oyunlarla ilgili performans sorunlarını çözme
 
 Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
 
