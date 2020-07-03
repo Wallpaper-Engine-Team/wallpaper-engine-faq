@@ -18,9 +18,9 @@ Ancak bazı antivirüsler bunun kötü amaçlı davranış olduğu yönünde yan
 
 *Yüksek öncelikli* seçeneğini kullanıyorsanız bu seçeneği devre dışı bırakarak *normal* otomatik başlatmaya geçiş yapmayı deneyin. Yukarıda da açıklandığı üzere yüksek öncelikli mod daha hızlı başlar ancak çeşitli nedenlerle, özellikle de bazen antivirüs yazılımları tarafından engellendiği için daha az güvenilirdir.
 
-If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
+Normal öncelikli seçeneğini kullanıyorsanız ve uygulama Windows ile birlikte başlamıyorsa yüksek öncelikli seçeneğine geçmeyi deneyin ve sorunun ortadan kalkıp kalkmadığına bakın.
 
-If neither the high-priority or normal-priority option work for you, check the antivirus software you have installed on your system. Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
+Yüksek öncelikli veya normal öncelikli seçeneklerinden her ikisi de çalışmıyorsa sisteminize yüklediğiniz antivirüs yazılımını kontrol edin. Bazı antivirüs ve güvenlik duvarı uygulamaları, bilgisayarınız başlatıldığında Wallpaper Engine'in otomatik olarak başlamasını engelleyebilir. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
 
 Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
 
