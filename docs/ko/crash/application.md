@@ -13,7 +13,7 @@ Wallpaper Engine는 안정적인 소프트웨어로 수백만 명이 사용하�
 
 ## Wallpaper Engine 작동 중단 빠른 해결 시도
 
-Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 드라이버를 깨끗하게 재설치하세요. 즉 우선 드라이버를 제거하여 기존 드라이버가 완전히 제거된 뒤 최신 버전의 드라이버를 재설치합니다. 일부 드라이버의 고급 섹션에는 "완전 재설치 실행" 옵션이 있습니다. 손상된 드라이버를 모두 자동으로 지우려면 이 옵션을 사용해야 합니다. 모든 대형 공급업체의 최신 그래픽 카드 드라이버는 아래에서 받을 수 있습니다:
+Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 드라이버를 깨끗하게 재설치하세요. 즉 우선 드라이버를 제거하여 기존 드라이버가 완전히 제거된 뒤 최신 버전의 드라이버를 재설치합니다. 일부 드라이버의 고급 섹션에는 "완전 재설치 실행" 옵션이 있습니다. 손상된 드라이버를 모두 자동으로 지우려면 이 옵션을 사용해야 합니다. 모든 대형 공급업체의 최신 그래픽 카드 드라이버는 아래에서 받을 수 있습니다:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
@@ -25,47 +25,47 @@ Wallpaper Engine 강제 종료의 원인을 알 수 없다면, 그래픽 카드 
 
 * [Steam 지원: 응용프로그램 파일의 무결성 확인](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Wallpaper Engine이 다른 응용프로그램을 강제 종료한 것 같습니다
+## Wallpaper Engine 때문에 다른 응용프로그램이 작동 중단된 것 같습니다
 
 ### KERNELBASE.dll / ntdll.dll
 
-이것은 Windows 커널 코어의 자체 강제 종료로, 일반적으로 바이러스 백신 응용프로그램 또는 손상된 그래픽 카드 드라이버로 발생합니다. 자세한 내용의 위의 빠른 해결 섹션을 참조하세요. 또한 이 현상은 손상된 시스템 구성 요소로 일어날 수도 있습니다. Microsoft 시스템 파일 검사 도구를 사용해 손상되었을 수 있는 Windows 파일을 복구하세요:
+이것은 Windows 커널 코어의 자체 작동 중단으로, 일반적으로 바이러스 백신 응용프로그램 또는 손상된 그래픽 카드 드라이버로 발생합니다. 자세한 내용의 위의 빠른 해결 섹션을 참조하세요. 또한 이 현상은 손상된 시스템 구성 요소로 일어날 수도 있습니다. Microsoft 시스템 파일 검사 도구를 사용해 손상되었을 수 있는 Windows 파일을 복구하세요:
 
 * [Microsoft 시스템 파일 검사 도구](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-이것은 DirectX의 강제 종료로, 일반적으로 바이러스 백신 응용프로그램 또는 손상된 그래픽 카드 드라이버로 발생합니다. 자세한 내용의 위의 빠른 해결 섹션을 참조하세요. 또한 이 현상은 손상된 시스템 구성 요소로 일어날 수도 있습니다. Microsoft 시스템 파일 검사 도구를 사용해 손상되었을 수 있는 Windows 파일을 복구하세요:
+이것은 DirectX의 작동 중단으로, 일반적으로 바이러스 백신 응용프로그램 또는 손상된 그래픽 카드 드라이버로 발생합니다. 자세한 내용의 위의 빠른 해결 섹션을 참조하세요. 또한 이 현상은 손상된 시스템 구성 요소로 일어날 수도 있습니다. Microsoft 시스템 파일 검사 도구를 사용해 손상되었을 수 있는 Windows 파일을 복구하세요:
 
 * [Microsoft 시스템 파일 검사 도구](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-이것은 Windows 미디어 파운데이션의 강제 종료로, 손상된 그래픽 카드 드라이버 때문에 발생할 수도 있지만 보통 시스템의 비디오 코덱 손상 또는 누락이 원인입니다. 이런 유형의 강제 종료 문제를 해결하려면 저희의 비디오 해결 가이드를 따르세요:
+이것은 Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 카드 드라이버 때문에 발생할 수도 있지만 보통 시스템의 비디오 코덱 손상 또는 누락이 원인입니다. 이런 유형의 작동 중단을 해결하려면 저희의 비디오 해결 가이드를 따르세요:
 
 [여기를 클릭하세요](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-이 강제 종료는 보통 Windows의 자체 문제로 발생합니다. 사운드 카드 드라이버를 최신 버전으로 재설치해보세요. 이 방법으로 문제를 해결할 수 있습니다. 또한 Wallpaper Engine 설정의 *성능* 탭에서 *타 응용프로그램 오디오 재생* 옵션을 *계속 실행*으로 변경하여 이 강제 종료 문제를 해결할 수도 있습니다.
+이 작동 중단은 보통 Windows의 자체 문제로 발생합니다. 사운드 카드 드라이버를 최신 버전으로 재설치해보세요. 이 방법으로 문제를 해결할 수 있습니다. 또한 Wallpaper Engine 설정의 *성능* 탭에서 *타 응용프로그램 오디오 재생* 옵션을 *계속 실행*으로 변경하여 이 작동 중단 문제를 해결할 수도 있습니다.
 
 ### atiumdag.dll / atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. 기존 드라이버가 손상되었으면, 우선 완전히 제거하는 것이 중요합니다. :::
+::: 팁 설치 중 "완전 재설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. 기존 드라이버가 손상되었으면, 우선 완전히 제거하는 것이 중요합니다. :::
 
 ### nvwgf2umx.dll
 
-시스템의 Nvidia 드라이버가 강제 종료됩니다. Nvidia 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요:
+시스템의 Nvidia 드라이버가 작동 중단됩니다. Nvidia 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: tip Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first. :::
+::: 팁 설치 중 "완전 재설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. If your current drivers are broken, it's important to fully clear them first. :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-시스템의 Intel 그래픽 드라이버가 강제 종료됩니다. Intel 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요:
+시스템의 Intel 그래픽 드라이버가 작동 중단됩니다. Intel 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
@@ -78,7 +78,7 @@ This type of crash occurs to due broken audio software installed on your system.
 
 The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
-## 강제 종료 오류 0xc000007b
+## 작동 중단 오류 0xc000007b
 
 This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
