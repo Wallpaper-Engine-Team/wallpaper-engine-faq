@@ -24,11 +24,11 @@ tags:
 
 另一項罕見原因可能是，如果您 (或系統上的應用程式) 將 Wallpaper Engine 的 .exe 檔案設定為以管理員身分執行，這樣也無法自動啟動，您需要先刪除管理員設定，關閉自動啟動後再開啟。
 
-If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
+如果無法自動啟動，實際上應該都與過於盡責的防毒軟體有關。 如果安裝了防毒或防火牆應用程式，請再三檢查所有設定與安全等級。
 
-## Wallpaper Engine starts with Windows but (some) wallpapers are not shown
+## Wallpaper Engine 與 Windows 一起啟動，但 (部分) 桌布不顯示
 
- Check if the Wallpaper Engine icon is visible in the Windows tray next to the clock after you start your computer. If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
+ 電腦開機後，檢查桌面右下角的通知區域，確認 Wallpaper Engine 圖示是否出現在時鐘旁邊。 如果開機後圖示出現，但部分或所有顯示器並未顯示其桌布，則代表顯示卡驅動程式有問題。 Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
 
  ## Wallpaper Engine assigns wrong wallpapers at system start-up
 
