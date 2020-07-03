@@ -76,7 +76,7 @@ Wallpaper Engine — тщательно тестируемая и хорошо �
 
 ### fraps32.dll
 
-Сбой был вызван Fraps — программой для подсчёта количества кадров в секунду (FPS) и захвата видео с экрана. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
+Сбой был вызван Fraps — программой для подсчёта количества кадров в секунду (FPS) и захвата видео с экрана. С 2013 года на Fraps не выходили обновления, и в целом эта программа очень сильно устарела. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
 ## Crash error 0xc000007b
 
