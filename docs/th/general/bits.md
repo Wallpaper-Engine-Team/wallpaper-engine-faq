@@ -10,6 +10,6 @@
 
 ## วิธีการตั้งค่า Wallpaper Engine ให้เริ่มต้นโดยอัตโนมัติในเวอร์ชัน 32 Bit หรือ 64 Bit เมื่อ Windows เริ่มทำงาน
 
-ก่อนอื่นให้ปิด Wallpaper Engine ทางไอคอนที่แถบงาน (คลิกขวาที่ไอคอน Wallpaper Engine ที่แถบงาน Windows -> "ออกจากโปรแกรม") This is important as Steam will otherwise not launch Wallpaper Engine and only bring the already running version to the foreground.
+ก่อนอื่นให้ปิด Wallpaper Engine ทางไอคอนที่แถบงาน (คลิกขวาที่ไอคอน Wallpaper Engine ที่แถบงาน Windows -> "ออกจากโปรแกรม") สิ่งนี้มีความสำคัญเนื่องจาก Steam จะไม่เปิดใช้งาน Wallpaper Engine และจะเรียกใช้เฉพาะเวอร์ชันที่เปิดอยู่เบื้องหน้าเท่านั้น
 
-Once Wallpaper Engine is turned off, go to Steam and start either the 32 Bit or 64 Bit version, depending on which version you want to automatically start. Go to the Wallpaper Engine settings and at the top of the "General" tab, enable autostart. If it is already enabled, turn it off completely and then turn it back on. This will register the current version as the one which will be automatically started alongside Windows. 
+เมื่อปิด Wallpaper Engine แล้วให้ไปที่ Steam และเริ่มต้นเวอร์ชัน 32 Bit หรือ 64 Bit ขึ้นอยู่กับเวอร์ชันที่คุณต้องการให้เริ่มต้นโดยอัตโนมัติ ไปที่การตั้งค่า Wallpaper Engine และที่ด้านบนของแท็บ "ทั่วไป" ให้เปิดใช้งานการเริ่มต้นอัตโนมัติ หากมีการเปิดใช้งานอยู่แล้ว ให้ปิดโดยสมบูรณ์จากนั้นเปิดใหม่อีกครั้ง วิธีนี้จะเป็นการลงทะเบียนเวอร์ชันปัจจุบันให้เป็นเวอร์ชันที่เริ่มต้นโดยอัตโนมัติพร้อม Windows 
