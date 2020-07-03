@@ -4,15 +4,15 @@
 
 ## ยกเว้นวอลเปเปอร์บางประเภท (เช่น อนิเมะ)
 
-คุณสามารถกรองหมวดหมู่ที่คุณไม่ชอบได้ในแอพพลิเคชัน Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+คุณสามารถกรองหมวดหมู่ที่คุณไม่ชอบได้ในแอพพลิเคชัน เปิดแท็บ "เวิร์กชอป" ใน Wallpaper Engine และเปิดใช้งานแถบตัวกรองด้านข้างโดยคลิกที่ปุ่ม "กรองผลลัพธ์" ที่มุมซ้ายบน ยกเลิกการเลือกหมวดหมู่ทั้งหมดที่คุณไม่ต้องการเห็นในผลลัพธ์
 
-If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+หากคุณไม่ต้องการดูวอลเปเปอร์อนิเมะ คุณสามารถลบหมวดหมู่ *อนิเมะ* และ *MMD (Miku-Miku-Dance)* ออกได้ นอกจากนี้คุณอาจต้องการลบหมวดหมู่ *การ์ตูน* และ *เด็กสาว* เนื่องจากมีอนิเมะบางส่วนในนั้น แต่จะเป็นการกรองเนื้อหาอื่น ๆ เช่นกัน
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## Excluding certain age ratings
+## ยกเว้นการจัดระดับความเหมาะสมตามอายุ
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Steam Workshop อนุญาตให้มีเนื้อหาสำหรับผู้ใหญ่ในระดับหนึ่ง เช่น ภาพเปลือย หากคุณไม่ต้องการเห็นเนื้อหาประเภทนี้ ให้เปิดใช้งานการจัดอันดับอายุโดยเลือก "ทุกคน" ในตัวกรองเท่านั้น:
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
