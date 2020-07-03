@@ -15,11 +15,11 @@ Wallpaper Engine設定の「プラグイン」セクションに、**iCUE & Chro
 
 ## RGBハードウェアの色が明るすぎる
 
-デフォルトでは、RGBカラーは少し強めになっています。 On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+デフォルトでは、RGBカラーは少し強めになっています。 ほとんどの壁紙では、こうすることで見栄えが良くなるのですが、それが好みでない場合は、RGBプラグインの設定にある**LEDカラーをブースト**オプションを無効にすることでオフにできます。
 
-## My RGB hardware does not work
+## RGBハードウェアが動作しない
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engineは、RGBハードウェアと直接にやり取りすることはできません。すべてのカラー情報は、まずRGBドライバに送られます。 1つ、あるいは複数のハードウェアが動作していない場合、問題は、ハードウェアベンダーのソフトウェアの側にあると考えられます。 ハードウェアが非常に古い場合、ハードウェアベンダーによって完全にサポートされておらず、動作しません。 Wallpaper Engineの側で修正することはできません。
 
 If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
 
