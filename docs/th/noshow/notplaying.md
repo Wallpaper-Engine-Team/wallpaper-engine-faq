@@ -12,38 +12,38 @@
 
 ::: คำเตือน โปรดทราบ หัวข้อนี้เกี่ยวข้องกับปัญหาที่ **วอลเปเปอร์** ของ Wallpaper Engine เป็นสีดำหรือเล่นไม่ถูกต้อง หาก **ส่วนต่อประสาน ของ Wallpaper Engine เป็นสีดำ** คุณต้องไปที่นี่: [ส่วนต่อประสานกับผู้ใช้ของ Wallpaper Engine เป็นสีดำ](/interface/broken.html#wallpaper-engine-interface-is-black) :::
 
-## Clean graphics card driver re-installation
+## ล้างการติดตั้งไดรเวอร์การ์ดจอแล้วทำการติดตั้งอีกครั้ง
 
-For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
+สำหรับผู้ใช้ส่วนใหญ่ การติดตั้งไดรเวอร์การ์ดจอใหม่ทั้งหมดช่วยแก้ไขปัญหาส่วนใหญ่ที่เกี่ยวข้องกับวิดีโอวอลเปเปอร์ ซึ่งรวมถึงหน้าจอสีดำและในผู้ใช้ที่วอลเปเปอร์แสดงในหน้าต่างแยกต่างหาก (ชื่อ **"หน้าต่าง ActiveMovie"**)
 
-1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
+1. ดาวน์โหลดไดรเวอร์การ์ดจอล่าสุดสำหรับการ์ดจอของคุณ (หากคุณมีการ์ดจอสองตัวเช่น Nvidia และ Intel คุณต้องดาวน์โหลดไดรเวอร์ล่าสุดสำหรับทั้งคู่):
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. ถอนการติดตั้งไดรเวอร์การ์ดจอปัจจุบันและลบการตั้งค่าที่มีอยู่ทั้งหมดหากระบบแจ้งเตือน ไดรเวอร์ของ Nvidia มีช่องทำเครื่องหมายซึ่งระบุว่า "ทำการติดตั้งใหม่ทั้งหมด" ซึ่งใช้วิธีนี้ได้เช่นกัน
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+หากคุณไม่แน่ใจว่าจะทำเช่นไร คุณสามารถใช้ [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) ได้เช่นกัน
 
-3. Install the drivers you have just downloaded in step 1.
-4. Restart your PC again, see if it works now.
+3. ติดตั้งไดรเวอร์ที่คุณเพิ่งดาวน์โหลดในขั้นตอนที่ 1
+4. รีสตาร์ทคอมพิวเตอร์ของคุณอีกครั้งและดูว่าทำงานได้หรือไม่
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: เคล็ดลับ โปรดตรวจสอบให้แน่ใจว่าคุณได้ทำการติดตั้งใหม่ ซึ่งหมายความว่าก่อนการติดตั้งไดรเวอร์ใหม่คุณต้องลบไดรเวอร์การ์ดจอและการตั้งค่าไดรเวอร์ปัจจุบันออกทั้งหมด มิฉะนั้นจะไม่สามารถทำงานได้อย่างถูกต้อง :::
 
 ## Codec Tweak Tool
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+หากหลังจากติดตั้งไดรเวอร์การ์ดจอใหม่แล้วยังคงไม่ทำงาน ลองรีเซ็ตตัวแปลงสัญญาณวิดีโอ:
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* ดาวน์โหลด Codec Tweak Tool: [คลิกที่นี่](https://www.codecguide.com/download_other.htm)
+* ตรวจสอบให้แน่ใจว่าในเมนู "Media Foundation" เลือก **ไม่** ทั้งหมดในช่องทำเครื่องหมาย จากนั้นใช้การตั้งค่า:
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![ยกเลิกการเลือกตัวเลือกทั้งหมดในเมนู Media Foundation](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* รีสตาร์ทคอมพิวเตอร์แล้วลองใช้วอลเปเปอร์ที่ได้รับผลกระทบอีกครั้ง
 
-## Additional video codecs
+## ตัวแปลงสัญญาณวิดีโอเพิ่มเติม
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+หากวิดีโอวอลเปเปอร์ที่ได้รับผลกระทบยังทำงานไม่ถูกต้องหลังจากทำตามขั้นตอนข้างต้นแล้ว โปรดดาวน์โหลด LAV และทำตามคำแนะนำในคู่มือนี้เพื่อใช้ DirectShow:
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [การใช้ LAV และ DirectShow](/videos/lav.html)
