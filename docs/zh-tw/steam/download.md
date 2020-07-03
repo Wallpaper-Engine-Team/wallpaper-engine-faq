@@ -19,15 +19,15 @@ tags:
 ## 桌布下載停在 0% 或 100%（或任何百分比）
 Steam 尚未完成下載與驗證檔案。 下載進度停住一陣子時，若您等了一段時間後 Steam 下載仍未執行，請嘗試以下方法：
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+* 在 Steam 的選項中清除 Steam 的下載快取：
+  * [清除 Steam 下載快取](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* 之後，在 Steam 中驗證 Wallpaper Engine 的檔案：
+  * [驗證 Wallpaper Engine 的檔案](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* 若所有下載仍然停住：**關閉 Steam** 之後**刪除以下目錄的內容**：
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * 若您安裝了防毒應用程式，請確保該程式明確排除上述目錄
+    * **請注意：** `C:\Program Files (x86)\Steam` 是 Steam 的預設路徑，若您將 Steam 安裝至別處，請指定該處。
+* 重新啟動 Steam。 別開啟任何遊戲。 在 Steam 的下載分頁中檢查進度並繼續任何已暫停的下載。
 
 ::: details Click here to see more possible solutions if the steps above did not fix your download problems
 * Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
