@@ -1,18 +1,18 @@
-# Editing Downloaded Wallpapers
+# Modifier un fond d'écran téléchargé
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+Généralement, Wallpaper Engine ne tolère pas la modification de fonds d'écran téléchargés. Cependant, il est possible de modifier les fonds d'écran en fonction de leur type (vous pouvez trouver le type sous l'image d'aperçu à droite) à l'aide d'applications extérieures.
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+N'oubliez pas de demander l'autorisation des créateurs des fonds d'écran avant de republier leur travail. En cas de doute, contactez toujours les auteurs avant de publier quoique ce soit sur le Workshop de Steam.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## Comment trouver les fichiers sources d'un fond d'écran ?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+Faites un clic droit sur un fond d'écran dans l'onglet "Installé" et sélectionner "Ouvrir dans l'explorateur de fichiers".
 
-## How to edit wallpapers of different types
+## Comment modifier des fonds d'écran
 
-### Scene wallpapers
+### Scènes
 
 Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
