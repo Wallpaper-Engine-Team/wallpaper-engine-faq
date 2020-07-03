@@ -3,9 +3,9 @@ tags:
   - mdmp
 ---
 
-# Wallpaper Engine crashing
+# Wallpaper Engine 강제 종료
 
-Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. If the crash message you are seeing mentions any **.dll** files, please have a look at the following list and see if you can find a more accurate description for specific **.dll** causing the crash on your system:
+Wallpaper Engine는 안정적인 소프트웨어로 수백만 명이 사용하며 철저한 테스트를 거쳤습니다 - 실질적으로 본 응용프로그램을 강제 종료하는 버그가 존재할 가능성은 비교적 희박합니다. 강제 종료 메시지에서 **.dll** 파일을 언급하면, 아래의 목록을 살펴보고 시스템에서 강제 종료를 일으키는 특정 **.dll**에 대해 보다 정확한 설명이 확인하세요.
 
 [[toc]]
 
