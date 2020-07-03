@@ -61,4 +61,4 @@ Si Steam ne peut pas télécharger certains fichiers, cela peut être dû à un 
 
 Si vous avez un antivirus, configurez une exception pour ce dossier pour éviter de bloquer les téléchargements : `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### Article lié : [Télécharger de nouveau les fonds d'écran sur Steam](/steam/redownload)
