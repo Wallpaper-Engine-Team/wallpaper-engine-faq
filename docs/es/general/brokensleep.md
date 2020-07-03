@@ -13,15 +13,15 @@ Windows no puede hibernar si hay transmisiones de audio activas. Puede solventar
 5. Baje hasta encontrar «Configuración multimedia».
 6. Cambie la configuración de «Al compartir multimedia» a «Permitir que el equipo entre en modo ausente» (salvapantallas) **o** «Permitir que el equipo entre en modo de suspensión» (hibernación).
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![Habilitar «Permitir que el equipo entre en modo de suspensión».](./power.gif)
 
 ## Problemas de hibernación con fondos de pantalla tipo web
 
 Los fondos de pantalla web utilizan un navegador similar a Google Chrome («CEF») que impide que el equipo hiberne. Hasta que se solucione, puede solventar el problema con unas líneas de comandos.
 
 1. Busque «cmd.exe» en Windows, haga clic derecho y seleccione «Ejecutar como administrador» (este paso es muy importante, si no, no funcionará).
-2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
-3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
+2. Use el comando `powercfg /requests` para ver todos los procesos que impiden que el equipo hiberne (fíjese si hay otros programas pueden tener la culpa).
+3. Use los tres comandos siguientes para permitirle al sistema hibernar mientras esté activo Wallpaper Engine:
 
 ```
 powercfg /requestsoverride PROCESS webwallpaper32.exe AWAYMODE DISPLAY SYSTEM
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+Además, puede cambiar la opción **Monitor en suspensión** en la pestaña **Rendimiento** de Wallpaper Engine a *Detener (liberar memoria)* y apagar la pantalla. Así, Wallpaper Engine dejará de reproducir todo cuando apague la pantalla al dejar el ordenador desatendido.
