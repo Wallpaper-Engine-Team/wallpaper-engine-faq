@@ -12,35 +12,35 @@ Las pantallas negras y otros problemas con los fondos de tipo *vídeo* son *siem
 
 ::: advertencia Tenga en cuenta que esta sección trata de que los **fondos** de Wallpaper Engine se quedan en negro o no se reproducen correctamente. Si la **interfaz de Wallpaper Engine se queda negra**, visite esta sección: [La interfaz a de Wallpaper Engine se queda en negro](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
-## Clean graphics card driver re-installation
+## Vuelva a instalar los controladores de la tarjeta gráfica
 
-For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
+La mayoría de problemas con los fondos de vídeo se resuelven después de volver a instalar los controladores de la tarjeta gráfica. Funciona tanto como para las pantallas en negro como para los fondos de pantalla que aparecen en otra ventana (conocido como **«Ventana ActiveMovie»**).
 
-1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
+1. Descargue los controladores más recientes de su tarjeta gráfica (si tiene dos, como Nvidia o Intel, descárguelos todos):
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. Desinstale los controladores que tiene instalados y borre todos los archivos si le preguntan. Los controladores de Nvidia tienen una casilla llamada «Realizar instalación limpia», que también sirve.
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+También puede usar [Display Driver Uninstaller («DDU»)](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) si no sabe cómo hacerlo.
 
-3. Install the drivers you have just downloaded in step 1.
-4. Restart your PC again, see if it works now.
+3. Instale los controladores que descargó en el paso 1.
+4. Reinicie el equipo y compruebe si ha funcionado.
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: consejo Es muy importante que haga una instalación limpia. Es decir, tiene que eliminar por completo los controladores de la tarjeta gráfica y la configuración antes de instalar los nuevos, si no, no funcionará. :::
 
 ## Codec Tweak Tool
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+Si tras hacer una instalación limpia de los controladores sigue sin funcionar, reinicie los codecs de vídeo:
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* Descargue Codec Twear Tool: [haga clic aquí](https://www.codecguide.com/download_other.htm).
+* Asegúrese de que **no** están seleccionadas todas las casillas de «Media Foundation» y aplique la configuración:
 
 ![Uncheck all options in the Media Foundation options](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* Reinicie el equipo y compruebe los fondos afectados de nuevo.
 
 ## Additional video codecs
 
