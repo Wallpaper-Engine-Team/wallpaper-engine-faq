@@ -8,4 +8,4 @@ Hay usuarios que utilizan *aceleradores* que también tienen problemas a la hora
 
 ## No aparecen fondos o aparecen muy pocos
 
-You likely have too strict filters enabled. Try resetting all filters by clicking on the "Reset filters" button in the filter sidebar.
+Es posible que tenga activos filtros muy estrictos. Haga clic en el botón «Reiniciar filtros» en la barra lateral de filtros para reiniciarlos.
