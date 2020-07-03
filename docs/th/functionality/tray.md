@@ -12,9 +12,9 @@
 
 1. ไปที่ไดเรกทอรีรีจิสทรีต่อไปนี้: *HKEY_CURRENT_USER\Software\WallpaperEngine*
 2. คลิกขวาที่โฟลเดอร์รีจิสทรี *WallpaperEngine* เลือก *New* จากนั้น *DWORD (32 Bit) Value*
-3. Give the registry the following name: *hideTrayIcon*
-4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
-5. Double-click on the registry key and give it the value: *1*
-6. Restart Wallpaper Engine, the application will now not show a tray icon.
+3. ตั้งชื่อรีจิสทรีดังนี้: *hideTrayIcon*
+4. ตรวจสอบให้แน่ใจว่าชื่อถูกต้อง ไม่มีช่องว่างและจะต้องเขียนตรงตามด้านบน
+5. ดับเบิลคลิกที่คีย์รีจิสทรีและตั้งค่า (Value): *1*
+6. รีสตาร์ท Wallpaper Engine ตอนนี้แอพพลิเคชันจะไม่แสดงไอคอนที่แถบงาน
 
-You can reverse this process by setting *hideTrayIcon* to *0* or deleting it altogether, followed by restarting Wallpaper Engine. 
+คุณสามารถย้อนกลับกระบวนการนี้ได้โดยการตั้งค่า *hideTrayIcon* เป็น *0* หรือลบออกทั้งหมดแล้วรีสตาร์ท Wallpaper Engine 
