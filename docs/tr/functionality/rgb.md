@@ -3,7 +3,7 @@ tags:
   - donanım
 ---
 
-# RGB hardware support (iCUE & Chroma)
+# RGB donanım desteği (iCUE & Chroma)
 
 Wallpaper Engine supports [**Razer Chroma**](https://www.razer.com/chroma) and [**Corsair iCUE**](https://www.corsair.com/icue), including systems which may integrate into either ecosystem.
 
