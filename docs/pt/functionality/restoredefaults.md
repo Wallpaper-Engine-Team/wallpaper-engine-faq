@@ -1,10 +1,10 @@
-# Restoring deleted default wallpapers
+# Restaurar wallpapers predefinidos que foram apagados
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+Se apagou wallpapers que foram pré-instalados com o Wallpaper Engine, pode recuperá-los apagando um ficheiro de configuração no seu diretório de instalação *wallpaper_engine*:
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. Desative completamente o Wallpaper Engine (clique com o botão direito no tabuleiro -> "Sair")
 
-2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
+2. Vá ao seu diretório do Wallpaper Engine we apague um ficheiro chamado "visibility.json". Por predefinição, o ficheiro está aqui:
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
