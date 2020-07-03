@@ -2,11 +2,11 @@
 
 La versión 64-bit puede soportar archivos más grandes (de más de 2GB), pero utiliza más memoria sin tener el cuenta el tamaño de los fondos. Por ejemplo, con un fondo de vídeo normal, la versión 64-bit podría usar 50MB más de RAM que la versión 32-bit. Esa es la única diferencia.
 
-::: consejo Le recomendamos utilizar la versión 32-bit, a no ser que tenga fondos tan grandes que hagan que se cuelgue. The large majority of users never encounter this problem. :::
+::: consejo Le recomendamos utilizar la versión 32-bit, a no ser que tenga fondos tan grandes que hagan que se cuelgue. La mayoría de los usuarios jamás tienen este probema. :::
 
-You may also opt for the 64-bit version when the video system on your PC has errors that only affect 32-bit programs. Should you ever have installed codec packs or alike, they may have permanently damaged the 32-bit Windows video system that Wallpaper Engine uses. If the 64-bit system is not affected, you'll be able to take advantage of that by using the 64-bit version of Wallpaper Engine and so you can avoid having to fix whatever got broken.
+Puede optar por la versión 64-bit si el sistema de vídeo de su equipo tiene errores que afectan solo a los programas 32-bit. Si ha tenido que instalar paquetes de codecs o similares, es posible que hayan dañado de forma permanente el sistema de vídeo de Windows que utiliza Wallpaper Engine. Si el sistema 64-bit no se ha visto afectado, podrá utilizar la versión 64-bit de Wallpaper Engine y así evitar tener que arreglar lo que sea que haya quedado dañado.
 
-::: warning Note Note that "Web" type wallpapers will always be executed with a 32-Bit executable (webwallpaper32.exe). The same applies to the user interface itself (ui32.exe). 64-Bit only applies when selecting wallpapers of the type "Scene" or "Video". :::
+::: advertencia Tenga en cuenta que los fondos de tipo web siempre se ejecutarán con un ejecutable de 32-bit (webwallpaper32.exe). Ocurre lo mismo con la interfaz de usuario (ui32.exe). Solo se utiliza 64-bit al seleccionar fondos de tipo «Escena» o «Vídeo». :::
 
 ## How to set-up Wallpaper Engine to autstart with either the 32 or 64 Bit version when Windows launches?
 
