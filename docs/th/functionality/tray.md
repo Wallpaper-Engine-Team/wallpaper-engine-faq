@@ -4,14 +4,14 @@
 
 ::: คำเตือน เราไม่แนะนำให้คุณทำเช่นนี้ เว้นแต่ว่าไอคอนที่แถบงานนั้นสร้างปัญหาให้กับคุณมากจนคุณยินดีที่จะยอมรับข้อเสียของการซ่อนไอคอนที่แถบงาน :::
 
-หลังจากซ่อนไอคอนที่แถบงานแล้ว วิธีเดียวที่จะปิด Wallpaper Engine คือการปิดผ่านตัวจัดการงานของ Windows You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+หลังจากซ่อนไอคอนที่แถบงานแล้ว วิธีเดียวที่จะปิด Wallpaper Engine คือการปิดผ่านตัวจัดการงานของ Windows คุณจะสามารถเปิดส่วนต่อประสานกับผู้ใช้ได้ทาง Steam หรือทางไฟล์ .exe เท่านั้น ซึ่งเป็นวิธีการที่ค่อนข้างไม่สะดวกและก่อให้เกิดความสับสน
 
-If you still want to proceed with hiding the tray icon, this is how you do it:
+หากคุณยังคงต้องการซ่อนไอคอนที่แถบงาน โปรดทำตามคำแนะนำด้านล่าง:
 
-In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
+ในการสร้างคีย์รีจิสทรี ให้เปิดเมนู Start ของ Windows ขึ้นมาแล้วพิมพ์ "regedit.exe" ซึ่งจะเปิด "Registry Editor"
 
-1. Go to the following registry directory: *HKEY_CURRENT_USER\Software\WallpaperEngine*
-2. Right-click on the *WallpaperEngine* registry folder, select *New* and then *DWORD (32 Bit) Value*.
+1. ไปที่ไดเรกทอรีรีจิสทรีต่อไปนี้: *HKEY_CURRENT_USER\Software\WallpaperEngine*
+2. คลิกขวาที่โฟลเดอร์รีจิสทรี *WallpaperEngine* เลือก *New* จากนั้น *DWORD (32 Bit) Value*
 3. Give the registry the following name: *hideTrayIcon*
 4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
 5. Double-click on the registry key and give it the value: *1*
