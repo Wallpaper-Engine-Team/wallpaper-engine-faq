@@ -14,7 +14,7 @@ tags:
 
 Wallpaper Engine не устанавливает никаких драйверов, не заменяет системные файлы и не совершает опасных или сомнительных действий, которые могут привести к аварийному завершению работы системы или посторонних программ.
 
-Ошибка в Wallpaper Engine в самом худшем случае может привести исключительно к сбою работы самой Wallpaper Engine. Ни одна ошибка в Wallpaper Engine не может вызвать аварийное завершение работы всей системы или посторонних программ. This is impossible, Microsoft has designed Windows this way and Wallpaper Engine adheres to this.
+Ошибка в Wallpaper Engine в самом худшем случае может привести исключительно к сбою работы самой Wallpaper Engine. Ни одна ошибка в Wallpaper Engine не может вызвать аварийное завершение работы всей системы или посторонних программ. Это просто невозможно: архитектура Windows не позволяет подобного, и эти правила распространяются и на Wallpaper Engine.
 
 ## Finding the cause of system crashes
 Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
