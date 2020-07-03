@@ -33,4 +33,4 @@ Si el problema persiste, cierre Wallpaper Engine Then re-launch Wallpaper Engine
 
 La interfaz de Steam tiene un error atípico que puede causar que la pantalla del programa se vea negra. Puede hacer lo siguiente:
 
-Cierre Wallpaper Engine (haga clic en el icono en la bandeja y seleccione «Salir»). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Cierre Wallpaper Engine (haga clic en el icono en la bandeja y seleccione «Salir»). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. Tras desactivar la opción, reinicie Wallpaper Engine a través de Steam. 
