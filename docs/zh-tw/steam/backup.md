@@ -8,7 +8,7 @@
 
 以下指南預設您的 Steam 與 Wallpaper Engine 安裝於「C:\Program Files (x86)\Steam\」，若您將 Steam / Wallpaper Engine 安裝於別處，請務必檢查該處。
 
-1. 找出 Steam 儲存桌布的資料夾，其預設路徑為 `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: 堤是 **431960** 是 Wallpaper Engine 的 Steam ID，上述目錄是 Steam 儲存所有 Wallpaper Engine 的下載所用的。 :::
+1. 找出 Steam 儲存桌布的資料夾，其預設路徑為 `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: 提示 **431960** 是 Wallpaper Engine 的 Steam ID，上述目錄是 Steam 儲存所有 Wallpaper Engine 的下載所用的。 :::
 2. Copy the folder 431960 to Wallpaper Engine's installation path here: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
 3. **Rename** the folder `431960` into `backup` so that the complete path looks like this: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
 4. The `backup` directory now includes all your previously downloaded wallpapers, each in their own sub-directory (the numbers represent the Steam Workshop ID of the wallpaper)
