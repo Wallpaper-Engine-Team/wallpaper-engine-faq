@@ -21,4 +21,4 @@ Wallpaper Engine retirera tous les fonds d'écran de la mémoire quand le *.exe*
 
 ## Conflits avec des outils d'enregistrement ou des overlays
 
-If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+Si vous faites du streaming, si vous enregistrez un jeu ou un logicielen overlay, assurez-vous qu'ils n'enregistrent pas accidentellement Wallpaper Engine en arrière-plan. C'est peut-être le cas si vous utilisez des fonctionnalités de streaming à partir de vos pilotes de carte graphique (Nvidia ShadowPlay, Nvidia Share ou AMD ReLive par exemple).
