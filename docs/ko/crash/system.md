@@ -21,6 +21,6 @@ Wallpaper Engine은 PC에서 3D 가속, 비디오 가속, 오디오가 필요합
 
 블루 스크린이 뜨면 인터넷에서 오류 코드를 검색하세요. 이것은 전역 시스템 오류이기 때문에 도움이 되는 여러 검색 결과를 찾을 수 있습니다.
 
-Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
+Geforce Experience를 포함한 오버레이 및 기록 프로그램이 문제를 유발할 수 있습니다. 관련된 모든 걸 제거해 보세요.
 
 스캔 도구를 사용해 잘 알려진 확인된 충돌 응용프로그램이 실행 중인지 확인해 보세요: [여기를 클릭하세요](/debug/scantool.html).
