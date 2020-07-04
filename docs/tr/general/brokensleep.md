@@ -13,7 +13,7 @@ Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper 
 5. Aşağı inin ve "Multimedya ayarları"nı açın
 6. "Medya paylaşılırken" seçeneğini "Bilgisayarın Uzakta Modu'na girmesine izin ver" (ekran koruyucular) **veya** "Bilgisayarın uyku moduna geçmesine izin ver" (hazırda bekletme) olarak ayarlayın
 
-![Enable "Allow the computer to sleep"](./power.gif)
+!["Bilgisayarın uyku moduna geçmesine izin ver"'i etkinleştirin](./power.gif)
 
 ## "Web" duvar kâğıtlarındaki hazırda bekletme sorunları
 
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+Ek olarak Wallpaper Engine ayarlarında bulunan **Performans** sekmesindeki **Uykuda göster** seçeneğini *Dur (boş bellek)* olarak değiştirebilir ve ekranınızı kapatabilirsiniz. Bu şekilde Wallpaper Engine bilgisayarınızı boş bırakıp ekranınızı kapattığınızda tüm oynatmaları durduracaktır.
