@@ -1,10 +1,10 @@
-# High GPU usage misconception
+# Malentendido con alto consumo de GPU
 
-The Windows Task Manager does not show the real GPU usage in most cases which is the cause for a lot of confusion. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
+El Administrador de tareas de Windows no muestra el verdadero uso de la GPU en la mayoría de los casos, lo que puede dar lugar a confusión. El consumo de GPU ignora el *consumo de energía* y la velocidad de reloj de la tarjeta gráfica, así que suele mostrar un consumo de GPU impreciso y bastante más alto de lo que es. Para ver el consumo real de la GPU, use una herramienta como GPU-Z:
 
-* [Download GPU-Z](https://www.techpowerup.com/gpuz/)
+* [Descargar GPU-Z.](https://www.techpowerup.com/gpuz/)
 
-## Finding out your actual GPU load
+## Averiguar la carga real de la GPU
 
 Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
 
