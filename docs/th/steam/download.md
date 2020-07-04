@@ -59,6 +59,6 @@ Steam ไม่สามารถดาวน์โหลดไฟล์บา�
 * เริ่มการใช้งาน Steam และตรวจสอบไฟล์ Wallpaper Engine:
   * [ตรวจสอบไฟล์ Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+หากคุณติดตั้งแอพพลิเคชันป้องกันไวรัส: กำหนดค่าข้อยกเว้นสำหรับไดเรกทอรีนี้เพื่อป้องกันไม่ให้ปิดกั้นการดาวน์โหลดเวิร์กชอปของ Steam: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### บทความที่เกี่ยวข้อง: [Steam ดาวน์โหลดวอลเปเปอร์ทั้งหมดอีกครั้ง](/steam/redownload)
