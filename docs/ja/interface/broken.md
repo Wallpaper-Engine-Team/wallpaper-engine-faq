@@ -1,15 +1,15 @@
 ---
 tags:
-  - user interface
-  - green
-  - white
-  - pixelated
-  - unreadable
+  - ユーザーインターフェース
+  - 緑
+  - 白
+  - ピクセル化
+  - 解読不能
 ---
 
-# Wallpaper Engine window not displayed correctly
+# Wallpaper Engineのウィンドウが正しく表示されない
 
-If your Wallpaper Engine browse window is not working, it is usually caused by faulty graphics card drivers or antivirus applications. Read below for more information.
+Wallpaper Engineブラウズウィンドウが正しく動作しない場合、通常は、グラフィックスカードドライバに問題があるか、アンチウイルスアプリケーションが干渉していることが原因です。 詳しくは下の説明をお読みください。
 
 ::: warning Please note This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
 
