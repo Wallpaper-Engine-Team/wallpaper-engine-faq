@@ -3,7 +3,7 @@ If you are having a technical problem or just a question about Wallpaper Engine,
 
 **It's best if you use the search bar in the upper right corner** or simply look on the list of all articles on the left - we have tried to categorize them sensibly. We have also listed the most frequently accessed help articles below, check if your problem is in there.
 
-::: tip Use the search bar in the upper right corner with single keywords. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black". :::
+::: tip Use the search bar in the upper right corner with single keywords. Par exemple, si vos fonds d'écran restent noirs, cherchez le mot-clé "noir". :::
 
 ## Most popular support articles
 
