@@ -21,4 +21,4 @@
 
 ## ปัญหาขัดแย้งกับเครื่องมือบันทึกหน้าจอหรือโอเวอร์เลย์
 
-หากคุณใช้เครื่องมือสตรีมเกม เครื่องมือบันทึกเกมหรือซอฟต์แวร์ที่มีระบบโอเวอร์เลย์ ตรวจสอบให้แน่ใจว่าซอฟต์แวร์เหล่านั้นไม่ได้บันทึก Wallpaper Engine ในพื้นหลังโดยไม่ได้ตั้งใจ This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+หากคุณใช้เครื่องมือสตรีมเกม เครื่องมือบันทึกเกมหรือซอฟต์แวร์ที่มีระบบโอเวอร์เลย์ ตรวจสอบให้แน่ใจว่าซอฟต์แวร์เหล่านั้นไม่ได้บันทึก Wallpaper Engine ในพื้นหลังโดยไม่ได้ตั้งใจ สิ่งนี้อาจเกิดขึ้นได้เช่นกันหากคุณใช้คุณสมบัติการสตรีมเกมจากไดรเวอร์การ์ดจอ (เช่น Nvidia ShadowPlay Nvidia Share หรือ AMD ReLive)
