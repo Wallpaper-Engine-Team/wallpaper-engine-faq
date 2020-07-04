@@ -8,7 +8,7 @@ Le gestionnaire des tâches de Windows n'affiche pas l'utilisation réelle du GP
 
 Une fois que vous avez installé GPU-Z, consultez l'onglet "Capteurs" pour voir la fréquence d'horloge du GPU et son usage :
 
-![Real GPU usage](./gpuz.png)
+![Usage réel du GPU](./gpuz.png)
 
 Dans cette capture d'écran, l'*usage du GPU* est à 24 %. Cependant, en haut, vous pouvez voir que la carte graphique est en basse consommation (202,5 MHz). C'est une très bonne situation, même si l'usage est à 24 %. L'utilisation réelle basée sur la fréquence d'horloge maximale de 1 823 MHz n'est que de **2,6 %** * (24 % x 202,5 MHz / 1 823 MHz) *.
 
@@ -20,6 +20,6 @@ Si vous voulez améliorer les performances de votre GPU :
 
 * Désactivez ou supprimez les outils d'overlay ou d'enregistrement, y compris Geforce Experience.
 * Réduisez le paramètre de fréquence d'images et désactivez le MSAA (cela ne change rien à la qualité des fonds d'écran en 2D).
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+    * Cela n'influencera pas les performances des vidéos, elles ont des fréquences d'images et une qualité fixes.
+    * La résolution et la fréquence d'images des fonds d'écran vidéo influencent ces paramètres, utilisez donc des vidéos avec un FPS inférieur pour réduire l'usage du GPU
+* Reliez vos écrans au même GPU pour ne pas surcharger Windows.
