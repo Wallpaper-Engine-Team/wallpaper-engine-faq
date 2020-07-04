@@ -1,13 +1,13 @@
 ---
 tags:
-  - email
-  - help
-  - support
+  - 이메일
+  - 도움말
+  - 지원
 ---
 
-# Contact
+# 문의
 
-If you have a technical problem with Wallpaper Engine, please try and resolve it with the FAQ first. Most technical support tickets we received can be fixed with the FAQ.
+Wallpaper Engine 관련 기술적 문제가 발생하면, 우선 FAQ를 확인해 해결해 보세요. Most technical support tickets we received can be fixed with the FAQ.
 
 You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
 
