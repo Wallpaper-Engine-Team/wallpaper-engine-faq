@@ -1,7 +1,7 @@
 # Steam แสดง "เล่นเกม" เสมอ
 Wallpaper Engine ควรแสดงบน Steam ในขณะที่เข้าถึงคุณลักษณะ Workshop เท่านั้น (การดำเนินการนี้บังคับใช้โดย Valve / Steam เมื่อเปิดเบราเซอร์หรือตัวแก้ไข) อย่างไรก็ตามหาก Wallpaper Engine ยังคงปรากฏขึ้นหลังจากปิดหน้าต่างทั้งหมดแล้ว อาจเป็นเพราะหน้าต่างปิดไม่สนิท (มองหา ui32.exe ในตัวจัดการงาน) หรือคุณอาจพบข้อผิดพลาดของ Steam ที่รู้จักกันดี คุณสามารถหลีกเลี่ยงได้ด้วยวิธีการต่อไปนี้
 
-หากคุณพบปัญหานี้บ่อยครั้ง คุณสามารถหลีกเลี่ยงปัญหานี้ได้โดยไม่เปิดตัวโปรแกรมผ่าน Steam แต่ให้เริ่มโปรแกรมโดยตรงจากไดเรกทอรีการติดตั้ง wallpaper_engine โดยค่าเริ่มต้นคือ `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe` If Wallpaper Engine is running already, completely turn it off first and then re-run it from this directory and possibly turn the autostart off and back on in the Wallpaper Engine settings.
+หากคุณพบปัญหานี้บ่อยครั้ง คุณสามารถหลีกเลี่ยงปัญหานี้ได้โดยไม่เปิดตัวโปรแกรมผ่าน Steam แต่ให้เริ่มโปรแกรมโดยตรงจากไดเรกทอรีการติดตั้ง wallpaper_engine โดยค่าเริ่มต้นคือ `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe` หาก Wallpaper Engine กำลังทำงานอยู่ โปรดปิดลงอย่างสมบูรณ์จากนั้นเปิดใช้งานโปรแกรมอีกครั้งทางไดเรกทอรีนี้ นอกจากนี้คุณอาจต้องปิดและเปิดการเริ่มต้นอัตโนมัติในการตั้งค่า Wallpaper Engine อีกครั้ง
 
 Every time Steam reconnects to the internet, due to your internet turning off and on, Steam may go a little crazy when it comes to your in-game status which can cause issues like that. As mentioned above, start the program directly or via the autostart functionality and not through Steam, this will likely prevent the issue from happening for you.
 
