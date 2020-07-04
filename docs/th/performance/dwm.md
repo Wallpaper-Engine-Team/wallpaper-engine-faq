@@ -1,8 +1,8 @@
 # ประสิทธิภาพ GPU แบบในตัวและแบบเฉพาะในเดสก์ทอปทำงานได้ไม่ดี (dwm.exe)
 
-แม้ว่าจะมีการติดตั้ง GPU เฉพาะไว้ แต่หากคุณเปิดใช้งาน GPU แบบในตัวใน BIOS ของคอมพิวเตอร์เดสก์ทอป คุณอาจประสบปัญหากับประสิทธิภาพที่ไม่ดีและ *dwm.exe* ใช้งาน CPU สูง หากเป็นไปได้อย่าเปิดใช้งาน GPU ในตัวและเสียบจอแสดงผลเข้ากับ GPU เฉพาะของคุณ Using both independent graphics solutions at the same time will break hardware acceleration of the desktop window manager, it's important that all monitors are plugged into your main graphics card. This is not a bug or issue in Wallpaper Engine, it is problem that affects all mulit-monitor software with hardware setups where not all monitors are plugged into the main graphics card.
+แม้ว่าจะมีการติดตั้ง GPU เฉพาะไว้ แต่หากคุณเปิดใช้งาน GPU แบบในตัวใน BIOS ของคอมพิวเตอร์เดสก์ทอป คุณอาจประสบปัญหากับประสิทธิภาพที่ไม่ดีและ *dwm.exe* ใช้งาน CPU สูง หากเป็นไปได้อย่าเปิดใช้งาน GPU ในตัวและเสียบจอแสดงผลเข้ากับ GPU เฉพาะของคุณ การใช้โซลูชันการ์ดจออิสระทั้งสองตัวในเวลาเดียวกันจะทำลายการเร่งความเร็วของฮาร์ดแวร์ในตัวจัดการหน้าต่างเดสก์ทอป โปรดตรวจสอบให้แน่ใจว่าคุณได้เสียบจอแสดงผลทั้งหมดเข้ากับการ์ดจอหลัก นี่ไม่ใช่ข้อผิดพลาดหรือปัญหาในโปรแกรม Wallpaper Engine แต่เป็นปัญหาที่เกิดจากการกำหนดค่าฮาร์ดแวร์โดยจอแสดงผลทั้งหมดไม่ได้เชื่อมต่อกับการ์ดจอหลัก
 
-Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a very slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+หากคุณไม่มีเทคโนโลยี Nvidia Optimus หรือเทคโนโลยีที่คล้ายคลึงกัน Windows จะต้องคัดลอกรูปภาพวอลเปเปอร์จาก GPU หนึ่งไปยังอีก GPU ซึ่งการดำเนินการนี้ใช้เวลามาก ในความเป็นจริงการดำเนินการแบ่งปันใด ๆ ระหว่าง GPU ทั้งสองจะได้รับผลกระทบซึ่งเหมือนกับการย้ายหน้าต่างเกมระหว่างจอแสดงสองจอ
 
 This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. They have a physical solution to make this work correctly.
 
