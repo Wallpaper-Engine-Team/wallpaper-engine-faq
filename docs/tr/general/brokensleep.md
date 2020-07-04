@@ -7,7 +7,7 @@ Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Windows'un
 Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak veya Windows'u ses çalma etkinken uykuya geçmesini sağlayacak şekilde yeniden yapılandırarak bunu çözebilirsiniz:
 
 1. Windows arama kısmına yazarak "Güç ve uyku ayarları"na gidin.
-2. Click on "Additional power settings"
+2. "Ek güç ayarları"na tıklayın
 3. Seçilen planın yanındaki "Plan ayarlarını değiştir"e tıklayın
 4. "Gelişmiş güç ayarlarını değiştir"e tıklayın
 5. Aşağı inin ve "Multimedya ayarları"nı açın
