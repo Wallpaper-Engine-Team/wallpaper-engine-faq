@@ -1,16 +1,16 @@
 ---
 tags:
-  - colors
-  - bright
-  - dark
-  - zoom
-  - zoomed-in
-  - pixelated
-  - border
-  - gamma
-  - quality
-  - wrong
-  - ugly
+  - สี
+  - สว่าง
+  - มืด
+  - ซูม
+  - ขยาย
+  - เป็นพิกเซล
+  - ขอบ
+  - แกมมา
+  - คุณภาพ
+  - ผิด
+  - น่าเกลียด
 ---
 
 # Video wallpapers look wrong
