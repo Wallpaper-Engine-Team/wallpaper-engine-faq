@@ -28,8 +28,8 @@ La solución más fiable para la mayoría de usuarios que sufren este error de S
 
 1. Desinstale Wallpaper Engine desde Steam.
 2. Desinstale Steam (siga la guía oficial):
-  * [Uninstall Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
-  * Specifically check the Manually Removing Steam section in the Steam Support article above and make a backup of your *steamapps* directory as described there to ensure you will not have to redownload all your games.
+  * [Desinstalar Steam.](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
+  * Preste atención a la sección Eliminando Steam de forma manual del artículo de Steam y haga una copia de seguridad del directorio *steamapps* tal y como lo explica para que no tenga que volver a descargar todos los juegos.
 
 ## Use local backups as a workaround
 
