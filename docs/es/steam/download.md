@@ -48,9 +48,9 @@ Steam no ha terminado de descargar y verificar los archivos. Si lleva esperando 
 
 Si está leyendo el artículo a esa hora, es posible que los servidores no estén conectados. Espere un par de horas y vuelva a intentarlo. :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam: error «Faltan archivos descargados»
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+Si Steam no puede descargar algunos archivos, puede que sea culpa del antivirus o por algún motivo completamente al azar. Se puede solucionar siguiendo los pasos siguientes:
 
 * Turn off Steam.
 * Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
