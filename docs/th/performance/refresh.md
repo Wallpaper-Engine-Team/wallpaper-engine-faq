@@ -1,9 +1,9 @@
 # อัตราการรีเฟรชของจอแสดงผลไม่ถูกต้อง
 
-Depending on hardware and operating system, your graphics card may have issues updating all of your monitors at the same time if they have wildly differing refresh rates. Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
+การ์ดจอของคุณอาจมีปัญหาในการอัพเดตจอแสดงผลทั้งหมดในเวลาเดียวกัน ทั้งนี้ขึ้นอยู่กับฮาร์ดแวร์และระบบปฏิบัติการหากมีอัตราการรีเฟรชของจอแสดงผลแตกต่างกันอย่างมาก Microsoft ได้แก้ไขปัญหานี้ใน Windows 10 2004 Update (พฤษภาคม 2020) หากคุณพบปัญหานี้ โปรดตรวจสอบให้แน่ใจว่าคุณใช้ Windows 10 รุ่นนี้หรือที่ใหม่กว่า
 
-Some common work-arounds:
+การหลีกเลี่ยงปัญหาทั่วไป:
 
-* Set monitors to refresh rates that are a multiple of each other. For example, 120Hz and 60Hz instead of 144Hz and 60Hz.
-* Use pausing/stopping options in Wallpaper Engine to make this less of a problem. Set it to pause on all monitors when playing games.
-* If your system has an integrated GPU, use that for your 60Hz monitor, although this will likely decrease desktop performance overall, since your CPU now needs to make both GPUs work together!
+* ตั้งค่าอัตราการรีเฟรชของจอแสดงผลหลายค่า ตัวอย่างเช่น 120Hz และ 60Hz แทน 144Hz และ 60Hz
+* ใช้ตัวเลือกหยุดชั่วคราวหรือหยุดใน Wallpaper Engine เพื่อลดความรุนแรงของปัญหา ตั้งค่าอัตราการรีเฟรชบนจอแสดงผลทั้งหมดเป็นหยุดชั่วคราวในขณะที่เล่นเกม
+* หากระบบของคุณมี GPU ในตัว ให้ใช้กับจอแสดงผล 60Hz แต่การทำเช่นนี้อาจลดประสิทธิภาพโดยรวมของเดสก์ทอปเนื่องจาก CPU ของคุณต้องทำให้ GPU ทั้งคู่ทำงานร่วมกัน!
