@@ -6,7 +6,7 @@
 
 必要のないカテゴリをアプリケーションで除外することができます。 Wallpaper Engineの「ワークショップ」タブを開き、左上の「結果をフィルター」をクリックしてフィルターサイドバーを有効にします。 結果に含めたくないカテゴリすべての選択を外します。
 
-アニメの壁紙が不要な場合は*アニメ*と*MMD (Miku-Miku-Dance)*カテゴリを外します。 Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+アニメの壁紙が不要な場合は*アニメ*と*MMD (Miku-Miku-Dance)*カテゴリを外します。 さらに、*漫画*と*女の子*を外すこともできます。ここにもアニメが含まれているからですが、それ以外のコンテンツが除外される可能性も高くなります。
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
