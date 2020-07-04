@@ -24,17 +24,17 @@ Steam 的下載快取損壞，現在 Steam 開始重新下載所有檔案 (沒�
 
 ## 重新安裝 Steam
 
-The most reliable long-term fix for most users affected by this Steam bug regularly appears to be to reinstall Steam as some Steam files may simply be broken on your system. Try to reinstall Steam completely:
+對大多數固定受到上述 Steam 錯誤影響的使用者來說，最可靠的長久解決方法似乎是重新安裝 Steam，因為系統上某些 Steam 的檔案很可能已經損壞。 請完整重新安裝 Steam：
 
-1. Uninstall Wallpaper Engine through Steam.
-2. Uninstall Steam itself, make sure to follow the official guide:
-  * [Uninstall Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
-  * Specifically check the Manually Removing Steam section in the Steam Support article above and make a backup of your *steamapps* directory as described there to ensure you will not have to redownload all your games.
+1. 請透過 Steam 解除安裝 Wallpaper Engine。
+2. 請解除安裝 Steam，並務必依循官方指南：
+  * [重新安裝 Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
+  * 請詳細參閱上方 Steam Support 文章的手動移除 Steam 區段，依照說明備份 *steamapps* 目錄，以免您需要重新下載所有遊戲。
 
-## Use local backups as a workaround
+## 使用本機備份當作因應辦法
 
-If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+若上述問題持續出現，您也能製作所有桌布的本機備份，再取消訂閱所有桌布。 Steam 不會重新下載您並未訂閱的桌布，因此這項因應辦法是只依靠本機備份完成。 以下是如何製作備份的指南：
 
-* [Using wallpaper backups](/steam/backup)
+* [使用桌布備份](/steam/backup)
 
-Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+之後，只要取消訂閱只要所有桌布即可。 請避免手動刪除任何檔案，必須由 Steam 自行刪除桌布檔案，否則 Steam 會再次重新下載桌布，以便程式進行刪除。
