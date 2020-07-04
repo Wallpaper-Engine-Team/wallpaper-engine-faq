@@ -1,5 +1,5 @@
-# "DirectX 10 not supported" crash
-Ensure your graphics card actually supports DirectX 10 by doing a web-search on the exact name of your card. If you have an old card, installing DirectX 10 will not fix this problem if your graphics card does not support DirectX 10 on hardware level.
+# "DirectX 10을 지원하지 않습니다" 작동 중단
+인터넷에서 정확한 그래픽 카드 이름을 검색해서, 해당 그래픽 카드가 DirectX 10을 지원하는지 확인하세요. If you have an old card, installing DirectX 10 will not fix this problem if your graphics card does not support DirectX 10 on hardware level.
 
 If your card does support it and you get this error, then try reinstalling the latest driver (or an older, more stable driver). Remove intrusive security software from the PC that could prevent Wallpaper Engine from accessing your graphics card.
 
