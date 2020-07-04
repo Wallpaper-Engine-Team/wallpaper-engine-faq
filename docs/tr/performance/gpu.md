@@ -8,7 +8,7 @@ Windows Görev Yöneticisi, çoğu durumda gerçek GPU kullanımını göstermez
 
 GPU-Z'yi yükledikten sonra GPU saat hızını ve GPU Yükünü görmek için "Algılayıcılar" sekmesini kontrol edin:
 
-![Real GPU usage](./gpuz.png)
+![Gerçek GPU kullanımı](./gpuz.png)
 
 Ekran görüntüsündeki *GPU yükünün* %24 olduğuna dikkat edin. Ancak üst kısımda grafik kartının 202.5 MHz'de ve düşük güç durumunda olduğunu görebilirsiniz. "Kullanım" %24 olarak gösterilmesine rağmen bu en iyi senaryodur. 1823 mhz'lik maksimum saat hızına dayalı gerçek kullanım yalnızca **%2.6**'dır *(%24 * 202.5 MHz / 1823 MHz)*.
 
@@ -21,5 +21,5 @@ GPU performansını artırmak istiyorsanız:
 * Geforce Experience dâhil olmak üzere, yer paylaşımı ve kayıt araçlarını devre dışı bırakın veya silin.
 * Kare hızı ayarını düşürün ve MSAA'yı devre dışı bırakın (kaliteli 2D sahne duvar kâğıtlarını etkilemez).
     * Sabit kare hızları ve kaliteleri olduğu için bu işlem videoların performansını etkilemez.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+    * Video duvar kâğıtlarının çözünürlük ve kare hızları bunları kontrol edecektir. GPU yükünü azaltmak için daha düşük FPS'ye sahip videolar kullanın
+* Monitörlerinizi aynı GPU veya Windows'a bağlamak, bunları birleştirmeye çalışırken kötü bir performans ortaya çıkaracaktır.
