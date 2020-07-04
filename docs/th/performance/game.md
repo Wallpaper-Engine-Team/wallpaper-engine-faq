@@ -1,10 +1,10 @@
-# Performance issues / low FPS with certain games or applications
+# บางเกมหรือแอพพลิเคชันมีปัญหาด้านประสิทธิภาพ / FPS ต่ำ
 
-By default, Wallpaper Engine pauses itself while you are in-game. You can configure this behavior in the **Performance** tab of the Wallpaper Engine settings.
+ตามค่าเริ่มต้น Wallpaper Engine จะหยุดโดยอัตโนมัติเมื่อคุณเล่นเกม คุณสามารถกำหนดค่านี้ได้ในแท็บ **ประสิทธิภาพการทำงาน** ในส่วนการตั้งค่า Wallpaper Engine
 
-If you are having performance issues with individual games or applications, you can further tweak this behavior. Usually performance issues mean that your system is running out of RAM or Video RAM (the memory on your graphics card). You can configure Wallpaper Engine to free up any memory when in-game by changing the **Other application fullscreen** option to **Stop (free memory)** in the **Performance** tab of the Wallpaper Engine settings.
+หากคุณพบปัญหาในเกมหรือแอพพลิเคชันใด ๆ คุณสามารถปรับแต่งลักษณะที่เกิดขึ้นได้ โดยทั่วไปปัญหาประสิทธิภาพการทำงานเกิดจาก RAM ของระบบหรือ RAM วิดีโอ (หน่วยความจำบนการ์ดจอ) ไม่เพียงพอ คุณสามารถตั้งค่า Wallpaper Engine ให้เพิ่มหน่วยความจำเมื่อเล่นเกมโดยเปลี่ยนตัวเลือก **แอพพลิเคชันอื่นทำงานแบบเต็มหน้าจอ** ในแท็บ **ประสิทธิภาพการทำงาน** ในส่วนการตั้งค่า Wallpaper Engine เป็น **หยุด (ลดการใช้หน่วยความจำ)**
 
-## Application Rule
+## กฎของแอพพลิเคชัน
 
 If you only have issues with a particular game or software, you can also configure this just for the sofware that you are having problems with by creating an **Application Rule**:
 
