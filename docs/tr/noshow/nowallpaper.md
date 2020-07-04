@@ -26,6 +26,6 @@ Wallpaper Engine genellikle *Fences* ile uyumlu çalışır. Ancak **Fences yük
 
 ## Windows 7'deki Gri Duvar Kağıdı veya eksik dokular
 
-**KB2533623** Windows 7 güncellemesinin yüklü olduğundan emin olun. Ya bu bağlantıyla manuel olarak yükleyin ya da Windows Update'in düzgün çalışıp kendi başına yüklediğinden emin olun. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+**KB2533623** Windows 7 güncellemesinin yüklü olduğundan emin olun. Ya bu bağlantıyla manuel olarak yükleyin ya da Windows Update'in düzgün çalışıp kendi başına yüklediğinden emin olun. Microsoft web sitesinden manuel olarak indirebilir ve sonrasında sistemi yeniden başlatarak sorunu çözebilirsiniz:
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
