@@ -1,10 +1,10 @@
 # สำรองข้อมูล Steam Workshop
 
-หากคุณลบวอลเปเปอร์ออกจาก Steam ไม่ว่าด้วยเหตุผลใดก็ตาม Steam จะลบวอลเปเปอร์เหล่านั้นออกจากคอมพิวเตอร์ของคุณด้วย Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
+หากคุณลบวอลเปเปอร์ออกจาก Steam ไม่ว่าด้วยเหตุผลใดก็ตาม Steam จะลบวอลเปเปอร์เหล่านั้นออกจากคอมพิวเตอร์ของคุณด้วย Wallpaper Engine ไม่สามารถป้องกันสิ่งนี้ได้ แต่หากคุณกังวลคุณสามารถสำรองข้อมูลวอลเปเปอร์ของคุณได้
 
-Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
+ผู้ใช้หลายคนรายงานว่า Steam จะสุ่มดาวน์โหลดไฟล์เวิร์กชอปทั้งหมดอีกครั้งซึ่งอาจสร้างความรำคาญหากคุณมีข้อมูลปริมาณมาก หากเกิดเหตุการณ์นี้หลายครั้ง การสร้างการสำรองข้อมูลและการยกเลิกการเชื่อมต่อทั้งหมดกับ Steam สามารถหลีกเลี่ยงได้
 
-# Creating a Backup
+# การสร้างการสำรองข้อมูล
 
 The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
 
