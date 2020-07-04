@@ -14,9 +14,9 @@ Les écrans noirs et les problèmes avec les fonds d'écran *Vidéo* sont *toujo
 
 ## Réinstaller proprement les pilotes des cartes graphiques
 
-For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
+Pour la grande majorité, une réinstallation propre des pilotes de carte graphique résoudra la plupart des problèmes liés aux fonds d'écran vidéo. Cela inclut les écrans noirs et les fonds d'écran affichés dans une fenêtre séparée (**"ActiveMovie Window"**).
 
-1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
+1. Téléchargez les derniers pilotes pour votre carte graphique (refaites ce procédé pour toutes vos cartes si vous en avez plusieurs de marques différentes) :
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
