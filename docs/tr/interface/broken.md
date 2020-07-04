@@ -29,8 +29,8 @@ Grafik kartı sürücüleriniz bozuk veya yanlış yapılandırılmış. Grafik 
 
 Sorun devam ederse Wallpaper Engine'i kapatın. Daha sonra Steam'deki "Kullanıcı arayüzü donanım hızlandırmayı devre dışı bırak" etiketli üçüncü başlatma seçeneğini kullanarak Wallpaper Engine'i yeniden başlatın.
 
-### Wallpaper Engine Kullanıcı Arayüzünü Bozan Nadir Steam Yer Paylaşımı Hatası
+### Wallpaper Engine Kullanıcı Arayüzünü Bozan Nadir Steam Arayüzü Hatası
 
-Siyah uygulama penceresinin diğer bir olası nedeni de Steam yer paylaşımı olan nadir bir Steam hatasıdır. Şunları deneyebilirsiniz:
+Siyah uygulama penceresinin diğer bir olası nedeni de Steam arayüzüyle ilgili nadir bir Steam hatasıdır. Şunları deneyebilirsiniz:
 
-Wallpaper Engine'i tamamen kapatın (tepsi simgesine sağ tıklayın ve sonra "Çıkış"ı seçin). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Wallpaper Engine'i tamamen kapatın (tepsi simgesine sağ tıklayın ve sonra "Çıkış"ı seçin). Sonrasında Steam'i açın, Wallpaper Engine'e sağ tıklayın, "Özellikler"i seçin ve "Oyundayken Steam Arayüzünü etkinleştir" seçeneğini devre dışı bırakın. Seçeneği devre dışı bıraktıktan sonra Wallpaper Engine'i Steam üzerinden yeniden başlatmayı deneyin. 
