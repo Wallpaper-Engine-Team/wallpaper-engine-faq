@@ -6,20 +6,20 @@ El Administrador de tareas de Windows no muestra el verdadero uso de la GPU en l
 
 ## Averiguar la carga real de la GPU
 
-Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
+Cuando haya instalado GPU-Z, eche un vistazo a la pestaña «Sensors» para ver la velocidad de reloj y la carga de la GPU:
 
-![Real GPU usage](./gpuz.png)
+![Consumo real de la GPU](./gpuz.png)
 
-Notice *GPU load* in the screenshot is at 24%. However, at the top you can see that the graphics card is in its low power state at 202.5 MHz. This is the best case scenario, although the 'usage' is displayed as 24%. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
+Fíjese en que la *carga de la GPU* se encuentra a 24 % en la captura de pantalla. Sin embargo, justo arriba puede ver que la tarjeta gráfica se encuentra a 202.5 MHz, es decir, en bajo consumo. Este es el mejor de los casos, a pesar de que el uso muestre un 24 %. El uso real basado en la velocidad de reloj de 1823MHz es tan solo **2,6 %** *(24 % * 202.5MHz / 1823 MHz)*.
 
-A card could have clock rates between 100 Mhz and 2000 Mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 100 MHz or 50% of 2000 MHz**.
+La velocidad de reloj de la tarjeta puede estar entre 100 MHz y 2000 MHz, por ejemplo. Si el Administrador de tareas muestra más de 50 %, **la diferencia reside en si es el 50 % de 100 MHz o el 50 % de 2000 MHz**.
 
-::: tip To summarize: It's important to keep the GPU clock rate in mind when looking at the GPU load. 50% of 100 MHz is better than 5% of 2000 MHz. :::
+::: consejo En resumen: es importante que tenga en mente la velocidad de reloj de la GPU al comprobar la carga de la GPU. 50 % de 100 MHz es mejor que 5 % de 2000 MHz. :::
 
-If you want to improve GPU performance:
+Si quiere mejorar el rendimiento de la GPU:
 
-* Disable or delete overlay and recording tools, including Geforce Experience.
-* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+* Deshabilite o elimine las herramientas superpuestas o de grabación, Geforce Experience incluido.
+* Baje los fotogramas por segundo y deshabilite el MSAA (no afecta a la calidad de los fondos 2D de escena).
+    * No afecta al rendimiento de los vídeos, ya que tienen unos fotogramas por segundo y una calidad fijos.
+    * La resolución y los fotogramas por segundo de los fondos de vídeo lo controlan, así que use vídeos con menos fotogramas por segundo para reducir la carga de la GPU.
+* Conecte los monitores a la misma GPU o bajará el rendimiento de Windows cuando trate de unifircarlos.
