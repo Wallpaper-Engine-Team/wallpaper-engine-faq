@@ -3,7 +3,7 @@
 Windows N 不含媒體功能！ 您需要安裝適用您 Windows 版本和組建編號的正確 Media Feature Pack。
 
 * Windows 10：
-  * [Media Feature Pack 下載](https://www.microsoft.com/en-us/software-download/mediafeaturepack)（Microsoft 僅提供英語頁面）
+  * [Media Feature Pack 下載](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (Microsoft 僅提供英語頁面)
 
 * Windows 7：
   * [Media Feature Pack 下載](https://www.microsoft.com/download/details.aspx?id=16546)
