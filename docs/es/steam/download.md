@@ -21,7 +21,7 @@ Steam no ha terminado de descargar y verificar los archivos. Si lleva esperando 
 
 * Borre el caché de las descargas en las opciones de Steam:
   * [Borrar caché de descargas](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
+* Después verifique los archivos de Wallpaper Engine en Steam:
   * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 * If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
