@@ -33,16 +33,16 @@ Wallpaper Engine 無法直接與 RGB 硬體溝通，所有顏色資訊都是先�
 
 請再三檢視此選項，確認是否有其他硬體元件是否無法正常運作。
 
-請注意，iCUE 是以*獨佔模式*使用，代表 Wallpaper Engine 將優先於其他與 iCUE 相容的軟體，例如遊戲。 If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+請注意，iCUE 是以*獨佔模式*使用，代表 Wallpaper Engine 將優先於其他與 iCUE 相容的軟體，例如遊戲。 如果您希望遊戲為鍵盤賦予動畫效果，請前往 Wallpaper Engine 設定的**效能**分頁，將**其他應用程式全螢幕顯示時**選項設定為**停止 (釋放記憶體)**，玩遊戲時便能阻止桌布開啟。 或者，您可以停用 RGB 外掛程式或在個別的桌布停用 RGB 選項。
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+如果需要 Corsair iCUE 硬體的支援，請直接聯絡 Corsair：
 
 [help.corsair.com](https://help.corsair.com/)
 
-Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
+如果您聯絡 Corsair 後仍遇到任何問題，還是可以與我們聯絡，一起確認如何解決。
 
 ### Razer
-We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+我們僅支援 Razer Synapse 3 或更新版本。 如果您使用 Razer Synapse 1 或 Razer Synapse 2，請確認完全解除安裝，並升級到最新版本的 Razer Synapse。 In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
 
 If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
 
