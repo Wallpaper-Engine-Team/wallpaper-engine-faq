@@ -9,13 +9,13 @@ Wallpaper Engine 支援 [**Razer Chroma**](https://www.razer.com/chroma) 及 [**
 
 ## 如何啟用/停用 RGB 硬體
 
-在 Wallpaper Engine 設定中的「外掛程式」區段，您可以找到 **iCUE 及 Chroma SDK 外掛程式**。  You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. You can also click on the cogwheel symbol next to it to further configure individual parts of it.
+在 Wallpaper Engine 設定中的「外掛程式」區段，您可以找到 **iCUE 及 Chroma SDK 外掛程式**。  您可勾選左側的核取方塊，來啟用或停用此通用 RGB 外掛程式的載入作業。 您也可以按一下旁邊的齒輪符號，進一步設定各部分。
 
-Additionally, RGB support can be toggled off on each wallpaper. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+此外，您可切換每張桌布的 RGB 支援功能。 如果您想啟用此外掛程式，可至每張桌布內容列表的上方找到**啟用 LED 效果**的選項，即可控制個別桌布的 RGB 亮光效果。
 
-## The RGB hardware colors seem too bright
+## RGB 硬體顏色似乎過亮
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+在預設情況下，RGB 顏色稍微增強。 On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
 
 ## My RGB hardware does not work
 
