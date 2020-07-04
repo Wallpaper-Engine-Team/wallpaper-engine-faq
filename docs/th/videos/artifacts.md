@@ -29,6 +29,6 @@ Wallpaper Engine ใช้การเร่งความเร็วฮาร
 
 * [ดาวน์โหลด Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-หลังจากนั้นจึงติดตั้งไดรเวอร์ที่คุณเพิ่งดาวน์โหลด This will definitely fix the problem if done right.
+หลังจากนั้นจึงติดตั้งไดรเวอร์ที่คุณเพิ่งดาวน์โหลด วิธีนี้จะช่วยแก้ไขปัญหาได้หากทำตามขั้นตอนอย่างถูกต้อง
 
-::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. Make sure you first uninstall all your current graphics card drivers and clear up all driver settings. :::
+::: เคล็ดลับ หากสียังคงผิดปกติหลังจากติดตั้งไดรเวอร์การ์ดจอใหม่แล้ว คุณอาจมี GPU หลายตัวหรือคุณอาจไม่ได้ทำการติดตั้งใหม่ "ทั้งหมด" ตรวจสอบให้แน่ใจว่าคุณถอนการติดตั้งไดรเวอร์การ์ดจอปัจจุบันของคุณและล้างการตั้งค่าไดรเวอร์ทั้งหมดก่อนแล้ว :::
