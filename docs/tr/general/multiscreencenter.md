@@ -1,6 +1,6 @@
-# Centering wallpaper with monitors of different resolutions
+# Farklı çözünürlükteki monitörlerle duvar kâğıdını ortalama
 
-If you choose to display a single wallpaper across multiple monitors with different resolutions, then it will act according to the resolutions you are using, not the physical size of your monitors. Windows does not account for the physical size, only the size in pixels is relevant.
+Farklı çözünürlükteki birden fazla monitörde tek bir duvar kâğıdı görüntülemeyi tercih ederseniz bu durumda monitörlerinizin fiziksel boyutuna göre değil kullandığınız çözünürlüklere göre hareket edecektir. Windows does not account for the physical size, only the size in pixels is relevant.
 
 Imagine you would center a single, normal window like Steam between your monitors. You cannot scale one side up or down without affecting the other monitor. This is exactly how a wallpaper works too. Live wallpapers are not static images, so they cannot be cut up and stitched together continuously like it would be possible with an image.
 
