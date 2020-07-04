@@ -1,7 +1,7 @@
 ---
 tags:
-  - crash
-  - close
+  - 작동 중단
+  - 닫기
   - nvidia
   - battleye
 ---
