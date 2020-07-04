@@ -22,10 +22,10 @@ Wallpaper Engineは、ほとんどのデスクトップ変更アプリケーシ�
 
 ### Fences
 
-基本的に、Wallpaper Engineは*Fences*と一緒に問題なく動作します。 しかし、**Fencesをインストールしていて無効にしている場合**、それがWallpaper Engineから壁紙を隠します。 You need to either enable or uninstall it completely.
+基本的に、Wallpaper Engineは*Fences*と一緒に問題なく動作します。 しかし、**Fencesをインストールしていて無効にしている場合**、それがWallpaper Engineから壁紙を隠します。 有効にするか、完全にアンインストールするか、どちらかにする必要があります。
 
-## Gray Wallpaper or missing textures on Windows 7
+## Windowsで壁紙が灰色になったり、テクスチャが表示されなかったりする
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Windows 7のアップデート**KB2533623**がインストールされていることを確認してください。 Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
