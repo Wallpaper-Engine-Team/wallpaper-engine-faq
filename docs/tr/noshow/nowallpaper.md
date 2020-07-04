@@ -1,12 +1,12 @@
 ---
 tags:
-  - antivirus
-  - showing
+  - antivirüs
+  - gösterim
 ---
 
-# Wallpapers not visible
+# Duvar kâğıtları görünmüyor
 
-If some or all of your wallpapers do not show up, it's often caused by an antivirus application blocking Wallpaper Engine by mistake. If you are using an antivirus application, please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables:
+Duvar kâğıtlarınızın bir kısmı veya hiçbiri görünmüyorsa bunun nedeni genellikle Wallpaper Engine'i yanlışlıkla engelleyen bir antivirüs uygulamasıdır. Eğer bir antivirüs uygulaması kullanıyorsanız lütfen bunu *wallpaper_engine* yükleme dizini ve tüm önemli Wallpaper Engine yürütülebilir dosyalarını yoksayacak şekilde yapılandırdığınızdan emin olun:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -14,18 +14,18 @@ If some or all of your wallpapers do not show up, it's often caused by an antivi
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: tip If you have an anti-virus application installed (except Windows Defender), it's very likely that this is the cause of your problems. Take some time to investigate this further if your first attempts do not fix this issue. :::
+::: ipucu Yüklü bir antivirüs uygulamanız varsa (Windows Defender hariç) sorunlarınızın sebebi büyük olasılıkla bu uygulamadır. İlk denemeleriniz bu sorunu çözmüyorsa bunu araştırmak için biraz daha zaman ayırın. :::
 
-## Conflicts with other desktop modification software
+## Diğer masaüstü değişiklik yazılımlarıyla çakışmalar
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine, çoğu masaüstü değişiklik uygulamasıyla uyumlu çalışır. Ancak StarDock DeskScapes gibi bazı uygulamalar Windows duvar kâğıdını da değiştirir ve iki uygulamayı da aynı anda çalıştırmak mümkün değildir. Wallpaper Engine'e benzer bir uygulama kullanıyorsanız hangisini kullanmaya devam edeceğinize karar vermeniz gerekir.
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+Wallpaper Engine genellikle *Fences* ile uyumlu çalışır. Ancak **Fences yüklüyse ve bunu devre dışı bıraktıysanız** duvar kâğıdını Wallpaper Engine'den gizleyecektir. Uygulamayı tamamen etkinleştirmeniz veya kaldırmanız gerekir.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Windows 7'deki Gri Duvar Kağıdı veya eksik dokular
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+**KB2533623** Windows 7 güncellemesinin yüklü olduğundan emin olun. Ya bu bağlantıyla manuel olarak yükleyin ya da Windows Update'in düzgün çalışıp kendi başına yüklediğinden emin olun. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
