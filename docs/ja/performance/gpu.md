@@ -8,7 +8,7 @@ Windowsのタスクマネージャは、ほとんどの場合、実際のGPUの�
 
 GPU-Zをインストールしたら、"Sensors"タブでGPUのクロックレートとGPUの負荷を確認します。
 
-![Real GPU usage](./gpuz.png)
+![実際のGPU使用量](./gpuz.png)
 
 スクリーンショットの*GPU load*は24%です。 しかし上部には、グラフィックスカードの電源状態が202.5 MHzという低さであることが表示されています。 これは想定されるベストな状態ですが、「使用量」は24%と表示されます。 最大クロックレートである1823mhzを元にした実際の使用量は、わずか**2.6%**です*（24% * 202.5 MHz / 1823 MHz）*。
 
@@ -20,6 +20,6 @@ GPUのパフォーマンスを上げたい場合：
 
 * Geforce Experienceを含め、オーバーレイと録画ツールを無効にするか、削除します。
 * フレームレート設定を低くし、MSAAを無効にします（これによって2Dのシーン壁紙のクオリティが影響を受けることはありません）。
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+    * これによってビデオのパフォーマンスが影響を受けることはありません。フレームレートと画質が固定であるためです。
+    * ビデオ壁紙の解像度とフレームレートがこれをコントロールし、より低いFPSとGPU負荷でビデオを使います。
+* 複数のモニターを同じGPUに接続します。そうしないとWindowsはそれらをマージしようとするため、パフォーマンスが低下します。
