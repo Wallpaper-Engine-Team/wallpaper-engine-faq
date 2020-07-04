@@ -22,27 +22,27 @@ Kullanıcıların çoğunda, grafik kartı sürücülerinin temiz bir şekilde y
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. Mevcut grafik kartı sürücülerinizi tamamen kaldırın ve talep edilirse tüm mevcut ayarları silin. Nvidia sürücülerinde "Temiz bir şekilde yeniden yükle" yazan ve işe yarayan bir onay kutusu da vardır.
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+Ayrıca bunu nasıl yapacağınızı bilmiyorsanız [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) aracını da kullanabilirsiniz.
 
-3. Install the drivers you have just downloaded in step 1.
-4. Restart your PC again, see if it works now.
+3. 1. adımda indirdiğiniz sürücüleri kurun.
+4. PC'nizi yeniden başlatıp işe yarayıp yaramadığına bakın.
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: ipucu Temiz bir yeniden kurulum yapmanız çok önemlidir. Bu demektir ki mevcut grafik kartı sürücüleriniz ve sürücü ayarlarınızın, yeni sürücüleri yüklemeden önce tamamen silinmesi gerekir. Aksi takdirde bu işlem işe yaramayacaktır. :::
 
 ## Codec Tweak Tool
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+Grafik kartı sürücülerinizi temiz bir şekilde yeniden yüklemek de işe yaramazsa video codec bileşenlerinizi sıfırlamayı deneyin:
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* Codec Tweak Tool'u indirin: [Buraya tıklayın](https://www.codecguide.com/download_other.htm)
+* "Medya Altyapısı" menüsündeki tüm onay kutularının **işaretlenmediğinden** emin olun ve sonra ayarları uygulayın:
 
 ![Uncheck all options in the Media Foundation options](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* PC'yi yeniden başlatın ve etkilenen duvar kâğıtlarını yeniden deneyin.
 
-## Additional video codecs
+## Ek video codec bileşenleri
 
 If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
 
