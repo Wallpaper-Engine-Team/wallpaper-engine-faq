@@ -8,11 +8,11 @@ tags:
 
 # Steam ดาวน์โหลดวอลเปเปอร์อีกครั้ง
 
-Steam's download cache was broken and now Steam redownloads all files (for no particular reason or i.e. Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
+แคชดาวน์โหลดของ Steam มีปัญหา ตอนนี้ Steam จึงดาวน์โหลดไฟล์ทั้งหมดใหม่อีกครั้ง (ไม่มีเหตุผลใดเป็นพิเศษ หรือเพราะ Steam หยุดทำงานโดยไม่ใช่การปิดโปรแกรมตามปกติ) ปัญหานี้ไม่ได้เกิดจาก Wallpaper Engine ดังนั้นจึงไม่สามารถแก้ไขได้ใน Wallpaper Enginee และแอพพลิเคชันเวิร์กชอปทั้งหมดใน Steam อาจถูกรบกวนจากข้อผิดพลาดของ Steam หากคุณพบปัญหานี้บ่อยครั้ง โปรดใช้วิธีแก้ไขปัญหาต่อไปนี้:
 
-## Fix Steam automatically
-We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
-* Turn off Steam
+## แก้ไข Steam โดยอัตโนมัติ
+เราได้สร้างโปรแกรมแก้ไข Steam แบบอัตโนมัติซึ่งคุณสามารถใช้เพื่อป้องกันไม่ให้เกิดปัญหานี้ขึ้นอีกใน Steam (หวังว่า)! โปรดทำตามขั้นตอนเหล่านี้:
+* ปิด Steam
 * Go to the `wallpaper_engine` installation directory
   * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
