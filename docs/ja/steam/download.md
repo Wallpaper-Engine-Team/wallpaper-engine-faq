@@ -14,16 +14,16 @@ tags:
 
 Steamダウンロードに問題が起きた場合は、アンチウイルスアプリケーションがSteamをブロックしていないか、ファイアーウォール（ネットワークルーターのファイアーウォールをすべて含みます）で必要なポートがすべて開いているかを確認してください。
 
-::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
+::: tip ネットワークルーターがSteamダウンロードをブロックしているかどうかは、スマートフォンのモバイルホットスポットに切り替え、壁紙のダウンロードをそこから試してみることで簡単にわかります。 :::
 
-## Wallpaper download stuck at 0% or 100% (or any other percentage)
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## 壁紙のダウンロードが0%または100%（あるいはその他のパーセンテージ）で止まる
+Steamによるファイルのダウンロードの完了と検証ができていません。 ダウンロードがしばらく止まったままで、しばらく待ったあともSteamダウンロードが動かない場合は、次のことを試してみてください。
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+* SteamのオプションでSteamのダウンロードキャッシュを消去します。
+  * [Steamのダウンロードキャッシュの消去](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* その後、SteamでWallpaper Engineのファイルを検証します。
+  * [Wallpaper Engineファイルの検証](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* それでもすべてのダウンロードが止まる場合は、**Steamを修了**し、その後、次のディレクトリの**中身を削除**します。
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
     * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
     * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
