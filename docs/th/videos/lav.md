@@ -19,12 +19,12 @@ tags:
 ## 1. ติดตั้ง LAV
 * ดาวน์โหลดตัวกรอง LAV เวอร์ชัน x86 **และ** x64:
   * ลิงก์#1: [Github](https://github.com/Nevcairiel/LAVFilters/releases)
-  * Mirror #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
-* Install LAV, make sure your Windows user has admin rights
-* Restart Wallpaper Engine.
+  * ลิงก์#2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
+* ติดตั้ง LAV และตรวจสอบให้แน่ใจว่าผู้ใช้ Windows ของคุณมีสิทธิ์ของผู้ดูแลระบบ
+* รีสตาร์ท Wallpaper Engine
 
-## 2. Enable DirectShow
-* Open the Wallpaper Engine settings and navigate to the "General" tab
+## 2. เปิดใช้งาน DirectShow
+* เปิดการตั้งค่า Wallpaper Engine และไปที่แท็บ "ทั่วไป"
 * Change the **Video framework** option to **Prefer DirectShow**
 * Restart the application and try using your video wallpaper again
 
