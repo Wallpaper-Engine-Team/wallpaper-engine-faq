@@ -19,6 +19,6 @@ Yalnızca belirli bir oyun veya yazılımla ilgili sorun yaşıyorsanız bunu da
 
 Wallpaper Engine artık yapılandırdığınız *.exe* başlatıldığında tüm duvar kâğıtlarını tamamen bellekten kaldıracaktır.
 
-## Conflicts with screen-recording tools or overlays
+## Ekran kayıt araçları veya yer paylaşımı ile çakışma
 
-If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+Herhangi bir yer paylaşımlı oyun akışı, oyun kaydı veya yazılım kullanıyorsanız Wallpaper Engine'i yanlışlıkla arka planda kaydetmediklerinden emin olun. Grafik kartı sürücülerinizden herhangi bir oyun akışı işlevini kullanmanız da buna neden olabilir (örneğin Nvidia ShadowPlay, Nvidia Share veya AMD ReLive).
