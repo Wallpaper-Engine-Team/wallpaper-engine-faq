@@ -33,4 +33,4 @@ Si le problème persiste, quittez Wallpaper Engine. Relancez ensuite Wallpaper E
 
 C'est plus rare, mais le problème peut également venir de l'overlay Steam. Voici ce que vous pouvez faire :
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Fermez complètement Wallpaper Engine (clic droit sur l'icône dans la barre des tâches "Quitter"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
