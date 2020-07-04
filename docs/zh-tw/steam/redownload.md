@@ -3,14 +3,14 @@ tags:
   - 下載
   - 重新下載
   - 已刪除
-  - deletes
+  - 刪除項目
 ---
 
-# Steam redownloading wallpapers
+# Steam 重新下載桌布
 
-Steam's download cache was broken and now Steam redownloads all files (for no particular reason or i.e. Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
+Steam 的下載快取損壞，現在 Steam 開始重新下載所有檔案 (沒有特別原因，或是 Steam 當機，並未正常關閉)。 這並不是 Wallpaper Engine 所造成，因此無法在 Wallpaper Engine 中解決，Steam 上所有的工作坊應用程式都可能發生這個 Steam 錯誤。 若您常常碰到上述問題，以下是因應辦法：
 
-## Fix Steam automatically
+## 自動修復 Steam
 We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
 * Turn off Steam
 * Go to the `wallpaper_engine` installation directory
