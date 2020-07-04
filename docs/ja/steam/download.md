@@ -23,18 +23,18 @@ Steamによるファイルのダウンロードの完了と検証ができてい
   * [Steamのダウンロードキャッシュの消去](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
 * その後、SteamでWallpaper Engineのファイルを検証します。
   * [Wallpaper Engineファイルの検証](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* それでもすべてのダウンロードが止まる場合は、**Steamを修了**し、その後、次のディレクトリの**中身を削除**します。
+* それでもすべてのダウンロードが止まる場合は、**Steamを終了**し、その後、次のディレクトリの**中身を削除**します。
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * アンチウイルスアプリケーションがインストールされている場合は、このディレクトリが除外されていることを確認してください
+    * **注意：** `C:\Program Files (x86)\Steam`はデフォルトのSteamパスです。別の場所にインストールされているときはそこをチェックしてください。
+* Steamを再起動します。 ゲームを起動しないでください。 Steamのダウンロードタブで進行状況をチェックし、停止しているダウンロードを再開します。
 
-::: details Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
-* Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
-* Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
-* Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
-* Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
+::: details 上の手順でダウンロードの問題が解消しない場合は、ここをクリックして他に可能な解決方法をご覧ください
+* アンチウイルスやファイアーウォールがSteamをブロックしていないことを確認します。 アンチウイルスアプリケーションの設定で、Steamディレクトリ全体を除外します。
+* ダウンロードできない壁紙のサブスクライブを解除し、Steamの再起動後、もう一度サブスクライブします。
+* Steamの設定で、別のコンテンツサーバーを選択します。 このオプションは、Steam設定の「ダウンロード」タブにあります。
+* **Steam設定**で、時間、バンド幅、アプリ内からの操作かどうかによってSteamダウンロードが制限されていないことを確認します。
+* Steamの「ダウンロード」タブを開きます（ライブラリ→ダウンロード）。 停止しているダウンロードを見つけます。 見つかったら、「再開」をクリックします。
 * Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
 * Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
 * Try again after waiting at least for a day in case there are Steam server issues.
