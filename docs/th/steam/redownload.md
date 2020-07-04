@@ -1,12 +1,12 @@
 ---
 tags:
-  - download
-  - re-download
-  - deleted
-  - deletes
+  - ดาวน์โหลด
+  - ดาวน์โหลดอีกครั้ง
+  - ถูกลบ
+  - ลบ
 ---
 
-# Steam redownloading wallpapers
+# Steam ดาวน์โหลดวอลเปเปอร์อีกครั้ง
 
 Steam's download cache was broken and now Steam redownloads all files (for no particular reason or i.e. Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
 
