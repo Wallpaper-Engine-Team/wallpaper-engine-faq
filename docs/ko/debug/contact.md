@@ -7,16 +7,16 @@ tags:
 
 # 문의
 
-Wallpaper Engine 관련 기술적 문제가 발생하면, 우선 FAQ를 확인해 해결해 보세요. Most technical support tickets we received can be fixed with the FAQ.
+Wallpaper Engine 관련 기술적 문제가 발생하면, 우선 FAQ를 확인해 해결해 보세요. 저희가 받은 대부분의 기술적 문제는 FAQ를 통해 해결할 수 있습니다.
 
-You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
+또한 저희의 Steam 토론 게시판을 검색할 수도 있습니다. 저희는 모든 질문에 대답하려 하며, 대부분의 질문은 이미 토론된 내용입니다:
 
-* [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
+* [Wallpaper Engine Steam 토론](https://steamcommunity.com/app/431960/discussions/)
 
-If you cannot find a fitting article or cannot fix your problem, you can reach us at [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
+적합한 글을 찾을 수 없거나 문제를 해결할 수 없다면, [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request)로 문의하실 수 있습니다.
 
-::: tip If you are having a technical issue, it helps if you include a log file from our scan tool:
+::: 팁 기술적 문제가 발생하면, 스캔 도구의 로그 파일을 보내 주시는 게 도움이 됩니다:
 
-* [Use the Wallpaper Engine scan tool to create a debug log](debug/scantool)
+* [Wallpaper Engine 스캔 도구를 사용하여 디버그 로그 생성하기](debug/scantool)
 
 The scan tool includes technical details which usually help us point you in the right direction faster. :::
