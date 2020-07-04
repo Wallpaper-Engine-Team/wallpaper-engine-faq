@@ -25,12 +25,12 @@ Wallpaper Engineブラウズウィンドウが正しく動作しない場合、�
 
 ## Wallpaper Engineのインターフェースに緑のノイズや白いラインが入る
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+グラフィックスカードドライバが壊れているか、設定が間違っています。 （最新ドライバを既に持っていても）グラフィックスカードの最新ドライバをダウンロードし、ドライバのクリーン再インストールを行ってください。 破損したファイルや設定が確実に削除されるよう、まず使用中のドライバをアンインストールしてから最新ドライバをインストールしてください。
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+それでも問題が解消しない場合はWallpaper Engineを終了します。 その後、Steamで「UIハードウェアアクセラレーションを無効にする」と書かれた3番目の起動オプションを使ってWallpaper Engineを再起動します。
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### 珍しいSteamオーバーレイバグによってWallpaper Engineユーザーインターフェースが破損している
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+アプリケーションウィンドウが黒くなる他の理由として考えられるのは、Steamオーバーレイの珍しいSteamバグです。 次のことを試してみてください。
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Wallpaper Engineを完全に終了します（トレイで右クリックし、「終了」）。 その後Steamを開き、Wallpaper Engineを右クリックして「プロパティ」を選択し、「ゲーム中にSteamオーバーレイを有効にする」オプションを無効にします。 オプションを無効にしたあと、SteamからWallpaper Engineを再起動します。 
