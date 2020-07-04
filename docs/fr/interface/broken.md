@@ -23,14 +23,14 @@ Il est parfois nécessaire de vérifier les fichiers de Wallpaper Engine ou mêm
 
 Si la vérification Steam ne résout pas ce problème non plus, essayez de réinstaller Wallpaper Engine avec Steam. Si votre antivirus est devenu fou, il a peut-être entièrement bloqué Wallpaper Engine. Dans ce cas-ci, assurez-vous de désinstaller l'antivirus en premier, puis installez Wallpaper Engine dans un répertoire différent. Vous pouvez même choisir de créer une nouvelle bibliothèque de jeux Steam.
 
-## Wallpaper Engine interface with green artifacts or white lines
+## L'interface de Wallpaper Engine est parasitée par des artefacts verts ou des lignes blanches
 
 Les pilotes de votre carte graphique sont corrompus ou mal configurés. Téléchargez les derniers pilotes pour vos cartes graphiques (même si vous les aviez déjà) et effectuez une réinstallation propre de ces pilotes. Désinstallez d'abord vos pilotes actuels avant d'installer les dernières versions pour vous assurer que tous les fichiers ou paramètres corrompus sont bien supprimés.
 
 Si le problème persiste, quittez Wallpaper Engine. Relancez ensuite Wallpaper Engine en utilisant la troisième option de lancement Steam : "Désactiver l'accélération matérielle de l'interface utilisateur".
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### L'overlay Steam entre en conflit avec Wallpaper Engine
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+C'est plus rare, mais le problème peut également venir de l'overlay Steam. Voici ce que vous pouvez faire :
 
 Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
