@@ -1,4 +1,4 @@
-# Wrong Refresh Rates of Monitors
+# อัตราการรีเฟรชของจอแสดงผลไม่ถูกต้อง
 
 Depending on hardware and operating system, your graphics card may have issues updating all of your monitors at the same time if they have wildly differing refresh rates. Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
 
