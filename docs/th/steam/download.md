@@ -1,18 +1,18 @@
 ---
 tags:
-  - downtime
-  - server
-  - downloads
-  - progress
-  - workshop
-  - connection
+  - ช่วงเวลาเครื่องไม่ทำงาน
+  - เซิร์ฟเวอร์
+  - ดาวน์โหลด
+  - ความคืบหน้า
+  - เวิร์กชอป
+  - การเชื่อมต่อ
 ---
 
-# Steam Wallpaper Download Issues
+# ปัญหาการดาวน์โหลดวอลเปเปอร์ของ Steam
 
-Keep in mind that **all downloads are performed by Steam**. Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+โปรดทราบว่า **การดาวน์โหลดทั้งหมดดำเนินการโดย Steam** Wallpaper Engine แสดงสถานะการดาวน์โหลดของ Steam เท่านั้น ปัญหาการดาวน์โหลดทั้งหมดเกี่ยวข้องกับปัญหาที่เกิดขึ้นกับ Steam แต่ไม่เกี่ยวข้องโดยตรงกับ Wallpaper Engine คู่มือนี้มีรายการปัญหาการดาวน์โหลดที่พบบ่อยที่สุดในหลาย ๆ กรณี สาเหตุเริ่มต้นของปัญหาเกิดจากแอพพลิเคชันป้องกันไวรัสทำงานเกินจริงหรือพอร์ตเครือข่ายถูกปิดกั้น
 
-If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
+หากคุณพบปัญหาในการดาวน์โหลด Steam โปรดตรวจสอบให้แน่ใจว่าแอพพลิเคชันป้องกันไวรัสไม่ได้ปิดกั้น Steam และพอร์ตที่จำเป็นทั้งหมดในไฟร์วอลล์เปิดอยู่ รวมถึงไฟร์วอลล์ทั้งหมดในเราเตอร์เครือข่าย
 
 ::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
 
