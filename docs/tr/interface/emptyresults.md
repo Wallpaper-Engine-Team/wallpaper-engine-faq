@@ -1,8 +1,8 @@
-# Preview images / search results not showing
+# Ön izleme görüntüleri / arama sonuçları gösterilmiyor
 
-If you cannot see preview images for wallpapers except for installed ones, there is a firewall or security software that blocks the browser from accessing the internet. You must disable that or add an exception for 'ui32.exe'.
+Yüklü olanlar dışındaki duvar kâğıtlarının ön izleme görüntülerini göremiyorsanız tarayıcının internete erişmesini engelleyen bir güvenlik duvarı veya güvenlik yazılımı vardır. Bunu devre dışı bırakmanız veya "ui32.exe" için bir istisna eklemeniz gerekir.
 
-The preview images are direct image downloads from the Steam servers. If the preview images are not loading, something is blocking the connection between Wallpaper Engine and the Steam servers. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
+Ön izleme görüntüleri, Steam sunucularından doğrudan indirilmiş görüntülerdir. Ön izleme görüntüleri yüklenmiyorsa Wallpaper Engine ile Steam sunucuları arasındaki bağlantıyı engelleyen bir şey vardır. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
 
 Some users of *accelerator software* also have issues with image previews being loaded. Make sure any type of network acceleration software is not blocking Wallpaper Engine from downloading image files in the background.
 
