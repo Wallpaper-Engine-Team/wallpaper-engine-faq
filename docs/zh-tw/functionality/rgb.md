@@ -27,7 +27,7 @@ Wallpaper Engine 無法直接與 RGB 硬體溝通，所有顏色資訊都是先�
 
 ### Corsair
 
-某些硬體會說 **Corsair 系統記憶體 (RAM) 預設停用軟體控制**，代表您必須先在 iCUE 軟體設定中允許您的記憶體模組依據 Wallpaper Engine 發亮。 Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+某些硬體會說 **Corsair 系統記憶體 (RAM) 預設停用軟體控制**，代表您必須先在 iCUE 軟體設定中允許您的記憶體模組依據 Wallpaper Engine 發亮。 請確保在 iCUE 裝置設定的記憶體區段已選取「啟用完整軟體控制」選項：
 
 ![Enable full software control in iCUE](./icue.png)
 
