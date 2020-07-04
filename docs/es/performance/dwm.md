@@ -2,9 +2,9 @@
 
 Si ha habilitado la GPU integrada en su ordenador de sobremesa en la BIOS a pesar de que tiene una GPU dedicada, puede darse el caso de que experimente un mal rendimiento y un alto uso de la CPU por parte de *dwm.exe*. Si es posible, no habilite la GPU integrada y conecte los monitores a la GPU dedicada. El uso de ambas soluciones gráficas a la vez dañará la aceleración hardware del gestor de ventanas de escritorio, por lo que es importante que conecte todos los monitores con la tarjeta gráfica principal. Esto no es un error ni un problema de Wallpaper Engine, sino que es un problema que afecta a todos los programas multimonitor cuando los monitores no están conectados a la tarjeta gráfica principal.
 
-Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a very slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+Sin la tecnología Nvidia Optimus o similares, Windows se verá obligado a copiar la imagen del fondo de una GPU a la otra, una operación un tanto tediosa. De hecho, cualquier acción compartida entre las GPU lo sufrirá, ya que es como mover una ventana de juego entre ambos monitores.
 
-This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. They have a physical solution to make this work correctly.
+Nvidia Optimus o SLI/Crossfire no tienen ese problema, ya que están fabricados para sistemas con varias GPU y tienen una solución física para que funcione sin problemas.
 
 ## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
 
