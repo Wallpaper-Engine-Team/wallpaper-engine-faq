@@ -1,21 +1,21 @@
 ---
 tags:
-  - colors
-  - bright
-  - dark
+  - colores
+  - claros
+  - oscuros
   - zoom
-  - zoomed-in
-  - pixelated
-  - border
+  - acercar
+  - pixelado
+  - borde
   - gamma
-  - quality
-  - wrong
-  - ugly
+  - calidad
+  - mala
+  - feo
 ---
 
-# Video wallpapers look wrong
+# Los fondos de vídeo se ven mal
 
-Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
+Wallpaper Engine, al contrario que la mayoría de reproductores de vídeo, usa la aceleración de hardware con los vídeos para tener el máximo rendimiento. This means that your graphics card drivers may influence the way videos look.
 
 **If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
 
