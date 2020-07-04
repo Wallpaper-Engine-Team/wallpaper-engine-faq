@@ -1,7 +1,7 @@
 - - -
 タグ:
-  - アクティブムービーウィンドウ
-  - アクティブムービー
+  - activemovieウィンドウ
+  - active movie
   - 黒
 - - -
 
@@ -10,19 +10,19 @@
 
 *ビデオ*タイプの壁紙で、画面が黒いなどの問題が起きるときの問題は、*常に*グラフィックスカードドライバやビデオコーデックが破損していることが原因です。 次の手順に正確な順序で従ってください。 このガイドを最初から最後まで実行すると、問題は解決されます。
 
-::: warning 注意 このトピックは、Wallpaper Engineの**壁紙**が黒くなっていたり正しく再生されなかったりする場合の説明です。 If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: warning 注意 このトピックは、Wallpaper Engineの**壁紙**が黒くなっていたり正しく再生されなかったりする場合の説明です。 **Wallpaper Engineのインターフェースが黒い**場合は、こちらをご覧ください。 [Wallpaper Engineのユーザーインターフェースが黒い](/interface/broken.html#wallpaper-engine-interface-is-black)。 :::
 
-## Clean graphics card driver re-installation
+## グラフィックスカードドライバのクリーン再インストール
 
-For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
+大半の場合、ビデオ壁紙に関連する問題のほとんどはグラフィックスカードドライバのクリーン再インストールによって解消されます。 これには、画面が黒くなったり、別のウィンドウ（**"ActiveMovieウィンドウ"**のタイトルで）に壁紙が表示されたりするケースが含まれます。
 
-1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
+1. グラフィックスカード（例えばNvidiaとIntelなど、2つあるときは全部に対して）の最新グラフィックスカードドライバをダウンロードします。
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. 使用中のグラフィックスカードドライバを完全にアンインストールし、尋ねられたらすべての既存の設定を削除します。 Nvidiaには「クリーン再インストールの実行」というチェックボックスがあり、これを使うこともできます。
 
 You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
 
