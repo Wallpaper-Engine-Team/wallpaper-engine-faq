@@ -15,11 +15,11 @@ Wallpaper Engine 支援 [**Razer Chroma**](https://www.razer.com/chroma) 及 [**
 
 ## RGB 硬體顏色似乎過亮
 
-在預設情況下，RGB 顏色稍微增強。 On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+在預設情況下，RGB 顏色稍微增強。 因此，大部分桌布主觀看來會有更佳的視覺效果，但如果您不喜歡，也可以在 RGB 外掛程式設定中停用**增強 LED 顏色**。
 
-## My RGB hardware does not work
+## RGB 硬體無法正常運作
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engine 無法直接與 RGB 硬體溝通，所有顏色資訊都是先傳送到 RGB 驅動程式。 如果一個或多個硬體無法正常運作，問題肯定出在硬體供應商的軟體。 Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
 
 If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
 
