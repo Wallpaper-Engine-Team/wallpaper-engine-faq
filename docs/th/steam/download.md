@@ -14,18 +14,18 @@ tags:
 
 หากคุณพบปัญหาในการดาวน์โหลด Steam โปรดตรวจสอบให้แน่ใจว่าแอพพลิเคชันป้องกันไวรัสไม่ได้ปิดกั้น Steam และพอร์ตที่จำเป็นทั้งหมดในไฟร์วอลล์เปิดอยู่ รวมถึงไฟร์วอลล์ทั้งหมดในเราเตอร์เครือข่าย
 
-::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
+::: เคล็ดลับ คุณสามารถตรวจสอบได้อย่างง่ายดายว่าเราเตอร์เครือข่ายของคุณปิดกั้นไม่ให้ Steam ดาวน์โหลดหรือไม่โดยสลับไปใช้ฮอตสปอตผ่านสมาร์ทโฟนของคุณแล้วลองดาวน์โหลดวอลเปเปอร์ผ่านฮอตสปอต :::
 
-## Wallpaper download stuck at 0% or 100% (or any other percentage)
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## การดาวน์โหลดวอลเปเปอร์ค้างที่ 0% หรือ 100% (หรือเปอร์เซ็นต์อื่น ๆ)
+Steam ยังดาวน์โหลดและตรวจสอบไฟล์ไม่เสร็จสิ้น หากการดาวน์โหลดค้างอยู่ครู่หนึ่ง และแม้ว่าคุณจะรอซักครู่การดาวน์โหลดบน Steam ยังคงไม่ทำงาน โปรดลองทำสิ่งเหล่านี้:
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+* ล้างแคชดาวน์โหลดของ Steam ในตัวเลือกของ Steam:
+  * [ล้างแคชดาวน์โหลดของ Steam](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* หลังจากนั้นจึงตรวจสอบไฟล์ของ Wallpaper Engine ใน Steam:
+  * [ตรวจสอบไฟล์ Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* หากการดาวน์โหลดทั้งหมดยังคงค้างอยู่: **ปิด Steam** จากนั้น **ลบเนื้อหา** ของไดเรกทอรีต่อไปนี้:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
+    * หากคุณติดตั้งแอพพลิเคชันป้องกันไวรัส ตรวจสอบให้แน่ใจว่าได้แยกไดเรกทอรีนี้ออกโดยเฉพาะ
     * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
 * Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
 
