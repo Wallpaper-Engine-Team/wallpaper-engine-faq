@@ -7,6 +7,6 @@ tags:
 
 Wallpaper Engine kullanıcı arayüzünüz şeffafsa muhtemelen opaklığı azaltmak için yanlışlıkla pencerenin altındaki kaydırıcıyı kullandınız. Opaklığı eski hâline getirmek için basitçe sağa sürükleyin:
 
-![Use the slider at the bottom of the user interface to control the opacity](./transparentinterface.gif)
+![Opaklığı kontrol etmek için kullanıcı arayüzünün altındaki kaydırıcıyı kullanın](./transparentinterface.gif)
 
-::: tip You can use the slider to peek at wallpapers while configuring or browsing them without having to move the Wallpaper Engine window. :::
+::: ipucu Yapılandırma veya arama sırasında Wallpaper Engine penceresini taşımak zorunda kalmadan duvar kâğıtlarının nasıl durduğuna bakmak için kaydırıcıyı kullanabilirsiniz. :::
