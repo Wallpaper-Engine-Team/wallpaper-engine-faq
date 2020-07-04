@@ -1,16 +1,16 @@
-# Hibernation / Screensavers do not work
+# Veille / L'écran de veille ne marche pas
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouvez contourner ce problème en désactivant la sortie audio dans l'onglet "Général" des paramètres de Wallpaper Engine pour empêcher Windows de bloquer la mise en veille. Si vous souhaitez quand même avoir de l'audio, voici la marche à suivre.
 
-## Change the Windows power settings
+## Changer les paramètres d'alimentation de Windows
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouvez contourner ce problème en désactivant la sortie audio dans l'onglet "Général" des paramètres de Wallpaper Engine ou en reconfigurant Windows :
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
+1. Cherchez les "paramètres d'alimentation et mise en veille" dans la barre de recherche de Windows.
+2. Cliquez sur "Paramètres d'alimentation supplémentaires"
+3. Cliquez sur "Modifier les paramètres du mode" à côté du mode que vous avez choisi
+4. Cliquez sur "Modifier les paramètres d'alimentation avancés"
+5. Cherchez "Paramètres multimédias"
 6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
 
 ![Enable "Allow the computer to sleep"](./power.gif)
