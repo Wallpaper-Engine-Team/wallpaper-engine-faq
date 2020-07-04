@@ -8,6 +8,6 @@ Pruebe a hacer lo siguiente:
 * Asegúrese de que inicia sesión con la cuenta de Steam en la que tiene Wallpaper Engine.
 * **No** abra Steam ni Wallpaper Engine como administrador.
 * Excluya el directorio de Steam del antivirus o desactive cualquier antivirus de terceros.
-* Close "Steam idling" programs.
-* Delete cracked Steam games that override Steam's presence on the PC.
-* Uninstall Wallpaper Engine and Steam. Delete the entire Steam folder. Reinstall Steam and Wallpaper Engine.
+* Cierre cualquier programa inactivo de Steam.
+* Borre los juegos crackeados de Steam que sustituyan la presencia de Steam en el equipo.
+* Desinstale Wallpaper Engine y Steam. Borre la carpeta de Steam. Vuelva a instalar Steam y Wallpaper Engine.
