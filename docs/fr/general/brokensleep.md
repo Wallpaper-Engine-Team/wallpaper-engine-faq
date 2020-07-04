@@ -13,7 +13,7 @@ Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouv
 5. Cherchez "Paramètres multimédias"
 6. Dans "Lors du partage de fichiers multimédias", choisissez "Autoriser l'ordinateur à se mettre en mode Absence" (économiseur d'écran) **ou** "Autorisez l'ordinateur à se mettre en veille"
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![Activer "Autorisez l'ordinateur à se mettre en veille"](./power.gif)
 
 ## La mise en veille les fonds d'écran Web
 
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+Vous pouvez également paramétrer l'option **Écran en veille** dans l'onglet **Performances** des paramètres de Wallpaper Engine sur *Stop (libère la mémoire)*. De cette façon, Wallpaper Engine arrête toute lecture lorsque vous éteignez votre écran et que vous vous éloignez de l'ordinateur.
