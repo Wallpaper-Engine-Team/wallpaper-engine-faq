@@ -2,7 +2,7 @@
 
 Aero 是 Windows 的一项功能，也是使用 Wallpaper Engine 的最低系统要求 — 如果将其禁用，则无法使用动态壁纸。 如果无法自动启用该功能，则说明您的系统存在问题，或者未达到在 Windows 7 上启用 Aero 的最低硬件要求。
 
-Windows Aero is responsible for the transparent effect on the task bar or the top row of windows. 如果您的任务栏不透明（而且为浅蓝色），则 Aero 已禁用。 您可以在 Windows 7 主题设置中启用 Aero。 启用 Aero 主题后，Windows 7 应具有如下显示效果（注意透明任务栏和开始菜单）：
+Windows Aero is responsible for the transparent effect on the task bar or the top row of windows. 如果您的任务栏不透明（而且为浅蓝色），则 Aero 已禁用。 您可以在 Windows 7 主题设置中启用 Aero。 Your Windows 7 should look like this after enabling an Aero theme (notice the transparent task bar and start menu):
 
 ![具备 Aero 功能的 Windows 7](./w7.png)
 
