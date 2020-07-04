@@ -6,6 +6,6 @@
 
 * [AMD Radeon 驅動程式](https://www.amd.com/support)
 
-接著，先解除安裝現有的驅動程式，請務必先解除安裝驅動程式，並且在畫面出現提示時選擇清除所有現有的設定。 之後，便能安裝您下載的驅動程式。 若您不確定如何正確解除安裝驅動程式，也能用像 DDU（「Display Driver Uninstaller」）這樣的工具將驅動程式完全解除安裝。
+接著，先解除安裝現有的驅動程式，請務必先解除安裝驅動程式，並且在畫面出現提示時選擇清除所有現有的設定。 之後，便能安裝您下載的驅動程式。 若您不確定如何正確解除安裝驅動程式，也能用像 DDU (「Display Driver Uninstaller」) 這樣的工具將驅動程式完全解除安裝。
 
 * [Display Driver Uninstaller 下載](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
