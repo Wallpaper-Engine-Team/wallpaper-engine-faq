@@ -8,7 +8,7 @@ Wallpaper Engine에 FAQ의 도움으로 해결할 수 없는 기술적 문제가
 4. 다음 방법 중 하나를 선택하여 개발자에게 로그 파일을 공유하세요:
     * [pastebin.com](https://pastebin.com/)으로 이동하여 로그 파일 내용을 복사 및 붙여넣은 뒤, 해당 링크를 공유하세요.
     * 또는 이메일에 로그 파일을 첨부하여 보낼 수 있습니다. 이미 보낸 기존 이메일이 있으면, 이전 이메일에 로그 파일을 첨부해서 회신하세요. 처음 보내는 이메일이라면, 발생한 문제에 대한 정보 또는 기존 토론 링크를 추가해 주세요.
-5. *선택 사항:* 작동 중단이 발생하면 **.mdmp** 파일의 *wallpaper_engine* 디렉토리를 확인하고, 그 내용을 이메일로 보내거나 어딘가에 업로드해주세요. 여러 .mdmp 파일을 찾으면, 가장 최신 파일을 보내주세요. ::: tip Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues. :::
+5. *선택 사항:* 작동 중단이 발생하면 **.mdmp** 파일의 *wallpaper_engine* 디렉토리를 확인하고, 그 내용을 이메일로 보내거나 어딘가에 업로드해주세요. 여러 .mdmp 파일을 찾으면, 가장 최신 파일을 보내주세요. ::: 팁 처음에 스캔 도구가 보고하는 문제가 없더라도, 로그 파일을 자세히 조사하면 기술적 문제의 해결 방법을 빠르게 조언하는 데 도움이 될 일반적인 컴퓨터 문제를 밝히는 경우가 종종 있습니다. :::
 
 #### 추가 비디오 도움말
 
