@@ -8,9 +8,9 @@ Wallpaper Engine 在通知區域的圖示是可以隱藏的。您可手動建立
 
 如果您仍想隱藏通知區域圖示，請按照以下說明：
 
-In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
+若要建立登錄機碼，開啟 Windows 的開始選單，輸入「regedit.exe」即能開啟「登錄編輯程式」。
 
-1. Go to the following registry directory: *HKEY_CURRENT_USER\Software\WallpaperEngine*
+1. 前往下列登錄目錄： *HKEY_CURRENT_USER\Software\WallpaperEngine*
 2. Right-click on the *WallpaperEngine* registry folder, select *New* and then *DWORD (32 Bit) Value*.
 3. Give the registry the following name: *hideTrayIcon*
 4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
