@@ -1,14 +1,14 @@
 ---
 tags:
-  - application
-  - rules
-  - exception
-  - whitelist
-  - blacklist
-  - lags
+  - 응용프로그램
+  - 규칙
+  - 예외
+  - 허용 목록
+  - 블랙리스트
+  - 지연
   - laggy
-  - game
-  - performance
+  - 게임
+  - 성능
   - fps
   - crash
   - sound
