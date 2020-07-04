@@ -1,10 +1,10 @@
 # 隱藏 Wallpaper Engine 在通知區域的圖示
 
-It is possible to hide the Wallpaper Engine tray icon by manually creating a registry key which tells Wallpaper Engine to hide the tray icon next to the Windows clock.
+Wallpaper Engine 在通知區域的圖示是可以隱藏的。您可手動建立一組登錄機碼，讓時鐘旁邊的 Wallpaper Engine 圖示隱藏起來。
 
-::: warning We do not recommend to do this unless you are absolutely sure that the tray icon is annoying you so much that you are willing to accept the downsides of hiding the tray icon. :::
+::: 警告 我們不建議您執行此操作，除非您百分百肯定通知區域的圖示造成您莫大困擾，因此無論如何都願意接受圖示隱藏之後的不便。 :::
 
-Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+一旦通知區域圖示隱藏，關閉 Wallpaper Engine 的唯一方式是從 Windows 工作管理員結束工作。 You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
 
 If you still want to proceed with hiding the tray icon, this is how you do it:
 
