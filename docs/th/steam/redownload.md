@@ -37,4 +37,4 @@ tags:
 
 * [ใช้การสำรองข้อมูลวอลเปเปอร์](/steam/backup)
 
-จากนั้นคุณสามารถยกเลิกสมัครรับข้อมูลวอลเปเปอร์ทั้งหมดได้ Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+จากนั้นคุณสามารถยกเลิกสมัครรับข้อมูลวอลเปเปอร์ทั้งหมดได้ โดยให้ Steam ลบไฟล์วอลเปเปอร์ด้วยตัวเอง ตรวจสอบให้แน่ใจว่าคุณไม่ได้เป็นผู้ลบไฟล์ใด ๆ มิฉะนั้น Steam จะพยายามดาวน์โหลดวอลเปเปอร์อีกครั้งเพื่อลบไฟล์ด้วยตัวเอง
