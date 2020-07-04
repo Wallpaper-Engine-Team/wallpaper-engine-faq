@@ -37,4 +37,4 @@ tags:
 
 * [ใช้การสำรองข้อมูลวอลเปเปอร์](/steam/backup)
 
-Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+จากนั้นคุณสามารถยกเลิกสมัครรับข้อมูลวอลเปเปอร์ทั้งหมดได้ Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
