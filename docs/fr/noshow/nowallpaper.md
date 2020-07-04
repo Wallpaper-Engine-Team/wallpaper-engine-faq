@@ -6,7 +6,7 @@ tags:
 
 # Fonds d'écran invisibles
 
-Si certains ou tous vos fonds d'écran ne s'affichent pas, c'est souvent dû à un antivirus qui bloque Wallpaper Engine. If you are using an antivirus application, please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables:
+Si certains ou tous vos fonds d'écran ne s'affichent pas, c'est souvent dû à un antivirus qui bloque Wallpaper Engine. Votre antivirus a probablement une fonctionnalité de "liste blanche" qui vous permet de lui demander d'ignorer certains dossiers ou applications. Assurez-vous de mettre dans cette liste le répertoire d'installation de *wallpaper_engine* et tous les exécutables qu'il contient :
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -14,18 +14,18 @@ Si certains ou tous vos fonds d'écran ne s'affichent pas, c'est souvent dû à 
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: tip If you have an anti-virus application installed (except Windows Defender), it's very likely that this is the cause of your problems. Take some time to investigate this further if your first attempts do not fix this issue. :::
+::: tip Si vous avez installé un antivirus (à l'exception de Windows Defender), il est très probable que cela soit la cause de vos problèmes. N'abandonnez pas et prenez le temps de chercher davantage d'informations si vos premières tentatives ne résolvent pas ce problème. :::
 
-## Conflicts with other desktop modification software
+## Conflits avec d'autres logiciels de modification du bureau
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine est compatible avec les autres applications de modification du bureau. Cependant, certaines applications, comme StarDock DeskScapes, modifient également le fond d'écran et il n'est pas possible d'exécuter les deux applications en même temps. Vous allez devoir faire un choix entre Wallpaper Engine et ces autres applications.
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+Wallpaper Engine est compatible avec *Fences*. Mais, **si vous avez installé Fences, mais que vous l'avez désactivé**, cela empêchera Wallpaper Engine d'accéder au fond d'écran. Vous devez l'activer et le désinstaller totalement.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Fond d'écran gris ou textures manquantes avec Windows 7
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Assurez-vous que la mise à jour **KB2533623** de Windows 7 est installée. Installez-le manuellement avec ce lien ou assurez-vous que Windows se met à jour correctement et s'en occupe pour vous. Vous pouvez le télécharger manuellement depuis le site de Microsoft. Redémarrez votre ordinateur et le problème devrait être résolu :
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
