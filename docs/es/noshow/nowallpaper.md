@@ -18,14 +18,14 @@ Si no aparecen algunos de sus fondos (o ninguno), puede ser por culpa de que el 
 
 ## Conflictos con otros programas de modificación de escritorio
 
-Wallpaper Engine funciona bien con casi todos los programas de modificación de escritorios. Sin embargo, hay algunos como StarDock DeskScapes que también modifican los fondos de Windows, por lo que no es posible usar los dos programas a la vez. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine funciona bien con casi todos los programas de modificación de escritorios. Sin embargo, hay algunos como StarDock DeskScapes que también modifican los fondos de Windows, por lo que no es posible usar los dos programas a la vez. Si usa un programa parecido a Wallpaper Engine, deberá decantarse por uno solo.
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+Por lo general, Wallpaper Engine funciona bien con *Fences*. Sin embargo, **si tiene Fences instalado y lo ha desactivado**, este ocultará el fondo de Wallpaper Engine. Tendrá que volver a activarlo o, en su defecto, desinstalarlo.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Fondos gris o no hay texturas en Windows 7
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Asegúrese de que tiene instalada la actualización **KB2533623** de Windows 7. Instálela manualmente desde ese enlace o compruebe si Windows Update funciona correctamente y puede instalarla. Puede descargarla desde la página web de Microsoft y el problema se solucionará en cuanto reinicie el equipo:
 
-* [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
+* [KB2533623](https://support.microsoft.com/es-es/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
