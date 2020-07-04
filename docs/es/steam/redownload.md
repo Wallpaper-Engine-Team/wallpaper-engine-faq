@@ -8,12 +8,12 @@ tags:
 
 # Steam vuelve a descargar los fondos
 
-Steam's download cache was broken and now Steam redownloads all files (for no particular reason or i.e. Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
+El caché de descarga de Steam está dañado y por eso vuelve a descargar todos los archivos (sin motivo aparente o Steam se cuelga en vez de cerrarse correctamente). Esto no es culpa de Wallpaper Engine, por lo que no puede arreglarse desde el programa. Todos los programas de Steam Workshop sufren este problema, que es propio de Steam. Si le ocurre a menudo, aquí tiene algunas soluciones:
 
-## Fix Steam automatically
-We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
-* Turn off Steam
-* Go to the `wallpaper_engine` installation directory
+## Arregle Steam de forma automática
+Hemos creado un reparador de Steam automátivo y puede usarlo para ver si se soluciona el problema (¡esperamos que sí!). Siga los pasos siguientes:
+* Cierre Steam.
+* Diríjase al directorio de instalación `wallpaper_engine`.
   * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
   * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
