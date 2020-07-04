@@ -10,15 +10,15 @@ Si solo tiene problemas con un juego o un programa en concreto, puede configurar
 
 1. Abra la pestaña **Rendimiento** en la configuración de Wallpaper Engine.
 2. Haga clic en el botón **Editar** junto a **Reglas de aplicación**.
-3. In the pop-up that appears, click on **Create new rule**
-4. Create a new rule with the following settings:
-    * **Application name:** "game.exe" *(replace this with the actual .exe file of your game)*
-    * **Condition:** "Is running"
-    * **Wallpaper playback:** "Stop (free memory)"
-5. Confirm by clicking on **Create**
+3. Haga clic en **Crear nueva regla** en la ventana emergente.
+4. Cree une regla nueva con las siguientes características:
+    * **Nombre de la aplicación:** «game.exe» *(cambie la palabra game por el nombre real del .exe del juego)*.
+    * **Condición:** «Se está ejecutando».
+    * **Reproducción de fondos:** «Detener (liberar memoria)».
+5. Haga clic en **Crear** para confirmarla.
 
-Wallpaper Engine will now completely remove all wallpapers from memory when the *.exe* you configured is launched.
+Wallpaper Engine se encargará de eliminar todos los fondos de la memoria cuando abra el *.exe* que ha configurado.
 
-## Conflicts with screen-recording tools or overlays
+## Problemas con herramientas de grabación o con superposición
 
-If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+Si utiliza algún programa de retransmisión o grabación de juegos con superposición, asegúrese de que no están grabando Wallpaper Engine en segundo plano. También puede ocurrir si utiliza funciones de retransmisión de los controladores de la tarjeta gráfica (Nvidia ShadowPlay, Nvidia Share o AMD ReLive, por ejemplo).
