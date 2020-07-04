@@ -50,14 +50,14 @@ Si está leyendo el artículo a esa hora, es posible que los servidores no esté
 
 ## Steam: error «Faltan archivos descargados»
 
-Si Steam no puede descargar algunos archivos, puede que sea culpa del antivirus o por algún motivo completamente al azar. Se puede solucionar siguiendo los pasos siguientes:
+Si Steam no puede descargar algunos archivos, puede que sea culpa del antivirus o por algún motivo completamente al azar. Por lo general, se puede solucionar así:
 
-* Turn off Steam.
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Cierre Steam.
+* Borre los contenidos de este directorio: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`.
+* Borre los contenidos de este directorio: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`.
+  * **Aviso:** `C:\Program Files (x86)\Steam` es la ruta de Steam por defecto. Si lo ha instalado en otro directorio, tendrá que comprobar ese.
+* Abra Steam y compruebe los archivos de Wallpaper Engine:
+  * [Verificar los archivos de Wallpaper Engine.](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
 If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
