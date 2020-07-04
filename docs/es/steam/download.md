@@ -36,17 +36,17 @@ Steam no ha terminado de descargar y verificar los archivos. Si lleva esperando 
 * Compruebe que no ha limitado las descargas de Steam en la **configuración de Steam** según la hora, el ancho de banda o mientras juega.
 * Abra la pestaña «Descargas» en Steam (Biblioteca -> Descargas). Busque las descargas pausadas. Si ve alguna, haga clic en «Reanudar».
 * Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
-* Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
-* Try again after waiting at least for a day in case there are Steam server issues.
-* **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!). :::
+* Compruebe que no tenga actualizaciones pendientes de juegos en Steam, pues podrían pausar o desactivar las descargas de fondos.
+* Espere al menos un día, por si los servidores de Steam tuvieran algún problema.
+* **Como última opción,** vuelva a instalar Wallpaper Engine para deshacerse de cualquier archivo dañado de Steam (¡se volverán a descargar todos los fondos!). :::
 
-::: tip Steam servers go offline every week for maintenance at a fixed time:
+::: consejo Los servidores de Steam se desconectan cada semana a una hora concreta por temas de mantenimiento:
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* Costa Este de Estados Unidos: **jueves a las 16:00 (UTC -7)**.
+* Misma hora en Europa: **miércoles a la 01:00 (UTC+1)**.
+* Misma hora en China: **miércoles a las 08:00 (UTC+8)**.
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
+Si está leyendo el artículo a esa hora, es posible que los servidores no estén conectados. Espere un par de horas y vuelva a intentarlo. :::
 
 ## Steam: "Missing Downloaded Files" error
 
