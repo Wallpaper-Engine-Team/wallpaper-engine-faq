@@ -1,12 +1,12 @@
 ---
 tags:
-  - download
-  - re-download
-  - deleted
-  - deletes
+  - descarga
+  - vuelve a descargar
+  - borrado
+  - borra
 ---
 
-# Steam redownloading wallpapers
+# Steam vuelve a descargar los fondos
 
 Steam's download cache was broken and now Steam redownloads all files (for no particular reason or i.e. Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
 
