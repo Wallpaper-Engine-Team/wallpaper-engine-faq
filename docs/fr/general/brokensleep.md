@@ -17,9 +17,9 @@ Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouv
 
 ## La mise en veille les fonds d'écran Web
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+Les fonds d'écran Web utilisent un navigateur similaire au "CFE" de Google Chrome qui empêche la mise en veille. Vous pouvez contourner ce problème avec des invites de ligne de commande.
 
-1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
+1. Cherchez "cmd.exe" dans Windows et faites un clic droit pour sélectionner "Exécuter en tant qu'administrateur" (sinon ça ne fonctionnera pas !).
 2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
 3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
 
