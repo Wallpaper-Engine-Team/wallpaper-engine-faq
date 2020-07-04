@@ -6,4 +6,4 @@ SteamがWallpaper Engineのインストールまたはアップデート中に�
 * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * `C:\Program Files (x86)\Steam\steamapps\downloading`
 
-*If your Steam or Wallpaper Engine is installed in a different directory, you need to adjust the directories to your actual Steam installation path.*
+*SteamまたはWallpaper Engineが別のディレクトリにインストールされている場合は、実際のSteamインストールパスに合わせてディレクトリを変更する必要があります。*
