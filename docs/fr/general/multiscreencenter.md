@@ -1,7 +1,7 @@
-# Centering wallpaper with monitors of different resolutions
+# Centrer les fonds d'écran avec des écrans de différentes résolutions
 
-If you choose to display a single wallpaper across multiple monitors with different resolutions, then it will act according to the resolutions you are using, not the physical size of your monitors. Windows does not account for the physical size, only the size in pixels is relevant.
+Si vous choisissez d'afficher un même fond d'écran sur plusieurs écrans avec résolutions différentes, il se placera en fonction des résolutions que vous utilisez, et non de la taille physique de vos écrans. Windows ne tient pas compte de la taille physique, seule les pixels sont pertinents.
 
-Imagine you would center a single, normal window like Steam between your monitors. You cannot scale one side up or down without affecting the other monitor. This is exactly how a wallpaper works too. Live wallpapers are not static images, so they cannot be cut up and stitched together continuously like it would be possible with an image.
+Essayez par exemple de centrer une seule fenêtre, comme Steam, entre vos écrans. Vous ne pouvez pas ajustez cette fenêtre sans qu'elle ne bouge sur les autres écrans. Un fond d'écran fonctionne de la même manière. Les fonds d'écran animés ne sont évidemment pas des images statiques. Ils ne peuvent donc pas être découpés et assemblés comme une image ordinaire.
 
-Take a screenshot of your entire desktop in Windows or through Wallpaper Engine and examine it, you will see that the wallpaper is centered according to that, the resolution of your monitors controls the center. 
+Prenez une capture d'écran de votre bureau avec Windows ou Wallpaper Engine et examinez-le. Vous verrez que le fond d'écran est centré en fonction de la résolution de vos écrans. 
