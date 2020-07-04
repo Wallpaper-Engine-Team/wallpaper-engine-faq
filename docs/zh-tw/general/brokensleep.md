@@ -17,11 +17,11 @@
 
 ## 「網頁」類型桌布遇到的休眠問題
 
-「網頁」桌布使用類似 Google Chrome (「CEF」) 的網頁瀏覽器，會阻止電腦進入休眠模式。 在瀏覽器修復此問題之前，您可利用命令提示字元來解決。
+「網頁」桌布使用類似 Google Chrome (「CEF」) 的網頁瀏覽器，會阻止電腦進入休眠模式。 在瀏覽器修復此問題之前，您可利用命令列提示來解決。
 
-1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
-2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
-3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
+1. 搜尋 Windows 的「cmd.exe」並按一下滑鼠右鍵，選取「以管理員身分執行」(這點非常重要，否則無法運作！)。
+2. 使用命令 `powercfg /requests` 檢視阻止系統進入休眠狀態的所有處理序 (並請檢查此處是否有其他程式可能出錯)。
+3. 使用以下三個命令，允許系統在 Wallpaper Engine 運作的情況下進入睡眠狀態：
 
 ```
 powercfg /requestsoverride PROCESS webwallpaper32.exe AWAYMODE DISPLAY SYSTEM
