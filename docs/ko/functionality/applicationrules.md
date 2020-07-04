@@ -32,13 +32,13 @@ Wallpaper Engine 설정의 *성능* 탭에서 *응용프로그램 규칙* 라벨
 
 ### 앱 또는 게임의 성능 문제 해결
 
-특별한 규칙을 적용하려는 프로그램의 .exe를 목록에서 선택하거나 **응용프로그램 이름** 칸에 입력하세요. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+특별한 규칙을 적용하려는 프로그램의 .exe를 목록에서 선택하거나 **응용프로그램 이름** 칸에 입력하세요. 그런 다음 **조건**을 **실행 상태**로 설정하고, **배경화면 재생**을 **중지 (여유 메모리 확보)**로 설정하세요. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
 
 ### 배경 기록 도구의 간헐적 사운드 해결
 
-특별한 규칙을 적용하려는 프로그램의 .exe를 목록에서 선택하거나 **응용프로그램 이름** 칸에 입력하세요. Afterwards, set **Condition** to **Is playing audio** and **Wallpaper playback** to **Keep running**. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
+특별한 규칙을 적용하려는 프로그램의 .exe를 목록에서 선택하거나 **응용프로그램 이름** 칸에 입력하세요. 그런 다음 **조건**을 **오디오 재생상태**로 설정하고, **배경화면 재생**을 **계속 실행**으로 설정하세요. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
 
-### Other behavior
+### 기타 행동
 
 Check out all possible conditions and wallpaper playback options for more types of application rules. You can also configure Wallpaper Engine to mute or pause when you launch a certain application.
 
