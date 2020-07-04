@@ -21,16 +21,16 @@ Bazı durumlarda daha sonra Wallpaper Engine dosyalarını doğrulamanız veya a
 
 * [Steam Desteği: Uygulama Dosyalarının Bütünlüğünü Doğrulayın](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-Antivirüs uygulamanızı yapılandırdıktan sonra Steam üzerindeki doğrulama da bu sorunu çözmezse Wallpaper Engine'i Steam üzerinden yeniden yüklemeyi deneyin. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+Antivirüs uygulamanızı yapılandırdıktan sonra Steam üzerindeki doğrulama da bu sorunu çözmezse Wallpaper Engine'i Steam üzerinden yeniden yüklemeyi deneyin. Eğer antivirüs uygulamanız aşırı tepki veriyorsa Wallpaper Engine'in kullandığı dosya yollarını kalıcı olarak engellemiş de olabilir. Bu durumda önce antivirüs yazılımını kaldırın ve sonrasında Wallpaper Engine'i farklı bir dizine kurun. Bunun için Steam'de yeni bir Steam oyun kütüphanesi oluşturmayı tercih edebilirsiniz.
 
-## Wallpaper Engine interface with green artifacts or white lines
+## Yeşil yapıtlı veya beyaz çizgili Wallpaper Engine arayüzü
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+Grafik kartı sürücüleriniz bozuk veya yanlış yapılandırılmış. Grafik kartlarınız için en güncel sürücüleri indirin (en güncel sürücülere sahip olsanız bile) ve sürücüler için temiz bir yeniden kurulum gerçekleştirin. Bozuk dosyaların veya ayarların kaldırılmasını sağlamak için öncelikle mevcut sürücülerinizi kaldırmanız ve sonrasında en güncel sürücüleri kurmanız önemlidir.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+Sorun devam ederse Wallpaper Engine'i kapatın. Daha sonra Steam'deki "Kullanıcı arayüzü donanım hızlandırmayı devre dışı bırak" etiketli üçüncü başlatma seçeneğini kullanarak Wallpaper Engine'i yeniden başlatın.
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### Wallpaper Engine Kullanıcı Arayüzünü Bozan Nadir Steam Yer Paylaşımı Hatası
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+Siyah uygulama penceresinin diğer bir olası nedeni de Steam yer paylaşımı olan nadir bir Steam hatasıdır. Şunları deneyebilirsiniz:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Wallpaper Engine'i tamamen kapatın (tepsi simgesine sağ tıklayın ve sonra "Çıkış"ı seçin). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
