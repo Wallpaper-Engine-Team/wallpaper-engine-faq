@@ -11,18 +11,18 @@ tags:
 Steam 的下載快取損壞，現在 Steam 開始重新下載所有檔案 (沒有特別原因，或是 Steam 當機，並未正常關閉)。 這並不是 Wallpaper Engine 所造成，因此無法在 Wallpaper Engine 中解決，Steam 上所有的工作坊應用程式都可能發生這個 Steam 錯誤。 若您常常碰到上述問題，以下是因應辦法：
 
 ## 自動修復 Steam
-We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
-* Turn off Steam
-* Go to the `wallpaper_engine` installation directory
-  * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
-* Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
-  * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
-* Restart Steam and verify the Wallpaper Engine files:
-  * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+我們打造了一個 Steam 自動修復氣，(希望) 可以讓您用來防止 Steam 繼續出現上述問題！ 請依循以下步驟：
+* 關閉 Steam。
+* 前往 `wallpaper_engine` 安裝目錄
+  * 預設路徑：`C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
+* 執行 `wallpaper_engine\bin\steamredownloadfixer32.exe`
+  * 若工具顯示任何錯誤訊息，請傳送電子郵件告訴我們，我們將調查能否改善此狀況
+* 重新啟動 Steam 並驗證 Wallpaper Engine 的檔案：
+  * [驗證 Wallpaper Engine 的檔案](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-You have to repeat this every time the Steam download cache breaks up, unfortunately. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
+麻煩的是，每次 Steam 下載快取損壞時，您都必須重複以上步驟。 請記住，我們並未設計 Steam，無法自行修復 Steam。
 
-## Reinstall Steam
+## 重新安裝 Steam
 
 The most reliable long-term fix for most users affected by this Steam bug regularly appears to be to reinstall Steam as some Steam files may simply be broken on your system. Try to reinstall Steam completely:
 
