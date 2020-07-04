@@ -1,8 +1,8 @@
 # Cacher Wallpaper Engine dans la zone de notification
 
-It is possible to hide the Wallpaper Engine tray icon by manually creating a registry key which tells Wallpaper Engine to hide the tray icon next to the Windows clock.
+Il est possible de masquer l'icône de Wallpaper Engine dans la zone de notification en créant manuellement une clé de registre qui indique à Wallpaper Engine de masquer cette icône.
 
-::: warning We do not recommend to do this unless you are absolutely sure that the tray icon is annoying you so much that you are willing to accept the downsides of hiding the tray icon. :::
+::: warning Nous vous déconseillons de le faire, sauf si cette icône vous gâche la vie au point que vous êtes prêt·e à accepter les inconvénients que nous allons vous expliquer maintenant. :::
 
 Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
 
