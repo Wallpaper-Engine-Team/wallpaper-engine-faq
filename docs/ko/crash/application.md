@@ -91,4 +91,4 @@ Windows 모듈이 시스템의 무언가 때문에 손상되었다는 의미입�
 
 ## 최대 절전 / 취침 모드 후 작동 중단
 
-Windows 최대 절전 모드 후 Wallpaper Engine이 작동 중단되면, Windows에서 그래픽 카드 드라이버와 Wallpaper Engine을 함께 정확히 복구할 수 없습니다. Windows의 최대 절전 모드는 안정적인 프로세스가 아닙니다. Wallpaper Engine에서 **최대 절전 모드 후 안전 모드** 옵션을 사용하여 이 문제를 완화할 수 있습니다. 이 옵션은 Windows가 최대 절전 모드 후 정확히 작업하기를 기대하는 대신 Wallpaper Engine을 자동으로 다시 시작합니다.
+Windows 최대 절전 모드 후 Wallpaper Engine이 작동 중단되면, Windows에서 그래픽 카드 드라이버와 Wallpaper Engine을 함께 제대로 복구할 수 없습니다. Windows의 최대 절전 모드는 안정적인 프로세스가 아닙니다. Wallpaper Engine에서 **최대 절전 모드 후 안전 모드** 옵션을 사용하여 이 문제를 완화할 수 있습니다. 이 옵션은 Windows가 최대 절전 모드 후 정확히 작업하기를 기대하는 대신 Wallpaper Engine을 자동으로 다시 시작합니다.
