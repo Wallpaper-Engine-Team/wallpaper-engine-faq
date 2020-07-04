@@ -24,26 +24,26 @@
 
 2. 使用中のグラフィックスカードドライバを完全にアンインストールし、尋ねられたらすべての既存の設定を削除します。 Nvidiaには「クリーン再インストールの実行」というチェックボックスがあり、これを使うこともできます。
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+どうすればいいのかわからない場合は、[Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)を使うこともできます。
 
-3. Install the drivers you have just downloaded in step 1.
-4. Restart your PC again, see if it works now.
+3. ステップ1でダウンロードしたドライバをインストールします。
+4. PCを再起動し、正常に動作するかどうか確認します。
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: tip クリーン再インストールは非常に重要です。これにより、新しいドライバのインストールの前に、使用していたグラフィックスカードドライバとドライバの設定が完全に削除されます。そうでないと正常に動作しません。 :::
 
 ## Codec Tweak Tool
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+グラフィックスカードドライバのクリーン再インストール後も正常に動作しない場合は、ビデオコーデックをリセットしてみてください。
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* Codec Tweak Toolをダウンロードします：[ここをクリック](https://www.codecguide.com/download_other.htm)
+* "Media Foundation"メニューのチェックボックスがすべてチェックされて**いない**ことを確認し、設定を適用します。
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![Media Foundationオプションのチェックをすべて外す](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* PCを再起動し、問題のあった壁紙をもう一度試します。
 
-## Additional video codecs
+## 追加のビデオコーデック
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+上の手順を行ったあとも問題のビデオ壁紙が動作しないときは、LAVをダウンロードし、次のガイドに従ってDirectShowを使用してください。
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [LAVとDirectShowの使用](/videos/lav.html)。
