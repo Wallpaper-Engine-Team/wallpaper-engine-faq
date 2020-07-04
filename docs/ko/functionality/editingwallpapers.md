@@ -2,17 +2,17 @@
 
 일반적으로 Wallpaper Engine은 다운로드한 배경화면 편집을 지원하지 않습니다. 그러나 보통 타사 응용프로그램의 도움으로 배경화면 유형에 따라 편집이 가능합니다. (유형은 오른쪽의 미리보기 이미지 아래에서 확인할 수 있습니다)
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+원작자의 작품을 다시 게시하려면 원작자의 권리가 필요하다는 것을 항상 명심하세요. When in doubt, contact the original authors before publishing it to the Steam Workshop.
 
 [[toc]]
 
 ## 배경화면의 소스 파일은 어떻게 찾을 수 있나요?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+"설치됨" 탭에서 배경화면을 오른쪽 클릭하고, "Explorer에서 열기"를 선택하세요.
 
-## How to edit wallpapers of different types
+## 다른 유형의 배경화면 편집 방법
 
-### Scene wallpapers
+### 장면 배경화면
 
 Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
@@ -28,15 +28,15 @@ If you want to edit one of your own wallpapers that you have previously lost the
 
 ::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
 
-### Web wallpapers
+### 웹 배경화면
 
 Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
 
-### Video wallpapers
+### 비디오 배경화면
 
 Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
 
-### Application wallpapers
+### 응용프로그램 배경화면
 
 Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
 
@@ -74,7 +74,7 @@ Add this line at the top right after `{`:
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+그러면 다음과 같습니다:
 
 ```json{2}
 {
@@ -84,6 +84,6 @@ So that it looks like:
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**숫자 12345678을 제출 ID로 바꾸세요! 기존 업로드의 URL에서 ID를 찾을 수 있습니다:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
