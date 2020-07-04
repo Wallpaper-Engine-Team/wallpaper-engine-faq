@@ -9,11 +9,11 @@ tags:
 
 # Wallpaper Engine penceresi düzgün görüntülenmiyor
 
-If your Wallpaper Engine browse window is not working, it is usually caused by faulty graphics card drivers or antivirus applications. Read below for more information.
+Wallpaper Engine tarayıcı pencereniz çalışmıyorsa bunun sebebi genellikle hatalı grafik kartı sürücüleri veya antivirüs uygulamalarıdır. Daha fazla bilgi için aşağıya bakın.
 
-::: warning Please note This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
+::: uyarı Lütfen unutmayın Bu bölüm, Wallpaper Engine **arayüzünün** siyah veya bozuk olmasıyla ilgilidir. **Duvar kâğıtlarınız siyahsa** şuraya bakın: [Siyah Ekran / Videolar Oynatılmıyor](/noshow/notplaying.html). :::
 
-## Wallpaper Engine browser is Black or White
+## Wallpaper Engine tarayıcısı Siyah veya Beyaz
 
 For most people, this means that the Wallpaper Engine user interface is being blocked by an antivirus application by mistake. Make sure to set up an exception in your antivirus application so that it ignores Wallpaper Engine, specifically all executables in the wallpaper_engine installation directory and especially **wallpaper_engine/bin/ui32.exe**.
 
