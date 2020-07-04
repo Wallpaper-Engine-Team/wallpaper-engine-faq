@@ -9,7 +9,7 @@
 
 * [Wallpaper Engine 掃描工具](/debug/scantool.html)
 
-## 動態超解析度（DSR）/ GPU 縮放
+## 動態超解析度 (DSR) / GPU 縮放
 GPU 縮放/DSR 這樣的驅動程式層級處理功能也可能造成問題，請停用該功能。若停用有效，請將該功能設定為使用 Wallpaper Engine 時停用。
 
 ## dwm.exe 在擁有多個 GPU / 螢幕的系統上效能不佳
