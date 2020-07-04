@@ -19,6 +19,6 @@
 
 เมื่อคุณเปิดใช้งาน *.exe* ที่กำหนดค่าเอาไว้ Wallpaper Engine จะลบวอลเปเปอร์ทั้งหมดออกจากหน่วยความจำอย่างสมบูรณ์
 
-## ปัญหาขัดแย้งกับเครื่องมือบันทึกหน้าจอหรือการทับซ้อน
+## ปัญหาขัดแย้งกับเครื่องมือบันทึกหน้าจอหรือโอเวอร์เลย์
 
-If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+หากคุณใช้เครื่องมือสตรีมเกม เครื่องมือบันทึกเกมหรือซอฟต์แวร์ที่มีระบบโอเวอร์เลย์ ตรวจสอบให้แน่ใจว่าซอฟต์แวร์เหล่านั้นไม่ได้บันทึก Wallpaper Engine ในพื้นหลังโดยไม่ได้ตั้งใจ This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
