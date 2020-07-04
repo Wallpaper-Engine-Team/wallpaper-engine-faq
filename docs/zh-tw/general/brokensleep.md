@@ -4,10 +4,10 @@
 
 ## 變更 Windows 的電源設定
 
-如有任何使用中的音訊串流開啟，Windows 便不會進入休眠。 You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+如有任何使用中的音訊串流開啟，Windows 便不會進入休眠。 您可至 Wallpaper Engine 設定的「一般」分頁中停用音訊輸出，或是重新設定 Windows，使其可在音訊播放時進入睡眠狀態：
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
+1. 在 Windows 搜尋中輸入「電源與睡眠設定」前往該視窗。
+2. 按一下「其他電源設定」
 3. Click on "Change plan settings" next to the plan that is selected
 4. Click on "Change advanced power settings"
 5. Scroll down and expand "Multimedia settings"
