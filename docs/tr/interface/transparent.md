@@ -1,11 +1,11 @@
 ---
 tags:
-  - invisible
+  - görünmez
 ---
 
-# Wallpaper Engine window is transparent
+# Wallpaper Engine penceresi saydam
 
-If your Wallpaper Engine user interface is see-through, you have likely accidentally used the slider at the bottom of the window to reduce its opacity. Simply drag it to the right to revert the opacity again:
+Wallpaper Engine kullanıcı arayüzünüz şeffafsa muhtemelen opaklığı azaltmak için yanlışlıkla pencerenin altındaki kaydırıcıyı kullandınız. Opaklığı eski hâline getirmek için basitçe sağa sürükleyin:
 
 ![Use the slider at the bottom of the user interface to control the opacity](./transparentinterface.gif)
 
