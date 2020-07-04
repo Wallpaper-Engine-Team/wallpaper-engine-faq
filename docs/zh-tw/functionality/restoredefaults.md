@@ -1,6 +1,6 @@
-# Restoring deleted default wallpapers
+# 還原已刪除的預設桌布
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+如果您刪除了 Wallpaper Engine 預先安裝的桌布而想還原，可至 *wallpaper_engine* 的安裝目錄刪除設定檔。
 
 1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
 
