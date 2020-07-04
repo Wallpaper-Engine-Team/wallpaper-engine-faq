@@ -2,14 +2,14 @@
 
 デフォルトでは、Wallpaper Engineはゲーム中は停止します。 この動作は、Wallpaper Engine設定の**パフォーマンス**タブで設定できます。
 
-個別のゲームやアプリケーションでパフォーマンスに問題が起きるときは、この動作をさらに調整することができます。 通常、パフォーマンスに問題が起きる場合はシステムのRAMまたはビデオRAM（グラフィックスカードのメモリ）が不足しています。 You can configure Wallpaper Engine to free up any memory when in-game by changing the **Other application fullscreen** option to **Stop (free memory)** in the **Performance** tab of the Wallpaper Engine settings.
+個別のゲームやアプリケーションでパフォーマンスに問題が起きるときは、この動作をさらに調整することができます。 通常、パフォーマンスに問題が起きる場合はシステムのRAMまたはビデオRAM（グラフィックスカードのメモリ）が不足しています。 Wallpaper Engine設定の**パフォーマンス**タブにある**他のアプリケーションがフルスクリーンになった場合**オプションを**停止（メモリ解放）**に変更することにより、ゲーム中にWallpaper Engineがメモリを解放するように設定することができます。
 
-## Application Rule
+## アプリケーションルール
 
-If you only have issues with a particular game or software, you can also configure this just for the sofware that you are having problems with by creating an **Application Rule**:
+特定のゲームまたはソフトウェアについてのみ問題が起きるときは、**アプリケーションルール**を作成することによって、問題が起きているソフトウェアだけにこれを設定することもできます。
 
-1. Open the **Performance** tab in the Wallpaper Engine settings
-2. Click on the **Edit** button next to **Application rules**
+1. Wallpaper Engine設定で**パフォーマンス**タブを開きます
+2. **アプリケーションルール**の隣の**編集**ボタンをクリックします
 3. In the pop-up that appears, click on **Create new rule**
 4. Create a new rule with the following settings:
     * **Application name:** "game.exe" *(replace this with the actual .exe file of your game)*
