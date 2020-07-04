@@ -2,14 +2,14 @@
 
 Si vous avez activé le GPU intégré de votre ordinateur de bureau dans le BIOS, alors qu'un GPU est déjà installé, vous pouvez rencontrer des problème de performances et une utilisation trop élevée du processeur de *dwm.exe*. Si possible, n'activez pas votre GPU intégré et branchez vos écran à votre GPU dédié. L'utilisation ces deux processeurs graphiques en même temps interrompra l'accélération matérielle du gestionnaire de fenêtres de bureau. Il est important que tous les écrans soient connectés à votre carte graphique principale. Ce problème n'est pas lié à Wallpaper Engine. Il affecte tous les logiciels multi-écrans si les écrans ne sont pas connectés à la carte graphique principale.
 
-Sans Nvidia Optimus ou une technologie similaire, Windows sera obligé de copier l'image de fond d'écran d'un GPU à l'autre, ce qui prend beaucoup de temps. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+Sans Nvidia Optimus ou une technologie similaire, Windows sera obligé de copier l'image de fond d'écran d'un GPU à l'autre, ce qui prend beaucoup de temps. En fait, toute action partagée entre vos GPU en souffrira. C'est la même chose que que si vous placez une fenêtre de jeu entre deux écrans.
 
-This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. They have a physical solution to make this work correctly.
+C'est différent pour le matériel conçu pour les configurations multi-GPU comme les ordinateurs Nvidia Optimus ou SLI/Crossfire. Ils sont physiquement conçu pour fonctionner ainsi.
 
-## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
+## Mauvaises performances avec un GPU secondaire sans Nvidia SLI / Nvidia Optimus / AMD CrossFire
 
-Many users assume that switching Wallpaper Engine to a secondary GPU will increase the overall system performance. However, this is merely a common misconception and the overall system performance will actually degrade.
+De nombreux utilisateurs supposent que faire basculer Wallpaper Engine sur un GPU secondaire augmentera les performances du système. C'est faux et les performances du système risquent de se détériorer.
 
-Wallpaper Engine creates wallpapers which are part of the desktop which means they are part of the Windows Explorer process. Therefore, Wallpaper Engine must use the same GPU as Windows Explorer. If this is not the case, then Windows has to force both GPUs to cooperate in order to render an image for your monitors. This has to be done by the processor which ultimately means the overall computer performance degrades significantly and often takes much more performance than the wallpapers themselves. Some proper multi-GPU technologies (Nvidia SLI, Nvidia Optimus, AMD CrossFire) solve this problem on a hardware-level but this is not applicable in cases where you use an Nvidia GPU and an Intel on-board graphics card, for example.
+Wallpaper Engine crée des fonds d'écran qui font partie du bureau. Ils font donc partie du processus de l'explorateur Windows. Wallpaper Engine doit utiliser le même GPU que l'explorateur Windows. Si ce n'est pas le cas, Windows doit forcer les deux GPU à communiquer pour que l'image soit la même sur vos écrans. Donc les performances de l'ordinateur se dégradent considérablement. Cela demande plus d'effort que d'afficher simplement les fonds d'écran. Some proper multi-GPU technologies (Nvidia SLI, Nvidia Optimus, AMD CrossFire) solve this problem on a hardware-level but this is not applicable in cases where you use an Nvidia GPU and an Intel on-board graphics card, for example.
 
 You can still change the GPU of your choice in your graphics card drivers or in your overall system settings, however we strongly advise against doing this as the outcome is not an increase in system performance.
