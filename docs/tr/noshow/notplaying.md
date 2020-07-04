@@ -38,12 +38,12 @@ Grafik kartı sürücülerinizi temiz bir şekilde yeniden yüklemek de işe yar
 * Codec Tweak Tool'u indirin: [Buraya tıklayın](https://www.codecguide.com/download_other.htm)
 * "Medya Altyapısı" menüsündeki tüm onay kutularının **işaretlenmediğinden** emin olun ve sonra ayarları uygulayın:
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![Medya Altyapısı seçeneklerindeki tüm seçeneklerin işaretini kaldırın](./codectweak.gif)
 
 * PC'yi yeniden başlatın ve etkilenen duvar kâğıtlarını yeniden deneyin.
 
 ## Ek video codec bileşenleri
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+Etkilenen video duvar kâğıtları yukarıdaki adımlardan sonra hâlâ çalışmıyorsa LAV indirin ve DirectShow'u bu rehberde açıklandığı şekilde kullanın:
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [LAV ve DirectShow kullanımı](/videos/lav.html).
