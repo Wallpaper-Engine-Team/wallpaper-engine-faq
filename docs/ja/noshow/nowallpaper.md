@@ -1,10 +1,10 @@
 ---
 tags:
-  - antivirus
-  - showing
+  - アンチウイルス
+  - 表示
 ---
 
-# Wallpapers not visible
+# 壁紙が見えない
 
 If some or all of your wallpapers do not show up, it's often caused by an antivirus application blocking Wallpaper Engine by mistake. If you are using an antivirus application, please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables:
 
