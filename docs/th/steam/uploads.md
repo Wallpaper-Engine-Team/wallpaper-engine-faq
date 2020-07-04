@@ -6,4 +6,4 @@
 
 ปัญหานี้มักจะเป็นปัญหาเครือข่าย คุณต้องตรวจสอบสิ่งที่ปิดกั้น Steam ไม่ให้สื่อสารกับเซิร์ฟเวอร์ Steam ได้อย่างเหมาะสม
 
-::: tip This network issue can also be caused by a firewall in your network router. Make sure that no network router is blocking Steam's upload. Try If  uploads work through a mobile wi-fi hotspot - in that case your router is likely at fault and not any software on your computer. :::
+::: เคล็ดลับ ปัญหาเครือข่ายอาจเกิดจากไฟร์วอลล์ในเราเตอร์เครือข่ายของคุณ โปรดตรวจสอบให้แน่ใจว่าเราเตอร์เครือข่ายไม่ได้ปิดกั้นการอัปโหลดของ Steam โปรดลองอัปโหลดผ่านฮอตสปอต Wi-Fi แบบพกพา ในกรณีนี้ความผิดปกติอาจเกิดขึ้นจากเราเตอร์ของคุณ ไม่ใช่จากซอฟต์แวร์ใด ๆ ในคอมพิวเตอร์ :::
