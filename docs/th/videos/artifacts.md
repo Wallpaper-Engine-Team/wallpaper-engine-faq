@@ -13,9 +13,9 @@ tags:
   - น่าเกลียด
 ---
 
-# Video wallpapers look wrong
+# วิดีโอวอลเปเปอร์ดูผิดปกติ
 
-Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
+Wallpaper Engine ใช้การเร่งความเร็วฮาร์ดแวร์เพื่อให้ได้วิดีโอที่มีประสิทธิภาพดีที่สุดซึ่งแตกต่างจากเครื่องเล่นวิดีโอส่วนใหญ่ หมายความว่าไดรเวอร์การ์ดจอของคุณอาจส่งผลต่อลักษณะที่ปรากฏของวิดีโอ
 
 **If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
 
