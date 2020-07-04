@@ -1,21 +1,21 @@
-# Performance issues / low FPS with certain games or applications
+# Performans sorunları / belirli oyunlar veya uygulamalarda düşük FPS
 
-By default, Wallpaper Engine pauses itself while you are in-game. You can configure this behavior in the **Performance** tab of the Wallpaper Engine settings.
+Varsayılan ayar olarak Wallpaper Engine siz oyundayken kendini durdurur. Bu özelliği Wallpaper Engine ayarlarında bulunan **Performans** sekmesinden yapılandırabilirsiniz.
 
-If you are having performance issues with individual games or applications, you can further tweak this behavior. Usually performance issues mean that your system is running out of RAM or Video RAM (the memory on your graphics card). You can configure Wallpaper Engine to free up any memory when in-game by changing the **Other application fullscreen** option to **Stop (free memory)** in the **Performance** tab of the Wallpaper Engine settings.
+Belirli oyunlarda veya uygulamalarda performans sorunları yaşıyorsanız bu davranışa ince ayar uygulayabilirsiniz. Genellikle performans sorunları, sisteminizde RAM veya Video RAM'in azaldığı anlamına gelir (grafik kartınızdaki bellek). Wallpaper Engine ayarlarında bulunan **Performans** sekmesindeki **Diğer uygulamalar tam ekranken** seçeneğini **Dur (boş bellek)** olarak değiştirerek Wallpaper Engine'i oyun sırasında herhangi bir belleği boşaltması için yapılandırabilirsiniz.
 
-## Application Rule
+## Uygulama Kuralı
 
-If you only have issues with a particular game or software, you can also configure this just for the sofware that you are having problems with by creating an **Application Rule**:
+Yalnızca belirli bir oyun veya yazılımla ilgili sorun yaşıyorsanız bunu da **Uygulama Kuralı** oluşturarak yalnızca sorun yaşadığınız yazılım için yapılandırabilirsiniz:
 
-1. Open the **Performance** tab in the Wallpaper Engine settings
-2. Click on the **Edit** button next to **Application rules**
-3. In the pop-up that appears, click on **Create new rule**
-4. Create a new rule with the following settings:
-    * **Application name:** "game.exe" *(replace this with the actual .exe file of your game)*
-    * **Condition:** "Is running"
-    * **Wallpaper playback:** "Stop (free memory)"
-5. Confirm by clicking on **Create**
+1. Wallpaper Engine ayarlarında bulunun **Performans** sekmesini açın
+2. **Uygulama kuralları**'nın yanındaki **Düzenle** tuşuna tıklayın
+3. Gelen açılır pencerede **Yeni kural oluştur**'a tıklayın
+4. Aşağıdaki ayarlarla yeni bir kural oluşturun:
+    * **Uygulama adı:** "game.exe" *(bunu oyununuzun gerçek .exe dosyasıyla değiştirin)*
+    * **Koşul:** "Çalışıyor"
+    * **Duvar kâğıdını oynatma:** "Dur (boş bellek)"
+5. **Oluştur**'a tıklayarak onaylayın
 
 Wallpaper Engine will now completely remove all wallpapers from memory when the *.exe* you configured is launched.
 
