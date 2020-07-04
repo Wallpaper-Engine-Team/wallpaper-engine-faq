@@ -6,20 +6,20 @@ Windows Görev Yöneticisi, çoğu durumda gerçek GPU kullanımını göstermez
 
 ## Gerçek GPU yükünüzü bulma
 
-Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
+GPU-Z'yi yükledikten sonra GPU saat hızını ve GPU Yükünü görmek için "Algılayıcılar" sekmesini kontrol edin:
 
 ![Real GPU usage](./gpuz.png)
 
-Notice *GPU load* in the screenshot is at 24%. However, at the top you can see that the graphics card is in its low power state at 202.5 MHz. This is the best case scenario, although the 'usage' is displayed as 24%. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
+Ekran görüntüsündeki *GPU yükünün* %24 olduğuna dikkat edin. Ancak üst kısımda grafik kartının 202.5 MHz'de ve düşük güç durumunda olduğunu görebilirsiniz. "Kullanım" %24 olarak gösterilmesine rağmen bu en iyi senaryodur. 1823 mhz'lik maksimum saat hızına dayalı gerçek kullanım yalnızca **%2.6**'dır *(%24 * 202.5 MHz / 1823 MHz)*.
 
-A card could have clock rates between 100 Mhz and 2000 Mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 100 MHz or 50% of 2000 MHz**.
+Örneğin bir kartta 100 Mhz ila 2000 Mhz arasında saat hızları olabilir. Görev yöneticisi %50 gösteriyorsa bu durumda **100 MHz'in %50'si veya 2000 MHz'in %50'si olması arasında büyük bir fark vardır**.
 
-::: tip To summarize: It's important to keep the GPU clock rate in mind when looking at the GPU load. 50% of 100 MHz is better than 5% of 2000 MHz. :::
+::: ipucu Özetlemek gerekirse: GPU yüküne bakarken GPU saat hızını göz önünde bulundurmak önemlidir. 100 MHz'in %50'si 2000 MHz'in %5'inden daha iyidir. :::
 
-If you want to improve GPU performance:
+GPU performansını artırmak istiyorsanız:
 
-* Disable or delete overlay and recording tools, including Geforce Experience.
-* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
+* Geforce Experience dâhil olmak üzere, yer paylaşımı ve kayıt araçlarını devre dışı bırakın veya silin.
+* Kare hızı ayarını düşürün ve MSAA'yı devre dışı bırakın (kaliteli 2D sahne duvar kâğıtlarını etkilemez).
+    * Sabit kare hızları ve kaliteleri olduğu için bu işlem videoların performansını etkilemez.
     * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
 * Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
