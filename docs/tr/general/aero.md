@@ -2,7 +2,7 @@
 
 Aero, Windows'un bir özelliğidir ve Wallpaper Engine'i kullanmak için minimum sistem gereksinimidir. Devre dışı bırakılırsa dinamik duvar kâğıdı kullanmak imkânsızdır. Otomatik olarak etkinleştirilemiyorsa sisteminizde bir sorun vardır veya Aero'yu Windows 7'de etkinleştirmek için minimum donanım gereksinimlerini karşılamıyordur.
 
-Windows'un üst satırında bulunan görev çubuğundaki saydam etkiden Windows Aero sorumludur. Görev çubuğunuz saydam değilse (ve açık mavi renkteyse) Aero devre dışıdır. Windows 7 tema ayarlarından Aero'yu etkinleştirebilirsiniz. Aero temasını etkinleştirdikten sonra Window 7 ekranınız şu şekilde olmalıdır (saydam görev çubuğuna ve başlat menüsüne bakın):
+Windows Aero is responsible for the transparent effect on the task bar or the top row of windows. Görev çubuğunuz saydam değilse (ve açık mavi renkteyse) Aero devre dışıdır. Windows 7 tema ayarlarından Aero'yu etkinleştirebilirsiniz. Aero temasını etkinleştirdikten sonra Window 7 ekranınız şu şekilde olmalıdır (saydam görev çubuğuna ve başlat menüsüne bakın):
 
 ![Aero'lu Windows 7](./w7.png)
 
