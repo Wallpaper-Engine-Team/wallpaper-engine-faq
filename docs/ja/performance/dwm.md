@@ -1,12 +1,12 @@
-# Desktops with Integrated and Dedicated GPU Perform Poorly (dwm.exe)
+# 統合型および専用GPUのデスクトップのパフォーマンスが悪い（dwm.exe）
 
-If you enabled the integrated GPU on your desktop PC in the BIOS although a dedicated GPU is installed, you may experience bad performance and high CPU usage of *dwm.exe*. If possible, do not enable your integrated GPU and plug your monitors into your dedicated GPU. Using both independent graphics solutions at the same time will break hardware acceleration of the desktop window manager, it's important that all monitors are plugged into your main graphics card. This is not a bug or issue in Wallpaper Engine, it is problem that affects all mulit-monitor software with hardware setups where not all monitors are plugged into the main graphics card.
+BIOSからデスクトップPCの統合型GPUを有効にし、一方で専用GPUをインストールしていると、*dwm.exe*のCPU使用率が高くなってパフォーマンスが低下することがあります。 可能ならば統合型GPUは有効にせず、モニターを専用GPUにつないでください。 独立したグラフィックスソリューションを両方同時に使うとデスクトップのウィンドウマネージャのハードウェアアクセラレーションが壊れます。すべてのモニターをメインのグラフィックスカードにつなぐことが重要です。 これはWallpaper Engineのバグや問題ではありません。これは、すべてのモニターがメインのグラフィックスカードにつながっていないハードウェア設定で、あらゆるマルチモニターソフトウェアに影響する問題です。
 
-Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a very slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+Nvidia Optimusテクノロジーや類似のテクノロジーがないと、Windowsは強制的に壁紙イメージを一つのGPUから別のGPUにコピーします。これは非常に時間のかかる操作です。 実際、2つのGPUが共有するアクションはすべてこの影響を受けます。これはゲームウィンドウを2つのモニター間で移動するときも同じです。
 
-This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. They have a physical solution to make this work correctly.
+これは、Nvidia OptimusのノートPCやSLI/CrossfireのようなマルチGPUセットアップのハードウェア構成には関係がありません。 この場合は、正しく動作する物理的なソリューションが存在します。
 
-## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
+## Nvidia SLI / Nvidia Optimus / AMD CrossFireのないデスクトップでセカンダリGPUを使用するとパフォーマンスが悪い
 
 Many users assume that switching Wallpaper Engine to a secondary GPU will increase the overall system performance. However, this is merely a common misconception and the overall system performance will actually degrade.
 
