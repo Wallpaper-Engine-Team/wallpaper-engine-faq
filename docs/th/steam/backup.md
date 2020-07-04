@@ -6,12 +6,12 @@
 
 # การสร้างการสำรองข้อมูล
 
-The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
+คำแนะนำต่อไปนี้คาดการณ์ว่าคุณได้ติดตั้ง Steam และ Wallpaper Engine ใน "C:\Program Files (x86)\Steam\" หากคุณติดตั้งในไดเรกทอรีอื่น ๆ โปรดตรวจสอบที่ตั้งเหล่านี้
 
-1. Locate the folder in which Steam stores your wallpapers, by default it is in `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** is the Steam ID of Wallpaper Engine, Steam uses this directory for all Wallpaper Engine downloads. :::
-2. Copy the folder 431960 to Wallpaper Engine's installation path here: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
-3. **Rename** the folder `431960` into `backup` so that the complete path looks like this: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
-4. The `backup` directory now includes all your previously downloaded wallpapers, each in their own sub-directory (the numbers represent the Steam Workshop ID of the wallpaper)
-5. Restart the wallpaper browser and you should see the backed up wallpapers now. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them
+1. ค้นหาโฟลเดอร์ที่ Steam เก็บวอลเปเปอร์ของคุณไว้ ตามค่าเริ่มต้นคือ `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: เคล็ดลับ **431960** คือรหัส Steam ของ Wallpaper Engine โดย Steam ใช้ไดเรกทอรีนี้เพื่อจัดเก็บเนื้อหาทั้งหมดที่ดาวน์โหลดโดย Wallpaper Engine :::
+2. คัดลอกโฟลเดอร์ 431960 ไปยังพาธการติดตั้งต่อไปนี้ของ Wallpaper Engine: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
+3. **เปลี่ยนชื่อ** โฟลเดอร์ `431960` เป็น `backup` เพื่อให้พาธที่สมบูรณ์มีลักษณะดังนี้: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
+4. ตอนนี้ไดเรกทอรี `backup` จะมีวอลเปเปอร์ทั้งหมดที่คุณดาวน์โหลดมาก่อนหน้านี้ และวอลเปเปอร์แต่ละรายการจะอยู่ในไดเรกทอรีย่อยของตัวเอง (ตัวเลขแสดงถึงรหัส Steam Workshop ของวอลเปเปอร์)
+5. คุณควรเห็นวอลเปเปอร์สำรองหลังจากรีสตาร์ทเบราเซอร์วอลเปเปอร์ ตอนนี้คุณสามารถยกเลิกสมัครรับข้อมูลวอลเปเปอร์ Steam ที่ซ้ำกันและใช้สำเนาวอลเปเปอร์ส่วนตัวของคุณเท่านั้น
 
-::: warning Do **not** manually delete the Steam Workshop folder `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. This will cause your Steam to be confused and re-download all wallpapers. Simply unsubscribe from your wallpapers and let Steam delete the duplicate files itself. :::
+::: คำเตือน โปรด **อย่า** ลบโฟลเดอร์ Steam Workshop ด้วยตนเอง `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` สิ่งนี้จะทำให้ Steam สับสนและดาวน์โหลดวอลเปเปอร์ทั้งหมดอีกครั้ง คุณเพียงยกเลิกสมัครรับข้อมูลวอลเปเปอร์และให้ Steam ลบไฟล์ที่ซ้ำกันออกไป :::
