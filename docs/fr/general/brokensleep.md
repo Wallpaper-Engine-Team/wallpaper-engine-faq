@@ -11,11 +11,11 @@ Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouv
 3. Cliquez sur "Modifier les paramètres du mode" à côté du mode que vous avez choisi
 4. Cliquez sur "Modifier les paramètres d'alimentation avancés"
 5. Cherchez "Paramètres multimédias"
-6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
+6. Dans "Lors du partage de fichiers multimédias", choisissez "Autoriser l'ordinateur à se mettre en mode Absence" (économiseur d'écran) **ou** "Autorisez l'ordinateur à se mettre en veille"
 
 ![Enable "Allow the computer to sleep"](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## La mise en veille les fonds d'écran Web
 
 "Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
 
