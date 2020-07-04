@@ -13,7 +13,7 @@
 5. 向下捲動並展開「多媒體設定」
 6. 將「媒體共用」設定為「允許電腦進入離開模式」(螢幕保護程式) **或**「讓電腦睡眠」(休眠)
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![啟用「讓電腦睡眠」](./power.gif)
 
 ## 「網頁」類型桌布遇到的休眠問題
 
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+此外，您還可以在 Wallpaper Engine 設定的**效能**分頁中，將**顯示器休眠時**選項設定為*停止 (釋放記憶體)*，接著關閉顯示器。 如此一來，如果您在離開電腦時關閉顯示器，Wallpaper Engine 將停止所有播放。
