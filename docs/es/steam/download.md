@@ -20,12 +20,12 @@ Si tiene problemas con las descargas de Steam, compruebe que el antivirus no hay
 Steam no ha terminado de descargar y verificar los archivos. Si lleva esperando un buen rato y las descargas de Steam no avanzan, siga los pasos siguientes:
 
 * Borre el caché de las descargas en las opciones de Steam:
-  * [Borrar caché de descargas](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+  * [Borrar caché de descargas.](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
 * Después verifique los archivos de Wallpaper Engine en Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+  * [Verificar los archivos de Wallpaper Engine.](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Si no avanza ninguna descarga: **cierre Steam** y a continuación **borre los contenidos** de este directorio:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
+    * Si tiene instalado un antivirus, asegúrese de que excluye este directorio.
     * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
 * Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
 
