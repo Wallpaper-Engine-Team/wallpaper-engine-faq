@@ -11,17 +11,17 @@ tags:
 
 Si la fenêtre de navigation de Wallpaper Engine ne fonctionne pas correctement, c'est dû généralement à des pilotes de carte graphique ou à un antivirus défectueux. Vous aurez plus d'informations ci-dessous.
 
-::: warning Please note This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
+::: warning Attention Cette section va aborder les problèmes liés l'**interface** de Wallpaper Engine. Si vos **fonds d'écran sont noirs**, nous vous renvoyez à cette section de la FAQ : [Écran noir / La vidéo ne se lance pas](noshow/notplaying.html). :::
 
-## Wallpaper Engine browser is Black or White
+## Le navigateur de Wallpaper Engine est noir ou blanc
 
-For most people, this means that the Wallpaper Engine user interface is being blocked by an antivirus application by mistake. Make sure to set up an exception in your antivirus application so that it ignores Wallpaper Engine, specifically all executables in the wallpaper_engine installation directory and especially **wallpaper_engine/bin/ui32.exe**.
+Dans la plupart des cas, cela veut dire que l'interface utilisateur de Wallpaper Engine est bloquée par un antivirus. Assurez-vous de configurer une exception dans votre antivirus afin qu'il ignore Wallpaper Engine, en particulier tous les fichiers du répertoire d'installation de wallpaper_engine, notamment **wallpaper_engine/bin/ui32.exe**.
 
-In some cases, it is necessary to verify the Wallpaper Engine files afterwards or even to re-install Wallpaper Engine if your antivirus application has placed a permanent lock on some important Wallpaper Engine files:
+Il est parfois nécessaire de vérifier les fichiers de Wallpaper Engine ou même de les réinstaller si votre antivirus a bloqué de façon permanente certains fichiers importants de Wallpaper Engine :
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam : vérifier l'intégrité des fichiers d'un jeu](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+Si la vérification Steam ne résout pas ce problème non plus, essayez de réinstaller Wallpaper Engine avec Steam. Si votre antivirus est devenu fou, il a peut-être entièrement bloqué Wallpaper Engine. Dans ce cas-ci, assurez-vous de désinstaller l'antivirus en premier, puis installez Wallpaper Engine dans un répertoire différent. Vous pouvez même choisir de créer une nouvelle bibliothèque de jeux Steam.
 
 ## Wallpaper Engine interface with green artifacts or white lines
 
