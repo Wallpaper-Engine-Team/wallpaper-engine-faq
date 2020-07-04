@@ -17,7 +17,7 @@ Yalnızca belirli bir oyun veya yazılımla ilgili sorun yaşıyorsanız bunu da
     * **Duvar kâğıdını oynatma:** "Dur (boş bellek)"
 5. **Oluştur**'a tıklayarak onaylayın
 
-Wallpaper Engine will now completely remove all wallpapers from memory when the *.exe* you configured is launched.
+Wallpaper Engine artık yapılandırdığınız *.exe* başlatıldığında tüm duvar kâğıtlarını tamamen bellekten kaldıracaktır.
 
 ## Conflicts with screen-recording tools or overlays
 
