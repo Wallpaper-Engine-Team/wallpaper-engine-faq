@@ -2,7 +2,7 @@
 
 일반적으로 Wallpaper Engine은 다운로드한 배경화면 편집을 지원하지 않습니다. 그러나 보통 타사 응용프로그램의 도움으로 배경화면 유형에 따라 편집이 가능합니다. (유형은 오른쪽의 미리보기 이미지 아래에서 확인할 수 있습니다)
 
-원작자의 작품을 다시 게시하려면 원작자의 권리가 필요하다는 것을 항상 명심하세요. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+원작자의 작품을 다시 게시하려면 원작자의 권리가 필요하다는 것을 항상 명심하세요. 의심이 들면, Steam 창작마당에 게시하기 전 원작자에게 문의하세요.
 
 [[toc]]
 
@@ -14,11 +14,11 @@
 
 ### 장면 배경화면
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. .pkg 파일을 열려고 하면 "묶인 배경화면들을 열 수 없음" 오류가 표시됩니다. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
 #### Unofficial Community Scene Unpacker
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. 자세한 정보는 다음 웹사이트에서 확인하세요:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
@@ -26,7 +26,7 @@ You will still need to have a valid project.json file, you can create one by sim
 
 If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: 경고 이 도구는 공식 지원하지 않으며, 올바른 작동을 보장하지 않습니다. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
 
 ### 웹 배경화면
 
