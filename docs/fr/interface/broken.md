@@ -27,7 +27,7 @@ Si la vérification Steam ne résout pas ce problème non plus, essayez de réin
 
 Les pilotes de votre carte graphique sont corrompus ou mal configurés. Téléchargez les derniers pilotes pour vos cartes graphiques (même si vous les aviez déjà) et effectuez une réinstallation propre de ces pilotes. Désinstallez d'abord vos pilotes actuels avant d'installer les dernières versions pour vous assurer que tous les fichiers ou paramètres corrompus sont bien supprimés.
 
-Si le problème persiste, quittez Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+Si le problème persiste, quittez Wallpaper Engine. Relancez ensuite Wallpaper Engine en utilisant la troisième option de lancement Steam : "Désactiver l'accélération matérielle de l'interface utilisateur".
 
 ### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
 
