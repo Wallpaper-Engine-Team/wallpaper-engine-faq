@@ -28,8 +28,8 @@ Wallpaper Engine 설정으로 이동한 뒤 "일반" 탭을 찾아, 컴퓨터를
 
 ## Wallpaper Engine이 Windows와 시작하지만 (일부) 배경화면이 나타나지 않습니다
 
- 컴퓨터를 시작한 뒤 Wallpaper Engine 아이콘이 시계 옆 Windows 트레이에 보이는지 확인하세요. If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
+ 컴퓨터를 시작한 뒤 Wallpaper Engine 아이콘이 시계 옆 Windows 트레이에 보이는지 확인하세요. 시스템 시작 후 아이콘이 보이지만 전체 또는 일부 모니터에 배경화면이 표시되지 않으면, 그래픽 카드 드라이버에 문제가 있는 것입니다. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
 
- ## Wallpaper Engine assigns wrong wallpapers at system start-up
+ ## 시스템이 시작될 때 Wallpaper Engine이 잘못된 배경화면을 지정합니다
 
- This is the same problem as in the previous section, if you have multiple monitors and the wallpapers are being assigned to the wrong monitor at start-up, try changing the *Monitor identification* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*.
+ 이전 섹션과 같은 문제입니다. 모니터가 여러 대이며 시작 시 배경 화면이 잘못된 모니터에 지정되면, Wallpaper Engine 설정에서 *일반* 탭의 *모니터 식별* 옵션을 *레이아웃* 또는 *GDI*로 변경하세요.
