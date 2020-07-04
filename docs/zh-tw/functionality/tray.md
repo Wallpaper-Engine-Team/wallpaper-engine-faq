@@ -4,9 +4,9 @@ Wallpaper Engine 在通知區域的圖示是可以隱藏的。您可手動建立
 
 ::: 警告 我們不建議您執行此操作，除非您百分百肯定通知區域的圖示造成您莫大困擾，因此無論如何都願意接受圖示隱藏之後的不便。 :::
 
-一旦通知區域圖示隱藏，關閉 Wallpaper Engine 的唯一方式是從 Windows 工作管理員結束工作。 You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+一旦通知區域圖示隱藏，關閉 Wallpaper Engine 的唯一方式是從 Windows 工作管理員結束工作。 您將只能透過 Steam 或 .exe 檔開啟使用者介面，但這樣極不方便也令人不知所以然。
 
-If you still want to proceed with hiding the tray icon, this is how you do it:
+如果您仍想隱藏通知區域圖示，請按照以下說明：
 
 In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
 
