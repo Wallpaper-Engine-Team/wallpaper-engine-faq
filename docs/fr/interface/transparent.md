@@ -3,10 +3,10 @@ tags:
   - invisible
 ---
 
-# Wallpaper Engine window is transparent
+# La fenêtre de Wallpaper Engine est transparente
 
-If your Wallpaper Engine user interface is see-through, you have likely accidentally used the slider at the bottom of the window to reduce its opacity. Simply drag it to the right to revert the opacity again:
+Si l'interface de Wallpaper Engine est transparente, vous avez, sans le faire exprès, utilisé le curseur en bas de la fenêtre pour réduire son opacité. Glissez ce curseur vers la droite pour retrouver l'opacité qui vous plaît :
 
-![Use the slider at the bottom of the user interface to control the opacity](./transparentinterface.gif)
+![Le curseur en bas de l'interface vous permet de contrôler son opacité](./transparentinterface.gif)
 
-::: tip You can use the slider to peek at wallpapers while configuring or browsing them without having to move the Wallpaper Engine window. :::
+::: tip Cette fonctionnalité vous permet de voir vos fonds d'écran facilement sans avoir à déplacer la fenêtre de Wallpaper Engine. :::
