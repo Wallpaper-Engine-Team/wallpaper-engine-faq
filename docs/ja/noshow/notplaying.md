@@ -1,16 +1,16 @@
 - - -
-tags:
-  - activemovie window
-  - active movie
-  - black
+タグ:
+  - アクティブムービーウィンドウ
+  - アクティブムービー
+  - 黒
 - - -
 
 
-# Videos Black / Not Playing Properly
+# ビデオが黒い / 正しく再生されない
 
-Black screens and other issues with wallpapers of the type *Video* are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
+*ビデオ*タイプの壁紙で、画面が黒いなどの問題が起きるときの問題は、*常に*グラフィックスカードドライバやビデオコーデックが破損していることが原因です。 次の手順に正確な順序で従ってください。 このガイドを最初から最後まで実行すると、問題は解決されます。
 
-::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black or not playing properly. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: warning 注意 このトピックは、Wallpaper Engineの**壁紙**が黒くなっていたり正しく再生されなかったりする場合の説明です。 If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
 ## Clean graphics card driver re-installation
 
