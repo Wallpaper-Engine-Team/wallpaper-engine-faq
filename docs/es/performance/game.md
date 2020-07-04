@@ -1,15 +1,15 @@
-# Performance issues / low FPS with certain games or applications
+# Problemas de rendimiento / bajada de FPS con ciertos juegos o programas
 
-By default, Wallpaper Engine pauses itself while you are in-game. You can configure this behavior in the **Performance** tab of the Wallpaper Engine settings.
+Wallpaper Engine se pausa cuando juegas por defecto. Puede cambiar esta opción en la pestaña **Rendimiento** de la configuración de Wallpaper Engine.
 
-If you are having performance issues with individual games or applications, you can further tweak this behavior. Usually performance issues mean that your system is running out of RAM or Video RAM (the memory on your graphics card). You can configure Wallpaper Engine to free up any memory when in-game by changing the **Other application fullscreen** option to **Stop (free memory)** in the **Performance** tab of the Wallpaper Engine settings.
+Si tiene problemas de rendimiento con juegos o programas, puede cambiar la configuración. Por lo general, los problemas de rendimiento significan que el equipo se queda sin RAM o RAM de vídeo (la memoria de la tarjeta gráfica). Puede configurar Wallpaper Engine para liberar memoria mientras juega si cambia la opción **Otra aplicación en pantalla completa** a **Detener (liberar memoria)** en la pestaña **Rendimiento** de la configuración de Wallpaper Engine.
 
-## Application Rule
+## Regla de la aplicación
 
-If you only have issues with a particular game or software, you can also configure this just for the sofware that you are having problems with by creating an **Application Rule**:
+Si solo tiene problemas con un juego o un programa en concreto, puede configurar Wallpaper Engine para solucionar el problema con ese programa si crea una **regla de la aplicación**:
 
-1. Open the **Performance** tab in the Wallpaper Engine settings
-2. Click on the **Edit** button next to **Application rules**
+1. Abra la pestaña **Rendimiento** en la configuración de Wallpaper Engine.
+2. Haga clic en el botón **Editar** junto a **Reglas de aplicación**.
 3. In the pop-up that appears, click on **Create new rule**
 4. Create a new rule with the following settings:
     * **Application name:** "game.exe" *(replace this with the actual .exe file of your game)*
