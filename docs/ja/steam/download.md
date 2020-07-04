@@ -10,9 +10,9 @@ tags:
 
 # Steamの壁紙ダウンロードに関する問題
 
-**ダウンロードはすべて、Steamによって行われます**。 Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+**ダウンロードはすべて、Steamによって行われます**。 Wallpaper EngineはSteamのダウンロード状態を表示するだけです。ダウンロードの問題はすべてSteamに関連するもので、直接的にWallpaper Engineに関連するものはありません。 このガイドは、ダウンロードについてよく起きる問題を集めたものです。多くの場合、根本的な原因はアンチウイルスアプリケーションの過剰な動作か、ネットワークポートがブロックされていることによるものです。
 
-If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
+Steamダウンロードに問題が起きた場合は、アンチウイルスアプリケーションがSteamをブロックしていないか、ファイアーウォール（ネットワークルーターのファイアーウォールをすべて含みます）で必要なポートがすべて開いているかを確認してください。
 
 ::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
 
