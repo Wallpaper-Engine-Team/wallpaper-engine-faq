@@ -8,8 +8,8 @@ Nvidia Optimusテクノロジーや類似のテクノロジーがないと、Win
 
 ## Nvidia SLI / Nvidia Optimus / AMD CrossFireのないデスクトップでセカンダリGPUを使用するとパフォーマンスが悪い
 
-Many users assume that switching Wallpaper Engine to a secondary GPU will increase the overall system performance. However, this is merely a common misconception and the overall system performance will actually degrade.
+多くのユーザーが、Wallpaper EngineをセカンダリGPUに切り替えると全体のシステムパフォーマンスが向上すると考えています。 しかしこれはよくある誤解で、全体的なシステムパフォーマンスはむしろ下がります。
 
-Wallpaper Engine creates wallpapers which are part of the desktop which means they are part of the Windows Explorer process. Therefore, Wallpaper Engine must use the same GPU as Windows Explorer. If this is not the case, then Windows has to force both GPUs to cooperate in order to render an image for your monitors. This has to be done by the processor which ultimately means the overall computer performance degrades significantly and often takes much more performance than the wallpapers themselves. Some proper multi-GPU technologies (Nvidia SLI, Nvidia Optimus, AMD CrossFire) solve this problem on a hardware-level but this is not applicable in cases where you use an Nvidia GPU and an Intel on-board graphics card, for example.
+Wallpaper Engineはデスクトップの一部である壁紙を作成します。つまりこれは、Windows Explorerプロセスの一部なのです。 そのため、Wallpaper EngineはWindows Explorerと同じGPUを使わなくてはなりません。 そうでない場合、モニターに1枚の画像を表示するため、Windowsは両方のGPUを強制的に共同で働かせなければなりません。 これはプロセッサによって行われなければならず、最終的には、全体的なコンピュータパフォーマンスが大きく低下し、しばしば、壁紙そのもよりも大きなパフォーマンスを食うことになります。 適切なマルチGPUテクノロジー（Nvidia SLI、Nvidia Optimus、AMD CrossFire）はこの問題をハードウェアレベルで解決しますが、例えばNvidia GPUとIntelの内蔵グラフィックスカードを使っているときは、それはできません。
 
-You can still change the GPU of your choice in your graphics card drivers or in your overall system settings, however we strongly advise against doing this as the outcome is not an increase in system performance.
+グラフィックスカードドライバや全体的なシステム設定でGPUの選択を変更することはできますが、そうしてもシステムパフォーマンスの改善にはつながらないため、そうしないことを強くお勧めします。
