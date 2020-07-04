@@ -6,19 +6,19 @@
 
 ## กฎของแอพพลิเคชัน
 
-If you only have issues with a particular game or software, you can also configure this just for the sofware that you are having problems with by creating an **Application Rule**:
+หากคุณมีปัญหาเกี่ยวกับเกมหรือซอฟต์แวร์ใด ๆ คุณสามารถกำหนดค่านี้ได้โดยสร้าง **กฎของแอพพลิเคชัน** เฉพาะสำหรับซอฟต์แวร์ที่พบปัญหา:
 
-1. Open the **Performance** tab in the Wallpaper Engine settings
-2. Click on the **Edit** button next to **Application rules**
-3. In the pop-up that appears, click on **Create new rule**
-4. Create a new rule with the following settings:
-    * **Application name:** "game.exe" *(replace this with the actual .exe file of your game)*
-    * **Condition:** "Is running"
-    * **Wallpaper playback:** "Stop (free memory)"
-5. Confirm by clicking on **Create**
+1. ในการตั้งค่า Wallpaper Engine เปิดแท็บ **ประสิทธิภาพการทำงาน**
+2. คลิกที่ปุ่ม **แก้ไข** ถัดจาก **กฎของแอพพลิเคชัน**
+3. ในหน้าต่างป๊อปอัปที่ปรากฏขึ้นให้คลิกที่ **สร้างกฎใหม่**
+4. สร้างกฎใหม่ด้วยการตั้งค่าต่อไปนี้:
+    * **ชื่อแอพพลิเคชัน:** "game.exe" *(แทนที่ด้วยไฟล์ .exe จริงของเกม)*
+    * **เงื่อนไข:** "กำลังทำงาน"
+    * **การเล่นวอลเปเปอร์:** "หยุด (ลดการใช้หน่วยความจำ)"
+5. ยืนยันโดยคลิกที่ **สร้าง**
 
-Wallpaper Engine will now completely remove all wallpapers from memory when the *.exe* you configured is launched.
+เมื่อคุณเปิดใช้งาน *.exe* ที่กำหนดค่าเอาไว้ Wallpaper Engine จะลบวอลเปเปอร์ทั้งหมดออกจากหน่วยความจำอย่างสมบูรณ์
 
-## Conflicts with screen-recording tools or overlays
+## ปัญหาขัดแย้งกับเครื่องมือบันทึกหน้าจอหรือการทับซ้อน
 
 If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
