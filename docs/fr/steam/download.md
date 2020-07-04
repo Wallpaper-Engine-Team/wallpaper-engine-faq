@@ -1,6 +1,6 @@
 ---
 tags:
-  - downtime
+  - arrêt
   - serveur
   - téléchargements
   - progression
