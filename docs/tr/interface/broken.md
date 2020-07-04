@@ -15,13 +15,13 @@ Wallpaper Engine tarayıcı pencereniz çalışmıyorsa bunun sebebi genellikle 
 
 ## Wallpaper Engine tarayıcısı Siyah veya Beyaz
 
-For most people, this means that the Wallpaper Engine user interface is being blocked by an antivirus application by mistake. Make sure to set up an exception in your antivirus application so that it ignores Wallpaper Engine, specifically all executables in the wallpaper_engine installation directory and especially **wallpaper_engine/bin/ui32.exe**.
+Çoğu kişi için bu Wallpaper Engine kullanıcı arayüzünün bir antivirüs uygulaması tarafından yanlışlıkla engellendiği anlamına gelir. Antivirüs uygulamanızın Wallpaper Engine'i, özellikle de wallpaper_engine yükleme dizinindeki tüm yürütülebilir dosyalar ve **wallpaper_engine/bin/ui32.exe**'yi yoksayması için uygulama içerisinde bir istisna oluşturun.
 
-In some cases, it is necessary to verify the Wallpaper Engine files afterwards or even to re-install Wallpaper Engine if your antivirus application has placed a permanent lock on some important Wallpaper Engine files:
+Bazı durumlarda daha sonra Wallpaper Engine dosyalarını doğrulamanız veya antivirüs uygulamanız bazı önemli Wallpaper Engine dosyalarına kalıcı bir kilit yerleştirdiyse Wallpaper Engine'i yeniden kurmanız gerekebilir:
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam Desteği: Uygulama Dosyalarının Bütünlüğünü Doğrulayın](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+Antivirüs uygulamanızı yapılandırdıktan sonra Steam üzerindeki doğrulama da bu sorunu çözmezse Wallpaper Engine'i Steam üzerinden yeniden yüklemeyi deneyin. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
 
 ## Wallpaper Engine interface with green artifacts or white lines
 
