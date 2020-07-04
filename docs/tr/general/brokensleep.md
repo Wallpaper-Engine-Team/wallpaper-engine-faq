@@ -20,8 +20,8 @@ Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper 
 "Web" duvar kâğıtları, hazırda bekletme modunu engelleyecek Google Chrome ("CEF") benzeri bir web tarayıcısı kullanır. Bu durum tarayıcıda çözülene kadar bazı komut satırı bilgi istemleriyle bu sorunu çözebilirsiniz.
 
 1. Windows'ta "cmd.exe"yi aratarak sağ tıklayın ve "Yönetici olarak çalıştır"ı (çok önemli, aksi hâlde bu işe yaramayacaktır!) seçin.
-2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
-3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
+2. Sisteminizi hazırda bekletme konusunda engelleyen tüm işlemleri görüntülemek için `powercfg /requests` komutunu kullanın (ayrıca başka programların hatalı olup olmadığını da kontrol edin).
+3. Wallpaper Engine çalışırken sisteminizin uyumasına izin vermek için şu üç komutu kullanın:
 
 ```
 powercfg /requestsoverride PROCESS webwallpaper32.exe AWAYMODE DISPLAY SYSTEM
