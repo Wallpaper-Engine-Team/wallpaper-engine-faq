@@ -21,7 +21,7 @@ Wallpaper Engine 支援 [**Razer Chroma**](https://www.razer.com/chroma) 及 [**
 
 Wallpaper Engine 無法直接與 RGB 硬體溝通，所有顏色資訊都是先傳送到 RGB 驅動程式。 如果一個或多個硬體無法正常運作，問題肯定出在硬體供應商的軟體。 有些非常舊的硬體無法再受到硬體供應商的全面支援，因而無法正常運作。 我們對此無能為力，煩請見諒。
 
-If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
+如果您根本看不見 Wallpaper Engine 設定的*外掛程式*區段，則很可能未安裝 *Visual C++ Redistributable for Visual Studio 2015* 或安裝已損壞，但您必須安裝該程式，才能正常運作。 您可以從 Microsoft 網站下載並安裝此程式套件，系統重新啟動後即可解決此問題：
 
 * [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
