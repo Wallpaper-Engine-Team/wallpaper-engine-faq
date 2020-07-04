@@ -8,7 +8,7 @@ Wallpaper Engine 在通知區域的圖示是可以隱藏的。您可手動建立
 
 如果您仍想隱藏通知區域圖示，請按照以下說明：
 
-若要建立登錄機碼，開啟 Windows 的開始選單，輸入「regedit.exe」即能開啟「登錄編輯程式」。
+若要建立登錄機碼，開啟 Windows 的開始功能表，輸入「regedit.exe」即能開啟「登錄編輯程式」。
 
 1. 前往下列登錄目錄： *HKEY_CURRENT_USER\Software\WallpaperEngine*
 2. 以滑鼠右鍵按一下 *WallpaperEngine* 登錄資料夾，選取*新建*，然後選取 *DWORD (32 位元) 值*。
