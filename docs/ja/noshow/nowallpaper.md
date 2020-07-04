@@ -22,7 +22,7 @@ Wallpaper Engineは、ほとんどのデスクトップ変更アプリケーシ�
 
 ### Fences
 
-基本的に、Wallpaper Engineは*Fences*と一緒に問題なく動作します。 However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+基本的に、Wallpaper Engineは*Fences*と一緒に問題なく動作します。 しかし、**Fencesをインストールしていて無効にしている場合**、それがWallpaper Engineから壁紙を隠します。 You need to either enable or uninstall it completely.
 
 ## Gray Wallpaper or missing textures on Windows 7
 
