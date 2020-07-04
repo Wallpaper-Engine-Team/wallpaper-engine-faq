@@ -6,20 +6,20 @@ Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web
 
 Vous pouvez exclure les catégories que vous n'aimez pas dans l'application. Ouvrez l'onglet "Workshop" de Wallpaper Engine et activer la barre des filtres en cliquant sur "Filtrer les résultats" en haut à gauche. Désélectionnez toutes les catégories que vous ne voulez pas voir.
 
-Par exemple, si vous n'aimez pas trop le style manga, vous pouvez désélectionner les catégories *Anime* et *MMD (Miku-Miku-Dance)*. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+Par exemple, si vous n'aimez pas trop le style manga, vous pouvez désélectionner les catégories *Anime* et *MMD (Miku-Miku-Dance)*. Vous pouvez également décocher *Cartoon* et *Filles*, car ils contiennent également des design d'anime, mais vous risquez de bloquer trop de contenu.
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## Excluding certain age ratings
+## Bloquer certaines tranches d'âge
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Le Workshop de Steam permet de charger également du contenu pour adulte, comme de la nudité. Si vous ne souhaitez pas voir ce genre de contenu, sélectionnez le filtre "Tout le monde" :
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
-Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
+La plupart du contenu est bien labellisé et le contenu pour adulte sera filtré. Si vous voyez du contenu pour adultes qui a été labellisé pour "Tout le monde", veuillez nous le signaler immédiatement. Ce contenu sera placé dans une autre catégorie ou censuré.
 
-## Reporting rule-breaking content
+## Signaler du contenu illicite
 
-We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
+Notre équipe, les administrateurs et les modérateurs de Steam suppriment quotidiennement des fonds d'écran enfreignant les règles. Veuillez signaler tous les contenus du Workshop qui enfreignent les règles pour nous aider à les trouver.
 
-The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
+Le Workshop permet aux utilisateurs de publier du contenu sans que nous puissions l'approuver avant. C'est lié au fonctionnement de Steam et nous sommes malheureusement impuissants. Nous ne pouvons que supprimer le contenu déjà publié. Si cela vous pose problème, assurez-vous d'activer le filtre *Approuvé* dans les paramètres. Vous ne verrez ainsi que du contenu sélectionné et vérifié par notre équipe. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
