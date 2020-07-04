@@ -1,4 +1,4 @@
-# Preview images / search results not showing
+# プレビュー画像や検索結果が表示されない
 
 If you cannot see preview images for wallpapers except for installed ones, there is a firewall or security software that blocks the browser from accessing the internet. You must disable that or add an exception for 'ui32.exe'.
 
