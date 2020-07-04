@@ -24,7 +24,7 @@ tags:
 
 Wallpaper Engine 설정의 *성능* 탭에서 *응용프로그램 규칙* 라벨 옆의 *편집* 버튼을 클릭하면 설정한 전체 사용자 지정 규칙 개요를 불러올 수 있습니다. *새 규칙 만들기*를 클릭하면 특정 응용프로그램에 대한 Wallpaper Engine의 특별한 행동을 설정할 수 있습니다.
 
-![Application Rules Overview](./applicationrule.gif)
+![응용프로그램 규칙 개요](./applicationrule.gif)
 
 시스템에서 실행 중인 모든 .exe 파일 목록이 나타납니다. 목록에서 .exe.를 선택하거나 문제가 있는 .exe의 정확한 이름을 입력하세요. 두 가지 다른 옵션으로 조건 및 행동을 구성할 수 있습니다. 자세한 정보와 구체적인 예는 아래를 확인하세요.
 
@@ -42,4 +42,4 @@ Wallpaper Engine 설정의 *성능* 탭에서 *응용프로그램 규칙* 라벨
 
 더 많은 응용프로그램 규칙 유형은 가능한 모든 조건과 배경화면 재생 옵션에서 확인하세요. 또한 특정 응용프로그램을 실행할 때 Wallpaper Engine이 음소거하거나 일시정지하도록 구성할 수 있습니다.
 
-::: tip You can also change these settings for all applications in the **Performance** tab of the Wallpaper Engine settings. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other application fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
+::: 팁 또한 Wallpaper Engine 설정의 **성능** 탭에서 모든 응용프로그램에 적용하는 이 설정을 변경할 수도 있습니다. 예를 들어, 복수의 게임에서 성능 문제가 발생하면 **타 응용 프로그램 전체 화면** 옵션을 **중지 (여유 메모리 확보)**로 변경할 수 있습니다. 그러면 게임 또는 전체 화면 응용프로그램을 실행할 때 Wallpaper Engine이 꺼집니다. ::
