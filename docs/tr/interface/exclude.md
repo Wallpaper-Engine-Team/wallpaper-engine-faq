@@ -4,22 +4,22 @@ Yeni duvar kâğıtları aramak için her zaman uygulamadaki Atölye sekmesini k
 
 ## Belirli türleri hariç tutma (örneğin anime)
 
-Uygulamada görmek istemediğiniz kategorilere filtre uygulayabilirsiniz. Wallpaper Engine'deki "Atölye" sekmesini açın ve sol üst köşedeki "Sonuçları filtrele" tuşuna tıklayarak filtre kenar çubuğunu etkinleştirin. Deselect all categories you do not like to see in your results.
+Uygulamada görmek istemediğiniz kategorilere filtre uygulayabilirsiniz. Wallpaper Engine'deki "Atölye" sekmesini açın ve sol üst köşedeki "Sonuçları filtrele" tuşuna tıklayarak filtre kenar çubuğunu etkinleştirin. Sonuçlarınızda görmek istemediğiniz tüm kategorilerin seçimini kaldırın.
 
-If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+Anime duvar kâğıtlarını görmek istemiyorsanız *Anime* ve *MMD (Miku-Miku-Dance)* kategorilerini kaldırın. Ek olarak bunlar da anime içeriklerine sahip olduğu için *Çizgi Film* ve *Kızlar* kategorilerini de kaldırmak isteyebilirsiniz. Ancak bu şekilde diğer içerikleri de filtreleme ihtimaliniz vardır.
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## Excluding certain age ratings
+## Belirli yaş sınırlarını hariç tutma
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Steam Atölyesi, çıplaklık gibi belirli derecedeki yetişkin içeriğe izin verir. Bu tür içerikleri görmek istemiyorsanız yalnızca filtrelerdeki "Herkes" yaş sınırını etkinleştirin:
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
-Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
+Çoğu içerik doğru şekilde etiketlenmiştir ve bu işlem yetişkinlere uygun içeriğin büyük çoğunluğunu filtreleyecektir. Hâlâ "Herkes" olarak sınırlandırılmış, yetişkinlere uygun içeriklerle karşılaşıyorsanız lütfen uygulamadaki bildir seçeneğini kullanın. İçerik, incelendikten sonra yeniden sınıflandırılacak veya yasaklanacaktır.
 
-## Reporting rule-breaking content
+## Kurallara aykırı içerik bildirme
 
-We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
+Biz ve Steam yöneticileri / moderatörleri, günlük olarak kuralları ihlal eden duvar kâğıtlarını kaldırıyoruz. Lütfen bunları saptamamıza yardımcı olmak için kuralları ihlal eden Atölye içeriklerini bize bildirin.
 
 The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
