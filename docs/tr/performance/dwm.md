@@ -6,10 +6,10 @@ Nvidia Optimus teknolojisi veya benzeri olmadığında Windows, duvar kâğıdı
 
 Bu Nvidia Optimus dizüstü bilgisayarlar veya SLI/Crossfire gibi çoklu GPU kurulumları için üretilmiş donanımları etkilemez. Bunun doğru şekilde işlemesi için fiziksel bir çözümleri vardır.
 
-## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
+## Nvidia SLI / Nvidia Optimus / AMD CrossFire olmaksızın Masaüstünde İkincil GPU Kullanıldığında Düşük Performans
 
-Many users assume that switching Wallpaper Engine to a secondary GPU will increase the overall system performance. However, this is merely a common misconception and the overall system performance will actually degrade.
+Birçok kullanıcı, Wallpaper Engine'i ikincil bir GPU'ya geçirmenin genel sistem performansını artıracağını düşünür. Ancak bu yalnızca genel bir yanlış algıdır ve esasında genel sistem performansı düşecektir.
 
-Wallpaper Engine creates wallpapers which are part of the desktop which means they are part of the Windows Explorer process. Therefore, Wallpaper Engine must use the same GPU as Windows Explorer. If this is not the case, then Windows has to force both GPUs to cooperate in order to render an image for your monitors. This has to be done by the processor which ultimately means the overall computer performance degrades significantly and often takes much more performance than the wallpapers themselves. Some proper multi-GPU technologies (Nvidia SLI, Nvidia Optimus, AMD CrossFire) solve this problem on a hardware-level but this is not applicable in cases where you use an Nvidia GPU and an Intel on-board graphics card, for example.
+Wallpaper Engine, masaüstünün bir parçası olan duvar kâğıtları oluşturur, yani bunlar Windows Gezgini'nin bir parçasıdır. Bu nedenle Wallpaper Engine, Windows Gezgini ile aynı GPU'yu kullanmalıdır. Durum böyle olmazsa Windows'un monitörlerinizde bir görüntü oluşturmak için her iki GPU'yu da birlikte çalışmaya zorlaması gerekir. Bunun işlemci tarafından yapılması gerekir. Sonuçta genel bilgisayar performansı önemli ölçüde düşmekte ve genellikle duvar kâğıtlarının kendisinden çok daha fazla performans harcamaktadır. Bazı uygun çoklu GPU teknolojileri (Nvidia SLI, Nvidia Optimus, AMD CrossFire), bu sorunu donanım düzeyinde çözer ancak bu, örneğin Nvidia GPU ve Intel yerleşik grafik kartı kullandığınız durumlarda geçerli değildir.
 
-You can still change the GPU of your choice in your graphics card drivers or in your overall system settings, however we strongly advise against doing this as the outcome is not an increase in system performance.
+Grafik kartı sürücülerinizde veya genel sistem ayarlarınızda seçtiğiniz GPU'yu yine de değiştirebilirsiniz. Ancak sistem performansında bir artış meydana gelmediği için bunu yapmamanızı öneririz.
