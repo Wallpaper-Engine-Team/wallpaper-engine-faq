@@ -13,22 +13,22 @@ tags:
 ## แก้ไข Steam โดยอัตโนมัติ
 เราได้สร้างโปรแกรมแก้ไข Steam แบบอัตโนมัติซึ่งคุณสามารถใช้เพื่อป้องกันไม่ให้เกิดปัญหานี้ขึ้นอีกใน Steam (หวังว่า)! โปรดทำตามขั้นตอนเหล่านี้:
 * ปิด Steam
-* Go to the `wallpaper_engine` installation directory
-  * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
-* Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
-  * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
-* Restart Steam and verify the Wallpaper Engine files:
-  * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* ไปที่ไดเรกทอรีการติดตั้ง `wallpaper_engine`
+  * ตำแหน่งเริ่มต้น: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
+* เรียกใช้ `wallpaper_engine\bin\steamredownloadfixer32.exe`
+  * หากเครื่องมือแจ้งข้อผิดพลาดให้คุณ โปรดส่งอีเมลถึงเราและเราจะตรวจสอบว่าสามารถปรับปรุงได้หรือไม่
+* รีสตาร์ท Steam และตรวจสอบไฟล์ Wallpaper Engine:
+  * [ตรวจสอบไฟล์ Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-You have to repeat this every time the Steam download cache breaks up, unfortunately. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
+คุณต้องทำสิ่งนี้ซ้ำทุกครั้งที่แคชดาวน์โหลดของ Steam เสียหาย โปรดทราบว่าเราไม่ได้มีส่วนร่วมในการสร้าง Steam ดังนั้นจึงไม่สามารถซ่อมแซม Steam ได้ด้วยตัวเอง
 
-## Reinstall Steam
+## ติดตั้ง Steam ใหม่อีกครั้ง
 
-The most reliable long-term fix for most users affected by this Steam bug regularly appears to be to reinstall Steam as some Steam files may simply be broken on your system. Try to reinstall Steam completely:
+สำหรับผู้ใช้ส่วนใหญ่ที่ได้รับผลกระทบจากข้อผิดพลาดของ Steam นี้เป็นประจำ การแก้ไขระยะยาวที่น่าเชื่อถือที่สุดคือการติดตั้ง Steam ใหม่ เนื่องจากไฟล์ Steam บางไฟล์ในระบบของคุณอาจเสียหาย โปรดลองติดตั้ง Steam ใหม่ทั้งหมด:
 
-1. Uninstall Wallpaper Engine through Steam.
-2. Uninstall Steam itself, make sure to follow the official guide:
-  * [Uninstall Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
+1. ถอนการติดตั้ง Wallpaper Engine ผ่าน Steam
+2. ถอนการติดตั้ง Steam ด้วยตนเอง โปรดปฏิบัติตามคำแนะนำอย่างเป็นทางการ:
+  * [ถอนการติดตั้ง Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
   * Specifically check the Manually Removing Steam section in the Steam Support article above and make a backup of your *steamapps* directory as described there to ensure you will not have to redownload all your games.
 
 ## Use local backups as a workaround
