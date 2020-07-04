@@ -10,15 +10,15 @@
 
 1. Wallpaper Engine設定で**パフォーマンス**タブを開きます
 2. **アプリケーションルール**の隣の**編集**ボタンをクリックします
-3. In the pop-up that appears, click on **Create new rule**
-4. Create a new rule with the following settings:
-    * **Application name:** "game.exe" *(replace this with the actual .exe file of your game)*
-    * **Condition:** "Is running"
-    * **Wallpaper playback:** "Stop (free memory)"
-5. Confirm by clicking on **Create**
+3. ポップアップが表示されたら**新規ルール作成**をクリックします
+4. 次の設定で新規ルールを作成します
+    * **アプリケーション名：** "game.exe" *（これをゲームの実際の.exeファイルに置き換えます）*
+    * **状態：** "実行されている"
+    * **壁紙再生：** "停止（メモリ解放）"
+5. **作成**をクリックして確定します
 
-Wallpaper Engine will now completely remove all wallpapers from memory when the *.exe* you configured is launched.
+これで、設定された*.exe*が起動すると、Wallpaper Engineはすべての壁紙をメモリから完全に削除するようになります。
 
-## Conflicts with screen-recording tools or overlays
+## 画面録画ツールまたはオーバーレイと競合する
 
-If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+ゲームストリーミング、ゲーム録画、オーバーレイのあるソフトウェアなどを使っている場合は、誤ってバックグラウンドのWallpaper Engineを録画しないように気をつけましょう。 グラフィックスカードドライバのゲームストリーミング機能（Nvidia ShadowPlay、Nvidia Share、AMD ReLiveなど）を使っている場合もそれが起きることがあります。
