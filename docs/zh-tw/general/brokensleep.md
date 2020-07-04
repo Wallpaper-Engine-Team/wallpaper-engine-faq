@@ -11,13 +11,13 @@
 3. 按一下選取計劃旁邊的「變更計劃設定」
 4. 按一下「變更進階電源設定」
 5. 向下捲動並展開「多媒體設定」
-6. 將「媒體共用」設定為「允許電腦進入離開模式」(螢幕保護程式) **或**「允許電腦睡眠」(休眠)
+6. 將「媒體共用」設定為「允許電腦進入離開模式」(螢幕保護程式) **或**「讓電腦睡眠」(休眠)
 
 ![Enable "Allow the computer to sleep"](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## 「網頁」類型桌布遇到的休眠問題
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+「網頁」桌布使用類似 Google Chrome (「CEF」) 的網頁瀏覽器，會阻止電腦進入休眠模式。 在瀏覽器修復此問題之前，您可利用命令提示字元來解決。
 
 1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
 2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
