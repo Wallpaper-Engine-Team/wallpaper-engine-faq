@@ -28,7 +28,7 @@ Wallpaper Engine 설정으로 이동한 뒤 "일반" 탭을 찾아, 컴퓨터를
 
 ## Wallpaper Engine이 Windows와 시작하지만 (일부) 배경화면이 나타나지 않습니다
 
- 컴퓨터를 시작한 뒤 Wallpaper Engine 아이콘이 시계 옆 Windows 트레이에 보이는지 확인하세요. 시스템 시작 후 아이콘이 보이지만 전체 또는 일부 모니터에 배경화면이 표시되지 않으면, 그래픽 카드 드라이버에 문제가 있는 것입니다. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
+ 컴퓨터를 시작한 뒤 Wallpaper Engine 아이콘이 시계 옆 Windows 트레이에 보이는지 확인하세요. 시스템 시작 후 아이콘이 보이지만 전체 또는 일부 모니터에 배경화면이 표시되지 않으면, 그래픽 카드 드라이버에 문제가 있는 것입니다. 기본적으로 그래픽 카드 드라이버가 모니터에 계속 새로운 식별자를 지정하여 Wallpaper Engine은 사용자가 새로운 모니터를 구성하려 한다고 믿습니다. 이 문제는 *일반* 탭의 *"모니터 식별"* 옵션을 *레이아웃* 또는 *GDI*로 변경하여 해결할 수 있습니다.. 또한 이 경우에는 그래픽 카드 드라이버를 완전히 재설치하는 것을 권장합니다. Windows 설치 관련 내부 문제를 의미하기 때문입니다.
 
  ## 시스템이 시작될 때 Wallpaper Engine이 잘못된 배경화면을 지정합니다
 
