@@ -2,7 +2,7 @@
 
 AeroはWindowsの機能で、Wallpaper Engineの最低システム要件です。これが無効になっていると、ダイナミック壁紙は使用できません。 自動的に有効にならない場合は、システムに問題があるか、Windows 7でAeroを有効にするための最低ハードウェア要件が満たされていない可能性があります。
 
-Windows Aero is responsible for the transparent effect on the task bar or the top row of windows. タスクバーが透明（そして明るいブルー）ではない場合、Aeroは無効になっています。 AeroはWindows 7のテーマの設定で有効にすることができます。 Your Windows 7 should look like this after enabling an Aero theme (notice the transparent task bar and start menu):
+Windows Aeroは、Windowsのタスクバーまたは一番上の行に透明効果を付けるものです。 タスクバーが透明（そして明るいブルー）ではない場合、Aeroは無効になっています。 AeroはWindows 7のテーマの設定で有効にすることができます。 Aeroのテーマを有効にすると、Windows 7はこのように見えるはずです（タスクバーとスタートメニューが透明になっていることに注目してください）。
 
 ![Aeroを使ったWindows 7](./w7.png)
 
