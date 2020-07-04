@@ -1,5 +1,5 @@
-# Playlist Causes focus loss / minimizes games
+# Oynatma Listesi odak kaybına neden oluyor / oyunları simge durumuna küçültüyor
 
-If you have a playlist with wallpapers of the type **Web** and experience focus loss while playing games, make sure to pause the playlist while other applications are fullscreen. You can do so by turning **off** the **Allow wallpaper to change while paused** option in the playlist settings) or alternatively remove the web-based wallpapers from the playlist.
+**Web** türü duvar kâğıtları içeren bir oynatma listeniz varsa ve oyun oynarken odak kaybı yaşıyorsanız diğer uygulamalar tam ekran modundayken oynatma listesini durdurun. Bunu oynatma listesi ayarlarındaki **Duraklatıldığında duvar kâğıdının değiştirilmesine izin ver** seçeneğini **kapalı** duruma getirerek veya alternatif olarak web tabanlı duvar kâğıtlarını oynatma listesinden kaldırarak yapabilirsiniz.
 
 Chromium itself - which is the software used to display "Web" type wallpapers - is stealing the focus of your current window when loading a new wallpaper so we cannot fix this issue easily unfortunately.
