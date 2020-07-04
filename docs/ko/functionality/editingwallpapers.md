@@ -1,12 +1,12 @@
-# Editing Downloaded Wallpapers
+# 다운로드한 배경화면 편집
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+일반적으로 Wallpaper Engine은 다운로드한 배경화면 편집을 지원하지 않습니다. 그러나 보통 타사 응용프로그램의 도움으로 배경화면 유형에 따라 편집이 가능합니다. (유형은 오른쪽의 미리보기 이미지 아래에서 확인할 수 있습니다)
 
 Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## 배경화면의 소스 파일은 어떻게 찾을 수 있나요?
 
 Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
 
