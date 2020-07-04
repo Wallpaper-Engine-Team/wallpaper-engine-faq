@@ -6,11 +6,11 @@ tags:
 
 # 부팅 시 자동 실행
 
-Wallpaper Engine 설정으로 이동한 뒤 "일반" 탭을 찾아, 컴퓨터를 시작할 때 Wallpaper Engine을 실행하도록 설정할 수 있습니다. At the top, you can enable the automatic startup option which will launch the application quietly in the background whenever your system boots up.
+Wallpaper Engine 설정으로 이동한 뒤 "일반" 탭을 찾아, 컴퓨터를 시작할 때 Wallpaper Engine을 실행하도록 설정할 수 있습니다. 시스템을 부팅할 때마다 배경에서 응용프로그램이 조용히 실행되는 자동 시작 옵션을 상단에서 설정할 수 있습니다.
 
-## What is the difference between "high-priority" and the "normal" start-up option?
+## "최우선"과 "일반" 시작 옵션의 차이는 무엇인가요?
 
-When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+최우선 옵션을 선택하면, Wallpaper Engine이 Windows 서비스를 등록합니다. 즉, Windows와 함께 자동으로 실행되도록 구성한 다른 프로그램보다 앞서 Wallpaper Engine이 시작됩니다. 이것은 응용프로그램의 성능에 영향을 주지 않습니다.
 
 The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
 
