@@ -1,10 +1,10 @@
 # Tümleşik ve Ayrılmış GPU'su Kötü Performans sergileyen masaüstleri (dwm.exe)
 
-Masaüstü PC'nizde ayrılmış bir GPU yüklü olmasına rağmen BIOS üzerinden tümleşik GPU etkinleştirdiyseniz kötü performans ve *dwm.exe*'nin yüksek CPU kullanımıyla karşı karşıya kalabilirsiniz. Mümkünse tümleşik GPU'yu etkinleştirmeyin ve monitörlerinizi ayrılmış GPU'nuza bağlayın. Using both independent graphics solutions at the same time will break hardware acceleration of the desktop window manager, it's important that all monitors are plugged into your main graphics card. This is not a bug or issue in Wallpaper Engine, it is problem that affects all mulit-monitor software with hardware setups where not all monitors are plugged into the main graphics card.
+Masaüstü PC'nizde ayrılmış bir GPU yüklü olmasına rağmen BIOS üzerinden tümleşik GPU etkinleştirdiyseniz kötü performans ve *dwm.exe*'nin yüksek CPU kullanımıyla karşı karşıya kalabilirsiniz. Mümkünse tümleşik GPU'yu etkinleştirmeyin ve monitörlerinizi ayrılmış GPU'nuza bağlayın. Her iki bağımsız grafik çözümünü aynı anda kullanmak, masaüstü pencere yöneticisinin donanım ivmesini bozacaktır. Tüm monitörlerin ana grafik kartınıza takılı olması önemlidir. Bu, Wallpaper Engine ile ilgili bir hata veya sorun değildir. Bu sorun, tüm monitörlerin ana grafik kartına takılı olmadığı donanım kurulumlarına sahip tüm çoklu monitör yazılımlarını etkiler.
 
-Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a very slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+Nvidia Optimus teknolojisi veya benzeri olmadığında Windows, duvar kâğıdı görüntüsünü bir GPU'dan diğerine kopyalamak zorunda kalacaktır ve bu oldukça yavaş bir işlemdir. Hatta GPU'larınız arasındaki tüm ortak eylemler bundan etkilenecektir. Bu durum bir oyun penceresini iki monitör arasında hareket ettirmeye benzer.
 
-This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. They have a physical solution to make this work correctly.
+Bu Nvidia Optimus dizüstü bilgisayarlar veya SLI/Crossfire gibi çoklu GPU kurulumları için üretilmiş donanımları etkilemez. Bunun doğru şekilde işlemesi için fiziksel bir çözümleri vardır.
 
 ## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
 
