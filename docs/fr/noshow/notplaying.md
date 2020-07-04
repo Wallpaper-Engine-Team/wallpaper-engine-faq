@@ -22,14 +22,14 @@ Pour la grande majorité, une réinstallation propre des pilotes de carte graphi
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. Désinstallez tous les pilotes de votre carte graphique actuelle et supprimez tous les paramètres existants si on vous en donne la possibilité. Les pilotes Nvidia ont une case à cocher qui dit "Effectuer une réinstallation propre", ce qui fonctionne très bien également.
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+Vous pouvez également utiliser [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour vous aider.
 
-3. Install the drivers you have just downloaded in step 1.
-4. Restart your PC again, see if it works now.
+3. Installez tous les pilotes que vous avez téléchargés à l'étape 1.
+4. Redémarrez votre PC pour voir si cela à marcher.
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: tip Il est très important que vous fassiez une réinstallation propre : vos pilotes de carte graphique et leurs paramètres doivent être complètement supprimés avant d'installer les nouveaux pilotes. :::
 
 ## Codec Tweak Tool
 
