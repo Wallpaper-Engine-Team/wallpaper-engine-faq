@@ -8,7 +8,7 @@
 
 หลังจากติดตั้ง GPU-Z โปรดตรวจสอบแท็บ“ เซ็นเซอร์” สำหรับความเร็วสัญญาณนาฬิกาของ GPU และอัตราการประมวลผลของ GPU:
 
-![Real GPU usage](./gpuz.png)
+![อัตราการใช้งาน GPU ที่แท้จริง](./gpuz.png)
 
 โปรดทราบว่า*อัตราการประมวลผลของ GPU* ในภาพหน้าจอคือ 24% อย่างไรก็ตามที่ด้านบนคุณจะเห็นว่าการ์ดจออยู่ในสถานะพลังงานต่ำที่ 202.5 MHz นี่คือกรณีที่ดีที่สุด แม้ว่าจะแสดง "อัตราการใช้งาน" เป็น 24% อัตราการใช้งานจริงตามความเร็วสัญญาณนาฬิกาสูงสุด 1823mhz เพียง **2.6%** *(24% × 202.5 MHz / 1823 MHz)*
 
@@ -19,7 +19,7 @@
 หากคุณต้องการปรับปรุงประสิทธิภาพการทำงานของ GPU:
 
 * ปิดใช้งานหรือลบเครื่องมือบันทึกและโอเวอร์เลย์ รวมถึง Geforce Experience
-* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+* ลดการตั้งค่าอัตราเฟรมและปิดการใช้งาน MSAA (ไม่มีผลกับคุณภาพของวอลล์เปเปอร์ฉาก 2D)
+    * สิ่งนี้จะไม่ส่งผลต่อประสิทธิภาพของวิดีโอเนื่องจากมีอัตราเฟรมและคุณภาพคงที่
+    * ความละเอียดและอัตราเฟรมของวิดีโอวอลเปเปอร์จะควบคุมการตั้งค่าเหล่านี้และใช้วิดีโอ FPS ที่ต่ำกว่าเพื่อลดอัตราการใช้งาน GPU
+* เชื่อมต่อจอแสดงผลของคุณกับ GPU เดียวกัน มิฉะนั้น Windows จะทำงานได้ไม่ดีเมื่อพยายามผสานการทำงานเข้าด้วยกัน
