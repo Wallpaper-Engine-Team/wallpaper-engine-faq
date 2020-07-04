@@ -1,12 +1,12 @@
 ---
 tags:
   - antivirus
-  - showing
+  - aparece
 ---
 
-# Wallpapers not visible
+# No se ven los fondos
 
-If some or all of your wallpapers do not show up, it's often caused by an antivirus application blocking Wallpaper Engine by mistake. If you are using an antivirus application, please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables:
+Si no aparecen algunos de sus fondos (o ninguno), puede ser por culpa de que el antivirus bloquea Wallpaper Engine por error. Si usa un antivirus, configúrelo para que ignore el directorio de instalación *wallpaper_engine* y todos los ejecutables importantes de Wallpaper Engine:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -14,11 +14,11 @@ If some or all of your wallpapers do not show up, it's often caused by an antivi
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: tip If you have an anti-virus application installed (except Windows Defender), it's very likely that this is the cause of your problems. Take some time to investigate this further if your first attempts do not fix this issue. :::
+::: consejo Si tiene un antivirus instalado (que no sea Windows Defender) es muy probable que sea el causante de sus problemas. Investigue el asunto con calma si no consigue solucionar el error tras los primeros intentos. :::
 
-## Conflicts with other desktop modification software
+## Conflictos con otros programas de modificación de escritorio
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine funciona bien con casi todos los programas de modificación de escritorios. Sin embargo, hay algunos como StarDock DeskScapes que también modifican los fondos de Windows, por lo que no es posible usar los dos programas a la vez. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
 
 ### Fences
 
