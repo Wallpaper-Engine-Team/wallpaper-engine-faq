@@ -8,4 +8,4 @@
 
 ## 壁紙が全く表示されないか、ごく少数だけ表示される
 
-フィルターの制限が厳しすぎる可能性があります。 Try resetting all filters by clicking on the "Reset filters" button in the filter sidebar.
+フィルターの制限が厳しすぎる可能性があります。 フィルターのサイドバーにある「フィルターのリセット」ボタンをクリックして、すべてのフィルターをリセットしてみてください。
