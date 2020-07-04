@@ -31,10 +31,10 @@ La solución más fiable para la mayoría de usuarios que sufren este error de S
   * [Desinstalar Steam.](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
   * Preste atención a la sección Eliminando Steam de forma manual del artículo de Steam y haga una copia de seguridad del directorio *steamapps* tal y como lo explica para que no tenga que volver a descargar todos los juegos.
 
-## Use local backups as a workaround
+## Usar copias de seguridad locales
 
-If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+Si el problema persiste, puede hacer copias de seguridad locales de todos los fondos y después cancelar la suscripción de los fondos. Steam no volverá a descargarlos si no hay suscripción, por lo que la solución consistiría en depender de las copias de seguridad locales. Aquí tiene una guía sobre cómo crear copias locales:
 
-* [Using wallpaper backups](/steam/backup)
+* [Usar copias de seguridad de los fondos.](/steam/backup)
 
-Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+Después, puede quitar la suscripción de todos los fondos. Asegúrese de no borrar ningún archivo de forma manual y dejar que lo haga Steam porque si no volverá a descargar todos los fondos para borrarlos él mismo.
