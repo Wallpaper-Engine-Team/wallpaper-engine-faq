@@ -1,26 +1,26 @@
 ---
 tags:
-  - downtime
-  - server
-  - downloads
-  - progress
+  - inactividad
+  - servidor
+  - descargas
+  - progreso
   - workshop
-  - connection
+  - conexión
 ---
 
-# Steam Wallpaper Download Issues
+# Problemas con la descarga de fondos de Steam
 
-Keep in mind that **all downloads are performed by Steam**. Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+Tenga en cuenta que **Steam se ocupa de todas las descargas**. Wallapaper Engine solo muestra el estado de descarga de Steam, y todos los problemas con las descargas están relacionados con Steam y no con Wallpaper Engine. Esta guía contiene una colección de los problemas más comunes con las descargas, y en muchos de los casos, la causa principal de los problemas con los antivirus o los puertos bloqueados.
 
-If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
+Si tiene problemas con las descargas de Steam, compruebe que el antivirus no haya bloqueado Steam y que todos los puertos necesarios están abiertos en el firewall, incluidos los firewall de los routers.
 
-::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
+::: consejo Puede comprobar si el router tiene bloqueadas las descargas de Steam si se conecta desde un punto Wi-Fi con su teléfono e intenta descargar un fondo de pantalla. :::
 
-## Wallpaper download stuck at 0% or 100% (or any other percentage)
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## La descarga se queda a 0 % o 100 % (o cualquier otro porcentaje)
+Steam no ha terminado de descargar y verificar los archivos. Si lleva esperando un buen rato y las descargas de Steam no avanzan, siga los pasos siguientes:
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* Borre el caché de las descargas en las opciones de Steam:
+  * [Borrar caché de descargas](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
 * Afterwards verify the files of Wallpaper Engine in Steam:
   * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 * If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
