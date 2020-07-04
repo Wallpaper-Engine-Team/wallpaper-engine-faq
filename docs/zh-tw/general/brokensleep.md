@@ -8,10 +8,10 @@
 
 1. 在 Windows 搜尋中輸入「電源與睡眠設定」前往該視窗。
 2. 按一下「其他電源設定」
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
-6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
+3. 按一下選取計劃旁邊的「變更計劃設定」
+4. 按一下「變更進階電源設定」
+5. 向下捲動並展開「多媒體設定」
+6. 將「媒體共用」設定為「允許電腦進入離開模式」(螢幕保護程式) **或**「允許電腦睡眠」(休眠)
 
 ![Enable "Allow the computer to sleep"](./power.gif)
 
