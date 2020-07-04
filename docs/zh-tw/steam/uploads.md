@@ -1,9 +1,9 @@
 # 上傳停在 45%
 
-上傳程序位於 45% 時，Steam 其實會開始將檔案上傳到 Steam 伺服器。 If you are trying to publish Wallpaper Engine content to the Steam Workshop and you are stuck at 45%, it means your Steam is unable to upload files to the Steam servers. Make sure that no firewall or antivirus application is blocking Steam from uploading files. Please also see the official guide on Steam network ports:
+上傳程序位於 45% 時，Steam 其實會開始將檔案上傳到 Steam 伺服器。 若您正在將 Wallpaper Engine 內容發佈到 Steam 工作坊，而且上傳進度停在 45%，這表示 Steam 無法將檔案上傳到 Steam 伺服器。 請確定沒有防火牆或防毒應用程式阻擋 Steam 上傳檔案。 另外，請參閱 Steam 網路連接埠的官方指南：
 
-* [Required Ports for Steam](https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711)
+* [Steam 所需的連接埠](https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711)
 
-This issue is always some sort of network issue, you will need to investigate what is blocking your Steam properly communicating with the Steam servers.
+這個問題一直都是某種網路的問題，您需要找出阻擋 Steam 正常與 Steam 伺服器通訊的原因。
 
-::: tip This network issue can also be caused by a firewall in your network router. Make sure that no network router is blocking Steam's upload. Try If  uploads work through a mobile wi-fi hotspot - in that case your router is likely at fault and not any software on your computer. :::
+::: 提示 這個網路問題也可能是網路路由器中的防火牆所造成。 請避免網路路由器阻擋 Steam 上傳。 請嘗試切換為行動 wi-fi 熱點後能否繼續上傳，若可行，則可能是路由器出了問題，不是電腦上的任何軟體。 :::
