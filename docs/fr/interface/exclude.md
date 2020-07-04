@@ -1,10 +1,10 @@
 # Exclure certains fonds d'écran de la recherche
 
-Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web du Workshop Steam n'a pas les mêmes capacités de filtrage que l'application et vous montrera beaucoup trop de contenu.
 
-## Excluding certain genres (anime, for example)
+## Exclure certains genres de fonds d'écran
 
-You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+Vous pouvez exclure les catégories que vous n'aimez pas dans l'application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
 If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
 
