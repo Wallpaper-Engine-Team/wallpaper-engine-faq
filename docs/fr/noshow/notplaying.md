@@ -1,7 +1,7 @@
 - - -
-tags:
+mots-clés :
   - activemovie window
-  - active movie
+  - activemovie
   - noir
 - - -
 
@@ -33,17 +33,17 @@ Vous pouvez également utiliser [Display Driver Uninstaller ("DDU")](https://www
 
 ## Codec Tweak Tool
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+Si votre problème n'est toujours pas résolu, essayez de réinitialiser vos codecs vidéo :
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* Téléchargez Codec Tweak Tool : [cliquez ici](https://www.codecguide.com/download_other.htm)
+* Vérifiez que les cases du menu "Media Foundation" ne sont **pas** cochées et appliquez ces paramètres :
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![Décochez toutes les options de Media Foundation](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* Redémarrez votre ordinateur et essayez de relancer les fonds d'écran avec lesquels vous aviez des problèmes.
 
-## Additional video codecs
+## Codecs supplémentaires
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+Si vos fonds d'écran vidéo ne fonctionnent toujours pas après les étapes précédentes, téléchargez LAV et utilisez DirectShow comme expliqué dans ce guide :
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [Utilisez LAV et DirectShow](/videos/lav.html).
