@@ -19,4 +19,4 @@ Wallpaper Engine 관련 기술적 문제가 발생하면, 우선 FAQ를 확인�
 
 * [Wallpaper Engine 스캔 도구를 사용하여 디버그 로그 생성하기](debug/scantool)
 
-The scan tool includes technical details which usually help us point you in the right direction faster. :::
+스캔 도구에는 저희가 더 빠르게 올바른 방향을 제시하는 데 도움이 되는 기술적 세부 내용이 포함되어 있습니다. :::
