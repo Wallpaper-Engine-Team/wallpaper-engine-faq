@@ -26,12 +26,12 @@ Steam no ha terminado de descargar y verificar los archivos. Si lleva esperando 
 * Si no avanza ninguna descarga: **cierre Steam** y a continuación **borre los contenidos** de este directorio:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
     * Si tiene instalado un antivirus, asegúrese de que excluye este directorio.
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * **Aviso:** `C:\Program Files (x86)\Steam` es la ruta de Steam por defecto. Si lo ha instalado en otro directorio, tendrá que comprobar ese.
+* Reinicie Steam. No abra ningún juego. Compruebe la pestaña de descargas de Steam para ver el progreso y reinicie las descargas pausadas.
 
-::: details Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
-* Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
+::: detalles Haga click aquí para ver más soluciones posibles si los pasos anteriores no solucionan el problema con las descargas.
+* Compruebe que el antivirus o el firewall no tienen Steam bloqueado. Excluya el directorio entero de Steam en la configuración del antivirus.
+* Desuscríbase de los fondos que no puedan descargarse y vuelva a suscribirse después de reiniciar Steam.
 * Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
 * Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
 * Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
