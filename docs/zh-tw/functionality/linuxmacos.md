@@ -10,4 +10,4 @@ Wallpaper Engine 目前僅適用於 Windows，近期也沒有支援其他平台�
 
 如上所述，要將 Wallpaper Engine 轉移至其他作業系統必須大費周章，也會使持續進行的維護作業成本大量增加，但可能受益的使用者群體相對少數。 我們寧願將時間與精力集中在 Windows 系統，為超過 96% 的使用者改善效能。
 
-However, we are keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable. 
+不過，我們一直在密切注意 Steam 的官方統計資料，如果 Steam 現狀產生變化，我們當然會開始考慮如何在可行的情況下支援更多平台。 
