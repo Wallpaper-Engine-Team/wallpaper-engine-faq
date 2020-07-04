@@ -6,4 +6,4 @@ D'autres solutions :
 
 * Paramétrez les écrans pour que les taux soient des multiples les uns des autres. Par exemple : 120 Hz et 60 Hz au lieu de 144 Hz et 60 Hz.
 * Utilisez les options de pause ou d'arrêt de Wallpaper Engine pour diminuer ce problème. Mettez l'application sur pause pour tous les écrans lorsque vous jouez.
-* If your system has an integrated GPU, use that for your 60Hz monitor, although this will likely decrease desktop performance overall, since your CPU now needs to make both GPUs work together!
+* Si votre système dispose d'un GPU intégré, utilisez-le pour votre écran de 60 Hz. Cela risque de réduire les performances globales, car votre processeur doit maintenant faire fonctionner les deux GPU ensemble !
