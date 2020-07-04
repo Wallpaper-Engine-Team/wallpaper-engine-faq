@@ -32,14 +32,14 @@ Wallpaper Engine 설정의 *성능* 탭에서 *응용프로그램 규칙* 라벨
 
 ### 앱 또는 게임의 성능 문제 해결
 
-특별한 규칙을 적용하려는 프로그램의 .exe를 목록에서 선택하거나 **응용프로그램 이름** 칸에 입력하세요. 그런 다음 **조건**을 **실행 상태**로 설정하고, **배경화면 재생**을 **중지 (여유 메모리 확보)**로 설정하세요. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+특별한 규칙을 적용하려는 프로그램의 .exe를 목록에서 선택하거나 **응용프로그램 이름** 칸에 입력하세요. 그런 다음 **조건**을 **실행 상태**로 설정하고, **배경화면 재생**을 **중지 (여유 메모리 확보)**로 설정하세요. 이는 응용프로그램이나 게임이 실행될 때 Wallpaper Engine이 메모리에서 모든 배경화면을 완전히 제거한다는 의미로, 모든 호환성 문제가 해결됩니다.
 
 ### 배경 기록 도구의 간헐적 사운드 해결
 
-특별한 규칙을 적용하려는 프로그램의 .exe를 목록에서 선택하거나 **응용프로그램 이름** 칸에 입력하세요. 그런 다음 **조건**을 **오디오 재생상태**로 설정하고, **배경화면 재생**을 **계속 실행**으로 설정하세요. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
+특별한 규칙을 적용하려는 프로그램의 .exe를 목록에서 선택하거나 **응용프로그램 이름** 칸에 입력하세요. 그런 다음 **조건**을 **오디오 재생상태**로 설정하고, **배경화면 재생**을 **계속 실행**으로 설정하세요. 이는 문제의 응용프로그램이 오디오를 재생하거나 녹음할 때 Wallpaper Engine이 저절로 음소거되지 않는다는 의미입니다. Windows는 오디오 재생과 녹음을 구분하지 않으므로, 녹음 중에는 Wallpaper Engine이 계속해서 음소거 및 음소거 해제를 합니다. 여러 게임 스트리밍 응용프로그램이 우연히 사용자도 모르게 이렇게 작동을 합니다.
 
 ### 기타 행동
 
-Check out all possible conditions and wallpaper playback options for more types of application rules. You can also configure Wallpaper Engine to mute or pause when you launch a certain application.
+더 많은 응용프로그램 규칙 유형은 가능한 모든 조건과 배경화면 재생 옵션에서 확인하세요. 또한 특정 응용프로그램을 실행할 때 Wallpaper Engine이 음소거하거나 일시정지하도록 구성할 수 있습니다.
 
 ::: tip You can also change these settings for all applications in the **Performance** tab of the Wallpaper Engine settings. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other application fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
