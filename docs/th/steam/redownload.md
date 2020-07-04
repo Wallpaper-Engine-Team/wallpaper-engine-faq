@@ -33,8 +33,8 @@ tags:
 
 ## ใช้การสำรองข้อมูลภายในเป็นวิธีแก้ปัญหา
 
-หากคุณยังคงพบปัญหา คุณสามารถทำการสำรองข้อมูลภายในของวอลเปเปอร์ทั้งหมดแล้วยกเลิกสมัครรับข้อมูลวอลเปเปอร์ทั้งหมด Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+หากคุณยังคงพบปัญหา คุณสามารถทำการสำรองข้อมูลภายในของวอลเปเปอร์ทั้งหมดแล้วยกเลิกสมัครรับข้อมูลวอลเปเปอร์ทั้งหมด Steam จะไม่ดาวน์โหลดวอลเปเปอร์ที่คุณไม่ได้สมัครรับข้อมูลอีกครั้ง ดังนั้นวิธีนี้จะขึ้นอยู่กับการสำรองข้อมูลในเครื่อง คุณสามารถดูคำแนะนำเกี่ยวกับวิธีสร้างการสำรองข้อมูลได้ที่นี่:
 
-* [Using wallpaper backups](/steam/backup)
+* [ใช้การสำรองข้อมูลวอลเปเปอร์](/steam/backup)
 
 Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
