@@ -2,7 +2,7 @@
 
 Si vous avez activé le GPU intégré de votre ordinateur de bureau dans le BIOS, alors qu'un GPU est déjà installé, vous pouvez rencontrer des problème de performances et une utilisation trop élevée du processeur de *dwm.exe*. Si possible, n'activez pas votre GPU intégré et branchez vos écran à votre GPU dédié. L'utilisation ces deux processeurs graphiques en même temps interrompra l'accélération matérielle du gestionnaire de fenêtres de bureau. Il est important que tous les écrans soient connectés à votre carte graphique principale. Ce problème n'est pas lié à Wallpaper Engine. Il affecte tous les logiciels multi-écrans si les écrans ne sont pas connectés à la carte graphique principale.
 
-Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a very slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+Sans Nvidia Optimus ou une technologie similaire, Windows sera obligé de copier l'image de fond d'écran d'un GPU à l'autre, ce qui prend beaucoup de temps. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
 
 This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. They have a physical solution to make this work correctly.
 
