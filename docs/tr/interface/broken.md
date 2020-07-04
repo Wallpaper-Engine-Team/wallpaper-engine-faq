@@ -1,13 +1,13 @@
 ---
 tags:
-  - user interface
-  - green
-  - white
-  - pixelated
-  - unreadable
+  - kullanıcı arayüzü
+  - yeşil
+  - beyaz
+  - pikselli
+  - okunamaz
 ---
 
-# Wallpaper Engine window not displayed correctly
+# Wallpaper Engine penceresi düzgün görüntülenmiyor
 
 If your Wallpaper Engine browse window is not working, it is usually caused by faulty graphics card drivers or antivirus applications. Read below for more information.
 
