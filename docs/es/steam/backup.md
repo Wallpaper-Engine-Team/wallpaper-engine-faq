@@ -2,9 +2,9 @@
 
 Si los fondos se borran de Steam por algún motivo, también desaparecerán de su equipo. Wallpaper Engine no puede impedirlo, pero si le preocupa, puede hacer una copia de seguridad de los fondos.
 
-Además, hay quejas de que, en ocasiones, Steam decide volver a descargar todos los archivos de Workshop, que puede ser una molestia si tiene muchísimos GB. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
+Además, hay quejas de que, en ocasiones, Steam decide volver a descargar todos los archivos de Workshop, que puede ser una molestia si tiene muchísimos GB. Si crea una copia de seguridad para desvincularlo de Steam puede solucionarlo si le ocurre muy a menudo.
 
-# Creating a Backup
+# Crear una copia de seguridad
 
 The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
 
