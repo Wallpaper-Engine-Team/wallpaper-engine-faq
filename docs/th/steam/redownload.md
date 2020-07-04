@@ -29,11 +29,11 @@ tags:
 1. ถอนการติดตั้ง Wallpaper Engine ผ่าน Steam
 2. ถอนการติดตั้ง Steam ด้วยตนเอง โปรดปฏิบัติตามคำแนะนำอย่างเป็นทางการ:
   * [ถอนการติดตั้ง Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
-  * Specifically check the Manually Removing Steam section in the Steam Support article above and make a backup of your *steamapps* directory as described there to ensure you will not have to redownload all your games.
+  * ตรวจสอบบทความ ฝ่ายสนับสนุน Steam ด้านบนในส่วนการถอนการติดตั้ง Steam โดยเฉพาะ จากนั้นทำตามคำแนะนำเพื่อสำรองข้อมูลไดเรกทอรี *steamapps* เพื่อให้แน่ใจว่าคุณไม่จำเป็นต้องดาวน์โหลดเกมทั้งหมดอีกครั้ง
 
-## Use local backups as a workaround
+## ใช้การสำรองข้อมูลภายในเป็นวิธีแก้ปัญหา
 
-If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+หากคุณยังคงพบปัญหา คุณสามารถทำการสำรองข้อมูลภายในของวอลเปเปอร์ทั้งหมดแล้วยกเลิกสมัครรับข้อมูลวอลเปเปอร์ทั้งหมด Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
 
 * [Using wallpaper backups](/steam/backup)
 
