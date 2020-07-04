@@ -10,16 +10,16 @@
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## Excluding certain age ratings
+## 特定の年齢評価を除外する
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Steamワークショップでは、裸体など、ある程度のアダルトコンテンツが許可されています。 こういったコンテンツを見たくない場合は、フィルターの「どれも」年齢評価を有効にします。
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
-Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
+ほとんどのコンテンツには正しいタグが付いており、これによって成人向けコンテンツの大部分を除外することができます。 「どれも」評価なのにアダルトコンテンツが含まれた場合は、アプリケーションの報告機能をご利用ください。 審査後、そのコンテンツの分類が見直されるか、または削除されます。
 
-## Reporting rule-breaking content
+## ルール違反のコンテンツの報告
 
-We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
+私たちもSteamのアドミニストレータやモデレータも、毎日のようにルールに違反する壁紙を削除しています。 私たちが見つけることができるよう、ガイドラインに反しているワークショップの投稿物をご報告ください。
 
-The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
+ワークショップでは、私たちが事前にチェックせずにユーザーが作品を公開することが可能になっています。これはSteamワークショップのシステムなので、私たちに変えることはできません。 私たちが削除できるのは、それらがアップロードされたあとです。 If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
