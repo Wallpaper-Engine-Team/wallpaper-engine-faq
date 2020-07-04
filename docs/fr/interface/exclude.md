@@ -1,6 +1,6 @@
-# Exclude certain wallpapers from the search
+# Exclure certains fonds d'écran de la recherche
 
-Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
 
 ## Excluding certain genres (anime, for example)
 
