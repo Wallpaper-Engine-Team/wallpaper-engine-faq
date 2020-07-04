@@ -7,7 +7,7 @@ tags:
 ---
 
 # Wallpaper Engine을 종료하는 BattlEye 안티 치트
-If Wallpaper Engine closes silently when you start specific games then this is most likely caused by the BattlEye anti-cheat used by numerous multiplayer games. BattlEye를 사용하는 것으로 알려진 게임:
+특정 게임을 시작할 때 Wallpaper Engine이 조용히 닫힌다면, 수많은 멀티플레이어 게임에서 사용되는 BattlEye 안티 치트가 그 원인일 수 있습니다. BattlEye를 사용하는 것으로 알려진 게임:
 
 * 포트나이트
 * 배틀그라운드 (PUBG)
@@ -25,4 +25,4 @@ BattlEye는 일부 시스템에서 실수로 Wallpaper Engine (및 기타 응용
 
 * [BattlEye 지원](https://www.battleye.com/contact/)
 
-On some systems, BattlEye will terminate Wallpaper Engine for no apparent reason and this is not something we can prevent as BattlEye is a rather intrusive anti-cheat which is able to terminate any application on your computer without notifying you. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
+일부 시스템에 명백한 이유 없이 BattlEye가 Wallpaper Engine을 종료하는 문제는 저희가 방지할 수 없습니다. BattlEye가 더 개입성이 강한 안티 치트로, 알림 없이 컴퓨터의 응용프로그램을 종료할 수 있기 때문입니다. 이러한 경우 BattlEye의 잘못된 행동이므로 소프트웨어 개발자가 시스템의 문제를 조사해야 합니다.
