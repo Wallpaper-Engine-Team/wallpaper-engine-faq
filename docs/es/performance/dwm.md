@@ -6,9 +6,9 @@ Sin la tecnología Nvidia Optimus o similares, Windows se verá obligado a copia
 
 Nvidia Optimus o SLI/Crossfire no tienen ese problema, ya que están fabricados para sistemas con varias GPU y tienen una solución física para que funcione sin problemas.
 
-## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
+## Bajo rendimiento al usar GPU secundaria en un sobremesa sin Nvidia SLI / Nvidia Optimus / AMD CrossFire
 
-Many users assume that switching Wallpaper Engine to a secondary GPU will increase the overall system performance. However, this is merely a common misconception and the overall system performance will actually degrade.
+Muchos usuarios asumen que cambiar Wallpaper Engine a una GPU secundaria mejorará el rendimiento del equipo. Sin embargo, es un malentendido bastante común y lo cierto es que el rendimiento del sistema se reducirá.
 
 Wallpaper Engine creates wallpapers which are part of the desktop which means they are part of the Windows Explorer process. Therefore, Wallpaper Engine must use the same GPU as Windows Explorer. If this is not the case, then Windows has to force both GPUs to cooperate in order to render an image for your monitors. This has to be done by the processor which ultimately means the overall computer performance degrades significantly and often takes much more performance than the wallpapers themselves. Some proper multi-GPU technologies (Nvidia SLI, Nvidia Optimus, AMD CrossFire) solve this problem on a hardware-level but this is not applicable in cases where you use an Nvidia GPU and an Intel on-board graphics card, for example.
 
