@@ -1,13 +1,13 @@
 # La vidéo se fige / saute / est de mauvaise qualité
 
-This could come from your hardware not being powerful enough to display the specific video properly. A video wallpaper isn't comparable to standard video players, it must be composed with the icons as well and potentially stretches over multiple screens. It is also using the video decoder of your GPU by default to reduce CPU usage to a minimum.
+C'est peut-être dû au fait que votre matériel n'est pas assez puissant pour afficher correctement la vidéo en question. Un fond d'écran vidéo n'est pas comparable à un lecteur vidéo standard, il doit également prendre en compte les icônes et s'étendre potentiellement sur plusieurs écrans. Il utilise également le décodeur vidéo de votre GPU par défaut pour réduire au minimum l'utilisation du processeur.
 
-## Background recording hooks
+## Hooks d'enregistrement en arrière-plan
 It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
 
 You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Outil d'analyse de Wallpaper Engine](/debug/scantool.html)
 
 ## Dynamic Super Resolution (DSR) / GPU Scaling
 Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
