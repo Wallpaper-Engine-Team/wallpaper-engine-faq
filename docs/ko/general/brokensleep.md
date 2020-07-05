@@ -1,10 +1,10 @@
-# Hibernation / Screensavers do not work
+# 최대 절전 모드 / 화면 보호기가 작동하지 않습니다
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+Windows는 오디오 스트림이 활성화된 상태에서 최대 절전 모드를 진행하지 않습니다. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
 
-## Change the Windows power settings
+## Windows 전원 설정 변경
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windows는 오디오 스트림이 활성화된 상태에서 최대 절전 모드를 진행하지 않습니다. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
 
 1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
 2. Click on "Additional power settings"
@@ -13,9 +13,9 @@ Windows does not hibernate with any active audio streams open. You can get aroun
 5. Scroll down and expand "Multimedia settings"
 6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
 
-![Enable "Allow the computer to sleep"](./power.gif)
+!["컴퓨터에서 절전 모드로 전환 허용" 활성화](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## "웹" 유형의 배경화면 관련 최대 절전 모드 문제
 
 "Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
 
