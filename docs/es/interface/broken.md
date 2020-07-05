@@ -11,7 +11,7 @@ tags:
 
 Si la ventana de búsqueda de Wallpaper Engine no funciona, suele ser a causa de que los controladores de la tarjeta gráfica están dañados o por culpa del antivirus. Siga leyendo para obtener más información.
 
-::: advertencia Tenga en cuenta que esta sección trata de la **interfaz** de Wallpaper Engine se queda blanca o negra. Si los **fondos aparecen en negro**, diríjase aquí: [Pantalla negra / los vídeos no se reproducen](/noshow/notplaying.html). :::
+::: warning ¡Aviso! Tenga en cuenta que esta sección trata de que la **interfaz** de Wallpaper Engine se queda blanca o negra. Si los **fondos aparecen en negro**, diríjase aquí: [Pantalla negra / los vídeos no se reproducen](/noshow/notplaying.html). :::
 
 ## El buscador de Wallpaper Engine aparece blanco o negro
 
