@@ -27,15 +27,15 @@ If the *Plugin* section of Wallpaper Engine settings is not visible at all to yo
 
 ### Corsair
 
-**Corsair 시스템 메모리 (RAM)와 같은 일부 하드웨어는 소프트웨어 컨트롤이 기본값으로 비활성화되어 있습니다.** 즉 iCUE 소프트웨어 설정에서 직접 허용하지 않는 한 Wallpaper Engine에 의해 메모리 모듈이 켜지지 않습니다. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+**Corsair 시스템 메모리 (RAM)와 같은 일부 하드웨어는 소프트웨어 컨트롤이 기본값으로 비활성화되어 있습니다.** 즉 iCUE 소프트웨어 설정에서 직접 허용하지 않는 한 Wallpaper Engine에 의해 메모리 모듈이 켜지지 않습니다. 메모리 섹션의 iCUE 장치 설정에서 "전체 소프트웨어 제어 사용" 옵션이 선택되었는지 확인이 필요합니다:
 
 ![Enable full software control in iCUE](./icue.png)
 
 제대로 작동하지 않는 기타 하드웨어 부분이 있으면 이 옵션을 다시 확인하세요.
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+iCUE는 *단독 모드*에서 사용되며, Wallpaper Engine은 게임과 같은 다른 iCUE 호환 소프트웨어보다 우선합니다. 게임이 키보드에 애니메이션 효과를 주려면, Wallpaper Engine 설정의 **성능** 탭으로 이동하여 **타 응용프로그램 전체 화면** 옵션을 **중지 (여유 메모리 확보)**로 설정하여 게임 중 배경화면을 중단합니다. 또는 RGB 플러그인을 비활성화하거나 개별 배경화면에서 RGB 옵션을 비활성화할 수도 있습니다.
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+Corsair iCUE 하드웨어 지원은 Corsair에 직접 문의하세요:
 
 [help.corsair.com](https://help.corsair.com/)
 
