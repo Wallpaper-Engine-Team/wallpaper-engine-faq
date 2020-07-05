@@ -38,23 +38,23 @@ Steam은 다운로드를 완료하지 않고 파일을 식별하지 않습니다
 * Steam에서 Wallpaper Engine을 오른쪽 클릭한 다음, 속성을 클릭하고 **배경 다운로드 허용**을 선택하세요.
 * Steam에 보류 중인 게임 업데이트가 없는지 확인하세요. 배경화면 다운로드를 일시정지하거나 비활성화할 수 있습니다.
 * Steam 서버 문제의 경우 최소 하루를 기다린 후 다시 시도해 보세요.
-* **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!). :::
+* **최후의 방법으로** Wallpaper Engine을 다시 설치해서 손상된 Steam 파일을 모두 제거해 보세요. (모든 배경화면을 다시 다운로드합니다!) :::
 
-::: tip Steam servers go offline every week for maintenance at a fixed time:
+::: 팁 Steam 서버는 점검을 위해 매주 정해진 시간마다 오프라인 상태가 됩니다:
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* 미국 서부: **화요일 오후 4시 (UTC - 7)**
+* 중앙 유렵의 같은 시간: **수요일 오전 1시 (UTC + 1)**
+* 중국의 같은 시간: **수요일 오전 8시 (UTC + 8)**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
+If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. 한두 시간 정도 기다린 뒤 다시 시도하세요. :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam: "다운로드 파일 누락" 오류
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. 보통 다음 방법으로 해결할 수 있습니다:
 
-* Turn off Steam.
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+* Steam을 끄세요.
+* 이 디렉터리의 콘텐츠를 삭제하세요: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+* 이 디렉터리의 콘텐츠를 삭제하세요: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
   * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
 * Start Steam and verify the Wallpaper Engine files:
   * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
