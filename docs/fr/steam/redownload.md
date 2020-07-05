@@ -8,21 +8,21 @@ tags:
 
 # Télécharger de nouveau les fonds d'écran sur Steam
 
-Steam's download cache was broken and now Steam redownloads all files (for no particular reason or i.e. Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
+Le cache de téléchargement de Steam a été corrompu et maintenant il retélécharge tous les fichiers (sans raison particulière, par exemple : un crash de Steam). Cela n'est pas causé par Wallpaper Engine et nous ne pouvons malheureusement rien y faire. Toutes les applications Steam peuvent souffrir de ce problème. Si vous rencontrez souvent ce problème, voici des astuces :
 
-## Fix Steam automatically
-We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
-* Turn off Steam
-* Go to the `wallpaper_engine` installation directory
-  * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
-* Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
-  * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
-* Restart Steam and verify the Wallpaper Engine files:
-  * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+## Réparation automatique de Steam
+Nous avons construit un petit logiciel pour essayer d'empêcher Steam de continuer à faire ça (croisons les doigts pour que ça marche) ! Voici la marche à suivre :
+* Fermez Steam
+* Allez dans le dossier d'installation de `wallpaper_engine`
+  * Par défaut, il se trouve ici : `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
+* Lancez `wallpaper_engine\bin\steamredownloadfixer32.exe`
+  * Si l'outil vous donne des messages d'erreur, veuillez nous envoyer un e-mail et nous verrons si nous pouvons vous aider
+* Redémarrez Steam et vérifier les fichiers de Wallpaper Engine :
+  * [Vérifier les fichiers de Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-You have to repeat this every time the Steam download cache breaks up, unfortunately. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
+Vous devrez refaire cette manipulation à chaque fois que vous rencontrerez des problèmes avec le cache de Steam. Nous ne sommes pas les développeurs de Steam et nous ne pouvons malheureusement pas faire plus pour vous aider.
 
-## Reinstall Steam
+## Redémarrez Steam
 
 The most reliable long-term fix for most users affected by this Steam bug regularly appears to be to reinstall Steam as some Steam files may simply be broken on your system. Try to reinstall Steam completely:
 
