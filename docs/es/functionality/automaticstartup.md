@@ -20,13 +20,13 @@ Si utiliza la opción *prioridad alta*, desactívela para hacer un inicio autom�
 
 Si usa la opción de prioridad normal y la aplicación no se inicia a la vez que Windows, intente cambiarlo a prioridad alta para ver si se soluciona el problema.
 
-Si no le funcionan ninguna de las dos opciones, compruebe el antivirus que tiene instalado en el equipo. Algunos antivirus y firewall tienden a bloquear Wallpaper Engine para que no se inicie cuando enciende el equipo. Es probable que su antivirus tenga una «lista blanca» que le permite ignorar ciertas carpetas y aplicaciones. Ponga en la lista el directorio de instalación wallpaper_engine y todos sus ejecutables.
+Si no le funcionan ninguna de las dos opciones, compruebe el antivirus que tiene instalado en el equipo. Algunos antivirus y firewall tienden a bloquear Wallpaper Engine para que no se inicie cuando enciende el equipo. Es probable que su antivirus tenga una «lista blanca» que le permite ignorar ciertas carpetas y aplicaciones, así que ponga en la lista el directorio de instalación wallpaper_engine y todos sus ejecutables.
 
-Es atípico, pero si ha configurado (o lo ha hecho una aplicación de su equipo) los archivos .exe de Wallpaper Engine para ejecutarlos como administrador, el programa no puede iniciarse de forma automática, por lo que tendrá que cambiar dicha configuración y deshabilitar y habilitar el inicio automático.
+Es atípico, pero si ha configurado (o lo ha hecho una aplicación de su equipo) los archivos .exe de Wallpaper Engine para ejecutarlos como administrador, el programa no podrá iniciarse de forma automática, por lo que tendrá que cambiar dicha configuración y deshabilitar y habilitar el inicio automático.
 
-Si no funciona el inicio automático no funciona, la respuesta siempre está relacionada con un antivirus demasiado extremista. Si tiene instalados un antivirus o un firewall, compruebe la configuración y los niveles de seguridad que tienen.
+Si no funciona el inicio automático, la respuesta siempre está relacionada con un antivirus demasiado extremista. Si tiene instalados un antivirus o un firewall, compruebe la configuración y los niveles de seguridad que tienen.
 
-## Wallpaper Engine se inicia a la vez que Windows, pero (algunos) fondos no aparecen
+## Wallpaper Engine se inicia a la vez que Windows, pero los fondos (o algunos) no aparecen
 
  Compruebe si puede ver el icono de Wallpaper Engine en el área de notificación junto al reloj en cuanto encienda el equipo. Si el icono aparece, pero alguno de sus monitores (o ninguno) muestra los fondos de pantalla correspondientes, es que tiene un problema con los controladores de la tarjeta gráfica. Básicamente, los controladores de su tarjeta gráfica asignan identificadores nuevos a los monitores, lo que hace que Wallpaper Engine crea que está intentando configurar otro monitor. Puede solucionar el problema si cambia la opción de *«Identificación del monitor»* en la pestaña *General* de Wallpaper Engine a *Configuración* o *GDI*. También le recomendamos que vuelva a instalar los controladores de la tarjeta gráfica desde cero, pues suele ser una señal de que hay algún problema con la instalación de Windows.
 
