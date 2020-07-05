@@ -7,15 +7,15 @@ Si tiene problemas técnicos con Wallpaper Engine y no puede resolverlos tras le
 3. Click on **Save Full Log** and save it to your desktop (see below for a short video).
 4. Comparta el registro con alguno de estos métodos:
     * Vaya a [pastebin.com](https://pastebin.com/), pegue los contenidos del registro y después comparta el enlace.
-    * También puede enviarnos el archivo del registro por correo. Si ya tiene una conversación una conversación por correo electrónico con nosotros, conteste al mensaje anterior con el archivo del registro. If this is your first email, please add some information about the problem you were having or a link to an existing discussion.
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones. ::: tip Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues. :::
+    * También puede enviarnos el archivo del registro por correo. Si ya tiene una conversación una conversación por correo electrónico con nosotros, conteste al mensaje anterior con el archivo del registro. En caso de que sea el primer correo que nos manda, coméntenos el problema que tiene o mándenos el enlace de una discusión existente.
+5. *Opcional:* si el programa se cuelga, diríjase al directorio *wallpaper_engine* para comprobar si hay algún archivo **.mdmp** y envíenoslos por correo o súbalos a alguna página. Si hay muchos archivos .mdmp, mándenos solo los más recientes. ::: tip Aunque la herramienta de escaneo no encuentre ningún error a primera vista, el archivo del registro suele revelar problemas comunes que tienen los ordenadores, y eso nos permite darle consejos para resolverlos. :::
 
-#### Additional video help
+#### Vídeo de ayuda
 
-**Step 2**
+**Paso 2**
 
 ![Scan Tool Launch Option](./scantoollaunch.gif)
 
-**Step 3**
+**Paso 3**
 
 ![Scan Tool Save Log](./scantoolsave.gif)
