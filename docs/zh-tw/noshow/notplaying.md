@@ -27,7 +27,7 @@
 如果您還不確定該如何執行，可以使用 [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)。
 
 3. 安裝您在步驟 1 下載的驅動程式。
-4. 重新啟動個人電腦，確認是否可正常運作。
+4. 重新啟動電腦，確認是否可正常運作。
 
 ::: 提示 請務必執行全新安裝：您必須完全刪除目前的顯示卡驅動程式與驅動程式設定，才能安裝新的驅動程式，否則將無法正常運作。 :::
 
@@ -40,7 +40,7 @@
 
 ![取消勾選 Media Foundation 選單中所有選項](./codectweak.gif)
 
-* 重新啟動個人電腦，重試受影響的桌布。
+* 重新啟動電腦，重試受影響的桌布。
 
 ## 其他視訊轉碼器
 
