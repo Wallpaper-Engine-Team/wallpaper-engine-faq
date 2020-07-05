@@ -27,22 +27,22 @@
 如果您還不確定該如何執行，可以使用 [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)。
 
 3. 安裝您在步驟 1 下載的驅動程式。
-4. Restart your PC again, see if it works now.
+4. 重新啟動個人電腦，確認是否可正常運作。
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: 提示 請務必執行全新安裝：您必須完全刪除目前的顯示卡驅動程式與驅動程式設定，才能安裝新的驅動程式，否則將無法正常運作。 :::
 
-## Codec Tweak Tool
+## Codec Tweak Tool (轉碼器調整工具)
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+如果您的顯示卡驅動程式全新安裝後仍無法正常運作，請重新設定視訊轉碼器：
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* 下載 Codec Tweak Tool：[點選這裡](https://www.codecguide.com/download_other.htm)
+* 確保「Media Foundation」選單中所有核取方塊**均未**勾選，然後套用此設定：
 
 ![Uncheck all options in the Media Foundation options](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* 重新啟動個人電腦，重試受影響的桌布。
 
-## Additional video codecs
+## 其他視訊轉碼器
 
 If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
 
