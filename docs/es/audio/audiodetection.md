@@ -27,14 +27,14 @@ Cambie la entrada de audio en Wallpaper Engine al dispositivo «Altavoces (Razer
 
 ## 3. Aplicaciones conflictivas
 
-Si cree que la configuración del sonido es correcta, pero los fondos de pantalla con sonido no reaccionan como deberían, es muy probable que tenga algún hardware o software que deshabilite la función de bucle de grabación en el ordenador. Es necesario configurarla correctamente o eliminarla:
+Si cree que la configuración del sonido es correcta, pero los fondos de pantalla con sonido no reaccionan como deberían, es muy probable que tenga algún componente o programa que deshabilita la función de bucle de grabación en el ordenador. Es necesario configurarla correctamente o eliminarla:
 
-* Nahimic
-* Sonic Suite
-* Alienware Audio
-* Otras aplicaciones, sobre todo las que están preinstaladas en los portátiles
+* Nahimic.
+* Sonic Suite.
+* Alienware Audio.
+* Otras aplicaciones, sobre todo las que están preinstaladas en los portátiles.
 
-Si no sabe con certeza si tiene alguna de las aplicaciones anteriores instaladas, puede utilizar la herramienta de escaneo de Wallpaper Engine y le notificará diversos programas que suelen causar estos problemas.
+Si no sabe con certeza si tiene alguna de las aplicaciones anteriores instaladas, puede utilizar la herramienta de escaneo de Wallpaper Engine y le notificará qué programas suelen causar estos problemas:
 
-* [Herramienta de escaneo de Wallpaper Engine](/debug/scantool.html)
+* [Herramienta de escaneo de Wallpaper Engine.](/debug/scantool.html)
 
