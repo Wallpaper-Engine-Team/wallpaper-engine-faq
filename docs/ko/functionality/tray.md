@@ -13,8 +13,8 @@ Wallpaper Engine에 Windows 시계 옆 트레이 아이콘을 숨기도록 명�
 1. 다음 레지스트리 디렉터리로 이동하세요: *HKEY_CURRENT_USER\Software\WallpaperEngine*
 2. *WallpaperEngine* 레지스트리 폴더를 오른쪽 클릭하여 *새로 만들기*, *DWORD(32비트) 값*을 차례로 선택하세요.
 3. 레지스트리에 다음 이름을 입력하세요: *hideTrayIcon*
-4. 이름이 정확한지 확인합니다. 여백 없이 똑같아야 합니다.
+4. 이름이 정확한지 확인하세요. 여백 없이 똑같아야 합니다.
 5. 레지스트리 키를 두 번 클릭하여 다음 값을 입력하세요: *1*
-6. Restart Wallpaper Engine, the application will now not show a tray icon.
+6. Wallpaper Engine을 다시 시작하면, 트레이 아이콘이 나타나지 않습니다.
 
-You can reverse this process by setting *hideTrayIcon* to *0* or deleting it altogether, followed by restarting Wallpaper Engine. 
+*hideTrayIcon*을 *0*으로 설정하거나 모두 삭제한 뒤 Wallpaper Engine을 다시 시작하면 되돌릴 수 있습니다. 
