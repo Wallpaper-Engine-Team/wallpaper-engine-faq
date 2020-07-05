@@ -34,15 +34,15 @@
 
 ### 비디오 배경화면
 
-비디오 기반 배경화면은 비디오 파일입니다. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+비디오 기반 배경화면은 비디오 파일입니다. 위의 섹션에 설명된 비디오 파일을 찾아 원하는 타사 비디오 편집 응용프로그램을 사용하여 비디오를 수정합니다.
 
 ### 응용프로그램 배경화면
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+일반적으로 응용프로그램 배경화면은 편집할 수 없습니다. 응용프로그램 배경화면은 보통 컴파일된 프로그램을 사용하므로, 소스 코드에 접근할 수 없습니다. 응용프로그램 기반 배경화면은 정말 변경하고 싶다면, 배경화면 원작자에게 도움을 문의해 보세요.
 
-## Updating a lost project
+## 잃어버린 프로젝트 업데이트
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. 평소처럼 새로운 배경화면을 만들고, Explorer에서 편집 -> 열기로 해당 프로젝트 디렉토리를 여세요. 텍스트 편집기로 `project.json` 파일을 열면 이런 내용을 확인할 수 있습니다:
 
 ```json
 {
@@ -69,7 +69,7 @@ If you deleted your project you can still overwrite it, but depending on the typ
 }
 ```
 
-Add this line at the top right after `{`:
+`{` 아래 줄에 이것을 추가하세요:
 
 ```json
     "workshopid" : "12345678",
