@@ -41,7 +41,7 @@ Il s'agit d'un crash de DirectX. C'est généralement dû à un antivirus ou à 
 
 ### mfplat.dll
 
-Il s'agit d'un plantage dans Windows Media Foundation. Il peut être causé par des pilotes de carte graphique corrompus, mais la cause la plus fréquente est un codec vidéo corormpu ou manquant dans votre système. Suivez les instructions de notre guide de réparation vidéo pour corriger ce type de plantages :
+Il s'agit d'un plantage dans Windows Media Foundation. Il peut être causé par des pilotes de carte graphique corrompus, mais la cause la plus fréquente est un codec vidéo corrompu ou manquant dans votre système. Suivez les instructions de notre guide de réparation vidéo pour corriger ce type de plantages :
 
 [Cliquez ici](/noshow/notplaying.html)
 
@@ -72,13 +72,13 @@ Les pilotes Intel de votre système ont un problème. Rendez-vous sur le site In
 
 ### MMDEvAPI.dll
 
-Ce type de crash se produit en raison d'un logiciel audio défectueux installé sur votre système. Cela est généralement dû à un logiciel d'amélioration du son, comme ceux préinstallés sur certains ordinateurs portables. Ce type de logiciels provoquera souvent des plantages car ils ne sont pas toujours compatibles avec Windows. Essayez de rechercher "Sonic Studio" ou "Nahimic" et mettez ces logiciels à jour. Si vous ne trouvez pas de mise à jour pour ces programmes, vous pouvez également les désinstaller. Ils ne sont pas nécessaires au bon fonctionnement de votre ordinateur.
+Ce type de crash se produit en raison d'un logiciel audio défectueux installé sur votre système. Cela est généralement dû à un logiciel d'amélioration du son, comme ceux préinstallés sur certains ordinateurs portables. Ce type de logiciels provoquera souvent des plantages, car ils ne sont pas toujours compatibles avec Windows. Essayez de rechercher "Sonic Studio" ou "Nahimic" et mettez ces logiciels à jour. Si vous ne trouvez pas de mise à jour pour ces programmes, vous pouvez également les désinstaller. Ils ne sont pas nécessaires au bon fonctionnement de votre ordinateur.
 
 ### fraps32.dll
 
 Ce crash est dû à Fraps, un logiciel permettant de filmer son écran, de faire des captures d'écran et d'afficher le framerate en surimpression. Fraps n'est plus mis à jour depuis 2013 et commence à être dépassé. Nous vous conseillons de trouver une alternative à Fraps. Fraps n'étant plus mis à jour, ce problème ne peut pas être résolu si vous ne désinstallez pas ce logiciel.
 
-## Ereur 0xc000007b
+## Erreur 0xc000007b
 
 Cela signifie qu'un module de Windows a été corrompu. Il s'agit en général de DirectX. Essayez de désinstaller manuellement ces fichiers :
 
@@ -91,4 +91,4 @@ Si vous obtenez toujours cette erreur, il peut s'agir d'un autre module similair
 
 ## Plantage après la mise en veille
 
-Si Wallpaper Engine se bloque après la mise en veille prolongée de Windows, c'est que Windows ne parvient pas à restaurer correctement les pilotes de votre carte graphique avec Wallpaper Engine. La mise en veille prolongé de Windows n'est pas fiable. Activez l'option **"Lancement sécurisé après la mise en veille prolongée"** de Wallpaper Engine pour régler ce problème. Cette option tentera de redémarrer automatiquement Wallpaper Engine après la mise en veille prolongée.
+Si Wallpaper Engine se bloque après la mise en veille prolongée de Windows, c'est que Windows ne parvient pas à restaurer correctement les pilotes de votre carte graphique avec Wallpaper Engine. La mise en veille prolongée de Windows n'est pas fiable. Activez l'option **"Lancement sécurisé après la mise en veille prolongée"** de Wallpaper Engine pour régler ce problème. Cette option tentera de redémarrer automatiquement Wallpaper Engine après la mise en veille prolongée.
