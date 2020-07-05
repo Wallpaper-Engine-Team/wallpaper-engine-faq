@@ -27,7 +27,7 @@ Si no puede ver la sección *Complementos* de Wallpaper Engine, es probable que 
 
 ### Corsair
 
-Hay hardware como las **memorias RAM Corsair que tienen los controles de software deshabilitados por defecto**, lo que significa que sus módulos de memoria no se encenderán de acuerdo con Wallpaper Engine si no le concede los permisos en la configuración de iCUE. Asegúrese de que ha seleccionado la opción «Control de software completo» en la sección de memoria de la configuración de su dispositivo iCUE.
+Hay componentes como las **memorias RAM Corsair que tienen los controles de software deshabilitados por defecto**, lo que significa que sus módulos de memoria no se encenderán de acuerdo con Wallpaper Engine si no le concede los permisos en la configuración de iCUE. Asegúrese de que ha seleccionado la opción «Control de software completo» en la sección de memoria de la configuración de su dispositivo iCUE.
 
 ![Habilitar control de software completo en iCUE](./icue.png)
 
@@ -35,7 +35,7 @@ Vuelva a comprobar la opción con las demás partes que no funcionen correctamen
 
 Recuerde que iCUE se usa en *modo exclusivo*, por lo que Wallpaper Engine tendrá prioridad frente al software compatible con iCUE, como por ejemplo, los juegos. Si quiere que los juegos animen el teclado, vaya a la pestaña **Rendimiento** de la configuración de Wallpaper Engine y cambie la opción **Otra aplicación en pantalla completa** a **Detener (liberar memoria)** para detener los fondos mientras juega. Asimismo, puede deshabilitar el complemento RGB o deshabilitar la opción RGB en fondos particulares.
 
-Si necesita asistencia con el hardware iCUE de Corsair, contacte directamente con Corsair:
+Si necesita asistencia con los componentes iCUE de Corsair, contacte directamente con Corsair:
 
 [help.corsair.com/hc/es/categories/360001506152-Servicio-al-cliente](https://help.corsair.com/hc/es/categories/360001506152-Servicio-al-cliente/)
 
@@ -44,9 +44,9 @@ Si tiene algún problema con el servicio al cliente de Corsair, póngase en cont
 ### Razer
 Solo tenemos compatibilidad con Razer Synapse 3 o superior. Si usa Razer Synapse 1 o Razer Synapse 2, asegúrese de desinstalarlos y actualizarlos a la última versión de Razer Synapse. Algunos usuarios han tenido problemas con los restos obsoletos de Razer Synapse que se les habían quedado en el equipo. Si tuvo instalado Razer Synapse 2 o anterior y tiene problemas con las luces RGB o incluso se le cuelga el programa al tener el complemento RBG habilitado, es posible que tenga que encontrar y eliminar restos de versiones obsoletas de Razer Synapse.
 
-Si su hardware de Razer es bastante antiguo y no es compatible con Razer Synapse 3 o superior, sentimos comunicarle que las funciones RGB no son compatibles con Wallpaper Engine.
+Si su componentes de Razer es bastante antiguo y no es compatible con Razer Synapse 3 o superior, sentimos comunicarle que las funciones RGB no son compatibles con Wallpaper Engine.
 
-Si necesita asistencia con el hardware de Razer, contacte directamente con Razer:
+Si necesita asistencia con los componentes de Razer, contacte directamente con Razer:
 
 [https://support.razer.com/es-es](https://https://support.razer.com/es-es/)
 
