@@ -3,8 +3,8 @@
 Si tiene problemas técnicos con Wallpaper Engine y no puede resolverlos tras leer las preguntas frecuentes, puede crear un registro de depuración y enviárnoslo cuando contacte con nosotros:
 
 1. Asegúrese de que Wallpaper Engine está activo (si es posible).
-2. Elija la cuarta opción de Steam (*«Buscar aplicaciones conflictivas», abajo encontrará un vídeo corto):</li>
-3 Click on **Save Full Log** and save it to your desktop (see below for a short video).
+2. Elija la cuarta opción de Steam (*«Buscar aplicaciones conflictivas», abajo encontrará un vídeo explicativo):</li>
+3 Haga clic en **Guardar registro completo** y guárdelo en el escritorio (abajo encontrará un vídeo explicativo).
 4 Comparta el registro con alguno de estos métodos:
     * Vaya a [pastebin.com](https://pastebin.com/), pegue los contenidos del registro y después comparta el enlace.
     * También puede enviarnos el archivo del registro por correo. Si ya tiene una conversación una conversación por correo electrónico con nosotros, conteste al mensaje anterior con el archivo del registro. En caso de que sea el primer correo que nos manda, coméntenos el problema que tiene o mándenos el enlace de una discusión existente.
