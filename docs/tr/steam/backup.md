@@ -1,15 +1,15 @@
-# Backup Steam Workshop
+# Steam Atölyesi Yedekleme
 
-When wallpapers are deleted from Steam for any reason, Steam will also delete them from your PC. Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
+Duvar kâğıtları herhangi bir nedenle Steam'den silindiğinde Steam bunları bilgisayarınızdan da siler. Wallpaper Engine bunu engelleyemez ancak bu sizin için bir sorunsa duvar kâğıtlarınızı yedekleyebilirsiniz.
 
-Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
+Aynı şekilde Steam'in tüm Atölye dosyalarını rastgele indirmeye başlayacağına dair birçok rapor vardır ve bu da büyük Gigabaytlarda veriye sahip olmanız durumunda sorun yaratabilir. Bu çok sık meydana geliyorsa yedek oluşturmak ve Steam ile tüm bağları koparmak işe yarayabilir.
 
-# Creating a Backup
+# Yedek Oluşturma
 
-The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
+Aşağıdaki rehber, Steam ve Wallpaper Engine programlarının `C:\Program Files (x86)\Steam\` konumunda kurulu olduğunu varsaymaktadır. Steam / Wallpaper Engine'i farklı bir yere kurduysanız bu konumları kontrol edin.
 
-1. Locate the folder in which Steam stores your wallpapers, by default it is in `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** is the Steam ID of Wallpaper Engine, Steam uses this directory for all Wallpaper Engine downloads. :::
-2. Copy the folder 431960 to Wallpaper Engine's installation path here: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
+1. Steam'in duvar kâğıtlarınızı depoladığı klasörü bulun. Varsayılan olarak bu `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` konumundadır ::: ipucu **431960** Wallpaper Engine'in Steam Kimliğidir. Steam, tüm Wallpaper Engine yüklemeleri için bu dizini kullanır. :::
+2. 431960 klasörünü Wallpaper Engine'in yükleme yoluna kopyalayın: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
 3. **Rename** the folder `431960` into `backup` so that the complete path looks like this: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
 4. The `backup` directory now includes all your previously downloaded wallpapers, each in their own sub-directory (the numbers represent the Steam Workshop ID of the wallpaper)
 5. Restart the wallpaper browser and you should see the backed up wallpapers now. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them
