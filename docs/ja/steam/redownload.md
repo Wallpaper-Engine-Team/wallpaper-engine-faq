@@ -1,14 +1,14 @@
 ---
 tags:
-  - download
-  - re-download
-  - deleted
-  - deletes
+  - ダウンロード
+  - 再ダウンロード
+  - 削除された
+  - 削除する
 ---
 
-# Steam redownloading wallpapers
+# Steamが壁紙を再ダウンロードする
 
-Steam's download cache was broken and now Steam redownloads all files (for no particular reason or i.e. Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
+Steamのダウンロードキャッシュが壊れており、Steamがすべてのファイルをダウンロードします（特に理由もない時もあれば、 Steamが正しく終了せずにクラッシュしたような場合もあります）。 原因がWallpaper Engineではないため、Wallpaper Engineが修正することはできません。Steam上のワークショップアプリはすべて、このSteamバグに悩まされています。 If you frequently have this problem, there are work-arounds:
 
 ## Fix Steam automatically
 We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
