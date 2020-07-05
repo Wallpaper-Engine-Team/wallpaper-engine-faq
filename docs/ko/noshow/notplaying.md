@@ -22,7 +22,7 @@
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. 기존 그래픽 카드 드라이버를 완전히 삭제하고, 물어보는 경우 모든 기존 설정을 제거하세요. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. 기존 그래픽 카드 드라이버를 완전히 삭제하고, 물어보는 경우 모든 기존 설정을 제거하세요. Nvidia 드라이버에는 "새로 설치 실행" 체크박스도 있습니다.
 
 이 방법을 잘 모르겠으면, [디스플레이 드라이버 제거 프로그램("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)를 사용할 수도 있습니다.
 
@@ -36,7 +36,7 @@
 그래픽 카드 드라이버를 완전히 새로 설치한 후에도 작동하지 않으면, 비디오 코덱을 초기화해 보세요:
 
 * Codec Tweak 도구 다운로드: [여기를 클릭하세요](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* "미디어 파운데이션" 메뉴의 체크박스가 모두 선택되지 **않았는지** 확인한 다음, 설정을 적용하세요:
 
 ![미디어 파운데이션 옵션에서 모든 옵션 선택 취소](./codectweak.gif)
 
