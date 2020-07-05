@@ -21,11 +21,11 @@ Wallpaper Engine 사용자 인터페이스가 바이러스 백신 응용프로�
 
 * [Steam 지원: 응용프로그램 파일 결합 확인](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+바이러스 백신 응용프로그램 구성 후에도 Steam에서 이 문제가 해결되지 않으면, Steam을 통해 Wallpaper Engine을 다시 설치해 보세요. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
 
 ## 초록색 아티팩트 또는 흰색 줄이 있는 Wallpaper Engine 인터페이스
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+그래픽 카드 드라이버가 손상되었거나 잘못구성되었습니다. (이미 최신 드라이버가 있더라도) 그래픽 카드의 최신 드라이버를 다운로드하고, 드라이버를 완전히 새로 설치하세요. 손상된 파일이나 설정을 제거하려면 우선 기존 드라이버를 삭제한 다음 최신 드라이버를 설치하는 것이 중요합니다.
 
 문제가 지속되면 Wallpaper Engine를 끄세요. Steam의 세 번째 실행 옵션인 "UI 하드웨어 가속 사용 안 함"을 사용해 Wallpaper Engine을 다시 실행하세요.
 
