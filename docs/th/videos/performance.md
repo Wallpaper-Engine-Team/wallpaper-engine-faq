@@ -1,6 +1,6 @@
 # วิดีโอค้าง / กระตุก / ประสิทธิภาพการทำงานไม่ดี
 
-สาเหตุของปัญหานี้อาจเป็นเพราะฮาร์ดแวร์ไม่มีประสิทธิภาพเพียงพอที่จะแสดงบางวิดีโออย่างถูกต้อง A video wallpaper isn't comparable to standard video players, it must be composed with the icons as well and potentially stretches over multiple screens. It is also using the video decoder of your GPU by default to reduce CPU usage to a minimum.
+สาเหตุของปัญหานี้อาจเป็นเพราะฮาร์ดแวร์ไม่มีประสิทธิภาพเพียงพอที่จะแสดงบางวิดีโออย่างถูกต้อง วิดีโอวอลเปเปอร์กับเครื่องเล่นวิดีโอมาตรฐานนั้นไม่สามารถนำมาเปรียบเทียบกันได้ วิดีโอวอลเปเปอร์จะต้องมีไอคอนและอาจขยายไปหลายหน้าจอ นอกจากนี้ยังใช้ตัวถอดรหัสวิดีโอของ GPU ตามค่าเริ่มต้นเพื่อลดการใช้งาน CPU ให้น้อยที่สุด
 
 ## Background recording hooks
 It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
