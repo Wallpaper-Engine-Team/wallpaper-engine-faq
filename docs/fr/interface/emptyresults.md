@@ -6,6 +6,6 @@ Les aperçus sont téléchargés directement sur les serveurs Steam. S'ils ne se
 
 Certains utilisateurs utilisant un *logiciel d'accélération* ont également des problèmes de téléchargement des images. Assurez-vous qu'aucun logiciel n'empêche Wallpaper Engine de télécharger des images en arrière-plan.
 
-## Aucun fonds d'écran, ou très peu, ne s'affichent
+## Aucun fond d'écran, ou très peu, ne s'affiche
 
 Vous avez probablement paramétré des filtres trop stricts. Retirez tous les filtres en cliquant sur "Réinitialiser les filtres" dans la barre des filtres.
