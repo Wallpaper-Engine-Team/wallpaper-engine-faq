@@ -1,16 +1,16 @@
-# Exclude certain wallpapers from the search
+# 검색에서 특정 배경화면이 제외됩니다
 
-Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+언제든지 응응프로그램의 작업장 탭을 사용하여 새로운 배경화면을 검색할 수 있습니다. Steam 창작마당 웹사이트는 앱과 동일한 필터 기능이 없으며, 관심이 없는 콘텐츠까지 너무 많이 보여줍니다.
 
-## Excluding certain genres (anime, for example)
+## 특정 장르 제외 (예: 애니메이션)
 
-You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+응용프로그램에서 원하지 않는 범주를 필터링할 수 있습니다. Wallpaper Engine의 "작업장" 탭을 열어 왼쪽 상단의 "필터 적용 결과" 버튼을 클릭하여 필터 사이드바를 활성화하세요. Deselect all categories you do not like to see in your results.
 
 If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## Excluding certain age ratings
+## 특정 나이 등급 제외
 
 The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
 
@@ -18,7 +18,7 @@ The Steam Workshop permits a certain degree of adult content, such as nudity. If
 
 Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
 
-## Reporting rule-breaking content
+## 규정 위반 콘텐츠 신고
 
 We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
 
