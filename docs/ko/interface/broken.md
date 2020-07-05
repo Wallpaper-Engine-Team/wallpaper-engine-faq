@@ -21,7 +21,7 @@ Wallpaper Engine 사용자 인터페이스가 바이러스 백신 응용프로�
 
 * [Steam 지원: 응용프로그램 파일 결합 확인](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-바이러스 백신 응용프로그램 구성 후에도 Steam에서 이 문제가 해결되지 않으면, Steam을 통해 Wallpaper Engine을 다시 설치해 보세요. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+바이러스 백신 응용프로그램 구성 후에도 Steam에서 이 문제가 해결되지 않으면, Steam을 통해 Wallpaper Engine을 다시 설치해 보세요. 바이러스 백신이 제어되지 않으면, Wallpaper Engine이 사용하는 파일 경로를 영구 차단할 수도 있습니다. 그럴 경우 우선 바이러스 백신을 삭제한 다음 Wallpaper Engine을 다른 디렉터리에 설치해야 합니다. 이를 위해 Steam에서 새로운 Steam 라이브러리를 만들 수 있습니다.
 
 ## 초록색 아티팩트 또는 흰색 줄이 있는 Wallpaper Engine 인터페이스
 
