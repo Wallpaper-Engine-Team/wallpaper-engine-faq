@@ -10,16 +10,16 @@ tags:
 
 # Steam 배경화면 다운로드 문제
 
-**모든 다운로드는 Steam이 수행한다는 것**을 유의하세요. Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+**모든 다운로드는 Steam이 수행한다는 것**을 유의하세요. Wallpaper Engine은 Steam의 다운로드 상태만 표시할 뿐이고, 모든 다운로드 문제는 Steam과 관련되어 있으며, Wallpaper Engine과는 직접적인 관계가 없습니다. 이 가이드는 다운로드와 관련된 일반적인 문제를 모두 포함하고 있으며, 많은 경우 초기 문제 원인은 지나치게 열성적인 바이러스 백신 응용프로그램이나 차단된 네트워크 포트입니다.
 
-If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
+Steam 다운로드 관련 문제가 발생하면, 바이러스 백신 응용프로그램이 Steam을 차단하지 않고, 네트워크 라우터의 방화벽을 포함한 모든 방화벽에서 필요한 포트가 모두 열려있는지 확인하세요.
 
-::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
+::: 팁 스마트폰의 모바일 핫스팟으로 전환하여 배경화면을 다운로드해보면, 네트워크 라우터가 Steam 다운로드를 차단하고 있는지 쉽게 확인할 수 있습니다. :::
 
-## Wallpaper download stuck at 0% or 100% (or any other percentage)
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## 배경화면 다운로드가 0% 또는 100% (또는 다른 퍼센트)에서 중단
+Steam은 다운로드를 완료하지 않고 파일을 식별하지 않습니다. 다운로드가 한동안 중단되면 잠시 기다리고, 그래도 여전히 Steam 다운로드가 작동하지 않으면 다음 방법을 시도해 보세요:
 
-* Clear Steam's download cache in Steam's options:
+* Steam 옵션에서 Steam의 다운로드 캐시를 제거하세요:
   * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
 * Afterwards verify the files of Wallpaper Engine in Steam:
   * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
