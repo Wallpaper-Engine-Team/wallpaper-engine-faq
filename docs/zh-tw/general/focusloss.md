@@ -1,5 +1,5 @@
 # 播放清單導致失焦/遊戲最小化
 
-If you have a playlist with wallpapers of the type **Web** and experience focus loss while playing games, make sure to pause the playlist while other applications are fullscreen. You can do so by turning **off** the **Allow wallpaper to change while paused** option in the playlist settings or alternatively remove the web-based wallpapers from the playlist.
+如果您的播放清單包含**網頁**類桌布，而且玩遊戲時遇到失焦問題，請在其他應用程式全螢幕顯示時暫停播放清單。 您可在播放清單設定中**關閉****允許桌布在暫停時變更**的選項，或是將網頁式桌布從播放清單移除。
 
-Chromium itself - which is the software used to display "Web" type wallpapers - is stealing the focus of your current window when loading a new wallpaper so we cannot fix this issue easily unfortunately.
+用來顯示「網頁」類型桌布的軟體 Chromium 會在載入新桌布時搶佔當前視窗的焦點，因此我們無法輕易解決此問題。
