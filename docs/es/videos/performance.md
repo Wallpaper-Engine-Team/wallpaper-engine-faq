@@ -10,9 +10,9 @@ Use nuestra herramienta de escaneo para determinar si tiene instalado algún pro
 * [Herramienta de escaneo de Wallpaper Engine.](/debug/scantool.html)
 
 ## Superresolución Dinámica (DSR) / Escalado de GPU
-Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
+Las modificaciones de los controladores como el escalado de GPU o DSR pueden causar problemas, así que deshabilítelos. En caso de que funcione, asegúrese de deshabilitarlos para que no afecten a Wallpaper Engine.
 
 ## Bajo rendimiento en dwm.exe en sistemas con varias GPU / varios monitores
-Si ha habilitado la GPU integrada en su ordenador de sobremesa en la BIOS a pesar de tener una tarjeta gráfica dedicada instalada, puede darse el caso de que experimente un mal rendimiento y un alto uso de la CPU por parte de DMW.exe. Si es posible, no habilite la GPU integrada. **Es muy importante que conecte todos los monitores a la tarjeta gráfica dedicada.** El uso de ambas soluciones gráficas a la vez dañará la aceleración hardware del gestor de ventanas de escritorio. Sin la tecnología Nvidia Optimus o similares, Windows se verá obligado a copiar la imagen del fondo de una GPU a la otra, una operación bastante tediosa. De hecho, cualquier acción compartida entre las GPU lo sufrirá, ya que es como mover una ventana de juego entre ambos monitores.
+Si ha habilitado la GPU integrada en la BIOS de su ordenador de sobremesa a pesar de tener una tarjeta gráfica dedicada instalada, puede darse el caso de que experimente un mal rendimiento y un alto uso de la CPU por parte de DMW.exe. Si es posible, no habilite la GPU integrada. **Es muy importante que conecte todos los monitores a la tarjeta gráfica dedicada.** El uso de ambas gráficas a la vez dañará la aceleración hardware del gestor de ventanas de escritorio. Sin la tecnología Nvidia Optimus o similares, Windows se verá obligado a copiar la imagen del fondo de una GPU a la otra, una operación bastante tediosa. De hecho, cualquier acción compartida entre las GPU lo sufrirá, ya que es como mover una ventana de juego entre ambos monitores.
 
 Este problema no afecta a los componentes fabricados para tener varias GPU como los portátiles con Nvidia Optimus o las configuraciones de Nvidia SLI o AMD con puentes de hardware.
