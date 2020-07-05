@@ -35,15 +35,15 @@ Steamによるファイルのダウンロードの完了と検証ができてい
 * Steamの設定で、別のコンテンツサーバーを選択します。 このオプションは、Steam設定の「ダウンロード」タブにあります。
 * **Steam設定**で、時間、バンド幅、アプリ内からの操作かどうかによってSteamダウンロードが制限されていないことを確認します。
 * Steamの「ダウンロード」タブを開きます（ライブラリ→ダウンロード）。 停止しているダウンロードを見つけます。 見つかったら、「再開」をクリックします。
-* Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
-* Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
-* Try again after waiting at least for a day in case there are Steam server issues.
-* **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!). :::
+* SteamのWallpaper Engineで右クリックしてプロパティを選び、**バックグラウンドでのダウンロードを許可する**を選択します。
+* Steamで保留されているゲームのアップデートがないことを確認します。あると、壁紙のダウンロードが停止したり無効になったりすることがあります。
+* Steamのサーバーに問題がある場合に備え、少なくとも1日待ってからもう一度試します。
+* **最後の手段として**、破損したSteamファイルをすべて消去するためにWallpaper Engineを再インストールします（この場合、すべての壁紙が再ダウンロードされます！）。 :::
 
-::: tip Steam servers go offline every week for maintenance at a fixed time:
+::: tip Steamサーバーは、毎週決まった時間にメンテナンスのためにオフラインになります。
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
+* アメリカ西海岸：**火曜日午後4時（UTC - 7）**
+* 中央ヨーロッパの同じ時間：**水曜日午前1時（UTC + 1）**
 * Same time in China: **Wednesday at 8 am (UTC + 8)**
 
 If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
