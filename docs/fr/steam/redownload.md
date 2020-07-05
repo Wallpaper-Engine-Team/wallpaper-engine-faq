@@ -22,19 +22,19 @@ Nous avons construit un petit logiciel pour essayer d'empêcher Steam de continu
 
 Vous devrez refaire cette manipulation à chaque fois que vous rencontrerez des problèmes avec le cache de Steam. Nous ne sommes pas les développeurs de Steam et nous ne pouvons malheureusement pas faire plus pour vous aider.
 
-## Redémarrez Steam
+## Réinstaller Steam
 
-The most reliable long-term fix for most users affected by this Steam bug regularly appears to be to reinstall Steam as some Steam files may simply be broken on your system. Try to reinstall Steam completely:
+La solution la plus fiable à long terme semble être de réinstaller régulièrement Steam. Ce problème pourrait être dû à des fichiers Steam corrompus. Essayez de réinstaller complètement Steam :
 
-1. Uninstall Wallpaper Engine through Steam.
-2. Uninstall Steam itself, make sure to follow the official guide:
-  * [Uninstall Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
-  * Specifically check the Manually Removing Steam section in the Steam Support article above and make a backup of your *steamapps* directory as described there to ensure you will not have to redownload all your games.
+1. Passez par Steam pour désinstaller Wallpaper Engine.
+2. Désinstaller Steam en suivant ce guide officiel :
+  * [Désinstaller Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
+  * Lisez en particulier la section "Désinstaller Steam manuellementdans" et faites une sauvegarde de votre répertoire *steamapps* comme décrit expliqué pour vous assurer que vous n'aurez pas à retélécharger tous vos jeux.
 
-## Use local backups as a workaround
+## Utiliser une sauvegarde locale
 
-If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+Si le problème persiste, vous pouvez également effectuer une sauvegarde locale de vos fonds d'écran, puis vous désabonner des fonds d'écran. Steam ne retéléchargera pas les fonds d'écran auxquels vous n'êtes plus abonné·e. Cette solution consiste simplement à ne compter que sur une sauvegarde locale. Voici comment faire :
 
-* [Using wallpaper backups](/steam/backup)
+* [Sauvegarder vos fonds d'écran](/steam/backup)
 
-Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+Après cela, désabonnez-vous de tous les fonds d'écran. Assurez-vous de ne rien supprimer manuellement. Steam doit supprimer lui-même les fichiers de fond d'écran, sinon il tentera de les retélécharger.
