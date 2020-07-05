@@ -29,9 +29,9 @@ tags:
 * รีสตาร์ทแอพพลิเคชันแล้วลองใช้วิดีโอวอลเปเปอร์ของคุณอีกครั้ง
 
 ## เปิดใช้งานการเร่งฮาร์ดแวร์ WebM
-If you are experiencing stutters at the end of your video wallpapers, you can use .webm files which do not suffer from the same issue. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **WebM framework** option to **Prefer Native**
-* Restart the application and try using your video wallpaper again
+หากวิดีโอวอลเปเปอร์ของคุณกระตุกในตอนท้าย คุณสามารถใช้ไฟล์ .webm ซึ่งจะไม่ทำให้เกิดปัญหาแบบเดียวกัน คุณควรเปิดใช้งานการเร่งฮาร์ดแวร์สำหรับวิดีโอ .webm ในเวลาเดียวกัน ไม่เพียงแต่จะสามารถลดการใช้งาน CPU ได้อย่างมาก แต่ยังช่วยให้วิดีโอวอลเปเปอร์วนซ้ำโดยไม่หยุดหลังจากเฟรมสุดท้าย ขั้นตอนต่อไปนี้ต่อเนื่องจากขั้นตอนข้างต้น โปรดตรวจสอบว่าคุณได้ติดตั้ง LAV และเปิดใช้งาน DirectShow ตามคำแนะนำในส่วนก่อนหน้า
+* เปิดการตั้งค่า Wallpaper Engine และไปที่แท็บ "ทั่วไป"
+* เปลี่ยนตัวเลือก **เฟรมเวิร์ก WebM** เป็น **ต้องการ Native**
+* รีสตาร์ทแอพพลิเคชันแล้วลองใช้วิดีโอวอลเปเปอร์ของคุณอีกครั้ง
 
-Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+ตรวจสอบว่าไอคอนระบบ LAV ปรากฏขึ้นที่แถบงานหรือไม่ และการใช้งาน CPU เกือบเป็นศูนย์หรือไม่ หากเป็นเช่นนั้นแสดงว่าเนื้อหา .webm ของคุณในตอนนี้ถูกเร่งความเร็วด้วยฮาร์ดแวร์ If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
