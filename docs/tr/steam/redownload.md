@@ -33,8 +33,8 @@ Bazı Steam dosyaları sisteminizde bozulmuş olabileceği için bu Steam hatas�
 
 ## Alternatif çözüm olarak yerel yedeklemeleri kullanma
 
-Sorun devam ederse tüm duvar kâğıtlarının yerel yedeklemelerini oluşturabilir ve daha sonra bunların aboneliğinden çıkabilirsiniz. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+Sorun devam ederse tüm duvar kâğıtlarının yerel yedeklemelerini oluşturabilir ve daha sonra bunların aboneliğinden çıkabilirsiniz. Steam, abone olmadığınız duvar kâğıtlarını yeniden indirmeyecektir. Bu nedenle çözüm yalnızca yerel yedeklemelere bağlıdır. Yedek oluşturma hakkındaki rehberimize buradan ulaşabilirsiniz:
 
-* [Using wallpaper backups](/steam/backup)
+* [Duvar kâğıdı yedeklemelerini kullanma](/steam/yedek)
 
-Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+Sonrasında tüm duvar kâğıtlarının aboneliğinden çıkın. Hiçbir dosyayı manuel olarak silmeyin. Duvar kâğıdı dosyalarını Steam silmelidir, aksi hâlde dosyaları kendisi silmek için duvar kâğıtlarını tekrar indirmeyi deneyecektir.
