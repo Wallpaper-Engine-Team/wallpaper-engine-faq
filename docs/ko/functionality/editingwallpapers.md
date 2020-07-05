@@ -14,7 +14,7 @@
 
 ### 장면 배경화면
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. .pkg 파일을 열려고 하면 "묶인 배경화면들을 열 수 없음" 오류가 표시됩니다. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+장면 배경화면은 상자 밖에서 편집할 수 없는 .pkg 파일로 압축되어 있으므로, 프로젝트 관련 모든 데이터를 잃습니다. .pkg 파일을 열려고 하면 "묶인 배경화면들을 열 수 없음" 오류가 표시됩니다. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
 #### Unofficial Community Scene Unpacker
 
