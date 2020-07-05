@@ -14,4 +14,4 @@ Si todavía aparece el mismo error, **es que ha instalado la versión incorrecta
 
 ::: warning Recuerde que tendrá que instalar el paquete de características multimedia otra vez cuando Microsoft publique una actualización importante de Windows 10. Si le molesta, plantee cambiarse a una versión normal de Windows, ya que todas ellas vienen con estas funciones incorporadas.
 
-**La característica principal de Windows N es que no tiene funciones multimedia. So if this is not what you want, you should not use Windows N.** :::
+**La característica principal de Windows N es que no tiene funciones multimedia. Si no es lo que desea, es mejor que no utilice Windows N.** :::
