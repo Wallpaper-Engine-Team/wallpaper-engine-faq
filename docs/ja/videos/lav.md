@@ -29,7 +29,7 @@ tags:
 * アプリケーションを再起動し、ビデオ壁紙を再び使用します。
 
 ## WebM Hardware Accelerationを有効にする
-ビデオ壁紙が終わりの方でコマ落ちする場合は、.webmファイルを使うと解消する可能性があります。 It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
+ビデオ壁紙が終わりの方でコマ落ちする場合は、.webmファイルを使うと解消する可能性があります。 .webmビデオでハードウェアアクセラレーションを有効にするとさらに良いでしょう。それによってCPUの使用率が大きく減少し、さらに、ビデオ壁紙が最後のフレームのあと目立ってカットされることなくループできます。 This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
 * Open the Wallpaper Engine settings and navigate to the "General" tab
 * Change the **WebM framework** option to **Prefer Native**
 * Restart the application and try using your video wallpaper again
