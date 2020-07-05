@@ -4,7 +4,7 @@ Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web
 
 ## Exclure certains genres de fonds d'écran
 
-Vous pouvez exclure les catégories que vous n'aimez pas dans l'application. Ouvrez l'onglet "Workshop" de Wallpaper Engine et activer la barre des filtres en cliquant sur "Filtrer les résultats" en haut à gauche. Désélectionnez toutes les catégories que vous ne voulez pas voir.
+Vous pouvez exclure les catégories que vous n'aimez pas dans l'application. Ouvrez l'onglet "Workshop" de Wallpaper Engine et activez la barre des filtres en cliquant sur "Filtrer les résultats" en haut à gauche. Désélectionnez toutes les catégories que vous ne voulez pas voir.
 
 Par exemple, si vous n'aimez pas trop le style manga, vous pouvez désélectionner les catégories *Anime* et *MMD (Miku-Miku-Dance)*. Vous pouvez également décocher *Cartoon* et *Filles*, car ils contiennent également des design d'anime, mais vous risquez de bloquer trop de contenu.
 
