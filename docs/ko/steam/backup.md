@@ -2,9 +2,9 @@
 
 배경화면이 어떤 이유로 Steam에서 삭제되면, Steam은 PC에서도 삭제합니다. Wallpaper Engine은 이것을 막을 수 없지만, 염려되는 사용자는 배경화면의 백업을 만들 수 있습니다.
 
-Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
+이와 유사하게 Steam이 무작위로 모든 창작마당 파일을 다시 다운로드한다는 여러 신고가 있었습니다. 기가바이트 크기의 데이터를 보유한 사용자라면 성가실 수도 있습니다. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
 
-# Creating a Backup
+# 백업 생성
 
 The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
 
