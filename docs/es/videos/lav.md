@@ -29,9 +29,9 @@ Por motivos legales, no podemos hacer un paquete de descarga de LAV con Wallpape
 * Reinicie el programa e intente usar el fondo de vídeo otra vez.
 
 ## Habilitar aceleración de hardware de WebM
-Si los vídeos se entrecortan al final de los fondos, puede usar archivos .webm que no tengan el mismo problema. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **WebM framework** option to **Prefer Native**
-* Restart the application and try using your video wallpaper again
+Si los vídeos se entrecortan al final de los fondos, puede usar archivos .webm que no tengan el mismo problema. Le recomendamos habilitar la aceleración de hardware para los vídeos .webm, ya que reducirá el consumo de CPU y, aun así, permitirá que los fondos de vídeo estén en bucle sin que se note demasiado el corte en el último fotograma. Esto es una continuación de los pasos mencionados anteriormente, así que asegúrese de haber instalado LAV y haber habilitado DirectShow como se explica en la sección anterior.
+* Abra la configuración de «Wallpaper Engine» y diríjase a la etiqueta «General».
+* Cambie la opción **Plataforma de WebM preferida** a **Nativo**.
+* Reinicie el programa e intente usar el fondo de vídeo otra vez.
 
-Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+Compruebe que aparece el icono de LAV en la bandeja del sistema y que el consumo de CPU es casi cero. Si es así, el contenido .webm cuenta ya con la aceleración de hardware. En caso de que no funcione, compruebe que ha configurado bien todas las opciones que LAV se ha instalado correctamente.
