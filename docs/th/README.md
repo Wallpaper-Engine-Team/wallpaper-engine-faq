@@ -1,7 +1,7 @@
 # คู่มือการแก้ไขปัญหา Wallpaper Engine และคำถามที่พบบ่อย
-หากคุณพบปัญหาทางเทคนิคหรือมีคำถามเกี่ยวกับ Wallpaper Engine คุณจะพบคำตอบได้ที่นี่ 95% of questions and problems we get asked are the same so it is likely that you will find your answer here.
+หากคุณพบปัญหาทางเทคนิคหรือมีคำถามเกี่ยวกับ Wallpaper Engine คุณจะพบคำตอบได้ที่นี่ 95% ของคำถามและปัญหาที่เราได้รับนั้นเหมือนกัน จึงเป็นไปได้ว่าคุณจะพบคำตอบได้ที่นี่
 
-**It's best if you use the search bar in the upper right corner** or simply look on the list of all articles on the left - we have tried to categorize them sensibly. We have also listed the most frequently accessed help articles below, check if your problem is in there.
+**จะดีที่สุดหากคุณใช้แถบค้นหาที่มุมขวาบน** หรือดูรายการบทความทั้งหมดทางด้านซ้ายซึ่งเราได้พยายามจัดหมวดหมู่ให้เหมาะสม เรายังได้จัดทำบทความช่วยเหลือที่มีการเข้าดูบ่อยที่สุดด้านล่าง โปรดตรวจสอบเพื่อดูว่าเกี่ยวข้องกับปัญหาของคุณหรือไม่
 
 ::: tip Use the search bar in the upper right corner with single keywords. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black". :::
 
