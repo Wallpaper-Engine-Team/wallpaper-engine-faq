@@ -9,13 +9,13 @@ Wallpaper Engine은 [**Razer Chroma**](https://www.razer.com/chroma) 및 [**Cors
 
 ## RGB 하드웨어 활성화 / 비활성화 방법
 
-Wallpaper Engine 설정의 "플러그인" 섹션에서 **iCUE & Chroma SDK 플러그인**을 찾을 수 있습니다. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. 또한 옆의 톱니바퀴 모양을 클릭하여 개별 부분을 구성할 수 있습니다.
+Wallpaper Engine 설정의 "플러그인" 섹션에서 **iCUE & Chroma SDK 플러그인**을 찾을 수 있습니다. 왼쪽 체크박스를 표시하여 일반 RGB 플러그인 불러오기를 활성화 또는 비활성화할 수 있습니다. 또한 옆의 톱니바퀴 모양을 클릭하여 개별 부분을 구성할 수 있습니다.
 
 그리고 RGB 지원은 배경화면마다 끌 수도 있습니다. RGB 조명을 조종하기 위해 개별 배경화면이 필요한 경우 플러그인이 활성화되어 조종할 수 있으면, 각 배경화면 속성 목록의 상단에서 **LED 효과 활성화** 옵션을 찾을 수 있습니다.
 
 ## RGB 하드웨어 색이 너무 밝은 것 같습니다
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+기본값으로 RGB 색은 약간 증폭되어 있습니다. 그러면 대부분의 배경화면이 좀 더 잘 보이는 경향이 있지만, 원하지 않는다면 RGB 플러그인 설정에서 **LED 색 증폭**옵션을 비활성화하여 끌 수 있습니다.
 
 ## RGB 하드웨어가 작동하지 않습니다
 
