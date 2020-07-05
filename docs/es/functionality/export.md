@@ -10,6 +10,6 @@ Sin embargo, puede hacer una grabación de los fondos e intentar crear un bucle 
 
 #### Conseguir una toma clara de los fondos
 
-Puede conseguir una toma clara de su fondo y cambiarlo de tamaño si hace clic derecho en la pestaña «Instalados» y después hace clic en «Reproducir en ventana». Esto abrirá una ventana con el fondo. De esta forma, no tendrá que esconder los iconos del escritorio ni otros elementos de Windows y, además, le permite cambiar la ventana de tamaño para adaptarla a las proporciones a las que quiere exportar el fondo:
+Puede conseguir una toma clara de su fondo y cambiarlo de tamaño si hace clic derecho en la pestaña «Instalados» y después hace clic en «Reproducir en ventana». Esto abrirá una ventana con el fondo. De esta forma, no tendrá que esconder los iconos del escritorio ni otros elementos de Windows y, además, podrá cambiar la ventana de tamaño para adaptarla a las proporciones a las que quiere exportar el fondo:
 
 ![Haga clic derecho en un fondo y seleccione «Reproducir en ventana».](./playinwindow.gif)
