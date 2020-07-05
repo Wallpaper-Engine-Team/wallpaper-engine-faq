@@ -38,12 +38,12 @@
 * 下載 Codec Tweak Tool：[點選這裡](https://www.codecguide.com/download_other.htm)
 * 確保「Media Foundation」選單中所有核取方塊**均未**勾選，然後套用此設定：
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![取消勾選 Media Foundation 選單中所有選項](./codectweak.gif)
 
 * 重新啟動個人電腦，重試受影響的桌布。
 
 ## 其他視訊轉碼器
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+如果執行上述步驟以後，受影響的桌布仍無法正常運作，請下載 LAV，並按照本指南的說明使用 DirectShow：
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [使用 LAV 與 DirectShow](/videos/lav.html)。
