@@ -31,6 +31,6 @@ tags:
 
 ### 罕見的 Steam 重疊錯誤破壞 Wallpaper Engine 使用者介面
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+應用程式視窗呈現黑色，另一個可能的原因是罕見的 Steam 重疊錯誤。 您可嘗試以下操作：
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+完全關閉 Wallpaper Engine (在通知區域的圖示上按一下滑鼠右鍵，接著選取「結束」)。 之後開啟 Steam，在 Wallpaper Engine 上按一下滑鼠右鍵，選取「內容」，接著停用「遊戲中啟用 Steam 重疊」選項。 停用此選項後，請透過 Steam 重新啟動 Wallpaper Engine。 
