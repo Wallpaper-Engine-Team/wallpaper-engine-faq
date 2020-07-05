@@ -25,10 +25,10 @@ Wallpaper Engine 使用了適用於視訊的硬體加速將效能最佳化，與
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-若您不確定該怎麼做：請下載適用您的顯示卡的最新驅動程式，再用 DDU 解除安裝顯示卡驅動程式並刪除所有設定：
+如果不確定該怎麼做，請下載適用顯示卡的最新驅動程式，再用 DDU 解除安裝顯示卡驅動程式並刪除所有設定：
 
 * [Display Driver Uninstaller 下載](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-之後，請安裝您下載的驅動程式。 若執行正確，此方法將解決問題。
+之後，請安裝您方才下載的驅動程式。 如果執行正確，將能解決問題。
 
-::: 提示 重新安裝顯示卡驅動程式後，如果顏色依然不對勁，您可能有一個以上的 GPU，或是並未執行「全新」的重新安裝。 請先解除安裝所有現有的顯示卡驅動程式，並清除所有驅動程式的設定。 :::
+::: 提示 重新安裝顯示卡驅動程式後，如果顏色依然不對勁，代表您可能有一個以上的 GPU，或是並未執行「全新」的重新安裝。 請先解除安裝所有現有的顯示卡驅動程式，並清除所有驅動程式的設定。 :::
