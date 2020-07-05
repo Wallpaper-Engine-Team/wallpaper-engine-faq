@@ -1,6 +1,6 @@
 # Frecuencia de actualización errónea de los monitores
 
-Dependiendo del hardware y del sistema operativo, la tarjeta gráfica podría tener problemas para actualizar los monitores a la vez si tienen frecuencias de actualización muy diferentes. Microsoft ha solucionado este problema en la actualización Windows 10 2004 (mayo de 2020), así que compruebe si tiene al menos esa versión de Windows 10 o la más reciente si tiene este problema.
+Dependiendo de los componentes y del sistema operativo, la tarjeta gráfica podría tener problemas para actualizar los monitores a la vez si tienen frecuencias de actualización muy diferentes. Microsoft ha solucionado este problema en la actualización Windows 10 2004 (mayo de 2020), así que compruebe si tiene al menos esa versión de Windows 10 o la más reciente si tiene este problema.
 
 Algunas soluciones alternativas:
 
