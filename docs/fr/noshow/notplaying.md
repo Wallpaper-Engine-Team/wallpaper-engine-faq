@@ -10,7 +10,7 @@ mots-clés :
 
 Les écrans noirs et les problèmes avec les fonds d'écran *Vidéo* sont *toujours* causés par des pilotes de carte graphique ou des codecs défectueux. Voici les étapes à suivre. Suivez notre guide pour résoudre ce problème :
 
-::: warning Attention Cette section va aborder les problèmes liés aux **fonds d'écran** de Wallpaper Engine. Si c'est l'**interface de Wallpaper Engine qui est noire**, vous devez aller dans cette section : [l'inferface utilisateur de Wallpaper Engine est noire](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: warning Attention Cette section va aborder les problèmes liés aux **fonds d'écran** de Wallpaper Engine. Si c'est l'**interface de Wallpaper Engine qui est noire**, vous devez aller dans cette section : [l’interface utilisateur de Wallpaper Engine est noire](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
 ## Réinstaller proprement les pilotes des cartes graphiques
 
@@ -27,7 +27,7 @@ Pour la grande majorité, une réinstallation propre des pilotes de carte graphi
 Vous pouvez également utiliser [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour vous aider.
 
 3. Installez tous les pilotes que vous avez téléchargés à l'étape 1.
-4. Redémarrez votre PC pour voir si cela à marcher.
+4. Redémarrez votre PC pour voir si cela a marché.
 
 ::: tip Il est très important que vous fassiez une réinstallation propre : vos pilotes de carte graphique et leurs paramètres doivent être complètement supprimés avant d'installer les nouveaux pilotes. :::
 
