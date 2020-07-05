@@ -1,8 +1,8 @@
 # 32비트 & 64비트 버전
 
-64비트 버전은 더 큰 파일(2GB 이상)을 처리할 수 있지만, 배경화면의 파일 크기와 상관 없이 더 많은 메모리를 사용합니다. For example, with a normal video wallpaper, the 64-bit version may use about 50 MB more RAM compared to the 32-bit version, otherwise there is nothing different or improved.
+64비트 버전은 더 큰 파일(2GB 이상)을 처리할 수 있지만, 배경화면의 파일 크기와 상관 없이 더 많은 메모리를 사용합니다. 예를 들어 64비트 버전은 32비트 버전에 비해 일반적인 비디오 배경화면에 약 50MB의 RAM을 더 사용합니다. 그 외에는 다르거나 향상되는 부분이 없습니다.
 
-::: tip We recommend you stick to the 32-bit version unless you have huge wallpapers that would make the 32-bit version crash. The large majority of users never encounter this problem. :::
+::: 팁 32비트 버전이 작동 중단이 될만큼 배경화면이 큰 경우를 제외하고는, 32비트 버전의 사용을 권장합니다. 그러나 사용자 대부분은 이러한 문제를 경험하지 않습니다. :::
 
 You may also opt for the 64-bit version when the video system on your PC has errors that only affect 32-bit programs. Should you ever have installed codec packs or alike, they may have permanently damaged the 32-bit Windows video system that Wallpaper Engine uses. If the 64-bit system is not affected, you'll be able to take advantage of that by using the 64-bit version of Wallpaper Engine and so you can avoid having to fix whatever got broken.
 
