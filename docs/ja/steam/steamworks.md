@@ -6,8 +6,8 @@
 
 * まずSteamを再起動し、次にWallpaper Engineを再起動します。
 * Wallpaper Engineを持っているアカウントにログインしていることを確認します。
-* SteamまたはWallpaper Engineを管理者として実行**しない**。
-* アンチウイルスからSteamディレクトリを除外するか、サードパーティーのアンチウイルスアプリケーションを完全に無効にする。
-* 「Steam idling」プログラムを閉じる。
-* Delete cracked Steam games that override Steam's presence on the PC.
-* Uninstall Wallpaper Engine and Steam. Delete the entire Steam folder. Reinstall Steam and Wallpaper Engine.
+* SteamまたはWallpaper Engineを管理者として実行**しない**ようにします。
+* アンチウイルスからSteamディレクトリを除外するか、サードパーティーのアンチウイルスアプリケーションを完全に無効にします。
+* 「Steam idling」プログラムを閉じます。
+* PC上のSteamの存在を上書きする、クラッキングしたSteamゲームを削除します。
+* SteamからWallpaper Engineをアンインストールします。 Steamフォルダを完全に削除します。 SteamとWallpaper Engineを再インストールします。
