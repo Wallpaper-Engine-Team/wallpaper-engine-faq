@@ -6,6 +6,6 @@
 
 * [ไดรเวอร์ AMD Radeon](https://www.amd.com/support)
 
-Then uninstall your current drivers first, it is very important that you first uninstall them and clear all existing settings if asked. Afterwards, you can install the drivers you have just downloaded. If you are unsure how to properly uninstall your drivers, you can also use a tool like DDU ("Display Driver Uninstaller") to uninstall your drivers in a clean way:
+จากนั้นจึงถอนการติดตั้งไดรเวอร์ปัจจุบันก่อน สิ่งสำคัญคือคุณต้องถอนการติดตั้งก่อนและล้างการตั้งค่าที่มีอยู่ทั้งหมดเมื่อระบบแจ้งเตือน หลังจากนั้นจึงติดตั้งไดรเวอร์ที่คุณเพิ่งดาวน์โหลด หากคุณไม่แน่ใจว่าจะถอนการติดตั้งไดร์เวอร์ได้อย่างถูกต้อง คุณสามารถใช้เครื่องมือเช่น DDU ("Display Driver Uninstaller") เพื่อถอนการติดตั้งไดร์เวอร์โดยสมบูรณ์:
 
-* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [ดาวน์โหลด Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
