@@ -2,14 +2,14 @@
 
 Podría ocurrir si tiene componentes que no son lo suficientemente potentes para mostrar el vídeo correctamente. No se puede comparar un fondo de vídeo con los reproductores de vídeo normales, pues cuenta con los iconos y con posibles estiramientos para ajustarse a múltiples monitores. También utiliza el decodificador de vídeo de su GPU por defecto para reducir el uso de la CPU al mínimo.
 
-## Background recording hooks
-It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
+## La grabación en segundo plano se cuelga
+Podría suceder a causa de los controladores para grabar programas como ReLive, Shadow Play/Nvidia Share o Windows GameDVR. Deshabilítelos para ver si cambia la situación y luego excluya Wallpaper Engine en dichos programas. Asegúrese de que no hay más programas de grabación o superposición cargándose en Wallpaper Engine que pueda ralentizar el procesamiento.
 
-You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
+Use nuestra herramienta de escaneo para determinar si tiene instalado algún programa de grabación que tienda a colgarse, pero no siempre lo detecta todo, tal y como ocurre con Nvidia GeForce Experience:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Herramienta de escaneo de Wallpaper Engine.](/debug/scantool.html)
 
-## Dynamic Super Resolution (DSR) / GPU Scaling
+## Superresolución Dinámica (DSR) / Escalado de GPU
 Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
 
 ## Bad performance in dwm.exe in systems with multiple GPUs / multiple screens
