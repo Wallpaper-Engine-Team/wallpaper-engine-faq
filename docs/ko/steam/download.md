@@ -33,7 +33,7 @@ Steam은 다운로드를 완료하지 않고 파일을 식별하지 않습니다
 * 바이러스 백신 방화벽이 Steam을 차단하지 않았는지 확인하세요. 바이러스 백신 앱 설정에서 Steam 디렉터리 전체를 제외하세요.
 * 다운로드하지 못한 배경화면을 구독 취소하고, Steam을 재시작한 뒤 다시 구독하세요.
 * Steam 설정에서 다른 콘텐츠 서버를 선택하세요. 옵션은 Steam 설정의 "다운로드" 탭에서 찾을 수 있습니다.
-* Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
+* 시간, 대역폭, 앱 내 존재를 바탕으로 **Steam 설정**에서 Steam 다운로드를 제한하지 않았는지 확인하세요.
 * Steam에서 '다운로드' 탭을 여세요. (라이브러리 -> 다운로드) 일시정지된 다운로드를 찾으세요. 발견하면 '계속'을 클릭하세요.
 * Steam에서 Wallpaper Engine을 오른쪽 클릭한 다음, 속성을 클릭하고 **배경 다운로드 허용**을 선택하세요.
 * Steam에 보류 중인 게임 업데이트가 없는지 확인하세요. 배경화면 다운로드를 일시정지하거나 비활성화할 수 있습니다.
