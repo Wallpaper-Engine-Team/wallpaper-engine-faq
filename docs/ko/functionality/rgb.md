@@ -11,27 +11,27 @@ Wallpaper Engine은 [**Razer Chroma**](https://www.razer.com/chroma) 및 [**Cors
 
 Wallpaper Engine 설정의 "플러그인" 섹션에서 **iCUE & Chroma SDK 플러그인**을 찾을 수 있습니다. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. 또한 옆의 톱니바퀴 모양을 클릭하여 개별 부분을 구성할 수 있습니다.
 
-그리고 RGB 지원은 배경화면마다 끌 수도 있습니다. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+그리고 RGB 지원은 배경화면마다 끌 수도 있습니다. RGB 조명을 조종하기 위해 개별 배경화면이 필요한 경우 플러그인이 활성화되어 조종할 수 있으면, 각 배경화면 속성 목록의 상단에서 **LED 효과 활성화** 옵션을 찾을 수 있습니다.
 
-## The RGB hardware colors seem too bright
+## RGB 하드웨어 색이 너무 밝은 것 같습니다
 
 By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
 
-## My RGB hardware does not work
+## RGB 하드웨어가 작동하지 않습니다
 
 Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
 
 If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
 
-* [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
+* [Visual Studio 2015로 재배포 가능한 Visual C++](https://www.microsoft.com/download/details.aspx?id=48145)
 
 ### Corsair
 
-Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+**Corsair 시스템 메모리 (RAM)와 같은 일부 하드웨어는 소프트웨어 컨트롤이 기본값으로 비활성화되어 있습니다.** 즉 iCUE 소프트웨어 설정에서 직접 허용하지 않는 한 Wallpaper Engine에 의해 메모리 모듈이 켜지지 않습니다. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
 
 ![Enable full software control in iCUE](./icue.png)
 
-Double-check this option for any other hardware parts which are not working properly.
+제대로 작동하지 않는 기타 하드웨어 부분이 있으면 이 옵션을 다시 확인하세요.
 
 Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
 
