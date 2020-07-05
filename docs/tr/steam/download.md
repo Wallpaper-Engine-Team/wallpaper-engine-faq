@@ -23,17 +23,17 @@ Steam dosyaları indirip doğrulamıyor. Steam indirmeleriniz belirli bir süre 
   * [Steam İndirme önbelleğini temizle](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
 * Sonrasında Steam'deki Wallpaper Engine dosyalarını doğrulayın:
   * [Wallpaper Engine dosyalarını doğrula](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+* Tüm indirmeler hâlâ takılı kalıyorsa: **Steam'i kapatın** ve sonra şu dizindeki **içerikleri silin**:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * Yüklü bir antivirüs uygulamanız varsa özellikle bu dizini hariç tuttuğundan emin olun
+    * **Unutmayın:** `C:\Program Files (x86)\Steam` varsayılan Steam yoludur. Eğer bunu farklı bir yere kurduysanız orayı kontrol edin.
+* Steam'i yeniden başlatın. Herhangi bir oyunu başlatmayın. İlerleme için Steam indirme sekmesine bakın ve duraklatılmış indirme işlemlerini devam ettirin.
 
-::: details Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
-* Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
-* Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
-* Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
+::: detaylar Yukarıdaki adımlar indirme sorunlarınıza çözüm bulmadıysa daha fazla alternatif görmek için buraya tıklayın
+* Herhangi bir antivirüs veya güvenlik duvarının Steam'i engellemediğinden emin olun. Antivirüs uygulama ayarlarınızda tüm Steam dizinini hariç tutun.
+* İndirilemeyen duvar kâğıtlarının aboneliğinden çıkın ve Steam'i yeniden başlattıktan sonra bunlara tekrar abone olun.
+* Steam ayarlarından farklı bir içerik sunucusu seçin. Bu seçenek, Steam ayarlarındaki "İndirmeler" sekmesinde bulunur.
+* **Steam ayarlarından** zamana, bant genişliğine, uygulama içi olmaya bağlı olarak Steam indirmelerini kısıtlamadığınızdan emin olun.
 * Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
 * Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
 * Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
