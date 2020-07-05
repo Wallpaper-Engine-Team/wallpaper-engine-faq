@@ -1,6 +1,6 @@
 ---
 tags:
-  - antivirus
+  - 바이러스 백신
   - showing
 ---
 
