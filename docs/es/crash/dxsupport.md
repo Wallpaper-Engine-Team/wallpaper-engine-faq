@@ -1,5 +1,5 @@
 # Error «No es compatible con DirectX 10»
-Haga una búsqueda en internet del nombre de su tarjeta gráfica para asegurarse de que es compatible con DirectX 10. Si tiene una tarjeta antigua e instala DirectX 10, no se solucionará el problema si la tarjeta no es compatible con DirectX10 a nivel de hardware.
+Haga una búsqueda del nombre de su tarjeta gráfica en internet para asegurarse de que es compatible con DirectX 10. Si tiene una tarjeta antigua e instala DirectX 10, no se solucionará el problema si la tarjeta no es compatible con DirectX10 a nivel de hardware.
 
 Si la tarjeta es compatible y le aparece este error, intente instalar de nuevo los controladores más recientes (o unos más antiguos y estables). Elimine cualquier software intrusivo de seguridad de su equipo que pueda impedir que Wallpaper Engine acceda a su tarjeta gráfica.
 
