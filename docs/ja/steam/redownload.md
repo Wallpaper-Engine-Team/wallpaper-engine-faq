@@ -33,8 +33,8 @@ Steamのダウンロードキャッシュが壊れており、Steamがすべて�
 
 ## 回避としてローカルバックアップを使用する
 
-それでも問題が継続して起きる場合は、すべての壁紙のローカルバックアップを作成し、すべての壁紙のサブスクライブを解除することもできます。 Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+それでも問題が継続して起きる場合は、すべての壁紙のローカルバックアップを作成し、すべての壁紙のサブスクライブを解除することもできます。 Steamはサブスクライブしていない壁紙は再ダウンロードしないので、この方法をとると、頼りはローカルバックアップだけになります。 バックアップの作成方法はこちらのガイドをご覧ください。
 
-* [Using wallpaper backups](/steam/backup)
+* [壁紙のバックアップを使用する](/steam/backup)
 
-Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+その後、すべての壁紙のサブスクライブを解除します。 ファイルを手動で削除しないようにしてください。Steam自体が壁紙ファイルを削除する必要があります。そうでないと、Steamは自分で削除するためだけにまた壁紙を再ダウンロードしようとします。
