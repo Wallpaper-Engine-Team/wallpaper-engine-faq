@@ -1,15 +1,15 @@
 # Los visualizadores de audio no funcionan / No se detecta sonido
 
-Los visualizadores de audio pueden dejar de funcionar por varios motivos. Aquí tenemos una lista de todas las razones posibles. Lea la guía al completo para asegurarse de que no se pierda ninguno de los posibles motivos por los que no funciona.
+Los visualizadores de audio pueden dejar de funcionar por varios motivos, y aquí tenemos una lista de todas las razones posibles. Lea la guía al completo y asegúrese de no perderse ninguno de los motivos posibles por los que podría no funcionar.
 
 ## 1. Instalación del dispositivo de audio
-Vaya a la configuración de «Wallpaper Engine» y diríjase a la etiqueta «General». En la zona del centro podrá ver la sección «Multimedia», donde podrá elegir un dispositivo de entrada de audio. Asegúrese de que se ha seleccionado el dispositivo correcto. Si no está seguro de cuál es dicho dispositivo, pruébelos todos mientras escucha música hasta que empiezan a funcionar los visualizadores de audio.
+Vaya a la configuración de «Wallpaper Engine» y diríjase a la etiqueta «General». En la zona del centro encontrará la sección «Multimedia», donde podrá elegir un dispositivo de entrada de audio. Asegúrese de que se ha seleccionado el dispositivo correcto. Si no sabe con certeza cuál es dicho dispositivo, pruébelos todos mientras escucha música hasta que empiecen a funcionar los visualizadores de audio.
 
-Si se ha seleccionado el dispositivo correcto, pero todavía no puede oír nada o el visualizador no funciona, asegúrese de que no ha silenciado Wallpaper Engine en el mezclador de Windows o de que no lo tenga a un volumen muy bajo. Windows no diferencia entre los volúmenes de grabación y reproducción de sonido. Esto significa que si tiene el volumen bajo en Windows, la grabadora no funcionará.
+Si se ha seleccionado el dispositivo correcto, pero todavía no puede oír nada o el visualizador no funciona, asegúrese de que no ha silenciado Wallpaper Engine en el mezclador de Windows o de que no lo tenga a un volumen muy bajo. Windows no diferencia entre los volúmenes de grabación y reproducción de sonido. Esto significa que si tiene el volumen bajo en Windows, no se podrá grabar el audio:
 
 ![Suba el volumen y active el sonido de Wallpaper Engine en el mezclador de sonidos de Windows](./audiomixer.png)
 
-Si detecta el sonido, pero está muy bajo, tenga en cuenta que el volumen de la aplicación (del reproductor de música, del navegador, etc.) afecta a la detección de sonido. Si no quiere subir el volumen de la aplicación, puede mejorar la detección de sonido en la pestaña «General» de los ajustes de Wallpaper Engine (el volumen de grabación por defecto es 50).
+Si detecta el sonido, pero está muy bajo, tenga en cuenta que el volumen del programa (del reproductor de música, del navegador, etc.) afecta a la detección de sonido. Si no quiere subir el volumen del programa, puede mejorar la detección de sonido en la pestaña «General» de los ajustes de Wallpaper Engine (el volumen de grabación por defecto es 50).
 
 ## 2. Problemas con el hardware
 
