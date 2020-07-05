@@ -1,9 +1,9 @@
 ---
 tags:
-  - download
-  - re-download
-  - deleted
-  - deletes
+  - téléchargement
+  - retélécharger
+  - supprimé
+  - supprimer
 ---
 
 # Télécharger de nouveau les fonds d'écran sur Steam
