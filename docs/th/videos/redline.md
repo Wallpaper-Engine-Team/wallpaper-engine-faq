@@ -1,10 +1,10 @@
-# Red Line on screen
+# เส้นสีแดงบนหน้าจอ
 
-The red line comes from your AMD graphics card drivers. Disable the 'demo mode' to remove it. The option may be in different places depending on the version of your graphics card drivers. Look through all AMD graphics card settings, you should find it somewhere. If you are unable to locate it, you can also fix this problem by doing a clean re-installation of your graphics card drivers.
+เส้นสีแดงมาจากไดรเวอร์การ์ดจอ AMD ของคุณ คุณสามารถลบออกได้โดยการปิดการใช้งาน 'โหมดสาธิต' ตำแหน่งของตัวเลือกนี้จะแตกต่างกันไปตามเวอร์ชันของไดรเวอร์การ์ดจอ โดยลองหาจากการตั้งค่าการ์ดจอ AMD ทั้งหมด หากคุณไม่พบการตั้งค่าข้างต้น คุณสามารถแก้ปัญหานี้ได้ด้วยการติดตั้งไดรเวอร์การ์ดจอใหม่
 
-Download the latest drivers for your graphics card from the AMD website:
+ดาวน์โหลดไดรเวอร์ล่าสุดสำหรับการ์ดจอของคุณได้จากเว็บไซต์ AMD:
 
-* [AMD Radeon drivers](https://www.amd.com/support)
+* [ไดรเวอร์ AMD Radeon](https://www.amd.com/support)
 
 Then uninstall your current drivers first, it is very important that you first uninstall them and clear all existing settings if asked. Afterwards, you can install the drivers you have just downloaded. If you are unsure how to properly uninstall your drivers, you can also use a tool like DDU ("Display Driver Uninstaller") to uninstall your drivers in a clean way:
 
