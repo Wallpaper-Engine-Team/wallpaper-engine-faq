@@ -1,13 +1,13 @@
 # Steamworks kullanılamıyor
 
-Wallpaper Engine ve Steam, bir sebepten dolayı iletişim kuramıyor. Steam'i ve sonrasında Wallpaper Engine'i yeniden başlatın. Make sure it is logged into the account you own Wallpaper Engine on. If you run either Steam or Wallpaper Engine as administrator, the Steamworks SDK in Wallpaper Engine may not work. The solution is to not run either program as admin, which is the intended way. If it still does not work, reinstall Steam and get rid of any antivirus that blocks communication between different programs.
+Wallpaper Engine ve Steam, bir sebepten dolayı iletişim kuramıyor. Steam'i ve sonrasında Wallpaper Engine'i yeniden başlatın. Wallpaper Engine'in sahibi olduğunuz hesaba giriş yaptığınızdan emin olun. Steam'i veya Wallpaper Engine'i yönetici olarak çalıştırıyorsanız Wallpaper Engine'deki Steamworks SDK'sı çalışmayabilir. Çözüm, her iki programı da yönetici olarak çalıştırmamaktır. Bu çözüm de işe yaramazsa Steam'i yeniden yükleyin ve farklı programlar arasındaki iletişimi engelleyen antivirüslerden kurtulun.
 
-Try the following steps:
+Şu adımları deneyin:
 
-* Restart Steam, then Wallpaper Engine.
-* Make sure you are logged into the Steam account that owns Wallpaper Engine.
-* Do **not** run Steam or Wallpaper Engine as administrator.
-* Exclude the Steam directory from your antivirus or completely disable any third-party antivirus application
+* Steam'i ve sonrasında Wallpaper Engine'i yeniden başlatın.
+* Wallpaper Engine'e sahip olan Steam hesabında oturum açtığınızdan emin olun.
+* Steam veya Wallpaper Engine'i yönetici olarak **çalıştırmayın**.
+* Steam dizinini antivirüsünüzün dışında tutun veya herhangi bir üçüncü taraf antivirüs uygulamasını tamamen devre dışı bırakın
 * Close "Steam idling" programs.
 * Delete cracked Steam games that override Steam's presence on the PC.
 * Uninstall Wallpaper Engine and Steam. Delete the entire Steam folder. Reinstall Steam and Wallpaper Engine.
