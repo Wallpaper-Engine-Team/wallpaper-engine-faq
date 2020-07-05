@@ -12,6 +12,6 @@ Windows N no viene con funciones multimedia. Tendrá que instalar el Paquete de 
 
 Si todavía aparece el mismo error, **es que ha instalado la versión incorrecta**. Instale la versión correspondiente y reinicie el equipo. Si todavía no funciona y falta el mismo archivo, es probable que los archivos del sistema estén dañados. Restáurelo a un estado anterior o vuelva a instalar Windows.
 
-::: warning Recuerde que tendrá que instalar el paquete de características multimedia otra vez cuando Microsoft publique una actualización importante de Windows 10. Si le molesta, plantee cambiarse a una versión normal de Windows, ya que todas ellas vienen con estas funciones incorporadas.
+::: warning ¡Aviso! Recuerde que tendrá que instalar el paquete de características multimedia otra vez cuando Microsoft publique una actualización importante de Windows 10. Si le molesta, plantéese cambiar a una versión normal de Windows, ya que todas ellas vienen con estas funciones incorporadas.
 
 **La característica principal de Windows N es que no tiene funciones multimedia. Si no es lo que desea, es mejor que no utilice Windows N.** :::
