@@ -19,7 +19,7 @@ Wallpaper Engine, al contrario que la mayoría de reproductores de vídeo, usa l
 
 **Si los fondos muestran colores incorrectos, son muy claros o muy oscuros, aparecen enfocados, pixelados o hay un borde alrededor del fondo**, puede restablecer las opciones de vídeo en el panel de control de gráficos de su tarjeta gráfica Nvidia, AMD o Intel. Si tiene un ordenador con varias GPU (por ejemplo, una tarjeta principal de Nvidia y una secundaria de Intel), restablezca las de todas ellas.
 
-You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Puede volver a instalar los controladores de la tarjeta gráfica y restablecer toda la configuración (reinstalación limpia), que es posible con los de Nvidia, por ejemplo. Es decir, tendrá que desinstalar los controladores y volver a instalar los más actuales cuando se hayan desinstalado por completo los antiguos. Algunos controladores ofrecen la opción de reinstalar desde cero en la sección avanzada, así que asegúrese de activarla para deshacerse de los restos de los controladores dañados. Puede obtener controladores de las tarjetas gráficas más recientes de todos los proveedores principales aquí:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
