@@ -4,15 +4,15 @@
 
 ## 排除特定類型 (例如動漫)
 
-您可從應用程式篩選掉您不喜歡的類別。 Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+您可從應用程式篩選掉您不喜歡的類別。 開啟 Wallpaper Engine 的「工作坊」分頁，點選左上角的「篩選結果」按鈕，啟用過濾器側欄。 取消選取所有您不希望在結果中看到的所有類別。
 
-If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+如果不想看到動漫桌布，請移除*動漫*和 *MMD (Miku-Miku-Dance)* 類別。 此外，您也可能希望移除*卡通*和*女生*類別，因為這些包含動畫內容，您可能還會篩選掉其他內容。
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## Excluding certain age ratings
+## 排除特定年齡分級
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Steam 工作坊允許一定程度的成人內容，例如裸體。 If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
