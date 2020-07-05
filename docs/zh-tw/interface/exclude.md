@@ -12,14 +12,14 @@
 
 ## 排除特定年齡分級
 
-Steam 工作坊允許一定程度的成人內容，例如裸體。 If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Steam 工作坊允許一定程度的成人內容，例如裸體。 如果您不想看到此類內容，僅需要在過濾器中啟用「全年齡」：
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
-Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
+大部分內容設定的標籤正確，因此將篩選掉大部分成人內容。 如果您仍遇到「全年齡」分級的成人內容，請使用本應用程式的檢舉功能。 該內容將在審查後重新分類或禁用。
 
-## Reporting rule-breaking content
+## 檢舉違規內容
 
-We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
+我們與 Steam 管理員/版主每天都會移除違規的桌布。 請檢舉違反本指南的工作坊提交內容，協助我們找出違規內容。
 
 The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
