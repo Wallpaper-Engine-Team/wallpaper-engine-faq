@@ -1,6 +1,6 @@
 # Taux de rafraîchissement erroné des écrans
 
-Selon le matériel et le système d'exploitation, votre carte graphique peut avoir des problèmes pour mettre à jour tous vos écrans en même temps, surtout s'ils ont des taux de rafraîchissement très différents. Microsoft a résolu ce problème dans la mise à jour 2004 de Windows 10 (sortie en mai 2020),. Veuillez vous assurer que vous utilisez cette version de Windows 10 ou une version plus récente.
+Selon le matériel et le système d'exploitation, votre carte graphique peut avoir des problèmes pour mettre à jour tous vos écrans en même temps, surtout s'ils ont des taux de rafraîchissement très différents. Microsoft a résolu ce problème dans la mise à jour 2004 de Windows 10 (sortie en mai 2020). Veuillez vous assurer que vous utilisez cette version de Windows 10 ou une version plus récente.
 
 D'autres solutions :
 
