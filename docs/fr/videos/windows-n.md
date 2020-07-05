@@ -8,7 +8,7 @@ Windows N ne peut pas lire de médias ! Vous devez installer le Media Feature Pa
 * Windows 7 :
   * [Télécharger Media Feature Pack](https://www.microsoft.com/download/details.aspx?id=16546)
 
-**Assurez-vous d'installer les version x64 et x86.**
+**Assurez-vous d'installer les versions x64 et x86.**
 
 Si la même erreur s'affiche toujours, c'est que **vous avez installé la mauvaise version**. Essayez d'installer la bonne version et redémarrez votre PC. Si rien ne fonctionne, vos fichiers système sont probablement corrompus, essayez de restaurer le système à un état antérieur ou réinstallez Windows.
 
