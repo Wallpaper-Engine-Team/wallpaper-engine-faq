@@ -7,7 +7,7 @@ It could also come from any kind of driver features to record applications like 
 
 You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [เครื่องมือสแกน Wallpaper Engine](/debug/scantool.html)
 
 ## Dynamic Super Resolution (DSR) / GPU Scaling
 Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
