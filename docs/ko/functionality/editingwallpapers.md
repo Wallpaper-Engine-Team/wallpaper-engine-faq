@@ -42,7 +42,7 @@
 
 ## 잃어버린 프로젝트 업데이트
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. 평소처럼 새로운 배경화면을 만들고, Explorer에서 편집 -> 열기로 해당 프로젝트 디렉토리를 여세요. 텍스트 편집기로 `project.json` 파일을 열면 이런 내용을 확인할 수 있습니다:
+게시한 배경화면 유형에 따라 덮어쓸 수 있는 프로젝트를 삭제했다면, 더 이상 편집할 수 없습니다. 평소처럼 새로운 배경화면을 만들고, Explorer에서 편집 -> 열기로 해당 프로젝트 디렉토리를 여세요. 텍스트 편집기로 `project.json` 파일을 열면 이런 내용을 확인할 수 있습니다:
 
 ```json
 {
