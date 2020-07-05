@@ -8,7 +8,7 @@ N'oubliez pas de demander l'autorisation des créateurs des fonds d'écran avant
 
 ## Comment trouver les fichiers sources d'un fond d'écran ?
 
-Faites un clic droit sur un fond d'écran dans l'onglet "Installé" et sélectionner "Ouvrir dans l'explorateur de fichiers".
+Faites un clic droit sur un fond d'écran dans l'onglet "Installés" et sélectionnez "Ouvrir dans l'explorateur de fichiers".
 
 ## Comment modifier des fonds d'écran
 
@@ -22,7 +22,7 @@ Les membres de la communauté ont créé un outil de décompression de fond d'é
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-Vous aurez toujours besoin d'un fichier project.json valide. Pour cela, créez un nouveau fond d'écran vierge dans l'éditeur, fermez Wallpaper Engine et décompressez le fond d'écran téléchargé et en copiez son contenu dans le nouveau répertoire du projet.
+Vous aurez toujours besoin d'un fichier project.json valide. Pour cela, créez un nouveau fond d'écran vierge dans l'éditeur, fermez Wallpaper Engine et décompressez le fond d'écran téléchargé et copiez son contenu dans le nouveau répertoire du projet.
 
 Si vous souhaitez modifier l'un de vos propres fonds d'écran, mais que vous avez perdu les fichiers du projet, consultez la section *Mettre à jour un projet perdu* ci-dessous pour plus d'informations sur les modifications que vous pouvez apporter au fichier projet.json pour mettre à jour vos fonds d'écran existants.
 
@@ -30,7 +30,7 @@ Si vous souhaitez modifier l'un de vos propres fonds d'écran, mais que vous ave
 
 ### Fond d'écran Web
 
-Les fonds d'écran Web sont en HTML et sont basés sur JavaScript. Vous pouvez accéder aux fichiers sources comme décrit dans la section ci-dessus et utiliser ces fichiers comme base pour votre propre fond d'écran Web.
+Les fonds d'écran Web sont en HTML et sont basés sur JavaScript. Vous pouvez accéder aux fichiers sources comme décrits dans la section ci-dessus et utiliser ces fichiers comme base pour votre propre fond d'écran Web.
 
 ### Fond d'écran vidéo
 
