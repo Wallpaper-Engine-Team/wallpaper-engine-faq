@@ -1,12 +1,12 @@
-# Problemas de rendimiento / bajada de FPS con ciertos juegos o programas
+# Problemas de rendimiento / bajada de fotogramas por segundo con ciertos juegos o programas
 
-Wallpaper Engine se pausa cuando juegas por defecto. Puede cambiar esta opción en la pestaña **Rendimiento** de la configuración de Wallpaper Engine.
+Wallpaper Engine se pausa por defecto cuando juegas. Puede cambiar esta opción en la pestaña **Rendimiento** de la configuración de Wallpaper Engine.
 
 Si tiene problemas de rendimiento con juegos o programas, puede cambiar la configuración. Por lo general, los problemas de rendimiento significan que el equipo se queda sin RAM o RAM de vídeo (la memoria de la tarjeta gráfica). Puede configurar Wallpaper Engine para liberar memoria mientras juega si cambia la opción **Otra aplicación en pantalla completa** a **Detener (liberar memoria)** en la pestaña **Rendimiento** de la configuración de Wallpaper Engine.
 
 ## Regla de la aplicación
 
-Si solo tiene problemas con un juego o un programa en concreto, puede configurar Wallpaper Engine para solucionar el problema con ese programa si crea una **regla de la aplicación**:
+Si solo tiene problemas con un juego o un programa en concreto, puede solucionar el problema con ese programa si crea una **regla de la aplicación**:
 
 1. Abra la pestaña **Rendimiento** en la configuración de Wallpaper Engine.
 2. Haga clic en el botón **Editar** junto a **Reglas de aplicación**.
