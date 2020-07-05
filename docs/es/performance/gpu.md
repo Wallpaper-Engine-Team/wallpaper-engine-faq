@@ -14,7 +14,7 @@ Fíjese en que la *carga de la GPU* se encuentra a 24 % en la captura de pantall
 
 La velocidad de reloj de la tarjeta puede estar entre 100 MHz y 2000 MHz, por ejemplo. Si el Administrador de tareas muestra más de 50 %, **la diferencia reside en si es el 50 % de 100 MHz o el 50 % de 2000 MHz**.
 
-::: consejo En resumen: es importante que tenga en mente la velocidad de reloj de la GPU al comprobar la carga de la GPU. 50 % de 100 MHz es mejor que 5 % de 2000 MHz. :::
+::: tip En resumen: es importante que tenga en mente la velocidad de reloj de la GPU al comprobar la carga de la GPU. 50 % de 100 MHz es mejor que 5 % de 2000 MHz. :::
 
 Si quiere mejorar el rendimiento de la GPU:
 
