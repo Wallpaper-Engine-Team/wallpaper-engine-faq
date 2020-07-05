@@ -1,9 +1,9 @@
 ---
 tags:
-  - hardware
+  - componentes
 ---
 
-# Compatibilidad con hardware RGB (iCUE y Chroma)
+# Compatibilidad con componentes RGB (iCUE y Chroma)
 
 Wallpaper Engine es compatible con [**Razer Chroma**](https://www.razer.com/chroma) y con[ **Corsair iCUE**](https://www.corsair.com/icue), además de con los sistemas que se integran en sus ecosistemas.
 
@@ -13,13 +13,13 @@ En la sección «Complementos» de la configuración de Wallpaper Engine, verá 
 
 Además, puede desactivar la compatibilidad RGB en cada fondo. Verá si está activada la opción **«Activar efectos de LED»** en la parte superior de la lista de propiedades de cada fondo, y esto le permite decidir si desea que un fondo controle las luces RGB o no.
 
-## Los colores RGB del hardware brillan demasiado
+## Los colores RGB del componente brillan demasiado
 
-Potenciamos los colores RGB por defecto, ya que queda mejor en la mayoría de los fondos. Si no le gusta, puede desactivar la opción **«Impulsar colores de LED»** en la configuración del complemento RGB.
+Potenciamos los colores RGB por defecto, ya que queda mejor en la mayoría de los fondos. Si no le gusta, puede desactivar la opción **«Impulsar colores de LED»** en la configuración del componente RGB.
 
 ## Mi hardware RGB no funciona
 
-Wallpaper Engine no es capaz de comunicarse directamente con su hardware RGB, pues toda la información de los colores se envía antes de los controladores RGB. Si una o más partes del hardware no funcionan, es probable que sea un problema del software del proveedor del hardware. Hay hardware muy antiguo que ya no recibe asistencia de los proveedores, y por eso no funciona. Tenga en cuenta que no podemos solucionar ese tipo de problemas.
+Wallpaper Engine no es capaz de comunicarse directamente con su componente RGB, pues toda la información de los colores se envía antes de los controladores RGB. Si una o más partes del componente no funcionan, es probable que sea un problema del software del proveedor del componente. Hay componentes muy antiguos que ya no reciben asistencia de los proveedores, y por eso no funcionan. Tenga en cuenta que no podemos solucionar ese tipo de problemas.
 
 Si no puede ver la sección *Complementos* de Wallpaper Engine, es probable que no tenga *Visual C++ Redistributable for Visual Studio 2015* o que esté dañado, y es necesario para que funcionen estas características. Puede descargar el paquete desde la página web de Microsoft e instalarlo. El problema se solucionará tras reiniciar el equipo:
 
