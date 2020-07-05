@@ -26,12 +26,12 @@ Pour des raisons juridiques, nous ne pouvons pas associer LAV et Wallpaper Engin
 ## 2. Activer DirectShow
 * Allez dans les paramètres de Wallpaper Engine et trouvez l'onglet "Général"
 * Changer l'option **Cadre vidéo** sur **Préférer DirectShow LAV**
-* Redémarrez l'application et essayez d'utiliser à nouveau de fond d'écran
+* Redémarrez l'application et essayez d'utiliser à nouveau le fond d'écran
 
 ## Activer l'accélération matérielle WebM
-Si vous rencontrez des problèmes avec la fin de vos fonds d'écran vidéo, vous pouvez utiliser des fichiers .webm qui ne souffrent pas du même problème. Il vaut mieux activer l'accélération matérielle pour les vidéos .webm. L'utilisation du processeur sera réduite et permettra toujours aux fonds d'écran vidéo tourner en boucle sans coupure. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **WebM framework** option to **Prefer Native**
-* Restart the application and try using your video wallpaper again
+Si vous rencontrez des problèmes avec la fin de vos fonds d'écran vidéo, vous pouvez utiliser des fichiers .webm qui ne souffrent pas du même problème. Il vaut mieux activer l'accélération matérielle pour les vidéos .webm. L'utilisation du processeur sera réduite et permettra toujours aux fonds d'écran vidéo tourner en boucle sans coupure. Assurez-vous d'avoir installé LAV et activé DirectShow comme indiqué dans la section précédente.
+* Allez dans les paramètres de Wallpaper Engine et trouvez l'onglet "Général"
+* Changer l'option **Framework WebM** sur **Préférer Natif**
+* Redémarrez l'application et essayez d'utiliser à nouveau le fond d'écran
 
-Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+Vérifiez si l'icône LAV apparaît bien et si l'utilisation du processeur est presque nulle. Votre contenu .webm est maintenant accéléré. Si cela ne semble pas fonctionner, assurez-vous que toutes les options sont correctement configurées et que LAV est correctement installé.
