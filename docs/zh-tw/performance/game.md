@@ -2,7 +2,7 @@
 
 Wallpaper Engine 預設為在您玩遊戲時暫停。 您可以在 Wallpaper Engine 設定的**效能**分頁中調整此項設定。
 
-若執行遊戲或應用程式時出現效能問題，您可以進一步調整此項設定。 通常而言，出現效能問題表示系統的 RAM 或視訊 RAM (顯示卡上的記憶體) 不足。 您可以設定 Wallpaper Engine，在玩遊戲時釋放記憶體，方法是在 Wallpaper Engine 設定的**效能**分頁中將**其他應用程式全螢幕顯示時**的選項變更為**停止 (釋放記憶體) **。
+如果執行遊戲或應用程式時出現效能問題，您可以進一步調整此項設定。 通常而言，出現效能問題表示系統的 RAM 或視訊 RAM (顯示卡上的記憶體) 不足。 您可以設定 Wallpaper Engine，在玩遊戲時釋放記憶體，方法是在 Wallpaper Engine 設定的**效能**分頁中將**其他應用程式全螢幕顯示時**的選項變更為**停止 (釋放記憶體) **。
 
 ## 應用程式規則
 
@@ -21,4 +21,4 @@ Wallpaper Engine 預設為在您玩遊戲時暫停。 您可以在 Wallpaper Eng
 
 ## 與畫面錄製工具或重疊產生衝突
 
-若您使用了任何遊戲串流、遊戲錄製功能或有重疊的軟體，請避免它們在背景中意外錄製 Wallpaper Engine。 若您使用了顯示卡驅動程式的任何遊戲串流功能 (例如 Nvidia ShadowPlay、Nvidia Share 或 AMD ReLive)，也請避免相同狀況。
+如果您使用了任何遊戲串流、遊戲錄製功能或有重疊的軟體，請避免它們在背景中意外錄製 Wallpaper Engine。 如果您使用了顯示卡驅動程式的任何遊戲串流功能 (例如 Nvidia ShadowPlay、Nvidia Share 或 AMD ReLive)，也請避免相同狀況。
