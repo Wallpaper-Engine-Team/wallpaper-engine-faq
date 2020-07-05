@@ -1,6 +1,6 @@
-# Wrong Refresh Rates of Monitors
+# 모니터의 잘못된 새로고침 빈도
 
-Depending on hardware and operating system, your graphics card may have issues updating all of your monitors at the same time if they have wildly differing refresh rates. Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
+하드웨어와 운영 체제에 따라, 모니터의 새로그침 빈도가 크게 다르면 그래픽 카드가 모든 모니터를 동시에 업데이트하는 문제가 발생할 수도 있습니다. Microsoft는 Windows 10 2004 업데이트(2020년 5월)에서 이 문제를 다루었습니다. 이 문제가 발생했다면, Windows 10 이상의 최신 버전을 사용하고 있는지 확인하세요.
 
 Some common work-arounds:
 
