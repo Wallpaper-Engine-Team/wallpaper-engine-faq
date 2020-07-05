@@ -1,11 +1,11 @@
-# 預覽圖像/搜尋結果未顯示
+# 未顯示預覽圖像/搜尋結果
 
-如果您看不見已安裝桌布之外的預覽圖像，代表有防火牆或安全軟體阻止瀏覽器存取網際網路。 You must disable that or add an exception for 'ui32.exe'.
+如果您看不見已安裝桌布之外的預覽圖像，代表有防火牆或安全軟體阻止瀏覽器存取網際網路。 您必須停用該防火牆或安全軟體，或將「ui32.exe」新增至例外。
 
-The preview images are direct image downloads from the Steam servers. If the preview images are not loading, something is blocking the connection between Wallpaper Engine and the Steam servers. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
+預覽圖像是由 Steam 伺服器直接下載。 如果無法載入預覽圖像，代表 Wallpaper Engine 與 Steam 伺服器之間的連結受阻。 有些使用者是因為網路路由器的封鎖，您可以將電腦改連線至智慧型手機的 Wi-Fi 熱點，確認預覽圖像是否能顯示，藉此測試是否為網路路由器的問題。
 
-Some users of *accelerator software* also have issues with image previews being loaded. Make sure any type of network acceleration software is not blocking Wallpaper Engine from downloading image files in the background.
+有些*加速器軟體*的使用者也會遇到無法載入預覽圖像的問題。 請確保任何類型的網路加速器軟體皆不會阻止 Wallpaper Engine 在背景下載圖像檔案。
 
-## No wallpapers or only very few wallpapers showing
+## 未顯示任何桌布或僅顯示少數桌布
 
 You likely have too strict filters enabled. Try resetting all filters by clicking on the "Reset filters" button in the filter sidebar.
