@@ -23,7 +23,7 @@ Haga clic derecho en el icono de sonido en la parte inferior derecha de la barra
 
 ### Auriculares Razer con THX
 
-Cambia la entrada de audio en Wallpaper Engine al dispositivo «Altavoces (Razer XYZ)». Dicha opción se encuentra en los ajustes generales y todos los auriculares Razer con efectos THX tendrían que funcionar gracias a esta solución.
+Cambie la entrada de audio en Wallpaper Engine al dispositivo «Altavoces (Razer XYZ)». Dicha opción se encuentra en los ajustes generales y todos los auriculares Razer con efectos THX tendrían que funcionar gracias a esta solución.
 
 ## 3. Aplicaciones conflictivas
 
