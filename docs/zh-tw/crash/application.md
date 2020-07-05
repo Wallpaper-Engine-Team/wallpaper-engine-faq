@@ -25,7 +25,7 @@ Wallpaper Engine 是一款經過充分測試的成熟軟體，使用者達數百
 
 * [Steam 支援：驗證應用程式檔案完整性](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Wallpaper Engine 可能因為其他應用程式導致當機
+## Wallpaper Engine 可能因為其他應用程式而當機
 
 ### KERNELBASE.dll/ntdll.dll
 
