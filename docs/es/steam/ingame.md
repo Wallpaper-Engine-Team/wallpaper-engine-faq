@@ -1,9 +1,9 @@
-# Steam siempre muestra «Jugando a»
+# Steam siempre muestra «Jugando»
 Wallpaper Engine solo aparece en Steam cuando accede a las funciones de Steam Workshop (cuando abre el editor o el navegador, ya que lo impone Valve/Steam). Si aparece incluso tras cerrar todas las ventanas, tiene un error en Steam que puede solucionar con los pasos que indicamos abajo o es que la ventana no se cerró correctamente (busque ui32.exe en el Administrador de tareas).
 
-Si suele tener este problema, puede ponerle solución si abre el programa desde el directorio de instalación wallpaper_engine en vez de desde Steam. Por defecto, está en `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe`. Si Wallpaper Engine ya está abierto, ciérrelo y después vuelva a abrirlo desde el directorio y active y desactive el inicio automátivo en la configuración de Wallpaper Engine.
+Si suele tener este problema, puede ponerle solución si abre el programa desde el directorio de instalación wallpaper_engine en vez de desde Steam. Por defecto, está en `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe`. Si Wallpaper Engine ya está abierto, ciérrelo y después vuelva a abrirlo desde el directorio y active y desactive el inicio automático en la configuración de Wallpaper Engine.
 
 Si tiene una conexión de internet intermitente, es posible que Steam no funcione correctamente cada vez que vuelva a conectarse y que eso afecte a el estado de juego. Tal y como hemos mencionado, si abre el programa desde el directorio o con la función de inicio automático, es muy probable que no le ocurra dicho problema.
 
-## Completely disable Workshop / Steam integration
-You can disable the entire Steam integration by creating an empty text file named `nosteam.txt` and putting it into the `wallpaper_engine/bin` directory (by default the complete path is `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`). No podrá descargar ni actualizar fondos si lo desactiva, pero podrá acceder a todo lo que había descargado anteriormente. 
+## Desactivar por completo la integración con Workshop / Steam
+Puede deshabilitar la integración con Steam por completo si crea un archivo de texto vacío llamado `nosteam.txt` y lo coloca en el directorio `wallpaper_engine/bin` (por defecto, el directorio completo es: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`). No podrá descargar ni actualizar fondos si la deshabilita, pero podrá acceder a todo lo que había descargado anteriormente. 
