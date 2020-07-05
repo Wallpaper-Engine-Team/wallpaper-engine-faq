@@ -6,4 +6,4 @@ Wallpaper Engineは、ワークショップ機能にアクセスしている時�
 インターネットのオンオフによってSteamがインターネットに再接続するたびに、Steamが少ゲーム中ステータスについて少し暴走し、このような状態になることがあります。 上記のようにプログラムをディレクトリから起動するか、自動起動から起動して、Steamを通さないようにすると、この問題の発生は防げる可能性が高いです。
 
 ## ワークショップとSteamの統合を完全に無効にする
-You can disable the entire Steam integration by creating an empty text file named `nosteam.txt` and putting it into the `wallpaper_engine/bin` directory (by default the complete path is `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`). You cannot download/update or upload any wallpapers if this is disabled, but you can still access everything that was previously downloaded. 
+`nosteam.txt`という名前の空白のテキストファイルを作り、`wallpaper_engine/bin`（デフォルトの絶対パスは`C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`）に入れることによって、Steamの統合そのものを無効にすることができます。 これが無効になっていると壁紙のダウンロード、アップデート、アップロードは全くできなくなりますが、それまでにダウンロードされたものにはすべてアクセスできます。 
