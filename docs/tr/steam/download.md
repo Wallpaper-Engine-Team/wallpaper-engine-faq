@@ -32,21 +32,21 @@ Steam dosyaları indirip doğrulamıyor. Steam indirmeleriniz belirli bir süre 
 ::: detaylar Yukarıdaki adımlar indirme sorunlarınıza çözüm bulmadıysa daha fazla alternatif görmek için buraya tıklayın
 * Herhangi bir antivirüs veya güvenlik duvarının Steam'i engellemediğinden emin olun. Antivirüs uygulama ayarlarınızda tüm Steam dizinini hariç tutun.
 * İndirilemeyen duvar kâğıtlarının aboneliğinden çıkın ve Steam'i yeniden başlattıktan sonra bunlara tekrar abone olun.
-* Steam ayarlarından farklı bir içerik sunucusu seçin. Bu seçenek, Steam ayarlarındaki "İndirmeler" sekmesinde bulunur.
+* Steam ayarlarından farklı bir içerik sunucusu seçin. Bu seçenek, Steam ayarlarındaki "İndirilenler" sekmesinde bulunur.
 * **Steam ayarlarından** zamana, bant genişliğine, uygulama içi olmaya bağlı olarak Steam indirmelerini kısıtlamadığınızdan emin olun.
-* Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
-* Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
-* Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
-* Try again after waiting at least for a day in case there are Steam server issues.
-* **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!). :::
+* Steam'deki "İndirilenler" sekmesini açın (Kütüphane -> İndirilenler). Duraklatılmış indirmeleri arayın. Duraklatılmış varsa "Devam et"e tıklayın.
+* Steam'de Wallpaper Engine'e sağ tıklayın, Özellikler ve ardından **Arka Plan İndirmelerine İzin Ver** seçeneklerine tıklayın.
+* Steam'de bekleyen oyun güncellemeleriniz olmadığından emin olun. Bunlar duvar kâğıdı indirmelerini duraklatabilir veya devre dışı bırakabilir.
+* Steam sunucu sorunları olması durumunda en az bir gün bekledikten sonra tekrar deneyin.
+* **Son çare olarak** bozuk Steam dosyalarını temizlemek için Wallpaper Engine'i yeniden yüklemeye çalışın (bu işlem tüm duvar kâğıtlarını yeniden indirecektir!). :::
 
-::: tip Steam servers go offline every week for maintenance at a fixed time:
+::: ipucu Steam sunucuları, bakım için her hafta belirli bir zamanda çevrimdışı olur:
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* Amerika Birleşik Devletleri Batı Yakası: **Salı 16.00 (UTC - 7)**
+* Orta Avrupa'da aynı saat: **Çarşamba 01.00 (UTC + 1)**
+* Çin'de aynı saat: **Çarşamba 08.00 (UTC + 8)**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
+Bu yazıyı neredeyse haftanın bu zamanlarında okuyorsanız sunucular geçici olarak çevrimdışı olabilir. Wait one or two hours and try again. :::
 
 ## Steam: "Missing Downloaded Files" error
 
