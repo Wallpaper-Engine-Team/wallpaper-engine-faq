@@ -4,18 +4,18 @@ tags:
   - 明るい
   - 暗い
   - ズーム
-  - ズームイン
+  - 拡大
   - ピクセル化
-  - ボーダー
+  - 境界線
   - ガンマ
   - 画質
   - 正しくない
   - きれいでない
 ---
 
-# Video wallpapers look wrong
+# ビデオ壁紙が正しく表示されない
 
-Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
+Wallpaper Engineは、ほとんどのビデオプレイヤーと異なり、ビデオの最適なパフォーマンスのためにハードウェアアクセラレーションを使います。 すなわち、グラフィックスカードドライバがビデオの見え方に影響を与えるということです。
 
 **If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
 
