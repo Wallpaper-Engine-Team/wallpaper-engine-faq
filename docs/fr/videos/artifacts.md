@@ -15,9 +15,9 @@ tags:
 
 # Les fonds d'écran vidéo sont moches
 
-Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
+Wallpaper Engine utilise l'accélération matérielle pour les vidéos afin d'obtenir des performances optimales, contrairement à la plupart des lecteurs vidéo. Les pilotes de votre carte graphique peuvent donc influencer les rendus de vos vidéos.
 
-**If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
+**Si vos fonds d'écran vidéo ont des couleurs étranges, sont trop lumineux ou trop sombres, semblent zoomés, pixellisés ou s'il y a une bordure autour du papier peint **, vous pouvez résoudre ce problème en réinitialisant les options vidéo dans les paramètres de votre carte graphique Nvidia, AMD ou Intel. Si vous avez plusieurs GPU (par exemple, une carte graphique Nvidia et un GPU secondaire Intel), assurez-vous de les réinitialiser pour chacun d'entre eux.
 
 You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
