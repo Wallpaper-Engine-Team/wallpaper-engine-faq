@@ -12,6 +12,6 @@ Aşağıdaki rehber, Steam ve Wallpaper Engine programlarının `C:\Program File
 2. 431960 klasörünü Wallpaper Engine'in yükleme yoluna kopyalayın: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
 3. `431960` klasörünü `yedek` olarak **yeniden adlandırın<0>. Böylece tam yol şu şekilde görünür: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`</li>
 4 `Yedek` dizini artık her biri kendi alt dizininde olmak üzere önceden indirdiğiniz tüm duvar kâğıtlarını içerir (sayılar, duvar kâğıdının Steam Atölyesi Kimliğini temsil eder)
-5 Duvar kâğıdı tarayıcısını yeniden başlattıktan sonra yedeklenen duvar kâğıtlarını görebilirsiniz. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them</ol>
+5 Duvar kâğıdı tarayıcısını yeniden başlattıktan sonra yedeklenen duvar kâğıtlarını görebilirsiniz. Artık Steam'deki kopyaların aboneliğinden çıkabilir ve yalnızca sizdeki kopyaları kullanabilirsiniz</ol>
 
-::: warning Do **not** manually delete the Steam Workshop folder `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. This will cause your Steam to be confused and re-download all wallpapers. Simply unsubscribe from your wallpapers and let Steam delete the duplicate files itself. :::
+::: uyarı `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` Steam Atölyesi klasörünü manuel olarak **silmeyin**. Bu işlem Steam'in karışmasına ve tüm duvar kâğıtlarını yeniden indirmesine neden olacaktır. Sadece duvar kâğıtlarınızın aboneliğinden çıkın ve yinelenen dosyaları Steam'in silmesine izin verin. :::
