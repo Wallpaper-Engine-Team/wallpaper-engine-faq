@@ -11,7 +11,7 @@ Si vous souhaitez malgré tout masquer cette icône, voici comment faire :
 Pour créer une clé registre, ouvrez le menu Windows et cherchez "regedit.exe", ce qui vous permettra d'ouvrir l'éditeur de registre.
 
 1. Allez dans ce dossier du registre : *HKEY_CURRENT_USER\Software\WallpaperEngine*
-2. Faites un clic droit sur le dossier *WallpaperEngine*, selectionnez *Nouveau* and then *Valeur DWORD (32 Bit)*.
+2. Faites un clic droit sur le dossier *WallpaperEngine*, selectionnez *Nouveau* puis *Valeur DWORD (32 Bit)*.
 3. Nommez ce registre : *hideTrayIcon*
 4. Assurez-vous de recopier ce nom fidèlement, sans espace ni majuscule.
 5. Double-cliquez sur cette clé de registre et donnez lui la valeur suivante : *1*
