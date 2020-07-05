@@ -16,10 +16,10 @@ Steam Workshop admite contenido adulto hasta cierto grado como, por ejemplo, des
 
 ![Deseleccione la clasificación para edades «Contenido para adultos» y «Contenido dudoso» en la barra lateral.](./ageratings.gif)
 
-La mayoría del contenido está bien clasificado y así se excluirá la gran mayoría de contenido adulto. Si llega a encontrarse con ese tipo de contenido y porque se ha clasificado «Para todas las edades», use la función de Informar del programa. Tras inspeccionarlo, el contenido se clasificará correctamente o se eliminará.
+La mayoría del contenido está bien clasificado y así se excluirá la gran mayoría de contenido adulto. Si llega a encontrarse con ese tipo de contenido porque se ha clasificado «Para todas las edades», use la función de Informar del programa. Tras inspeccionarlo, el contenido se clasificará correctamente o se eliminará.
 
 ## Informar de contenido que rompe las reglas
 
 Tanto nosotros como los administradores y moderadores de Steam borramos fondos de pantalla que rompen las reglas día tras día. Infórmenos de los fondos que rompen las normas y ayúdenos a encontrarlos.
 
-Workshop permite a los usuarios publicar obras sin que las comprobemos antes de que sean visibles: así es como funciona Steam Workshop y no podemos cambiarlo. Solo podemos eliminar las obras después de que las suban. Si le supone un problema, asegúrese de seleccionar la etiqueta *Aprobado* en la configuración del filtro, ya que esos fondos se eligen y se comprueban a mano. Lea las secciones superiores para aprender a configurar los filtros para poder eliminar cierto tipo de contenido que prefiere no ver.
+Workshop permite a los usuarios publicar obras sin que las comprobemos antes de que sean visibles: así es como funciona Steam Workshop y no podemos cambiarlo. Solo podemos eliminar las obras después de que las suban. Si le supone un problema, asegúrese de seleccionar la etiqueta *Aprobado* en la configuración del filtro, ya que esos fondos se eligen y se comprueban a mano. Lea las secciones superiores para aprender a configurar los filtros y así eliminar cierto tipo de contenido que prefiere no ver.
