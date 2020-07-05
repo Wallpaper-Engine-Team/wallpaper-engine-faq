@@ -14,15 +14,15 @@
 
 ## 그래픽 카드 드라이버 완전히 새로 설치
 
-대부분의 경우 그래픽 카드 드라이버를 새로 설치하면 비디오 배경화면 관련 문제 유형은 거의 다 해결할 수 있습니다. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
+대부분의 경우 그래픽 카드 드라이버를 새로 설치하면 비디오 배경화면 관련 문제 유형은 거의 다 해결할 수 있습니다. 여기에는 검은색 화면과 별도의 창에 배경화면이 표시되는 경우(**"활성영화 창"**)도 포함됩니다.
 
-1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
+1. 그래픽 카드의 최신 그래픽 카드 드라이버를 다운로드하세요 (또는 Nvidia와 Intel처럼 두 개가 있다면 모두 다운로드):
 
-* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
+* [Nvidia GeForc](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. 기존 그래픽 카드 드라이버를 완전히 삭제하고, 물어보는 경우 모든 기존 설정을 제거하세요. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
 
 You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
 
