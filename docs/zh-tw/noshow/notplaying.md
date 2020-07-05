@@ -6,17 +6,17 @@
 - - -
 
 
-# 視訊螢幕黑掉/無法正常播放
+# 視訊螢幕變黑/無法正常播放
 
 *視訊*類型的桌布變黑或出現其他問題，*必定*是因為顯示卡驅動程式故障或視訊轉碼器故障。 請完全按照以下步驟嘗試解決。 如果由上至下完全遵循本指南的步驟，即可解決該問題：
 
-::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black or not playing properly. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: 警告 請注意 本主題涉及 Wallpaper Engine **桌布**呈現黑色或無法正常運作的問題。 如果**Wallpaper Engine 介面變黑**，您必須參看此篇：[Wallpaper Engine 使用者介面呈現黑色](/interface/broken.html#wallpaper-engine-interface-is-black)。 :::
 
-## Clean graphics card driver re-installation
+## 顯示卡驅動程式全新重新安裝
 
-For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
+大部分的使用者如果全新重新安裝顯示卡驅動程式，即可解決大部分與視訊桌布有關的問題， 包括螢幕呈現黑色以及桌布單獨呈現在視窗中 (標題為 **「ActiveMovie Window」**)。
 
-1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
+1. 下載最新的顯示卡驅動程式 (如果您有兩張顯示卡，例如 Nvidia 及 Intel，則皆須下載)：
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
