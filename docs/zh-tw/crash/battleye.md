@@ -23,6 +23,6 @@ BattlEye 會錯誤關閉 Wallpaper Engine (以及其他應用程式)，並非 Wa
 ## 聯絡 BattlEye 支援部門
 如果上述步驟皆無法解決搭載 BattlEye 的多人遊戲，您必須直接聯絡 BattlEye：
 
-* [BattlEye 支援](https://www.battleye.com/contact/)
+* [BattlEye 支援部門](https://www.battleye.com/contact/)
 
 在某些系統上，BattlEye 會無故終止 Wallpaper Engine，由於其為極具侵入性的反作弊系統，得以在不發出通知的情況下終止電腦任何應用程式，我們無法防止。 在這類情況下，BattlEye 開發人員將需要調查您的系統問題，以修正此錯誤行為。
