@@ -25,10 +25,10 @@ tags:
 
 ## 2. เปิดใช้งาน DirectShow
 * เปิดการตั้งค่า Wallpaper Engine และไปที่แท็บ "ทั่วไป"
-* Change the **Video framework** option to **Prefer DirectShow**
-* Restart the application and try using your video wallpaper again
+* เปลี่ยนตัวเลือก **เฟรมเวิร์กวิดีโอ** เป็น **ต้องการ DirectShow**
+* รีสตาร์ทแอพพลิเคชันแล้วลองใช้วิดีโอวอลเปเปอร์ของคุณอีกครั้ง
 
-## Enabling WebM Hardware Acceleration
+## เปิดใช้งานการเร่งฮาร์ดแวร์ WebM
 If you are experiencing stutters at the end of your video wallpapers, you can use .webm files which do not suffer from the same issue. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
 * Open the Wallpaper Engine settings and navigate to the "General" tab
 * Change the **WebM framework** option to **Prefer Native**
