@@ -46,7 +46,7 @@ We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Ra
 
 If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
 
-For support with Razer hardware, please contact Razer directly:
+Razer 하드웨어 지원은 Razer에 직접 문의하세요:
 
 [support.razer.com](https://support.razer.com/)
 
