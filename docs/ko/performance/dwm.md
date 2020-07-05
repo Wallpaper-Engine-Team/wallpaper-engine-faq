@@ -2,9 +2,9 @@
 
 If you enabled the integrated GPU on your desktop PC in the BIOS although a dedicated GPU is installed, you may experience bad performance and high CPU usage of *dwm.exe*. If possible, do not enable your integrated GPU and plug your monitors into your dedicated GPU. Using both independent graphics solutions at the same time will break hardware acceleration of the desktop window manager, it's important that all monitors are plugged into your main graphics card. This is not a bug or issue in Wallpaper Engine, it is problem that affects all mulit-monitor software with hardware setups where not all monitors are plugged into the main graphics card.
 
-Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a very slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+Nvidia Optimus 기술 또는 유사한 기술이 없으면, Windows는 하나의 GPU에서 다른 CPU로 배경화면 이미지를 복사하므로, 작업 속도가 매우 느립니다. 사실 GPU 간 공유되는 작업은 이 영향을 받으며, 모니터 간 게임 창을 움직이는 것과 같습니다.
 
-This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. 이게 정확히 작동하게 할 물리적 해결책이 있습니다.
+이것은 Nvidia Optimus 노트북 또는 SLI/Crossfire와 같은 멀티 GPU 설정을 위해 제작된 하드웨어와 관련이 없습니다. 여기에는 정확히 작동하게 할 물리적 해결책이 있습니다.
 
 ## Nvidia SLI / Nvidia Optimus / AMD CrossFire 없이 바탕화면에 보조 GPU를 사용한 낮은 성능
 
