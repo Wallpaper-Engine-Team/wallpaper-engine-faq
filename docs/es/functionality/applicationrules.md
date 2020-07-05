@@ -28,7 +28,7 @@ En la pestaña *Rendimiento* de Wallpaper Engine puede hacer clic en el botón *
 
 Verá una lista de todos los .exe que están activos en su equipo. Elija un .exe de la lista o escriba el nombre exacto del .exe con el que tiene problemas. Puede configurar la condición y el comportamiento con las otras dos opciones. Abajo verá más información y ejemplos concretos.
 
-::: consejo Wallpaper Engine solo reconoce el nombre exacto del .exe y la ubicación es irrelevante, por lo que puede escribir el nombre de cualquier .exe en el campo *Nombre de la aplicación*. Asegúrese de que escribe el nombre del .exe exactamente igual, mayúsculas y minúsculas incluidas. :::
+::: tip Wallpaper Engine solo reconoce el nombre exacto del .exe y la ubicación es irrelevante, por lo que puede escribir el nombre de cualquier .exe en el campo *Nombre de la aplicación*. Asegúrese de que escribe el nombre del .exe exactamente igual, mayúsculas y minúsculas incluidas. :::
 
 ### Solucionar problemas de rendimiento con aplicaciones o juegos
 
