@@ -27,10 +27,10 @@ If the verification through Steam does not fix this issue after you have configu
 
 Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+문제가 지속되면 Wallpaper Engine를 끄세요. Steam의 세 번째 실행 옵션인 "UI 하드웨어 가속 사용 안 함"을 사용해 Wallpaper Engine을 다시 실행하세요.
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### Wallpaper Engine 사용자 인터페이스를 손상시키는 희귀 Steam 오버레이 버그
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+검은색 응용프로그램 창이 나타나는 다른 가능성은 희귀한 Steam 오버레이 Steam 버그입니다. 다음을 시도해 보세요:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. 옵션을 비활성화한 후 Steam을 통해 Wallpaper Engine을 다시 시작하세요. 
+Wallpaper Engine을 완전히 끄세요. (트레이 아이콘을 오른쪽 클릭한 다음 "종료" 선택). 그런 다음 Steam을 열어 Wallpaper Engine을 오른쪽 클릭하고 "속성"을 선택하여 "게임 내 Steam 오버레이 사용" 옵션을 비활성화하세요. 옵션을 비활성화한 후 Steam을 통해 Wallpaper Engine을 다시 시작하세요. 
