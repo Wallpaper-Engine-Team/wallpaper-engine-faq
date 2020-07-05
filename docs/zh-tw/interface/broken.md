@@ -11,7 +11,7 @@ tags:
 
 如果 Wallpaper Engine 瀏覽視窗無法正常運作，原因通常是顯示卡驅動程式或防毒應用程式出現問題。 詳情請見下文。
 
-::: 警告 請注意 本文涉及 Wallpaper Engine **介面**為黑色或損壞的問題。 如果您的**桌布呈現黑色**，請造訪：[黑色螢幕/視訊無法播放](/noshow/notplaying.html)。 :::
+::: 警告 請注意 本文涉及 Wallpaper Engine **介面**呈現黑色或損壞的問題。 如果您的**桌布呈現黑色**，請造訪：[黑色螢幕/視訊無法播放](/noshow/notplaying.html)。 :::
 
 ## Wallpaper Engine 瀏覽器呈現黑色或白色
 
