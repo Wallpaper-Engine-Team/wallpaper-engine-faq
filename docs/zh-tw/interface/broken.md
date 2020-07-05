@@ -23,13 +23,13 @@ tags:
 
 如果您已設定防毒應用程式並透過 Steam 驗證後，問題仍未解決，請重新透過 Steam 重新安裝 Wallpaper Engine。 如果防毒應用程式失控，甚至可能永久封鎖 Wallpaper Engine 使用的檔案路徑。 此時請先將防毒應用程式解除安裝，再將 Wallpaper Engine 安裝至其他目錄，您可為此在 Steam 中建立新的 Steam 遊戲收藏庫。
 
-## Wallpaper Engine interface with green artifacts or white lines
+## Wallpaper Engine 介面出現綠色雜訊或白色線條
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+您的顯示卡驅動程式已損壞或設定錯誤。 請下載最新的顯示卡驅動程式 (即使您已經有最新版的驅動程式)，並執行全新的重新安裝。 您必須先將目前的驅動程式解除安裝，再安裝最新的驅動程式，確保移除所有損壞的檔案或設定。
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+如果問題仍存在，請關閉 Wallpaper Engine。 接著，使用 Steam 第三個啟動選項「停用 UI 硬體加速」，重新啟動 Wallpaper Engine。
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### 罕見的 Steam 重疊錯誤破壞 Wallpaper Engine 使用者介面
 
 The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
 
