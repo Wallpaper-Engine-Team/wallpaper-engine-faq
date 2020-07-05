@@ -1,23 +1,23 @@
 ---
 tags:
   - webm
-  - video
-  - black
+  - vidéo
+  - noir
   - codec
-  - filters
+  - filtres
   - 4K
   - HEVC
   - mkv
   - mp4
 ---
 
-# Using LAV and DirectShow
-If you have issues related to broken video codecs or want to use additional video formats on your system, you can try to install LAV and enable DirectShow in the Wallpaper Engine settings. This should enable better support for **4K and HEVC videos on Windows 7** and allow opening of **.mkv** files.
+# Utilisez LAV et DirectShow
+Si vous rencontrez des problèmes liés à vos codecs vidéo ou si vous souhaitez utiliser des formats vidéo supplémentaires sur votre système, vous pouvez choisir d'installer LAV et d'activer DirectShow dans les paramètres de Wallpaper Engine. Vous aurez ainsi une meilleure prise en charge des **vidéos en 4K et HEVC sur Windows 7** et permettre la lecture des fichiers **.mkv**.
 
-For legal reasons, we cannot bundle LAV with Wallpaper Engine which means you need to download and install it yourself. After you have installed LAV, you also need to configure Wallpaper Engine to use DirectShow:
+Pour des raisons juridiques, nous ne pouvons pas associer LAV et Wallpaper Engine. Vous devez donc le télécharger et l'installer vous-même. Après avoir installé LAV, vous devrez configurer Wallpaper Engine pour utiliser DirectShow :
 
-## 1. Install LAV
-* Download the x86 **AND** x64 versions of LAV Filters:
+## 1. Installer LAV
+* Téléchargez les versions x86 **et** x64 des filtres LAV :
   * Mirror #1: [Github](https://github.com/Nevcairiel/LAVFilters/releases)
   * Mirror #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
 * Install LAV, make sure your Windows user has admin rights
