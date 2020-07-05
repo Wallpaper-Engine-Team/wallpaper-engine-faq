@@ -10,6 +10,6 @@ Vous pouvez également opter pour la version 64 bits si le système vidéo de vo
 
 ## Comment configurer Wallpaper Engine pour que la version 32 bits ou 64 bits s'exécute automatiquement au démarrage de Windows?
 
-Quitter Wallapaper Engine (clic droit sur l'icrône Wallpaper Engine dans la zone de notification de Windows > "Quitter"). C'est important, car Steam ne lancera pas autrement Wallpaper Engine et mettra la version déjà en cours au premier plan.
+Quitter Wallapaper Engine (clic droit sur l'icône Wallpaper Engine dans la zone de notification de Windows > "Quitter"). C'est important, car Steam ne lancera pas autrement Wallpaper Engine et mettra la version déjà en cours au premier plan.
 
-Une fois Wallpaper Engine éteint, lancez Steam et démarrez la version 32 bits ou 64 bits, le choix vous appartient. Dans les paramètres de Wallpaper Engine, allez dans l'onglet "Général" et activer l'exécution automatique. Si elle est déjà activée, désactivez-la avant de la réactiver. La version actuelle sera celle qui s'exécutera au démarrage de Windows. 
+Une fois Wallpaper Engine éteint, lancez Steam et démarrez la version 32 bits ou 64 bits, le choix vous appartient. Dans les paramètres de Wallpaper Engine, allez dans l'onglet "Général" et activez l'exécution automatique. Si elle est déjà activée, désactivez-la avant de la réactiver. La version actuelle sera celle qui s'exécutera au démarrage de Windows. 
