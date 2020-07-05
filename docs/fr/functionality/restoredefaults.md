@@ -8,7 +8,7 @@ Si vous avez supprimé des fonds d'écran fournis avec Wallpaper Engine, vous po
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
-Si Steam ou Wallpaper Engine sont installés ailleurs, le début du chemin de ce fichier sera différent, mais la fin restera toujours ma même : *wallpaper_engine\projects\defaultprojects\visibility.json* .
+Si Steam ou Wallpaper Engine sont installés ailleurs, le début du chemin de ce fichier sera différent, mais la fin restera toujours la même : *wallpaper_engine\projects\defaultprojects\visibility.json* .
 
 3. Une fois le fichier supprimé, redémarrez Wallpaper Engine et les fonds d'écran seront de retour.
 
