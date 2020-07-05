@@ -6,4 +6,4 @@ Steam, yükleme işleminin %45'inde Steam sunucularına dosya yüklemeye başlay
 
 Bu sorun her zaman bir tür ağ sorunudur. Steam sunucularıyla düzgün bir şekilde iletişim kurma konusunda Steam'inizi neyin engellediğini araştırmanız gerekir.
 
-::: tip This network issue can also be caused by a firewall in your network router. Make sure that no network router is blocking Steam's upload. Try If  uploads work through a mobile wi-fi hotspot - in that case your router is likely at fault and not any software on your computer. :::
+::: ipucu Bu ağ sorununa ağ yönlendiricinizdeki bir güvenlik duvarı da neden olabilir. Hiçbir ağ yönlendiricisinin, Steam yüklemesini engellemediğinden emin olun. Yüklemeler, bir mobil wi-fi etkin noktasına bağlıyken çalışıyorsa bu durumda bilgisayarınızdaki herhangi bir yazılım değil, büyük olasılıkla yönlendiriciniz arızalıdır. :::
