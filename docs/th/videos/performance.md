@@ -2,8 +2,8 @@
 
 สาเหตุของปัญหานี้อาจเป็นเพราะฮาร์ดแวร์ไม่มีประสิทธิภาพเพียงพอที่จะแสดงบางวิดีโออย่างถูกต้อง วิดีโอวอลเปเปอร์กับเครื่องเล่นวิดีโอมาตรฐานนั้นไม่สามารถนำมาเปรียบเทียบกันได้ วิดีโอวอลเปเปอร์จะต้องมีไอคอนและอาจขยายไปหลายหน้าจอ นอกจากนี้ยังใช้ตัวถอดรหัสวิดีโอของ GPU ตามค่าเริ่มต้นเพื่อลดการใช้งาน CPU ให้น้อยที่สุด
 
-## Background recording hooks
-It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
+## การบันทึกพื้นหลังติดพัน
+สิ่งนี้อาจเกิดจากบางคุณสมบัติของไดรเวอร์ที่ออกแบบมาเพื่อบันทึกแอพพลิเคชันเช่น ReLive Shadow Play/Nvidia Share หรือ Windows GameDVR ลองปิดการใช้งานคุณสมบัติเหล่านี้เพื่อดูว่าสามารถทำงานได้ปกติหรือไม่ จากนั้นจึงยกเว้น Wallpaper Engine จากคุณสมบัติเหล่านี้ นอกจากนี้ตรวจสอบให้แน่ใจว่าไม่มีการโหลดโปรแกรมบันทึก/โอเวอร์เลย์อื่น ๆ ลงใน Wallpaper Engine ด้วยตนเองทำให้ชะลอการเรนเดอร์
 
 You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
 
