@@ -10,9 +10,9 @@ Vous pouvez essayer d'utiliser notre outil d'analyse pour déterminer si des pro
 * [Outil d'analyse de Wallpaper Engine](/debug/scantool.html)
 
 ## Dynamic Super Resolution (DSR) / Étalonnage du GPU
-Létalonnage du GPU/DSR peut également causer des problèmes, essayez de le désactiver et si cela vous aide, désactivez-le uniquement pour Wallpaper Engine.
+L'étalonnage du GPU/DSR peut également causer des problèmes, essayez de le désactiver et si cela vous aide, désactivez-le uniquement pour Wallpaper Engine.
 
 ## Mauvaise performance de dwm.exe pour les systèmes avec plusieurs GPU / plusieurs écrans
-Si vous avez activé le GPU intégré de votre ordinateur de bureau dans le BIOS, alors qu'une carte graphique est déjà installée, vous pouvez rencontrer des problème de performances et une utilisation trop élevée de DWM.exe. Si c'est possible, n'activez pas le GPU intégré. **Vous devez brancher tous vos écrans sur une seule carte graphique.** L'utilisation simultanée des deux GPU interdira l'accélération matérielle du gestionnaire de fenêtres. Sans Nvidia Optimus ou une technologie similaire, Windows sera obligé de copier l'image de fond d'écran d'un GPU à l'autre, ce qui prend beaucoup de temps. En fait, toute action partagée entre vos GPU en souffrira. C'est la même chose que si vous placez une fenêtre de jeu entre deux écrans.
+Si vous avez activé le GPU intégré de votre ordinateur de bureau dans le BIOS, alors qu'une carte graphique est déjà installée, vous pouvez rencontrer des problèmes de performances et une utilisation trop élevée de DWM.exe. Si c'est possible, n'activez pas le GPU intégré. **Vous devez brancher tous vos écrans sur une seule carte graphique.** L'utilisation simultanée des deux GPU interdira l'accélération matérielle du gestionnaire de fenêtres. Sans Nvidia Optimus ou une technologie similaire, Windows sera obligé de copier l'image de fond d'écran d'un GPU à l'autre, ce qui prend beaucoup de temps. En fait, toute action partagée entre vos GPU en souffrira. C'est la même chose que si vous placez une fenêtre de jeu entre deux écrans.
 
 Ce problème ne concerne pas le matériel conçu pour les configurations multi-GPU, comme les ordinateurs portables Nvidia Optimus ou les configurations Nvidia SLI / AMD Crossfire avec un pont matériel.
