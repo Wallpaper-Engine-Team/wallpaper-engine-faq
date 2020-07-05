@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+추가로 Wallpaper Engine 설정의 **성능** 탭의 **디스플레이 절전 상태** 옵션을 *중지 (여유 메모리 확보)*로 설정하고 디스플레이를 끌 수도 있습니다. 이렇게 하면 사용자가 컴퓨터를 떠나면서 디스플레이를 끌 때 Wallpaper Engine이 모든 재생을 중단합니다.
