@@ -11,7 +11,7 @@ tags:
 El caché de descarga de Steam está dañado y por eso vuelve a descargar todos los archivos (sin motivo aparente o Steam se cuelga en vez de cerrarse correctamente). Esto no es culpa de Wallpaper Engine, por lo que no puede arreglarse desde el programa. Todos los programas de Steam Workshop sufren este problema, que es propio de Steam. Si le ocurre a menudo, aquí tiene algunas soluciones:
 
 ## Arregle Steam de forma automática
-Hemos creado un reparador de Steam automátivo y puede usarlo para ver si se soluciona el problema (¡esperamos que sí!). Siga los pasos siguientes:
+Hemos creado un reparador de Steam automático y puede usarlo para ver si se soluciona el problema (¡esperamos que sí!). Siga los pasos siguientes:
 * Cierre Steam.
 * Diríjase al directorio de instalación `wallpaper_engine`.
   * Ubicación por defecto: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`.
@@ -37,4 +37,4 @@ Si el problema persiste, puede hacer copias de seguridad locales de todos los fo
 
 * [Usar copias de seguridad de los fondos.](/steam/backup)
 
-Después, puede quitar la suscripción de todos los fondos. Asegúrese de no borrar ningún archivo de forma manual y dejar que lo haga Steam porque si no volverá a descargar todos los fondos para borrarlos él mismo.
+Después, puede desuscribirse de todos los fondos. Asegúrese de no borrar ningún archivo de forma manual y dejar que lo haga Steam porque si no volverá a descargar todos los fondos para borrarlos él mismo.
