@@ -7,7 +7,7 @@ Si tiene problemas técnicos con Wallpaper Engine y no puede resolverlos tras le
 3 Haga clic en **Guardar registro completo** y guárdelo en el escritorio (abajo encontrará un vídeo explicativo).
 4 Comparta el registro con alguno de estos métodos:
     * Vaya a [pastebin.com](https://pastebin.com/), pegue los contenidos del registro y después comparta el enlace.
-    * También puede enviarnos el archivo del registro por correo. Si ya tiene una conversación por correo electrónico con nosotros, conteste al mensaje anterior con el archivo del registro. En caso de que sea el primer correo que nos manda, coméntenos el problema que tiene o mándenos el enlace de una discusión existente.
+    * También puede enviarnos el archivo del registro por correo. Si ya tiene una conversación por correo electrónico con nosotros, conteste al mensaje anterior con el archivo del registro. En caso de que sea el primer correo que nos envía, coméntenos el problema que tiene o mándenos el enlace de una discusión existente.
 5 *Opcional:* si el programa se cuelga, diríjase al directorio *wallpaper_engine* para comprobar si hay algún archivo **.mdmp** y envíenoslos por correo o súbalos a alguna página. Si hay muchos archivos .mdmp, mándenos solo los más recientes. ::: tip Aunque la herramienta de escaneo no encuentre ningún error a primera vista, el archivo del registro suele revelar problemas comunes que tienen los ordenadores, y eso nos permite darle consejos para resolverlos. :::</ol>
 
 #### Vídeo de ayuda
