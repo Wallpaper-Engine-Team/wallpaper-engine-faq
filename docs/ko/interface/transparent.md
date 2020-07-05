@@ -1,6 +1,6 @@
 ---
 tags:
-  - invisible
+  - 보이지 않음
 ---
 
 # Wallpaper Engine 창이 투명합니다
