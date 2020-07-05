@@ -1,16 +1,16 @@
 ---
 tags:
-  - colors
-  - bright
-  - dark
-  - zoom
-  - zoomed-in
-  - pixelated
-  - border
-  - gamma
-  - quality
-  - wrong
-  - ugly
+  - 色
+  - 明るい
+  - 暗い
+  - ズーム
+  - ズームイン
+  - ピクセル化
+  - ボーダー
+  - ガンマ
+  - 画質
+  - 正しくない
+  - きれいでない
 ---
 
 # Video wallpapers look wrong
