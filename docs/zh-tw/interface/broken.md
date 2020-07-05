@@ -1,10 +1,10 @@
 ---
 tags:
-  - user interface
-  - green
-  - white
-  - pixelated
-  - unreadable
+  - 使用者介面
+  - 綠色
+  - 白色
+  - 像素化
+  - 無法讀取
 ---
 
 # Wallpaper Engine window not displayed correctly
