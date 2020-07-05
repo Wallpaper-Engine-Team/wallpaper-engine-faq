@@ -1,6 +1,6 @@
 # 높은 GPU 사용 오해
 
-The Windows Task Manager does not show the real GPU usage in most cases which is the cause for a lot of confusion. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
+Windows 작업 관리자는 대부분의 경우 실제 GPU 사용량을 보여주지 않으며, 이로 인해 많은 혼란이 일어납니다. GPU 사용량은 그래픽 카드의 *전원 상태*와 클록 속도를 무시하므로, 매우 부정확하며 보통 훨씬 더 높은 GPU 사용량을 보여줍니다. 실제 GPU를 확인하려면, GPU-Z와 같은 도구를 이용하세요:
 
 * [GPU-Z 다운로드](https://www.techpowerup.com/gpuz/)
 
