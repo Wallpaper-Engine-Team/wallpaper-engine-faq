@@ -29,7 +29,7 @@ Pour des raisons juridiques, nous ne pouvons pas associer LAV et Wallpaper Engin
 * Redémarrez l'application et essayez d'utiliser à nouveau de fond d'écran
 
 ## Activer l'accélération matérielle WebM
-Si vous rencontrez des problèmes avec la fin de vos fonds d'écran vidéo, vous pouvez utiliser des fichiers .webm qui ne souffrent pas du même problème. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
+Si vous rencontrez des problèmes avec la fin de vos fonds d'écran vidéo, vous pouvez utiliser des fichiers .webm qui ne souffrent pas du même problème. Il vaut mieux activer l'accélération matérielle pour les vidéos .webm. L'utilisation du processeur sera réduite et permettra toujours aux fonds d'écran vidéo tourner en boucle sans coupure. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
 * Open the Wallpaper Engine settings and navigate to the "General" tab
 * Change the **WebM framework** option to **Prefer Native**
 * Restart the application and try using your video wallpaper again
