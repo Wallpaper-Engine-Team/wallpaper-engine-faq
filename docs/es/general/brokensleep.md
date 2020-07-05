@@ -1,6 +1,6 @@
 # No funcionan los salvapantallas / hibernación
 
-Windows no puede hibernar si hay transmisiones de audio activas. Puede solventar esto si deshabilita la salida de audio en la pestaña «General» de la configuración de Wallpaper Engine para evitar que Windows bloquee la hibernación. Si quiere conservar la salida de audio, siga los pasos de esta guía para hacerlo.
+Windows no puede hibernar si hay transmisiones de audio activas. Puede solventar esto si deshabilita la salida de audio en la pestaña «General» de la configuración de Wallpaper Engine para evitar que Windows bloquee la hibernación. Si quiere conservar la salida de audio, siga los pasos de esta guía.
 
 ## Cambiar la configuración de energía de Windows
 
