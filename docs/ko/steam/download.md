@@ -46,19 +46,19 @@ Steam은 다운로드를 완료하지 않고 파일을 식별하지 않습니다
 * 중앙 유렵의 같은 시간: **수요일 오전 1시 (UTC + 1)**
 * 중국의 같은 시간: **수요일 오전 8시 (UTC + 8)**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. 한두 시간 정도 기다린 뒤 다시 시도하세요. :::
+대략 해당 시간 즈음에 이 글을 읽고 있다면, 서버가 일시적으로 오프라인일 수도 있습니다. 한두 시간 정도 기다린 뒤 다시 시도하세요. :::
 
 ## Steam: "다운로드 파일 누락" 오류
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. 보통 다음 방법으로 해결할 수 있습니다:
+Steam이 일부 파일을 다운로드할 수 없는 경우, 바이러스 백신 응용프로그램이 Steam을 차단하기 때문이거나 무작위로 발생할 때도 있습니다. 보통 다음 방법으로 해결할 수 있습니다:
 
 * Steam을 끄세요.
 * 이 디렉터리의 콘텐츠를 삭제하세요: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * 이 디렉터리의 콘텐츠를 삭제하세요: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+  * **참고:** `C:\Program Files (x86)\Steam`은 기본 Steam 경로이며, 다른 곳에 설치한 경우 위치를 확인하세요.
+* Steam을 시작하고 Wallpaper Engine 파일을 식별하세요:
+  * [Wallpaper Engine 파일 식별하기](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+바이러스 백신 앱이 설치되어 있는 경우: 이 디렉터리를 예외로 구성하여 Steam 창작마당 다운로드 차단을 방지하세요: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### 관련 문서: [Steam이 모든 배경화면을 다시 다운로드합니다](/steam/redownload)
