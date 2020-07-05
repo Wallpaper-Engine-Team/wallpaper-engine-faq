@@ -22,11 +22,11 @@
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. 完全解除安裝目前所有的顯示卡驅動程式，如出現系統提示也應刪除所有現有設定。 Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. 完全解除安裝目前所有的顯示卡驅動程式，如出現系統提示也應刪除所有現有設定。 Nvidia 驅動程式中有個核取方塊是「執行全新安裝」。
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+如果您還不確定該如何執行，可以使用 [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)。
 
-3. Install the drivers you have just downloaded in step 1.
+3. 安裝您在步驟 1 下載的驅動程式。
 4. Restart your PC again, see if it works now.
 
 ::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
