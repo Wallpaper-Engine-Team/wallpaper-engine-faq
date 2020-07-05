@@ -19,11 +19,11 @@ Wallpaper Engine 설정의 "플러그인" 섹션에서 **iCUE & Chroma SDK 플�
 
 ## RGB 하드웨어가 작동하지 않습니다
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engine은 RGB 하드웨어와 직접 소통할 수 없으며, 모든 색 정보는 일단 RGB 드라이버로 전달됩니다. 하나 이상의 하드웨어가 작동하지 않으면, 하드웨어 공급업체의 소프트웨어 문제입니다. 일부 매우 오래된 하드웨어는 하드웨어 공급업체가 더 이상 전체 지원을 하지 않으며 작동하지 않게 됩니다. 그런 경우 저희가 해결할 수 없습니다.
 
-If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
+Wallpaper 설정의 *플러그인* 섹션이 보이지 않으면, 이 기능을 작동하려면 필수 요소인 *Visual Studio 2015용 Visual C++ 재배포 가능 패키지*가 없거나 손상되었을 수 있습니다. Microsoft 웹사이트에서 이 패키지를 다운로드하여 설치할 수 있습니다. 설치 후 시스템을 다시 시작하면 문제가 해결됩니다:
 
-* [Visual Studio 2015로 재배포 가능한 Visual C++](https://www.microsoft.com/download/details.aspx?id=48145)
+* [Visual Studio 2015용 Visual C++ 재배포 가능 패키지](https://www.microsoft.com/download/details.aspx?id=48145)
 
 ### Corsair
 
