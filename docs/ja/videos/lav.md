@@ -29,9 +29,9 @@ tags:
 * アプリケーションを再起動し、ビデオ壁紙を再び使用します。
 
 ## WebM Hardware Accelerationを有効にする
-ビデオ壁紙が終わりの方でコマ落ちする場合は、.webmファイルを使うと解消する可能性があります。 .webmビデオでハードウェアアクセラレーションを有効にするとさらに良いでしょう。それによってCPUの使用率が大きく減少し、さらに、ビデオ壁紙が最後のフレームのあと目立ってカットされることなくループできます。 This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **WebM framework** option to **Prefer Native**
-* Restart the application and try using your video wallpaper again
+ビデオ壁紙が終わりの方でコマ落ちする場合は、.webmファイルを使うと解消する可能性があります。 .webmビデオでハードウェアアクセラレーションを有効にするとさらに良いでしょう。それによってCPUの使用率が大きく減少し、さらに、ビデオ壁紙が最後のフレームのあと目立ってカットされることなくループできます。 これは上記の手順の続きです。前のセクションの指示通りにLAVをインストールし、DirectShowを有効にしておいてください。
+* Wallpaper Engine の設定画面で、「一般」タブを開きます。
+* **WebM フレームワーク**オプションを**Native優先**に変更します。
+* アプリケーションを再起動し、ビデオ壁紙を再び使用します。
 
-Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+LAVシステムトレイアイコンが表示されているかどうか確認します。CPU使用率がほぼゼロなら、.webmコンテンツがハードウェアでアクセラレーションされているということです。 きちんと動作していないように見えるときは、すべてのオプションが正しく設定されているかどうか、また、LAVが正しくインストールされているかどうかを確認してください。
