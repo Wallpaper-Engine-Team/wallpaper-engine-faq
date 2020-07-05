@@ -44,21 +44,21 @@ Steamによるファイルのダウンロードの完了と検証ができてい
 
 * アメリカ西海岸：**火曜日午後4時（UTC - 7）**
 * 中央ヨーロッパの同じ時間：**水曜日午前1時（UTC + 1）**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* 中国の同じ時間：**水曜日午前8時（UTC + 8）**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
+これをお読みになっているのがだいたいこの時間の場合、サーバーが一時的にオフラインになっている可能性があります。 1～2時間待ってからもう一度試してください。 :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam: 「ダウンロードファイルが見つかりません」エラー
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+Steamがいくつかのファイルをダウンロードできません。これは、アンチウイルスアプリケーションがSteamまたはランダムなファイルをブロックしている可能性があります。 通常、次の方法で解消できます。
 
-* Turn off Steam.
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Steamを終了します。
+* 次のディレクトリの中身を削除します：`C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+* 次のディレクトリの中身を削除します：`C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+  * **注意：** `C:\Program Files (x86)\Steam`はデフォルトのSteamパスです。別の場所にインストールされているときはそこをチェックしてください。
+* Steamを起動し、Wallpaper Engineファイルを検証します。
+  * [Wallpaper Engineファイルの検証](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+アンチウイルスアプリケーションがインストールされている場合、次のディレクトリを例外に設定して、Steamワークショップのダウンロードがブロックされないようにしてください：`C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### 関連記事：[Steamがすべての壁紙を再ダウンロードする](/steam/redownload)
