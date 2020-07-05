@@ -35,7 +35,7 @@ Steam no ha terminado de descargar y verificar los archivos. Si lleva esperando 
 * Elija otro servidor de contenido en la configuración de Steam. Encontrará la opción en la pestaña «Descargas» de la configuración de Steam.
 * Compruebe que no ha limitado las descargas de Steam en la **configuración de Steam** según la hora, el ancho de banda o mientras juega.
 * Abra la pestaña «Descargas» en Steam (Biblioteca -> Descargas). Busque las descargas pausadas. Si ve alguna, haga clic en «Reanudar».
-* Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
+* Haga clic derecho en Wallpaper Engine en Steam, después haga clic en Propiedades y luego seleccione **Permitir siempre descargas en segundo plano** en la pestaña Actualizaciones.
 * Compruebe que no tenga actualizaciones pendientes de juegos en Steam, pues podrían pausar o desactivar las descargas de fondos.
 * Espere al menos un día, por si los servidores de Steam tuvieran algún problema.
 * **Como última opción,** vuelva a instalar Wallpaper Engine para deshacerse de cualquier archivo dañado de Steam (¡se volverán a descargar todos los fondos!). :::
