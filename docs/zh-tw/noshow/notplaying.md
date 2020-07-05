@@ -1,14 +1,14 @@
 - - -
-tags:
-  - activemovie window
+標籤：
+  - activemovie 視窗
   - active movie
-  - black
+  - 黑色
 - - -
 
 
-# Videos Black / Not Playing Properly
+# 視訊螢幕黑掉/無法正常播放
 
-Black screens and other issues with wallpapers of the type *Video* are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
+*視訊*類型的桌布變黑或出現其他問題，*必定*是因為顯示卡驅動程式故障或視訊轉碼器故障。 請完全按照以下步驟嘗試解決。 如果由上至下完全遵循本指南的步驟，即可解決該問題：
 
 ::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black or not playing properly. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
