@@ -10,8 +10,8 @@ Windows N ไม่ได้มาพร้อม Media Feature! คุณต้
 
 **ตรวจสอบให้แน่ใจว่าติดตั้งเวอร์ชัน x64 และ x86**
 
-หากยังคงแสดงข้อผิดพลาดเดิม หมายความว่า **คุณได้ติดตั้งเวอร์ชันที่ไม่ถูกต้อง** ให้ลองติดตั้งเวอร์ชันที่ถูกต้องและรีสตาร์ทคอมพิวเตอร์ Should nothing work and it is still missing, your system files are probably defective, try restoring the system to an earlier state or reinstall Windows.
+หากยังคงแสดงข้อผิดพลาดเดิม หมายความว่า **คุณได้ติดตั้งเวอร์ชันที่ไม่ถูกต้อง** ให้ลองติดตั้งเวอร์ชันที่ถูกต้องและรีสตาร์ทคอมพิวเตอร์ หากไม่มีวิธีไหนที่ได้ผลและยังคงไม่พบไฟล์ ไฟล์ระบบของคุณอาจชำรุด โปรดลองกู้คืนระบบกลับสู่สถานะก่อนหน้าหรือติดตั้ง Windows ใหม่
 
-:::warning Please note Every time Microsoft releases a major update to Windows 10, you must install the media feature pack again. If this undesirable for you, consider switching to a normal version of Windows as the other versions are always shipped with these features!
+::: คำเตือน โปรดทราบ เมื่อใดก็ตามที่ Microsoft เปิดตัวการอัพเดตที่สำคัญของ Windows 10 คุณต้องติดตั้ง Media Feature Pack อีกครั้ง หากคุณไม่ต้องการทำสิ่งนี้ ลองเปลี่ยนไปใช้ Windows เวอร์ชันปกติ เนื่องจากเวอร์ชันอื่น ๆ มาพร้อมกับคุณสมบัติเหล่านี้เสมอ!
 
-**The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.** :::
+**วัตถุประสงค์ของ Windows N คือการไม่มี Media Feature ดังนั้นหากนี่ไม่ใช่สิ่งที่คุณต้องการ คุณไม่ควรใช้ Windows N** :::
