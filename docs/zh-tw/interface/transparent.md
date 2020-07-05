@@ -1,11 +1,11 @@
 ---
 tags:
-  - invisible
+  - 不可見
 ---
 
-# Wallpaper Engine window is transparent
+# Wallpaper Engine 視窗呈現透明
 
-If your Wallpaper Engine user interface is see-through, you have likely accidentally used the slider at the bottom of the window to reduce its opacity. Simply drag it to the right to revert the opacity again:
+如果 Wallpaper Engine 使用者介面呈現透明，應該是不小心動到視窗底部的滑桿而降低其不透明度。 只須拖曳至右方，即可還原不透明度：
 
 ![Use the slider at the bottom of the user interface to control the opacity](./transparentinterface.gif)
 
