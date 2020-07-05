@@ -4,7 +4,7 @@
 
 1. 完全關閉 Wallpaper Engine (在通知區域按一下滑鼠右鍵 -> [結束])
 
-2. 前往 Wallpaper Engine 目錄，刪除名為「visibility.json」的檔案， 預設路徑為：
+2. 前往 Wallpaper Engine 目錄，刪除名為「visibility.json」的檔案， 檔案的預設路徑為：
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
