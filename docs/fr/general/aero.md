@@ -6,6 +6,6 @@ Windows Aero permet de créer un effet de transparence sur la barre des tâches 
 
 ![Windows 7 et Aero](./w7.png)
 
-Si votre matériel prend en charge Windows Aero mais que vous ne pouvez pas l'activer, ** cela signifie généralement que les pilotes de votre carte graphique sont corrompus**. Téléchargez les dernières versions des pilotes de votre carte graphique pour Windows 7 et réessayez.
+Si votre matériel prend en charge Windows Aero, mais que vous ne pouvez pas l'activer, ** cela signifie généralement que les pilotes de votre carte graphique sont corrompus**. Téléchargez les dernières versions des pilotes de votre carte graphique pour Windows 7 et réessayez.
 
 ::: tip **Voilà pourquoi nous préférons Windows 10**, car cette erreur n'existe qu'avec Windows 7. Windows 7 ne reçoit plus de mises à jour et la plupart des fabricants ont abandonné ce système. Cela peut entraîner des problèmes avec vos pilotes et provoquer de nombreux problèmes avec Aero. :::
