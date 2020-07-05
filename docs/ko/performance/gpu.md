@@ -1,4 +1,4 @@
-# High GPU usage misconception
+# 높은 GPU 사용 오해
 
 The Windows Task Manager does not show the real GPU usage in most cases which is the cause for a lot of confusion. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
 
