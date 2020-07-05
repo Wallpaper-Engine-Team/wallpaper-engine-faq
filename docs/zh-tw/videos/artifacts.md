@@ -25,7 +25,7 @@ Wallpaper Engine 使用了適用於視訊的硬體加速將效能最佳化，與
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-如果不確定該怎麼做，請下載適用顯示卡的最新驅動程式，再用 DDU 解除安裝顯示卡驅動程式並刪除所有設定：
+如果不確定該怎麼做，請下載適用於顯示卡的最新驅動程式，再用 DDU 解除安裝顯示卡驅動程式並刪除所有設定：
 
 * [Display Driver Uninstaller 下載](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
