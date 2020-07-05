@@ -8,4 +8,4 @@
 
 ## 未顯示任何桌布或僅顯示少數桌布
 
-You likely have too strict filters enabled. Try resetting all filters by clicking on the "Reset filters" button in the filter sidebar.
+您可能啟用了條件過於嚴格的過濾器。 按一下過濾器側欄的「重置過濾器」按鈕，以重設所有過濾器。
