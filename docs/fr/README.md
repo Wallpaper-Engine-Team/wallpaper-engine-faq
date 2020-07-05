@@ -1,5 +1,5 @@
-# Wallpaper Engine Troubleshooting Guide & FAQ
-If you are having a technical problem or just a question about Wallpaper Engine, you will likely find an answer here. 95% of questions and problems we get asked are the same so it is likely that you will find your answer here.
+# Wallpaper Engine - Guide & FAQ
+Si vous rencontrez un problème ou si vous avez une question sur Wallpaper Engine, voici où trouver des réponses. 95% of questions and problems we get asked are the same so it is likely that you will find your answer here.
 
 **It's best if you use the search bar in the upper right corner** or simply look on the list of all articles on the left - we have tried to categorize them sensibly. We have also listed the most frequently accessed help articles below, check if your problem is in there.
 
