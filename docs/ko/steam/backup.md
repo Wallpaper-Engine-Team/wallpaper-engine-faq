@@ -1,6 +1,6 @@
-# Backup Steam Workshop
+# Steam 창작마당 백업
 
-When wallpapers are deleted from Steam for any reason, Steam will also delete them from your PC. Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
+배경화면이 어떤 이유로 Steam에서 삭제되면, Steam은 PC에서도 삭제합니다. Wallpaper Engine은 이것을 막을 수 없지만, 염려되는 사용자는 배경화면의 백업을 만들 수 있습니다.
 
 Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
 
