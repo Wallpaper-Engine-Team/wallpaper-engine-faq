@@ -12,7 +12,7 @@
 | **最常用文章**                                                      |
 | -------------------------------------------------------------- |
 | 1. [Steam 下載問題](steam/download.html)                           |
-| 2. [黑色螢幕 / 視訊無法播放](noshow/notplaying.html)                     |
+| 2. [黑色螢幕/視訊無法播放](noshow/notplaying.html)                       |
 | 3. [視訊顏色錯誤 / 過亮或過暗 / 放大 / 像素化 / 視訊四周邊框](videos/artifacts.html) |
 | 4. [Wallpaper Engine 停止運作](crash/application)                  |
 | 5. [將桌布匯出為 GIF / 視訊檔案](general/export)                         |
