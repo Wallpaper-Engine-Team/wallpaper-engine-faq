@@ -19,16 +19,16 @@ Wallpaper Engine utilise l'accélération matérielle pour les vidéos afin d'ob
 
 **Si vos fonds d'écran vidéo ont des couleurs étranges, sont trop lumineux ou trop sombres, semblent zoomés, pixellisés ou s'il y a une bordure autour du papier peint **, vous pouvez résoudre ce problème en réinitialisant les options vidéo dans les paramètres de votre carte graphique Nvidia, AMD ou Intel. Si vous avez plusieurs GPU (par exemple, une carte graphique Nvidia et un GPU secondaire Intel), assurez-vous de les réinitialiser pour chacun d'entre eux.
 
-You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Vous pouvez également réinstaller les pilotes de votre carte graphique et pour réinitialiser tous les paramètres ("réinstallation propre"). C'est par exemple possible avec les pilotes Nvidia, par exemple. Cela signifie que vous devez d'abord désinstaller les pilotes, puis réinstaller les dernières versions de ces pilotes après cette opération. Certains pilotes proposent l'option "Effectuer une réinstallation propre". Assurez-vous d'activer cette option pour nettoyer automatiquement les restes de pilotes corrompus. Voici les sites des grands fournisseurs de carte graphique où vous trouverez les dernières versions de leurs pilotes :
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you are uncertain what to do: Download the latest drivers for your graphics card, then use DDU to uninstall your graphics card drivers and delete all settings:
+Si vous ne savez pas comment faire : téléchargez les derniers pilotes pour votre carte graphique, puis utilisez DDU pour désinstaller les pilotes actuels et supprimez tous les paramètres :
 
-* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Télécharger Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-Afterwards, install the drivers you have just downloaded. This will definitely fix the problem if done right.
+Il ne vous reste plus qu'à installer les pilotes fraîchement téléchargés. Si vous suivez bien ces étapes, vous ne rencontrerez plus ce problème.
 
-::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. Make sure you first uninstall all your current graphics card drivers and clear up all driver settings. :::
+::: tip Si les couleurs sont toujours fausses, c'est que vous avez probablement plusieurs GPU ou que vous n'avez pas effectué une réinstallation "propre". Assurez-vous d'abord de désinstaller tous vos pilotes de carte graphique et de supprimer tous leurs paramètres avant de les réinstaller. :::
