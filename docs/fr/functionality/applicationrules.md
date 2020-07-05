@@ -36,7 +36,7 @@ Sélectionnez le .exe du programme pour lequel vous souhaitez avoir une règle s
 
 ### Problème de son intermittent avec des outils d'enregistrement d'arrière-plan
 
-Sélectionnez le .exe du programme pour lequel vous souhaitez avoir une règle spéciale dans cette liste ou saisissez-le dans le champ **Nom de l'application**. Choisissez **Lit un fichier audio** pour **Condition** et **Continuer d'éxecuter** pour **Lecture du fond d'écran**. Wallpaper Engine ne coupera plus le son lorsque l'application choisie lit ou enregistre un fichier audio. Windows ne fait pas de différence entre la lecture ou l'enregistrement audio, c'est pourquoi Wallpaper Engine coupera le son si vous enregistrez. Beaucoup d'applications de streaming peuvent provoquer ce problème intentionnellement.
+Sélectionnez le .exe du programme pour lequel vous souhaitez avoir une règle spéciale dans cette liste ou saisissez-le dans le champ **Nom de l'application**. Choisissez **Lit un fichier audio** pour **Condition** et **Continuer d’exécuter** pour **Lecture du fond d'écran**. Wallpaper Engine ne coupera plus le son lorsque l'application choisie lit ou enregistre un fichier audio. Windows ne fait pas de différence entre la lecture ou l'enregistrement audio, c'est pourquoi Wallpaper Engine coupera le son si vous enregistrez. Beaucoup d'applications de streaming peuvent provoquer ce problème intentionnellement.
 
 ### Autres comportements
 
