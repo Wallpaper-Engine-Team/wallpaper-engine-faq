@@ -15,8 +15,8 @@ tags:
 
 如果找不到適合的說明文章，或仍無法解決問題，請來信至 [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request)。
 
-::: 提示 如果您遇到技術問題，請利用我們的掃描工具產生記錄檔，並提供給我們：
+::: tip 如果您遇到技術問題，請利用我們的掃描工具產生記錄檔，並提供給我們：
 
 * [使用 Wallpaper Engine 掃描工具建立偵錯記錄](debug/scantool)
 
-此掃描工具包括各種技術詳細資料，通常能協助我們更快速向您指引正確方向。 :::
+此掃描工具包含各種技術詳細資料，通常能協助我們更快速替您指引正確方向。 :::
