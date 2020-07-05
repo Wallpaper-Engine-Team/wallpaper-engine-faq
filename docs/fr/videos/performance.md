@@ -1,4 +1,4 @@
-# Video freezes / stuttering / bad performance
+# La vidéo se fige / saute / est de mauvaise qualité
 
 This could come from your hardware not being powerful enough to display the specific video properly. A video wallpaper isn't comparable to standard video players, it must be composed with the icons as well and potentially stretches over multiple screens. It is also using the video decoder of your GPU by default to reduce CPU usage to a minimum.
 
