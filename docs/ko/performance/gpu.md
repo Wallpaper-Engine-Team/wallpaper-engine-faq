@@ -2,15 +2,15 @@
 
 The Windows Task Manager does not show the real GPU usage in most cases which is the cause for a lot of confusion. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
 
-* [Download GPU-Z](https://www.techpowerup.com/gpuz/)
+* [GPU-Z 다운로드](https://www.techpowerup.com/gpuz/)
 
-## Finding out your actual GPU load
+## 실제 GPU 로드 확인
 
-Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
+GPU-Z를 설치했으면, "센서" 탭에서 GPU 클록 속도와 GPU 로드를 확인하세요:
 
 ![Real GPU usage](./gpuz.png)
 
-Notice *GPU load* in the screenshot is at 24%. However, at the top you can see that the graphics card is in its low power state at 202.5 MHz. This is the best case scenario, although the 'usage' is displayed as 24%. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
+스크린샷의 *GPU 로드*는 24%입니다. 그러나 상단에서 그래픽 카드가 202.5MHz로 전원 상태가 낮다는 걸 확인할 수 있습니다. '사용'이 24%로 표시되었지만, 이것은 최상의 시나리오입니다. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
 
 A card could have clock rates between 100 Mhz and 2000 Mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 100 MHz or 50% of 2000 MHz**.
 
