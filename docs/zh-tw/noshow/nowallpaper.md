@@ -24,8 +24,8 @@ Wallpaper Engine 與大部分桌面改造應用程式安然並存。 但有些�
 
 一般而言，Wallpaper Engine 與 *Fences* 配合良好。 不過，**如果您安裝了 Fences 卻將其停用**，將會使 Wallpaper Engine 中的桌布隱藏。 您必須啟用或完全解除安裝。
 
-## Gray Wallpaper or missing textures on Windows 7
+## 在 Windows 7 上桌布呈現灰色或缺少紋理
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+確保已安裝 Windows 7 的更新 **KB2533623**。 您可透過以下連結手動安裝，或確保 Windows Update 正常運作，並可自動安裝更新。 您可從 Microsoft 網站手動下載該更新，之後重新啟動，此問題應該就能消失：
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
