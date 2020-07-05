@@ -14,7 +14,7 @@ Pour créer une clé registre, ouvrez le menu Windows et cherchez "regedit.exe",
 2. Faites un clic droit sur le dossier *WallpaperEngine*, selectionnez *Nouveau* puis *Valeur DWORD (32 Bit)*.
 3. Nommez ce registre : *hideTrayIcon*
 4. Assurez-vous de recopier ce nom fidèlement, sans espace ni majuscule.
-5. Double-cliquez sur cette clé de registre et donnez lui la valeur suivante : *1*
+5. Double-cliquez sur cette clé de registre et donnez-lui la valeur suivante : *1*
 6. Redémarrez Wallpaper Engine et l'application sera désormais masquée.
 
 Vous pouvez inverser ce processus en redéfinissant *hideTrayIcon* sur *0* ou en supprimant cette clé avant de redémarrer Wallpaper Engine. 
