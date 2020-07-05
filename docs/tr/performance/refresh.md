@@ -1,9 +1,9 @@
-# Wrong Refresh Rates of Monitors
+# Yanlış Monitör Yenileme Hızı
 
-Depending on hardware and operating system, your graphics card may have issues updating all of your monitors at the same time if they have wildly differing refresh rates. Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
+Grafik kartlarınız, donanım ve işletim sistemine bağlı olarak çok farklı yenileme hızlarına sahipse tüm monitörlerinizi aynı anda güncelleme konusunda sorun yaşayabilir. Microsoft, bu sorunu Windows 10 2004 güncellemesinde (Mayıs 2020) ele almıştır. Eğer bu sorunu yaşıyorsanız lütfen en azından Windows 10 veya daha yeni bir sürümünü kullanın.
 
-Some common work-arounds:
+Bazı alternatif çözüm yolları:
 
-* Set monitors to refresh rates that are a multiple of each other. For example, 120Hz and 60Hz instead of 144Hz and 60Hz.
-* Use pausing/stopping options in Wallpaper Engine to make this less of a problem. Set it to pause on all monitors when playing games.
-* If your system has an integrated GPU, use that for your 60Hz monitor, although this will likely decrease desktop performance overall, since your CPU now needs to make both GPUs work together!
+* Monitörleri, birbirlerinin katı olan yenileme hızlarına ayarlayın. Örneğin 144Hz ve 60Hz yerine 120Hz ve 60Hz.
+* Bu sorunu hafifletmek için Wallpaper Engine'deki duraklatma/durdurma seçeneklerini kullanın. Oyun oynarken tüm monitörlerde duraklatmaya ayarlayın.
+* Sisteminizde entegre bir GPU varsa bunu 60Hz monitörünüz için kullanın. Ancak CPU'nuzun artık her iki GPU'yu birlikte çalışması gerektiği için bu genel masaüstü performansını düşürebilir!
