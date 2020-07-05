@@ -12,11 +12,11 @@ tags:
 ---
 
 # Usar LAV y DirectShow
-Si tiene problemas con codecs de vídeo dañados o quiere usar otros formatos de vídeo en su equipo, puede instalar LAV y habilitar DirectShow en la configuración de Wallpaper Engine. This should enable better support for **4K and HEVC videos on Windows 7** and allow opening of **.mkv** files.
+Si tiene problemas con codecs de vídeo dañados o quiere usar otros formatos de vídeo en su equipo, puede instalar LAV y habilitar DirectShow en la configuración de Wallpaper Engine. Esto permitirá que los **vídeos 4K y HEVC funcionen mejor en Windows 7** y se podrán abrir archivos **.mvk**.
 
-For legal reasons, we cannot bundle LAV with Wallpaper Engine which means you need to download and install it yourself. After you have installed LAV, you also need to configure Wallpaper Engine to use DirectShow:
+Por motivos legales, no podemos hacer un paquete de descarga de LAV con Wallpaper Engine, por lo que tendrá que descargarlo usted. Tras instalar LAV, tendrá que configurar Wallpaper Engine para usar DirectShow:
 
-## 1. Install LAV
+## 1. Instalar LAV
 * Download the x86 **AND** x64 versions of LAV Filters:
   * Mirror #1: [Github](https://github.com/Nevcairiel/LAVFilters/releases)
   * Mirror #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
