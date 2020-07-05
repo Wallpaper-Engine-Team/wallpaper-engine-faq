@@ -22,4 +22,4 @@ Steam 창작마당은 노출과 같은 일정 수준의 성인 콘텐츠를 허�
 
 저희와 Steam 관리자 / 중재자는 매일 규정을 위반한 배경화면을 제거합니다. 저희가 찾는 데 도움이 되도록 지침을 위반한 창작마당 내용을 신고해 주세요.
 
-창작마당에서는 사용자가 작업물을 보이기 전에 저희의 확인 없이 공개할 수 있습니다. Steam 창작마당의 방식이므로, 저희가 바꿀 수 없는 부분입니다. 업로드 후에만 제출물을 제거할 수 있습니다. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
+창작마당에서는 사용자가 작업물을 보이기 전에 저희의 확인 없이 공개할 수 있습니다. Steam 창작마당의 방식이므로, 저희가 바꿀 수 없는 부분입니다. 업로드 후에만 제출물을 제거할 수 있습니다. 이게 문제가 된다면, 필터 설정의 *승인* 태그를 활성화하세요. 수동으로 확인한 엄선한 배경화면을 볼 수 있습니다. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
