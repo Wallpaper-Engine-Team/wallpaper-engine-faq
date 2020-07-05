@@ -8,13 +8,13 @@
 
 如果不想看到動漫桌布，請移除*動漫*和 *MMD (Miku-Miku-Dance)* 類別。 此外，您也可能希望移除*卡通*和*女生*類別，因為這些包含動畫內容，您可能還會篩選掉其他內容。
 
-![Deselect all categories you do not like in the filter sidebar](./categories.gif)
+![取消選取所有您不希望在過濾器側欄中看到的所有類別](./categories.gif)
 
 ## 排除特定年齡分級
 
 Steam 工作坊允許一定程度的成人內容，例如裸體。 如果您不想看到此類內容，僅需要在過濾器中啟用「全年齡」：
 
-![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
+![在過濾器側欄中，取消選取年齡分級中的「成人」及「爭議性」欄位](./ageratings.gif)
 
 大部分內容設定的標籤正確，因此將篩選掉大部分成人內容。 如果您仍遇到「全年齡」分級的成人內容，請使用本應用程式的檢舉功能。 該內容將在審查後重新分類或禁用。
 
@@ -22,4 +22,4 @@ Steam 工作坊允許一定程度的成人內容，例如裸體。 如果您不�
 
 我們與 Steam 管理員/版主每天都會移除違規的桌布。 請檢舉違反本指南的工作坊提交內容，協助我們找出違規內容。
 
-The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
+工作坊允許使用者無須經過事先審查，即可發佈作品，這是 Steam 工作坊的運作方式，我們無法改變， 只能等到內容上傳後才能移除。 如果您覺得困擾，請在過濾器設定中啟用*已核准*標籤，帶有此標籤的桌布均經過手動挑選與審查。 務必閱讀上文過濾器設定的內容，以便輕鬆移除不希望看見的特定類型內容。
