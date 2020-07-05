@@ -1,6 +1,6 @@
 # 從搜尋結果中排除特定桌布
 
-務必使用應用程式的「工作坊」分頁來搜尋新的桌布。 The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+務必使用應用程式的「工作坊」分頁來搜尋新的桌布。 Steam 工作坊網站不具備與此應用程式相同的篩選功能，也會顯示過多您不感興趣的內容。
 
 ## Excluding certain genres (anime, for example)
 
