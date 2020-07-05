@@ -11,7 +11,7 @@
 1. Steam이 배경화면을 저장하는 폴더를 찾으세요. 기본값은 `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`입니다. ::: 팁 **431960** 은 Wallpaper Engine의 Steam ID로, Steam은 모든 Wallpaper Engine 다운로드에 이 디렉터리를 사용합니다. :::
 2. 431960 폴더를 다음 Wallpaper Engine 설치 경로에 복사하세요: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
 3. `431960` 폴더의 이름을 `backup`으로 **변경하세요**. 전체 경로는 다음과 같습니다: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
-4. The `backup` directory now includes all your previously downloaded wallpapers, each in their own sub-directory (the numbers represent the Steam Workshop ID of the wallpaper)
-5. Restart the wallpaper browser and you should see the backed up wallpapers now. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them
+4. 이제 `back` 디렉터리에 이전에 다운로드한 모든 배경화면이 있으며, 각각 하위 디렉터리가 있습니다. (숫자는 배경화면의 Steam 창작마당 ID를 나타냅니다)
+5. 배경화면 브라우저를 다시 시작하면 백업된 배경화면을 볼 수 있습니다. 이제 중복되는 Steam 배경화면의 구독을 취소하고, 개인 복사본을 사용할 수 있습니다.
 
-::: warning Do **not** manually delete the Steam Workshop folder `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. This will cause your Steam to be confused and re-download all wallpapers. Simply unsubscribe from your wallpapers and let Steam delete the duplicate files itself. :::
+::: 경고 Steam 창작마당 폴더를 수동으로 삭제하지 **마세요**. `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` 그러면 Steam이 혼동하여 모든 배경화면을 다시 다운로드할 수 있습니다. 배경화면을 구독 취소하면, Steam이 중복되는 파일을 삭제합니다. :::
