@@ -1,8 +1,8 @@
-# Uploads get stuck at 45%
+# 업로드가 45%에서 중단되었습니다
 
-At 45% of the upload process, Steam will actually start uploading files to the Steam servers. If you are trying to publish Wallpaper Engine content to the Steam Workshop and you are stuck at 45%, it means your Steam is unable to upload files to the Steam servers. Make sure that no firewall or antivirus application is blocking Steam from uploading files. Please also see the official guide on Steam network ports:
+Steam은 사실상 업로드 진행률 45%에서 Steam 서버로 파일 업로드를 시작합니다. Wallpaper Engine 콘텐츠를 Steam 창작마당에 게시하려는데 45%에서 중단되면, Steam이 Steam 서버에 파일을 업로드할 수 없다는 뜻입니다. 방화벽이나 바이러스 백신 응용프로그램이 Steam의 파일 업로드를 차단하는지 확인하세요. 그리고 Steam 네트워크 포트의 공식 가이드도 참조하시기 바랍니다:
 
-* [Required Ports for Steam](https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711)
+* [Steam 포트 필요](https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711)
 
 This issue is always some sort of network issue, you will need to investigate what is blocking your Steam properly communicating with the Steam servers.
 
