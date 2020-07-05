@@ -6,11 +6,11 @@ Windows는 오디오 스트림이 활성화된 상태에서 최대 절전 모드
 
 Windows는 오디오 스트림이 활성화된 상태에서 최대 절전 모드를 진행하지 않습니다. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
+1. Windows 검색창에 "전원 및 절전 설정"을 입력하여 이동하세요.
+2. "추가 전원 설정"을 클릭하세요.
+3. 선택한 설정 옆의 "설정 변경"을 클릭하세요.
+4. "고급 전원 관리 옵션 설정 변경"을 클릭하세요.
+5. 아래로 스크롤해서 "멀티미디어 설정"을 펼치세요.
 6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
 
 !["컴퓨터에서 절전 모드로 전환 허용" 활성화](./power.gif)
