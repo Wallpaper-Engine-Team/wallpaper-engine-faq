@@ -4,15 +4,15 @@
 
 ## 특정 장르 제외 (예: 애니메이션)
 
-응용프로그램에서 원하지 않는 범주를 필터링할 수 있습니다. Wallpaper Engine의 "작업장" 탭을 열어 왼쪽 상단의 "필터 적용 결과" 버튼을 클릭하여 필터 사이드바를 활성화하세요. Deselect all categories you do not like to see in your results.
+응용프로그램에서 원하지 않는 범주를 필터링할 수 있습니다. Wallpaper Engine의 "작업장" 탭을 열어 왼쪽 상단의 "필터 적용 결과" 버튼을 클릭하여 필터 사이드바를 활성화하세요. 그런 다음 결과에 나타내고 싶지 않은 범주를 모두 선택 해제하세요.
 
-If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+애니메이션 배경화면을 원하지 않으면, *애니메이션*과 *MMD (Miku-Miku-Dance)* 범주를 제거하세요. 또한 일부 애니메이션을 포함한 *카툰*과 *소녀*도 제거하고 싶을 수도 있습니다. 그러나 그러면 다른 콘텐츠도 필터링될 수 있습니다.
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
 ## 특정 나이 등급 제외
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Steam 창작마당은 노출과 같은 일정 수준의 성인 콘텐츠를 허용합니다. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
