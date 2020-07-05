@@ -7,21 +7,21 @@ tags:
   - 無法讀取
 ---
 
-# Wallpaper Engine window not displayed correctly
+# Wallpaper Engine 視窗無法正確顯示
 
-If your Wallpaper Engine browse window is not working, it is usually caused by faulty graphics card drivers or antivirus applications. Read below for more information.
+如果 Wallpaper Engine 瀏覽視窗無法正常運作，原因通常是顯示卡驅動程式或防毒應用程式出現問題。 詳情請見下文。
 
-::: warning Please note This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
+::: 警告 請注意 本文涉及 Wallpaper Engine **介面**為黑色或損壞的問題。 如果您的**桌布呈現黑色**，請造訪：[黑色螢幕/視訊無法播放](/noshow/notplaying.html)。 :::
 
-## Wallpaper Engine browser is Black or White
+## Wallpaper Engine 瀏覽器呈現黑色或白色
 
-For most people, this means that the Wallpaper Engine user interface is being blocked by an antivirus application by mistake. Make sure to set up an exception in your antivirus application so that it ignores Wallpaper Engine, specifically all executables in the wallpaper_engine installation directory and especially **wallpaper_engine/bin/ui32.exe**.
+對大多數人而言，這樣表示 Wallpaper Engine 使用者介面受到防毒軟體錯誤封鎖。 請在防毒應用程式中設定例外，使其忽略 Wallpaper Engine，必須納入 wallpaper_engine 安裝目錄中的所有可執行檔，尤其是 **wallpaper_engine/bin/ui32.exe**。
 
-In some cases, it is necessary to verify the Wallpaper Engine files afterwards or even to re-install Wallpaper Engine if your antivirus application has placed a permanent lock on some important Wallpaper Engine files:
+在某些情況下，如果防毒軟體已經永久封鎖某些重要的 Wallpaper Engine 檔案，則必須在之後驗證 Wallpaper Engine 檔案，甚至重新安裝 Wallpaper Engine 檔案：
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam 支援：驗證應用程式檔案完整性](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+如果您已設定防毒軟體並透過 Steam 驗證後，問題仍未解決，請重新透過 Steam 重新安裝 Wallpaper Engine。 If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
 
 ## Wallpaper Engine interface with green artifacts or white lines
 
