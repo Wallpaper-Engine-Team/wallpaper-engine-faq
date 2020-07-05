@@ -8,6 +8,6 @@ Wallpaper Engine ve Steam, bir sebepten dolayı iletişim kuramıyor. Steam'i ve
 * Wallpaper Engine'e sahip olan Steam hesabında oturum açtığınızdan emin olun.
 * Steam veya Wallpaper Engine'i yönetici olarak **çalıştırmayın**.
 * Steam dizinini antivirüsünüzün dışında tutun veya herhangi bir üçüncü taraf antivirüs uygulamasını tamamen devre dışı bırakın
-* Close "Steam idling" programs.
-* Delete cracked Steam games that override Steam's presence on the PC.
-* Uninstall Wallpaper Engine and Steam. Delete the entire Steam folder. Reinstall Steam and Wallpaper Engine.
+* "Steam idling" programlarını kapatın.
+* Steam'in PC'deki varlığını geçersiz kılan crack'li Steam oyunlarını silin.
+* Wallpaper Engine ve Steam'i kaldırın. Tüm Steam klasörünü silin. Steam ve Wallpaper Engine'i yeniden yükleyin.
