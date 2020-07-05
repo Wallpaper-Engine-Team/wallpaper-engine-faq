@@ -1,9 +1,9 @@
-# "Content file locked" / Disk Write Error
+# "İçerik dosyası kilitli" / Disk Yazma Hatası
 
-If Steam fails to download Wallpaper Engine either while installing or updating the app, it is most likely your antivirus deleting files, putting files into quarantine or blocking entire directories on your disk without informing you about this. You will get 'content file locked' or 'access denied' errors in Steam. This needs to be resolved in your antivirus by undoing the changes it did to your PC, most antivirus programs have a quarantine window from where you can restore files or create a whitelist. Make sure your antivirus application ignores the following directories:
+Steam, uygulamayı yüklerken veya güncellerken Wallpaper Engine'i indiremiyorsa bunun nedeni büyük olasılıkla antivirüsünüzün dosyaları silmesi, karantinaya alması veya diskinizdeki tüm dizinleri size bildirmeden engellemesidir. Bu durumda Steam'de "içerik dosyası kilitli" veya "erişim reddedildi" hatalarını alacaksınız. Bu durum, PC'nizde yaptığı değişiklikleri geri alarak antivirüsünüz üzerinde çözülmelidir. Çoğu antivirüs programının dosyaları geri yükleyebileceğiniz veya güvenilir adresler listesi oluşturabileceğiniz bir karantina penceresi vardır. Antivirüs uygulamanızın aşağıdaki dizinleri yok saydığından emin olun:
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * `C:\Program Files (x86)\Steam\steamapps\downloading`
 
-*If your Steam or Wallpaper Engine is installed in a different directory, you need to adjust the directories to your actual Steam installation path.*
+*Steam veya Wallpaper Engine farklı bir dizine kurulmuşsa dizinleri gerçek Steam yükleme yolunuza göre ayarlamanız gerekir.*
