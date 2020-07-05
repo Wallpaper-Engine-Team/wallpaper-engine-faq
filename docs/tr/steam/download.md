@@ -10,19 +10,19 @@ tags:
 
 # Steam Duvar Kâğıdı İndirme Sorunları
 
-**Tüm indirmelerin Steam tarafından gerçekleştirildiğini** unutmayın. Wallpaper Engine yalnızca Steam indirme durumunu gösterir. Tüm indirme sorunları, doğrudan Wallpaper Engine ile ilgili değil, Steam'inizle ilgili konularla bağlantılıdır. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+**Tüm indirmelerin Steam tarafından gerçekleştirildiğini** unutmayın. Wallpaper Engine yalnızca Steam indirme durumunu gösterir. Tüm indirme sorunları, doğrudan Wallpaper Engine ile ilgili değil, Steam'inizle ilgili konularla bağlantılıdır. Bu rehberde indirmelerle ilgili en yaygın sorunlar bir araya getirilmiştir. Sorunların ilk nedeni, çoğu durumda aşırı duyarlı antivirüs uygulamaları veya engellenmiş ağ bağlantı noktalarıdır.
 
-If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
+Steam indirmeleriyle ilgili sorun yaşıyorsanız hiçbir antivirüs uygulamasının Steam'inizi engellemediğinden ve ağ yönlendiricilerinizdeki güvenlik duvarları da dâhil olmak üzere güvenlik duvarınızdaki gerekli tüm bağlantı noktalarının açık olduğundan emin olun.
 
-::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
+::: ipucu Akıllı telefonunuzdaki mobil etkin noktasına geçerek ve bu şekilde bir duvar kâğıdı indirmeye çalışarak ağ yönlendiricinizin Steam indirmelerini engelleyip engellemediğini kolayca kontrol edebilirsiniz. :::
 
-## Wallpaper download stuck at 0% or 100% (or any other percentage)
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## Duvar kağıdı indirirken %0 veya %100'de (veya herhangi bir yüzdede) takılı kalıyor
+Steam dosyaları indirip doğrulamıyor. Steam indirmeleriniz belirli bir süre takılı kalıyorsa ve bir süre bekledikten sonra bile çalışmıyorsa şunları deneyin:
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Steam ayarlarından Steam'in indirme önbelleğini temizleyin:
+  * [Steam İndirme önbelleğini temizle](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* Sonrasında Steam'deki Wallpaper Engine dosyalarını doğrulayın:
+  * [Wallpaper Engine dosyalarını doğrula](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 * If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
     * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
