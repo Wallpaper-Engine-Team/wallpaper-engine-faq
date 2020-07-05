@@ -12,7 +12,7 @@ You can try to use our scan tool to determine if any programs with know recordin
 ## Dynamic Super Resolution (DSR) / การปรับสเกล GPU
 การเจาะเข้าไดรเวอร์โดยการปรับสเกล GPU/DSR อาจทำให้เกิดปัญหาได้เช่นกัน โปรดลองปิดการใช้งานเฉพาะสำหรับ Wallpaper Engine และดูว่าช่วยแก้ปัญหาได้หรือไม่
 
-## Bad performance in dwm.exe in systems with multiple GPUs / multiple screens
-If you have enabled the integrated GPU on your desktop PC in the BIOS although a dedicated graphics card is installed, you can experience bad performance and high CPU usage of DWM.exe. If possible, do not enable your integrated GPU. **It's very important to plug all your monitors into your dedicated graphics card.** Using both GPUs at the same time will break hardware acceleration of the desktop window manager. Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+## dwm.exe มีประสิทธิภาพไม่ดีบนระบบที่มี GPU หลายตัว / หลายหน้าจอ
+แม้ว่าจะมีการติดตั้ง GPU เฉพาะไว้ แต่หากคุณเปิดใช้งานการ์ดจอแบบในตัวใน BIOS ของคอมพิวเตอร์เดสก์ทอป คุณอาจประสบปัญหากับประสิทธิภาพที่ไม่ดีและ DWM.exe ใช้งาน CPU สูง หากเป็นไปได้อย่าเปิดใช้งาน GPU ในตัว **โปรดตรวจสอบให้แน่ใจว่าคุณได้เสียบจอแสดงผลทั้งหมดเข้ากับการ์ดจอเฉพาะ** การใช้ GPU สองตัวในเวลาเดียวกันจะทำลายการเร่งความเร็วของฮาร์ดแวร์ในตัวจัดการหน้าต่างเดสก์ทอป หากคุณไม่มีเทคโนโลยี Nvidia Optimus หรือเทคโนโลยีที่คล้ายคลึงกัน Windows จะต้องคัดลอกรูปภาพวอลเปเปอร์จาก GPU หนึ่งไปยังอีก GPU ซึ่งการดำเนินการนี้ใช้เวลามาก ในความเป็นจริงการดำเนินการแบ่งปันใด ๆ ระหว่าง GPU ทั้งสองจะได้รับผลกระทบซึ่งเหมือนกับการย้ายหน้าต่างเกมระหว่างจอแสดงสองจอ
 
 This specific issue does not affect hardware built for multi-GPU setups like laptops with Nvidia Optimus or proper Nvidia SLI / AMD Crossfire setups with a hardware bridge.
