@@ -22,10 +22,10 @@ Wallpaper Engine은 대부분의 바탕화면 수정 응용프로그램과 잘 �
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+일반적으로 Wallpaper Engine은 *Fences*와 잘 작동합니다. 그러나 **설치된 Fences를 비활성화하면**, Wallpaper Engine의 배경화면을 숨기게 됩니다. 활성화하거나 완전히 삭제해야 합니다.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Windows 7에서 회색 배경화면 또는 텍스처 누락
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Windows 7 업데이트 **KB2533623**이 설치되어 있는지 확인하세요. 링크를 통해 수동으로 설치하거나, Windows 업데이트가 제대로 작동하여 스스로 설치하는지 확인해야 합니다. Microsoft 웹사이트에서 수동으로 다운로드한 뒤 시스템을 다시 시작하면 문제가 해결됩니다:
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
