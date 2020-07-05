@@ -1,10 +1,10 @@
 # Wallpaper Engine 트레이 아이콘 숨기기
 
-It is possible to hide the Wallpaper Engine tray icon by manually creating a registry key which tells Wallpaper Engine to hide the tray icon next to the Windows clock.
+Wallpaper Engine에 Windows 시계 옆 트레이 아이콘을 숨기도록 명령하는 레지스트리 키를 수동으로 생성하여 Wallpaper Engine 트레이 아이콘을 숨길 수 있습니다.
 
-::: warning We do not recommend to do this unless you are absolutely sure that the tray icon is annoying you so much that you are willing to accept the downsides of hiding the tray icon. :::
+::: 경고 트레이 아이콘이 매우 성가시기 때문에 트레이 아이콘 숨기기의 단점을 수용할 수 있는 경우를 제외하고는 이 작업을 권장하지 않습니다. :::
 
-Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+트레이 아이콘을 숨기면, Wallpaper Engine은 Windows 작업 관리자를 통해서만 끌 수 있습니다. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
 
 If you still want to proceed with hiding the tray icon, this is how you do it:
 
