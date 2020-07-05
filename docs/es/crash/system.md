@@ -6,21 +6,21 @@ tags:
 ---
 
 # Fallo del sistema
-Wallpaper Engine no puede causar que falle el sistema completo, pues no afecta a otros programas. Si el sistema sufre algún fallo, pantalla azul u otros programas se cierran mientras Wallpaper Engine está activo, es probable que sea por alguno de estos motivos:
+Wallpaper Engine no puede causar que falle el sistema completo, pues no afecta a otros programas. Si el sistema se cuelga por completo, aparece la pantalla azul u otros programas se cierran mientras Wallpaper Engine está activo, es probable que sea por alguno de estos motivos:
 
 * El hardware que necesita Wallpaper Engine está dañado.
 * Alguno de los controladores que necesita Wallpaper Engine funciona mal o está dañado.
 * Tiene instalado algún software intrusivo que afecta a los controladores o a Windows mientras está activo Wallpaper Engine.
 
-Wallpaper Engine no instala ningún controlador, no sustituye archivos del sistema ni hace nada peligroso o cuestionable que podría dar lugar a un fallo del sistema o a que se cierre otro programa.
+Wallpaper Engine no instala ningún controlador, no sustituye archivos del sistema ni hace nada peligroso o cuestionable que pudiera dar lugar a un fallo del sistema o a que se cierre otro programa.
 
-Cualquier fallo que tenga Wallpaper Engine solo podría causar que se cerrara el propio programa en el peor de los casos, pero es imposible que haga que falle su sistema u otros programas. Es imposible, pues Microsoft ha diseñado Windows de esta forma y Wallpaper Engine se adhiere a esta.
+Cualquier fallo que tenga Wallpaper Engine solo podría causar que se cerrara el propio programa en el peor de los casos, pero es imposible que haga que fallen su sistema u otros programas. Es imposible, pues Microsoft ha diseñado Windows de esta forma y Wallpaper Engine se adhiere a ella.
 
 ## Descubrir qué causa los fallos del sistema
-Wallpaper Engine necesita lo siguiente de su equipo: aceleración 3D, aceleración de vídeo y sonido. Puede intentar descubrir qué problema tiene su ordenador si usa varios tipos diferentes de fondos. Por ejemplo, si solo tiene problemas con los fondos de tipo «vídeo», puede que el problema venga del decodificador de hardware de su tarjeta gráfica. Windwos no lo usa por sí solo y la gran mayoría de juegos no lo utilizan, por lo que no experimentaría ningún problema con el a la hora de jugar.
+Wallpaper Engine necesita lo siguiente de su equipo: aceleración 3D, aceleración de vídeo y sonido. Puede intentar descubrir qué problema tiene su ordenador si usa varios tipos diferentes de fondos. Por ejemplo, si solo tiene problemas con los fondos de tipo «vídeo», puede que el problema venga del decodificador de hardware de su tarjeta gráfica. Windows no lo usa por sí solo y la gran mayoría de juegos no lo utilizan, por lo que no experimentaría ningún problema con él a la hora de jugar.
 
-Si, por el contrario, su problema es una pantalla azul, busque el código del error en internet. Aparecerán muchos resultados que podrían servirle, ya que es un problema del sistema global.
+Si, por el contrario, su problema es una pantalla azul, busque el código del error en internet. Aparecerán muchos resultados que podrían servirle, ya que es un problema global del sistema.
 
 Cualquier tipo de programa superpuesto o de grabación puede causar problemas, y eso incluye Geforce Experience, así que elimínelos.
 
-Use la herramienta de escaneado que le notificará si está activo algún programa conflictivo: [Pulse aquí](/debug/scantool.html).
+Use la herramienta de escano que le notificará si está activo algún programa conflictivo: [Pulse aquí](/debug/scantool.html).
