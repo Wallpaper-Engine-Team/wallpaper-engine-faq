@@ -3,9 +3,9 @@
 C'est peut-être dû au fait que votre matériel n'est pas assez puissant pour afficher correctement la vidéo en question. Un fond d'écran vidéo n'est pas comparable à un lecteur vidéo standard, il doit également prendre en compte les icônes et s'étendre potentiellement sur plusieurs écrans. Il utilise également le décodeur vidéo de votre GPU par défaut pour réduire au minimum l'utilisation du processeur.
 
 ## Hooks d'enregistrement en arrière-plan
-It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
+Ce problème peut venir des fonctionnalités des pilotes pour l'enregistrement telles que ReLive, Shadow Play/Nvidia Share ou Windows GameDVR. Essayez de les désactiver et voyez si cela fait une différence, puis excluez-les de Wallpaper Engine. Assurez-vous également qu'aucun autre programme d'enregistrement ne se charge dans Wallpaper Engine, cela peut ralentir les vidéos.
 
-You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
+Vous pouvez essayer d'utiliser notre outil d'analyse pour déterminer si des programmes avec des hooks d'enregistrement sont installés, mais il ne pourra pas tout trouver, notamment les hooks d'enregistrement comme ceux fournis avec Nvidia GeForce Experience :
 
 * [Outil d'analyse de Wallpaper Engine](/debug/scantool.html)
 
