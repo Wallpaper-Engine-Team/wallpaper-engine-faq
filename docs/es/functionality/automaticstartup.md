@@ -6,17 +6,17 @@ tags:
 
 # Inicio automático al arrancar
 
-Puede hacer que Wallpaper Engine se inicie cuando encienda el ordenador si va a la pestaña «General» de la configuración de Wallpaper Engine. Puede activar el inicio automático al arrancar en la parte superior, lo que abrirá la aplicación en segundo plano cuando encienda el equipo.
+Puede hacer que Wallpaper Engine se inicie cuando encienda el ordenador si va a la pestaña «General» de la configuración de Wallpaper Engine. Puede activar el inicio automático al arrancar en la parte superior, y así se abrirá la aplicación en segundo plano cuando encienda el equipo.
 
 ## ¿Qué diferencia hay entre las opciones «prioridad alta» y «normal»?
 
-Si elige la opción de prioridad alta, Wallpaper Engine se registrará como un servicio de Windows. Esto significa que Wallpaper Engine se abrirá antes que otros programas que tenga configurados para que se abran al inicio de Windows. Esto no afectará al rendimiento de la aplicación en otros aspectos.
+Si elige la opción de prioridad alta, Wallpaper Engine se registrará como un servicio de Windows. Esto significa que se abrirá antes que otros programas que tenga configurados para que se abran al inicio de Windows, pero no afectará al rendimiento de la aplicación en otros aspectos.
 
 El inconveniente de usar la opción de prioridad alta es que puede resultar menos fiable, ya que es posible que algunos antivirus bloqueen Wallpaper Engine para que no se inicie en este modo al identificarlo como un comportamiento malicioso.
 
 ## He activado el inicio automático, pero no funciona. ¿Qué hago?
 
-Si utiliza la opción *prioridad alta*, desactívela para hacer un inicio automático al arrancar *normal*. Tal y como se explicó con anterioridad, el modo de prioridad alta es menos fiable por muchas razones, a pesar de iniciarse rápido, porque a veces se ve bloqueado por los antivirus.
+Si utiliza la opción *prioridad alta*, desactívela para hacer un inicio automático al arrancar *normal*. Tal y como se ha explicado anteriormente, el modo de prioridad alta es menos fiable por muchas razones, a pesar de iniciarse rápido, porque a veces se ve bloqueado por los antivirus.
 
 Si usa la opción de prioridad normal y la aplicación no se inicia a la vez que Windows, intente cambiarlo a prioridad alta para ver si se soluciona el problema.
 
