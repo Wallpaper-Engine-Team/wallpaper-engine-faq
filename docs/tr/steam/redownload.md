@@ -1,26 +1,26 @@
 ---
 tags:
-  - download
-  - re-download
-  - deleted
-  - deletes
+  - indirme
+  - yeniden indirme
+  - silinmiş
+  - silmeler
 ---
 
-# Steam redownloading wallpapers
+# Steam duvar kâğıtlarını yeniden indiriyor
 
-Steam's download cache was broken and now Steam redownloads all files (for no particular reason or i.e. Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
+Steam'in indirme önbelleği bozuldu ve şimdi tüm dosyaları yeniden indiriyor (özel bir nedeni yok, yani Steam düzgün kapanmak yerine çöküyor). Bunun nedeni Wallpaper Engine değildir, bu nedenle Wallpaper Engine üzerinden düzeltilemez. Steam'deki tüm Atölye uygulamaları bu Steam hatasıyla karşılaşabilir. Bu sorunu sıkça yaşıyorsanız alternatif çözüm yolları vardır:
 
-## Fix Steam automatically
-We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
-* Turn off Steam
-* Go to the `wallpaper_engine` installation directory
-  * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
-* Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
-  * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
-* Restart Steam and verify the Wallpaper Engine files:
-  * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+## Steam'i otomatik olarak onar
+Steam'in bu sorunu durdurmasını sağlamak için kullanabileceğiniz (umarız) otomatik bir Steam onarıcısı yaptık! Şu adımları takip edin:
+* Steam'i kapatın
+* `wallpaper_engine` yükleme dizinine gidin
+  * Varsayılan konum: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
+* `wallpaper_engine\bin\steamredownloadfixer32.exe`'yi çalıştırın
+  * Araç size herhangi bir hata mesajı veriyorsa lütfen bize bir e-posta gönderin ve geliştirip geliştiremeyeceğimize bakalım
+* Steam'i yeniden başlatın ve Wallpaper Engine dosyalarını doğrulayın:
+  * [Wallpaper Engine dosyalarını doğrula](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-You have to repeat this every time the Steam download cache breaks up, unfortunately. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
+Maalesef ki Steam indirme önbelleği her bozulduğunda bunu tekrarlamanız gerekir. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
 
 ## Reinstall Steam
 
