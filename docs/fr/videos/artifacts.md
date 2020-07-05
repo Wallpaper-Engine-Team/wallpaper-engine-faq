@@ -1,19 +1,19 @@
 ---
 tags:
-  - colors
-  - bright
-  - dark
+  - couleurs
+  - luminosité
+  - sombre
   - zoom
-  - zoomed-in
-  - pixelated
-  - border
+  - zoomé
+  - pixelisé
+  - bord
   - gamma
-  - quality
-  - wrong
-  - ugly
+  - qualité
+  - erreur
+  - moche
 ---
 
-# Video wallpapers look wrong
+# Les fonds d'écran vidéo sont moches
 
 Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
 
