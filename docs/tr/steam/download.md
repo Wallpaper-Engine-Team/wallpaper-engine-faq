@@ -46,19 +46,19 @@ Steam dosyaları indirip doğrulamıyor. Steam indirmeleriniz belirli bir süre 
 * Orta Avrupa'da aynı saat: **Çarşamba 01.00 (UTC + 1)**
 * Çin'de aynı saat: **Çarşamba 08.00 (UTC + 8)**
 
-Bu yazıyı neredeyse haftanın bu zamanlarında okuyorsanız sunucular geçici olarak çevrimdışı olabilir. Wait one or two hours and try again. :::
+Bu yazıyı neredeyse haftanın bu zamanlarında okuyorsanız sunucular geçici olarak çevrimdışı olabilir. Birkaç saat bekleyip tekrar deneyin. :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam: "İndirilen Dosyalar Eksik" hatası
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+Steam bazı dosyaları indiremiyor. Bunun nedeni Steam'i engelleyen antivirüs uygulamaları veya herhangi bir şey olabilir. Bu sorun genellikle şu şekilde düzeltilebilir:
 
-* Turn off Steam.
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Steam'i kapatın.
+* Şu dizindeki içerikleri silin: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+* Şu dizindeki içerikleri silin: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+  * **Unutmayın:** `C:\Program Files (x86)\Steam` varsayılan Steam yoludur. Eğer bunu farklı bir yere kurduysanız orayı kontrol edin.
+* Steam'i başlatın ve Wallpaper Engine dosyalarını doğrulayın:
+  * [Wallpaper Engine dosyalarını doğrula](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+Yüklü bir antivirüs uygulamanız varsa: Steam Atölye indirmelerini engellemesini önlemek için şu dizin için bir istisna yapılandırın: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### İlgili makale: [Steam tüm duvar kâğıtlarını yeniden indirme](/steam/redownload)
