@@ -2,9 +2,9 @@
 
 務必使用應用程式的「工作坊」分頁來搜尋新的桌布。 Steam 工作坊網站不具備與此應用程式相同的篩選功能，也會顯示過多您不感興趣的內容。
 
-## Excluding certain genres (anime, for example)
+## 排除特定類型 (例如動漫)
 
-You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+您可從應用程式篩選掉您不喜歡的類別。 Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
 If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
 
