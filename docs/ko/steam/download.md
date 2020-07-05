@@ -19,20 +19,20 @@ Steam 다운로드 관련 문제가 발생하면, 바이러스 백신 응용프�
 ## 배경화면 다운로드가 0% 또는 100% (또는 다른 퍼센트)에서 중단
 Steam은 다운로드를 완료하지 않고 파일을 식별하지 않습니다. 다운로드가 한동안 중단되면 잠시 기다리고, 그래도 여전히 Steam 다운로드가 작동하지 않으면 다음 방법을 시도해 보세요:
 
-* Steam 옵션에서 Steam의 다운로드 캐시를 제거하세요:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+* Steam 옵션에서 Steam의 다운로드 캐시를 지우세요:
+  * [Steam 다운로드 캐시 지우기](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* 그후 Steam에서 Wallpaper Engine 파일을 식별하세요:
+  * [Wallpaper Engine 파일 식별하기](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* 여전히 모든 다운로드가 중단되면: **Steam 끄기** 후 다음 디렉터리의 **콘텐츠 삭제**:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * 바이러스 백신 응용프로그램이 설치되었으면, 이 디렉터리가 제외되었는지 확인하세요
+    * **참고:** `C:\Program Files (x86)\Steam`은 기본 Steam 경로이며, 다른 곳에 설치한 경우 위치를 확인하세요.
+* Steam을 다시 시작하고, 게임은 시작하지 마세요. Steam 다운로드 탭에서 진행률을 확인하고 일시정지된 다운로드를 재개하세요.
 
-::: details Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
-* Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
-* Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
+::: 위의 단계로 다운로드 문제를 해결하지 못했다면, 여기를 클릭하여 더 많은 가능한 해결책을 확인하세요
+* 바이러스 백신 방화벽이 Steam을 차단하지 않았는지 확인하세요. 바이러스 백신 앱 설정에서 Steam 디렉터리 전체를 제외하세요.
+* 다운로드하지 못한 배경화면을 구독 취소하고, Steam을 재시작한 뒤 다시 구독하세요.
+* Steam 설정에서 다른 콘텐츠 서버를 선택하세요. 옵션은 Steam 설정의 "다운로드" 탭에서 찾을 수 있습니다.
 * Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
 * Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
 * Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
