@@ -10,11 +10,11 @@ tags:
 
 # Problemas con la descarga de fondos de Steam
 
-Tenga en cuenta que **Steam se ocupa de todas las descargas**. Wallapaper Engine solo muestra el estado de descarga de Steam, y todos los problemas con las descargas están relacionados con Steam y no con Wallpaper Engine. Esta guía contiene una colección de los problemas más comunes con las descargas, y en muchos de los casos, la causa principal de los problemas con los antivirus o los puertos bloqueados.
+Tenga en cuenta que **Steam se ocupa de todas las descargas**. Wallpaper Engine solo muestra el estado de descarga de Steam, y todos los problemas con las descargas están relacionados con Steam y no con Wallpaper Engine. Esta guía contiene una colección de los problemas más comunes con las descargas, y en muchos de los casos, la causa principal de los problemas son los antivirus o los puertos bloqueados.
 
 Si tiene problemas con las descargas de Steam, compruebe que el antivirus no haya bloqueado Steam y que todos los puertos necesarios están abiertos en el firewall, incluidos los firewall de los routers.
 
-::: consejo Puede comprobar si el router tiene bloqueadas las descargas de Steam si se conecta desde un punto Wi-Fi con su teléfono e intenta descargar un fondo de pantalla. :::
+::: tip Puede comprobar si el router tiene bloqueadas las descargas de Steam si se conecta desde un punto Wi-Fi con su teléfono e intenta descargar un fondo de pantalla. :::
 
 ## La descarga se queda a 0 % o 100 % (o cualquier otro porcentaje)
 Steam no ha terminado de descargar y verificar los archivos. Si lleva esperando un buen rato y las descargas de Steam no avanzan, siga los pasos siguientes:
@@ -29,7 +29,7 @@ Steam no ha terminado de descargar y verificar los archivos. Si lleva esperando 
     * **Aviso:** `C:\Program Files (x86)\Steam` es la ruta de Steam por defecto. Si lo ha instalado en otro directorio, tendrá que comprobar ese.
 * Reinicie Steam. No abra ningún juego. Compruebe la pestaña de descargas de Steam para ver el progreso y reinicie las descargas pausadas.
 
-::: detalles Haga click aquí para ver más soluciones posibles si los pasos anteriores no solucionan el problema con las descargas.
+::: details Haga click aquí para ver más soluciones posibles si los pasos anteriores no solucionan el problema con las descargas.
 * Compruebe que el antivirus o el firewall no tienen Steam bloqueado. Excluya el directorio entero de Steam en la configuración del antivirus.
 * Desuscríbase de los fondos que no puedan descargarse y vuelva a suscribirse después de reiniciar Steam.
 * Elija otro servidor de contenido en la configuración de Steam. Encontrará la opción en la pestaña «Descargas» de la configuración de Steam.
@@ -40,7 +40,7 @@ Steam no ha terminado de descargar y verificar los archivos. Si lleva esperando 
 * Espere al menos un día, por si los servidores de Steam tuvieran algún problema.
 * **Como última opción,** vuelva a instalar Wallpaper Engine para deshacerse de cualquier archivo dañado de Steam (¡se volverán a descargar todos los fondos!). :::
 
-::: consejo Los servidores de Steam se desconectan cada semana a una hora concreta por temas de mantenimiento:
+::: tip Los servidores de Steam se desconectan cada semana a una hora concreta por temas de mantenimiento:
 
 * Costa Este de Estados Unidos: **jueves a las 16:00 (UTC -7)**.
 * Misma hora en Europa: **miércoles a la 01:00 (UTC+1)**.
