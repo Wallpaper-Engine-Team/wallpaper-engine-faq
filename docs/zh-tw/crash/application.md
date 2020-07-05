@@ -91,4 +91,4 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ## 電腦休眠/睡眠後當機
 
-如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不會寄望於 Windows 休眠後能正常運作。
+如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不會寄望 Windows 休眠後能正常運作。
