@@ -1,20 +1,20 @@
 - - -
-tags:
-  - activemovie window
-  - active movie
-  - black
+태그:
+  - 활성영화 창
+  - 활성 영화
+  - 검은색
 - - -
 
 
-# Videos Black / Not Playing Properly
+# 비디오 검은 색 / 제대로 재생되지 않습니다
 
-Black screens and other issues with wallpapers of the type *Video* are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
+검은 화면 및 *비디오* 유형의 배경화면 관련 기타 문제는 *항상* 잘못된 그래픽 카드 드라이버나 비디오 코덱이 원인입니다. 다음 단계를 정확한 순서대로 따라하세요. 이 가이드를 처음부터 끝까지 따라하면 문제가 해결됩니다:
 
-::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black or not playing properly. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+:: 경고 이 항목은 검은색이 되거나 제대로 재생되지 않는 Wallpaper Engine **배경화면**에 대한 내용입니다. **Wallpaper Engine 인터페이스가 검은색**이면, 여기를 확인하세요: [Wallpaper Engine 사용자 인터페이스가 검은색입니다](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
-## Clean graphics card driver re-installation
+## 그래픽 카드 드라이버 완전히 새로 설치
 
-For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
+대부분의 경우 그래픽 카드 드라이버를 새로 설치하면 비디오 배경화면 관련 문제 유형은 거의 다 해결할 수 있습니다. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
 
 1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
 
