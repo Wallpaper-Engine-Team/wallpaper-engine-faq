@@ -27,10 +27,10 @@ Si la verificación de archivos de Steam no soluciona el problema tras configura
 
 Los controladores de su tarjeta gráfica están dañados o desconfigurados. Descargue los más recientes (incluso si ya los tiene instalados) y vuelva a instalarlos de cero. Es necesario que desinstale los controladores que tiene instalados e instale los más recientes para asegurarse de que se eliminen los archivos o ajustes dañados.
 
-Si el problema persiste, cierre Wallpaper Engine Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+Si el problema persiste, cierre Wallpaper Engine y vuelva a abrirlo con la tercera opción en Steam: «Deshabilitar aceleración de hardware».
 
 ### Error de la interfaz de Steam que destroza la interfaz de Wallpaper Engine
 
 La interfaz de Steam tiene un error atípico que puede causar que la pantalla del programa se vea negra. Puede hacer lo siguiente:
 
-Cierre Wallpaper Engine (haga clic en el icono en la bandeja y seleccione «Salir»). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. Tras desactivar la opción, reinicie Wallpaper Engine a través de Steam. 
+Cierre Wallpaper Engine (haga clic en el icono en la bandeja y seleccione «Salir»). Después, abra Steam, haga clic derecho en Wallpaper Engine, vaya a «Propiedades» y desactive la opción «Habilitar interfaz de Steam». Tras desactivar la opción, reinicie Wallpaper Engine a través de Steam. 
