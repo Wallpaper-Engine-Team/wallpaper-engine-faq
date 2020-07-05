@@ -17,7 +17,7 @@ Nous avons construit un petit logiciel pour essayer d'empêcher Steam de continu
   * Par défaut, il se trouve ici : `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * Lancez `wallpaper_engine\bin\steamredownloadfixer32.exe`
   * Si l'outil vous donne des messages d'erreur, veuillez nous envoyer un e-mail et nous verrons si nous pouvons vous aider
-* Redémarrez Steam et vérifier les fichiers de Wallpaper Engine :
+* Redémarrez Steam et vérifiez les fichiers de Wallpaper Engine :
   * [Vérifier les fichiers de Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
 Vous devrez refaire cette manipulation à chaque fois que vous rencontrerez des problèmes avec le cache de Steam. Nous ne sommes pas les développeurs de Steam et nous ne pouvons malheureusement pas faire plus pour vous aider.
@@ -29,7 +29,7 @@ La solution la plus fiable à long terme semble être de réinstaller régulièr
 1. Passez par Steam pour désinstaller Wallpaper Engine.
 2. Désinstaller Steam en suivant ce guide officiel :
   * [Désinstaller Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
-  * Lisez en particulier la section "Désinstaller Steam manuellementdans" et faites une sauvegarde de votre répertoire *steamapps* comme décrit expliqué pour vous assurer que vous n'aurez pas à retélécharger tous vos jeux.
+  * Lisez en particulier la section "Désinstaller Steam manuellement" et faites une sauvegarde de votre répertoire *steamapps* comme décrit expliqué pour vous assurer que vous n'aurez pas à retélécharger tous vos jeux.
 
 ## Utiliser une sauvegarde locale
 
