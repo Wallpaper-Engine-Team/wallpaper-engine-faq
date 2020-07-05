@@ -24,26 +24,26 @@
 
 2. 기존 그래픽 카드 드라이버를 완전히 삭제하고, 물어보는 경우 모든 기존 설정을 제거하세요. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+이 방법을 잘 모르겠으면, [디스플레이 드라이버 제거 프로그램("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)를 사용할 수도 있습니다.
 
-3. Install the drivers you have just downloaded in step 1.
-4. Restart your PC again, see if it works now.
+3. 1번에서 다운로드한 드라이버를 설치하세요.
+4. PC를 다시 시작하고 제대로 작동하는지 확인하세요.
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: 팁 완전히 새로 설치하는 것이 매우 중요합니다. 새 드라이버를 설치하기 전 기존 그래픽 카드 드라이버와 드라이버 설정을 완전히 삭제하지 않으면, 작동하지 않습니다. :::
 
-## Codec Tweak Tool
+## Codec Tweak 도구
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+그래픽 카드 드라이버를 완전히 새로 설치한 후에도 작동하지 않으면, 비디오 코덱을 초기화해 보세요:
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
+* Codec Tweak 도구 다운로드: [여기를 클릭하세요](https://www.codecguide.com/download_other.htm)
 * Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![미디어 파운데이션 옵션에서 모든 옵션 선택 취소](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* PC를 다시 시작한 뒤 영향을 받은 배경화면을 시도해 보세요.
 
-## Additional video codecs
+## 추가 비디오 코덱
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+이전 단계를 진행해도 영향을 받은 비디오 배경화면이 여전히 작동하지 않으면, 이 가이드의 설명에 따라 LAV를 다운로드하고 DirectShow를 사용하세요:
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [LAV 및 DirectShow 사용](/videos/lav.html)
