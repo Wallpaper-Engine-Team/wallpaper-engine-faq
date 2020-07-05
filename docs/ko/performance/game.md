@@ -8,17 +8,17 @@
 
 특정 게임이나 응용프로그램에서만 문제가 발생하면, **응용프로그램 규칙**을 생성해서 문제를 겪는 소프트웨어에만 이것을 구성할 수도 있습니다:
 
-1. Open the **Performance** tab in the Wallpaper Engine settings
-2. Click on the **Edit** button next to **Application rules**
-3. In the pop-up that appears, click on **Create new rule**
-4. Create a new rule with the following settings:
-    * **Application name:** "game.exe" *(replace this with the actual .exe file of your game)*
-    * **Condition:** "Is running"
-    * **Wallpaper playback:** "Stop (free memory)"
-5. Confirm by clicking on **Create**
+1. Wallpaper Engine 설정에서 **성능** 탭을 여세요
+2. **응용프로그램 규칙** 옆의 **편집** 버튼을 클릭하세요
+3. 팝업창이 뜨면 **새 규칙 만들기**를 클릭하세요
+4. 다음 설정으로 새 규칙을 만드세요:
+    * **응용프로그램 이름:**"game.exe" *(이것을 게임의 실제 .exe 파일로 교체)*
+    * **조건:** "실행 상태"
+    * **배경화면 재생:** "중지 (여유 메모리 확보)"
+5. **생성**을 클릭하여 확인하세요
 
-Wallpaper Engine will now completely remove all wallpapers from memory when the *.exe* you configured is launched.
+구성한 *.exe*를 실행하면, Wallpaper Engine이 메모리의 모든 배경화면을 완전히 제거합니다.
 
-## Conflicts with screen-recording tools or overlays
+## 화면 기록 도구 충돌 또는 오버레이
 
-If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+게임 스트리밍, 게임 기록 또는 오버레이 소프트웨어를 사용하면, 배경에서 실수로 Wallpaper Engine을 기록하지 않게 해야 합니다. 또한 그래픽 카드 드라이버에서 게임 스트리밍 기능을 사용하는 경우에도 해당됩니다. (예: Nvidia ShadowPlay, Nvidia Share 또는 AMD ReLive)
