@@ -22,7 +22,7 @@ Wallpaper Engine은 대부분의 비디오 플레이어와는 다르게 비디�
 You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
-* [AMD Radeon](https://www.amd.com/support)
+* [AMD Radeon](https://www.amd.com/suppor)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 어떻게 해야할지 모르는 경우: 그래픽 카드의 최신 드라이버를 다운로드 후, DDU를 사용하여 그래픽 카드 드라이버를 삭제하고 모든 설정을 지우세요.
@@ -31,4 +31,4 @@ You can also reinstall the graphics card drivers and choose to reset all setting
 
 Afterwards, install the drivers you have just downloaded. 제대로 수행하면 문제를 확실히 해결할 수 있습니다.
 
-::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. Make sure you first uninstall all your current graphics card drivers and clear up all driver settings. :::
+::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. 일단 기존 그래픽 카드 드라이버를 모두 삭제하고, 모든 드라이버 설정을 제거했는지 확인하세요. ::
