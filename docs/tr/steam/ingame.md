@@ -1,9 +1,9 @@
-# Steam always shows "in-game"
-Wallpaper Engine'in yalnızca Atölye özelliklerine erişirken Steam'de gösterilmesi gerekir (tarayıcı veya düzenleyici açık olduğunda, bunu Valve / Steam uygular). But if it shows up even after closing all windows, you are either experiencing a known Steam bug, that you can avoid with the fix below, or the window did not close properly (check for ui32.exe in task manager).
+# Steam her zaman "oyun içi" gösteriyor
+Wallpaper Engine'in yalnızca Atölye özelliklerine erişirken Steam'de gösterilmesi gerekir (tarayıcı veya düzenleyici açık olduğunda, bunu Valve / Steam uygular). Ancak tüm pencereleri kapattıktan sonra bile gösteriliyorsa ya aşağıdaki şekilde önleyebileceğiniz bilindik bir Steam hatasıyla karşı karşıyasınızdır ya da pencere düzgün kapanmamıştır (görev yöneticisinde ui32.exe dosyasını kontrol edin).
 
-If you regularly have this problem you can get around this by not launching the program through Steam but directly from the wallpaper_engine installation directory. By default this would be `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe`. If Wallpaper Engine is running already, completely turn it off first and then re-run it from this directory and possibly turn the autostart off and back on in the Wallpaper Engine settings.
+Sürekli olarak bu sorunu yaşıyorsanız programı Steam üzerinden değil doğrudan wallpaper_engine yükleme dizininden başlatarak bunu çözebilirsiniz. Varsayılan olarak bu dizin `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe`'dir. Wallpaper Engine zaten çalışıyorsa önce tamamen kapatın ve ardından bu dizinden yeniden çalıştırın. Sonra Wallpaper Engine ayarlarındaki otomatik başlatmayı kapatıp tekrar açın.
 
-Every time Steam reconnects to the internet, due to your internet turning off and on, Steam may go a little crazy when it comes to your in-game status which can cause issues like that. As mentioned above, start the program directly or via the autostart functionality and not through Steam, this will likely prevent the issue from happening for you.
+İnternetin kapanması ve açılması nedeniyle Steam her internete yeniden bağlandığında oyun içi durumunuz konusunda biraz çılgına dönebilir ve bu da bu tarz sorunlara neden olabilir. Yukarıda da belirtildiği üzere programı Steam üzerinden değil, doğrudan veya otomatik başlatma işlevi aracılığıyla başlatın. Bu muhtemelen sorunu çözecektir.
 
-## Completely disable Workshop / Steam integration
+## Atölye / Steam entegrasyonunu tamamen devre dışı bırakma
 You can disable the entire Steam integration by creating an empty text file named `nosteam.txt` and putting it into the `wallpaper_engine/bin` directory (by default the complete path is `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`). You cannot download/update or upload any wallpapers if this is disabled, but you can still access everything that was previously downloaded. 
