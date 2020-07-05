@@ -14,8 +14,8 @@ Si tiene problemas técnicos con Wallpaper Engine y no puede resolverlos tras le
 
 **Paso 2**
 
-![Scan Tool Launch Option](./scantoollaunch.gif)
+![Opción Usar herramienta de escaneo](./scantoollaunch.gif)
 
 **Paso 3**
 
-![Scan Tool Save Log](./scantoolsave.gif)
+![Guardar registro de la herramienta de escaneo](./scantoolsave.gif)
