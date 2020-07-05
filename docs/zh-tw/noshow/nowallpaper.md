@@ -18,11 +18,11 @@ tags:
 
 ## 與其他桌面改造軟體衝突
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine 與大部分桌面改造應用程式安然並存。 但有些應用程式也能修改 Windows 桌布，例如 StarDock DeskScapes，因此兩個應用程式無法同時運作。 如果您使用 Wallpaper Engine 類似的應用程式，則必須決定使用哪個應用程式。
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+一般而言，Wallpaper Engine 與 *Fences* 配合良好。 不過，**如果您安裝了 Fences 卻將其停用**，將會使 Wallpaper Engine 中的桌布隱藏。 您必須啟用或完全解除安裝。
 
 ## Gray Wallpaper or missing textures on Windows 7
 
