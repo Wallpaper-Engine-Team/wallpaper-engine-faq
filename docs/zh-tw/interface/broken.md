@@ -15,9 +15,9 @@ tags:
 
 ## Wallpaper Engine 瀏覽器呈現黑色或白色
 
-對大多數人而言，這樣表示 Wallpaper Engine 使用者介面受到防毒軟體錯誤封鎖。 請在防毒應用程式中設定例外，使其忽略 Wallpaper Engine，必須納入 wallpaper_engine 安裝目錄中的所有可執行檔，尤其是 **wallpaper_engine/bin/ui32.exe**。
+對大多數人而言，這樣表示 Wallpaper Engine 使用者介面受到防毒應用程式錯誤封鎖。 請在防毒應用程式中設定例外，使其忽略 Wallpaper Engine，必須納入 wallpaper_engine 安裝目錄中的所有可執行檔，尤其是 **wallpaper_engine/bin/ui32.exe**。
 
-在某些情況下，如果防毒軟體已經永久封鎖某些重要的 Wallpaper Engine 檔案，則必須在之後驗證 Wallpaper Engine 檔案，甚至重新安裝 Wallpaper Engine 檔案：
+在某些情況下，如果防毒應用程式已經永久封鎖某些重要的 Wallpaper Engine 檔案，則必須在之後驗證 Wallpaper Engine 檔案，甚至重新安裝 Wallpaper Engine 檔案：
 
 * [Steam 支援：驗證應用程式檔案完整性](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
