@@ -1,17 +1,17 @@
 ---
 tags:
-  - hardware
+  - 하드웨어
 ---
 
-# RGB hardware support (iCUE & Chroma)
+# RGB 하드웨어 지원 (iCUE & Chroma)
 
-Wallpaper Engine supports [**Razer Chroma**](https://www.razer.com/chroma) and [**Corsair iCUE**](https://www.corsair.com/icue), including systems which may integrate into either ecosystem.
+Wallpaper Engine은 [**Razer Chroma**](https://www.razer.com/chroma) 및 [**Corsair iCUE**](https://www.corsair.com/icue)를 지원하며, 여기에는 에코시스템에 통합되는 시스템을 포함합니다.
 
-## How do I enable / disable RGB hardware
+## RGB 하드웨어 활성화 / 비활성화 방법
 
-In the "Plugins" section of the Wallpaper Engine settings, you can find the **iCUE & Chroma SDK plugin**. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. You can also click on the cogwheel symbol next to it to further configure individual parts of it.
+Wallpaper Engine 설정의 "플러그인" 섹션에서 **iCUE & Chroma SDK 플러그인**을 찾을 수 있습니다. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. 또한 옆의 톱니바퀴 모양을 클릭하여 개별 부분을 구성할 수 있습니다.
 
-Additionally, RGB support can be toggled off on each wallpaper. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+그리고 RGB 지원은 배경화면마다 끌 수도 있습니다. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
 
 ## The RGB hardware colors seem too bright
 
