@@ -1,6 +1,6 @@
-# Steamworks is unavailable
+# Steamworks est indisponible
 
-Wallpaper Engine and Steam are unable to communicate for some reason. Restart Steam, then Wallpaper Engine. Make sure it is logged into the account you own Wallpaper Engine on. If you run either Steam or Wallpaper Engine as administrator, the Steamworks SDK in Wallpaper Engine may not work. The solution is to not run either program as admin, which is the intended way. If it still does not work, reinstall Steam and get rid of any antivirus that blocks communication between different programs.
+Cela signifie que Wallpaper Engine et Steam n'arrivent plus à communiquer. Restart Steam, then Wallpaper Engine. Make sure it is logged into the account you own Wallpaper Engine on. If you run either Steam or Wallpaper Engine as administrator, the Steamworks SDK in Wallpaper Engine may not work. The solution is to not run either program as admin, which is the intended way. If it still does not work, reinstall Steam and get rid of any antivirus that blocks communication between different programs.
 
 Try the following steps:
 
