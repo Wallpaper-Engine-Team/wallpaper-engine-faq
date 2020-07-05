@@ -9,19 +9,19 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 [[toc]]
 
-::: 提示 使用者提供的當機報告幾乎都是因為顯示卡驅動程式損壞、防毒應用程式或其他缺陷軟體，使得電腦運作不穩定。 :::
+::: tip 使用者提供的當機報告幾乎都是因為顯示卡驅動程式損壞、防毒應用程式或其他缺陷軟體，使得電腦運作不穩定。 :::
 
 ## Wallpaper Engine 當機快速修復方式
 
-如果不確定導致 Wallpaper Engine 當機的原因，請將顯示卡驅動程式全新重新安裝。 亦即，您需要先解除安裝驅動程式，等現有的驅動程式完全解除安裝後，再重新安裝最新的驅動程式。 有一些驅動程式在進階區段中提供了「執行全新重新安裝」的選項，請啟用此選項，自動清除不完整驅動程式遺留的任何檔案。 您可以從以下大廠取得最新的顯示卡驅動程式：
+如果不確定導致 Wallpaper Engine 當機的原因，請將顯示卡驅動程式全新安裝。 亦即，您需要先解除安裝驅動程式，等現有的驅動程式完全解除安裝後，再重新安裝最新的驅動程式。 有一些驅動程式在進階區段中提供了「執行全新安裝」的選項，請啟用此選項，自動清除不完整驅動程式遺留的任何檔案。 您可以從以下大廠取得最新的顯示卡驅動程式：
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-如果您安裝了防毒應用程式 (Windows Defender 除外)，請務必在 Wallpaper Engine 的防毒設定中設定為例外。 如果防毒應用程式永久損壞或鎖定某些檔案，則有時候必須重新安裝 Wallpaper Engine。
+如果您安裝了防毒應用程式 (Windows Defender 除外)，請務必在 Wallpaper Engine 的防毒設定中設定為例外。 如果防毒應用程式永久損壞或鎖定某些檔案，有時候必須重新安裝 Wallpaper Engine。
 
-此外，務必透過 Steam 驗證 Wallpaper Engine，確保其完好未損壞。
+此外，務必透過 Steam 驗證 Wallpaper Engine，確保其完好無損。
 
 * [Steam 支援：驗證應用程式檔案完整性](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
@@ -53,7 +53,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: 提示 請注意 請確保在設定過程中選取「執行全新重新安裝」，或先手動解除安裝目前的驅動程式。 如果您目前的驅動程式已損，務必先將其完全清除。 :::
+::: tip 請注意 請確保在設定過程中選取「執行全新安裝」，或先手動解除安裝目前的驅動程式。 如果您目前的驅動程式已損壞，務必先將其完全清除。 :::
 
 ### nvwgf2umx.dll
 
@@ -61,7 +61,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: 提示 請注意 請確保在設定過程中選取「執行全新重新安裝」，或先手動解除安裝目前的驅動程式。 如果您目前的驅動程式已損，務必先將其完全清除。 :::
+::: tip 請注意 請確保在設定過程中選取「執行全新安裝」，或先手動解除安裝目前的驅動程式。 如果您目前的驅動程式已損壞，務必先將其完全清除。 :::
 
 ### igdumd64.dll/igd10umd64.dll/igdumdx32.dll/igd10umd32.dll
 
@@ -72,11 +72,11 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ### MMDEvAPI.dll
 
-此種類型的當機是因為系統安裝的音訊軟體已經損壞。 通常是因為「音效增強」軟體造成，尤其是各家筆記型電腦上預先安裝的軟體。 此類軟體以錯誤方式與 Windows 互動，因此常造成當機，請找出「Sonic Studio」或 「Nahimic」並執行更新。 如果找不到這些程式的更新，您也可以將其解除安裝，因為電腦音訊不需要這類程式也能正常運作。
+此種類型的當機是因為系統安裝的音訊軟體已經損壞。 通常是因為「音效增強」軟體造成，尤其是各家筆記型電腦上預先安裝的軟體。 此類軟體以錯誤方式與 Windows 互動，因此常造成當機，請找出「Sonic Studio」或 「Nahimic」並執行更新。 如果您找不到這些程式的更新，也可以將其解除安裝，因為電腦音訊不需要這類程式也能正常運作。
 
 ### fraps32.dll
 
-此種當機是因為 FPS 顯示器與螢幕錄製應用程式 Fraps 而造成。 Fraps 應用程式自 2013 年起就未再更新，已經嚴重過時。 由於 Fraps 已遭放棄，此錯誤可能永遠無法修復，請使用其他應用程式代替。
+此種當機是因為 FPS 顯示器與螢幕錄製應用程式 Fraps 而造成。 Fraps 應用程式自 2013 年起就未再更新，已經嚴重過時。 由於 Fraps 已遭放棄，此錯誤可能永遠無法修復，請改用其他應用程式。
 
 ## 當機錯誤 0xc000007b
 
@@ -91,4 +91,4 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ## 電腦休眠/睡眠後當機
 
-如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不期望 Windows 休眠後正常運作。
+如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不會寄望於 Windows 休眠後能正常運作。
