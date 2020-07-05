@@ -14,27 +14,27 @@
 
 ### 장면 배경화면
 
-장면 배경화면은 상자 밖에서 편집할 수 없는 .pkg 파일로 압축되어 있으므로, 프로젝트 관련 모든 데이터를 잃습니다. .pkg 파일을 열려고 하면 "묶인 배경화면들을 열 수 없음" 오류가 표시됩니다. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+장면 배경화면은 상자 밖에서 편집할 수 없는 .pkg 파일로 압축되어 있으므로, 프로젝트 관련 모든 데이터를 잃습니다. .pkg 파일을 열려고 하면 "묶인 배경화면들을 열 수 없음" 오류가 표시됩니다. 그리고 .jpeg 이미지 파일도 첨부된 Photoshop 프로젝트 데이터와 함께 제공되지 않음을 유추할 수 있습니다. 이것은 항상 원작자의 시스템에 남아 있습니다.
 
-#### Unofficial Community Scene Unpacker
+#### 비공식 커뮤니티 장면 압축 해제
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. 자세한 정보는 다음 웹사이트에서 확인하세요:
+그러나 커뮤니티 멤버가 비공식 장면 배경화면 압축 재헤 도구를 제작하였으므로, 사용자는 장면 파일을 압축 해제하여 이를 바탕으로 자신만의 배경화면을 시작할 수 있습니다. 자세한 정보는 다음 웹사이트에서 확인하세요:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+아직 유효한 project.json 파일이 필요합니다. 편집기에서 간단히 새로운 빈 배경화면을 만들고, Wallpaper Engine을 닫은 다음 다운로드한 배경화면을 압축 해제하여 그 내용을 복사 후 새로운 프로젝트 디렉토리에 붙여 파일을 생성할 수 있습니다.
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+프로젝트 파일을 잃어버린 배경화면 중 하나를 편집하려면, *잃어버린 프로젝트 업데이트* 섹션에서 project.json을 만드는 데 필요한 변경 내용과 관련된 자세한 내용을 참조하세요. 그러면 기존 배경화면을 업데이트할 수 있습니다.
 
-::: 경고 이 도구는 공식 지원하지 않으며, 올바른 작동을 보장하지 않습니다. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: 경고 이 도구는 공식 지원하지 않으며, 올바른 작동을 보장하지 않습니다. 압축 해제 관련 문제나 질문이 있으면, 원작자에게 연락하세요. :::
 
 ### 웹 배경화면
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+웹 기반 배경화면은 HTML과 JavaScript를 바탕으로 합니다. 위의 섹션에 설명된 소스 파일을 기본으로 자신만의 웹 기반 배경화면을 만들 수 있습니다.
 
 ### 비디오 배경화면
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+비디오 기반 배경화면은 비디오 파일입니다. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
 
 ### 응용프로그램 배경화면
 
