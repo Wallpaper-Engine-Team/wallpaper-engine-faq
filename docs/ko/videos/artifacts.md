@@ -1,21 +1,21 @@
 ---
 tags:
-  - colors
-  - bright
-  - dark
-  - zoom
-  - zoomed-in
-  - pixelated
-  - border
-  - gamma
-  - quality
+  - 색상
+  - 밝음
+  - 어두움
+  - 확대/축소
+  - 확대
+  - 픽셀화
+  - 테두리
+  - 감마
+  - 품질
   - wrong
   - ugly
 ---
 
-# Video wallpapers look wrong
+# 비디오 배경화면이 이상해 보입니다
 
-Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
+Wallpaper Engine은 대부분의 비디오 플레이어와는 다르게 비디오가 최적의 성능을 발휘하도록 하드웨어 가속을 사용합니다. 즉, 그래픽 카드 드라이버가 비디오가 보이는 방식에 영향을 줄 수 있습니다.
 
 **If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
 
