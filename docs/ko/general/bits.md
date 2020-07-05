@@ -4,7 +4,7 @@
 
 ::: 팁 32비트 버전이 작동 중단이 될만큼 배경화면이 큰 경우를 제외하고는, 32비트 버전의 사용을 권장합니다. 그러나 사용자 대부분은 이러한 문제를 경험하지 않습니다. :::
 
-You may also opt for the 64-bit version when the video system on your PC has errors that only affect 32-bit programs. Should you ever have installed codec packs or alike, they may have permanently damaged the 32-bit Windows video system that Wallpaper Engine uses. If the 64-bit system is not affected, you'll be able to take advantage of that by using the 64-bit version of Wallpaper Engine and so you can avoid having to fix whatever got broken.
+또한 PC의 비디오 시스템에 32비트 프로그램에만 영향을 미치는 오류가 발생할 경우에도 64비트 버전을 선택할 수 있습니다. 코덱 팩 또는 유사한 것을 설치했다면, Wallpaper Engine이 사용하는 32비트 Windows 비디오 시스템의 영구 손상 가능성이 있습니다. 64비트 시스템이 영향을 받지 않았다면 손상 문제를 해결하지 않고도 Wallpaper Engine의 64비트 버전을 사용할 수도 있습니다.
 
 ::: warning Note Note that "Web" type wallpapers will always be executed with a 32-Bit executable (webwallpaper32.exe). The same applies to the user interface itself (ui32.exe). 64-Bit only applies when selecting wallpapers of the type "Scene" or "Video". :::
 
