@@ -8,9 +8,9 @@ tags:
 
 如果要將 Wallpaper Engine 設定為開機時自動啟動，可前往 Wallpaper Engine 的設定並開啟「一般」分頁。 您可在上方啟用自動啟動選項，此應用程式就會在系統每次開機時默默自行啟動。
 
-## 「高優先」與「標準」啟動選項之間有何差別？
+## 「高優先」與「標準」啟動選項的差別？
 
-如果為高優先選項，Wallpaper Engine 將使用 Windows 服務， 因此 Windows 啟動時，比起您之前設定為與 Windows 共同開啟的程式，Wallpaper Engine 會更早啟動。 不過，此應用程式的效能不會以任何其他方式受到影響。
+如果為高優先選項，Wallpaper Engine 將使用 Windows 服務， 因此 Windows 開機時，Wallpaper Engine 會比其他設定為隨著 Windows 開機的程式還更早啟動。 不過，其效能不會以任何方式受到影響。
 
 使用高優先選項的缺點是較不可靠，主因是某些防毒應用程式會過度反應，誤認成惡意行為，阻止 Wallpaper Engine 以此種模式啟動。
 
