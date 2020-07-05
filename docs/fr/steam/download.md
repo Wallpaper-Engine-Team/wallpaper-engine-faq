@@ -10,7 +10,7 @@ tags:
 
 # Problèmes de téléchargement des fonds d'écran sur Steam
 
-Les téléchargements passent tous par **la plateforme de Steam**. Wallpaper Engine n'affiche que l'état de téléchargement de Steam. Tous les problèmes de téléchargement sont liés à Steam et ne sont pas à Wallpaper Engine. Ce guide contient une sélection des problèmes les plus courants. Dans de nombreux cas, la cause initiale de ces problèmes sont des applications antivirus trop zélées ou des ports réseau bloqués.
+Les téléchargements passent tous par **la plateforme de Steam**. Wallpaper Engine n'affiche que l'état de téléchargement de Steam. Tous les problèmes de téléchargement sont liés à Steam et ne sont pas à Wallpaper Engine. Ce guide contient une sélection des problèmes les plus courants. Dans de nombreux cas, la cause initiale de ces problèmes est une application antivirus trop zélée ou des ports réseau bloqués.
 
 Si vous rencontrez des problèmes de téléchargement avec Steam, assurez-vous qu'aucun antivirus ou pare-feu ne bloque Steam , y compris les pare-feu de vos routeurs.
 
@@ -40,9 +40,9 @@ Steam n'a pas fini de télécharger et de vérifier ces fichiers. Si les téléc
 * Attendez une journée, il y a peut-être des problèmes avec les serveurs de Steam.
 * **As a last resort** en cas de dernier recours, réinstallez Wallpaper Engine pour réparer des fichiers corrompus (vous devrez télécharger tous vos fonds d'écran à nouveau !). :::
 
-::: tip Les serveurs de Steam sont en maintenance toutes les semaines à heure fixe :
+::: tip Les serveurs de Steam sont en maintenance toutes les semaines à heures fixes :
 
-* Côte ouest des États-unis : **Mardi à 16 heures (UTC - 7)**
+* Côte ouest des États-Unis : **Mardi à 16 heures (UTC - 7)**
 * Europe centrale : **Mercredi à 13 heures (UTC + 1)**
 * En Chine : **Mercredi à 8 heures (UTC + 8)**
 
@@ -56,7 +56,7 @@ Si Steam ne peut pas télécharger certains fichiers, cela peut être dû à un 
 * Effacez le contenu de ce dossier : `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * Effacez le contenu de ce dossier : `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
   * **Attention :** `C:\Program Files (x86)\Steam` est le chemin par défaut. Regardez ailleurs si vous avez installé l'application dans un autre dossier.
-* Redémarrez Steam et vérifier les fichiers de Wallpaper Engine :
+* Redémarrez Steam et vérifiez les fichiers de Wallpaper Engine :
   * [Vérifier les fichiers de Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
 Si vous avez un antivirus, configurez une exception pour ce dossier pour éviter de bloquer les téléchargements : `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
