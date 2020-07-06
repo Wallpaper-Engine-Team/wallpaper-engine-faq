@@ -1,6 +1,6 @@
 # Windows 7: Aero etkinleştirilemiyor
 
-Aero is a feature of Windows and a minimum system requirement to use Wallpaper Engine - if it is disabled, it is impossible to use a dynamic wallpaper. Otomatik olarak etkinleştirilemiyorsa sisteminizde bir sorun vardır veya Aero'yu Windows 7'de etkinleştirmek için minimum donanım gereksinimlerini karşılamıyordur.
+Aero, Windows'un bir özelliğidir ve Wallpaper Engine'i kullanmak için minimum sistem gereksinimidir. Devre dışı bırakılırsa dinamik duvar kâğıdı kullanmak imkânsızdır. Otomatik olarak etkinleştirilemiyorsa sisteminizde bir sorun vardır veya Aero'yu Windows 7'de etkinleştirmek için minimum donanım gereksinimlerini karşılamıyordur.
 
 Windows Aero, görev çubuğundaki veya pencerelerin üst kısmındaki saydam etkiden sorumludur. Görev çubuğunuz saydam değilse (ve açık mavi renkteyse) Aero devre dışıdır. Windows 7 tema ayarlarından Aero'yu etkinleştirebilirsiniz. Aero temasını etkinleştirdikten sonra Window 7 ekranınız şu şekilde olmalıdır (saydam görev çubuğuna ve başlat menüsüne bakın):
 
