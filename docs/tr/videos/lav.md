@@ -2,17 +2,17 @@
 tags:
   - webm
   - video
-  - black
+  - siyah
   - codec
-  - filters
+  - filtreler
   - 4K
   - HEVC
   - mkv
   - mp4
 ---
 
-# Using LAV and DirectShow
-If you have issues related to broken video codecs or want to use additional video formats on your system, you can try to install LAV and enable DirectShow in the Wallpaper Engine settings. This should enable better support for **4K and HEVC videos on Windows 7** and allow opening of **.mkv** files.
+# LAV ve DirectShow'u kullanma
+Bozuk video codec bileşenleriyle ilgili sorunlarınız varsa veya sisteminizde ek video formatları kullanmak istiyorsanız LAV'ı yüklemeyi ve Wallpaper Engine ayarlarında DirectShow'u etkinleştirmeyi deneyebilirsiniz. This should enable better support for **4K and HEVC videos on Windows 7** and allow opening of **.mkv** files.
 
 For legal reasons, we cannot bundle LAV with Wallpaper Engine which means you need to download and install it yourself. After you have installed LAV, you also need to configure Wallpaper Engine to use DirectShow:
 
