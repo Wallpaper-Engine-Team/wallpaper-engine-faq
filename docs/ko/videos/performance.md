@@ -1,13 +1,13 @@
 # 비디오 중지 / 끊김 / 낮은 성능
 
-하드웨어 낮은 성능으로 특정 비디오를 제대로 표시하지 못할 수 있습니다. A video wallpaper isn't comparable to standard video players, it must be composed with the icons as well and potentially stretches over multiple screens. It is also using the video decoder of your GPU by default to reduce CPU usage to a minimum.
+하드웨어 낮은 성능으로 특정 비디오를 제대로 표시하지 못할 수 있습니다. A video wallpaper isn't comparable to standard video players, it must be composed with the icons as well and potentially stretches over multiple screens. 또한 기본값으로 GPU의 비디오 디코더를 사용하므로, CPU 사용량을 최소화합니다.
 
 ## Background recording hooks
 It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
 
 You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Wallpaper Engine 스캔 도구](/debug/scantool.html)
 
 ## Dynamic Super Resolution (DSR) / GPU Scaling
 Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
