@@ -1,4 +1,4 @@
-# İndirilen Duvar Kağıtlarını Düzenleme
+# İndirilen Duvar Kâğıtlarını Düzenleme
 
 Wallpaper Engine çoğunlukla indirilen duvar kâğıtlarının düzenlenmesini desteklemez. Fakat türlerine göre bazı duvar kâğıtları üçüncü taraf uygulamaların yardımıyla düzenlenebilir (sağ taraftaki ön izleme resminin altında türleri bulabilirsiniz).
 
