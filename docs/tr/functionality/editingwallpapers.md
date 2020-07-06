@@ -1,46 +1,46 @@
 # İndirilen Duvar Kağıtlarını Düzenleme
 
-Wallpaper Engine çoğunlukla indirilen duvar kâğıtlarının düzenlenmesini desteklemez. Fakat türlerine göre bazı duvar kağıtları üçüncü taraf uygulamaların yardımıyla düzenlenebilir (sağ taraftaki ön izleme resminin altında türleri bulabilirsiniz).
+Wallpaper Engine çoğunlukla indirilen duvar kâğıtlarının düzenlenmesini desteklemez. Fakat türlerine göre bazı duvar kâğıtları üçüncü taraf uygulamaların yardımıyla düzenlenebilir (sağ taraftaki ön izleme resminin altında türleri bulabilirsiniz).
 
-Lütfen, çalışmalarını yeniden yayınlamak için duvar kağıdının yaratıcısının/yaratıcılarının haklarına ihtiyaç duyabileceğinizi unutmayın. Şüpheye düşerseniz Steam Atölye'de yayınlamadan önce duvar kağıdının yaratıcısıyla iletişime geçin.
+Lütfen, çalışmalarını yeniden yayınlamak için duvar kâğıdının yaratıcısının/yaratıcılarının haklarına ihtiyaç duyabileceğinizi unutmayın. Şüpheye düşerseniz Steam Atölye'de yayınlamadan önce duvar kâğıdının yaratıcısıyla iletişime geçin.
 
 [[toc]]
 
-## Duvar kağıdının kaynak dosyalarını nereden bulabilirim?
+## Duvar kâğıdının kaynak dosyalarını nereden bulabilirim?
 
-"Yüklenilenler" sekmesindeki duvar kağıdını sağ tıkladıktan sonra "Dosya Gezgini'nde Aç" seçeneğini tıklayın.
+"Yüklenilenler" sekmesindeki duvar kâğıdına sağ tıkladıktan sonra "Dosya Gezgini'nde Aç" seçeneğini tıklayın.
 
-## Farklı tür duvar kağıtları nasıl düzenlenir?
+## Farklı tür duvar kâğıtları nasıl düzenlenir
 
-### Scene duvar kağıtları
+### Sahne duvar kâğıtları
 
-Scene duvar kağıtları bir .pkg dosyası olarak sıkıştırılır ve tüm proje verileri olmadığı için dışarıdan düzenlemezler. .pkg dosyalarını açmaya çalışırsanız "Sıkıştırılmış duvar kağıtları açılamaz." hatasını görürsünüz. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Sahne duvar kâğıtları bir .pkg dosyası olarak sıkıştırılır ve tüm proje verileri olmadığı için dışarıdan düzenlemezler. .pkg dosyalarını açmaya çalışırsanız "Sıkıştırılmış duvar kâğıtları açılamaz." hatasını görürsünüz. Bir benzetme de şu olabilir: .jpeg görüntü dosyaları, Photoshop proje verileri ekli şekilde gelmez. Bu her zaman orijinal yazarın sisteminde kalır.
 
-#### Resmi Olmayan Scene Unpacker Topluluğu
+#### Resmî Olmayan Sahne Çıkartma Topluluğu
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+Ancak topluluk üyeleri, Sahne dosyalarını çıkartıp kendi duvar kâğıtlarınız için bir başlangıç noktası olarak kullanmanızı sağlayan resmî olmayan bir sahne duvar kâğıdı çıkartma aracı oluşturmuştur. Daha fazla bilgi için şu web sitesine bakın:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+Yine de geçerli bir project.json dosyanız olması gerekir. Editörde yeni bir boş duvar kâğıdı oluşturarak, Wallpaper Engine'i kapatarak ve sonra indirilen duvar kâğıdını çıkartıp içeriğini yeni proje dizinine kopyalayıp yapıştırarak bir project.json dosyası oluşturabilirsiniz.
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+Daha önce proje dosyalarını kaybettiğiniz kendi duvar kâğıtlarınızdan birini düzenlemek istiyorsanız güncellemeleri mevcut duvar kâğıtlarınıza aktarabilmek için project.json üzerinde yapmanız gereken değişiklikler hakkında daha fazla bilgi almak için *Kayıp bir projeyi güncelleme* bölümüne bakın.
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: uyarı Lütfen unutmayın Bu araç için resmî olarak destek vermiyoruz ve doğru şekilde çalışacağının garantisini vermiyoruz. Çıkartıcı ile ilgili herhangi bir sorununuz veya sorunuz varsa lütfen orijinal içerik oluşturucularla iletişime geçin. :::
 
-### Web wallpapers
+### Web duvar kâğıtları
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Web tabanlı duvar kâğıtları, HTML ve JavaScript tabanlıdır. Yukarıdaki bölümde açıklandığı şekilde kaynak dosyalara gidebilir ve bu dosyaları kendi web tabanlı duvar kâğıdınız için temel alabilirsiniz.
 
-### Video wallpapers
+### Video duvar kâğıtları
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+Video tabanlı duvar kâğıtları video dosyalarıdır. Video dosyasını yukarıdaki bölümde açıklandığı şekilde bulabilir ve sonrasında videoyu değiştirmek için istediğiniz bir üçüncü taraf video düzenleme uygulamasını kullanabilirsiniz.
 
-### Application wallpapers
+### Uygulama duvar kâğıtları
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+Uygulama duvar kâğıtları genelde düzenlenemez. Uygulama duvar kâğıtları genellikle derlenmiş programlardır, yani kaynak koduna erişiminiz yoktur. Uygulama tabanlı duvar kâğıtlarını gerçekten değiştirmek istiyorsanız duvar kâğıdının yazarıyla iletişim kurup yardım talep edin.
 
-## Updating a lost project
+## Kayıp bir projeyi güncelleme
 
 If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
 
