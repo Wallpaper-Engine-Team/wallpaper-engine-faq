@@ -69,12 +69,12 @@ Projenizi sildiyseniz yine de üzerine yazabilirsiniz. Ancak yayınladığınız
 }
 ```
 
-Add this line at the top right after `{`:
+Bu satırı, şundan sonra sağ üst köşeye ekleyin: `{`:
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+Yani şu şekilde olmalıdır:
 
 ```json{2}
 {
