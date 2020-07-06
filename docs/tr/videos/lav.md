@@ -29,9 +29,9 @@ Yasal nedenlerden dolayı LAV'ı Wallpaper Engine ile birlikte sunamıyoruz. Yan
 * Uygulamayı yeniden başlatın ve video duvar kâğıdınızı tekrar kullanmayı deneyin
 
 ## WebM Donanım Hızlandırmasını Etkinleştirme
-Video duvar kâğıtlarınızın sonunda takılmalar yaşıyorsanız aynı sorunu yaşamayan .webm dosyalarını kullanabilirsiniz. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **WebM framework** option to **Prefer Native**
-* Restart the application and try using your video wallpaper again
+Video duvar kâğıtlarınızın sonunda takılmalar yaşıyorsanız aynı sorunu yaşamayan .webm dosyalarını kullanabilirsiniz. Donanım hızlandırmayı .webm videoları için etkinleştirmeniz de oldukça iyidir. Bu şekilde CPU kullanımı önemli ölçüde azaltılacak ve video duvar kâğıtlarının son kareden sonra önemli bir kesinti olmadan döngüye girmesi sağlanacaktır. Bu işlem yukarıdaki adımların devamıdır. Önceki bölümde açıklandığı şekilde LAV'ı kurduğunuzdan ve DirectShow'u etkinleştirdiğinizden emin olun.
+* Wallpaper Engine ayarlarını açın ve "Genel" sekmesine gidin
+* **WebM altyapısı** seçeneğini **Doğal Tercih Et** olarak değiştirin
+* Uygulamayı yeniden başlatın ve video duvar kâğıdınızı tekrar kullanmayı deneyin
 
-Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+LAV sistem tepsisi simgesinin görünüp görünmediğini ve CPU kullanımının neredeyse sıfır olup olmadığını kontrol edin. Donanım hızlandırma .webm içeriğinize uygulanmıştır. Eğer bu işe yaramazsa tüm seçeneklerin doğru yapılandırıldığından ve LAV'ın doğru şekilde kurulduğundan emin olun.
