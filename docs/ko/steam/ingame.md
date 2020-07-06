@@ -6,4 +6,4 @@ Wallpaper Engine is only supposed to show on Steam while accessing Workshop feat
 Every time Steam reconnects to the internet, due to your internet turning off and on, Steam may go a little crazy when it comes to your in-game status which can cause issues like that. 위에서 언급한 것처럼 Steam을 통해서가 아니라 프로그램을 직접 또는 자동시작 기능을 통해 시작하면, 이 문제가 발생하는 것을 막을 수 있습니다.
 
 ## 창작마당 / Steam 결합 완전 비활성화
-You can disable the entire Steam integration by creating an empty text file named `nosteam.txt` and putting it into the `wallpaper_engine/bin` directory (by default the complete path is `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`). 이게 비활성화되면 배경화면을 다운로드/업데이트 또는 업로드할 수 없지만, 이전에 다운로드한 것에는 모두 접근할 수 있습니다. 
+파일명 `nosteam.txt`의 빈 텍스트 파일을 생성하여 `wallpaper_engine/bin` 디렉터리에 넣으면, 전체 Steam 통합을 비활성화할 수 있습니다. (전체 경로 기본값은 `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`입니다) 이게 비활성화되면 배경화면을 다운로드/업데이트 또는 업로드할 수 없지만, 이전에 다운로드한 것에는 모두 접근할 수 있습니다. 
