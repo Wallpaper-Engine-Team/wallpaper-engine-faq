@@ -1,5 +1,5 @@
 # Steam에 계속 "인게임"이 나타납니다
-Wallpaper Engine is only supposed to show on Steam while accessing Workshop features (when the browser or editor is open, this is enforced by Valve / Steam). But if it shows up even after closing all windows, you are either experiencing a known Steam bug, that you can avoid with the fix below, or the window did not close properly (check for ui32.exe in task manager).
+Wallpaper Engine is only supposed to show on Steam while accessing Workshop features (when the browser or editor is open, this is enforced by Valve / Steam). 그러나 창을 모두 닫아도 계속 나타나면, 아래의 방법을 통해 해결할 수 있는 알려진 Steam 버그이거나 창이 제대로 닫히지 않은 것일 수 있습니다. (작업 관리자에서 ui32.exe 확인)
 
 이 문제가 반복해서 발생하면, Steam을 통하는 대신 wallpaper_engine 설치 디렉터리에서 바로 프로그램을 실행하여 해결할 수 있습니다. 기본값으로 이 경로는 `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe`입니다. Wallpaper Engine이 이미 실행 중이면, 일단 완전히 끄고난 뒤 이 디렉터리에서 다시 실행하세요. 그리고 가능하다면 자동시작을 끄고 Wallpaper Engine 설정에서 다시 켜세요.
 
