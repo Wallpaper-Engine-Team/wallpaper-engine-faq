@@ -11,19 +11,19 @@ Wallpaper Engine [**Razer Chroma**](https://www.razer.com/chroma) ve [**Corsair 
 
 Wallpaper Engine ayarlarının "Eklentiler" bölüminde **iCUE & Chroma SDK eklentisini** bulabilirsiniz. Bu genel RGB eklentisini sol taraftaki onay kutusundan etkinleştirebilir ve devre dışı bırakabilirsiniz. Parçaları ayrı ayrı yapılandırmak için yanındaki çark sembolünü de tıklayabilirsiniz.
 
-RGB desteği her duvar kağıdında ayrı ayrı da kapatılabilir. Eklenti etkinleştirilmişse, her duvar kağıdının özellik listesinin üstünde **LED efektlerini etkinleştir** seçeğini bulabilirsiniz. Bu seçenek üzerinden ayrı bir duvar kağınını RGB ışıklarınızı kontrol edip etmemesini ayarlayabilirsiniz.
+RGB desteği her duvar kâğıdında ayrı ayrı da kapatılabilir. Eklenti etkinleştirilmişse her duvar kağıdının özellik listesinin üstünde **LED efektlerini etkinleştir** seçeneğini bulabilirsiniz. Bu seçenek üzerinden ayrı bir duvar kâğıdının RGB ışıklarınızı kontrol edip edemeyeceğini ayarlayabilirsiniz.
 
 ## RGB donanımı rengi çok parlak
 
-RGB renklerini varsayılan olarak biraz parlatıyoruz. Birçok duvar kağıdında parlak renkler güzel görünüyor. Fakat bu öznel bir yargı olduğu için beğenmediğiniz takdirde RGB eklentisinin ayarlarından **LED renkleri parlat** seçeneğini devre dışı bırakabilirsiniz.
+RGB renklerini varsayılan olarak biraz parlatıyoruz. Birçok duvar kâğıdında parlak renkler güzel görünüyor. Fakat bu öznel bir yargı olduğu için beğenmediğiniz takdirde RGB eklentisinin ayarlarından **LED renkleri parlat** seçeneğini devre dışı bırakabilirsiniz.
 
 ## RGB donanımım çalışmıyor
 
-Wallpaper Engine RGB donanımınızla doğrudan bağlantı kuramaz, tüm renk bilgileri önce RGB sürücülerine gönderilmektedir. Donanımın birden fazla parçası çalışmıyorsa sorun donanımızın sağlayıcısının yazılımında olmalıdır. Bu donanım sağlayıcıları bazı çok eski donanımları tam olarak desteklemiyor, böyle bir durumda donanımınız çalışmayacaktır. Bu ne yazık ki bizim çözebileceğimiz bir sorun değil.
+Wallpaper Engine RGB donanımınızla doğrudan bağlantı kuramaz, tüm renk bilgileri önce RGB sürücülerine gönderilmektedir. Donanımın birden fazla parçası çalışmıyorsa sorun donanımızın sağlayıcısının yazılımında olmalıdır. Bu donanım sağlayıcıları bazı çok eski donanımları tam olarak desteklemiyor, böyle bir durumda donanımınız çalışmayacaktır. Bu ne yazık ki bizim çözebileceğimiz bir sorun değildir.
 
-If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
+Wallpaper Engine ayarlarındaki *Eklenti* bölümü size görünür değilse bu özelliklerin çalışması için zorunlu olan *Visual Studio 2015 için Visual C++ 2015 Yeniden Dağıtılabilir* muhtemelen eksiktir veya bozuk bir kurulumu vardır. Bu paketi Microsoft web sitesinden indirip kurabilirsiniz. Bu işlem sistem yeniden başlatıldıktan sonra sorunu çözecektir:
 
-* [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
+* [Visual Studio 2015 için Visual C++ 2015 Yeniden Dağıtılabilir](https://www.microsoft.com/download/details.aspx?id=48145)
 
 ### Corsair
 
