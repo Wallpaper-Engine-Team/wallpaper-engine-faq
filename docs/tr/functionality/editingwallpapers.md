@@ -42,7 +42,7 @@ Uygulama duvar kâğıtları genelde düzenlenemez. Uygulama duvar kâğıtları
 
 ## Kayıp bir projeyi güncelleme
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+Projenizi sildiyseniz yine de üzerine yazabilirsiniz. Ancak yayınladığınız duvar kâğıdının türüne bağlı olarak artık düzenleme yapamayabilirsiniz. Her zamanki gibi yeni bir duvar kâğıdı oluşturun ve Düzenle -> "Dosya Gezgini'nde Aç" yaparak proje dizinini açın. Bir metin düzenleyicisiyle `project.json` dosyasını açın. Şöyle görünecektir:
 
 ```json
 {
