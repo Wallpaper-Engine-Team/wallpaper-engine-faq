@@ -4,17 +4,17 @@ Wallpaper Engine'e Windows saatinin yanındaki tepsi simgesini gizlemesini söyl
 
 ::: uyarı Tepsi simgesi, bunu gizlemenin getireceği dezavantajları kabul edecek kadar sizi rahatsız etmiyorsa bunu yapmanızı önermeyiz. :::
 
-Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+Tepsi simgesi gizlendikten sonra Wallpaper Engine'i kapatmanın tek yolu, bunu Windows Görev Yöneticisi aracılığıyla sonlandırmak olacaktır. Kullanıcı arayüzünü yalnızca Steam veya .exe dosyaları aracılığıyla açabileceksiniz ve bu da oldukça zor ve kafa karıştırıcıdır.
 
-If you still want to proceed with hiding the tray icon, this is how you do it:
+Tepsi simgesini yine de gizlemek istiyorsanız şu şekilde yapabilirsiniz:
 
-In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
+Kayıt defteri anahtarını oluşturmak için Windows başlat menüsünü açıp "Kayıt Defteri Düzenleyicisi"ne gidecek olan "regedit.exe"yi yazın.
 
-1. Go to the following registry directory: *HKEY_CURRENT_USER\Software\WallpaperEngine*
-2. Right-click on the *WallpaperEngine* registry folder, select *New* and then *DWORD (32 Bit) Value*.
-3. Give the registry the following name: *hideTrayIcon*
-4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
-5. Double-click on the registry key and give it the value: *1*
-6. Restart Wallpaper Engine, the application will now not show a tray icon.
+1. Şu kayıt defteri dizinine gidin: *HKEY_CURRENT_USER\Software\WallpaperEngine*
+2. *WallpaperEngine* kayıt defteri klasörüne sağ tıklayın, *Yeni*'yi ve ardından *DWORD (32 Bit) Değeri*'ni seçin.
+3. Kayıt defterini şu şekilde adlandırın: *hideTrayIcon*
+4. Adın doğru olduğundan emin olun, arada boşluk olmamalı ve tam olarak bu şekilde yazılmalıdır.
+5. Kayıt defteri anahtarına çift tıklayın ve şu değeri verin: *1*
+6. Wallpaper Engine'i yeniden başlatın, uygulama artık bir tepsi simgesi göstermeyecektir.
 
-You can reverse this process by setting *hideTrayIcon* to *0* or deleting it altogether, followed by restarting Wallpaper Engine. 
+*hideTrayIcon* değerini *0* olarak ayarlayarak veya tamamını sildikten sonra Wallpaper Engine'i yeniden başlatarak bu işlemi tersine çevirebilirsiniz. 
