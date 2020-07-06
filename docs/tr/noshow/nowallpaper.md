@@ -24,7 +24,7 @@ Wallpaper Engine, çoğu masaüstü değişiklik uygulamasıyla uyumlu çalış�
 
 Wallpaper Engine genellikle *Fences* ile uyumlu çalışır. Ancak **Fences yüklüyse ve bunu devre dışı bıraktıysanız** duvar kâğıdını Wallpaper Engine'den gizleyecektir. Uygulamayı tamamen etkinleştirmeniz veya kaldırmanız gerekir.
 
-## Windows 7'deki Gri Duvar Kağıdı veya eksik dokular
+## Windows 7'deki Gri Duvar Kâğıdı veya eksik dokular
 
 **KB2533623** Windows 7 güncellemesinin yüklü olduğundan emin olun. Ya bu bağlantıyla manuel olarak yükleyin ya da Windows Update'in düzgün çalışıp kendi başına yüklediğinden emin olun. Microsoft web sitesinden manuel olarak indirebilir ve sonrasında sistemi yeniden başlatarak sorunu çözebilirsiniz:
 
