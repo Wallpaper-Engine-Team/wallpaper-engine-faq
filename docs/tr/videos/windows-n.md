@@ -3,15 +3,15 @@
 Windows N'de medya özellikleri bulunmaz! Windows sürümünüz ve derleme numaranız için doğru Medya Özellik Paketi'ni yüklemelisiniz:
 
 * Windows 10:
-  * [Medya Özellik Paketi indirme](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (sayfa, Microsoft tarafından sadece İngilizce mevcuttur)
+  * [Medya Özellik Paketi indirme](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (sayfanın sadece İngilizcesi mevcuttur)
 
 * Windows 7:
-  * [Media Feature Pack Download](https://www.microsoft.com/download/details.aspx?id=16546)
+  * [Medya Özellik Paketi İndirme](https://www.microsoft.com/download/details.aspx?id=16546)
 
-**Make sure to install the x64 and x86 version.**
+**x64 ve x86 sürümlerini indirmeyi unutmayın.**
 
-If it still shows the same error then **you have installed the wrong version**, try installing the correct version and restarting the PC. Should nothing work and it is still missing, your system files are probably defective, try restoring the system to an earlier state or reinstall Windows.
+Hâlâ aynı hatayı veriyorsa **yanlış sürümü indirmişsiniz demektir**, doğru sürümünü indirip PC'nizi yeniden başlatmayı deneyin. Hiçbir şey çalışmıyorsa ve mfplat.dll hâlâ eksikse sistem dosyalarınız hatalı olabilir, sistemi bir önceki haline getirip Windows'u yeniden yüklemeyi deneyin.
 
-:::warning Please note Every time Microsoft releases a major update to Windows 10, you must install the media feature pack again. If this undesirable for you, consider switching to a normal version of Windows as the other versions are always shipped with these features!
+:::uyarı Unutmayın Microsoft'un Windows 10'a getirdiği her büyük güncellemede medya özellik paketini yeniden yüklemeniz gerekir. Bunu istemiyorsanız Windows'un normal bir sürümüne geçebilirsiniz; diğer sürümler bu özelliklerle birlikte gelirler!
 
-**The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.** :::
+**Windows N'in tüm meselesi medya özelliğine sahip olmamasıdır. Bunu istemiyorsanız Windows N kullanmamalısınız.** :::
