@@ -13,6 +13,6 @@ Wallpaper Engineのスキャンツールを使って、既知のレコーディ�
 GPU Scaling/DSRなどのドライバレベルハックも問題を引き起こします。これらを無効にしてみてうまくいくようなら、Wallpaper Engineを指定して無効にします。
 
 ## 複数GPUや複数画面を持つシステムで、dwm.exeにおけるパフォーマンスの悪さ
-BIOSからデスクトップPCの統合型GPUを有効にし、一方で専用GPUをインストールしていると、パフォーマンスの低下とDWM.exeのCPU使用率の高さを経験することがあります。 可能ならば、統合型GPUは有効にしないようにしてください。 **すべてのモニターを専用グラフィックスカードに接続することが重要です。**同時に両方のGPUを使うと、デスクトップウィンドウマネージャのハードウェアアクセラレーションを破損します。 Nvidia Optimusテクノロジーや類似のテクノロジーがないと、Windowsは強制的に壁紙イメージを一つのGPUから別のGPUにコピーします。これは時間のかかる操作です。 In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+BIOSからデスクトップPCの統合型GPUを有効にし、一方で専用GPUをインストールしていると、パフォーマンスの低下とDWM.exeのCPU使用率の高さを経験することがあります。 可能ならば、統合型GPUは有効にしないようにしてください。 **すべてのモニターを専用グラフィックスカードに接続することが重要です。**同時に両方のGPUを使うと、デスクトップウィンドウマネージャのハードウェアアクセラレーションを破損します。 Nvidia Optimusテクノロジーや類似のテクノロジーがないと、Windowsは強制的に壁紙イメージを一つのGPUから別のGPUにコピーします。これは時間のかかる操作です。 実際、2つのGPUが共有するアクションはすべてこの影響を受けます。これはゲームウィンドウを2つのモニター間で移動するときも同じです。
 
-This specific issue does not affect hardware built for multi-GPU setups like laptops with Nvidia Optimus or proper Nvidia SLI / AMD Crossfire setups with a hardware bridge.
+この問題は、Nvidia Optimusやハードウェアブリッジを持つ適切なNvidia SLI / AMD CrossfireセットアップのノートPCのような、複数GPUセットアップ向けハードウェアビルトには影響しません。
