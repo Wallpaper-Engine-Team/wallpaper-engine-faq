@@ -9,7 +9,7 @@ Wallpaper Engine 支援 [**Razer Chroma**](https://www.razer.com/chroma) 及 [**
 
 ## 如何啟用/停用 RGB 硬體
 
-在 Wallpaper Engine 設定中的「外掛程式」區段，您可以找到 **iCUE 及 Chroma SDK 外掛程式**。  您可勾選左側的核取方塊，來啟用或停用此通用 RGB 外掛程式的載入作業。 您也可以按一下旁邊的齒輪符號，進一步設定各部分。
+在 Wallpaper Engine 設定中的「外掛程式」區段，您可以找到 **iCUE 及 Chroma SDK 外掛程式**。  您可勾選左側的核取方塊，來啟用或停用此通用 RGB 外掛程式的載入作業， 也可以按一下旁邊的齒輪符號，進一步設定各部分。
 
 此外，您可切換每張桌布的 RGB 支援功能。 如果您想啟用此外掛程式，可至每張桌布內容列表的上方找到**啟用 LED 效果**的選項，即可控制個別桌布的 RGB 亮光效果。
 
