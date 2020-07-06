@@ -14,4 +14,4 @@ Windows Nにはメディア機能は付いてきません！ 正しいWindowsバ
 
 :::warning 注意 MicrosoftがWindows 10のメジャーなアップデートをリリースするたびに、またmedia feature packをインストールする必要があります。 そうしたくない場合は、通常バージョンのWindowsへの切り替えを考えましょう。他のバージョンには、常にこれらの機能は付いてきます。
 
-**The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.** :::
+**Windows Nの主要なポイントは、メディア機能がないことです。 それを希望しないのなら、Windows Nを使うべきではありません。** :::
