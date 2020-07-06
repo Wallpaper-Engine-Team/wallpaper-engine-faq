@@ -8,7 +8,7 @@ Si tienes problemas técnicos con Wallpaper Engine y no puedes resolverlos tras 
 4 Comparte el registro con alguno de estos métodos:
     * Ve a [pastebin.com](https://pastebin.com/), pega los contenidos del registro y después comparte el enlace.
     * También puedes enviarnos el archivo del registro por correo. Si ya tienes una conversación por correo electrónico con nosotros, contesta al mensaje anterior con el archivo del registro. En caso de que sea el primer correo que nos envías, coméntanos el problema que tienes o mándanos el enlace de una discusión existente.
-5 *Opcional:* si el programa se cuelga, diríjase al directorio *wallpaper_engine* para comprobar si hay algún archivo **.mdmp** y envíenoslos por correo o súbalos a alguna página. Si hay muchos archivos .mdmp, mándenos solo los más recientes. ::: tip Aunque la herramienta de escaneo no encuentre ningún error a primera vista, el archivo del registro suele revelar problemas comunes que tienen los ordenadores, y eso nos permite darle consejos para resolverlos. :::</ol>
+5 *Opcional:* si el programa se cuelga, dirígete al directorio *wallpaper_engine* para comprobar si hay algún archivo **.mdmp** y envíanoslos por correo o súbelos a alguna página. Si hay muchos archivos .mdmp, mándanos solo los más recientes. ::: tip Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues. :::</ol>
 
 #### Vídeo de ayuda
 
