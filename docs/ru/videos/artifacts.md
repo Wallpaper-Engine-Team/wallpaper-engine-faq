@@ -15,7 +15,7 @@ tags:
 
 # Видеообои отображаются неправильно
 
-Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
+В отличие от большинства других плееров, Wallpaper Engine использует аппаратное ускорение видео для лучшей производительности. А в этом случае драйвера видеокарты могут влиять на то, как в результате будет выглядеть видео.
 
 **If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
 
