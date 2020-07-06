@@ -1,4 +1,4 @@
-# Windows N: mfplat.dll missing
+# Windows N: mfplat.dll 누락
 
 Windows N does not come with media features! You need to install the correct Media Feature Pack for your specific Windows version and build number:
 
