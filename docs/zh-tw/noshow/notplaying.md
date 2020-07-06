@@ -10,7 +10,7 @@
 
 *視訊*類型的桌布呈現黑色或出現其他問題，*必定*是因為顯示卡驅動程式或視訊轉碼器故障。 請完全按照以下步驟嘗試解決。 如果由上至下完全遵循本指南的步驟，即可解決該問題：
 
-::: 警告 請注意 本主題涉及 Wallpaper Engine **桌布**呈現黑色或無法正常運作的問題。 如果 **Wallpaper Engine 介面變成黑色**，您必須參看此篇：[Wallpaper Engine 使用者介面呈現黑色](/interface/broken.html#wallpaper-engine-interface-is-black)。 :::
+::: warning 請注意 本主題涉及 Wallpaper Engine **桌布**呈現黑色或無法正常運作的問題。 如果 **Wallpaper Engine 介面變成黑色**，您必須參看此篇：[Wallpaper Engine 使用者介面呈現黑色](/interface/broken.html#wallpaper-engine-interface-is-black)。 :::
 
 ## 顯示卡驅動程式全新安裝
 
