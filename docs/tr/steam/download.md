@@ -16,7 +16,7 @@ Steam indirmeleriyle ilgili sorun yaşıyorsanız hiçbir antivirüs uygulaması
 
 ::: ipucu Akıllı telefonunuzdaki mobil etkin noktasına geçerek ve bu şekilde bir duvar kâğıdı indirmeye çalışarak ağ yönlendiricinizin Steam indirmelerini engelleyip engellemediğini kolayca kontrol edebilirsiniz. :::
 
-## Duvar kağıdı indirirken %0 veya %100'de (veya herhangi bir yüzdede) takılı kalıyor
+## Duvar kâğıdı indirirken %0 veya %100'de (veya herhangi bir yüzdede) takılı kalıyor
 Steam dosyaları indirip doğrulamıyor. Steam indirmeleriniz belirli bir süre takılı kalıyorsa ve bir süre bekledikten sonra bile çalışmıyorsa şunları deneyin:
 
 * Steam ayarlarından Steam'in indirme önbelleğini temizleyin:
