@@ -9,13 +9,13 @@ Wallpaper Engine es compatible con [**Razer Chroma**](https://www.razer.com/chro
 
 ## Cómo activar / desactivar hardware RGB
 
-En la sección «Complementos» de la configuración de Wallpaper Engine, verá el **componente iCUE y Chroma SDK**. Si marca la casilla de la izquierda, puede activar o desactivar el componente general RGB. También puede hacer clic en el símbolo del engranaje para configurar las partes individuales.
+En la sección «Complementos» de la configuración de Wallpaper Engine, verás el **componente iCUE y Chroma SDK**. Si marcas la casilla de la izquierda, puedes activar o desactivar el componente general RGB. También puedes hacer clic en el símbolo del engranaje para configurar las partes individuales.
 
-Además, puede desactivar la compatibilidad RGB en cada fondo. Verá si está activada la opción **«Activar efectos de LED»** en la parte superior de la lista de propiedades de cada fondo, y esto le permite decidir si desea que un fondo controle las luces RGB o no.
+Además, puedes desactivar la compatibilidad RGB en cada fondo. Verás si está activada la opción **«Activar efectos de LED»** en la parte superior de la lista de propiedades de cada fondo, y esto te permite decidir si deseas que un fondo controle las luces RGB o no.
 
 ## Los colores RGB del componente brillan demasiado
 
-Potenciamos los colores RGB por defecto, ya que queda mejor en la mayoría de los fondos. Si no le gusta, puede desactivar la opción **«Impulsar colores de LED»** en la configuración del componente RGB.
+Potenciamos los colores RGB por defecto, ya que queda mejor en la mayoría de los fondos. Si no te gusta, puedes desactivar la opción **«Impulsar colores de LED»** en la configuración del componente RGB.
 
 ## Mi hardware RGB no funciona
 
