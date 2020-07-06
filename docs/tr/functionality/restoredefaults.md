@@ -1,6 +1,6 @@
-# Silinen varsayılan duvar kağıtlarını kurtarma
+# Silinen varsayılan duvar kâğıtlarını kurtarma
 
-Wallpaper Engine ile önceden yüklenmiş duvar kağıtlarını sildiğinizde, *wallpaper_engine* yükleme dizininizdeki yapılandırma dosyasını silerek geri alabilirsiniz:
+Wallpaper Engine ile önceden yüklenmiş duvar kâğıtlarını sildiğinizde, *wallpaper_engine* yükleme dizininizdeki yapılandırma dosyasını silerek geri alabilirsiniz:
 
 1. Wallpaper Engine'i tamamen kapatın (tepside üzerine sağ tıklayın-> "Çıkış Yap")
 
@@ -12,4 +12,4 @@ Steam ya da Wallpaper Engine farklı bir yer/dizinde yüklüyse dizin de biraz f
 
 3. Dosya silindikten sonra Wallpaper Engine'i yeniden başlattığınızda varsayılan dosyalar geri gelir.
 
-::: ipucu "visibility.json" dosyasını hâlâ bulamazsanız Wallpaper Engine'i silip yeniden yükleyebilirsiniz. Bu şekilde tüm varsayılan duvar kağıtlarını kurtarır fakat tüm duvar kağıtlarını yeniden indirmek zorunda kalırsınız. Yukarıdaki adımları izlediğinizde ise bununla uğraşmak zorunda kalmazsınız. :::
+::: ipucu "visibility.json" dosyasını hâlâ bulamazsanız Wallpaper Engine'i silip yeniden yükleyebilirsiniz. Bu şekilde tüm varsayılan duvar kâğıtlarını kurtarır fakat tüm duvar kâğıtlarını yeniden indirmek zorunda kalırsınız. Yukarıdaki adımları izlediğinizde ise bununla uğraşmak zorunda kalmazsınız. :::
