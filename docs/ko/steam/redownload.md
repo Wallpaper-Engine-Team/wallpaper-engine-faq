@@ -16,9 +16,9 @@ We have built an automatic Steam fixer that you can use to attempt to make Steam
 * `wallpaper_engine` 설치 디렉터리로 이동하세요
   * 기본 위치: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * `wallpaper_engine\bin\steamredownloadfixer32.exe`를 실행하세요
-  * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
-* Restart Steam and verify the Wallpaper Engine files:
-  * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+  * 도구에서 오류 메시지가 뜨면, 저희에게 이메일을 보내주세요. 개선 여부를 조사하겠습니다.
+* Steam을 다시 시작하고 Wallpaper Engine 파일을 식별하세요:
+  * [Wallpaper Engine 파일 식별](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
 You have to repeat this every time the Steam download cache breaks up, unfortunately. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
 
