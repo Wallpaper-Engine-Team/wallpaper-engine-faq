@@ -12,6 +12,6 @@ Windows N은 미디어 기능을 지원하지 않습니다! Windows 버전과 �
 
 여전히 같은 오류가 발생한다면, **잘못된 버전을 설치한 것**이므로 정확한 버전을 설치하고 PC를 다시 시작하세요. 그래도 작동하지 않거나 여전히 누락되었다면, 시스템 파일에 결함이 있는 것일 수도 있으므로 시스템을 이전 상태로 복원하거나 Windows를 다시 설치해 보세요.
 
-:::warning Please note Every time Microsoft releases a major update to Windows 10, you must install the media feature pack again. If this undesirable for you, consider switching to a normal version of Windows as the other versions are always shipped with these features!
+:::경고 Microsoft에서 Windows 10의 주요 업데이트를 배포할 때마다, 미디어 기능 팩을 다시 설치해야 합니다. If this undesirable for you, consider switching to a normal version of Windows as the other versions are always shipped with these features!
 
-**The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.** :::
+**Windows N의 중요한 점은 미디어 기능이 없다는 것입니다. 이게 문제가 된다면 Windows N을 사용하지 말아야 합니다.** :::
