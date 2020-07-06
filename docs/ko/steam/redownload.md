@@ -1,14 +1,14 @@
 ---
 tags:
-  - download
-  - re-download
-  - deleted
-  - deletes
+  - 다운로드
+  - 재다운로드
+  - 삭제됨
+  - 삭제
 ---
 
-# Steam redownloading wallpapers
+# Steam 배경화면 재다운로드
 
-Steam's download cache was broken and now Steam redownloads all files (for no particular reason or i.e. Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
+Steam의 다운로드 캐시가 손상되어 Steam이 모든 파일을 재다운로드합니다. (예: 특별한 이유 없이 Steam이 제대로 닫히지 않고 작동 중단되었습니다) This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
 
 ## Fix Steam automatically
 We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
