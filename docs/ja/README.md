@@ -1,11 +1,11 @@
-# Wallpaper Engine Troubleshooting Guide & FAQ
-If you are having a technical problem or just a question about Wallpaper Engine, you will likely find an answer here. 95% of questions and problems we get asked are the same so it is likely that you will find your answer here.
+# Wallpaper EngineのトラブルシューティングとFAQ
+技術的な問題が発生したときや、Wallpaper Engineについて疑問があるときは、たいていの場合、ここで答えが見つかります。 受ける質問や問い合わせられる問題の95%は同じです。ですから、あなたへの答えもおそらくここで見つかるでしょう。
 
-**It's best if you use the search bar in the upper right corner** or simply look on the list of all articles on the left - we have tried to categorize them sensibly. We have also listed the most frequently accessed help articles below, check if your problem is in there.
+**右上の検索バーをお使いいただくのが最適です**。また、左側の全項目のリストで探すこともできます。わかりやすい分類を心がけてリストアップされています。 また、最も頻繁にアクセスされるヘルプの項目を下にリストアップしました。探したい問題がないかチェックしてみてください。
 
-::: tip Use the search bar in the upper right corner with single keywords. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black". :::
+::: tip 右上の検索バーでは、一つのキーワードのみをお使いください。 例えば、壁紙がただの黒背景になってしまっているときは、単に「黒」で検索してみてください。 :::
 
-## Most popular support articles
+## 最も多く利用されるサポート項目
 
 Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
