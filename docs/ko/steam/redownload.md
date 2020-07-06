@@ -33,8 +33,8 @@ Steam의 다운로드 캐시가 손상되어 Steam이 모든 파일을 재다운
 
 ## 해결책으로 로컬 백업 사용
 
-문제가 계속 발생하면, 모든 배경화면의 로컬 백업본을 만든 뒤 구독을 해지할 수도 있습니다. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+문제가 계속 발생하면, 모든 배경화면의 로컬 백업본을 만든 뒤 구독을 해지할 수도 있습니다. 그러면 Steam에서 구독을 해지한 배경화면은 다시 다운로드하지 않으므로, 로컬 백업으로 간단히 문제를 해결할 수 있습니다. 백업 생성 방법은 다음의 가이드를 참조하세요:
 
 * [배경화면 백업 사용](/steam/backup)
 
-Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+그런 다음 모든 배경화면의 구독을 해제하기만 하면 됩니다. 수동으로 모든 파일을 삭제했는지 확인하세요. Steam은 직접 배경화면 파일을 삭제하거나, 스스로 파일을 삭제하기 위해 배경화면을 다시 다운로드하려 합니다.
