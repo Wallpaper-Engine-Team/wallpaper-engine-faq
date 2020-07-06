@@ -1,8 +1,8 @@
 # Wallpaper Engine tepsi simgesini saklama
 
-It is possible to hide the Wallpaper Engine tray icon by manually creating a registry key which tells Wallpaper Engine to hide the tray icon next to the Windows clock.
+Wallpaper Engine'e Windows saatinin yanındaki tepsi simgesini gizlemesini söyleyen bir kayıt defteri anahtarını manuel olarak oluşturarak Wallpaper Engine tepsi simgesini gizlemek mümkündür.
 
-::: warning We do not recommend to do this unless you are absolutely sure that the tray icon is annoying you so much that you are willing to accept the downsides of hiding the tray icon. :::
+::: uyarı Tepsi simgesi, bunu gizlemenin getireceği dezavantajları kabul edecek kadar sizi rahatsız etmiyorsa bunu yapmanızı önermeyiz. :::
 
 Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
 
