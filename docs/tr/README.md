@@ -9,10 +9,10 @@ Sağ üst köşedeki arama çubuğuna anahtar kelimeler girin. Örneğin, duvar 
 
 Önce bu listede kendi sorununuza benzer başlıkların açılıp açılmadığına bakın, bulamazsanız sağ üst köşedeki arama çubuğunu kullanabilir ya da soldaki listeden diğer makaleleri inceleyebilirsiniz:
 
-| **Popüler Makaleler**                                                                                                 |
-| --------------------------------------------------------------------------------------------------------------------- |
-| 1. [Steam İndirme Sorunları](steam/download.html)                                                                     |
-| 2. [Siyah Ekran / Videolar Açılmıyor](noshow/notplaying.html)                                                         |
-| 3. [Video colors wrong / too bright or too dark / zoomed-in / pixelated / border around video](videos/artifacts.html) |
-| 4. [Wallpaper Engine crashing](crash/application)                                                                     |
-| 5. [Exporting wallpapers as GIF / video files](general/export)                                                        |
+| **Popüler Makaleler**                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1. [Steam İndirme Sorunları](steam/download.html)                                                                                          |
+| 2. [Siyah Ekran / Videolar Açılmıyor](noshow/notplaying.html)                                                                              |
+| 3. [Video renkleri yanlış/çok parlak ya da çok karanlık/yakınlaştırılmış/pikselli/videonun çevresinde kenarlık var](videos/artifacts.html) |
+| 4. [Wallpaper Engine çöktü](crash/application)                                                                                             |
+| 5. [Duvar kâğıtlarını GIF/video dosyası olarak dışarı aktarma](general/export)                                                             |
