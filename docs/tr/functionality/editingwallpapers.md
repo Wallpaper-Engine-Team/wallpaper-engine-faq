@@ -84,6 +84,6 @@ Yani şu şekilde olmalıdır:
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**12345678 sayısını içeriğinizin kimliği ile değiştirin! Bu kimliği, mevcut yüklemenizin URL'sinde bulabilirsiniz:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
