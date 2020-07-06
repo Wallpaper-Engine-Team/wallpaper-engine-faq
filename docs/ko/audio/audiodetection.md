@@ -23,7 +23,7 @@ Windows 오른쪽 아래의 트레이 지역에 있는 오디오 아이콘을 �
 
 ### Razer 헤드셋(THX)
 
-Wallpaper Engine에서 '스피커(Razer XYZ)' 장치로 오디오 입력을 변경하세요. 이 옵션은 일반 설정에 있으며, 어떤 Razer 헤드셋(THX) 효과에든 적용할 수 있습니다.
+Wallpaper Engine에서 오디오 입력을 '스피커(Razer XYZ)' 장치로 변경하세요. 이 옵션은 일반 설정에 있으며, 어떤 Razer 헤드셋(THX) 효과에든 적용할 수 있습니다.
 
 ## 3. 응용 프로그램 충돌
 
