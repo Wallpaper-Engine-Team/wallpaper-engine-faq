@@ -8,14 +8,14 @@ tags:
 
 # Steam 배경화면 재다운로드
 
-Steam의 다운로드 캐시가 손상되어 Steam이 모든 파일을 재다운로드합니다. (예: 특별한 이유 없이 Steam이 제대로 닫히지 않고 작동 중단되었습니다) This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
+Steam의 다운로드 캐시가 손상되어 Steam이 모든 파일을 재다운로드합니다. (예: 특별한 이유 없이 Steam이 제대로 닫히지 않고 작동 중단되었습니다) 이 현상은 Wallpaper Engine 때문에 발생하는 것이 아니므로, Wallpaper Engine에서 해결할 수 없습니다. Steam의 모든 창작마당 앱에서 이러한 Steam 버그가 일어날 수 있습니다. 이 문제가 자주 생긴다면, 다음과 같은 해결 방법이 있습니다:
 
-## Fix Steam automatically
-We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
-* Turn off Steam
-* Go to the `wallpaper_engine` installation directory
-  * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
-* Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
+## 자동으로 Steam 해결
+We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! 다음 단계를 따르세요:
+* Steam을 끄세요
+* `wallpaper_engine` 설치 디렉터리로 이동하세요
+  * 기본 위치: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
+* `wallpaper_engine\bin\steamredownloadfixer32.exe`를 실행하세요
   * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
 * Restart Steam and verify the Wallpaper Engine files:
   * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
