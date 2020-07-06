@@ -1,9 +1,9 @@
 # ビデオのフリーズ / コマ落ち / パフォーマンスの悪さ
 
-ハードウェアに、特定のビデオを正しく表示するだけのパワーがない可能性があります。 A video wallpaper isn't comparable to standard video players, it must be composed with the icons as well and potentially stretches over multiple screens. It is also using the video decoder of your GPU by default to reduce CPU usage to a minimum.
+ハードウェアに、特定のビデオを正しく表示するだけのパワーがない可能性があります。 ビデオ壁紙は普通のビデオプレイヤーとは違います。アイコンとの関係を調整したり、複数画面への拡張の可能性に対応しなければなりません。 また、CPUの使用率を最小に抑えるため、デフォルトでGPUのビデオデコーダを使います。
 
-## Background recording hooks
-It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
+## バックグラウンドの録画のフック
+ReLive、Shadow Play/Nvidia Share、Windows GameDVRなどのアプリケーションで録画するためのドライバの機能による可能性もあります。 それらを無効にし、違いがあるかどうか確認してから、Wallpaper Engineをそれらから除外してみてください。 また、他の録画/オーバーレイプログラムがWallpaper Engineに自身をロードし、レンダリングの速度を低下させていないかどうか確かめてください。
 
 You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
 
