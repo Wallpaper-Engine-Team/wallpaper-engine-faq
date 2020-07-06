@@ -29,11 +29,11 @@ Steam의 다운로드 캐시가 손상되어 Steam이 모든 파일을 재다운
 1. Steam을 통해 Wallpaper Engine을 제거하세요.
 2. Steam을 제거하고, 다음 공식 가이드를 따르세요:
   * [Steam 제거](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
-  * Specifically check the Manually Removing Steam section in the Steam Support article above and make a backup of your *steamapps* directory as described there to ensure you will not have to redownload all your games.
+  * 특히 위의 Steam 지원 문서 중 Steam 수동 제거 섹션을 확인하고, 해당 설명 대로 *steamapps* 디렉터리를 백업하여 모든 게임을 다시 다운로드하지 않도록 하세요.
 
 ## 해결책으로 로컬 백업 사용
 
-If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+문제가 계속 발생하면, 모든 배경화면의 로컬 백업본을 만든 뒤 구독을 해지할 수도 있습니다. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
 
 * [배경화면 백업 사용](/steam/backup)
 
