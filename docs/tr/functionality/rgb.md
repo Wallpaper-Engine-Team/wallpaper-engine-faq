@@ -27,13 +27,13 @@ Wallpaper Engine ayarlarındaki *Eklenti* bölümü size görünür değilse bu 
 
 ### Corsair
 
-Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+**Corsair sistem belleği (RAM) gibi donanımlar varsayılan olarak devre dışı bırakılmış yazılım kontrollerine sahiptir**. Yani bellek modülleriniz, buna iCUE yazılım ayarlarında izin vermediğiniz sürece Wallpaper Engine'e göre yanmayacaktır. Bellek bölümünde bulunan iCUE cihaz ayarlarınızdaki "Tam yazılım kontrolünü etkinleştir" seçeneğinin seçili olduğundan emin olun:
 
 ![Enable full software control in iCUE](./icue.png)
 
-Double-check this option for any other hardware parts which are not working properly.
+Düzgün çalışmayan diğer donanım parçaları için bu seçeneği iki kez kontrol edin.
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+iCUE'nin *özel kullanım modu*'nda kullanıldığını unutmayın. Bu demektir ki Wallpaper Engine, oyunlar gibi diğer iCUE uyumlu yazılımların önceliğini alacaktır. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
 
 For support with Corsair iCUE hardware, please contact Corsair directly:
 
