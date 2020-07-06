@@ -19,7 +19,7 @@ Wallpaper Engine은 대부분의 비디오 플레이어와는 다르게 비디�
 
 **비디오 배경화면 색상이 잘못된 경우, 너무 밝거나 어두운 경우, 확대되어 표시되는 경우, 픽셀화가 되는 경우 또는 배경화면 주변에 테두리가 있는 경우**, Nvidia, AMD 또는 Intel 그래픽 카드의 그래픽 제어판에서 비디오 옵션을 초기화하여 해결할 수 있습니다. 컴퓨터에 GPU가 여러 개이면(예: Nvidia의 메인 카드와 Intel의 보조 GPU) , 초기화하세요.
 
-You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+또한 그래픽 카드 드라이버를 다시 설치하고 모든 설정을 초기화("새로 설치")하세요. 예를 들어 Nvidia의 드라이버에서는 가능합니다. 즉 우선 드라이버를 제거하여 기존 드라이버가 완전히 제거된 뒤 최신 버전의 드라이버를 재설치합니다. 일부 드라이버의 고급 섹션에는 "완전 재설치 실행" 옵션이 있습니다. 손상된 드라이버를 모두 자동으로 지우려면 이 옵션을 사용해야 합니다. 모든 대형 공급업체의 최신 그래픽 카드 드라이버는 아래에서 받을 수 있습니다:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/suppor)
