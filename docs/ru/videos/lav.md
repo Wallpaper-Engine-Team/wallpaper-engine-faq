@@ -20,11 +20,11 @@ tags:
 * Скачайте LAV Filters для x86 **И** x64 версий Windows:
   * Зеркало #1: [Github](https://github.com/Nevcairiel/LAVFilters/releases)
   * Зеркало #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
-* Install LAV, make sure your Windows user has admin rights
-* Restart Wallpaper Engine.
+* Установите LAV и убедитесь, что вашей учетной записи Windows предоставлены права администратора
+* Перезагрузите Wallpaper Engine.
 
-## 2. Enable DirectShow
-* Open the Wallpaper Engine settings and navigate to the "General" tab
+## 2. Включите DirectShow
+* Откройте настройки Wallpaper Engine и перейдите во вкладку «Общее»
 * Change the **Video framework** option to **Prefer DirectShow**
 * Restart the application and try using your video wallpaper again
 
