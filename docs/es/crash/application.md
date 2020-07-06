@@ -43,52 +43,52 @@ Se trata de un error que se produce en DirectX por culpa de los antivirus o de l
 
 Se trata de un error en Windows Media Foundation que puede deberse a los controladores dañados de la tarjeta gráfica, pero es más común que suceda por culpa de codecs de vídeo dañados o no encontrados. Sigue las instrucciones de nuestra guía para solucionar este tipo de errores:
 
-[Haga clic aquí](/noshow/notplaying.html)
+[Haz clic aquí.](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-Este caso suele darse por un problema de Windows. Vuelva a instalar la versión más reciente de los controladores de la tarjeta de sonido y puede que se solucione el problema. También puede solucionar estos programas si cambia la opción *Otra aplicación reproduciendo audio* en la pestaña *Rendimiento* de los ajustes de Wallpaper Engine a *Seguir ejecutándose*.
+Este caso suele darse por un problema de Windows. Vuelve a instalar la versión más reciente de los controladores de la tarjeta de sonido y puede que se solucione el problema. También puedes solucionar estos programas si cambias la opción *Otra aplicación reproduciendo audio* en la pestaña *Rendimiento* de los ajustes de Wallpaper Engine a *Seguir ejecutándose*.
 
 ### atiumdag.dll / atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/es/support)
 
-::: tip ¡Aviso! Asegúrese de que ha seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstale todos los controladores primero. Es primordial que se deshaga de los controladores que tiene si están dañados. :::
+::: tip ¡Aviso! Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados. :::
 
 ### nvwgf2umx.dll
 
-Los controladores de Nvidia de su sistema se cuelgan. Diríjase a la página web de Nvidia, descargue los controladores más recientes e instálelos:
+Los controladores de Nvidia de tu sistema se cuelgan. Dirígete a la página web de Nvidia, descarga los controladores más recientes e instálalos:
 
 * [Nvidia GeForce](https://www.nvidia.es/Download/index.aspx?lang=es)
 
-::: tip Asegúrese de que ha seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstale todos los controladores primero. Es primordial que se deshaga de los controladores que tiene si están dañados. :::
+::: tip Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados. :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-Los controladores gráficos de Intel de su sistema se cuelgan. Diríjase a la página web de Intel, descargue los controladores más recientes e instálelos:
+Los controladores gráficos de Intel de tu sistema se cuelgan. Dirígete a la página web de Intel, descarga los controladores más recientes e instálalos:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 
 ### MMDEvAPI.dll
 
-Se trata de un error que se produce debido a un programa de sonido dañado que está instalado en el sistema. Suele ocurrir con los programas de «mejora de sonido», sobre todo con aquellos que ya vienen instalados en los portátiles. Este tipo de programas puede ocasionar problemas porque interactúan con Windows causando algún error. Busque «Sonic Studio» o «Nahimic» y actualícelos. Si no encuentra la actualización de dichos programas, puede desinstalarlos, ya que no son necesarios para que el sonido del ordenador funcione correctamente.
+Se trata de un error que se produce debido a un programa de sonido dañado que está instalado en el sistema. Suele ocurrir con los programas de «mejora de sonido», sobre todo con aquellos que ya vienen instalados en los portátiles. Este tipo de programas puede ocasionar problemas porque interactúan con Windows causando algún error. Busca «Sonic Studio» o «Nahimic» y actualízalos. Si no encuentras la actualización de dichos programas, puedes desinstalarlos, ya que no son necesarios para que el sonido del ordenador funcione correctamente.
 
 ### fraps32.dll
 
-Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, un programa que no ha recibido ninguna actualización desde 2013 y que está completamente obsoleto. Utilice una alternativa, ya que es probable que el error no llegue a solucionarse porque es un programa que ha quedado abandonado.
+Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, un programa que no ha recibido ninguna actualización desde 2013 y que está completamente obsoleto. Utiliza una alternativa, ya que es probable que el error no llegue a solucionarse porque es un programa que ha quedado abandonado.
 
 ## Error 0xc000007b
 
-Este error indica que algo de su sistema ha corrompido un módulo de Windows; por lo general, en este caso, DirectX está dañado. Intente eliminar estos archivos de forma manual:
+Este error indica que algo de tu sistema ha corrompido un módulo de Windows; por lo general, en este caso, DirectX está dañado. Intenta eliminar estos archivos de forma manual:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Vuelva a instalarlos con el instalador de DirectX 9:*C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe*. (La ubicación exacta depende del lugar en el que esté el directorio de instalación wallpaper_engine).
+Vuelve a instalarlos con el instalador de DirectX 9:*C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe*. (La ubicación exacta depende del lugar en el que esté el directorio de instalación wallpaper_engine).
 
-Si le sigue apareciendo el mismo error es que algo ha dañado a un módulo similar de DirectX. Por lo general, es señal de que tiene un problema mayor con la instalación de Windows que tendrá que solucionar antes de poder usar Wallpaper Engine.
+Si te sigue apareciendo el mismo error es que algo ha dañado a un módulo similar de DirectX. Por lo general, es señal de que tienes un problema mayor con la instalación de Windows que tendrás que solucionar antes de poder usar Wallpaper Engine.
 
 ## Se cuelga después de hibernar / suspender
 
-Si Wallpaper Engine se cuelga después de que Windows hiberne quiere decir que Windows no consigue restaurar correctamente los controladores de la tarjeta gráfica y Wallpaper Engine. El proceso de hibernación de Windows no es muy seguro, pero puede activar la opción **Inicio seguro después de la hibernación** en Wallpaper Engine para paliar el problema. Esta opción intentará reiniciar Wallpaper Engine automáticamente en lugar de esperar que Windows funcione a la perfección tras la hibernación.
+Si Wallpaper Engine se cuelga después de que Windows hiberne quiere decir que Windows no consigue restaurar correctamente los controladores de la tarjeta gráfica y Wallpaper Engine. El proceso de hibernación de Windows no es muy seguro, pero puedes activar la opción **Inicio seguro después de la hibernación** en Wallpaper Engine para paliar el problema. Esta opción intentará reiniciar Wallpaper Engine automáticamente en lugar de esperar que Windows funcione a la perfección tras la hibernación.
