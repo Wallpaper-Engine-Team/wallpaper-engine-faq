@@ -6,7 +6,7 @@
 
 這與為了多重 GPU 設定而製造的硬體無關，例如 Nvidia Optimus 筆記型電腦或 SLI/Crossfire。 前述硬體有實體解決方案，讓上述狀況正確運作。
 
-## 無 Nvidia SLI/Nvidia Optimus/AMD CrossFire 的桌上型電腦使用第二個 GPU 時效能不佳。
+## 無 Nvidia SLI/Nvidia Optimus/AMD CrossFire 的桌上型電腦使用第二個 GPU 時效能不佳
 
 許多使用者認為，將 Wallpaper Engine 切換到第二個 GPU 能增加整體系統效能。 然而，這是一項常見的迷思，反而會導致整體系統效能下降。
 
