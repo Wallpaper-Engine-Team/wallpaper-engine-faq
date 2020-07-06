@@ -25,10 +25,10 @@ tags:
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you are uncertain what to do: Download the latest drivers for your graphics card, then use DDU to uninstall your graphics card drivers and delete all settings:
+Если вы не уверены, как это сделать: скачайте последнюю версию драйверов для вашей видеокарты, затем используйте программу DDU (доступна по ссылке), чтобы удалить драйвера видеокарты и сбросить настройки:
 
 * [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-Afterwards, install the drivers you have just downloaded. This will definitely fix the problem if done right.
+Затем, установите новые драйвера, которые вы скачали. Если все было сделано правильно, эти действия гарантированно решат проблему.
 
-::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. Make sure you first uninstall all your current graphics card drivers and clear up all driver settings. :::
+::: Подсказка Если после переустановки драйверов видеокарты цвета по-прежднему отображаются неправильно, скорее всего у вас либо больше одного графического процессора, либо переустановка не была проведена «начисто». Убедитесь перед переустановкой, что вы полностью удалили драйвера видеокарты и сбросили все настройки. :::
