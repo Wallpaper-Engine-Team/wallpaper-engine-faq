@@ -1,6 +1,6 @@
 # Windows 7: Aero를 활성화할 수 없습니다
 
-Aero는 Windows의 기능으로, Wallpaper Engine 사용에 필요한 최소 시스템 요구 사항입니다. 활성화되지 않으면, 역동적인 배경화면을 사용할 수 없습니다. 자동으로 활성화되지 않으면, 시스템에 문제가 있거나 Windows 7에서 Aero를 활성화하는 데 필요한 최소 하드웨어 요구 사항을 충족하지 못한 것입니다.
+Aero is a feature of Windows and a minimum system requirement to use Wallpaper Engine - if it is disabled, it is impossible to use a dynamic wallpaper. 자동으로 활성화되지 않으면, 시스템에 문제가 있거나 Windows 7에서 Aero를 활성화하는 데 필요한 최소 하드웨어 요구 사항을 충족하지 못한 것입니다.
 
 Windows Aero는 창 하단 작업 표시줄의 투명 효과를 제어합니다. 작업 표시줄이 투명하지 않으면 (그리고 연한 파란색이면), Aero가 비활성화 상태입니다. Windows 7 테마 설정에서 Aero를 활성화할 수 있습니다. Aero 테마를 활성화한 후에는 Windows 7이 이렇게 보여야 합니다 (투명 작업 표시줄과 시작 메뉴 확인):
 
