@@ -1,9 +1,9 @@
-# Windows N: mfplat.dll missing
+# Windows N: mfplat.dll eksik
 
-Windows N does not come with media features! You need to install the correct Media Feature Pack for your specific Windows version and build number:
+Windows N'de medya özellikleri bulunmaz! Windows sürümünüz ve derleme numaranız için doğru Medya Özellik Paketi'ni yüklemelisiniz:
 
 * Windows 10:
-  * [Media Feature Pack Download](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (page only provided in English by Microsoft)
+  * [Medya Özellik Paketi indirme](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (sayfa, Microsoft tarafından sadece İngilizce mevcuttur)
 
 * Windows 7:
   * [Media Feature Pack Download](https://www.microsoft.com/download/details.aspx?id=16546)
