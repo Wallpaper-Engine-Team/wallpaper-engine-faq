@@ -29,7 +29,7 @@ tags:
 * Перезапустите программу и попробуйте снова использовать видеообои
 
 ## Подключение WebM Hardware Acceleration
-Если проигрываемые видеообои начинают «подвисать» к концу записи, вы можете использовать файлы формата .webm, поскольку он не подвержен этой проблеме. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
+Если проигрываемые видеообои начинают «подвисать» к концу записи, вы можете использовать файлы формата .webm, поскольку он не подвержен этой проблеме. Оптимальным решением будет включить аппаратное ускорение видео формата .webm, поскольку это значительно снизит загруженность процессора, при этом позволив видеообоям заново начинать воспроизведение видео без резкого «разрыва» после последнего кадра. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
 * Open the Wallpaper Engine settings and navigate to the "General" tab
 * Change the **WebM framework** option to **Prefer Native**
 * Restart the application and try using your video wallpaper again
