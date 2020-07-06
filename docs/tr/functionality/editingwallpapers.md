@@ -1,6 +1,6 @@
 # İndirilen Duvar Kağıtlarını Düzenleme
 
-Wallpaper Engine çoğunlukla indirilen duvar kağıtlarının düzenlenmesini desteklemez. Fakat türlerine göre bazı duvar kağıtları üçüncü taraf uygulamaların yardımıyla düzenlenebilir (sağ taraftaki ön izleme resminin altında türleri bulabilirsiniz).
+Wallpaper Engine çoğunlukla indirilen duvar kâğıtlarının düzenlenmesini desteklemez. Fakat türlerine göre bazı duvar kağıtları üçüncü taraf uygulamaların yardımıyla düzenlenebilir (sağ taraftaki ön izleme resminin altında türleri bulabilirsiniz).
 
 Lütfen, çalışmalarını yeniden yayınlamak için duvar kağıdının yaratıcısının/yaratıcılarının haklarına ihtiyaç duyabileceğinizi unutmayın. Şüpheye düşerseniz Steam Atölye'de yayınlamadan önce duvar kağıdının yaratıcısıyla iletişime geçin.
 
