@@ -7,12 +7,12 @@
 
 ## 最も多く利用されるサポート項目
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+まずこのリストをチェックして、ご自分の問題に当てはまるものがないかどうか確かめてください。右上の検索を使ったり、左のリストでもっと多くの項目から探したりすることもできます。
 
-| **Top Articles**                                                                                                      |
-| --------------------------------------------------------------------------------------------------------------------- |
-| 1. [Steam Download Issues](steam/download.html)                                                                       |
-| 2. [Black Screen / Videos not Playing](noshow/notplaying.html)                                                        |
-| 3. [Video colors wrong / too bright or too dark / zoomed-in / pixelated / border around video](videos/artifacts.html) |
-| 4. [Wallpaper Engine crashing](crash/application)                                                                     |
-| 5. [Exporting wallpapers as GIF / video files](general/export)                                                        |
+| **トップ項目**                                                                                   |
+| ------------------------------------------------------------------------------------------- |
+| 1. [Steamのダウンロードの問題](steam/download.html)                                                   |
+| 2. [画面が黒い / ビデオが再生されない](noshow/notplaying.html)                                             |
+| 3. [ビデオの色がおかしい / 明るすぎる、または暗すぎる / 拡大表示される / ピクセル化される / ビデオの周囲に境界線が出る](videos/artifacts.html) |
+| 4. [Wallpaper Engineがクラッシュする](crash/application)                                            |
+| 5. [壁紙をGIFや動画ファイルにエクスポートする](general/export)                                                 |
