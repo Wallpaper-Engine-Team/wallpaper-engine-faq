@@ -2,9 +2,9 @@
 
 Wallpaper Engine으로 사전 설치된 배경화면을 삭제했다면, *wallpaper_engine* 설치 디렉터리에서 구성 파일을 삭제하여 복구할 수 있습니다.
 
-1. Wallpaper Engine을 완전히 끄세요. (트레이에서 오른쪽 클릭 -> "종료")
+1. Wallpaper Engine을 완전히 끕니다. (트레이에서 오른쪽 클릭 -> "종료")
 
-2. Wallpaper Engine 디렉터리로 이동하여 "visibility.json" 파일을 삭제하세요. 기본적으로 파일은 다음 경로에 위치합니다:
+2. Wallpaper Engine 디렉터리로 이동하여 "visibility.json" 파일을 삭제합니다. 기본적으로 파일은 다음 경로에 위치합니다:
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
