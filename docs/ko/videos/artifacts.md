@@ -29,6 +29,6 @@ You can also reinstall the graphics card drivers and choose to reset all setting
 
 * [디스플레이 드라이버 제거 다운로드](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-Afterwards, install the drivers you have just downloaded. 제대로 수행하면 문제를 확실히 해결할 수 있습니다.
+그런 다음 방금 다운로드한 드라이버를 설치하세요. 제대로 수행하면 문제를 확실히 해결할 수 있습니다.
 
-::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. 일단 기존 그래픽 카드 드라이버를 모두 삭제하고, 모든 드라이버 설정을 제거했는지 확인하세요. ::
+::: 팁 그래픽 카드 드라이버를 다시 설치했는데도 색상이 여전히 잘못되었다면, GPU가 하나 이상이거나 다시 설치를 "완전히" 새로하지 않았을 수 있습니다. 일단 기존 그래픽 카드 드라이버를 모두 삭제하고, 모든 드라이버 설정을 제거했는지 확인하세요. ::
