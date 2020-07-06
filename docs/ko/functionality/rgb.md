@@ -3,7 +3,7 @@ tags:
   - 하드웨어
 ---
 
-# RGB 하드웨어 지원 (iCUE & Chroma)
+# RGB 하드웨어 지원 (iCUE 및 Chroma)
 
 Wallpaper Engine은 [**Razer Chroma**](https://www.razer.com/chroma) 및 [**Corsair iCUE**](https://www.corsair.com/icue)를 지원하며, 여기에는 에코시스템에 통합되는 시스템을 포함합니다.
 
