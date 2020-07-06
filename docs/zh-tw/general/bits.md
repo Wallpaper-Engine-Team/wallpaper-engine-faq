@@ -12,4 +12,4 @@
 
 首先，請先透過通知區域的圖示將 Wallpaper Engine 完全關閉 (在通知區域的 Wallpaper Engine 圖示上按一下滑鼠右鍵 -> [結束])。 務必執行此操作，否則 Steam 不會啟動 Wallpaper Engine，只會將已經運作的版本置於前景執行。
 
-關閉 Wallpaper Engine 後，開啟 Steam，並依您決定自動啟動 32 位元還是 64 位元版本。 前往 Wallpaper Engine 設定，在「一般」分頁的頂端啟用自動啟動。 如果該功能已顯示啟用，請完全關閉後再重新開啟。 如此將使目前版本登錄為 Windows 一開機而自動啟動的版本。 
+關閉 Wallpaper Engine 後，開啟 Steam，並依您決定自動啟動 32 位元還是 64 位元版本。 前往 Wallpaper Engine 設定，在「一般」分頁的頂端啟用自動啟動。 如果該功能已顯示啟用，請完全關閉後再重新開啟。 如此將使目前版本登錄為隨 Windows 開機而自動啟動的版本。 
