@@ -11,7 +11,7 @@ Wallpaper Engine [**Razer Chroma**](https://www.razer.com/chroma) ve [**Corsair 
 
 Wallpaper Engine ayarlarının "Eklentiler" bölüminde **iCUE & Chroma SDK eklentisini** bulabilirsiniz. Bu genel RGB eklentisini sol taraftaki onay kutusundan etkinleştirebilir ve devre dışı bırakabilirsiniz. Parçaları ayrı ayrı yapılandırmak için yanındaki çark sembolünü de tıklayabilirsiniz.
 
-RGB desteği her duvar kâğıdında ayrı ayrı da kapatılabilir. Eklenti etkinleştirilmişse her duvar kağıdının özellik listesinin üstünde **LED efektlerini etkinleştir** seçeneğini bulabilirsiniz. Bu seçenek üzerinden ayrı bir duvar kâğıdının RGB ışıklarınızı kontrol edip edemeyeceğini ayarlayabilirsiniz.
+RGB desteği her duvar kâğıdında ayrı ayrı da kapatılabilir. Eklenti etkinleştirilmişse her duvar kâğıdının özellik listesinin üstünde **LED efektlerini etkinleştir** seçeneğini bulabilirsiniz. Bu seçenek üzerinden ayrı bir duvar kâğıdının RGB ışıklarınızı kontrol edip edemeyeceğini ayarlayabilirsiniz.
 
 ## RGB donanımı rengi çok parlak
 
