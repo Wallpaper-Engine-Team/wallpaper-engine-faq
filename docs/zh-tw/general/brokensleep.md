@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-此外，您還可以在 Wallpaper Engine 設定的**效能**分頁中，將**顯示器休眠時**選項設定為*停止 (釋放記憶體)*，接著關閉顯示器。 如此一來，如果您在離開電腦時關閉顯示器，Wallpaper Engine 將停止所有播放。
+此外，您還可以在 Wallpaper Engine 設定的**效能**分頁中，將**顯示器休眠時**選項設定為*停止 (釋放記憶體)*，接著關閉顯示器。 如此一來，如果您離開電腦時關閉顯示器，Wallpaper Engine 將停止所有播放。
