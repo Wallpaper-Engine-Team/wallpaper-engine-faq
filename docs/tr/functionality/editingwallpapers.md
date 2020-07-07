@@ -26,7 +26,7 @@ Yine de geçerli bir project.json dosyanız olması gerekir. Editörde yeni bir 
 
 Daha önce proje dosyalarını kaybettiğiniz kendi duvar kâğıtlarınızdan birini düzenlemek istiyorsanız güncellemeleri mevcut duvar kâğıtlarınıza aktarabilmek için project.json üzerinde yapmanız gereken değişiklikler hakkında daha fazla bilgi almak için *Kayıp bir projeyi güncelleme* bölümüne bakın.
 
-::: uyarı Lütfen unutmayın Bu araç için resmî olarak destek vermiyoruz ve doğru şekilde çalışacağının garantisini vermiyoruz. Çıkartıcı ile ilgili herhangi bir sorununuz veya sorunuz varsa lütfen orijinal içerik oluşturucularla iletişime geçin. :::
+::: warning Lütfen unutmayın Bu araç için resmî olarak destek vermiyoruz ve doğru şekilde çalışacağının garantisini vermiyoruz. Çıkartıcı ile ilgili herhangi bir sorununuz veya sorunuz varsa lütfen orijinal içerik oluşturucularla iletişime geçin. :::
 
 ### Web duvar kâğıtları
 
