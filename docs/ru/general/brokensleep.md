@@ -17,7 +17,7 @@ Windows никогда не входит в режим гибернации пр
 
 ## Проблемы с гибернацией при использовании обоев вида «Web»
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+Для работы Web обоев используется браузер, очень похожий на Google Chrome ("CEF"), который не дает системе войти в режим гибернации. Пока эта ошибка не будет исправлена в самом браузере, вы можете обойти ее, введя несколько команд в командную строку.
 
 1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
 2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
