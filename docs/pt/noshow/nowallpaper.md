@@ -14,18 +14,18 @@ Se alguns ou todos os seus wallpapers não aparecerem, é frequente que isso sej
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: tip If you have an anti-virus application installed (except Windows Defender), it's very likely that this is the cause of your problems. Take some time to investigate this further if your first attempts do not fix this issue. :::
+::: dica Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender), é muito provável que esta seja a causa dos seus problemas. Se as suas primeiras tentativas não corrigirem este problema, dedique algum tempo a investigar isto de forma mais aprofundada. :::
 
-## Conflicts with other desktop modification software
+## Conflitos com outro software de modificação do ambiente de trabalho
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+O Wallpaper Engine funciona bem com a maior parte das aplicações de modificação do ambiente de tgrabalho. No entanto, algumas aplicações como o StarDock DeskScapes também modificam o wallpaper do Windows e não é possível executar as duas aplicações ao mesmo tempo. Se utilizar uma aplicação semelhante ao Wallpaper Engine, será necessário decidir qual delas continaurá a usar.
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+Em geral, o Wallpaper Engine funciona bem com *Fences*. No entanto, **se tem o Fences instalado mas desativado**, ele esconderá o wallpaper do Wallpaper Engine. Deve ativá-lo ou desativá-lo completamente.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Wallpaper cinzento ou texturas em falta no Windows 7
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Certifique-se de que a atualização **KB2533623** para o Windows 7 está instalada. Instale-a manualmente através dessa ligação ou certifique-se de que o seu Windows Update está a funcionar corretamente e irá instalá-la sozinho. Pode transferi-la manualmente do website da Microsoft, a seguir reiniciar o seu sistema e o problema deverá ter desaparecido:
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
