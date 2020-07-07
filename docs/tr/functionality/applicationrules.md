@@ -28,7 +28,7 @@ Wallpaper Engine ayarlarında, *Performans* sekmesindeki *Uygulama Kuralları* e
 
 Sisteminizde çalışan tüm .exe dosyalarının bir listesi sunulur. Listeden bir .exe seçebilir veya sorun yaşadığınız .exe'nin tam adını yazabilirsiniz. Koşul ve davranışı diğer iki seçenekle yapılandırabilirsiniz. Daha fazla bilgi ve somut örnek için aşağıya bakın.
 
-::: ipucu Wallpaper Engine yalnızca tam .exe adını önemser, konum önemli değildir. Bu nedenle *Uygulama ismi* alanına herhangi bir .exe adını yazabilirsiniz. Sadece büyük ve küçük harfler de dâhil olmak üzere .exe adının tam olarak eşleştiğinden emin olun. :::
+::: tip Wallpaper Engine yalnızca tam .exe adını önemser, konum önemli değildir. Bu nedenle *Uygulama ismi* alanına herhangi bir .exe adını yazabilirsiniz. Sadece büyük ve küçük harfler de dâhil olmak üzere .exe adının tam olarak eşleştiğinden emin olun. :::
 
 ### Uygulamalar veya oyunlarla ilgili performans sorunlarını çözme
 
@@ -42,4 +42,4 @@ Sisteminizde çalışan tüm .exe dosyalarının bir listesi sunulur. Listeden b
 
 Daha fazla uygulama kuralı için olası tüm koşulları ve duvar kâğıdı oynatma seçeneklerini inceleyin. Ayrıca Wallpaper Engine'i belirli bir uygulamayı başlattığınızda sessize alacak veya duraklatacak şekilde de yapılandırabilirsiniz.
 
-::: ipucu Ayrıca tüm bu uygulama ayarlarını, Wallpaper Engine ayarlarındaki **Performans** sekmesinden de değiştirebilirsiniz. Örneğin birden fazla oyunda performans sorunlarıyla karşılaşıyorsanız, **Diğer uygulamalar tam ekranken** seçeneğini **Dur (boş bellek)** olarak değiştirmek mantıklı olabilir. Bu durumda, oyun ya da tam ekran uygulama açtığınızda Wallpaper Engine kendisini kapatacaktır. :::
+::: tip Ayrıca tüm bu uygulama ayarlarını, Wallpaper Engine ayarlarındaki **Performans** sekmesinden de değiştirebilirsiniz. Örneğin birden fazla oyunda performans sorunlarıyla karşılaşıyorsanız, **Diğer uygulamalar tam ekranken** seçeneğini **Dur (boş bellek)** olarak değiştirmek mantıklı olabilir. Bu durumda, oyun ya da tam ekran uygulama açtığınızda Wallpaper Engine kendisini kapatacaktır. :::
