@@ -10,19 +10,19 @@ tags:
 
 Черный экран и другие проблемы с обоями типа *«видео»* вызваны либо неисправными драйверами видеокарты, либо неисправными видеокодеками *во всех случаях*. Попробуйте проделать перечисленные ниже шаги в строгой очередности. Если вы полностью выполните инструкцию, проблема будет решена:
 
-::: предупреждение Обратите внимание В данной статье рассматривается проблема Wallpaper Engine, при которой **обои** замещаются черным экраном или не проигрываются как надо. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: предупреждение Обратите внимание В данной статье рассматривается проблема Wallpaper Engine, при которой **обои** замещаются черным экраном или не проигрываются как надо. В случае, если вы столкнулись с **черным интерфейсом Wallpaper Engine**, вам нужна статья [«Черный пользовательский интерфейс Wallpaper Engine»](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
-## Clean graphics card driver re-installation
+## Чистая переустановка драйверов видеокарты
 
-For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
+В большинстве случаев чистая переустановка драйверов видеокарты решает практически все распространенные проблемы, затрагивающие видеообои. В этот список входят проблемы черного экрана и отображения обоев в виде отдельного окна (под названием **«ActiveMovie Window»**).
 
-1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
+1. Загрузите последнюю версию драйверов для вашей видеокарты (или для всех видеокарт, если у вас их несколько разных, например Nvidia и Intel):
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. Удалите устаревшие драйвера видеокарты полностью и согласитесь на сброс настроек, если такой вариант будет предложен. В случае Nvidia вы можете поставить галочку в пункте «Выполнить чистую установку».
 
 You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
 
