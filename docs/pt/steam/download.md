@@ -10,14 +10,14 @@ tags:
 
 # Problemas na transferência de wallpapers pelo Steam
 
-Keep in mind that **all downloads are performed by Steam**. Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+Tenha em conta que **todas as transferências são efetuadas pelo Steam**. O Wallpaper Engine mostra apenas o estado da transferência do Steam. Todos os problemas de transferência estão relacionados com o seu Steam e não estão diretamente relacionados com o Wallpaper Engine. Este guia contém uma coleção dos problemas mais comuns das transferências, em muitos casos a causa inicial dos problemas são aplicações antivírus demasiado zelosas ou portas de rede bloqueadas.
 
-If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
+Se está a ter dificuldades com transferências do Steam, certifique-se de que nenhuma aplicação antivírus está a bloquear o seu Steam e de que todas as portas necessárias estão abertas na sua firewall - incluindo quaisquer firewalls nos seus routers de rede.
 
-::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
+::: dica Pode verificar facilmente se o seu router de rede está a bloquear as transferências do Steam mudando para um hotspot móvel no seu smartphone e tentando transferir um wallpaper através dele. :::
 
-## Wallpaper download stuck at 0% or 100% (or any other percentage)
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## Transferência do wallpaper parou a 0% ou 100% (ou qualquer outra percentagem)
+O Steam não acabou de transferir e de verificar os ficheiros. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
 
 * Clear Steam's download cache in Steam's options:
   * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
