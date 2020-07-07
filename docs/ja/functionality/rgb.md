@@ -1,6 +1,6 @@
 ---
 tags:
-  - ハードウェア
+  - hardware
 ---
 
 # RGBハードウェアサポート（iCUE & Chroma）
