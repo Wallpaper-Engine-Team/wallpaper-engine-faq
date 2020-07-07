@@ -29,21 +29,21 @@ tags:
 3. Установите новые драйвера, которые вы скачали на этапе 1.
 4. Еще раз перегрузите ваш компьютер и проверьте, была ли исправлена ошибка.
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: Подсказка Очень важно провести именно чистую переустановку. В случае чистой переустановки устаревшие драйвера видеокарты и настройки драйверов полностью удаляются перед установкой новой версии. В противном случае, это решение не сработает. :::
 
-## Codec Tweak Tool
+## Инструмент Codec Tweak Tool
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+Если после чистой переустановки драйверов видеокарты проблема не была решена, попробуйте перезагрузить видеокодеки:
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* Скачайте инструмент Codec Tweak Tool: [здесь](https://www.codecguide.com/download_other.htm)
+* Удостоверьтесь, что все пункты в меню Media Foundation **не** выбраны и затем примените настройки:
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![Снимите галочки со всех пунктов в меню Media Foundation](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* Перегрузите компьютер и попробуйте вновь использовать обои, с которыми возникла проблема.
 
-## Additional video codecs
+## Дополнительные видеокодеки
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+Если после всех действий видеообои по-прежднему не работают, скачайте LAV и включите DirectShow в соответствии с инструкцией:
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [Использование LAV и DirectShow](/videos/lav.html)
