@@ -1,6 +1,6 @@
 # Windows 7 : Aero ne peut pas être activé
 
-Aero is a feature of Windows and a minimum system requirement to use Wallpaper Engine - if it is disabled, it is impossible to use a dynamic wallpaper. S'il ne peut pas être activé automatiquement, il y a un problème avec votre système ou vous n'avez pas la configuration minimale requise pour activer Aero sur Windows 7.
+Aero est une fonctionnalité de Windows et il est nécessaire pour utiliser Wallpaper Engine. S'il est désactivé, il est impossible d'utiliser un fond d'écran dynamique. S'il ne peut pas être activé automatiquement, il y a un problème avec votre système ou vous n'avez pas la configuration minimale requise pour activer Aero sur Windows 7.
 
 Windows Aero permet de créer un effet de transparence sur la barre des tâches et en haut des fenêtres. Si votre barre des tâches n'est pas transparente (ou bleu ciel), Aero n'est pas activé. Vous pouvez activer Aero dans les paramètres de thème de Windows 7. Votre Windows 7 devrait ressembler à ceci après avoir activé le thème Aero (regardez la barre des tâches et le menu Démarrer) :
 
