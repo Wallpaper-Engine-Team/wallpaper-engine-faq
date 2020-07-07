@@ -22,10 +22,10 @@ Wallpaper Engine успешно сочетаем с большинством п�
 
 ### Программа Fences
 
-В целом, Wallpaper Engine успешно работает совместно с *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+В целом, Wallpaper Engine успешно работает совместно с *Fences*. Однако, в случае **если программа Fences установлена у вас на компьютере, но отключена**, она будет скрывать обои Wallpaper Engine. Вам понадобится либо включить ее, либо полностью удалить.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Серые обои или отсутствующие текстуры на Windows 7
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Удостоверьтесь, что на вашей системе установлено обновление **KB2533623** для Windows 7. Либо установите его вручную, скачав по ссылке ниже, либо проверьте работу Windows Update и убедитесь, что обновление будет установлено автоматически. Обновление можно вручную скачать на сайте Microsoft. После установки перегрузите компьютер. Это должно решить проблему:
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
