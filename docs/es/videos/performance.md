@@ -2,7 +2,7 @@
 
 Podría ocurrir si tienes componentes que no son lo suficientemente potentes para mostrar el vídeo correctamente. No se puede comparar un fondo de vídeo con los reproductores de vídeo normales, pues el primero cuenta con los iconos y con posibles estiramientos para ajustarse a múltiples monitores. También utiliza el decodificador de vídeo de su GPU por defecto para reducir el uso de la CPU al mínimo.
 
-## La grabación en segundo plano se cuelga
+## Grabaciones en segundo plano que se enganchan
 Podría suceder a causa de los controladores para grabar programas como ReLive, Shadow Play/Nvidia Share o Windows GameDVR. Deshabilítalos para ver si cambia la situación y luego excluye Wallpaper Engine en dichos programas. Asegúrate de que no hay más programas de grabación o superposición cargándose en Wallpaper Engine que puedan ralentizar el procesamiento.
 
 Usa nuestra herramienta de escaneo para determinar si tienes instalado algún programa de grabación que tienda a colgarse, pero ten en cuenta que no siempre lo detecta todo, tal y como ocurre con Nvidia GeForce Experience:
