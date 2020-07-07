@@ -1,5 +1,5 @@
 - - -
-etiketler:
+tags:
   - activemovie penceresi
   - active movie
   - siyah
@@ -10,7 +10,7 @@ etiketler:
 
 *Video* türü duvar kâğıtlarındaki siyah ekranlar ve diğer sorunlar *her zaman* hatalı grafik kartı sürücüleri veya hatalı video codeclerinden kaynaklanır. Sırasıyla aşağıdaki adımları deneyin. Bu rehberi baştan aşağı takip ederseniz sorun çözülecektir:
 
-::: uyarı Lütfen unutmayın Bu başlık, Wallpaper Engine **duvar kâğıtlarının** siyah olması veya düzgün oynatılmamasıyla ilgilidir. **Wallpaper Engine arayüzünüz siyahsa** şuraya göz atın: [Wallpaper Engine Kullanıcı Arayüzü Siyah](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: warning Lütfen unutmayın Bu başlık, Wallpaper Engine **duvar kâğıtlarının** siyah olması veya düzgün oynatılmamasıyla ilgilidir. **Wallpaper Engine arayüzünüz siyahsa** şuraya göz atın: [Wallpaper Engine Kullanıcı Arayüzü Siyah](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
 ## Grafik kartı sürücüsünün temiz şekilde yeniden kurulumu
 
@@ -29,7 +29,7 @@ Ayrıca bunu nasıl yapacağınızı bilmiyorsanız [Display Driver Uninstaller 
 3. 1. adımda indirdiğiniz sürücüleri kurun.
 4. PC'nizi yeniden başlatıp işe yarayıp yaramadığına bakın.
 
-::: ipucu Temiz bir yeniden kurulum yapmanız çok önemlidir. Bu demektir ki mevcut grafik kartı sürücüleriniz ve sürücü ayarlarınızın, yeni sürücüleri yüklemeden önce tamamen silinmesi gerekir. Aksi takdirde bu işlem işe yaramayacaktır. :::
+::: tip Temiz bir yeniden kurulum yapmanız çok önemlidir. Bu demektir ki mevcut grafik kartı sürücüleriniz ve sürücü ayarlarınızın, yeni sürücüleri yüklemeden önce tamamen silinmesi gerekir. Aksi takdirde bu işlem işe yaramayacaktır. :::
 
 ## Codec Tweak Tool
 
