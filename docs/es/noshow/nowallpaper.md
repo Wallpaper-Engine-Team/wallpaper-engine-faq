@@ -6,7 +6,7 @@ tags:
 
 # No se ven los fondos
 
-Si no aparecen algunos de sus fondos (o ninguno), puede ser por culpa de que el antivirus bloquea Wallpaper Engine por error. Si usa un antivirus, configúrelo para que ignore el directorio de instalación *wallpaper_engine* y todos los ejecutables importantes de Wallpaper Engine:
+Si no aparecen algunos de los fondos (o ninguno), puede ser por culpa de que el antivirus bloquea Wallpaper Engine por error. Si usa un antivirus, configúrelo para que ignore el directorio de instalación *wallpaper_engine* y todos los ejecutables importantes de Wallpaper Engine:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
