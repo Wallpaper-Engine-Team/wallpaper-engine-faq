@@ -6,4 +6,4 @@ Se o Steam não transferir o Wallpaper Engine enquanto instala ou atualiza a apl
 * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * `C:\Program Files (x86)\Steam\steamapps\downloading`
 
-*If your Steam or Wallpaper Engine is installed in a different directory, you need to adjust the directories to your actual Steam installation path.*
+*Se o seu Steam ou Wallpaper Engine estiver instalado noutro diretório, deve ajustar os diretórios para o caminho real de instalação do Steam.*
