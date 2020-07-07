@@ -9,7 +9,7 @@ Wallpaper Engine, milyonlarca kişi tarafından kullanılan ve iyi test edilmiş
 
 [[toc]]
 
-::: ipucu Kullanıcılardan aldığımız çökme raporlarının hemen hemen hepsi bozuk grafik kartı sürücüleri, antivirüs uygulamaları ya da bilgisayarın dengesini bozan başka kusurlu yazılımlardan kaynaklanmaktadır. :::
+::: tip Kullanıcılardan aldığımız çökme raporlarının hemen hemen hepsi bozuk grafik kartı sürücüleri, antivirüs uygulamaları ya da bilgisayarın dengesini bozan başka kusurlu yazılımlardan kaynaklanmaktadır. :::
 
 ## Wallpaper Engine Çökmesi Hızlı Çözüm Denemesi
 
@@ -53,7 +53,7 @@ Bu çökme, genellikle Windows'un kendisinden kaynaklanır. Sorunu çözmek içi
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: ipucu Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay kutusunu seçtiğinizden emin olun veya önce mevcut sürücülerinizi elle kaldırın. Mevcut sürücüleriniz bozuksa önce bunları temizlemeniz önemlidir. :::
+::: tip Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay kutusunu seçtiğinizden emin olun veya önce mevcut sürücülerinizi elle kaldırın. Mevcut sürücüleriniz bozuksa önce bunları temizlemeniz önemlidir. :::
 
 ### nvwgf2umx.dll
 
@@ -61,7 +61,7 @@ Sisteminizdeki Nvidia sürücüleri çöküyor. Nvidia internet sitesine gidin, 
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: ipucu Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay kutusunu seçtiğinizden emin olun veya önce mevcut sürücülerinizi elle kaldırın. Mevcut sürücüleriniz bozuksa önce bunları temizlemeniz önemlidir. :::
+::: tip Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay kutusunu seçtiğinizden emin olun veya önce mevcut sürücülerinizi elle kaldırın. Mevcut sürücüleriniz bozuksa önce bunları temizlemeniz önemlidir. :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
