@@ -1,11 +1,11 @@
 ---
 tags:
-  - ダウンタイム
-  - サーバー
-  - ダウンロード
-  - 進捗
-  - ワークショップ
-  - 接続
+  - downtime
+  - server
+  - downloads
+  - progress
+  - workshop
+  - connection
 ---
 
 # Steamの壁紙ダウンロードに関する問題
