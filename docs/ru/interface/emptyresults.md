@@ -2,7 +2,7 @@
 
 Если у вас не отображаются изображения для предпросмотра обоев, за исключением установленных у вас на компьютере, это говорит о том, что брандмауэр или защитная программа заблокировала выход обозревателя в интернет. Вам надо отключить данную программу или добавить в список ее исключений файл ui32.exe.
 
-The preview images are direct image downloads from the Steam servers. If the preview images are not loading, something is blocking the connection between Wallpaper Engine and the Steam servers. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
+Изображения для предпросмотра напрямую загружаются с серверов Steam. Если изображения для предпросмотра не открываются, это значит, что сообщение между Wallpaper Engine и серверами Steam было чем-то заблокировано. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
 
 Some users of *accelerator software* also have issues with image previews being loaded. Make sure any type of network acceleration software is not blocking Wallpaper Engine from downloading image files in the background.
 
