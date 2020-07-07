@@ -33,7 +33,7 @@ Wallpaper 설정의 *플러그인* 섹션이 보이지 않으면, 이 기능을 
 
 제대로 작동하지 않는 기타 하드웨어 부분이 있으면 이 옵션을 다시 확인하세요.
 
-iCUE는 *단독 모드*에서 사용되며, 즉 Wallpaper Engine이 게임과 같은 다른 iCUE 호환 소프트웨어보다 우선합니다. 게임이 키보드에 애니메이션 효과를 주려면, Wallpaper Engine 설정의 **성능** 탭으로 이동하여 **타 응용프로그램 전체 화면** 옵션을 **중지 (여유 메모리 확보)**로 설정하여 게임 중 배경화면을 중단합니다. 또는 RGB 플러그인을 비활성화하거나 개별 배경화면에서 RGB 옵션을 비활성화할 수도 있습니다.
+iCUE는 *단독 모드*에서 사용되며, 즉 Wallpaper Engine이 게임과 같은 다른 iCUE 호환 소프트웨어보다 우선합니다. 게임에서 키보드에 애니메이션 효과를 주려면, Wallpaper Engine 설정의 **성능** 탭으로 이동하여 **타 응용프로그램 전체 화면** 옵션을 **중지 (여유 메모리 확보)**로 설정하여 게임 중 배경화면을 중단합니다. 또는 RGB 플러그인을 비활성화하거나 개별 배경화면에서 RGB 옵션을 비활성화할 수도 있습니다.
 
 Corsair iCUE 하드웨어 지원은 Corsair에 직접 문의하세요:
 
@@ -42,7 +42,7 @@ Corsair iCUE 하드웨어 지원은 Corsair에 직접 문의하세요:
 Corsair 지원과 관련하여 문제 발생 시 저희에게 문의하면, 도움이 될 수 있는지 확인하도록 하겠습니다.
 
 ### Razer
-Razer Synapse 3 이상만 지원합니다. Razer Synapse 1 또는 Razer Synapse 2를 사용하고 있다면, 완전히 삭제하고 Razer Synapse의 최신 버전으로 업데이트하세요. 과거 일부 사용자가 시스템에 Razer Synapse가 완전히 삭제되지 않아 문제를 겪은 적이 있었습니다. Razer Synapse 2 이하 버전이 설치되어 있고 RGB 조명 또는 활성화된 RGB 플러그인의 작동 중단 문제가 발생했다면, 시스템에서 오래된 Razer Synapse 버전의 나머지 구성물을 찾아 삭제해야 합니다.
+Razer Synapse 3 이상만 지원합니다. Razer Synapse 1 또는 Razer Synapse 2를 사용하고 있다면, 완전히 삭제하고 Razer Synapse의 최신 버전으로 업데이트하세요. 과거 일부 사용자가 시스템에서 Razer Synapse가 완전히 삭제되지 않아 문제를 겪은 적이 있습니다. Razer Synapse 2 이하 버전이 설치되어 있고 RGB 조명 또는 활성화된 RGB 플러그인의 작동 중단 문제가 발생했다면, 시스템에서 오래된 Razer Synapse 버전의 나머지 구성물을 찾아 삭제해야 합니다.
 
 Razer 하드웨어가 상대적으로 오래되어 Razer Synapse 3 이상을 지원하지 않는다면, RGB 조명이 Wallpaper Engine과 호환되지 않습니다.
 
