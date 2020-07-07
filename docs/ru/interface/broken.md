@@ -29,8 +29,8 @@ tags:
 
 Если проблема не была решена, отключите Wallpaper Engine. Затем перезапустите Wallpaper Engine, использовав для этого третью опцию запуска программы в Steam («Disable UI hardware acceleration»).
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### Пользовательский интерфейс Wallpaper Engine поврежден в результате редкой ошибки в работе оверлея Steam
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+Еще одна возможная причина, по которой у вас открывается черное окна программы — редко встречающаяся ошибка, связанная с работой оверлея Steam. Попробуйте следующее:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Полностью выключите Wallpaper Engine (кликните правой кнопкой мыши на иконку программы в панели задач и выберите опцию «Выход»). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
