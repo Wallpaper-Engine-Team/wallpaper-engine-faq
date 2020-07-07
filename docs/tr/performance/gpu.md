@@ -14,7 +14,7 @@ Ekran görüntüsündeki *GPU yükünün* %24 olduğuna dikkat edin. Ancak üst 
 
 Örneğin bir kartta 100 Mhz ila 2000 Mhz arasında saat hızları olabilir. Görev yöneticisi %50 gösteriyorsa bu durumda **100 MHz'in %50'si veya 2000 MHz'in %50'si olması arasında büyük bir fark vardır**.
 
-::: ipucu Özetlemek gerekirse: GPU yüküne bakarken GPU saat hızını göz önünde bulundurmak önemlidir. 100 MHz'in %50'si 2000 MHz'in %5'inden daha iyidir. :::
+::: tip Özetlemek gerekirse: GPU yüküne bakarken GPU saat hızını göz önünde bulundurmak önemlidir. 100 MHz'in %50'si 2000 MHz'in %5'inden daha iyidir. :::
 
 GPU performansını artırmak istiyorsanız:
 
