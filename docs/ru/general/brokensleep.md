@@ -1,10 +1,10 @@
 # Гибернация / Неработающая экранная заставка
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+Windows никогда не входит в режим гибернации при наличие активных аудиопотоков. Самый простой решения этой проблемы — отключение вывода аудио во вкладке «Общее» в настройках Wallpaper Engine. В результате программа перестанет мешать Windows войти в режим гибернации. Если вы хотите сохранить вывод аудио, вы можете настроить систему по инструкции ниже.
 
 ## Change the Windows power settings
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windows никогда не входит в режим гибернации при наличие активных аудиопотоков. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
 
 1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
 2. Click on "Additional power settings"
