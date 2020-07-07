@@ -3,7 +3,7 @@
 Причина этих проблем может заключаться в низкой мощности аппаратного обеспечения, которая не позволяет ему правильно проигрывать определенные видео. Видеообои нельзя сравнить с обычными видеоплеерами: помимо самого видео обои должны включать в себя иконки и теоретически могут быть растянуты на несколько экранов. Также они по умолчанию используют видеодекодер графического процессора, чтобы максимально сократить загрузку ЦП.
 
 ## Background recording hooks
-It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
+Подобные проблемы могут быть также связаны работой драйверов, использующих любые технологии видеозахвата программ, например ReLive, Shadow Play/Nvidia Share и Windows GameDVR. Попробуйте отключить эти функции и проверьте, была ли решена проблема. Затем исключите из них Wallpaper Engine. Также надо удостовериться, что никакие программы записи и программы, накладывающиеся поверх экрана не загружаются в Wallpaper Engine, тормозя воспроизведение видео.
 
 You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
 
