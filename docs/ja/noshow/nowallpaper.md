@@ -1,7 +1,7 @@
 ---
 tags:
-  - アンチウイルス
-  - 表示
+  - antivirus
+  - showing
 ---
 
 # 壁紙が見えない
