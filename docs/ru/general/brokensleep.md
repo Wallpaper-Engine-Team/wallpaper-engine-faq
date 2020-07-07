@@ -7,15 +7,15 @@ Windows никогда не входит в режим гибернации пр
 Windows никогда не входит в режим гибернации при наличие активных аудиопотоков. Самый простой решения этой проблемы — отключение вывода аудио во вкладке «Общее» в настройках Wallpaper Engine. Кроме этого можно перенастроить Windows, разрешив вход в спящий режим при воспроизведении звука:
 
 1. Зайдите в раздел «Питание и спящий режим» в настройках Windows. Для этого вбейте название раздела в поиск Windows.
-2. Кликните на «Дополнительные параметры питания»
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
-6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
+2. Кликните на опцию «Дополнительные параметры питания»
+3. Кликните на опцию «Настройка схемы электропитания» рядом с выбранной на компьютере схемой
+4. Кликните на опцию «Изменить дополнительные параметры питания»
+5. Прокрутите окошко вниз и откройте раздел «Параметры мультимедиа»
+6. Кликните на опцию «При общем доступе к мультимедиа» и выберите в выпадающем списке вариант «Разрешить компьютеру переходить в спящий режим» (гибернацию)
 
 ![Enable "Allow the computer to sleep"](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## Проблемы с гибернацией при использовании обоев вида «Web»
 
 "Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
 
