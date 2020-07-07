@@ -1,6 +1,6 @@
 # Завышенная оценка использования графического процессора
 
-В большинстве случаев диспетчер задач Windows не показывает действительный процент использования графического процессора, и это часто приводит к путанице. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
+В большинстве случаев диспетчер задач Windows не показывает действительный объем использования графического процессора, и это часто приводит к путанице. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
 
 * [Download GPU-Z](https://www.techpowerup.com/gpuz/)
 
