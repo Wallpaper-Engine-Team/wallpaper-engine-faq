@@ -19,9 +19,9 @@ Windows никогда не входит в режим гибернации пр
 
 Для работы Web обоев используется браузер, очень похожий на Google Chrome ("CEF"), который не дает системе войти в режим гибернации. Пока эта ошибка не будет исправлена в самом браузере, вы можете обойти ее, введя несколько команд в командную строку.
 
-1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
-2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
-3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
+1. Вбейте «cmd.exe» в поиск Windows, кликните правой кнопкой мыши по иконке программы и выберите вариант «Запустить от имени администратора» (последний пункт очень важен: при иных настройках дальнейшие шаги не помогут!).
+2. Используйте команду `powercfg /requests`, чтобы увидеть список процессов, которые не дают системе войти в режим гибернации (заодно удостоверьтесь, что проблема не связана с посторонними программами).
+3. Используйте следующие три команды, чтобы разрешить системе вход в спящий режим при работе Wallpaper Engine:
 
 ```
 powercfg /requestsoverride PROCESS webwallpaper32.exe AWAYMODE DISPLAY SYSTEM
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+В дополнение к этому вы можете зайти в настройки Wallpaper Engine, открыть вкладку **«Производительность»** и выбрать в выпадающем списке опции **«Монитор в спящем режиме»** вариант *«Остановить (освободить память)»*, а затем отключить монитор. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
