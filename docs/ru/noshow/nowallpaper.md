@@ -14,15 +14,15 @@ tags:
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: Подсказка Если у вас установлен антивирус (за исключением Windows Defender), с большой вероятностью именно в нем причина проблем. Take some time to investigate this further if your first attempts do not fix this issue. :::
+::: Подсказка Если у вас установлен антивирус (за исключением Windows Defender), с большой вероятностью именно в нем причина проблем. Если с первой попытки у вас не получилось решить проблему, попробуйте «поковыряться» с антивирусом немного подольше. :::
 
-## Conflicts with other desktop modification software
+## Конфликты с другими программами для модификации рабочего стола
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine успешно сочетаем с большинством программ для модификации рабочего стола. Тем не менее, в случае программ, которые тоже модифицируют обои Windows, например DeskScapes от StarDock, совместная работа невозможна. Если вы используете программу, выполняющую схожие с Wallpaper Engine функции, вам придется выбрать, какой программой вы предпочитаете пользоваться.
 
-### Fences
+### Программа Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+В целом, Wallpaper Engine успешно работает совместно с *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
 
 ## Gray Wallpaper or missing textures on Windows 7
 
