@@ -29,21 +29,21 @@ Se não tiver a certeza de como o fazer, também pode usar [Display Driver Unins
 3. Instale os controladores que acabou de transferir no 1.º passo.
 4. Volte a reiniciar o seu PC, veja se agora já funciona.
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: dica É muito importante que faça uma reinstalação limpa - isto significa que os seus atuais controladores de placa gráfica e definições do controlador devem ser completamente apagados antes de instalar os novos controladores, caso contrário não resultará. :::
 
 ## Codec Tweak Tool
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+Se não funcionar depois de fazer uma reinstalação limpa dos controladore da sua placa gráfica, experiemnte reiniciar os seus codecs de vídeo:
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* Transfira a Codec Tweak Tool: [Clique aqui](https://www.codecguide.com/download_other.htm)
+* Certifique-se de que todas as caixas de verificação do menu "Media Foundation" **não** estão marcadas e depois aplique as definições:
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![Anule a seleção de todas as opções em Media Foundation](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* Reinicie o PC e volte a experimentar os wallpapers afetados.
 
-## Additional video codecs
+## Codecs de vídeo adicionais
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+Se os wallpapers de vídeo afetados continuarem a não funcioanr depois das instruções anteriores, transfira o LAV e use DirectShow da forma descrita neste guia:
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [Usar LAV e DirectShow](/videos/lav.html).
