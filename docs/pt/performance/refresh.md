@@ -5,5 +5,5 @@ Consoante o hardware e o sistema operativo, a sua placa gráfica pode ter dificu
 Algumas soluções indiretas:
 
 * Defina as taxas de atualização dos monitores de forma a que sejam múltiplos umas das outras. Por exemplo, 120Hz e 60Hz em vez de 144Hz e 60Hz.
-* Use pausing/stopping options in Wallpaper Engine to make this less of a problem. Set it to pause on all monitors when playing games.
-* If your system has an integrated GPU, use that for your 60Hz monitor, although this will likely decrease desktop performance overall, since your CPU now needs to make both GPUs work together!
+* Use as opções de pausa/parar do Wallpaper Engne para minimizar este problema. Defina-o para ficar em pausa em todos os monitores quando está a jogar videojogos.
+* Se o seu sistema tiver um GPU integrado, use-o para o seu monitor de 60Hz, embora isto provavelmetne reduza o desempenhogeral do ambiente de trabalho, pois o agora o seu GPU precisa de fazer com que os dois GPUs trabalhem juntos!
