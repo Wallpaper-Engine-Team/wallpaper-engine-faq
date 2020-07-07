@@ -21,9 +21,9 @@ tags:
 
 * [Steam Support: проверка целостности файлов игры](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-Если проверка файлов с помощью Steam не решила ошибку после того, как вы настроили список исключений антивируса, попробуйте переустановить Wallpaper Engine через Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+Если проверка файлов с помощью Steam не решила ошибку после того, как вы настроили список исключений антивируса, попробуйте переустановить Wallpaper Engine через Steam. Если ваш антивирус совсем озверевший, он мог даже заблокировать без возможности восстановления пути к файлам, которые использует Wallpaper Engine. В этом случае необходимо сначала удалить антивирус, а затем установить Wallpaper Engine в другой каталог. По желанию для этого можно создать новую библиотеку игр в Steam.
 
-## Wallpaper Engine interface with green artifacts or white lines
+## Интерфейс Wallpaper Engine содержит зеленые артефакты или белые линии
 
 Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
 
