@@ -1,4 +1,4 @@
-# Performance issues / low FPS with certain games or applications
+# Низкая производительность / кадровая частота в некоторых играх и программах
 
 By default, Wallpaper Engine pauses itself while you are in-game. You can configure this behavior in the **Performance** tab of the Wallpaper Engine settings.
 
