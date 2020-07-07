@@ -6,10 +6,10 @@ Sem tecnologia Nvidia Optimus ou semelhante, o Windows será obrigado a copiar a
 
 Isto não está relacionado com o hardware criado para configurações multi-GPU como os portáteis Nvidia Optimus ou SLI/Crossfire. Estes possuem uma solução física para fazer isto funcionar corretamente.
 
-## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
+## Mau desempenho utilizando GPU secundário em Desktop sem Nvidia SLI / Nvidia Optimus / AMD CrossFire
 
-Many users assume that switching Wallpaper Engine to a secondary GPU will increase the overall system performance. However, this is merely a common misconception and the overall system performance will actually degrade.
+Muitos utilizadores assumem que passar o Wallpaper Engine para um GPU secundário irá aumentar o desempenho geral do sistema. Bo entanto, isto é apenas um engano bastante comum e na verdade o desemepnho geral do sisteam irá degradar-se.
 
-Wallpaper Engine creates wallpapers which are part of the desktop which means they are part of the Windows Explorer process. Therefore, Wallpaper Engine must use the same GPU as Windows Explorer. If this is not the case, then Windows has to force both GPUs to cooperate in order to render an image for your monitors. This has to be done by the processor which ultimately means the overall computer performance degrades significantly and often takes much more performance than the wallpapers themselves. Some proper multi-GPU technologies (Nvidia SLI, Nvidia Optimus, AMD CrossFire) solve this problem on a hardware-level but this is not applicable in cases where you use an Nvidia GPU and an Intel on-board graphics card, for example.
+O Wallpaper Engine cria wallpapers que fazem parte do ambiente de trabalho, o que significa que fazem parte do processo do Windows Explorer. Desta forma, o Wallpaper Engine deve usar o mesmo GPU que o Windows Explorer. Se isto não for o caso, o Windows tem de forçar os dois GPUs a cooperart para apresentarem uma imagem nos seus monitores. Isto tem de ser feito pelo processador, o que em última análise significa que o desempenho geral do computador se degrada significativamente e é frequente que consuma muito mais desempenho do que os próprios wallpapers. Algumas tecnologias multi-GPU dedicadas (Nvidia SLI, Nvidia Optimus, AMD CrossFire) resolvem este problema ao nível do hardware, mas isto não se aplica em casos em que utiliza, por exemplo, um GPU Nvidia e uma placa gráfica on-board da Intel.
 
-You can still change the GPU of your choice in your graphics card drivers or in your overall system settings, however we strongly advise against doing this as the outcome is not an increase in system performance.
+Continua a poder mudar o GPU à sua escolha nos controladores da sua placa gráfica ou nas suas definições gerais do sistema, no entanto desaconselhamos vivamente que o faça, pois o resultado não é um aumento do desempenho do sistema.
