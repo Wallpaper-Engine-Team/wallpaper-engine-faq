@@ -1,13 +1,13 @@
 # Guía de solución de problemas y preguntas frecuentes de Wallpaper Engine
-Si tiene problemas técnicos o tiene preguntas acerca de Wallpaper Engine, aquí encontrará la respuesta. El 95 % de las preguntas y los problemas que recibimos son los mismos, así que es muy probable que ya tengamos la solución.
+Si tienes problemas técnicos o tienes preguntas acerca de Wallpaper Engine, aquí encontrarás la respuesta. El 95 % de las preguntas y los problemas que recibimos son los mismos, así que es muy probable que ya tengamos la solución.
 
-**Use el buscador de la esquina superior derecha** o eche un vistazo a la lista de artículos a la izquierda. Los hemos clasificado para que tengan sentido. Además, hemos hecho una lista de los artículos que se consultan con más frecuencia, así que puede comprobar si su problema aparece ahí.
+**Usa el buscador de la esquina superior derecha** o echa un vistazo a la lista de artículos a la izquierda. Los hemos clasificado para que tengan sentido. Además, hemos hecho una lista de los artículos que se consultan con más frecuencia, así que puedes comprobar si el problema aparece ahí.
 
-::: tip Busque una palabra clave en el buscador de la esquina superior derecha. Por ejemplo, si los fondos le aparecen negros, busque: «negro». :::
+::: tip Busca una palabra clave en el buscador de la esquina superior derecha. Por ejemplo, si los fondos te aparecen negros, busca: «negro». :::
 
 ## Artículos más consultados
 
-Antes de nada, compruebe esta lista para ver si los problemas nombrados se asemejan al suyo. Si no, use el buscador de la esquina superior derecha o fíjese en los artículos de la lista de la izquierda:
+Antes de nada, comprueba esta lista para ver si los problemas nombrados se asemejan al tuyo. Si no, usa el buscador de la esquina superior derecha o fíjate en los artículos de la lista de la izquierda:
 
 | **Artículos más populares**                                                                                                                     |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- |
