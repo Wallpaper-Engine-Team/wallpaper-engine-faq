@@ -1,19 +1,19 @@
 ---
 tags:
-  - アプリケーション
-  - ルール
-  - 例外
-  - ホワイトリスト
-  - ブラックリスト
-  - ラグ
-  - ラギー
-  - ゲーム
-  - パフォーマンス
+  - application
+  - rules
+  - exception
+  - whitelist
+  - blacklist
+  - lags
+  - laggy
+  - game
+  - performance
   - fps
-  - クラッシュ
-  - サウンド
-  - オーディオ
-  - 断続的
+  - crash
+  - sound
+  - audio
+  - intermittent
 ---
 
 # 特定のアプリまたはゲームで起きる問題の修正
