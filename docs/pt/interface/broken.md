@@ -1,10 +1,10 @@
 ---
 tags:
-  - interface para o utilizador
-  - verde
-  - branco
-  - pixelizado
-  - ilegível
+  - user interface
+  - green
+  - white
+  - pixelated
+  - unreadable
 ---
 
 # A janela do Wallpaper Engine não é apresentada corretamente
