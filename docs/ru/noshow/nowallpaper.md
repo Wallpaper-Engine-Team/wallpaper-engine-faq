@@ -6,7 +6,7 @@ tags:
 
 # Обои не отображаются
 
-If some or all of your wallpapers do not show up, it's often caused by an antivirus application blocking Wallpaper Engine by mistake. If you are using an antivirus application, please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables:
+Если часть ваших обоев или они все не отображаются, часто это значит, что Wallpaper Engine был по ошибке заблокирован программой-антивирусом. Если вы используете антивирус, пожалуйста, удостоверьтесь, что в его список игнорируемых исключений занесены каталог установки *wallpaper_engine* и все важные загрузочные файлы Wallpaper Engine:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -14,7 +14,7 @@ If some or all of your wallpapers do not show up, it's often caused by an antivi
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: tip If you have an anti-virus application installed (except Windows Defender), it's very likely that this is the cause of your problems. Take some time to investigate this further if your first attempts do not fix this issue. :::
+::: Подсказка Если у вас установлен антивирус (за исключением Windows Defender), с большой вероятностью именно в нем причина проблем. Take some time to investigate this further if your first attempts do not fix this issue. :::
 
 ## Conflicts with other desktop modification software
 
