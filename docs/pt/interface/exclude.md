@@ -14,7 +14,7 @@ Se não gostar de ver wallpapers de anime, remova as categorias *Anime* e *MMD (
 
 A Steam Workshop permite uma certa quantidade de conteúdo adulto, tal como nudez. Senão quiser ver este tipo de conteúdo, ative apenas a classificação etária "Para todos" nos filtross:
 
-![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
+![Anule a seleção das classificações etárias "Adultos" and "Questionável" na barra lateral de filtros](./ageratings.gif)
 
 A maior parte do conteúdo está tagado corretamente, permitindo excluir a grande maioria do conteúdo para adultos. Se mesmoa ssim deparar com conteúdo para adultos que tenha sido classificado "Para todos", utilize a funcionalidade de denúncia da aplicação. Depois de ser analizado, o conteúdo poderá ser reclassificado ou banido.
 
