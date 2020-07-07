@@ -2,7 +2,7 @@
 
 Wallpaper Engine'e Windows saatinin yanındaki tepsi simgesini gizlemesini söyleyen bir kayıt defteri anahtarını manuel olarak oluşturarak Wallpaper Engine tepsi simgesini gizlemek mümkündür.
 
-::: uyarı Tepsi simgesi, bunu gizlemenin getireceği dezavantajları kabul edecek kadar sizi rahatsız etmiyorsa bunu yapmanızı önermeyiz. :::
+::: warning Tepsi simgesi, bunu gizlemenin getireceği dezavantajları kabul edecek kadar sizi rahatsız etmiyorsa bunu yapmanızı önermeyiz. :::
 
 Tepsi simgesi gizlendikten sonra Wallpaper Engine'i kapatmanın tek yolu, bunu Windows Görev Yöneticisi aracılığıyla sonlandırmak olacaktır. Kullanıcı arayüzünü yalnızca Steam veya .exe dosyaları aracılığıyla açabileceksiniz ve bu da oldukça zor ve kafa karıştırıcıdır.
 
