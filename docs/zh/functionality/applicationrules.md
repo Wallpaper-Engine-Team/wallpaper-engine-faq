@@ -28,7 +28,7 @@ tags:
 
 此时将显示系统上所有正在运行的 .exe 文件的列表。 从列表中选择一个 .exe，或键入发生问题的 .exe 的确切名称。 您可以使用另外两个选项配置条件和行为。 请参阅下文内容，以了解更多信息和具体示例。
 
-::: 提示 Wallpaper Engine 仅在意确切的 .exe 名称，位置则无关紧要，因此您只需在*应用程序名称*字段中键入任意 .exe 即可。 请务必确保 .exe 名称完全匹配，包括大写和小写字母。 :::
+::: tip Wallpaper Engine 仅在意确切的 .exe 名称，位置则无关紧要，因此您只需在*应用程序名称*字段中键入任意 .exe 即可。 请务必确保 .exe 名称完全匹配，包括大写和小写字母。 :::
 
 ### 修复应用程序或游戏的性能问题
 
@@ -42,4 +42,4 @@ tags:
 
 查看所有可能的条件和壁纸播放选项，了解更多类型的应用程序规则。 您还可以配置 Wallpaper Engine，使其在您启动特定应用程序时静音或暂停。
 
-::: 提示 您还可以在 Wallpaper Engine 设置的**性能**选项卡中，针对所有应用程序更改这些设置。 If you are having performance issues in multiple games, for example, it may make sense to just change the **Other application fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
+::: tip 您还可以在 Wallpaper Engine 设置的**性能**选项卡中，针对所有应用程序更改这些设置。 If you are having performance issues in multiple games, for example, it may make sense to just change the **Other application fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
