@@ -4,7 +4,7 @@
 
 Без технологии Nvidia Optimus или ей подобных, система Windows будет вынуждена копировать изображение на обоях с одной видеокарты на другую, а это очень медленный процесс. На самом деле, любое ваше действие, которое будет затрагивать обе видеокарты, будет менее продуктивным из-за этого феномена. Это то же самое, что расположить окно с видеоигрой прямо между двумя мониторами.
 
-This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. They have a physical solution to make this work correctly.
+Конкретно эта проблема не затрагивает аппаратное обеспечение, предназначенное для использование нескольких графических процессоров: например, компьютеры с Nvidia Optimus или SLI/Crossfire. В этих случаях проблема не возникает, поскольку решение внедрено на аппаратном уровне.
 
 ## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
 
