@@ -10,15 +10,15 @@
 
 1. Откройте вкладку **«Производительность»** в настройках Wallpaper Engine
 2. Нажмите на кнопку **«Редактировать»** рядом с опцией **«Правила приложения»**
-3. In the pop-up that appears, click on **Create new rule**
-4. Create a new rule with the following settings:
-    * **Application name:** "game.exe" *(replace this with the actual .exe file of your game)*
-    * **Condition:** "Is running"
-    * **Wallpaper playback:** "Stop (free memory)"
-5. Confirm by clicking on **Create**
+3. В появившемся всплывающем окне кликните на строку **«Создать новое правило»**
+4. Создайте новое правило, использовав следующие настройки:
+    * **Название приложения:** «game.exe» *(замените на .exe файл вашей игры)*
+    * **Условие:** «Запущено»
+    * **Воспроизведение обоев:** «Остановить (освободить память)»
+5. Подтвердите настройки, кликнув на **«Создать»**
 
-Wallpaper Engine will now completely remove all wallpapers from memory when the *.exe* you configured is launched.
+Теперь Wallpaper Engine будет полностью удалять все обои из памяти при запуске выбранного вами *.exe*.
 
-## Conflicts with screen-recording tools or overlays
+## Конфликты с программами записи и программами, накладывающимися поверх экрана
 
 If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
