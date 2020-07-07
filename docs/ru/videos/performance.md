@@ -5,9 +5,9 @@
 ## Background recording hooks
 Подобные проблемы могут быть также связаны работой драйверов, использующих любые технологии видеозахвата программ, например ReLive, Shadow Play/Nvidia Share и Windows GameDVR. Попробуйте отключить эти функции и проверьте, была ли решена проблема. Затем исключите из них Wallpaper Engine. Также надо удостовериться, что никакие программы записи и программы, накладывающиеся поверх экрана не загружаются в Wallpaper Engine, тормозя воспроизведение видео.
 
-You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
+Вы можете использовать наш инструмент сканирования, чтобы узнать, установлены ли на вашем компьютере программы, про которые достоверно известно, что они используют захватчики видео. Однако, он не всегда отлавливает все программы, в особенности часто не регистрируя распространенные захватчики видео, используемые, например, Nvidia GeForce Experience:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Инструмент сканирования Wallpaper Engine](/debug/scantool.html)
 
 ## Dynamic Super Resolution (DSR) / GPU Scaling
 Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
