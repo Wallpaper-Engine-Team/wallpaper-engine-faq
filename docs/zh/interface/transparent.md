@@ -9,4 +9,4 @@ tags:
 
 ![使用用户界面底部的滑块控制不透明度](./transparentinterface.gif)
 
-::: 提示 您可以在配置或浏览壁纸时使用滑块对其进行速览，而不必移动 Wallpaper Engine 窗口。 :::
+::: tip 您可以在配置或浏览壁纸时使用滑块对其进行速览，而不必移动 Wallpaper Engine 窗口。 :::
