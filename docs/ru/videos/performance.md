@@ -10,9 +10,9 @@
 * [Инструмент сканирования Wallpaper Engine](/debug/scantool.html)
 
 ## Динамическое сверхразрешение (DSR) / Масштабирование ГП
-Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
+Изменения настроек системы на уровне драйверов, например масштабирование средствами графического процессора и динамическое сверхразрешение, тоже могут вызывать проблемы. Попробуйте отключить эти опции и, если это поможет, отключите их для конкретно для Wallpaper Engine.
 
-## Bad performance in dwm.exe in systems with multiple GPUs / multiple screens
+## Низкая производительность в dwm.exe в системах с несколькими графическими процессорами / несколькими экранами
 If you have enabled the integrated GPU on your desktop PC in the BIOS although a dedicated graphics card is installed, you can experience bad performance and high CPU usage of DWM.exe. If possible, do not enable your integrated GPU. **It's very important to plug all your monitors into your dedicated graphics card.** Using both GPUs at the same time will break hardware acceleration of the desktop window manager. Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
 
 This specific issue does not affect hardware built for multi-GPU setups like laptops with Nvidia Optimus or proper Nvidia SLI / AMD Crossfire setups with a hardware bridge.
