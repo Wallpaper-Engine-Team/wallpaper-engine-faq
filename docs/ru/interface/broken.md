@@ -33,4 +33,4 @@ tags:
 
 Еще одна возможная причина, по которой у вас открывается черное окна программы — редко встречающаяся ошибка, связанная с работой оверлея Steam. Попробуйте следующее:
 
-Полностью выключите Wallpaper Engine (кликните правой кнопкой мыши на иконку программы в панели задач и выберите опцию «Выход»). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Полностью выключите Wallpaper Engine (кликните правой кнопкой мыши на иконку программы в панели задач и выберите опцию «Выход»). Затем откройте Steam, кликните правой кнопкой мыши на Wallpaper Engine, выберите «Свойства» и затем отключите опцию «Включить оверлей Steam в игре». После отключения оверлея, попробуйте перезапустить Wallpaper Engine через Steam. 
