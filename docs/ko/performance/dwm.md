@@ -4,7 +4,7 @@
 
 Nvidia Optimus 기술 또는 이와 유사한 기술이 없으면, Windows는 하나의 GPU에서 다른 GPU로 배경화면 이미지를 복사하므로 작업 속도가 매우 느립니다. 사실 GPU 간 공유되는 작업은 여기에 영향을 받으며, 이는 모니터 간 게임 창을 움직이는 것과 같습니다.
 
-이것은 Nvidia Optimus 노트북 또는 SLI/Crossfire와 같은 멀티 GPU 설정을 위해 제작된 하드웨어와는 관련이 없습니다. 여기에는 제대로 작동하게 할 물리적 해결책이 있습니다.
+이것은 Nvidia Optimus 노트북 또는 SLI/Crossfire와 같은 멀티 GPU 설정을 위해 제작된 하드웨어와는 관련이 없습니다. 여기에는 이것을 제대로 작동하게 할 물리적 해결책이 있습니다.
 
 ## Nvidia SLI / Nvidia Optimus / AMD CrossFire 없이 데스크톱에서 보조 GPU를 사용하여 성능 저하
 
