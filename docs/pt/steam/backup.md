@@ -1,10 +1,10 @@
-# Backup Steam Workshop
+# Cópia de segurança do Steam Workshop
 
-When wallpapers are deleted from Steam for any reason, Steam will also delete them from your PC. Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
+Quando os wallpapers são, por qualquer razão, apagados do Steam, o Steam também os apaga do seu PC. O Wallpaper Engine não pode impedir que isto aconterça, mas se isto for uma preocupação para si, pode fazer uma cópia de segurança dos seus wallpapers.
 
-Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
+De forma semelhante, há muitas notícias de que o Steam decidirá aletoriamente voltar a transferir todos os ficheiros do Workshop, o que pode ser irritante se tiver muitos Gigabytes de dados. Criar uma cópia de segurança e cortar todas as ligações ao Steam pode evitar isso, se acontecer com demasiada frequência.
 
-# Creating a Backup
+# Criar uma cópia de segurança
 
 The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
 
