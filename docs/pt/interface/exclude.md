@@ -8,7 +8,7 @@ Na aplicação pode filtrar e excluir categorias de que não gosta. Abra o separ
 
 Se não gostar de ver wallpapers de anime, remova as categorias *Anime* e *MMD (Miku-Miku-Dance)*. Além disso, pode também quere remover *Desenhos animados* e *Raparigas* pois também podem conter anime, mas é mais provável que também exclua outro conteúdo.
 
-![Deselect all categories you do not like in the filter sidebar](./categories.gif)
+![Anule a seleção de todas as categorias de que não gosta na barra lateral de filtros](./categories.gif)
 
 ## Excluir certas classificações etárias
 
@@ -16,10 +16,10 @@ A Steam Workshop permite uma certa quantidade de conteúdo adulto, tal como nude
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
-A maior parte do conte+udo está tagado corretamente, permitindo excluir a gande maioria do conteúdo para adultos. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
+A maior parte do conteúdo está tagado corretamente, permitindo excluir a grande maioria do conteúdo para adultos. Se mesmoa ssim deparar com conteúdo para adultos que tenha sido classificado "Para todos", utilize a funcionalidade de denúncia da aplicação. Depois de ser analizado, o conteúdo poderá ser reclassificado ou banido.
 
-## Reporting rule-breaking content
+## Denunciar conteúdo que infringe as regras
 
-We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
+Nós e os adminstradores/moderadores do Steam removemos diariamente wallpapers que infrigem as regras. Para nos ajudar a encontrá-los, denuncie as candidaturas na Oficina que infrigem as orientações.
 
-The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
+A Workshop permite que os utilizadores publicitem trabalhos sem que nós possamos verificá-los antes de ficarem visíveis. É assim que a Steam Workshop funciona e não é algo que nós possamos mudar. Só podemos remover candidaturas depois de terem sido enviadas. Se isto for um problema para si, certifique-se de que ativa o tag *Aprovado* nas definições dos filtros, pois estes são wallpapers escolhidos e verificados manualmente. Certifique-se de que lê as secções acima acerca de como configurar os seus filtros, de forma a poder simplesmente remover certos tipos de conteúdo que não deseja ver.
