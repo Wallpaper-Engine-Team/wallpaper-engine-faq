@@ -1,10 +1,10 @@
 # Завышенная оценка использования графического процессора
 
-В большинстве случаев диспетчер задач Windows не показывает действительный объем использования графического процессора, и это часто приводит к путанице. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
+В большинстве случаев диспетчер задач Windows не показывает реальную загрузку графического процессора, и это часто приводит к путанице. При подсчете загрузки графического процессора не учитываются *режим электропитания* и тактовая частота видеокарты, что делает этот метод чрезвычайно неточным и обычно приводит к сильно завшенным оценкам. Чтобы узнать реальную загрузку графического процессора, используйте инструменты наподобии GPU-Z:
 
-* [Download GPU-Z](https://www.techpowerup.com/gpuz/)
+* [Скачать GPU-Z](https://www.techpowerup.com/gpuz/)
 
-## Finding out your actual GPU load
+## Оцениваем реальную загрузку графического процессора
 
 Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
 
