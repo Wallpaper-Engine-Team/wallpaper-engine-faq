@@ -1,6 +1,6 @@
 ---
 tags:
-  - 透明
+  - invisible
 ---
 
 # Wallpaper Engineのウィンドウが透明になっている
