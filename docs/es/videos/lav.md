@@ -34,4 +34,4 @@ Si los vídeos se entrecortan al final de los fondos, puedes usar archivos .webm
 * Cambia la opción **Plataforma de WebM preferida** a **Nativo**.
 * Reinicia el programa e intenta usar el fondo de vídeo otra vez.
 
-Compruebe que aparece el icono de LAV en la bandeja del sistema y que el consumo de CPU es casi cero. Si es así, el contenido .webm cuenta ya con la aceleración de hardware. En caso de que no funcione, compruebe que ha configurado bien todas las opciones que LAV se ha instalado correctamente.
+Comprueba que aparece el icono de LAV en la bandeja del sistema y que el consumo de CPU es casi cero. Si es así, el contenido .webm cuenta ya con la aceleración de hardware. En caso de que no funcione, comprueba que has configurado bien todas las opciones y que LAV se ha instalado correctamente.
