@@ -22,12 +22,12 @@ tags:
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Удалите устаревшие драйвера видеокарты полностью и согласитесь на сброс настроек, если такой вариант будет предложен. В случае Nvidia вы можете поставить галочку в пункте «Выполнить чистую установку».
+2. Удалите устаревшие драйвера видеокарты полностью и согласитесь на сброс настроек, если такой вариант будет предложен. В случае Nvidia вы можете просто поставить галочку в пункте «Выполнить чистую установку».
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+На этом этапе вы также можете использовать [Display Driver Uninstaller (DDU)](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html), если не уверены, как правильно удалить драйвера.
 
-3. Install the drivers you have just downloaded in step 1.
-4. Restart your PC again, see if it works now.
+3. Установите новые драйвера, которые вы скачали на этапе 1.
+4. Еще раз перегрузите ваш компьютер и проверьте, была ли исправлена ошибка.
 
 ::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
 
