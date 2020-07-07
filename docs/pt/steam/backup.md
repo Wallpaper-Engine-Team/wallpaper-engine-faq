@@ -6,12 +6,12 @@ De forma semelhante, há muitas notícias de que o Steam decidirá aletoriamente
 
 # Criar uma cópia de segurança
 
-The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
+O seguinte guia assume que o seu Steam e Wallpaper Engine estejam instalados em `C:\Program Files (x86)\Steam\`. Se instalou o seu Steam / Wallpaper Engine noutro local, deve consultar esses locais.
 
-1. Locate the folder in which Steam stores your wallpapers, by default it is in `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** is the Steam ID of Wallpaper Engine, Steam uses this directory for all Wallpaper Engine downloads. :::
-2. Copy the folder 431960 to Wallpaper Engine's installation path here: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
-3. **Rename** the folder `431960` into `backup` so that the complete path looks like this: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
-4. The `backup` directory now includes all your previously downloaded wallpapers, each in their own sub-directory (the numbers represent the Steam Workshop ID of the wallpaper)
-5. Restart the wallpaper browser and you should see the backed up wallpapers now. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them
+1. Localize a pasta em que o Steam guarda os seus wallpapers, por predefinição é `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: dica **431960** é a Steam ID do Wallpaper Engine. O Steam usa este diretório para todas as transferências do Wallpaper Engine. :::
+2. Copie a pasta 431960 para o caminho de instalação do Wallpaper Engine aqui: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
+3. **Mude o nome** da pasta `431960` para `backup` para que o caminho completo seja este: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
+4. Agora, o diretório `backup` inclui todos os wallpapers que transferiu anteriormente, cada um no seu subdiretório (pos números representam a Steam Workshop ID do wallpaper)
+5. Reinicie o browser de wallpeper e agora deverá ver as cópias de segurança dos seus wallpapers. Agra pode anular a subscrição dos repetidos no Steam e usar apenas a sua cópia pessoal desses wallpapers
 
-::: warning Do **not** manually delete the Steam Workshop folder `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. This will cause your Steam to be confused and re-download all wallpapers. Simply unsubscribe from your wallpapers and let Steam delete the duplicate files itself. :::
+::: aviso **Não** apague manualmente a pasta do Steam Workshop `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. Isto fará com que o seu Steam fique confuso e volte a transferir todos os wallpapers. Simplesmente anule a subscrição dos seus wallpapers e deixe o Steam apagar os ficheiros repetidos. :::
