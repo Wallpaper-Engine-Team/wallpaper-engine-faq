@@ -6,4 +6,4 @@ Steam, yükleme işleminin %45'inde Steam sunucularına dosya yüklemeye başlay
 
 Bu sorun her zaman bir tür ağ sorunudur. Steam sunucularıyla düzgün bir şekilde iletişim kurma konusunda Steam'inizi neyin engellediğini araştırmanız gerekir.
 
-::: ipucu Bu ağ sorununa ağ yönlendiricinizdeki bir güvenlik duvarı da neden olabilir. Hiçbir ağ yönlendiricisinin, Steam yüklemesini engellemediğinden emin olun. Yüklemeler, bir mobil wi-fi etkin noktasına bağlıyken çalışıyorsa bu durumda bilgisayarınızdaki herhangi bir yazılım değil, büyük olasılıkla yönlendiriciniz arızalıdır. :::
+::: tip Bu ağ sorununa ağ yönlendiricinizdeki bir güvenlik duvarı da neden olabilir. Hiçbir ağ yönlendiricisinin, Steam yüklemesini engellemediğinden emin olun. Yüklemeler, bir mobil wi-fi etkin noktasına bağlıyken çalışıyorsa bu durumda bilgisayarınızdaki herhangi bir yazılım değil, büyük olasılıkla yönlendiriciniz arızalıdır. :::
