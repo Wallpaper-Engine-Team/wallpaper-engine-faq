@@ -18,7 +18,7 @@ Steam Workshop admite contenido adulto hasta cierto grado como, por ejemplo, des
 
 La mayoría del contenido está bien clasificado y así se excluirá la gran mayoría de contenido adulto. Si llegas a encontrarte con ese tipo de contenido porque se ha clasificado «Para todas las edades», usa la función de Informar del programa. Tras inspeccionarlo, el contenido se clasificará correctamente o se eliminará.
 
-## Informar de contenido que rompe las reglas
+## Informar de contenido que inflige las reglas
 
 Tanto nosotros como los administradores y moderadores de Steam borramos fondos de pantalla que rompen las reglas día tras día. Infórmanos de los fondos que rompen las normas y ayúdanos a encontrarlos.
 
