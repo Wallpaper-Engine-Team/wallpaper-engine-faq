@@ -1,12 +1,12 @@
 # Excluir ciertos fondos de la búsqueda
 
-Use siempre la pestaña Workshop para buscar fondos nuevos. Steam Workshop no cuenta con la misma capacidad de filtrado que el programa, por lo que le mostrará más contenido que no le interese.
+Usa siempre la pestaña Workshop para buscar fondos nuevos. Steam Workshop no cuenta con la misma capacidad de filtrado que el programa, por lo que le mostrará más contenido que no te interesa.
 
 ## Excluir géneros concretos (por ejemplo, anime)
 
-Puede eliminar categorías que no le gusten. Abra la pestaña «Workshop» en Wallpaper Engine y haga clic en el botón «Filtrar resultados» en la esquina superior izquierda para habilitar la barra lateral de filtros. Deseleccione todas las categorías que no quiera ver en los resultados.
+Puedes eliminar categorías que no te gusten. Abre la pestaña «Workshop» en Wallpaper Engine y haz clic en el botón «Filtrar resultados» en la esquina superior izquierda para habilitar la barra lateral de filtros. Deselecciona todas las categorías que no quieras ver en los resultados.
 
-Si no quiere ver fondos de anime, quite las categorías *Anime* y *MMD (Miku-Miku-Dance)*. Además, también puede quitar las categorías *Dibujos animados* y *Chicas*, ya que también pueden contener anime, pero se perderá otro tipo de contenido.
+Si no quieres ver fondos de anime, quita las categorías *Anime* y *MMD (Miku-Miku-Dance)*. Además, también puedes quitar las categorías *Dibujos animados* y *Chicas*, ya que también pueden contener anime, pero te perderás otro tipo de contenido.
 
 ![Deseleccione todas las categorías que no quiera ver en la barra lateral.](./categories.gif)
 
