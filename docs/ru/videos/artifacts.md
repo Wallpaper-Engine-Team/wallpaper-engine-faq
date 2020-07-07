@@ -27,7 +27,7 @@ tags:
 
 Если вы не уверены, как это сделать: скачайте последнюю версию драйверов для вашей видеокарты, затем используйте программу DDU (доступна по ссылке), чтобы удалить драйвера видеокарты и сбросить настройки:
 
-* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Скачать Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
 Затем, установите новые драйвера, которые вы скачали. Если все было сделано правильно, эти действия гарантированно решат проблему.
 
