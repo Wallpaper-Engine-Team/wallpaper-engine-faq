@@ -1,6 +1,6 @@
-# 32-Bit & 64-Bit Version
+# 32-разрядная и 64-разрядная версии
 
-The 64-bit version can handle larger files (more than 2GB) but it will always use more memory, no matter the file size of the wallpapers. For example, with a normal video wallpaper, the 64-bit version may use about 50 MB more RAM compared to the 32-bit version, otherwise there is nothing different or improved.
+64-разрядная версия позволяет работать с более «тяжелыми» файлами (больше 2 Гб), но она всегда потребляет больше памяти, вне зависимости от размера обоев. Например, при работе со стандартными видеообоями, 64-разрядная версия будет потреблять примерно на 50 Мб больше ОЗУ в сравнении с 32-разрядной. В остальном в работе версий нет никаких различий.
 
 ::: tip We recommend you stick to the 32-bit version unless you have huge wallpapers that would make the 32-bit version crash. The large majority of users never encounter this problem. :::
 
