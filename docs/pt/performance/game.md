@@ -21,4 +21,4 @@ O Wallpaper Engine irá remover completamente todos os wallpapers da memória qu
 
 ## Conflitos com ferramentas ou overlays de gravação do ecrã
 
-Se estiv er a utilizar qualquer software de streaming de jogos ou gravação de jogos com overlays, certifique-se de que não estão a gravar o Wallpaper Engine acidentalmente em segundo plano. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+Se estiv er a utilizar qualquer software de streaming de jogos ou gravação de jogos com overlays, certifique-se de que não estão a gravar o Wallpaper Engine acidentalmente em segundo plano. Isto pode também acontecer se utilizar quaisquer funcionalidades de streaming de jogo dos controladores da sua placa gráfica (por exemplo, Nvidia ShadowPlay, Nvidia Share ou AMD ReLive).
