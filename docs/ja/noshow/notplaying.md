@@ -1,8 +1,8 @@
 - - -
-タグ:
-  - activemovieウィンドウ
+tags:
+  - activemovie window
   - active movie
-  - 黒
+  - black
 - - -
 
 
