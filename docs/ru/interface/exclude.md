@@ -6,13 +6,13 @@
 
 В программе вы можете отсеить категории, которые вам не нравятся. Откройте вкладку «Мастерская» в Wallpaper Engine и запустите боковую панель фильтрации, кликнув на кнопку «Фильтры» в верхнем левом углу. Снимите выделение со всех категорий, которые вы не хотите видеть в результатах поиска.
 
-If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+Если вам не нравятся обои в жанре аниме, снимите выделение с категорий *Аниме* и *MMD (Miku-Miku-Dance)*. Кроме этого, возможно стоит убрать категории *Мультфильм* и *Девушки*, поскольку в них тоже могут быть обои в жанре аниме, но в таком случае вы с большой вероятностью отсеете и посторонний контент.
 
 ![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## Excluding certain age ratings
+## Исключение по возрастным ограничениям
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Мастерская Steam разрешает некоторые типы контента для взрослых, например, изображения обнаженного тела. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
 
 ![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
