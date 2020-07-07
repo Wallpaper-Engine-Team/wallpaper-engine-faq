@@ -6,7 +6,7 @@
 
 PC'nizdeki video sisteminde yalnızca 32 bit programları etkileyen hatalar olduğunda da 64 bit sürümü tercih edebilirsiniz. Codec paketleri ya da benzerlerini kurduysanız bunlar, Wallpaper Engine'in kullandığı 32 bit Windows video sistemine kalıcı olarak zarar vermiş olabilir. 64 bit sistem etkilenmiyorsa Wallpaper Engine'in 64 bit sürümünü kullanarak bundan faydalanabilirsiniz. Böylelikle bozulan her neyse düzeltmek zorunda kalmazsınız.
 
-::: warning Note "Web" duvar kâğıtlarının her zaman 32 Bit yürütülebilir dosya ile yürütüldüğünü unutmayın (webwallpaper32.exe). Aynısı kullanıcı arayüzü için de geçerlidir (ui32.exe). 64 Bit yalnızca "Sahne" veya "Video" türündeki duvar kâğıtlarını seçerken geçerli olur. :::
+::: warning Not "Web" duvar kâğıtlarının her zaman 32 Bit yürütülebilir dosya ile yürütüldüğünü unutmayın (webwallpaper32.exe). Aynısı kullanıcı arayüzü için de geçerlidir (ui32.exe). 64 Bit yalnızca "Sahne" veya "Video" türündeki duvar kâğıtlarını seçerken geçerli olur. :::
 
 ## Windows başlatıldığında otomatik olarak 32 veya 64 Bit sürümüyle başlamak için Walpaper Engine nasıl ayarlanır?
 
