@@ -59,6 +59,6 @@ O Steam não é capaz de transferir mais ficheiros. isto pode dever-se a uma apl
 * Inicie o Steam e verifique os ficheiros do Wallpaper Engine:
   * [Verificar os ficheiros do Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+Se tiver uma aplciação antivírus instalada: configure uma exceção para este diretório para impedir que bloqueie as transferências da Workshop do Steam: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### Artigo relacionado: [Steam volta a transferir todos os wallpapers](/steam/redownload)
