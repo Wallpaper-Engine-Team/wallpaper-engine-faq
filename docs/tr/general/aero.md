@@ -8,4 +8,4 @@ Windows Aero, görev çubuğundaki veya pencerelerin üst kısmındaki saydam et
 
 Donanımınız Windows Aero'yu destekliyorsa ancak bunu etkinleştiremiyorsanız **bu genellikle grafik kartı sürücülerinizin bozulduğu anlamına gelir**. Windows 7 için en güncel grafik kartı sürücülerini indirin ve tekrar deneyin.
 
-::: ipucu **Windows 10 kullanmanızı öneririz** çünkü bu sorun yalnızca Windows 7'de mevcuttur. Windows 7 artık güncelleme almıyor ve çoğu donanım üreticisi de bu sistemden desteğini kesti. Bu da Aero'nun bozulmasına sebep olan donanım sürücüleri ile ilgili sorunlara yol açabilir. :::
+::: tip **Windows 10 kullanmanızı öneririz** çünkü bu sorun yalnızca Windows 7'de mevcuttur. Windows 7 artık güncelleme almıyor ve çoğu donanım üreticisi de bu sistemden desteğini kesti. Bu da Aero'nun bozulmasına sebep olan donanım sürücüleri ile ilgili sorunlara yol açabilir. :::
