@@ -1,6 +1,6 @@
 # 업로드가 45%에서 중단되었습니다
 
-Steam은 사실상 업로드 진행률 45%에서 Steam 서버로 파일 업로드를 시작합니다. Wallpaper Engine 콘텐츠를 Steam 창작마당에 게시하려는데 45%에서 중단되면, Steam이 Steam 서버에 파일을 업로드할 수 없다는 뜻입니다. 방화벽이나 바이러스 백신 응용프로그램이 Steam의 파일 업로드를 차단하는지 확인하세요. 그리고 Steam 네트워크 포트의 공식 가이드도 참조하시기 바랍니다:
+Steam은 사실상 업로드 진행률 45%에서 Steam 서버로 파일 업로드를 시작합니다. Wallpaper Engine 콘텐츠를 Steam 창작마당에 게시하려는데 45%에서 중단되면, Steam이 Steam 서버에 파일을 업로드할 수 없다는 뜻입니다. 방화벽이나 바이러스 백신 응용 프로그램이 Steam의 파일 업로드를 차단하는지 확인하세요. 그리고 Steam 네트워크 포트의 공식 가이드도 참조하시기 바랍니다:
 
 * [Steam에 포트 필요](https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711)
 
