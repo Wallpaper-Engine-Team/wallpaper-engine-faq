@@ -2,12 +2,12 @@
 
 Windows никогда не входит в режим гибернации при наличие активных аудиопотоков. Самый простой решения этой проблемы — отключение вывода аудио во вкладке «Общее» в настройках Wallpaper Engine. В результате программа перестанет мешать Windows войти в режим гибернации. Если вы хотите сохранить вывод аудио, вы можете настроить систему по инструкции ниже.
 
-## Change the Windows power settings
+## Измените параметры электропитания Windows
 
-Windows никогда не входит в режим гибернации при наличие активных аудиопотоков. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windows никогда не входит в режим гибернации при наличие активных аудиопотоков. Самый простой решения этой проблемы — отключение вывода аудио во вкладке «Общее» в настройках Wallpaper Engine. Кроме этого можно перенастроить Windows, разрешив вход в спящий режим при воспроизведении звука:
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
+1. Зайдите в раздел «Питание и спящий режим» в настройках Windows. Для этого вбейте название раздела в поиск Windows.
+2. Кликните на «Дополнительные параметры питания»
 3. Click on "Change plan settings" next to the plan that is selected
 4. Click on "Change advanced power settings"
 5. Scroll down and expand "Multimedia settings"
