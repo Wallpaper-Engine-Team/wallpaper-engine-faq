@@ -17,47 +17,47 @@ Se está a ter dificuldades com transferências do Steam, certifique-se de que n
 ::: dica Pode verificar facilmente se o seu router de rede está a bloquear as transferências do Steam mudando para um hotspot móvel no seu smartphone e tentando transferir um wallpaper através dele. :::
 
 ## Transferência do wallpaper parou a 0% ou 100% (ou qualquer outra percentagem)
-O Steam não acabou de transferir e de verificar os ficheiros. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+O Steam não acabou de transferir e de verificar os ficheiros. Se as transferências ficarem paradas durante algum tempo, experiemente estas coisas se as suas transferências do Steam não funcionarem mesmo depois de ter esperado um pouco:
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+* Limpe a cache de transferências do Steam nas opções do Steam:
+  * [Limpar a cache de trasnferências do Steam](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* Depois, verifique os ficheiros do Wallpaper Engine no Steam:
+  * [Verificar os ficheiros do Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Se todas as transferências ainda estiverem paradas: **Desligue o Steam** e depois **apague o conteúdo** deste diretório:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * Se possui uma aplicação antivírus instalada, certifique-se de que exclui especificamente este diretório
+    * **Nota:** `C:\Program Files (x86)\Steam` é o caminho predefinido do Steam. Se intyalou noutro local, procure nesse local.
+* Reinicie o Steam. Não inicie quaisquer jogos. Procure o progresso no separador de transferências do Steam e retome quaisquer transferências que tenham ficado em pausa.
 
-::: details Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
-* Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
-* Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
-* Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
-* Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
-* Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
-* Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
-* Try again after waiting at least for a day in case there are Steam server issues.
-* **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!). :::
+::: detalhes Clique aqui para ver mais soluções possíveis se as instruções acima não resolverem os seus problemas de transferências
+* Certifique-se de que nenhum antivírus ou firewall está a bloquear o Steam. Exclua o diretório inteiro do Steam nas definições da sua aplicação antivírus.
+* Anule a subscrição de walpapers que não transfiram e volte a subscrevê-los depois de reiniciar o Steam.
+* Escolha outro servidor de conteúdo na definições do Steam. Pode encontrar a opção no separador "Downloads" das definições do Steam.
+* Certifique-se de que não limita as transferências do Steam nas **definições do Steam** com base na hora, largura de banda, estar dentro da aplicação.
+* Abra o separador 'Downloads' do Steam (Library -> Downloads). Procure transferências em pausa. Se vir alguma, clique em 'Resume'.
+* Clique com o botão direoto no Wallpaper Engine no Steam e, em seguida, em Properties, depois selecione **Allow Background Downloads**.
+* Certifique-se de que não tem atualizações pendentes no Steam, pois elas podem colocar em pausa ou desativar a transferência de wallpapers.
+* Tente novamente depois de esperar pelo menos um dia, para o caso de haver problemas nos servidores do Steam.
+* **Como último recurso**, tente reinstalar o Wallpaper Engine para remover quaisquer ficheiros do Steam que estejam danificados (isto voltará a transferir todos os wallpapers!). :::
 
-::: tip Steam servers go offline every week for maintenance at a fixed time:
+::: dica Os servidores do Steam ficam offline todas as semanas para manutenção a uma hora fixa:
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* Costa Oeste dos Estados Unidos: **Terça-feira às 4 pm (UTC - 7)**
+* Mesma hora na Europa Central: **Quarta-feira à 1 am (UTC + 1)**
+* Mesma hora na China: **Quarta-feira às 8 am (UTC + 8)**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
+Se está a ler isto durante sensivelmente esta altura da semana, pode ser que os servidores estejam temporariamente offline. Espere uma ou duas horas e tente novamente. :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam: erro "Missing Downloaded Files"
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+O Steam não é capaz de transferir mais ficheiros. isto pode dever-se a uma aplicação antivírus bloquear o Steam ou algo absolutamnte aleatório. Normalmente resolve-se desta forma:
 
-* Turn off Steam.
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Desligue o Steam.
+* Apague o conteúdo deste diretório: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+* Apague o conteúdo deste diretório: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+  * **Note:** `C:\Program Files (x86)\Steam` é o caminho predefinido do Steam. Se instalou noutro local, deve procurar nesse local.
+* Inicie o Steam e verifique os ficheiros do Wallpaper Engine:
+  * [Verificar os ficheiros do Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
 If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
