@@ -3,7 +3,7 @@ Teknik bir sorun yaşıyor ya da Wallpaper Engine hakkında soru sormak istiyors
 
 **Sağ üst köşedeki arama çubuğunu kullanabilir** ya da soldaki makale listesinde gezinebilirsiniz. Makaleleri elimizden geldiğince kategorileştirdik. Sorunuzun yanıtını aşağıda listelediğimiz en sık başvurulan yardım makalelerinde de arayabilirsiniz.
 
-Sağ üst köşedeki arama çubuğuna anahtar kelimeler girin. Örneğin, duvar kâğıdınız sadece siyah arka planları gösteriyorsa, "siyah" kelimesini arayabilirsiniz. :::
+::: ipucu Sağ üst köşedeki arama çubuğuna anahtar kelimeler girin. Örneğin, duvar kâğıdınız sadece siyah arka planları gösteriyorsa, "siyah" kelimesini arayabilirsiniz. :::
 
 ## En popüler destek makaleleri
 
