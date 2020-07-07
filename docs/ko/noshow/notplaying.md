@@ -1,7 +1,7 @@
 - - -
 태그:
-  - 활성영화 창
-  - 활성 영화
+  - activemovie 창
+  - active movie
   - 검은색
 - - -
 
