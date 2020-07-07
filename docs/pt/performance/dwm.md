@@ -1,10 +1,10 @@
-# Desktops with Integrated and Dedicated GPU Perform Poorly (dwm.exe)
+# Desktops com GPU integrado e dedicado têm desempenho fraco (dwm.exe)
 
-If you enabled the integrated GPU on your desktop PC in the BIOS although a dedicated GPU is installed, you may experience bad performance and high CPU usage of *dwm.exe*. If possible, do not enable your integrated GPU and plug your monitors into your dedicated GPU. Using both independent graphics solutions at the same time will break hardware acceleration of the desktop window manager, it's important that all monitors are plugged into your main graphics card. This is not a bug or issue in Wallpaper Engine, it is problem that affects all mulit-monitor software with hardware setups where not all monitors are plugged into the main graphics card.
+Se ativou o GPU integrado no seu PC desktop no BIOS apesar de ter instalado um GPU dedicado, poderá sofrer um mau desempenho e utilização elevada do CPU da parte de *dwm.exe*. Se for possível, não ative o seu GPU integrado e ligue os seus monitores a um GPU dedicado. Utilizar as duas soluções gráficas independentes ao mesmo tempo irá quebrar a aceleração por hardware do gestor de janela do ambiente de trabalho, é importante que todos os monitores estgejam ligados à sua placa gráfica principal. Isto não é um erro ou problema do Wallpaper Engine, é um problema que afeta todo o software multimonitor com configurações de hardware em que nem todos os monitores estão ligados à placa gráfica principal.
 
-Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a very slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
+Sem tecnologia Nvidia Optimus ou semelhante, o Windows será obrigado a copiar a imagem do wallpaper de um GPU para o outro - uma operação muito lenta. Na verdade, qualquer ação aprtilhada entre os GPUs irá sofrer por causa disto, sendo o mesmo que mov e uma janela de jogo entre dois monitores.
 
-This is unrelated to hardware built for multi-GPU setups like Nvidia Optimus laptops or SLI/Crossfire. They have a physical solution to make this work correctly.
+Isto não está relacionado com o hardware criado para configurações multi-GPU como os portáteis Nvidia Optimus ou SLI/Crossfire. Estes possuem uma solução física para fazer isto funcionar corretamente.
 
 ## Poor Performance using Secondary GPU on Desktop without Nvidia SLI / Nvidia Optimus / AMD CrossFire
 
