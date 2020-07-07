@@ -1,6 +1,6 @@
 # Низкая производительность / кадровая частота в некоторых играх и программах
 
-By default, Wallpaper Engine pauses itself while you are in-game. You can configure this behavior in the **Performance** tab of the Wallpaper Engine settings.
+По умолчанию, Wallpaper Engine временно останавливает работу при запуске игры. Вы можете изменить поведение Wallpaper Engine при запуске игр и посторонних программ во вкладке **«Производительность»** в настройках.
 
 If you are having performance issues with individual games or applications, you can further tweak this behavior. Usually performance issues mean that your system is running out of RAM or Video RAM (the memory on your graphics card). You can configure Wallpaper Engine to free up any memory when in-game by changing the **Other application fullscreen** option to **Stop (free memory)** in the **Performance** tab of the Wallpaper Engine settings.
 
