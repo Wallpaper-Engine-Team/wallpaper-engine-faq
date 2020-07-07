@@ -1,10 +1,10 @@
 ---
 tags:
-  - ユーザーインターフェース
-  - 緑
-  - 白
-  - ピクセル化
-  - 解読不能
+  - user interface
+  - green
+  - white
+  - pixelated
+  - unreadable
 ---
 
 # Wallpaper Engineのウィンドウが正しく表示されない
