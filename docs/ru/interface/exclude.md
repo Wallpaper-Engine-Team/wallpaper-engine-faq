@@ -1,4 +1,4 @@
-# Exclude certain wallpapers from the search
+# Исключение определенных обоев из результатов поиска
 
 Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
 
