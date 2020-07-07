@@ -31,4 +31,4 @@ Ne yapacağınızdan emin değilseniz: Grafik kartınız için en son sürücül
 
 Sonrasında yeni indirdiğiniz sürücüleri kurun. Bu doğru şekilde yapılırsa sorunu kesinlikle çözecektir.
 
-::: ipucu Grafik kartı sürücülerinizi yeniden kurduktan sonra renkler hâlâ hatalıysa birden fazla GPU'nuz olabilir veya "temiz" bir yeniden kurulum gerçekleştirmemiş olabilirsiniz. Önce mevcut tüm grafik kartı sürücülerinizi kaldırdığınızdan ve tüm sürücü ayarlarını temizlediğinizden emin olun. :::
+::: tip Grafik kartı sürücülerinizi yeniden kurduktan sonra renkler hâlâ hatalıysa birden fazla GPU'nuz olabilir veya "temiz" bir yeniden kurulum gerçekleştirmemiş olabilirsiniz. Önce mevcut tüm grafik kartı sürücülerinizi kaldırdığınızdan ve tüm sürücü ayarlarını temizlediğinizden emin olun. :::
