@@ -19,7 +19,7 @@
 Если вы хотите увеличить производительность графического процессора:
 
 * Отключите или удалите программы записи и программы, накладывающиеся поверх экрана. Это касается и Geforce Experience.
-* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
+* Снизьте частоту кадров и отключите множественную выборку сглаживания (MSAA). Это не повлияет на качество 2D сцен.
     * This won't influence the performance of videos, they have fixed frame rates and quality.
     * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
 * Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
