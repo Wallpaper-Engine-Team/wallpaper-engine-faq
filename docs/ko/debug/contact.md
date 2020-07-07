@@ -15,7 +15,7 @@ Wallpaper Engine 관련 기술적 문제가 발생하면, 우선 FAQ를 확인�
 
 적합한 문서를 찾지 못하거나 문제를 해결할 수 없다면, [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request)로 문의하실 수 있습니다.
 
-::: 팁 기술적 문제가 발생하면, 스캔 도구의 로그 파일을 보내는 게 도움이 됩니다:
+::: tip 기술적 문제가 발생하면, 스캔 도구의 로그 파일을 보내는 게 도움이 됩니다:
 
 * [Wallpaper Engine 스캔 도구를 사용하여 디버그 로그 생성하기](debug/scantool)
 
