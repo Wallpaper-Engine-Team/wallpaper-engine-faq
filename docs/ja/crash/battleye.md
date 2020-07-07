@@ -1,7 +1,7 @@
 ---
 tags:
-  - クラッシュ
-  - 閉じる
+  - crash
+  - close
   - nvidia
   - battleye
 ---
