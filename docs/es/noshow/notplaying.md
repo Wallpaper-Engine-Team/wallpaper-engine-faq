@@ -1,5 +1,5 @@
 - - -
-etiquetas:
+tags:
   - ventana activemovie
   - active movie
   - negro
