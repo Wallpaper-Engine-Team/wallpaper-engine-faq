@@ -14,7 +14,7 @@ tags:
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: 팁 바이러스 백신 응용 프로그램(Windows Defender 제외)이 설치되었다면, 이것이 문제의 원인일 가능성이 매우 높습니다. 처음 시도해서 문제가 해결되지 않으면, 시간을 들여 좀 더 조사하세요. :::
+::: tip 바이러스 백신 응용 프로그램(Windows Defender 제외)이 설치되었다면, 이것이 문제의 원인일 가능성이 매우 높습니다. 처음 시도해서 문제가 해결되지 않으면, 시간을 들여 좀 더 조사하세요. :::
 
 ## 다른 바탕화면 수정 소프트웨어와 충돌
 
