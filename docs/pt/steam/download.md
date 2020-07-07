@@ -8,7 +8,7 @@ tags:
   - connection
 ---
 
-# Steam Wallpaper Download Issues
+# Problemas na transferência de wallpapers pelo Steam
 
 Keep in mind that **all downloads are performed by Steam**. Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
 
