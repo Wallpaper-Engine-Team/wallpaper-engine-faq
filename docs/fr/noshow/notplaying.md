@@ -1,5 +1,5 @@
 - - -
-mots-clés :
+tags :
   - activemovie window
   - activemovie
   - noir
