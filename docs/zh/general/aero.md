@@ -8,4 +8,4 @@ Windows Aero is responsible for the transparent effect on the task bar or the to
 
 如果硬件支持 Windows Aero，但您无法启用它，**通常意味着显卡驱动程序已损坏**。 下载适用于 Windows 7 的最新显卡驱动程序，然后重试。
 
-::: 提示 **我们建议使用 Windows 10**，因为此问题仅存在于 Windows 7。 Windows 7 已无法再接收任何更新，而且大多数硬件制造商已放弃为其提供支持。 这可能导致硬件驱动程序出现问题，从而造成 Aero 损坏。 :::
+::: tip **我们建议使用 Windows 10**，因为此问题仅存在于 Windows 7。 Windows 7 已无法再接收任何更新，而且大多数硬件制造商已放弃为其提供支持。 这可能导致硬件驱动程序出现问题，从而造成 Aero 损坏。 :::
