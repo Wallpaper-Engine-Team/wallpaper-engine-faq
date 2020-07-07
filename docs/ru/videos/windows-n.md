@@ -1,17 +1,17 @@
 # Windows N: отсутствует mfplat.dll
 
-В комплектации Windows N отсутствуют мультимедийные программы! You need to install the correct Media Feature Pack for your specific Windows version and build number:
+В комплектации Windows N отсутствуют мультимедийные программы! Вам понадобится выбрать один из пакетов Media Feature Pack в зависимости от версии вашей системы и номера сборки и установить его:
 
 * Windows 10:
-  * [Media Feature Pack Download](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (page only provided in English by Microsoft)
+  * [Скачать Media Feature Pack](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (Microsoft предоставляет информацию на странице только на английском)
 
 * Windows 7:
-  * [Media Feature Pack Download](https://www.microsoft.com/download/details.aspx?id=16546)
+  * [Скачать Media Feature Pack](https://www.microsoft.com/download/details.aspx?id=16546)
 
-**Make sure to install the x64 and x86 version.**
+**Необходимо установить пакеты для обеих версий: x64 и x86.**
 
-If it still shows the same error then **you have installed the wrong version**, try installing the correct version and restarting the PC. Should nothing work and it is still missing, your system files are probably defective, try restoring the system to an earlier state or reinstall Windows.
+Если вы по-прежднему видите ту же ошибку, это значит, что **вы установили неправильную версию**. Попробуйте заново установить правильную версию программы и перезагрузить компьютер. Если после этого проблема не решилась, и необходимый файл отсутствует, это значит, что системные файлы повреждены. Попробуйте восстановить более раннюю версию системы или переустановите Windows.
 
-:::warning Please note Every time Microsoft releases a major update to Windows 10, you must install the media feature pack again. If this undesirable for you, consider switching to a normal version of Windows as the other versions are always shipped with these features!
+:::предупреждение Обратите внимание После каждого большого обновления для Windows 10 от Microsoft, вам понадобится заново устанавливать пакет мультимедийных программ. If this undesirable for you, consider switching to a normal version of Windows as the other versions are always shipped with these features!
 
 **The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.** :::
