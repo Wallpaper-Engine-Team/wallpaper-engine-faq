@@ -50,15 +50,15 @@ Steam이 다운로드를 완료하지 않고 파일을 식별하지 않습니다
 
 ## Steam: "다운로드 파일 누락" 오류
 
-Steam이 일부 파일을 다운로드할 수 없는 경우, 바이러스 백신 응용 프로그램이 Steam을 차단하기 때문이거나 무작위로 발생할 때도 있습니다. 보통 다음 방법으로 해결할 수 있습니다:
+Steam이 일부 파일을 다운로드할 수 없는 경우, 바이러스 백신 응용 프로그램의 Steam 차단 또는 무작위 발생이 원인일 수 있습니다. 보통 다음 방법으로 해결할 수 있습니다:
 
-* Turn off Steam.
-* 이 디렉터리의 콘텐츠를 삭제하세요: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* 이 디렉터리의 콘텐츠를 삭제하세요: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+* Steam을 끕니다.
+* 이 디렉터리의 콘텐츠를 삭제합니다: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+* 이 디렉터리의 콘텐츠를 삭제합니다: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
   * **참고:** `C:\Program Files (x86)\Steam`은 기본 Steam 경로이며, 다른 곳에 설치한 경우 위치를 확인하세요.
-* Steam을 시작하고 Wallpaper Engine 파일을 식별하세요:
+* Steam을 시작하고 Wallpaper Engine 파일을 식별합니다:
   * [Wallpaper Engine 파일 식별하기](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-바이러스 백신 앱이 설치되어 있는 경우: 이 디렉터리를 예외로 구성하여 Steam 창작마당 다운로드 차단을 방지하세요: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+바이러스 백신 앱이 설치되어 있는 경우: 이 디렉터리를 예외로 구성하여 Steam 창작마당 다운로드 차단을 방지합니다: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
 #### 관련 문서: [Steam이 모든 배경화면을 다시 다운로드합니다](/steam/redownload)
