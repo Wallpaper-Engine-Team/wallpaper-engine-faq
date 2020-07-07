@@ -1,11 +1,11 @@
-# Preview images / search results not showing
+# Prévisualização de imagens / resultados da pequisa não são apresentados
 
-If you cannot see preview images for wallpapers except for installed ones, there is a firewall or security software that blocks the browser from accessing the internet. You must disable that or add an exception for 'ui32.exe'.
+Se não cosneguir prévisualizar imagens de wallpapers, exceto dos instalados, há uma firewall ou software de segurança que impede o browser de aceder à Internet. Deve desativar isso ou adicionar uma exceção para 'ui32.exe'.
 
-The preview images are direct image downloads from the Steam servers. If the preview images are not loading, something is blocking the connection between Wallpaper Engine and the Steam servers. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
+As imagens da prévisualização são transferências diretas de imagens dos servidores do Steam. Se as imagens de prévisulaização não carregarem, algo está a bloquear a ligação entre o Wallpaper Engine e os servidores do Steam. Alguns utilizadores tinham estes bloqueios no seu router de rede. Pode testar se isto é um problema do seu router ou do seu computador testando se as imagens de prévisualização começam a aparecer quando o seu computador está ligado a um hotspot de wi-fi do seu smartphone.
 
-Some users of *accelerator software* also have issues with image previews being loaded. Make sure any type of network acceleration software is not blocking Wallpaper Engine from downloading image files in the background.
+Alguns utilizadores de *software acelerador* também têm problemas com o carregamento de prévisualizações de imagens. Certifique-se de que nenhum tipo de software de aceleração de rede está a impedir o Wallpaper Engine de transferir ficheiros de imagem em segundo plano.
 
-## No wallpapers or only very few wallpapers showing
+## Não aparece nenhum wallpaper ou muito poucos wallpapers
 
-You likely have too strict filters enabled. Try resetting all filters by clicking on the "Reset filters" button in the filter sidebar.
+É provável que tenha filtros demasiado severos ativados. Experimente reiniciar todos os filtros clicando no botão "Reiniciar filtros" da barra lateral de filtros.
