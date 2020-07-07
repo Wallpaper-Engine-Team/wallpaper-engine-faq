@@ -1,10 +1,10 @@
 ---
 tags:
   - webm
-  - ビデオ
-  - 黒
-  - コーデック
-  - フィルター
+  - video
+  - black
+  - codec
+  - filters
   - 4K
   - HEVC
   - mkv
