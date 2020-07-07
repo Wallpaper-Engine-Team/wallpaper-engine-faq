@@ -21,4 +21,4 @@
 
 ## Конфликты с программами записи и программами, накладывающимися поверх экрана
 
-If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+Если вы используйте программы для трансляции и записи игр, а также программы с элементами, накладывающимися поверх экрана, удостоверьтесь, что они не записывают Wallpaper Engine в фоновом режиме. Это также касается использования функционала для трансляции игр, который добавлен в драйвера видеокарты (например, Nvidia ShadowPlay, Nvidia Share или AMD ReLive).
