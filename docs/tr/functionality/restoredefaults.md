@@ -12,4 +12,4 @@ Steam ya da Wallpaper Engine farklı bir yer/dizinde yüklüyse dizin de biraz f
 
 3. Dosya silindikten sonra Wallpaper Engine'i yeniden başlattığınızda varsayılan dosyalar geri gelir.
 
-::: ipucu "visibility.json" dosyasını hâlâ bulamazsanız Wallpaper Engine'i silip yeniden yükleyebilirsiniz. Bu şekilde tüm varsayılan duvar kâğıtlarını kurtarır fakat tüm duvar kâğıtlarını yeniden indirmek zorunda kalırsınız. Yukarıdaki adımları izlediğinizde ise bununla uğraşmak zorunda kalmazsınız. :::
+::: tip "visibility.json" dosyasını hâlâ bulamazsanız Wallpaper Engine'i silip yeniden yükleyebilirsiniz. Bu şekilde tüm varsayılan duvar kâğıtlarını kurtarır fakat tüm duvar kâğıtlarını yeniden indirmek zorunda kalırsınız. Yukarıdaki adımları izlediğinizde ise bununla uğraşmak zorunda kalmazsınız. :::
