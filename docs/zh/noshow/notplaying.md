@@ -1,5 +1,5 @@
 - - -
-标签：
+tags:
   - ActiveMovie 窗口
   - Active Movie
   - 黑屏
@@ -10,7 +10,7 @@
 
 *视频*类型的壁纸出现黑屏和其他问题，*通常*由显卡驱动程序故障或视频编解码器故障导致。 请按照完全相同的顺序，尝试执行以下步骤。 如果完全遵循本指南的指示，您就可以解决该问题：
 
-::: 警告 请注意 本主题涉及到 Wallpaper Engine **壁纸**为黑色或无法正常播放的问题。 如果 **Wallpaper Engine 界面为黑色**，您需要访问此处：[Wallpaper Engine 用户界面为黑色](/interface/broken.html#wallpaper-engine-interface-is-black)。 :::
+::: warning 请注意 本主题涉及到 Wallpaper Engine **壁纸**为黑色或无法正常播放的问题。 如果 **Wallpaper Engine 界面为黑色**，您需要访问此处：[Wallpaper Engine 用户界面为黑色](/interface/broken.html#wallpaper-engine-interface-is-black)。 :::
 
 ## 显卡驱动程序全新安装
 
@@ -29,7 +29,7 @@
 3. 安装您在第 1 步中刚刚下载的驱动程序。
 4. 再次重新启动 PC，看看现在是否可以正常工作。
 
-::: 提示 请您务必执行全新安装 — 这意味着，在安装新驱动程序之前，必须完全删除当前的显卡驱动程序和驱动程序设置，否则将无法正常工作。 :::
+::: tip 请您务必执行全新安装 — 这意味着，在安装新驱动程序之前，必须完全删除当前的显卡驱动程序和驱动程序设置，否则将无法正常工作。 :::
 
 ## 编解码器调整工具
 
