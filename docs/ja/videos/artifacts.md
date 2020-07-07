@@ -1,16 +1,16 @@
 ---
 tags:
-  - 色
-  - 明るい
-  - 暗い
-  - ズーム
-  - 拡大
-  - ピクセル化
-  - 境界線
-  - ガンマ
-  - 画質
-  - 正しくない
-  - きれいでない
+  - colors
+  - bright
+  - dark
+  - zoom
+  - zoomed-in
+  - pixelated
+  - border
+  - gamma
+  - quality
+  - wrong
+  - ugly
 ---
 
 # ビデオ壁紙が正しく表示されない
