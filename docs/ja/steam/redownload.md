@@ -1,9 +1,9 @@
 ---
 tags:
-  - ダウンロード
-  - 再ダウンロード
-  - 削除された
-  - 削除する
+  - download
+  - re-download
+  - deleted
+  - deletes
 ---
 
 # Steamが壁紙を再ダウンロードする
