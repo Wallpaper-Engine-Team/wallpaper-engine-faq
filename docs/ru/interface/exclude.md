@@ -1,10 +1,10 @@
 # Исключение определенных обоев из результатов поиска
 
-Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+Для поиска новых обоев всегда используйте вкладку «Мастерская» в программе. На сайте Мастерской Steam нет аналогичных механизмов для фильтрации результатов поиска, поэтому вам будет показывать слишком много контента, в котором вы не заинтересованы.
 
-## Excluding certain genres (anime, for example)
+## Исключение определенных жанров (например, аниме)
 
-You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+В программе вы можете отсеить категории, которые вам не нравятся. Откройте вкладку «Мастерская» в Wallpaper Engine и запустите боковую панель фильтрации, кликнув на кнопку «Фильтры» в верхнем левом углу. Снимите выделение со всех категорий, которые вы не хотите видеть в результатах поиска.
 
 If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
 
