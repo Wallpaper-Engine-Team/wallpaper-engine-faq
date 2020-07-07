@@ -21,4 +21,4 @@
 
 ## 화면 기록 도구 충돌 또는 오버레이
 
-게임 스트리밍, 게임 기록 또는 오버레이 소프트웨어를 사용하면, 배경에서 실수로 Wallpaper Engine을 기록하지 않게 해야 합니다. 또한 그래픽 카드 드라이버에서 게임 스트리밍 기능을 사용하는 경우에도 해당됩니다. (예: Nvidia ShadowPlay, Nvidia Share 또는 AMD ReLive)
+게임 스트리밍, 게임 기록 또는 오버레이 소프트웨어를 사용할 경우, 실수로 배경에서 Wallpaper Engine을 기록하지 않게 해야 합니다. 또한 그래픽 카드 드라이버에서 게임 스트리밍 기능을 사용하는 경우에도 해당됩니다. (예: Nvidia ShadowPlay, Nvidia Share 또는 AMD ReLive)
