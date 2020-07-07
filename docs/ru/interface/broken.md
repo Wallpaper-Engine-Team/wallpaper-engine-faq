@@ -25,9 +25,9 @@ tags:
 
 ## Интерфейс Wallpaper Engine содержит зеленые артефакты или белые линии
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+У вас неисправны или неправильно настроены драйвера видеокарты. Загрузите последнюю версию драйверов для вашей видеокарты (даже если у вас уже установлена последняя версия) и проведите чистую переустановку. Очень важно сначала удалить драйвера, а потом установить последнюю версию, чтобы гарантированно очистить систему от неисправных файлов и старых настроек.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+Если проблема не была решена, отключите Wallpaper Engine. Затем перезапустите Wallpaper Engine, использовав для этого третью опцию запуска программы в Steam («Disable UI hardware acceleration»).
 
 ### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
 
