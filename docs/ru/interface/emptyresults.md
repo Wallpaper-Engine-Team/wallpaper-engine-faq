@@ -1,6 +1,6 @@
-# Preview images / search results not showing
+# Не отображаются изображения для предпросмотра / результаты поиска
 
-If you cannot see preview images for wallpapers except for installed ones, there is a firewall or security software that blocks the browser from accessing the internet. You must disable that or add an exception for 'ui32.exe'.
+Если у вас не отображаются изображения для предпросмотра обоев, за исключением установленных у вас на компьютере, это говорит о том, что брандмауэр или защитная программа заблокировала выход обозревателя в интернет. Вам надо отключить данную программу или добавить в список ее исключений файл ui32.exe.
 
 The preview images are direct image downloads from the Steam servers. If the preview images are not loading, something is blocking the connection between Wallpaper Engine and the Steam servers. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
 
