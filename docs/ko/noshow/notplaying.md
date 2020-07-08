@@ -1,49 +1,39 @@
-- - -
-tags:
-  - activemovie 창
-  - active movie
-  - 검은색
-- - -
+# Black Screen / Videos not Playing
 
+Black screens and other issues with wallpapers of the type "Video" are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
 
-# 영상 검은색 / 제대로 재생되지 않습니다
+::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
-검은색 화면 및 *영상* 유형의 배경화면 관련 기타 문제는 *항상* 잘못된 그래픽 카드 드라이버나 비디오 코덱이 원인입니다. 다음 단계를 정확한 순서대로 따라하세요. 이 가이드를 처음부터 끝까지 따라하면 문제가 해결됩니다:
+## Clean graphics card driver re-installation
 
-::: warning 이 항목은 검은색이 되거나 제대로 재생되지 않는 Wallpaper Engine **배경화면**에 대한 내용입니다. **Wallpaper Engine 인터페이스가 검은색**이면, 여기를 확인하세요: [Wallpaper Engine 사용자 인터페이스가 검은색입니다](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+For a very large number of people, a clean re-installation of the graphics card drivers, video playback issues including black screens are fixed. **It's important that the old drivers are uninstalled first.**
 
-## 그래픽 카드 드라이버 완전히 새로 설치
+1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
 
-대부분의 경우 그래픽 카드 드라이버를 새로 설치하면 영상 배경화면 관련 문제 유형은 거의 다 해결할 수 있습니다. 여기에는 검은색 화면과 별도의 창(**"ActiveMovie 창"**)에 배경화면이 표시되는 경우도 포함됩니다.
-
-1. 그래픽 카드의 최신 그래픽 카드 드라이버를 다운로드합니다 (또는 Nvidia와 Intel처럼 두 개가 있을 경우 모두 다운로드):
-
-* [Nvidia GeForc](https://www.nvidia.com/Download/index.aspx)
+* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. 기존 그래픽 카드 드라이버를 완전히 삭제하고, 물어보는 경우 모든 기존 설정을 제거합니다. Nvidia 드라이버에는 "새로 설치 실행" 체크박스도 있습니다.
+2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
 
-이 방법을 잘 모르겠으면, [디스플레이 드라이버 제거 프로그램("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)를 사용할 수도 있습니다.
+You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
 
-3. 1번에서 다운로드한 드라이버를 설치합니다.
-4. PC를 다시 시작하고 제대로 작동하는지 확인합니다.
+3. Install the drivers you have just downloaded in step 1.
+4. Restart your PC again, see if it works now.
 
-::: tip 완전히 새로 설치하는 것이 매우 중요합니다. 새 드라이버를 설치하기 전 기존 그래픽 카드 드라이버와 드라이버 설정을 완전히 삭제하지 않으면, 작동하지 않습니다. :::
+::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
 
-## Codec Tweak 도구
+## Codec Tweak Tool
 
-그래픽 카드 드라이버를 완전히 새로 설치한 후에도 작동하지 않으면, 비디오 코덱을 초기화해 보세요:
+If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
 
-* Codec Tweak 도구 다운로드: [여기를 클릭하세요](https://www.codecguide.com/download_other.htm)
-* "미디어 파운데이션" 메뉴의 체크박스가 모두 선택되지 **않았는지** 확인한 다음, 설정을 적용합니다:
+* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
+* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
 
-![미디어 파운데이션 옵션에서 모든 옵션 선택 취소](./codectweak.gif)
+![Uncheck all options in the Media Foundation options](./codectweak.gif)
 
-* PC를 다시 시작한 뒤 영향을 받은 배경화면을 다시 시도합니다.
+* Restart the PC and try the affected wallpapers again.
 
-## 추가 비디오 코덱
+## Additional video codecs
 
-이전 단계를 진행해도 영향을 받은 영상 배경화면이 여전히 작동하지 않으면, 이 가이드의 설명에 따라 LAV를 다운로드하고 DirectShow를 사용하세요:
-
-* [LAV 및 DirectShow 사용](/videos/lav.html)
+If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide: [Click here](/videos/lav.html).
