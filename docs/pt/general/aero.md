@@ -1,11 +1,11 @@
-# Windows 7: Aero cannot be enabled
+# Windows 7: Aero não pode ser ativado
 
-Aero is a feature of Windows and a minimum system requirement to use Wallpaper Engine - if it is disabled, is is impossible to use a dynamic wallpaper. If it cannot be enabled automatically, there is an issue with your system or it does not fulfill the minimum hardware requirements to enable Aero on Windows 7.
+Aero é uma funcionalidade do Windows e um requisito mínimo de sistema para usar o Wallpaper Engine - se estiver desativado, é impossível utilizar um wallpaper dinâmico. Se não for possível ativá-lo automaticamente, há um problema no seu sistema ou este não cumpre os requisitos mínimos de hardware para ativar Aero no Windows 7.
 
-Windows Aero is responsible for the transparent effect on the task bar ar the top row of windows. If your task bar is not transparent (and has a light blue color), Aero is disabled. You can enable Aero in the Windows 7 theme settings. Your Windows 7 should look like this after enabling and Aero theme (notice the transparent task bar and start menu):
+O Windows Aero é responsável pelo efeito transparente na barra de tarefas ou da fila superior de janelas. Se a sua barra de tarefas não for transparente (e tiver uma cor azul clara), o Aero está desativado. Pode ativar o Aero nas definições de tema do Windows 7. O seu Windows 7 deverá ter este aspecto depois de ativar um tema Aero (repare na barra de tarefas e menu inicial transparentes):
 
-![Windows 7 with Aero](./w7.png)
+![Windows 7 com Aero](./w7.png)
 
-If your hardware supports Windows Aero but you cannot enable it, **it usually means your graphics card drivers are broken**. Download the latest graphics card drivers for Windows 7 and try again.
+Se o seu hardware suporta Windows Aero nas não consegue ativá-lo, **isso costuma significar que os controladores da sua placa gráfica estão danificados**. Transfira os controladores mais recentes para a sua placa gráfica para Windows 7 e tente novamente.
 
-::: tip **We recommend using Windows 10** because this problem only exists Windows 7. Windows 7 is not receiving any more updates and most hardware manufacturers have abandoned support for it. This can lead to issues with hardware drivers which cause Aero to be broken. :::
+::: dica **Recomendamos que utilize o Windows 10** porque este problema só existe no Windows 7. O Windows 7 não recebe mais atualizações e a maior parte dos fabricantes de hardware abandonaram o seu suporte para este sistema operativo. Isto pode levar a problemas com controladores de hardware, o que faz com que o Aero fique danificado. :::
