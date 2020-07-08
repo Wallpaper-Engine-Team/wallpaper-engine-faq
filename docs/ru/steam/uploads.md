@@ -1,9 +1,9 @@
-# Загрузка в Steam застряла на 45%
+# Uploads get stuck at 45%
 
-Выполнив 45% загрузки, Steam начинает непосредственно загружать файлы на свои сервера. Если вы пытались опубликовать контент Wallpaper Engine в Мастерской Steam, и загрузка застряла на 45%, это значит, что Steam не может загрузить файлы на свой сервер. Удостоверьтесь, что процесс загрузки Steam не был заблокирован антивирусом или брандмауэром. Кроме этого, пожалуйста, прочитайте официальное руководство по портам, необходимым для работы Steam:
+At 45% of the upload process, Steam will actually start uploading files to the Steam servers. If you are trying to publish Wallpaper Engine content to the Steam Workshop and you are stuck at 45%, it means your Steam is unable to upload files to the Steam servers. Make sure that no firewall or antivirus application is blocking Steam from uploading files. Please also see the official guide on Steam network ports:
 
-* [Порты, необходимые для работы Steam](https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711)
+* [Required Ports for Steam](https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711)
 
-Эта проблема всегда вызвана какими-то проблемами в сети, поэтому вам необходимо выяснить, что именно блокирует сообщение между Steam на вашем компьютере и серверами Steam.
+This issue is always some sort of network issue, you will need to investigate what is blocking your Steam properly communicating with the Steam servers.
 
-::: Подсказка Подобную сетевую проблему также могут вызывать брандмауэры сетевых маршрутизаторов. Удостоверьтесь, что сетевые маршрутизаторы не блокируют загрузку в Steam. Попробуйте загрузить файлы через мобильную сеть на смартфоне. Если у вас получится — проблема скорее всего вызвана маршрутизатором и не имеет отношения к программному обеспечению на вашем компьютере. :::
+::: tip This network issue can also be caused by a firewall in your network router. Make sure that no network router is blocking Steam's upload. Try If  uploads work through a mobile wi-fi hotspot - in that case your router is likely at fault and not any software on your computer. :::
