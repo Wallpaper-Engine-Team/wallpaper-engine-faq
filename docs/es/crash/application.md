@@ -53,7 +53,7 @@ Este caso suele darse por un problema de Windows. Vuelve a instalar la versión 
 
 * [AMD Radeon](https://www.amd.com/es/support)
 
-::: tip ¡Aviso! Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados. :::
+::: tip Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados. :::
 
 ### nvwgf2umx.dll
 
@@ -76,7 +76,7 @@ Se trata de un error que se produce debido a un programa de sonido dañado que e
 
 ### fraps32.dll
 
-Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, un programa que no ha recibido ninguna actualización desde 2013 y que está completamente obsoleto. Utiliza una alternativa, ya que es probable que el error no llegue a solucionarse porque es un programa que ha quedado abandonado.
+Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, un programa que no ha recibido ninguna actualización desde 2013 y que está completamente obsoleto. Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, un programa que no ha recibido ninguna actualización desde 2013 y que está completamente obsoleto. Utiliza una alternativa, ya que es probable que el error no llegue a solucionarse porque es un programa que ha quedado abandonado.
 
 ## Error 0xc000007b
 
@@ -91,4 +91,4 @@ Si te sigue apareciendo el mismo error es que algo ha dañado a un módulo simil
 
 ## Se cuelga después de hibernar / suspender
 
-Si Wallpaper Engine se cuelga después de que Windows hiberne quiere decir que Windows no consigue restaurar correctamente los controladores de la tarjeta gráfica y Wallpaper Engine. El proceso de hibernación de Windows no es muy seguro, pero puedes activar la opción **Inicio seguro después de la hibernación** en Wallpaper Engine para paliar el problema. Esta opción intentará reiniciar Wallpaper Engine automáticamente en lugar de esperar que Windows funcione a la perfección tras la hibernación.
+Si Wallpaper Engine se cuelga después de que Windows hiberne quiere decir que Windows no consigue restaurar correctamente los controladores de la tarjeta gráfica y Wallpaper Engine. El proceso de hibernación de Windows no es muy seguro, El proceso de hibernación de Windows no es muy seguro, pero puedes activar la opción **Inicio seguro después de la hibernación** en Wallpaper Engine para paliar el problema. Esta opción intentará reiniciar Wallpaper Engine automáticamente en lugar de esperar que Windows funcione a la perfección tras la hibernación.
