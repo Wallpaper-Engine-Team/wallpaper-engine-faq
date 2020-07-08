@@ -1,44 +1,48 @@
-# Editing Downloaded Wallpapers
+# 다운로드한 배경화면 편집
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+일반적으로 Wallpaper Engine은 다운로드한 배경화면 편집을 지원하지 않습니다. 그러나 보통 타사 응용 프로그램의 도움을 받으면, 배경화면 유형에 따라 편집이 가능합니다. (유형은 오른쪽의 미리보기 이미지 아래에서 확인할 수 있습니다)
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+원작자의 작품을 다시 게시하려면 원작자의 권리가 필요하다는 것을 항상 기억해야 합니다. 의심이 들면, Steam 창작마당에 게시하기 전 원작자에게 문의하세요.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## 배경화면의 소스 파일은 어떻게 찾을 수 있나요?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+"설치됨" 탭에서 배경화면을 오른쪽 클릭하고, "Explorer에서 열기"를 선택하세요.
 
-## How to edit wallpapers of different types
+## 다른 유형의 배경화면 편집 방법
 
-### Scene wallpapers
+### 장면 배경화면
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+프로젝트 관련 모든 데이터를 누락하기 때문에, 장면 배경화면은 상자 밖에서 편집할 수 없는 .pkg 파일로 압축되어 있습니다. .pkg 파일을 열려고 하면 "묶인 배경화면들을 열 수 없음" 오류가 표시됩니다. 그리고 .jpeg 이미지 파일도 첨부된 Photoshop 프로젝트 데이터와 함께 제공되지 않음을 유추할 수 있습니다. 이것은 항상 원작자의 시스템에 남아 있습니다.
 
-#### Unofficial Community Scene Unpacker
+#### 비공식 커뮤니티 장면 압축 해제기
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+그러나 커뮤니티 멤버가 비공식 장면 배경화면 압축 해제 도구를 제작하였으므로, 사용자는 장면 파일을 압축 해제하여 이를 토대로 자신만의 배경화면을 시작할 수 있습니다. 자세한 정보는 다음 웹사이트에서 확인하세요:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+아직 유효한 project.json 파일이 필요합니다. 편집기에서 간단히 새로운 빈 배경화면을 만들고, Wallpaper Engine을 닫은 다음 다운로드한 배경화면을 압축 해제하여 그 내용을 복사 후 새로운 프로젝트 디렉터리에 붙여 파일을 생성할 수 있습니다.
 
-### Web wallpapers
+프로젝트 파일을 잃어버린 배경화면을 편집하려면, *잃어버린 프로젝트 업데이트* 섹션에서 project.json을 만드는 데 필요한 변경 내용과 관련된 자세한 내용을 참조하세요. 그러면 기존 배경화면을 업데이트할 수 있습니다.
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+::: warning 이 도구는 공식 지원하지 않으며, 올바른 작동을 보장하지 않습니다. 압축 해제 관련 문제나 질문이 있으면, 원작자에게 연락하세요. :::
 
-### Video wallpapers
+### 웹사이트 배경화면
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+웹사이트 기반 배경화면은 HTML과 JavaScript를 바탕으로 합니다. 위의 섹션에 설명된 소스 파일을 기본으로 자신만의 웹 기반 배경화면을 만들 수 있습니다.
 
-### Application wallpapers
+### 영상 배경화면
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+영상 기반 배경화면은 비디오 파일입니다. 위의 섹션에 설명된 비디오 파일을 찾아 원하는 제3의 비디오 편집 응용 프로그램을 사용하여 비디오를 수정합니다.
 
-## Updating a lost project
+### 응용 프로그램 배경화면
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+일반적으로 응용 프로그램 배경화면은 편집할 수 없습니다. 응용 프로그램 배경화면은 보통 컴파일된 프로그램을 사용하므로, 소스 코드에 접근할 수 없습니다. 응용프로그램 기반 배경화면은 정말 변경하고 싶다면, 배경화면 원작자에게 도움을 문의해 보세요.
+
+## 잃어버린 프로젝트 업데이트
+
+게시한 배경화면 유형에 따라 덮어쓸 수 있는 프로젝트를 삭제했다면, 더 이상 편집할 수 없습니다. 평소처럼 새로운 배경화면을 만들고, Explorer에서 편집 -> 열기로 해당 프로젝트 디렉토리를 여세요. 텍스트 편집기로 `project.json` 파일을 열면 다음과 같은 내용을 확인할 수 있습니다:
 
 ```json
 {
@@ -65,12 +69,12 @@ If you deleted your project you can still overwrite it, but depending on the typ
 }
 ```
 
-Add this line at the top right after `{`:
+`{` 아래 줄에 다음을 추가합니다:
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+그러면 아래와 같습니다:
 
 ```json{2}
 {
@@ -80,6 +84,6 @@ So that it looks like:
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**숫자 12345678을 제출 ID로 바꾸세요! ID는 기존 업로드의 URL에서 찾을 수 있습니다:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
