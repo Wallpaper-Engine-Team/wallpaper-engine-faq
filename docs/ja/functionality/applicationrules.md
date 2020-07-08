@@ -16,30 +16,30 @@ tags:
   - intermittent
 ---
 
-# 特定のアプリまたはゲームで起きる問題の修正
+# Fix issues with specific apps or games
 
-特定のアプリケーションまたはゲームで問題が起きる場合、Wallpaper Engineを設定し、例えば、問題が起きているアプリケーションが起動したりオーディオをプレイしたりしていることを検知したときに、ある動作を行うようにすることができます。
+If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
 
-## アプリケーションルールの設定
+## Setting up an application rule
 
-Wallpaper Engine設定の*パフォーマンス*タブで、*アプリケーションルール*ラベルの隣にある*編集*ボタンをクリックすると、これまでに設定されているカスタムルールがすべて表示されます。 *新規ルール作成*をクリックすると、Wallpaper Engineの特定のアプリケーションに対する特別な動作を設定することができます。
+In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
 
-![アプリケーションルール概要](./applicationrule.gif)
+![Application Rules Overview](./applicationrule.gif)
 
-システム上で起動している.exeファイルすべてがリストアップされます。 問題のある.exeをリストから選択するか、その正確な名前を入力します。 他の2つのオプションで、条件と動作を設定することができます。 詳細と具体例については下記をご覧ください。
+You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
 
-::: tip Wallpaper Engineは正確な.exe名だけを識別します。場所はどこにあってもかまいません。*アプリケーション名*フィールドに.exe名だけを入力してください。 大文字小文字を含め、.exe名が正確にマッチしていることを確認してください。 :::
+::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
 
-### アプリまたはゲームで起きるパフォーマンスの問題の修正
+### Fixing performance problems with apps or games
 
-特別なルールを設定したいプログラムの.exeをリストから選択するか、**アプリケーション名**に入力します。 その後、**条件**を**実行中**に、**壁紙再生**を**停止（メモリ解放）**に設定します。 これにより、Wallpaper Engineはそのアプリケーションまたはゲームが起動したときにすべての壁紙をメモリから削除します。これですべての互換性の問題は解決します。
+Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
 
-### バックグラウンドで録音しているツールの断続的なサウンドの修正
+### Fixing intermittent sound with background recording tools
 
-特別なルールを設定したいプログラムの.exeをリストから選択するか、**アプリケーション名**に入力します。 その後、**条件**を**オーディオ再生されている**に、**壁紙再生**を**再生を続ける**に設定します。 これにより、Wallpaper Engineは、問題のアプリケーションがオーディオを再生したり録音したりしてもミュートしません。 Windowsはオーディオの再生と録音を区別しません。録音が行われているときにWallpaper Engineが断続的にミュートとミュート解除を繰り返すのはそのためです。 多くのゲームストリーミングアプリケーションは偶発的に、あなたが知らないうちにこれを行うことがあります。
+Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is playing audio** and **Wallpaper playback** to **Keep running**. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
 
-### その他の動作
+### Other behavior
 
-選択可能な条件や壁紙再生オプションをチェックして、いろいろなアプリケーションルールを設定することができます。 また、特定のアプリケーションを起動したときにWallpaper Engineをミュートしたり停止したりする設定も可能です。
+Check out all possible conditions and wallpaper playback options for more types of application rules. You can also configure Wallpaper Engine to mute or pause when you launch a certain application.
 
-::: tip また、Wallpaper Engine設定の**パフォーマンス**タブで、すべてのアプリケーションに対する設定を変更することもできます。 例えば複数のゲームでパフォーマンスの問題が起きる場合、単に**他のアプリケーションがフルスクリーンになった場合**オプションを**停止（メモリ解放）**にしてしまうということも考えられます。そうすれば、Wallpaper Engineはゲームやフルスクリーンのアプリケーションが起動したときにオフになります。 :::
+::: tip You can also change these settings for all applications in the **Performance** tab of the Wallpaper Engine settings. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other applications fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
