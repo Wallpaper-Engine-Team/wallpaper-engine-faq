@@ -1,26 +1,26 @@
 ---
 tags:
-  - hardware
+  - 하드웨어
   - bsod
-  - blue screen
+  - 블루 스크린
 ---
 
-# System crash / System Freeze
-Wallpaper Engine alone cannot crash your system and it does not affect other programs. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
+# 시스템 작동 중단 / 시스템 중지
+Wallpaper Engine만으로는 시스템을 작동 중단할 수 없으며, 다른 프로그램에 영향을 주지 않습니다. Wallpaper Engine 실행 중 시스템 작동 중단, 시스템 중지, 블루 스크린 또는 기타 프로그램 작동 중단이 발생하면, 다음 이유 중 하나일 수 있습니다:
 
-* Hardware required by Wallpaper Engine is broken.
-* A driver for some hardware Wallpaper Engine needs is buggy or broken.
-* Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
+* Wallpaper Engine에 필요한 하드웨어가 손상되었습니다.
+* Wallpaper Engine에 필요한 일부 하드웨어 드라이버에 버그가 있거나 손상되었습니다.
+* Wallpaper 실행 중 드라이버 또는 Windows를 방해하는 개입성이 강한 소프트웨어가 설치되었습니다.
 
-Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
+Wallpaper Engine은 어떤 드라이버에도 설치되지 않고, 시스템 파일을 대체하지도 않으며, 시스템이나 프로그램의 작동 중단을 유발하는 위험하거나 의심스러운 작업을 수행하지 않습니다.
 
-Any bugs in Wallpaper Engine could only lead to a crash of Wallpaper Engine itself in the worst case, but no bug in Wallpaper Engine could crash your entire system or other programs. This is impossible, Microsoft has designed Windows this way and Wallpaper Engine adheres to this.
+Wallpaper Engine의 버그는 최악의 경우 Wallpaper Engine 자체의 작동 중단만 일으키며, 시스템 전체나 다른 프로그램을 작동 중단하지 않습니다. 이것은 불가능하며, Microsoft가 Windows를 이러한 방식으로 설계하였으므로 Wallpaper Engine도 이를 준수합니다.
 
-## Finding the cause of system crashes
-Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
+## 시스템 작동 중단 원인 발견
+Wallpaper Engine은 PC에서 3D 가속, 비디오 가속, 오디오가 필요합니다. 그리고 다른 배경화면 유형을 사용하여 PC에 문제를 일으키는 부분을 격리할 수 있습니다. 예를 들어 '영상' 유형 배경화면에만 문제만 있다면, 그래픽 카드의 비디오 디코딩 하드웨어가 원인일 수 있습니다. 이것은 Windows가 단독으로 사용하지 않으며 대부분의 게임에서도 사용하지 않습니다. 그러므로 게임에서 경험하지 않습니다.
 
-If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
+블루 스크린이 뜨면 인터넷에서 오류 코드를 검색하세요. 이것은 전역 시스템 오류이기 때문에 도움이 되는 여러 검색 결과를 찾을 수 있습니다.
 
-Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
+Geforce Experience를 포함한 오버레이 및 기록 프로그램이 문제를 유발할 수 있습니다. 관련된 모든 걸 제거해 보세요.
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool.html).
+스캔 도구를 사용해 잘 알려지고 확인된 충돌 응용 프로그램이 실행 중인지 확인해 봅니다: [여기를 클릭하세요](/debug/scantool.html).
