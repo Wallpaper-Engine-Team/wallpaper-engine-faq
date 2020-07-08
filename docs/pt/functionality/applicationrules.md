@@ -1,19 +1,19 @@
 ---
 tags:
-  - aplicação
-  - regras
-  - exceção
+  - application
+  - rules
+  - exception
   - whitelist
   - blacklist
   - lags
   - laggy
-  - jogo
-  - desempenho
+  - game
+  - performance
   - fps
-  - bloqueio
-  - som
-  - áudio
-  - intermitente
+  - crash
+  - sound
+  - audio
+  - intermittent
 ---
 
 # Corrir erros com aplicações ou jogos específicos
