@@ -1,21 +1,20 @@
-# Создание лог-файла отладки с помощью инструмента сканирования Wallpaper Engine
+# Use the Wallpaper Engine scan tool to create a debug log
 
-Если при использовании Wallpaper Engine у вас возникли технические проблемы, которые вы не смогли решить с помощью списка часто задаваемых вопросов, вы можете создать лог-файл отладки и приложить его к письму в техподдержку:
+1. Make sure Wallpaper Engine is running (if possible).
+2. Choose the 4th launch option in Steam (*Scan for conflicting applications*):
+3. Click on **Save Full Log** and save it to your desktop.
+4. Share the log file with by using either of these methods developers:
+    * Go to [pastebin.com](https://pastebin.com/) and copy-paste the contents of the log file in there, afterwards share the link to your paste.
+    * Alternatively, you can just attach the log file to an email and send it to us. If you have already an existing email discussion, please reply to the previous email with the attached log file. If this is your first email, please add some information about the problem you were having or a link to an existing discussion.
 
-1. Необходимо, чтобы Wallpaper Engine запущен (если это возможно).
-2. Выберите в Steam четвертую опцию запуска программы (опция *«Scan for conflicting applications»*, ниже доступна короткая видео-инструкция).
-3. Кликните на кнопку **Save Full Log** и сохраните файл на рабочий стол (ниже доступна короткая видео-инструкция).
-4. Поделитесь лог-файлом с разработчиками любым из этих методов:
-    * Скопируйте содержимое лог-файла, зайдите на сайт [pastebin.com](https://pastebin.com/) вставьте туда скопированное, затем отправьте в техподдержку ссылку на страницу с вашим документом.
-    * Вы также можете воспользоваться альтернативным вариантом: просто прикрепить лог-файл к имейлу и прислать его нам. Если обсуждение вашей проблемы уже идет, пожалуйста, ответьте на последнее письмо в цепочке, прикрепив к имейлу лог-файл. Если это ваш первый имейл, пожалуйста, добавьте к лог-файлу информацию о проблеме или ссылку на дискуссию на доске.
-5. *Дополнительно:* Если вы столкнулись с аварийным завершением работы программы, пожалуйста, проверьте есть ли в каталоге *wallpaper_engine* файлы типа **.mdmp** и тоже приложите их к письму или загрузите на хостинг. Если вы видите много .mdmp файлов, пожалуйста, пришлите самые новые. ::: Подсказка Даже если на первый взгляд инструмент сканнирования не обнаружил никаких ошибок, в результате более тщательного изучения лог-файла часто обнаруживаются распространенные проблемы с компьютером. Благодаря этой информации мы можем быстрее дать вам совет по решению проблемы. :::
+::: tip Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues. :::
 
-#### Дополнительная видео-помощь
+#### Additional video help
 
-**Шаг 2**
+**Step 2**
 
-![Запуск инструмента сканирования](Шаг 3)
+![Scan Tool Launch Option](./scantoollaunch.gif)
 
-**Шаг 3**
+**Step 3**
 
-![Сохранение лог-файла инструмента сканирования](./scantoolsave.gif)
+![Scan Tool Save Log](./scantoolsave.gif)
