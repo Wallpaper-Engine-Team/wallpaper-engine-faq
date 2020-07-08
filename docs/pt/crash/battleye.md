@@ -1,7 +1,7 @@
 ---
 tags:
-  - bloqueio
-  - fechar
+  - crash
+  - close
   - nvidia
   - battleye
 ---
