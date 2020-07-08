@@ -35,6 +35,6 @@ tags:
 
 Если вы продолжаете сталкиваться с данной проблемой, вы можете создать локальные резервные копии ваших обоев, а затем отписаться от всех дубликатов. Steam не будет заново загружать обои, на которые вы не подписаны, поэтому это обходное решение просто предполагает, что вы будете использовать исключительно локальные резервные копии. Вы можете прочитать нашу инструкцию по созданию резервных копий здесь:
 
-* [Using wallpaper backups](/steam/backup)
+* [Использование резервной копии обоев](/steam/backup)
 
-Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+После создания копии просто отпишитесь от всех обоев. Не удаляйте файлы вручную: Steam должен сам удалить обои, иначе он попробует загрузить их заново, просто чтобы затем самостоятельно удалить.
