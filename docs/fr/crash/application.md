@@ -29,19 +29,19 @@ Essayez également de vérifier l'intégrité de Wallpaper Engine grâce à Stea
 
 ### KERNELBASE.dll / ntdll.dll
 
-Il s'agit d'un crash dans le noyau de Windows. C'est généralement dû à un antivirus ou à des pilotes de carte graphique corrompus. Nous vous renvoyons à la section sur les réparations rapides pour plus d'informations. Ce problème peut également être causé par des composants système corrompus. Utilisez le vérificateur des fichiers système Microsoft pour trouver de potentiels fichiers corrompus :
+C'est généralement dû à un antivirus ou à des pilotes de carte graphique corrompus. Nous vous renvoyons à la section sur les réparations rapides pour plus d'informations. Ce problème peut également être causé par des composants système corrompus. Utilisez le vérificateur des fichiers système Microsoft pour trouver de potentiels fichiers corrompus :
 
 * [Vérificateur des fichiers système Microsoft](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-Il s'agit d'un crash de DirectX. C'est généralement dû à un antivirus ou à des pilotes de carte graphique corrompus. Nous vous renvoyons à la section sur les réparations rapides pour plus d'informations. Ce problème peut également être causé par des composants système corrompus. Utilisez le vérificateur des fichiers système Microsoft pour trouver de potentiels fichiers corrompus :
+C'est généralement dû à un antivirus ou à des pilotes de carte graphique corrompus. Nous vous renvoyons à la section sur les réparations rapides pour plus d'informations. Ce problème peut également être causé par des composants système corrompus. Utilisez le vérificateur des fichiers système Microsoft pour trouver de potentiels fichiers corrompus :
 
 * [Vérificateur des fichiers système Microsoft](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-Il s'agit d'un plantage dans Windows Media Foundation. Il peut être causé par des pilotes de carte graphique corrompus, mais la cause la plus fréquente est un codec vidéo corrompu ou manquant dans votre système. Suivez les instructions de notre guide de réparation vidéo pour corriger ce type de plantages :
+Les pilotes Nvidia de votre système ont un problème. Rendez-vous sur le site Nvidia pour télécharger la dernière version de vos pilotes :
 
 [Cliquez ici](/noshow/notplaying.html)
 
@@ -80,7 +80,7 @@ Ce crash est dû à Fraps, un logiciel permettant de filmer son écran, de faire
 
 ## Erreur 0xc000007b
 
-Cela signifie qu'un module de Windows a été corrompu. Il s'agit en général de DirectX. Essayez de désinstaller manuellement ces fichiers :
+Si vous obtenez toujours cette erreur, il peut s'agir d'un autre module similaire à DirectX qui a été corrompu. Cela indique généralement un problème sous-jacent plus important avec Windows que vous devrez corriger avant de pouvoir à nouveau lancer Wallpaper Engine.
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
