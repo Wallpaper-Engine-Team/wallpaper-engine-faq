@@ -1,6 +1,6 @@
 # Yüksek GPU kullanımı yanılgısı
 
-Windows Görev Yöneticisi, çoğu durumda gerçek GPU kullanımını göstermez ve bu da kafa karışıklığına neden olur. GPU kullanımı, grafik kartının *güç durumunu* ve saat hızını yoksayarak bunu son derece yanlış hâle getirir ve genellikle çok daha fazla GPU kullanımı gösterir. Gerçek GPU kullanımını görmek için GPU-Z gibi bir araç kullanın:
+Windows Görev Yöneticisi, çoğu durumda gerçek GPU kullanımını göstermez ve bu da kafa karışıklığına neden olur. GPU kullanımı, grafik kartının *güç durumunu* ve saat hızını yoksayarak bunu son derece yanlış hâle getirir ve genellikle çok daha fazla GPU kullanımı gösterir. Gerçek GPU kullanımını görmek için GPU-Z gibi bir araç kullanın: Ekran görüntüsündeki *GPU yükünün* %24 olduğuna dikkat edin. Ancak üst kısımda grafik kartının 202.5 MHz'de ve düşük güç durumunda olduğunu görebilirsiniz. "Kullanım" %24 olarak gösterilmesine rağmen bu en iyi senaryodur. 1823 mhz'lik maksimum saat hızına dayalı gerçek kullanım yalnızca **%2.6**'dır *(%24 * 202.5 MHz / 1823 MHz)*. Gerçek GPU kullanımını görmek için GPU-Z gibi bir araç kullanın:
 
 * [GPU-Z'yi indirin](https://www.techpowerup.com/gpuz/)
 
@@ -10,11 +10,11 @@ GPU-Z'yi yükledikten sonra GPU saat hızını ve GPU Yükünü görmek için "A
 
 ![Gerçek GPU kullanımı](./gpuz.png)
 
-Ekran görüntüsündeki *GPU yükünün* %24 olduğuna dikkat edin. Ancak üst kısımda grafik kartının 202.5 MHz'de ve düşük güç durumunda olduğunu görebilirsiniz. "Kullanım" %24 olarak gösterilmesine rağmen bu en iyi senaryodur. 1823 mhz'lik maksimum saat hızına dayalı gerçek kullanım yalnızca **%2.6**'dır *(%24 * 202.5 MHz / 1823 MHz)*.
+Ekran görüntüsündeki *GPU yükünün* %24 olduğuna dikkat edin. Ancak üst kısımda grafik kartının 202.5 MHz'de ve düşük güç durumunda olduğunu görebilirsiniz. "Kullanım" %24 olarak gösterilmesine rağmen bu en iyi senaryodur. 1823 mhz'lik maksimum saat hızına dayalı gerçek kullanım yalnızca **%2.6**'dır *(%24 * 202.5 MHz / 1823 MHz)*. Ancak üst kısımda grafik kartının 202.5 MHz'de ve düşük güç durumunda olduğunu görebilirsiniz. "Kullanım" %24 olarak gösterilmesine rağmen bu en iyi senaryodur. Ekran görüntüsündeki *GPU yükünün* %24 olduğuna dikkat edin. Ancak üst kısımda grafik kartının 202.5 MHz'de ve düşük güç durumunda olduğunu görebilirsiniz. "Kullanım" %24 olarak gösterilmesine rağmen bu en iyi senaryodur. 1823 mhz'lik maksimum saat hızına dayalı gerçek kullanım yalnızca **%2.6**'dır *(%24 * 202.5 MHz / 1823 MHz)*.
 
-Örneğin bir kartta 100 Mhz ila 2000 Mhz arasında saat hızları olabilir. Görev yöneticisi %50 gösteriyorsa bu durumda **100 MHz'in %50'si veya 2000 MHz'in %50'si olması arasında büyük bir fark vardır**.
+Örneğin bir kartta 100 Mhz ila 2000 Mhz arasında saat hızları olabilir. Görev yöneticisi %50 gösteriyorsa bu durumda **100 MHz'in %50'si veya 2000 MHz'in %50'si olması arasında büyük bir fark vardır**. Örneğin bir kartta 100 Mhz ila 2000 Mhz arasında saat hızları olabilir. Görev yöneticisi %50 gösteriyorsa bu durumda **100 MHz'in %50'si veya 2000 MHz'in %50'si olması arasında büyük bir fark vardır**.
 
-::: tip Özetlemek gerekirse: GPU yüküne bakarken GPU saat hızını göz önünde bulundurmak önemlidir. 100 MHz'in %50'si 2000 MHz'in %5'inden daha iyidir. :::
+::: tip Özetlemek gerekirse: GPU yüküne bakarken GPU saat hızını göz önünde bulundurmak önemlidir. 100 MHz'in %50'si 2000 MHz'in %5'inden daha iyidir. ::: 100 MHz'in %50'si 2000 MHz'in %5'inden daha iyidir. :::
 
 GPU performansını artırmak istiyorsanız:
 
