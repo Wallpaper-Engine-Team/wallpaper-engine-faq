@@ -13,22 +13,22 @@ tags:
   - ugly
 ---
 
-# ビデオ壁紙が正しく表示されない
+# Video wallpapers look wrong
 
-Wallpaper Engineは、ほとんどのビデオプレイヤーと異なり、ビデオの最適なパフォーマンスのためにハードウェアアクセラレーションを使います。 すなわち、グラフィックスカードドライバがビデオの見え方に影響を与えるということです。
+Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
 
-**ビデオ壁紙の色がおかしい、明るすぎたり暗すぎたりする、拡大表示されて見える、ピクセル化して見える、壁紙の周囲に境界線が見える**、というような場合は、Nvidia、AMD、Intelグラフィックスカードのコントロールパネルで、ビデオオプションをリセットすると解消することがあります。 GPUを複数お持ちの場合（メインがNvidia、サブがIntelなど）は、すべてをリセットしてください。
+**If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
 
-また、すべての設定のリセットを選択して（「クリーン再インストール」）グラフィックスカードドライバを再インストールすることもできます。これは例えばNvidiaのドライバで可能です。 これには、まずドライバーをアンインストールし、次に、現在のドライバーが完全にアンインストールされた状態で、最新のドライバーを再インストールする必要があります。 ドライバによっては、詳細セクションに「クリーン再インストールの実行」オプションがあります。自動的に破損したドライバの残骸を掃除するには、このオプションを有効にしてください。 メジャーなメーカーの最新グラフィックスカードドライバは、以下から入手できます。
+You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-どうすればいいのかわからない場合は、お使いのグラフィックスカードの最新ドライバをダウンロードし、DDUを使ってグラフィックスカードをアンインストールして、すべての設定を削除します。
+If you are uncertain what to do: Download the latest drivers for your graphics card, then use DDU to uninstall your graphics card drivers and delete all settings:
 
-* [Display Driver Uninstallerのダウンロード](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-その後、ダウンロードしておいたドライバをインストールします。 正しく行えば、これで問題は解消するはずです。
+Afterwards, install the drivers you have just downloaded. This will definitely fix the problem if done right.
 
-::: tip グラフィックスカードドライバを再インストールしても色がおかしい場合は、GPUが複数あるか、「クリーン」再インストールが行われていない可能性があります。 まず使用中のグラフィックスカードドライバをすべて確実にアンインストールし、すべてのドライバ設定を削除してください。 :::
+::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. Make sure you first uninstall all your current graphics card drivers and clear up all driver settings. :::
