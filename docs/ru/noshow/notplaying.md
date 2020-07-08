@@ -1,49 +1,39 @@
-- - -
-tags:
-  - activemovie window
-  - active movie
-  - black
-- - -
+# Black Screen / Videos not Playing
 
+Black screens and other issues with wallpapers of the type "Video" are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
 
-# Черный экран / Видео не воспроизводится
+::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
-Черный экран и другие проблемы с обоями типа *«видео»* вызваны либо неисправными драйверами видеокарты, либо неисправными видеокодеками *во всех случаях*. Попробуйте проделать следующие шаги в строгой очередности. Если вы полностью выполните инструкцию, проблема будет решена:
+## Clean graphics card driver re-installation
 
-::: warning Обратите внимание В данной статье рассматривается проблема Wallpaper Engine, при которой замещаются черным экраном или не воспроизводятся как надо **обои**. В случае, если вы столкнулись с **черным интерфейсом Wallpaper Engine**, вам нужна статья [«Черный пользовательский интерфейс Wallpaper Engine»](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+For a very large number of people, a clean re-installation of the graphics card drivers, video playback issues including black screens are fixed. **It's important that the old drivers are uninstalled first.**
 
-## Чистая переустановка драйверов видеокарты
-
-В большинстве случаев чистая переустановка драйверов видеокарты решает практически все распространенные проблемы, затрагивающие видео обои. В этот список входят проблемы черного экрана и отображения обоев в виде отдельного окна (под названием **«ActiveMovie Window»**).
-
-1. Загрузите последнюю версию драйверов для вашей видеокарты (или для всех видеокарт, если у вас их несколько разных, например Nvidia и Intel):
+1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Удалите устаревшие драйвера видеокарты полностью и согласитесь на сброс настроек, если такой вариант будет предложен. В случае Nvidia вы можете просто поставить галочку в пункте «Выполнить чистую установку».
+2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
 
-На этом этапе вы также можете использовать [Display Driver Uninstaller (DDU)](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html), если не уверены, как правильно удалить драйвера.
+You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
 
-3. Установите новые драйвера, которые вы скачали на этапе 1.
-4. Еще раз перегрузите ваш компьютер и проверьте, была ли исправлена ошибка.
+3. Install the drivers you have just downloaded in step 1.
+4. Restart your PC again, see if it works now.
 
-::: Подсказка Очень важно провести именно чистую переустановку. В случае чистой переустановки устаревшие драйвера видеокарты и настройки драйверов полностью удаляются перед установкой новой версии. В противном случае, это решение не сработает. :::
+::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
 
-## Инструмент Codec Tweak Tool
+## Codec Tweak Tool
 
-Если после чистой переустановки драйверов видеокарты проблема не была решена, попробуйте перезагрузить видеокодеки:
+If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
 
-* Скачайте инструмент Codec Tweak Tool: [здесь](https://www.codecguide.com/download_other.htm)
-* Удостоверьтесь, что все пункты в меню Media Foundation **не** выбраны и затем примените настройки:
+* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
+* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
 
-![Снимите галочки со всех пунктов в меню Media Foundation](./codectweak.gif)
+![Uncheck all options in the Media Foundation options](./codectweak.gif)
 
-* Перегрузите компьютер и попробуйте вновь использовать обои, с которыми возникла проблема.
+* Restart the PC and try the affected wallpapers again.
 
-## Дополнительные видеокодеки
+## Additional video codecs
 
-Если после всех действий видео обои по-прежнему не работают, скачайте LAV и включите DirectShow в соответствии с инструкцией:
-
-* [Использование LAV и DirectShow](/videos/lav.html)
+If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide: [Click here](/videos/lav.html).
