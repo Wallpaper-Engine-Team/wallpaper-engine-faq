@@ -7,30 +7,30 @@ tags:
   - unreadable
 ---
 
-# Wallpaper Engineのウィンドウが正しく表示されない
+# Wallpaper Engine window not displayed correctly
 
-Wallpaper Engineブラウズウィンドウが正しく動作しない場合、通常は、グラフィックスカードドライバに問題があるか、アンチウイルスアプリケーションが干渉していることが原因です。 詳しくは下の説明をお読みください。
+If your Wallpaper Engine browse window is not working, it is usually caused by faulty graphics card drivers or antivirus applications. Read below for more information.
 
-::: warning 注意 このセクションは、Wallpaper Engineの**インターフェース**が黒くなっていたり壊れていたりする場合の説明です。 **壁紙が黒い**場合はこちらをご覧ください：[画面が黒い / ビデオが再生されない](/noshow/notplaying.html)。 :::
+::: warning Please note This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
 
-## Wallpaper Engineブラウザが黒または白になっている
+## Wallpaper Engine browser is Black or White
 
-ほとんどの場合、これはWallpaper Engineのユーザーインターフェースが誤ってアンチウイルスアプリケーションにブロックされていることによって起こります。 アンチウイルスアプリケーションがWallpaper Engineを無視するように例外設定を行ってください。特にwallpaper_engineインストールディレクトリの実行可能ファイルすべて、中でも**wallpaper_engine/bin/ui32.exe**は例外にしてください。
+For most people, this means that the Wallpaper Engine user interface is being blocked by an antivirus application by mistake. Make sure to set up an exception in your antivirus application so that it ignores Wallpaper Engine, specifically all executables in the wallpaper_engine installation directory and especially **wallpaper_engine/bin/ui32.exe**.
 
-アンチウイルスアプリケーションがWallpaper Engineの重要なファイルを永久的にロックしている場合もあります。このときは、あとでWallpaper Engineファイルを検証したり、Wallpaper Engineを再インストールしたりする必要があります。
+In some cases, it is necessary to verify the Wallpaper Engine files afterwards or even to re-install Wallpaper Engine if your antivirus application has placed a permanent lock on some important Wallpaper Engine files:
 
-* [Steam サポート：アプリケーションファイルの整合性確認](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-アンチウイルスアプリケーションの設定後、Steamによる確認で問題が解決しない場合は、SteamからWallpaper Engineを再インストールしてみてください。 アンチウイルスが暴走した場合は、Wallpaper Engineが使用するファイルパスを永久的にブロックしてしまっていることがあります。 その場合はまずアンチウイルスをアンインストールしてから、Wallpaper Engineを別のディレクトリにインストールしてください。ディレクトリはSteamで新しいSteamゲームライブラリを作ると変更できます。
+If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
 
-## Wallpaper Engineのインターフェースに緑のノイズや白いラインが入る
+## Wallpaper Engine interface with green artifacts or white lines
 
-グラフィックスカードドライバが壊れているか、設定が間違っています。 （最新ドライバを既に持っていても）グラフィックスカードの最新ドライバをダウンロードし、ドライバのクリーン再インストールを行ってください。 破損したファイルや設定が確実に削除されるよう、まず使用中のドライバをアンインストールしてから最新ドライバをインストールしてください。
+Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
 
-それでも問題が解消しない場合はWallpaper Engineを終了します。 その後、Steamで「UIハードウェアアクセラレーションを無効にする」と書かれた3番目の起動オプションを使ってWallpaper Engineを再起動します。
+If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
 
-### 珍しいSteamオーバーレイバグによってWallpaper Engineユーザーインターフェースが破損している
+### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
 
-アプリケーションウィンドウが黒くなる他の理由として考えられるのは、Steamオーバーレイの珍しいSteamバグです。 次のことを試してみてください。
+The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
 
-Wallpaper Engineを完全に終了します（トレイで右クリックし、「終了」）。 その後Steamを開き、Wallpaper Engineを右クリックして「プロパティ」を選択し、「ゲーム中にSteamオーバーレイを有効にする」オプションを無効にします。 オプションを無効にしたあと、SteamからWallpaper Engineを再起動します。 
+Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
