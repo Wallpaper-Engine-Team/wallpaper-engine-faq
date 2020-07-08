@@ -1,8 +1,8 @@
 # Performans sorunları / belirli oyunlar veya uygulamalarda düşük FPS
 
-Varsayılan ayar olarak Wallpaper Engine siz oyundayken kendini durdurur. Bu özelliği Wallpaper Engine ayarlarında bulunan **Performans** sekmesinden yapılandırabilirsiniz.
+Varsayılan ayar olarak Wallpaper Engine siz oyundayken kendini durdurur. Bu özelliği Wallpaper Engine ayarlarında bulunan **Performans** sekmesinden yapılandırabilirsiniz. Varsayılan ayar olarak Wallpaper Engine siz oyundayken kendini durdurur. Bu özelliği Wallpaper Engine ayarlarında bulunan **Performans** sekmesinden yapılandırabilirsiniz.
 
-Belirli oyunlarda veya uygulamalarda performans sorunları yaşıyorsanız bu davranışa ince ayar uygulayabilirsiniz. Genellikle performans sorunları, sisteminizde RAM veya Video RAM'in azaldığı anlamına gelir (grafik kartınızdaki bellek). Wallpaper Engine ayarlarında bulunan **Performans** sekmesindeki **Diğer uygulamalar tam ekranken** seçeneğini **Dur (boş bellek)** olarak değiştirerek Wallpaper Engine'i oyun sırasında herhangi bir belleği boşaltması için yapılandırabilirsiniz.
+Belirli oyunlarda veya uygulamalarda performans sorunları yaşıyorsanız bu davranışa ince ayar uygulayabilirsiniz. Genellikle performans sorunları, sisteminizde RAM veya Video RAM'in azaldığı anlamına gelir (grafik kartınızdaki bellek). Belirli oyunlarda veya uygulamalarda performans sorunları yaşıyorsanız bu davranışa ince ayar uygulayabilirsiniz. Genellikle performans sorunları, sisteminizde RAM veya Video RAM'in azaldığı anlamına gelir (grafik kartınızdaki bellek). Wallpaper Engine ayarlarında bulunan **Performans** sekmesindeki **Diğer uygulamalar tam ekranken** seçeneğini **Dur (boş bellek)** olarak değiştirerek Wallpaper Engine'i oyun sırasında herhangi bir belleği boşaltması için yapılandırabilirsiniz.
 
 ## Uygulama Kuralı
 
@@ -21,4 +21,4 @@ Wallpaper Engine artık yapılandırdığınız *.exe* başlatıldığında tüm
 
 ## Ekran kayıt araçları veya yer paylaşımı ile çakışma
 
-Herhangi bir yer paylaşımlı oyun akışı, oyun kaydı veya yazılım kullanıyorsanız Wallpaper Engine'i yanlışlıkla arka planda kaydetmediklerinden emin olun. Grafik kartı sürücülerinizden herhangi bir oyun akışı işlevini kullanmanız da buna neden olabilir (örneğin Nvidia ShadowPlay, Nvidia Share veya AMD ReLive).
+Herhangi bir yer paylaşımlı oyun akışı, oyun kaydı veya yazılım kullanıyorsanız Wallpaper Engine'i yanlışlıkla arka planda kaydetmediklerinden emin olun. Grafik kartı sürücülerinizden herhangi bir oyun akışı işlevini kullanmanız da buna neden olabilir (örneğin Nvidia ShadowPlay, Nvidia Share veya AMD ReLive). Herhangi bir yer paylaşımlı oyun akışı, oyun kaydı veya yazılım kullanıyorsanız Wallpaper Engine'i yanlışlıkla arka planda kaydetmediklerinden emin olun. Grafik kartı sürücülerinizden herhangi bir oyun akışı işlevini kullanmanız da buna neden olabilir (örneğin Nvidia ShadowPlay, Nvidia Share veya AMD ReLive).
