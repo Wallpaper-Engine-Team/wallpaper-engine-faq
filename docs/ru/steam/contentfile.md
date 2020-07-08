@@ -1,9 +1,9 @@
-# «Файл с контентом заблокирован» / «Ошибка записи на диск»
+# "Content file locked" / Disk Write Error
 
-Если во время установки или обновления Wallpaper Engine у Steam не получается скачать программу, скорее всего ваш антивирус без уведомления удаляет файлы, помещает их в карантин или блокирует целые каталоги на диске. В Steam появится сообщение об ошибке «Файл с контентом заблокирован» или «Отказано в доступе». Эту проблему необходимо решать через антивирус: вам понадобится отменить внесенные в систему изменения. В большинстве антивирусов есть окно карантина, откуда можно восстановить файлы или создать белый список. Убедитесь, что антивирус игнорирует следующие каталоги:
+If Steam fails to download Wallpaper Engine either while installing or updating the app, it is most likely your antivirus deleting files, putting files into quarantine or blocking entire directories on your disk without informing you about this. You will get 'content file locked' or 'access denied' errors in Steam. This needs to be resolved in your antivirus by undoing the changes it did to your PC, most antivirus programs have a quarantine window from where you can restore files or create a whitelist. Make sure your antivirus application ignores the following directories:
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * `C:\Program Files (x86)\Steam\steamapps\downloading`
 
-*Если вы установили Steam или Wallpaper Engine в другой каталог, вам понадобится изменить перечисленные каталоги в соответствии с вашим путем установки Steam.*
+*If your Steam or Wallpaper Engine is installed in a different directory, you need to adjust the directories to your actual Steam installation path.*
