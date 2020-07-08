@@ -12,4 +12,4 @@ Se o seu Steam ou Wallpaper Engine estiverem instalados noutro lugar / diretóri
 
 3. Depois de apagar o ficheiro, volte a iniciar o Wallpaper Engine e terá recuperado todos os wallpapers predefinidos.
 
-::: dica Caso, por qualquer motivo, não encontre o ficheiro "visibility.json", pode sempre simplesmente reinstalar o Wallpaper Engine. Isto irá também restaurar todos os wallpapers predefinidos, mas também será necesário voltar a transferir todos os wallpapers, o que poderá evitar seguindo as instruções acima. :::
+::: dica Caso, por qualquer motivo, não encontre o ficheiro "visibility.json", pode sempre simplesmente reinstalar o Wallpaper Engine. Isto irá também restaurar todos os wallpapers predefinidos, mas também será necessário voltar a transferir todos os wallpapers, o que poderá evitar seguindo as instruções acima. :::
