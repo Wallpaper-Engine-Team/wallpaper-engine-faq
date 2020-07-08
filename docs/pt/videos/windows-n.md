@@ -8,7 +8,7 @@ O Windows N não vem com funcionalidades multimédia! É necessário instalar o 
 * Windows 7:
   * [Transferência do Media Feature Pack](https://www.microsoft.com/download/details.aspx?id=16546)
 
-**Certifique-se de que instala a versão x64 e x86.**
+**Certifique-se de que instala as versões x64 e x86.**
 
 Se continuar a apresentar o mesmo erro, então **instalou a versão errada**. Experimente instalar a versão correta e reiniciar o PC. Caso nada funcione e ainda continue em falta, os seus ficheiros do sistema provavelmente estão danificados. Experimente restaurar o sistema para um estado anterior ou reinstalar o Windows.
 
