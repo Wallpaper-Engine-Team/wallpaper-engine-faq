@@ -1,45 +1,45 @@
 ---
 tags:
   - application
-  - règles
+  - rules
   - exception
-  - liste blanche
-  - liste noire
-  - ralentissement
-  - ralenti
-  - jeu
-  - performances
+  - whitelist
+  - blacklist
+  - lags
+  - laggy
+  - game
+  - performance
   - fps
   - crash
-  - son
+  - sound
   - audio
   - intermittent
 ---
 
-# Résoudre des problèmes avec différents jeux ou applications
+# Fix issues with specific apps or games
 
-Si vous rencontrez des problèmes avec des applications ou des jeux, vous pouvez configurer Wallpaper Engine pour qu'il se comporte d'une certaine manière lorsqu'il détecte que l'application concernée est lancée ou lit de l'audio, par exemple.
+If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
 
-## Configurer une règle d'application
+## Setting up an application rule
 
-Dans l'onglet *Performances* des paramètres de Wallpaper Engine, cliquez sur le bouton *Modifier* près des *Règles d'application*. Vous verrez alors toutes les règles actuelles. En cliquant sur *Créer une nouvelle règle*, vous pouvez choisir la façon dont Wallpaper Engine se comporte avec d'autres applications.
+In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
 
-![Règles d'application](./applicationrule.gif)
+![Application Rules Overview](./applicationrule.gif)
 
-Vous verrez alors une liste de tous les .exe en cours d'exécution sur votre système. Sélectionnez un .exe de cette liste ou entrez le nom du .exe qui vous pose des problèmes. Vous pouvez ainsi configurer le comportement avec ces deux autres options. Voir plus bas pour plus d'informations.
+You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
 
-::: tip Wallpaper Engine ne prend en compte que le nom du fichier .exe, son emplacement n'est pas pris en compte lorsque vous entrez son nom dans *Nom de l'application*. Vous devez juste vous assurer de respecter les majuscules et les minuscules. :::
+::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
 
-### Problèmes de performances avec les applications et les jeux
+### Fixing performance problems with apps or games
 
-Sélectionnez le .exe du programme pour lequel vous souhaitez avoir une règle spéciale dans cette liste ou saisissez-le dans le champ **Nom de l'application**. Choisissez **En cours d'exécution** pour **Condition** et **Stop (libère la mémoire)** pour **Lecture du fond d'écran**. Wallpaper Engine supprimera complètement tous les fonds d'écran de la mémoire lorsque l'application ou le jeu est lancé : les problèmes de compatibilité seront donc résolus.
+Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
 
-### Problème de son intermittent avec des outils d'enregistrement d'arrière-plan
+### Fixing intermittent sound with background recording tools
 
-Sélectionnez le .exe du programme pour lequel vous souhaitez avoir une règle spéciale dans cette liste ou saisissez-le dans le champ **Nom de l'application**. Choisissez **Lit un fichier audio** pour **Condition** et **Continuer d’exécuter** pour **Lecture du fond d'écran**. Wallpaper Engine ne coupera plus le son lorsque l'application choisie lit ou enregistre un fichier audio. Windows ne fait pas de différence entre la lecture ou l'enregistrement audio, c'est pourquoi Wallpaper Engine coupera le son si vous enregistrez. Beaucoup d'applications de streaming peuvent provoquer ce problème intentionnellement.
+Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is playing audio** and **Wallpaper playback** to **Keep running**. This means Wallpaper Engine will not mute itself when the application in question is playing or recording audio. Windows does not differentiate between playing or recording audio, this is why Wallpaper Engine will constantly mute and unmute itself if you are recording it. Many game streaming applications can do this by accident and without your knowledge.
 
-### Autres comportements
+### Other behavior
 
-Jetez un œil à toutes les conditions et les options de lecture de fond d'écran possibles pour mieux comprendre les règles d'application. Vous pouvez paramétrer Wallpaper Engine pour qu'il coupe le son lorsque vous lancez des certaines applications.
+Check out all possible conditions and wallpaper playback options for more types of application rules. You can also configure Wallpaper Engine to mute or pause when you launch a certain application.
 
-::: tip Vous pouvez changer ces options pour toutes les applications dans l'onglet **Performances** des paramètres de Wallpaper Engine. Si vous rencontrez des problèmes de performances dans plusieurs jeux, il peut être judicieux de remplacer simplement l'option **Autres applications en plein écran** par **Stop (libère la mémoire)** pour que Wallpaper Engine s'arrête lorsque vous lancez un jeu ou une application en plein écran. :::
+::: tip You can also change these settings for all applications in the **Performance** tab of the Wallpaper Engine settings. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other applications fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
