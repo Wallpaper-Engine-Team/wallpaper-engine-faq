@@ -1,9 +1,9 @@
-# Wrong Refresh Rates of Monitors
+# モニターのリフレッシュレートが間違っている
 
-Depending on hardware and operating system, your graphics card may have issues updating all of your monitors at the same time if they have wildly differing refresh rates. Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
+ハードウェアはOSによっては、複数のモニターのリフレッシュレートが大きく違っている場合、グラフィックスカードがすべてのモニターのアップデートをするときに問題が発生することがあります。 MicrosoftはWindows 10 2004 Update（2020年5月）でこの問題に対応しています。この問題が起きている場合、Windows 10のそのバージョン以降を使用していることを確認してください。
 
-Some common work-arounds:
+一般的な回避方法。
 
-* Set monitors to refresh rates that are a multiple of each other. For example, 120Hz and 60Hz instead of 144Hz and 60Hz.
-* Use pausing/stopping options in Wallpaper Engine to make this less of a problem. Set it to pause on all monitors when playing games.
-* If your system has an integrated GPU, use that for your 60Hz monitor, although this will likely decrease desktop performance overall, since your CPU now needs to make both GPUs work together!
+* モニターのリフレッシュレートが互いの倍数になるように設定します。 例えば、144Hzと60Hzではなく、120Hzと60Hzになるようにします。
+* Wallpaper Engineの停止/中断オプションを使って、問題を小さくします。 ゲームのプレイ中はすべてのモニターで停止させます。
+* システムに統合型GPUがある場合、それを60Hzモニターに使用します。ただし、これによって全体のデスクトップパフォーマンスが低下する可能性が高いです。CPUが両方のGPUを一緒に動かす必要があるからです。
