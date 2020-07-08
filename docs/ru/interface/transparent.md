@@ -3,10 +3,10 @@ tags:
   - invisible
 ---
 
-# Окно Wallpaper Engine прозрачное
+# Wallpaper Engine window is transparent
 
-Если ваш пользовательский интерфейс Wallpaper Engine стал прозрачным, скорее всего вы случайно потянули за ползунок внизу окна, который контролирует его прозрачность. Просто потяните за ползунок вправо, чтобы вернуть преждний уровень прозрачности:
+If your Wallpaper Engine user interface is see-through, you have likely accidentally used the slider at the bottom of the window to reduce its opacity. Simply drag it to the right to revert the opacity again:
 
-![Настраивайте прозрачность с помощью ползунка в нижней части пользовательского интерфейса](./transparentinterface.gif)
+![Use the slider at the bottom of the user interface to control the opacity](./transparentinterface.gif)
 
-::: Подсказка Вы можете повышать прозрачность во время настройки или выбора обоев, чтобы, не сдвигая окно Wallpaper Engine, видеть как они будут смотреться на рабочем столе. :::
+::: tip You can use the slider to peek at wallpapers while configuring or browsing them without having to move the Wallpaper Engine window. :::
