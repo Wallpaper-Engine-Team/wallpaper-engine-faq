@@ -1,13 +1,13 @@
-# Steamworks no está disponible
+# Steamworks is unavailable
 
-Wallpaper Engine y Steam no pueden comunicarse por algún motivo. Reinicia Steam y luego Wallpaper Engine. Asegúrate de que inicias sesión con la misma cuenta en la que tienes Wallpaper Engine. Si ejecutas Steam o Wallpaper Engine como administrador, es posible que no funcione Steamworks SDK de Wallpaper Engine. La solución es no ejecutar ninguno de los programas como administrador. Si, a pesar de todo, no funciona, vuelve a instalar Steam y deshazte de cualquier antivirus que bloquee la comunicación entre programas.
+Wallpaper Engine and Steam are unable to communicate for some reason. Restart Steam, then Wallpaper Engine. Make sure it is logged into the account you own Wallpaper Engine on. If you run either Steam or Wallpaper Engine as administrator, the Steamworks SDK in Wallpaper Engine may not work. The solution is to not run either program as admin, which is the intended way. If it still does not work, reinstall Steam and get rid of any antivirus that blocks communication between different programs.
 
-Prueba a hacer lo siguiente:
+Try the following steps:
 
-* Reinicia Steam y luego Wallpaper Engine.
-* Asegúrate de que inicias sesión con la cuenta de Steam en la que tienes Wallpaper Engine.
-* **No** abras Steam ni Wallpaper Engine como administrador.
-* Excluye el directorio de Steam del antivirus o desactiva cualquier antivirus de terceros.
-* Cierra cualquier programa inactivo de Steam.
-* Borra los juegos crackeados de Steam que sustituyan la presencia de Steam en el equipo.
-* Desinstala Wallpaper Engine y Steam. Borra la carpeta de Steam. Vuelve a instalar Steam y Wallpaper Engine.
+* Restart Steam, then Wallpaper Engine.
+* Make sure you are logged into the Steam account that owns Wallpaper Engine.
+* Do **not** run Steam or Wallpaper Engine as administrator.
+* Exclude the Steam directory from your antivirus or completely disable any third-party antivirus application
+* Close "Steam idling" programs.
+* Delete cracked Steam games that override Steam's presence on the PC.
+* Uninstall Wallpaper Engine and Steam. Delete the entire Steam folder. Reinstall Steam and Wallpaper Engine.
