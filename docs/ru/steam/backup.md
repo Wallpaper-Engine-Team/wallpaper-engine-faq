@@ -12,6 +12,6 @@
 2. Скопируйте папку 431960 в путь установки Wallpaper Engine: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
 3. **Переименуйте** папку `431960` в `backup` (резервная копия), чтобы путь полностью выглядет вот так: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
 4. Теперь в каталоге `backup` хранятся все загруженные до этого момента обои в индивидуальных подкаталогах (номера соответствуют идентификационным номерам, которые конкретным обоям присвоила Мастерская Steam)
-5. Restart the wallpaper browser and you should see the backed up wallpapers now. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them
+5. Перегрузите обозреватель обоев. Вы должны увидеть резервные копии обоев. Теперь вы можете отписаться от обоев-дубликатов Steam и использовать свои личные копии
 
-::: warning Do **not** manually delete the Steam Workshop folder `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. This will cause your Steam to be confused and re-download all wallpapers. Simply unsubscribe from your wallpapers and let Steam delete the duplicate files itself. :::
+::: warning **Не удаляйте** вручную папку Мастерской Steam `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. Это приведет к тому, что Steam не поймет, что произошло и заново загрузит все обои. Просто отпишитесь от обоев, и Steam самостоятельно удалит эти файлы. :::
