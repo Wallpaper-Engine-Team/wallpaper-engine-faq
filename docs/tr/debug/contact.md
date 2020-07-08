@@ -7,7 +7,7 @@ tags:
 
 # İletişim
 
-Wallpaper Engine'de yaşadığınız teknik sorunlar için lütfen öncelikle SSS'ye bakın. Aldığımız teknik destek biletlerinin bir çoğunun çözümü SSS'de yer almaktadır.
+Wallpaper Engine'de yaşadığınız teknik sorunlar için lütfen öncelikle SSS'ye bakın. Aldığımız teknik destek biletlerinin bir çoğunun çözümü SSS'de yer almaktadır. Wallpaper Engine'de yaşadığınız teknik sorunlar için lütfen öncelikle SSS'ye bakın. Aldığımız teknik destek biletlerinin bir çoğunun çözümü SSS'de yer almaktadır.
 
 Ayrıca Steam Tartışma panomuza da başvurabilirsiniz; genellikle herkesin sorusunu yanıtlamaya çalışıyoruz. Ayrıca sorunuzun daha önce panoda tartışılmış olma ihtimali de var:
 
