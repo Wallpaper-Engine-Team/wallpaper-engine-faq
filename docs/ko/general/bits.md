@@ -1,15 +1,15 @@
-# 32-Bit & 64-Bit Version
+# 32비트 및 64비트 버전
 
-The 64-bit version can handle larger files (more than 2GB) but it will always use more memory, no matter the file size of the wallpapers. For example, with a normal video wallpaper, the 64-bit version may use about 50 MB more RAM compared to the 32-bit version, otherwise there is nothing different or improved.
+64비트 버전은 더 큰 파일(2GB 이상)을 처리할 수 있지만, 배경화면의 파일 크기와 상관없이 더 많은 메모리를 사용합니다. 예를 들어 64비트 버전은 32비트 버전에 비해 일반적인 비디오 배경화면에 약 50MB의 RAM을 더 사용합니다. 그 외에는 다르거나 향상도 부분이 없습니다.
 
-::: tip We recommend you stick to the 32-bit version unless you have huge wallpapers that would make the 32-bit version crash. The large majority of users never encounter this problem. :::
+::: tip 32비트 버전이 작동 중단이 될만큼 배경화면이 큰 경우를 제외하고는, 32비트 버전의 사용을 권장합니다. 그러나 사용자 대부분은 이러한 문제를 경험하지 않습니다. :::
 
-You may also opt for the 64-bit version when the video system on your PC has errors that only affect 32-bit programs. Should you ever have installed codec packs or alike, they may have permanently damaged the 32-bit Windows video system that Wallpaper Engine uses. If the 64-bit system is not affected, you'll be able to take advantage of that by using the 64-bit version of Wallpaper Engine and so you can avoid having to fix whatever got broken.
+또한 PC의 비디오 시스템에 32비트 프로그램에만 영향을 미치는 오류가 발생할 경우에도 64비트 버전을 선택할 수 있습니다. 코덱 팩 또는 이와 유사한 것을 설치했다면, Wallpaper Engine이 사용하는 32비트 Windows 비디오 시스템의 영구 손상 가능성이 있습니다. 64비트 시스템이 영향을 받지 않았다면 손상 문제를 해결하지 않고도 Wallpaper Engine의 64비트 버전을 사용하여 이것을 이용할 수 있습니다.
 
-::: warning Note Note that "Web" type wallpapers will always be executed with a 32-Bit executable (webwallpaper32.exe). The same applies to the user interface itself (ui32.exe). 64-Bit only applies when selecting wallpapers of the type "Scene" or "Video". :::
+::: warning "웹" 유형의 배경화면은 항상 32비트 실행 파일(webwallpaper32.exe)로 실행됩니다. 그리고 사용자 인터페이스에도 똑같이 적용됩니다. (ui32.exe) 64비트는 "장면" 또는 "영상" 유형의 배경화면을 선택할 때만 적용됩니다. :::
 
-## How to set-up Wallpaper Engine to autstart with either the 32 or 64 Bit version when Windows launches?
+## Windows 실행과 함께 32 또는 64비트 버전의 Wallpaper Engine 자동 시작 설정 방법
 
-First, completely turn off Wallpaper Engine via the tray icon (right-click on the Wallpaper Engine icon in the Windows tray -> "Quit"). This is important as Steam will otherwise not launch Wallpaper Engine and only bring the already running version to the foreground.
+우선 트레이 아이콘을 통해 Wallpaper Engine를 완전히 끕니다. (Windows 트레이의 Wallpaper Engine 아이콘 오른쪽 클릭 -> "종료") 그렇지 않으면 Steam이 Wallpaper Engine을 실행할 수 없으며, 이미 실행 중인 버전만 전경으로 불러오게 됩니다.
 
-Once Wallpaper Engine is turned off, go to Steam and start either the 32 Bit or 64 Bit version, depending on which version you want to automatically start. Go to the Wallpaper Engine settings and at the top of the "General" tab, enable autostart. If it is already enabled, turn it off completely and then turn it back on. This will register the current version as the one which will be automatically started alongside Windows. 
+Wallpaper Engine이 꺼지면, Steam으로 이동하여 32비트 또는 64비트 버전 중 자동 시작하려는 버전을 실행합니다. Wallpaper Engine 설정에서 "일반" 탭의 상단에 있는 자동시작을 활성화하세요. 이미 활성화되었다면, 완전히 끈 다음 다시 켭니다. 그러면 현재 버전이 Windows와 함께 자동으로 시작되는 버전으로 등록됩니다. 
