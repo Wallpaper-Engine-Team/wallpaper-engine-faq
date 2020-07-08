@@ -21,7 +21,7 @@ Par défaut, nous intensifions les couleurs RGB. Pour la plupart des fonds d'éc
 
 Wallpaper Engine n'est pas capable de communiquer directement avec votre matériel RGB, toutes les informations concernant la couleur sont d'abord envoyées aux pilotes RGB. Si votre matériel ne fonctionne pas, le problème doit venir du côté du logiciel associé à votre matériel. Certains éléments très anciens ne sont plus entièrement pris en charge par leurs fournisseurs et ne fonctionneront plus correctement. Nous ne pouvons malheureusement rien faire de plus pour vous aider.
 
-Si l'onglet *Plug-ins* des paramètres de Wallpaper Engine n'est pas visible, c'est que *Redistribuable Visual C++ pour Visual Studio 2015* doit être corrompu ou manquant sur votre ordinateur. Ces composants sont indispensables. Vous pouvez télécharger ce pack sur le site de Microsoft et l'installer, cela devrait régler ce problème après un redémarrage :
+Si l'onglet *Plug-ins* des paramètres de Wallpaper Engine n'est pas visible, c'est que *Redistribuable Visual C++ pour Visual Studio 2015* doit être corrompu ou manquant sur votre ordinateur. Vous pouvez télécharger ce pack sur le site de Microsoft et l'installer, cela devrait régler ce problème après un redémarrage :
 
 * [Redistribuable Visual C++ pour Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
@@ -42,7 +42,7 @@ Si vous souhaitez de l'aide pour votre matériel Corsair iCUE, contactez directe
 Si vous rencontrez un problème avec Corsair, vous pourrez toujours nous contacter par la suite pour que nous vous aidions.
 
 ### Razer
-Notre logiciel n'est compatible qu'avec Razer Synapse 3 et ses versions les plus récentes. Si vous utilisez Razer Synapse 1 ou Razer Synapse 2, assurez-vous de les désinstaller complètement avant de mettre à jour votre version de Razer Synapse. Par le passé, beaucoup d'utilisateurs ont eu des problèmes à cause d'anciennes versions de Razer Synapse. Si vous avez installé Razer Synapse 2 ou une version antérieure et que vous rencontrez des problèmes d'éclairage RGB ou le plug-in RGB plante, c'est qu'il reste des traces d'anciennes versions de Razer Synapse dans votre système. Vous devrez les retirer.
+Notre logiciel n'est compatible qu'avec Razer Synapse 3 et ses versions les plus récentes. Si vous utilisez Razer Synapse 1 ou Razer Synapse 2, assurez-vous de les désinstaller complètement avant de mettre à jour votre version de Razer Synapse. Par le passé, beaucoup d'utilisateurs ont eu des problèmes à cause d'anciennes versions de Razer Synapse. Si vous avez installé Razer Synapse 2 ou une version antérieure et que vous rencontrez des problèmes d'éclairage RGB ou le plug-in RGB plante, c'est qu'il reste des traces d'anciennes versions de Razer Synapse dans votre système.
 
 Si votre matériel Razer est ancien et n'est pas compatible avec Razer Synapse 3 ou une version plus récente, alors votre éclairage RGB n'est pas compatible avec Wallpaper Engine.
 
