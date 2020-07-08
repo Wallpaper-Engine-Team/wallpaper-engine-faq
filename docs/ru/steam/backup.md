@@ -2,11 +2,11 @@
 
 Если по какой-то причине обои будут удалены из Steam, они автоматически будут удалены и с вашего компьютера. Удаление совершает Steam, поэтому Wallpaper Engine не может предотвратить это. Если у вас есть опасения, вы можете создать резервную копию ваших обоев.
 
-Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
+Кроме этого, многие пользователи сообщают, что Steam может произвольно начать заново загружать все файлы из Мастерской, что может раздражать, если у вас гигабайты данных. Если это происходит слишком часто, вы можете решить проблему создав резервную копию и полностью отвязав свою коллекцию от Steam.
 
-# Creating a Backup
+# Создание резервной копии
 
-The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
+Данная инструкция предполагает, что на вашем компьютере Steam и Wallpaper Engine установлены в `C:\Program Files (x86)\Steam\`. Если вы установили Steam и/или Wallpaper Engine в другом месте, вам понадобится искать файлы там.
 
 1. Locate the folder in which Steam stores your wallpapers, by default it is in `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** is the Steam ID of Wallpaper Engine, Steam uses this directory for all Wallpaper Engine downloads. :::
 2. Copy the folder 431960 to Wallpaper Engine's installation path here: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
