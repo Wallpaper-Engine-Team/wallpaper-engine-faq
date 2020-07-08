@@ -1,5 +1,5 @@
-# La lista de reproducción hace que se pierda la prioridad / minimiza los juegos
+# Playlist Causes focus loss / minimizes games
 
-Si tienes una lista de reproducción con los fondos de pantalla de tipo **web** y sientes que hay pérdidas de prioridad al jugar, asegúrate de pausar la lista de reproducción mientras haya otras aplicaciones en pantalla completa. Puedes hacerlo si **desactivas** la opción **Permitir que el fondo se cambie cuando está en pausa** en la configuración de las listas de reproducción o, en su defecto, puedes quitar los fondos de web de la lista de reproducción.
+If you have a playlist with wallpapers of the type **Web** and experience focus loss while playing games, make sure to pause the playlist while other applications are fullscreen. You can do so by turning **off** the **Allow wallpaper to change while paused** option in the playlist settings) or alternatively remove the web-based wallpapers from the playlist.
 
-Chromium, el programa que se utiliza para mostrar los fondos de tipo web, le quita la prioridad a la ventana en la que se encuentra al cargar un fondo nuevo, por lo que no podemos ponerle solución fácilmente al problema.
+Chromium itself - which is the software used to display "Web" type wallpapers - is stealing the focus of your current window when loading a new wallpaper so we cannot fix this issue easily unfortunately.
