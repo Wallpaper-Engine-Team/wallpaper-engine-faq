@@ -1,4 +1,4 @@
-# Exluir certos wallpapers da pesquisa
+# Excluir certos wallpapers da pesquisa
 
 Utilize sempre o separador Oficina na aplicação para procurar novos wallpapers. O website Steam Workshop não tem as mesmas capac idades de filtragem da aplicação e irá mostrar-lhe demasiado conteúdo em que não está interessado.
 
