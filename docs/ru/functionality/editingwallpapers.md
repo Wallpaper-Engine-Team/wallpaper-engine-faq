@@ -24,9 +24,9 @@
 
 Для работы с такими обоями вам все равно понадобится стандартный файл project.json. Чтобы получить такой файл просто создайте новые пустые обои в редакторе, закройте Wallpaper Engine, а затем распакуйте загруженные обои и скопируйте их содержимое в каталог нового проекта.
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+Если вы хотите отредактировать обои, которые вы создали сами, но потеряли их проектные файлы, обратитесь к разделу *«Обновление утерянного проекта»* ниже. В нем вы найдете информацию об изменениях, которые вам необходимо внести в файл project.json, чтобы принудительно обновить существующие обои.
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: warning Обратите внимание Мы не предоставляем официальную поддержку данного инструмента и не можем гарантировать, что он будет корректно работать. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
 
 ### Web обои
 
@@ -40,7 +40,7 @@ Video-based wallpapers are video files. You can find the video file as described
 
 Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
 
-## Updating a lost project
+## Обновление утерянного проекта
 
 If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
 
