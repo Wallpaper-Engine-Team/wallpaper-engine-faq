@@ -11,8 +11,8 @@ Para resolver isto, faça qualquer destas três coisas:
     * Se não sabe que aplicação estará a provocar isto, verifique o seu misturador de áudio do Windows e veja que aplicações tão neste momento a aceder ao seu áudio, pois isso poderá ajudar. Como alternativa, encerre o máximo possível de programas e reduza-os a certos ficheiros .exe da lista de processos do gestor de tarefas do Windows.
 * Se a gravação de áudio em segundo plano for intencional e não conseguir desligá-la, pode criar uma *regra da aplicação* no separador "Desempenho" das definições do Wallpaper Engine. Defina a "Condição" para "Está a reproduzir áudio" e a "Reprodução do wallpaper" para "Continuar execução":
 
-![Pode encotnrar as Regras para Aplicações no separadoir "Desempenho" das definições do Wallpaper Engine](./applicationrule.png)
+![Pode encontrar as Regras para Aplicações no separador "Desempenho" das definições do Wallpaper Engine](./applicationrule.png)
 
-Substitua alguns .exe por ficheiros .exe que encontre no getsor de tarefas até ter reduzido as possibilidades ao .exe responsável.
+Substitua alguns .exe por ficheiros .exe que encontre no gestor de tarefas até ter reduzido as possibilidades ao .exe responsável.
 
-* Por fim, também pode mudar a opção 'Outra aplicação a reproduzir áudio' para 'continuar execução'. No entanto, isto significa que o Wallpaper Engine não irá silenciar a repdodução de áudio automaticamente a partir dos wallpapers quando ouve música ou vê vídeos que não sejam em ecrã completo.
+* Por fim, também pode mudar a opção 'Outra aplicação a reproduzir áudio' para 'continuar execução'. No entanto, isto significa que o Wallpaper Engine não irá silenciar a reprodução de áudio automaticamente a partir dos wallpapers quando ouve música ou vê vídeos que não sejam em ecrã completo.
