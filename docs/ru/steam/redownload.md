@@ -8,14 +8,14 @@ tags:
 
 # Steam заново загружает обои
 
-У Steam неисправен кэш загрузок, поэтому теперь он заново загружает все файлы (без особых на то причин, например, Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
+У Steam неисправен кэш загрузок, поэтому теперь он заново загружает все файлы (без особых на то причин, например, аварийного завершения работы Steam). Причина ошибки не в Wallpaper Engine, поэтому ее невозможно исправить через Wallpaper Engine. Эта проблема может затронуть любую программу в Мастерской Steam. Если вы часто сталкиваетесь с данной проблемой, есть несколько обходных решений:
 
-## Fix Steam automatically
-We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
-* Turn off Steam
-* Go to the `wallpaper_engine` installation directory
-  * Default location: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
-* Run `wallpaper_engine\bin\steamredownloadfixer32.exe`
+## Исправить ошибку Steam автоматически
+Мы создали инструмент для автоматического исправления ошибок Steam, который вы можете использовать, чтобы предотвратить возникновение проблемы в дальнейшем (будем надеяться)! Выполните эти шаги:
+* Выключите Steam
+* Зайдите в каталог установки `wallpaper_engine`
+  * По умолчанию он находится здесь: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
+* Запустите файл `wallpaper_engine\bin\steamredownloadfixer32.exe`
   * If the tool gives you any error messages, please send us an email and we will investigate if we can improve it
 * Restart Steam and verify the Wallpaper Engine files:
   * [Verify the Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
