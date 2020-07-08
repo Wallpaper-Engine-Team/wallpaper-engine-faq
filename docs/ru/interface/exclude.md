@@ -1,19 +1,25 @@
-# Exclude certain wallpapers from the search
+# Исключение определенных обоев из результатов поиска
 
-Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+Для поиска новых обоев всегда используйте вкладку «Мастерская» в программе. На сайте Мастерской Steam нет аналогичных механизмов для фильтрации результатов поиска, поэтому вам будет показывать слишком много контента, в котором вы не заинтересованы.
 
-## Excluding certain genres (anime, for example)
+## Исключение определенных жанров (например, аниме)
 
-You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+В программе вы можете отсеить категории, которые вам не нравятся. Откройте вкладку «Мастерская» в Wallpaper Engine и запустите боковую панель фильтрации, кликнув на кнопку «Фильтры» в верхнем левом углу. Снимите выделение со всех категорий, которые вы не хотите видеть в результатах поиска.
 
-If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+Если вам не нравятся обои в жанре аниме, снимите выделение с категорий *Аниме* и *MMD (Miku-Miku-Dance)*. Кроме этого, возможно стоит убрать категории *Мультфильм* и *Девушки*, поскольку в них тоже могут быть обои в жанре аниме, но в таком случае вы с большой вероятностью отсеете и посторонний контент.
 
-![Deselect all categories you do not like in the filter sidebar](./categories.gif)
+![Снимите выделение со всех категорий, которые вам не нравятся, в боковой панели](./categories.gif)
 
-## Excluding certain age ratings
+## Исключение по возрастным ограничениям
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Мастерская Steam разрешает некоторые типы контента для взрослых, например, изображения обнаженного тела. Если вы не хотите видеть подобный контент, в разделе возрастных ограничений выберите только опцию «Для всех»:
 
-![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
+![Снимите выделение с возрастных рейтингов «Для взрослых» и «Под вопросом» в боковой панели](./ageratings.gif)
 
-Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
+В основном обои правильно маркированы тегами, поэтому вы сможете отсеить подавляющую часть контента для взрослых. Если несмотря на это, вы все же наткнетесь на контент для взрослой аудитории, который был классифицирован как «Для всех», пожалуйста, используйте функционал программы для того, чтобы отправить жалобу. Контент будет перенаправлен в другую категорию или удален после ревизии.
+
+## Жалобы на контент, нарушающие правила
+
+Мы и администраторы / модераторы Steam ежедневно удаляем обои, нарушающие правила. Пожалуйста, жалуйтесь на контент в Мастерской, который нарушает правила сообщества, чтобы нам было проще его находить.
+
+Устройство Мастерской позволяет пользователям публиковать свои работы в открытом доступе без предварительной проверки. Это правила Мастерской Steam, и у нас нет возможности изменить их. Единственное, что мы можем — удалять контент, после того как он был загружен. Если эта политика вас не устраивает, вы можете включить фильтрацию по тегу *«Одобренные»*: в эту категорию попадает только тщательно отобранный и проверенный людьми контент. Обязательно прочитайте секции выше, чтобы знать, как настроить свои фильтры и сразу отсеить те виды контента, на которые вы не хотите наталкиваться при поиске.
