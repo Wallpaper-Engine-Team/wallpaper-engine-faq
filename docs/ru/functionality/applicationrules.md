@@ -22,13 +22,13 @@ tags:
 
 ## Создание правила приложения
 
-In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+Если зайти в панель *«Производительность»* в настройках Wallpaper Engine и кликнуть на кнопку *«Редактировать»*, расположенную рядом с опцией *«Правила приложения»*, откроется общее окно с вашими правилами. Нажав на кнопку *««Редактировать»»*, вы сможете задать особые правила поведения Wallpaper Engine при работе с определенной программой.
 
 ![Application Rules Overview](./applicationrule.gif)
 
-You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+Вам будет представлен список всех .exe файлов, которые запущены на компьютере. Выберите .exe файл из списка или забейте в поиск точное название .exe файла, с которым возникла проблема. Две другие опции позволяют настроить поведение Wallpaper Engine и задать условия исполнения правила. Вы найдете подробную информацию и конкретные примеры ниже.
 
-::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: Подсказка Wallpaper Engine нужно только точное название .exe файла, его расположение в системе не имеет значения. Поэтому вы можете просто вбить название любого .exe файла в поле *«Название приложения»*. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
 
 ### Fixing performance problems with apps or games
 
