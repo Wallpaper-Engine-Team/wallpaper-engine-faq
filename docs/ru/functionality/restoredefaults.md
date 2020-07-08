@@ -1,15 +1,15 @@
-# Restoring deleted default wallpapers
+# Восстановление стартовых обоев после удаления
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+Если вы удалили обои, которые предустановлены в Wallpaper Engine, вы можете восстановить их, удалив файл конфигурации в каталоге установки *wallpaper_engine*:
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. Полностью выключите Wallpaper Engine (кликните правой кнопкой мыши на значок программы в области уведомлений -> «Выход»)
 
-2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
+2. Откойте каталог Wallpaper Engine и удалите файл под названием «visibility.json». По умолчанию файл находится здесь:
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
-If your Steam or Wallpaper Engine are installed in a different place / directory, the directory will be slightly different, but *wallpaper_engine\projects\defaultprojects\visibility.json* sub-directory is always the same.
+Если вы установили Steam или Wallpaper Engine в другое место / каталог, каталог будет слегка отличаться, но в нем всегда будет находится подкатолог *wallpaper_engine\projects\defaultprojects\visibility.json*.
 
-3. Once the file is deleted, start Wallpaper Engine again, you will have all default wallpapers back.
+3. После удаления файла снова запустите Wallpaper Engine. Стартовые обои будут восстановлены.
 
-::: tip If you are unable to find the "visibility.json" file for some reason, you can also always just re-install Wallpaper Engine. This will also restore all default wallpapers but will require you to re-download all wallpapers which you can avoid by following the steps above. :::
+::: Подсказка Если по какой-то причине вам не удается найти файл visibility.json, вы также можете просто переустановить Wallpaper Engine. В этом случае стартовые обои будут восстановлены таким же образом, но вам придется заново загрузить все обои, чего можно избежать с помощью инструкции выше. :::
