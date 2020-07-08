@@ -20,21 +20,21 @@ Criámos um corretor automático para o Steam que pode usar para tentar fazer o 
 * Reinicie o Steam e verifique os ficheiros do Wallpaper Engine:
   * [Verificar os ficheiros do Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-Infelizmente, terá de repetir isto sempre que a cache de transferências do Steam se avariar. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
+Infelizmente, terá de repetir isto sempre que a cache de transferências do Steam se avariar. Tenha em conta que não fomos nós que criámos o Steam e não podemos corrigir o Steam.
 
-## Reinstall Steam
+## Reinstalar o Steam
 
-The most reliable long-term fix for most users affected by this Steam bug regularly appears to be to reinstall Steam as some Steam files may simply be broken on your system. Try to reinstall Steam completely:
+A correção a longo-prazo mais fiável para a maior parte dos utilizadores afetados regularmente por este erro do Steam parece ser reinstalar o Steam, pois alguns ficheiros do Steam podem simplesmente estar danificados no seu sistema. Experimente reinstalar o Steam completamente:
 
-1. Uninstall Wallpaper Engine through Steam.
-2. Uninstall Steam itself, make sure to follow the official guide:
-  * [Uninstall Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
-  * Specifically check the Manually Removing Steam section in the Steam Support article above and make a backup of your *steamapps* directory as described there to ensure you will not have to redownload all your games.
+1. Desinstale o Wallpaper Engine através do Steam.
+2. Desinstale o próprio Steam, seguindo sempre o guia oficial:
+  * [Desinstalar o Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
+  * Verifique especificamente a secção Manually Removing Steam no artigo do Steam Support acima e faça uma cópia de segurança do seu diretório *steamapps* tal como é descrito no guia, para garantir que não tem de voltr a transferir todos os seus jogos.
 
-## Use local backups as a workaround
+## Use cópas de segurança locais como solução indireta
 
-If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+Se o problema lhe continuar a acontecer, também pode fazer cópias de segurança locais e depois anular a subscrição de todos os wellpapers. O Steam não voltará a transferir wallpapers que não estejam subscritos, pelo que a solução indireta é simplesmnete contar com as cópias de segurança locais. Aqui poderá encontrar o nosso guia para criar cópias de segurança:
 
-* [Using wallpaper backups](/steam/backup)
+* [Usar cópias de segurança dos wallpapers](/steam/backup)
 
-Afterwards, simply unsubscribe from all wallpapers. Make sure to not delete any files manually, Steam must delete the wallpaper files itself or it will attempt to redownload the wallpapers again just to delete the files on its own.
+Em seguida, simplesmente anule a subscrição de todos os wallpapers. Certifique-se de que não apaga quaisquer ficheiros manualmente. deve ser o próprio Steam a apagar os ficheiros de wallpapers ou tentará voltara transferir os wallpapers, só para ser o Steam a apagá-los em seguida.
