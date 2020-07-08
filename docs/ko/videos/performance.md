@@ -1,18 +1,18 @@
-# 비디오 중지 / 끊김 / 낮은 성능
+# Video freezes / stuttering / bad performance
 
-하드웨어 낮은 성능으로 특정 비디오를 제대로 표시하지 못할 수 있습니다. 영상 배경화면은 일반 비디오 플레이어와 비교할 수 없습니다.  또한 기본값으로 GPU의 비디오 디코더를 사용하므로, CPU 사용량을 최소화합니다.
+This could come from your hardware not being powerful enough to display the specific video properly. A video wallpaper isn't comparable to standard video players, it must be composed with the icons as well and potentially stretches over multiple screens. It is also using the video decoder of your GPU by default to reduce CPU usage to a minimum.
 
-## 배경 녹화 후크
-또한 ReLive, Shadow Play/Nvidia Share 또는 Windows GameDVR과 같은 녹화 응용 프로그램의 드라이버 기능 때문일 수도 있습니다. 이것을 비활성화하여 바뀐 내용을 확인한 다음, 여기서 Wallpaper Engine을 제외하세요. 또한 다른 녹화/오버레이 프로그램이 Wallpaper Engine으로 로드되어 렌더링 속도를 늦추는지도 확인해야 합니다.
+## Background recording hooks
+It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
 
-저희의 스캔 도구를 사용해 알려진 녹화 후크 프로그램이 설치되었는지 확인해볼 수 있습니다. 그러나 이것은 모든 것을 찾을 수 없으며, 특히 Nvidia GeForce Experience의 일반적인 녹화 후크 같은 것은 발견할 수 없습니다.
+You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
 
-* [Wallpaper Engine 스캔 도구](/debug/scantool.html)
+* [Wallpaper Engine Scan Tool](/debug/scantool.html)
 
-## 동적 초해상도(DSR) / GPU 조정
-GPU 조정/DSR과 같은 드라이버 레벨 핵도 이와 같은 문제를 일으킬 수 있습니다. 이걸 비활성화해보고, 도움이 되면 Wallpaper Engine 전용으로 비활성화하세요.
+## Dynamic Super Resolution (DSR) / GPU Scaling
+Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
 
-## 복수의 GPU / 복수의 화면 시스템의 dwm.exe 낮은 성능
-전용 GPU가 설치되어 있지만 BIOS에서 데스크톱 PC에 통합 GPU를 활성화하면, 낮은 성능과 의 높은 CPU 사용을 경험하게 됩니다. 가능하면 통합 GPU는 비활성화하세요. **모든 모니터를 전용 그래픽 카드에 연결하는 것은 매우 중요합니다.** GPU를 동시에 사용하면 바탕화면 창 관리자의 하드웨어 가속에 손상을 줍니다. Nvidia Optimus 기술 또는 이와 유사한 기술이 없으면, Windows는 하나의 GPU에서 다른 GPU로 배경화면 이미지를 복사하므로 작업 속도가 매우 느립니다. 사실 GPU 간 공유되는 작업은 여기에 영향을 받으며, 이는 모니터 간 게임 창을 움직이는 것과 같습니다.
+## Bad performance in dwm.exe in systems with multiple GPUs / multiple screens
+If you have enabled the integrated GPU on your desktop PC in the BIOS although a dedicated graphics card is installed, you can experience bad performance and high CPU usage of DWM.exe. If possible, do not enable your integrated GPU. **It's very important to plug all your monitors into your dedicated graphics card.** Using both GPUs at the same time will break hardware acceleration of the desktop window manager. Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
 
-이 특정 문제는 Nvidia Optimus 노트북 또는 하드웨어 브리지의 적절한 Nvidia SLI / AMD Crossfire 설정과 같은 멀티 GPU 설정을 위해 제작된 하드웨어에는 영향을 주지 않습니다.
+This specific issue does not affect hardware built for multi-GPU setups like laptops with Nvidia Optimus or proper Nvidia SLI / AMD Crossfire setups with a hardware bridge.
