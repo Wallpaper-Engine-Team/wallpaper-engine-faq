@@ -6,9 +6,9 @@ tags:
   - deletes
 ---
 
-# Steam redownloading wallpapers
+# Steam заново загружает обои
 
-Steam's download cache was broken and now Steam redownloads all files (for no particular reason or i.e. Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
+У Steam неисправен кэш загрузок, поэтому теперь он заново загружает все файлы (без особых на то причин, например, Steam crashing instead of properly closing). This is not caused by Wallpaper Engine so it cannot be fixed in Wallpaper Engine, all Workshop apps on Steam can suffer from this Steam bug. If you frequently have this problem, there are work-arounds:
 
 ## Fix Steam automatically
 We have built an automatic Steam fixer that you can use to attempt to make Steam stop this issue from continuing (hopefully)! Follow these steps:
