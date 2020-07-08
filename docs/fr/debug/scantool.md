@@ -1,21 +1,20 @@
-# Utiliser l'outil d'analyse de Wallpaper Engine pour créer un rapport de bug
+# Use the Wallpaper Engine scan tool to create a debug log
 
-Si vous rencontrez des problèmes avec Wallpaper Engine que vous ne parvenez pas résoudre à l'aide de la FAQ, vous pouvez créer un rapport pour votre système que vous pourrez par la suite nous envoyer :
+1. Make sure Wallpaper Engine is running (if possible).
+2. Choose the 4th launch option in Steam (*Scan for conflicting applications*):
+3. Click on **Save Full Log** and save it to your desktop.
+4. Share the log file with by using either of these methods developers:
+    * Go to [pastebin.com](https://pastebin.com/) and copy-paste the contents of the log file in there, afterwards share the link to your paste.
+    * Alternatively, you can just attach the log file to an email and send it to us. If you have already an existing email discussion, please reply to the previous email with the attached log file. If this is your first email, please add some information about the problem you were having or a link to an existing discussion.
 
-1. Assurez-vous d'avoir lancé Wallpaper Engine (si cela est possible).
-2. Choisissez la 4e option de lancement sur Steam (*"Chercher des conflits entre les applications"*, vous trouverez une courte vidéo ci-dessous) :
-3. Cliquez sur **Sauvegarder le rapport** et enregistrez-le sur notre bureau (vous trouverez une courte vidéo ci-dessous).
-4. Envoyez-nous ce rapport grâce à l'une de ces méthodes :
-    * Rendez-vous sur [pastebin.com](https://pastebin.com/), copiez-y le contenu du rapport et envoyez-nous ce lien.
-    * Vous pouvez également nous faire parvenir ce rapport en pièce jointe. Si vous êtes déjà en contact avec nous, répondez à notre dernier e-mail en y attachant le rapport. Si c'est votre premier e-mail, expliquez-nous clairement votre problème et pensez à ajouter un lien vers une discussion existante.
-5. *Facultatif :* si vous avec un problème de crash, veuillez vérifier dans le répertoire *wallpaper_engine* les fichiers **.mdmp** et nous les envoyer par e-mail ou par un autre moyen qui vous convient. Si vous trouvez beaucoup de fichiers .mdmp, envoyez-nous les plus récents. ::: tip Même si l'outil d'analyse ne signale aucun problème à première vue, une analyse plus approfondie du rapport peut nous indiquer des problèmes courants qui nous permettront de vous conseiller rapidement. :::
+::: tip Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues. :::
 
-#### Tutoriels vidéo
+#### Additional video help
 
-**Étape 2**
+**Step 2**
 
-![Lancement de l'outil d'analyse](./scantoollaunch.gif)
+![Scan Tool Launch Option](./scantoollaunch.gif)
 
-**Étape 3**
+**Step 3**
 
-![Rapport de l'outil d'analyse](./scantoolsave.gif)
+![Scan Tool Save Log](./scantoolsave.gif)
