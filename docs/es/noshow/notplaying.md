@@ -1,49 +1,39 @@
-- - -
-tags:
-  - ventana activemovie
-  - active movie
-  - negro
-- - -
+# Black Screen / Videos not Playing
 
+Black screens and other issues with wallpapers of the type "Video" are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
 
-# Vídeos en negro / no se reproducen correctamente
+::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
-Las pantallas negras y otros problemas con los fondos de tipo *vídeo* son *siempre* culpa de codecs de vídeo o controladores de tarjeta gráfica dañados. Sigue los siguientes pasos en orden. Si sigues la guía de principio a fin, se solucionará el problema:
+## Clean graphics card driver re-installation
 
-::: warning ¡Aviso! Ten en cuenta que esta sección trata de que los **fondos** de Wallpaper Engine se quedan en negro o no se reproducen correctamente. Si la **interfaz de Wallpaper Engine se queda negra**, visita esta sección: [La interfaz a de Wallpaper Engine se queda en negro](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+For a very large number of people, a clean re-installation of the graphics card drivers, video playback issues including black screens are fixed. **It's important that the old drivers are uninstalled first.**
 
-## Vuelva a instalar los controladores de la tarjeta gráfica
+1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
 
-La mayoría de problemas con los fondos de vídeo se resuelven después de volver a instalar los controladores de la tarjeta gráfica. Funciona tanto como para las pantallas en negro como para los fondos de pantalla que aparecen en otra ventana (conocido como **«Ventana ActiveMovie»**).
+* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
+* [AMD Radeon](https://www.amd.com/support)
+* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-1. Descarga los controladores más recientes de la tarjeta gráfica (si tienes dos, como Nvidia o Intel, descárgalos todos):
+2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
 
-* [Nvidia GeForce](https://www.nvidia.es/Download/index.aspx?lang=es)
-* [AMD Radeon](https://www.amd.com/support/hc/es/categories/360001506152-Servicio-al-cliente)
-* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers/)
+You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
 
-2. Desinstala los controladores que tienes instalados y borra todos los archivos si te preguntan. Los controladores de Nvidia tienen una casilla llamada «Realizar instalación limpia», que también cumple la función.
+3. Install the drivers you have just downloaded in step 1.
+4. Restart your PC again, see if it works now.
 
-También puedes usar [Display Driver Uninstaller («DDU»)](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) si no sabes cómo hacerlo.
-
-3. Instala los controladores que descargaste en el paso 1.
-4. Reinicia el equipo y comprueba si ha funcionado.
-
-::: tip Es muy importante que hagas una instalación limpia. Es decir, tienes que eliminar por completo los controladores de la tarjeta gráfica y la configuración antes de instalar los nuevos, si no, no funcionará. :::
+::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
 
 ## Codec Tweak Tool
 
-Si tras hacer una instalación limpia de los controladores sigue sin funcionar, restablece los codecs de vídeo:
+If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
 
-* Descarga Codec Twear Tool: [haz clic aquí](https://www.codecguide.com/download_other.htm).
-* Asegúrate de que **no** están seleccionadas las casillas de «Media Foundation» y aplica la configuración:
+* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
+* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
 
-![Deselecciona todas las opciones de «Media Foundations».](./codectweak.gif)
+![Uncheck all options in the Media Foundation options](./codectweak.gif)
 
-* Reinicia el equipo y comprueba los fondos afectados de nuevo.
+* Restart the PC and try the affected wallpapers again.
 
-## Codecs de vídeo adicionales
+## Additional video codecs
 
-Si los fondos de vídeo afectados siguen sin funcionar tras seguir los pasos anteriores, descarga LAV y usa DirectShow tal y como se explica en esta guía:
-
-* [Usar LAV y DirectShow](/videos/lav.html).
+If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide: [Click here](/videos/lav.html).
