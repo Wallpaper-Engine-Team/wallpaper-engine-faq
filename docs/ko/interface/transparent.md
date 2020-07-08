@@ -1,12 +1,12 @@
 ---
 tags:
-  - invisible
+  - 보이지 않음
 ---
 
-# Wallpaper Engine window is transparent
+# Wallpaper Engine 창이 투명합니다
 
-If your Wallpaper Engine user interface is see-through, you have likely accidentally used the slider at the bottom of the window to reduce its opacity. Simply drag it to the right to revert the opacity again:
+Wallpaper Engine 사용자 인터페이스가 투명하게 표시되면, 실수로 창 하단의 슬라이더를 사용해 불투명도를 낮춘 것일 수 있습니다. 슬라이더를 오른쪽으로 끌어당겨 불투명도를 되돌리세요.
 
-![Use the slider at the bottom of the user interface to control the opacity](./transparentinterface.gif)
+![사용자 인터페이스 하단의 슬라이더를 사용하여 불투명도 제어](./transparentinterface.gif)
 
-::: tip You can use the slider to peek at wallpapers while configuring or browsing them without having to move the Wallpaper Engine window. :::
+::: tip 슬라이더를 사용하면, 배경화면을 구성 또는 탐색 중 Wallpaper Engine 창으로 옮기지 않고도 살짝 볼 수 있습니다. :::
