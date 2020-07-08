@@ -8,8 +8,8 @@ Para resolver isto, faça qualquer destas três coisas:
 
 * Desligue o programa de gravação no seu ambiente de trabalho ou reconfigure-o para não gravar o Wallpaper Engine por engano.
     * Para muitos utilizadores, este problema é provocado pelo **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** que pode ser desativado nas definições do **Nvidia GeForce Experience**. Para utilizadores com placas gráficas AMD, **AMD ReLive** também pode provocar estes problemas e também faz parte dos controladores de placas gráficas AMD. Experimente verificar isto primeiro se não tiver a certeza do que poderá estar a gravar o seu ambiente de trabalho.
-    * Se não sabe que aplicação esatrá a provocar isto, verifique o seu misturador de áudio do Windows e veja que aplicações tão neste momento a aceder ao seu áudio, pois isso poderá ajudar. Como alternativa, encerre o máximo possível de programas e reduza-os a certod ficheiros .exe da lista de processos do gestor de tarefas do Windows.
-* Se a gravação de áuido em segundo plano for intencional e não conseguir desligá-la, pode criar uma *regra da aplicação* no separador "Desempenho" das definições do Wallpaper Engine. Defina a "Condição" para "Está a reproduzir áudio" e a "Repdodução do wallpaper" para "Continuar execução":
+    * Se não sabe que aplicação estará a provocar isto, verifique o seu misturador de áudio do Windows e veja que aplicações tão neste momento a aceder ao seu áudio, pois isso poderá ajudar. Como alternativa, encerre o máximo possível de programas e reduza-os a certos ficheiros .exe da lista de processos do gestor de tarefas do Windows.
+* Se a gravação de áudio em segundo plano for intencional e não conseguir desligá-la, pode criar uma *regra da aplicação* no separador "Desempenho" das definições do Wallpaper Engine. Defina a "Condição" para "Está a reproduzir áudio" e a "Reprodução do wallpaper" para "Continuar execução":
 
 ![Pode encotnrar as Regras para Aplicações no separadoir "Desempenho" das definições do Wallpaper Engine](./applicationrule.png)
 
