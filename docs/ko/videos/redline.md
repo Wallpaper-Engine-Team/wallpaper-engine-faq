@@ -1,11 +1,11 @@
-# Red Line on screen
+# 화면의 빨간색 줄
 
-The red line comes from your AMD graphics card drivers. Disable the 'demo mode' to remove it. The option may be in different places depending on the version of your graphics card drivers. Look through all AMD graphics card settings, you should find it somewhere. If you are unable to locate it, you can also fix this problem by doing a clean re-installation of your graphics card drivers.
+빨간색 줄의 원인은 AMD 그래픽 카드 드라이버입니다. 제거하려면 '데모 모드'를 비활성화하세요. 이 옵션의 위치는 그래픽 카드 드라이버의 버전에 따라 다를 수 있습니다. AMD 그래픽 카드 설정을 모두 살펴보면 찾을 수 있습니다. 옵션을 찾을 수 없다면, 그래픽 카드 드라이버를 완전히 새로 설치해서 이 문제를 해결할 수도 있습니다.
 
-Download the latest drivers for your graphics card from the AMD website:
+AMD 웹사이트에서 그래픽 카드의 최신 드라이버를 다운로드하세요:
 
-* [AMD Radeon drivers](https://www.amd.com/support)
+* [AMD Radeon 드라이버](https://www.amd.com/support)
 
-Then uninstall your current drivers first, it is very important that you first uninstall them and clear all existing settings if asked. Afterwards, you can install the drivers you have just downloaded. If you are unsure how to properly uninstall your drivers, you can also use a tool like DDU ("Display Driver Uninstaller") to uninstall your drivers in a clean way:
+그런 다음 우선 기존 드라이버를 삭제합니다. 일단 기존 드라이버를 삭제하고, 물어보는 경우 모든 기존 설정을 제거하는 것이 매우 중요합니다. 그 후 방금 다운로드한 드라이버를 설치합니다. 드라이버 삭제 방법을 잘 모르겠으면, DDU("디스플레이 드라이버 제거 프로그램") 같은 도구를 사용해 드라이버를 완전히 삭제할 수도 있습니다:
 
-* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [디스플레이 드라이버 제거 프로그램 다운로드](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
