@@ -1,11 +1,11 @@
-# Красная полоса на экране
+# Red Line on screen
 
-Красная полоса появляется из-за драйверов видеокарты AMD. Для того, чтобы избавиться от нее, отключите режим демо-версии. Эта опция может находится в разных разделах в зависимости от версии ваших драйверов. Пройдитесь по настройкам видеокарты AMD и вы ее найдете в одной из вкладок. Если вы не смогли найти эту опцию в настройках, проблему можно решить с помощью чистой переустановки драйверов видеокартты.
+The red line comes from your AMD graphics card drivers. Disable the 'demo mode' to remove it. The option may be in different places depending on the version of your graphics card drivers. Look through all AMD graphics card settings, you should find it somewhere. If you are unable to locate it, you can also fix this problem by doing a clean re-installation of your graphics card drivers.
 
-Вы можете скачать последнюю версию драйверов для вашей видеокарты на сайте AMD:
+Download the latest drivers for your graphics card from the AMD website:
 
 * [AMD Radeon drivers](https://www.amd.com/support)
 
-После загрузки в первую очередь удалите устаревшие драйвера. Очень важно сначала удалить драйвера и согласиться на сброс настроек, если такой вариант будет предложен. Затем вы можете установить драйвера, которые вы скачали с сайта. Если вы не уверены, как правильно удалить драйвера, вы можете использовать инструменты для удаления, например DDU (Display Driver Uninstaller), которые помогут вам провести чистое удаление:
+Then uninstall your current drivers first, it is very important that you first uninstall them and clear all existing settings if asked. Afterwards, you can install the drivers you have just downloaded. If you are unsure how to properly uninstall your drivers, you can also use a tool like DDU ("Display Driver Uninstaller") to uninstall your drivers in a clean way:
 
-* [Скачать Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
