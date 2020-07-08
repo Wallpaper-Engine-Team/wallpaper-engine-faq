@@ -1,5 +1,5 @@
-# Steam always shows "in-game"
-Wallpaper Engine is only supposed to show on Steam while accessing Workshop features (when the browser or editor is open, this is enforced by Valve / Steam). But if it shows up even after closing all windows, you are either experiencing a known Steam bug, that you can avoid with the fix below, or the window did not close properly (check for ui32.exe in task manager).
+# Steam всегда показывает вас «В игре»
+Программа Wallpaper Engine должна отображаться в Steam только когда вы пользуетесь функциями Мастерской, то есть когда открыты обозреватель или редактор обоев (это требование Valve / Steam). But if it shows up even after closing all windows, you are either experiencing a known Steam bug, that you can avoid with the fix below, or the window did not close properly (check for ui32.exe in task manager).
 
 If you regularly have this problem you can get around this by not launching the program through Steam but directly from the wallpaper_engine installation directory. By default this would be `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe`. If Wallpaper Engine is running already, completely turn it off first and then re-run it from this directory and possibly turn the autostart off and back on in the Wallpaper Engine settings.
 
