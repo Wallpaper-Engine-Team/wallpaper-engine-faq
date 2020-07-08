@@ -1,10 +1,10 @@
 # Скрытие значка Wallpaper Engine в области уведомлений
 
-It is possible to hide the Wallpaper Engine tray icon by manually creating a registry key which tells Wallpaper Engine to hide the tray icon next to the Windows clock.
+Вы можете скрыть значок Wallpaper Engine в области уведомлений рядом с часами, вручную создав раздел реестра, который будет выполнять эту функцию.
 
-::: warning We do not recommend to do this unless you are absolutely sure that the tray icon is annoying you so much that you are willing to accept the downsides of hiding the tray icon. :::
+::: warning Мы не рекомендуем не скрывать значок в области уведомлений за исключением ситуации, а которой он настолько вас раздражает, что вы готовы смириться с негативными последствиями этого решения. :::
 
-Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+После того, как значок будет скрыт, Wallpaper Engine можно будет закрыть единственным образом: через опцию «Завершить процесс» в диспетчере задач Windows. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
 
 If you still want to proceed with hiding the tray icon, this is how you do it:
 
