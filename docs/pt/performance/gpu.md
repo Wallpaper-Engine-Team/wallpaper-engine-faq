@@ -6,7 +6,7 @@ Na maior parte dos casos, o Windows Task Manager não mostra a verdadeira utiliz
 
 ## Descobrir a sua verdadeira carga do GPU
 
-Depois de instalart o GPU-Z, vá ao separador "Sensors" e veja o clock rate do GPU e GPU Load:
+Depois de instalar o GPU-Z, vá ao separador "Sensors" e veja o clock rate do GPU e GPU Load:
 
 ![Utilização real do GPU](./gpuz.png)
 
@@ -19,7 +19,7 @@ Uma placa deve ter clock rates entre, por exemplo, 100 Mhz e 2000 Mhz. Se o task
 Se quiser melhorar o desempenho do GPU:
 
 * Desative ou apague ferramentas de overlay e gravação, incluindo a Geforce Experience.
-* Baixe a definição de game e desative MSAA (não afeta a qualdiade dos wallpapers de cena 2D).
+* Baixe a definição de game e desative MSAA (não afeta a qualidade dos wallpapers de cena 2D).
     * Isto não influenciará o desempenho de vídeos, pois eles têm frame rates e qualidade fixos.
     * A resolução e o frame rate dos wallpapers de vídeo irão controlá-los. Utilize vídeos com FPS mais baixo para reduzir a carga do GPU
-* Ligue os seus monitore ao mesmo GPU ou o Windows terá um mai desempenho enquanto tenta fundi-los.
+* Ligue os seus monitores ao mesmo GPU ou o Windows terá um mau desempenho enquanto tenta fundi-los.
