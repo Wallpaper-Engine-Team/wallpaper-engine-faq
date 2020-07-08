@@ -42,7 +42,7 @@
 
 ## Обновление утерянного проекта
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+Даже если вы удалили проект, вы все еще можете его переписать, однако в случае некоторых типов обоев вы уже не сможете редактировать файл. Обычным образом создайте новые обои и откройте каталог проекта, кликнув на «Редактировать» -> «Открыть в Проводнике». Откройте файл проекта `project.json` в текстовом редакторе. Он будет выглядеть примерно вот так:
 
 ```json
 {
