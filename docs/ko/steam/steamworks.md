@@ -1,13 +1,13 @@
-# Steam 작업물을 이용할 수 없습니다
+# Steamworks is unavailable
 
-Wallpaper Engine과 Steam이 어떤 이유로 소통할 수 없습니다. Steam과 Wallpaper Engine을 차례로 다시 시작하세요. Wallpaper Engine이 있는 계정으로 로그인해야 합니다. Steam이나 Wallpaper Engine을 관리자로 실행 중이면, Wallpaper Engine의 SDK가 작동하지 않을 수 있습니다. 두 프로그램을 관리자로 실행해서는 안 되며, 이는 의도된 것입니다. 그래도 여전히 작동하지 않으면, Steam을 새로 설치하고 프로그램 간 소통을 막는 바이러스 백신을 모두 제거하세요.
+Wallpaper Engine and Steam are unable to communicate for some reason. Restart Steam, then Wallpaper Engine. Make sure it is logged into the account you own Wallpaper Engine on. If you run either Steam or Wallpaper Engine as administrator, the Steamworks SDK in Wallpaper Engine may not work. The solution is to not run either program as admin, which is the intended way. If it still does not work, reinstall Steam and get rid of any antivirus that blocks communication between different programs.
 
-다음 단계를 따르세요:
+Try the following steps:
 
-* Steam과 Wallpaper Engine을 차례로 다시 시작합니다.
-* Wallpaper Engine이 있는 Steam 계정으로 로그인해야 합니다.
-* Steam이나 Wallpaper Engine을 관리자로 실행하면 **안됩니다**.
-* 바이러스 백신에서 Steam 디렉터리를 제외하거나 타사 바이러스 백신 응용 프로그램을 완전히 비활성화합니다.
-* "Steam 유휴 상태" 프로그램을 닫습니다.
-* PC에서 Steam의 존재를 재정의하는 크랙된 Steam 게임을 삭제합니다.
-* Wallpaper Engine과 Steam을 제거하고, Steam 폴더 전체를 삭제합니다. Steam과 Wallpaper Engine을 새로 설치합니다.
+* Restart Steam, then Wallpaper Engine.
+* Make sure you are logged into the Steam account that owns Wallpaper Engine.
+* Do **not** run Steam or Wallpaper Engine as administrator.
+* Exclude the Steam directory from your antivirus or completely disable any third-party antivirus application
+* Close "Steam idling" programs.
+* Delete cracked Steam games that override Steam's presence on the PC.
+* Uninstall Wallpaper Engine and Steam. Delete the entire Steam folder. Reinstall Steam and Wallpaper Engine.
