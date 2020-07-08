@@ -1,17 +1,17 @@
-# Backup Steam Workshop
+# Steamワークショップのバックアップ
 
-When wallpapers are deleted from Steam for any reason, Steam will also delete them from your PC. Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
+なんらかの理由によって壁紙がSteamから削除された場合、SteamはそれをあなたのPCからも削除します。 Wallpaper Engineにはそれを防ぐことはできませんが、心配ならば、壁紙のバックアップを取ることができます。
 
-Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
+それと似た問題で、Steamがランダムにすべてのワークショップファイルを再ダウンロードするという報告が多数あります。何GBものデータを持っている場合には、かなりうっとうしいことになります。 こういうことが頻繁に起きるときは、バックアップを作ってSteamとのつながりを断っておくとそれを防げます。
 
-# Creating a Backup
+# バックアップの作成
 
-The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
+次のガイドは、SteamとWallpaper Engineが`C:\Program Files (x86)\Steam\`にインストールされていることを想定しています。別の場所にインストールされている場合は、その場所をチェックしてください。
 
-1. Locate the folder in which Steam stores your wallpapers, by default it is in `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** is the Steam ID of Wallpaper Engine, Steam uses this directory for all Wallpaper Engine downloads. :::
-2. Copy the folder 431960 to Wallpaper Engine's installation path here: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
-3. **Rename** the folder `431960` into `backup` so that the complete path looks like this: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
-4. The `backup` directory now includes all your previously downloaded wallpapers, each in their own sub-directory (the numbers represent the Steam Workshop ID of the wallpaper)
-5. Restart the wallpaper browser and you should see the backed up wallpapers now. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them
+1. Steamが壁紙を保管しているフォルダの場所を見つけます。デフォルトでは`C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`です。 ::: tip Wallpaper EngineのSteam IDは**431960**です。Steamはこのディレクトリを、すべてのWallpaper Engineのダウンロードに使用します。 :::
+2. 431960フォルダを、次の場所にあるWallpaper Engineのインストールパスにコピーします：`C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
+3. `431960`フォルダを`backup`に**名前変更**します。完全なパスは次のようになります：`C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
+4. `backup`ディレクトリには、これまでにダウンロードした壁紙が、それぞれのサブディレクトリにすべて保存されています（数字は壁紙のSteamワークショップIDです）
+5. 壁紙ブラウザを再起動すると、バックアップされた壁紙が見えるはずです。 重複しているSteamのサブスクライブを解除すれば、自分が持っているコピーだけを使うことができます
 
-::: warning Do **not** manually delete the Steam Workshop folder `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. This will cause your Steam to be confused and re-download all wallpapers. Simply unsubscribe from your wallpapers and let Steam delete the duplicate files itself. :::
+::: warning Steamワークショップのフォルダ `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` を手動で削除**しないでください**。 Steamが混乱し、すべての壁紙を再ダウンロードしてしまいます。 壁紙のサブスクライブを解除するだけにしておけば、Steamが自分で重複ファイルを削除します。 :::
