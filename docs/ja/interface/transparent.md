@@ -3,10 +3,10 @@ tags:
   - invisible
 ---
 
-# Wallpaper Engineのウィンドウが透明になっている
+# Wallpaper Engine window is transparent
 
-Wallpaper Engineのユーザーインターフェースが透明になっている場合、ウィンドウの下部にあるスライダーをうっかり動かし、不透明度を下げた可能性が高いです。 不透明度を元に戻すには、右の方にドラッグしてください。
+If your Wallpaper Engine user interface is see-through, you have likely accidentally used the slider at the bottom of the window to reduce its opacity. Simply drag it to the right to revert the opacity again:
 
-![ユーザーインターフェースの下部にあるスライダーで不透明度を変更する](./transparentinterface.gif)
+![Use the slider at the bottom of the user interface to control the opacity](./transparentinterface.gif)
 
-::: tip このスライダーを使って、Wallpaper Engineウィンドウを動かさずに、設定中やブラウズ中に壁紙を見ることができます。 :::
+::: tip You can use the slider to peek at wallpapers while configuring or browsing them without having to move the Wallpaper Engine window. :::
