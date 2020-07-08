@@ -3,51 +3,47 @@ tags:
   - hardware
 ---
 
-# RGBハードウェアサポート（iCUE & Chroma）
+# RGB hardware support (iCUE & Chroma)
 
-Wallpaper Engineは、[**Razer Chroma**](https://www.razer.com/chroma)と[**Corsair iCUE**](https://www.corsair.com/icue)をサポートしています。また、これにはこれらのエコシステムに統合されている可能性のあるシステムが含まれます。
+Wallpaper Engine supports [**Razer Chroma**](https://www.razer.com/chroma) and [**Corsair iCUE**](https://www.corsair.com/icue), including systems which may integrate into either ecosystem.
 
-## RGBハードウェアを有効あるいは無効にする方法
+## How do I enable / disable RGB hardware
 
-Wallpaper Engine設定の「プラグイン」セクションに、**iCUE & Chroma SDK plugin**があります。 この左側のチェックボックスをマークすることによって、この一般的なRGBプラグインのロードを有効あるいは無効にすることができます。 また、その隣の歯車のマークをクリックすることで、さらにその個別の部分を設定することができます。
+In the "Plugins" section of the Wallpaper Engine settings, you can find the **iCUE & Chroma SDK plugin**. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. You can also click on the cogwheel symbol next to it to further configure individual parts of it.
 
-また、RGBサポートは各壁紙上で切り替えることができます。 プラグインが有効になっている場合、各壁紙のプロパティリストの最上部に、**LED効果を有効にする**オプションがあります。これにより、壁紙ごとのRGBライトをコントロールすることができます。
+Additionally, RGB support can be toggled off on each wallpaper. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
 
-## RGBハードウェアの色が明るすぎる
+## The RGB hardware colors seem too bright
 
-デフォルトでは、RGBカラーは少し強めになっています。 ほとんどの壁紙では、こうすることで見栄えが良くなるのですが、それが好みでない場合は、RGBプラグインの設定にある**LEDカラーをブースト**オプションを無効にすることでオフにできます。
+By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
 
-## RGBハードウェアが動作しない
+## My RGB hardware does not work
 
-Wallpaper Engineは、RGBハードウェアと直接にやり取りすることはできません。すべてのカラー情報は、まずRGBドライバに送られます。 1つ、あるいは複数のハードウェアが動作していない場合、問題は、ハードウェアベンダーのソフトウェアの側にあると考えられます。 ハードウェアが非常に古い場合、ハードウェアベンダーによって完全にサポートされておらず、動作しません。 Wallpaper Engineの側で修正することはできません。
-
-Wallpaper Engineの*プラグイン*セクションが見えない場合、*Visual C++ Redistributable for Visual Studio 2015*がインストールされていないか、破損している可能性が高いです。これは、この機能に必須のものです。 Microsoftのサイトからこのパッケージをダウンロードしてインストールすると、システムの再起動後に問題は解消されます。
-
-* [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
+Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
 
 ### Corsair
 
-**Corsair system memory (RAM) などのハードウェアでは、ソフトウェアコントロールがデフォルトで無効**になっています。これは、iCUEソフトウェア設定で許可しない限り、メモリモジュールがWallpaper Engineに従ってライトアップしないということです。 メモリセクションのiCUEデバイス設定で「完全なソフトウェアコントロールを有効にする」が選択されていることを確認してください。
+Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
 
-![iCUEで完全なソフトウェアコントロールを有効にする](./icue.png)
+![Enable full software control in iCUE](./icue.png)
 
-正しく動作しない、その他のハードウェアパーツについても、このオプションを確認してください。
+Double-check this option for any other hardware parts which are not working properly.
 
-iCUEは*排他モード*で使用されているという点に注意してください。これは、Wallpaper Engineが、ゲームなどの他のiCUE互換ソフトウェアよりも優先的に使用するということです。 ゲームにキーボードをアニメーションさせたい場合は、Wallpaper Engine設定の**パフォーマンス**タブで、**他のアプリケーションがフルスクリーンになった場合**オプションを**停止（メモリ解放）**にセットして、ゲーム中は壁紙を停止させてください。 または、RGBプラグインを無効にしたり、壁紙ごとにRGBオプションを無効にしたりすることもできます。
+Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
 
-Corsair iCUEハードウェアのサポートが必要な場合は、Corsairに直接お問い合わせください。
+For support with Corsair iCUE hardware, please contact Corsair directly:
 
 [help.corsair.com](https://help.corsair.com/)
 
-Corsairのサポートに関して問題が起きた場合、私たちにご連絡いただくこともできます。何か力になれるかどうか確認させていただきます。
+Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
 
 ### Razer
-Wallpaper Engineは、Razer Synapse 3以降のみをサポートしています。 Razer Synapse 1またはRazer Synapse 2をお使いの場合は、これらを完全にアンインストールして、Razer Synapseの最新バージョンにアップグレードしてください。 以前、古いRazer Synapseの名残がシステムに残っていたために問題が起きたことがあります。 Razer Synapse 2以前のバージョンをインストールしていたことがあり、RGBライティングに問題が起きたり、RGBプラグインが有効になっているときにクラッシュしたりする場合は、古いRazer Synapseバージョンのものがシステムに残っているのを見つけて削除する必要があるかもしれません。
+We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
 
-お使いのRazerハードウェアが古く、Razer Synapse 3以降をサポートしていない場合は、残念ながら、そのRGBライティングはWallpaper Engineとは互換性がありません。
+If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
 
-Razerハードウェアのサポートが必要な場合は、Razerに直接お問い合わせください。
+For support with Razer hardware, please contact Razer directly:
 
 [support.razer.com](https://support.razer.com/)
 
-Razerのサポートに関して問題が起きた場合、私たちにご連絡いただくこともできます。何か力になれるかどうか確認させていただきます。
+Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
