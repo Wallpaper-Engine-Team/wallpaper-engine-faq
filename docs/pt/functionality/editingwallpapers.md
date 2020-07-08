@@ -1,8 +1,8 @@
 # Editar wallpapers transferidos
 
-Em geral, o Wallpaper Engine não suporta a edição de wallpapers transferidos. No entanto, normalmente é possível editar wallpapers consoante o seu tipo (pode encontrar o tipo por baixo da imagem de prévisualização à direita) com a ajuda de aplicações de terceiros.
+Em geral, o Wallpaper Engine não suporta a edição de wallpapers transferidos. No entanto, normalmente é possível editar wallpapers consoante o seu tipo (pode encontrar o tipo por baixo da imagem de pré-visualização à direita) com a ajuda de aplicações de terceiros.
 
-Tenha sempre em mente que pode ser necessário ter os direitos do(s) autor(es) original(is) para poder republicar o seu trabalho. Quando em dúvioda, contacte os autores originais antes de o publicar na Steam Workshop.
+Tenha sempre em mente que pode ser necessário ter os direitos do(s) autor(es) original(is) para poder republicar o seu trabalho. Quando em dúvida, contacte os autores originais antes de o publicar na Steam Workshop.
 
 [[toc]]
 
@@ -14,17 +14,17 @@ Clique com o botão direito num wallpaper no separador "instalado" e selecione "
 
 ### Wallpapers de cena
 
-Os wallpapers de cena são embalados num ficheiro .pkg que não é imediatamente editável porque lhe faltam todos os dados relacionados com o projeto. Tentar abrir um ficheiro .pkg esultará no erro "Wallpapers empacotados não podem ser abertos". Uma analogia seria que os ficheiros .jpeg também não incluem dados do projeto do Photoshop - isto fica sempre no sistema do autor original.
+Os wallpapers de cena são embalados num ficheiro .pkg que não é imediatamente editável porque lhe faltam todos os dados relacionados com o projeto. Tentar abrir um ficheiro .pkg resultará no erro "Wallpapers empacotados não podem ser abertos". Uma analogia seria que os ficheiros .jpeg também não incluem dados do projeto do Photoshop - isto fica sempre no sistema do autor original.
 
 #### Unofficial Community Scene Unpacker
 
-No entanto, os membros da comundiade criaram uma ferramenta de desempacotar de wallpapers de cena, o que lhe permite desempacotar ficheiros de Cena e usá-los como ponto de partida para os seuys próprios wallpapers. Para mais informações visite este website:
+No entanto, os membros da comunidade criaram uma ferramenta de desempacotar de wallpapers de cena, o que lhe permite desempacotar ficheiros de Cena e usá-los como ponto de partida para os seus próprios wallpapers. Para mais informações visite este website:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
 Continuará a ser necessário ter um ficheiro project.json válido. Para criar um basta criar um novo wallpaper vazio no editor, fechar o Wallpaper Engine e depois desempacotar o wallpaper transferido e copiar-colar o seu conteúdo no novo diretório do projeto.
 
-Se quiser edfitar um dos seus próprios wallpapers para o quel tenha perdido ficheiros anteriores do projeto, consulte a secção *Atualizar um projeto perdido* mais abaixo para obter mais informações acerca das modificaçõesq ue será necessário fazer ao projet.json, para que possa implementar as atualizações nos seus wallpapers existentes.
+Se quiser editar um dos seus próprios wallpapers para o qual tenha perdido ficheiros anteriores do projeto, consulte a secção *Atualizar um projeto perdido* mais abaixo para obter mais informações acerca das modificações que será necessário fazer ao projet.json, para que possa implementar as atualizações nos seus wallpapers existentes.
 
 ::: aviso Atenção Não oferecemos assistência oficial para esta ferramenta e não garantimos que funcione corretamente. Se tiver algum problema com o unpacker ou deseje fazer perguntas sobre ele, deve contactar os criadores originais. :::
 
@@ -38,7 +38,7 @@ Os wallpapers com base em vídeo são ficheiros de vídeo. Pode procurar o fiche
 
 ### Wallpapers de aplicações
 
-Em geral, os wallpapers de aplicações não podem ser edeitados. Os wallpapers de aplicações são normalmente programas compilados, o que significa que não tem acesso ao código de fonte. Se quiser mesmo modificar wallpapers com base em aplicações, deve contactar o autor do wallpaper e ver se ele está disposto a ajudar.
+Em geral, os wallpapers de aplicações não podem ser editados. Os wallpapers de aplicações são normalmente programas compilados, o que significa que não tem acesso ao código de fonte. Se quiser mesmo modificar wallpapers com base em aplicações, deve contactar o autor do wallpaper e ver se ele está disposto a ajudar.
 
 ## Atualizar um projeto perdido
 
