@@ -1,24 +1,24 @@
-# 특정 게임 또는 응용 프로그램에서의 성능 문제 / 낮은 FPS
+# Performance issues / low FPS with certain games or applications
 
-기본적으로 Wallpaper Engine는 게임 중에는 저절로 일시중지됩니다. Wallpaper Engine 설정의 **성능** 탭에서 이 행동을 구성할 수 있습니다.
+By default, Wallpaper Engine pauses itself while you are in-game. You can configure this behavior in the **Performance** tab of the Wallpaper Engine settings.
 
-개별 게임 또는 응용 프로그램에서 성능 문제가 발생한다면, 이 행동을 더 조정할 수 있습니다. 보통 성능 문제는 시스템에서 RAM 또는 비디오 RAM(그래픽 카드의 메모리)이 부족하다는 의미입니다. 게임 중 Wallpaper Engine 설정의 **성능** 탭에서 **타 응용 프로그램 전체 화면** 옵션을 **중지 (여유 메모리 확보)**로 변경하여 Wallpaper Engine이 메모리를 늘리도록 구성할 수 있습니다.
+If you are having performance issues with individual games or applications, you can further tweak this behavior. Usually performance issues mean that your system is running out of RAM or Video RAM (the memory on your graphics card). You can configure Wallpaper Engine to free up any memory when in-game by changing the **Other applications fullscreen** option to **Stop (free memory)** in the **Performance** tab of the Wallpaper Engine settings.
 
-## 응용 프로그램 규칙
+## Application Rule
 
-특정 게임이나 응용 프로그램에서만 문제가 발생하면, **응용 프로그램 규칙**을 생성해서 문제를 겪는 소프트웨어에만 이것을 구성할 수도 있습니다:
+If you only have issues with a particular game or software, you can also configure this just for the sofware that you are having problems with by creating an **Application Rule**:
 
-1. Wallpaper Engine 설정에서 **성능** 탭을 엽니다
-2. **응용 프로그램 규칙** 옆의 **편집** 버튼을 클릭합니다
-3. 팝업창이 뜨면 **새 규칙 만들기**를 클릭합니다
-4. 다음의 설정으로 새 규칙을 만듭니다:
-    * **응용프로그램 이름:**"game.exe" *(이것을 게임의 실제 .exe 파일로 교체)*
-    * **조건:** "실행 상태"
-    * **배경화면 재생:** "중지 (여유 메모리 확보)"
-5. **생성**을 클릭하여 확인합니다
+1. Open the **Performance** tab in the Wallpaper Engine settings
+2. Click on the **Edit** button next to **Application rules**
+3. In the pop-up that appears, click on **Create new rule**
+4. Create a new rule with the following settings:
+    * **Application name:** "game.exe" *(replace this with the actual .exe file of your game)*
+    * **Condition:** "Is running"
+    * **Wallpaper playback:** "Stop (free memory)"
+5. Confirm by clicking on **Create**
 
-구성한 *.exe*를 실행하면, Wallpaper Engine이 메모리의 모든 배경화면을 완전히 제거합니다.
+Wallpaper Engine will now completely remove all wallpapers from memory when the *.exe* you configured is launched.
 
-## 화면 기록 도구 충돌 또는 오버레이
+## Conflicts with screen-recording tools or overlays
 
-게임 스트리밍, 게임 기록 또는 오버레이 소프트웨어를 사용할 경우, 실수로 배경에서 Wallpaper Engine을 기록하지 않게 해야 합니다. 또한 그래픽 카드 드라이버에서 게임 스트리밍 기능을 사용하는 경우에도 해당됩니다. (예: Nvidia ShadowPlay, Nvidia Share 또는 AMD ReLive)
+If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
