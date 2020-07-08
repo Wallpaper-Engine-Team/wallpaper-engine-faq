@@ -46,7 +46,7 @@
 
 ```json
 {
-    "description" : "Cool description",
+    "description" : "Классное описание",
     "file" : "scene.json",
     "general" : 
     {
@@ -69,21 +69,21 @@
 }
 ```
 
-Add this line at the top right after `{`:
+Добавьте наверх такую строку, разместив ее прямо после знака `{`:
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+Файл должен выглядеть вот так:
 
 ```json{2}
 {
     "workshopid" : "12345678",
-    "description" : "Cool description",
+    "description" : "Классное описание",
     "file" : "scene.json",
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**Замените номер 12345678 идентификационным номером обоев, которые вы опубликовали! You can find this ID in the URL of your existing upload:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
