@@ -1,18 +1,18 @@
-# Wallpaper Engine 문제 해결 및 FAQ
-Wallpaper Engine 관련 기술적 문제나 질문이 있다면, 여기서 답을 찾을 수 있습니다. 저희가 받는 질문과 문제의 95%가 동일하므로, 이곳에서 답을 찾을 가능성이 높습니다.
+# Wallpaper Engine Troubleshooting Guide & FAQ
+If you are having a technical problem or just a question about Wallpaper Engine, you will likely find an answer here. 95% of questions and problems we get asked are the same so it is likely that you will find your answer here.
 
-**오른쪽 상단의 검색 바를 사용**하거나 왼쪽에 있는 모든 문서 목록을 살펴보세요. 항목이 잘 보이도록 분류했습니다. 또한 하단에 가장 많이 보는 도움 문서 목록이 있습니다. 해당 문제가 있는지 확인하세요.
+**It's best if you use the search bar in the upper right corner** or simply look on the list of all articles on the left - we have tried to categorize them sensibly. We have also listed the most frequently accessed help articles below, check if your problem is in there.
 
-::: tip 오른쪽 상단의 검색 바에 키워드를 입력하세요. 예를 들어 배경화면이 검은색으로 표시되면, "검은색"을 검색해 봅니다. :::
+::: tip Use the search bar in the upper right corner with single keywords. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black". :::
 
-## 많이 보는 지원 문서
+## Most popular support articles
 
-목록에서 문제를 설명한 항목이 있는지 살펴보거나, 오른쪽 상단의 검색 창을 이용하거나, 왼쪽 목록에서 더 많은 문서를 확인해 보세요:
+Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
-| **상위 문서**                                                                                              |
-| ------------------------------------------------------------------------------------------------------ |
-| 1. [Steam 다운로드 문제](steam/download.html)                                                                |
-| 2. [검은색 화면 / 비디오가 재생되지 않습니다](noshow/notplaying.html)                                                   |
-| 3. [비디오 색상이 잘못되었습니다 / 너무 밝거나 너무 어둡습니다 / 확대되었습니다 / 픽셀화되었습니다 / 비디오 주변에 테두리가 있습니다](videos/artifacts.html) |
-| 4. [Wallpaper Engine 작동 중단](crash/application)                                                         |
-| 5. [배경화면 GIF / 비디오 파일로 내보내기](general/export)                                                           |
+| **Top Articles**                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------- |
+| 1. [Steam Download Issues](steam/download.html)                                                                       |
+| 2. [Black Screen / Videos not Playing](noshow/notplaying.html)                                                        |
+| 3. [Video colors wrong / too bright or too dark / zoomed-in / pixelated / border around video](videos/artifacts.html) |
+| 4. [Wallpaper Engine crashing](crash/application)                                                                     |
+| 5. [Exporting wallpapers as GIF / video files](general/export)                                                        |
