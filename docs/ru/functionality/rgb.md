@@ -15,11 +15,11 @@ Wallpaper Engine поддерживает [**Razer Chroma**](https://www.razer.c
 
 ## RGB-подсветка слишком яркая
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+Wallpaper Engine по умолчанию немного усиливает цвета RGB-подсветки. Благодаря этому на большинстве обоев подсветка выглядит субъективно лучше, но если вам не нравится этот эффект, вы можете отключить его, выключив опцию **«Улучшить цвета LED»** в настройках плагина RGB-подсветки.
 
 ## RGB-подсветка не работает
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engine не имеет возможности напрямую взаимодействовать с аппаратным обеспечением с RGB-подсветкой: вся информация по цветам поступает на драйвера, обеспечивающие RGB-подсветку. Если один или несколько устройств с RGB-подсветкой не работают, причину проблемы необходимо искать в работе программного обеспечения устройств. Некоторые очень старые устройства не поддерживаются полностью производителями аппаратного обеспечения и не будут работать. Keep in mind that this is nothing we can fix on our end.
 
 If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
 
