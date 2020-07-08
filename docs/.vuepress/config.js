@@ -1,4 +1,5 @@
 const en = require('../../app_strings/en.json');
+const zh = require('../../app_strings/zh.json');
 
 module.exports = {
 	title: 'Wallpaper Engine - Troubleshooting & FAQ',
@@ -22,6 +23,16 @@ module.exports = {
 				ariaLabel: en.selectText,
 				sidebar: {
 					'/': getTopLevelSidebar('/en/', en.sidebar_windows, en.sidebar_crashes, en.sidebar_videos, en.sidebar_analysis, en.sidebar_audio, en.sidebar_performance, en.sidebar_nowshow, en.sidebar_browser, en.sidebar_downloads, en.sidebar_general),
+				}
+			},
+			'/zh/': {
+				contactUs: zh.contactUs,
+				searchPlaceholder: zh.searchPlaceholder,
+				selectText: zh.selectText,
+				label: zh.language_name,
+				ariaLabel: zh.selectText,
+				sidebar: {
+					'/': getTopLevelSidebar('/zh/', zh.sidebar_windows, zh.sidebar_crashes, zh.sidebar_videos, zh.sidebar_analysis, zh.sidebar_audio, zh.sidebar_performance, zh.sidebar_nowshow, zh.sidebar_browser, zh.sidebar_downloads, zh.sidebar_general),
 				}
 			}
 		}
