@@ -1,27 +1,27 @@
-# Гибернация / Неработающая экранная заставка
+# Hibernation / Screensavers do not work
 
-Windows никогда не входит в режим гибернации при наличие активных аудиопотоков. Самый простой решения этой проблемы — отключение вывода аудио во вкладке «Общее» в настройках Wallpaper Engine. В результате программа перестанет мешать Windows войти в режим гибернации. Если вы хотите сохранить вывод аудио, вы можете настроить систему по инструкции ниже.
+Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
 
-## Измените параметры электропитания Windows
+## Change the Windows power settings
 
-Windows никогда не входит в режим гибернации при наличие активных аудиопотоков. Самый простой решения этой проблемы — отключение вывода аудио во вкладке «Общее» в настройках Wallpaper Engine. Кроме этого можно перенастроить Windows, разрешив вход в спящий режим при воспроизведении звука:
+Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
 
-1. Зайдите в раздел «Питание и спящий режим» в настройках Windows. Для этого вбейте название раздела в поиск Windows.
-2. Кликните на опцию «Дополнительные параметры питания»
-3. Кликните на опцию «Настройка схемы электропитания» рядом с выбранной на компьютере схемой
-4. Кликните на опцию «Изменить дополнительные параметры питания»
-5. Прокрутите окошко вниз и откройте раздел «Параметры мультимедиа»
-6. Кликните на опцию «При общем доступе к мультимедиа» и выберите в выпадающем списке вариант «Разрешить компьютеру переходить в спящий режим» (гибернацию)
+1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
+2. Click on "Additional power settings"
+3. Click on "Change plan settings" next to the plan that is selected
+4. Click on "Change advanced power settings"
+5. Scroll down and expand "Multimedia settings"
+6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
 
-![Включение настройки «Разрешить компьютеру переходить в спящий режим»](./power.gif)
+![Enable "Allow the computer to sleep"](./power.gif)
 
-## Проблемы с гибернацией при использовании обоев вида «Web»
+## Hibernation issues with "Web" type wallpapers
 
-Для работы Web обоев используется браузер, очень похожий на Google Chrome ("CEF"), который не дает системе войти в режим гибернации. Пока эта ошибка не будет исправлена в самом браузере, вы можете обойти ее, введя несколько команд в командную строку.
+"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
 
-1. Вбейте «cmd.exe» в поиск Windows, кликните правой кнопкой мыши по иконке программы и выберите вариант «Запустить от имени администратора» (последний пункт очень важен: при иных настройках дальнейшие шаги не помогут!).
-2. Используйте команду `powercfg /requests`, чтобы увидеть список процессов, которые не дают системе войти в режим гибернации (заодно удостоверьтесь, что проблема не связана с посторонними программами).
-3. Используйте следующие три команды, чтобы разрешить системе вход в спящий режим при работе Wallpaper Engine:
+1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
+2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
+3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
 
 ```
 powercfg /requestsoverride PROCESS webwallpaper32.exe AWAYMODE DISPLAY SYSTEM
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-В дополнение к этому вы можете зайти в настройки Wallpaper Engine, открыть вкладку **«Производительность»** и выбрать в выпадающем списке опции **«Монитор в спящем режиме»** вариант *«Остановить (освободить память)»*, а затем отключить монитор. Эта настройка останавливает воспроизведение файлов при выключенном мониторе, когда вы не пользуетесь компьютером.
+Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
