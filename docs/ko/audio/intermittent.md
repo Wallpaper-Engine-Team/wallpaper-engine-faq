@@ -1,18 +1,18 @@
-# 사운드 / 오디오가 간헐적으로 켜지고 꺼집니다
+# Sound / audio turns on and off intermittently
 
-Windows는 오디오 녹음과 오디오 재생을 구분하지 않습니다. 따라서 사실 다른 프로그램이 컴퓨터 오디오를 녹음하는데 사운드를 생성한다고 Wallpaper Engine에 알려줍니다.
+Windows does not differentiate between recording and playing audio, therefore it notifies Wallpaper Engine that another program is producing sound while it is actually recording your computer audio.
 
-Wallpaper Engine 설정의 "성능" 탭을 확인하세요. *"타 응용 프로그램 오디오 재생"* 옵션이 *"음소거"*로 설정되어 있는데 Wallpaper Engine의 사운드가 계속 저절로 꺼졌다 켜지면, 녹화 프로그램이 배경의 화면과 사운드를 녹화 중일 수도 있습니다.
+Check the "Performance" tab of the Wallpaper Engine settings. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
 
-이 문제를 해결하려면 다음 세 가지 방법을 사용해 보세요:
+To solve this do any of these three things:
 
-* 바탕화면에서 녹화 프로그램을 끄거나 실수로 Wallpaper Engine을 녹화하지 않도록 다시 구성합니다.
-    * 여러 사용자가 **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay**로 인해 이 문제를 겪습니다. 이것은 **Nvidia GeForce Experience** 설정에서 끌 수 있습니다. AMD 그래픽 카드 사용자의 경우 **AMD ReLive**가 해당 문제를 일으킬 수 있으며, 이것도 AMD 그래픽 카드 드라이버의 일부입니다. 데스크톱을 녹화하는 것이 무엇인지 확실하지 않으면 우선 이걸 확인해 보세요.
-    * 어느 응용 프로그램이 이 문제를 일으키는지 알 수 없으면, Windows 오디오 믹서를 확인하고 현재 오디오에 접근하고 있는 응용 프로그램을 확인합니다. 이것은 문제 해결에 도움이 됩니다. 또는 최대한 많은 프로그램을 꺼서 Windows 작업 관리자 프로세스 목록에서 .exe 파일의 범위를 좁힙니다.
-* 배경 오디오 녹음을 의도하였거나 끄는 방법을 찾을 수 없다면, Wallpaper Engine 설정의 "성능" 탭에서 *응용 프로그램 규칙*을 설정하세요. "조건"을 "오디오 재생 상태"로 설정하고, "배경화면 재생"을 "계속 실행"으로 설정합니다.
+* Turn off the recording program on your desktop or reconfigure it to not record Wallpaper Engine by mistake.
+    * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
+    * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
+* If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
 
-![응용 프로그램 규칙은 Wallpaper Engine 설정의 "성능"에 있습니다.](./applicationrule.png)
+![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
 
-일부 .exe를 작업 관리자에서 찾을 수 있는 .exe 파일로 대체하여 문제가 되는 .exe를 찾을 때까지 범위를 좁힙니다.
+Replace some.exe with .exe files you can find in the task manager until you have narrowed it down to the responsible .exe.
 
-* 마지막으로 '타 응용 프로그램 오디오 재생'을 '계속 실행'으로 변경할 수도 있습니다. 그러나 이렇게 하면 음악을 듣거나 전체화면이 아닌 상태로 비디오를 시청할 때 Wallpaper Engine이 배경화면에서 오디오 출력을 자동으로 음소거할 수 없습니다.
+* Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
