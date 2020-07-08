@@ -45,10 +45,6 @@ This is a crash in the Windows Media Foundation, it can be caused by broken grap
 
 [Click here](/noshow/notplaying.html)
 
-### AudioSes.dll
-
-This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
-
 ### atiumdag.dll / atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/support)
