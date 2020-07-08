@@ -8,9 +8,9 @@ tags:
   - connection
 ---
 
-# Steam Wallpaper Download Issues
+# Проблемы с загрузками обоев из Steam
 
-Keep in mind that **all downloads are performed by Steam**. Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+Пожалуйста, учитывайте, что **за все загрузки отвечает Steam**. Wallpaper Engine просто показывает статус загрузки Steam. Все проблемы с загрузкой вызваны ошибками в работе Steam и не связаны с Wallpaper Engine напрямую. Это руководство содержит список самых распространенных проблем с загрузкой. Во многих случаях первопричиной проблем являются чрезмерно усердствующие антивирусы или заблокированные сетевые порты.
 
 If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
 
