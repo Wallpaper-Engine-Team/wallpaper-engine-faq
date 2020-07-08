@@ -16,10 +16,10 @@ A Steam Workshop permite uma certa quantidade de conteúdo adulto, tal como nude
 
 ![Anule a seleção das classificações etárias "Adultos" and "Questionável" na barra lateral de filtros](./ageratings.gif)
 
-A maior parte do conteúdo está tagado corretamente, permitindo excluir a grande maioria do conteúdo para adultos. Se mesmoa ssim deparar com conteúdo para adultos que tenha sido classificado "Para todos", utilize a funcionalidade de denúncia da aplicação. Depois de ser analizado, o conteúdo poderá ser reclassificado ou banido.
+A maior parte do conteúdo está tagado corretamente, permitindo excluir a grande maioria do conteúdo para adultos. Se mesmo assim deparar com conteúdo para adultos que tenha sido classificado "Para todos", utilize a funcionalidade de denúncia da aplicação. Depois de ser analisado, o conteúdo poderá ser reclassificado ou banido.
 
 ## Denunciar conteúdo que infringe as regras
 
-Nós e os adminstradores/moderadores do Steam removemos diariamente wallpapers que infrigem as regras. Para nos ajudar a encontrá-los, denuncie as candidaturas na Oficina que infrigem as orientações.
+Nós e os administradores/moderadores do Steam removemos diariamente wallpapers que infringem as regras. Para nos ajudar a encontrá-los, denuncie as candidaturas na Oficina que infringem as orientações.
 
 A Workshop permite que os utilizadores publicitem trabalhos sem que nós possamos verificá-los antes de ficarem visíveis. É assim que a Steam Workshop funciona e não é algo que nós possamos mudar. Só podemos remover candidaturas depois de terem sido enviadas. Se isto for um problema para si, certifique-se de que ativa o tag *Aprovado* nas definições dos filtros, pois estes são wallpapers escolhidos e verificados manualmente. Certifique-se de que lê as secções acima acerca de como configurar os seus filtros, de forma a poder simplesmente remover certos tipos de conteúdo que não deseja ver.
