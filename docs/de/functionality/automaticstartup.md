@@ -6,7 +6,7 @@ tags:
 
 # Automatic start-up at boot
 
-You can make Wallpaper Engine launch when your computer starts by going to the Wallpaper Engine settings and navigate to the "General" tab. At the top, you can enable the automatic startup option.
+You can make Wallpaper Engine launch when your computer starts by going to the Wallpaper Engine settings and navigating to the "General" tab. At the top, you can enable the automatic startup option which will launch the application quietly in the background whenever your system boots up.
 
 ## What is the difference between "high-priority" and the "normal" start-up option?
 
@@ -25,3 +25,11 @@ If neither the high-priority or normal-priority option work for you, check the a
 Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
 
 If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
+
+## Wallpaper Engine starts with Windows but (some) wallpapers are not shown
+
+ Check if the Wallpaper Engine icon is visible in the Windows tray next to the clock after you start your computer. If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
+
+ ## Wallpaper Engine assigns wrong wallpapers at system start-up
+
+ This is the same problem as in the previous section, if you have multiple monitors and the wallpapers are being assigned to the wrong monitor at start-up, try changing the *Monitor identification* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*.
