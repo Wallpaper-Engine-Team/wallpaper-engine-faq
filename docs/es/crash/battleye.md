@@ -7,7 +7,7 @@ tags:
 ---
 
 # BattlEye anti-trampas cierra Wallpaper Engine
-Si Wallpaper Engine se cierra de repente cuando empiezas a jugar a ciertos juegos, es muy probable que ocurra debido a BattlEye: un sistema antitrampas que usan muchos juegos multijugador. Algunos de ellos son:
+BattlEye no dejará de cerrar Wallpaper Engine, a pesar de que no interactúa con los juegos ni con ningún otro programa de su equipo. BattlEye cierra Wallpaper Engine (y otros programas) por error en algunos equipos, por lo que no es un error de Wallpaper Engine.
 
 * Fortnite
 * Playerunknown's Battleground (PUBG)
