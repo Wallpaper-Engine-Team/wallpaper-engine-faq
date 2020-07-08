@@ -1,11 +1,11 @@
-# Línea roja en la pantalla
+# Red Line on screen
 
-Los controladores de la tarjeta gráfica AMD causan la línea roja. Deshabilita el «modo demostración» para solucionar el problema. La opción puede ser distinta dependiendo de la versión de los controladores de la tarjeta gráfica. Comprueba toda la configuración de la tarjeta gráfica AMD y la encontrarás. Si no consigues localizarla, vuelve a instalar los controladores de la tarjeta para solucionar el problema.
+The red line comes from your AMD graphics card drivers. Disable the 'demo mode' to remove it. The option may be in different places depending on the version of your graphics card drivers. Look through all AMD graphics card settings, you should find it somewhere. If you are unable to locate it, you can also fix this problem by doing a clean re-installation of your graphics card drivers.
 
-Descarga los controladores más recientes para la tarjeta gráfica desde la página web de AMD:
+Download the latest drivers for your graphics card from the AMD website:
 
-* [Controladores AMD Radeon.](https://www.amd.com/es/support)
+* [AMD Radeon drivers](https://www.amd.com/support)
 
-Desinstala los controladores que tienes ya instalados; esto es muy importante y tienes que borrar la configuración existente si te preguntan durante la desinstalación. A continuación, instala los controladores que has descargado. Si no sabes cómo desinstalarlos, prueba a usar una herramienta como DDU («Display Driver Uninstaller») para desinstalarlos por completo:
+Then uninstall your current drivers first, it is very important that you first uninstall them and clear all existing settings if asked. Afterwards, you can install the drivers you have just downloaded. If you are unsure how to properly uninstall your drivers, you can also use a tool like DDU ("Display Driver Uninstaller") to uninstall your drivers in a clean way:
 
-* [Descargar Display Driver Uninstaller.](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
