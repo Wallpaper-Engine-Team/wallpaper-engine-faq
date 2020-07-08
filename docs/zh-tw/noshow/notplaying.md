@@ -8,7 +8,7 @@
 
 # 視訊螢幕呈現黑色/無法正常播放
 
-*視訊*類型的桌布呈現黑色或出現其他問題，*必定*是因為顯示卡驅動程式或視訊轉碼器故障。 請完全按照以下步驟嘗試解決。 如果由上至下完全遵循本指南的步驟，即可解決該問題：
+*視訊*類型的桌布呈現黑色或出現其他問題，*必定*是因為顯示卡驅動程式或視訊轉碼器故障。 請完全按照以下步驟嘗試解決。 如果由上至下完全遵循本指南的步驟，即可解決該問題： 請完全按照以下步驟嘗試解決。 如果由上至下完全遵循本指南的步驟，即可解決該問題：
 
 ::: warning 請注意 本主題涉及 Wallpaper Engine **桌布**呈現黑色或無法正常運作的問題。 如果 **Wallpaper Engine 介面變成黑色**，您必須參看此篇：[Wallpaper Engine 使用者介面呈現黑色](/interface/broken.html#wallpaper-engine-interface-is-black)。 :::
 
@@ -22,14 +22,14 @@
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. 完全解除安裝目前所有的顯示卡驅動程式，若出現系統提示也應刪除所有現有設定。 Nvidia 驅動程式中有個核取方塊是「執行全新安裝」。
+2. 完全解除安裝目前所有的顯示卡驅動程式，若出現系統提示也應刪除所有現有設定。 完全解除安裝目前所有的顯示卡驅動程式，若出現系統提示也應刪除所有現有設定。 Nvidia 驅動程式中有個核取方塊是「執行全新安裝」。
 
 如果您還不確定該如何執行，可以使用 [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)。
 
 3. 安裝您在步驟 1 下載的驅動程式。
 4. 重新啟動電腦，確認是否可正常運作。
 
-::: tip 請務必執行全新安裝：您必須完全刪除目前的顯示卡驅動程式與驅動程式設定，才能安裝新的驅動程式，否則將無法正常運作。 :::
+::: tip 請務必執行全新安裝：您必須完全刪除目前的顯示卡驅動程式與驅動程式設定，才能安裝新的驅動程式，否則將無法正常運作。 ::: :::
 
 ## Codec Tweak Tool (轉碼器調整工具)
 
