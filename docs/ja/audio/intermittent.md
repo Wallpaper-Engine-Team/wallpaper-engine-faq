@@ -1,18 +1,18 @@
-# サウンドやオーディオが断続的にオンオフされる
+# Sound / audio turns on and off intermittently
 
-Windows はオーディオの録音と再生を区別しません。そのため、実際には Wallpaper Engine がお使いのコンピューターオーディオを録音しているにもかかわらず、Wallpaper Engine に他のプログラムが音を出していると通知します。
+Windows does not differentiate between recording and playing audio, therefore it notifies Wallpaper Engine that another program is producing sound while it is actually recording your computer audio.
 
-Wallpaper Engine の設定で「パフォーマンス」タブをチェックしてください。 *「他のアプリケーションがオーディオ再生中」*のオプションが*「ミュート」*にセットされていて、Wallpaper Engine のサウンドがオンオフを繰り返している場合、バックグラウンドで画面とサウンドを記録する録画プログラムがある可能性が高いです。
+Check the "Performance" tab of the Wallpaper Engine settings. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
 
-これを解決するには、次の3つの方法のうち1つを使うことができます。
+To solve this do any of these three things:
 
-* コンピューターの録音プログラムをオフにするか、間違って Wallpaper Engine を録音しないように設定し直す。
-    * 多くのユーザーが、**Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** によってこの問題を経験しています。これは **Nvidia GeForce Experience** でオフにすることができます。 AMDグラフィックスカードユーザーの場合は、**AMD ReLive** が同様にこの問題を引き起こす可能性があります。これもAMDグラフィックスカードドライバーの一部です。 コンピューター内で何が録音しているかよくわからない場合は、まずこのチェックをお試しください。
-    * どのアプリケーションがこれを引き起こしているかわからない場合は、Windows のオーディオミキサーをチェックし、現在、どのアプリケーションがオーディオにアクセスしているか見てみると役に立つことがあります。 あるいはできるだけ多くのプログラムを終了させて、Windows タスクマネージャのプロセスリストから .exe ファイルを絞り込んでみてください。
-* 意図的にバックグラウンドで録音している場合や、オフにする方法がわからない場合は、Wallpaper Engine の設定の「パフォーマンス」タブで *アプリケーションルール* を設定することができます。 「状態」を「オーディオ再生されている」に、「壁紙再生」を「再生を続ける」に設定します。
+* Turn off the recording program on your desktop or reconfigure it to not record Wallpaper Engine by mistake.
+    * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
+    * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
+* If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
 
-![アプリケーションルールは、Wallpaper Engine 設定の "パフォーマンス" タブにあります](./applicationrule.png)
+![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
 
-原因となっている .exe ファイルが絞り込めるまで、タスクマネージャで見つかる .exe ファイルで .exe を置き換えます。
+Replace some.exe with .exe files you can find in the task manager until you have narrowed it down to the responsible .exe.
 
-* 最後に、「オーディオを再生する他のアプリケーション」オプションを「再生を続ける」に変更することもできます。 しかし、これを行うと、全画面表示になっていない状態で音楽を聴いたり動画を見たりするときに、Wallpaper Engine が壁紙からのオーディオ出力を自動的にミュートしないことになります。
+* Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
