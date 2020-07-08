@@ -20,14 +20,14 @@ tags:
 Steam еще не закончил загружать или проверять файлы. Если процент загрузки стоит на месте в течение длительного времени, попробуйте следующее:
 
 * Очистите кэша загрузки Steam в меню настроек:
-  * [Очистка кэша загрузки](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+  * [Очистка кэша загрузки Steam](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* Затем проверьте целостность всех файлов Wallpaper Engine в Steam:
+  * [Проверка целостности файлов Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Если на месте стоят все загрузки: **выключите Steam**, а затем **удалите содержимое** этого каталога:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * Если у вас установлен антивирус, удостоверьтесь, что конкретно этот каталог занесен в список исключений
+    * **Обратите внимание:** `C:\Program Files (x86)\Steam` является путем Steam по умолчанию, поэтому если вы установили программу в другое место, каталог будет там.
+* Перезагрузите Steam. Не запускайте никаких игр. Check in the Steam download tab for progress and resume any paused downloads.
 
 ::: details Click here to see more possible solutions if the steps above did not fix your download problems
 * Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
