@@ -4,7 +4,7 @@
 
 1. 完全關閉 Wallpaper Engine (在通知區域按一下滑鼠右鍵 -> [結束])
 
-2. ::: tip 如果您因故找不到「visibility.json」檔案，隨時重新安裝 Wallpaper Engine 即可。 如此也將還原所有預設桌布，但您需要重新下載所有桌布，按照上述步驟操作則不需要重新下載。 ::: 檔案的預設路徑為：
+2. 前往 Wallpaper Engine 目錄，刪除名為「visibility.json」的檔案， 檔案的預設路徑為：
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
@@ -12,4 +12,4 @@
 
 3. 刪除該檔案後，再次啟動 Wallpaper Engine，即可還原所有預設桌布。
 
-::: tip 如果您因故找不到「visibility.json」檔案，隨時重新安裝 Wallpaper Engine 即可。 如此也將還原所有預設桌布，但您需要重新下載所有桌布，按照上述步驟操作則不需要重新下載。 ::: 如此也將還原所有預設桌布，但您需要重新下載所有桌布，按照上述步驟操作則不需要重新下載。 :::
+::: tip 如果您因故找不到「visibility.json」檔案，隨時重新安裝 Wallpaper Engine 即可。 如此也將還原所有預設桌布，但您需要重新下載所有桌布，按照上述步驟操作則不需要重新下載。 :::
