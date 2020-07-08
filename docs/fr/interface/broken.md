@@ -21,7 +21,7 @@ Il est parfois nécessaire de vérifier les fichiers de Wallpaper Engine ou mêm
 
 * [Steam : vérifier l'intégrité des fichiers d'un jeu](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-Si la vérification Steam ne résout pas ce problème non plus, essayez de réinstaller Wallpaper Engine avec Steam. Si votre antivirus est devenu fou, il a peut-être entièrement bloqué Wallpaper Engine. Dans ce cas-ci, assurez-vous de désinstaller l'antivirus en premier, puis installez Wallpaper Engine dans un répertoire différent. Vous pouvez même choisir de créer une nouvelle bibliothèque de jeux Steam.
+Fermez complètement Wallpaper Engine (clic droit sur l'icône dans la barre des tâches "Quitter"). Ouvrez Steam, faites un clic droit sur Wallpaper Engine, sélectionnez "Propriétés" puis désactivez l'option "Activer l'overlay de Steam". Après avoir désactivé cette option, redémarrez Wallpaper Engine avec Steam.
 
 ## L'interface de Wallpaper Engine est parasitée par des artefacts verts ou des lignes blanches
 
