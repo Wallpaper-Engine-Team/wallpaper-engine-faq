@@ -1,25 +1,25 @@
-# Завышенная оценка загрузки графического процессора
+# High GPU usage misconception
 
-В большинстве случаев диспетчер задач Windows не показывает реальную загрузку графического процессора, и это часто приводит к путанице. При подсчете загрузки графического процессора не учитываются *режим работы* и тактовая частота видеокарты, что делает этот метод чрезвычайно неточным и обычно приводит к сильно завышенным оценкам. Чтобы узнать реальную загрузку графического процессора, используйте инструменты наподобии GPU-Z:
+The Windows Task Manager does not show the real GPU usage in most cases which is the cause for a lot of confusion. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
 
-* [Скачать GPU-Z](https://www.techpowerup.com/gpuz/)
+* [Download GPU-Z](https://www.techpowerup.com/gpuz/)
 
-## Оцениваем реальную загрузку графического процессора
+## Finding out your actual GPU load
 
-После установки GPU-Z, откройте вкладку «Датчики», чтобы узнать тактовую частоту и загрузку графического процессора:
+Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
 
-![Реальная загрузка графического процессора](./gpuz.png)
+![Real GPU usage](./gpuz.png)
 
-Обратите внимание, что *загрузка процессора* на снимке экрана составляет 24%. Однако наверху можно увидеть, что видеокарта работает в режиме низкой мощности — 202.5 МГц. Это — наилучший вариант, несмотря на то что загрузка оценивается в 24%. Взяв за основу рассчета максимальную тактовую частоту видеокарты в 1823 МГц, вы увидите, что реальная загрузка составляет всего **2.6%** *(24% * 202.5 МГц / 1823 МГц)*.
+Notice *GPU load* in the screenshot is at 24%. However, at the top you can see that the graphics card is in its low power state at 202.5 MHz. This is the best case scenario, although the 'usage' is displayed as 24%. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
 
-Приведем пример: тактовая частота видеокарты может составлять от 100 МГц до 2000 МГц. Если диспетчер задач показывает, что загрузка составляет 50%, ** имеет большое значение это 50% от 100 МГц или 50% от 2000 МГц**.
+A card could have clock rates between 100 Mhz and 2000 Mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 100 MHz or 50% of 2000 MHz**.
 
-::: Подсказка Подведем итоги: когда вы оцениваете загрузку графического процессора, важно помнить о тактовой частоте. 50% от 100 МГц — лучше, чем 5% от 2000 МГц. :::
+::: tip To summarize: It's important to keep the GPU clock rate in mind when looking at the GPU load. 50% of 100 MHz is better than 5% of 2000 MHz. :::
 
-Если вы хотите увеличить производительность графического процессора:
+If you want to improve GPU performance:
 
-* Отключите или удалите программы записи и программы, накладывающиеся поверх экрана. Это касается и Geforce Experience.
-* Снизьте настройки кадровой частоты и отключите множественную выборку сглаживания (MSAA). Это не повлияет на качество 2D сцен.
-    * Этот метод не улучшит производительность видеообоев, поскольку в их случае качество и кадровая частота фиксированые.
-    * Производительность зависит от разрешения и кадровой частоты видеообоев. Для снижения загрузки графического процессора используйте видео с меньшей кадровой частотой.
-* Подключайте мониторы к одной видеокарте. В обратном случае вы столкнетесь с низкой производительностью Windows, поскольку система будет пытаться совместить их.
+* Disable or delete overlay and recording tools, including Geforce Experience.
+* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
+    * This won't influence the performance of videos, they have fixed frame rates and quality.
+    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
+* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
