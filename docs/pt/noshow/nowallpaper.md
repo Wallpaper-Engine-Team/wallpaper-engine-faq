@@ -18,7 +18,7 @@ Se alguns ou todos os seus wallpapers não aparecerem, é frequente que isso sej
 
 ## Conflitos com outro software de modificação do ambiente de trabalho
 
-O Wallpaper Engine funciona bem com a maior parte das aplicações de modificação do ambiente de tgrabalho. No entanto, algumas aplicações como o StarDock DeskScapes também modificam o wallpaper do Windows e não é possível executar as duas aplicações ao mesmo tempo. Se utilizar uma aplicação semelhante ao Wallpaper Engine, será necessário decidir qual delas continaurá a usar.
+O Wallpaper Engine funciona bem com a maior parte das aplicações de modificação do ambiente de trabalho. No entanto, algumas aplicações como o StarDock DeskScapes também modificam o wallpaper do Windows e não é possível executar as duas aplicações ao mesmo tempo. Se utilizar uma aplicação semelhante ao Wallpaper Engine, será necessário decidir qual delas continuará a usar.
 
 ### Fences
 
