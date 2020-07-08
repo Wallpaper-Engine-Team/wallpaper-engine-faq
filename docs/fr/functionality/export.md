@@ -1,15 +1,15 @@
-# Exporter un fond d'écran en tant que GIF / vidéo
+# Exporting wallpapers as GIF / video
 
-Les fonds d'écran réalisés avec l'éditeur de Wallpaper Engine sont plus conçus comme les niveaux d'un jeu que comme un fichier vidéo. Ils n'ont pas de début ou de fin clairement définis et ils contiennent des éléments aléatoires. Tout comme vous ne pouvez pas exporter de jeux vidéo sous forme de fichiers vidéo, vous ne pouvez pas exporter vos fonds d'écran sous forme de vidéos ou de GIF.
+Wallpapers made in the Wallpaper Engine editor are more like levels in a computer game rather than a video file. They do not have a clearly defined start or end and they contain elements of randomness in them. Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
 
-Vous pouvez tout de même créer un enregistrement de vos fonds d'écran et essayer manuellement de créer une boucle parfaite si les éléments de votre fond d'écran le permettent. Pour cela, nous vous conseillons deux outils, *ScreenToGif* et *OBS Studio* :
+However, you can create a recording of your wallpapers and manually try to create a perfect loop if the elements in your wallpaper allow for that. For this purpose, we recommend free tools like *ScreenToGif* or *OBS Studio*:
 
-* [ScreenToGif](https://www.screentogif.com/) (Facile à utiliser)
+* [ScreenToGif](https://www.screentogif.com/) (Easy to use)
 
-* [OBS Studio](https://obsproject.com/) (Pour les utilisateurs expérimentés)
+* [OBS Studio](https://obsproject.com/) (More advanced features)
 
-#### Bien voir son fond d'écran
+#### Getting a clear shot of your wallpapers
 
-Vous pouvez facilement voir votre fond d'écran et le redimensionner en cliquant dessus avec le bouton droit de la souris dans l'onglet "Installés" puis en cliquant sur "Lire dans Fenêtre", ce qui ouvrira une fenêtre contenant votre fond d'écran. Vous n'aurez pas à masquer vos icônes de bureau et autres. Vous pouvez redimensionner la fenêtre pour obtenir la taille et le rapport hauteur / largeur que vous souhaitez pour votre "exportation" :
+You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
 
-![Clic droit sur un fond d'écran et sélectionner "Lire dans Fenêtre"](./playinwindow.gif)
+![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
