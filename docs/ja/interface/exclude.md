@@ -1,25 +1,19 @@
-# 検索から特定の壁紙を除外する
+# Exclude certain wallpapers from the search
 
-新しい壁紙を検索するときは、常にアプリケーションのワークショップタブを使用してください。 Steamワークショップサイトのフィルター機能はアプリケーションのものとは違い、興味のないコンテンツが大量に表示されます。
+Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
 
-## 特定のジャンルを除外する（例えばアニメ）
+## Excluding certain genres (anime, for example)
 
-必要のないカテゴリをアプリケーションで除外することができます。 Wallpaper Engineの「ワークショップ」タブを開き、左上の「結果をフィルター」をクリックしてフィルターサイドバーを有効にします。 結果に含めたくないカテゴリすべての選択を外します。
+You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
-アニメの壁紙が不要な場合は*アニメ*と*MMD (Miku-Miku-Dance)*カテゴリを外します。 さらに、*漫画*と*女の子*を外すこともできます。ここにもアニメが含まれているからですが、それ以外のコンテンツが除外される可能性も高くなります。
+If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
 
-![フィルターサイドバーで、不要なカテゴリすべての選択を外す](./categories.gif)
+![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## 特定の年齢評価を除外する
+## Excluding certain age ratings
 
-Steamワークショップでは、裸体など、ある程度のアダルトコンテンツが許可されています。 こういったコンテンツを見たくない場合は、フィルターの「どれも」年齢評価を有効にします。
+The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
 
-![フィルターサイドバーで"成人"および"問題のある"年齢評価の選択を外す](./ageratings.gif)
+![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
-ほとんどのコンテンツには正しいタグが付いており、これによって成人向けコンテンツの大部分を除外することができます。 「どれも」評価なのにアダルトコンテンツが含まれた場合は、アプリケーションの報告機能をご利用ください。 審査後、そのコンテンツの分類が見直されるか、または削除されます。
-
-## ルール違反のコンテンツの報告
-
-私たちもSteamのアドミニストレータやモデレータも、毎日のようにルールに違反する壁紙を削除しています。 私たちが見つけることができるよう、ガイドラインに反しているワークショップの投稿物をご報告ください。
-
-ワークショップでは、私たちが事前にチェックせずにユーザーが作品を公開することが可能になっています。これはSteamワークショップのシステムなので、私たちに変えることはできません。 私たちが削除できるのは、それらがアップロードされたあとです。 それが気になる場合は、フィルター設定で*承認済み*タグを有効にしてください。これは手動でチェックされ、選ばれた壁紙です。 見たくない種類のコンテンツを除外するためには、上記のフィルターの設定方法のセクションをお読みください。
+Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
