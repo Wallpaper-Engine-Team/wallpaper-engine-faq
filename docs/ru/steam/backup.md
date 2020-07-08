@@ -1,17 +1,17 @@
-# Резервная копия Мастерской Steam
+# Backup Steam Workshop
 
-Если по какой-то причине обои будут удалены из Steam, они автоматически будут удалены и с вашего компьютера. Удаление совершает Steam, поэтому Wallpaper Engine не может предотвратить это. Если у вас есть опасения, вы можете создать резервную копию ваших обоев.
+When wallpapers are deleted from Steam for any reason, Steam will also delete them from your PC. Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
 
-Кроме этого, многие пользователи сообщают, что Steam может произвольно начать заново загружать все файлы из Мастерской, что может раздражать, если у вас гигабайты данных. Если это происходит слишком часто, вы можете решить проблему создав резервную копию и полностью отвязав свою коллекцию от Steam.
+Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
 
-# Создание резервной копии
+# Creating a Backup
 
-Данная инструкция предполагает, что на вашем компьютере Steam и Wallpaper Engine установлены в `C:\Program Files (x86)\Steam\`. Если вы установили Steam и/или Wallpaper Engine в другом месте, вам понадобится искать файлы там.
+The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
 
-1. Найдите папку, в которой Steam хранит ваши обои. По умолчанию это `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: Подсказка **431960** — это идентификационный номер Wallpaper Engine в Steam. Этот каталог используется для всех файлов, загруженных через Wallpaper Engine. :::
-2. Скопируйте папку 431960 в путь установки Wallpaper Engine: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
-3. **Переименуйте** папку `431960` в `backup` (резервная копия), чтобы путь полностью выглядет вот так: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
-4. Теперь в каталоге `backup` хранятся все загруженные до этого момента обои в индивидуальных подкаталогах (номера соответствуют идентификационным номерам, которые конкретным обоям присвоила Мастерская Steam)
-5. Перегрузите обозреватель обоев. Вы должны увидеть резервные копии обоев. Теперь вы можете отписаться от обоев-дубликатов Steam и использовать свои личные копии
+1. Locate the folder in which Steam stores your wallpapers, by default it is in `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** is the Steam ID of Wallpaper Engine, Steam uses this directory for all Wallpaper Engine downloads. :::
+2. Copy the folder 431960 to Wallpaper Engine's installation path here: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
+3. **Rename** the folder `431960` into `backup` so that the complete path looks like this: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
+4. The `backup` directory now includes all your previously downloaded wallpapers, each in their own sub-directory (the numbers represent the Steam Workshop ID of the wallpaper)
+5. Restart the wallpaper browser and you should see the backed up wallpapers now. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them
 
-::: warning **Не удаляйте** вручную папку Мастерской Steam `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. Это приведет к тому, что Steam не поймет, что произошло и заново загрузит все обои. Просто отпишитесь от обоев, и Steam самостоятельно удалит эти файлы. :::
+::: warning Do **not** manually delete the Steam Workshop folder `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. This will cause your Steam to be confused and re-download all wallpapers. Simply unsubscribe from your wallpapers and let Steam delete the duplicate files itself. :::
