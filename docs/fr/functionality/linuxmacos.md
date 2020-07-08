@@ -8,6 +8,6 @@ Certains vont se demander comment certains jeux et applications ont été facile
 
 C'est faisable, en théorie. En revanche, le portage sur Linux ou Mac nous est financièrement impossible pour le moment. Si vous regardez les [sondages Steam (en anglais)](https://store.steampowered.com/hwsurvey), vous verrez que seul 1 % des utilisateurs Steam sont sous Linux. L'écart est encore plus grand entre les différentes versions de Linux, dont Ubuntu, la plus populaire, qui ne représente que 0,25 % des utilisateurs.
 
-Le temps nécessaire pour porter Wallpaper Engine sur un autre système d'exploitation est donc trop important et entraînerait une hausse des coûts de maintenance actuels. C'est trop d'efforts pour des utilisateurs potentiels peu nombreux. Nous préférons donc nous consacrer à développer cette application pour Windows, le système d'exploitation de 96 % des utilisateurs de Steam.
+Le temps nécessaire pour porter Wallpaper Engine sur un autre système d'exploitation est donc trop important et entraînerait une hausse des coûts de maintenance actuels. Nous préférons donc nous consacrer à développer cette application pour Windows, le système d'exploitation de 96 % des utilisateurs de Steam.
 
 Nous gardons quand même toujours un œil attentif sur les statistiques officielles de Steam. Si la situation change, nous sommes évidemment prêts à nous développer sur d'autres plateformes. 
