@@ -19,7 +19,7 @@ O Windows não hiberna com streams de áudio ativos abertos. Pode ultrapassar is
 
 Os wallpapers "Web" usam um browser semelhante ao Google Chrome ("CEF") que impedirá o modo de hibernação. Até isto ser corrigido no browser, pode ultrapassar isto com algumas instruções na linha de comandos.
 
-1. Procure "cmd.exe" no Windows e clique nele com o b otão direito e, em seguida, selecione "Executar como administrador" (é muito importante, caso contrário não funciona!).
+1. Procure "cmd.exe" no Windows e clique nele com o botão direito e, em seguida, selecione "Executar como administrador" (é muito importante, caso contrário não funciona!).
 2. Utilize o comendo `powercfg /requests` para visualizar todos os processos que estão a impedir o seu sistema de hibernar (veja também se a responsabilidade poderá ser de outros programas).
 3. Use os três comandos seguintes para permitir que o seu sistema fique suspenso com o Wallpaoer Engine em execução:
 
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Além disto, também pode definir a opção **Ecrã suspenso** no separador **Desempenho** das definições do Wallpaper Engine como *Parar (lib. memória)* e desligar o seu ecrã. Dessa forma, o Wallpaper Engine para todoa reprodução quando desliga o seu monitor e deixa o seu computador não vigiado.
+Além disto, também pode definir a opção **Ecrã suspenso** no separador **Desempenho** das definições do Wallpaper Engine como *Parar (lib. memória)* e desligar o seu ecrã. Dessa forma, o Wallpaper Engine para toda a reprodução quando desliga o seu monitor e deixa o seu computador não vigiado.
