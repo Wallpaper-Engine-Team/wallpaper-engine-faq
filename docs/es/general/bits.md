@@ -1,6 +1,6 @@
 # Versiones 32-Bit y 64-Bit
 
-La versión 64-bit puede soportar archivos más grandes (de más de 2GB), pero utiliza más memoria sin tener el cuenta el tamaño de los fondos. Por ejemplo, con un fondo de vídeo normal, la versión 64-bit podría usar 50MB más de RAM que la versión 32-bit. Esa es la única diferencia.
+La versión 64-bit puede soportar archivos más grandes (de más de 2GB), pero utiliza más memoria sin tener el cuenta el tamaño de los fondos. Por ejemplo, con un fondo de vídeo normal, la versión 64-bit podría usar 50MB más de RAM que la versión 32-bit.
 
 ::: tip Te recomendamos utilizar la versión 32-bit, a no ser que tengas fondos tan grandes que hagan que se cuelgue. La mayoría de los usuarios jamás tienen este probema. :::
 
