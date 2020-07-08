@@ -18,9 +18,9 @@ tags:
 
 # Решение проблем с конкретными программами или играми
 
-If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
+Если у вас возникают проблемы с конкретной игрой или программой, вы можете решить их, задав особые правила поведения Wallpaper Engine для определенных ситуаций, например, в случае запуска «проблемной» программы или воспроизведения ей звука.
 
-## Setting up an application rule
+## Создание правила приложения
 
 In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
 
