@@ -1,7 +1,7 @@
-# Центрирование обоев под мониторы с разным разрешением
+# Centering wallpaper with monitors of different resolutions
 
-Если вы хотите воспроизводить одни и те же обои на нескольких мониторах с разным разрешением, обои будут вести себя в соответствии с выбранным разрешением, не принимая во внимание физический размер мониторов. Windows не учитывает физические параметры, имеет значение только размер в пикселях.
+If you choose to display a single wallpaper across multiple monitors with different resolutions, then it will act according to the resolutions you are using, not the physical size of your monitors. Windows does not account for the physical size, only the size in pixels is relevant.
 
-Представьте, что вам необходимо центрировать одно обычное окно вроде Steam на нескольких мониторах. Вы не сможете изменить длину или ширину этого окна на одном мониторе, не повлияв на отображение окна на другом. Это правило распространяется и на обои. Живые обои не являются статичными изображениями, поэтому их невозможно непрерывно разрезать и сшивать, как это делается с изображениями.
+Imagine you would center a single, normal window like Steam between your monitors. You cannot scale one side up or down without affecting the other monitor. This is exactly how a wallpaper works too. Live wallpapers are not static images, so they cannot be cut up and stitched together continuously like it would be possible with an image.
 
-Откройте рабочий стол, сделайте снимок всего экрана с помощью Windows или Wallpaper Engine и посмотрите на него. Вы увидите, что обои центрированы относительно экрана: расширение монитора диктует расположение центра обоев. 
+Take a screenshot of your entire desktop in Windows or through Wallpaper Engine and examine it, you will see that the wallpaper is centered according to that, the resolution of your monitors controls the center. 
