@@ -59,6 +59,6 @@ Steam не может скачать какие-то файлы. Ошибка м
 * Запустите Steam и проведите проверку целостности файлов Wallpaper Engine:
   * [Проверка целостности файлов Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+Если у вас установлен антивирус: чтобы избежать блокировки загрузок из Мастерской Steam, добавьте в список исключений этот каталог: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### См. также: [Steam заново загружает все обои](/steam/redownload)
