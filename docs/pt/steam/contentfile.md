@@ -1,9 +1,9 @@
-# "Content file locked" / Disk Write Error
+# "Content file locked" / Erro de Escrita no Disco
 
-If Steam fails to download Wallpaper Engine either while installing or updating the app, it is most likely your antivirus deleting files, putting files into quarantine or blocking entire directories on your disk without informing you about this. You will get 'content file locked' or 'access denied' errors in Steam. This needs to be resolved in your antivirus by undoing the changes it did to your PC, most antivirus programs have a quarantine window from where you can restore files or create a whitelist. Make sure your antivirus application ignores the following directories:
+Se o Steam não transferir o Wallpaper Engine enquanto instala ou atualiza a aplicação, é muito provavelmente o seu antivírus a apagar ficheiros, a colocá-los em quarentena ou a bloquear diretórios inteiros no seu disco sem sequer o informar. No Steam irá receber erros 'content file locked' ou 'access denied'. Isto tem de ser resolvido no seu antivírus anulando as alterações efetuadas ao seu PC. A maior parte dos antivírus tem uma janela de quarentena a partir da qual pode restaurar ficheiros ou criar uma whitelist. Certifique-se de que a sua aplicação antivírus ignora os seguintes diretórios:
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 * `C:\Program Files (x86)\Steam\steamapps\downloading`
 
-*If your Steam or Wallpaper Engine is installed in a different directory, you need to adjust the directories to your actual Steam installation path.*
+*Se o seu Steam ou Wallpaper Engine estiver instalado noutro diretório, deve ajustar os diretórios para o caminho real de instalação do Steam.*
