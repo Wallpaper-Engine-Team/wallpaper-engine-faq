@@ -1,18 +1,18 @@
-# Editing Downloaded Wallpapers
+# Редактирование загруженных обоев
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+В самой программе Wallpaper Engine нет возможности отредактировать загруженные обои. Однако, обычно в зависимости от типа обои можно отредактировать с помощью различных сторонних программ (тип обоев обозначен справа под изображением для предпросмотра).
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+Пожалуйста, учтите, что для публикации отредактированных обоев вам может понадобиться получить разрешение первоначального автора(ов). При наличии сомнений свяжитесь с первоначальными авторами перед публикацией работы в Мастерской Steam.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## Как найти исходный файл обоев?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+Перейдите во вкладку «Установлено» и кликните на обои правой кнопкой мыши, а затем выберите опцию «Открыть в Проводнике».
 
-## How to edit wallpapers of different types
+## Как редактировать обои разных типов
 
-### Scene wallpapers
+### Сценические обои
 
 Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
