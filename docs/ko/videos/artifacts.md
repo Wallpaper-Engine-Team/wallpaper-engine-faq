@@ -1,34 +1,34 @@
 ---
 tags:
-  - 색상
-  - 밝음
-  - 어두움
-  - 확대/축소
-  - 확대
-  - 픽셀화
-  - 테두리
-  - 감마
-  - 품질
-  - 이상하게
-  - 보기 싫은
+  - colors
+  - bright
+  - dark
+  - zoom
+  - zoomed-in
+  - pixelated
+  - border
+  - gamma
+  - quality
+  - wrong
+  - ugly
 ---
 
-# 영상 배경화면이 이상하게 보입니다
+# Video wallpapers look wrong
 
-Wallpaper Engine은 대부분의 비디오 플레이어와는 다르게 비디오가 최적의 성능을 발휘하도록 하드웨어 가속을 사용합니다. 즉, 그래픽 카드 드라이버가 비디오가 보이는 방식에 영향을 줄 수 있습니다.
+Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
 
-**영상 배경화면 색상이 잘못된 경우, 너무 밝거나 어두운 경우, 확대되어 표시되는 경우, 픽셀화가 되는 경우 또는 배경화면 주변에 테두리가 있는 경우**, Nvidia, AMD 또는 Intel 그래픽 카드의 그래픽 제어판에서 비디오 옵션을 초기화하여 해결할 수 있습니다. 컴퓨터에 GPU가 여러 개라면(예: Nvidia의 메인 카드와 Intel의 보조 GPU) , 모두 초기화하세요.
+**If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
 
-또한 그래픽 카드 드라이버를 다시 설치할 수도 있습니다. 모든 설정 초기화("완전히 새로 설치")를 선택해 이 작업을 진행할 수 있는데, 예를 들어 Nvidia의 드라이버에서 가능합니다. 즉, 우선 드라이버를 제거하여 기존 드라이버가 완전히 삭제되면 최신 버전의 드라이버를 다시 설치합니다. 일부 드라이버의 고급 섹션에는 "완전 재설치 실행" 옵션이 있습니다. 손상된 드라이버를 모두 자동으로 지우려면 이 옵션을 사용해야 합니다. 모든 대형 공급업체의 최신 그래픽 카드 드라이버는 아래에서 받을 수 있습니다:
+You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
-* [AMD Radeon](https://www.amd.com/suppor)
+* [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-어떻게 해야 할지 모르는 경우: 그래픽 카드의 최신 드라이버를 다운로드 후, DDU를 사용하여 그래픽 카드 드라이버를 삭제하고 모든 설정을 지웁니다.
+If you are uncertain what to do: Download the latest drivers for your graphics card, then use DDU to uninstall your graphics card drivers and delete all settings:
 
-* [디스플레이 드라이버 제거 다운로드](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-그런 다음 방금 다운로드한 드라이버를 설치합니다. 제대로 수행하면 문제를 확실히 해결할 수 있습니다.
+Afterwards, install the drivers you have just downloaded. This will definitely fix the problem if done right.
 
-::: tip 그래픽 카드 드라이버를 다시 설치했는데도 색상이 여전히 잘못되었다면, GPU가 하나 이상이거나 다시 설치를 "완전히" 새로하지 않았을 수 있습니다. 일단 기존 그래픽 카드 드라이버를 모두 삭제하고, 모든 드라이버 설정을 제거했는지 확인하세요. :::
+::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. Make sure you first uninstall all your current graphics card drivers and clear up all driver settings. :::
