@@ -12,15 +12,15 @@ tags:
 
 Пожалуйста, учитывайте, что **за все загрузки отвечает Steam**. Wallpaper Engine просто показывает статус загрузки Steam. Все проблемы с загрузкой вызваны ошибками в работе Steam и не связаны с Wallpaper Engine напрямую. Это руководство содержит список самых распространенных проблем с загрузкой. Во многих случаях первопричиной проблем являются чрезмерно усердствующие антивирусы или заблокированные сетевые порты.
 
-If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
+Если у вас есть проблемы с загрузками из Steam, удостоверьтесь, что ваш антивирус не блокирует Steam, а в брандмауэре (включая все брандмауэры сетевых маршрутизаторов) открыты необходимые порты.
 
-::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
+::: Подсказка Вы можете легко проверить, блокирует ли сетевой маршрутизатор загрузки из Steam. Для этого подключите компьютер к интернету через мобильную сеть на смартфоне и попробуйте скачать обои. :::
 
-## Wallpaper download stuck at 0% or 100% (or any other percentage)
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## Загрузка обоев застряла на 0% или 100% (или любой другой цифре)
+Steam еще не закончил загружать или проверять файлы. Если процент загрузки стоит на месте в течение длительного времени, попробуйте следующее:
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* Очистите кэша загрузки Steam в меню настроек:
+  * [Очистка кэша загрузки](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
 * Afterwards verify the files of Wallpaper Engine in Steam:
   * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 * If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
