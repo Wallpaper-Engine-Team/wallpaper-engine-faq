@@ -1,22 +1,22 @@
 ---
 tags:
-  - e-mail
-  - aide
-  - assistance
+  - email
+  - help
+  - support
 ---
 
-# Nous contacter
+# Contact
 
-Si vous rencontrez un problème technique avec Wallpaper Engine, essayez d'abord de chercher une solution dans la FAQ. La plupart des tickets de support technique que nous recevons auraient pu être corrigés grâce à la FAQ.
+If you have a technical problem with Wallpaper Engine, please try and resolve it with the FAQ first. Most technical support tickets we received can be fixed with the FAQ.
 
-Vous pouvez également poser vos questions ou faire des recherches sur notre page de discussion Steam. Nous essayons généralement de répondre à tout le monde et nous y avons résolu de nombreux problème :
+You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
 
-* [Discussions de Wallpaper Engine sur Steam](https://steamcommunity.com/app/431960/discussions/)
+* [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
 
-Si vous ne trouvez toujours pas de solution satisfaisante, vous pouvez nous écrire à [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
+If you cannot find a fitting article or cannot fix your problem, you can reach us at [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
 
-::: tip Si vous rencontrez un problème technique, n'oubliez pas de joindre une copie du rapport de notre outil d'analyse :
+::: tip If you are having a technical issue, it helps if you include a log file from our scan tool:
 
-* [Utiliser l'outil d'analyse de Wallpaper Engine pour créer un rapport de bug](debug/scantool)
+* [Use the Wallpaper Engine scan tool to create a debug log](debug/scantool)
 
-L'outil d'analyse de nous donnera des précisions qui nous permettront de rapidement comprendre d'où vient votre problème. :::
+The scan tool includes technical details which usually help us point you in the right direction faster. :::
