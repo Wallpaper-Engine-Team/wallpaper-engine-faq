@@ -4,11 +4,11 @@
 
 ::: aviso Não recomendamos que faça isto, a não ser que tenha a certeza absoluta de que o ícone de tabuleiro o está a irritar tanto que está disposto a aceitar as desvantagens de ocultar o ícone de tabuleiro. :::
 
-Quando o ícone de tabuleiro estiver oculto, a única forma de desativar o Wallpaper Engine será encerrando-o através do Gestor de Tarefas do Windows. Só pdorá abrir o interface para o utilziador através do Steam ou dos ficheiros .exe, o que é bastante inconveniente e confuso.
+Quando o ícone de tabuleiro estiver oculto, a única forma de desativar o Wallpaper Engine será encerrando-o através do Gestor de Tarefas do Windows. Só poderá abrir o interface para o utilizador através do Steam ou dos ficheiros .exe, o que é bastante inconveniente e confuso.
 
 Se mesmo assim pretende ocultar o ícone de tabuleiro, poderá fazê-lo desta forma:
 
-Para criar a chave de registo, abra o meni inicial do Windows e escreva "regedit.exe", o que irá abrir o "Registry Editor".
+Para criar a chave de registo, abra o menu inicial do Windows e escreva "regedit.exe", o que irá abrir o "Registry Editor".
 
 1. Vá ao seguinte diretório do registo: *HKEY_CURRENT_USER\Software\WallpaperEngine*
 2. Clique com o botão direito na pasta do registo *WallpaperEngine*, selecione *Nova* e depois *DWORD (32 Bit) Value*.
