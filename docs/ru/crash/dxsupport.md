@@ -1,8 +1,8 @@
-# "DirectX 10 not supported" crash
-Ensure your graphics card actually supports DirectX 10 by doing a web-search on the exact name of your card. If you have an old card, installing DirectX 10 will not fix this problem if your graphics card does not support DirectX 10 on hardware level.
+# Аварийное завершение работы: «DirectX 10 не поддерживается»
+Удостоверьтесь, что ваша видеокарта поддерживает DirectX 10. С этим вам может помочь поиск в интернете по точному названию видеокарты. Если у вас старая модель видеокарты, установка DirectX 10 не решит проблему, поскольку в этом случае DirectX 10 не будет поддерживаться на аппаратном уровне.
 
-If your card does support it and you get this error, then try reinstalling the latest driver (or an older, more stable driver). Remove intrusive security software from the PC that could prevent Wallpaper Engine from accessing your graphics card.
+Если ваша видеокарта поддерживает DirectX 10 и вы видете эту ошибку, попробуйте переустановить последнюю версию драйвера (или его более старую и более надежную версию). Удалите с компьютера защитные программы, которые агрессивно вмешиваются в процессы работы системы и могут предотвратить доступ Wallpaper Engine к видеокарте.
 
-## DuetDisplay and other display extension software
-Display extension software like DuetDisplay installs a fake graphics card which is not capable of the same features as a real graphics card. This can also be the cause for Wallpaper Engine to show this error as Wallpaper Engine requires a real graphics card with DirectX 10 support. Display extension software like DuetDisplay is not compatible with Wallpaper Engine and must be turned off.
+## Duet Display и другие программы с функцией дополнительного дисплея
+Программы с функцией дополнительного дисплея наподобие DuetDisplay устанавливают суррогатную видеокарту, которая слабее настоящей видеокарты и не способна выполнять некоторые операции. Это тоже может быть причиной данной ошибки, поскольку для работы Wallpaper Engine требуется настоящая видеокарта, поддерживающая DirectX 10. Программы с функцией дополнительного дисплея наподобие DuetDisplay несовместимы с Wallpaper Engine и должны быть отключены для корректной работы программы.
 
