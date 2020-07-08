@@ -1,49 +1,53 @@
 ---
 tags:
-  - hardware
+  - 하드웨어
 ---
 
-# RGB hardware support (iCUE & Chroma)
+# RGB 하드웨어 지원 (iCUE 및 Chroma)
 
-Wallpaper Engine supports [**Razer Chroma**](https://www.razer.com/chroma) and [**Corsair iCUE**](https://www.corsair.com/icue), including systems which may integrate into either ecosystem.
+Wallpaper Engine은 [**Razer Chroma**](https://www.razer.com/chroma) 및 [**Corsair iCUE**](https://www.corsair.com/icue)를 지원하며, 여기에는 에코시스템에 통합될 수 있는 시스템이 포함됩니다.
 
-## How do I enable / disable RGB hardware
+## RGB 하드웨어 활성화 / 비활성화 방법
 
-In the "Plugins" section of the Wallpaper Engine settings, you can find the **iCUE & Chroma SDK plugin**. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. You can also click on the cogwheel symbol next to it to further configure individual parts of it.
+Wallpaper Engine 설정의 "플러그인" 섹션에서 **iCUE & Chroma SDK 플러그인**</strong>을 찾을 수 있습니다. 왼쪽 체크박스를 표시하여 일반 RGB 플러그인 로드를 활성화 또는 비활성화할 수 있습니다. 또한 옆의 톱니바퀴 모양을 클릭하여 개별 부분을 구성할 수 있습니다.
 
-Additionally, RGB support can be toggled off on each wallpaper. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+그리고 RGB 지원은 배경화면마다 끌 수도 있습니다. RGB 조명을 제어하기 위해 개별 배경화면이 필요한 경우 플러그인이 활성화되어 제어가 가능하면, 각 배경화면 속성 목록의 상단에서 **LED 효과 활성화** 옵션을 찾을 수 있습니다.
 
-## The RGB hardware colors seem too bright
+## RGB 하드웨어 색이 너무 밝은 것 같습니다
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+기본값으로 RGB 색은 약간 증폭되어 있습니다. 그러면 대부분의 배경화면이 좀 더 잘 보이는 경향이 있지만, 원하지 않는다면 RGB 플러그인 설정에서 **LED 색상 증폭**옵션을 비활성화하여 끌 수 있습니다.
 
-## My RGB hardware does not work
+## RGB 하드웨어가 작동하지 않습니다
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engine은 RGB 하드웨어와 직접 소통할 수 없으며, 모든 색 정보는 일단 RGB 드라이버로 전달됩니다. 하나 이상의 하드웨어가 작동하지 않으면, 하드웨어 공급업체의 소프트웨어 문제입니다. 일부 매우 오래된 하드웨어는 하드웨어 공급업체가 더 이상 전체 지원을 하지 않으며 작동하지 않게 됩니다. 그런 경우 저희가 해결할 수 없습니다.
+
+Wallpaper 설정의 *플러그인* 섹션이 보이지 않으면, 이 기능을 작동하려면 필수 요소인 *Visual Studio 2015용 Visual C++ 재배포 가능 패키지*가 없거나 손상되었을 수 있습니다. Microsoft 웹사이트에서 이 패키지를 다운로드하여 설치할 수 있습니다. 설치 후 시스템을 다시 시작하면 문제가 해결됩니다:
+
+* [Visual Studio 2015용 Visual C++ 재배포 가능 패키지](https://www.microsoft.com/download/details.aspx?id=48145)
 
 ### Corsair
 
-Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+**Corsair 시스템 메모리(RAM)와 같은 일부 하드웨어는 소프트웨어 컨트롤이 기본값으로 비활성화되어 있습니다.** 즉 iCUE 소프트웨어 설정에서 직접 허용하지 않는 한 Wallpaper Engine에 의해 메모리 모듈이 켜지지 않습니다. 메모리 섹션의 iCUE 장치 설정에서 "전체 소프트웨어 제어 사용" 옵션이 선택되었는지 확인해야 합니다:
 
-![Enable full software control in iCUE](./icue.png)
+![iCUE 전체 소프트웨어 제어 사용](./icue.png)
 
-Double-check this option for any other hardware parts which are not working properly.
+제대로 작동하지 않는 기타 하드웨어 부분이 있으면 이 옵션을 다시 확인하세요.
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+iCUE는 *단독 모드*에서 사용되며, 즉 Wallpaper Engine이 게임과 같은 다른 iCUE 호환 소프트웨어보다 우선합니다. 게임에서 키보드에 애니메이션 효과를 주려면, Wallpaper Engine 설정의 **성능** 탭으로 이동하여 **타 응용프로그램 전체 화면** 옵션을 **중지 (여유 메모리 확보)**로 설정하여 게임 중 배경화면을 중단합니다. 또는 RGB 플러그인을 비활성화하거나 개별 배경화면에서 RGB 옵션을 비활성화할 수도 있습니다.
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+Corsair iCUE 하드웨어 지원은 Corsair에 직접 문의하세요:
 
 [help.corsair.com](https://help.corsair.com/)
 
-Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
+Corsair 지원과 관련하여 문제 발생 시 저희에게 문의하면, 도움이 될 수 있는지 확인하도록 하겠습니다.
 
 ### Razer
-We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+Razer Synapse 3 이상만 지원합니다. Razer Synapse 1 또는 Razer Synapse 2를 사용하고 있다면, 완전히 삭제하고 Razer Synapse의 최신 버전으로 업데이트하세요. 과거 일부 사용자가 시스템에서 Razer Synapse가 완전히 삭제되지 않아 문제를 겪은 적이 있습니다. Razer Synapse 2 이하 버전이 설치되어 있고 RGB 조명 또는 활성화된 RGB 플러그인의 작동 중단 문제가 발생했다면, 시스템에서 오래된 Razer Synapse 버전의 나머지 구성물을 찾아 삭제해야 합니다.
 
-If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
+Razer 하드웨어가 상대적으로 오래되어 Razer Synapse 3 이상을 지원하지 않는다면, RGB 조명이 Wallpaper Engine과 호환되지 않습니다.
 
-For support with Razer hardware, please contact Razer directly:
+Razer 하드웨어 지원은 Razer에 직접 문의하세요:
 
 [support.razer.com](https://support.razer.com/)
 
-Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
+Razer 지원과 관련하여 문제 발생 시 저희에게 문의하면, 도움이 될 수 있는지 확인하도록 하겠습니다.
