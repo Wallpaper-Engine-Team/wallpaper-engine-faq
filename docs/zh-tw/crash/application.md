@@ -9,17 +9,17 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 [[toc]]
 
-::: tip 使用者提供的當機報告幾乎都是因為顯示卡驅動程式損壞、防毒應用程式或其他缺陷軟體，使得電腦運作不穩定。 ::: :::
+::: tip 使用者提供的當機報告幾乎都是因為顯示卡驅動程式損壞、防毒應用程式或其他缺陷軟體，使得電腦運作不穩定。 :::
 
 ## Wallpaper Engine 當機快速修復方式
 
-如果不確定導致 Wallpaper Engine 當機的原因，請將顯示卡驅動程式全新安裝。 亦即，您需要先解除安裝驅動程式，等現有的驅動程式完全解除安裝後，再重新安裝最新的驅動程式。 有一些驅動程式在進階區段中提供了「執行全新安裝」的選項，請啟用此選項，自動清除不完整驅動程式遺留的任何檔案。 您可以從以下大廠取得最新的顯示卡驅動程式： 亦即，您需要先解除安裝驅動程式，等現有的驅動程式完全解除安裝後，再重新安裝最新的驅動程式。 有一些驅動程式在進階區段中提供了「執行全新安裝」的選項，請啟用此選項，自動清除不完整驅動程式遺留的任何檔案。 您可以從以下大廠取得最新的顯示卡驅動程式：
+如果不確定導致 Wallpaper Engine 當機的原因，請將顯示卡驅動程式全新安裝。 亦即，您需要先解除安裝驅動程式，等現有的驅動程式完全解除安裝後，再重新安裝最新的驅動程式。 有一些驅動程式在進階區段中提供了「執行全新安裝」的選項，請啟用此選項，自動清除不完整驅動程式遺留的任何檔案。 您可以從以下大廠取得最新的顯示卡驅動程式：
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-如果您安裝了防毒應用程式 (Windows Defender 除外)，請務必在 Wallpaper Engine 的防毒設定中設定為例外。 如果防毒應用程式永久損壞或鎖定某些檔案，有時候必須重新安裝 Wallpaper Engine。 如果您安裝了防毒應用程式 (Windows Defender 除外)，請務必在 Wallpaper Engine 的防毒設定中設定為例外。 如果防毒應用程式永久損壞或鎖定某些檔案，有時候必須重新安裝 Wallpaper Engine。
+如果您安裝了防毒應用程式 (Windows Defender 除外)，請務必在 Wallpaper Engine 的防毒設定中設定為例外。 如果防毒應用程式永久損壞或鎖定某些檔案，有時候必須重新安裝 Wallpaper Engine。
 
 此外，務必透過 Steam 驗證 Wallpaper Engine，確保其完好無損。
 
@@ -35,13 +35,13 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ### d3d11.dll
 
-此代表 DirectX 當機，通常是因為防毒應用程式或顯示卡驅動程式損壞而造成。 欲知詳情，請見上方快速修復方式一節。 原因也可能是系統元件損壞。 請使用 Microsoft 系統檔案檢查程式修復可能損壞的 Windows 檔案： 欲知詳情，請見上方快速修復方式一節。 原因也可能是系統元件損壞。 請使用 Microsoft 系統檔案檢查程式修復可能損壞的 Windows 檔案：
+此代表 DirectX 當機，通常是因為防毒應用程式或顯示卡驅動程式損壞而造成。 欲知詳情，請見上方快速修復方式一節。 原因也可能是系統元件損壞。 請使用 Microsoft 系統檔案檢查程式修復可能損壞的 Windows 檔案：
 
 * [Microsoft 系統檔案檢查程式](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-此代表 Windows Media Foundation 當機，可能是因為顯示卡驅動程式損壞，但更常見的原因是系統視訊轉碼器損壞或遺失。 請按照我們提供的視訊修復指南，依當機類型修復： 請按照我們提供的視訊修復指南，依當機類型修復：
+此代表 Windows Media Foundation 當機，可能是因為顯示卡驅動程式損壞，但更常見的原因是系統視訊轉碼器損壞或遺失。 請按照我們提供的視訊修復指南，依當機類型修復：
 
 [點選這裡](/noshow/notplaying.html)
 
@@ -57,7 +57,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ### nvwgf2umx.dll
 
-系統上的 Nvidia 驅動程式損壞時， 請造訪 Nvidia 網站，下載並安裝最新的驅動程式： 系統上的 Nvidia 驅動程式損壞時， 請造訪 Nvidia 網站，下載並安裝最新的驅動程式：
+系統上的 Nvidia 驅動程式損壞時， 請造訪 Nvidia 網站，下載並安裝最新的驅動程式：
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
@@ -65,7 +65,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ### igdumd64.dll/igd10umd64.dll/igdumdx32.dll/igd10umd32.dll
 
-系統上的 Intel Graphics 損壞時， 請造訪 Intel 網站，下載並安裝最新的驅動程式： 系統上的 Intel Graphics 損壞時， 請造訪 Intel 網站，下載並安裝最新的驅動程式：
+系統上的 Intel Graphics 損壞時， 請造訪 Intel 網站，下載並安裝最新的驅動程式：
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
@@ -80,7 +80,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ## 當機錯誤 0xc000007b
 
-此類當機代表 Windows 模組已遭到系統某種程式破壞；在此情況下，通常 DirectX 本身已損壞。 請手動刪除下列檔案： 請手動刪除下列檔案：
+此類當機代表 Windows 模組已遭到系統某種程式破壞；在此情況下，通常 DirectX 本身已損壞。 請手動刪除下列檔案：
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
@@ -91,4 +91,4 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ## 電腦休眠/睡眠後當機
 
-如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不會寄望 Windows 休眠後能正常運作。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不會寄望 Windows 休眠後能正常運作。
+如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不會寄望 Windows 休眠後能正常運作。
