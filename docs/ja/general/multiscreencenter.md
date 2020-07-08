@@ -1,7 +1,7 @@
-# 解像度の違うモニターの中央に壁紙を表示させる
+# Centering wallpaper with monitors of different resolutions
 
-解像度の違う複数のモニターに一枚の壁紙を表示させる場合、モニターの物理的なサイズではなく、使用中の解像度によって動作が変わります。 Windowsは物理的なサイズではなく、ピクセルによるサイズで判断を行います。
+If you choose to display a single wallpaper across multiple monitors with different resolutions, then it will act according to the resolutions you are using, not the physical size of your monitors. Windows does not account for the physical size, only the size in pixels is relevant.
 
-Steamのような普通のウィンドウ1つを複数のモニターに映すことを想像してみてください。 別のモニターに影響を与えることなく、片方を拡大や縮小することはできません。 壁紙もまさにそういう風に動作します。 ライブ壁紙は静止画ではありません。そのため、一枚の絵の場合は可能な、切り離しと結合を断続的に行うということはできません。
+Imagine you would center a single, normal window like Steam between your monitors. You cannot scale one side up or down without affecting the other monitor. This is exactly how a wallpaper works too. Live wallpapers are not static images, so they cannot be cut up and stitched together continuously like it would be possible with an image.
 
-WindowsやWallpaper Engineを通してデスクトップ全体のスクリーンショットを撮り、調べてみてください。壁紙は、中央をコントロールしているモニターの解像度に従って中央に表示されていることがわかるはずです。 
+Take a screenshot of your entire desktop in Windows or through Wallpaper Engine and examine it, you will see that the wallpaper is centered according to that, the resolution of your monitors controls the center. 
