@@ -1,4 +1,4 @@
-# Hiding the Wallpaper Engine tray icon
+# Скрытие значка Wallpaper Engine в области уведомлений
 
 It is possible to hide the Wallpaper Engine tray icon by manually creating a registry key which tells Wallpaper Engine to hide the tray icon next to the Windows clock.
 
