@@ -5,7 +5,7 @@ tags:
 
 # Wallpaper Engine bloqueia
 
-O Wallpaper Engine é software amadurecido, utilizado por milhões e bem testado - é relativamente raro que realmente haja erros na aplicação que provoquem bloqueios. Se a mensagem de bloqueio que está a ver mecionar quaisquer ficheiros **.dll**, consulte a lista que se segue e tente encotnrar uma descrição mais precisa do **.dll** específico que causou o bloqueio do seu sistema:
+O Wallpaper Engine é software amadurecido, utilizado por milhões e bem testado - é relativamente raro que realmente haja erros na aplicação que provoquem bloqueios. Se a mensagem de bloqueio que está a ver mecionar quaisquer ficheiros **.dll**, consulte a lista que se segue e tente encontrar uma descrição mais precisa do **.dll** específico que causou o bloqueio do seu sistema:
 
 [[toc]]
 
@@ -13,7 +13,7 @@ O Wallpaper Engine é software amadurecido, utilizado por milhões e bem testado
 
 ## Tentativa de correção rápida de bloqueio do Wallpaper Engine
 
-Se não estiver certo do que está a bloquear o Wallpaper Engine, faça uma reinstalação limpa dos controladores da sua placa gráfica. Isto significa que primeiro deve reinatalar os seus controladores e depois reinstalar os controladores mais recentes depois dos seus controladores atuais serem completamente desinstalados. Alguns controladores oferecem uma opção para "Efetuar reinstalação limpa" na secção avançada, mas certifique-se de que ativa essa opção para limpar automaticamtne quaisquer resquícios dos controladores danificados. Pode obter aqui os controladores mais recentes para placas gráficas de todos os grandes fabricantes:
+Se não estiver certo do que está a bloquear o Wallpaper Engine, faça uma reinstalação limpa dos controladores da sua placa gráfica. Isto significa que primeiro deve reinstalar os seus controladores e depois reinstalar os controladores mais recentes depois dos seus controladores atuais serem completamente desinstalados. Alguns controladores oferecem uma opção para "Efetuar reinstalação limpa" na secção avançada, mas certifique-se de que ativa essa opção para limpar automaticamente quaisquer resquícios dos controladores danificados. Pode obter aqui os controladores mais recentes para placas gráficas de todos os grandes fabricantes:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
@@ -21,7 +21,7 @@ Se não estiver certo do que está a bloquear o Wallpaper Engine, faça uma rein
 
 Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender), certifique-se de que configura uma exceção para o Wallpaper Engine nas definições do seu antivírus. Por vezes é necessário reinstalar o Wallpaper Engine depois disto se o seu antivírus tiver permanentemente danificado ou bloqueado alguns ficheiros.
 
-Experimenta também verificar os ficheiros do Wallpaper Engine atravém do Steam para garantir que não estão danificados:
+Experimenta também verificar os ficheiros do Wallpaper Engine através do Steam para garantir que não estão danificados:
 
 * [Assistência do Steam: Verificar a integridade dos ficheiros da aplicação](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
@@ -47,7 +47,7 @@ Isto é um bloqueio na Windows Media Foundation, pode ser provocado por controla
 
 ### AudioSes.dll
 
-Este bloqueio acontece habitualmente devido a um problema no próprio Windows. Experiemente reinstalar a versão mais recente dos controladores da sua placa de som, pois isto poderá resolver o problema. Também pode corrigir estes bloqueios mudando a opção *Outra aplicação a reproduzir áudio* no separador *Desempenho* das definições do Wallpaper Engine para *Continuar execução*.
+Este bloqueio acontece habitualmente devido a um problema no próprio Windows. Experimente reinstalar a versão mais recente dos controladores da sua placa de som, pois isto poderá resolver o problema. Também pode corrigir estes bloqueios mudando a opção *Outra aplicação a reproduzir áudio* no separador *Desempenho* das definições do Wallpaper Engine para *Continuar execução*.
 
 ### atiumdag.dll / atiumd64.dll
 
@@ -72,11 +72,11 @@ Os controladores gráficos Intel do seu sistema estão a bloquear. Vá ao websit
 
 ### MMDEvAPI.dll
 
-Este tipo de bloqueio ocorre devido a aosiware de áudio danificado que está instalado no seu sistema. Isto é habitualmente provocado por software de "melhoramento de som", especialmente os que estão pré-instalados em diversos portáteis. Este tipo de software provoca bloqueios regulares porque interagem com o Windows através de rotinas com erros, procure "Sonic Studio" ou "Nahimic" e atualize-os. Se não conseguir encontrar atualizações para estes programas, também pode desinstalá-los, pois não são necessários para que o áudio do seu computador funcione corretamente.
+Este tipo de bloqueio ocorre devido a software de áudio danificado que está instalado no seu sistema. Isto é habitualmente provocado por software de "melhoramento de som", especialmente os que estão pré-instalados em diversos portáteis. Este tipo de software provoca bloqueios regulares porque interagem com o Windows através de rotinas com erros, procure "Sonic Studio" ou "Nahimic" e atualize-os. Se não conseguir encontrar atualizações para estes programas, também pode desinstalá-los, pois não são necessários para que o áudio do seu computador funcione corretamente.
 
 ### fraps32.dll
 
-O bloqueio foi provocado pela Fraps, a aplicação de controlode FPS e gravação do ecrã. A Fraps não é atualizada desde 2013 e é uma aplicação altamente desatualizada. Utilize uma alternativa à Fraps, pois isto é um erro da Fraps que poderá nunca ser corrigido, pois o software foi abandonado.
+O bloqueio foi provocado pela Fraps, a aplicação de controlo de FPS e gravação do ecrã. A Fraps não é atualizada desde 2013 e é uma aplicação altamente desatualizada. Utilize uma alternativa à Fraps, pois isto é um erro da Fraps que poderá nunca ser corrigido, pois o software foi abandonado.
 
 ## Erro de bloqueio 0xc000007b
 
@@ -91,4 +91,4 @@ Se continua a obter este erro, poderá ser outro módulo, semelhante ao DirectX,
 
 ## Bloqueio depois de Hibernação / Suspensão
 
-Se o Wallpaper Engine bloquear depois do Windows hibernar, isso significa que o Windows não está a restaurar os controladores da sua placa gráfica e o Wallpaper Engine em conjunto. A hibernação no Windows simplesmnete não é um processo fiável. Pode ativar a opção **Iniciar em segurança depois de hibernar** no Wallpaper Engine para mitigar este problema. Esta opção tentará reiniciar o Wallpaper Engine automaticamente em vez de esperar que o Windows funcione corretamente depois da hibernação.
+Se o Wallpaper Engine bloquear depois do Windows hibernar, isso significa que o Windows não está a restaurar os controladores da sua placa gráfica e o Wallpaper Engine em conjunto. A hibernação no Windows simplesmente não é um processo fiável. Pode ativar a opção **Iniciar em segurança depois de hibernar** no Wallpaper Engine para mitigar este problema. Esta opção tentará reiniciar o Wallpaper Engine automaticamente em vez de esperar que o Windows funcione corretamente depois da hibernação.
