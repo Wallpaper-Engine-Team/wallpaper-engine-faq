@@ -1,40 +1,40 @@
-# 오디오 시각화 도우미가 작동하지 않습니다 / 사운드가 검색되지 않습니다
+# Audio visualizers do not work / no sound detected
 
-오디오 시각화 도우미가 작동하지 않는 데는 여러 이유가 있습니다. 이 문서에 그 이유가 모두 있으니, 읽어 보고 작동하지 않는 이유를 찾아보시길 바랍니다.
+There are multiple reasons why audio visualizers may not work. We are listing all known possible reasons here, please read the full guide to ensure you have not missed any of the possible reasons why it does not work.
 
-## 1. 오디오 장치 설정
-Wallpaper Engine 설정으로 이동하여 "일반" 탭을 탐색합니다. 중앙에 오디오 입력 장치를 선택할 수 있는 "미디어" 섹션이 있습니다. 올바른 장치가 선택되어 있는지 확인하세요. 올바른 장치를 찾을 수 없다면, 음악을 들으며 오디오 시각화 도우미가 작동할 때까지 모든 장치를 시험해 봅니다.
+## 1. Audio device setup
+Go to the Wallpaper Engine settings and navigate to the "General" tab. Towards the center you can find the "Media" section where you can select an audio input device. Make sure the correct device is selected. If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
 
-올바른 오디오 장치가 선택되었지만 여전히 오디오가 들리지 않거나 오디오 시각화 도우미가 작동하지 않는다면, Windows 오디오 믹서에서 Wallpaper Engine을 음소거하지 않았는지 또는 볼륨이 너무 낮게 설정되지 않았는지 확인해야 합니다. Windows는 오디오 녹음 볼륨과 오디오 재생 볼륨을 구분하지 않습니다. 즉, Windows에서 볼륨을 낮게 설정했다면 오디오 녹음도 작동하지 않습니다:
+If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
 
-![볼륨을 높이고, Windows 오디오 믹서에서 Wallpaper Engine 음소거를 해제합니다](./audiomixer.png)
+![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-오디오가 검색되고 볼륨도 너무 낮지 않다면, 응용 프로그램(음악 플레이어, 웹 브라우저 등)의 볼륨이 오디오 검색에 영향을 주는 걸 수도 있습니다. 응용 프로그램의 볼륨을 높이고 싶지 않으면(기본 녹음 볼륨값: 50), Wallpaper Engine의 "일반" 탭에서 사운드 감지를 증폭시킬 수 있습니다.
+If audio is detected but is too quiet, keep in mind that the application volume (of your music player, web browser, etc.) affects how well audio is detected. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
 
-## 2. 하드웨어별 문제
+## 2. Hardware-specific issues
 
-### Corsair Void Pro / Bluetooth / USB 헤드셋
+### Corsair Void Pro / Bluetooth / USB headsets
 
-USB / 무선 헤드셋은 사운드 드라이버 문제에 취약합니다. 여러 장치에서 Windows 장치 설정의 오디오 샘플 속도를 44100Hz로 변경하면 문제를 영구적으로 해결할 수 있습니다.
+USB / wireless headsets are prone to sound driver issues. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:
 
-Windows 오른쪽 아래의 트레이 지역에 있는 오디오 아이콘을 오른쪽 클릭하고, "사운드 설정 열기"를 선택합니다. 열린 창에서 "출력" 섹션의 "장치 속성"을 클릭하세요.  그런 다음 "추가 장치 속성"을 클릭하고, "고급" 탭을 탐색합니다. 그곳의 메뉴에서 샘플 속도를 변경할 수 있습니다. 정확한 위치는 Windows 버전에 따라 다르며, 이 옵션을 찾을 수 없다면 웹을 검색해 해당 Windows 버전에서 사운드 장치의 샘플 속도를 어떻게 변경하는지 확인하세요.
+Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
-![샘플링 속도를 "24비트, 44100Hz"로 설정합니다](./samplingrate.png)
+![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer 헤드셋(THX)
+### Razer headsets with THX
 
-Wallpaper Engine에서 오디오 입력을 '스피커(Razer XYZ)' 장치로 변경하세요. 이 옵션은 일반 설정에 있으며, 어떤 Razer 헤드셋(THX) 효과에든 적용할 수 있습니다.
+Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
 
-## 3. 응용 프로그램 충돌
+## 3. Conflicting applications
 
-오디오 설정이 올바르지만 오디오 응답 배경화면이 오디오에 반응하지 않는다면, 사운드 하드웨어 또는 소프트웨어가 PC 전체에서 루프백 녹음 기능을 사용하지 않을 가능성이 높습니다. 올바르게 구성하거나 제거해야 합니다:
+If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
 
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* 기타 다양한 응용 프로그램, 특히 노트북에 사전 설치된 프로그램
+* Various other applications, especially pre-installed ones on notebooks
 
-해당 응용 프로그램이 설치되었는지 알 수 없으면, Wallpaper Engine 스캔 도구를 사용하여 해당 문제를 유발하는 프로그램을 찾을 수 있습니다.
+If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
 
-* [Wallpaper Engine 스캔 도구](/debug/scantool.html)
+* [Wallpaper Engine Scan Tool](/debug/scantool.html)
 
