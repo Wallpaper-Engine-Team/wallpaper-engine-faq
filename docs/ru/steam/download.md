@@ -34,8 +34,8 @@ Steam еще не закончил загружать или проверять 
 * Отпишитесь от обоев, которые не загружаются, и подпишитесь на них заново после перезагрузки Steam.
 * Выберите другой регион для загрузки в настройках Steam. Это можно сделать через вкладку «Загрузки» в настройках Steam.
 * Зайдите в **настройки Steam** и удостоверьтесь, что вы не создали никаких ограничений на загрузку по времени, скорости или вашему статусу.
-* Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
-* Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
+* Откройте вкладку «Загрузки» в Steam («Библиотека» -> «Загрузки»). Поищите, возможно у вас есть приостановленные загрузки. Если такие есть, нажмите на кнопку «Возобновить».
+* Кликните правой кнопкой мыши на Wallpaper Engine в Steam, выберите «Свойства» и разрешите **загрузки в фоновом режиме**.
 * Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
 * Try again after waiting at least for a day in case there are Steam server issues.
 * **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!). :::
