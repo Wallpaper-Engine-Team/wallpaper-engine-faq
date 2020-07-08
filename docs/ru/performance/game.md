@@ -1,24 +1,24 @@
-# Performance issues / low FPS with certain games or applications
+# Низкая производительность / кадровая частота некоторых игр и программ
 
-By default, Wallpaper Engine pauses itself while you are in-game. You can configure this behavior in the **Performance** tab of the Wallpaper Engine settings.
+По умолчанию, Wallpaper Engine временно останавливает работу при запуске игры. Вы можете изменить поведение Wallpaper Engine при запуске игр и посторонних программ во вкладке **«Производительность»** в настройках.
 
-If you are having performance issues with individual games or applications, you can further tweak this behavior. Usually performance issues mean that your system is running out of RAM or Video RAM (the memory on your graphics card). You can configure Wallpaper Engine to free up any memory when in-game by changing the **Other applications fullscreen** option to **Stop (free memory)** in the **Performance** tab of the Wallpaper Engine settings.
+Если у вас возникают проблемы с низкой производительностью определенных игр или программ, вы можете скорректировать правила поведения Wallpaper Engine. Обычно низкая производительность говорит о том, что системе не хватает ОЗУ или видеопамяти (оперативной памяти видеокарты). При определенных настройках Wallpaper Engine будет освобождать память, когда вы запускаете игры. Для этого зайдите во вкладку **«Производительность»** в настройках выберите вариант **«Остановить (освободить память)»** в опции **«Другое приложение в полный экран»**.
 
-## Application Rule
+## Правила приложения
 
-If you only have issues with a particular game or software, you can also configure this just for the sofware that you are having problems with by creating an **Application Rule**:
+Если у вас возникают проблемы только с конкретной игрой или программой, вы можете изменить настройки только для этой одной программы, создав **правило приложения**:
 
-1. Open the **Performance** tab in the Wallpaper Engine settings
-2. Click on the **Edit** button next to **Application rules**
-3. In the pop-up that appears, click on **Create new rule**
-4. Create a new rule with the following settings:
-    * **Application name:** "game.exe" *(replace this with the actual .exe file of your game)*
-    * **Condition:** "Is running"
-    * **Wallpaper playback:** "Stop (free memory)"
-5. Confirm by clicking on **Create**
+1. Откройте вкладку **«Производительность»** в настройках Wallpaper Engine
+2. Нажмите на кнопку **«Редактировать»** рядом с опцией **«Правила приложения»**
+3. В появившемся всплывающем окне кликните на строку **«Создать новое правило»**
+4. Создайте новое правило, использовав следующие настройки:
+    * **Название приложения:** «game.exe» *(замените на .exe файл вашей игры)*
+    * **Условие:** «Запущено»
+    * **Воспроизведение обоев:** «Остановить (освободить память)»
+5. Подтвердите настройки, кликнув на **«Создать»**
 
-Wallpaper Engine will now completely remove all wallpapers from memory when the *.exe* you configured is launched.
+Теперь Wallpaper Engine будет полностью удалять все обои из памяти при запуске выбранного вами *.exe*.
 
-## Conflicts with screen-recording tools or overlays
+## Конфликты с программами записи и программами, накладывающимися поверх экрана
 
-If you are using any game streaming, game recording or software with overlays, make sure they are not accidentally recording Wallpaper Engine in the background. This can also be the case if you use any game streaming functionalities from your graphics card drivers (Nvidia ShadowPlay, Nvidia Share or AMD ReLive for example).
+Если вы используйте программы для трансляции и записи игр, а также программы с элементами, накладывающимися поверх экрана, удостоверьтесь, что они не записывают Wallpaper Engine в фоновом режиме. Это также касается использования функционала для трансляции игр, который добавлен в драйвера видеокарты (например, Nvidia ShadowPlay, Nvidia Share или AMD ReLive).
