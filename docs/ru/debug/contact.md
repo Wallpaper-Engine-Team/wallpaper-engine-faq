@@ -5,18 +5,18 @@ tags:
   - support
 ---
 
-# Контакты
+# Contact
 
-Если у вас возникли технические проблемы при использовании Wallpaper Engine, пожалуйста, в первую очередь попробуйте решить их с помощью списка часто задаваемых вопросов (FAQ). Большинство проблем в тикетах, которые получает наша техподдержка, могут быть решены поиском по FAQ.
+If you have a technical problem with Wallpaper Engine, please try and resolve it with the FAQ first. Most technical support tickets we received can be fixed with the FAQ.
 
-Также вы можете поискать информацию или задать вопрос на нашей доске обсуждений в Steam. Мы честно стараемся отвечать всем пользователям, а большинство вопросов там уже обсуждались:
+You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
 
-* [Обсуждения Wallpaper Engine в Steam](https://steamcommunity.com/app/431960/discussions/)
+* [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
 
-Если вы не нашли статью, которая описывает ваш случай, или не смогли решить проблему, вы можете написать нам на адрес [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
+If you cannot find a fitting article or cannot fix your problem, you can reach us at [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
 
-::: Подсказка Если проблема, с которой вы обращаетесь, имеет технический характер, в ее решении нам очень поможет приложенный к письму лог-файл нашего инструмента сканирования:
+::: tip If you are having a technical issue, it helps if you include a log file from our scan tool:
 
-* [Создание лог-файла отладки с помощью инструмента сканирования Wallpaper Engine](debug/scantool)
+* [Use the Wallpaper Engine scan tool to create a debug log](debug/scantool)
 
-Инструмент сканирования включает в лог-файл технические детали, которые в большинстве помогают нам быстрее сориентировать вас в правильном направлении. :::
+The scan tool includes technical details which usually help us point you in the right direction faster. :::
