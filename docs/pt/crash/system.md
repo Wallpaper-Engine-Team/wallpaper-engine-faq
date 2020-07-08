@@ -2,7 +2,7 @@
 tags:
   - hardware
   - bsod
-  - ecrã azul
+  - blue screen
 ---
 
 # Bloqueio do sistema / Congelamento do sistema
