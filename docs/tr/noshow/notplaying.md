@@ -8,13 +8,13 @@ tags:
 
 # Videolar Siyah / Düzgün Oynatılmıyor
 
-*Video* türü duvar kâğıtlarındaki siyah ekranlar ve diğer sorunlar *her zaman* hatalı grafik kartı sürücüleri veya hatalı video codeclerinden kaynaklanır. Sırasıyla aşağıdaki adımları deneyin. Bu rehberi baştan aşağı takip ederseniz sorun çözülecektir:
+*Video* türü duvar kâğıtlarındaki siyah ekranlar ve diğer sorunlar *her zaman* hatalı grafik kartı sürücüleri veya hatalı video codeclerinden kaynaklanır. Sırasıyla aşağıdaki adımları deneyin. Bu rehberi baştan aşağı takip ederseniz sorun çözülecektir: Sırasıyla aşağıdaki adımları deneyin. Bu rehberi baştan aşağı takip ederseniz sorun çözülecektir:
 
-::: warning Lütfen unutmayın Bu başlık, Wallpaper Engine **duvar kâğıtlarının** siyah olması veya düzgün oynatılmamasıyla ilgilidir. **Wallpaper Engine arayüzünüz siyahsa** şuraya göz atın: [Wallpaper Engine Kullanıcı Arayüzü Siyah](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: warning Lütfen unutmayın Bu başlık, Wallpaper Engine **duvar kâğıtlarının** siyah olması veya düzgün oynatılmamasıyla ilgilidir. **Wallpaper Engine arayüzünüz siyahsa** şuraya göz atın: [Wallpaper Engine Kullanıcı Arayüzü Siyah](/interface/broken.html#wallpaper-engine-interface-is-black). ::: ::: warning Lütfen unutmayın Bu başlık, Wallpaper Engine **duvar kâğıtlarının** siyah olması veya düzgün oynatılmamasıyla ilgilidir. **Wallpaper Engine arayüzünüz siyahsa** şuraya göz atın: [Wallpaper Engine Kullanıcı Arayüzü Siyah](/interface/broken.html#wallpaper-engine-interface-is-black). ::: :::
 
 ## Grafik kartı sürücüsünün temiz şekilde yeniden kurulumu
 
-Kullanıcıların çoğunda, grafik kartı sürücülerinin temiz bir şekilde yeniden kurulması, video duvar kâğıtları ile ilgili sorunların çoğunu düzeltecektir. Buna siyah ekranlar ve duvar kâğıtları ayrı bir pencerede gösterilen kullanıcılar da dâhildir (**"ActiveMovie Penceresi"** başlıklı).
+Kullanıcıların çoğunda, grafik kartı sürücülerinin temiz bir şekilde yeniden kurulması, video duvar kâğıtları ile ilgili sorunların çoğunu düzeltecektir. Kullanıcıların çoğunda, grafik kartı sürücülerinin temiz bir şekilde yeniden kurulması, video duvar kâğıtları ile ilgili sorunların çoğunu düzeltecektir. Buna siyah ekranlar ve duvar kâğıtları ayrı bir pencerede gösterilen kullanıcılar da dâhildir (**"ActiveMovie Penceresi"** başlıklı).
 
 1. Grafik kartınız için en güncel grafik kartı sürücülerini indirin (veya Nvidia ve Intel gibi iki tane varsa hepsini):
 
@@ -22,14 +22,14 @@ Kullanıcıların çoğunda, grafik kartı sürücülerinin temiz bir şekilde y
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Mevcut grafik kartı sürücülerinizi tamamen kaldırın ve talep edilirse tüm mevcut ayarları silin. Nvidia sürücülerinde "Temiz bir şekilde yeniden yükle" yazan ve işe yarayan bir onay kutusu da vardır.
+2. Mevcut grafik kartı sürücülerinizi tamamen kaldırın ve talep edilirse tüm mevcut ayarları silin. Nvidia sürücülerinde "Temiz bir şekilde yeniden yükle" yazan ve işe yarayan bir onay kutusu da vardır. Mevcut grafik kartı sürücülerinizi tamamen kaldırın ve talep edilirse tüm mevcut ayarları silin. Nvidia sürücülerinde "Temiz bir şekilde yeniden yükle" yazan ve işe yarayan bir onay kutusu da vardır.
 
 Ayrıca bunu nasıl yapacağınızı bilmiyorsanız [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) aracını da kullanabilirsiniz.
 
 3. 1. adımda indirdiğiniz sürücüleri kurun.
 4. PC'nizi yeniden başlatıp işe yarayıp yaramadığına bakın.
 
-::: tip Temiz bir yeniden kurulum yapmanız çok önemlidir. Bu demektir ki mevcut grafik kartı sürücüleriniz ve sürücü ayarlarınızın, yeni sürücüleri yüklemeden önce tamamen silinmesi gerekir. Aksi takdirde bu işlem işe yaramayacaktır. :::
+::: tip Temiz bir yeniden kurulum yapmanız çok önemlidir. Bu demektir ki mevcut grafik kartı sürücüleriniz ve sürücü ayarlarınızın, yeni sürücüleri yüklemeden önce tamamen silinmesi gerekir. Aksi takdirde bu işlem işe yaramayacaktır. ::: :::
 
 ## Codec Tweak Tool
 
