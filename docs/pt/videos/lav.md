@@ -29,7 +29,7 @@ Por motios legais, não podemos disponibilizar o LAV com o Wallpaper Engine, o q
 * Reinicie a aplicação e experimente voltar a usar o seu weallpaper de vídeo
 
 ## Ativar aceleração por hardware de WebM
-If you are experiencing stutters at the end of your video wallpapers, you can use .webm files which do not suffer from the same issue. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
+Se verificar que ocorre gaguejar no fim dos seus wallpapers de vídeo, pode usar ficheiros .webm que não sofrem do mesmo problema. Será melhor que também ative a aceleração por hardware para vídeos .webm, o que reduzirá significativamente a sua utilização do CPU e continuará a permtir que os wallpapers de vídeo sejam reproduzidos em ciclo sem um corte visível depois do último fotograma. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
 * Open the Wallpaper Engine settings and navigate to the "General" tab
 * Change the **WebM framework** option to **Prefer Native**
 * Restart the application and try using your video wallpaper again
