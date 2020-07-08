@@ -33,7 +33,7 @@ La solution la plus fiable à long terme semble être de réinstaller régulièr
 
 ## Utiliser une sauvegarde locale
 
-Si le problème persiste, vous pouvez également effectuer une sauvegarde locale de vos fonds d'écran, puis vous désabonner des fonds d'écran. Steam ne retéléchargera pas les fonds d'écran auxquels vous n'êtes plus abonné·e. Cette solution consiste simplement à ne compter que sur une sauvegarde locale. Voici comment faire :
+Si le problème persiste, vous pouvez également effectuer une sauvegarde locale de vos fonds d'écran, puis vous désabonner des fonds d'écran. Steam doit supprimer lui-même les fichiers de fond d'écran, sinon il tentera de les retélécharger. Voici comment faire :
 
 * [Sauvegarder vos fonds d'écran](/steam/backup)
 
