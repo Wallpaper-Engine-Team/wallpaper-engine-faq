@@ -1,40 +1,40 @@
-# La visualisation audio ne fonctionne pas / Aucun son détecté
+# Audio visualizers do not work / no sound detected
 
-La visualisation audio peut ne pas fonctionner à cause de plusieurs raisons. Voici une liste de tous les facteurs qui pourraient être à la source de vos problèmes.
+There are multiple reasons why audio visualizers may not work. We are listing all known possible reasons here, please read the full guide to ensure you have not missed any of the possible reasons why it does not work.
 
-## 1. Configuration du périphérique audio
-Allez dans les paramètres de Wallpaper Engine et trouvez l'onglet "Général". Vers le milieu, vous devriez trouver la section "Média" où vous pourrez choisir le périphérique audio. Assurez-vous que le bon périphérique est connecté. Si vous ne savez pas quel périphérique est le bon, essayez-les tous en écoutant de la musique jusqu'à ce que la visualisation fonctionne.
+## 1. Audio device setup
+Go to the Wallpaper Engine settings and navigate to the "General" tab. Towards the center you can find the "Media" section where you can select an audio input device. Make sure the correct device is selected. If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
 
-Si le bon périphérique audio est sélectionné, mais que vous n'entendez toujours aucun son ou si vos visualiseurs audio ne fonctionnent pas, assurez-vous de ne pas avoir mis Wallpaper Engine en muet dans le mélangeur de volume de Windows ou de ne pas avoir mis le son trop bas. Windows ne fait pas la différence entre le volume d'enregistrement et le volume de lecture. Cela veut dire que si vous avez choisi un volume faible avec Windows, les enregistrements audio ne fonctionneront pas non plus :
+If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
 
-![Augmenter le volume rétablit l'audio de Wallpaper Engine dans le mélangeur de volume Windows](./audiomixer.png)
+![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-Si l'audio est bien détecté, mais que le son n'est pas assez fort, n'oubliez pas que le volume des applications (votre lecteur de musique, votre navigateur, etc.) joue sur la détection du son. Si vous ne souhaitez pas augmenter le volume de l'application, vous pouvez améliorer la détection du son dans l'onglet "Général" des paramètres de Wallpaper Engine (le volume d'enregistrement par défaut est de 50).
+If audio is detected but is too quiet, keep in mind that the application volume (of your music player, web browser, etc.) affects how well audio is detected. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
 
-## 2. Problèmes spécifiques liés au matériel
+## 2. Hardware-specific issues
 
-### Casques Corsair Void Pro / Bluetooth / USB
+### Corsair Void Pro / Bluetooth / USB headsets
 
-Les casques sans fil ou USB posent souvent des problèmes de drivers audio. Modifier la fréquence d'échantillonnage audio dans les paramètres de Windows à 44100 Hz peut résoudre définitivement le problème :
+USB / wireless headsets are prone to sound driver issues. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:
 
-Faites un clic droit sur l'icône du volume dans la zone de notification et choisissez "Ouvrir les paramètres de son". Allez dans "Sortie", puis "Propriétés du périphérique". Cliquez sur "Propriétés des périphériques supplémentaires" et choisissez l'onglet "Statistiques avancées". Vous pourrez y définir le taux d'échantillonnage. Ce menu ne se trouve pas toujours au même endroit selon votre version de Windows. Si vous ne trouvez pas cette option, nous vous conseillons de chercher des tutoriels pour changer le taux d'échantillonnage selon votre version de Windows.
+Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
-![Mettre le taux d'échantillonnage sur "24 bits, 44100 Hz"](./samplingrate.png)
+![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Casques Razer avec THX
+### Razer headsets with THX
 
-Modifiez l'entrée audio dans Wallpaper Engine par "Haut-parleurs (Razer XYZ)". Cette option se trouve dans les paramètres généraux et cette solution devrait fonctionner avec tous les casques Razer disposant de THX.
+Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
 
-## 3. Conflit entre les applications
+## 3. Conflicting applications
 
-Si vous pensez que vos paramètres audio sont corrects, mais que les fonds d'écran sensibles à l'audio ne réagissent pas, vous utilisez probablement du matériel ou un logiciel audio qui désactive la fonction d'enregistrement en boucle sur votre PC. Vous devrez configurer ou désinstaller :
+If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
 
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* De nombreuses autres applications, notamment celles installées d'office dans les ordinateurs portables
+* Various other applications, especially pre-installed ones on notebooks
 
-Si vous ne savez pas si des applications de ce genre sont installées, vous pouvez également utiliser l'outil d'analyse de Wallpaper Engine. Il vous signalera si un programme est susceptible de poser problème :
+If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
 
-* [Outil d'analyse de Wallpaper Engine](/debug/scantool.html)
+* [Wallpaper Engine Scan Tool](/debug/scantool.html)
 
