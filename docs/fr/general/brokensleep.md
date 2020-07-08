@@ -1,27 +1,27 @@
-# Hibernation / Screensavers do not work
+# Veille / L'écran de veille ne marche pas
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouvez contourner ce problème en désactivant la sortie audio dans l'onglet "Général" des paramètres de Wallpaper Engine pour empêcher Windows de bloquer la mise en veille. Si vous souhaitez quand même avoir de l'audio, voici la marche à suivre.
 
-## Change the Windows power settings
+## Changer les paramètres d'alimentation de Windows
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouvez contourner ce problème en désactivant la sortie audio dans l'onglet "Général" des paramètres de Wallpaper Engine ou en reconfigurant Windows :
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
-6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
+1. Cherchez les "paramètres d'alimentation et mise en veille" dans la barre de recherche de Windows.
+2. Cliquez sur "Paramètres d'alimentation supplémentaires"
+3. Cliquez sur "Modifier les paramètres du mode" à côté du mode que vous avez choisi
+4. Cliquez sur "Modifier les paramètres d'alimentation avancés"
+5. Cherchez "Paramètres multimédias"
+6. Dans "Lors du partage de fichiers multimédias", choisissez "Autoriser l'ordinateur à se mettre en mode Absence" (économiseur d'écran) **ou** "Autorisez l'ordinateur à se mettre en veille"
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![Activer "Autorisez l'ordinateur à se mettre en veille"](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## La mise en veille les fonds d'écran Web
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+Les fonds d'écran Web utilisent un navigateur similaire au "CFE" de Google Chrome qui empêche la mise en veille. Vous pouvez contourner ce problème avec des invites de ligne de commande.
 
-1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
-2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
-3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
+1. Cherchez "cmd.exe" dans Windows et faites un clic droit pour sélectionner "Exécuter en tant qu'administrateur" (sinon ça ne fonctionnera pas !).
+2. Utilisez la commande `powercfg /requests` pour afficher tous les processus qui bloquent la mise en veille (vous pourrez alors vérifier si d'autres programmes posent également problème).
+3. Utilisez les trois commandes suivantes pour permettre à votre système de se mettre en veille alors que Wallpaper Engine est en cours d'exécution :
 
 ```
 powercfg /requestsoverride PROCESS webwallpaper32.exe AWAYMODE DISPLAY SYSTEM
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+Vous pouvez également paramétrer l'option **Écran en veille** dans l'onglet **Performances** des paramètres de Wallpaper Engine sur *Stop (libère la mémoire)*. De cette façon, Wallpaper Engine arrête toute lecture lorsque vous éteignez votre écran et que vous vous éloignez de l'ordinateur.
