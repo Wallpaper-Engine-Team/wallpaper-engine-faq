@@ -11,27 +11,27 @@ tags:
   - mp4
 ---
 
-# Использование LAV и DirectShow
-Если у вас есть проблемы, которые связаны с неисправными видеокодеками, или же вы хотите использовать дополнительные форматы видео, попробуйте установить LAV и включить DirectShow в настройках Wallpaper Engine. Это поможет улучшить поддержку видео в форматах **4K и HEVC на Windows 7** и создаст возможность проигрывать файлы формата **.mkv**.
+# Using LAV and DirectShow
+If you have issues related to broken video codecs or want to use additional video formats on your system, you can try to install LAV and enable DirectShow in the Wallpaper Engine settings. This should enable better support for **4K and HEVC videos on Windows 7** and allow opening of **.mkv** files.
 
-По юридическим соображениям, мы не можем поставлять LAV вместе с Wallpaper Engine, поэтому вам придется скачать и установить данный набор фильтров самостоятельно. После того, как вы установите LAV, вам понадобится изменить настройки Wallpaper Engine, чтобы разрешить программе использовать DirectShow:
+For legal reasons, we cannot bundle LAV with Wallpaper Engine which means you need to download and install it yourself. After you have installed LAV, you also need to configure Wallpaper Engine to use DirectShow:
 
-## 1. Установите LAV
-* Скачайте LAV Filters для x86 **И** x64 версий Windows:
-  * Зеркало #1: [Github](https://github.com/Nevcairiel/LAVFilters/releases)
-  * Зеркало #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
-* Установите LAV и убедитесь, что вашей учетной записи Windows предоставлены права администратора
-* Перезагрузите Wallpaper Engine.
+## 1. Install LAV
+* Download the x86 **AND** x64 versions of LAV Filters:
+  * Mirror #1: [Github](https://github.com/Nevcairiel/LAVFilters/releases)
+  * Mirror #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
+* Install LAV, make sure your Windows user has admin rights
+* Restart Wallpaper Engine.
 
-## 2. Включите DirectShow
-* Откройте настройки Wallpaper Engine и перейдите во вкладку «Общее»
-* В строке **«Фреймворк для видео»** выберите опцию **«Предпочитать DirectShow»**
-* Перезапустите программу и попробуйте снова использовать видеообои
+## 2. Enable DirectShow
+* Open the Wallpaper Engine settings and navigate to the "General" tab
+* Change the **Video framework** option to **Prefer DirectShow**
+* Restart the application and try using your video wallpaper again
 
-## Подключение WebM Hardware Acceleration
-Если проигрываемые видеообои начинают «подвисать» к концу записи, вы можете использовать файлы формата .webm, поскольку они не подвержены этой проблеме. Оптимальным решением будет включить аппаратное ускорение видео формата .webm, поскольку это значительно снизит загруженность процессора, при этом позволив видеообоям заново начинать воспроизведение видео без резкого «разрыва» после последнего кадра. Эти шаги должны быть выполнены после перечисленных ранее, поэтому перед началом убедитесь, что вы установили LAV и включили DirectShow согласно инструкции в предыдущей секции.
-* Откройте настройки Wallpaper Engine и перейдите во вкладку «Общее»
-* В строке **«Фреймворк WebM»** выберите опцию **«Предпочитать Native»**
-* Перезапустите программу и попробуйте снова использовать видеообои
+## Enabling WebM Hardware Acceleration
+If you are experiencing stutters at the end of your video wallpapers, you can use .webm files which do not suffer from the same issue. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
+* Open the Wallpaper Engine settings and navigate to the "General" tab
+* Change the **WebM framework** option to **Prefer Native**
+* Restart the application and try using your video wallpaper again
 
-Убедитесь, что в области появилась уведомлений иконка LAV и процент загрузки ЦП близок к нулю: это будет значить, что для видео формата .webm было подключено аппаратное ускорение. Если данная опция не работает, убедитесь, что у вас выбраны необходимые настройки, а фильтры LAV были установлены правильно.
+Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
