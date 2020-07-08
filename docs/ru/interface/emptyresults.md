@@ -1,11 +1,11 @@
-# Preview images / search results not showing
+# Не отображаются изображения для предпросмотра / результаты поиска
 
-If you cannot see preview images for wallpapers except for installed ones, there is a firewall or security software that blocks the browser from accessing the internet. You must disable that or add an exception for 'ui32.exe'.
+Если у вас не отображаются изображения для предпросмотра обоев, за исключением установленных у вас на компьютере, это говорит о том, что брандмауэр или защитная программа заблокировала выход обозревателя в интернет. Вам надо отключить данную программу или добавить в список ее исключений файл ui32.exe.
 
-The preview images are direct image downloads from the Steam servers. If the preview images are not loading, something is blocking the connection between Wallpaper Engine and the Steam servers. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
+Изображения для предпросмотра напрямую загружаются с серверов Steam. Если изображения для предпросмотра не открываются, это значит, что сообщение между Wallpaper Engine и серверами Steam было чем-то заблокировано. У некоторых пользователей в блокировке был виноват сетевой маршрутизатор. Чтобы понять, связана ли проблема с работой сетевого маршрутизатора в вашем случае, подключите компьютер к интернету через мобильную сеть на смартфоне и проверьте, загружаются ли изображения для просмотра.
 
-Some users of *accelerator software* also have issues with image previews being loaded. Make sure any type of network acceleration software is not blocking Wallpaper Engine from downloading image files in the background.
+Проблемы с отображением изображений для предпросмотра возникали у некоторых пользователей, которые устанавливали *программы-ускорители*. Удостоверьтесь, что программы для ускорения интернета не блокируют в фоновом режиме Wallpaper Engine при попытке скачать изображения.
 
-## No wallpapers or only very few wallpapers showing
+## Поиск не находит обои или находит очень мало
 
-You likely have too strict filters enabled. Try resetting all filters by clicking on the "Reset filters" button in the filter sidebar.
+Скорее всего вы установили слишком жесткие фильтры. Попробуйте сбросить настройки фильтра, нажав на кнопку «Сбросить фильтры» в боковой панели.
