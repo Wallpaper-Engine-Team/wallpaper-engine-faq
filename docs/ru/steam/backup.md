@@ -8,10 +8,10 @@
 
 Данная инструкция предполагает, что на вашем компьютере Steam и Wallpaper Engine установлены в `C:\Program Files (x86)\Steam\`. Если вы установили Steam и/или Wallpaper Engine в другом месте, вам понадобится искать файлы там.
 
-1. Locate the folder in which Steam stores your wallpapers, by default it is in `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** is the Steam ID of Wallpaper Engine, Steam uses this directory for all Wallpaper Engine downloads. :::
-2. Copy the folder 431960 to Wallpaper Engine's installation path here: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
-3. **Rename** the folder `431960` into `backup` so that the complete path looks like this: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
-4. The `backup` directory now includes all your previously downloaded wallpapers, each in their own sub-directory (the numbers represent the Steam Workshop ID of the wallpaper)
+1. Найдите папку, в которой Steam хранит ваши обои. По умолчанию это `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: Подсказка **431960** — это идентификационный номер Wallpaper Engine в Steam. Этот каталог используется для всех файлов, загруженных через Wallpaper Engine. :::
+2. Скопируйте папку 431960 в путь установки Wallpaper Engine: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
+3. **Переименуйте** папку `431960` в `backup` (резервная копия), чтобы путь полностью выглядет вот так: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
+4. Теперь в каталоге `backup` хранятся все загруженные до этого момента обои в индивидуальных подкаталогах (номера соответствуют идентификационным номерам, которые конкретным обоям присвоила Мастерская Steam)
 5. Restart the wallpaper browser and you should see the backed up wallpapers now. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them
 
 ::: warning Do **not** manually delete the Steam Workshop folder `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. This will cause your Steam to be confused and re-download all wallpapers. Simply unsubscribe from your wallpapers and let Steam delete the duplicate files itself. :::
