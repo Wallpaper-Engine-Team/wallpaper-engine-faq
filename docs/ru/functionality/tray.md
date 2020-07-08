@@ -4,11 +4,11 @@
 
 ::: warning Мы не рекомендуем не скрывать значок в области уведомлений за исключением ситуации, а которой он настолько вас раздражает, что вы готовы смириться с негативными последствиями этого решения. :::
 
-После того, как значок будет скрыт, Wallpaper Engine можно будет закрыть единственным образом: через опцию «Завершить процесс» в диспетчере задач Windows. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+После того, как значок будет скрыт, Wallpaper Engine можно будет закрыть единственным образом: через опцию «Завершить процесс» в диспетчере задач Windows. Пользовательский интерфейс необходимо будет запустить через Steam или .exe файл, что может быть довольно неудобно и неинтуитивно.
 
-If you still want to proceed with hiding the tray icon, this is how you do it:
+Если вы все еще хотите скрыть значок в области уведомлений, выполните следующие шаги:
 
-In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
+Чтобы создать раздел реестра, откройте меню «Пуск» Windows и введите в поиск слово «regedit.exe». Это запустит редактор реестра.
 
 1. Go to the following registry directory: *HKEY_CURRENT_USER\Software\WallpaperEngine*
 2. Right-click on the *WallpaperEngine* registry folder, select *New* and then *DWORD (32 Bit) Value*.
