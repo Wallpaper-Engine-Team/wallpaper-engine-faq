@@ -1,25 +1,19 @@
-# Exclure certains fonds d'écran de la recherche
+# Exclude certain wallpapers from the search
 
-Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web du Workshop Steam n'a pas les mêmes capacités de filtrage que l'application et vous montrera beaucoup trop de contenu.
+Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
 
-## Exclure certains genres de fonds d'écran
+## Excluding certain genres (anime, for example)
 
-Vous pouvez exclure les catégories que vous n'aimez pas dans l'application. Ouvrez l'onglet "Workshop" de Wallpaper Engine et activez la barre des filtres en cliquant sur "Filtrer les résultats" en haut à gauche. Désélectionnez toutes les catégories que vous ne voulez pas voir.
+You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
-Par exemple, si vous n'aimez pas trop le style manga, vous pouvez désélectionner les catégories *Anime* et *MMD (Miku-Miku-Dance)*. Vous pouvez également décocher *Cartoon* et *Filles*, car ils contiennent également des design d'anime, mais vous risquez de bloquer trop de contenu.
+If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
 
-![Désélectionnez dans les filtres les catégories que vous ne voulez pas voir](./categories.gif)
+![Deselect all categories you do not like in the filter sidebar](./categories.gif)
 
-## Bloquer certaines tranches d'âge
+## Excluding certain age ratings
 
-Le Workshop de Steam permet de charger également du contenu pour adulte, comme de la nudité. Si vous ne souhaitez pas voir ce genre de contenu, sélectionnez le filtre "Tout le monde" :
+The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
 
-![Désélectionnez dans les filtres le contenu "Adulte" et "Discutable"](./ageratings.gif)
+![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
 
-La plupart du contenu est bien labellisé et le contenu pour adulte sera filtré. Si vous voyez du contenu pour adultes qui a été labellisé pour "Tout le monde", veuillez nous le signaler immédiatement. Ce contenu sera placé dans une autre catégorie ou censuré.
-
-## Signaler du contenu illicite
-
-Notre équipe, les administrateurs et les modérateurs de Steam suppriment quotidiennement des fonds d'écran enfreignant les règles. Veuillez signaler tous les contenus du Workshop qui enfreignent les règles pour nous aider à les trouver.
-
-Le Workshop permet aux utilisateurs de publier du contenu sans que nous puissions l'approuver avant. C'est lié au fonctionnement de Steam et nous sommes malheureusement impuissants. Nous ne pouvons que supprimer le contenu déjà publié. Si cela vous pose problème, assurez-vous d'activer le filtre *Approuvé* dans les paramètres. Vous ne verrez ainsi que du contenu sélectionné et vérifié par notre équipe. Assurez-vous de lire les sections ci-dessus pour apprendre à configurer vos filtres et pouvoir ainsi ne trouver que les fonds d'écran qui vous intéressent.
+Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
