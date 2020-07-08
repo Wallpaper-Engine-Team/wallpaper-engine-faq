@@ -13,22 +13,22 @@ tags:
   - ugly
 ---
 
-# Видео обои отображаются неправильно
+# Video wallpapers look wrong
 
-В отличие от большинства других плееров, Wallpaper Engine использует аппаратное ускорение видео для лучшей производительности. А в этом случае драйвера видеокарты могут влиять на то, как в результате будет выглядеть видео.
+Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
 
-**Если ваши видео обои отображаются неправильно: не того цвета, слишком яркие или слишком темные, растянуты, выглядят некачественно, окружены рамкой**, это можно исправить, сбросив настройки видео в панели управления видеокарт Nvidia, AMD или Intel. Если у вас в компьютере установлено несколько графических процессоров (например, основная видеокарта фирмы Nvidia и дополнительная фирмы Intel), вам понадобится сбросить настройки для каждого из них.
+**If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
 
-Вы можете достичь того же результата, переустановив драйвера видеокарты при выбранной опции «Выполнить чистую установку». Этот вариант доступен, например, для драйверов Nvidia. Это значит, что сначала вам надо будет удалить драйвера, и, после того, как они будут полностью деинсталлированы, заново установить последнюю версию. Некоторые драйвера предлагают опцию «Выполнить чистую установку» в разделе расширенных настроек. Убедитесь, что эта опция выбрана, чтобы автоматически удалить все остаточные файлы, связанные с неисправными драйверами. Вы можете скачать последние версии драйверов от основных производителей видеокарт по ссылкам:
+You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Если вы не уверены, как это сделать: скачайте последнюю версию драйверов для вашей видеокарты, затем используйте программу DDU (доступна по ссылке), чтобы удалить драйвера видеокарты и сбросить настройки:
+If you are uncertain what to do: Download the latest drivers for your graphics card, then use DDU to uninstall your graphics card drivers and delete all settings:
 
-* [Скачать Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-Затем, установите новые драйвера, которые вы скачали. Если все было сделано правильно, эти действия гарантированно решат проблему.
+Afterwards, install the drivers you have just downloaded. This will definitely fix the problem if done right.
 
-::: Подсказка Если после переустановки драйверов видеокарты цвета по-прежнему отображаются неправильно, скорее всего у вас либо больше одного графического процессора, либо переустановка не была проведена «начисто». Убедитесь перед переустановкой, что вы полностью удалили драйвера видеокарты и сбросили все настройки. :::
+::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. Make sure you first uninstall all your current graphics card drivers and clear up all driver settings. :::
