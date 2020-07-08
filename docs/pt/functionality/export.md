@@ -10,6 +10,6 @@ No entanto, pode criar uma gravação dos seus wallpapers e tentar criar manualm
 
 #### Obter uma boa imagem dos seus wallpapers
 
-Pode obter facilmente uma boa imagem do seu wallpaper e redimensioná-la clicando com o botão direito do rato no separador "Instalado" e depois clicando em "Reproduzir em janela", o que irá abrir uma janela com o seu wallpaper dentro. Isto elimina a necessidade de ocultar os icones do seu ambiente de trabalho e outros elementos do Windows, além de permitir que redimensione a janela para obter o tamanho proporção que pretende para a sua "exportação":
+Pode obter facilmente uma boa imagem do seu wallpaper e redimensioná-la clicando com o botão direito do rato no separador "Instalado" e depois clicando em "Reproduzir em janela", o que irá abrir uma janela com o seu wallpaper dentro. Isto elimina a necessidade de ocultar os ícones do seu ambiente de trabalho e outros elementos do Windows, além de permitir que redimensione a janela para obter o tamanho proporção que pretende para a sua "exportação":
 
 ![Clique com o botão direito num wallpaper e selecione "Reproduzir em janela"](./playinwindow.gif)
