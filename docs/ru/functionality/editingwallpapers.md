@@ -28,15 +28,15 @@ If you want to edit one of your own wallpapers that you have previously lost the
 
 ::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
 
-### Web wallpapers
+### Web обои
 
 Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
 
-### Video wallpapers
+### Видео обои
 
 Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
 
-### Application wallpapers
+### Приложения-обои
 
 Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
 
