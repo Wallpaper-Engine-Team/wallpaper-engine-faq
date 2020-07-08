@@ -1,5 +1,5 @@
-# Playlist Causes focus loss / minimizes games
+# 재생목록이 초점을 흐리게 하고 / 게임을 최소화합니다
 
-If you have a playlist with wallpapers of the type **Web** and experience focus loss while playing games, make sure to pause the playlist while other applications are fullscreen. You can do so by turning **off** the **Allow wallpaper to change while paused** option in the playlist settings) or alternatively remove the web-based wallpapers from the playlist.
+**웹사이트** 유형의 배경화면 재생목록이 있으며 게임 중 초점을 잃으면, 다른 응용 프로그램이 전체 화면인 상태에서 재생목록을 일시정지하세요. 재생목록 설정에서 **일시정지된 동안 배경화면 변경 허용** 옵션을 **꺼짐**으로 바꾸거나 재생목록에서 웹사이트 기반 배경화면을 제거하여 실행할 수 있습니다.
 
-Chromium itself - which is the software used to display "Web" type wallpapers - is stealing the focus of your current window when loading a new wallpaper so we cannot fix this issue easily unfortunately.
+Chromium은 "웹사이트" 유형 배경화면을 표시하는 데 사용하는 소프트웨어로, 새 배경화면을 불러올 때 기존 창의 초점을 흐리게 합니다. 안타깝게도 이 문제는 쉽게 해결할 수 없습니다.
