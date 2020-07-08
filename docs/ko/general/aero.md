@@ -1,11 +1,11 @@
-# Windows 7: Aero cannot be enabled
+# Windows 7: Aero를 활성화할 수 없습니다
 
-Aero is a feature of Windows and a minimum system requirement to use Wallpaper Engine - if it is disabled, is is impossible to use a dynamic wallpaper. If it cannot be enabled automatically, there is an issue with your system or it does not fulfill the minimum hardware requirements to enable Aero on Windows 7.
+Aero는 Windows의 기능으로, Wallpaper Engine 사용에 필요한 최소 시스템 요구 사항입니다. 활성화되지 않으면, 동적 배경화면을 사용할 수 없습니다. 자동으로 활성화되지 않으면, 시스템에 문제가 있거나 Windows 7에서 Aero를 활성화하는 데 필요한 최소 하드웨어 요구 사항을 충족하지 못한 것입니다.
 
-Windows Aero is responsible for the transparent effect on the task bar ar the top row of windows. If your task bar is not transparent (and has a light blue color), Aero is disabled. You can enable Aero in the Windows 7 theme settings. Your Windows 7 should look like this after enabling and Aero theme (notice the transparent task bar and start menu):
+Windows Aero는 창 하단 작업 표시줄의 투명 효과를 제어합니다. 작업 표시줄이 투명하지 않으면 (그리고 연한 파란색이면), Aero가 비활성화 상태입니다. Windows 7 테마 설정에서 Aero를 활성화할 수 있습니다. Aero 테마를 활성화한 후에는 Windows 7이 아래와 같이 보여야 합니다 (투명 작업 표시줄과 시작 메뉴 확인):
 
-![Windows 7 with Aero](./w7.png)
+![Windows 7 Aero](./w7.png)
 
-If your hardware supports Windows Aero but you cannot enable it, **it usually means your graphics card drivers are broken**. Download the latest graphics card drivers for Windows 7 and try again.
+하드웨어가 Windows Aero를 지원하지만 활성화할 수 없으면, **보통 그래픽 카드 드라이버가 손상된 경우입니다**. Windows 7용 최신 그래픽 카드 드라이버를 다운로드하고 다시 시도하세요.
 
-::: tip **We recommend using Windows 10** because this problem only exists Windows 7. Windows 7 is not receiving any more updates and most hardware manufacturers have abandoned support for it. This can lead to issues with hardware drivers which cause Aero to be broken. :::
+::: tip 이 문제는 Windows 7에서만 발생하므로 **Windows 10 사용을 권장합니다**. Windows 7은 더 이상 업데이트가 되지 않으며, 대부분의 하드웨어 제조업체에서 지원하지 않습니다. 이로 인해 하드웨어가 Aero를 손상시킬 수 있는 문제가 발생합니다. :::
