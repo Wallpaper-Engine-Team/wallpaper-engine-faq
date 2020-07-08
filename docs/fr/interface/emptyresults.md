@@ -1,11 +1,11 @@
-# Preview images / search results not showing
+# Les aperçus / résultats de recherche ne s'affichent pas
 
-If you cannot see preview images for wallpapers except for installed ones, there is a firewall or security software that blocks the browser from accessing the internet. You must disable that or add an exception for 'ui32.exe'.
+Si vous ne pouvez pas voir des aperçus des fonds d'écran, à l'exception de ceux que vous avez installés, un pare-feu ou un antivirus empêche le navigateur d'accéder à internet. Vous devrez peut-être les désactiver ou ajouter une exception pour "ui32.exe".
 
-The preview images are direct image downloads from the Steam servers. If the preview images are not loading, something is blocking the connection between Wallpaper Engine and the Steam servers. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
+Les aperçus sont téléchargés directement sur les serveurs Steam. S'ils ne se téléchargent pas, c'est que quelque chose empêche Wallpaper Engine d'accéder aux serveurs de Steam. Vous pouvez vérifier si le problème vient de votre routeur en activant le point d'accès mobile de votre smartphone et en y connectant votre ordinateur.
 
-Some users of *accelerator software* also have issues with image previews being loaded. Make sure any type of network acceleration software is not blocking Wallpaper Engine from downloading image files in the background.
+Certains utilisateurs utilisant un *logiciel d'accélération* ont également des problèmes de téléchargement des images. Assurez-vous qu'aucun logiciel n'empêche Wallpaper Engine de télécharger des images en arrière-plan.
 
-## No wallpapers or only very few wallpapers showing
+## Aucun fond d'écran, ou très peu, ne s'affiche
 
-You likely have too strict filters enabled. Try resetting all filters by clicking on the "Reset filters" button in the filter sidebar.
+Vous avez probablement paramétré des filtres trop stricts. Retirez tous les filtres en cliquant sur "Réinitialiser les filtres" dans la barre des filtres.
