@@ -11,13 +11,13 @@ Wallpaper Engine поддерживает [**Razer Chroma**](https://www.razer.c
 
 Найдите **плагин iCUE & Chroma SDK** разделе «Плагины» в настройках Wallpaper Engine. В поле слева можно ставить и снимать галочку, соответственно включая и отключая общий плагин подсветки RGB. Кроме этого, рядом с полем для галочки находится значок в виде шестеренки, на который можно кликнуть для более детальной настройки плагина.
 
-Кроме этого поддержку RGB-подсветки можно включать и выключать для отдельных обоев. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+Кроме этого поддержку RGB-подсветки можно включать и выключать для отдельных обоев. При включенном плагине в верхней части списка свойств конкретных обоев становится доступной опция **«Включить LED-эффекты»**, с помощью которой можно разрешить или запретить этим обоям управлять RGB-подсветкой.
 
-## The RGB hardware colors seem too bright
+## RGB-подсветка слишком яркая
 
 By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
 
-## My RGB hardware does not work
+## RGB-подсветка не работает
 
 Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
 
