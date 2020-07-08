@@ -34,4 +34,4 @@ Se verificar que ocorre gaguejar no fim dos seus wallpapers de vídeo, pode usar
 * Mude a opção **Framework WebM** para **Preferir nativo**
 * Reinicie a aplicação e experimente voltar a usar o seu wallpaper de vídeo
 
-Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+Verifique se o ícone do LAV no tabuleiro do sistema aparece e se a utilização do CPU é quase zero, então o seu conteúdo .webm é agora acelerado por hardware. Se não parecer estar a funcionar, certifique-se de que todas as opções estão configuradas corretamente e de que o LAV está corretamente instalado.
