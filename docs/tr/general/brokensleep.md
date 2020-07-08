@@ -1,10 +1,10 @@
 # Hazırda bekletme / Ekran koruyucular çalışmıyor
 
-Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Windows'un en başta hazırda bekletmeyi engellemesini önlemek için Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak bunu çözebilirsiniz. Ses çıkışı almaya devam etmek istiyorsanız nasıl yapacağınızı görmek için bu rehberdeki adımlara uyun.
+Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak veya Windows'u ses çalma etkinken uykuya geçmesini sağlayacak şekilde yeniden yapılandırarak bunu çözebilirsiniz: Ses çıkışı almaya devam etmek istiyorsanız nasıl yapacağınızı görmek için bu rehberdeki adımlara uyun.
 
 ## Windows güç ayarlarını değiştirin
 
-Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak veya Windows'u ses çalma etkinken uykuya geçmesini sağlayacak şekilde yeniden yapılandırarak bunu çözebilirsiniz:
+Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak veya Windows'u ses çalma etkinken uykuya geçmesini sağlayacak şekilde yeniden yapılandırarak bunu çözebilirsiniz:
 
 1. Windows arama kısmına yazarak "Güç ve uyku ayarları"na gidin.
 2. "Ek güç ayarları"na tıklayın
@@ -17,7 +17,7 @@ Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper 
 
 ## "Web" duvar kâğıtlarındaki hazırda bekletme sorunları
 
-"Web" duvar kâğıtları, hazırda bekletme modunu engelleyecek Google Chrome ("CEF") benzeri bir web tarayıcısı kullanır. Bu durum tarayıcıda çözülene kadar bazı komut satırı bilgi istemleriyle bu sorunu çözebilirsiniz.
+"Web" duvar kâğıtları, hazırda bekletme modunu engelleyecek Google Chrome ("CEF") benzeri bir web tarayıcısı kullanır. Bu durum tarayıcıda çözülene kadar bazı komut satırı bilgi istemleriyle bu sorunu çözebilirsiniz. Bu durum tarayıcıda çözülene kadar bazı komut satırı bilgi istemleriyle bu sorunu çözebilirsiniz.
 
 1. Windows'ta "cmd.exe"yi aratarak sağ tıklayın ve "Yönetici olarak çalıştır"ı (çok önemli, aksi hâlde bu işe yaramayacaktır!) seçin.
 2. Sisteminizi hazırda bekletme konusunda engelleyen tüm işlemleri görüntülemek için `powercfg /requests` komutunu kullanın (ayrıca başka programların hatalı olup olmadığını da kontrol edin).
@@ -29,4 +29,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Ek olarak Wallpaper Engine ayarlarında bulunan **Performans** sekmesindeki **Uykuda göster** seçeneğini *Dur (boş bellek)* olarak değiştirebilir ve ekranınızı kapatabilirsiniz. Bu şekilde Wallpaper Engine bilgisayarınızı boş bırakıp ekranınızı kapattığınızda tüm oynatmaları durduracaktır.
+Ek olarak Wallpaper Engine ayarlarında bulunan **Performans** sekmesindeki **Uykuda göster** seçeneğini *Dur (boş bellek)* olarak değiştirebilir ve ekranınızı kapatabilirsiniz. Bu şekilde Wallpaper Engine bilgisayarınızı boş bırakıp ekranınızı kapattığınızda tüm oynatmaları durduracaktır. Bu şekilde Wallpaper Engine bilgisayarınızı boş bırakıp ekranınızı kapattığınızda tüm oynatmaları durduracaktır.
