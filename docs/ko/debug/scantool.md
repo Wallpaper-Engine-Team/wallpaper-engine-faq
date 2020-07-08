@@ -1,20 +1,21 @@
-# Use the Wallpaper Engine scan tool to create a debug log
+# Wallpaper Engine 스캔 도구를 사용하여 디버그 로그 생성하기
 
-1. Make sure Wallpaper Engine is running (if possible).
-2. Choose the 4th launch option in Steam (*Scan for conflicting applications*):
-3. Click on **Save Full Log** and save it to your desktop.
-4. Share the log file with by using either of these methods developers:
-    * Go to [pastebin.com](https://pastebin.com/) and copy-paste the contents of the log file in there, afterwards share the link to your paste.
-    * Alternatively, you can just attach the log file to an email and send it to us. If you have already an existing email discussion, please reply to the previous email with the attached log file. If this is your first email, please add some information about the problem you were having or a link to an existing discussion.
+Wallpaper Engine에 FAQ의 도움으로 해결할 수 없는 기술적 문제가 발생하면, 저희에게 공유할 시스템 로그 파일을 만들 수 있습니다.
 
-::: tip Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues. :::
+1. (가능한 경우) Wallpaper Engine이 실행 중인지 확인합니다.
+2. Steam에서 4번째 실행 옵션을 선택합니다 (*"충돌 응용프로그램 스캔"*, 아래의 짧은 비디오를 참조하세요):
+3. **전체 로그 저장**을 클릭하여 바탕화면에 저장합니다. (아래의 짧은 비디오를 참조하세요)
+4. 다음 방법 중 하나를 선택하여 개발자에게 로그 파일을 공유합니다:
+    * [pastebin.com](https://pastebin.com/)으로 이동하여 로그 파일 내용을 복사하여 붙여넣은 뒤, 해당 링크를 공유하세요.
+    * 또는 이메일에 로그 파일을 첨부하여 보낼 수 있습니다. 이미 보낸 이메일이 있으면, 이전 이메일에 로그 파일을 첨부해서 회신하세요. 처음 보내는 이메일이라면, 발생한 문제에 대한 정보 또는 기존 토론 링크를 추가하세요.
+5. *선택 사항:* 작동 중단이 발생하면 **.mdmp** 파일의 *wallpaper_engine* 디렉터리를 확인하고, 그 내용을 이메일로 보내거나 어딘가에 업로드하세요. 그리고 다수의 .mdmp 파일을 찾으면, 가장 최신 파일을 보내주세요. ::: tip 처음에는 스캔 도구가 보고하는 문제가 없더라도, 로그 파일을 자세히 조사하면 저희가 기술적 문제의 해결 방법을 빠르게 조언하는 데 도움이 될 일반적인 컴퓨터 문제를 찾을 수 있는 경우가 종종 있습니다. :::
 
-#### Additional video help
+#### 추가 비디오 도움말
 
-**Step 2**
+**2단계**
 
-![Scan Tool Launch Option](./scantoollaunch.gif)
+![스캔 도구 시작 옵션](./scantoollaunch.gif)
 
-**Step 3**
+**3단계**
 
-![Scan Tool Save Log](./scantoolsave.gif)
+![스캔 도구 저장 로그](./scantoolsave.gif)
