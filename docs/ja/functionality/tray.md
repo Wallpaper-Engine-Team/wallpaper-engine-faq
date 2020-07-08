@@ -1,20 +1,20 @@
-# Hiding the Wallpaper Engine tray icon
+# Wallpaper Engineトレイアイコンを非表示にする
 
-It is possible to hide the Wallpaper Engine tray icon by manually creating a registry key which tells Wallpaper Engine to hide the tray icon next to the Windows clock.
+Windowsの時計の隣にあるトレイアイコンを非表示にするようWallpaper Engineに伝えるレジストリキーを作成することにより、手動でWallpaper Engineのトレイアイコンを非表示にすることは可能です。
 
-::: warning We do not recommend to do this unless you are absolutely sure that the tray icon is annoying you so much that you are willing to accept the downsides of hiding the tray icon. :::
+::: warning あなたが、トレイアイコンを非表示にすることによる短所を積極的に受け入れてもいいと思うほどトレイアイコンを嫌っているのでない限り、これはお勧めしません。 :::
 
-Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+トレイアイコンが非表示になっていると、Wallpaper Engineを終了させる方法は、Windowsのタスクマネージャを通すしかなくなります。 ユーザーインターフェースは、Steamか.exeファイルからしか開けません。これは不便で、混乱を引き起こす可能性がある方法です。
 
-If you still want to proceed with hiding the tray icon, this is how you do it:
+それでもトレイアイコンを非表示にしたい場合は、次のようにすれば行えます。
 
-In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
+レジストリキーを作成するには、Windowsのスタートメニューを開き、"regedit.exe"と入力します。すると"レジストリ エディター"が開きます。
 
-1. Go to the following registry directory: *HKEY_CURRENT_USER\Software\WallpaperEngine*
-2. Right-click on the *WallpaperEngine* registry folder, select *New* and then *DWORD (32 Bit) Value*.
-3. Give the registry the following name: *hideTrayIcon*
-4. Make sure that the name is correct, it must have no spaces and must be written exactly like that.
-5. Double-click on the registry key and give it the value: *1*
-6. Restart Wallpaper Engine, the application will now not show a tray icon.
+1. 次のレジストリディレクトリに行きます： *HKEY_CURRENT_USER\Software\WallpaperEngine*
+2. *WallpaperEngine*レジストリフォルダを右クリックし、*新規*、次に*DWORD (32 Bit) Value*を選択します。
+3. レジストリに次の名前をつけます：*hideTrayIcon*
+4. 名前が正しいことをよく確認します。スペースを入れず、全く同じように入力します。
+5. レジストリキーをダブルクリックし、値を入れます：*1*
+6. Wallpaper Engineを再起動すると、トレイアイコンはもう表示されません。
 
-You can reverse this process by setting *hideTrayIcon* to *0* or deleting it altogether, followed by restarting Wallpaper Engine. 
+元に戻すには、*hideTrayIcon*を*0*にするか、これを削除します。その後Wallpaper Engineを再起動します。 
