@@ -1,36 +1,36 @@
 ---
 tags:
-  - interfaz de usuario
-  - verde
-  - blanco
-  - pixelado
-  - ilegible
+  - user interface
+  - green
+  - white
+  - pixelated
+  - unreadable
 ---
 
-# La ventana de Wallpaper Engine no se ve correctamente
+# Wallpaper Engine window not displayed correctly
 
-Si la ventana de búsqueda de Wallpaper Engine no funciona, suele ser a causa de que los controladores de la tarjeta gráfica están dañados o por culpa del antivirus. Sigue leyendo para obtener más información.
+If your Wallpaper Engine browse window is not working, it is usually caused by faulty graphics card drivers or antivirus applications. Read below for more information.
 
-::: warning ¡Aviso! Ten en cuenta que esta sección trata de que la **interfaz** de Wallpaper Engine se queda blanca o negra. Si los **fondos aparecen en negro**, dirígete aquí: [Pantalla negra / los vídeos no se reproducen](/noshow/notplaying.html). :::
+::: warning Please note This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
 
-## El buscador de Wallpaper Engine aparece blanco o negro
+## Wallpaper Engine browser is Black or White
 
-Para la mayoría de usuarios, esto significa que el antivirus bloquea la interfaz de usuario de Wallpaper Engine por error. Asegúrate de crear una excepción en el antivirus para que ignore Wallpaper Engine, especialmente todos los ejecutables en el directorio de instalación wallpaper_engine y, sobre todo, **wallpaper_engine/bin/ui32.exe**.
+For most people, this means that the Wallpaper Engine user interface is being blocked by an antivirus application by mistake. Make sure to set up an exception in your antivirus application so that it ignores Wallpaper Engine, specifically all executables in the wallpaper_engine installation directory and especially **wallpaper_engine/bin/ui32.exe**.
 
-En algunos casos es necesario verificar los archivos de Wallpaper Engine después o incluso volver a instalar el programa si el antivirus ha bloqueado de forma permanente algunos archivos importantes de Wallpaper Engine:
+In some cases, it is necessary to verify the Wallpaper Engine files afterwards or even to re-install Wallpaper Engine if your antivirus application has placed a permanent lock on some important Wallpaper Engine files:
 
-* [Steam Support: Verificar la integridad de los archivos del juego](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-Si la verificación de archivos de Steam no soluciona el problema tras configurar el antivirus, intenta volver a instalar Wallpaper Engine en Steam. Si el antivirus ha enloquecido, es probable que haya bloqueado de forma permanente las rutas de acceso que utiliza Wallpaper Engine. En ese caso, desinstala primero el antivirus y después instala Wallpaper Engine en un directorio diferente: puedes crear una biblioteca de juegos nueva en Steam para hacerlo.
+If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
 
-## La interfaz de Wallpaper Engine tiene artefactos verdes o líneas blancas
+## Wallpaper Engine interface with green artifacts or white lines
 
-Los controladores de la tarjeta gráfica están dañados o desconfigurados. Descarga los más recientes (incluso si ya los tienes instalados) y vuelve a instalarlos de cero. Es necesario que desinstales los controladores que tienes instalados e instales los más recientes para asegurarte de que se eliminen los archivos o ajustes dañados.
+Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
 
-Si el problema persiste, cierra Wallpaper Engine y vuelve a abrirlo con la tercera opción en Steam: «Deshabilitar aceleración de hardware».
+If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
 
-### Error de la interfaz de Steam que destroza la interfaz de Wallpaper Engine
+### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
 
-La interfaz de Steam tiene un error atípico que puede causar que la pantalla del programa se vea negra. Puedes hacer lo siguiente:
+The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
 
-Cierra Wallpaper Engine (haz clic en el icono en la bandeja y selecciona «Salir»). Después, abre Steam, haz clic derecho en Wallpaper Engine, ve a «Propiedades» y desactiva la opción «Habilitar interfaz de Steam». Tras desactivar la opción, reinicia Wallpaper Engine a través de Steam. 
+Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
