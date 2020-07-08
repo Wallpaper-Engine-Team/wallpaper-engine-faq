@@ -40,9 +40,9 @@ Steam еще не закончил загружать или проверять 
 * Подождите хотя бы один день и попробуйте загрузить обои снова, это поможет при проблемах с сервером Steam.
 * **В крайнем случае** попробуйте переустановить Wallpaper Engine, чтобы удалить неисправные файлы Steam (все обои будут загружены заново!). :::
 
-::: tip Steam servers go offline every week for maintenance at a fixed time:
+::: Подсказка Каждую неделю в установленное время сервера Steam отключаются для проведения профилактических работ:
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
+* Западное побережье США: **Вторник, 16:00 (UTC−7)**
 * Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
 * Same time in China: **Wednesday at 8 am (UTC + 8)**
 
