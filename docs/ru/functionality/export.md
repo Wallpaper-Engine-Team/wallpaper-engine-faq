@@ -1,8 +1,8 @@
 # Экспорт обоев в виде GIF / видео
 
-Wallpapers made in the Wallpaper Engine editor are more like levels in a computer game rather than a video file. They do not have a clearly defined start or end and they contain elements of randomness in them. Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
+Обои, сделанные в редакторе Wallpaper Engine, по своей структуре больше похожи на уровни в компьютерной игре, чем на видеофайл. У них нет четко обозначенного начала и конца, и в них присутствует элемент случайности. Невозможно экспортировать компьютерную игру в формате видеофайла, и точно так же невозможно экспортировать обои в виде GIF или видео.
 
-However, you can create a recording of your wallpapers and manually try to create a perfect loop if the elements in your wallpaper allow for that. For this purpose, we recommend free tools like *ScreenToGif* or *OBS Studio*:
+Тем не менее, вы можете записать воспроизведение обоев на видео и попробовать вручную зациклить его, если изображение обоев это позволяет. Мы рекомендуем использовать для этого бесплатные инструменты, например *ScreenToGif* или *OBS Studio*:
 
 * [ScreenToGif](https://www.screentogif.com/) (Easy to use)
 
