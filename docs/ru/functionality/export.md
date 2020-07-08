@@ -4,12 +4,12 @@
 
 Тем не менее, вы можете записать воспроизведение обоев на видео и попробовать вручную зациклить его, если изображение обоев это позволяет. Мы рекомендуем использовать для этого бесплатные инструменты, например *ScreenToGif* или *OBS Studio*:
 
-* [ScreenToGif](https://www.screentogif.com/) (Easy to use)
+* [ScreenToGif](https://www.screentogif.com/) (более простой в использовании)
 
-* [OBS Studio](https://obsproject.com/) (More advanced features)
+* [OBS Studio](https://obsproject.com/) (больше продвинутых функций)
 
-#### Getting a clear shot of your wallpapers
+#### Захват чистого изображения
 
-You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+Перейдите во вкладку «Установлено», кликните на обои правой кнопкой мыши и выберите опцию «Воспроизвести в окне», которая запустит их в отдельном окне. Благодаря этой функции при их видеозахвате вы сможете с легкостью контролировать чистоту изображения и его размер. Она избавляет вас от необходимости скрывать ярлыки рабочего стола и другие элементы Windows, а также позволяет изменять масштаб окна обоев, чтобы получить нужные вам размер и соотношение сторон в «экспортируемом» файле:
 
-![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
+![Кликните на обои правой кнопкой мыши и выберите опцию «Воспроизвести в окне»](./playinwindow.gif)
