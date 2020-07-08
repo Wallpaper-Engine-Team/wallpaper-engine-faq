@@ -1,8 +1,8 @@
-# "DirectX 10을 지원하지 않습니다" 작동 중단
-인터넷에서 정확한 그래픽 카드 이름을 검색하여, 해당 그래픽 카드가 DirectX 10을 지원하는지 확인합니다. 그래픽 카드가 오래되어 하드웨어 차원에서 DirectX 10을 지원하지 않는다면, DirectX 10 설치로 이 문제를 해결할 수 없습니다.
+# "DirectX 10 not supported" crash
+Ensure your graphics card actually supports DirectX 10 by doing a web-search on the exact name of your card. If you have an old card, installing DirectX 10 will not fix this problem if your graphics card does not support DirectX 10 on hardware level.
 
-카드가 지원하는데 이 오류가 발생하면, 최신 드라이버 (또는 오래되었지만 안정적인 드라이버)를 다시 설치해 보세요. 그리고 PC에서 Wallpaper Engine의 그래픽 카드 접근을 막는 개입성이 강한 보안 소프트웨어를 제거합니다.
+If your card does support it and you get this error, then try reinstalling the latest driver (or an older, more stable driver). Remove intrusive security software from the PC that could prevent Wallpaper Engine from accessing your graphics card.
 
-## Duet Display 및 기타 디스플레이 확장 소프트웨어
-Duet Display와 같은 디스플레이 확장 소프트웨어는 진짜 그래픽 카드의 기능을 할 수 없는 가짜 그래픽 카드를 설치합니다. 이것은 Wallpaper Engine에서 이런 오류을 일으키기도 합니다. Wallpaper Engine은 DirectX 10을 지원하는 진짜 그래픽 카드를 요구하기 때문입니다. Duet Display와 같은 디스플레이 확장 소프트웨어는 Wallpaper Engine과 호환할 수 없으므로 꺼야 합니다.
+## DuetDisplay and other display extension software
+Display extension software like DuetDisplay installs a fake graphics card which is not capable of the same features as a real graphics card. This can also be the cause for Wallpaper Engine to show this error as Wallpaper Engine requires a real graphics card with DirectX 10 support. Display extension software like DuetDisplay is not compatible with Wallpaper Engine and must be turned off.
 
