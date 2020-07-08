@@ -1,37 +1,37 @@
 ---
 tags:
   - webm
-  - video
-  - black
+  - vídeo
+  - negro
   - codec
-  - filters
+  - filtros
   - 4K
   - HEVC
   - mkv
   - mp4
 ---
 
-# Using LAV and DirectShow
-If you have issues related to broken video codecs or want to use additional video formats on your system, you can try to install LAV and enable DirectShow in the Wallpaper Engine settings. This should enable better support for **4K and HEVC videos on Windows 7** and allow opening of **.mkv** files.
+# Usar LAV y DirectShow
+Si tienes problemas con codecs de vídeo dañados o quieres usar otros formatos de vídeo en el equipo, puedes instalar LAV y habilitar DirectShow en la configuración de Wallpaper Engine. Esto permitirá que los **vídeos 4K y HEVC funcionen mejor en Windows 7** y se podrán abrir archivos **.mvk**.
 
-For legal reasons, we cannot bundle LAV with Wallpaper Engine which means you need to download and install it yourself. After you have installed LAV, you also need to configure Wallpaper Engine to use DirectShow:
+Por motivos legales, no podemos hacer un paquete de descarga de LAV con Wallpaper Engine, por lo que tendrás que descargarlo tú. Tras instalar LAV, tendrás que configurar Wallpaper Engine para usar DirectShow:
 
-## 1. Install LAV
-* Download the x86 **AND** x64 versions of LAV Filters:
-  * Mirror #1: [Github](https://github.com/Nevcairiel/LAVFilters/releases)
-  * Mirror #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
-* Install LAV, make sure your Windows user has admin rights
-* Restart Wallpaper Engine.
+## 1. Instalar LAV
+* Descarga las versiones x86 **Y** x64 de LAV Filters:
+  * Descarga #1: [Github](https://github.com/Nevcairiel/LAVFilters/releases).
+  * Descarga #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html).
+* Instala LAV y asegúrate de que el usuario de Windows tiene permisos de administrador.
+* Reinicia Wallpaper Engine.
 
-## 2. Enable DirectShow
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **Video framework** option to **Prefer DirectShow**
-* Restart the application and try using your video wallpaper again
+## 2. Habilitar DirectShow
+* Abre la configuración de «Wallpaper Engine» y dirígete a la etiqueta «General».
+* Cambia la opción **Plataforma de vídeo preferida** a **LAV de DirectShow**.
+* Reinicia el programa e intenta usar el fondo de vídeo otra vez.
 
-## Enabling WebM Hardware Acceleration
-If you are experiencing stutters at the end of your video wallpapers, you can use .webm files which do not suffer from the same issue. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **WebM framework** option to **Prefer Native**
-* Restart the application and try using your video wallpaper again
+## Habilitar aceleración de hardware de WebM
+Si los vídeos se entrecortan al final de los fondos, puedes usar archivos .webm que no tengan el mismo problema. Te recomendamos habilitar la aceleración de hardware para los vídeos .webm, ya que reducirá el consumo de CPU y, aun así, permitirá que los fondos de vídeo estén en bucle sin que se notes demasiado el corte en el último fotograma. Esto es una continuación de los pasos mencionados anteriormente, así que asegúrate de haber instalado LAV y haber habilitado DirectShow como se explica en la sección anterior.
+* Abre la configuración de «Wallpaper Engine» y dirígete a la etiqueta «General».
+* Cambia la opción **Plataforma de WebM preferida** a **Nativo**.
+* Reinicia el programa e intenta usar el fondo de vídeo otra vez.
 
-Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+Comprueba que aparece el icono de LAV en la bandeja del sistema y que el consumo de CPU es casi cero. Si es así, el contenido .webm cuenta ya con la aceleración de hardware. En caso de que no funcione, comprueba que has configurado bien todas las opciones y que LAV se ha instalado correctamente.
