@@ -11,27 +11,27 @@ tags:
   - mp4
 ---
 
-# Using LAV and DirectShow
-If you have issues related to broken video codecs or want to use additional video formats on your system, you can try to install LAV and enable DirectShow in the Wallpaper Engine settings. This should enable better support for **4K and HEVC videos on Windows 7** and allow opening of **.mkv** files.
+# LAVとDirectShowの使用
+ビデオコーデックが破損しているという問題が起きていたり、システムにビデオフォーマットを追加したかったりする場合、LAVをインストールしてWallpaper Engine設定でDirectShowを有効にすることができます。 これにより、**Windows 7上で4KやHEVC動画**がより良くサポートされるようになったり、**.mkv**ファイルを開くことができるようになったりするはずです。
 
-For legal reasons, we cannot bundle LAV with Wallpaper Engine which means you need to download and install it yourself. After you have installed LAV, you also need to configure Wallpaper Engine to use DirectShow:
+法的な理由により、Wallpaper EngineはLAVをバンドルすることができません。ダウンロードとインストールはご自身で行っていただく必要があります。 LAVのインストール後、Wallpaper EngineでDirectShowを使えるように設定をする必要もあります。
 
-## 1. Install LAV
-* Download the x86 **AND** x64 versions of LAV Filters:
-  * Mirror #1: [Github](https://github.com/Nevcairiel/LAVFilters/releases)
-  * Mirror #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
-* Install LAV, make sure your Windows user has admin rights
-* Restart Wallpaper Engine.
+## 1. LAVをインストールする
+* LAV Filtersのx86バージョン**と**x64バージョンをダウンロードします。
+  * ミラー #1：[Github](https://github.com/Nevcairiel/LAVFilters/releases)
+  * ミラー #2：[Fosshub](https://www.fosshub.com/LAV-Filters.html)
+* LAVをインストールします。Windowsの管理者権限を持っていることを確認してください。
+* Wallpaper Engineを再起動します。
 
-## 2. Enable DirectShow
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **Video framework** option to **Prefer DirectShow**
-* Restart the application and try using your video wallpaper again
+## 2. DirectShowを有効にする
+* Wallpaper Engine の設定画面で、「一般」タブを開きます。
+* **ビデオフレームワーク**オプションを**DirectShowを優先**に変更します。
+* アプリケーションを再起動し、ビデオ壁紙を再び使用します。
 
-## Enabling WebM Hardware Acceleration
-If you are experiencing stutters at the end of your video wallpapers, you can use .webm files which do not suffer from the same issue. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **WebM framework** option to **Prefer Native**
-* Restart the application and try using your video wallpaper again
+## WebM Hardware Accelerationを有効にする
+ビデオ壁紙が終わりの方でコマ落ちする場合は、.webmファイルを使うと解消する可能性があります。 .webmビデオでハードウェアアクセラレーションを有効にするとさらに良いでしょう。それによってCPUの使用率が大きく減少し、さらに、ビデオ壁紙が最後のフレームのあと目立ってカットされることなくループできます。 これは上記の手順の続きです。前のセクションの指示通りにLAVをインストールし、DirectShowを有効にしておいてください。
+* Wallpaper Engine の設定画面で、「一般」タブを開きます。
+* **WebM フレームワーク**オプションを**Native優先**に変更します。
+* アプリケーションを再起動し、ビデオ壁紙を再び使用します。
 
-Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+LAVシステムトレイアイコンが表示されているかどうか確認します。CPU使用率がほぼゼロなら、.webmコンテンツがハードウェアでアクセラレーションされているということです。 きちんと動作していないように見えるときは、すべてのオプションが正しく設定されているかどうか、また、LAVが正しくインストールされているかどうかを確認してください。
