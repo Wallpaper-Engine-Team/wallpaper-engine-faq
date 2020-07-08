@@ -3,47 +3,51 @@ tags:
   - hardware
 ---
 
-# RGB hardware support (iCUE & Chroma)
+# Suporte para hardware RGB (iCUE & Chroma)
 
-Wallpaper Engine supports [**Razer Chroma**](https://www.razer.com/chroma) and [**Corsair iCUE**](https://www.corsair.com/icue), including systems which may integrate into either ecosystem.
+O Wallpaper Engine suporta [**Razer Chroma**](https://www.razer.com/chroma) e [**Corsair iCUE**](https://www.corsair.com/icue), incluindo sistemas que podem ser integrados em qualquer dos ecossistemas.
 
-## How do I enable / disable RGB hardware
+## Como ativo /desativo hardware RGB
 
-In the "Plugins" section of the Wallpaper Engine settings, you can find the **iCUE & Chroma SDK plugin**. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. You can also click on the cogwheel symbol next to it to further configure individual parts of it.
+Na secção "Plugins" das definições do Wallpaper Engine, poderá encontrar o **plugin iCUE & Chroma SDK**. Pode permitir ou não que este plugin RGB geral seja carregado marcando a caixa de verificação à esquerda. Também pode clicar no símbolo da roda dentada ao seu lado para configurar ainda mais parte individuais do plugin.
 
-Additionally, RGB support can be toggled off on each wallpaper. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+Mais ainda, o suporte para RGB pode ser desativado em cada wallpaper. No topo da lista de propriedades de cada wallpaper encontrará a opção **Ativar efeitos dos LED** se o plugin estiver ativado permitindo-lhe controlar se pretende que um wallpaper individual controle as suas luzes RGB.
 
-## The RGB hardware colors seem too bright
+## As cores do hardware RGB parecem ser demasiado fortes
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+Por predefinição, reforçamos um bocadinho as cores RGB. Na maior parte dos wallpapers, isto tende a ter melhor aspecto, o que é subjetivo, mas se não gostar pode desligá-lo desativando a opção **Reforçar cores dos LED** nas definições do plugin RGB.
 
-## My RGB hardware does not work
+## O meu hardware RGB não funciona
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+O Wallpaper Engine não é capaz de comunicar diretamente com o seu hardware RGB, todas as informações de cores são enviadas primeiro para os controladores RGB. Se um ou mais elementos de hardware não funcionarem, o problema deverá residir no lado software do seu fabricante de hardware. Algum hardware muito antigo poderá já não ser suportado diretamente por estes fabricantes de hardware e não funcionar. Tenha em mente que isto não é nada que possamos resolver do nosso lado.
+
+Se a secção *Plugin* das definições do Wallpaper Engine não estiver visível para si, é provável que lhe falte ou tenha uma instalação danificada do *Visual C++ Redistributable for Visual Studio 2015* que é obrigatório para que estas funcionalidades funcionem. Pode transferir este pacote do website da Microsoft e instalá-lo. Isto deverá resolver o problema depois de reiniciar o sistema:
+
+* [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
 ### Corsair
 
-Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+Algum hardware, tal como a **memória do sistema (RAM) do Corsair tem controlos de software desativados por predefinição**, o que significa que os seus módulos do sistema não se iluminarão de acordo com o Wallpaper Engine a não ser que o permita nas definições do software iCUE. Certifique-se de que a opção "Enable full software control" (permitir controlo total pelo software) na secção de memória das definições do seu dispositivo iCUE está selecionada:
 
-![Enable full software control in iCUE](./icue.png)
+!["Enable full software control" no iCUE](./icue.png)
 
-Double-check this option for any other hardware parts which are not working properly.
+Confirme esta opção para quaisquer outros elementos de hardware que não estejam a funcionar corretamente.
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+Tenha em conta que o iCUE é usado em *modo exclusivo*, o que significa que o Wallpaper Engine terá prioridade sobre outro software compatível com iCUE, tal como jogos. Se quiser que os seus jogos animem o seu teclado, vá ao separador **Desempenho** das definições do Wallpaper Engine e defina a opção **Outra aplicação em ecrã completo** para **Parar (lib. memória)** para parar todos os wallpapers enquanto está dentro do jogo. Como alternativa, desative o plugin RGB ou desative a opção RGB em wallpapers individuais.
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+Para obter assistência para hardware Corsair iCUE, deve contactar a Corsair diretamente:
 
 [help.corsair.com](https://help.corsair.com/)
 
-Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
+Caso depare com quaisquer problemas com a assistência do Corsair, continua a poder contactar-nos e faremos todos os possíveis para o ajudar.
 
 ### Razer
-We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+Só suportamos Razer Synapse 3 ou mais recente. Se está a usar o Razer Synapse 1 ou Razer Synapse 2, certifique-se de que os desinstala completamente e atualiza para a versão mais recente do Razer Synapse. Anteriormente, alguns utilizadores tiveram problemas com restos do velho Razer Synapse que ficaram no seu sistema. Se teve o Razer Synapse 2 ou mais antigo instalado e tem problemas com a sua iluminação RGB ou até sofra bloqueios com o plugin RGB ativado, poderá ser necessário encontrar quaisquer restos de versões antigas do Razer Synapse no seu sistema e apagá-las.
 
-If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
+Se o seu hardware Razer dor relativamente antigo e não suportar o Razer Synapse 3 ou mais recente, infelizmente a sua iluminação RGB não é compatível com o Wallpaper Engine.
 
-For support with Razer hardware, please contact Razer directly:
+Para obter assistência para hardware Razer, deve contactar a Razer diretamente:
 
 [support.razer.com](https://support.razer.com/)
 
-Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
+Caso depare com quaisquer problemas com a assistência da Razer, continua a poder contactar-nos e faremos todos os possíveis para o ajudar.
