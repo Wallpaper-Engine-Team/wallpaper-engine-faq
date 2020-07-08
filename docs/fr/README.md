@@ -1,7 +1,7 @@
 # Wallpaper Engine - Guide & FAQ
 Si vous rencontrez un problème ou si vous avez une question sur Wallpaper Engine, voici où trouver des réponses. On nous pose 95 % du temps les mêmes questions, il est donc très probable que vous trouviez votre réponse ici.
 
-**Utilisez la barre de recherche en haut à droite** ou simplement regardez la liste des articles à gauche. Nous avons essayé de créer des catégories. Nous avons également compilé les articles d'aide les plus consultés ci-dessous. Vérifiez si votre problème s'y trouve.
+**Utilisez la barre de recherche en haut à droite** ou simplement regardez la liste des articles à gauche. Nous avons également compilé les articles d'aide les plus consultés ci-dessous. Vérifiez si votre problème s'y trouve.
 
 ::: tip Utilisez la barre de recherche avec des mots-clés simples. Par exemple, si vos fonds d'écran restent noirs, cherchez le mot-clé "noir". :::
 
