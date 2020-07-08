@@ -1,39 +1,49 @@
-# Black Screen / Videos not Playing
+- - -
+tags :
+  - activemovie window
+  - activemovie
+  - noir
+- - -
 
-Black screens and other issues with wallpapers of the type "Video" are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
 
-::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+# Vidéos noires / Vidéos qui ne se lancent pas
 
-## Clean graphics card driver re-installation
+Les écrans noirs et les problèmes avec les fonds d'écran *Vidéo* sont *toujours* causés par des pilotes de carte graphique ou des codecs défectueux. Voici les étapes à suivre. Suivez notre guide pour résoudre ce problème :
 
-For a very large number of people, a clean re-installation of the graphics card drivers, video playback issues including black screens are fixed. **It's important that the old drivers are uninstalled first.**
+::: warning Attention Cette section va aborder les problèmes liés aux **fonds d'écran** de Wallpaper Engine. Si c'est l'**interface de Wallpaper Engine qui est noire**, vous devez aller dans cette section : [l’interface utilisateur de Wallpaper Engine est noire](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
-1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
+## Réinstaller proprement les pilotes des cartes graphiques
+
+Pour la grande majorité, une réinstallation propre des pilotes de carte graphique résoudra la plupart des problèmes liés aux fonds d'écran vidéo. Cela inclut les écrans noirs et les fonds d'écran affichés dans une fenêtre séparée (**"ActiveMovie Window"**).
+
+1. Téléchargez les derniers pilotes pour votre carte graphique (refaites ce procédé pour toutes vos cartes si vous en avez plusieurs de marques différentes) :
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. Désinstallez tous les pilotes de votre carte graphique actuelle et supprimez tous les paramètres existants si on vous en donne la possibilité. Les pilotes Nvidia ont une case à cocher qui dit "Effectuer une réinstallation propre", ce qui fonctionne très bien également.
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+Vous pouvez également utiliser [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour vous aider.
 
-3. Install the drivers you have just downloaded in step 1.
-4. Restart your PC again, see if it works now.
+3. Installez tous les pilotes que vous avez téléchargés à l'étape 1.
+4. Redémarrez votre PC pour voir si cela a marché.
 
-::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
+::: tip Il est très important que vous fassiez une réinstallation propre : vos pilotes de carte graphique et leurs paramètres doivent être complètement supprimés avant d'installer les nouveaux pilotes. :::
 
 ## Codec Tweak Tool
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+Si votre problème n'est toujours pas résolu, essayez de réinitialiser vos codecs vidéo :
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* Téléchargez Codec Tweak Tool : [cliquez ici](https://www.codecguide.com/download_other.htm)
+* Vérifiez que les cases du menu "Media Foundation" ne sont **pas** cochées et appliquez ces paramètres :
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![Décochez toutes les options de Media Foundation](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* Redémarrez votre ordinateur et essayez de relancer les fonds d'écran avec lesquels vous aviez des problèmes.
 
-## Additional video codecs
+## Codecs supplémentaires
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide: [Click here](/videos/lav.html).
+Si vos fonds d'écran vidéo ne fonctionnent toujours pas après les étapes précédentes, téléchargez LAV et utilisez DirectShow comme expliqué dans ce guide :
+
+* [Utilisez LAV et DirectShow](/videos/lav.html).
