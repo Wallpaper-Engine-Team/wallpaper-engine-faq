@@ -1,25 +1,25 @@
-# High GPU usage misconception
+# GPUの使用量が大きい場合の誤解
 
-The Windows Task Manager does not show the real GPU usage in most cases which is the cause for a lot of confusion. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
+Windowsのタスクマネージャは、ほとんどの場合、実際のGPUの使用量を表示しません。これが多くの誤解の元になっています。 GPUの使用量は、グラフィックスカードの*電源の状態*とクロックレートを無視します。このため、数値が非常に不正確で、通常は実際よりもかなり大きなGPU使用量を表示します。 実際のGPU使用量を見るには、GPU-Zなどのツールをお使いください。
 
-* [Download GPU-Z](https://www.techpowerup.com/gpuz/)
+* [GPU-Zをダウンロードする](https://www.techpowerup.com/gpuz/)
 
-## Finding out your actual GPU load
+## 実際のGPU使用量を知る
 
-Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
+GPU-Zをインストールしたら、"Sensors"タブでGPUのクロックレートとGPUの負荷を確認します。
 
-![Real GPU usage](./gpuz.png)
+![実際のGPU使用量](./gpuz.png)
 
-Notice *GPU load* in the screenshot is at 24%. However, at the top you can see that the graphics card is in its low power state at 202.5 MHz. This is the best case scenario, although the 'usage' is displayed as 24%. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
+スクリーンショットの*GPU load*は24%です。 しかし上部には、グラフィックスカードの電源状態が202.5 MHzという低さであることが表示されています。 これは想定されるベストな状態ですが、「使用量」は24%と表示されます。 最大クロックレートである1823mhzを元にした実際の使用量は、わずか**2.6%**です*（24% * 202.5 MHz / 1823 MHz）*。
 
-A card could have clock rates between 100 Mhz and 2000 Mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 100 MHz or 50% of 2000 MHz**.
+例えばあるカードは、100 Mhz～2000 Mhzのクロックレートを持つ可能性があります。 タスクマネージャが50%と表示した場合、**100 MHzの50%と2000 MHzの50%では大違いです**。
 
-::: tip To summarize: It's important to keep the GPU clock rate in mind when looking at the GPU load. 50% of 100 MHz is better than 5% of 2000 MHz. :::
+::: tip 要約すると、GPUの負荷を見る場合にはGPUのクロックレートを念頭に置いておくことが重要なのです。 100 MHzの50%の方が2000 MHzの50%よりも良いのです。 :::
 
-If you want to improve GPU performance:
+GPUのパフォーマンスを上げたい場合：
 
-* Disable or delete overlay and recording tools, including Geforce Experience.
-* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+* Geforce Experienceを含め、オーバーレイと録画ツールを無効にするか、削除します。
+* フレームレート設定を低くし、MSAAを無効にします（これによって2Dのシーン壁紙のクオリティが影響を受けることはありません）。
+    * これによってビデオのパフォーマンスが影響を受けることはありません。フレームレートと画質が固定であるためです。
+    * ビデオ壁紙の解像度とフレームレートがこれをコントロールし、より低いFPSとGPU負荷でビデオを使います。
+* 複数のモニターを同じGPUに接続します。そうしないとWindowsはそれらをマージしようとするため、パフォーマンスが低下します。
