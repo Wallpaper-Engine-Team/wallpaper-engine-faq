@@ -1,11 +1,11 @@
-# Linha vermelha no ecrã
+# Red Line on screen
 
-A linha vermelha vem dos controladores da sua placa gráfica AMD. Desative o 'demo mode' para a remover. A opção pode estar em diversos locais, consoante a versão dos controladores da sua placa gráfica. Procure nas definições da sua placa gráfica AMD, deverá encontrá-la algures. Se não estiver certo de onde a encontrar, também pode resolver este problema fazendo uma reinstalação limpa dos controladores da sua placa gráfica.
+The red line comes from your AMD graphics card drivers. Disable the 'demo mode' to remove it. The option may be in different places depending on the version of your graphics card drivers. Look through all AMD graphics card settings, you should find it somewhere. If you are unable to locate it, you can also fix this problem by doing a clean re-installation of your graphics card drivers.
 
-Transfira os controladores mais recentes para a sua placa gráfica do website da AMD:
+Download the latest drivers for your graphics card from the AMD website:
 
-* [Controladores AMD Radeon](https://www.amd.com/support)
+* [AMD Radeon drivers](https://www.amd.com/support)
 
-Em seguida, primeiro desinstale os seus controladores. É muito importante que os desinstale primeiro e depois apague todas as definições existentes, caso lhe seja pedido. Em seguida, pode instalar os controladores que acabou de transferir. Se não tiver a certeza de como desinstalar completamente os seus controladores, também pode usar uma ferramenta como o DDU ("Display Driver Uninstaller") para desinstalar os seus controladores de forma limpa:
+Then uninstall your current drivers first, it is very important that you first uninstall them and clear all existing settings if asked. Afterwards, you can install the drivers you have just downloaded. If you are unsure how to properly uninstall your drivers, you can also use a tool like DDU ("Display Driver Uninstaller") to uninstall your drivers in a clean way:
 
-* [Transferência do Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
