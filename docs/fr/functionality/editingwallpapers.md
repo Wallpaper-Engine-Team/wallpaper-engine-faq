@@ -22,7 +22,7 @@ Les membres de la communauté ont créé un outil de décompression de fond d'é
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-Vous aurez toujours besoin d'un fichier project.json valide. Pour cela, créez un nouveau fond d'écran vierge dans l'éditeur, fermez Wallpaper Engine et décompressez le fond d'écran téléchargé et copiez son contenu dans le nouveau répertoire du projet.
+Mais selon le type de fond d'écran que vous avez publié, vous ne pourrez peut-être plus le modifier. Créez un nouveau fond d'écran et ouvrez le dossier du projet avec Modifier > Ouvrir dans l'explorateur de fichiers. Ouvrez `project.json` avec un éditeur de texte. Vous obtiendrez quelque chose comme :
 
 Si vous souhaitez modifier l'un de vos propres fonds d'écran, mais que vous avez perdu les fichiers du projet, consultez la section *Mettre à jour un projet perdu* ci-dessous pour plus d'informations sur les modifications que vous pouvez apporter au fichier projet.json pour mettre à jour vos fonds d'écran existants.
 
@@ -38,7 +38,7 @@ Ces fonds d'écran sont des fichiers vidéo. Vous pouvez trouver le fichier vid�
 
 ### Fond d'écran d'application
 
-Ces fonds d'écran peuvent rarement être modifiés. Les fonds d'écran d'application sont généralement des programmes compilés, ce qui signifie que vous n'avez pas accès au code source. Contactez l'auteur de ces fonds d'écran. Ils accepteront peut-être de vous aider.
+Ces fonds d'écran peuvent rarement être modifiés. Les fonds d'écran d'application sont généralement des programmes compilés, ce qui signifie que vous n'avez pas accès au code source. Ces fonds d'écran peuvent rarement être modifiés. Les fonds d'écran d'application sont généralement des programmes compilés, ce qui signifie que vous n'avez pas accès au code source. Contactez l'auteur de ces fonds d'écran. Ils accepteront peut-être de vous aider.
 
 ## Mettre à jour un projet perdu
 
