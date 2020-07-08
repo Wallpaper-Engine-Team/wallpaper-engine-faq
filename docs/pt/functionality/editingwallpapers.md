@@ -1,48 +1,52 @@
-# Editing Downloaded Wallpapers
+# Editar wallpapers transferidos
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+Em geral, o Wallpaper Engine não suporta a edição de wallpapers transferidos. No entanto, normalmente é possível editar wallpapers consoante o seu tipo (pode encontrar o tipo por baixo da imagem de pré-visualização à direita) com a ajuda de aplicações de terceiros.
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+Tenha sempre em mente que pode ser necessário ter os direitos do(s) autor(es) original(is) para poder republicar o seu trabalho. Quando em dúvida, contacte os autores originais antes de o publicar na Steam Workshop.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## Como encontro os ficheiros originais de um wallpaper?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+Clique com o botão direito num wallpaper no separador "instalado" e selecione "Abrir no Explorer".
 
-## How to edit wallpapers of different types
+## Como editar wallpapers de diversos tipos
 
-### Scene wallpapers
+### Wallpapers de cena
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Os wallpapers de cena são embalados num ficheiro .pkg que não é imediatamente editável porque lhe faltam todos os dados relacionados com o projeto. Tentar abrir um ficheiro .pkg resultará no erro "Wallpapers empacotados não podem ser abertos". Uma analogia seria que os ficheiros .jpeg também não incluem dados do projeto do Photoshop - isto fica sempre no sistema do autor original.
 
 #### Unofficial Community Scene Unpacker
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+No entanto, os membros da comunidade criaram uma ferramenta de desempacotar de wallpapers de cena, o que lhe permite desempacotar ficheiros de Cena e usá-los como ponto de partida para os seus próprios wallpapers. Para mais informações visite este website:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+Continuará a ser necessário ter um ficheiro project.json válido. Para criar um basta criar um novo wallpaper vazio no editor, fechar o Wallpaper Engine e depois desempacotar o wallpaper transferido e copiar-colar o seu conteúdo no novo diretório do projeto.
 
-### Web wallpapers
+Se quiser editar um dos seus próprios wallpapers para o qual tenha perdido ficheiros anteriores do projeto, consulte a secção *Atualizar um projeto perdido* mais abaixo para obter mais informações acerca das modificações que será necessário fazer ao projet.json, para que possa implementar as atualizações nos seus wallpapers existentes.
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+::: aviso Atenção Não oferecemos assistência oficial para esta ferramenta e não garantimos que funcione corretamente. Se tiver algum problema com o unpacker ou deseje fazer perguntas sobre ele, deve contactar os criadores originais. :::
 
-### Video wallpapers
+### Wallpapers da web
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+Os wallpapers com base na web são baseados em HTML e JavaScript. Pode ir à fonte dos ficheiros, tal como é descrito na secção acima e usar estes ficheiros como base para o seu próprio wallpaper com base na web.
 
-### Application wallpapers
+### Wallpapers de vídeo
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+Os wallpapers com base em vídeo são ficheiros de vídeo. Pode procurar o ficheiro de vídeo tal como é descrito na secção acima e usar uma aplicação de edição de vídeo de terceiros à sua escolha para modificar o vídeo.
 
-## Updating a lost project
+### Wallpapers de aplicações
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+Em geral, os wallpapers de aplicações não podem ser editados. Os wallpapers de aplicações são normalmente programas compilados, o que significa que não tem acesso ao código de fonte. Se quiser mesmo modificar wallpapers com base em aplicações, deve contactar o autor do wallpaper e ver se ele está disposto a ajudar.
+
+## Atualizar um projeto perdido
+
+Se apagou o seu projeto continua a poder substituí-lo, mas consoante o tipo de wallpaper que publicou, pode já não ser possível editá-lo. Crie um novo wallpaper da forma habitual e abra o seu diretório de projeto com Edit -> Abrir no Explorer. Abra o ficheiro `project.json` com um editor de texto, ele terá sensivelmente este aspecto:
 
 ```json
 {
-    "description" : "Cool description",
+    "description" : "Boa descrição",
     "file" : "scene.json",
     "general" : 
     {
@@ -58,28 +62,28 @@ If you deleted your project you can still overwrite it, but depending on the typ
         }
     },
     "preview" : "preview.jpg",
-    "tags" : [ "Relaxing" ],
-    "title" : "Cool title of your wallpaper",
+    "tags" : [ "Relaxante" ],
+    "title" : "Bom título para o seu wallpaper",
     "type" : "scene",
     "visibility" : "private"
 }
 ```
 
-Add this line at the top right after `{`:
+Adicione esta linha no topo, logo a seguir a `{`:
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+Para que tenha este aspecto:
 
 ```json{2}
 {
     "workshopid" : "12345678",
-    "description" : "Cool description",
+    "description" : "Boa descrição",
     "file" : "scene.json",
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**Substitua o número 12345678 pela ID da sua candidatura! Pode encontrar esta ID no URL do seu upload existente:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
