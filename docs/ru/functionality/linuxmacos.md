@@ -8,6 +8,6 @@
 
 Теоретически в этом мире все возможно, но простая истина состоит в том, что на данный момент порт на Linux или Mac OS нерентабелен. Если вы заглянете в результаты [Опроса Steam об оборудовании и ПО пользователей](https://store.steampowered.com/hwsurvey), вы увидите, что меньше 1% пользователей Steam используют Linux. И опять же, этот процент дробится еще сильнее, если брать во внимание различные сборки Linux. Чаще всего используется сборка Ubuntu, на которую приходятся ничтожно малые 0,25% пользователей.
 
-As explained above, the time needed to port Wallpaper Engine to another operating system is immense and it will also increase the costs of on-going maintenance work significantly, while the possible user group benefiting of this is comparatively tiny. We would much rather focus our time and energy on improving the Windows version for over 96% of Steam users.
+Как мы уже объясняли выше, портирование Wallpaper Engine на другую операционную систему потребует колоссальных временных затрат, кроме того оно еще и значительно увеличит стоимость текущего обслуживание. При этом использоваться такой порт будет сравнительно крошечной группой пользователей. Мы предпочитаем вкладывать свое время и силы в улучшение версии программы для Windows и работать на благо более чем 96% пользователей Steam.
 
 However, we are keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable. 
