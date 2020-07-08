@@ -5,22 +5,22 @@ tags:
   - blue screen
 ---
 
-# システムクラッシュまたはシステムフリーズ
-Wallpaper Engine だけでシステムをクラッシュさせることはできませんし、他のプログラムに影響を及ぼすことはありません。 Wallpaper Engine を起動しているときにシステムクラッシュ、システムフリーズ、ブルースクリーン、その他のプログラムのクラッシュが起きた場合、次のような原因が考えられます：
+# System crash / System Freeze
+Wallpaper Engine alone cannot crash your system and it does not affect other programs. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
 
-* Wallpaper Engine が必要とするハードウェアが壊れている。
-* Wallpaper Engine が必要とするハードウェアのドライバーにバグがあるか、壊れている。
-* Wallpaper Engine が起動しているときに、ドライバーまたは Windows に干渉する侵入的なソフトウェアがインストールされている。
+* Hardware required by Wallpaper Engine is broken.
+* A driver for some hardware Wallpaper Engine needs is buggy or broken.
+* Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
 
-Wallpaper Engine はいかなるドライバーもインストールせず、システムファイルを置き換えることはなく、システムクラッシュまたは他のプログラムのクラッシュにつながる危険な、あるいは疑わしい動作は何も行いません。
+Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
 
-Wallpaper Engine にバグがあると、最悪の場合でも Wallpaper Engine そのものがクラッシュするだけで、Wallpaper Engine のバグがシステム全体や他のプログラムのクラッシュを起こすことはありません。 これは不可能なのです。Microsoft は Windows をそのように設計しており、Wallpaper Engine はそれを守っています。
+Any bugs in Wallpaper Engine could only lead to a crash of Wallpaper Engine itself in the worst case, but no bug in Wallpaper Engine could crash your entire system or other programs. This is impossible, Microsoft has designed Windows this way and Wallpaper Engine adheres to this.
 
-## システムクラッシュの原因を見つける
-Wallpaper Engine がお使いのPCから必要とするのは、3Dアクセラレーション、ビデオアクセラレーション、オーディオです。 異なる壁紙タイプを使って、PCの問題が何なのか切り分けることができます。 例えば、「ビデオ」タイプの壁紙でのみ問題が起きるときは、問題はグラフィックスカード上のビデオデコーディングハードウェアにあるかもしれません。 これは Windows 単独で使うことはなく、ほとんどのゲームは使いませんから、ゲームでは問題は起きません。
+## Finding the cause of system crashes
+Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
 
-ブルースクリーンが起きる場合は、エラーコードをネット検索してください。 これはグローバルなシステムの問題なので、役に立つ結果がたくさん見つかるはずです。
+If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
 
-オーバーレイおよび録画プログラムは、どんなものでも問題を引き起こす可能性があります。これには Geforce Experience などがあります。これらはすべて削除してみてください。
+Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
 
-コンフリクトすることがよく知られ、確定されているアプリケーションが動作しているかどうかをチェックするスキャンツールを試してみてください： [ここをクリック](/debug/scantool.html)。
+Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool.html).
