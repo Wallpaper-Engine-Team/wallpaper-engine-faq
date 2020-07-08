@@ -12,9 +12,9 @@ tags:
 ---
 
 # Utilizar LAV e DirectShow
-Se tem problemas relacionados com codevs de vídeo avariados ou quer utilizar formatos adicionais de vídeo no seu sistema, pode experimentar instalar LAV e ativar o DirectShow nas definições do Wallpaper Engine. Isto deverá permitir melhor suporte para **vídeos 4K e HEVC no Windows 7** e permitir a abertura de ficheiros **.mkv**.
+Se tem problemas relacionados com codecs de vídeo avariados ou quer utilizar formatos adicionais de vídeo no seu sistema, pode experimentar instalar LAV e ativar o DirectShow nas definições do Wallpaper Engine. Isto deverá permitir melhor suporte para **vídeos 4K e HEVC no Windows 7** e permitir a abertura de ficheiros **.mkv**.
 
-Por motios legais, não podemos disponibilizar o LAV com o Wallpaper Engine, o que significa que terá de ser você a transferi-lo e instalá-lo. Depois de instalar o LAV, tambéms erá necessário configurar o Wallpaper Engine para que utilize o DirectShow:
+Por motivos legais, não podemos disponibilizar o LAV com o Wallpaper Engine, o que significa que terá de ser você a transferi-lo e instalá-lo. Depois de instalar o LAV, também será necessário configurar o Wallpaper Engine para que utilize o DirectShow:
 
 ## 1. Instalar o LAV
 * Transfira as versões x86 **E** x64 dos LAV Filters:
@@ -29,7 +29,7 @@ Por motios legais, não podemos disponibilizar o LAV com o Wallpaper Engine, o q
 * Reinicie a aplicação e experimente voltar a usar o seu wallpaper de vídeo
 
 ## Ativar aceleração por hardware de WebM
-Se verificar que ocorre gaguejar no fim dos seus wallpapers de vídeo, pode usar ficheiros .webm que não sofrem do mesmo problema. Será melhor que também ative a aceleração por hardware para vídeos .webm, o que reduzirá significativamente a sua utilização do CPU e continuará a permtir que os wallpapers de vídeo sejam reproduzidos em ciclo sem um corte visível depois do último fotograma. Isto é uma continuação das instuções acima. Certifique-se de que instalou o LAV e de que ativou o DirectShow, tal como foi indicado na secção anterior.
+Se verificar que ocorre gaguejar no fim dos seus wallpapers de vídeo, pode usar ficheiros .webm que não sofrem do mesmo problema. Será melhor que também ative a aceleração por hardware para vídeos .webm, o que reduzirá significativamente a sua utilização do CPU e continuará a permitir que os wallpapers de vídeo sejam reproduzidos em ciclo sem um corte visível depois do último fotograma. Isto é uma continuação das instruções acima. Certifique-se de que instalou o LAV e de que ativou o DirectShow, tal como foi indicado na secção anterior.
 * Abra as definições do Wallpaper Engine e navegue para o separador "Geral"
 * Mude a opção **Framework WebM** para **Preferir nativo**
 * Reinicie a aplicação e experimente voltar a usar o seu wallpaper de vídeo
