@@ -8,57 +8,57 @@ tags:
   - connection
 ---
 
-# Steam Wallpaper Download Issues
+# Проблемы с загрузками обоев из Steam
 
-Keep in mind that **all downloads are performed by Steam**. Wallpaper Engine only shows the Steam download status, all download problems are related to issues with your Steam and not directly related to Wallpaper Engine. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+Пожалуйста, учитывайте, что **за все загрузки отвечает Steam**. Wallpaper Engine просто показывает статус загрузки Steam. Все проблемы с загрузкой вызваны ошибками в работе Steam и не связаны с Wallpaper Engine напрямую. Это руководство содержит список самых распространенных проблем с загрузкой. Во многих случаях первопричиной проблем являются чрезмерно усердствующие антивирусы или заблокированные сетевые порты.
 
-If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
+Если у вас есть проблемы с загрузками из Steam, удостоверьтесь, что ваш антивирус не блокирует Steam, а в брандмауэре (включая все брандмауэры сетевых маршрутизаторов) открыты необходимые порты.
 
-::: tip You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that. :::
+::: Подсказка Вы можете легко проверить, блокирует ли сетевой маршрутизатор загрузки из Steam. Для этого подключите компьютер к интернету через мобильную сеть на смартфоне и попробуйте скачать обои. :::
 
-## Wallpaper download stuck at 0% or 100% (or any other percentage)
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## Загрузка обоев застряла на 0% или 100% (или любой другой цифре)
+Steam еще не закончил загружать или проверять файлы. Если процент загрузки стоит на месте в течение длительного времени, попробуйте следующее:
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+* Очистите кэша загрузки Steam в меню настроек:
+  * [Очистка кэша загрузки Steam](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
+* Затем проверьте целостность всех файлов Wallpaper Engine в Steam:
+  * [Проверка целостности файлов Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Если на месте стоят все загрузки: **выключите Steam**, а затем **удалите содержимое** этого каталога:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * Если у вас установлен антивирус, удостоверьтесь, что конкретно этот каталог занесен в список исключений
+    * **Обратите внимание:** `C:\Program Files (x86)\Steam` является путем Steam по умолчанию, поэтому если вы установили программу в другое место, каталог будет там.
+* Перезагрузите Steam. Не запускайте никаких игр. Проверьте, есть ли прогресс во вкладке загрузок Steam и возобновите приостановленные загрузки, если такие есть.
 
-::: details Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
-* Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
-* Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
-* Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
-* Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
-* Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
-* Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
-* Try again after waiting at least for a day in case there are Steam server issues.
-* **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!). :::
+::: details В том случае, если описанные выше шаги не решили проблему с загрузками, кликните сюда, чтобы увидеть больше возможных решений
+* Удостоверьтесь, что Steam не был заблокирован антивирусом или брандмауэром. Зайдите в настройки антивируса и добавьте весь каталог Steam в список исключений.
+* Отпишитесь от обоев, которые не загружаются, и подпишитесь на них заново после перезагрузки Steam.
+* Выберите другой регион для загрузки в настройках Steam. Это можно сделать через вкладку «Загрузки» в настройках Steam.
+* Зайдите в **настройки Steam** и удостоверьтесь, что вы не создали никаких ограничений на загрузку по времени, скорости или вашему статусу.
+* Откройте вкладку «Загрузки» в Steam («Библиотека» -> «Загрузки»). Поищите, возможно у вас есть приостановленные загрузки. Если такие есть, нажмите на кнопку «Возобновить».
+* Кликните правой кнопкой мыши на Wallpaper Engine в Steam, выберите «Свойства» и разрешите **загрузки в фоновом режиме**.
+* Удостоверьтесь, что у вас нет отложенных обновлений для игр в Steam, поскольку это может препятствовать загрузке обоев.
+* Подождите хотя бы один день и попробуйте загрузить обои снова, это поможет при проблемах с сервером Steam.
+* **В крайнем случае** попробуйте переустановить Wallpaper Engine, чтобы удалить неисправные файлы Steam (все обои будут загружены заново!). :::
 
-::: tip Steam servers go offline every week for maintenance at a fixed time:
+::: Подсказка Каждую неделю в установленное время сервера Steam отключаются для проведения профилактических работ:
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* Западное побережье США: **Вторник, 16:00 (UTC−7)**
+* В это время в Центральной Европе: **Среда, 01:00 (UTC+1)**
+* В это время в Китае: **Среда, 08:00 (UTC+8)**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
+Если вы читаете эту инструкцию примерно в это время, возможно, что сервера временно отключены. Подождите час или два и попробуйте снова. :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam: ошибка «Отсуствуют загруженные файлы»
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+Steam не может скачать какие-то файлы. Ошибка может возникать как из-за того, что антивирус блокирует Steam, так и совершенно случайно без очевидных причин. Обычно она исправляется таким образом:
 
-* Turn off Steam.
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Выключите Steam.
+* Удалите содержимое данного каталога: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+* Удалите содержимое данного каталога: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+  * **Обратите внимание:** `C:\Program Files (x86)\Steam` является путем Steam по умолчанию, поэтому если вы установили программу в другое место, каталог будет там.
+* Запустите Steam и проведите проверку целостности файлов Wallpaper Engine:
+  * [Проверка целостности файлов Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+Если у вас установлен антивирус: чтобы избежать блокировки загрузок из Мастерской Steam, добавьте в список исключений этот каталог: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### См. также: [Steam заново загружает все обои](/steam/redownload)
