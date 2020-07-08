@@ -4,9 +4,9 @@ tags:
   - showing
 ---
 
-# Wallpapers não estão visíveis
+# Wallpapers not visible
 
-Se alguns ou todos os seus wallpapers não aparecerem, é frequente que isso seja provocado por uma aplicação antivírus que bloqueia o Wallpaper Engine erradamente. Se estiver a usar uma aplicação antivírus, certifique-se de que a configura de forma a que ignore o diretório de instalação *wallpaper_engine* e todos os executáveis importantes do Wallpaper Engine:
+If some or all of your wallpapers do not show up, it's often caused by an antivirus application blocking Wallpaper Engine by mistake. If you are using an antivirus application, please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -14,18 +14,18 @@ Se alguns ou todos os seus wallpapers não aparecerem, é frequente que isso sej
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: dica Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender), é muito provável que esta seja a causa dos seus problemas. Se as suas primeiras tentativas não corrigirem este problema, dedique algum tempo a investigar isto de forma mais aprofundada. :::
+::: tip If you have an anti-virus application installed (except Windows Defender), it's very likely that this is the cause of your problems. Take some time to investigate this further if your first attempts do not fix this issue. :::
 
-## Conflitos com outro software de modificação do ambiente de trabalho
+## Conflicts with other desktop modification software
 
-O Wallpaper Engine funciona bem com a maior parte das aplicações de modificação do ambiente de trabalho. No entanto, algumas aplicações como o StarDock DeskScapes também modificam o wallpaper do Windows e não é possível executar as duas aplicações ao mesmo tempo. Se utilizar uma aplicação semelhante ao Wallpaper Engine, será necessário decidir qual delas continuará a usar.
+Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
 
 ### Fences
 
-Em geral, o Wallpaper Engine funciona bem com *Fences*. No entanto, **se tem o Fences instalado mas desativado**, ele esconderá o wallpaper do Wallpaper Engine. Deve ativá-lo ou desativá-lo completamente.
+Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
 
-## Wallpaper cinzento ou texturas em falta no Windows 7
+## Gray Wallpaper or missing textures on Windows 7
 
-Certifique-se de que a atualização **KB2533623** para o Windows 7 está instalada. Instale-a manualmente através dessa ligação ou certifique-se de que o seu Windows Update está a funcionar corretamente e irá instalá-la sozinho. Pode transferi-la manualmente do website da Microsoft, a seguir reiniciar o seu sistema e o problema deverá ter desaparecido:
+Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
