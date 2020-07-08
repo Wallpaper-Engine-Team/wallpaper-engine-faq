@@ -1,8 +1,8 @@
 ---
 tags:
   - email
-  - ajuda
-  - assistência
+  - help
+  - support
 ---
 
 # Contacto
