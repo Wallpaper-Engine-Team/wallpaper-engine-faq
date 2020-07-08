@@ -14,7 +14,7 @@
 
 ### Сценические обои
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Сценические обои упакованы в файл формата .pkg, который по умолчанию невозможно редактировать, поскольку он не содержит данных проекта. При попытке распаковать .pkg файла вы увидите следующее сообщение об ошибке: «Упакованные обои нельзя открыть». В качестве аналогии можно привести пример изображений формата .jpeg, которые тоже не содержат в себе данные проекта в Photoshop: эта информация всегда остается в системе первоначального автора.
 
 #### Unofficial Community Scene Unpacker
 
