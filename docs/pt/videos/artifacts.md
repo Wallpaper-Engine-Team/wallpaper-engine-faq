@@ -13,7 +13,7 @@ tags:
   - ugly
 ---
 
-# Video wallpapers look wrong
+# Os wallpapers de vídeo têm o aspecto errado
 
 Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
 
