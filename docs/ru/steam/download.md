@@ -43,21 +43,21 @@ Steam еще не закончил загружать или проверять 
 ::: Подсказка Каждую неделю в установленное время сервера Steam отключаются для проведения профилактических работ:
 
 * Западное побережье США: **Вторник, 16:00 (UTC−7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* В это время в Центральной Европе: **Среда, 01:00 (UTC+1)**
+* В это время в Китае: **Среда, 08:00 (UTC+8)**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again. :::
+Если вы читаете эту инструкцию примерно в это время, возможно, что сервера временно отключены. Подождите час или два и попробуйте снова. :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam: ошибка «Отсуствуют загруженные файлы»
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+Steam не может скачать какие-то файлы. Ошибка может возникать как из-за того, что антивирус блокирует Steam, так и совершенно случайно без очевидных причин. Обычно она исправляется таким образом:
 
-* Turn off Steam.
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Выключите Steam.
+* Удалите содержимое данного каталога: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+* Удалите содержимое данного каталога: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
+  * **Обратите внимание:** `C:\Program Files (x86)\Steam` является путем Steam по умолчанию, поэтому если вы установили программу в другое место, каталог будет там.
+* Запустите Steam и проведите проверку целостности файлов Wallpaper Engine:
+  * [Проверка целостности файлов Wallpaper Engine](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
 If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
