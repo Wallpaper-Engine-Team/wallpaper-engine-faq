@@ -1,9 +1,9 @@
-# Wrong Refresh Rates of Monitors
+# Taux de rafraîchissement erroné des écrans
 
-Depending on hardware and operating system, your graphics card may have issues updating all of your monitors at the same time if they have wildly differing refresh rates. Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
+Selon le matériel et le système d'exploitation, votre carte graphique peut avoir des problèmes pour mettre à jour tous vos écrans en même temps, surtout s'ils ont des taux de rafraîchissement très différents. Microsoft a résolu ce problème dans la mise à jour 2004 de Windows 10 (sortie en mai 2020). Veuillez vous assurer que vous utilisez cette version de Windows 10 ou une version plus récente.
 
-Some common work-arounds:
+D'autres solutions :
 
-* Set monitors to refresh rates that are a multiple of each other. For example, 120Hz and 60Hz instead of 144Hz and 60Hz.
-* Use pausing/stopping options in Wallpaper Engine to make this less of a problem. Set it to pause on all monitors when playing games.
-* If your system has an integrated GPU, use that for your 60Hz monitor, although this will likely decrease desktop performance overall, since your CPU now needs to make both GPUs work together!
+* Paramétrez les écrans pour que les taux soient des multiples les uns des autres. Par exemple : 120 Hz et 60 Hz au lieu de 144 Hz et 60 Hz.
+* Utilisez les options de pause ou d'arrêt de Wallpaper Engine pour diminuer ce problème. Mettez l'application sur pause pour tous les écrans lorsque vous jouez.
+* Si votre système dispose d'un GPU intégré, utilisez-le pour votre écran de 60 Hz. Cela risque de réduire les performances globales, car votre processeur doit maintenant faire fonctionner les deux GPU ensemble !
