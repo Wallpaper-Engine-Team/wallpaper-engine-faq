@@ -1,6 +1,6 @@
-# Backup Steam Workshop
+# Резервная копия Мастерской Steam
 
-When wallpapers are deleted from Steam for any reason, Steam will also delete them from your PC. Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
+Если по какой-то причине обои будут удалены из Steam, они автоматически будут удалены и с вашего компьютера. Удаление совершает Steam, поэтому Wallpaper Engine не может предотвратить это. Если у вас есть опасения, вы можете создать резервную копию ваших обоев.
 
 Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
 
