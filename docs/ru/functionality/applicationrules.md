@@ -16,23 +16,23 @@ tags:
   - intermittent
 ---
 
-# Fix issues with specific apps or games
+# Решение проблем с конкретными программами или играми
 
-If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
+Если у вас возникают проблемы с конкретной игрой или программой, вы можете решить их, задав особые правила поведения Wallpaper Engine для определенных ситуаций, например, в случае запуска «проблемной» программы или воспроизведения ей звука.
 
-## Setting up an application rule
+## Создание правила приложения
 
-In the *Performance* tab of the Wallpaper Engine settings, clicking on the *Edit* button next to the *Application Rules* label will bring up the overview of all custom rules you have set up. By clicking on *Create new rule* you can set up a special behavior of Wallpaper Engine for a specific application.
+Если зайти в панель *«Производительность»* в настройках Wallpaper Engine и кликнуть на кнопку *«Редактировать»*, расположенную рядом с опцией *«Правила приложения»*, откроется общее окно с вашими правилами. Нажав на кнопку *««Редактировать»»*, вы сможете задать особые правила поведения Wallpaper Engine при работе с определенной программой.
 
 ![Application Rules Overview](./applicationrule.gif)
 
-You will be presented with a list of all running .exe files on your system. Either select an .exe from the list or type in the exact name of the .exe you are having problems with. You can configure the condition and the behavior with the two other options. See below for more infos and concrete examples.
+Вам будет представлен список всех .exe файлов, которые запущены на компьютере. Выберите .exe файл из списка или забейте в поиск точное название .exe файла, с которым возникла проблема. Две другие опции позволяют настроить поведение Wallpaper Engine и задать условия исполнения правила. Вы найдете подробную информацию и конкретные примеры ниже.
 
-::: tip Wallpaper Engine only cares about the exact .exe name, the location does not matter so you can just type any .exe into the *Application name* field. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: Подсказка Wallpaper Engine нужно только точное название .exe файла, его расположение в системе не имеет значения. Поэтому вы можете просто вбить название любого .exe файла в поле *«Название приложения»*. Просто удостоверьтесь, что введенное название полностью совпадает с названием .exe файла во всем, включая регистр текста. :::
 
-### Fixing performance problems with apps or games
+### Решение проблем с производительностью программ или игр
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+Выберите из списка .exe файл программы, для которой вы хотите создать особое правило, или вбейте его название в поле **«Название приложения»**. Затем выберите в выпадающем списке опции **«Условие»** вариант **«Запущено»**, а в выпадающем списке опции **«Воспроизведение обоев»** вариант **«Остановить (освободить память)»**. При таких настройках Wallpaper Engine будет полностью удалять все обои из памяти во время работы выбранной программы или игры, тем самым решит проблему совместимости.
 
 ### Fixing intermittent sound with background recording tools
 
@@ -42,4 +42,4 @@ Select the .exe of the program you want to have a special rule for from the list
 
 Check out all possible conditions and wallpaper playback options for more types of application rules. You can also configure Wallpaper Engine to mute or pause when you launch a certain application.
 
-::: tip You can also change these settings for all applications in the **Performance** tab of the Wallpaper Engine settings. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other applications fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
+::: tip You can also change these settings for all applications in the **Performance** tab of the Wallpaper Engine settings. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other application fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
