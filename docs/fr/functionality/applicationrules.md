@@ -22,7 +22,7 @@ Si vous rencontrez des problèmes avec des applications ou des jeux, vous pouvez
 
 ## Configurer une règle d'application
 
-Dans l'onglet *Performances* des paramètres de Wallpaper Engine, cliquez sur le bouton *Modifier* près des *Règles d'application*. Vous verrez alors toutes les règles actuelles. En cliquant sur *Créer une nouvelle règle*, vous pouvez choisir la façon dont Wallpaper Engine se comporte avec d'autres applications.
+Jetez un œil à toutes les conditions et les options de lecture de fond d'écran possibles pour mieux comprendre les règles d'application. Vous pouvez paramétrer Wallpaper Engine pour qu'il coupe le son lorsque vous lancez des certaines applications.
 
 ![Règles d'application](./applicationrule.gif)
 
