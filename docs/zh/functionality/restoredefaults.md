@@ -4,7 +4,7 @@
 
 1. 完全关闭 Wallpaper Engine（右键单击托盘中的 Wallpaper Engine ->“退出”）
 
-2. 转到 Wallpaper Engine 目录，然后删除一个名为“visibility.json”的文件。 默认情况下，该文件可在以下路径找到：
+2. ::: tip 如果您出于某种原因找不到“visibility.json”文件，还可以随时重新安装 Wallpaper Engine。 这也将还原所有默认壁纸，但您需要重新下载所有壁纸，而按照上述步骤操作则无需重新下载壁纸。 ::: 默认情况下，该文件可在以下路径找到：
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
@@ -12,4 +12,4 @@
 
 3. 删除该文件后，再次启动 Wallpaper Engine，所有默认壁纸均将还原。
 
-::: tip 如果您出于某种原因找不到“visibility.json”文件，还可以随时重新安装 Wallpaper Engine。 这也将还原所有默认壁纸，但您需要重新下载所有壁纸，而按照上述步骤操作则无需重新下载壁纸。 :::
+::: tip 如果您出于某种原因找不到“visibility.json”文件，还可以随时重新安装 Wallpaper Engine。 这也将还原所有默认壁纸，但您需要重新下载所有壁纸，而按照上述步骤操作则无需重新下载壁纸。 ::: 这也将还原所有默认壁纸，但您需要重新下载所有壁纸，而按照上述步骤操作则无需重新下载壁纸。 :::
