@@ -15,6 +15,6 @@
 3. Назовите реестр *«hideTrayIcon»*
 4. Удостоверьтесь, что название введено правильно: в нем не должно быть пробелов, и оно должно полностью совпадать с названием в инструкции во всем, включая регистр текста.
 5. Дважды кликните на раздел реестра и задайте ему значение *1*
-6. Restart Wallpaper Engine, the application will now not show a tray icon.
+6. Перегрузите Wallpaper Engine. Теперь программа не будет показывать значок в области уведомлений.
 
-You can reverse this process by setting *hideTrayIcon* to *0* or deleting it altogether, followed by restarting Wallpaper Engine. 
+Вы можете отменить эти настройки, задав для реестра *«hideTrayIcon»* значение *0* или полностью его удалив. После этого понадобится перегрузить Wallpaper Engine. 
