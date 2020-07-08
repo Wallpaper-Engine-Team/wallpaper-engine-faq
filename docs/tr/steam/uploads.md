@@ -1,6 +1,6 @@
 # Yüklemeler %45'te takılıyor
 
-Steam, yükleme işleminin %45'inde Steam sunucularına dosya yüklemeye başlayacaktır. Wallpaper Engine içeriğini Steam Atölyesi'nde yayınlamaya çalışıyorsanız ve %45'te takılı kaldıysanız Steam'iniz, Steam sunucularına dosya yükleyemiyordur. Hiçbir güvenlik duvarı veya antivirüs uygulamasının Steam'in dosya yüklemesini engellemediğinden emin olun. Lütfen Steam ağ bağlantı noktaları ile ilgili resmî kılavuza da bakın:
+Steam, yükleme işleminin %45'inde Steam sunucularına dosya yüklemeye başlayacaktır. Steam, yükleme işleminin %45'inde Steam sunucularına dosya yüklemeye başlayacaktır. Wallpaper Engine içeriğini Steam Atölyesi'nde yayınlamaya çalışıyorsanız ve %45'te takılı kaldıysanız Steam'iniz, Steam sunucularına dosya yükleyemiyordur. Hiçbir güvenlik duvarı veya antivirüs uygulamasının Steam'in dosya yüklemesini engellemediğinden emin olun. Lütfen Steam ağ bağlantı noktaları ile ilgili resmî kılavuza da bakın: Hiçbir güvenlik duvarı veya antivirüs uygulamasının Steam'in dosya yüklemesini engellemediğinden emin olun. Lütfen Steam ağ bağlantı noktaları ile ilgili resmî kılavuza da bakın:
 
 * [Steam için Gerekli Bağlantı Noktaları](https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711)
 
