@@ -28,11 +28,11 @@ tags:
 
 Вам будет представлен список всех .exe файлов, которые запущены на компьютере. Выберите .exe файл из списка или забейте в поиск точное название .exe файла, с которым возникла проблема. Две другие опции позволяют настроить поведение Wallpaper Engine и задать условия исполнения правила. Вы найдете подробную информацию и конкретные примеры ниже.
 
-::: Подсказка Wallpaper Engine нужно только точное название .exe файла, его расположение в системе не имеет значения. Поэтому вы можете просто вбить название любого .exe файла в поле *«Название приложения»*. Просто удостоверьтесь, что введенное название полностью совпадает с названием .exe файла во всем, включая регистр текста. :::
+::: tip You can also change these settings for all applications in the **Performance** tab of the Wallpaper Engine settings. If you are having performance issues in multiple games, for example, it may make sense to just change the **Other application fullscreen** option to **Stop (free memory)** so that Wallpaper Engine will turn itself off when you launch any game or fullscreen application. :::
 
 ### Решение проблем с производительностью программ или игр
 
-Выберите из списка .exe файл программы, для которой вы хотите создать особое правило, или вбейте его название в поле **«Название приложения»**. Затем выберите в выпадающем списке опции **«Условие»** вариант **«Запущено»**, а в выпадающем списке опции **«Воспроизведение обоев»** вариант **«Остановить (освободить память)»**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+Выберите из списка .exe файл программы, для которой вы хотите создать особое правило, или вбейте его название в поле **«Название приложения»**. Затем выберите в выпадающем списке опции **«Условие»** вариант **«Запущено»**, а в выпадающем списке опции **«Воспроизведение обоев»** вариант **«Остановить (освободить память)»**. При таких настройках Wallpaper Engine будет полностью удалять все обои из памяти во время работы выбранной программы или игры, тем самым решит проблему совместимости.
 
 ### Fixing intermittent sound with background recording tools
 
