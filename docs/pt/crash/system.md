@@ -5,22 +5,22 @@ tags:
   - blue screen
 ---
 
-# Bloqueio do sistema / Congelamento do sistema
-Só por si, o Wallpaper Engine não pode bloquear o seu sistema e não afeta outros programas. Se ocorrerem bloqueios do sistema, congelamentos do sistema, acrãs azuis ou outros programas bloquearem enquanto o Wallpaper Engine estiver a ser executado, uma destas coisas será provavelmente o motivo:
+# System crash / System Freeze
+Wallpaper Engine alone cannot crash your system and it does not affect other programs. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
 
-* O hardware necessário para o Wallpaper Engine está danificado.
-* Um controlador para algum hardware necessário para o Wallpaper Engine tem erros ou está danificado.
-* Está instalado software intrusivo que interfere nos controladores ou no Windows enquanto o Wallpaper Engine está a ser executado.
+* Hardware required by Wallpaper Engine is broken.
+* A driver for some hardware Wallpaper Engine needs is buggy or broken.
+* Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
 
-Wallpaper Engine não instala quaisquer controladores, não substitui ficheiros do sistema e não executa seja o que for perigoso ou questionável que possa levar a um bloqueio do sistema ou ao bloqueio de outro programa.
+Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
 
-Quaisquer erros no Wallpaper Engine só podem levar a um bloqueio do próprio Wallpaper Engine na pior situação, mas nenhum erro do Wallpaper Engine pode bloquear o seu sistema inteiro ou outros programas. Isto é impossível, a Microsoft concebeu o Windows desta forma e o Wallpaper Engine adere a isto.
+Any bugs in Wallpaper Engine could only lead to a crash of Wallpaper Engine itself in the worst case, but no bug in Wallpaper Engine could crash your entire system or other programs. This is impossible, Microsoft has designed Windows this way and Wallpaper Engine adheres to this.
 
-## Encontrar a causa dos bloqueios do sistema
-O Wallpaper Engine precisa disto do seu PC: aceleração 3D, aceleração de vídeo, áudio. Pode tentar isolar o que está errado no PC utilizando tipos diferentes de wallpaper. Por exemplo, se só tiver problemas com wallpapers do tipo 'vídeo', o problema pode ter origem no hardware de descodificação de vídeo da sua placa gráfica. Ele não será utilizado pelo Windows sozinho e a maior parte dos jogos não o utiliza, pelo que não terá problemas com ele em jogos.
+## Finding the cause of system crashes
+Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
 
-Se obtiver um ecrã azul, faça uma pesquisa na web pelo código do erro. Haverá muitos resultados na web que poderão ajudar, pois é um problema global do sistema.
+If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
 
-Qualquer tipo de programa de overlay e gravação pode provocar problemas, isso inclui a GeForce Experience, experimente remover isso tudo.
+Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
 
-Experimente a ferramenta de varrimento, que irá verificar se alguma aplicação bem conhecida e de conflito confirmado está a ser executada: [Clique aqui](/debug/scantool.html).
+Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool.html).
