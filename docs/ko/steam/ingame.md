@@ -1,9 +1,9 @@
-# Steam에서 계속 "게임 중" 표시가 뜹니다
-Wallpaper Engine은 창작마당 기능에 접근한 동안에는 Steam에서만 나타납니다. (브라우저 또는 편집기가 열려있을 때, Valve / Steam에 의해 실행됩니다) 그러나 창을 모두 닫아도 계속 나타나면, 아래의 방법을 통해 해결할 수 있는 알려진 Steam 버그이거나 창이 제대로 닫히지 않은 상태일 수 있습니다. (작업 관리자에서 ui32.exe 확인)
+# Steam always shows "in-game"
+Wallpaper Engine is only supposed to show on Steam while accessing Workshop features (when the browser or editor is open, this is enforced by Valve / Steam). But if it shows up even after closing all windows, you are either experiencing a known Steam bug, that you can avoid with the fix below, or the window did not close properly (check for ui32.exe in task manager).
 
-이 문제가 반복해서 발생하면, Steam을 통하는 대신 wallpaper_engine 설치 디렉터리에서 바로 프로그램을 실행하여 해결할 수 있습니다. 이 경로의 기본값은 `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe`입니다. Wallpaper Engine이 이미 실행 중이면, 일단 완전히 끄고난 뒤 이 디렉터리에서 다시 실행합니다. 그리고 가능하다면 자동시작을 끄고 Wallpaper Engine 설정에서 다시 켜세요.
+If you regularly have this problem you can get around this by not launching the program through Steam but directly from the wallpaper_engine installation directory. By default this would be `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe`. If Wallpaper Engine is running already, completely turn it off first and then re-run it from this directory and possibly turn the autostart off and back on in the Wallpaper Engine settings.
 
-꺼지고 켜지는 인터넷 때문에 Steam을 인터넷에 다시 연결할 때마다 Steam의 게임 중 상태가 약간 불안정할 수 있으며, 이와 같은 문제가 발생합니다. 위에서 언급한 것처럼 Steam을 통해서가 아니라 프로그램을 직접 또는 자동시작 기능을 통해 시작하면, 이 문제가 일어나는 것을 막을 수 있습니다.
+Every time Steam reconnects to the internet, due to your internet turning off and on, Steam may go a little crazy when it comes to your in-game status which can cause issues like that. As mentioned above, start the program directly or via the autostart functionality and not through Steam, this will likely prevent the issue from happening for you.
 
-## 창작마당 / Steam 결합 완전 비활성화
-`nosteam.txt` 파일명의 빈 텍스트 파일을 생성하여 `wallpaper_engine/bin` 디렉터리에 넣으면, 전체 Steam 통합을 비활성화할 수 있습니다. (전체 경로 기본값은 `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`입니다) 이게 비활성화되면 배경화면을 다운로드/업데이트 또는 업로드할 수 없지만, 이전에 다운로드한 것에는 모두 접근할 수 있습니다. 
+## Completely disable Workshop / Steam integration
+You can disable the entire Steam integration by creating an empty text file named `nosteam.txt` and putting it into the `wallpaper_engine/bin` directory (by default the complete path is `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`). You cannot download/update or upload any wallpapers if this is disabled, but you can still access everything that was previously downloaded. 
