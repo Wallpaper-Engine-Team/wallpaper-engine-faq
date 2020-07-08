@@ -1,15 +1,15 @@
-# 壁紙をGIFまたは動画としてエクスポートする
+# Exporting wallpapers as GIF / video
 
-Wallpaper Engineエディタで作られた壁紙は、動画ファイルというよりはコンピュータゲームのレベルに似ています。 これらには明確な始まりや終わりがなく、ランダム性のある要素が含まれています。 コンピュータゲームを動画ファイルとしてエクスポートできないのと同じで、壁紙も動画やGIFとしてエクスポートすることはできません。
+Wallpapers made in the Wallpaper Engine editor are more like levels in a computer game rather than a video file. They do not have a clearly defined start or end and they contain elements of randomness in them. Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
 
-しかし、壁紙の要素が可能としている場合は、壁紙の録画を作り、手動で完璧なループを作ることができます。 このためには、*ScreenToGif*または*OBS Studio*などの無料ツールをお勧めします。
+However, you can create a recording of your wallpapers and manually try to create a perfect loop if the elements in your wallpaper allow for that. For this purpose, we recommend free tools like *ScreenToGif* or *OBS Studio*:
 
-* [ScreenToGif](https://www.screentogif.com/)（使用が簡単）
+* [ScreenToGif](https://www.screentogif.com/) (Easy to use)
 
-* [OBS Studio](https://obsproject.com/)（より高度な機能）
+* [OBS Studio](https://obsproject.com/) (More advanced features)
 
-#### 壁紙のクリアなショットを撮る
+#### Getting a clear shot of your wallpapers
 
-壁紙のクリアな状態を撮り、リサイズすることは、「インストール済み」タブで右クリックし、「ウィンドウで再生」でクリックすることで簡単に行えます。これにより、壁紙が表示されたウィンドウが開きます。 これによってデスクトップアイコンやその他のWindowsの要素を隠す必要がなくなりますし、ウィンドウをリサイズすることで、「エクスポート」したいサイズやアスペクト比にすることができます。
+You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
 
-![壁紙を右クリックし、"ウィンドウで再生"を選択](./playinwindow.gif)
+![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
