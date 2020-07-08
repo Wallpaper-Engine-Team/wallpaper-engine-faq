@@ -26,6 +26,6 @@ Wallpaper Engineは、ほとんどのデスクトップ変更アプリケーシ�
 
 ## Windowsで壁紙が灰色になったり、テクスチャが表示されなかったりする
 
-Windows 7のアップデート**KB2533623**がインストールされていることを確認してください。 リンクから手動でインストールするか、Windows Updateが正常に動いていて、そこからインストールしていることを確認してください。 Microsoftのサイトから手動でダウンロードすることができます。その後システムを再起動すると問題は解消するはずです。
+Windows 7のアップデート**KB2533623**がインストールされていることを確認してください。 リンクから手動でインストールするか、Windows Updateが正常に動いていて、そこからインストールしていることを確認してください。 Microsoftのサイトから手動でダウンロードすることができます。 その後システムを再起動すると問題は解消するはずです。
 
 * [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
