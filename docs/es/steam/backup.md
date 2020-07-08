@@ -1,17 +1,17 @@
-# Copia de seguridad de Steam Workshop
+# Backup Steam Workshop
 
-Si los fondos se borran de Steam por algún motivo, también desaparecerán del equipo. Wallpaper Engine no puede impedirlo, pero si te preocupa, puedes hacer una copia de seguridad de los fondos.
+When wallpapers are deleted from Steam for any reason, Steam will also delete them from your PC. Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
 
-Además, hay quejas de que, en ocasiones, Steam decide volver a descargar todos los archivos de Workshop, cosa que puede ser una molestia si tienes muchísimos GB. Si creas una copia de seguridad para desvincularlo de Steam puedes solucionarlo si te ocurre muy a menudo.
+Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
 
-# Crear una copia de seguridad
+# Creating a Backup
 
-Esta guía da por supuesto que Steam y Wallpaper Engine están instalados en «C:\Program Files (x86)\Steam\». Si tienes instalado Steam o Wallpaper Engine en otra ubicación, compruébalas.
+The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
 
-1. Localiza la carpeta en la que Steam guarda los fondos. Por defecto los guarda en `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** es la ID de Steam de Wallpaper Engine y Steam usa ese directorio para todas las descargas de Wallpaper Engine. :::
-2. Copia la carpeta 431960 en la ruta de instalación de Wallpaper Engine: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`.
-3. **Cambia el nombre** de la carpeta `431960` a `copia de seguridad` para que la ubicación quede así: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\copia de seguridad`.
-4. El directorio `copia de seguridad` incluirá todos los fondos que ya has descargado, cada uno en su propio directorio (los números representan la ID de Steam Workshop del fondo).
-5. Reinicia el buscador de fondos y podrás ver las copias de seguridad de los fondos. Ahora puedes quitar la suscripción de los duplicados de Steam y usar únicamente la copia personal.
+1. Locate the folder in which Steam stores your wallpapers, by default it is in `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** is the Steam ID of Wallpaper Engine, Steam uses this directory for all Wallpaper Engine downloads. :::
+2. Copy the folder 431960 to Wallpaper Engine's installation path here: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
+3. **Rename** the folder `431960` into `backup` so that the complete path looks like this: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
+4. The `backup` directory now includes all your previously downloaded wallpapers, each in their own sub-directory (the numbers represent the Steam Workshop ID of the wallpaper)
+5. Restart the wallpaper browser and you should see the backed up wallpapers now. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them
 
-::: warning **No** borres la carpeta de Steam Workshop `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` de forma manual, ya que esto confundiría a Steam y volvería a descargar todos los fondos. Desuscríbete de los fondos y deja que Steam se encargue de borrar los duplicados. :::
+::: warning Do **not** manually delete the Steam Workshop folder `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. This will cause your Steam to be confused and re-download all wallpapers. Simply unsubscribe from your wallpapers and let Steam delete the duplicate files itself. :::
