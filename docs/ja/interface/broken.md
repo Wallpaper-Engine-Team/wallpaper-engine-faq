@@ -15,13 +15,13 @@ Wallpaper Engineブラウズウィンドウが正しく動作しない場合、�
 
 ## Wallpaper Engineブラウザが黒または白になっている
 
-ほとんどの場合、これはWallpaper Engineのユーザーインターフェースが誤ってアンチウイルスアプリケーションにブロックされていることによって起こります。 アンチウイルスアプリケーションがWallpaper Engineを無視するように例外設定を行ってください。特にwallpaper_engineインストールディレクトリの実行可能ファイルすべて、中でも**wallpaper_engine/bin/ui32.exe**は例外にしてください。
+アンチウイルスアプリケーションがWallpaper Engineの重要なファイルを永久的にロックしている場合もあります。 このときは、あとでWallpaper Engineファイルを検証したり、Wallpaper Engineを再インストールしたりする必要があります。
 
-アンチウイルスアプリケーションがWallpaper Engineの重要なファイルを永久的にロックしている場合もあります。このときは、あとでWallpaper Engineファイルを検証したり、Wallpaper Engineを再インストールしたりする必要があります。
+アンチウイルスアプリケーションがWallpaper Engineの重要なファイルを永久的にロックしている場合もあります。 このときは、あとでWallpaper Engineファイルを検証したり、Wallpaper Engineを再インストールしたりする必要があります。
 
 * [Steam サポート：アプリケーションファイルの整合性確認](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-アンチウイルスアプリケーションの設定後、Steamによる確認で問題が解決しない場合は、SteamからWallpaper Engineを再インストールしてみてください。 アンチウイルスが暴走した場合は、Wallpaper Engineが使用するファイルパスを永久的にブロックしてしまっていることがあります。 その場合はまずアンチウイルスをアンインストールしてから、Wallpaper Engineを別のディレクトリにインストールしてください。ディレクトリはSteamで新しいSteamゲームライブラリを作ると変更できます。
+Wallpaper Engineを完全に終了します（トレイで右クリックし、「終了」）。 その後Steamを開き、Wallpaper Engineを右クリックして「プロパティ」を選択し、「ゲーム中にSteamオーバーレイを有効にする」オプションを無効にします。 オプションを無効にしたあと、SteamからWallpaper Engineを再起動します。
 
 ## Wallpaper Engineのインターフェースに緑のノイズや白いラインが入る
 
