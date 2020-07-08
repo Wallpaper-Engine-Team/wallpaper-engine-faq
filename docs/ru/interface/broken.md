@@ -7,30 +7,30 @@ tags:
   - unreadable
 ---
 
-# Wallpaper Engine window not displayed correctly
+# Некорректное отображение окна Wallpaper Engine
 
-If your Wallpaper Engine browse window is not working, it is usually caused by faulty graphics card drivers or antivirus applications. Read below for more information.
+В случаях, когда обозреватель Wallpaper Engine не работает, обычно причиной ошибки являются неисправные драйвера видеокарты или антивирус. Вы найдете подробную информацию по этой проблеме ниже.
 
-::: warning Please note This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html). :::
+::: warning Обратите внимание В данной статье рассматривается проблема Wallpaper Engine, при которой неисправен или отображается черным **интерфейс**. В случае, если вы столкнулись с **черными обоями**, вам нужна статья [«Черный экран / Видео не проигрывается»](/noshow/notplaying.html). :::
 
-## Wallpaper Engine browser is Black or White
+## Обозреватель Wallpaper Engine черный или белый
 
-For most people, this means that the Wallpaper Engine user interface is being blocked by an antivirus application by mistake. Make sure to set up an exception in your antivirus application so that it ignores Wallpaper Engine, specifically all executables in the wallpaper_engine installation directory and especially **wallpaper_engine/bin/ui32.exe**.
+В большинстве случаев, данная проблема говорит о том, что пользовательский интерфейс Wallpaper Engine был по ошибке заблокирован программой-антивирусом. Пожалуйста, удостоверьтесь, что программа Wallpaper Engine занесена в список игнорируемых исключений вашего антивируса. В первую очередь это касается ее загрузочных файлов и в особенности файла **wallpaper_engine/bin/ui32.exe**.
 
-In some cases, it is necessary to verify the Wallpaper Engine files afterwards or even to re-install Wallpaper Engine if your antivirus application has placed a permanent lock on some important Wallpaper Engine files:
+В некоторых случаях после этого бывает необходимо провести проверку целостности файлов Wallpaper Engine или даже переустановить программу, если антивирус заблокировал некоторые важные файлы без возможности восстановления:
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam Support: проверка целостности файлов игры](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+Если проверка файлов с помощью Steam не решила ошибку после того, как вы настроили список исключений антивируса, попробуйте переустановить Wallpaper Engine через Steam. Если ваш антивирус совсем озверевший, он мог даже заблокировать без возможности восстановления пути к файлам, которые использует Wallpaper Engine. В этом случае необходимо сначала удалить антивирус, а затем установить Wallpaper Engine в другой каталог. По желанию для этого можно создать новую библиотеку игр в Steam.
 
-## Wallpaper Engine interface with green artifacts or white lines
+## Интерфейс Wallpaper Engine содержит зеленые артефакты или белые линии
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+У вас неисправны или неправильно настроены драйвера видеокарты. Загрузите последнюю версию драйверов для вашей видеокарты (даже если у вас уже установлена последняя версия) и проведите чистую переустановку. Очень важно сначала удалить драйвера, а потом установить последнюю версию, чтобы гарантированно очистить систему от неисправных файлов и старых настроек.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+Если проблема не была решена, отключите Wallpaper Engine. Затем перезапустите Wallpaper Engine, использовав для этого третью опцию запуска программы в Steam («Disable UI hardware acceleration»).
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### Пользовательский интерфейс Wallpaper Engine поврежден в результате редкой ошибки в работе оверлея Steam
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+Еще одна возможная причина, по которой у вас открывается черное окна программы — редко встречающаяся ошибка, связанная с работой оверлея Steam. Попробуйте следующее:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Полностью выключите Wallpaper Engine (кликните правой кнопкой мыши на иконку программы в панели задач и выберите опцию «Выход»). Затем откройте Steam, кликните правой кнопкой мыши на Wallpaper Engine, выберите «Свойства» и затем отключите опцию «Включить оверлей Steam в игре». После отключения оверлея, попробуйте перезапустить Wallpaper Engine через Steam. 
