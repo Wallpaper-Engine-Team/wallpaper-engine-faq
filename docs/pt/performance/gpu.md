@@ -1,25 +1,25 @@
-# High GPU usage misconception
+# Ideia errada de utilização elevada do GPU
 
-The Windows Task Manager does not show the real GPU usage in most cases which is the cause for a lot of confusion. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
+Na maior parte dos casos, o Windows Task Manager não mostra a verdadeira utilização do GPU, o que provoca grande confusão. A utilização do GPU ignora o *power state* e o clock rate da placa gráfica, o que o torna extremamente impreciso e normalmente mostra uma utilização muito mais elevada do GPU. Para ver a verdadeira utilização do GPU, utilize uma ferramenta como o GPU-Z:
 
-* [Download GPU-Z](https://www.techpowerup.com/gpuz/)
+* [Transferir GPU-Z](https://www.techpowerup.com/gpuz/)
 
-## Finding out your actual GPU load
+## Descobrir a sua verdadeira carga do GPU
 
-Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
+Depois de instalar o GPU-Z, vá ao separador "Sensors" e veja o clock rate do GPU e GPU Load:
 
-![Real GPU usage](./gpuz.png)
+![Utilização real do GPU](./gpuz.png)
 
-Notice *GPU load* in the screenshot is at 24%. However, at the top you can see that the graphics card is in its low power state at 202.5 MHz. This is the best case scenario, although the 'usage' is displayed as 24%. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
+Repare que a *GPU load* na imagem é 24%. No entanto, no topo poderá ver que a placa gráfica está no seu power state mais baixo, a 202,5 MHz. Esta é a melhor situação, embora a 'utilização' seja apresentada como 24%. A utilização real, baseada no clockrate máximo de 1823mhz é apenas **2,6%** *(24% * 202,5 MHz / 1823 MHz)*.
 
-A card could have clock rates between 100 Mhz and 2000 Mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 100 MHz or 50% of 2000 MHz**.
+Uma placa deve ter clock rates entre, por exemplo, 100 Mhz e 2000 Mhz. Se o task manager mostrar 50% então **faz uma grande diferença se é 50% de 100 MHz ou 50% de 2000 MHz**.
 
-::: tip To summarize: It's important to keep the GPU clock rate in mind when looking at the GPU load. 50% of 100 MHz is better than 5% of 2000 MHz. :::
+::: dica Resumindo: é important ter em conta o clock rate do GPU quando observa a carga do GPU. 50% de 100 MHz é melhor do que 5% de 2000 MHz. :::
 
-If you want to improve GPU performance:
+Se quiser melhorar o desempenho do GPU:
 
-* Disable or delete overlay and recording tools, including Geforce Experience.
-* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+* Desative ou apague ferramentas de overlay e gravação, incluindo a Geforce Experience.
+* Baixe a definição de game e desative MSAA (não afeta a qualidade dos wallpapers de cena 2D).
+    * Isto não influenciará o desempenho de vídeos, pois eles têm frame rates e qualidade fixos.
+    * A resolução e o frame rate dos wallpapers de vídeo irão controlá-los. Utilize vídeos com FPS mais baixo para reduzir a carga do GPU
+* Ligue os seus monitores ao mesmo GPU ou o Windows terá um mau desempenho enquanto tenta fundi-los.
