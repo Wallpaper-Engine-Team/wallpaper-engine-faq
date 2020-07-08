@@ -27,10 +27,10 @@ Steam еще не закончил загружать или проверять 
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
     * Если у вас установлен антивирус, удостоверьтесь, что конкретно этот каталог занесен в список исключений
     * **Обратите внимание:** `C:\Program Files (x86)\Steam` является путем Steam по умолчанию, поэтому если вы установили программу в другое место, каталог будет там.
-* Перезагрузите Steam. Не запускайте никаких игр. Check in the Steam download tab for progress and resume any paused downloads.
+* Перезагрузите Steam. Не запускайте никаких игр. Проверьте, есть ли прогресс во вкладке загрузок Steam и возобновите приостановленные загрузки, если такие есть.
 
-::: details Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
+::: details В том случае, если описанные выше шаги не решили проблему с загрузками, кликните сюда, чтобы увидеть больше возможных решений
+* Удостоверьтесь, что Steam не был заблокирован антивирусом или брандмауэром. Exclude the whole Steam directory in your anti-virus app settings.
 * Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
 * Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
 * Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
