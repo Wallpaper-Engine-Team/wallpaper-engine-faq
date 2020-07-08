@@ -1,48 +1,44 @@
-# ダウンロードした壁紙の編集
+# Editing Downloaded Wallpapers
 
-基本的に、Wallpaper Engine はダウンロードされた壁紙自体の編集はサポートしていません。 しかし、壁紙のタイプによって（タイプは、右側のプレビュー画像の下に書かれています）、サードパーティーのアプリケーションを使うことにより、たいていの場合、編集は可能です。
+Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
 
-作品を再公開するためには、オリジナルの作者の許諾が必要である可能性があることは、常に念頭に置いておいてください。 よくわからない場合は、Steam ワークショップで公開する前に元の作者に問い合わせてください。
+Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
 
 [[toc]]
 
-## 壁紙のソースファイルを見つけるには？
+## How do I find the source files of a wallpaper?
 
-「インストール済み」タブで壁紙を右クリックし、「エクスプローラーを開く」を選択します。
+Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
 
-## さまざまな種類の壁紙の編集方法
+## How to edit wallpapers of different types
 
-### シーンの壁紙
+### Scene wallpapers
 
-シーンの壁紙は、.pkg ファイルにパックされています。プロジェクト関連のデータすべてが揃わなくなるので、ボックスの外では編集できません。 .pkg ファイルを開こうとすると、「パックされた壁紙を開くことはできません。」というエラーメッセージが表示されます。 似たものとしては、Photoshop データが添付されていない .jpeg 画像ファイルがあります。添付されていないデータは常に元の作者が持っています。
+Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
 
-#### 非公式のコミュニティシーンアンパッカー
+#### Unofficial Community Scene Unpacker
 
-しかし、コミュニティのメンバーは非公式のシーン壁紙のアンパックツールを作っています。これによってシーンファイルのパックを開き、自分の壁紙のスタート地点として使うことができます。 詳しくはこちらの Web サイトをご覧ください。
+However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-それでも有効な project.json ファイルは必要です。これは、エディタで新しい空白の壁紙を作り、Wallpaper Engine を閉じ、その後ダウンロードした壁紙をアンパックしてその中身を新しいプロジェクトディレクトリにコピーペーストすることで、簡単に作ることができます。
+::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
 
-以前にプロジェクトファイルをなくしてしまった自分の壁紙を編集したい場合は、下の「*失ったプロジェクトの更新*」セクションをご覧ください。既存の壁紙を更新するために project.json をどのように変更すればよいのかが書かれています。
+### Web wallpapers
 
-::: 警告 注意 このツールは公式にサポートされておらず、これが正しく動作することを当社が保証するものではありません。 アンパッカーについて問題が起きたり疑問があったりする場合は、オリジナルのクリエイターにご連絡ください。 :::
+Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
 
-### Web の壁紙
+### Video wallpapers
 
-Web ベースの壁紙は、HTML および JavaScript ベースです。 上のセクションに書かれた方法でソースファイルを見つけ、これらのファイルをベースとして自分の Web ベースの壁紙を作ることができます。
+Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
 
-### ビデオ壁紙
+### Application wallpapers
 
-ビデオベースの壁紙は動画ファイルです。 動画ファイルは上のセクションに書かれた方法で見つかります。その後、自分の好きなサードパーティーの動画編集アプリケーションで動画を編集することができます。
+Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
 
-### アプリケーション壁紙
+## Updating a lost project
 
-基本的には、アプリケーション壁紙は編集できません。 アプリケーション壁紙は、通常コンパイルされたプログラムで、ソースコードにアクセスすることはできないのです。 アプリケーションベースの壁紙をどうしても変更したい場合は、壁紙の作者に連絡し、協力してもらえるかどうか尋ねてみてください。
-
-## 失ったプロジェクトの更新
-
-プロジェクトを削除してしまっても上書きすることはできますが、公開した壁紙のタイプによっては、もう編集は不可能です。 通常の方法で新しい壁紙を作成し、「編集 → エクスプローラーを開く」でプロジェクトディレクトリを開きます。 `project.json` ファイルをテキストエディタで開きます。中身は次のようになっているはずです。
+If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
 
 ```json
 {
@@ -69,12 +65,12 @@ Web ベースの壁紙は、HTML および JavaScript ベースです。 上の�
 }
 ```
 
-最初の行の `{` の直後に次の行を追加します。
+Add this line at the top right after `{`:
 
 ```json
     "workshopid" : "12345678",
 ```
-次のようになるでしょう。
+So that it looks like:
 
 ```json{2}
 {
@@ -84,6 +80,6 @@ Web ベースの壁紙は、HTML および JavaScript ベースです。 上の�
     [...]
 ```
 
-**12345678 という数字は、あなたの投稿の ID と置き換えてください！ この ID は、既存のアップロードの URL の中にあります。**
+**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
