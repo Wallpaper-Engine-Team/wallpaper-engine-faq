@@ -1,9 +1,9 @@
-# 모니터의 잘못된 새로고침 빈도
+# Wrong Refresh Rates of Monitors
 
-하드웨어와 운영 체제에 따라 모니터의 새로고침 빈도가 크게 다르면, 그래픽 카드에 모든 모니터를 동시에 업데이트하는 문제가 발생할 수도 있습니다. Microsoft는 Windows 10 2004 업데이트(2020년 5월)에서 이 문제를 다루었습니다. 이 문제가 발생했다면, Windows 10 이상의 최신 버전을 사용하고 있는지 확인하세요.
+Depending on hardware and operating system, your graphics card may have issues updating all of your monitors at the same time if they have wildly differing refresh rates. Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
 
-일반적인 해결 방법:
+Some common work-arounds:
 
-* 모니터의 새로고침 빈도를 두 배로 설정합니다. 예를 들어 144Hz 및 60Hz 대신 120Hz 및 60Hz로 설정합니다.
-* Wallpaper Engine에서 일시정지/중지 옵션을 사용하여 문제를 줄입니다. 게임을 플레이할 때는 모든 모니터를 일시정지 상태로 설정하세요.
-* 시스템에 통합 GPU가 있으면 바탕화면 성능을 전반적으로 감소시키지만, GPU를 함께 작동하는데 CPU가 필요하므로 통합 GPU를 60Hz 모니터에 사용합니다.
+* Set monitors to refresh rates that are a multiple of each other. For example, 120Hz and 60Hz instead of 144Hz and 60Hz.
+* Use pausing/stopping options in Wallpaper Engine to make this less of a problem. Set it to pause on all monitors when playing games.
+* If your system has an integrated GPU, use that for your 60Hz monitor, although this will likely decrease desktop performance overall, since your CPU now needs to make both GPUs work together!
