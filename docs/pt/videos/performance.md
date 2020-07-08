@@ -1,9 +1,9 @@
 # Vídeo congelado / intermitente / mau desempenho
 
-Isto pode decorrer do facto do seu hardware não ser suficientemente potente para apresntar o vídeo específico corretamente. Um wallpaper de vídeo não é comparável a leitore sde vídeo normais. Ele deve ser composto com os ícones, além de potencialmente esticar-se ao longo de vários ecrãs. Por predefinição, está também a utilizar o descodificador de vídeo do seu GPU de forma a reduzir a utilização do CPU ao mínimo.
+Isto pode decorrer do facto do seu hardware não ser suficientemente potente para apresentar o vídeo específico corretamente. Um wallpaper de vídeo não é comparável a leitores de vídeo normais. Ele deve ser composto com os ícones, além de potencialmente esticar-se ao longo de vários ecrãs. Por predefinição, está também a utilizar o descodificador de vídeo do seu GPU de forma a reduzir a utilização do CPU ao mínimo.
 
 ## Ganchos de gravação em segundo plano
-Também pode vir de qualquer tipo de funcionalidades do controaldor para gravar aplicações como ReLive, Shadow Play/Nvidia Share ou Windows GameDVR. Experimente desativá-los e ver se isso faz alguma diferença e, em seguida, excluir-lhes o Wallpaper Engine. Certifique-se também de que nenhum outro programa de gravação/overlay se carrega no Wallpaper Engine e torna o rendering mais lento.
+Também pode vir de qualquer tipo de funcionalidades do controlador para gravar aplicações como ReLive, Shadow Play/Nvidia Share ou Windows GameDVR. Experimente desativá-los e ver se isso faz alguma diferença e, em seguida, excluir-lhes o Wallpaper Engine. Certifique-se também de que nenhum outro programa de gravação/overlay se carrega no Wallpaper Engine e torna o rendering mais lento.
 
 Pode experimentar usar a nossa ferramenta de deteção para determinar se algum programa com ganchos de gravação conhecidos está instalada mas não apanha tudo, especialmente ganchos de gravação comuns como os da Nvidia GeForce Experience:
 
