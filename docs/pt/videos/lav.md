@@ -25,13 +25,13 @@ Por motios legais, não podemos disponibilizar o LAV com o Wallpaper Engine, o q
 
 ## 2. Ativar o DirectShow
 * Abra as definições do Wallpaper Engine e navegue para o separador "Geral"
-* Mude a opção **Framework de vídeo** +ara **Preferir DirectShow**
-* Reinicie a aplicação e experimente voltar a usar o seu weallpaper de vídeo
+* Mude a opção **Framework de vídeo** para **Preferir DirectShow**
+* Reinicie a aplicação e experimente voltar a usar o seu wallpaper de vídeo
 
 ## Ativar aceleração por hardware de WebM
-Se verificar que ocorre gaguejar no fim dos seus wallpapers de vídeo, pode usar ficheiros .webm que não sofrem do mesmo problema. Será melhor que também ative a aceleração por hardware para vídeos .webm, o que reduzirá significativamente a sua utilização do CPU e continuará a permtir que os wallpapers de vídeo sejam reproduzidos em ciclo sem um corte visível depois do último fotograma. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **WebM framework** option to **Prefer Native**
-* Restart the application and try using your video wallpaper again
+Se verificar que ocorre gaguejar no fim dos seus wallpapers de vídeo, pode usar ficheiros .webm que não sofrem do mesmo problema. Será melhor que também ative a aceleração por hardware para vídeos .webm, o que reduzirá significativamente a sua utilização do CPU e continuará a permtir que os wallpapers de vídeo sejam reproduzidos em ciclo sem um corte visível depois do último fotograma. Isto é uma continuação das instuções acima. Certifique-se de que instalou o LAV e de que ativou o DirectShow, tal como foi indicado na secção anterior.
+* Abra as definições do Wallpaper Engine e navegue para o separador "Geral"
+* Mude a opção **Framework WebM** para **Preferir nativo**
+* Reinicie a aplicação e experimente voltar a usar o seu wallpaper de vídeo
 
 Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
