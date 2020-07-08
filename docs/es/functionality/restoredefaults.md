@@ -1,15 +1,15 @@
-# Restoring deleted default wallpapers
+# Recuperar los fondos por defecto borrados
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+Si has borrado los fondos de pantalla que ya venían instalados en Wallpaper Engine, puedes recuperarlos al borrar un archivo del directorio de instalación *wallpaper_engine*:
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. Cierra Wallpaper Engine (haz clic en el icono en la bandeja y -> «Salir»).
 
-2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
+2. Ve al directorio de Wallpaper Engine y borra un archivo llamado «visibility.json». Por defecto se encuentra aquí:
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
-If your Steam or Wallpaper Engine are installed in a different place / directory, the directory will be slightly different, but *wallpaper_engine\projects\defaultprojects\visibility.json* sub-directory is always the same.
+Si has instalado Steam o Wallpaper Engine en otro directorio, el directorio cambiará, pero el subdirectorio *wallpaper_engine\projects\defaultprojects\visibility.json* será el mismo.
 
-3. Once the file is deleted, start Wallpaper Engine again, you will have all default wallpapers back.
+3. Cuando borres el archivo, abre Wallpaper Engine de nuevo y volverás a tener los fondos por defecto.
 
-::: tip If you are unable to find the "visibility.json" file for some reason, you can also always just re-install Wallpaper Engine. This will also restore all default wallpapers but will require you to re-download all wallpapers which you can avoid by following the steps above. :::
+::: tip Si no consigues encontrar el archivo «visibility.json», siempre puedes volver a instalar Wallpaper Engine. Recuperarás los fondos de pantalla por defecto, pero tendrás que volver a descargarlos todos. Puedes evitarlo si sigues los pasos indicados anteriormente. :::
