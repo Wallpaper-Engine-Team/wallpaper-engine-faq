@@ -1,49 +1,39 @@
-- - -
-tags:
-  - activemovie window
-  - active movie
-  - black
-- - -
+# Black Screen / Videos not Playing
 
+Black screens and other issues with wallpapers of the type "Video" are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
 
-# ビデオが黒い / 正しく再生されない
+::: warning Please note This topic is about the Wallpaper Engine **wallpapers** being black. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black). :::
 
-*ビデオ*タイプの壁紙で、画面が黒いなどの問題が起きるときの問題は、*常に*グラフィックスカードドライバやビデオコーデックが破損していることが原因です。 次の手順に正確な順序で従ってください。 このガイドを最初から最後まで実行すると、問題は解決されます。
+## Clean graphics card driver re-installation
 
-::: warning 注意 このトピックは、Wallpaper Engineの**壁紙**が黒くなっていたり正しく再生されなかったりする場合の説明です。 **Wallpaper Engineのインターフェースが黒い**場合は、こちらをご覧ください。 [Wallpaper Engineのユーザーインターフェースが黒い](/interface/broken.html#wallpaper-engine-interface-is-black)。 :::
+For a very large number of people, a clean re-installation of the graphics card drivers, video playback issues including black screens are fixed. **It's important that the old drivers are uninstalled first.**
 
-## グラフィックスカードドライバのクリーン再インストール
-
-大半の場合、ビデオ壁紙に関連する問題のほとんどはグラフィックスカードドライバのクリーン再インストールによって解消されます。 これには、画面が黒くなったり、別のウィンドウ（**"ActiveMovieウィンドウ"**のタイトルで）に壁紙が表示されたりするケースが含まれます。
-
-1. グラフィックスカード（例えばNvidiaとIntelなど、2つあるときは全部に対して）の最新グラフィックスカードドライバをダウンロードします。
+1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. 使用中のグラフィックスカードドライバを完全にアンインストールし、尋ねられたらすべての既存の設定を削除します。 Nvidiaには「クリーン再インストールの実行」というチェックボックスがあり、これを使うこともできます。
+2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
 
-どうすればいいのかわからない場合は、[Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)を使うこともできます。
+You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
 
-3. ステップ1でダウンロードしたドライバをインストールします。
-4. PCを再起動し、正常に動作するかどうか確認します。
+3. Install the drivers you have just downloaded in step 1.
+4. Restart your PC again, see if it works now.
 
-::: tip クリーン再インストールは非常に重要です。これにより、新しいドライバのインストールの前に、使用していたグラフィックスカードドライバとドライバの設定が完全に削除されます。そうでないと正常に動作しません。 :::
+::: tip It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work. :::
 
 ## Codec Tweak Tool
 
-グラフィックスカードドライバのクリーン再インストール後も正常に動作しない場合は、ビデオコーデックをリセットしてみてください。
+If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
 
-* Codec Tweak Toolをダウンロードします：[ここをクリック](https://www.codecguide.com/download_other.htm)
-* "Media Foundation"メニューのチェックボックスがすべてチェックされて**いない**ことを確認し、設定を適用します。
+* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
+* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
 
-![Media Foundationオプションのチェックをすべて外す](./codectweak.gif)
+![Uncheck all options in the Media Foundation options](./codectweak.gif)
 
-* PCを再起動し、問題のあった壁紙をもう一度試します。
+* Restart the PC and try the affected wallpapers again.
 
-## 追加のビデオコーデック
+## Additional video codecs
 
-上の手順を行ったあとも問題のビデオ壁紙が動作しないときは、LAVをダウンロードし、次のガイドに従ってDirectShowを使用してください。
-
-* [LAVとDirectShowの使用](/videos/lav.html)。
+If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide: [Click here](/videos/lav.html).
