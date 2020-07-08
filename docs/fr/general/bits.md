@@ -1,6 +1,6 @@
 # Version 32 bits & 64 bits
 
-La version 64 bits peut gérer des fichiers plus volumineux (plus de 2 Go) mais elle utilisera toujours plus de mémoire, quelle que soit la taille de fichier de vos fonds d'écran. Par exemple, avec un fond d'écran vidéo ordinaire, la version 64 bits utilisera environ 50 Mo de RAM en plus par rapport à la version 32 bits. C'est là la seule différence.
+La version 64 bits peut gérer des fichiers plus volumineux (plus de 2 Go) mais elle utilisera toujours plus de mémoire, quelle que soit la taille de fichier de vos fonds d'écran. Par exemple, avec un fond d'écran vidéo ordinaire, la version 64 bits utilisera environ 50 Mo de RAM en plus par rapport à la version 32 bits.
 
 ::: tip Sauf si vous utilisez des fonds d'écran extrêmement lourds, nous vous conseillons d'utiliser la version 32 bits. La plupart des utilisateurs ne sont pas concernés par ce problème. :::
 
