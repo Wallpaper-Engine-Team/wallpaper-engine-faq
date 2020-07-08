@@ -1,34 +1,34 @@
 ---
 tags:
-  - colores
-  - claros
-  - oscuros
+  - colors
+  - bright
+  - dark
   - zoom
-  - acercar
-  - pixelado
-  - borde
+  - zoomed-in
+  - pixelated
+  - border
   - gamma
-  - calidad
-  - mala
-  - feo
+  - quality
+  - wrong
+  - ugly
 ---
 
-# Los fondos de vídeo se ven mal
+# Video wallpapers look wrong
 
-Wallpaper Engine, al contrario que la mayoría de reproductores de vídeo, usa la aceleración de hardware con los vídeos para tener el máximo rendimiento, por lo que los controladores de la tarjeta gráfica podrían afectar al aspecto de los vídeos.
+Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
 
-**Si los fondos muestran colores incorrectos, son muy claros o muy oscuros, aparecen enfocados, pixelados o hay un borde alrededor del fondo**, puedes restablecer las opciones de vídeo en el panel de control de gráficos de la tarjeta gráfica Nvidia, AMD o Intel. Si tienes un ordenador con varias GPU (por ejemplo, una tarjeta principal de Nvidia y una secundaria de Intel), restablece las de todas ellas.
+**If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
 
-Puedes volver a instalar los controladores de la tarjeta gráfica y restablecer toda la configuración (reinstalación limpia), cosa que es posible con los de Nvidia, por ejemplo. Es decir, tendrás que desinstalar los controladores y volver a instalar los más actuales cuando se hayan desinstalado por completo los antiguos. Algunos controladores ofrecen la opción de reinstalar desde cero en la sección avanzada, así que asegúrate de activarla para deshacerte de los restos de los controladores dañados. Puedes obtener controladores de las tarjetas gráficas más recientes de todos los proveedores principales aquí:
+You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
-* [Nvidia GeForce](https://www.nvidia.es/Download/index.aspx?lang=es)
-* [AMD Radeon](https://www.amd.com/es/support)
+* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
+* [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Si no sabes qué hacer, descarga los controladores más recientes para su tarjeta gráfica y usa DDU para desinstalar los que tienes instalados y borrar la configuración:
+If you are uncertain what to do: Download the latest drivers for your graphics card, then use DDU to uninstall your graphics card drivers and delete all settings:
 
-* [Descargar Display Driver Uninstaller.](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-A continuación, instala los controladores que has descargado. Esto solucionará el problema si se hace de la forma correcta.
+Afterwards, install the drivers you have just downloaded. This will definitely fix the problem if done right.
 
-::: tip Si aún no ves los colores correctamente tras instalar los controladores de nuevo, es posible que tengas más de una GPU o que no hayas hecho una instalación «limpia». Asegúrate de desinstalar todos los controladores de la tarjeta gráfica y de borrar toda la configuración actual. :::
+::: tip If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. Make sure you first uninstall all your current graphics card drivers and clear up all driver settings. :::
