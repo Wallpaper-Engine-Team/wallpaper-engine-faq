@@ -28,11 +28,11 @@ tags:
 
 Вам будет представлен список всех .exe файлов, которые запущены на компьютере. Выберите .exe файл из списка или забейте в поиск точное название .exe файла, с которым возникла проблема. Две другие опции позволяют настроить поведение Wallpaper Engine и задать условия исполнения правила. Вы найдете подробную информацию и конкретные примеры ниже.
 
-::: Подсказка Wallpaper Engine нужно только точное название .exe файла, его расположение в системе не имеет значения. Поэтому вы можете просто вбить название любого .exe файла в поле *«Название приложения»*. Just make sure the .exe name matches exactly, including uppercase and lowercase letters. :::
+::: Подсказка Wallpaper Engine нужно только точное название .exe файла, его расположение в системе не имеет значения. Поэтому вы можете просто вбить название любого .exe файла в поле *«Название приложения»*. Просто удостоверьтесь, что введенное название полностью совпадает с названием .exe файла во всем, включая регистр текста. :::
 
-### Fixing performance problems with apps or games
+### Решение проблем с производительностью программ или игр
 
-Select the .exe of the program you want to have a special rule for from the list or type it into the **Application name** field. Afterwards, set **Condition** to **Is running** and **Wallpaper playback** to **Stop (free memory)**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
+Выберите из списка .exe файл программы, для которой вы хотите создать особое правило, или вбейте его название в поле **«Название приложения»**. Затем выберите в выпадающем списке опции **«Условие»** вариант **«Запущено»**, а в выпадающем списке опции **«Воспроизведение обоев»** вариант **«Остановить (освободить память)»**. This means Wallpaper Engine will completely remove all wallpapers from memory when the application or game is launched, which means any compatibility issues will be resolved.
 
 ### Fixing intermittent sound with background recording tools
 
