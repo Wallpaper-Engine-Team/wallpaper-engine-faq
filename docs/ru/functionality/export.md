@@ -1,4 +1,4 @@
-# Экспорт обоев в виде GIF / видео
+# Exporting wallpapers as GIF / video
 
 Wallpapers made in the Wallpaper Engine editor are more like levels in a computer game rather than a video file. They do not have a clearly defined start or end and they contain elements of randomness in them. Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
 
