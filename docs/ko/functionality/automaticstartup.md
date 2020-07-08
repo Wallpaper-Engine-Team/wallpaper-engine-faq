@@ -1,35 +1,27 @@
 ---
 tags:
-  - 자동시작
-  - 실행
+  - autostart
+  - launch
 ---
 
-# 부팅 시 자동 실행
+# Automatic start-up at boot
 
-Wallpaper Engine 설정의 "일반" 탭에서 컴퓨터를 시작할 때 Wallpaper Engine을 실행하도록 설정할 수 있습니다. 상단에서 시스템을 부팅할 때마다 배경에서 응용 프로그램이 조용히 실행되는 자동 시작 옵션을 설정합니다.
+You can make Wallpaper Engine launch when your computer starts by going to the Wallpaper Engine settings and navigate to the "General" tab. At the top, you can enable the automatic startup option.
 
-## "높은 우선순위"와 "일반" 시작 옵션의 차이는 무엇인가요?
+## What is the difference between "high-priority" and the "normal" start-up option?
 
-높은 우선순위 옵션을 선택하면, Wallpaper Engine이 Windows 서비스를 등록합니다. 즉, Windows와 함께 자동으로 실행되도록 구성한 다른 프로그램보다 앞서 Wallpaper Engine이 시작됩니다. 이것은 응용프로그램의 성능에 영향을 주지 않습니다.
+When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
 
-이 높은 우선순위 옵션의 단점은 안정성 저하입니다. 일부 바이러스 백신이 과잉 반응하면서 악의적 행동으로 잘못 판단하여 Wallpaper Engine을 이 모드에서 시작되는 것을 차단합니다.
+The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
 
-## 자동 시작을 켰지만 작동하지 않습니다. 어떻게 해야 하나요?
+## I have enabled the automatic startup but it is not working, what can I do?
 
-*높은 우선순위* 옵션을 사용하고 있다면, 높은 우선순위 옵션을 해제하고 *일반* 자동 시작으로 전환해 보세요. 위에서 설명한 바와 같이 높은 우선순위 모드는 더 빠르게 시작하지만 여러 이유로 안정성이 떨어집니다. 가끔씩 바이러스 백신 소프트웨어가 차단하는 것이 주요 이유입니다.
+If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
 
-일반 옵션 모드를 사용하는데 앱이 Windows와 함께 실행되지 않으면, 옵션을 높은 우선순위로 변경하여 문제를 확인해 봅니다.
+If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
 
-높은 우선순위와 일반 옵션 모두 작동하지 않으면, 시스템에 설치된 바이러스 백신 소프트웨어를 확인하세요. 일부 바이러스 백신과 방화벽 응용프로그램은 가끔 컴퓨터 부팅 시 Wallpaper Engine의 자동 실행을 차단합니다. 바이러스 백신 소프트웨어에는 "허용 목록" 기능이 있는 경우가 많으며, 이는 특정 폴더나 응용 프로그램을 무시합니다. 허용 목록에 wallpaper_engine 설치 디렉터리와 모든 실행 파일을 추가하세요.
+If neither the high-priority or normal-priority option work for you, check the antivirus software you have installed on your system. Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
 
-다른 드문 이유로는 사용자 (또는 시스템의 응용 프로그램)가 Wallpaper Engine .exe 파일을 관리자로만 실행하도록 설정한 경우입니다. 그러면 자동으로 시작될 수 없으며, 관리자 설정을 제거하고 자동 시작 기능을 껐다가 켜야 합니다.
+Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
 
-자동 시작이 작동하지 않으면, 사실상 지나치게 열성적인 바이러스 백신 소프트웨어와 관련이 있습니다. 바이러스 백신 또는 방화벽 응용 프로그램이 설치되었으면, 해당 응용 프로그램의 모든 설정과 보안 수준을 다시 확인하세요.
-
-## Wallpaper Engine이 Windows와 시작하지만 (일부) 배경화면이 나타나지 않습니다
-
- 컴퓨터를 시작한 뒤 Wallpaper Engine 아이콘이 시계 옆 Windows 트레이에 보이는지 확인하세요. 시스템 시작 후 아이콘이 보이지만 전체 또는 일부 모니터에 배경화면이 표시되지 않으면, 그래픽 카드 드라이버에 문제가 있는 것입니다. 기본적으로 그래픽 카드 드라이버가 모니터에 계속 새로운 식별자를 지정하여 Wallpaper Engine은 사용자가 새로운 모니터를 구성하려 한다고 믿습니다. 이 문제는 *일반* 탭의 *"모니터 식별"* 옵션을 *레이아웃* 또는 *GDI*로 변경하여 해결할 수 있습니다.. 또한 이 경우에는 그래픽 카드 드라이버를 완전 다시 설치하는 것을 권장합니다. Windows 설치 관련 내부 문제를 의미하기 때문입니다.
-
- ## 시스템이 시작될 때 Wallpaper Engine이 잘못된 배경화면을 지정합니다
-
- 이전 섹션과 같은 문제입니다. 모니터가 여러 대이며 시작 시 배경 화면이 잘못된 모니터에 지정되면, Wallpaper Engine 설정에서 *일반* 탭의 *모니터 식별* 옵션을 *레이아웃* 또는 *GDI*로 변경합니다.
+If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
