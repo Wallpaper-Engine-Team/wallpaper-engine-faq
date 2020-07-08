@@ -1,5 +1,5 @@
-# Playlist Causes focus loss / minimizes games
+# Perte de focus / Fenêtres des jeux minimisées
 
-If you have a playlist with wallpapers of the type **Web** and experience focus loss while playing games, make sure to pause the playlist while other applications are fullscreen. You can do so by turning **off** the **Allow wallpaper to change while paused** option in the playlist settings) or alternatively remove the web-based wallpapers from the playlist.
+Si vous avez une liste de lecture avec des fonds d'écran **Web** et que vous rencontrez un problème de focus lorsque vous jouez, assurez-vous de mettre la liste de lecture en pause pendant que d'autres applications sont en plein écran. Vous pouvez **désactiver** l'option **Autoriser le fond d'écran à changer en pause** dans les paramètres de la liste de lecture ou en supprimant les fonds d'écran Web de la liste.
 
-Chromium itself - which is the software used to display "Web" type wallpapers - is stealing the focus of your current window when loading a new wallpaper so we cannot fix this issue easily unfortunately.
+Chromium, le logiciel utilisé pour afficher les fonds d'écran de type Web, vole le focus de votre fenêtre actuelle lors du chargement d'un nouveau fond d'écran. Nous n'avons malheureusement pas d'autre solution pour le moment.
