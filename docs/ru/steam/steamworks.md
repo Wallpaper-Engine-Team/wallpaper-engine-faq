@@ -1,13 +1,13 @@
-# Steamworks is unavailable
+# Steamworks недоступен
 
-Wallpaper Engine and Steam are unable to communicate for some reason. Restart Steam, then Wallpaper Engine. Make sure it is logged into the account you own Wallpaper Engine on. If you run either Steam or Wallpaper Engine as administrator, the Steamworks SDK in Wallpaper Engine may not work. The solution is to not run either program as admin, which is the intended way. If it still does not work, reinstall Steam and get rid of any antivirus that blocks communication between different programs.
+По какой-то причине не удается установить связь между Wallpaper Engine и Steam. Перезагрузите Steam, затем Wallpaper Engine. Удостоверьтесь, что вы зашли на тот аккаунт Steam, на котором куплена программа Wallpaper Engine. Если вы запускаете Steam или Wallpaper Engine от имени администратора, Steamworks SDK в Wallpaper Engine может не работать. Решение этой проблемы — не использовать запуск от имени администратора для этих двух программ, что и было предусмотрено разработчиками. Если это не решило проблему, переустановите Steam и отключите любые антивирусные программы, которые имеют возможность блокировать передачу информации между посторонними программами.
 
-Try the following steps:
+Попробуйте проделать следующие шаги:
 
-* Restart Steam, then Wallpaper Engine.
-* Make sure you are logged into the Steam account that owns Wallpaper Engine.
-* Do **not** run Steam or Wallpaper Engine as administrator.
-* Exclude the Steam directory from your antivirus or completely disable any third-party antivirus application
-* Close "Steam idling" programs.
-* Delete cracked Steam games that override Steam's presence on the PC.
-* Uninstall Wallpaper Engine and Steam. Delete the entire Steam folder. Reinstall Steam and Wallpaper Engine.
+* Перезагрузите Steam, затем Wallpaper Engine.
+* Удостоверьтесь, что вы зашли на тот аккаунт Steam, на котором куплена программа Wallpaper Engine.
+* **Не запускайте** Steam или Wallpaper Engine от имени администратора.
+* Добавьте весь каталог Steam в список исключений вашего антивируса или полностью отключите все сторонние антивирусные программы.
+* Закройте программы для автоматизированного получения карточек в Steam.
+* Удалите взломанные игры, которые вмешиваются в работу Steam на вашем компьютере.
+* Удалите Wallpaper Engine и Steam. Удалите всю папку Steam. Переустановите Steam и Wallpaper Engine.
