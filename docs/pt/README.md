@@ -3,7 +3,7 @@ Se está a ter problemas técnicos ou apenas deseja fazer uma pergunta acerca do
 
 **É melhor se usar a barra de pesquisa no canto superior direito** ou simplesmente consulte a lista de artigos à esquerda - tentámos dividi-los em categorias de forma sensata. Abaixo também listámos os artigos de ajuda mais visitados, pode ver se o seu problema está nessa lista.
 
-::: dica Use a barra de p4esquisa no canto superior direito com palavras-chave individuais. Por exemplo, se os seus wallpapers aparecerem apenas como fundos pretos, experiemnte procurar "preto". :::
+::: dica Use a barra de p4esquisa no canto superior direito com palavras-chave individuais. Por exemplo, se os seus wallpapers aparecerem apenas como fundos pretos, experiemente procurar "preto". :::
 
 ## Artigos de assistência mais populares
 
