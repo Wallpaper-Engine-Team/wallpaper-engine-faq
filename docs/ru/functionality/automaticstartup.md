@@ -6,30 +6,30 @@ tags:
 
 # Автозапуск при загрузке системы
 
-Вы можете настроить программу Wallpaper Engine так, чтобы она запускалась автоматически, когда вы включаете компьютер. Для этого окройте настройки Wallpaper Engine и перейдите во вкладку «Общее». Наверху вкладки вы можете подключить опцию автозапуска, которая будет бесшумно запускать программу в фоновом режиме при загрузке системы.
+Вы можете настроить программу Wallpaper Engine так, чтобы она запускалась автоматически, когда вы включаете компьютер. Для этого откройте настройки Wallpaper Engine и перейдите во вкладку «Общее». Наверху вкладки вы можете подключить опцию автозапуска, которая будет бесшумно запускать программу в фоновом режиме при загрузке системы.
 
-## What is the difference between "high-priority" and the "normal" start-up option?
+## В чем разница между автозапуском с «высоким» и с «обычным» приоритетами?
 
-When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+При выборе высокого приоритета, программа Wallpaper Engine будет зарегистрирована в качестве службы Windows. Это значит, что Wallpaper Engine будет запускаться раньше остальных программ, для которых вы настроили опцию одновременного с Windows запуска. Это никак не повлияет на производительность самой программы.
 
-The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
+Минус высокого приоритета автозапуска состоит в том, что это менее надежный вариант, в первую очередь из-за антивирусов, которые могут начать слишком агрессивно реагировать на Wallpaper Engine, по ошибке приняв его за вредоносную программу, и заблокировать запуск в этом режиме.
 
-## I have enabled the automatic startup but it is not working, what can I do?
+## Что делать, если я включил автозапуск, но он не работает?
 
-If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
+Если у вас выбран автозапуск в режиме *высокого* приоритета, попробуйте переключиться на *обычный* автозапуск, отключив данный режим. Как объяснялось выше, в режиме высокого приоритета программа запускается быстрее, однако по многим причинам этот вариант менее надежен, в первую очередь в связи с возможными блокировками антивируса.
 
-If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
+Если у вас выбран автозапуск в режиме обычного приоритета, попробуйте переключиться на высокий приоритет и проверьте, решило ли это проблему.
 
-If neither the high-priority or normal-priority option work for you, check the antivirus software you have installed on your system. Some antivirus and firewall applications sometimes block Wallpaper Engine from automatically starting when your computer boots up. Your antivirus software likely has a "whitelist" feature which allows you to ignore certain folders or applications, make sure to whitelist the wallpaper_engine install directory and all executables in it.
+Если автозапуск не работает ни в одном из этих двух режимов, проверьте, не является ли ваш антивирус причиной проблемы. Некоторые антивирусы и брандмауэры иногда не позволяют Wallpaper Engine автоматически запускаться при включении компьютера. Скорее всего, у вашего антивируса есть функция «белого списка», которая заставляет его игнорировать определенные папки и программы. Удостоверьтесь, что в белый список занесен каталог установки wallpaper_engine и все содержащиеся в нем загрузочные файлы.
 
-Another rare cause can be that if you (or an application on your system) set the Wallpaper Engine .exe files to be run as admin only then it cannot automatically start either, you will need to remove the admin setting and toggle the automatic startup off and back on.
+Еще один редкий случай: вы (или программа на вашем компьютере) изменили настройки .exe файлов Wallpaper Engine, и теперь программу можно запускать только от имени администратора. При таких настройках автозапуск не работает, поэтому вам понадобится удалить их и выключить, а потом заново включить автозапуск.
 
-If the automatic startup does not work, the answer virtually always is somehow related to overzealous antivirus software. If you have antivirus or firewall applications installed, please double-check all their settings and security levels.
+Практически в ста процентах случаев, когда не работает автозапуск, проблема так или иначе связана с чрезмерно усердствующей антивирусной программой. Если у вас установлены любые антивирусы или брандмауэры, пожалуйста, еще раз проверьте их настройки и уровень безопасности.
 
-## Wallpaper Engine starts with Windows but (some) wallpapers are not shown
+## Wallpaper Engine запускается вместе с Windows, но (некоторые) обои не воспроизводятся
 
- Check if the Wallpaper Engine icon is visible in the Windows tray next to the clock after you start your computer. If the icon is there after your system starts but either some or none of your monitors have their respective wallpapers shown, there is a problem with your graphics card drivers. Essentially, your graphics card drivers keep assigning your monitors new identifiers which leads Wallpaper Engine to believe that you are trying to configure a new monitor. You can fix this by changing the *"Monitor identification"* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*. We also recommend that you do a clean re-installation of your graphics card drivers in this case, as it's an indicator for an underlying problem with your Windows installation.
+ После включения компьютера проверьте, отображается ли значок Wallpaper Engine рядом с часами в области уведомлений Windows. Если после загрузки системы значок на месте, однако обои не воспроизводятся на некоторых или всех мониторах, проблема связана с работой драйверов видеокарты. Фактически, драйвера видеокарты непрерывно присваивают вашим мониторам новые идентификаторы, в результате чего Wallpaper Engine считает, что вы пытаетесь настроить новый монитор. Ошибку можно устранить в настройках Wallpaper Engine, перейдя во вкладку *«Общее»* и выбрав в выпадающем списке опции *«Идентификация монитора»* варианты *«Слой»* или *«GDI»*. В этом случае мы также рекомендуем провести чистую переустановку драйверов видеокарты, поскольку эта ошибка указывает на наличие более серьезной проблемы, затрагивающей установку Windows.
 
- ## Wallpaper Engine assigns wrong wallpapers at system start-up
+ ## После автозапуска Wallpaper Engine воспроизводит не те обои
 
- This is the same problem as in the previous section, if you have multiple monitors and the wallpapers are being assigned to the wrong monitor at start-up, try changing the *Monitor identification* option in the *General* tab of the Wallpaper Engine settings to *Layout* or *GDI*.
+ Это та же ошибка, что и в предыдущем разделе. Если вы используете несколько мониторов и после автозапуска на мониторах воспроизводятся не те обои, попробуйте перейти во вкладку *«Общее»* и выбрать в выпадающем списке опции *«Идентификация монитора»* варианты *«Слой»* или *«GDI»*.
