@@ -1,21 +1,20 @@
-# Usar la herramienta de escaneo de Wallpaper Engine para crear un registro de depuración
+# Use the Wallpaper Engine scan tool to create a debug log
 
-Si tienes problemas técnicos con Wallpaper Engine y no puedes resolverlos tras leer las preguntas frecuentes, puedes crear un registro de depuración y enviárnoslo cuando contactes con nosotros:
+1. Make sure Wallpaper Engine is running (if possible).
+2. Choose the 4th launch option in Steam (*Scan for conflicting applications*):
+3. Click on **Save Full Log** and save it to your desktop.
+4. Share the log file with by using either of these methods developers:
+    * Go to [pastebin.com](https://pastebin.com/) and copy-paste the contents of the log file in there, afterwards share the link to your paste.
+    * Alternatively, you can just attach the log file to an email and send it to us. If you have already an existing email discussion, please reply to the previous email with the attached log file. If this is your first email, please add some information about the problem you were having or a link to an existing discussion.
 
-1. Asegúrate de que Wallpaper Engine está activo (si es posible).
-2. Elige la cuarta opción de Steam (*«Buscar aplicaciones conflictivas», abajo encontrarás un vídeo explicativo):</li>
-3 Haz clic en **Guardar registro completo** y guárdalo en el escritorio (abajo encontrarás un vídeo explicativo).
-4 Comparte el registro con alguno de estos métodos:
-    * Ve a [pastebin.com](https://pastebin.com/), pega los contenidos del registro y después comparte el enlace.
-    * También puedes enviarnos el archivo del registro por correo. Si ya tienes una conversación por correo electrónico con nosotros, contesta al mensaje anterior con el archivo del registro. En caso de que sea el primer correo que nos envías, coméntanos el problema que tienes o mándanos el enlace de una discusión existente.
-5 *Opcional:* si el programa se cuelga, dirígete al directorio *wallpaper_engine* para comprobar si hay algún archivo **.mdmp** y envíanoslos por correo o súbelos a alguna página. Si hay muchos archivos .mdmp, mándanos solo los más recientes. ::: tip Si la herramienta de escaneo no encuentra ningún problema a primera vista, a nosotros nos sirve investigar a fondo el archivo de registro, pues suele revelar problemas comunes del ordenador que nos vendrán bien para decirte cómo arreglar los problemas técnicos. :::</ol>
+::: tip Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues. :::
 
-#### Vídeo de ayuda
+#### Additional video help
 
-**Paso 2**
+**Step 2**
 
-![Opción Usar herramienta de escaneo](./scantoollaunch.gif)
+![Scan Tool Launch Option](./scantoollaunch.gif)
 
-**Paso 3**
+**Step 3**
 
-![Guardar registro de la herramienta de escaneo](./scantoolsave.gif)
+![Scan Tool Save Log](./scantoolsave.gif)
