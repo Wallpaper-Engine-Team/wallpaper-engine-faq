@@ -1,6 +1,6 @@
 # Неправильная частота обновления экрана монитора
 
-Depending on hardware and operating system, your graphics card may have issues updating all of your monitors at the same time if they have wildly differing refresh rates. Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
+При использовании некоторых операционных систем и аппаратного обеспечения, видеокарта может не справляться с одновременным изменением изображения на нескольких мониторах, если у них большой разброс в частоте обновления экрана. Microsoft has addressed this issue in the Windows 10 2004 Update (May 2020), please make sure you are using at least that version of Windows 10 or newer if you are having this problem.
 
 Some common work-arounds:
 
