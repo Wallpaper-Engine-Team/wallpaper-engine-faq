@@ -1,0 +1,18 @@
+{
+	"title": "Wallpaper Engine - คู่มือการแก้ไขปัญหาและคำถามที่พบบ่อย",
+	"description": "เว็บไซต์นี้รวบรวมคำถามและปัญหาที่พบบ่อยครั้งใน Wallpaper Engine",
+	"contactUs": "หากคุณไม่สามารถแก้ไขปัญหาได้ โปรดแจ้งให้เราทราบ!",
+	"searchPlaceholder": "ค้นหาคีเวิร์ด",
+	"selectText": "ภาษา",
+	"language_name": "ภาษาไทย (Thai)",
+	"sidebar_windows": "Windows",
+	"sidebar_crashes": "ข้อผิดพลาด",
+	"sidebar_videos": "วิดีโอวอลเปเปอร์",
+	"sidebar_analysis": "การวิเคราะห์ข้อผิดพลาดและการติดต่อ",
+	"sidebar_audio": "เสียง",
+	"sidebar_performance": "ประสิทธิภาพการทำงาน",
+	"sidebar_noshow": "วอลเปเปอร์ไม่ปรากฏ",
+	"sidebar_browser": "เบราเซอร์วอลเปเปอร์",
+	"sidebar_downloads": "Steam - ดาวน์โหลด / อัปโหลด",
+	"sidebar_general": "ทั่วไป"
+}

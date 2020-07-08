@@ -1,0 +1,18 @@
+{
+	"title": "Wallpaper Engine - 문제 해결 및 FAQ",
+	"description": "이 웹사이트에서는 자주 묻는 Wallpaper 관련 질문과 문제를 다룹니다",
+	"contactUs": "문제를 해결할 수 없으세요? 저희에게 문의하세요!",
+	"searchPlaceholder": "키워드 검색",
+	"selectText": "언어",
+	"language_name": "한국어 (Korean)",
+	"sidebar_windows": "Windows",
+	"sidebar_crashes": "작동 중단",
+	"sidebar_videos": "영상 배경화면",
+	"sidebar_analysis": "오류 분석 및 문의",
+	"sidebar_audio": "오디오",
+	"sidebar_performance": "성능",
+	"sidebar_noshow": "표시되지 않는 배경화면",
+	"sidebar_browser": "배경화면 브라우저",
+	"sidebar_downloads": "Steam - 다운로드 / 업로드",
+	"sidebar_general": "일반"
+}

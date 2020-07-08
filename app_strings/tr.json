@@ -1,0 +1,18 @@
+{
+	"title": "Wallpaper Engine - Sorun Giderme ve SSS",
+	"description": "Bu web sitesi, Wallpaper Engine ile ilgili sıkça sorulan sorular ve sorunları içermektedir",
+	"contactUs": "Sorununuzu çözemiyor musunuz? Bizimle iletişime geçin!",
+	"searchPlaceholder": "Anahtar Kelime Araması",
+	"selectText": "Diller",
+	"language_name": "Türkçe (Turkish)",
+	"sidebar_windows": "Windows",
+	"sidebar_crashes": "Çökmeler",
+	"sidebar_videos": "Video Duvar Kâğıtları",
+	"sidebar_analysis": "Hata Analizi ve İletişim",
+	"sidebar_audio": "Ses",
+	"sidebar_performance": "Performans",
+	"sidebar_noshow": "Duvar kâğıtları gösterilmiyor",
+	"sidebar_browser": "Duvar Kâğıdı Tarayıcısı",
+	"sidebar_downloads": "Steam - İndirmeler / Yüklemeler",
+	"sidebar_general": "Genel"
+}

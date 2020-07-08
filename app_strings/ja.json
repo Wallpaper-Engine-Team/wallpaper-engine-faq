@@ -1,0 +1,18 @@
+{
+	"title": "Wallpaper Engine - トラブルシューティングとFAQ",
+	"description": "このWebサイトは、Wallpaper Engineに関するよくある質問や問題をカバーしています",
+	"contactUs": "問題が修正できない場合はご連絡ください！",
+	"searchPlaceholder": "キーワード検索",
+	"selectText": "言語",
+	"language_name": "日本語",
+	"sidebar_windows": "Windows",
+	"sidebar_crashes": "クラッシュ",
+	"sidebar_videos": "ビデオ壁紙",
+	"sidebar_analysis": "エラー解析と連絡",
+	"sidebar_audio": "オーディオ",
+	"sidebar_performance": "パフォーマンス",
+	"sidebar_noshow": "壁紙が表示されない",
+	"sidebar_browser": "壁紙ブラウザ",
+	"sidebar_downloads": "Steam - ダウンロードとアップロード",
+	"sidebar_general": "一般"
+}

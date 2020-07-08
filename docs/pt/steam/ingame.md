@@ -1,0 +1,9 @@
+# Steam aparece sempre "dentro do jogo"
+O Wallpaper Engine é suposto só aparecer no Steam enquanto acede ás funcionalidades da Workshop (quando o browser ou o editor está aberto, isto é forçado pela Valve / Steam). Mas se aparecer mesmo depois de fechar todas as janelas, está a sofrer um erro conhecido do Steam, que pode evitar com a correção abaixo, ou a janela não ficou corretamente fechada (procure ui32.exe no gestor de tarefas).
+
+Se este problema ocorre regularmente, pode corrigi-lo indiretamente não iniciando o programa através do Steam mas diretamente através do diretório de instalação wallpaper_engine. Por predefinição, este seria `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe`. Se o Wallpaper Engine já estiver a ser executado, primeiro desligue-o completamente e depois volte a executá-lo a partir deste diretório e possivelmente desative o início automático e depois volte a ativá-lo nas definições do Wallpaper Engine.
+
+Sempre que o Steam volta a ligar à Internet, devido ao facto de a sua Internet se ter desligado e depois voltado a ligar, o Steam pode ficar um bocadinho maluco no que se refere ao seu estado de "dentro do jogo" que pode provocar problemas como este. Como mencionámos acima, inicie o programa diretamente ou através da funcionalidade de início automático e não através do Steam. É provável que isto impeça o problema de lhe voltar a acontecer.
+
+## Desativar completamente a integração Workshop / Steam
+Pode desativar a integração completa com o Steam criando um ficheiro de texto vazio chamado `nosteam.txt` e colocando-o no diretório `wallpaper_engine/bin` (por predefinição, o caminho completo é `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`). Não pode transferir/atualizar ou enviar quaisquer wallpapers se isto estiver desativado, mas continua a poder aceder a tudo o que foi transferido anteriormente. 
