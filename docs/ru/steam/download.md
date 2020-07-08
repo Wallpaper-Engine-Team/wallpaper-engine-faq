@@ -30,9 +30,9 @@ Steam еще не закончил загружать или проверять 
 * Перезагрузите Steam. Не запускайте никаких игр. Проверьте, есть ли прогресс во вкладке загрузок Steam и возобновите приостановленные загрузки, если такие есть.
 
 ::: details В том случае, если описанные выше шаги не решили проблему с загрузками, кликните сюда, чтобы увидеть больше возможных решений
-* Удостоверьтесь, что Steam не был заблокирован антивирусом или брандмауэром. Exclude the whole Steam directory in your anti-virus app settings.
-* Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
-* Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
+* Удостоверьтесь, что Steam не был заблокирован антивирусом или брандмауэром. Зайдите в настройки антивируса и добавьте весь каталог Steam в список исключений.
+* Отпишитесь от обоев, которые не загружаются, и подпишитесь на них заново после перезагрузки Steam.
+* Выберите другой регион для загрузки в настройках Steam. Это можно сделать через вкладку «Загрузки» в настройках Steam.
 * Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
 * Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
 * Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
