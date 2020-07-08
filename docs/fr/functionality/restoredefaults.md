@@ -1,15 +1,15 @@
-# Restaurer les paramètres par défaut
+# Restoring deleted default wallpapers
 
-Si vous avez supprimé des fonds d'écran fournis avec Wallpaper Engine, vous pouvez les récupérer en supprimant un fichier de configuration dans le répertoire d'installation *wallpaper_engine* :
+If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
 
-1. Fermez complètement Wallpaper Engine (clic droit sur l'icône dans la barre des tâches > "Quitter")
+1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
 
-2. Dans le dossier de Wallpaper Engine, supprimez un fichier appelé "visibility.json". Par défaut, ce fichier se trouve ici :
+2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
-Si Steam ou Wallpaper Engine sont installés ailleurs, le début du chemin de ce fichier sera différent, mais la fin restera toujours la même : *wallpaper_engine\projects\defaultprojects\visibility.json* .
+If your Steam or Wallpaper Engine are installed in a different place / directory, the directory will be slightly different, but *wallpaper_engine\projects\defaultprojects\visibility.json* sub-directory is always the same.
 
-3. Une fois le fichier supprimé, redémarrez Wallpaper Engine et les fonds d'écran seront de retour.
+3. Once the file is deleted, start Wallpaper Engine again, you will have all default wallpapers back.
 
-::: tip Si le fichier "visibility.json" reste introuvable, vous pouvez toujours réinstaller Wallpaper Engine. Cela restaurera bien tous les fonds d'écran par défaut, mais vous devrez télécharger de nouveau tous vos autres fonds d'écran. Pour éviter cette étape fastidieuse, nous vous conseillons plutôt la première solution. :::
+::: tip If you are unable to find the "visibility.json" file for some reason, you can also always just re-install Wallpaper Engine. This will also restore all default wallpapers but will require you to re-download all wallpapers which you can avoid by following the steps above. :::
