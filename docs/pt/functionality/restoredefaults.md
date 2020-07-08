@@ -1,15 +1,15 @@
-# Restoring deleted default wallpapers
+# Restaurar wallpapers predefinidos que foram apagados
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+Se apagou wallpapers que foram pré-instalados com o Wallpaper Engine, pode recuperá-los apagando um ficheiro de configuração no seu diretório de instalação *wallpaper_engine*:
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. Desative completamente o Wallpaper Engine (clique com o botão direito no tabuleiro -> "Sair")
 
-2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
+2. Vá ao seu diretório do Wallpaper Engine we apague um ficheiro chamado "visibility.json". Por predefinição, o ficheiro está aqui:
 
 * *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
-If your Steam or Wallpaper Engine are installed in a different place / directory, the directory will be slightly different, but *wallpaper_engine\projects\defaultprojects\visibility.json* sub-directory is always the same.
+Se o seu Steam ou Wallpaper Engine estiverem instalados noutro lugar / diretório, o diretório será ligeiramente diferente, mas o subdiretório *wallpaper_engine\projects\defaultprojects\visibility.json* é sempre o mesmo.
 
-3. Once the file is deleted, start Wallpaper Engine again, you will have all default wallpapers back.
+3. Depois de apagar o ficheiro, volte a iniciar o Wallpaper Engine e terá recuperado todos os wallpapers predefinidos.
 
-::: tip If you are unable to find the "visibility.json" file for some reason, you can also always just re-install Wallpaper Engine. This will also restore all default wallpapers but will require you to re-download all wallpapers which you can avoid by following the steps above. :::
+::: dica Caso, por qualquer motivo, não encontre o ficheiro "visibility.json", pode sempre simplesmente reinstalar o Wallpaper Engine. Isto irá também restaurar todos os wallpapers predefinidos, mas também será necessário voltar a transferir todos os wallpapers, o que poderá evitar seguindo as instruções acima. :::
