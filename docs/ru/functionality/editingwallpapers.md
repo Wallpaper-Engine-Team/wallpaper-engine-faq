@@ -16,13 +16,13 @@
 
 Сценические обои упакованы в файл формата .pkg, который по умолчанию невозможно редактировать, поскольку он не содержит данных проекта. При попытке распаковать .pkg файла вы увидите следующее сообщение об ошибке: «Упакованные обои нельзя открыть». В качестве аналогии можно привести пример изображений формата .jpeg, которые тоже не содержат в себе данные проекта в Photoshop: эта информация всегда остается в системе первоначального автора.
 
-#### Unofficial Community Scene Unpacker
+#### Созданный сообществом неофицальный распаковщик сцен
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+Тем не менее, некоторые члены сообщества создали неофицальный инструмент для распаковки сценических обоев. Он позволяет распаковывать файлы, содержащие сцены, чтобы создавать собственные обои на их основе. Вы найдете подробную информацию по ссылке:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+Для работы с такими обоями вам все равно понадобится стандартный файл project.json. Чтобы получить такой файл просто создайте новые пустые обои в редакторе, закройте Wallpaper Engine, а затем распакуйте загруженные обои и скопируйте их содержимое в каталог нового проекта.
 
 If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
 
