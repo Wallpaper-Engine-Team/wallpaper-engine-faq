@@ -1,18 +1,18 @@
-# Vídeo congelado / intermitente / mau desempenho
+# Video freezes / stuttering / bad performance
 
-Isto pode decorrer do facto do seu hardware não ser suficientemente potente para apresentar o vídeo específico corretamente. Um wallpaper de vídeo não é comparável a leitores de vídeo normais. Ele deve ser composto com os ícones, além de potencialmente esticar-se ao longo de vários ecrãs. Por predefinição, está também a utilizar o descodificador de vídeo do seu GPU de forma a reduzir a utilização do CPU ao mínimo.
+This could come from your hardware not being powerful enough to display the specific video properly. A video wallpaper isn't comparable to standard video players, it must be composed with the icons as well and potentially stretches over multiple screens. It is also using the video decoder of your GPU by default to reduce CPU usage to a minimum.
 
-## Ganchos de gravação em segundo plano
-Também pode vir de qualquer tipo de funcionalidades do controlador para gravar aplicações como ReLive, Shadow Play/Nvidia Share ou Windows GameDVR. Experimente desativá-los e ver se isso faz alguma diferença e, em seguida, excluir-lhes o Wallpaper Engine. Certifique-se também de que nenhum outro programa de gravação/overlay se carrega no Wallpaper Engine e torna o rendering mais lento.
+## Background recording hooks
+It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
 
-Pode experimentar usar a nossa ferramenta de deteção para determinar se algum programa com ganchos de gravação conhecidos está instalada mas não apanha tudo, especialmente ganchos de gravação comuns como os da Nvidia GeForce Experience:
+You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
 
 * [Wallpaper Engine Scan Tool](/debug/scantool.html)
 
 ## Dynamic Super Resolution (DSR) / GPU Scaling
-Hacks ao nível do controlador como GPU Scaling/DSR também podem dar origem a problemas. Experimente desativá-los e, se isso ajudar, desative-os especificamente para o Wallpaper Engine.
+Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.
 
-## Mau desempenho no dwm.exe em sistemas com vários GPUs / vários ecrãs
-Se ativou o GPU integrado no seu PC desktop no BIOS apesar de estar instalada uma placa gráfica dedicada, poderá sofrer um mau desempenho e utilização elevada do CPU da parte do DWM.exe. Se for possível, não ative o seu GPU integrado. **É muito importante que ligue todos os seus monitores à sua placa gráfica dedicada.** Utilizar os dois GPUs ao mesmo tempo irá quebrar a aceleração por hardware do desktop window manager. Sem tecnologia Nvidia Optimus ou semelhante, o Windows será obrigado a copiar a imagem do wallpaper de um GPU para o outro - uma operação lenta. Na verdade, qualquer ação partilhada entre os GPUs irá sofrer por causa disto, sendo o mesmo que move uma janela de jogo entre dois monitores.
+## Bad performance in dwm.exe in systems with multiple GPUs / multiple screens
+If you have enabled the integrated GPU on your desktop PC in the BIOS although a dedicated graphics card is installed, you can experience bad performance and high CPU usage of DWM.exe. If possible, do not enable your integrated GPU. **It's very important to plug all your monitors into your dedicated graphics card.** Using both GPUs at the same time will break hardware acceleration of the desktop window manager. Without Nvidia Optimus technology or similar, Windows will be forced to copy the wallpaper image from one GPU to the other - a slow operation. In fact any shared action between your GPUs will suffer from this, it is the same as moving a game window right between both monitors.
 
-Este problema específico não afeta hardware criado para configurações multi-GPU como portáteis com Nvidia Optimus ou configurações Nvidia SLI / AMD Crossfire com uma hardware bridge.
+This specific issue does not affect hardware built for multi-GPU setups like laptops with Nvidia Optimus or proper Nvidia SLI / AMD Crossfire setups with a hardware bridge.
