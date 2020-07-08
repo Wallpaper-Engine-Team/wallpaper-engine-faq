@@ -29,11 +29,11 @@ A correção a longo-prazo mais fiável para a maior parte dos utilizadores afet
 1. Desinstale o Wallpaper Engine através do Steam.
 2. Desinstale o próprio Steam, seguindo sempre o guia oficial:
   * [Desinstalar o Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
-  * Verifique especificamente a secção Manually Removing Steam no artigo do Steam Support acima e faça uma cópia de segurança do seu diretório *steamapps* tal como é descrito no guia, para garantir que não tem de voltr a transferir todos os seus jogos.
+  * Verifique especificamente a secção Manually Removing Steam no artigo do Steam Support acima e faça uma cópia de segurança do seu diretório *steamapps* tal como é descrito no guia, para garantir que não tem de voltar a transferir todos os seus jogos.
 
-## Use cópas de segurança locais como solução indireta
+## Use cópias de segurança locais como solução indireta
 
-Se o problema lhe continuar a acontecer, também pode fazer cópias de segurança locais e depois anular a subscrição de todos os wellpapers. O Steam não voltará a transferir wallpapers que não estejam subscritos, pelo que a solução indireta é simplesmnete contar com as cópias de segurança locais. Aqui poderá encontrar o nosso guia para criar cópias de segurança:
+Se o problema lhe continuar a acontecer, também pode fazer cópias de segurança locais e depois anular a subscrição de todos os wallpapers. O Steam não voltará a transferir wallpapers que não estejam subscritos, pelo que a solução indireta é simplesmente contar com as cópias de segurança locais. Aqui poderá encontrar o nosso guia para criar cópias de segurança:
 
 * [Usar cópias de segurança dos wallpapers](/steam/backup)
 
