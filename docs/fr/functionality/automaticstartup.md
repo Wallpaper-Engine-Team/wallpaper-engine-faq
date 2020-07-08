@@ -22,7 +22,7 @@ Si vous utilisez le mode normal et que l'application ne se lance pas au démarra
 
 Si aucune de ces solutions ne fonctionne, essayez d'aller voir du côté de votre antivirus. Certains antivirus et pare-feu empêchent parfois Wallpaper Engine de s'exécuter automatiquement lorsque votre ordinateur démarre. Votre antivirus a probablement une fonctionnalité de "liste blanche" qui vous permet de lui demander d'ignorer certains dossiers ou applications. Assurez-vous de mettre dans cette liste le répertoire d'installation de wallpaper_engine et tous les exécutables qu'il contient.
 
-Une autre cause de ce problème peut venir du fait que vous, ou une application sur votre système, avez défini les fichiers .exe de Wallpaper Engine pour qu'ils soient exécutés en tant qu'administrateur uniquement. Ils ne peuvent donc pas s'exécuter automatiquement. Vous devrez supprimer le paramètre administrateur et désactiver le démarrage automatique, avant de le réactiver.
+Certains antivirus et pare-feu empêchent parfois Wallpaper Engine de s'exécuter automatiquement lorsque votre ordinateur démarre. Votre antivirus a probablement une fonctionnalité de "liste blanche" qui vous permet de lui demander d'ignorer certains dossiers ou applications. Assurez-vous de mettre dans cette liste le répertoire d'installation de wallpaper_engine et tous les exécutables qu'il contient.
 
 Si l'exécution automatique ne fonctionne toujours pas, c'est probablement encore et toujours de la faute d'un antivirus trop zélé. Si vous avez installé des antivirus ou un pare-feu, veuillez vérifier leurs paramètres et leurs niveaux de sécurité.
 
