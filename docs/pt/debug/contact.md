@@ -5,18 +5,18 @@ tags:
   - support
 ---
 
-# Contacto
+# Contact
 
-Se tiver algum problema técnico com o Wallpaper Engine, tente resolvê-lo primeiro através do FAQ (Perguntas Mais Frequentes). A maior parte dos bilhetes de assistência técnica que recebemos podem ser resolvidos através do FAQ.
+If you have a technical problem with Wallpaper Engine, please try and resolve it with the FAQ first. Most technical support tickets we received can be fixed with the FAQ.
 
-Também pode perguntar ou pesquisar no nosso Steam Discussion Board, em geral tentamos responder a toda a gente e a maior parte das perguntas já foram discutidas anteriormente:
+You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
 
 * [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
 
-Se não conseguir encontrar um artigo apropriado ou não conseguir resolver o seu problema, pode contactar-nos através de [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
+If you cannot find a fitting article or cannot fix your problem, you can reach us at [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
 
-::: dica Se tiver um problema técnico, ajuda se incluir um ficheiro de registo da nossa ferramenta de varrimento (scan tool):
+::: tip If you are having a technical issue, it helps if you include a log file from our scan tool:
 
-* [Usar a ferramenta de varrimento do Wallpaper Engine para criar um registo de debug](debug/scantool)
+* [Use the Wallpaper Engine scan tool to create a debug log](debug/scantool)
 
-A ferramenta de varrimento inclui detalhes técnicos que costumam ajudar-nos a apontá-lo na direção certa mais depressa. :::
+The scan tool includes technical details which usually help us point you in the right direction faster. :::
