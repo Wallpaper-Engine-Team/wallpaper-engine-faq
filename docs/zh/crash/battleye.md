@@ -9,9 +9,9 @@ tags:
 # BattlEye 反作弊系统终止 Wallpaper Engine
 如果 Wallpaper Engine 在您启动特定游戏时无提示关闭，最有可能导致这种情况的应该是被众多多人游戏采用的 BattlEye 反作弊系统。 已知采用 BattlEye 系统的游戏有：
 
-* Fortnite
-* Playerunknown's Battleground (PUBG)
-* Rainbow Six Siege
+* 堡垒之夜（英语：Fortnite）
+* 絕地求生（英语：PlayerUnknown's Battlegrounds，简称“PUBG”）
+* 虹彩六號：圍攻行動 （英语：Tom Clancy's Rainbow Six: Siege）
 * Escape from Tarkov
 * *等等...*
 
