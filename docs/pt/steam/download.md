@@ -14,7 +14,7 @@ Tenha em conta que **todas as transferências são efetuadas pelo Steam**. O Wal
 
 Se está a ter dificuldades com transferências do Steam, certifique-se de que nenhuma aplicação antivírus está a bloquear o seu Steam e de que todas as portas necessárias estão abertas na sua firewall - incluindo quaisquer firewalls nos seus routers de rede.
 
-::: dica Pode verificar facilmente se o seu router de rede está a bloquear as transferências do Steam mudando para um hotspot móvel no seu smartphone e tentando transferir um wallpaper através dele. :::
+::: tip Pode verificar facilmente se o seu router de rede está a bloquear as transferências do Steam mudando para um hotspot móvel no seu smartphone e tentando transferir um wallpaper através dele. :::
 
 ## Transferência do wallpaper parou a 0% ou 100% (ou qualquer outra percentagem)
 O Steam não acabou de transferir e de verificar os ficheiros. Se as transferências ficarem paradas durante algum tempo, experimente estas coisas se as suas transferências do Steam não funcionarem mesmo depois de ter esperado um pouco:
@@ -29,7 +29,7 @@ O Steam não acabou de transferir e de verificar os ficheiros. Se as transferên
     * **Nota:** `C:\Program Files (x86)\Steam` é o caminho predefinido do Steam. Se instalou noutro local, procure nesse local.
 * Reinicie o Steam. Não inicie quaisquer jogos. Procure o progresso no separador de transferências do Steam e retome quaisquer transferências que tenham ficado em pausa.
 
-::: detalhes Clique aqui para ver mais soluções possíveis se as instruções acima não resolverem os seus problemas de transferências
+::: details Clique aqui para ver mais soluções possíveis se as instruções acima não resolverem os seus problemas de transferências
 * Certifique-se de que nenhum antivírus ou firewall está a bloquear o Steam. Exclua o diretório inteiro do Steam nas definições da sua aplicação antivírus.
 * Anule a subscrição de wallpapers que não transfiram e volte a subscrevê-los depois de reiniciar o Steam.
 * Escolha outro servidor de conteúdo na definições do Steam. Pode encontrar a opção no separador "Downloads" das definições do Steam.
@@ -40,7 +40,7 @@ O Steam não acabou de transferir e de verificar os ficheiros. Se as transferên
 * Tente novamente depois de esperar pelo menos um dia, para o caso de haver problemas nos servidores do Steam.
 * **Como último recurso**, tente reinstalar o Wallpaper Engine para remover quaisquer ficheiros do Steam que estejam danificados (isto voltará a transferir todos os wallpapers!). :::
 
-::: dica Os servidores do Steam ficam offline todas as semanas para manutenção a uma hora fixa:
+::: tip Os servidores do Steam ficam offline todas as semanas para manutenção a uma hora fixa:
 
 * Costa Oeste dos Estados Unidos: **Terça-feira às 4 pm (UTC - 7)**
 * Mesma hora na Europa Central: **Quarta-feira à 1 am (UTC + 1)**
