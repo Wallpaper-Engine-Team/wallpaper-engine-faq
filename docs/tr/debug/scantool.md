@@ -3,7 +3,7 @@
 Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'de bulamıyorsanız bir sistem günlüğü dosyası oluşturabilir ve bizimle paylaşabilirsiniz:
 
 1. Wallpaper Engine'in çalıştığından emin olun (mümkünse).
-2. Steam'deki 4. başlatma seçeneğini tıklayın (*"Çakışan uygulamalar için tarama yapın"*, aşağıda bunun için kısa bir video bulunmaktadır):
+2. Steam'deki 4. başlatma seçeneğini tıklayın (*"Scan for conflicting applications"*, aşağıda bunun için kısa bir video bulunmaktadır):
 3. **Tam Günlüğü Kaydet** seçeneğini tıklayıp masaüstünüze kaydedin (aşağıda kısa bir video bulunmaktadır).
 4. Bu yöntemlerden herhangi birini kullanarak günlük dosyasını geliştiricilerle paylaşın:
     * [pastebin.com](https://pastebin.com/) adresine giderek günlük dosyanızın içeriğini yapıştırın ve yapıştırdığınız içeriğin bağlantısını paylaşın.

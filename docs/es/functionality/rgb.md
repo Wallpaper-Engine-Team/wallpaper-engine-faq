@@ -5,7 +5,7 @@ tags:
 
 # Compatibilidad con componentes RGB (iCUE y Chroma)
 
-Wallpaper Engine es compatible con [**Razer Chroma**](https://www.razer.com/chroma) y con[ **Corsair iCUE**](https://www.corsair.com/icue), además de con los sistemas que se integran en sus ecosistemas.
+Wallpaper Engine es compatible con [**Razer Chroma**](https://www.razer.com/chroma) y con [**Corsair iCUE**](https://www.corsair.com/icue), además de con los sistemas que se integran en sus ecosistemas.
 
 ## Cómo activar / desactivar hardware RGB
 
@@ -37,7 +37,7 @@ Recuerda que iCUE se usa en *modo exclusivo*, por lo que Wallpaper Engine tendr�
 
 Si necesitas asistencia con los componentes iCUE de Corsair, contacta directamente con Corsair:
 
-[help.corsair.com/hc/es/categories/360001506152-Servicio-al-cliente](https://help.corsair.com/hc/es/categories/360001506152-Servicio-al-cliente/)
+[help.corsair.com/hc/es/categories/360001506152-Servicio-al-cliente](https://help.corsair.com/)
 
 Si tienes algún problema con el servicio al cliente de Corsair, ponte en contacto con nosotros y veremos si podemos ayudar.
 

@@ -3,7 +3,7 @@
 Si vous rencontrez des problèmes avec Wallpaper Engine que vous ne parvenez pas résoudre à l'aide de la FAQ, vous pouvez créer un rapport pour votre système que vous pourrez par la suite nous envoyer :
 
 1. Assurez-vous d'avoir lancé Wallpaper Engine (si cela est possible).
-2. Choisissez la 4e option de lancement sur Steam (*"Chercher des conflits entre les applications"*, vous trouverez une courte vidéo ci-dessous) :
+2. Choisissez la 4e option de lancement sur Steam (*"Scan for conflicting applications"*, vous trouverez une courte vidéo ci-dessous) :
 3. Cliquez sur **Sauvegarder le rapport** et enregistrez-le sur notre bureau (vous trouverez une courte vidéo ci-dessous).
 4. Envoyez-nous ce rapport grâce à l'une de ces méthodes :
     * Rendez-vous sur [pastebin.com](https://pastebin.com/), copiez-y le contenu du rapport et envoyez-nous ce lien.
