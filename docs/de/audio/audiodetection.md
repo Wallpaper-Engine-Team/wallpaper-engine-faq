@@ -17,22 +17,22 @@ Wenn Ton erkannt wird aber zu leise ist, vergiss nicht dass die Lautstärke dein
 
 USB & Funk-Headsets weisen öfter Treiberprobleme auf. Bei vielen Geräten kann man das Problem lösen, indem man die Abtastrate in den Windows-Geräteeinstellungen auf 44100 Hz stellt:
 
-Klicke mit Rechtsklick auf das Ton-Symbol rechts unten in der Windows-Taskleiste und wähle "Sound-Einstellungen öffnen" aus. Klicke auf "Geräte-Eigenschaften" in der "Ausgabe"-Sektion des Fensters was erscheint. Danach klicke auf "Erweiterte Geräte-Eigenschaften" und gehe dann auf den Reiter "Erweitert". Du kannst du Abtastrate dann in dem dort angezeigten Menü ändern. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+Klicke mit Rechtsklick auf das Ton-Symbol rechts unten in der Windows-Taskleiste und wähle "Sound-Einstellungen öffnen" aus. Klicke auf "Geräte-Eigenschaften" in der "Ausgabe"-Sektion des Fensters was erscheint. Danach klicke auf "Erweiterte Geräte-Eigenschaften" und gehe dann auf den Reiter "Erweitert". Du kannst du Abtastrate dann in dem dort angezeigten Menü ändern. Der genaue Ort dieser Einstellung unterscheidet sich leicht zwischen verschiedenen Windows-Versionen. Wenn du diese Einstellung nicht finden kannst, durchsuche das Internet nach Anleitungen, wie du die Abtastrate für Audio-Geräte für deine Windows-Version ändern kannst.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
-### Razer headsets with THX
+### Razer-Headsets mit THX
 
-Change the audio input in Wallpaper Engine to the 'Speakers (Razer XYZ)' device. This option is in the general settings and any Razer headset with THX effects should work with this solution.
+Ändere die Ton-Eingabe in Wallpaper Engine zum "Lautsprecher (Razer XYZ)"-Gerät. Diese Option kann in den allgemeinen Einstellungen gefunden werden und alle Razer-Headsets mit THX-Effekten sollten mit dieser Änderung funktionieren.
 
-## 3. Conflicting applications
+## 3. Konflikt mit anderen Anwendungen
 
-If you believe your audio settings are correct but audio responsive wallpapers do not react to audio, you most likely have sound hardware or software that disables the loopback recording feature on the entire PC. It needs to be configured correctly or removed:
+Falls du meinst, dass deine Audio-Einstellungen korrekt sind aber Hintergründe mit audio-visualisierenden Elementen nicht auf Ton reagieren, hast du wahrscheinlich Sound-Hardware oder Sound-Software, welche Loopback-Tonaufnahmen auf dem gesamten PC verhindern. Diese müssen korrekt eingestellt oder entfernt werden:
 
 * Nahimic
 * Sonic Suite
 * Alienware Audio
-* Various other applications, especially pre-installed ones on notebooks
+* Zahlreiche weitere Anwendungen, besonders solche welche auf Notebooks vorinstalliert sind
 
 If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
 
