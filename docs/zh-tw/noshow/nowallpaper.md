@@ -14,7 +14,9 @@ tags:
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: tip 如果您安裝了防毒應用程式 (Windows Defender 除外)，很可能就是原因。 如果您試了幾次都無法解決此問題，請花些時間確認。 :::
+::: tip
+如果您安裝了防毒應用程式 (Windows Defender 除外)，很可能就是原因。 如果您試了幾次都無法解決此問題，請花些時間確認。
+:::
 
 ## 與其他桌面改造軟體衝突
 
