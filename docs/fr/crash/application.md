@@ -9,7 +9,9 @@ Wallpaper Engine est un logiciel utilisé maintenant par des millions de personn
 
 [[toc]]
 
-::: tip Presque tous les rapports d'erreur que nous recevons concernent des pilotes de carte graphique corrompus, des antivirus ou d'autres applications défectueuses qui rendent l'ordinateur instable. :::
+::: tip
+Presque tous les rapports d'erreur que nous recevons concernent des pilotes de carte graphique corrompus, des antivirus ou d'autres applications défectueuses qui rendent l'ordinateur instable.
+:::
 
 ## Réparations rapides en cas de plantage de Wallpaper Engine
 
@@ -53,7 +55,9 @@ Ce crash est généralement dû à Windows lui-même. Essayez de réinstaller la
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: tip Attention N'oubliez pas de sélectionner "Effectuer une réinstallation propre" ou désinstaller manuellement vos pilotes. Si vos pilotes actuels sont corrompus, il faut les éliminer en premier. :::
+::: tip
+Attention N'oubliez pas de sélectionner "Effectuer une réinstallation propre" ou désinstaller manuellement vos pilotes. Si vos pilotes actuels sont corrompus, il faut les éliminer en premier.
+:::
 
 ### nvwgf2umx.dll
 
@@ -61,7 +65,9 @@ Les pilotes Nvidia de votre système ont un problème. Rendez-vous sur le site N
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: tip Attention N'oubliez pas de sélectionner "Effectuer une réinstallation propre" ou désinstaller manuellement vos pilotes. Si vos pilotes actuels sont corrompus, il faut les éliminer en premier. :::
+::: tip
+Attention N'oubliez pas de sélectionner "Effectuer une réinstallation propre" ou désinstaller manuellement vos pilotes. Si vos pilotes actuels sont corrompus, il faut les éliminer en premier.
+:::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
