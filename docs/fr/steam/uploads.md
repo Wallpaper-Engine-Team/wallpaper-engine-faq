@@ -6,4 +6,6 @@ Quand un chargement atteint 45 %, Steam commence à charger les fichiers sur ses
 
 Ce problème est toujours dû au réseau. Vous devrez trouver ce qui empêche Steam de communiquer correctement avec ses serveurs.
 
-::: tip Le problème vient peut-être de votre routeur. Assurez-vous qu'il ne bloque pas Steam. Essayez de voir si les chargements fonctionnent avec votre smartphone un point d'accès mobile. Si c'est le cas, votre routeur est probablement la cause du problème. :::
+::: tip
+Le problème vient peut-être de votre routeur. Assurez-vous qu'il ne bloque pas Steam. Essayez de voir si les chargements fonctionnent avec votre smartphone un point d'accès mobile. Si c'est le cas, votre routeur est probablement la cause du problème.
+:::
