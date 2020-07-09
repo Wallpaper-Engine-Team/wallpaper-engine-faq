@@ -40,7 +40,7 @@ Steam dosyaları indirip doğrulamıyor. Steam indirmeleriniz belirli bir süre 
 * Steam sunucu sorunları olması durumunda en az bir gün bekledikten sonra tekrar deneyin.
 * **Son çare olarak** bozuk Steam dosyalarını temizlemek için Wallpaper Engine'i yeniden yüklemeye çalışın (bu işlem tüm duvar kâğıtlarını yeniden indirecektir!). :::
 
-::: ipucu Steam sunucuları, bakım için her hafta belirli bir zamanda çevrimdışı olur:
+::: tip Steam sunucuları, bakım için her hafta belirli bir zamanda çevrimdışı olur:
 
 * Amerika Birleşik Devletleri Batı Yakası: **Salı 16.00 (UTC - 7)**
 * Orta Avrupa'da aynı saat: **Çarşamba 01.00 (UTC + 1)**
