@@ -1,3 +1,5 @@
+[![Crowdin](https://badges.crowdin.net/wallpaper-engine-faq/localized.svg)](https://crowdin.com/project/wallpaper-engine-faq)
+
 # Update / Install guide
 
 ```
