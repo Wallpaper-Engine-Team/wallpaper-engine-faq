@@ -11,7 +11,7 @@ tags:
 
 Se a janela do browser do Wallpaper Engine não estiver a funcionar, isso normalmente deve-se a controladores da placa gráfica danificados ou a aplicações antivírus. Para mais informações, leia mais abaixo.
 
-::: aviso Atenção Esta secção é acerca do **interface** do Wallpaper Engine estar preto ou danificado. Se os seus **wallpapers estiverem pretos** deve ir aqui: [Ecrã preto / vídeos não reproduzem](/noshow/notplaying.html). :::
+::: warning Atenção Esta secção é acerca do **interface** do Wallpaper Engine estar preto ou danificado. Se os seus **wallpapers estiverem pretos** deve ir aqui: [Ecrã preto / vídeos não reproduzem](/noshow/notplaying.html). :::
 
 ## O browser do Wallpaper Engine está preto ou branco
 
