@@ -31,4 +31,6 @@ Se não tiver a certeza do que fazer: transfira os controladores mais recentes d
 
 Em seguida, instale os controladores que acabou de transferir. Se for efetuado corretamente, de certeza que isto corrigirá o problema.
 
-::: dica Se as cores ainda estiverem erradas depois de reinstalar os controladores da sua placa gráfica, é possível que tenha mais de um GPU ou que não tenha feito uma reinstalação "limpa". Certifique-ser de que primeiro desinstala todos os controladores de placas gráficas e de que limpa todas as definições dos controladores. :::
+::: tip
+Se as cores ainda estiverem erradas depois de reinstalar os controladores da sua placa gráfica, é possível que tenha mais de um GPU ou que não tenha feito uma reinstalação "limpa". Certifique-ser de que primeiro desinstala todos os controladores de placas gráficas e de que limpa todas as definições dos controladores.
+:::
