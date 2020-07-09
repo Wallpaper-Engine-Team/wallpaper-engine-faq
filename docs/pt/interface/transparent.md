@@ -9,4 +9,4 @@ Se o interface para o utilizador do seu Wallpaper Engine estiver transparente, Ã
 
 ![Use o cursor na base do interface para o utilizador para controlar a opacidade](./transparentinterface.gif)
 
-::: dica Pode usar o cursor para espreitar wallpapers enquanto os configura ou explora sem ter de mover a janela do Wallpaper Engine. :::
+::: tip Pode usar o cursor para espreitar wallpapers enquanto os configura ou explora sem ter de mover a janela do Wallpaper Engine. :::
