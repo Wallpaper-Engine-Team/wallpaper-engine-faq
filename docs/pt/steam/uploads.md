@@ -6,4 +6,4 @@ A 45% do processo de envio, o Steam começará de facto a enviar de ficheiros pa
 
 Este problema é sempre um qualquer problema de rede. Será necessário investigar o que está a impedir o seu Steam de comunicar corretamente com os servidores do Steam.
 
-::: dica Este problema de rede também pode ser provocado por uma firewall no seu router de rede. Certifique-se de que nenhum router de rede está a impedir o Steam de enviar ficheiros. Experimente se os envios funcionam através de um hotspot wi-fi móvel - nesse caso, a culpa é provavelmente do seu router e não de qualquer software que esteja no seu computador. :::
+::: tip Este problema de rede também pode ser provocado por uma firewall no seu router de rede. Certifique-se de que nenhum router de rede está a impedir o Steam de enviar ficheiros. Experimente se os envios funcionam através de um hotspot wi-fi móvel - nesse caso, a culpa é provavelmente do seu router e não de qualquer software que esteja no seu computador. :::
