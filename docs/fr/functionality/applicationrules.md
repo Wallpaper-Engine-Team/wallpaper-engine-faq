@@ -28,7 +28,9 @@ Dans l'onglet *Performances* des paramètres de Wallpaper Engine, cliquez sur le
 
 Vous verrez alors une liste de tous les .exe en cours d'exécution sur votre système. Sélectionnez un .exe de cette liste ou entrez le nom du .exe qui vous pose des problèmes. Vous pouvez ainsi configurer le comportement avec ces deux autres options. Voir plus bas pour plus d'informations.
 
-::: tip Wallpaper Engine ne prend en compte que le nom du fichier .exe, son emplacement n'est pas pris en compte lorsque vous entrez son nom dans *Nom de l'application*. Vous devez juste vous assurer de respecter les majuscules et les minuscules. :::
+::: tip
+Wallpaper Engine ne prend en compte que le nom du fichier .exe, son emplacement n'est pas pris en compte lorsque vous entrez son nom dans *Nom de l'application*. Vous devez juste vous assurer de respecter les majuscules et les minuscules.
+:::
 
 ### Problèmes de performances avec les applications et les jeux
 
@@ -42,4 +44,6 @@ Sélectionnez le .exe du programme pour lequel vous souhaitez avoir une règle s
 
 Jetez un œil à toutes les conditions et les options de lecture de fond d'écran possibles pour mieux comprendre les règles d'application. Vous pouvez paramétrer Wallpaper Engine pour qu'il coupe le son lorsque vous lancez des certaines applications.
 
-::: tip Vous pouvez changer ces options pour toutes les applications dans l'onglet **Performances** des paramètres de Wallpaper Engine. Si vous rencontrez des problèmes de performances dans plusieurs jeux, il peut être judicieux de remplacer simplement l'option **Autres applications en plein écran** par **Stop (libère la mémoire)** pour que Wallpaper Engine s'arrête lorsque vous lancez un jeu ou une application en plein écran. :::
+::: tip
+Vous pouvez changer ces options pour toutes les applications dans l'onglet **Performances** des paramètres de Wallpaper Engine. Si vous rencontrez des problèmes de performances dans plusieurs jeux, il peut être judicieux de remplacer simplement l'option **Autres applications en plein écran** par **Stop (libère la mémoire)** pour que Wallpaper Engine s'arrête lorsque vous lancez un jeu ou une application en plein écran.
+:::
