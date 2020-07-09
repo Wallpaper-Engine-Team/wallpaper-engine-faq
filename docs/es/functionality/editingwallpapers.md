@@ -26,7 +26,9 @@ Necesitará un archivo project.json válido. Si quieres crear uno, crea un fondo
 
 Si quieres editar uno de tus propios fondos y has perdido los archivos del proyecto, dirígete a la sección *Actualizar un proyecto perdido* para obtener más información sobre los cambios que has de hacer en el archivo project.json para actualizar tus fondos de pantalla.
 
-::: warning ¡Aviso! Ten en cuenta de que no prestamos asistencia para esta herramienta y no garantizamos que funcione correctamente. Si tienes problemas o preguntas acerca de ella, ponte en contacto con los creadores. :::
+::: warning
+¡Aviso! Ten en cuenta de que no prestamos asistencia para esta herramienta y no garantizamos que funcione correctamente. Si tienes problemas o preguntas acerca de ella, ponte en contacto con los creadores.
+:::
 
 ### Fondos de web
 
