@@ -1,52 +1,54 @@
-# Editing Downloaded Wallpapers
+# Редактирование загруженных обоев
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+В самой программе Wallpaper Engine нет возможности отредактировать загруженные обои. Однако, обычно в зависимости от типа обои можно отредактировать с помощью различных сторонних программ (тип обоев обозначен справа под изображением для предпросмотра).
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+Пожалуйста, учтите, что для публикации отредактированных обоев вам может понадобиться получить разрешение первоначального автора(ов). При наличии сомнений свяжитесь с первоначальными авторами перед публикацией работы в Мастерской Steam.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## Как найти исходный файл обоев?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+Перейдите во вкладку «Установлено» и кликните на обои правой кнопкой мыши, а затем выберите опцию «Открыть в Проводнике».
 
-## How to edit wallpapers of different types
+## Как редактировать обои разных типов
 
-### Scene wallpapers
+### Сценические обои
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Сценические обои упакованы в файл формата .pkg, который по умолчанию невозможно редактировать, поскольку он не содержит данных проекта. При попытке распаковать .pkg файл вы увидите следующее сообщение об ошибке: «Упакованные обои нельзя открыть». В качестве аналогии можно привести пример изображений формата .jpeg, которые тоже не содержат в себе данные проекта в Photoshop: эта информация всегда остается в системе первоначального автора.
 
-#### Unofficial Community Scene Unpacker
+#### Созданный сообществом неофицальный распаковщик сцен
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+Тем не менее, некоторые члены сообщества создали неофицальный инструмент для распаковки сценических обоев. Он позволяет распаковывать файлы, содержащие сцены, чтобы создавать собственные обои на их основе. Вы найдете подробную информацию по ссылке:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+Для работы с такими обоями вам все равно понадобится стандартный файл project.json. Чтобы получить такой файл просто создайте новые пустые обои в редакторе, закройте Wallpaper Engine, а затем распакуйте загруженные обои и скопируйте их содержимое в каталог нового проекта.
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+Если вы хотите отредактировать обои, которые вы создали сами, но потеряли их проектные файлы, обратитесь к разделу *«Обновление утерянного проекта»* ниже. В нем вы найдете информацию об изменениях, которые вам необходимо внести в файл project.json, чтобы принудительно обновить существующие обои.
 
-::: warning Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators. :::
+::: warning
+Обратите внимание Мы не предоставляем официальную поддержку данного инструмента и не можем гарантировать, что он будет корректно работать. Если у вас есть проблемы или вопросы, касающиеся распаковщика, пожалуйста, свяжитесь с его создателями.
+:::
 
-### Web wallpapers
+### Web обои
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Обои вида «Web» работают на базе HTML или JavaScript. Вы можете получить исходные файлы таких обоев с помощью вышеизложенной инструкции и использовать их как основу для собственных Web обоев.
 
-### Video wallpapers
+### Видео обои
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+Видео обои — это видеофайлы. Вы можете получить видеофайл с помощью вышеизложенной инструкции, а затем использовать любой сторонний видеоредактор на ваш выбор, чтобы внести в него изменения.
 
-### Application wallpapers
+### Приложения-обои
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+По умолчанию приложения-обои нельзя редактировать. Приложения-обои обычно представляют из себя скомпилированные программы, соответственно, вы не можете получить доступ к их исходному коду. Если вы очень сильно хотите внести изменения в приложение-обои, попробуйте связаться с автором обоев, который, возможно, согласится вам помочь.
 
-## Updating a lost project
+## Обновление утерянного проекта
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+Даже если вы удалили проект, вы все еще можете его переписать, однако в случае некоторых типов обоев вы уже не сможете редактировать файл. Обычным образом создайте новые обои и откройте каталог проекта, кликнув на «Редактировать» -> «Открыть в Проводнике». Откройте файл проекта `project.json` в текстовом редакторе. Он будет выглядеть примерно вот так:
 
 ```json
 {
-    "description" : "Cool description",
+    "description" : "Классное описание",
     "file" : "scene.json",
     "general" : 
     {
@@ -69,21 +71,21 @@ If you deleted your project you can still overwrite it, but depending on the typ
 }
 ```
 
-Add this line at the top right after `{`:
+Добавьте наверх такую строку, разместив ее прямо после знака `{`:
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+Файл должен выглядеть вот так:
 
 ```json{2}
 {
     "workshopid" : "12345678",
-    "description" : "Cool description",
+    "description" : "Классное описание",
     "file" : "scene.json",
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**Замените номер 12345678 идентификационным номером обоев, которые вы опубликовали! Узнать идентификационный номер загруженного файла можно заглянув в его URL-адрес:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
