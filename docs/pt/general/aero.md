@@ -8,4 +8,4 @@ O Windows Aero é responsável pelo efeito transparente na barra de tarefas ou d
 
 Se o seu hardware suporta Windows Aero nas não consegue ativá-lo, **isso costuma significar que os controladores da sua placa gráfica estão danificados**. Transfira os controladores mais recentes para a sua placa gráfica para Windows 7 e tente novamente.
 
-::: dica **Recomendamos que utilize o Windows 10** porque este problema só existe no Windows 7. O Windows 7 não recebe mais atualizações e a maior parte dos fabricantes de hardware abandonaram o seu suporte para este sistema operativo. Isto pode levar a problemas com controladores de hardware, o que faz com que o Aero fique danificado. :::
+::: tip **Recomendamos que utilize o Windows 10** porque este problema só existe no Windows 7. O Windows 7 não recebe mais atualizações e a maior parte dos fabricantes de hardware abandonaram o seu suporte para este sistema operativo. Isto pode levar a problemas com controladores de hardware, o que faz com que o Aero fique danificado. :::
