@@ -9,4 +9,6 @@ Si l'interface de Wallpaper Engine est transparente, vous avez, sans le faire ex
 
 ![Le curseur en bas de l'interface vous permet de contrôler son opacité](./transparentinterface.gif)
 
-::: tip Cette fonctionnalité vous permet de voir vos fonds d'écran facilement sans avoir à déplacer la fenêtre de Wallpaper Engine. :::
+::: tip
+Cette fonctionnalité vous permet de voir vos fonds d'écran facilement sans avoir à déplacer la fenêtre de Wallpaper Engine.
+:::
