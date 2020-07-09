@@ -15,8 +15,10 @@ Vous pouvez également poser vos questions ou faire des recherches sur notre pag
 
 Si vous ne trouvez toujours pas de solution satisfaisante, vous pouvez nous écrire à [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
 
-::: tip Si vous rencontrez un problème technique, n'oubliez pas de joindre une copie du rapport de notre outil d'analyse :
+::: tip
+Si vous rencontrez un problème technique, n'oubliez pas de joindre une copie du rapport de notre outil d'analyse :
 
 * [Utiliser l'outil d'analyse de Wallpaper Engine pour créer un rapport de bug](debug/scantool)
 
-L'outil d'analyse de nous donnera des précisions qui nous permettront de rapidement comprendre d'où vient votre problème. :::
+L'outil d'analyse de nous donnera des précisions qui nous permettront de rapidement comprendre d'où vient votre problème.
+:::
