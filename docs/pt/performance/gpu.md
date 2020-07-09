@@ -14,7 +14,7 @@ Repare que a *GPU load* na imagem é 24%. No entanto, no topo poderá ver que a 
 
 Uma placa deve ter clock rates entre, por exemplo, 100 Mhz e 2000 Mhz. Se o task manager mostrar 50% então **faz uma grande diferença se é 50% de 100 MHz ou 50% de 2000 MHz**.
 
-::: dica Resumindo: é important ter em conta o clock rate do GPU quando observa a carga do GPU. 50% de 100 MHz é melhor do que 5% de 2000 MHz. :::
+::: tip Resumindo: é important ter em conta o clock rate do GPU quando observa a carga do GPU. 50% de 100 MHz é melhor do que 5% de 2000 MHz. :::
 
 Se quiser melhorar o desempenho do GPU:
 
