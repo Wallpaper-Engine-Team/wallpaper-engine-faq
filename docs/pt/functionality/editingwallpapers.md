@@ -26,7 +26,7 @@ Continuará a ser necessário ter um ficheiro project.json válido. Para criar u
 
 Se quiser editar um dos seus próprios wallpapers para o qual tenha perdido ficheiros anteriores do projeto, consulte a secção *Atualizar um projeto perdido* mais abaixo para obter mais informações acerca das modificações que será necessário fazer ao projet.json, para que possa implementar as atualizações nos seus wallpapers existentes.
 
-::: aviso Atenção Não oferecemos assistência oficial para esta ferramenta e não garantimos que funcione corretamente. Se tiver algum problema com o unpacker ou deseje fazer perguntas sobre ele, deve contactar os criadores originais. :::
+::: warning Atenção Não oferecemos assistência oficial para esta ferramenta e não garantimos que funcione corretamente. Se tiver algum problema com o unpacker ou deseje fazer perguntas sobre ele, deve contactar os criadores originais. :::
 
 ### Wallpapers da web
 
