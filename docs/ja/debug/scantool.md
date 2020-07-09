@@ -8,15 +8,18 @@ Wallpaper Engineで技術的な問題が発生し、FAQを見ても解決でき�
 4. 次のメソッドデベロッパーのいずれかを使用してログファイルをシェアします。
     * [pastebin.com](https://pastebin.com/)に行き、ログファイルの中身をコピーペーストして、その後、ペーストしたリンクをシェアします。
     * または、メールにログファイルを添付して送っていただくこともできます。 既にメールでディスカッションを開始されている場合は、ログファイルを添付して前のメールに返信してください。 初めてメールを送られる場合は、問題に関する情報か、既存のディスカッションのリンクをお書きください。
-5. *オプション：*クラッシュが起きた場合は、*wallpaper_engine*ディレクトリの中で**.mdmp**ファイルを探し、それもメールでお送りいただくか、 どこかにアップロードしてリンクをお送りください。 .mdmpファイルがたくさんある場合は、最新のものをお送りください。 ::: tip 最初の1回でスキャンツールが問題を報告しない場合でも、ログファイルを詳しく調べると、よくあるコンピュータの問題が発見され、技術的問題の解決に向けたアドバイスを差し上げられることがよくあります。
+5. *オプション：*クラッシュが起きた場合は、*wallpaper_engine*ディレクトリの中で**.mdmp**ファイルを探し、それもメールでお送りいただくか、 どこかにアップロードしてリンクをお送りください。 .mdmpファイルがたくさんある場合は、最新のものをお送りください。
+
+::: tip
+Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### 追加の動画ヘルプ
 
-**ステップ2**
+**Step 2**
 
-![スキャンツール起動オプション](./scantoollaunch.gif)
+![Scan Tool Launch Option](./scantoollaunch.gif)
 
-**ステップ3**
+**Step 3**
 
-![スキャンツール保存ログ](./scantoolsave.gif)
+![Scan Tool Save Log](./scantoolsave.gif)
