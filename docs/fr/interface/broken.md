@@ -11,7 +11,9 @@ tags:
 
 Si la fenêtre de navigation de Wallpaper Engine ne fonctionne pas correctement, c'est dû généralement à des pilotes de carte graphique ou à un antivirus défectueux. Vous aurez plus d'informations ci-dessous.
 
-::: warning Attention Cette section va aborder les problèmes liés l'**interface** de Wallpaper Engine. Si vos **fonds d'écran sont noirs**, nous vous renvoyez à cette section de la FAQ : [Écran noir / La vidéo ne se lance pas](noshow/notplaying.html). :::
+::: warning
+Attention Cette section va aborder les problèmes liés l'**interface** de Wallpaper Engine. Si vos **fonds d'écran sont noirs**, nous vous renvoyez à cette section de la FAQ : [Écran noir / La vidéo ne se lance pas](noshow/notplaying.html).
+:::
 
 ## Le navigateur de Wallpaper Engine est noir ou blanc
 
