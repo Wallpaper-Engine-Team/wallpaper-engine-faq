@@ -9,4 +9,6 @@ Si la interfaz de Wallpaper Engine es transparente, es probable que hayas usado 
 
 ![Utiliza el control deslizante de la parte inferior de la interfaz para controlar la opacidad.](./transparentinterface.gif)
 
-::: tip Puedes usar el control deslizante para echar un vistazo a los fondos mientras los configuras o los buscas sin tener que mover la ventana de Wallpaper Engine. :::
+::: tip
+Puedes usar el control deslizante para echar un vistazo a los fondos mientras los configuras o los buscas sin tener que mover la ventana de Wallpaper Engine.
+:::
