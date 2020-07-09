@@ -9,4 +9,6 @@ tags:
 
 ![利用使用者介面底部的滑桿控制不透明度](./transparentinterface.gif)
 
-::: tip 您可以在設定或瀏覽桌布時，使用滑桿預覽桌布，不必移動 Wallpaper Engine 視窗。 :::
+::: tip
+您可以在設定或瀏覽桌布時，使用滑桿預覽桌布，不必移動 Wallpaper Engine 視窗。
+:::
