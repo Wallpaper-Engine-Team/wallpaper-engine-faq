@@ -3,51 +3,51 @@ tags:
   - hardware
 ---
 
-# RGB hardware support (iCUE & Chroma)
+# Поддержка аппаратного обеспечения с RGB-подсветкой (iCUE & Chroma)
 
-Wallpaper Engine supports [**Razer Chroma**](https://www.razer.com/chroma) and [**Corsair iCUE**](https://www.corsair.com/icue), including systems which may integrate into either ecosystem.
+Wallpaper Engine поддерживает [**Razer Chroma**](https://www.razer.com/chroma) и [**Corsair iCUE**](https://www.corsair.com/icue), включая устройства, которые могут быть интегрированы в одну из этих экосистем.
 
-## How do I enable / disable RGB hardware
+## Как включить / выключить аппаратное обеспечение с RGB-подсветкой
 
-In the "Plugins" section of the Wallpaper Engine settings, you can find the **iCUE & Chroma SDK plugin**. You can enable or disable this general RGB plugin from being loaded by marking the checkbox on the left. You can also click on the cogwheel symbol next to it to further configure individual parts of it.
+Найдите **плагин iCUE & Chroma SDK** разделе «Плагины» в настройках Wallpaper Engine. В поле слева можно ставить и снимать галочку, соответственно включая и отключая общий плагин RGB-подсветки. Кроме этого, рядом с полем для галочки находится значок в виде шестеренки, на который можно кликнуть для более детальной настройки плагина.
 
-Additionally, RGB support can be toggled off on each wallpaper. At the top of each wallpaper's property list, you can find the **Enable LED effects** option if the plugin is enabled which allows you to control if you want an individual wallpaper to control your RGB lights.
+Кроме этого поддержку RGB-подсветки можно включать и выключать для отдельных обоев. При включенном плагине в верхней части списка свойств конкретных обоев становится доступной опция **«Включить LED-эффекты»**, с помощью которой можно разрешить или запретить этим обоям управлять RGB-подсветкой.
 
-## The RGB hardware colors seem too bright
+## RGB-подсветка слишком яркая
 
-By default, we are boosting the RGB colors a bit. On most wallpapers, this tends to subjectively look better but if you do not like it, you can turn it off by disabling the **Boost LED colors** option in the settings of the RGB plugin.
+Wallpaper Engine по умолчанию немного усиливает цвета RGB-подсветки. Благодаря этому на большинстве обоев подсветка выглядит субъективно лучше, но если вам не нравится этот эффект, вы можете отключить его, выключив опцию **«Улучшить цвета LED»** в настройках плагина RGB-подсветки.
 
-## My RGB hardware does not work
+## RGB-подсветка не работает
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engine не имеет возможности напрямую взаимодействовать с аппаратным обеспечением с RGB-подсветкой: вся информация по цветам поступает на драйвера, обеспечивающие RGB-подсветку. Если один или несколько устройств с RGB-подсветкой не работают, причину проблемы необходимо искать в работе программного обеспечения устройств. Некоторые очень старые устройства не поддерживаются полностью производителями аппаратного обеспечения и не будут работать. Пожалуйста, учитывайте, что в данной ситуации мы никак не можем повлиять на работу устройств.
 
-If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
+Если вы даже не видите раздел *«Плагины»* в настройках Wallpaper Engine, скорее всего у вас отсутствует или неисправен *Распространяемый пакет Visual C++ для Visual Studio 2015*, который обязателен для работы данного функционала. Вы можете скачать этот пакет с сайта Microsoft и установить, это решит проблему после перезагрузки компьютера:
 
-* [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
+* [Распространяемый пакет Visual C++ для Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
 ### Corsair
 
-Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+На некоторых компонентах аппаратного обеспечения, в том числе на **модулях памяти Corsair (ОЗУ) по умолчанию отключена функция управления с помощью программных средств**. Это значит, что подсветка модулей памяти не будет включаться в соответствии с командами Wallpaper Engine, пока вы не включите эту функцию в программных настройках iCUE. Удостоверьтесь, что в разделе памяти в настройках вашего устройства iCUE выбрана опция «Разрешить приложению полный контроль»:
 
-![Enable full software control in iCUE](./icue.png)
+![Разрешить приложению полный контроль](./icue.png)
 
-Double-check this option for any other hardware parts which are not working properly.
+Внимательно проверьте, включена ли эта функция для других устройств, которые неправильно работают.
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+Обратите внимание, что iCUE работает в *режиме эксклюзивного использования*. Это значит, что Wallpaper Engine будет иметь приоритет перед другими программами, совместимыми с iCUE, например, играми. Если вы хотите, чтобы игра управляла анимацией подсветки клавиатуры, зайдите в настройки Wallpaper Engine, откройте вкладку **«Производительность»** и выберите в выпадающем списке опции **«Другое приложение в полный экран»** вариант **«Остановить (освободить память)»**, чтобы отключить воспроизведение обоев на время игры. Вы также можете отключить либо сам плагин RGB-подсветки, либо опцию RGB-подсветки для отдельных обоев.
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+Если вам нужа помощь с устройствами Corsair iCUE, пожалуйста, обратитесь в техподдержку Corsair напрямую:
 
 [help.corsair.com](https://help.corsair.com/)
 
-Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
+Если у вас возникнут сложности с техподдержкой Corsair, вы можете написать нам, и мы попробуем вам помочь.
 
 ### Razer
-We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+Мы поддерживаем Razer Synapse начиная с третьей версии. Если вы используете Razer Synapse 1 или Razer Synapse 2, полностью удалите устаревшую программу и обновитесь до последней версии Razer Synapse. Некоторые пользователи сталкивались с проблемами, которые вызывали сохранившиеся в системе остаточные файлы старой версии Razer Synapse. Если раньше вы пользовались Razer Synapse 2 или более старыми версиями программы, а теперь столкнулись с проблемами в работе RGB-подсветки или даже с аварийным завершением работы при включенном плагине RGB-подсветки, вам надо найти остаточные файлы старой версии Razer Synapse и удалить их.
 
-If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
+Если ваше устройство Razer сравнительно старое и не поддерживает Razer Synapse 3 и более новые версии, к сожалению его RGB-подсветка несовместима с Wallpaper Engine.
 
-For support with Razer hardware, please contact Razer directly:
+Если вам нужа помощь с устройствами Razer, пожалуйста, обратитесь в техподдержку Razer напрямую:
 
 [support.razer.com](https://support.razer.com/)
 
-Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
+Если у вас возникнут сложности с техподдержкой Razer, вы можете написать нам, и мы попробуем вам помочь.
