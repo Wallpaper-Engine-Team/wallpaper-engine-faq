@@ -8,4 +8,6 @@ El efecto transparente de la barra de tareas en la parte superior de las ventana
 
 Si los componentes son compatibles con Windows Aero, pero no puede habilitarlo, es señal **de que los controladores de la tarjeta gráfica están dañados**. Descargue los controladores más recientes para Windows 7 y vuelva a intentarlo.
 
-::: tip **Recomendamos utilizar Windows 10**, ya que este problema solo se da en Windows 7. Windows 7 ya no va a tener más actualizaciones y la mayoría de fabricantes de componentes ya no ofrecen asistencia, lo que puede dar problemas con los controladores de los componentes que causan que no funcione Aero. :::
+::: tip
+**Recomendamos utilizar Windows 10**, ya que este problema solo se da en Windows 7. Windows 7 ya no va a tener más actualizaciones y la mayoría de fabricantes de componentes ya no ofrecen asistencia, lo que puede dar problemas con los controladores de los componentes que causan que no funcione Aero.
+:::
