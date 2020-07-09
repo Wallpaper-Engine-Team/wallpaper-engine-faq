@@ -10,7 +10,7 @@ Une fois que vous avez installé GPU-Z, consultez l'onglet "Capteurs" pour voir 
 
 ![Usage réel du GPU](./gpuz.png)
 
-Dans cette capture d'écran, l'*usage du GPU* est à 24 %. Cependant, en haut, vous pouvez voir que la carte graphique est en basse consommation (202,5 MHz). C'est une très bonne situation, même si l'usage est à 24 %. L'utilisation réelle basée sur la fréquence d'horloge maximale de 1 823 MHz n'est que de **2,6 %** * (24 % x 202,5 MHz / 1 823 MHz) *.
+Dans cette capture d'écran, l'*usage du GPU* est à 24 %. Cependant, en haut, vous pouvez voir que la carte graphique est en basse consommation (202,5 MHz). C'est une très bonne situation, même si l'usage est à 24 %. L'utilisation réelle basée sur la fréquence d'horloge maximale de 1 823 MHz n'est que de **2,6 %** *(24 % x 202,5 MHz / 1 823 MHz)*.
 
 Une carte peut avoir des fréquences d'horloge comprises entre 100 MHz et 2 000 MHz par exemple. Si le gestionnaire de tâches affiche 50 % alors **cela fait une grande différence que ce soit 50 % de 100 MHz ou 50 % de 2 000 MHz**.
 
