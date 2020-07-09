@@ -9,7 +9,7 @@ Wallpaper Engine поддерживает [**Razer Chroma**](https://www.razer.c
 
 ## Как включить / выключить аппаратное обеспечение с RGB-подсветкой
 
-Найдите **плагин iCUE & Chroma SDK** разделе «Плагины» в настройках Wallpaper Engine. В поле слева можно ставить и снимать галочку, соответственно включая и отключая общий плагин подсветки RGB. Кроме этого, рядом с полем для галочки находится значок в виде шестеренки, на который можно кликнуть для более детальной настройки плагина.
+Найдите **плагин iCUE & Chroma SDK** разделе «Плагины» в настройках Wallpaper Engine. В поле слева можно ставить и снимать галочку, соответственно включая и отключая общий плагин RGB-подсветки. Кроме этого, рядом с полем для галочки находится значок в виде шестеренки, на который можно кликнуть для более детальной настройки плагина.
 
 Кроме этого поддержку RGB-подсветки можно включать и выключать для отдельных обоев. При включенном плагине в верхней части списка свойств конкретных обоев становится доступной опция **«Включить LED-эффекты»**, с помощью которой можно разрешить или запретить этим обоям управлять RGB-подсветкой.
 
@@ -33,16 +33,16 @@ Wallpaper Engine не имеет возможности напрямую вза�
 
 Внимательно проверьте, включена ли эта функция для других устройств, которые неправильно работают.
 
-Обратите внимание, что iCUE работает в *режиме эксклюзивного использования*. Это значит, что Wallpaper Engine будет иметь приоритет перед другими программами, совместимыми с iCUE, например, играми. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+Обратите внимание, что iCUE работает в *режиме эксклюзивного использования*. Это значит, что Wallpaper Engine будет иметь приоритет перед другими программами, совместимыми с iCUE, например, играми. Если вы хотите, чтобы игра управляла анимацией подсветки клавиатуры, зайдите в настройки Wallpaper Engine, откройте вкладку **«Производительность»** и выберите в выпадающем списке опции **«Другое приложение в полный экран»** вариант **«Остановить (освободить память)»**, чтобы отключить воспроизведение обоев на время игры. Вы также можете отключить либо сам плагин RGB-подсветки, либо опцию RGB-подсветки для отдельных обоев.
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+Если вам нужа помощь с устройствами Corsair iCUE, пожалуйста, обратитесь в техподдержку Corsair напрямую:
 
 [help.corsair.com](https://help.corsair.com/)
 
-Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
+Если у вас возникнут сложности с техподдержкой Corsair, вы можете написать нам, и мы попробуем вам помочь.
 
 ### Razer
-We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+Мы поддерживаем Razer Synapse начиная с третьей версии. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
 
 If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
 
