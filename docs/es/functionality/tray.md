@@ -2,7 +2,9 @@
 
 Se puede ocultar el icono de Wallpaper Engine de la bandeja si creas una clave de registro que obligue a Wallpaper Engine a ocultar el icono junto al reloj de Windows.
 
-::: warning No recomendamos hacerlo a no ser que el icono te moleste tanto que te veas en la tesitura de aceptar los inconvenientes que trae consigo ocultar el icono de la bandeja. :::
+::: warning
+No recomendamos hacerlo a no ser que el icono te moleste tanto que te veas en la tesitura de aceptar los inconvenientes que trae consigo ocultar el icono de la bandeja.
+:::
 
 Una vez quede oculto el icono, la única forma de cerrar Wallpaper Engine será forzar la detención desde el Administrador de tareas de Windows. Además, solo podrás abrir la interfaz desde Steam o con el .exe, lo cual es muy poco práctico y confuso.
 
