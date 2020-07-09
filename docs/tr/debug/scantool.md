@@ -8,15 +8,18 @@ Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'd
 4. Bu yöntemlerden herhangi birini kullanarak günlük dosyasını geliştiricilerle paylaşın:
     * [pastebin.com](https://pastebin.com/) adresine giderek günlük dosyanızın içeriğini yapıştırın ve yapıştırdığınız içeriğin bağlantısını paylaşın.
     * Alternatif olarak, günlük dosyasını bir e-postaya ekleyip bize gönderebilirsiniz. E-posta üzerinden halihazırda bir tartışma yürüttüyseniz lütfen günlük dosyasını ekleyerek son gönderilen e-postayı yanıtlayın. İlk e-postanızı atıyorsanız karşılaştığınız sorunla ilgili bilgi verin ya da mevcut tartışmanın bağlantısını gönderin.
-5. *İsteğe Bağlı:* Çökme sorunu yaşıyorsanız herhangi bir **.mdmp** dosyası var mı diye lütfen *wallpaper_engine* dizininizi kontrol edin ve bize e-posta yoluyla ya da bir yerlere yükleyerek gönderin. Çok fazla .mdmp dosyası bulamazsanız lütfen en yenilerini gönderin. ::: tip Tarama aracı ilk bakışta herhangi bir sorun bildirmese bile, günlük dosyasının daha ayrıntılı bir incelemesiyle yaygın bilgisayar sorunları ortaya çıkar. Bu şekilde teknik sorunlarınızın çözümünde size daha hızlı yardımcı olabiliriz.
+5. *İsteğe Bağlı:* Çökme sorunu yaşıyorsanız herhangi bir **.mdmp** dosyası var mı diye lütfen *wallpaper_engine* dizininizi kontrol edin ve bize e-posta yoluyla ya da bir yerlere yükleyerek gönderin. Çok fazla .mdmp dosyası bulamazsanız lütfen en yenilerini gönderin.
+
+::: tip
+Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### Ek video yardımı
 
-**2. Adım**
+**Step 2**
 
-![Tarama Aracı Başlatma Seçeneği](./scantoollaunch.gif)
+![Scan Tool Launch Option](./scantoollaunch.gif)
 
-**3. Adım**
+**Step 3**
 
-![Tarama Aracı Kayıt Günlüğü](./scantoolsave.gif)
+![Scan Tool Save Log](./scantoolsave.gif)
