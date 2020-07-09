@@ -3,7 +3,7 @@
 Es gibt verschiedene Gründe, warum Audio-Visualisierer nicht funktionieren können. Wir listen alle bekannten Gründe hier auf, bitte lies diese Seite komplett um sicherzustellen, dass du nicht aus Versehen einen der möglichen Gründe überspringst.
 
 ## 1. Einstellungen des Audio-Geräts
-Öffne die Wallpaper Engine-Einstellungen und navigier zum Reiter "Allgemein". Zur Mitte findest du die "Media"-Sektion, in welcher du ein Audio-Eingabe-Gerät auswählen kannst. Stelle sicher, dass das korrekte Gerät ausgewählt ist. Wenn du dir unsicher bist, welches Gerät das korrekte ist, probiere alle möglichen Geräte durch, während du Musik hörst und schaue ob die Audio-Visualisierer anfangen zu funktionieren.
+Öffne die Wallpaper Engine-Einstellungen und navigier zum Reiter "Allgemein". Zur Mitte findest du die "Medien"-Sektion, in welcher du ein Audio-Eingabe-Gerät auswählen kannst. Stelle sicher, dass das korrekte Gerät ausgewählt ist. Wenn du dir unsicher bist, welches Gerät das korrekte ist, probiere alle möglichen Geräte durch, während du Musik hörst und schaue ob die Audio-Visualisierer anfangen zu funktionieren.
 
 Falls das korrekte Audio-Gerät ausgewählt ist aber du trotzdem keinen Ton hörst oder deine Audio-Visualisierer nicht funktionieren, stelle sicher, dass Wallpaper Engine nicht in den Windows Audio-Einstellungen stumm geschaltet ist oder auf eine sehr niedrige Lautstärke gesetzt wurde. Windows unterscheidet nicht zwischen der Lautstärke für Audio-Aufnahmen und Audio-Wiedergabe. Dies bedeutet, dass wenn du eine sehr niedrige Lautstärke in Windows eingestellt hast, funktionieren Audio-Aufnahmen ebenfalls nicht:
 
@@ -17,7 +17,7 @@ Wenn Ton erkannt wird aber zu leise ist, vergiss nicht dass die Lautstärke dein
 
 USB & Funk-Headsets weisen öfter Treiberprobleme auf. Bei vielen Geräten kann man das Problem lösen, indem man die Abtastrate in den Windows-Geräteeinstellungen auf 44100 Hz stellt:
 
-Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
+Klicke mit Rechtsklick auf das Ton-Symbol rechts unten in der Windows-Taskleiste und wähle "Sound-Einstellungen öffnen" aus. Klicke auf "Geräte-Eigenschaften" in der "Ausgabe"-Sektion des Fensters was erscheint. Danach klicke auf "Erweiterte Geräte-Eigenschaften" und gehe dann auf den Reiter "Erweitert". Du kannst du Abtastrate dann in dem dort angezeigten Menü ändern. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
 ![Set the sampling rate to "24 bit, 44100 Hz"](./samplingrate.png)
 
