@@ -9,7 +9,9 @@ Wallpaper Engine es un software que usan millones de personas y que ha recibido 
 
 [[toc]]
 
-::: tip Casi todos los informes de errores que recibimos suelen ser por culpa de controladores defectuosos de las tarjetas gráficas, antivirus o algún software que haga que el ordenador esté inestable. :::
+::: tip
+Casi todos los informes de errores que recibimos suelen ser por culpa de controladores defectuosos de las tarjetas gráficas, antivirus o algún software que haga que el ordenador esté inestable.
+:::
 
 ## Solución rápida para evitar que Wallpaper Engine se cuelgue
 
@@ -53,7 +55,9 @@ Este caso suele darse por un problema de Windows. Vuelve a instalar la versión 
 
 * [AMD Radeon](https://www.amd.com/es/support)
 
-::: tip ¡Aviso! Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados. :::
+::: tip
+¡Aviso! Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
+:::
 
 ### nvwgf2umx.dll
 
@@ -61,7 +65,9 @@ Los controladores de Nvidia de tu sistema se cuelgan. Dirígete a la página web
 
 * [Nvidia GeForce](https://www.nvidia.es/Download/index.aspx?lang=es)
 
-::: tip Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados. :::
+::: tip
+Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
+:::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
