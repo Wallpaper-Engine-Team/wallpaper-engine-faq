@@ -14,7 +14,9 @@ Se alguns ou todos os seus wallpapers não aparecerem, é frequente que isso sej
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: dica Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender), é muito provável que esta seja a causa dos seus problemas. Se as suas primeiras tentativas não corrigirem este problema, dedique algum tempo a investigar isto de forma mais aprofundada. :::
+::: tip
+Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender), é muito provável que esta seja a causa dos seus problemas. Se as suas primeiras tentativas não corrigirem este problema, dedique algum tempo a investigar isto de forma mais aprofundada.
+:::
 
 ## Conflitos com outro software de modificação do ambiente de trabalho
 
