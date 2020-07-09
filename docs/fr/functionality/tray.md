@@ -2,7 +2,9 @@
 
 Il est possible de masquer l'icône de Wallpaper Engine dans la zone de notification en créant manuellement une clé de registre qui indique à Wallpaper Engine de masquer cette icône.
 
-::: warning Nous vous déconseillons de le faire, sauf si cette icône vous gâche la vie au point que vous êtes prêt·e à accepter les inconvénients que nous allons vous expliquer maintenant. :::
+::: warning
+Nous vous déconseillons de le faire, sauf si cette icône vous gâche la vie au point que vous êtes prêt·e à accepter les inconvénients que nous allons vous expliquer maintenant.
+:::
 
 Une fois cette icône masquée, la seule façon de quitter Wallpaper Engine est de passer par le gestionnaire des tâches de Windows. Vous ne pourrez plus ouvrir l'interface utilisateur qu'en passant par Steam ou par les fichiers .exe, ce qui peut être fastidieux.
 
