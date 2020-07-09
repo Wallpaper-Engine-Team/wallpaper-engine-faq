@@ -27,13 +27,13 @@ Wallpaper Engine не имеет возможности напрямую вза�
 
 ### Corsair
 
-Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+На некоторых компонентах аппаратного обеспечения, в том числе на **модулях памяти Corsair (ОЗУ) по умолчанию отключена функция управления с помощью программных средств**. Это значит, что подсветка модулей памяти не будет включаться в соответствии с командами Wallpaper Engine, пока вы не включите эту функцию в программных настройках iCUE. Удостоверьтесь, что в разделе памяти в настройках вашего устройства iCUE выбрана опция «Разрешить приложению полный контроль»:
 
 ![Enable full software control in iCUE](./icue.png)
 
-Double-check this option for any other hardware parts which are not working properly.
+Внимательно проверьте, включена ли эта функция для других устройств, которые неправильно работают.
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+Обратите внимание, что iCUE работает в *режиме эксклюзивного использования*. Это значит, что Wallpaper Engine будет иметь приоритет перед другими программами, совместимыми с iCUE, например, играми. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
 
 For support with Corsair iCUE hardware, please contact Corsair directly:
 
