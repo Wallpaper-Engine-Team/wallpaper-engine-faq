@@ -14,7 +14,9 @@ Si no aparecen algunos de los fondos (o ninguno), puede ser por culpa de que el 
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: tip Si tienes un antivirus instalado (que no sea Windows Defender) es muy probable que sea el causante de los problemas. Investiga el asunto con calma si no consigues solucionar el error tras los primeros intentos. :::
+::: tip
+Si tienes un antivirus instalado (que no sea Windows Defender) es muy probable que sea el causante de los problemas. Investiga el asunto con calma si no consigues solucionar el error tras los primeros intentos.
+:::
 
 ## Conflictos con otros programas de modificación de escritorio
 
