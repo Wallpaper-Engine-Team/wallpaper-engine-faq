@@ -12,4 +12,6 @@ Si has instalado Steam o Wallpaper Engine en otro directorio, el directorio camb
 
 3. Cuando borres el archivo, abre Wallpaper Engine de nuevo y volverás a tener los fondos por defecto.
 
-::: tip Si no consigues encontrar el archivo «visibility.json», siempre puedes volver a instalar Wallpaper Engine. Recuperarás los fondos de pantalla por defecto, pero tendrás que volver a descargarlos todos. Puedes evitarlo si sigues los pasos indicados anteriormente. :::
+::: tip
+Si no consigues encontrar el archivo «visibility.json», siempre puedes volver a instalar Wallpaper Engine. Recuperarás los fondos de pantalla por defecto, pero tendrás que volver a descargarlos todos. Puedes evitarlo si sigues los pasos indicados anteriormente.
+:::
