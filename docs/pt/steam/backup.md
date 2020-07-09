@@ -14,4 +14,4 @@ O seguinte guia assume que o seu Steam e Wallpaper Engine estejam instalados em 
 4. Agora, o diretório `backup` inclui todos os wallpapers que transferiu anteriormente, cada um no seu subdiretório (os números representam a Steam Workshop ID do wallpaper)
 5. Reinicie o browser de wallpaper e agora deverá ver as cópias de segurança dos seus wallpapers. Agra pode anular a subscrição dos repetidos no Steam e usar apenas a sua cópia pessoal desses wallpapers
 
-::: aviso **Não** apague manualmente a pasta do Steam Workshop `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. Isto fará com que o seu Steam fique confuso e volte a transferir todos os wallpapers. Simplesmente anule a subscrição dos seus wallpapers e deixe o Steam apagar os ficheiros repetidos. :::
+::: warning **Não** apague manualmente a pasta do Steam Workshop `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. Isto fará com que o seu Steam fique confuso e volte a transferir todos os wallpapers. Simplesmente anule a subscrição dos seus wallpapers e deixe o Steam apagar os ficheiros repetidos. :::
