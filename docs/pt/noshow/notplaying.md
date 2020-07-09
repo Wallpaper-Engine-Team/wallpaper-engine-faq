@@ -10,7 +10,9 @@ tags:
 
 Ecrãs pretos e outros problemas com wallpapers do tipo *Vídeo* são *sempre* por controladores de placas gráficas defeituosos ou codecs de vídeo defeituosos. Experiemnte seguir estas instruções pela ordem precisa. Se seguir este guia de alto a baixo, o problema será resolvido:
 
-::: aviso Atenção Este tópico é acerca dos **wallpapers** do Wallpaper Engine estarem pretos ou não serem reproduzidos corretamente. Se o seu **interface do Wallpaper Engine estiver preto** deve consultar esta página: [Interface para o utilizador do Wallpaper Engine está preto](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: warning
+Atenção Este tópico é acerca dos **wallpapers** do Wallpaper Engine estarem pretos ou não serem reproduzidos corretamente. Se o seu **interface do Wallpaper Engine estiver preto** deve consultar esta página: [Interface para o utilizador do Wallpaper Engine está preto](/interface/broken.html#wallpaper-engine-interface-is-black).
+:::
 
 ## Reinistalação limpa do controlador da placa gráfica
 
@@ -29,7 +31,9 @@ Se não tiver a certeza de como o fazer, também pode usar [Display Driver Unins
 3. Instale os controladores que acabou de transferir no 1.º passo.
 4. Volte a reiniciar o seu PC, veja se agora já funciona.
 
-::: dica É muito importante que faça uma reinstalação limpa - isto significa que os seus atuais controladores de placa gráfica e definições do controlador devem ser completamente apagados antes de instalar os novos controladores, caso contrário não resultará. :::
+::: tip
+É muito importante que faça uma reinstalação limpa - isto significa que os seus atuais controladores de placa gráfica e definições do controlador devem ser completamente apagados antes de instalar os novos controladores, caso contrário não resultará.
+:::
 
 ## Codec Tweak Tool
 

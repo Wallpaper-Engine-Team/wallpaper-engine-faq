@@ -3,7 +3,9 @@ Si tienes problemas técnicos o tienes preguntas acerca de Wallpaper Engine, aqu
 
 **Usa el buscador de la esquina superior derecha** o echa un vistazo a la lista de artículos a la izquierda. Los hemos clasificado para que tengan sentido. Además, hemos hecho una lista de los artículos que se consultan con más frecuencia, así que puedes comprobar si el problema aparece ahí.
 
-::: tip Busca una palabra clave en el buscador de la esquina superior derecha. Por ejemplo, si los fondos te aparecen negros, busca: «negro». :::
+::: tip
+Busca una palabra clave en el buscador de la esquina superior derecha. Por ejemplo, si los fondos te aparecen negros, busca: «negro».
+:::
 
 ## Artículos más consultados
 

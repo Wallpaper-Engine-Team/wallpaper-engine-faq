@@ -14,7 +14,9 @@ Ten en cuenta que **Steam se ocupa de todas las descargas**. Wallpaper Engine so
 
 Si tienes problemas con las descargas de Steam, comprueba que el antivirus no haya bloqueado Steam y que todos los puertos necesarios están abiertos en el firewall, incluidos los firewall de los routers.
 
-::: tip Puedes comprobar si el router tiene bloqueadas las descargas de Steam si te conectas desde un punto Wi-Fi con su teléfono e intentas descargar un fondo de pantalla. :::
+::: tip
+Puedes comprobar si el router tiene bloqueadas las descargas de Steam si te conectas desde un punto Wi-Fi con su teléfono e intentas descargar un fondo de pantalla.
+:::
 
 ## La descarga se queda a 0 % o 100 % (o cualquier otro porcentaje)
 Steam no ha terminado de descargar y verificar los archivos. Si llevas esperando un buen rato y las descargas de Steam no avanzan, sigue los pasos siguientes:
@@ -38,15 +40,18 @@ Steam no ha terminado de descargar y verificar los archivos. Si llevas esperando
 * Haz clic derecho en Wallpaper Engine en Steam, después haz clic en Propiedades y luego selecciona **Permitir siempre descargas en segundo plano** en la pestaña Actualizaciones.
 * Comprueba que no tengas actualizaciones pendientes de juegos en Steam, pues podrían pausar o desactivar las descargas de fondos.
 * Espera al menos un día por si los servidores de Steam tuvieran algún problema.
-* **Como última opción,** vuelve a instalar Wallpaper Engine para deshacerte de cualquier archivo dañado de Steam (¡se volverán a descargar todos los fondos!). :::
+* **Como última opción,** vuelve a instalar Wallpaper Engine para deshacerte de cualquier archivo dañado de Steam (¡se volverán a descargar todos los fondos!).
+:::
 
-::: tip Los servidores de Steam se desconectan cada semana a una hora concreta por temas de mantenimiento:
+::: tip
+Los servidores de Steam se desconectan cada semana a una hora concreta por temas de mantenimiento:
 
 * Costa Este de Estados Unidos: **jueves a las 16:00 (UTC -7)**.
 * Misma hora en Europa: **miércoles a la 01:00 (UTC+1)**.
 * Misma hora en China: **miércoles a las 08:00 (UTC+8)**.
 
-Si estás leyendo el artículo a esa hora, es posible que los servidores no estén conectados. Espera un par de horas y vuelve a intentarlo. :::
+Si estás leyendo el artículo a esa hora, es posible que los servidores no estén conectados. Espera un par de horas y vuelve a intentarlo.
+:::
 
 ## Steam: error «Faltan archivos descargados»
 

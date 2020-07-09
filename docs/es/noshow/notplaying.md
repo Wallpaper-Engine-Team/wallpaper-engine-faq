@@ -10,7 +10,9 @@ tags:
 
 Las pantallas negras y otros problemas con los fondos de tipo *vídeo* son *siempre* culpa de codecs de vídeo o controladores de tarjeta gráfica dañados. Sigue los siguientes pasos en orden. Si sigues la guía de principio a fin, se solucionará el problema:
 
-::: warning ¡Aviso! Ten en cuenta que esta sección trata de que los **fondos** de Wallpaper Engine se quedan en negro o no se reproducen correctamente. Si la **interfaz de Wallpaper Engine se queda negra**, visita esta sección: [La interfaz a de Wallpaper Engine se queda en negro](/interface/broken.html#wallpaper-engine-interface-is-black). :::
+::: warning
+¡Aviso! Ten en cuenta que esta sección trata de que los **fondos** de Wallpaper Engine se quedan en negro o no se reproducen correctamente. Si la **interfaz de Wallpaper Engine se queda negra**, visita esta sección: [La interfaz a de Wallpaper Engine se queda en negro](/interface/broken.html#wallpaper-engine-interface-is-black).
+:::
 
 ## Vuelva a instalar los controladores de la tarjeta gráfica
 
@@ -29,7 +31,9 @@ También puedes usar [Display Driver Uninstaller («DDU»)](https://www.guru3d.c
 3. Instala los controladores que descargaste en el paso 1.
 4. Reinicia el equipo y comprueba si ha funcionado.
 
-::: tip Es muy importante que hagas una instalación limpia. Es decir, tienes que eliminar por completo los controladores de la tarjeta gráfica y la configuración antes de instalar los nuevos, si no, no funcionará. :::
+::: tip
+Es muy importante que hagas una instalación limpia. Es decir, tienes que eliminar por completo los controladores de la tarjeta gráfica y la configuración antes de instalar los nuevos, si no, no funcionará.
+:::
 
 ## Codec Tweak Tool
 

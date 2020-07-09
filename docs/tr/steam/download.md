@@ -14,7 +14,9 @@ tags:
 
 Steam indirmeleriyle ilgili sorun yaşıyorsanız hiçbir antivirüs uygulamasının Steam'inizi engellemediğinden ve ağ yönlendiricilerinizdeki güvenlik duvarları da dâhil olmak üzere güvenlik duvarınızdaki gerekli tüm bağlantı noktalarının açık olduğundan emin olun.
 
-::: tip Akıllı telefonunuzdaki mobil etkin noktasına geçerek ve bu şekilde bir duvar kâğıdı indirmeye çalışarak ağ yönlendiricinizin Steam indirmelerini engelleyip engellemediğini kolayca kontrol edebilirsiniz. :::
+::: tip
+Akıllı telefonunuzdaki mobil etkin noktasına geçerek ve bu şekilde bir duvar kâğıdı indirmeye çalışarak ağ yönlendiricinizin Steam indirmelerini engelleyip engellemediğini kolayca kontrol edebilirsiniz.
+:::
 
 ## Duvar kâğıdı indirirken %0 veya %100'de (veya herhangi bir yüzdede) takılı kalıyor
 Steam dosyaları indirip doğrulamıyor. Steam indirmeleriniz belirli bir süre takılı kalıyorsa ve bir süre bekledikten sonra bile çalışmıyorsa şunları deneyin:
@@ -38,15 +40,18 @@ Steam dosyaları indirip doğrulamıyor. Steam indirmeleriniz belirli bir süre 
 * Steam'de Wallpaper Engine'e sağ tıklayın, Özellikler ve ardından **Arka Plan İndirmelerine İzin Ver** seçeneklerine tıklayın.
 * Steam'de bekleyen oyun güncellemeleriniz olmadığından emin olun. Bunlar duvar kâğıdı indirmelerini duraklatabilir veya devre dışı bırakabilir.
 * Steam sunucu sorunları olması durumunda en az bir gün bekledikten sonra tekrar deneyin.
-* **Son çare olarak** bozuk Steam dosyalarını temizlemek için Wallpaper Engine'i yeniden yüklemeye çalışın (bu işlem tüm duvar kâğıtlarını yeniden indirecektir!). :::
+* **Son çare olarak** bozuk Steam dosyalarını temizlemek için Wallpaper Engine'i yeniden yüklemeye çalışın (bu işlem tüm duvar kâğıtlarını yeniden indirecektir!).
+:::
 
-::: ipucu Steam sunucuları, bakım için her hafta belirli bir zamanda çevrimdışı olur:
+::: tip
+Steam sunucuları, bakım için her hafta belirli bir zamanda çevrimdışı olur:
 
 * Amerika Birleşik Devletleri Batı Yakası: **Salı 16.00 (UTC - 7)**
 * Orta Avrupa'da aynı saat: **Çarşamba 01.00 (UTC + 1)**
 * Çin'de aynı saat: **Çarşamba 08.00 (UTC + 8)**
 
-Bu yazıyı neredeyse haftanın bu zamanlarında okuyorsanız sunucular geçici olarak çevrimdışı olabilir. Birkaç saat bekleyip tekrar deneyin. :::
+Bu yazıyı neredeyse haftanın bu zamanlarında okuyorsanız sunucular geçici olarak çevrimdışı olabilir. Birkaç saat bekleyip tekrar deneyin.
+:::
 
 ## Steam: "İndirilen Dosyalar Eksik" hatası
 

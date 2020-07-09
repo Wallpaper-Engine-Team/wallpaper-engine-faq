@@ -31,4 +31,6 @@ Si no sabes qué hacer, descarga los controladores más recientes para su tarjet
 
 A continuación, instala los controladores que has descargado. Esto solucionará el problema si se hace de la forma correcta.
 
-::: tip Si aún no ves los colores correctamente tras instalar los controladores de nuevo, es posible que tengas más de una GPU o que no hayas hecho una instalación «limpia». Asegúrate de desinstalar todos los controladores de la tarjeta gráfica y de borrar toda la configuración actual. :::
+::: tip
+Si aún no ves los colores correctamente tras instalar los controladores de nuevo, es posible que tengas más de una GPU o que no hayas hecho una instalación «limpia». Asegúrate de desinstalar todos los controladores de la tarjeta gráfica y de borrar toda la configuración actual.
+:::

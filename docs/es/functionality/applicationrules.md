@@ -28,7 +28,9 @@ En la pestaña *Rendimiento* de Wallpaper Engine puedes hacer clic en el botón 
 
 Verás una lista de todos los .exe que están activos en el equipo. Elige un .exe de la lista o escribe el nombre exacto del .exe con el que tienes problemas. Puedes configurar la condición y el comportamiento con las otras dos opciones. Abajo verás más información y ejemplos concretos.
 
-::: tip Wallpaper Engine solo reconoce el nombre exacto del .exe y la ubicación es irrelevante, por lo que puedes escribir el nombre de cualquier .exe en el campo *Nombre de la aplicación*. Asegúrate de que escribes el nombre del .exe exactamente igual, mayúsculas y minúsculas incluidas. :::
+::: tip
+Wallpaper Engine solo reconoce el nombre exacto del .exe y la ubicación es irrelevante, por lo que puedes escribir el nombre de cualquier .exe en el campo *Nombre de la aplicación*. Asegúrate de que escribes el nombre del .exe exactamente igual, mayúsculas y minúsculas incluidas.
+:::
 
 ### Solucionar problemas de rendimiento con aplicaciones o juegos
 
@@ -42,4 +44,6 @@ Selecciona el .exe del programa con el que quieres hacer una regla especial o es
 
 Comprueba todas las condiciones posibles y las opciones de reproducción de fondos para ver más tipos de reglas de aplicación. También puedes configurar Wallpaper Engine para que se silencie o se pause cuando abras una aplicación en concreto.
 
-::: tip Puedes cambiar la configuración de todas las aplicaciones en la pestaña de **Rendimiento** en la configuración de Wallpaper Engine. Si tienes problemas de rendimiento con varios juegos, por ejemplo, podrías cambiar la opción **Otra aplicación en pantalla completa** a **Detener (liberar memoria)** para que Wallpaper Engine se detenga cuando abras un juego o aplicación en pantalla completa. :::
+::: tip
+Puedes cambiar la configuración de todas las aplicaciones en la pestaña de **Rendimiento** en la configuración de Wallpaper Engine. Si tienes problemas de rendimiento con varios juegos, por ejemplo, podrías cambiar la opción **Otra aplicación en pantalla completa** a **Detener (liberar memoria)** para que Wallpaper Engine se detenga cuando abras un juego o aplicación en pantalla completa.
+:::

@@ -1,15 +1,15 @@
 # Экспорт обоев в виде GIF / видео
 
-Wallpapers made in the Wallpaper Engine editor are more like levels in a computer game rather than a video file. They do not have a clearly defined start or end and they contain elements of randomness in them. Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
+Обои, сделанные в редакторе Wallpaper Engine, по своей структуре больше похожи на уровни в компьютерной игре, чем на видеофайл. У них нет четко обозначенного начала и конца, и в них присутствует элемент случайности. Невозможно экспортировать компьютерную игру в формате видеофайла, и точно так же невозможно экспортировать обои в виде GIF или видео.
 
-However, you can create a recording of your wallpapers and manually try to create a perfect loop if the elements in your wallpaper allow for that. For this purpose, we recommend free tools like *ScreenToGif* or *OBS Studio*:
+Тем не менее, вы можете записать воспроизведение обоев на видео и попробовать вручную зациклить его, если изображение обоев это позволяет. Мы рекомендуем использовать для этого бесплатные инструменты, например *ScreenToGif* или *OBS Studio*:
 
-* [ScreenToGif](https://www.screentogif.com/) (Easy to use)
+* [ScreenToGif](https://www.screentogif.com/) (более простой в использовании)
 
-* [OBS Studio](https://obsproject.com/) (More advanced features)
+* [OBS Studio](https://obsproject.com/) (больше продвинутых функций)
 
-#### Getting a clear shot of your wallpapers
+#### Захват чистого изображения
 
-You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+Перейдите во вкладку «Установлено», кликните на обои правой кнопкой мыши и выберите опцию «Воспроизвести в окне», которая запустит их в отдельном окне. Благодаря этой функции при их видеозахвате вы сможете с легкостью контролировать чистоту изображения и его размер. Она избавляет вас от необходимости скрывать ярлыки рабочего стола и другие элементы Windows, а также позволяет изменять масштаб окна обоев, чтобы получить нужные вам размер и соотношение сторон в «экспортируемом» файле:
 
-![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
+![Кликните на обои правой кнопкой мыши и выберите опцию «Воспроизвести в окне»](./playinwindow.gif)

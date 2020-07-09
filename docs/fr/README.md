@@ -3,7 +3,9 @@ Si vous rencontrez un problème ou si vous avez une question sur Wallpaper Engin
 
 **Utilisez la barre de recherche en haut à droite** ou simplement regardez la liste des articles à gauche. Nous avons essayé de créer des catégories. Nous avons également compilé les articles d'aide les plus consultés ci-dessous. Vérifiez si votre problème s'y trouve.
 
-::: tip Utilisez la barre de recherche avec des mots-clés simples. Par exemple, si vos fonds d'écran restent noirs, cherchez le mot-clé "noir". :::
+::: tip
+Utilisez la barre de recherche avec des mots-clés simples. Par exemple, si vos fonds d'écran restent noirs, cherchez le mot-clé "noir".
+:::
 
 ## Articles les plus populaires
 

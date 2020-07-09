@@ -9,4 +9,6 @@ Wallpaper Engine kullanıcı arayüzünüz şeffafsa muhtemelen opaklığı azal
 
 ![Opaklığı kontrol etmek için kullanıcı arayüzünün altındaki kaydırıcıyı kullanın](./transparentinterface.gif)
 
-::: tip Yapılandırma veya arama sırasında Wallpaper Engine penceresini taşımak zorunda kalmadan duvar kâğıtlarının nasıl durduğuna bakmak için kaydırıcıyı kullanabilirsiniz. :::
+::: tip
+Yapılandırma veya arama sırasında Wallpaper Engine penceresini taşımak zorunda kalmadan duvar kâğıtlarının nasıl durduğuna bakmak için kaydırıcıyı kullanabilirsiniz.
+:::

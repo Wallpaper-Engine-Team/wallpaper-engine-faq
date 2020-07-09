@@ -12,4 +12,6 @@ Si Steam ou Wallpaper Engine sont installés ailleurs, le début du chemin de ce
 
 3. Une fois le fichier supprimé, redémarrez Wallpaper Engine et les fonds d'écran seront de retour.
 
-::: tip Si le fichier "visibility.json" reste introuvable, vous pouvez toujours réinstaller Wallpaper Engine. Cela restaurera bien tous les fonds d'écran par défaut, mais vous devrez télécharger de nouveau tous vos autres fonds d'écran. Pour éviter cette étape fastidieuse, nous vous conseillons plutôt la première solution. :::
+::: tip
+Si le fichier "visibility.json" reste introuvable, vous pouvez toujours réinstaller Wallpaper Engine. Cela restaurera bien tous les fonds d'écran par défaut, mais vous devrez télécharger de nouveau tous vos autres fonds d'écran. Pour éviter cette étape fastidieuse, nous vous conseillons plutôt la première solution.
+:::

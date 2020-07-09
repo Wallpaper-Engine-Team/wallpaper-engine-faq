@@ -31,4 +31,6 @@ Si vous ne savez pas comment faire : téléchargez les derniers pilotes pour vot
 
 Il ne vous reste plus qu'à installer les pilotes fraîchement téléchargés. Si vous suivez bien ces étapes, vous ne rencontrerez plus ce problème.
 
-::: tip Si les couleurs sont toujours fausses, c'est que vous avez probablement plusieurs GPU ou que vous n'avez pas effectué une réinstallation "propre". Assurez-vous d'abord de désinstaller tous vos pilotes de carte graphique et de supprimer tous leurs paramètres avant de les réinstaller. :::
+::: tip
+Si les couleurs sont toujours fausses, c'est que vous avez probablement plusieurs GPU ou que vous n'avez pas effectué une réinstallation "propre". Assurez-vous d'abord de désinstaller tous vos pilotes de carte graphique et de supprimer tous leurs paramètres avant de les réinstaller.
+:::

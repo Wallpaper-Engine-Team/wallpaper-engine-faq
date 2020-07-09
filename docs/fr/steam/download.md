@@ -14,7 +14,9 @@ Les téléchargements passent tous par **la plateforme de Steam**. Wallpaper Eng
 
 Si vous rencontrez des problèmes de téléchargement avec Steam, assurez-vous qu'aucun antivirus ou pare-feu ne bloque Steam , y compris les pare-feu de vos routeurs.
 
-::: tip Vous pouvez facilement vérifier si votre routeur bloque les téléchargements sur Steam : passez votre smartphone en point d'accès mobile et essayez de télécharger un fond d'écran avec cette connexion. :::
+::: tip
+Vous pouvez facilement vérifier si votre routeur bloque les téléchargements sur Steam : passez votre smartphone en point d'accès mobile et essayez de télécharger un fond d'écran avec cette connexion.
+:::
 
 ## Téléchargement bloqué à 0 % ou 100 % (ou tout autre pourcentage)
 Steam n'a pas fini de télécharger et de vérifier ces fichiers. Si les téléchargements restent bloqués un long moment, voici quelques astuces :
@@ -38,15 +40,18 @@ Steam n'a pas fini de télécharger et de vérifier ces fichiers. Si les téléc
 * Cliquez avec le bouton droit sur Wallpaper Engine dans Steam, puis sur cliquez sur Propriétés et sélectionnez **Autoriser les téléchargements en arrière-plan**.
 * Assurez-vous que vous n'avez pas de mises à jour de jeu en attente dans Steam, cela pourrait interrompre ou désactiver les téléchargements des fonds d'écran.
 * Attendez une journée, il y a peut-être des problèmes avec les serveurs de Steam.
-* **As a last resort** en cas de dernier recours, réinstallez Wallpaper Engine pour réparer des fichiers corrompus (vous devrez télécharger tous vos fonds d'écran à nouveau !). :::
+* **As a last resort** en cas de dernier recours, réinstallez Wallpaper Engine pour réparer des fichiers corrompus (vous devrez télécharger tous vos fonds d'écran à nouveau !).
+:::
 
-::: tip Les serveurs de Steam sont en maintenance toutes les semaines à heures fixes :
+::: tip
+Les serveurs de Steam sont en maintenance toutes les semaines à heures fixes :
 
 * Côte ouest des États-Unis : **Mardi à 16 heures (UTC - 7)**
 * Europe centrale : **Mercredi à 13 heures (UTC + 1)**
 * En Chine : **Mercredi à 8 heures (UTC + 8)**
 
-Vérifiez l'heure qu'il est chez vous au moment où vous lisez ces lignes, il se peut que les serveurs soient temporairement hors ligne. Attendez une heure ou deux avant de réessayer. :::
+Vérifiez l'heure qu'il est chez vous au moment où vous lisez ces lignes, il se peut que les serveurs soient temporairement hors ligne. Attendez une heure ou deux avant de réessayer.
+:::
 
 ## Steam : "Fichiers téléchargés manquants"
 

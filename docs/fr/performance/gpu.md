@@ -14,7 +14,9 @@ Dans cette capture d'écran, l'*usage du GPU* est à 24 %. Cependant, en haut, v
 
 Une carte peut avoir des fréquences d'horloge comprises entre 100 MHz et 2 000 MHz par exemple. Si le gestionnaire de tâches affiche 50 % alors **cela fait une grande différence que ce soit 50 % de 100 MHz ou 50 % de 2 000 MHz**.
 
-::: tip En résumé : il faut garder la fréquence d'horloge du GPU à l'esprit lorsqu'on regarde son usage. 50 % de 100 MHz, c'est bien mieux que 5 % de 2 000 MHz. :::
+::: tip
+En résumé : il faut garder la fréquence d'horloge du GPU à l'esprit lorsqu'on regarde son usage. 50 % de 100 MHz, c'est bien mieux que 5 % de 2 000 MHz.
+:::
 
 Si vous voulez améliorer les performances de votre GPU :
 

@@ -26,7 +26,9 @@ Vous aurez toujours besoin d'un fichier project.json valide. Pour cela, créez u
 
 Si vous souhaitez modifier l'un de vos propres fonds d'écran, mais que vous avez perdu les fichiers du projet, consultez la section *Mettre à jour un projet perdu* ci-dessous pour plus d'informations sur les modifications que vous pouvez apporter au fichier projet.json pour mettre à jour vos fonds d'écran existants.
 
-::: warning Attention Nous ne pouvons vous garantir que cet outil fonctionne correctement et nous ne pourrons pas vous aider si besoin. Si vous rencontrez un problème avec cet outil, contactez ses créateurs. :::
+::: warning
+Attention Nous ne pouvons vous garantir que cet outil fonctionne correctement et nous ne pourrons pas vous aider si besoin. Si vous rencontrez un problème avec cet outil, contactez ses créateurs.
+:::
 
 ### Fond d'écran Web
 

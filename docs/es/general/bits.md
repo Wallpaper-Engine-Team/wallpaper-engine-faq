@@ -2,11 +2,15 @@
 
 La versión 64-bit puede soportar archivos más grandes (de más de 2GB), pero utiliza más memoria sin tener el cuenta el tamaño de los fondos. Por ejemplo, con un fondo de vídeo normal, la versión 64-bit podría usar 50MB más de RAM que la versión 32-bit. Esa es la única diferencia.
 
-::: tip Te recomendamos utilizar la versión 32-bit, a no ser que tengas fondos tan grandes que hagan que se cuelgue. La mayoría de los usuarios jamás tienen este probema. :::
+::: tip
+Te recomendamos utilizar la versión 32-bit, a no ser que tengas fondos tan grandes que hagan que se cuelgue. La mayoría de los usuarios jamás tienen este probema.
+:::
 
 Puedes optar por la versión 64-bit si el sistema de vídeo del equipo tiene errores que afectan solo a los programas 32-bit. Si has tenido que instalar paquetes de codecs o similares, es posible que hayan dañado de forma permanente el sistema de vídeo de Windows que utiliza Wallpaper Engine. Si el sistema 64-bit no se ha visto afectado, podrás utilizar la versión 64-bit de Wallpaper Engine y así evitar tener que arreglar lo que sea que haya quedado dañado.
 
-::: warning ¡Aviso! Ten en cuenta que los fondos de tipo web siempre se ejecutarán con un ejecutable de 32-bit (webwallpaper32.exe). Ocurre lo mismo con la interfaz de usuario (ui32.exe). Solo se utiliza 64-bit al seleccionar fondos de tipo «Escena» o «Vídeo». :::
+::: warning
+¡Aviso! Ten en cuenta que los fondos de tipo web siempre se ejecutarán con un ejecutable de 32-bit (webwallpaper32.exe). Ocurre lo mismo con la interfaz de usuario (ui32.exe). Solo se utiliza 64-bit al seleccionar fondos de tipo «Escena» o «Vídeo».
+:::
 
 ## ¿Cómo configuro Wallpaper Engine para iniciarse automáticamente con las versiones 32 o 64-bit al arrancar Windows?
 
