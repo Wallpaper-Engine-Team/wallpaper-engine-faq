@@ -8,7 +8,10 @@ If you are having technical issues with Wallpaper Engine that you are unable to 
 4. Share the log file with by using either of these methods developers:
     * Go to [pastebin.com](https://pastebin.com/) and copy-paste the contents of the log file in there, afterwards share the link to your paste.
     * Alternatively, you can just attach the log file to an email and send it to us. If you have already an existing email discussion, please reply to the previous email with the attached log file. If this is your first email, please add some information about the problem you were having or a link to an existing discussion.
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones. ::: tip Tipp Auch wenn das Scan-Tool anscheinend keine Fehler meldet, so kann ein tieferer Einblick in die Log-Datei oft häufige Computer-Probleme zum Vorschein bringen, welche uns helfen dir schnell einen Lösungsvorschlag für deine technischen Probleme mitzuteilen.
+5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
+
+::: tip
+Tipp Auch wenn das Scan-Tool anscheinend keine Fehler meldet, so kann ein tieferer Einblick in die Log-Datei oft häufige Computer-Probleme zum Vorschein bringen, welche uns helfen dir schnell einen Lösungsvorschlag für deine technischen Probleme mitzuteilen.
 :::
 
 #### Additional video help
