@@ -5,17 +5,17 @@ Es gibt verschiedene Gründe, warum Audio-Visualisierer nicht funktionieren kön
 ## 1. Einstellungen des Audio-Geräts
 Öffne die Wallpaper Engine-Einstellungen und navigier zum Reiter "Allgemein". Zur Mitte findest du die "Media"-Sektion, in welcher du ein Audio-Eingabe-Gerät auswählen kannst. Stelle sicher, dass das korrekte Gerät ausgewählt ist. Wenn du dir unsicher bist, welches Gerät das korrekte ist, probiere alle möglichen Geräte durch, während du Musik hörst und schaue ob die Audio-Visualisierer anfangen zu funktionieren.
 
-If the correct audio device is selected but you can still not hear any audio or if your audio visualizers do not work, ensure you are not muting Wallpaper Engine in the Windows audio mixer or have it set to a very quiet volume. Windows does not differentiate between the volumes for audio recording and audio playback. This means that if you have set a low volume in Windows, audio recording will also not work:
+Falls das korrekte Audio-Gerät ausgewählt ist aber du trotzdem keinen Ton hörst oder deine Audio-Visualisierer nicht funktionieren, stelle sicher, dass Wallpaper Engine nicht in den Windows Audio-Einstellungen stumm geschaltet ist oder auf eine sehr niedrige Lautstärke gesetzt wurde. Windows unterscheidet nicht zwischen der Lautstärke für Audio-Aufnahmen und Audio-Wiedergabe. Dies bedeutet, dass wenn du eine sehr niedrige Lautstärke in Windows eingestellt hast, funktionieren Audio-Aufnahmen ebenfalls nicht:
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-If audio is detected but is too quiet, keep in mind that the application volume (of your music player, web browser, etc.) affects how well audio is detected. You can boost the sound detection in the "General" tab of the Wallpaper Engine settings if you do not want to increase the application volume (the default recording volume value is 50).
+Wenn Ton erkannt wird aber zu leise ist, vergiss nicht dass die Lautstärke deiner Anwendung (deines Musik-Wiedergabeprogramms, Web-Browsers, etc.) maßgeblich darüber entscheidet, wie gut Ton erkannt wird. Du kannst die Ton-Erkennung im Reiter "Allgemein" in den Wallpaper Engine-Einstellungen verstärken, wenn du die Lautstärke deiner Anwendung nicht erhöhen willst (die standardmäßige Lautstärke ist 50).
 
-## 2. Hardware-specific issues
+## 2. Hardware-spezifische Probleme
 
-### Corsair Void Pro / Bluetooth / USB headsets
+### Corsair Void Pro / Bluetooth / USB-Headsets
 
-USB / wireless headsets are prone to sound driver issues. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:
+USB & Funk-Headsets weisen öfter Treiberprobleme auf. Bei vielen Geräten kann man das Problem lösen, indem man die Abtastrate in den Windows-Geräteeinstellungen auf 44100 Hz stellt:
 
 Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.
 
