@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
   - activemovie window
   - active movie
   - black
