@@ -59,12 +59,12 @@ module.exports = {
 			description: tr.description,
 		},
 		'/zh/': {
-			lang: 'zh',
+			lang: 'zh-CN',
 			title: zh.title,
 			description: zh.description,
 		},
 		'/zh-tw/': {
-			lang: 'zh-tw',
+			lang: 'zh-TW',
 			title: zhtw.title,
 			description: zhtw.description,
 		},
