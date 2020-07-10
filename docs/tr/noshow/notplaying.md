@@ -4,7 +4,6 @@ tags:
   - active movie
   - siyah
 - - -
-
 # Videolar Siyah / Düzgün Oynatılmıyor
 
 *Video* türü duvar kâğıtlarındaki siyah ekranlar ve diğer sorunlar *her zaman* hatalı grafik kartı sürücüleri veya hatalı video codeclerinden kaynaklanır. Sırasıyla aşağıdaki adımları deneyin. Bu rehberi baştan aşağı takip ederseniz sorun çözülecektir:
