@@ -1,9 +1,10 @@
-- - -
+---
 tags:
   - ventana activemovie
   - active movie
   - negro
-- - -
+---
+
 # Vídeos en negro / no se reproducen correctamente
 
 Las pantallas negras y otros problemas con los fondos de tipo *vídeo* son *siempre* culpa de codecs de vídeo o controladores de tarjeta gráfica dañados. Sigue los siguientes pasos en orden. Si sigues la guía de principio a fin, se solucionará el problema:
