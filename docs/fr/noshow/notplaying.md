@@ -1,9 +1,10 @@
-- - -
-tags :
+---
+tags:
   - activemovie window
   - activemovie
   - noir
-- - -
+---
+
 # Vidéos noires / Vidéos qui ne se lancent pas
 
 Les écrans noirs et les problèmes avec les fonds d'écran *Vidéo* sont *toujours* causés par des pilotes de carte graphique ou des codecs défectueux. Voici les étapes à suivre. Suivez notre guide pour résoudre ce problème :
