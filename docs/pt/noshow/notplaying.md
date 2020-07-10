@@ -1,9 +1,10 @@
-- - -
+---
 tags:
   - activemovie window
   - active movie
   - black
-- - -
+---
+
 # Vídeos pretos / não são reproduzidos corretamente
 
 Ecrãs pretos e outros problemas com wallpapers do tipo *Vídeo* são *sempre* por controladores de placas gráficas defeituosos ou codecs de vídeo defeituosos. Experiemnte seguir estas instruções pela ordem precisa. Se seguir este guia de alto a baixo, o problema será resolvido:
