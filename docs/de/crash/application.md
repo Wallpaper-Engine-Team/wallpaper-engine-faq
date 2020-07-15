@@ -3,19 +3,19 @@ tags:
   - mdmp
 ---
 
-# Wallpaper Engine crashing
+# Wallpaper Engine Abstürze / Crashes
 
-Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. If the crash message you are seeing mentions any **.dll** files, please have a look at the following list and see if you can find a more accurate description for specific **.dll** causing the crash on your system:
+Wallpaper Engine ist eine langjährig-entwickelte Anwendung mit Millionen Anwendern und ist ausführlich getestet - es ist relativ selten, dass Fehler im Programm noch zu Abstürzen führen. Falls die Absturz-Fehlermeldung **.dll**-Dateien erwähnt, schaue dir bitte die folgende Liste an und schaue, ob für die bei dir relevante **.dll**-Datei eine genauere Beschreibung vorliegt:
 
 [[toc]]
 
 ::: tip
-Almost all crash reports we receive from users turn out to be caused by broken graphics card drivers, antivirus applications or other defective software that makes the computer unstable.
+Fast alle Abstürze die wir von unseren Anwendern erhalten können auf entweder defekte Grafikkartentreiber, Antivirus-Programme oder andere defekte Software zurückgeführt werden, welche den jeweiligen Computer instabil machen.
 :::
 
-## Wallpaper Engine Crash Quick Fix Attempt
+## Wallpaper Engine - Schneller Lösungsversuch von Abstürzen
 
-If you are unsure what is crashing Wallpaper Engine, please do a clean re-installation of your graphics card drivers. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Falls du dir nicht sicher bist, was die Abstürze von Wallpaper Engine verursachen könnte, führe bitte eine saubere Neuinstallation deiner Grafikkartentreiber durch. Dies bedeutet, dass du zunächst deine Grafikkartentreiber deinstallieren und dann die neuesten Treiber erneut installieren musst, nachdem die alten Treiber vollständig entfernt wurden. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
