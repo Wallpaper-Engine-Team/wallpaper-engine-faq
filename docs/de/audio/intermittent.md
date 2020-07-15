@@ -4,15 +4,15 @@ Windows unterscheidet nicht zwischen Tonaufnahmen und Tonwiedergaben, daher sign
 
 Überprüfe den Reiter "Leistung" in den Einstellungen von Wallpaper Engine. Falls du die Option *"Andere Anwendung spielt Ton"* auf *"Stumm schalten"* gestellt hast und du feststellst, dass der Ton von Wallpaper Engine an und aus geht, dann ist es wahrscheinlich, dass eine Aufnahmeprogramm deinen Bildschirm und Ton im Hintergrund aufnimmt.
 
-To solve this do any of these three things:
+Um dieses Problem zu lösen, kannst du eines dieser drei Dinge tun:
 
-* Turn off the recording program on your desktop or reconfigure it to not record Wallpaper Engine by mistake.
-    * For many users, this issue is caused by **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay** which can be turned off in the **Nvidia GeForce Experience** settings. For AMD graphics card users, **AMD ReLive** can equally cause these issues and is also part of the AMD graphics card drivers. Try checking this first if you are unsure what could be recording your desktop.
-    * If you do not know what application is causing this, check your Windows audio mixer and see what applications are currently accessing your audio, that may help. Alternatively, shut down as many programs as possible and narrow it down to certain .exe files from the Windows task manager process list.
-* If the background audio recording is on purpose or if you cannot find a way to turn it off, you can set up an *application rule* in the "Performance" tab of the Wallpaper Engine settings. Set the "Condition" to "Is playing audio" and the "Wallpaper playback" to "Keep Running":
+* Stelle das Aufnahmeprogramm auf deinem Desktop aus oder konfiguriere es so, dass es Wallpaper Engine nicht fälschlicherweise aufnimmt.
+    * Für viele Anwender ist der Ursprung des Problems **Nvidia Share / Nvidia GameStream / Nvidia ShadowPlay**, welche in den Einstellungen von **Nvidia GeForce Experience** ausgeschaltet werden können. Für AMD-Grafikkartennutzer kann **AMD ReLive** gleichermaßen für diese Probleme verantwortlich seine, welche Teil der AMD-Grafikkartentreiber sind. Überprüfe diese Anwendungen als erstes, wenn du dir unsicher bist, was möglicherweise deinen Desktop aufnimmt.
+    * Falls du gar nicht weißt, welche Anwendung hierfür verantwortlich ist, überprüfe den Windows Soundmixer und schaue, welche Anwendungen derzeit auf die Audioausgabe zugreifen, dies kann hilfreich sein um schnell die richtige Anwendung ausfindig zu machen. Alternativ kannst du auch so viele Programme wie möglich ausschalten und im Windows Task Manager in der Prozessliste schauen, welche .exe-Dateien weiterhin aktiv sind wenn das Problem fortbesteht.
+* Falls die Hintergrundaufnahmen absichtlich sind oder du diese nicht abschalten kannst, kannst du eine *Anwendungsregel* in den Einstellungen anlegen. Setze die "Bedingung" auf "Spielt Ton ab" und "Hintergrund-Wiedergabe" auf "Weiter ausführen":
 
-![Application Rules can be found in the "Performance" tab of the Wallpaper Engine settings](./applicationrule.png)
+![Anwendungsregeln können im Reiter "Leistung" der Wallpaper Engine-Einstellungen gefunden werden](./applicationrule.png)
 
-Replace some.exe with .exe files you can find in the task manager until you have narrowed it down to the responsible .exe.
+Ersetze "some.exe" aus dem Video oben mit .exe-Dateien die du im Task Manager finden kannst, bis du die verantwortliche .exe gefunden hast.
 
-* Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
+* Sollten alle Versuche fehlschlagen, kannst du auch einfach die Einstellung "Andere Anwendung spielt Ton" auf "Weiter ausführen" stellen. Dies bedeutet jedoch, dass Wallpaper Engine sich nicht mehr automatisch stumm schalten wird, wenn du Musik hörst oder Videos guckst, die nicht im Vollbildmodus sind.
