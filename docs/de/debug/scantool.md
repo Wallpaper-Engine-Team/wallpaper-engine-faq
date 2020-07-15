@@ -1,4 +1,4 @@
-# Use the Wallpaper Engine scan tool to create a debug log
+# Verwende das Scan-Tool von Wallpaper Engine um einen Analyse-Bericht zu erstellen
 
 If you are having technical issues with Wallpaper Engine that you are unable to solve with the help of the FAQ, you can create a system log file which you can share with us when contacting us:
 
