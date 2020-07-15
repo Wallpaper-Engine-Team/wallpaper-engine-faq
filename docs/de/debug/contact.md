@@ -1,13 +1,13 @@
 ---
 tags:
   - email
-  - help
-  - support
+  - hilfe
+  - service
 ---
 
-# Contact
+# Kontakt
 
-If you have a technical problem with Wallpaper Engine, please try and resolve it with the FAQ first. Most technical support tickets we received can be fixed with the FAQ.
+Falls du ein technisches Problem mit Wallpaper Engine hast, versuche es mit dieser Hilfe-Seite zunächst zu lösen. Die meisten Fragen zu technischen Problemen können mit dieser Hilfe-Website gelöst werden.
 
 You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
 
