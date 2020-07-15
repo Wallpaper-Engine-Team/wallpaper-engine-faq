@@ -1,8 +1,8 @@
-# Sound / audio turns on and off intermittently
+# Ton / Sounds geht wiederholt an und aus
 
-Windows does not differentiate between recording and playing audio, therefore it notifies Wallpaper Engine that another program is producing sound while it is actually recording your computer audio.
+Windows unterscheidet nicht zwischen Tonaufnahmen und Tonwiedergaben, daher signalisiert es Wallpaper Engine, dass ein anderes Programm derzeit Ton wiedergibt, während es in Wirklichkeit den Ton deines Computers aufnimmt.
 
-Check the "Performance" tab of the Wallpaper Engine settings. If you have the option *"Other application is playing audio"* set to *"Mute"* and you notice that the sound from Wallpaper Engine keeps turning itself on and off, you likely have a recording program recording your screen and sound in the background.
+Überprüfe den Reiter "Leistung" in den Einstellungen von Wallpaper Engine. Falls du die Option *"Andere Anwendung spielt Ton"* auf *"Stumm schalten"* gestellt hast und du feststellst, dass der Ton von Wallpaper Engine an und aus geht, dann ist es wahrscheinlich, dass eine Aufnahmeprogramm deinen Bildschirm und Ton im Hintergrund aufnimmt.
 
 To solve this do any of these three things:
 
