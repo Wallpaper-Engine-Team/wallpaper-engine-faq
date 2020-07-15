@@ -15,19 +15,19 @@ Fast alle Abstürze die wir von unseren Anwendern erhalten können auf entweder 
 
 ## Wallpaper Engine - Schneller Lösungsversuch von Abstürzen
 
-Falls du dir nicht sicher bist, was die Abstürze von Wallpaper Engine verursachen könnte, führe bitte eine saubere Neuinstallation deiner Grafikkartentreiber durch. Dies bedeutet, dass du zunächst deine Grafikkartentreiber deinstallieren und dann die neuesten Treiber erneut installieren musst, nachdem die alten Treiber vollständig entfernt wurden. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Falls du dir nicht sicher bist, was die Abstürze von Wallpaper Engine verursachen könnte, führe bitte eine saubere Neuinstallation deiner Grafikkartentreiber durch. Dies bedeutet, dass du zunächst deine Grafikkartentreiber deinstallieren und dann die neuesten Treiber erneut installieren musst, nachdem die alten Treiber vollständig entfernt wurden. Eine Treiber bieten eine Option zur "sauberen Neuinstallation" in den erweiterten Installationseinstellungen an. Stelle sicher, dass du diese Option aktivierst um jegliche Überbleibsel von defekten Treibern zu entfernen. Du kannst die neuesten Grafikkartentreiber von allen Herstellern hier herunterladen:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you have an antivirus application installed (except Windows Defender), make sure to set up an exception for Wallpaper Engine in your antivirus settings. Sometimes a re-installation of Wallpaper Engine is necessary after this if your antivirus has permanently broken or locked some files.
+Falls du ein Antivirenprogramm installiert hast (außer Windows Defender), stelle sicher, dass eine Ausnahmeregel für Wallpaper Engine in deinen Antivirus-Einstellungen konfiguriert ist. In einigen Fällen kann es nötig sein Wallpaper Engine vollständig neu zu installieren, wenn ein Antivirenprogramm einige Dateien unwiderrufliche kaputt gemacht oder in Quarantäne platziert hat.
 
-Always also try to verify the Wallpaper Engine files through steam to ensure they are not broken:
+Versuche außerdem die Wallpaper Engine-Dateien über Steam auf Fehler zu überpüfen, um sicherzustellen, dass diese nicht defekt sind:
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam Support: Spieldateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Wallpaper Engine was likely crashed by another application
+## "Wallpaper Engine was likely crashed by another application"
 
 ### KERNELBASE.dll / ntdll.dll
 
