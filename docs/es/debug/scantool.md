@@ -5,7 +5,7 @@ Si tienes problemas técnicos con Wallpaper Engine y no puedes resolverlos tras 
 1. Asegúrate de que Wallpaper Engine está activo (si es posible).
 2. Elige la cuarta opción de Steam (*«Scan for conflicting applications»*, abajo encontrarás un vídeo explicativo):
 3. Haz clic en **Save Full Log** y guárdalo en el escritorio (abajo encontrarás un vídeo explicativo).
-4. Comparte el registro con alguno de estos métodos:
+4. Share the log file with our developers by using either of these methods:
     * Ve a [pastebin.com](https://pastebin.com/), pega los contenidos del registro y después comparte el enlace.
     * También puedes enviarnos el archivo del registro por correo. Si ya tienes una conversación por correo electrónico con nosotros, contesta al mensaje anterior con el archivo del registro. En caso de que sea el primer correo que nos envías, coméntanos el problema que tienes o mándanos el enlace de una discusión existente.
 5. *Opcional:* si el programa se cuelga, dirígete al directorio *wallpaper_engine* para comprobar si hay algún archivo **.mdmp** y envíanoslos por correo o súbelos a alguna página. Si hay muchos archivos .mdmp, mándanos solo los más recientes.
