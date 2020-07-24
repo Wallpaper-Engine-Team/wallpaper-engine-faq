@@ -190,6 +190,7 @@ module.exports = {
 		['@vuepress/back-to-top', true],
 		['@vuepress/google-analytics', { ga: 'UA-145121163-3' }],
 		['vuepress-plugin-redirect', { locales: true } ],
+		['vuepress-plugin-smooth-scroll'],
 		['sitemap', { hostname: 'https://help.wallpaperengine.io' } ],
 		['robots', {
 				host: "https://help.wallpaperengine.io",

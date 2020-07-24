@@ -126,7 +126,6 @@ export default {
       ]
     },
     contactUsString () {
-      console.log(this.$themeLocaleConfig);
       return this.$themeLocaleConfig.contactUs;
     }
   },
