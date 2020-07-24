@@ -1,10 +1,9 @@
-- - -
-標籤：
+---
+tags:
   - activemovie 視窗
   - active movie
   - 黑色
-- - -
-
+---
 
 # 視訊螢幕呈現黑色/無法正常播放
 

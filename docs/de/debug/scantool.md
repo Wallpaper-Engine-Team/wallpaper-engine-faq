@@ -1,25 +1,25 @@
-# Use the Wallpaper Engine scan tool to create a debug log
+# Verwende das Scan-Tool von Wallpaper Engine um einen Analyse-Bericht zu erstellen
 
-If you are having technical issues with Wallpaper Engine that you are unable to solve with the help of the FAQ, you can create a system log file which you can share with us when contacting us:
+Falls du technische Probleme mit Wallpaper Engine hast, welche du nicht mit der Hilfe des FAQs lösen kannst, kannst du einen Analyse-Bericht deines Systems erstellen und mit uns teilen, wenn du mit uns in Kontakt trittst:
 
-1. Make sure Wallpaper Engine is running (if possible).
-2. Choose the 4th launch option in Steam (*"Scan for conflicting applications"*, see below for a short video):
-3. Click on **Save Full Log** and save it to your desktop (see below for a short video).
-4. Share the log file with by using either of these methods developers:
-    * Go to [pastebin.com](https://pastebin.com/) and copy-paste the contents of the log file in there, afterwards share the link to your paste.
-    * Alternatively, you can just attach the log file to an email and send it to us. If you have already an existing email discussion, please reply to the previous email with the attached log file. If this is your first email, please add some information about the problem you were having or a link to an existing discussion.
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
+1. Stelle sicher, dass Wallpaper Engine läuft (wenn möglich).
+2. Wähle die vierte Start-Option in Steam (*"Scan for conflicting applications"*, siehe unten für ein kurzes Video):
+3. Klicke auf **Save Full Log** und speichere es auf deinen Desktop (siehe unten für ein kurzes Video).
+4. Teile den Analyse-Bericht mit unseren Entwicklern durch einen der folgenden Wege:
+    * Gehe zu [pastebin.com](https://pastebin.com/) und kopiere den Inhalt des Analyse-Berichts dort hinein. Danach teile den Link zu deinem kopierten Bericht mit uns.
+    * Alternativ kannst du den Bericht auf als Anhang an eine E-Mail an uns senden. Falls du bereits mit uns über E-Mail in Kontakt bist, antworte einfach auf die vorherige E-Mail und füge den Bericht an die E-Mail an. Wenn dies deine erste E-Mail ist, erkläre dein Problem bitte kurz oder sende uns einen Link zu einer bestehenden Diskussion.
+5. *Optional:* Wenn du Programmabstürze hast, überprüfe bitte deinen *wallpaper_engine*-Installationspfad und suche nach **.mdmp**-Dateien. Sende uns diese bitte auch per E-Mail oder lade sie irgendwo hoch. Falls du sehr viele .mdmp-Dateien findest, sende uns bitte einfach nur die neueste Datei.
 
 ::: tip
 Tipp Auch wenn das Scan-Tool anscheinend keine Fehler meldet, so kann ein tieferer Einblick in die Log-Datei oft häufige Computer-Probleme zum Vorschein bringen, welche uns helfen dir schnell einen Lösungsvorschlag für deine technischen Probleme mitzuteilen.
 :::
 
-#### Additional video help
+#### Weitere Video-Hilfe
 
-**Step 2**
+**Schritt 2**
 
-![Scan Tool Launch Option](./scantoollaunch.gif)
+![Startoption für das Scan-Tool](./scantoollaunch.gif)
 
-**Step 3**
+**Schritt 3**
 
-![Scan Tool Save Log](./scantoolsave.gif)
+![Bericht Speichern im Scan-Tool](./scantoolsave.gif)

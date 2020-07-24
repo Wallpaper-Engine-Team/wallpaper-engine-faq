@@ -1,10 +1,9 @@
-- - -
+---
 tags:
   - activemovie 창
   - active movie
   - 검은색
-- - -
-
+---
 
 # 영상 검은색 / 제대로 재생되지 않습니다
 

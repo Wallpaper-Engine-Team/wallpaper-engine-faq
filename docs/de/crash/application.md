@@ -3,31 +3,31 @@ tags:
   - mdmp
 ---
 
-# Wallpaper Engine crashing
+# Wallpaper Engine Abstürze / Crashes
 
-Wallpaper Engine is a matured software used by millions and well tested - it is relatively rare that there are actually bugs in the application causing crashes. If the crash message you are seeing mentions any **.dll** files, please have a look at the following list and see if you can find a more accurate description for specific **.dll** causing the crash on your system:
+Wallpaper Engine ist eine langjährig-entwickelte Anwendung mit Millionen Anwendern und ist ausführlich getestet - es ist relativ selten, dass Fehler im Programm noch zu Abstürzen führen. Falls die Absturz-Fehlermeldung **.dll**-Dateien erwähnt, schaue dir bitte die folgende Liste an und schaue, ob für die bei dir relevante **.dll**-Datei eine genauere Beschreibung vorliegt:
 
 [[toc]]
 
 ::: tip
-Almost all crash reports we receive from users turn out to be caused by broken graphics card drivers, antivirus applications or other defective software that makes the computer unstable.
+Fast alle Abstürze die wir von unseren Anwendern erhalten können auf entweder defekte Grafikkartentreiber, Antivirus-Programme oder andere defekte Software zurückgeführt werden, welche den jeweiligen Computer instabil machen.
 :::
 
-## Wallpaper Engine Crash Quick Fix Attempt
+## Wallpaper Engine - Schneller Lösungsversuch von Abstürzen
 
-If you are unsure what is crashing Wallpaper Engine, please do a clean re-installation of your graphics card drivers. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Falls du dir nicht sicher bist, was die Abstürze von Wallpaper Engine verursachen könnte, führe bitte eine saubere Neuinstallation deiner Grafikkartentreiber durch. Dies bedeutet, dass du zunächst deine Grafikkartentreiber deinstallieren und dann die neuesten Treiber erneut installieren musst, nachdem die alten Treiber vollständig entfernt wurden. Eine Treiber bieten eine Option zur "sauberen Neuinstallation" in den erweiterten Installationseinstellungen an. Stelle sicher, dass du diese Option aktivierst um jegliche Überbleibsel von defekten Treibern zu entfernen. Du kannst die neuesten Grafikkartentreiber von allen Herstellern hier herunterladen:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you have an antivirus application installed (except Windows Defender), make sure to set up an exception for Wallpaper Engine in your antivirus settings. Sometimes a re-installation of Wallpaper Engine is necessary after this if your antivirus has permanently broken or locked some files.
+Falls du ein Antivirenprogramm installiert hast (außer Windows Defender), stelle sicher, dass eine Ausnahmeregel für Wallpaper Engine in deinen Antivirus-Einstellungen konfiguriert ist. In einigen Fällen kann es nötig sein Wallpaper Engine vollständig neu zu installieren, wenn ein Antivirenprogramm einige Dateien unwiderrufliche kaputt gemacht oder in Quarantäne platziert hat.
 
-Always also try to verify the Wallpaper Engine files through steam to ensure they are not broken:
+Versuche außerdem die Wallpaper Engine-Dateien über Steam auf Fehler zu überpüfen, um sicherzustellen, dass diese nicht defekt sind:
 
-* [Steam Support: Verify Integrity of Application Files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam Support: Spieldateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Wallpaper Engine was likely crashed by another application
+## "Wallpaper Engine was likely crashed by another application"
 
 ### KERNELBASE.dll / ntdll.dll
 

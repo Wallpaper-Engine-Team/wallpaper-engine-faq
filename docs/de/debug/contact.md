@@ -1,24 +1,24 @@
 ---
 tags:
   - email
-  - help
-  - support
+  - hilfe
+  - service
 ---
 
-# Contact
+# Kontakt
 
-If you have a technical problem with Wallpaper Engine, please try and resolve it with the FAQ first. Most technical support tickets we received can be fixed with the FAQ.
+Falls du ein technisches Problem mit Wallpaper Engine hast, versuche es mit dieser Hilfe-Seite zunächst zu lösen. Die meisten Fragen zu technischen Problemen können mit dieser Hilfe-Website gelöst werden.
 
-You can also ask or search on our Steam Discussion board, we generally try to answer everyone and most questions have been discussed there before:
+Du kannst außerdem in unserem Steam-Diskussionsforum nachfragen oder es durchsuchen. Wir versuchen allen im Forum zu antworten und die meisten Fragen und Probleme wurden dort bereits ausführlich besprochen:
 
-* [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
+* [Wallpaper Engine Steam-Diskussionsforum](https://steamcommunity.com/app/431960/discussions/)
 
-If you cannot find a fitting article or cannot fix your problem, you can reach us at [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request).
+Falls du dein Problem nicht mit dieser Website lösen kannst, kannst du uns unter [support@wallpaperengine.io](mailto:support@wallpaperengine.io?subject=Support%20Request) erreichen.
 
 ::: tip
-If you are having a technical issue, it helps if you include a log file from our scan tool:
+Falls du ein technisches Problem hast, hilft es oft wenn du einen Analyse-Bericht unseres Scan-Tools mitsendest:
 
-* [Use the Wallpaper Engine scan tool to create a debug log](debug/scantool)
+* [Verwende das Scan-Tool von Wallpaper Engine um einen Analyse-Bericht zu erstellen](debug/scantool)
 
-The scan tool includes technical details which usually help us point you in the right direction faster.
+Das Scan-Tool sammelt technische Details, welche uns dabei helfen können, dir eine passende Lösung zu deinem Problem zu nennen.
 :::

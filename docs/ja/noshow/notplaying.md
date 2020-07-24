@@ -1,10 +1,9 @@
-- - -
+---
 tags:
   - activemovie window
   - active movie
   - black
-- - -
-
+---
 
 # ビデオが黒い / 正しく再生されない
 

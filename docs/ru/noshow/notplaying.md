@@ -1,10 +1,9 @@
-- - -
+---
 tags:
   - activemovie window
   - active movie
   - black
-- - -
-
+---
 
 # Черный экран / видео не воспроизводится
 

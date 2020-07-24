@@ -4,7 +4,7 @@ Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'd
 
 1. Wallpaper Engine'in çalıştığından emin olun (mümkünse).
 2. Steam'deki 4. başlatma seçeneğini tıklayın (*"Scan for conflicting applications"*, aşağıda bunun için kısa bir video bulunmaktadır):
-3. **Tam Günlüğü Kaydet** seçeneğini tıklayıp masaüstünüze kaydedin (aşağıda kısa bir video bulunmaktadır).
+3. **Save Full Log** seçeneğini tıklayıp masaüstünüze kaydedin (aşağıda kısa bir video bulunmaktadır).
 4. Bu yöntemlerden herhangi birini kullanarak günlük dosyasını geliştiricilerle paylaşın:
     * [pastebin.com](https://pastebin.com/) adresine giderek günlük dosyanızın içeriğini yapıştırın ve yapıştırdığınız içeriğin bağlantısını paylaşın.
     * Alternatif olarak, günlük dosyasını bir e-postaya ekleyip bize gönderebilirsiniz. E-posta üzerinden halihazırda bir tartışma yürüttüyseniz lütfen günlük dosyasını ekleyerek son gönderilen e-postayı yanıtlayın. İlk e-postanızı atıyorsanız karşılaştığınız sorunla ilgili bilgi verin ya da mevcut tartışmanın bağlantısını gönderin.
