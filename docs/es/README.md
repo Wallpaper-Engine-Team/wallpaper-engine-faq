@@ -16,5 +16,5 @@ Antes de nada, comprueba esta lista para ver si los problemas nombrados se aseme
 | 1. [Problemas con la descarga de Steam](steam/download.html).                                                                                   |
 | 2. [Pantalla negra / los vídeos no se reproducen](noshow/notplaying.html).                                                                      |
 | 3. [Los vídeos muestran colores incorrectos / son claros u oscuros / enfocados / pixelados / borde alrededor del fondo](videos/artifacts.html). |
-| 4. [Wallpaper Engine se cuelga](crash/application).                                                                                             |
-| 5. [Exportar fondos como GIF / vídeo](general/export).                                                                                          |
+| 4. [Wallpaper Engine crashing](crash/application.html)                                                                                          |
+| 5. [Exporting wallpapers as GIF / video files](functionality/export.html)                                                                       |
