@@ -16,5 +16,5 @@ Wallpaper Engine 관련 기술적 문제나 질문이 있다면, 여기서 답�
 | 1. [Steam 다운로드 문제](steam/download.html)                                                                |
 | 2. [검은색 화면 / 비디오가 재생되지 않습니다](noshow/notplaying.html)                                                   |
 | 3. [비디오 색상이 잘못되었습니다 / 너무 밝거나 너무 어둡습니다 / 확대되었습니다 / 픽셀화되었습니다 / 비디오 주변에 테두리가 있습니다](videos/artifacts.html) |
-| 4. [Wallpaper Engine 작동 중단](crash/application)                                                         |
-| 5. [배경화면 GIF / 비디오 파일로 내보내기](general/export)                                                           |
+| 4. [Wallpaper Engine crashing](crash/application.html)                                                 |
+| 5. [Exporting wallpapers as GIF / video files](functionality/export.html)                              |
