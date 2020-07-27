@@ -16,5 +16,5 @@ Check this list first and see if any of the problems describe your issue, otherw
 | 1. [Steam Download Issues](steam/download.html) |
 | 2. [Black Screen / Videos not Playing](noshow/notplaying.html)|
 | 3. [Video colors wrong / too bright or too dark / zoomed-in / pixelated / border around video](videos/artifacts.html)|
-| 4. [Wallpaper Engine crashing](crash/application)|
-| 5. [Exporting wallpapers as GIF / video files](general/export)|
+| 4. [Wallpaper Engine crashing](crash/application.html)|
+| 5. [Exporting wallpapers as GIF / video files](functionality/export.html)|
