@@ -11,10 +11,10 @@ Busca una palabra clave en el buscador de la esquina superior derecha. Por ejemp
 
 Antes de nada, comprueba esta lista para ver si los problemas nombrados se asemejan al tuyo. Si no, usa el buscador de la esquina superior derecha o fíjate en los artículos de la lista de la izquierda:
 
-| **Artículos más populares**                                                                                                                     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. [Problemas con la descarga de Steam](steam/download.html).                                                                                   |
-| 2. [Pantalla negra / los vídeos no se reproducen](noshow/notplaying.html).                                                                      |
-| 3. [Los vídeos muestran colores incorrectos / son claros u oscuros / enfocados / pixelados / borde alrededor del fondo](videos/artifacts.html). |
-| 4. [Wallpaper Engine se cuelga](crash/application).                                                                                             |
-| 5. [Exportar fondos como GIF / vídeo](general/export).                                                                                          |
+| **Artículos más populares**                                                                                                                    |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. [Problemas con la descarga de Steam](steam/download.html)                                                                                   |
+| 2. [Pantalla negra / los vídeos no se reproducen](noshow/notplaying.html)                                                                      |
+| 3. [Los vídeos muestran colores incorrectos / son claros u oscuros / enfocados / pixelados / borde alrededor del fondo](videos/artifacts.html) |
+| 4. [Wallpaper Engine se cuelga](crash/application.html)                                                                                        |
+| 5. [Exportar fondos como GIF / vídeo](functionality/export.html)                                                                               |
