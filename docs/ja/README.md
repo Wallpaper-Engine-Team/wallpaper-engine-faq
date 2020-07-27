@@ -16,5 +16,5 @@
 | 1. [Steamのダウンロードの問題](steam/download.html)                                                   |
 | 2. [画面が黒い / ビデオが再生されない](noshow/notplaying.html)                                             |
 | 3. [ビデオの色がおかしい / 明るすぎる、または暗すぎる / 拡大表示される / ピクセル化される / ビデオの周囲に境界線が出る](videos/artifacts.html) |
-| 4. [Wallpaper Engineがクラッシュする](crash/application)                                            |
-| 5. [壁紙をGIFや動画ファイルにエクスポートする](general/export)                                                 |
+| 4. [Wallpaper Engine crashing](crash/application.html)                                      |
+| 5. [Exporting wallpapers as GIF / video files](functionality/export.html)                   |
