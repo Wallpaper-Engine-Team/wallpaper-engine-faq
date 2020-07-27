@@ -16,5 +16,5 @@ Sağ üst köşedeki arama çubuğuna anahtar kelimeler girin. Örneğin, duvar 
 | 1. [Steam İndirme Sorunları](steam/download.html)                                                                                          |
 | 2. [Siyah Ekran / Videolar Açılmıyor](noshow/notplaying.html)                                                                              |
 | 3. [Video renkleri yanlış/çok parlak ya da çok karanlık/yakınlaştırılmış/pikselli/videonun çevresinde kenarlık var](videos/artifacts.html) |
-| 4. 4. [Wallpaper Engine çöktü](crash/application.html)                                                                                     |
-| 5. 5. [Duvar kâğıtlarını GIF/video dosyası olarak dışarı aktarma](functionality/export.html)                                               |
+| 4. [Wallpaper Engine çöktü](crash/application.html)                                                                                        |
+| 5. [Duvar kâğıtlarını GIF/video dosyası olarak dışarı aktarma](functionality/export.html)                                                  |
