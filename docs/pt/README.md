@@ -16,5 +16,5 @@ Consulte primeiro esta lista e veja se algum dos problemas descreve a sua dificu
 | 1. [Problemas de transferência no Steam](steam/download.html)                                                                                   |
 | 2. [Ecrã preto / vídeos não reproduzem](noshow/notplaying.html)                                                                                 |
 | 3. [Vídeo com cores erradas / demasiado claros ou demasiado escuros / ampliados / pixelados / moldura em volta do vídeo](videos/artifacts.html) |
-| 4. [Wallpaper Engine bloqueia](crash/application)                                                                                               |
-| 5. [Exportar wallpapers como GIF / ficheiros de vídeo ](general/export)                                                                         |
+| 4. [Wallpaper Engine crashing](crash/application.html)                                                                                          |
+| 5. [Exporting wallpapers as GIF / video files](functionality/export.html)                                                                       |
