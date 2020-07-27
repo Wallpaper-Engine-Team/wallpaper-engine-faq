@@ -16,5 +16,5 @@
 | 1. [Steam 下载问题](steam/download.html)                 |
 | 2. [黑屏/视频不播放](noshow/notplaying.html)                |
 | 3. [视频颜色错误/太亮或太暗/放大/像素化/视频边框](videos/artifacts.html) |
-| 4. [Wallpaper Engine 崩溃](crash/application)          |
-| 5. [将壁纸导出为 GIF/视频文件](general/export)                 |
+| 4. 4. [Wallpaper Engine 崩溃](crash/application.html)  |
+| 5. 5. [将壁纸导出为 GIF/视频文件](functionality/export.html)   |

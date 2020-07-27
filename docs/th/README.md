@@ -16,5 +16,5 @@
 | 1. [ปัญหาการดาวน์โหลดบน Steam](steam/download.html)                                                          |
 | 2. [หน้าจอสีดำ / ไม่เล่นไฟล์วิดีโอ](noshow/notplaying.html)                                                  |
 | 3. [สีวิดีโอผิดปกติ / สว่างหรือมืดเกินไป / ถูกขยาย / เป็นพิกเซล / มีเส้นขอบรอบวิดีโอ](videos/artifacts.html) |
-| 4. [Wallpaper Engine หยุดทำงาน](crash/application)                                                           |
-| 5. [ส่งออกวอลเปเปอร์เป็นไฟล์ GIF / วิดีโอ](general/export)                                                   |
+| 4. 4. [Wallpaper Engine หยุดทำงาน](crash/application.html)                                                   |
+| 5. 5. [ส่งออกวอลเปเปอร์เป็นไฟล์ GIF / วิดีโอ](functionality/export.html)                                     |

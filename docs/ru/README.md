@@ -16,5 +16,5 @@
 | 1. [Проблема с загрузками из Steam ](steam/download.html)                                                                                              |
 | 2. [Черный экран / видео не воспроизводится](noshow/notplaying.html)                                                                                   |
 | 3. [Видео обои: неправильного цвета / слишком яркие или слишком темные / растянутые / выглядят некачественно / окружены рамкой](videos/artifacts.html) |
-| 4. [Аварийное завершение работы Wallpaper Engine](crash/application)                                                                                   |
-| 5. [Экспорт обоев в виде GIF- и видеофайлов](general/export)                                                                                           |
+| 4. [Аварийное завершение работы Wallpaper Engine](crash/application.html)                                                                              |
+| 5. [Экспорт обоев в виде GIF- и видеофайлов](functionality/export.html)                                                                                |
