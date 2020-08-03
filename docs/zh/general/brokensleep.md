@@ -12,7 +12,7 @@
 
 ## 更改 Windows 电源设置
 
-If any active audio streams are open, Windows will not go to sleep. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+If any active audio streams are open, Windows will not go to sleep. 要解决此问题，您可以在 Wallpaper Engine 设置的“常规”选项卡中禁用音频输出，或者重新配置 Windows，使其可在启用了音频播放的情况下进入睡眠状态：
 
 1. 通过在 Windows 搜索中键入名称，转到 Windows 的“电源和睡眠设置”。
 2. 单击“其他电源设置”
@@ -21,7 +21,7 @@ If any active audio streams are open, Windows will not go to sleep. You can get 
 5. 向下滚动并展开“多媒体设置”
 6. 将“共享媒体时”设置为“允许计算机进入离开模式”（屏幕保护程序）**或**“允许计算机睡眠”（休眠）
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![启用“允许计算机睡眠”](./power.gif)
 
 ## “Web”类型壁纸的休眠问题
 
