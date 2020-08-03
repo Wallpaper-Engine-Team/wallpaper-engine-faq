@@ -231,6 +231,7 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 				locale + 'general/focusloss',
 				locale + 'general/multiscreencenter',
 				locale + 'general/aero',
+				locale + 'general/lockscreen',
 				locale + 'videos/windows-n',
 			]
 		},
@@ -294,6 +295,7 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 			children: [
 				locale + 'audio/audiodetection',
 				locale + 'audio/intermittent',
+				locale + 'audio/limittomusicplayer',
 			]
 		},
 		{
