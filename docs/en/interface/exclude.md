@@ -16,7 +16,7 @@ Always use the Workshop tab in the application to search for new wallpapers. The
 
 You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
-You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the most frequent anime categories. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
