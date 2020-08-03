@@ -37,6 +37,6 @@ tags:
 
 ### ข้อผิดพลาดของการโอเวอร์เลย์ที่หาได้ยากบน Steam ทำให้เกิดความเสียหายกับส่วนต่อประสานกับผู้ใช้ของ Wallpaper Engine
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+สาเหตุที่เป็นไปได้อีกประการหนึ่งของหน้าต่างแอพพลิเคชันสีดำคือข้อผิดพลาดการโอเวอร์เลย์ที่หาได้ยากบน Steam คุณสามารถลองทำดังนี้:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+ปิด Wallpaper Engine (คลิกขวาที่ Wallpaper Engine ในแถบงานและเลือก "ออกจากโปรแกรม") จากนั้นเปิด Steam ขึ้นมา คลิกขวาที่ Wallpaper Engine เลือก "คุณสมบัติ" และปิดการใช้งานตัวเลือก "เปิดการใช้งานโอเวอร์เลย์ Steam ขณะอยู่ในเกม" After disabling the option, try to restart Wallpaper Engine via Steam. 
