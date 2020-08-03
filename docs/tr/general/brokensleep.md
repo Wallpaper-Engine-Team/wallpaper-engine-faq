@@ -1,10 +1,18 @@
+- - -
+  tags:
+  - screensavers
+  - hibernation
+  - sleep
+  - power saving
+- - -
+
 # Hazırda bekletme / Ekran koruyucular çalışmıyor
 
-Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Windows'un en başta hazırda bekletmeyi engellemesini önlemek için Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak bunu çözebilirsiniz. Ses çıkışı almaya devam etmek istiyorsanız nasıl yapacağınızı görmek için bu rehberdeki adımlara uyun.
+Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
 
 ## Windows güç ayarlarını değiştirin
 
-Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak veya Windows'u ses çalma etkinken uykuya geçmesini sağlayacak şekilde yeniden yapılandırarak bunu çözebilirsiniz:
+Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
 
 1. Windows arama kısmına yazarak "Güç ve uyku ayarları"na gidin.
 2. "Ek güç ayarları"na tıklayın
@@ -13,11 +21,11 @@ Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper 
 5. Aşağı inin ve "Multimedya ayarları"nı açın
 6. "Medya paylaşılırken" seçeneğini "Bilgisayarın Uzakta Modu'na girmesine izin ver" (ekran koruyucular) **veya** "Bilgisayarın uyku moduna geçmesine izin ver" (hazırda bekletme) olarak ayarlayın
 
-!["Bilgisayarın uyku moduna geçmesine izin ver"'i etkinleştirin](./power.gif)
+![Enable "Allow the computer to sleep"](./power.gif)
 
 ## "Web" duvar kâğıtlarındaki hazırda bekletme sorunları
 
-"Web" duvar kâğıtları, hazırda bekletme modunu engelleyecek Google Chrome ("CEF") benzeri bir web tarayıcısı kullanır. Bu durum tarayıcıda çözülene kadar bazı komut satırı bilgi istemleriyle bu sorunu çözebilirsiniz.
+"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
 
 1. Windows'ta "cmd.exe"yi aratarak sağ tıklayın ve "Yönetici olarak çalıştır"ı (çok önemli, aksi hâlde bu işe yaramayacaktır!) seçin.
 2. Sisteminizi hazırda bekletme konusunda engelleyen tüm işlemleri görüntülemek için `powercfg /requests` komutunu kullanın (ayrıca başka programların hatalı olup olmadığını da kontrol edin).
@@ -29,4 +37,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Ek olarak Wallpaper Engine ayarlarında bulunan **Performans** sekmesindeki **Uykuda göster** seçeneğini *Dur (boş bellek)* olarak değiştirebilir ve ekranınızı kapatabilirsiniz. Bu şekilde Wallpaper Engine bilgisayarınızı boş bırakıp ekranınızı kapattığınızda tüm oynatmaları durduracaktır.
+Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
