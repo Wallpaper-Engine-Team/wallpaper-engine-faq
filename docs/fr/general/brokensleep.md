@@ -1,3 +1,11 @@
+- - -
+  tags:
+  - screensavers
+  - hibernation
+  - sleep
+  - power saving
+- - -
+
 # Veille / L'écran de veille ne marche pas
 
 Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouvez contourner ce problème en désactivant la sortie audio dans l'onglet "Général" des paramètres de Wallpaper Engine pour empêcher Windows de bloquer la mise en veille. Si vous souhaitez quand même avoir de l'audio, voici la marche à suivre.
@@ -17,7 +25,7 @@ Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouv
 
 ## La mise en veille les fonds d'écran Web
 
-Les fonds d'écran Web utilisent un navigateur similaire au "CFE" de Google Chrome qui empêche la mise en veille. Vous pouvez contourner ce problème avec des invites de ligne de commande.
+Les fonds d'écran Web utilisent un navigateur similaire à Google Chrome ("CEF") qui empêche la mise en veille. Vous pouvez contourner ce problème avec des invites de ligne de commande.
 
 1. Cherchez "cmd.exe" dans Windows et faites un clic droit pour sélectionner "Exécuter en tant qu'administrateur" (sinon ça ne fonctionnera pas !).
 2. Utilisez la commande `powercfg /requests` pour afficher tous les processus qui bloquent la mise en veille (vous pourrez alors vérifier si d'autres programmes posent également problème).
