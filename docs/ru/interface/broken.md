@@ -31,6 +31,10 @@ tags:
 
 Если проблема не была решена, отключите Wallpaper Engine. Затем перезапустите Wallpaper Engine, использовав для этого третий вариант запуска программы в Steam (Disable UI hardware acceleration).
 
+**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+
+![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+
 ### Пользовательский интерфейс Wallpaper Engine поврежден в результате редкой ошибки в работе оверлея Steam
 
 Еще одна возможная причина, по которой у вас открывается черное окно программы — редко встречающаяся ошибка, связанная с работой оверлея Steam. Попробуйте следующее:
