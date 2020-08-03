@@ -8,11 +8,11 @@
 
 # Hazırda bekletme / Ekran koruyucular çalışmıyor
 
-Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak veya Windows'u ses çalma etkinken uykuya geçmesini sağlayacak şekilde yeniden yapılandırarak bunu çözebilirsiniz. Ses çıkışı almaya devam etmek istiyorsanız nasıl yapacağınızı görmek için bu rehberdeki adımlara uyun.
 
 ## Windows güç ayarlarını değiştirin
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
 
 1. Windows arama kısmına yazarak "Güç ve uyku ayarları"na gidin.
 2. "Ek güç ayarları"na tıklayın
