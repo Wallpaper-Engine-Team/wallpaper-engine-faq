@@ -12,7 +12,7 @@ Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouv
 
 ## Changer les paramètres d'alimentation de Windows
 
-Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouvez contourner ce problème en désactivant la sortie audio dans l'onglet "Général" des paramètres de Wallpaper Engine pour empêcher Windows de bloquer la mise en veille:
+Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouvez contourner ce problème en désactivant la sortie audio dans l'onglet "Général" des paramètres de Wallpaper Engine ou en reconfigurant Windows :
 
 1. Cherchez les "paramètres d'alimentation et mise en veille" dans la barre de recherche de Windows.
 2. Cliquez sur "Paramètres d'alimentation supplémentaires"
