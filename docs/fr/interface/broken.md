@@ -31,6 +31,10 @@ Les pilotes de votre carte graphique sont corrompus ou mal configurés. Téléch
 
 Si le problème persiste, quittez Wallpaper Engine. Relancez ensuite Wallpaper Engine en utilisant la troisième option de lancement Steam : "Désactiver l'accélération matérielle de l'interface utilisateur".
 
+**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+
+![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+
 ### L'overlay Steam entre en conflit avec Wallpaper Engine
 
 C'est plus rare, mais le problème peut également venir de l'overlay Steam. Voici ce que vous pouvez faire :
