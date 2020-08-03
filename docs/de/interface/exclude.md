@@ -1,3 +1,13 @@
+- - -
+  tags:
+  - anime
+  - filter
+  - search
+  - categories
+  - mature
+  - adult
+- - -
+
 # Exclude certain wallpapers from the search
 
 Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
@@ -6,15 +16,21 @@ Always use the Workshop tab in the application to search for new wallpapers. The
 
 You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
-If you do not like seeing anime wallpapers, remove the *Anime* and *MMD (Miku-Miku-Dance)* categories. Additionally, you may also want to remove *Cartoon* and *Girls* as they also contain some anime but you are more likely to filter out other content as well.
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the most frequent anime categories. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
-![Deselect all categories you do not like in the filter sidebar](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Excluding certain age ratings
 
 The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
 
-![Deslect the "Mature" and "Questionable" age rating in the filter sidebar](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
 
