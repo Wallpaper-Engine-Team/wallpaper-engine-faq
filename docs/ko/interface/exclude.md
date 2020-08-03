@@ -1,3 +1,13 @@
+- - -
+  tags:
+  - anime
+  - filter
+  - search
+  - categories
+  - mature
+  - adult
+- - -
+
 # 검색에서 특정 배경화면이 제외됩니다
 
 언제든지 응응 프로그램의 창작마당 탭을 사용하여 새로운 배경화면을 검색할 수 있습니다. Steam 창작마당 웹사이트는 앱과 동일한 필터 기능이 없으며, 관심이 없는 콘텐츠까지 너무 많이 보여줍니다.
@@ -6,15 +16,21 @@
 
 응용 프로그램에서 원하지 않는 범주를 필터링할 수 있습니다. Wallpaper Engine의 "창작마당" 탭을 열어 왼쪽 상단의 "필터 적용 결과" 버튼을 클릭하여 필터 사이드바를 활성화하세요. 그런 다음 결과에 나타내고 싶지 않은 범주를 모두 선택 해제합니다.
 
-아니메 배경화면을 원하지 않으면, *아니메*와 *MMD (Miku-Miku-Dance)* 범주를 제거하세요. 또한 일부 아니메를 포함한 *카툰*과 *소녀*도 제거하고 싶을 수도 있습니다. 그러나 그러면 다른 콘텐츠도 필터링될 수 있습니다.
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
-![필터 사이드바에서 원하지 않는 범주 모두 선택 해제](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 특정 나이 등급 제외
 
 Steam 창작마당은 노출과 같은 일정 수준의 성인 콘텐츠를 허용합니다. 이런 콘텐츠를 보고 싶지 않으면, 필터에서 "모두" 나이 등급만 활성화하세요.
 
-![필터 사이드바에서 "성인" 및 "의심스러움" 나이 등급 선택 해제](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 대부분의 콘텐츠는 정확히 태그되므로, 성인 콘텐츠 대다수를 필터링합니다. 그러나 "모두" 등급의 성인 콘텐츠가 계속 나온다면, 앱에서 신고하기 기능을 사용해 주세요. 해당 콘텐츠는 다시 분류되거나 검토 후 금지됩니다.
 
