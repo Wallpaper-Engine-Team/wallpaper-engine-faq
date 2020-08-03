@@ -8,11 +8,11 @@
 
 # ハイバネーションやスクリーンセーバーが動作しない
 
-Windowsは、アクティブなオーディオストリームが開いているとハイバネーションしません。 You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+Windowsは、アクティブなオーディオストリームが開いているとハイバネーションしません。 これを回避するために、Wallpaper Engine設定の「一般」タブでオーディオ出力を無効にし、Windowsにハイバネーションをブロックさせないようにすることができます。 オーディオ出力を続けさせたい場合は、このガイドのステップに従ってください。
 
 ## Windowsのパワー設定を変更する
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windowsは、アクティブなオーディオストリームが開いているとハイバネーションしません。 これを回避するために、Wallpaper Engine設定の「一般」タブでオーディオ出力を無効にするか、Windowsがオーディオ再生を有効にしたままでスリープに入るよう設定し直すことができます。
 
 1. Windowsの検索画面で入力して、「電源とスリープ」設定を開きます。
 2. 「電源の追加設定」をクリックします。
@@ -21,11 +21,11 @@ Windows does not hibernate with any active audio streams open. You can get aroun
 5. 下にスクロールし、「マルチメディア設定」を拡張します。
 6. 「メディアの共有時」を「コンピュータがアウェーモードに入ることを許可する」（スクリーンセーバー）**または**「コンピュータがスリープすることを許可する」（ハイバネーション）に設定します。
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![「コンピュータにスリープを許可する」を有効にする](./power.gif)
 
 ## 「Web」タイプ壁紙でのハイバネーション問題
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+「Web」壁紙は、Google Chromeに似た、ハイバネーションモードを妨害するブラウザ（CEF）を使用します。 ブラウザでこれが修正されるまでは、コマンドラインのプロンプトで回避することができます。
 
 1. Windowsで"cmd.exe"を検索し、右クリックして、「管理者として実行」を選択します（こうしないと動作しないので注意！）。
 2. `powercfg /requests`のコマンドで、システムのハイバネーションをブロックしているプロセスをすべて表示させます（また、他のプログラムが妨害していないかどうかもチェックします）。
@@ -37,4 +37,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+また、Wallpaper Engine設定の**パフォーマンス**タブにある**ディスプレイスリープ**オプションを*停止（メモリ解放）*に設定し、ディスプレイをオフにすることもできます。 こうすると、コンピュータが操作されず、ディスプレイがオフにされたときに、Wallpaper Engineがすべての再生を止めるようになります。
