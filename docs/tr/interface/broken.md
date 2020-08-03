@@ -31,8 +31,12 @@ Grafik kartı sürücüleriniz bozuk veya yanlış yapılandırılmış. Grafik 
 
 Sorun devam ederse Wallpaper Engine'i kapatın. Daha sonra Steam'deki "Kullanıcı arayüzü donanım hızlandırmayı devre dışı bırak" etiketli üçüncü başlatma seçeneğini kullanarak Wallpaper Engine'i yeniden başlatın.
 
+**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+
+![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+
 ### Wallpaper Engine Kullanıcı Arayüzünü Bozan Nadir Steam Arayüzü Hatası
 
-Siyah uygulama penceresinin diğer bir olası nedeni de Steam arayüzüyle ilgili nadir bir Steam hatasıdır. Şunları deneyebilirsiniz:
+The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
 
-Wallpaper Engine'i tamamen kapatın (tepsi simgesine sağ tıklayın ve sonra "Çıkış"ı seçin). Sonrasında Steam'i açın, Wallpaper Engine'e sağ tıklayın, "Özellikler"i seçin ve "Oyundayken Steam Arayüzünü etkinleştir" seçeneğini devre dışı bırakın. Seçeneği devre dışı bıraktıktan sonra Wallpaper Engine'i Steam üzerinden yeniden başlatmayı deneyin. 
+Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
