@@ -37,6 +37,6 @@ Wallpaper Engineブラウズウィンドウが正しく動作しない場合、�
 
 ### 珍しいSteamオーバーレイバグによってWallpaper Engineユーザーインターフェースが破損している
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+アプリケーションウィンドウが黒くなる他の理由として考えられるのは、Steamオーバーレイの珍しいSteamバグです。 次のことを試してみてください。
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Wallpaper Engineを完全に終了します（トレイで右クリックし、「終了」）。 Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
