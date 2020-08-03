@@ -39,4 +39,4 @@ Wallpaper Engineブラウズウィンドウが正しく動作しない場合、�
 
 アプリケーションウィンドウが黒くなる他の理由として考えられるのは、Steamオーバーレイの珍しいSteamバグです。 次のことを試してみてください。
 
-Wallpaper Engineを完全に終了します（トレイで右クリックし、「終了」）。 Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Wallpaper Engineを完全に終了します（トレイで右クリックし、「終了」）。 その後Steamを開き、Wallpaper Engineを右クリックして「プロパティ」を選択し、「ゲーム中にSteamオーバーレイを有効にする」オプションを無効にします。 オプションを無効にしたあと、SteamからWallpaper Engineを再起動します。 
