@@ -21,7 +21,7 @@ Windows ne se met pas en veille si du son est actuellement en lecture. Vous pouv
 5. Cherchez "Paramètres multimédias"
 6. Dans "Lors du partage de fichiers multimédias", choisissez "Autoriser l'ordinateur à se mettre en mode Absence" (économiseur d'écran) **ou** "Autorisez l'ordinateur à se mettre en veille"
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![Activer "Autorisez l'ordinateur à se mettre en veille"](./power.gif)
 
 ## La mise en veille les fonds d'écran Web
 
