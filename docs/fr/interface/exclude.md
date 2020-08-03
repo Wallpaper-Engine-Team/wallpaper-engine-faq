@@ -1,25 +1,41 @@
+- - -
+  tags:
+  - anime
+  - filter
+  - search
+  - categories
+  - mature
+  - adult
+- - -
+
 # Exclure certains fonds d'écran de la recherche
 
-Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web du Workshop Steam n'a pas les mêmes capacités de filtrage que l'application et vous montrera beaucoup trop de contenu.
+Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
 
 ## Exclure certains genres de fonds d'écran
 
-Vous pouvez exclure les catégories que vous n'aimez pas dans l'application. Ouvrez l'onglet "Workshop" de Wallpaper Engine et activez la barre des filtres en cliquant sur "Filtrer les résultats" en haut à gauche. Désélectionnez toutes les catégories que vous ne voulez pas voir.
+You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
-Par exemple, si vous n'aimez pas trop le style manga, vous pouvez désélectionner les catégories *Anime* et *MMD (Miku-Miku-Dance)*. Vous pouvez également décocher *Cartoon* et *Filles*, car ils contiennent également des design d'anime, mais vous risquez de bloquer trop de contenu.
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the most frequent anime categories. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
-![Désélectionnez dans les filtres les catégories que vous ne voulez pas voir](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Bloquer certaines tranches d'âge
 
 Le Workshop de Steam permet de charger également du contenu pour adulte, comme de la nudité. Si vous ne souhaitez pas voir ce genre de contenu, sélectionnez le filtre "Tout le monde" :
 
-![Désélectionnez dans les filtres le contenu "Adulte" et "Discutable"](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-La plupart du contenu est bien labellisé et le contenu pour adulte sera filtré. Si vous voyez du contenu pour adultes qui a été labellisé pour "Tout le monde", veuillez nous le signaler immédiatement. Ce contenu sera placé dans une autre catégorie ou censuré.
+Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
 
 ## Signaler du contenu illicite
 
-Notre équipe, les administrateurs et les modérateurs de Steam suppriment quotidiennement des fonds d'écran enfreignant les règles. Veuillez signaler tous les contenus du Workshop qui enfreignent les règles pour nous aider à les trouver.
+We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
 
-Le Workshop permet aux utilisateurs de publier du contenu sans que nous puissions l'approuver avant. C'est lié au fonctionnement de Steam et nous sommes malheureusement impuissants. Nous ne pouvons que supprimer le contenu déjà publié. Si cela vous pose problème, assurez-vous d'activer le filtre *Approuvé* dans les paramètres. Vous ne verrez ainsi que du contenu sélectionné et vérifié par notre équipe. Assurez-vous de lire les sections ci-dessus pour apprendre à configurer vos filtres et pouvoir ainsi ne trouver que les fonds d'écran qui vous intéressent.
+The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
