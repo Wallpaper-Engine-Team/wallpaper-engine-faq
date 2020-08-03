@@ -37,6 +37,6 @@ Se o problema persistir, desative o Wallpaper Engine. Em seguida, volte a inicia
 
 ### Erro raro do overlay do Steam quebra o interface para o utilizador do Wallpaper Engine
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+A outra razão possível para uma janela de aplicação toda preta é um error raro do Steam com o Steam overlay. Pode tentar o seguinte:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Desative completamente o Wallpaper Engine (clique com o botão direito no ícone do tabuleiro e depois selecione "Sair"). Em seguida, abra o Steam, clique com o botão direito no Wallpaper Engine, selecione "Properties" (Propriedades) e depois desative a opção "Enable Steam Overlay while in-game" (Ativar Steam Overlay durante o jogo). Depois de desativar a opção, experimente reiniciar o Wallpaper Engine através do Steam. 
