@@ -10,7 +10,7 @@
 
 # Excluir certos wallpapers da pesquisa
 
-Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+Utilize sempre o separador Oficina na aplicação para procurar novos wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
 
 ## Excluir certos géneros (por exemplo, anime)
 
