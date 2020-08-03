@@ -37,6 +37,6 @@ Si el problema persiste, cierra Wallpaper Engine y vuelve a abrirlo con la terce
 
 ### Error de la interfaz de Steam que destroza la interfaz de Wallpaper Engine
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+La interfaz de Steam tiene un error atípico que puede causar que la pantalla del programa se vea negra. Puedes hacer lo siguiente:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Cierra Wallpaper Engine (haz clic en el icono en la bandeja y selecciona «Salir»). Después, abre Steam, haz clic derecho en Wallpaper Engine, ve a «Propiedades» y desactiva la opción «Habilitar interfaz de Steam». Tras desactivar la opción, reinicia Wallpaper Engine a través de Steam. 
