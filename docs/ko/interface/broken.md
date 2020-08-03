@@ -37,6 +37,6 @@ Wallpaper Engine 사용자 인터페이스가 바이러스 백신 응용 프로�
 
 ### Wallpaper Engine 사용자 인터페이스를 손상시키는 희귀 Steam 오버레이 버그
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+검은색 응용프로그램 창이 나타나는 다른 가능성은 희귀한 Steam 오버레이 Steam 버그입니다. 다음을 시도해 보세요:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Wallpaper Engine을 완전히 끕니다. (트레이 아이콘을 오른쪽 클릭한 다음 "종료" 선택) 그런 다음 Steam을 열어 Wallpaper Engine을 오른쪽 클릭하고 "속성"을 선택하여 "게임 내 Steam 오버레이 사용" 옵션을 비활성화하세요. 옵션을 비활성화한 후 Steam을 통해 Wallpaper Engine을 다시 시작합니다. 
