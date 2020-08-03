@@ -1,3 +1,11 @@
+- - -
+  tags:
+  - screensavers
+  - hibernation
+  - sleep
+  - power saving
+- - -
+
 # No funcionan los salvapantallas / hibernación
 
 Windows no puede hibernar si hay transmisiones de audio activas. Puedes solventar esto si deshabilitas la salida de audio en la pestaña «General» de la configuración de Wallpaper Engine para evitar que Windows bloquee la hibernación. Si quieres conservar la salida de audio, sigue los pasos de esta guía.
@@ -13,7 +21,7 @@ Windows no puede hibernar si hay transmisiones de audio activas. Puedes solventa
 5. Baja hasta encontrar «Configuración multimedia».
 6. Cambia la configuración de «Al compartir multimedia» a «Permitir que el equipo entre en modo ausente» (salvapantallas) **o** «Permitir que el equipo entre en modo de suspensión» (hibernación).
 
-![Habilitar «Permitir que el equipo entre en modo de suspensión».](./power.gif)
+![Habilitar «Permitir que el equipo entre en modo de suspensión»](./power.gif)
 
 ## Problemas de hibernación con fondos de pantalla tipo web
 

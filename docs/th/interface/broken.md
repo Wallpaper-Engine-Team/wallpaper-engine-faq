@@ -31,8 +31,12 @@ tags:
 
 หากยังคงพบปัญหาอยู่ โปรดปิด Wallpaper Engine จากนั้นจึงเริ่มการทำงาน Wallpaper Engine อีกครั้งโดยใช้ตัวเลือกเริ่มการทำงานข้อที่สามที่มีข้อความว่า "disable UI hardware acceleration" (ปิดใช้งานการเร่งความเร็วฮาร์ดแวร์ UI) ใน Steam
 
+**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+
+![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+
 ### ข้อผิดพลาดของการโอเวอร์เลย์ที่หาได้ยากบน Steam ทำให้เกิดความเสียหายกับส่วนต่อประสานกับผู้ใช้ของ Wallpaper Engine
 
 สาเหตุที่เป็นไปได้อีกประการหนึ่งของหน้าต่างแอพพลิเคชันสีดำคือข้อผิดพลาดการโอเวอร์เลย์ที่หาได้ยากบน Steam คุณสามารถลองทำดังนี้:
 
-ปิด Wallpaper Engine (คลิกขวาที่ Wallpaper Engine ในแถบงานและเลือก "ออกจากโปรแกรม") จากนั้นเปิด Steam ขึ้นมา คลิกขวาที่ Wallpaper Engine เลือก "คุณสมบัติ" และปิดการใช้งานตัวเลือก "เปิดการใช้งานโอเวอร์เลย์ Steam ขณะอยู่ในเกม" หลังจากปิดการใช้งานตัวเลือกแล้ว ให้ลองรีสตาร์ท Wallpaper Engine ผ่าน Steam 
+ปิด Wallpaper Engine (คลิกขวาที่ Wallpaper Engine ในแถบงานและเลือก "ออกจากโปรแกรม") จากนั้นเปิด Steam ขึ้นมา คลิกขวาที่ Wallpaper Engine เลือก "คุณสมบัติ" และปิดการใช้งานตัวเลือก "เปิดการใช้งานโอเวอร์เลย์ Steam ขณะอยู่ในเกม" After disabling the option, try to restart Wallpaper Engine via Steam. 

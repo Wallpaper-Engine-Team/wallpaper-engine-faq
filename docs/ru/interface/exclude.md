@@ -1,25 +1,41 @@
+- - -
+  tags:
+  - anime
+  - filter
+  - search
+  - categories
+  - mature
+  - adult
+- - -
+
 # Исключение определенных обоев из результатов поиска
 
-Всегда ищите новые обои на вкладке программы «Workshop». На сайте Мастерской Steam нет аналогичных механизмов для фильтрации результатов поиска, вы будете видеть слишком много не интересных вам изображений.
+Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
 
 ## Фильтрация по жанрам (например, аниме)
 
-В программе вы можете отсеять категории, которые вам не нравятся. Откройте вкладку «Workshop» в Wallpaper Engine и откройте боковую панель фильтров, нажав на кнопку «Фильтры» в верхнем левом углу. Снимите выделение со всех категорий, которые вы не хотите видеть в результатах поиска.
+You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
-Если вам не нравятся обои в жанре аниме, снимите выделение с категорий *Аниме* и *MikuMikuDance (анимация)*. Также стоит убрать категории *Мультфильм* и *Девушки*, поскольку в них тоже могут быть обои в жанре аниме, но в таком случае вы с большой вероятностью отсеете и другие изображения.
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the most frequent anime categories. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
-![На боковой панели снимите выделение со всех категорий, которые вам не нравятся.](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Фильтрация по возрастным ограничениям
 
 В Мастерской Steam публикуются некоторые типы контента для взрослых, например, изображения обнаженного тела. Если вы не хотите видеть подобный контент, в разделе возрастного рейтинга отметьте только «Для всех»:
 
-![Снимите выделение с возрастных рейтингов «Для взрослых» и «Под вопросом» на боковой панели.](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-Большая часть обоев правильно маркирована тегами, поэтому вы сможете отсеять подавляющую часть контента для взрослых. Если вам все равно будет попадаться контент для взрослых, который был классифицирован как «Для всех», пожалуйста, отправьте на него жалобу через программу. Контент будет перенаправлен в другую категорию или удален после проверки.
+Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
 
 ## Жалобы на контент, нарушающий правила
 
-Мы вместе с администраторами и модераторами Steam ежедневно удаляем обои, нарушающие правила. Пожалуйста, чтобы нам было проще находить в Мастерской контент, который нарушает правила сообщества, отправляйте на него жалобы.
+We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
 
-Пользователи Мастерской могут публиковать свои работы в открытом доступе без предварительной проверки. Это правила Мастерской Steam, и у нас нет возможности изменить их. Единственное, что мы можем — удалять контент, после того как он был загружен. Если эта политика вас не устраивает, вы можете включить фильтрацию по тегу *Одобренные*: в эту категорию попадает только тщательно отобранный и проверенный людьми контент. Обязательно прочитайте секции выше, чтобы знать, как настроить свои фильтры и сразу отсеять контент, который вы не хотите видеть при поиске.
+The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.

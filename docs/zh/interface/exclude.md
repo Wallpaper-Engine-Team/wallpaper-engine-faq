@@ -1,25 +1,41 @@
+- - -
+  tags:
+  - anime
+  - filter
+  - search
+  - categories
+  - mature
+  - adult
+- - -
+
 # 从搜索中排除某些壁纸
 
-始终使用应用程序中的“创意工坊”选项卡搜索新壁纸。 Steam 创意工坊网站不具备与该应用程序相同的筛选功能，而且会显示过多您不感兴趣的内容。
+Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
 
 ## 排除某些样式（例如动漫）
 
-您可以从应用程序中筛选掉您不喜欢的类别。 打开 Wallpaper Engine 中的“创意工坊”选项卡，然后通过单击左上角的“筛选结果”按钮启用筛选器侧栏。 取消选择您不希望在结果中看到的所有类别。
+You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
-如果不想看到动漫壁纸，请移除*动漫*和*MMD (Miku-Miku-Dance)* 类别。 此外，您可能还希望移除*卡通*和*女孩*，因为它们也包含一些动漫内容，但您很可能也会筛选掉其他内容。
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the most frequent anime categories. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
-![在筛选器侧栏中，取消选择您不喜欢的所有类别](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 排除某些年龄分级
 
 Steam 创意工坊允许一定程度的成人内容，例如裸体。 如果不想看到此类内容，您只需在筛选器中启用“所有人”年龄分级：
 
-![在筛选器侧栏中，取消选择“成人”和“可疑”年龄分级](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-由于大多数内容均标记正确，这将筛选掉大部分成人内容。 如果您仍然遇到具有“所有人”年龄分级的成人内容，请使用应用程序中的举报功能。 该内容将在审核后重新分类或封禁。
+Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
 
 ## 举报违规内容
 
-我们和 Steam 管理员/版主每天都在删除违规壁纸。 请举报违反准则的创意工坊提交内容，以帮助我们找到它们。
+We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
 
-创意工坊允许用户发布作品，而无需我们事先对其进行检查，这是 Steam 创意工坊的工作方式，我们无法改变。 我们只有在提交内容上传后，才能删除它们。 如果这给您带来困扰，请务必在筛选器设置中启用*已批准*标签，因为带有此标签的壁纸均为手工挑选，而且经过了手动检查。 请务必阅读上文有关如何配置筛选器设置的部分，以便您可以轻松移除不希望看到的某些类型的内容。
+The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.

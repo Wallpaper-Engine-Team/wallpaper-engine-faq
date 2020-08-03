@@ -1,25 +1,41 @@
+- - -
+  tags:
+  - anime
+  - filter
+  - search
+  - categories
+  - mature
+  - adult
+- - -
+
 # ยกเว้นวอลเปเปอร์บางส่วนจากการค้นหา
 
-ใช้แท็บเวิร์กชอปในแอพพลิเคชันเพื่อค้นหาวอลเปเปอร์ใหม่เสมอ เว็บไซต์ Steam Workshop ไม่มีความสามารถในการกรองเหมือนกับในแอพพลิเคชันและจะแสดงเนื้อหาที่คุณไม่สนใจ
+Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
 
 ## ยกเว้นวอลเปเปอร์บางประเภท (เช่น อนิเมะ)
 
-คุณสามารถกรองหมวดหมู่ที่คุณไม่ชอบได้ในแอพพลิเคชัน เปิดแท็บ "เวิร์กชอป" ใน Wallpaper Engine และเปิดใช้งานแถบตัวกรองด้านข้างโดยคลิกที่ปุ่ม "กรองผลลัพธ์" ที่มุมซ้ายบน ยกเลิกการเลือกหมวดหมู่ทั้งหมดที่คุณไม่ต้องการเห็นในผลลัพธ์
+You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
-หากคุณไม่ต้องการดูวอลเปเปอร์อนิเมะ คุณสามารถลบหมวดหมู่ *อนิเมะ* และ *MMD (Miku-Miku-Dance)* ออกได้ นอกจากนี้คุณอาจต้องการลบหมวดหมู่ *การ์ตูน* และ *เด็กสาว* เนื่องจากมีอนิเมะบางส่วนในนั้น แต่จะเป็นการกรองเนื้อหาอื่น ๆ เช่นกัน
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the most frequent anime categories. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
-![ยกเลิกการเลือกหมวดหมู่ทั้งหมดที่คุณไม่ต้องการเห็นในแถบด้านข้างตัวกรอง](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## ยกเว้นการจัดระดับความเหมาะสมตามอายุ
 
 Steam Workshop อนุญาตให้มีเนื้อหาสำหรับผู้ใหญ่ในระดับหนึ่ง เช่น ภาพเปลือย หากคุณไม่ต้องการเห็นเนื้อหาประเภทนี้ ให้เปิดใช้งานการจัดอันดับอายุโดยเลือก "ทุกคน" ในตัวกรองเท่านั้น:
 
-![ยกเลิกการเลือกการจัดอันดับอายุ "ผู้ใหญ่" และ "น่าสงสัย" ในแถบด้านข้างตัวกรอง](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-เนื่องจากมีการแท็กเนื้อหาส่วนใหญ่อย่างถูกต้อง สิ่งนี้จะกรองเนื้อหาสำหรับผู้ใหญ่ส่วนมาก หากคุณยังคงพบกับเนื้อหาสำหรับผู้ใหญ่ที่ได้รับการจัดอันดับสำหรับ "ทุกคน" โปรดใช้ฟังก์ชันรายงานในแอพพลิเคชัน เนื้อหานี้จะถูกจัดประเภทใหม่หรือถูกแบนหลังจากตรวจสอบแล้ว
+Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
 
 ## การรายงานเนื้อหาที่ละเมิดกฎ
 
-เราและแอดมิน / ผู้ดูแล Steam ลบวอลเปเปอร์ที่ละเมิดกฎเป็นประจำทุกวัน โปรดรายงานเวิร์กชอปหากพบการส่งเนื้อหาที่ละเมิดกฎเพื่อช่วยเราในการค้นหา
+We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
 
-เวิร์กชอปยินยอมให้ผู้ใช้เผยแพร่ผลงานได้โดยไม่ต้องให้เราตรวจสอบล่วงหน้า นี่คือวิธีการทำงานของ Steam Workshop และเราไม่สามารถเปลี่ยนแปลงได้ เราสามารถลบเนื้อหาได้หลังจากที่มีการอัปโหลดแล้วเท่านั้น หากสิ่งนี้เป็นปัญหาสำหรับคุณ โปรดตรวจสอบให้แน่ใจว่าได้เปิดใช้งานแท็ก *อนุมัติแล้ว* ในการตั้งค่าตัวกรอง เนื่องจากวอลเปเปอร์ที่มีแท็กนี้ผ่านการเลือกและได้รับตรวจสอบแล้ว โปรดอ่านหัวข้อด้านบนเกี่ยวกับวิธีกำหนดการตั้งค่าตัวกรองเพื่อให้คุณสามารถลบเนื้อหาบางประเภทที่คุณไม่ต้องการดูได้อย่างง่ายดาย
+The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
