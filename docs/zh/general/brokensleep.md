@@ -12,7 +12,7 @@
 
 ## 更改 Windows 电源设置
 
-If any active audio streams are open, Windows will not go to sleep. 要解决此问题，您可以在 Wallpaper Engine 设置的“常规”选项卡中禁用音频输出，或者重新配置 Windows，使其可在启用了音频播放的情况下进入睡眠状态：
+如有任何活动音频流处于打开状态，Windows 就不会进入休眠。 要解决此问题，您可以在 Wallpaper Engine 设置的“常规”选项卡中禁用音频输出，或者重新配置 Windows，使其可在启用了音频播放的情况下进入睡眠状态：
 
 1. 通过在 Windows 搜索中键入名称，转到 Windows 的“电源和睡眠设置”。
 2. 单击“其他电源设置”
@@ -37,4 +37,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-此外，您还可以在 Wallpaper Engine 设置的**性能**选项卡中，将**显示屏休眠时**选项设置为*停止（释放内存）*，然后关闭显示器。 那样的话，如果您在离开电脑时关闭显示器，Wallpaper Engine 将停止所有播放。 那样的话，如果您在离开电脑时关闭显示器，Wallpaper Engine 将停止所有播放。
+此外，您还可以在 Wallpaper Engine 设置的**性能**选项卡中，将**显示屏休眠时**选项设置为*停止（释放内存）*，然后关闭显示器。 那样的话，如果您在离开电脑时关闭显示器，Wallpaper Engine 将停止所有播放。
