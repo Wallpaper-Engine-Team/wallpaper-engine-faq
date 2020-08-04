@@ -219,7 +219,8 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 				locale + 'functionality/tray',
 				locale + 'functionality/editingwallpapers',
 				locale + 'functionality/linuxmacos',
-				locale + 'functionality/applicationrules'
+				locale + 'functionality/applicationrules',
+				locale + 'functionality/wallpaperperapp',
 			]
 		},
 		{
