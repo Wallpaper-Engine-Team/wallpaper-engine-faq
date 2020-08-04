@@ -31,6 +31,10 @@ Os controladores da sua placa gráfica estão danificados ou mal configurados. T
 
 Se o problema persistir, desative o Wallpaper Engine. Em seguida, volte a iniciar o Wallpaper Engine utilizando a opção de lançamento de terceiros no Steam, assinalado "disable UI hardware accelleration" (desativar aceleração por hardware da IU).
 
+**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+
+![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+
 ### Erro raro do overlay do Steam quebra o interface para o utilizador do Wallpaper Engine
 
 A outra razão possível para uma janela de aplicação toda preta é um error raro do Steam com o Steam overlay. Pode tentar o seguinte:
