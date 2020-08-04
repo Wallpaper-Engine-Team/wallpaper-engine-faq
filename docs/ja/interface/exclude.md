@@ -1,3 +1,13 @@
+- - -
+  tags:
+  - anime
+  - filter
+  - search
+  - categories
+  - mature
+  - adult
+- - -
+
 # 検索から特定の壁紙を除外する
 
 新しい壁紙を検索するときは、常にアプリケーションのワークショップタブを使用してください。 Steamワークショップサイトのフィルター機能はアプリケーションのものとは違い、興味のないコンテンツが大量に表示されます。
@@ -6,15 +16,21 @@
 
 必要のないカテゴリをアプリケーションで除外することができます。 Wallpaper Engineの「ワークショップ」タブを開き、左上の「結果をフィルター」をクリックしてフィルターサイドバーを有効にします。 結果に含めたくないカテゴリすべての選択を外します。
 
-アニメの壁紙が不要な場合は*アニメ*と*MMD (Miku-Miku-Dance)*カテゴリを外します。 さらに、*漫画*と*女の子*を外すこともできます。ここにもアニメが含まれているからですが、それ以外のコンテンツが除外される可能性も高くなります。
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
-![フィルターサイドバーで、不要なカテゴリすべての選択を外す](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 特定の年齢評価を除外する
 
 Steamワークショップでは、裸体など、ある程度のアダルトコンテンツが許可されています。 こういったコンテンツを見たくない場合は、フィルターの「どれも」年齢評価を有効にします。
 
-![フィルターサイドバーで"成人"および"問題のある"年齢評価の選択を外す](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ほとんどのコンテンツには正しいタグが付いており、これによって成人向けコンテンツの大部分を除外することができます。 「どれも」評価なのにアダルトコンテンツが含まれた場合は、アプリケーションの報告機能をご利用ください。 審査後、そのコンテンツの分類が見直されるか、または削除されます。
 
@@ -22,4 +38,4 @@ Steamワークショップでは、裸体など、ある程度のアダルトコ
 
 私たちもSteamのアドミニストレータやモデレータも、毎日のようにルールに違反する壁紙を削除しています。 私たちが見つけることができるよう、ガイドラインに反しているワークショップの投稿物をご報告ください。
 
-ワークショップでは、私たちが事前にチェックせずにユーザーが作品を公開することが可能になっています。これはSteamワークショップのシステムなので、私たちに変えることはできません。 私たちが削除できるのは、それらがアップロードされたあとです。 それが気になる場合は、フィルター設定で*承認済み*タグを有効にしてください。これは手動でチェックされ、選ばれた壁紙です。 見たくない種類のコンテンツを除外するためには、上記のフィルターの設定方法のセクションをお読みください。
+ワークショップでは、私たちが事前にチェックせずにユーザーが作品を公開することが可能になっています。 これはSteamワークショップのシステムなので、私たちに変えることはできません。 私たちが削除できるのは、それらがアップロードされたあとです。 それが気になる場合は、フィルター設定で*承認済み*タグを有効にしてください。 これは手動でチェックされ、選ばれた壁紙です。 見たくない種類のコンテンツを除外するためには、上記のフィルターの設定方法のセクションをお読みください。
