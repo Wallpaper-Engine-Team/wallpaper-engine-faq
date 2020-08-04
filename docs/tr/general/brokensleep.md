@@ -8,7 +8,7 @@
 
 # Hazırda bekletme / Ekran koruyucular çalışmıyor
 
-Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak veya Windows'u ses çalma etkinken uykuya geçmesini sağlayacak şekilde yeniden yapılandırarak bunu çözebilirsiniz. Ses çıkışı almaya devam etmek istiyorsanız nasıl yapacağınızı görmek için bu rehberdeki adımlara uyun.
+Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Windows'un en başta hazırda bekletmeyi engellemesini önlemek için Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak bunu çözebilirsiniz. Ses çıkışı almaya devam etmek istiyorsanız nasıl yapacağınızı görmek için bu rehberdeki adımlara uyun.
 
 ## Windows güç ayarlarını değiştirin
 
@@ -21,7 +21,7 @@ Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Wallpaper 
 5. Aşağı inin ve "Multimedya ayarları"nı açın
 6. "Medya paylaşılırken" seçeneğini "Bilgisayarın Uzakta Modu'na girmesine izin ver" (ekran koruyucular) **veya** "Bilgisayarın uyku moduna geçmesine izin ver" (hazırda bekletme) olarak ayarlayın
 
-![Enable "Allow the computer to sleep"](./power.gif)
+!["Bilgisayarın uyku moduna geçmesine izin ver"'i etkinleştirin](./power.gif)
 
 ## "Web" duvar kâğıtlarındaki hazırda bekletme sorunları
 
