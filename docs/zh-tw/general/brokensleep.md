@@ -1,3 +1,11 @@
+- - -
+  tags:
+  - screensavers
+  - hibernation
+  - sleep
+  - power saving
+- - -
+
 # 休眠/螢幕保護程式無法運作
 
 如有任何使用中的音訊串流開啟，Windows 便不會進入休眠。 若要解決此問題，可至 Wallpaper Engine 設定的「一般」分頁中停用音訊輸出，一開始就防止 Windows 阻止休眠。 如果您想繼續輸出音訊，請遵循本指南的步驟。
