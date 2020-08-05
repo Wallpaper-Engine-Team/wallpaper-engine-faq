@@ -1,3 +1,11 @@
+- - -
+  tags:
+  - screensavers
+  - hibernation
+  - sleep
+  - power saving
+- - -
+
 # Hibernação / Proteções de ecrã não funcionam
 
 O Windows não hiberna com streams de áudio ativos abertos. Pode ultrapassar isto desativando a saída de áudio no separador "Geral" das definições do Wallpaper Engine para impedir que o Windows bloqueie a hibernação. Se quiser continuar a ter saída de áudio, siga as instruções deste guia para obter esse resultado.
