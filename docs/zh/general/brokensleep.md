@@ -1,3 +1,11 @@
+- - -
+  tags:
+  - screensavers
+  - hibernation
+  - sleep
+  - power saving
+- - -
+
 # 休眠/屏幕保护程序无法正常工作
 
 如有任何活动音频流处于打开状态，Windows 就不会进入休眠。 要解决此问题，您可以在 Wallpaper Engine 设置的“常规”选项卡中禁用音频输出，防止 Windows 阻止休眠。 如要继续输出音频，请按照本指南中的相关步骤进行操作。
