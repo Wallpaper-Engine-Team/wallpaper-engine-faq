@@ -1,12 +1,12 @@
-- - -
-  tags:
+---
+tags:
   - anime
   - filter
   - search
   - categories
   - mature
   - adult
-- - -
+---
 
 # ยกเว้นวอลเปเปอร์บางส่วนจากการค้นหา
 
