@@ -1,3 +1,13 @@
+---
+tags:
+  - anime
+  - filter
+  - search
+  - categories
+  - mature
+  - adult
+---
+
 # ยกเว้นวอลเปเปอร์บางส่วนจากการค้นหา
 
 ใช้แท็บเวิร์กชอปในแอพพลิเคชันเพื่อค้นหาวอลเปเปอร์ใหม่เสมอ เว็บไซต์ Steam Workshop ไม่มีความสามารถในการกรองเหมือนกับในแอพพลิเคชันและจะแสดงเนื้อหาที่คุณไม่สนใจ
@@ -6,15 +16,21 @@
 
 คุณสามารถกรองหมวดหมู่ที่คุณไม่ชอบได้ในแอพพลิเคชัน เปิดแท็บ "เวิร์กชอป" ใน Wallpaper Engine และเปิดใช้งานแถบตัวกรองด้านข้างโดยคลิกที่ปุ่ม "กรองผลลัพธ์" ที่มุมซ้ายบน ยกเลิกการเลือกหมวดหมู่ทั้งหมดที่คุณไม่ต้องการเห็นในผลลัพธ์
 
-หากคุณไม่ต้องการดูวอลเปเปอร์อนิเมะ คุณสามารถลบหมวดหมู่ *อนิเมะ* และ *MMD (Miku-Miku-Dance)* ออกได้ นอกจากนี้คุณอาจต้องการลบหมวดหมู่ *การ์ตูน* และ *เด็กสาว* เนื่องจากมีอนิเมะบางส่วนในนั้น แต่จะเป็นการกรองเนื้อหาอื่น ๆ เช่นกัน
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
-![ยกเลิกการเลือกหมวดหมู่ทั้งหมดที่คุณไม่ต้องการเห็นในแถบด้านข้างตัวกรอง](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## ยกเว้นการจัดระดับความเหมาะสมตามอายุ
 
 Steam Workshop อนุญาตให้มีเนื้อหาสำหรับผู้ใหญ่ในระดับหนึ่ง เช่น ภาพเปลือย หากคุณไม่ต้องการเห็นเนื้อหาประเภทนี้ ให้เปิดใช้งานการจัดอันดับอายุโดยเลือก "ทุกคน" ในตัวกรองเท่านั้น:
 
-![ยกเลิกการเลือกการจัดอันดับอายุ "ผู้ใหญ่" และ "น่าสงสัย" ในแถบด้านข้างตัวกรอง](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 เนื่องจากมีการแท็กเนื้อหาส่วนใหญ่อย่างถูกต้อง สิ่งนี้จะกรองเนื้อหาสำหรับผู้ใหญ่ส่วนมาก หากคุณยังคงพบกับเนื้อหาสำหรับผู้ใหญ่ที่ได้รับการจัดอันดับสำหรับ "ทุกคน" โปรดใช้ฟังก์ชันรายงานในแอพพลิเคชัน เนื้อหานี้จะถูกจัดประเภทใหม่หรือถูกแบนหลังจากตรวจสอบแล้ว
 
