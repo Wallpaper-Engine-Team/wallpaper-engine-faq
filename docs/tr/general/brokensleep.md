@@ -1,3 +1,11 @@
+- - -
+  tags:
+  - screensavers
+  - hibernation
+  - sleep
+  - power saving
+- - -
+
 # Hazırda bekletme / Ekran koruyucular çalışmıyor
 
 Windows, herhangi bir aktif ses akışı açıkken hazırda beklemez. Windows'un en başta hazırda bekletmeyi engellemesini önlemek için Wallpaper Engine ayarlarında bulunan "Genel" sekmesindeki ses çıkışını devre dışı bırakarak bunu çözebilirsiniz. Ses çıkışı almaya devam etmek istiyorsanız nasıl yapacağınızı görmek için bu rehberdeki adımlara uyun.
