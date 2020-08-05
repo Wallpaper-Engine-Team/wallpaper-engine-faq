@@ -1,3 +1,13 @@
+---
+tags:
+  - anime
+  - filter
+  - search
+  - categories
+  - mature
+  - adult
+---
+
 # Exclure certains fonds d'écran de la recherche
 
 Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web du Workshop Steam n'a pas les mêmes capacités de filtrage que l'application et vous montrera beaucoup trop de contenu.
@@ -6,15 +16,21 @@ Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web
 
 Vous pouvez exclure les catégories que vous n'aimez pas dans l'application. Ouvrez l'onglet "Workshop" de Wallpaper Engine et activez la barre des filtres en cliquant sur "Filtrer les résultats" en haut à gauche. Désélectionnez toutes les catégories que vous ne voulez pas voir.
 
-Par exemple, si vous n'aimez pas trop le style manga, vous pouvez désélectionner les catégories *Anime* et *MMD (Miku-Miku-Dance)*. Vous pouvez également décocher *Cartoon* et *Filles*, car ils contiennent également des design d'anime, mais vous risquez de bloquer trop de contenu.
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
-![Désélectionnez dans les filtres les catégories que vous ne voulez pas voir](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Bloquer certaines tranches d'âge
 
 Le Workshop de Steam permet de charger également du contenu pour adulte, comme de la nudité. Si vous ne souhaitez pas voir ce genre de contenu, sélectionnez le filtre "Tout le monde" :
 
-![Désélectionnez dans les filtres le contenu "Adulte" et "Discutable"](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 La plupart du contenu est bien labellisé et le contenu pour adulte sera filtré. Si vous voyez du contenu pour adultes qui a été labellisé pour "Tout le monde", veuillez nous le signaler immédiatement. Ce contenu sera placé dans une autre catégorie ou censuré.
 
