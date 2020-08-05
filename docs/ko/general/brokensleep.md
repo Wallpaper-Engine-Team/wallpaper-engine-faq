@@ -1,3 +1,11 @@
+- - -
+  tags:
+  - screensavers
+  - hibernation
+  - sleep
+  - power saving
+- - -
+
 # 최대 절전 모드 / 화면 보호기가 작동하지 않습니다
 
 Windows는 오디오 스트림이 활성화된 상태에서 최대 절전 모드를 진행하지 않습니다. 그러나 Wallpaper Engine 설정의 "일반" 탭에서 오디오 출력을 비활성화하여 Windows의 최대 절전 모드를 허용할 수 있습니다. 오디오 출력을 계속하고 싶으면, 이 가이드의 다음 단계를 따르세요.
