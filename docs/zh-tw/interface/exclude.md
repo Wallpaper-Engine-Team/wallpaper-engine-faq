@@ -1,3 +1,13 @@
+---
+tags:
+  - anime
+  - filter
+  - search
+  - categories
+  - mature
+  - adult
+---
+
 # 從搜尋結果中排除特定桌布
 
 務必使用應用程式的「工作坊」分頁來搜尋新的桌布。 Steam 工作坊網站不具備與此應用程式相同的篩選功能，也會顯示過多您不感興趣的內容。
@@ -6,15 +16,21 @@
 
 您可從應用程式篩選掉不喜歡的類別。 開啟 Wallpaper Engine 的「工作坊」分頁，按一下左上角的「篩選結果」按鈕，啟用過濾器側欄。 取消選取所有您不希望在結果中看到的類別。
 
-如果不想看到動漫桌布，請移除*動漫*和 *MMD (Miku-Miku-Dance)* 類別。 此外，您也可能希望移除*卡通*和*女生*類別，因為這些包含一些動畫內容，您可能還會篩選掉其他內容。
+You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
-![取消選取所有您不希望在過濾器側欄中看到的類別](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 排除特定年齡分級
 
 Steam 工作坊允許一定程度的成人內容，例如裸體。 如果您不想看到此類內容，僅需要在過濾器中啟用「全年齡」：
 
-![在過濾器側欄中，取消選取「成人」及「爭議性」的年齡分級](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 大部分內容設定的標籤正確，因此將篩選掉大部分成人內容。 如果您仍遇到分級為「全年齡」的成人內容，請使用本應用程式的檢舉功能。 該內容將在審查後重新分類或禁用。
 
