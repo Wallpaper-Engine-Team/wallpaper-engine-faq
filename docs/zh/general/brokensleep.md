@@ -1,8 +1,8 @@
 - - -
-  tags:
-  - screensavers
-  - hibernation
-  - sleep
+  标签：
+  - 屏幕保护程序
+  - 休眠
+  - 睡眠
   - power saving
 - - -
 
