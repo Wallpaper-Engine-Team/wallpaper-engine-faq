@@ -19,7 +19,7 @@
 
 应用程序规则中的**加载配置文件**是指可在显示器概览（界面右上角的屏幕图标）中配置的多显示器配置文件。 配置文件是您当前在所有屏幕上选择的所有壁纸和播放列表的截图。 每当加载配置文件时，所有壁纸和播放列表都会根据配置文件配置进行放置。
 
-Configure your wallpapers and playlists across all monitors the the way you want them to be, then click on the **Save profile** button in the monitor settings and save the current setup under a name of your choice. Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
+按照您希望的方式，在所有显示器上配置壁纸和播放列表，然后单击显示器设置中的**保存配置文件**按钮，用您选择的名称保存当前设置。 切记，您对设置所做的任何后续更改都不会更改配置文件，除非您再次使用**保存配置文件**按钮。 您可以设置多个配置文件，并将它们一次分配给多个应用程序。 例如，您可以创建**音乐**、**游戏**和**电影**配置文件，然后将每个配置文件分配给与这些类别匹配的所有 .exe 文件。
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
