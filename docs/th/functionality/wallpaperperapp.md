@@ -1,14 +1,14 @@
 # เลือกวอลเปเปอร์ตามแอพพลิเคชัน
 
-Wallpaper Engine ช่วยให้คุณเปิดใช้วอลเปเปอร์ต่าง ๆ โดยอัตโนมัติเมื่อใดก็ตามที่มีการเปิด .exe บางอย่างในระบบของคุณ For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
+Wallpaper Engine ช่วยให้คุณเปิดใช้วอลเปเปอร์ต่าง ๆ โดยอัตโนมัติเมื่อใดก็ตามที่มีการเปิด .exe บางอย่างในระบบของคุณ ตัวอย่างเช่น คุณสมบัตินี้อาจมีประโยชน์หากคุณต้องการใช้วอลเปเปอร์ที่รบกวนสมาธิน้อยลงในขณะที่เล่นเกมหรือเปิดโปรแกรม Visualizer เสียงโดยอัตโนมัติเมื่อคุณเปิดเครื่องเล่นเพลง
 
 ::: tip
-If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+หากบางเกมหรือแอพพลิเคชันมีปัญหาทางเทคนิค คุณยังสามารถใช้กฎของแอพพลิเคชันเพื่อปิดใช้งาน Wallpaper Engine เมื่อมีการเปิด .exe หากคุณต้องการแก้ไขปัญหาทางเทคนิคกับแอพพลิเคชันอื่น โปรดดูคู่มือนี้: [แก้ไขปัญหาเฉพาะบางแอพพลิเคชันหรือบางเกม](/functionality/applicationrules.html)
 :::
 
-## Setting up an application rule
+## การตั้งค่ากฎของแอพพลิเคชัน
 
-In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+ในแท็บ **ประสิทธิภาพ** ของการตั้งค่า Wallpaper Engine ให้คลิกที่ปุ่ม **แก้ไข** ในส่วน **กฎของแอพพลิเคชัน** คลิกที่ **สร้างกฎใหม่** เพื่อตั้งค่าวอลเปเปอร์ชุดใหม่สำหรับ .exe ที่คุณเลือก In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
 
 * Load wallpaper
 * Load playlist
