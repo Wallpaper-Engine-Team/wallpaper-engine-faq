@@ -5,10 +5,10 @@
 請記住，我們並不支援任何虛擬音訊裝置，也無法保證此種方法能運作——這種設定相當進階，已超出 Wallpaper Engine 的負責範圍。 我們提供本指南僅出於好意，希望能協助使用者更進一步自訂系統。
 
 ::: warning
-請注意 本指南僅適用於 Windows 10 的更新版本。 Older Windows versions may be missing some features which makes it impossible to follow this guide.
+請注意 本指南僅適用於 Windows 10 的更新版本。 Windows 較舊的版本可能缺少某些功能，因此無法適用本指南。
 :::
 
-### Install a fake audio device
+### 安裝虛擬音訊裝置
 
 We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
 
