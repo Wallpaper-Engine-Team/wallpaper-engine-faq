@@ -8,11 +8,11 @@ Wallpaper Engine 能讓您在系統上啟動特定 .exe 時自動啟動不同桌
 
 ## 設定應用程式規則
 
-在 Wallpaper Engine 設定的**效能**分頁中，按一下**應用程式規則**區段的**編輯**按鈕。 按一下**建立新規則**為您所選擇的 .exe 設定一組新的桌布。 In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+在 Wallpaper Engine 設定的**效能**分頁中，按一下**應用程式規則**區段的**編輯**按鈕。 按一下**建立新規則**為您所選擇的 .exe 設定一組新的桌布。 在**應用程式名稱**輸入欄位，輸入 .exe 名稱， 確保名稱完全正確，例如 *musicplayer.exe*。 設定**條件**為**正在執行時**。 在**桌布播放**選項中，可選擇以下任一選項：
 
-* Load wallpaper
-* Load playlist
-* Load profile
+* 載入桌布
+* 載入播放清單
+* 載入設定檔
 
 What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
 
