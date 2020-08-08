@@ -8,11 +8,11 @@ Wallpaper Engine ช่วยให้คุณเปิดใช้วอลเ
 
 ## การตั้งค่ากฎของแอพพลิเคชัน
 
-ในแท็บ **ประสิทธิภาพ** ของการตั้งค่า Wallpaper Engine ให้คลิกที่ปุ่ม **แก้ไข** ในส่วน **กฎของแอพพลิเคชัน** คลิกที่ **สร้างกฎใหม่** เพื่อตั้งค่าวอลเปเปอร์ชุดใหม่สำหรับ .exe ที่คุณเลือก In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+ในแท็บ **ประสิทธิภาพ** ของการตั้งค่า Wallpaper Engine ให้คลิกที่ปุ่ม **แก้ไข** ในส่วน **กฎของแอพพลิเคชัน** คลิกที่ **สร้างกฎใหม่** เพื่อตั้งค่าวอลเปเปอร์ชุดใหม่สำหรับ .exe ที่คุณเลือก ป้อนชื่อ .exe ของคุณในช่องอินพุต **ชื่อแอพพลิเคชัน** โปรดตรวจสอบให้แน่ใจว่าชื่อตรงกัน เช่น *musicplayer.exe* ตั้งค่า **เงื่อนไข** เป็น **กำลังทำงาน** ในตัวเลือก **การเล่นวอลเปเปอร์** คุณสามารถเลือกหนึ่งในตัวเลือกต่อไปนี้:
 
-* Load wallpaper
-* Load playlist
-* Load profile
+* โหลดวอลเปเปอร์
+* โหลดเพลย์ลิสต์
+* โหลดโปรไฟล์
 
 What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
 
