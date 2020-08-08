@@ -22,8 +22,8 @@ Wallpaper Engine ไม่สามารถจำกัด Visualizer เสี
 
 1. เริ่มเล่นเพลงด้วยซอฟต์แวร์ที่คุณต้องการใช้กับ Wallpaper Engine ในภายหลัง
 2. คลิกขวาที่ไอคอนเสียงข้างนาฬิกาที่แถบงาน Windows แล้วเลือก **เปิดการตั้งค่าเสียง** (Open Sound Settings)
-3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
+3. เลื่อนลงไปที่ด้านล่างสุดของหน้าที่เปิดขึ้นมา แล้วคลิกที่ **การตั้งค่าระดับเสียงและอุปกรณ์** (App volume and device preferences)
+4. รายการแอพพลิเคชันทั้งหมดที่เล่นไฟล์เสียงจะปรากฏขึ้น ค้นหาเครื่องเล่นเพลงของคุณ ในคอลัมน์ **เอาต์พุต** (Output) ให้เปลี่ยน **ค่าเริ่มต้น** (Default) เป็น **CABLE Input (VB-Audio Virtual Cable)** เครื่องเล่นเสียงของคุณจะถูกปิดทันที
 5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
 6. A small window will appear, navigate to the **Recording** tab, then right-click on the **CABLE Output** audio device and select **Properties**.
 7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
