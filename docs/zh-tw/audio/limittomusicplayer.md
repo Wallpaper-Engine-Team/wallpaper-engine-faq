@@ -10,9 +10,9 @@
 
 ### 安裝虛擬音訊裝置
 
-We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
+我們建議使用免費的 **VB-CABLE Virtual Audio Device**，您可從以下網站下載：
 
-* [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
+* [Virtual Audio Device 下載](https://www.vb-audio.com/Cable/)
 
 Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
 
