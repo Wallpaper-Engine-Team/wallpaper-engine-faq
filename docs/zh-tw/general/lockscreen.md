@@ -1,6 +1,6 @@
 ---
 tags:
-  - lock screen
+  - 鎖定螢幕
   - login screen
 ---
 
