@@ -24,5 +24,5 @@ Configure your wallpapers and playlists across all monitors the the way you want
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>
