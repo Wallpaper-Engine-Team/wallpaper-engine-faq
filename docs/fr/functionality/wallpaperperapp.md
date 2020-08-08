@@ -17,7 +17,7 @@ Le plus important, c'est que **Charger un fond d'écran** et **Charger une playl
 
 ### Configurer un profil multi-écrans
 
-**Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
+Dans les règles d'application, **Charger un profil** sert à configurer des profils multi-écran dans l'aperçu de l'écran (l'icône d'écran dans le coin supérieur droit de l'interface). Un profil est un aperçu de tous vos fonds d'écran et de vos playlists actuellement sélectionnés sur tous vos écrans. Dès qu'un profil est chargé, tous les fonds d'écran et les playlists seront placés selon la configuration du profil.
 
 Configure your wallpapers and playlists across all monitors the the way you want them to be, then click on the **Save profile** button in the monitor settings and save the current setup under a name of your choice. Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
 
