@@ -1,9 +1,9 @@
 ---
 tags:
-  - lock screen
-  - login screen
+  - écran de verrouillage
+  - écran de connexion
 ---
 
-# Wallpaper Engine on the Windows lock screen
+# Wallpaper Engine sur l'écran de verrouillage Windows
 
 We frequently get asked if it is possible to set a Wallpaper Engine wallpaper on the Windows lock screen. Unfortunately this is not possible due to limitations in Windows itself. The lock screen is a protected area of Windows which cannot be modified without hacking Windows. This serves system security as applications should not be able to add malicious content to the login window. For this reason, Wallpaper Engine cannot add wallpapers to the lock screen and we cannot add this feature in the future either.
