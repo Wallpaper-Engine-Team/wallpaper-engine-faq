@@ -2,12 +2,12 @@
 
 使用 Wallpaper Engine，您在系统中启动某个 .exe 时可以自动启动不同的壁纸。 例如，如果您希望在玩游戏时使用更少分散注意力的壁纸，或者在打开音乐播放器时自动启动音频可视化工具，则此功能可能很有用。
 
-::: 提示 如果某些游戏或应用程序存在技术问题，则在启动某些 .exe 时，还可以使用应用程序规则禁用 Wallpaper Engine。 If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+::: 提示 如果某些游戏或应用程序存在技术问题，则在启动某些 .exe 时，还可以使用应用程序规则禁用 Wallpaper Engine。 如果您想通过其他应用解决技术问题，请查看此指南：[修复特定应用程序或游戏的问题](/functionality/applicationrules.html)
 :::
 
-## Setting up an application rule
+## 设置应用程序规则
 
-In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+在 Wallpaper Engine 设置的**性能**选项卡中，单击 **应用程序规则**部分的**编辑**按钮。 Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
 
 * Load wallpaper
 * Load playlist
