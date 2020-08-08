@@ -27,11 +27,11 @@ Wallpaper Engine ไม่สามารถจำกัด Visualizer เสี
 5. กลับไปที่หน้าแรกของการตั้งค่าเสียงของ Windows และเลือก **แผงควบคุมเสียง** (Sound Control Panel) ที่มุมขวาบน
 6. หน้าต่างเล็ก ๆ จะปรากฏขึ้น ไปที่แท็บ **การบันทึก** (Recording) จากนั้นคลิกขวาที่อุปกรณ์เสียง **CABLE output** และเลือก **คุณสมบัติ** (Properties)
 7. อีกหน้าต่างหนึ่งจะปรากฏขึ้น ให้คลิกที่แท็บ **ฟัง** (Listen) แล้วเลือก **ฟังอุปกรณ์นี้** (Listen to this device) คลิกที่ **ใช้** (Apply) และ **ตกลง** (OK) เพลงจากเครื่องเล่นเพลงของคุณจะกลับมา
-8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
+8. ขณะนี้ Windows ได้รับการกำหนดค่าอย่างถูกต้องแล้ว ให้เปิด **การตั้งค่า Wallpaper Engine** จากนั้นในแท็บ **ทั่วไป** เปลี่ยน **อุปกรณ์เสียงป้อนเข้า** เป็น **CABLE Input (VB-Audio Virtual Cable)** ตอนนี้ Wallpaper Engine จะตอบสนองต่อเพลงในเครื่องเล่นเพลง แต่จะไม่สนใจแอพพลิเคชันอื่น ๆ บนคอมพิวเตอร์ของคุณ
 
-*Video showcasing all the steps described above:*
+*วิดีโอแสดงขั้นตอนทั้งหมดที่อธิบายข้างต้น:*
 
 <video width="100%" controls>
   <source src="/videos/audioinputdevice.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  เบราว์เซอร์ของคุณไม่รองรับแท็กวิดีโอ
 </video>
