@@ -21,9 +21,9 @@
 
 1. 使用稍后要用于 Wallpaper Engine 的软件开始播放音乐
 2. 右键单击 Windows 托盘中时钟旁边的音频图标，然后选择**打开声音设置**。
-3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
-5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
+3. 向下滚动至打开的页面底部，然后单击**应用音量和设备首选项**。
+4. 将显示播放音频的所有应用程序列表。 找到您的音乐播放器，然后在**输出** 列中，将**默认**更改为 **CABLE 输入 (VB-Audio Virtual Cable)**。 您的音频播放器就会立即变为静音。
+5. 返回 Windows 声音设置主页，然后在右上角选择**声音控制面板**。
 6. A small window will appear, navigate to the **Recording** tab, then right-click on the **CABLE Output** audio device and select **Properties**.
 7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
 8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
