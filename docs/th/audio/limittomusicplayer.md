@@ -2,17 +2,17 @@
 
 Wallpaper Engine ไม่สามารถจำกัด Visualizer เสียงให้กับเครื่องเล่นเพลงที่คุณเลือกได้เนื่องจากระบบการทำงานของเสียงใน Windows ไม่รองรับ แต่คุณสามารถทำได้โดยการใช้ซอฟต์แวร์ภายนอกอื่น ๆ เพื่อสร้างอุปกรณ์เสียง *ปลอม* คู่มือนี้จะอธิบายวิธีหนึ่งในการตั้งค่าอุปกรณ์เสียงปลอมดังกล่าวและวิธีกำหนดค่า Windows 10 และ Wallpaper Engine เพื่อให้การตั้งค่านี้ทำงานได้อย่างถูกต้อง
 
-Keep in mind we do not offer support for any fake audio devices and cannot guarantee that this will work - this is a very advanced setup that goes well beyond what Wallpaper Engine offers. We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
+โปรดทราบว่าเราไม่ให้การสนับสนุนอุปกรณ์เสียงปลอมใด ๆ และไม่สามารถรับประกันได้ว่าวิธีการนี้จะใช้งานได้ เนื่องจากนี่คือการตั้งค่าขั้นสูงเกินกว่าที่ Wallpaper Engine นำเสนอ เรามอบคำแนะนำนี้เพื่อช่วยเหลือผู้ใช้ที่ต้องการปรับแต่งระบบของตนเองไปอีกขั้น
 
 ::: warning
-Please note This guide only works on updated versions of Windows 10. Older Windows versions may be missing some features which makes it impossible to follow this guide.
+โปรดทราบ คำแนะนำนี้ใช้ได้กับ Windows 10 เวอร์ชันอัปเดตเท่านั้น Windows เวอร์ชันเก่าอาจขาดคุณสมบัติบางอย่างซึ่งทำให้ไม่สามารถทำตามคู่มือนี้ได้
 :::
 
-### Install a fake audio device
+### การติดตั้งอุปกรณ์เสียงปลอม
 
-We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
+เราขอแนะนำให้คุณใช้ **อุปกรณ์เสียงเสมือน VB-CABLE ** ฟรีซึ่งสามารถดาวน์โหลดได้จากเว็บไซต์ต่อไปนี้:
 
-* [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
+* [ดาวน์โหลดอุปกรณ์เสียงเสมือน](https://www.vb-audio.com/Cable/)
 
 Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
 
