@@ -14,13 +14,13 @@ tags:
 
 ## 排除特定類型 (例如動漫)
 
-您可從應用程式篩選掉不喜歡的類別。 開啟 Wallpaper Engine 的「工作坊」分頁，按一下左上角的「篩選結果」按鈕，啟用過濾器側欄。 取消選取所有您不希望在結果中看到的類別。
+您可從應用程式篩選掉不喜歡的類別。 開啟 Wallpaper Engine 的「工作坊」分頁，按一下左上角的「篩選結果」按鈕，啟用篩選條件側欄。 取消選取所有您不希望在結果中看到的類別。
 
-您也可以使用**過濾器設定**按鈕，接著按一下**隱藏動漫**，自動停用包含大部分動漫類型的類型。 You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+您也可以使用**過濾器設定**按鈕，接著按一下**隱藏動漫**，自動停用包含大部分動漫類型的類型。 您之後依然可手動變更左側篩選類別，但只要過濾器設定中啟用了**隱藏動漫**選項，**重設過濾器**按鈕仍不會選取動漫類別。
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的瀏覽器不支援影片標籤。
 </video>
 
 ## 排除特定年齡分級
@@ -29,7 +29,7 @@ Steam 工作坊允許一定程度的成人內容，例如裸體。 如果您不�
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的瀏覽器不支援影片標籤。
 </video>
 
 大部分內容設定的標籤正確，因此將篩選掉大部分成人內容。 如果您仍遇到分級為「全年齡」的成人內容，請使用本應用程式的檢舉功能。 該內容將在審查後重新分類或禁用。
