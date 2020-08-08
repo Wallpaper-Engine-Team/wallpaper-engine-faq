@@ -22,15 +22,15 @@ La vidéo ci-dessous décrit toutes les étapes du début à la fin sur une vers
 1. Lancez de la musique grâce au logiciel que vous voudrez utiliser plus tard avec Wallpaper Engine
 2. Faites un clic droit sur l'icône d'audio près de l'horloge dans la barre des tâches Windows puis sélectionnez **Ouvrir les paramètres de son**.
 3. Défilez jusqu'en bas de la page qui s'ouvre et cliquez sur **Préférences de volumes des applications et des appareils**.
-4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
-5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
-6. A small window will appear, navigate to the **Recording** tab, then right-click on the **CABLE Output** audio device and select **Properties**.
-7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
-8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
+4. Une liste de toutes les applications qui émettent du son s'affiche. Trouvez votre lecteur de musique et dans la colonne **Sortie**, changez l'option de **Par défaut** à **CABLE Input (VB-Audio Virtual Cable)**. Le son de votre lecteur audio devrait immédiatement se couper. C'est normal.
+5. Revenez sur la page principale des paramètres de son Windows, et dans le coin supérieur droit, sélectionnez **Panneau de configuration Son**.
+6. Une petite fenêtre apparaîtra. Sélectionnez l'onglet **Enregistrement**, puis faites un clic droit sur l'appareil audio **CABLE Output** et sélectionnez **Propriétés**.
+7. Une autre fenêtre s'ouvre. Cliquez sur l'onglet **Écouter** et cochez **Écouter ce périphérique**. Cliquez sur **Appliquer** puis **OK** et la musique de votre lecteur de musique devrait revenir.
+8. Windows est désormais correctement configuré. Ouvrez les **paramètres de Wallpaper Engin** et dans l'onglet **Général**, changez l'**appareil d'enregistrement audio** par **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine devrait désormais réagir à la musique qui vient de votre lecteur de musique, mais ignorera toute autre application de votre ordinateur.
 
-*Video showcasing all the steps described above:*
+*Vidéo reproduisant toutes les étapes ci-dessus :*
 
 <video width="100%" controls>
   <source src="/videos/audioinputdevice.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Votre explorateur ne prend pas en charge le filtre vidéo.
 </video>
