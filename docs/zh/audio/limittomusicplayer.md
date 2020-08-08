@@ -13,14 +13,14 @@
 
 * [虚拟音频设备下载](https://www.vb-audio.com/Cable/)
 
-下载并解压存档文件，然后使用 **VBCABLE_Setup.exe** 或 **VBCABLE_Setup_x64.exe**，根据您的 Windows 10 版本安装 32 位或 64 位音频设备。 右键单击，然后选择*以管理员身份运行*，确保以管理员权限启动设置文件。 Follow the instructions of the setup and make sure the audio device has been installed successfully.
+下载并解压存档文件，然后使用 **VBCABLE_Setup.exe** 或 **VBCABLE_Setup_x64.exe**，根据您的 Windows 10 版本安装 32 位或 64 位音频设备。 右键单击，然后选择*以管理员身份运行*，确保以管理员权限启动设置文件。 请按照设置说明进行操作，确保音频设备成功安装。
 
-### Setting up Windows and Wallpaper Engine
+### 设置 Windows 和 Wallpaper Engine
 
-Check the video below which shows all the steps on an Windows 10 (English interface) from start to finish if you need some help with any of the steps below.
+以下任意步骤如需帮助，请查看下方视频，该视频完整显示了 Windows 10（英语界面）上的所有步骤。
 
-1. Start playing music using the software that you later want to be used for Wallpaper Engine
-2. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
+1. 使用稍后要用于 Wallpaper Engine 的软件开始播放音乐
+2. 右键单击 Windows 托盘中时钟旁边的音频图标，然后选择**打开声音设置**。
 3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
 4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
 5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
