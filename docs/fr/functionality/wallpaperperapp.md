@@ -1,14 +1,13 @@
 # Sélectionner des fonds d'écran par application
 
-Wallpaper Engine vous permet d'afficher automatiquement différents fonds d'écran quand un certain .exe s'exécute dans votre système. For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
+Wallpaper Engine vous permet d'afficher automatiquement différents fonds d'écran quand un certain .exe s'exécute dans votre système. Par exemple, cela peut-être utile si vous voulez des fonds d'écran moins tape-à-l'œil quand vous jouez à un jeu ou pour lancer automatiquement un visualiseur audio quand vous ouvrez votre lecteur de musique.
 
-::: tip
-If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+::: astuce Si vous rencontrez des problèmes techniques dans certains jeux ou applications, vous pouvez aussi utiliser les règles d'application pour désactiver Wallpaper Engine quand un certain .exe est exécuté. Si vous voulez résoudre un problème technique dans une autre appli, consultez ce guide : [Résoudre les problèmes d'applis ou de jeux spécifiques](/functionality/applicationrules.html)
 :::
 
-## Setting up an application rule
+## Configurer une règle d'application
 
-In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+Dans l'onglet **Performance** des paramètres de Wallpaper Engine, cliquez sur le bouton **Modifier** dans la section **Règle d'application**. Cliquez sur **Créer une nouvelle règle** pour configurer un nouvel ensemble de fonds d'écran pour l'.exe de votre choix. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
 
 * Load wallpaper
 * Load playlist
