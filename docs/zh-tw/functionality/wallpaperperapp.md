@@ -18,9 +18,9 @@ Wallpaper Engine 能讓您在系統上啟動特定 .exe 時自動啟動不同桌
 
 ### 設定多顯示器設定檔
 
-**Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
+應用程式規則中的**載入設定檔**意指可在顯示器概觀 (介面右上角的螢幕圖示) 設定的多顯示器設定檔中設定。 設定檔是您目前在螢幕上選擇的所有桌布及播放清單的快照。 每次載入設定檔時，所有桌布及播放清單將依據設定檔設定而放置。
 
-Configure your wallpapers and playlists across all monitors the the way you want them to be, then click on the **Save profile** button in the monitor settings and save the current setup under a name of your choice. Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
+依據您希望的方式為所有顯示器設定桌布及播放清單，接著在螢幕設定按一下**儲存設定檔**按鈕，以您選擇的名稱儲存目前設定。 Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
