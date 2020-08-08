@@ -14,7 +14,7 @@ Wallpaper Engine ไม่สามารถจำกัด Visualizer เสี
 
 * [ดาวน์โหลดอุปกรณ์เสียงเสมือน](https://www.vb-audio.com/Cable/)
 
-Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
+ดาวน์โหลดและแตกไฟล์ จากนั้นจึงใช้ **VBCABLE_Setup.exe** หรือ **VBCABLE_Setup_x64.exe** ติดตั้งอุปกรณ์เสียง 32-Bit หรือ 64-Bit โดยขึ้นอยู่กับเวอร์ชันของ Windows 10 ของคุณ เปิดไฟล์ติดตั้งในฐานะแอดมินโดยการคลิกขวาแล้วเลือก *Run as administrator* Follow the instructions of the setup and make sure the audio device has been installed successfully.
 
 ### Setting up Windows and Wallpaper Engine
 
