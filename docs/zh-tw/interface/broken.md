@@ -31,9 +31,9 @@ tags:
 
 如果問題仍存在，請關閉 Wallpaper Engine。 接著，使用 Steam 第三個啟動選項「停用 UI 硬體加速」，重新啟動 Wallpaper Engine。
 
-**如果 Wallpaper Engine 介面出現白色線條**：您已為所有應用程式開啟 **Nvidia 影像銳化**。 在 Nvidia 驅動程式中將其關閉，或者先解除安裝 Nvidia 驅動程式再執行全新安裝。
+**如果 Wallpaper Engine 介面出現白色線條**：您已為所有應用程式開啟 **Nvidia Image Sharpening (影像銳利化)**。 在 Nvidia 驅動程式中將其關閉，或者先解除安裝 Nvidia 驅動程式再執行全新安裝。
 
-![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+![Nvidia 影像銳利化問題](./imagesharpening.png) *如果不小心開啟 Wallpaper Engine 的 Nvidia 影像銳利化功能，所有應用程式視窗都會出現白色線條。*
 
 ### 罕見的 Steam 內嵌錯誤破壞 Wallpaper Engine 使用者介面
 
