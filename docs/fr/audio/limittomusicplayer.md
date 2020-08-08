@@ -15,13 +15,13 @@ Nous vous conseillons d'utiliser l'**appareil audio virtuel VB-CABLE** que vous 
 
 Téléchargez et extrayez le fichier, puis installer l'appareil audio 32-Bit ou 64-Bit selon votre version de Windows 10 en utilisant **VBCABLE_Setup.exe** ou **VBCABLE_Setup_x64.exe**. N'oubliez pas d'ouvrir le fichier de lancement en utilisant les droits administrateurs en faisant un clic droit dessus et en sélectionnant *Exécuter en tant qu'administrateur*. Suivez les instructions d'installation et assurez-vous que l'appareil audio ait bien été installé.
 
-### Setting up Windows and Wallpaper Engine
+### Configurer Windows et Wallpaper Engine
 
-Check the video below which shows all the steps on an Windows 10 (English interface) from start to finish if you need some help with any of the steps below.
+La vidéo ci-dessous décrit toutes les étapes du début à la fin sur une version de Windows 10 (interface en anglais). Consultez-la si vous avez besoin d'aide avec les instructions ci-dessous.
 
-1. Start playing music using the software that you later want to be used for Wallpaper Engine
-2. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
+1. Lancez de la musique grâce au logiciel que vous voudrez utiliser plus tard avec Wallpaper Engine
+2. Faites un clic droit sur l'icône d'audio près de l'horloge dans la barre des tâches Windows puis sélectionnez **Ouvrir les paramètres de son**.
+3. Défilez jusqu'en bas de la page qui s'ouvre et cliquez sur **Préférences de volumes des applications et des appareils**.
 4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
 5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
 6. A small window will appear, navigate to the **Recording** tab, then right-click on the **CABLE Output** audio device and select **Properties**.
