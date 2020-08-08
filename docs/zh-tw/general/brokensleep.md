@@ -1,9 +1,9 @@
 - - -
-  tags:
-  - screensavers
-  - hibernation
-  - sleep
-  - power saving
+  標籤：
+  - 螢幕保護程式
+  - 休眠
+  - 睡眠
+  - 省電
 - - -
 
 # 休眠/螢幕保護程式無法運作
