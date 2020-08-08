@@ -14,14 +14,14 @@ Wallpaper Engine ไม่สามารถจำกัด Visualizer เสี
 
 * [ดาวน์โหลดอุปกรณ์เสียงเสมือน](https://www.vb-audio.com/Cable/)
 
-ดาวน์โหลดและแตกไฟล์ จากนั้นจึงใช้ **VBCABLE_Setup.exe** หรือ **VBCABLE_Setup_x64.exe** ติดตั้งอุปกรณ์เสียง 32-Bit หรือ 64-Bit โดยขึ้นอยู่กับเวอร์ชันของ Windows 10 ของคุณ เปิดไฟล์ติดตั้งในฐานะแอดมินโดยการคลิกขวาแล้วเลือก *Run as administrator* Follow the instructions of the setup and make sure the audio device has been installed successfully.
+ดาวน์โหลดและแตกไฟล์ จากนั้นจึงใช้ **VBCABLE_Setup.exe** หรือ **VBCABLE_Setup_x64.exe** ติดตั้งอุปกรณ์เสียง 32-Bit หรือ 64-Bit โดยขึ้นอยู่กับเวอร์ชันของ Windows 10 ของคุณ เปิดไฟล์ติดตั้งในฐานะแอดมินโดยการคลิกขวาแล้วเลือก *Run as administrator* โปรดปฏิบัติตามคำแนะนำในการตั้งค่าและตรวจสอบให้แน่ใจว่าติดตั้งอุปกรณ์เสียงเรียบร้อยแล้ว
 
-### Setting up Windows and Wallpaper Engine
+### การตั้งค่า Windows และ Wallpaper Engine
 
-Check the video below which shows all the steps on an Windows 10 (English interface) from start to finish if you need some help with any of the steps below.
+หากคุณต้องการความช่วยเหลือในขั้นตอนใด ๆ ด้านล่าง โปรดดูวิดีโอด้านล่างซึ่งแสดงถึงขั้นตอนทั้งหมดบน Windows 10 (ส่วนต่อประสานภาษาอังกฤษ)
 
-1. Start playing music using the software that you later want to be used for Wallpaper Engine
-2. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
+1. เริ่มเล่นเพลงด้วยซอฟต์แวร์ที่คุณต้องการใช้กับ Wallpaper Engine ในภายหลัง
+2. คลิกขวาที่ไอคอนเสียงข้างนาฬิกาที่แถบงาน Windows แล้วเลือก **เปิดการตั้งค่าเสียง** (Open Sound Settings)
 3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
 4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
 5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
