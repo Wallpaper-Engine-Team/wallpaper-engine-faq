@@ -20,9 +20,9 @@ Wallpaper Engine 能讓您在系統上啟動特定 .exe 時自動啟動不同桌
 
 應用程式規則中的**載入設定檔**意指可在顯示器概觀 (介面右上角的螢幕圖示) 設定的多顯示器設定檔中設定。 設定檔是您目前在螢幕上選擇的所有桌布及播放清單的快照。 每次載入設定檔時，所有桌布及播放清單將依據設定檔設定而放置。
 
-依據您希望的方式為所有顯示器設定桌布及播放清單，接著在螢幕設定按一下**儲存設定檔**按鈕，以您選擇的名稱儲存目前設定。 Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
+依據您希望的方式為所有顯示器設定桌布及播放清單，接著在螢幕設定按一下**儲存設定檔**按鈕，以您選擇的名稱儲存目前設定。 謹記，您得先按一下**儲存設定檔**按鈕，否則後續變更的所有設定都不會使該設定檔變更。 您可設定多個設定檔，並一次指派給多個應用程式。 例如，您可建立一個**音樂**設定檔、一個**遊戲**設定檔和一個**電影**設定檔，再將每一個設定檔指派給所有符合這些類別的 .exe 檔案。
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的瀏覽器不支援影片標籤。
 </video>
