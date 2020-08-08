@@ -14,9 +14,9 @@ Wallpaper Engine 能讓您在系統上啟動特定 .exe 時自動啟動不同桌
 * 載入播放清單
 * 載入設定檔
 
-What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
+在此需要注意的一點是，**載入桌布**與**載入播放清單**皆只會下載一張桌布，而且會跨及所有螢幕。 如果您有多台顯示器，且希望每個螢幕都有獨立的桌布 (甚至每個螢幕都有不同的播放清單)，則必須選擇**載入設定檔**。 閱讀下文進一步了解設定方式。
 
-### Setting up a multi-monitor profile
+### 設定多顯示器設定檔
 
 **Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
 
