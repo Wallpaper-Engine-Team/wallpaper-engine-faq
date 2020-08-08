@@ -1,9 +1,9 @@
 - - -
   filtres :
-  - économiseurs d'écran
+  - écrans de veille
   - veille
-  - sleep
-  - power saving
+  - mise en veille
+  - économie d'énergie
 - - -
 
 # Veille / L'écran de veille ne marche pas
