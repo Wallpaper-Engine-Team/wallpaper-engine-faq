@@ -32,5 +32,5 @@
 
 <video width="100%" controls>
   <source src="/videos/audioinputdevice.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>
