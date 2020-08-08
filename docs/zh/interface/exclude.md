@@ -1,11 +1,11 @@
 ---
 tags:
-  - anime
-  - filter
-  - search
-  - categories
-  - mature
-  - adult
+  - 动漫
+  - 筛选器
+  - 搜索
+  - 类别
+  - 成人
+  - 成人
 ---
 
 # 从搜索中排除某些壁纸
@@ -16,7 +16,7 @@ tags:
 
 您可以从应用程序中筛选掉您不喜欢的类别。 打开 Wallpaper Engine 中的“创意工坊”选项卡，然后通过单击左上角的“筛选结果”按钮启用筛选器侧栏。 取消选择您不希望在结果中看到的所有类别。
 
-You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+您可以使用**筛选器设置**按钮，然后单击**隐藏动画**来自动禁用包含大部分动画类型内容的类别。 随后，您依然可以手动更改左侧的类别，但只要筛选器设置中启用了**隐藏动画**选项，**重置筛选器**按钮都会保持动画类别处于未选中状态。
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
