@@ -1,11 +1,11 @@
 # 將音頻可視化工具限制至音樂播放器
 
-由於音頻在 Windows 中自有一套運作模式，Wallpaper Engine 本身不可能將音頻可視化工具限制至您所挑選的音樂播放器。 However, you can use third-party software to create a *fake* audio device to achieve this. This guide will explain one way to set such a fake audio device up and how to configure Windows 10 and Wallpaper Engine to make this setup work properly.
+由於音頻在 Windows 中自有一套運作模式，Wallpaper Engine 本身不可能將音頻可視化工具限制至您所挑選的音樂播放器。 不過，您可使用第三方軟體建立*虛擬*音訊裝置來達成此目的。 本篇指南將說明設立此類虛擬音訊裝置的方式，以及如何設定 Windows 10 及 Wallpaper Engine 以利這類裝置正常運作。
 
-Keep in mind we do not offer support for any fake audio devices and cannot guarantee that this will work - this is a very advanced setup that goes well beyond what Wallpaper Engine offers. We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
+請記住，我們並不支援任何虛擬音訊裝置，也無法保證此種方法能運作——這種設定相當進階，已超出 Wallpaper Engine 的負責範圍。 我們提供本指南僅出於好意，希望能協助使用者更進一步自訂系統。
 
 ::: warning
-Please note This guide only works on updated versions of Windows 10. Older Windows versions may be missing some features which makes it impossible to follow this guide.
+請注意 本指南僅適用於 Windows 10 的更新版本。 Older Windows versions may be missing some features which makes it impossible to follow this guide.
 :::
 
 ### Install a fake audio device
