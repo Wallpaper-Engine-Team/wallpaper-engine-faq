@@ -3,10 +3,10 @@
 Wallpaper Engine 能讓您在系統上啟動特定 .exe 時自動啟動不同桌布。 例如，您如果希望使用較不會讓人分心的桌布，以便玩遊戲，或以便開啟音樂播放器的同時自動啟動音訊可視化工具，則此功能可能有幫助。
 
 ::: tip
-If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+如果某些遊戲或應用程式存在技術問題，則在啟用特定 .exe 時，可使用應用程式規則來停用 Wallpaper Engine。 如果您想解決其他應用程式的技術問題，請另外查看本指南：[修復特定應用程式或遊戲的問題](/functionality/applicationrules.html)
 :::
 
-## Setting up an application rule
+## 設定應用程式規則
 
 In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
 
