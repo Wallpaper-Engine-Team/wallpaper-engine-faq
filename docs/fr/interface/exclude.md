@@ -1,11 +1,11 @@
 ---
 tags:
-  - anime
-  - filter
-  - search
-  - categories
-  - mature
-  - adult
+  - animé
+  - filtre
+  - recherche
+  - catégories
+  - adulte
+  - contenu pour adulte
 ---
 
 # Exclure certains fonds d'écran de la recherche
@@ -16,11 +16,11 @@ Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web
 
 Vous pouvez exclure les catégories que vous n'aimez pas dans l'application. Ouvrez l'onglet "Workshop" de Wallpaper Engine et activez la barre des filtres en cliquant sur "Filtrer les résultats" en haut à gauche. Désélectionnez toutes les catégories que vous ne voulez pas voir.
 
-You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+Vous pouvez également utiliser le bouton de **Paramètres de filtre** puis cliquer sur **Cacher animé** pour désactiver automatiquement les catégories qui contiennent le plus de contenu de type animé. Vous pouvez toujours modifier plus tard et manuellement les catégories sur la gauche, mais les boutons **Réinitialiser les filtres** continueront à ne pas sélectionner les catégories animé tant que l'option **Cacher animé** est activée dans les paramètres de filtre.
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Votre explorateur ne prend pas en charge le filtre vidéo.
 </video>
 
 ## Bloquer certaines tranches d'âge
@@ -29,7 +29,7 @@ Le Workshop de Steam permet de charger également du contenu pour adulte, comme 
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Votre explorateur ne prend pas en charge le filtre vidéo.
 </video>
 
 La plupart du contenu est bien labellisé et le contenu pour adulte sera filtré. Si vous voyez du contenu pour adultes qui a été labellisé pour "Tout le monde", veuillez nous le signaler immédiatement. Ce contenu sera placé dans une autre catégorie ou censuré.
