@@ -26,8 +26,8 @@
 4. 此頁面將列出所有可播放音訊的應用程式。 找到您的音樂播放器，接著在**輸出**選單中，將**預設**改為 **CABLE Input (VB-Audio Virtual Cable)**。 您的音樂播放器應該會立即變為靜音。
 5. 返回 Windows 音效設定主頁，在右上角選擇**聲音控制台**。
 6. 出現小視窗後，按一下**錄製**分頁，接著在 **CABLE Output** 音訊裝置上以滑鼠右鍵按一下，選擇**內容**。
-7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
-8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
+7. 另一個視窗將出現，按一下**聆聽**分頁，選擇**聆聽此裝置**。 按一下**套用**與**確定**，音樂播放器中的音樂應該就會返回。
+8. 現在 Windows 已正確設定，開啟 **Wallpaper Engine 設定**與**一般**分頁中，將**音訊輸入裝置**變更為 **CABLE Input (VB-Audio Virtual Cable)**。 Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
 
 *Video showcasing all the steps described above:*
 
