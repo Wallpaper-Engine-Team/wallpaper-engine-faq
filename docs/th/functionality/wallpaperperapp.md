@@ -18,9 +18,9 @@ Wallpaper Engine ช่วยให้คุณเปิดใช้วอลเ
 
 ### การตั้งค่าโปรไฟล์หลายจอแสดงผล
 
-การ **โหลดโปรไฟล์** ในกฎของแอพพลิเคชันหมายถึงโปรไฟล์หลายจอแสดงผลที่กำหนดค่าได้ในภาพรวมของจอแสดงผล (ไอคอนหน้าจอที่มุมขวาบนของส่วนต่อประสาน) A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
+การ **โหลดโปรไฟล์** ในกฎของแอพพลิเคชันหมายถึงโปรไฟล์หลายจอแสดงผลที่กำหนดค่าได้ในภาพรวมของจอแสดงผล (ไอคอนหน้าจอที่มุมขวาบนของส่วนต่อประสาน) โปรไฟล์คือภาพบันทึกวอลเปเปอร์และเพลย์ลิสต์ที่คุณเลือกทั้งหมดในปัจจุบันบนทุกหน้าจอของคุณ เมื่อใดก็ตามที่โหลดโปรไฟล์ วอลเปเปอร์และเพลย์ลิสต์ทั้งหมดจะถูกใช้งานตามการกำหนดค่าโปรไฟล์
 
-Configure your wallpapers and playlists across all monitors the the way you want them to be, then click on the **Save profile** button in the monitor settings and save the current setup under a name of your choice. Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
+กำหนดค่าวอลเปเปอร์และเพลย์ลิสต์ทุกจอแสดงผลของคุณในแบบที่คุณต้องการ จากนั้นคลิกที่ปุ่ม **บันทึกโปรไฟล์** ในการตั้งค่าจอภาพและบันทึกการตั้งค่าปัจจุบันภายใต้ชื่อที่คุณต้องการ Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
