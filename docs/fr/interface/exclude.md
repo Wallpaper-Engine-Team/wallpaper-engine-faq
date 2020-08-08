@@ -5,7 +5,7 @@ tags:
   - recherche
   - catégories
   - adulte
-  - contenu pour adulte
+  - interdit aux -18 ans
 ---
 
 # Exclure certains fonds d'écran de la recherche
