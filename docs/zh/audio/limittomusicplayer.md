@@ -2,19 +2,18 @@
 
 由于音频在 Windows 中的工作方式，Wallpaper Engine 本身不可能将音频可视化工具限制为您选择的音乐播放器。 不过，您可使用第三方软件创建*虚设*音频设备来实现该操作。 本指南将说明设置此类虚设音频设备的一种方法，以及如何配置 Windows 10 和 Wallpaper Engine 以使此设置正常工作。
 
-请记住，我们对任何虚设音频设备不提供支持，并且不能保证其会正常工作，这是一个非常高级的设置，远远超出了 Wallpaper Engine 提供的功能。 We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
+请记住，我们对任何虚设音频设备不提供支持，并且不能保证其会正常工作，这是一个非常高级的设置，远远超出了 Wallpaper Engine 提供的功能。 本指南仅为想进一步自定义系统的用户提供友好帮助。
 
-::: warning
-Please note This guide only works on updated versions of Windows 10. Older Windows versions may be missing some features which makes it impossible to follow this guide.
+::: 警告：请注意 本指南仅适用于 Windows 10 的更新版本。 Windows 的较早版本可能缺少某些功能，因此无法遵循本指南。
 :::
 
-### Install a fake audio device
+### 安装虚设音频设备
 
-We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
+我们建议您使用免费 **VB-CABLE 虚拟音频设备**，可通过以下网站下载：
 
-* [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
+* [虚拟音频设备下载](https://www.vb-audio.com/Cable/)
 
-Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
+下载并解压存档文件，然后使用 **VBCABLE_Setup.exe** 或 **VBCABLE_Setup_x64.exe**，根据您的 Windows 10 版本安装 32 位或 64 位音频设备。 右键单击，然后选择*以管理员身份运行*，确保以管理员权限启动设置文件。 Follow the instructions of the setup and make sure the audio device has been installed successfully.
 
 ### Setting up Windows and Wallpaper Engine
 
