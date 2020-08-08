@@ -20,7 +20,7 @@ You can also use the **Filter Settings** button and then click on **Hide Anime**
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>
 
 ## 排除某些年龄分级
@@ -29,7 +29,7 @@ Steam 创意工坊允许一定程度的成人内容，例如裸体。 如果不�
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>
 
 由于大多数内容均标记正确，这将筛选掉大部分成人内容。 如果您仍然遇到具有“所有人”年龄分级的成人内容，请使用应用程序中的举报功能。 该内容将在审核后重新分类或封禁。
