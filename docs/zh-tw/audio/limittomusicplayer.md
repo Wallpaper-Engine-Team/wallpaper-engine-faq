@@ -10,11 +10,11 @@
 
 ### 安裝虛擬音訊裝置
 
-我們建議使用免費的 **VB-CABLE Virtual Audio Device**，您可從以下網站下載：
+我們建議使用免費的 **VB-CABLE 虛擬音訊裝置**，您可從以下網站下載：
 
-* [Virtual Audio Device 下載](https://www.vb-audio.com/Cable/)
+* [下載虛擬音訊裝置](https://www.vb-audio.com/Cable/)
 
-Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
+下載與解壓縮檔案，依據您的 Windows 10 版本安裝 32 位元或 64 位元的音訊裝置，使用 **VBCABLE_Setup.exe** 或 **VBCABLE_Setup_x64.exe**。 Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
 
 ### Setting up Windows and Wallpaper Engine
 
