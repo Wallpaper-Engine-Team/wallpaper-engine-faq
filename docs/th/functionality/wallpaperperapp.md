@@ -14,11 +14,11 @@ Wallpaper Engine ช่วยให้คุณเปิดใช้วอลเ
 * โหลดเพลย์ลิสต์
 * โหลดโปรไฟล์
 
-What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
+สิ่งสำคัญที่ควรทราบก็คือทั้ง **โหลดวอลเปเปอร์** และ **โหลดเพลย์ลิสต์** จะโหลดเพียงหนึ่งวอลเปเปอร์และขยายไปยังหน้าจอทั้งหมด หากคุณมีหลายจอแสดงผลและต้องการโหลดวอลเปเปอร์ในแต่ละหน้าจอโดยอิสระ (หรือเพลย์ลิสต์ที่แตกต่างกันในแต่ละหน้าจอ) คุณต้องใช้ตัวเลือก **โหลดโปรไฟล์** โปรดอ่านหัวข้อต่อไปนี้สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าดังกล่าว
 
-### Setting up a multi-monitor profile
+### การตั้งค่าโปรไฟล์หลายจอแสดงผล
 
-**Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
+การ **โหลดโปรไฟล์** ในกฎของแอพพลิเคชันหมายถึงโปรไฟล์หลายจอแสดงผลที่กำหนดค่าได้ในภาพรวมของจอแสดงผล (ไอคอนหน้าจอที่มุมขวาบนของส่วนต่อประสาน) A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
 
 Configure your wallpapers and playlists across all monitors the the way you want them to be, then click on the **Save profile** button in the monitor settings and save the current setup under a name of your choice. Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
 
