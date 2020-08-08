@@ -1,6 +1,6 @@
 # 依據應用程式選擇桌布
 
-Wallpaper Engine 能讓您在系統上啟動特定 .exe 時自動啟動不同桌布。 For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
+Wallpaper Engine 能讓您在系統上啟動特定 .exe 時自動啟動不同桌布。 例如，您如果希望使用較不會讓人分心的桌布，以便玩遊戲，或以便開啟音樂播放器的同時自動啟動音訊可視化工具，則此功能可能有幫助。
 
 ::: tip
 If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
