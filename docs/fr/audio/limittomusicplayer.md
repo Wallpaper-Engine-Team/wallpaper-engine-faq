@@ -7,13 +7,13 @@ N'oubliez pas que nous ne prenons en charge aucun faux appareil audio et que nou
 ::: Attention Ce guide ne fonctionne que sur les versions mises à jour de Windows 10. Des versions Windows plus anciennes ne comportent pas toutes les fonctionnalités nécessaires pour suivre ce guide.
 :::
 
-### Install a fake audio device
+### Installer un faux appareil audio
 
-We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
+Nous vous conseillons d'utiliser l'**appareil audio virtuel VB-CABLE** que vous pouvez télécharger sur le site suivant :
 
-* [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
+* [Téléchargement de l'appareil audio virtuel](https://www.vb-audio.com/Cable/)
 
-Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
+Téléchargez et extrayez le fichier, puis installer l'appareil audio 32-Bit ou 64-Bit selon votre version de Windows 10 en utilisant **VBCABLE_Setup.exe** ou **VBCABLE_Setup_x64.exe**. N'oubliez pas d'ouvrir le fichier de lancement en utilisant les droits administrateurs en faisant un clic droit dessus et en sélectionnant *Exécuter en tant qu'administrateur*. Suivez les instructions d'installation et assurez-vous que l'appareil audio ait bien été installé.
 
 ### Setting up Windows and Wallpaper Engine
 
