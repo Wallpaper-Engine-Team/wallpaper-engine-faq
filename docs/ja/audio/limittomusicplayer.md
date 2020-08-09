@@ -18,15 +18,15 @@ Windowsのオーディオ機能により、Wallpaper Engine自体が選択した
 
 ### WindowsとWallpaper Engineのセットアップ
 
-Check the video below which shows all the steps on an Windows 10 (English interface) from start to finish if you need some help with any of the steps below.
+下の動画をチェックしてください。ここでは、Windows 10（英語版）のすべての手順が最初から最後まで表示され、以下の手順を行う時の参考になります。
 
-1. Start playing music using the software that you later want to be used for Wallpaper Engine
-2. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
-5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
-6. A small window will appear, navigate to the **Recording** tab, then right-click on the **CABLE Output** audio device and select **Properties**.
-7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
+1. あとでWallpaper Engineで使いたいソフトウェアを使って、音楽を再生します。
+2. Windowsのタスクトレイの時計の隣にあるオーディオアイコンを右クリックし、**サウンド設定を開く**を選択します。
+3. 開いたページを一番下までスクロールし、**アプリの音量とデバイスの設定**をクリックします。
+4. オーディオを再生するアプリケーションすべてがリスト表示されます。 使っている音楽プレイヤーを見つけ、**出力**の列で、オプションを**デフォルト**から**ケーブル入力（VB-Audio Virtual Cable）**に変更します。 オーディオプレイヤーは、すぐ音がしなくなります。これは予期された動作です。
+5. Windowsのサウンド設定のメインページに戻り、右上の**サウンドコントロールパネル**を選択します。
+6. 小さなウィンドウが開きます。**録音**タブを開き、**ケーブル出力**オーディオデバイスを右クリックして**プロパティ**を選択します。
+7. また別のウィンドウが開きます。**聴く**タブをクリックし、**このデバイスを聴く**を選択します。 **適用**と**OK**をクリックします。これで音楽プレイヤーの音楽が戻ってくるはずです。
 8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
 
 *Video showcasing all the steps described above:*
