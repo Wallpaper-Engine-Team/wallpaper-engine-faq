@@ -1,22 +1,22 @@
 # 音楽プレイヤーへのオーディオビジュアライザーの制限
 
-Windowsのオーディオ機能により、Wallpaper Engine自体が選択した音楽プレイヤーへのオーディオビジュアライザーを制限することはできません。 However, you can use third-party software to create a *fake* audio device to achieve this. This guide will explain one way to set such a fake audio device up and how to configure Windows 10 and Wallpaper Engine to make this setup work properly.
+Windowsのオーディオ機能により、Wallpaper Engine自体が選択した音楽プレイヤーへのオーディオビジュアライザーを制限することはできません。 しかし、サードパーティーのソフトウェアを使って*フェイクの*オーディオデバイスを作り、これを達成することは可能です。 ここでは、そのようなフェイクのオーディオデバイスをセットする方法の一つと、このセットアップを正しく機能させるためのWindows 10とWallpaper Engineの設定方法を説明します。
 
-Keep in mind we do not offer support for any fake audio devices and cannot guarantee that this will work - this is a very advanced setup that goes well beyond what Wallpaper Engine offers. We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
+ただ、私たちがフェイクのオーディオデバイスのサポートを提供するわけではないということと、これがうまく機能することを保証することはできないということにご注意ください。これは非常に進んだセットアップで、Wallpaper Engineが提供できる内容をはるかに超えています。 これは、システムの進んだカスタマイズを行いたいと思われるユーザーの皆様への役に立つヘルプとして提供されるだけです。
 
 ::: warning
-Please note This guide only works on updated versions of Windows 10. Older Windows versions may be missing some features which makes it impossible to follow this guide.
+ご注意ください これは、Windows 10のアップデートされたバージョンでのみ機能します。 古いWindowsではいくつかの機能が欠けていて、このガイドの通りのことが行えない場合があります。
 :::
 
-### Install a fake audio device
+### フェイクオーディオデバイスのインストール
 
-We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
+無料の**VB-CABLE Virtual Audio Device**をお勧めします。これは以下のサイトでダウンロードできます：
 
-* [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
+* [Virtual Audio Deviceのダウンロード](https://www.vb-audio.com/Cable/)
 
-Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
+ファイルをダウンロードして解凍します。その後、お使いのWindows 10のバージョンに応じて、32-Bitの**VBCABLE_Setup.exe**または64-Bitの**VBCABLE_Setup_x64.exe**をインストールします。 右クリックして*管理者として実行*を選択し、管理者の権限でセットアップファイルを実行してください。 セットアップの指示に従い、オーディオデバイスを正しくインストールしましょう。
 
-### Setting up Windows and Wallpaper Engine
+### WindowsとWallpaper Engineのセットアップ
 
 Check the video below which shows all the steps on an Windows 10 (English interface) from start to finish if you need some help with any of the steps below.
 
