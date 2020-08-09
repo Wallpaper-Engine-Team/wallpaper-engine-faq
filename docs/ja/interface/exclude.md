@@ -16,7 +16,7 @@ tags:
 
 必要のないカテゴリをアプリケーションで除外することができます。 Wallpaper Engineの「ワークショップ」タブを開き、左上の「結果をフィルター」をクリックしてフィルターサイドバーを有効にします。 結果に含めたくないカテゴリすべての選択を外します。
 
-You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+また、**フィルター設定**ボタンを使い、次に**アニメを非表示**をクリックすることにより、ほとんどのアニメタイプのコンテンツを含むカテゴリーを自動的に無効にすることができます。 You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
