@@ -1,6 +1,6 @@
 - - -
   tags:
-  - screensavers
+  - ekran korucuyular
   - hibernation
   - sleep
   - power saving
