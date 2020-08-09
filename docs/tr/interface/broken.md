@@ -31,9 +31,9 @@ Grafik kartı sürücüleriniz bozuk veya yanlış yapılandırılmış. Grafik 
 
 Sorun devam ederse Wallpaper Engine'i kapatın. Daha sonra Steam'deki "Kullanıcı arayüzü donanım hızlandırmayı devre dışı bırak" etiketli üçüncü başlatma seçeneğini kullanarak Wallpaper Engine'i yeniden başlatın.
 
-**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+**Wallpaper Engine kullanıcı arayüzünde beyaz çizgiler varsa**: **Nvidia Görüntü Keskinleştirme** tüm uygulamalar için açıktır. Nvidia sürücülerinizden kapatın veya mevcut sürücülerinizi kaldırıp temiz bir Nvidia sürücüsü kurun.
 
-![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+![Nvidia Görüntü Keskinleştirme Sorunu](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
 
 ### Wallpaper Engine Kullanıcı Arayüzünü Bozan Nadir Steam Arayüzü Hatası
 
