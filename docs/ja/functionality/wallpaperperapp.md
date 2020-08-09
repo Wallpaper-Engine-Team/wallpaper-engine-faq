@@ -8,15 +8,15 @@ Wallpaper Engineでは、特定の.exeが起動したときに自動的に異な
 
 ## アプリケーションルールの設定
 
-In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+Wallpaper Engine設定の**パフォーマンス**タブで、**アプリケーションルール**セクションの**編集**ボタンをクリックします。 **新規ルール作成**をクリックして、目的の.exeに対する壁紙の新規セットを設定します。 **アプリケーション名**入力フィールドにその.exeの名前を入力します。例えば*musicplayer.exe*のように、名前が正しく入力されていることを確認してください。 **状態**を**実行されている**に設定します。 **壁紙再生**オプションで、次のオプションのうち一つを選ぶことができます：
 
-* Load wallpaper
-* Load playlist
-* Load profile
+* 壁紙をロード
+* プレイリストをロード
+* プロファイルロード
 
-What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
+ここで重要なのは、**壁紙をロード**と**プレイリストをロード**の両方とも、壁紙を1枚だけロードして、画面一杯に拡大して表示することです。 複数のモニターを持っていて、それぞれの画面に別々の壁紙をロードしたいとき（あるいは、それぞれの画面に別々のプレイリストをロードしたいとき）は、**プロファイルロード**オプションを選ぶ必要があります。 この設定方法に関する詳しい情報は、次のセクションをお読みください。
 
-### Setting up a multi-monitor profile
+### 複数モニターのプロファイルの設定
 
 **Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
 
