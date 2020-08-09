@@ -1,9 +1,9 @@
 - - -
   tags:
   - ekran korucuyular
-  - hibernation
-  - sleep
-  - power saving
+  - hazırda beklet
+  - uyku
+  - güç tasarrufu
 - - -
 
 # Hazırda bekletme / Ekran koruyucular çalışmıyor
