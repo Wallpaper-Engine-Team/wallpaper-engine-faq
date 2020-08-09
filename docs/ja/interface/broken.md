@@ -31,9 +31,9 @@ Wallpaper Engineブラウズウィンドウが正しく動作しない場合、�
 
 それでも問題が解消しない場合はWallpaper Engineを終了します。 その後、Steamで「UIハードウェアアクセラレーションを無効にする」と書かれた3番目の起動オプションを使ってWallpaper Engineを再起動します。
 
-**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+**Wallpaper Engineのユーザーインターフェースに白い線が入る場合**：**Nvidiaの画面のシャープ化**がすべてのアプリケーションに対してオンになっています。 Nvidiaドライバでそれをオフにするか、現在のバージョンをまずアンインストールしたあとで、Nvidiaドライバをクリーン再インストールしてください。
 
-![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+![Nvidiaの画面のシャープ化に関する問題](./imagesharpening.png) *間違ってWallpaper Engineに対してNvidiaの画面のシャープ化がオンになっている場合、アプリケーションウィンドウの全体に白い線が入ります。*
 
 ### 珍しいSteamオーバーレイバグによってWallpaper Engineユーザーインターフェースが破損している
 
