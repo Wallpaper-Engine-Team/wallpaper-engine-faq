@@ -18,9 +18,9 @@ Wallpaper Engine設定の**パフォーマンス**タブで、**アプリケー�
 
 ### 複数モニターのプロファイルの設定
 
-**Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
+アプリケーションルールの**プロファイルロード**は、モニターの概要（インターフェースの右上にあるスクリーンアイコン）で設定できる複数モニタープロファイルを指しています。 プロファイルは、すべての画面にわたって現在選択されている壁紙とプレイリスト全体のスナップショットです。 プロファイルがロードされると、すべての壁紙とプレイリストがプロファイル設定に従って配置されます。
 
-Configure your wallpapers and playlists across all monitors the the way you want them to be, then click on the **Save profile** button in the monitor settings and save the current setup under a name of your choice. Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
+すべてのモニターに対する壁紙とプレイリストを好みに設定し、モニター設定で**プロファイル保存**ボタンをクリックして、好きな名前をつけて現在の設定を保存します。 Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
