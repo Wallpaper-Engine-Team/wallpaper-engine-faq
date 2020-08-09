@@ -20,9 +20,9 @@ Wallpaper Engine設定の**パフォーマンス**タブで、**アプリケー�
 
 アプリケーションルールの**プロファイルロード**は、モニターの概要（インターフェースの右上にあるスクリーンアイコン）で設定できる複数モニタープロファイルを指しています。 プロファイルは、すべての画面にわたって現在選択されている壁紙とプレイリスト全体のスナップショットです。 プロファイルがロードされると、すべての壁紙とプレイリストがプロファイル設定に従って配置されます。
 
-すべてのモニターに対する壁紙とプレイリストを好みに設定し、モニター設定で**プロファイル保存**ボタンをクリックして、好きな名前をつけて現在の設定を保存します。 Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
+すべてのモニターに対する壁紙とプレイリストを好みに設定し、モニター設定で**プロファイル保存**ボタンをクリックして、好きな名前をつけて現在の設定を保存します。 その後、設定に変更を加えても、プロファイルはもう一度**プロファイル保存**ボタンを押すまで変更されないという点にご注意ください。 複数のプロファイルを設定し、複数のアプリに対して一度に割り当てることができます。 例えば、**音楽**、**ゲーム**、**映画**というプロファイルを作成し、それぞれのプロファイルをそのカテゴリーに合った.exeファイルすべてに割り当てることができます。
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  お使いのブラウザが動画タグをサポートしていません。
 </video>
