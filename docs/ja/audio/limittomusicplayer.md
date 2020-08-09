@@ -1,6 +1,6 @@
-# Limiting audio visualizers to music players
+# 音楽プレイヤーへのオーディオビジュアライザーの制限
 
-Due to how audio works in Windows, it is not possible for Wallpaper Engine itself to limit audio visualizers to your music player of choice. However, you can use third-party software to create a *fake* audio device to achieve this. This guide will explain one way to set such a fake audio device up and how to configure Windows 10 and Wallpaper Engine to make this setup work properly.
+Windowsのオーディオ機能により、Wallpaper Engine自体が選択した音楽プレイヤーへのオーディオビジュアライザーを制限することはできません。 However, you can use third-party software to create a *fake* audio device to achieve this. This guide will explain one way to set such a fake audio device up and how to configure Windows 10 and Wallpaper Engine to make this setup work properly.
 
 Keep in mind we do not offer support for any fake audio devices and cannot guarantee that this will work - this is a very advanced setup that goes well beyond what Wallpaper Engine offers. We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
 
