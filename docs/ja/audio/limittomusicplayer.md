@@ -1,6 +1,6 @@
-# 音楽プレイヤーへのオーディオビジュアライザーの制限
+# 音楽プレイヤーへのオーディオビジュアライザーの限定
 
-Windowsのオーディオ機能により、Wallpaper Engine自体が選択した音楽プレイヤーへのオーディオビジュアライザーを制限することはできません。 しかし、サードパーティーのソフトウェアを使って*フェイクの*オーディオデバイスを作り、これを達成することは可能です。 ここでは、そのようなフェイクのオーディオデバイスをセットする方法の一つと、このセットアップを正しく機能させるためのWindows 10とWallpaper Engineの設定方法を説明します。
+Windowsのオーディオ機能により、Wallpaper Engine自体が選択した音楽プレイヤーにオーディオビジュアライザーを限定することはできません。 しかし、サードパーティーのソフトウェアを使って*フェイクの*オーディオデバイスを作り、これを達成することは可能です。 ここでは、そのようなフェイクのオーディオデバイスをセットする方法の一つと、このセットアップを正しく機能させるためのWindows 10とWallpaper Engineの設定方法を説明します。
 
 ただ、私たちがフェイクのオーディオデバイスのサポートを提供するわけではないということと、これがうまく機能することを保証することはできないということにご注意ください。これは非常に進んだセットアップで、Wallpaper Engineが提供できる内容をはるかに超えています。 これは、システムの進んだカスタマイズを行いたいと思われるユーザーの皆様への役に立つヘルプとして提供されるだけです。
 
@@ -27,11 +27,11 @@ Windowsのオーディオ機能により、Wallpaper Engine自体が選択した
 5. Windowsのサウンド設定のメインページに戻り、右上の**サウンドコントロールパネル**を選択します。
 6. 小さなウィンドウが開きます。**録音**タブを開き、**ケーブル出力**オーディオデバイスを右クリックして**プロパティ**を選択します。
 7. また別のウィンドウが開きます。**聴く**タブをクリックし、**このデバイスを聴く**を選択します。 **適用**と**OK**をクリックします。これで音楽プレイヤーの音楽が戻ってくるはずです。
-8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
+8. これでWindowsは正常に設定されました。**Wallpaper Engine設定**を開き、**一般**タブで**出力デバイス**を**ケーブル入力（VB-Audio Virtual Cable）**に変更します。 Wallpaper Engineはこれで音楽プレイヤーからの音楽に反応しつつ、コンピュータの他のアプリケーションは無視するようになるはずです。
 
-*Video showcasing all the steps described above:*
+*上記の手順のすべてを表示する動画：*
 
 <video width="100%" controls>
   <source src="/videos/audioinputdevice.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  お使いのブラウザが動画タグをサポートしていません。
 </video>
