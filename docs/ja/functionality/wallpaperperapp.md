@@ -1,12 +1,12 @@
-# Select wallpapers per application
+# アプリケーションごとの壁紙の選択
 
-Wallpaper Engine allows you to automatically launch different wallpapers whenever a certain .exe is launched on your system. For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
+Wallpaper Engineでは、特定の.exeが起動したときに自動的に異なる壁紙を起動することができます。 例えば、ゲームをプレイするときには邪魔にならない壁紙を起動し、音楽プレイヤーを使うときには自動的にオーディオビジュアライザーを起動したいという時などに便利です。
 
 ::: tip
-If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+特定のゲームやアプリケーションで技術的な問題が発生するときは、特定の.exeを起動するときにアプリケーションルールを使ってWallpaper Engineを無効にするということもできます。 別のアプリで起きる技術的な問題を解決したい場合は、こちらをご覧ください：[特定のアプリまたはゲームで起きる問題の修正](/functionality/applicationrules.html)
 :::
 
-## Setting up an application rule
+## アプリケーションルールの設定
 
 In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
 
