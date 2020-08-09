@@ -31,7 +31,7 @@ tags:
 
 如果问题仍然存在，请关闭 Wallpaper Engine。 然后，使用 Steam 中标记为“禁用 UI 硬件加速”的第三个启动选项，重新启动 Wallpaper Engine。
 
-**如果 Wallpaper Engine 用户界面出现白色线条 **:。您已为所有应用程序打开 **Nvidia 图像锐化**。 在您的 Nvidia 驱动程序中将其关闭，或者先卸载当前驱动程序以执行 Nvidia 驱动程序全新安装。
+**如果 Wallpaper Engine 用户界面出现白色线条**。您已为所有应用程序打开 **Nvidia 图像锐化**。 在您的 Nvidia 驱动程序中将其关闭，或者先卸载当前驱动程序以执行 Nvidia 驱动程序全新安装。
 
 ![Nvidia 图像锐化问题](./imagesharpening.png) *如果不小心打开了 Wallpaper Engine 的 Nvidia 图像锐化，则应用程序窗口的所有区域都将显示白色线条。*
 
