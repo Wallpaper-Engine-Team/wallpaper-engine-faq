@@ -1,9 +1,9 @@
 - - -
   tags:
-  - screensavers
-  - hibernation
-  - sleep
-  - power saving
+  - salvapantallas
+  - hibernación
+  - suspender
+  - ahorro de energía
 - - -
 
 # No funcionan los salvapantallas / hibernación
