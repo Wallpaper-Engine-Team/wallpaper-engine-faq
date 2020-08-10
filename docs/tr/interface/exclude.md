@@ -1,6 +1,6 @@
 ---
 tags:
-  - animasyon
+  - anime
   - filtre
   - ara
   - kategoriler
@@ -16,11 +16,11 @@ Yeni duvar kâğıtları aramak için her zaman uygulamadaki Atölye sekmesini k
 
 Uygulamada görmek istemediğiniz kategorilere filtre uygulayabilirsiniz. Wallpaper Engine'deki "Atölye" sekmesini açın ve sol üst köşedeki "Sonuçları filtrele" tuşuna tıklayarak filtre kenar çubuğunu etkinleştirin. Sonuçlarınızda görmek istemediğiniz tüm kategorilerin seçimini kaldırın.
 
-You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+Ayrıca en çok anime türü içerik barındıran kategorileri otomatik olarak gizlemek için **Filtre Ayarları** tuşuna ve ardından **Animasyonu Gizle**'ye tıklayabilirsiniz. Daha sonra soldaki kategorileri manuel olarak değiştirebilirsiniz, ancak **Filtreleri sıfırla** tuşları, filtre ayarlarında **Animeyi Gizle** seçeneği etkin olduğu sürece anime kategorilerini seçilmemiş halde tutacaktır.
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Tarayıcınız video etiketini desteklemiyor.
 </video>
 
 ## Belirli yaş sınırlarını hariç tutma
@@ -29,7 +29,7 @@ Steam Atölyesi, çıplaklık gibi belirli derecedeki yetişkin içeriğe izin v
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Tarayıcınız video etiketini desteklemiyor.
 </video>
 
 Çoğu içerik doğru şekilde etiketlenmiştir ve bu işlem yetişkinlere uygun içeriğin büyük çoğunluğunu filtreleyecektir. Hâlâ "Herkes" olarak sınırlandırılmış, yetişkinlere uygun içeriklerle karşılaşıyorsanız lütfen uygulamadaki bildir seçeneğini kullanın. İçerik, incelendikten sonra yeniden sınıflandırılacak veya yasaklanacaktır.
