@@ -1,18 +1,18 @@
-# Select wallpapers per application
+# Привязка обоев к определенным программам
 
-Wallpaper Engine allows you to automatically launch different wallpapers whenever a certain .exe is launched on your system. For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
+С помощью Wallpaper Engine можно автоматически переключаться между разными обоями, в зависимости от того, какой .exe файл запущен в системе. Эта функция может быть полезна, если вы, например, хотите использовать менее отвлекающие обои во время игры или автоматически выводить на экран визуализатор звука при запуске проигрывателя.
 
 ::: tip
-If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+Если у вас возникают технические проблемы с определенными играми или программами, вы также можете задать в настройках Wallpaper Engine правило, которое будет отключать Wallpaper Engine при запуске определенного .exe файла. Если вы хотите решить техническую проблему взаимодействия с другой программой, прочитайте эту инструкцию: [Решение проблем с конкретными программами и играми](/functionality/applicationrules.html)
 :::
 
-## Setting up an application rule
+## Создание правила приложения
 
-In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+На вкладке **Производительность** в настройках Wallpaper Engine нажмите кнопку **Редактировать** в разделе **Правила приложения**. Нажмите кнопку **Создать новое правило**, чтобы задать новые обои для выбранного вами .exe файла. В строке ввода **Название приложения:** введите название вашего .exe файла. Убедитесь, что названия полностью идентичны: например, *musicplayer.exe*. В пункте **«Условие»** выберите **«Запущено»**. Для опции **«Воспроизведение обоев»** вы можете выбрать один из трех вариантов:
 
-* Load wallpaper
-* Load playlist
-* Load profile
+* Загрузить обои
+* Загрузить плейлист
+* Загрузить профиль
 
 What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
 
