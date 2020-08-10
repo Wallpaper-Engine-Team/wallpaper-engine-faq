@@ -37,6 +37,6 @@ Se o problema persistir, desative o Wallpaper Engine. Em seguida, volte a inicia
 
 ### Erro raro do overlay do Steam quebra o interface para o utilizador do Wallpaper Engine
 
-A outra razão possível para uma janela de aplicação toda preta é um error raro do Steam com o Steam overlay. Pode tentar o seguinte:
+A outra razão possível para uma janela de aplicação toda preta é um error raro do Steam com o Steam overlay. Pode experimentar o seguinte:
 
 Desative completamente o Wallpaper Engine (clique com o botão direito no ícone do tabuleiro e depois selecione "Sair"). Em seguida, abra o Steam, clique com o botão direito no Wallpaper Engine, selecione "Properties" (Propriedades) e depois desative a opção "Enable Steam Overlay while in-game" (Ativar Steam Overlay durante o jogo). Depois de desativar a opção, experimente reiniciar o Wallpaper Engine através do Steam. 
