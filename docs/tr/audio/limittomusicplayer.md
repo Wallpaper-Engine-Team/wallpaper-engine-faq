@@ -14,14 +14,14 @@ Aşağıdaki siteden ücretsiz olarak indirebileceğiniz **VB-CABLE Virtual Audi
 
 * [Virtual Audio Device İndir](https://www.vb-audio.com/Cable/)
 
-Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
+Arşiv dosyasını indirin ve çıkarın, sonrasında Windows 10 sürümünüze göre **VBCABLE_Setup.exe** veya **VBCABLE_Setup_x64.exe** dosyalarını kullanarak 32 Bit veya 64 Bit ses cihazını kurun. Kurulum dosyasına sağ tıklayıp *Yönetici olarak çalıştır* seçeneğini seçerek dosyayı yönetici haklarıyla başlattığınızdan emin olun. Kurulum talimatlarını izleyin ve ses cihazının başarıyla kurulduğundan emin olun.
 
-### Setting up Windows and Wallpaper Engine
+### Windows ve Wallpaper Engine Kurulumu
 
-Check the video below which shows all the steps on an Windows 10 (English interface) from start to finish if you need some help with any of the steps below.
+Aşağıdaki adımlardan herhangi biriyle ilgili yardıma ihtiyacınız olursa baştan sona Windows 10'daki (İngilizce arayüz) tüm adımları gösteren aşağıdaki videoya göz atın.
 
-1. Start playing music using the software that you later want to be used for Wallpaper Engine
-2. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
+1. Daha sonra Wallpaper Engine'de kullanmak istediğiniz yazılımı kullanarak müzik çalmaya başlayın
+2. Windows tepsisindeki saatin yanında bulunan ses simgesine sağ tıklayın ve **Ses ayarlarını aç**'ı seçin.
 3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
 4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
 5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
