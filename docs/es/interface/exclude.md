@@ -20,7 +20,7 @@ Usa el botón **Opciones de filtrado** y haz clic en **Ocultar Anime** para desa
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Tu navegador no admite la etiqueta de vídeo.
 </video>
 
 ## Excluir clasificaciones por edades
@@ -29,7 +29,7 @@ Steam Workshop admite contenido adulto hasta cierto grado como, por ejemplo, des
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Tu navegador no admite la etiqueta de vídeo.
 </video>
 
 La mayoría del contenido está bien clasificado y así se excluirá la gran mayoría de contenido adulto. Si llegas a encontrarte con ese tipo de contenido porque se ha clasificado «Para todas las edades», usa la función de Informar del programa. Tras inspeccionarlo, el contenido se clasificará correctamente o se eliminará.
