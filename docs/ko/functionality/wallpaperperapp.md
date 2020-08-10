@@ -14,9 +14,9 @@ Wallpaper Engine 설정의 **성능** 탭의 **응용 프로그램 규칙** 섹�
 * 재생목록 로드
 * 프로필 로드
 
-What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
+여기서 중요한 것은 **배경화면 로드**와 **재생목록 로드**는 모두 배경화면을 하나만 로드하여 모든 스크린에 펼쳐집니다. 모니터가 여러 대인데 화면마다 배경화면을 개별적으로 로드하고 싶다면 (또는 화면마다 다른 재생목록을 로드하고 싶다면), **프로필 로드** 옵션을 사용해야 합니다. 설정 방법에 대한 자세한 내용은 다음 섹션을 참고하세요.
 
-### Setting up a multi-monitor profile
+### 다중 모니터 프로필 설정
 
 **Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
 
