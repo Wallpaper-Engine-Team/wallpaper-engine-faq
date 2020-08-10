@@ -33,7 +33,7 @@ Sorun devam ederse Wallpaper Engine'i kapatın. Daha sonra Steam'deki "Kullanıc
 
 **Wallpaper Engine kullanıcı arayüzünde beyaz çizgiler varsa**: **Nvidia Görüntü Keskinleştirme** tüm uygulamalar için açıktır. Nvidia sürücülerinizden kapatın veya mevcut sürücülerinizi kaldırıp temiz bir Nvidia sürücüsü kurun.
 
-![Nvidia Görüntü Keskinleştirme Sorunu](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+![Nvidia Görüntü Keskinleştirme Sorunu](./imagesharpening.png) *Nvidia görüntü keskinleştirme hatayla Wallpaper Engine için açıldıysa uygulama penceresinin her yerinde beyaz çizgiler görünecektir.*
 
 ### Wallpaper Engine Kullanıcı Arayüzünü Bozan Nadir Steam Arayüzü Hatası
 
