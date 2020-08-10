@@ -22,11 +22,11 @@ Windows에서의 오디오 작동 방식 때문에, Wallpaper Engine이 직접 �
 
 1. 나중에 Wallpaper Engine에서 사용하려는 소프트웨어로 음악을 재생합니다.
 2. Windows 트레이에서 시계 옆 오디오 아이콘을 오른쪽 클릭하고 **소리 설정 열기**를 선택합니다.
-3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-4. 오디오를 플레이 중인 모든 응용 프로그램 목록이 나타납니다. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. 그러면 오디오 플레이어가 즉시 조용해져야 합니다.
+3. 열린 페이지를 아래까지 스크롤하고 **앱 볼륨 및 장치 기본 설정**을 클릭합니다.
+4. 오디오를 플레이 중인 모든 응용 프로그램 목록이 나타납니다. **출력** 에서 음악 플레이어를 찾고, 옵션을 **기본값**에서 **CABLE Input(VB-Audio Virtual Cable)**로 변경합니다. 그러면 오디오 플레이어가 즉시 조용해져야 합니다.
 5. Windows 소리 설정의 메인 페이지로 돌아가 오른쪽 상단에서 **사운드 제어판**을 선택합니다.
 6. A small window will appear, navigate to the **Recording** tab, then right-click on the **CABLE Output** audio device and select **Properties**.
-7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
+7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. **적용** 및 **확인**을 클릭하면, 음악 플레이어의 음악이 돌아와야 합니다.
 8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
 
 *Video showcasing all the steps described above:*
