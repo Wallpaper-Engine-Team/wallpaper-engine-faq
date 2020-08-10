@@ -18,7 +18,7 @@ Wallpaper Engine 설정의 **성능** 탭의 **응용 프로그램 규칙** 섹�
 
 ### 다중 모니터 프로필 설정
 
-**Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
+응용 프로그램 규칙에서 **프로필 로드**는 모니터 개요에서 설정할 수 있는 다중 모니터 프로필을 의미합니다. (인터페이스의 오른쪽 상단 화면 아이콘) A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
 
 Configure your wallpapers and playlists across all monitors the the way you want them to be, then click on the **Save profile** button in the monitor settings and save the current setup under a name of your choice. Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
 
