@@ -24,5 +24,5 @@ Configura los fondos de pantalla y las listas de reproducción de todos los moni
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Tu navegador no admite la etiqueta de vídeo.
 </video>
