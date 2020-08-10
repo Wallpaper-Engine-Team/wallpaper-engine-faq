@@ -1,6 +1,6 @@
 # 오디오 시각화 도우미를 음악 플레이어에 제한
 
-Due to how audio works in Windows, it is not possible for Wallpaper Engine itself to limit audio visualizers to your music player of choice. 그러나 타사 소프트웨어로 *가짜* 오디오 장치를 생성해 이 과정을 진행할 수 있습니다. 이 가이드는 이러한 가짜 오디오 장치를 설치하고, 이것이 제대로 작동하도록 Windows 10과 Wallpaper Engine을 구성하는 한 가지 방법을 설명합니다.
+Windows에서의 오디오 작동 방식 때문에, Wallpaper Engine이 직접 오디오 시각화 도우미를 사용자가 선택한 음악 플레이어에 제한할 수 없습니다. 그러나 타사 소프트웨어로 *가짜* 오디오 장치를 생성해 이 과정을 진행할 수 있습니다. 이 가이드에서는 이러한 가짜 오디오 장치를 설치하고, 이것이 제대로 작동하도록 Windows 10과 Wallpaper Engine을 구성하는 한 가지 방법을 설명합니다.
 
 저희는 가짜 오디오 장치를 지원하지 않으며, 이것의 작동을 보장하지 않습니다. 이는 매우 복잡한 설정으로, Wallpaper Engine의 지원 범위를 넘습니다. 이 가이드는 시스템을 취향에 맞게 설정하기 위해 애쓰는 사용자를 순수하게 도우려는 목적으로 제공하는 것입니다.
 
