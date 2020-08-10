@@ -11,8 +11,8 @@ If you are having technical problems with certain games or applications, you can
 In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
 
 * Load wallpaper
-* Load playlist
-* Load profile
+* Oynatma listesini yükle
+* Profil yükle
 
 What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
 
@@ -24,5 +24,5 @@ Configure your wallpapers and playlists across all monitors the the way you want
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Tarayıcınız video etiketini desteklemiyor.
 </video>
