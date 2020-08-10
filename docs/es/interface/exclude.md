@@ -1,11 +1,11 @@
 ---
 tags:
   - anime
-  - filter
-  - search
-  - categories
-  - mature
-  - adult
+  - filtro
+  - buscar
+  - categorías
+  - maduro
+  - adulto
 ---
 
 # Excluir ciertos fondos de la búsqueda
@@ -16,7 +16,7 @@ Usa siempre la pestaña Workshop para buscar fondos nuevos. Steam Workshop no cu
 
 Puedes eliminar categorías que no te gusten. Abre la pestaña «Workshop» en Wallpaper Engine y haz clic en el botón «Filtrar resultados» en la esquina superior izquierda para habilitar la barra lateral de filtros. Deselecciona todas las categorías que no quieras ver en los resultados.
 
-You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+Usa el botón **Opciones de filtrado** y haz clic en **Ocultar Anime** para desactivar las categorías que contienen más contenido de anime. Podrás cambiar todas las categorías de la izquierda de forma manual, pero los botones **Reiniciar filtros** seguirán sin seleccionar las categorías de anime mientras tengas activa la opción **Ocultar Anime** en las opciones de filtrado.
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
