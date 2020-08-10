@@ -31,9 +31,9 @@ Los controladores de la tarjeta gráfica están dañados o desconfigurados. Desc
 
 Si el problema persiste, cierra Wallpaper Engine y vuelve a abrirlo con la tercera opción en Steam: «Deshabilitar aceleración de hardware».
 
-**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+**Si la interfaz de usuario de Wallpaper Engine tiene líneas blancas**: tienes **Nvidia Image Sharpening** activado para todas las aplicaciones. Desactívalo en los controladores de Nvidia o desinstálalos todos y vuelve a instalarlos desde cero.
 
-![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+![Problema con Nvidia Image Sharpening](./imagesharpening.png) *Verás líneas blancas por toda la ventana de la aplicación si tienes activado Nvidia Image Sharpening en Wallpaper Engine por error.*
 
 ### Error de la interfaz de Steam que destroza la interfaz de Wallpaper Engine
 
