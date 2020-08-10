@@ -16,11 +16,11 @@ tags:
 
 응용 프로그램에서 원하지 않는 범주를 필터링할 수 있습니다. Wallpaper Engine의 "창작마당" 탭을 열어 왼쪽 상단의 "필터 적용 결과" 버튼을 클릭하여 필터 사이드바를 활성화하세요. 그런 다음 결과에 나타내고 싶지 않은 범주를 모두 선택 해제합니다.
 
-또한 **필터 설정** 버튼을 사용한 다음 **아니메 숨기기**를 클릭하여 대부분의 아니메 타입 콘텐츠를 포함한 범주를 자동으로 비활성화할 수도 있습니다. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+또한 **필터 설정** 버튼을 사용한 다음 **아니메 숨기기**를 클릭하여 대부분의 아니메 타입 콘텐츠를 포함한 범주를 자동으로 비활성화할 수도 있습니다. 추후 왼쪽에서 범주를 수동으로 변경할 수 있지만, 필터 설정에서 **아니메 숨기기** 옵션이 활성화되어 있는 한 **필터 초기화** 버튼은 아니메 범주를 선택하지 않습니다.
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  브라우저가 비디오 태그를 지원하지 않습니다.
 </video>
 
 ## 특정 나이 등급 제외
@@ -29,7 +29,7 @@ Steam 창작마당은 노출과 같은 일정 수준의 성인 콘텐츠를 허�
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  브라우저가 비디오 태그를 지원하지 않습니다.
 </video>
 
 대부분의 콘텐츠는 정확히 태그되므로, 성인 콘텐츠 대다수를 필터링합니다. 그러나 "모두" 등급의 성인 콘텐츠가 계속 나온다면, 앱에서 신고하기 기능을 사용해 주세요. 해당 콘텐츠는 다시 분류되거나 검토 후 금지됩니다.
