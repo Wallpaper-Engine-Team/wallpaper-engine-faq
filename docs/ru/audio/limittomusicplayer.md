@@ -18,7 +18,7 @@
 
 ### Настройка Windows и Wallpaper Engine
 
-Check the video below which shows all the steps on an Windows 10 (English interface) from start to finish if you need some help with any of the steps below.
+Если у вас возникнут трудности с перечисленными внизу шагами, полностью посмотрите видео внизу страницы, где показаны все необходимые действия на Windows 10 (английский интерфейс).
 
 1. Start playing music using the software that you later want to be used for Wallpaper Engine
 2. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
