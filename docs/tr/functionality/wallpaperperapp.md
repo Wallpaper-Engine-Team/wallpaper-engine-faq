@@ -3,14 +3,14 @@
 Wallpaper Engine, sisteminizde belirli bir .exe başlatıldığında otomatik olarak farklı duvar kâğıtlarını başlatmanıza olanak sağlar. Bu durum örneğin oyun oynarken daha az dikkat dağıtan duvar kâğıtları kullanmak istediğinizde veya müzik çalarınızı başlatırken otomatik olarak bir ses görselleştirici başlatmak istediğinizde faydalı olabilir.
 
 ::: tip
-If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+Belirli oyunlar veya uygulamalarla ilgili teknik sorunlar yaşıyorsanız belirli bir .exe başlatıldığında Wallpaper Engine'i devre dışı bırakmak için uygulama kurallarını da kullanabilirsiniz. Teknik bir sorunu farklı bir uygulamayla çözmek istiyorsanız şu rehbere göz atın: [Belirli uygulamalar veya oyunlarla ilgili sorunları giderme](/functionality/applicationrules.html)
 :::
 
-## Setting up an application rule
+## Bir uygulama kuralı oluşturma
 
-In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+Wallpaper Engine ayarlarındaki **Performans** sekmesinden **Uygulama kuralları** bölümündeki **Düzenle** tuşuna tıklayın. Seçtiğiniz bir .exe'ye yeni bir duvar kâğıdı seti ayarlamak için **Yeni kural oluştur** seçeneğine tıklayın. **Uygulama ismi** giriş alanında .exe'nizin ismini girin ve ismin tam olarak eşleştiğinden emin olun. Örneğin: *musicplayer.exe*. **Koşul**'u **Çalışıyor** olarak ayarlayın. **Duvar kâğıdını oynatma** seçeneğinden aşağıdakilerden birini seçebilirsiniz:
 
-* Load wallpaper
+* Duvar kâğıdını yükle
 * Oynatma listesini yükle
 * Profil yükle
 
