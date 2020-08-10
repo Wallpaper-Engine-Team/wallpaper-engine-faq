@@ -1,4 +1,4 @@
-# Select wallpapers per application
+# 응용 프로그램별 배경화면 선택
 
 Wallpaper Engine allows you to automatically launch different wallpapers whenever a certain .exe is launched on your system. For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
 
