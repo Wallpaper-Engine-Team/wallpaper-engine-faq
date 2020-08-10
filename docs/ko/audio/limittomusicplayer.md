@@ -10,9 +10,9 @@ Please note This guide only works on updated versions of Windows 10. Older Windo
 
 ### 가짜 오디오 장치 설치
 
-We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
+다음 웹사이트에서 다운로드할 수 있는 무료 **VB-CABLE Virtual Audio Device** 사용을 권장합니다:
 
-* [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
+* [Virtual Audio Device 다운로드](https://www.vb-audio.com/Cable/)
 
 Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
 
