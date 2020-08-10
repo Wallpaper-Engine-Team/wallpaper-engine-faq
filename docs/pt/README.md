@@ -17,4 +17,4 @@ Consulte primeiro esta lista e veja se algum dos problemas descreve a sua dificu
 | 2. [Ecrã preto / vídeos não reproduzem](noshow/notplaying.html)                                                                                 |
 | 3. [Vídeo com cores erradas / demasiado claros ou demasiado escuros / ampliados / pixelados / moldura em volta do vídeo](videos/artifacts.html) |
 | 4. [Wallpaper Engine bloqueia](crash/application.html)                                                                                          |
-| 5. [Exportar wallpapers como GIF / ficheiros de vídeo ](functionality/export.html)                                                              |
+| 5. [Exportar wallpapers como GIF / ficheiros de vídeo](functionality/export.html)                                                               |
