@@ -26,12 +26,12 @@ Aşağıdaki adımlardan herhangi biriyle ilgili yardıma ihtiyacınız olursa b
 4. Ses çalan tüm uygulamaların bir listesi gösterilecektir. Müzik çalarınızı bulun ve **Çıkış** sütunundaki seçeneği **Varsayılan** yerine **CABLE Input (VB-Audio Virtual Cable)** olarak değiştirin. Ses çalarınız hemen sessize alınacaktır, bu olağan bir durumdur.
 5. Windows ses ayarlarının ana sayfasına geri dönün ve sağ üst köşeden **Ses Denetim Masası**'nı seçin.
 6. Küçük bir pencere açılacaktır, **Kayıt** sekmesine gidin, sonrasında **CABLE Output** ses cihazına sağ tıklayın ve **Özellikler**'i seçin.
-7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
-8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
+7. Açılan yeni pencereden **Dinle** sekmesine gidin ve **Bu aygıtı dinle** seçeneğine tıklayın. **Uygula**'ya ve ardından **Tamam** seçeneğine tıklayın, müzik çalarınızdaki müzik geri gelecektir.
+8. Windows artık doğru şekilde yapılandırıldı, **Wallpaper Engine ayarlarını** açın ve **Genel** sekmesindeki **Ses kayıt cihazı**'nı **CABLE Input (VB-Audio Virtual Cable)** olarak değiştirin. Wallpaper Engine artık müzik çalarınızdaki müziğe tepki vermeye başlayacak ancak bilgisayarınızdaki diğer uygulamaları yok sayacaktır.
 
-*Video showcasing all the steps described above:*
+*Yukarıda açıklanan tüm adımları gösteren video:*
 
 <video width="100%" controls>
   <source src="/videos/audioinputdevice.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Tarayıcınız video etiketini desteklemiyor.
 </video>
