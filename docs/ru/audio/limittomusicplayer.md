@@ -1,8 +1,8 @@
 # Ограничить визуализацию звука только проигрывателями музыки
 
-В связи со спецификой работы Windows, с помощью настроек самой программы Wallpaper Engine невозможно ограничить визуализацию звука выбранным проигрывателем музыки. However, you can use third-party software to create a *fake* audio device to achieve this. This guide will explain one way to set such a fake audio device up and how to configure Windows 10 and Wallpaper Engine to make this setup work properly.
+В связи со спецификой работы Windows, с помощью настроек самой программы Wallpaper Engine невозможно ограничить визуализацию звука выбранным проигрывателем музыки. Тем не менее, вы можете добиться такого результата, используя внешнее ПО, чтобы создать *суррогатное* звуковое устройство. Эта инструкция расскаэет об одном из способов создания суррогатного звукового устройства и о том, как настроить Windows 10 и Wallpaper Engine для правильного взаимодействия с ним.
 
-Keep in mind we do not offer support for any fake audio devices and cannot guarantee that this will work - this is a very advanced setup that goes well beyond what Wallpaper Engine offers. We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
+Пожалуйста, обратите внимание, что мы не предлагаем техническую поддержку суррогатным звуковым устройствам и не можем гарантировать, что описанный метод сработает: это очень продвинутые настройки программы, которые выходят за пределы того, что Wallpaper Engine предлагает пользователю. We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
 
 ::: warning
 Please note This guide only works on updated versions of Windows 10. Older Windows versions may be missing some features which makes it impossible to follow this guide.
