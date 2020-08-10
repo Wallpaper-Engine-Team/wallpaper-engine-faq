@@ -16,11 +16,11 @@ tags:
 
 В программе вы можете отсеять категории, которые вам не нравятся. Откройте вкладку «Workshop» в Wallpaper Engine и откройте боковую панель фильтров, нажав на кнопку «Фильтры» в верхнем левом углу. Снимите выделение со всех категорий, которые вы не хотите видеть в результатах поиска.
 
-You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+Кроме этого вы можете использовать кнопку **«Настройки фильтров»** и затем кликнуть на **«Скрыть Аниме»**, чтобы автоматически отключить категории, которые включают в себя контент, наиболее подходящий под описание «Аниме». После этого вы можете вручную изменять категории слева, однако кнопки **«Сбросить фильтры»** не подействует на категории аниме, если в настройках была выбрана опция **«Скрыть Аниме»**.
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Ваш браузер не поддерживает воспроизведение видео.
 </video>
 
 ## Фильтрация по возрастным ограничениям
@@ -29,7 +29,7 @@ You can also use the **Filter Settings** button and then click on **Hide Anime**
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Ваш браузер не поддерживает воспроизведение видео.
 </video>
 
 Большая часть обоев правильно маркирована тегами, поэтому вы сможете отсеять подавляющую часть контента для взрослых. Если вам все равно будет попадаться контент для взрослых, который был классифицирован как «Для всех», пожалуйста, отправьте на него жалобу через программу. Контент будет перенаправлен в другую категорию или удален после проверки.
