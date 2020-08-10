@@ -10,9 +10,9 @@ Te en mente que no ofrecemos asistencia para los dispositivos de audio falsos y 
 
 ### Install a fake audio device
 
-We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
+Te recomendamos utillizar **VB-CABLE Virtual Audio Device**, que es gratis y puedes descargarlo en esta página web:
 
-* [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
+* [Descargar Virtual Audio Device](https://www.vb-audio.com/Cable/)
 
 Descarga el archivo y descomprímelo e instala la versión 32-Bit o 64-Bit, dependiendo de la versión de Windows 10 que tengas, con **VBCABLE_Setup.exe** o **VBCABLE_Setup_x64.exe**. Asegúrate de iniciar el instalador como administrador: haz clic derecho y selecciona *Ejecutar como administrador*. Sigue las instrucciones y asegúrate de que el dispositivo de audio se ha instalado correctamente.
 
@@ -22,14 +22,14 @@ Si necesitas ayuda con los pasos siguientes, puedes ver el vídeo que los muestr
 
 1. Reproduce música con el programa que quieres usar con Wallpaper Engine.
 2. Haz clic derecho en el icono de sonido junto al reloj en el área de notificación de Windows y selecciona **Abrir Configuración de sonido**.
-3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
-5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
-6. A small window will appear, navigate to the **Recording** tab, then right-click on the **CABLE Output** audio device and select **Properties**.
-7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
-8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
+3. Baja hasta el final de la página que se abrirá y pulsa en **Preferencias de dispositivo y volumen de la aplicación**.
+4. Se mostrará una lista de todas las aplicaciones que reproducen audio. Busca el reproductor de música en la columna **Salida** y cambia la opción de **Predeterminado** a **CABLE Input (VB-Audio Virtual Cable)**. El reproductor debería dejar de escucharse inmediatamente, pero es lo habitual.
+5. Vuelve a la página principal de la configuración de sonido de Windows y selecciona **Panel de control de sonido** en la esquina superior derecha.
+6. Aparecerá una ventana pequeña. Dirígete a la pestaña de **Grabar**, haz lic derecho en el dispositivo de audio **CABLE Output** y selecciona **Propiedades**.
+7. Aparecerá otra ventana. Haz clic en la pestaña **Escuchar** y selecciona **Escuchar este dispositivo**. Pulsa **Aplicar** y luego **Aceptar**: debería volver la música del reproductor.
+8. Windows debería de estar configurado correctamente, así que abre los **ajustes de Wallpaper Engine** y cambia la **Entrada de audio** en la pestaña **General** a **CABLE Input (VB-Audio Virtual Cable)**. Ahora Wallpaper Engine debería de empezar a reaccionar ante la música del reproductor de música, pero ignorará el resto de aplicaciones del equipo.
 
-*Video showcasing all the steps described above:*
+*Vídeo que muestra los pasos descritos anteriormente:*
 
 <video width="100%" controls>
   <source src="/videos/audioinputdevice.mp4" type="video/mp4">
