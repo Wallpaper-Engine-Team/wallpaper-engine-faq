@@ -1,6 +1,6 @@
-# Select wallpapers per application
+# Uygulamaya göre duvar kâğıdı seçimi
 
-Wallpaper Engine allows you to automatically launch different wallpapers whenever a certain .exe is launched on your system. For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
+Wallpaper Engine, sisteminizde belirli bir .exe başlatıldığında otomatik olarak farklı duvar kâğıtlarını başlatmanıza olanak sağlar. Bu durum örneğin oyun oynarken daha az dikkat dağıtan duvar kâğıtları kullanmak istediğinizde veya müzik çalarınızı başlatırken otomatik olarak bir ses görselleştirici başlatmak istediğinizde faydalı olabilir.
 
 ::: tip
 If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
