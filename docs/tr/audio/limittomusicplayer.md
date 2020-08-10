@@ -1,18 +1,18 @@
 # Ses görselleştiricilerini müzik çalarlarla sınırlama
 
-Sesin Windows'taki çalışma şeklinden dolayı Wallpaper Engine'in ses görselleştiricilerini müzik çalar seçiminizle sınırlaması mümkün değildir. Ancak bunu gerçekleştirebilmek adına *sahte* bir ses aygıtı oluşturmak için üçüncü taraf yazılım kullanabilirsiniz. This guide will explain one way to set such a fake audio device up and how to configure Windows 10 and Wallpaper Engine to make this setup work properly.
+Sesin Windows'taki çalışma şeklinden dolayı Wallpaper Engine'in ses görselleştiricilerini müzik çalar seçiminizle sınırlaması mümkün değildir. Ancak bunu gerçekleştirebilmek adına *sahte* bir ses cihazı oluşturmak için üçüncü taraf yazılım kullanabilirsiniz. Bu rehber, nasıl bu tür bir sahte ses cihazı kuracağınızı ve bu kurulumun düzgün çalışması için Windows 10 ve Wallpaper Engine'in nasıl yapılandırılacağını açıklar.
 
-Keep in mind we do not offer support for any fake audio devices and cannot guarantee that this will work - this is a very advanced setup that goes well beyond what Wallpaper Engine offers. We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
+Herhangi bir sahte ses cihazı için destek sunmadığımızı ve bunun işe yarayacağını garanti etmediğimizi unutmayın. Bu, Wallpaper Engine'in sunduklarının çok ötesine geçen oldukça gelişmiş bir kurulumdur. Bu rehberi yalnızca sistemlerini özelleştirmek için elinden geleni yapmak etmek isteyen kullanıcılara dostça bir yardım olarak sunuyoruz.
 
 ::: warning
-Please note This guide only works on updated versions of Windows 10. Older Windows versions may be missing some features which makes it impossible to follow this guide.
+Lütfen unutmayın Bu rehber yalnızca Windows 10'un güncellenmiş sürümlerinde çalışır. Daha eski Windows sürümlerinde bazı özellikler eksik olabilir ve bu durum da rehbere uyulmasını imkânsız kılar.
 :::
 
-### Install a fake audio device
+### Sahte bir ses cihazı kurma
 
-We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
+Aşağıdaki siteden ücretsiz olarak indirebileceğiniz **VB-CABLE Virtual Audio Device** uygulamasını kullanmanızı öneririz:
 
-* [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
+* [Virtual Audio Device İndir](https://www.vb-audio.com/Cable/)
 
 Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
 
