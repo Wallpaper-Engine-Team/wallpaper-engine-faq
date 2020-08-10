@@ -14,13 +14,13 @@
 * Загрузить плейлист
 * Загрузить профиль
 
-What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
+Обратите внимание, что оба варианта, и **«Загрузить обои»**, и **«Загрузить плейлист»**, загрузят только одни обои на всех экранах. Есть у вас есть несколько мониторов, и вы бы хотели запускать разные обои на каждом из экранов (или разные плейлисты на каждом из экранов), вам нужен вариант **«Загрузить профиль»**. Вы найдете подробную информацию по созданию такой системы ниже.
 
-### Setting up a multi-monitor profile
+### Создание профиля для нескольких мониторов
 
-**Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
+Вариант **«Загрузить профиль»** в правилах приложения дает возможность создавать профили для нескольких мониторов, которые можно настроить в общем окне мониторов (значок экрана в верхнем правом углу интерфейса). Профиль — это набор всех загруженных обоев и плейлистов на всех ваших экранах. Когда запускается профиль, все обои и плейлисты будут расположены на мониторах в соответствии с настройками профиля.
 
-Configure your wallpapers and playlists across all monitors the the way you want them to be, then click on the **Save profile** button in the monitor settings and save the current setup under a name of your choice. Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
+Настройте удобную для вас конфигурацию обоев и плейлистов на ваших мониторах, а затем нажмите на кнопку **«Сохранить профиль»** в настройках монитора и сохраните данную конфигурацию под удобным для вас названием. Обратите внимания, что любые изменения, которые вы внесете в настройки профиля не будут сохранены, пока вы вновь не нажмете на кнопку **«Сохранить профиль»**. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
