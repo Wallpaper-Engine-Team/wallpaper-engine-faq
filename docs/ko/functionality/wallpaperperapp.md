@@ -1,9 +1,9 @@
 # 응용 프로그램별 배경화면 선택
 
-Wallpaper Engine은 시스템에서 특정 .exe가 실행될 때 자동으로 다른 배경화면이 재생되도록 설정할 수 있습니다. For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
+Wallpaper Engine은 시스템에서 특정 .exe가 실행될 때 자동으로 다른 배경화면이 재생되도록 설정할 수 있습니다. 가령 게임을 플레이할 때 덜 방해받고 싶거나, 음악 플레이어를 시작할 때 오디오 시각화 도우미를 자동으로 실행하길 원하는 경우 유용할 수 있습니다.
 
 ::: tip
-If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+특정 게임이나 응용 프로그램에서 기술적 문제가 발생하면, 특정 .exe를 실행할 때 응용 프로그램 규칙을 사용하여 Wallpaper Engine을 비활성화할 수도 있습니다. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
 :::
 
 ## Setting up an application rule
