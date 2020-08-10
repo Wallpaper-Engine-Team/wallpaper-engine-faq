@@ -1,8 +1,8 @@
 - - -
   tags:
-  - screensavers
-  - hibernation
-  - sleep
+  - 화면 보호기
+  - 최대 절전 모드
+  - 절전 모드
   - power saving
 - - -
 
