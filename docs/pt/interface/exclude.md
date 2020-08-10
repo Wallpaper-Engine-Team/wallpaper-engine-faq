@@ -16,11 +16,11 @@ Utilize sempre o separador Oficina na aplicação para procurar novos wallpapers
 
 Na aplicação pode filtrar e excluir categorias de que não gosta. Abra o separador "Oficina" do Wallpaper Engine e ative a barra lateral de filtros clicando no botão "Filtrar resultados" no canto superior esquerdo. Anule a seleção de todas as categorias que não pretende ver nos seus resultados.
 
-You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+Também pode usar o botão **Definições do filtro** e depois clicar em **Ocultar anime** para desativar automaticamente as categorias que contenham conteúdo do tipo anime. Continua a poder alterar manualmente as categorias à esquerda, mas os botões **Reiniciar filtros** irão manter as categorias sem seleção desde que a opção **Ocultar anime** esteja ativada nas definições dos filtros.
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  O seu browser não suporta o tag vídeo.
 </video>
 
 ## Excluir certas classificações etárias
@@ -29,7 +29,7 @@ A Steam Workshop permite uma certa quantidade de conteúdo adulto, tal como nude
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  O seu browser não suporta o tag vídeo.
 </video>
 
 A maior parte do conteúdo está tagado corretamente, permitindo excluir a grande maioria do conteúdo para adultos. Se mesmo assim deparar com conteúdo para adultos que tenha sido classificado "Para todos", utilize a funcionalidade de denúncia da aplicação. Depois de ser analisado, o conteúdo poderá ser reclassificado ou banido.
