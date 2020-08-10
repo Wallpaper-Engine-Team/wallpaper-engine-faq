@@ -14,13 +14,13 @@ Wallpaper Engine ayarlarındaki **Performans** sekmesinden **Uygulama kuralları
 * Oynatma listesini yükle
 * Profil yükle
 
-What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
+Buradaki önemli nokta, **Duvar kâğıdını yükle** ve **Oynatma listesini yükle** seçeneklerinin her ikisinin de yalnızca bir duvar kâğıdı yüklemesi ve bunu tüm ekranlara dağıtmasıdır. Birden fazla monitörünüz varsa ve her ekran için bağımsız duvar kâğıtları (hatta her ekran için farklı oynatma listeleri) yüklemek istiyorsanız **Profil yükle** seçeneğini kullanmanız gerekir. Bunun nasıl ayarlanacağına dair daha fazla bilgi için aşağıdaki bölümü okuyun.
 
-### Setting up a multi-monitor profile
+### Çoklu monitör profili oluşturma
 
-**Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
+Uygulama kurallarındaki **Profil Yükle** seçeneği, monitöre genel bakış (arayüzün sağ üst köşesindeki ekran simgesi) kısmından yapılandırılabilen çoklu monitör profillerini ifade etmektedir. Profil, mevcut olarak seçili tüm duvar kâğıtlarınız ve tüm ekranlarınızdaki oynatma listelerinin anlık görüntüsüdür. Bir profil yüklendiğinde tüm duvar kâğıtları ve oynatma listeleri profil yapılandırmasına göre yerleştirilir.
 
-Configure your wallpapers and playlists across all monitors the the way you want them to be, then click on the **Save profile** button in the monitor settings and save the current setup under a name of your choice. Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
+Duvar kâğıtlarınızı ve oynatma listelerinizi, tüm monitörlerde olmasını istediğiniz şekilde yapılandırın ve sonra monitör ayarlarındaki **Profili kaydet** tuşuna tıklayarak seçeceğiniz bir isimle mevcut kurulumu kaydedin. Kurulumuzdaki yapacağınız sonraki değişikliklerin, **Profili kaydet** tuşunu tekrar kullanana kadar profili değiştirmeyeceğini unutmayın. Birden fazla profil oluşturup bunları aynı anda birden fazla uygulamaya atayabilirsiniz. Örneğin **Müzik**, **Oyun** ve **Filmler** profillerini oluşturup her bir profili, bu kategorilerle eşleşen tüm .exe dosyalarına atayabilirsiniz.
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
