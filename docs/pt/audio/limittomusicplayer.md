@@ -25,12 +25,12 @@ Se precisar de ajuda com qualquer dos passos infra, consulte o vídeo infra que 
 4. Será apresentada uma lista de todas as aplicações que estão a reproduzir áudio. Procure o seu leitor de música e na coluna **Output** (Saída), mude a opção de **Default** (Predefinição) para **CABLE Input (VB-Audio Virtual Cable)**. O seu leitor de áudio deverá silenciar-se imediatamente, isto é esperado.
 5. Volte à página principal das definições de som do Windows e, no canto superior direito, selecione **Sound Controlo Panel** (Paniel de Controlo Som).
 6. Irá aparecer uma janela pequena, navegue para o separador **Recording** (Gravação), depois clique com o botão direito no dispositivo de áudio **CABLE Output** e selecione **Properties** (Propriedades).
-7. Irá aparecer outra janela, clique n separador **Listen** (Ouvir) e selecione **Listen to this device** (Escutar este dispositivo). Click on **Apply** and **OK** and the music from your music player should return.
-8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
+7. Irá aparecer outra janela, clique n separador **Listen** (Ouvir) e selecione **Listen to this device** (Escutar este dispositivo). Clique em **Apply** (Aplicai) e em **OK** e a música do seu leitor de música deverá voltar.
+8. O Windows está agora corretamente configurado, abra as **Definições do Wallpaper Engine** e no separador **Geral** mude **Dispositivo de gravação de áudio** para **CABLE Input (VB-Audio Virtual Cable)**. O Wallpaper Engine deverá agora começar a reagir à música do seu leitor de música, mas irá ignorar qualquer outra aplicação no seu computador.
 
-*Video showcasing all the steps described above:*
+*Vídeo que mostra todos os passos descritos acima:*
 
 <video width="100%" controls>
   <source src="/videos/audioinputdevice.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  O seu browser não suporta o tag vídeo.
 </video>
