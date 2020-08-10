@@ -1,11 +1,11 @@
-# Limiting audio visualizers to music players
+# Limitar visualizadores de audio a los reproductores de música
 
-Due to how audio works in Windows, it is not possible for Wallpaper Engine itself to limit audio visualizers to your music player of choice. However, you can use third-party software to create a *fake* audio device to achieve this. This guide will explain one way to set such a fake audio device up and how to configure Windows 10 and Wallpaper Engine to make this setup work properly.
+Debido al funcionamiento del sonido en Windows, a Wallpaper Engine le resulta imposible limitar los visualizadores de audio con el reproductor de música que elijas. Sin embargo, puedes usar una aplicación de terceros para crear un dispositivo de sonido *falso* para hacerlo. En esta guía te explicaremos una forma para crear el dispositivo falso y cómo configurar Windows 10 y Wallpaper Engine para que funcione.
 
-Keep in mind we do not offer support for any fake audio devices and cannot guarantee that this will work - this is a very advanced setup that goes well beyond what Wallpaper Engine offers. We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
+Te en mente que no ofrecemos asistencia para los dispositivos de audio falsos y no podemos garantizar que vaya a funcionar: es un proceso muy avanzada que va mucho más allá de lo que ofrece Wallpaper Engine. Hemos hecho esta guía únicamente para ayudar a aquellos usuarios que quieren ir un paso más allá a la hora de personalizar sus equipos.
 
 ::: warning
-Please note This guide only works on updated versions of Windows 10. Older Windows versions may be missing some features which makes it impossible to follow this guide.
+¡Aviso! Esta guía solo funciona con las versiones actualizadas de Windows 10. Es posible que las versiones antiguas no cuenten con algunas de las funciones, por lo que sería imposible seguirla.
 :::
 
 ### Install a fake audio device
