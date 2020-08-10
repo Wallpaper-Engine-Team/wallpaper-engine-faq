@@ -2,19 +2,19 @@
 
 В связи со спецификой работы Windows, с помощью настроек самой программы Wallpaper Engine невозможно ограничить визуализацию звука выбранным проигрывателем музыки. Тем не менее, вы можете добиться такого результата, используя внешнее ПО, чтобы создать *суррогатное* звуковое устройство. Эта инструкция расскаэет об одном из способов создания суррогатного звукового устройства и о том, как настроить Windows 10 и Wallpaper Engine для правильного взаимодействия с ним.
 
-Пожалуйста, обратите внимание, что мы не предлагаем техническую поддержку суррогатным звуковым устройствам и не можем гарантировать, что описанный метод сработает: это очень продвинутые настройки программы, которые выходят за пределы того, что Wallpaper Engine предлагает пользователю. We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
+Пожалуйста, обратите внимание, что мы не предлагаем техническую поддержку суррогатным звуковым устройствам и не можем гарантировать, что описанный метод сработает: это очень продвинутые настройки программы, которые выходят за пределы того, что Wallpaper Engine предлагает пользователю. Мы не более чем предлагаем инструкцию в качестве дружеской помощи пользователям, которые готовы на дополнительные шаги для настройки собственной системы.
 
 ::: warning
-Please note This guide only works on updated versions of Windows 10. Older Windows versions may be missing some features which makes it impossible to follow this guide.
+Обратите внимание Эта инструкция может быть применима только к обновленным версиям Windows 10. В более старых версиях Windows могут отсутствовать некоторые функции, которые приведут к тому, что инструкция станет невыполнимой.
 :::
 
-### Install a fake audio device
+### Установите суррогатное звуковое устройство
 
-We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
+Мы рекомендуем использовать бесплатный вариант **VB-CABLE Virtual Audio Device**, который можно скачать с данного сайта:
 
 * [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
 
-Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
+Скачайте и извлеките архивированный файл, затем установите либо 32-разрядную, либо 64-разрядную версию звукового устройства, в зависимости от версии вашей системы Windows 10, используя, соответственно, либо **VBCABLE_Setup.exe**, либо **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
 
 ### Setting up Windows and Wallpaper Engine
 
