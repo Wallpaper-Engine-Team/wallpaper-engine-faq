@@ -1,14 +1,14 @@
-# Select wallpapers per application
+# Seleccionar fondos por cada aplicación
 
-Wallpaper Engine allows you to automatically launch different wallpapers whenever a certain .exe is launched on your system. For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
+Wallpaper Engine te permite usar fondos de pantalla distintos de forma automática cuando se abre un .exe en concreto en el equipo. Puede ser útil, por ejemplo, si quieres tener fondos que distraigan menos cuando juegas a un juego o si quieres abrir un visualizador de audio al abrir el reproductor de música.
 
 ::: tip
-If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+Si tienes problemas técnicos con algunos juegos o aplicaciones, puedes hacer uso de las reglas de aplicación para desactivar Wallpaper Engine al abrir un .exe en concreto. Si quieres resolver un problema técnico con otra aplicación, puedes echar un vistazo a esta guía: [Solucionar problemas con ciertos programas o juegos](/functionality/applicationrules.html)
 :::
 
-## Setting up an application rule
+## Establecer una regla de aplicación
 
-In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+En la pestaña **Rendimiento** de los ajustes de Wallpaper Engine, haz clic en el botón **Editar** en la sección de **Reglas de aplicación**. Haz clic en **Crear nueva regla** para configurar otros fondos de pantalla para el .exe que elijas. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
 
 * Load wallpaper
 * Load playlist
