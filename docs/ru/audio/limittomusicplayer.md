@@ -20,10 +20,10 @@
 
 Если у вас возникнут трудности с перечисленными внизу шагами, полностью посмотрите видео внизу страницы, где показаны все необходимые действия на Windows 10 (английский интерфейс).
 
-1. Start playing music using the software that you later want to be used for Wallpaper Engine
-2. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
+1. Запустите музыку на ПО, которое вы в дальнейшем хотите использовать вместе с Wallpaper Engine.
+2. Нажмите правой кнопкой мыши по значку звука рядом с часами в панели задач и выберите **«Открыть параметры звука»**.
+3. Докрутите открывшееся окно до самого низа и кликните на **«Параметры устройств и громкости приложений»**.
+4. Вам покажет список всех программ, проигрывающих звук. Найдите ваш музыкальный проигрыватель и в колонке **«Вывод»** смените опцию с **«По умолчанию»** на **«CABLE Input (VB-Audio Virtual Cable)»**. Музыкальный проигрыватель немедленно замолчит, в этом нет ошибки.
 5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
 6. A small window will appear, navigate to the **Recording** tab, then right-click on the **CABLE Output** audio device and select **Properties**.
 7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
