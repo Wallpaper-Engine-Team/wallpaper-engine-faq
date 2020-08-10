@@ -4,6 +4,6 @@ tags:
   - login screen
 ---
 
-# Wallpaper Engine on the Windows lock screen
+# Wallpaper Engine на экране блокировки Windows
 
-We frequently get asked if it is possible to set a Wallpaper Engine wallpaper on the Windows lock screen. Unfortunately this is not possible due to limitations in Windows itself. The lock screen is a protected area of Windows which cannot be modified without hacking Windows. This serves system security as applications should not be able to add malicious content to the login window. For this reason, Wallpaper Engine cannot add wallpapers to the lock screen and we cannot add this feature in the future either.
+Нас часто спрашивают, возможно ли установить обои Wallpaper Engine в качестве изображения для экрана блокировки Windows. К сожалению, это невозможно в связи с внутренними ограничениями Windows. Экран блокировки относится к защищенным сегментам Windows, в которые невозможно вносить изменения без взламывания системы. Эта важная защитная функция системы, которая не позволяет программам добавлять на окно входа вредоносный контент. Поэтому с помощью Wallpaper Engine невозможно добавить обои на экран блокировки, и в дальнейшем такой функции у программы не появится.
