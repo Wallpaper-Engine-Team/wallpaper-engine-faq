@@ -33,5 +33,5 @@ Si necesitas ayuda con los pasos siguientes, puedes ver el vídeo que los muestr
 
 <video width="100%" controls>
   <source src="/videos/audioinputdevice.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Tu navegador no admite la etiqueta de vídeo.
 </video>
