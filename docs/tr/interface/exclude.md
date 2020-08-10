@@ -1,11 +1,11 @@
 ---
 tags:
-  - anime
-  - filter
-  - search
-  - categories
-  - mature
-  - adult
+  - animasyon
+  - filtre
+  - ara
+  - kategoriler
+  - olgun
+  - yetişkin
 ---
 
 # Belirli duvar kâğıtlarını aramanın dışında tutma
