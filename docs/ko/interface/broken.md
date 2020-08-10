@@ -31,7 +31,7 @@ Wallpaper Engine 사용자 인터페이스가 바이러스 백신 응용 프로�
 
 문제가 지속되면 Wallpaper Engine를 끕니다. 그런 다음 Steam의 세 번째 실행 옵션인 "UI 하드웨어 가속 사용 안 함"을 사용해 Wallpaper Engine을 다시 실행하세요.
 
-**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Nvidia 드라이버에서 끄거나, 기존 Nvidia 드라이버를 삭제한 뒤 재설치하세요.
 
 ![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
 
