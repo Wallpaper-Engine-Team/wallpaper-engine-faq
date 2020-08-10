@@ -5,7 +5,7 @@ Windows에서의 오디오 작동 방식 때문에, Wallpaper Engine이 직접 �
 저희는 가짜 오디오 장치를 지원하지 않으며, 이것의 작동을 보장하지 않습니다. 이는 매우 복잡한 설정으로, Wallpaper Engine의 지원 범위를 넘습니다. 이 가이드는 시스템을 취향에 맞게 설정하기 위해 애쓰는 사용자를 순수하게 도우려는 목적으로 제공하는 것입니다.
 
 ::: warning
-이 가이드는 Windows 10의 업데이트 버전에만 해당됩니다. 이전 Windows 버전에는 일부 기능이 포함되지 않아 이 가이드를 따르지 못할 수도 있습니다.
+이 가이드는 Windows 10의 업데이트 버전에만 해당됩니다. 이전 Windows 버전에는 일부 기능이 포함되지 않아 이 가이드가 적용되지 않을 수도 있습니다.
 :::
 
 ### 가짜 오디오 장치 설치
@@ -18,10 +18,10 @@ Windows에서의 오디오 작동 방식 때문에, Wallpaper Engine이 직접 �
 
 ### Windows 및 Wallpaper Engine 설치
 
-Check the video below which shows all the steps on an Windows 10 (English interface) from start to finish if you need some help with any of the steps below.
+아래 단계 중 도움이 필요하면, Windows 10(영어 인터페이스)에서 시작부터 끝까지 모든 단계가 담겨 있는 하단의 비디오를 확인하세요.
 
-1. Start playing music using the software that you later want to be used for Wallpaper Engine
-2. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
+1. 나중에 Wallpaper Engine에서 사용하려는 소프트웨어로 음악을 재생합니다.
+2. Windows 트레이에서 시계 옆 오디오 아이콘을 오른쪽 클릭하고 **소리 설정 열기**를 선택합니다.
 3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
 4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
 5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
