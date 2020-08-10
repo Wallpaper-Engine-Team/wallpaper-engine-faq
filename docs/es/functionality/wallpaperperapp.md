@@ -8,15 +8,15 @@ Si tienes problemas técnicos con algunos juegos o aplicaciones, puedes hacer us
 
 ## Establecer una regla de aplicación
 
-En la pestaña **Rendimiento** de los ajustes de Wallpaper Engine, haz clic en el botón **Editar** en la sección de **Reglas de aplicación**. Haz clic en **Crear nueva regla** para configurar otros fondos de pantalla para el .exe que elijas. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+En la pestaña **Rendimiento** de los ajustes de Wallpaper Engine, haz clic en el botón **Editar** en la sección de **Reglas de aplicación**. Haz clic en **Crear nueva regla** para configurar otros fondos de pantalla para el .exe que elijas. Escribe el nombre del .exe en **Nombre de la aplicación** y asegúrate de que coincide exactamente con el nombre original. Por ejemplo: *musicplayer.exe*. Cambia la **Condición** a **Se está ejecutando**. Puedes elegir una de estas opciones en **Reproducción de fondos**:
 
-* Load wallpaper
-* Load playlist
-* Load profile
+* Cargar fondo
+* Cargar lista de reproducción
+* Cargar perfil
 
-What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
+Lo que importante a tener en cuenta es que **Cargar fondo** y **Cargar lista de reproducción** solamente cargarán un fondo y lo mostrarán en todas las pantallas. Si tienes varios monitores y quieres tener fondos independientes para cada pantalla (o incluso listas de reproducción distintas en cada pantalla), tendrás que usar la opción **Cargar perfil**. Lee la sección siguiente para saber cómo realizar dicha configuración.
 
-### Setting up a multi-monitor profile
+### Configurar un perfil con varios monitores
 
 **Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
 
