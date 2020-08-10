@@ -3,16 +3,16 @@
 Wallpaper Engine은 시스템에서 특정 .exe가 실행될 때 자동으로 다른 배경화면이 재생되도록 설정할 수 있습니다. 가령 게임을 플레이할 때 덜 방해받고 싶거나, 음악 플레이어를 시작할 때 오디오 시각화 도우미를 자동으로 실행하길 원하는 경우 유용할 수 있습니다.
 
 ::: tip
-특정 게임이나 응용 프로그램에서 기술적 문제가 발생하면, 특정 .exe를 실행할 때 응용 프로그램 규칙을 사용하여 Wallpaper Engine을 비활성화할 수도 있습니다. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+특정 게임이나 응용 프로그램에서 기술적 문제가 발생하면, 특정 .exe를 실행할 때 응용 프로그램 규칙을 사용하여 Wallpaper Engine을 비활성화할 수도 있습니다. 또 다른 앱의 기술적 문제를 해결하려면 대신 이 가이드를 확인하세요: [특정 앱 또는 게임 오류 해결](/functionality/applicationrules.html)
 :::
 
-## Setting up an application rule
+## 응용 프로그램 규칙 설정
 
-In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+Wallpaper Engine 설정의 **성능** 탭의 **응용 프로그램 규칙** 섹션의 **편집** 버튼을 클릭하세요. 그리고 **새 규칙 만들기**를 클릭하여 선택한 .exe의 새 배경화면 세트를 설정하세요. **응용 프로그램 이름** 입력 칸에 .exe 이름을 입력하세요. *musicplayer.exe*처럼 이름이 정확히 일치해야 합니다. **실행**할 **조건**을 설정하세요. **배경화면 재생** 옵션에서 다음 옵션 중 하나를 선택할 수 있습니다:
 
-* Load wallpaper
-* Load playlist
-* Load profile
+* 배경화면 로드
+* 재생목록 로드
+* 프로필 로드
 
 What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
 
