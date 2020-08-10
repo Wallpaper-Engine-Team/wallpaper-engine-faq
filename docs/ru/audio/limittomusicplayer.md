@@ -14,9 +14,9 @@
 
 * [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
 
-Скачайте и извлеките архивированный файл, затем установите либо 32-разрядную, либо 64-разрядную версию звукового устройства, в зависимости от версии вашей системы Windows 10, используя, соответственно, либо **VBCABLE_Setup.exe**, либо **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
+Скачайте и извлеките архивированный файл, затем установите либо 32-разрядную, либо 64-разрядную версию звукового устройства, в зависимости от версии вашей системы Windows 10, используя, соответственно, либо **VBCABLE_Setup.exe**, либо **VBCABLE_Setup_x64.exe**. Вам понадобится запустить загрузочный файл от имени администратора. Для этого кликните на него правой кнопкой мыши и нажмите на *«Запустить от имени администратора»*. Выполните инструкции по инсталляции и удостоверьтесь, что звуковое устройство было установлено успешно.
 
-### Setting up Windows and Wallpaper Engine
+### Настройка Windows и Wallpaper Engine
 
 Check the video below which shows all the steps on an Windows 10 (English interface) from start to finish if you need some help with any of the steps below.
 
