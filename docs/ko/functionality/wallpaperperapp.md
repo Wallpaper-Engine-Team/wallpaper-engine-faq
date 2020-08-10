@@ -18,11 +18,11 @@ Wallpaper Engine 설정의 **성능** 탭의 **응용 프로그램 규칙** 섹�
 
 ### 다중 모니터 프로필 설정
 
-응용 프로그램 규칙에서 **프로필 로드**는 모니터 개요에서 구성할 수 있는 다중 모니터 프로필을 의미합니다. (인터페이스의 오른쪽 상단 화면 아이콘) A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. 언제든지 프로필을 로드하면, 모든 배경화면서 재생목록이 프로필 구성에 따라 배치됩니다.
+응용 프로그램 규칙에서 **프로필 로드**는 모니터 개요에서 구성할 수 있는 다중 모니터 프로필을 의미합니다.(인터페이스의 오른쪽 상단 화면 아이콘) 프로필은 모든 화면의 현재 선택한 배경화면과 재생목록의 스냅샷입니다. 언제든지 프로필을 로드하면, 모든 배경화면서 재생목록이 프로필 구성에 따라 배치됩니다.
 
-모든 모니터에 배경화면과 재생목록을 원하는 방식으로 구성한 다음, 모니터 설정에서 **프로필 저장** 버튼을 클릭하고 원하는 이름으로 현재 설정을 저장하세요. 이후 설정 변경은 **프로필 저장** 버튼을 다시 사용하기 전에는 프로필을 바꾸지 않습니다. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
+모든 모니터에 배경화면과 재생목록을 원하는 방식으로 구성한 다음, 모니터 설정에서 **프로필 저장** 버튼을 클릭하고 원하는 이름으로 현재 설정을 저장하세요. 이후 설정 변경은 **프로필 저장** 버튼을 다시 사용하기 전에는 프로필을 바꾸지 않습니다. 복수의 프로필을 설정하고 복수의 앱에 한번에 지정할 수 있습니다. 예를 들어 **음악**, **게임**, **영화** 프로필을 만든 다음 일치하는 범주의 모든 .exe 파일에 각 프로필을 지정할 수 있습니다.
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  브라우저가 비디오 태그를 지원하지 않습니다.
 </video>
