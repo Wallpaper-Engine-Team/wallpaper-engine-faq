@@ -1,9 +1,8 @@
-# Select wallpapers per application
+# Selecionar wallpapers por aplicação
 
-Wallpaper Engine allows you to automatically launch different wallpapers whenever a certain .exe is launched on your system. For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
+O Wallpaper Engine permite-lhe iniciar automaticamente wallpapers diferentes sempre que um determinado .exe for iniciado no seu sistema. Por exemplo, isto pode ser útil se quiser ter wallpapers que o distraiam menos quando estiver a jogar um jogo ou iniciar automaticamente um vizualizador de áudio quando inicia o seu leitor de música.
 
-::: tip
-If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+::: dica Se estiver a ter dificuldades com certos jogos ou aplicações, també pode usar as regras da aplicação para desativar o Wallpaper Engine quando um determindo .exe é iniciado. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
 :::
 
 ## Setting up an application rule
