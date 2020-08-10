@@ -8,7 +8,7 @@ Keep in mind we do not offer support for any fake audio devices and cannot guara
 Please note This guide only works on updated versions of Windows 10. Older Windows versions may be missing some features which makes it impossible to follow this guide.
 :::
 
-### Install a fake audio device
+### 가짜 오디오 장치 설치
 
 We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
 
