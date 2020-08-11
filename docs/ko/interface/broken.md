@@ -31,6 +31,10 @@ Wallpaper Engine 사용자 인터페이스가 바이러스 백신 응용 프로�
 
 문제가 지속되면 Wallpaper Engine를 끕니다. 그런 다음 Steam의 세 번째 실행 옵션인 "UI 하드웨어 가속 사용 안 함"을 사용해 Wallpaper Engine을 다시 실행하세요.
 
+**Wallpaper Engine 사용자 인터페이스에 흰색 줄이 있습니다**: **Nvidia Image Sharpening** 기능이 모든 응용 프로그램에 전역 설정되어 있습니다. Nvidia 드라이버에서 해당 기능을 끄거나, 기존 Nvidia 드라이버를 삭제한 뒤 재설치하세요.
+
+![Nvidia Image Sharpening 문제](./imagesharpening.png) *실수로 Nvidia Image Sharpening 기능이 Wallpaper Engine에 설정되어 있으면, 해당 응용 프로그램의 모든 창에 흰색 줄이 나타납니다.*
+
 ### Wallpaper Engine 사용자 인터페이스를 손상시키는 희귀 Steam 오버레이 버그
 
 검은색 응용프로그램 창이 나타나는 다른 가능성은 희귀한 Steam 오버레이 Steam 버그입니다. 다음을 시도해 보세요:
