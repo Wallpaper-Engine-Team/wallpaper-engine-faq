@@ -2,7 +2,8 @@
 
 O Wallpaper Engine permite-lhe iniciar automaticamente wallpapers diferentes sempre que um determinado .exe for iniciado no seu sistema. Por exemplo, isto pode ser útil se quiser ter wallpapers que o distraiam menos quando estiver a jogar um jogo ou iniciar automaticamente um visualizador de áudio quando inicia o seu leitor de música.
 
-::: dica Se estiver a ter dificuldades com certos jogos ou aplicações, também pode usar as regras para aplicações para desativar o Wallpaper Engine quando um determinado .exe é iniciado. Se quiser resolver um problema técnico com outra aplicação consulte, em vez disso, este guia: [Corrigir erros com aplicações ou jogos específicos](/functionality/applicationrules.html)
+::: tip
+Se estiver a ter dificuldades com certos jogos ou aplicações, também pode usar as regras para aplicações para desativar o Wallpaper Engine quando um determinado .exe é iniciado. Se quiser resolver um problema técnico com outra aplicação consulte, em vez disso, este guia: [Corrigir erros com aplicações ou jogos específicos](/functionality/applicationrules.html)
 :::
 
 ## Definir uma regra de aplicação
