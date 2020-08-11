@@ -31,6 +31,10 @@ Grafik kartı sürücüleriniz bozuk veya yanlış yapılandırılmış. Grafik 
 
 Sorun devam ederse Wallpaper Engine'i kapatın. Daha sonra Steam'deki "Kullanıcı arayüzü donanım hızlandırmayı devre dışı bırak" etiketli üçüncü başlatma seçeneğini kullanarak Wallpaper Engine'i yeniden başlatın.
 
+**Wallpaper Engine kullanıcı arayüzünde beyaz çizgiler varsa**: **Nvidia Görüntü Keskinleştirme** tüm uygulamalar için açıktır. Nvidia sürücülerinizden kapatın veya mevcut sürücülerinizi kaldırıp temiz bir Nvidia sürücüsü kurun.
+
+![Nvidia Görüntü Keskinleştirme Sorunu](./imagesharpening.png) *Nvidia görüntü keskinleştirme hatayla Wallpaper Engine için açıldıysa uygulama penceresinin her yerinde beyaz çizgiler görünecektir.*
+
 ### Wallpaper Engine Kullanıcı Arayüzünü Bozan Nadir Steam Arayüzü Hatası
 
 Siyah uygulama penceresinin diğer bir olası nedeni de Steam arayüzüyle ilgili nadir bir Steam hatasıdır. Şunları deneyebilirsiniz:

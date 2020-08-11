@@ -31,8 +31,12 @@ Os controladores da sua placa gráfica estão danificados ou mal configurados. T
 
 Se o problema persistir, desative o Wallpaper Engine. Em seguida, volte a iniciar o Wallpaper Engine utilizando a opção de lançamento de terceiros no Steam, assinalado "disable UI hardware accelleration" (desativar aceleração por hardware da IU).
 
+**Se o interface para o utilizador do Wallpaper Engine tiver linhas brancas**: Tem **Nvidia Image Sharpening** ativado para todas as aplicações. Desative a opção nos seus controladores Nvidia ou faça uma reinstalação limpa dos seus controladores Nvidia atuais.
+
+![Problema de aumento de nitidez Nvidia](./imagesharpening.png) *As linhas brancas devem ser visíveis em toda a janela da aplicação se o aumento de nitidez da imagem da Nvidia estiver ativado para o Wallpaper Engine por engano.*
+
 ### Erro raro do overlay do Steam quebra o interface para o utilizador do Wallpaper Engine
 
-A outra razão possível para uma janela de aplicação toda preta é um error raro do Steam com o Steam overlay. Pode tentar o seguinte:
+A outra razão possível para uma janela de aplicação toda preta é um error raro do Steam com o Steam overlay. Pode experimentar o seguinte:
 
 Desative completamente o Wallpaper Engine (clique com o botão direito no ícone do tabuleiro e depois selecione "Sair"). Em seguida, abra o Steam, clique com o botão direito no Wallpaper Engine, selecione "Properties" (Propriedades) e depois desative a opção "Enable Steam Overlay while in-game" (Ativar Steam Overlay durante o jogo). Depois de desativar a opção, experimente reiniciar o Wallpaper Engine através do Steam. 

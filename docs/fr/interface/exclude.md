@@ -1,3 +1,13 @@
+---
+tags:
+  - animé
+  - filtre
+  - recherche
+  - catégories
+  - adulte
+  - interdit aux -18 ans
+---
+
 # Exclure certains fonds d'écran de la recherche
 
 Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web du Workshop Steam n'a pas les mêmes capacités de filtrage que l'application et vous montrera beaucoup trop de contenu.
@@ -6,15 +16,21 @@ Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web
 
 Vous pouvez exclure les catégories que vous n'aimez pas dans l'application. Ouvrez l'onglet "Workshop" de Wallpaper Engine et activez la barre des filtres en cliquant sur "Filtrer les résultats" en haut à gauche. Désélectionnez toutes les catégories que vous ne voulez pas voir.
 
-Par exemple, si vous n'aimez pas trop le style manga, vous pouvez désélectionner les catégories *Anime* et *MMD (Miku-Miku-Dance)*. Vous pouvez également décocher *Cartoon* et *Filles*, car ils contiennent également des design d'anime, mais vous risquez de bloquer trop de contenu.
+Vous pouvez également utiliser le bouton de **Paramètres de filtre** puis cliquer sur **Cacher animé** pour désactiver automatiquement les catégories qui contiennent le plus de contenu de type animé. Vous pouvez toujours modifier plus tard et manuellement les catégories sur la gauche, mais les boutons **Réinitialiser les filtres** continueront à ne pas sélectionner les catégories animé tant que l'option **Cacher animé** est activée dans les paramètres de filtre.
 
-![Désélectionnez dans les filtres les catégories que vous ne voulez pas voir](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Votre explorateur ne prend pas en charge le filtre vidéo.
+</video>
 
 ## Bloquer certaines tranches d'âge
 
 Le Workshop de Steam permet de charger également du contenu pour adulte, comme de la nudité. Si vous ne souhaitez pas voir ce genre de contenu, sélectionnez le filtre "Tout le monde" :
 
-![Désélectionnez dans les filtres le contenu "Adulte" et "Discutable"](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Votre explorateur ne prend pas en charge le filtre vidéo.
+</video>
 
 La plupart du contenu est bien labellisé et le contenu pour adulte sera filtré. Si vous voyez du contenu pour adultes qui a été labellisé pour "Tout le monde", veuillez nous le signaler immédiatement. Ce contenu sera placé dans une autre catégorie ou censuré.
 

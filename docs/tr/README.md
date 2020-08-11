@@ -1,4 +1,4 @@
-# Wallpaper Engine Sorun Giderme Rehberi ve SSS
+# Wallpaper Engine Sorun Giderme Rehberi & ve SSS
 Teknik bir sorun yaşıyor ya da Wallpaper Engine hakkında soru sormak istiyorsanız cevabınızı burada bulabilirsiniz. Tarafımıza iletilen soruların ve sorunların %95'i birbirine benzer olduğundan cevabınızı burada bulma ihtimaliniz yüksektir.
 
 **Sağ üst köşedeki arama çubuğunu kullanabilir** ya da soldaki makale listesinde gezinebilirsiniz. Makaleleri elimizden geldiğince kategorileştirdik. Sorunuzun yanıtını aşağıda listelediğimiz en sık başvurulan yardım makalelerinde de arayabilirsiniz.
