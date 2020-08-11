@@ -1,3 +1,13 @@
+---
+tags:
+  - anime
+  - filtro
+  - buscar
+  - categorías
+  - maduro
+  - adulto
+---
+
 # Excluir ciertos fondos de la búsqueda
 
 Usa siempre la pestaña Workshop para buscar fondos nuevos. Steam Workshop no cuenta con la misma capacidad de filtrado que el programa, por lo que le mostrará más contenido que no te interesa.
@@ -6,15 +16,21 @@ Usa siempre la pestaña Workshop para buscar fondos nuevos. Steam Workshop no cu
 
 Puedes eliminar categorías que no te gusten. Abre la pestaña «Workshop» en Wallpaper Engine y haz clic en el botón «Filtrar resultados» en la esquina superior izquierda para habilitar la barra lateral de filtros. Deselecciona todas las categorías que no quieras ver en los resultados.
 
-Si no quieres ver fondos de anime, quita las categorías *Anime* y *MMD (Miku-Miku-Dance)*. Además, también puedes quitar las categorías *Dibujos animados* y *Chicas*, ya que también pueden contener anime, pero te perderás otro tipo de contenido.
+Usa el botón **Opciones de filtrado** y haz clic en **Ocultar Anime** para desactivar las categorías que contienen más contenido de anime. Podrás cambiar todas las categorías de la izquierda de forma manual, pero los botones **Reiniciar filtros** seguirán sin seleccionar las categorías de anime mientras tengas activa la opción **Ocultar Anime** en las opciones de filtrado.
 
-![Deselecciona todas las categorías que no quiera ver en los resultados](./categories.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filtercontent.mp4" type="video/mp4">
+  Tu navegador no admite la etiqueta de vídeo.
+</video>
 
 ## Excluir clasificaciones por edades
 
 Steam Workshop admite contenido adulto hasta cierto grado como, por ejemplo, desnudez. Si no quieres ver este tipo de contenido, selecciona solo «Para todas las edades» en los filtros de clasificación por edades:
 
-![Deselecciona la clasificación para edades «Contenido para adultos» y «Contenido dudoso» en la barra lateral.](./ageratings.gif)
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Tu navegador no admite la etiqueta de vídeo.
+</video>
 
 La mayoría del contenido está bien clasificado y así se excluirá la gran mayoría de contenido adulto. Si llegas a encontrarte con ese tipo de contenido porque se ha clasificado «Para todas las edades», usa la función de Informar del programa. Tras inspeccionarlo, el contenido se clasificará correctamente o se eliminará.
 
