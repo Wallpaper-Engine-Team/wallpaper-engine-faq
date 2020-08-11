@@ -1,3 +1,11 @@
+- - -
+  tags:
+  - screensavers
+  - hibernation
+  - sleep
+  - power saving
+- - -
+
 # Hibernação / Proteções de ecrã não funcionam
 
 O Windows não hiberna com streams de áudio ativos abertos. Pode ultrapassar isto desativando a saída de áudio no separador "Geral" das definições do Wallpaper Engine para impedir que o Windows bloqueie a hibernação. Se quiser continuar a ter saída de áudio, siga as instruções deste guia para obter esse resultado.
@@ -17,7 +25,7 @@ O Windows não hiberna com streams de áudio ativos abertos. Pode ultrapassar is
 
 ## Problemas de hibernação com wallpapers do tipo "Web"
 
-Os wallpapers "Web" usam um browser semelhante ao Google Chrome ("CEF") que impedirá o modo de hibernação. Até isto ser corrigido no browser, pode ultrapassar isto com algumas instruções na linha de comandos.
+Os wallpapers "Web" usam um browser semelhante ao Google Chrome ("CEF") que impedirá o modo de hibernação. Até isto ser corrigido no browser, pode ser ultrapassado com algumas instruções na linha de comandos.
 
 1. Procure "cmd.exe" no Windows e clique nele com o botão direito e, em seguida, selecione "Executar como administrador" (é muito importante, caso contrário não funciona!).
 2. Utilize o comendo `powercfg /requests` para visualizar todos os processos que estão a impedir o seu sistema de hibernar (veja também se a responsabilidade poderá ser de outros programas).
