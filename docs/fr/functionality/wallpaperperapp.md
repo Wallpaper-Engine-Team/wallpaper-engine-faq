@@ -2,7 +2,8 @@
 
 Wallpaper Engine vous permet d'afficher automatiquement différents fonds d'écran quand un certain .exe s'exécute dans votre système. Par exemple, cela peut-être utile si vous voulez des fonds d'écran moins tape-à-l'œil quand vous jouez à un jeu ou pour lancer automatiquement un visualiseur audio quand vous ouvrez votre lecteur de musique.
 
-::: astuce Si vous rencontrez des problèmes techniques dans certains jeux ou applications, vous pouvez aussi utiliser les règles d'application pour désactiver Wallpaper Engine quand un certain .exe est exécuté. Si vous voulez résoudre un problème technique dans une autre appli, consultez ce guide : [Résoudre les problèmes d'applis ou de jeux spécifiques](/functionality/applicationrules.html)
+::: tip
+Si vous rencontrez des problèmes techniques dans certains jeux ou applications, vous pouvez aussi utiliser les règles d'application pour désactiver Wallpaper Engine quand un certain .exe est exécuté. Si vous voulez résoudre un problème technique dans une autre appli, consultez ce guide : [Résoudre les problèmes d'applis ou de jeux spécifiques](/functionality/applicationrules.html)
 :::
 
 ## Configurer une règle d'application

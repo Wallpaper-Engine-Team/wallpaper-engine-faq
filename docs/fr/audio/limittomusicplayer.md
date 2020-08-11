@@ -4,7 +4,8 @@
 
 N'oubliez pas que nous ne prenons en charge aucun faux appareil audio et que nous ne pouvons pas vous garantir que cela fonctionnera. Ceci est une installation très avancée qui va bien au-delà de ce qu'offre Wallpaper Engine. Nous ne proposons ce guide que pour aider les utilisateurs qui veulent pousser la personnalisation de leur système encore plus loin.
 
-::: Attention Ce guide ne fonctionne que sur les versions mises à jour de Windows 10. Des versions Windows plus anciennes ne comportent pas toutes les fonctionnalités nécessaires pour suivre ce guide.
+::: warning
+Ce guide ne fonctionne que sur les versions mises à jour de Windows 10. Des versions Windows plus anciennes ne comportent pas toutes les fonctionnalités nécessaires pour suivre ce guide.
 :::
 
 ### Installer un faux appareil audio
