@@ -15,7 +15,7 @@ Lütfen unutmayın Bu başlık, Wallpaper Engine **duvar kâğıtlarının** siy
 
 ## Grafik kartı sürücüsünün temiz şekilde yeniden kurulumu
 
-Kullanıcıların çoğunda, grafik kartı sürücülerinin temiz bir şekilde yeniden kurulması, video duvar kâğıtları ile ilgili sorunların çoğunu düzeltecektir. Buna siyah ekranlar ve duvar kâğıtları ayrı bir pencerede gösterilen kullanıcılar da dâhildir (**"ActiveMovie Penceresi"** başlıklı).
+Kullanıcıların çoğunda, grafik kartı sürücülerinin temiz bir şekilde yeniden kurulması, video duvar kâğıtları ile ilgili sorunların çoğunu düzeltecektir. Buna siyah ekranlar ve duvar kâğıtları ayrı bir pencerede gösterilen kullanıcılar da dâhildir (**"ActiveMovie Window"** başlıklı).
 
 1. Grafik kartınız için en güncel grafik kartı sürücülerini indirin (veya Nvidia ve Intel gibi iki tane varsa hepsini):
 
