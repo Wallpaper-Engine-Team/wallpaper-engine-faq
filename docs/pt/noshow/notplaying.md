@@ -15,7 +15,7 @@ Atenção Este tópico é acerca dos **wallpapers** do Wallpaper Engine estarem 
 
 ## Reinistalação limpa do controlador da placa gráfica
 
-Para a maior parte dos utilizadores, uma reinstalação limpa dos controladores da placa gráfica corrigirá a maior parte dos tipos de problemas relacionados com wallpapers de vídeo. Isto inclui ecrãs pretos e utilizadores cujos wallpapers são apresentados numa janela diferente (intitulada **"Janela ActiveMovie"**).
+Para a maior parte dos utilizadores, uma reinstalação limpa dos controladores da placa gráfica corrigirá a maior parte dos tipos de problemas relacionados com wallpapers de vídeo. Isto inclui ecrãs pretos e utilizadores cujos wallpapers são apresentados numa janela diferente (intitulada **"ActiveMovie Window"**).
 
 1. Transfira os controladores mais recentes para a sua placa gráfica (ou todos, caso possua duas, por exemplo Nvidia e Intel):
 

@@ -15,7 +15,7 @@ Las pantallas negras y otros problemas con los fondos de tipo *vídeo* son *siem
 
 ## Vuelva a instalar los controladores de la tarjeta gráfica
 
-La mayoría de problemas con los fondos de vídeo se resuelven después de volver a instalar los controladores de la tarjeta gráfica. Funciona tanto como para las pantallas en negro como para los fondos de pantalla que aparecen en otra ventana (conocido como **«Ventana ActiveMovie»**).
+La mayoría de problemas con los fondos de vídeo se resuelven después de volver a instalar los controladores de la tarjeta gráfica. Funciona tanto como para las pantallas en negro como para los fondos de pantalla que aparecen en otra ventana (conocido como **«ActiveMovie Window»**).
 
 1. Descarga los controladores más recientes de la tarjeta gráfica (si tienes dos, como Nvidia o Intel, descárgalos todos):
 
