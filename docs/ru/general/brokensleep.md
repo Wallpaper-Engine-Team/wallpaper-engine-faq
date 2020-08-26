@@ -1,10 +1,10 @@
-- - -
+---
   tags:
   - screensavers
   - hibernation
   - sleep
   - power saving
-- - -
+---
 
 # Гибернация / неработающая экранная заставка
 

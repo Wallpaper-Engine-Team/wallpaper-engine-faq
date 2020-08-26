@@ -1,10 +1,10 @@
-- - -
+---
   tags:
   - screensavers
   - hibernation
   - sleep
   - power saving
-- - -
+---
 
 # Hibernação / Proteções de ecrã não funcionam
 
