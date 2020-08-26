@@ -1,10 +1,10 @@
-- - -
-  tags:
+---
+tags:
   - salvapantallas
   - hibernación
   - suspender
   - ahorro de energía
-- - -
+---
 
 # No funcionan los salvapantallas / hibernación
 
