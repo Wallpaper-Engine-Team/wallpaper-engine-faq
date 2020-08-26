@@ -1,10 +1,10 @@
-- - -
-  tags:
+---
+tags:
   - ekran korucuyular
   - hazırda beklet
   - uyku
   - güç tasarrufu
-- - -
+---
 
 # Hazırda bekletme / Ekran koruyucular çalışmıyor
 
