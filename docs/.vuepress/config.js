@@ -73,6 +73,7 @@ module.exports = {
 		logo: '/img/wallpaperenginelogo.png',
 		nextLinks: false,
 		prevLinks: false,
+		lastUpdated: false,
 		locales: {
 			'/es/': {
 				contactUs: es.contactUs,
@@ -207,7 +208,7 @@ module.exports = {
 };
 
 function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup, notShowingGroup, interfaceGroup, steamGroup, functionalityGroup) {
-	return [
+	let groups = [
 		{
 			title: functionalityGroup,
 			collapsable: false,
@@ -318,4 +319,15 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 			]
 		}
 	]
+	if (locale === '/zh/') {
+		let wegameGroup = {
+			title: 'WeGame',
+			collapsable: false,
+			children: [
+				locale + 'wegame/connection',
+			]
+		};
+		groups.splice(3, 0, wegameGroup);
+	}
+	return groups;
 }
