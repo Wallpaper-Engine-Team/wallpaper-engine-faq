@@ -1,10 +1,10 @@
-- - -
-  tags:
+---
+tags:
   - screensavers
   - hibernation
   - sleep
   - power saving
-- - -
+---
 
 # ハイバネーションやスクリーンセーバーが動作しない
 
