@@ -75,26 +75,55 @@ Les pilotes Intel de votre système ont un problème. Rendez-vous sur le site In
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
+### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
+
+The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+
+* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+
+### RZChromaSDK.dll / RzChromaSDK64.dll
+
+These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+
+**Clean reinstallation of all Razer software**
+
+::: warning
+Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+:::
+
+1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
+2. Uninstall all Razer software from your computer through Windows
+3. Download the latest version of Razer's software suite from their website and install it:
+
+* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+
+4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+
+**Reinstallation does not fix the problem**
+
+If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+
+If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crahes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
-Ce type de crash se produit en raison d'un logiciel audio défectueux installé sur votre système. Cela est généralement dû à un logiciel d'amélioration du son, comme ceux préinstallés sur certains ordinateurs portables. Ce type de logiciels provoquera souvent des plantages, car ils ne sont pas toujours compatibles avec Windows. Essayez de rechercher "Sonic Studio" ou "Nahimic" et mettez ces logiciels à jour. Si vous ne trouvez pas de mise à jour pour ces programmes, vous pouvez également les désinstaller. Ils ne sont pas nécessaires au bon fonctionnement de votre ordinateur.
+This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
-Ce crash est dû à Fraps, un logiciel permettant de filmer son écran, de faire des captures d'écran et d'afficher le framerate en surimpression. Fraps n'est plus mis à jour depuis 2013 et commence à être dépassé. Nous vous conseillons de trouver une alternative à Fraps. Fraps n'étant plus mis à jour, ce problème ne peut pas être résolu si vous ne désinstallez pas ce logiciel.
+The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
 ## Erreur 0xc000007b
 
-Cela signifie qu'un module de Windows a été corrompu. Il s'agit en général de DirectX. Essayez de désinstaller manuellement ces fichiers :
+This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Installez-les à nouveau avec le programme d'installation DirectX 9 : *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (L'emplacement de ce fichier dépend du dossier d'installation de wallpaper_engine).
+Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
 
-Si vous obtenez toujours cette erreur, il peut s'agir d'un autre module similaire à DirectX qui a été corrompu. Cela indique généralement un problème sous-jacent plus important avec Windows que vous devrez corriger avant de pouvoir à nouveau lancer Wallpaper Engine.
+If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
 
 ## Plantage après la mise en veille
 
-Si Wallpaper Engine se bloque après la mise en veille prolongée de Windows, c'est que Windows ne parvient pas à restaurer correctement les pilotes de votre carte graphique avec Wallpaper Engine. La mise en veille prolongée de Windows n'est pas fiable. Activez l'option **"Lancement sécurisé après la mise en veille prolongée"** de Wallpaper Engine pour régler ce problème. Cette option tentera de redémarrer automatiquement Wallpaper Engine après la mise en veille prolongée.
+If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
