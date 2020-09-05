@@ -33,13 +33,13 @@ Wallpaper Engine — тщательно тестируемая и хорошо 
 
 В данном случае сбой произошел в самом ядре Windows. Обычно причиной подобного сбоя являются антивирусные программы или неисправные драйверы видеокарты. Подробную информацию по решению этой проблемы см. в разделе «Быстрое решение» выше. Также подобный сбой может быть вызван неисправностями в самой системе. Восстановить потенциально неисправные файлы Windows можно с помощью средства проверки системных файлов Microsoft:
 
-* [Средство проверки системных файлов Microsoft](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Средство проверки системных файлов Microsoft](https://support.microsoft.com/ru-ru/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
 В данном случае сбой произошел в DirectX. Обычно причиной подобного сбоя являются антивирусные программы или неисправные драйверы видеокарты. Подробную информацию по решению этой проблемы см. в разделе «Быстрое решение» выше. Также подобный сбой может быть вызван неисправностями в самой системе. Восстановить потенциально неисправные файлы Windows можно с помощью средства проверки системных файлов Microsoft:
 
-* [Средство проверки системных файлов Microsoft](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Средство проверки системных файлов Microsoft](https://support.microsoft.com/ru-ru/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
