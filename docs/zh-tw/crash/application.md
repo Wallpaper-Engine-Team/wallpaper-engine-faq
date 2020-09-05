@@ -75,26 +75,55 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
+### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
+
+The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+
+* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+
+### RZChromaSDK.dll / RzChromaSDK64.dll
+
+These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+
+**Clean reinstallation of all Razer software**
+
+::: warning
+Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+:::
+
+1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
+2. Uninstall all Razer software from your computer through Windows
+3. Download the latest version of Razer's software suite from their website and install it:
+
+* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+
+4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+
+**Reinstallation does not fix the problem**
+
+If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+
+If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crahes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
-此種類型的當機是因為系統安裝的音訊軟體已經損壞。 通常是因為「音效增強」軟體造成，尤其是各家筆記型電腦上預先安裝的軟體。 此類軟體以錯誤方式與 Windows 互動，因此常造成當機，請找出「Sonic Studio」或 「Nahimic」並執行更新。 如果您找不到這些程式的更新，也可以將其解除安裝，因為電腦音訊不需要這類程式也能正常運作。
+This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
-此種當機是因為 FPS 顯示器與螢幕錄製應用程式 Fraps 而造成。 Fraps 應用程式自 2013 年起就未再更新，已經嚴重過時。 由於 Fraps 已遭放棄，此錯誤可能永遠無法修復，請改用其他應用程式。
+The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
 ## 當機錯誤 0xc000007b
 
-此類當機代表 Windows 模組已遭到系統某種程式破壞；在此情況下，通常 DirectX 本身已損壞。 請手動刪除下列檔案：
+This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-接著，請使用 DirectX 9 安裝程式再次安裝： *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (確切位置取決於 wallpaper_engine 安裝目錄的位置)。
+Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
 
-如果仍然出現此錯誤，可能是另一個相似的 DirectX 模組因故損壞， 通常代表 Windows 安裝隱藏更大的潛在問題，您得先解決這些問題，Wallpaper Engine 才能正常運作。
+If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
 
 ## 電腦休眠/睡眠後當機
 
-如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不會寄望 Windows 休眠後能正常運作。
+If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
