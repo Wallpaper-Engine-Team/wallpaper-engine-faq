@@ -115,14 +115,14 @@ If the crashes persist even after a clean reinstallation of Razer Synapse, pleas
 
 ## エラー 0xc000007b のクラッシュ
 
-それでもエラーが出る場合は、類似した他の DirectX モジュールが何かによって破損しています。 これは通常、Windows のインストールについてより大きな問題が存在することを示しています。 次のファイルを手動で削除してください。
+システム上の何かによって Windows モジュールが破損しています。通常はこの場合、DirectX そのものが壊れています。 次のファイルを手動で削除してください。
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
 次に、これらを DirectX 9 インストーラーでもう一度インストールします： *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* （正確な場所は、wallpaper_engine インストールディレクトリの場所によって異なります）。
 
-システム上の何かによって Windows モジュールが破損しています。 通常はこの場合、DirectX そのものが壊れています。 次のファイルを手動で削除してください。 これは通常、Windows のインストールについてより大きな問題が存在することを示しています。 Wallpaper Engine を起動する前に修正する必要があります。
+それでもエラーが出る場合は、類似した他の DirectX モジュールが何かによって破損しています。 これは通常、Windows のインストールについてより大きな問題が存在することを示しています。Wallpaper Engine を起動する前に修正する必要があります。
 
 ## ハイバネーションまたはスリープ後のクラッシュ
 
