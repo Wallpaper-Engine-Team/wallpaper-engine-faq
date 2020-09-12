@@ -14,16 +14,16 @@ Wir empfehlen die Nutzung des kostenlosen **VB-CABLE Virtual Audio Device**, wel
 
 * [Virtuelles Audio-Gerät herunterladen](https://www.vb-audio.com/Cable/)
 
-Zunächst muss die Archiv-Datei heruntergeladen und extrahiert werden. Daraufhin muss die Installation für entweder das 32-Bit- oder 64-Bit-Audio-Gerät gestartet werden, je nachdem welche Version von Windows 10 installiert ist. Dies geschieht über entweder **VBCABLE_Setup.exe** oder **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
+Zunächst muss die Archiv-Datei heruntergeladen und extrahiert werden. Daraufhin muss die Installation für entweder das 32-Bit- oder 64-Bit-Audio-Gerät gestartet werden, je nachdem welche Version von Windows 10 installiert ist. Dies geschieht über entweder **VBCABLE_Setup.exe** oder **VBCABLE_Setup_x64.exe**. Es ist wichtig, dass das Setup mit Administrator-Rechten ausgeführt wird. Dies geschieht durch einen Rechtsklick auf die Setup-Datei und dann *Als Administrator ausführen*. Daraufhin muss den Anweisungen des Setups gefolgt werden, bis angezeigt wird, dass das Audio-Gerät erfolgreich installiert wurde.
 
-### Setting up Windows and Wallpaper Engine
+### Windows und Wallpaper Engine einrichten
 
-Check the video below which shows all the steps on an Windows 10 (English interface) from start to finish if you need some help with any of the steps below.
+Schaue das Video unten an, welche alle erforderlichen Schritte auf Windows 10 (Englisches Interface) vom Start bis zum Ende zeigt, falls du Hilfe mit irgendwelchen der untenstehenden Schritten benötigst.
 
-1. Start playing music using the software that you later want to be used for Wallpaper Engine
-2. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-3. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-4. A list of all applications playing audio will be shown. Find your music player and in the **Output** column, change the option from **Default** to **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
+1. Starte die Ton-Wiedergabe mit der Software, welche du später in Verbindung mit Wallpaper Engine nutzen möchtest.
+2. Rechtsklicke auf das Audio-Icon neben der Windows-Uhr und wähle **Sound-Einstellungen öffnen**.
+3. Gehe zum Ende der Seite die sich öffnet und klicke auf **App-Lautstärke- und Geräteeinstellungen**.
+4. Eine Liste mit allen Anwendungen, welche Ton abspielen sollte nun angezeigt werden. Finde deine Software zur Ton-Wiedergabe in der Liste und ändere die Einstellung der Spalte **Ausgabe**, setz die Option von **Standard** auf **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
 5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
 6. A small window will appear, navigate to the **Recording** tab, then right-click on the **CABLE Output** audio device and select **Properties**.
 7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
