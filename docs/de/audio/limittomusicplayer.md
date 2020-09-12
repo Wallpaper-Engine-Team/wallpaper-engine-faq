@@ -1,20 +1,20 @@
 # Audio-Visualisierer auf Musik-Programme beschränken
 
-Durch grundlegende Beschränkungen in der Art, Audio-Wiedergabe in Windows funktioniert, ist es nicht möglich, dass Wallpaper Engine selbst Audio-Visualisierungen auf ein bestimmtes Programm beschränkt. Nichtsdestotrotz ist es möglich dies umzusetzen. Es können Anwendungen von Drittanbietern verwendet werden, um eine *Imitation* eines echten Audio-Geräts zu erstellen. Diese Anleitung erklärt einen Weg, wie ein solches imitiertes Audio-Gerät eingerichtet werden kann und wie Windows 10 und Wallpaper Engine konfiguriert werden können, um diese Funktionalität lauffähig zu machen.
+Durch grundlegende Beschränkungen in der Art, Audio-Wiedergabe in Windows funktioniert, ist es nicht möglich, dass Wallpaper Engine selbst Audio-Visualisierungen auf ein bestimmtes Programm beschränkt. Nichtsdestotrotz ist es möglich dies umzusetzen. Es können Anwendungen von Drittanbietern verwendet werden, um ein *virtuelles* Audio-Gerät zu erstellen. Diese Anleitung erklärt einen Weg, wie ein solches imitiertes Audio-Gerät eingerichtet werden kann und wie Windows 10 und Wallpaper Engine konfiguriert werden können, um diese Funktionalität lauffähig zu machen.
 
-Keep in mind we do not offer support for any fake audio devices and cannot guarantee that this will work - this is a very advanced setup that goes well beyond what Wallpaper Engine offers. We merely offer this guide as a friendly help for users who want to go the extra mile to customize their system.
+An dieser Stelle ein kurzer Hinweis dazu, dass wir keine Unterstützung für virtuelle Audio-Geräte anbieten und nicht garantieren können, dass diese Anleitung funktionieren wird. Es handelt sich hierbei um eine sehr erweiterte Vorgehensweise, die den normalen Nutzungsrahmen von Wallpaper Engine sprengt. Wir bieten diese Anleitung nur als freundlich-gemeinte Hilfe für Nutzer an, welche besonders weit mit der Konfiguration ihres Systems gehen wollen.
 
 ::: warning
-Please note This guide only works on updated versions of Windows 10. Older Windows versions may be missing some features which makes it impossible to follow this guide.
+Achtung Diese Anleitung funktioniert nur auf aktuellen Versionen von Windows 10. Älteren Windows-Versionen können einige Features fehlen, was es unmöglich macht dieser Anleitung zu folgen.
 :::
 
-### Install a fake audio device
+### Installation eines virtuellen Audio-Geräts
 
-We recommend using the free **VB-CABLE Virtual Audio Device** which you can download at the following website:
+Wir empfehlen die Nutzung des kostenlosen **VB-CABLE Virtual Audio Device**, welches auf der folgenden Website heruntergeladen werden kann:
 
-* [Virtual Audio Device Download](https://www.vb-audio.com/Cable/)
+* [Virtuelles Audio-Gerät herunterladen](https://www.vb-audio.com/Cable/)
 
-Download and extract the archive file, then install either the 32-Bit or 64-Bit audio device depending on your Windows 10 version using either **VBCABLE_Setup.exe** or **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
+Zunächst muss die Archiv-Datei heruntergeladen und extrahiert werden. Daraufhin muss die Installation für entweder das 32-Bit- oder 64-Bit-Audio-Gerät gestartet werden, je nachdem welche Version von Windows 10 installiert ist. Dies geschieht über entweder **VBCABLE_Setup.exe** oder **VBCABLE_Setup_x64.exe**. Be sure to launch the setup file with administrator rights by right-clicking and then selecting *Run as administrator*. Follow the instructions of the setup and make sure the audio device has been installed successfully.
 
 ### Setting up Windows and Wallpaper Engine
 
