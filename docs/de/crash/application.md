@@ -17,7 +17,7 @@ Fast alle Abstürze die wir von unseren Anwendern erhalten können auf entweder 
 
 Falls du dir nicht sicher bist, was die Abstürze von Wallpaper Engine verursachen könnte, führe bitte eine saubere Neuinstallation deiner Grafikkartentreiber durch. Dies bedeutet, dass du zunächst deine Grafikkartentreiber deinstallieren und dann die neuesten Treiber erneut installieren musst, nachdem die alten Treiber vollständig entfernt wurden. Eine Treiber bieten eine Option zur "sauberen Neuinstallation" in den erweiterten Installationseinstellungen an. Stelle sicher, dass du diese Option aktivierst um jegliche Überbleibsel von defekten Treibern zu entfernen. Du kannst die neuesten Grafikkartentreiber von allen Herstellern hier herunterladen:
 
-* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
+* [Nvidia GeForce](https://www.nvidia.de/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
@@ -31,25 +31,25 @@ Versuche außerdem die Wallpaper Engine-Dateien über Steam auf Fehler zu überp
 
 ### KERNELBASE.dll / ntdll.dll
 
-This is a crash in the core of the Windows kernel itself, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+Dies ist ein Absturz im Kern von Windows selbst, dies wird im Normalfall durch Antiviren-Programme oder defekte Grafikkartentreiber verursacht. Siehe die Sektion zum schnellen Lösungsversuch oben für weitere Informationen. Dies kann auch durch defekte System-Komponenten ausgelöst werden. Verwende das Microsoft Systemdatei-Überprüfungsprogramm um gegebenenfalls defekte Windows-Dateien zu reparieren:
 
-* [Microsoft System File Checker Tool](https://support.microsoft.com/de-de/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft Systemdatei-Überprüfungsprogramms](https://support.microsoft.com/de-de/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-This is a crash in DirectX, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
+Dies ist ein Absturz in DirectX und wird normalerweise durch Antiviren-Programme oder defekte Grafikkartentreiber ausgelöst. Siehe die Sektion zum schnellen Lösungsversuch oben für weitere Informationen. Dies kann auch durch defekte System-Komponenten ausgelöst werden. Verwende das Microsoft Systemdatei-Überprüfungsprogramm um gegebenenfalls defekte Windows-Dateien zu reparieren:
 
-* [Microsoft System File Checker Tool](https://support.microsoft.com/de-de/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft Systemdatei-Überprüfungsprogramms](https://support.microsoft.com/de-de/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
+Dieser Absturz wird von der Windows Media Foundation ausgelöst. Dies kann durch defekte Grafikkartentreiber ausgelöst werden, aber ist normalerweise auf defekte oder fehlende Video-Codecs auf deinem System zurückzuführen. Folge der Fehlerbehebung unserer Video-Reparaturanleitung um Abstürze dieser Art zu beheben:
 
-[Click here](/noshow/notplaying.html)
+[Hier klicken](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
+Dieser Fehler tritt im Normalfall durch ein Fehler in Windows selbst auf. Versuche die neueste Version deiner Soundkarten-Treiber (erneut) zu installieren, dies kann das Problem unter Umständen bereits beseitigen. Du kannst Abstürze dieser Art auf beheben, in dem du die Option *Andere Anwendung spielt Ton* im Reiter *Leistung* in den Wallpaper Engine-Einstellungen auf *Weiter ausführen* stellst.
 
 ### atiumdag.dll / atiumd64.dll
 
@@ -63,7 +63,7 @@ Please note Make sure to select the "Perform clean re-installation" checkbox dur
 
 The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
 
-* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
+* [Nvidia GeForce](https://www.nvidia.de/Download/index.aspx)
 
 ::: tip
 Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
