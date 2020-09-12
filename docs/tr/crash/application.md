@@ -33,13 +33,13 @@ Bozulmamaları için Wallpaper Engine dosyalarınızı her zaman steam üzerinde
 
 Bu çökme Windows çekirdeğinin kendisinde gerçekleşmiştir. Bu çökmeye çoğunlukla antivirüs programları ya da bozuk grafik kartı sürücüleri sebep olur. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
 
-* [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/tr-tr/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
 Bu çökme DirectX'te meydana gelir ve genellikle antivirüs uygulamalarından ya da bozuk grafik kartı sürücülerinden kaynaklanır. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft Sistem Dosya Denetleyicisi aracını kullanın:
 
-* [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/tr-tr/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
@@ -75,6 +75,35 @@ Sisteminizdeki Intel graphics sürücüleri çöküyor. Intel internet sitesine 
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
+### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
+
+Sisteminizdeki Intel graphics sürücüleri çöküyor. Intel internet sitesine gidin, buradan en son sürücüleri indirin ve kurun: Sisteminizdeki Intel graphics sürücüleri çöküyor. Intel internet sitesine gidin, buradan en son sürücüleri indirin ve kurun:
+
+* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+
+### RZChromaSDK.dll / RzChromaSDK64.dll
+
+These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+
+**Clean reinstallation of all Razer software**
+
+::: warning
+Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+:::
+
+1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
+2. Uninstall all Razer software from your computer through Windows
+3. Download the latest version of Razer's software suite from their website and install it:
+
+* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+
+4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+
+**Reinstallation does not fix the problem**
+
+If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+
+If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crahes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
@@ -82,19 +111,19 @@ Bu tür bir çökme, sistemizde yüklü olan bozuk ses yazılımından dolayı o
 
 ### fraps32.dll
 
-Bu çökmeye, FPS monitör ve ekran kayıt uygulaması Fraps neden oldu. Fraps 2013 yılından beri güncellenmemiş oldukça eski bir uygulamadır. Bu hata Fraps ile ilgili olduğu ve yazılım artık bırakıldığı için asla düzeltilemeyeceğinden lütfen Fraps yerine başka bir alternatif kullanın.
+Bu çökmeye, FPS monitör ve ekran kayıt uygulaması Fraps neden oldu. Fraps 2013 yılından beri güncellenmemiş oldukça eski bir uygulamadır. Bu hata Fraps ile ilgili olduğu ve yazılım artık bırakıldığı için asla düzeltilemeyeceğinden lütfen Fraps yerine başka bir alternatif kullanın. Bu çökmeye, FPS monitör ve ekran kayıt uygulaması Fraps neden oldu. Fraps 2013 yılından beri güncellenmemiş oldukça eski bir uygulamadır. Bu hata Fraps ile ilgili olduğu ve yazılım artık bırakıldığı için asla düzeltilemeyeceğinden lütfen Fraps yerine başka bir alternatif kullanın. Bu çökmeye, FPS monitör ve ekran kayıt uygulaması Fraps neden oldu. Fraps 2013 yılından beri güncellenmemiş oldukça eski bir uygulamadır. Bu hata Fraps ile ilgili olduğu ve yazılım artık bırakıldığı için asla düzeltilemeyeceğinden lütfen Fraps yerine başka bir alternatif kullanın.
 
 ## Çökme hatası 0xc000007b
 
-Windows modülü sisteminizdeki bir şey tarafından bozulmuş, bu durumda genellikle DirectX'in kendisi bozulur. Şu dosyaları elle silmeyi deneyin:
+Windows modülü sisteminizdeki bir şey tarafından bozulmuş, bu durumda genellikle DirectX'in kendisi bozulur. Şu dosyaları elle silmeyi deneyin: Şu dosyaları elle silmeyi deneyin:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
 Şimdi bunları DirectX 9 yükleyicisi ile tekrar yükleyin: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (Tam konum, wallpaper_engine kurulum dizininizin bulunduğu yere bağlıdır).
 
-Hâlâ bu hatayı alıyorsanız bir şey tarafından bozulmuş başka ve benzer bir DirectX modülü olabilir. Bu durum genellikle Wallpaper Engine'i çalıştırmadan önce düzeltmeniz gereken Windows kurulumunuzla ilgili daha büyük bir soruna işaret eder.
+Hâlâ bu hatayı alıyorsanız bir şey tarafından bozulmuş başka ve benzer bir DirectX modülü olabilir. Hâlâ bu hatayı alıyorsanız bir şey tarafından bozulmuş başka ve benzer bir DirectX modülü olabilir. Bu durum genellikle Wallpaper Engine'i çalıştırmadan önce düzeltmeniz gereken Windows kurulumunuzla ilgili daha büyük bir soruna işaret eder.
 
 ## Hazırda Bekletme / Uyku modundan sonra çökme
 
-Wallpaper Engine, Windows hazırda bekletme modundan sonra çöküyorsa Windows, grafik kartı sürücülerinizi ve Wallpaper Engine'ini doğru bir şekilde geri yükleyemiyordur. Windows hazırda bekletme güvenilir bir işlem değildir. Bu sorunu hafifletmek için Wallpaper Engine'deki **Uykudan sonra güvenli başlangıç** seçeneğini etkinleştirebilirsiniz. Bu seçenek, Windows'un hazırda bekletmeden sonra düzgün çalışmasını beklemek yerine Wallpaper Engine'i otomatik olarak yeniden başlatmayı deneyecektir.
+Wallpaper Engine'i neyin çöktürdüğünden emin değilseniz lütfen grafik kartı sürücülerinizi düzgün bir şekilde yeniden yükleyin. Öncelikle sürücülerinizi kaldırın, mevcut sürücüleriniz tamamen kaldırıldıktan sonra da en son sürücüleri yeniden yükleyin. Bazı sürücülerin gelişmiş bölümünde "Temiz bir şekilde yeniden yükle" seçeneği bulunur; bozuk sürücülerin kalıntılarından otomatik olarak kurtulmak için bu seçeneği etkinleştirin. Tüm büyük sağlayıcıların en son grafik kartı sürücülerine buradan ulaşabilirsiniz: Windows hazırda bekletme güvenilir bir işlem değildir. Bu sorunu hafifletmek için Wallpaper Engine'deki **Uykudan sonra güvenli başlangıç** seçeneğini etkinleştirebilirsiniz. Bu seçenek, Windows'un hazırda bekletmeden sonra düzgün çalışmasını beklemek yerine Wallpaper Engine'i otomatik olarak yeniden başlatmayı deneyecektir.
