@@ -115,7 +115,7 @@ Ce crash est dû à Fraps, un logiciel permettant de filmer son écran, de faire
 
 ## Erreur 0xc000007b
 
-Si vous obtenez toujours cette erreur, il peut s'agir d'un autre module similaire à DirectX qui a été corrompu. Cela indique généralement un problème sous-jacent plus important avec Windows que vous devrez corriger avant de pouvoir à nouveau lancer Wallpaper Engine.
+Cela signifie qu'un module de Windows a été corrompu. Il s'agit en général de DirectX. Essayez de désinstaller manuellement ces fichiers :
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
