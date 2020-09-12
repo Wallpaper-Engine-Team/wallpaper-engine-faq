@@ -111,7 +111,7 @@ Se trata de un error que se produce debido a un programa de sonido dañado que e
 
 ### fraps32.dll
 
-Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, un programa que no ha recibido ninguna actualización desde 2013 y que está completamente obsoleto. Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, un programa que no ha recibido ninguna actualización desde 2013 y que está completamente obsoleto. Utiliza una alternativa, ya que es probable que el error no llegue a solucionarse porque es un programa que ha quedado abandonado.
+Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, un programa que no ha recibido ninguna actualización desde 2013 y que está completamente obsoleto. Utiliza una alternativa, ya que es probable que el error no llegue a solucionarse porque es un programa que ha quedado abandonado.
 
 ## Error 0xc000007b
 
