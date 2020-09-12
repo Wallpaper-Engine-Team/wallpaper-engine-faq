@@ -23,9 +23,9 @@ Schaue das Video unten an, welche alle erforderlichen Schritte auf Windows 10 (E
 1. Starte die Ton-Wiedergabe mit der Software, welche du später in Verbindung mit Wallpaper Engine nutzen möchtest.
 2. Rechtsklicke auf das Audio-Icon neben der Windows-Uhr und wähle **Sound-Einstellungen öffnen**.
 3. Gehe zum Ende der Seite die sich öffnet und klicke auf **App-Lautstärke- und Geräteeinstellungen**.
-4. Eine Liste mit allen Anwendungen, welche Ton abspielen sollte nun angezeigt werden. Finde deine Software zur Ton-Wiedergabe in der Liste und ändere die Einstellung der Spalte **Ausgabe**, setz die Option von **Standard** auf **CABLE Input (VB-Audio Virtual Cable)**. Your audio player should immediately turn quiet, this is to be expected.
-5. Go back to the main page of the Windows sound settings and in the upper right corner, select **Sound Control Panel**.
-6. A small window will appear, navigate to the **Recording** tab, then right-click on the **CABLE Output** audio device and select **Properties**.
+4. Eine Liste mit allen Anwendungen, welche Ton abspielen sollte nun angezeigt werden. Finde deine Software zur Ton-Wiedergabe in der Liste und ändere die Einstellung der Spalte **Ausgabe**, setz die Option von **Standard** auf **CABLE Input (VB-Audio Virtual Cable)**. Deine Audio-Wiedergabe sollte sofort aufhören, dies ist zu erwarten und normal.
+5. Gehe zurück zur Hauptseite der Windows-Soundeinstellungen und in der oberen rechten Ecke, klicke auf **Sound-Systemsteuerung**.
+6. Ein kleines Fenster wird erscheinen, navigiere zum Reiter **Aufnahme**, dann rechtsklicke auf das **CABLE Output**-Audio-Gerät und wähle **Eigenschaften** aus.
 7. Another window will appear, click on the **Listen** tab and select **Listen to this device**. Click on **Apply** and **OK** and the music from your music player should return.
 8. Windows is now properly configured, open up the **Wallpaper Engine settings** and in the **General** tab, change the **Audio recording device** to **CABLE Input (VB-Audio Virtual Cable)**. Wallpaper Engine should now start reacting to the music from your music player but will ignore any other application on your computer.
 
