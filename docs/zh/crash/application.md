@@ -33,13 +33,13 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 这是 Windows 内核本身核心中发生的崩溃，通常由防病毒应用程序或损坏的显卡驱动程序导致。 有关更多信息，请参阅上方快速修复部分。 系统组件损坏也可能导致这种崩溃。 使用 Microsoft 系统文件检查器工具，修复可能损坏的 Windows 文件：
 
-* [Microsoft 系统文件检查器工具](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft 系统文件检查器工具](https://support.microsoft.com/zh-cn/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
 这是 DirectX 中发生的崩溃，通常由防病毒应用程序或损坏的显卡驱动程序导致。 有关更多信息，请参阅上方快速修复部分。 系统组件损坏也可能导致这种崩溃。 使用 Microsoft 系统文件检查器工具，修复可能损坏的 Windows 文件：
 
-* [Microsoft 系统文件检查器工具](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft 系统文件检查器工具](https://support.microsoft.com/zh-cn/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
@@ -75,6 +75,35 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
+### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
+
+系统上的 Intel Graphics 驱动程序崩溃了。 请访问 Intel 网站，从那里下载最新版驱动程序并安装： 系统上的 Intel Graphics 驱动程序崩溃了。 请访问 Intel 网站，从那里下载最新版驱动程序并安装：
+
+* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+
+### RZChromaSDK.dll / RzChromaSDK64.dll
+
+These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+
+**Clean reinstallation of all Razer software**
+
+::: warning
+Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+:::
+
+1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
+2. Uninstall all Razer software from your computer through Windows
+3. Download the latest version of Razer's software suite from their website and install it:
+
+* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+
+4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+
+**Reinstallation does not fix the problem**
+
+If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+
+If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crahes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
@@ -82,19 +111,19 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 ### fraps32.dll
 
-此类崩溃由 FPS 显示器和屏幕录制应用程序 Fraps 导致。 Fraps 应用程序自 2013 年起再未进行任何更新，已经严重过时。 请使用 Fraps 的替代应用程序，因为这是 Fraps 的一个错误，由于该软件已被放弃，此错误可能永远无法修复。
+此类崩溃由 FPS 显示器和屏幕录制应用程序 Fraps 导致。 Fraps 应用程序自 2013 年起再未进行任何更新，已经严重过时。 请使用 Fraps 的替代应用程序，因为这是 Fraps 的一个错误，由于该软件已被放弃，此错误可能永远无法修复。 此类崩溃由 FPS 显示器和屏幕录制应用程序 Fraps 导致。 Fraps 应用程序自 2013 年起再未进行任何更新，已经严重过时。 请使用 Fraps 的替代应用程序，因为这是 Fraps 的一个错误，由于该软件已被放弃，此错误可能永远无法修复。 此类崩溃由 FPS 显示器和屏幕录制应用程序 Fraps 导致。 Fraps 应用程序自 2013 年起再未进行任何更新，已经严重过时。 请使用 Fraps 的替代应用程序，因为这是 Fraps 的一个错误，由于该软件已被放弃，此错误可能永远无法修复。
 
 ## 崩溃错误 0xc000007b
 
-这意味着，有个 Windows 模块已被系统上的某些东西破坏 — 在这种情况下，DirectX 本身通常已经损坏。 请尝试手动删除以下文件：
+这意味着，有个 Windows 模块已被系统上的某些东西破坏 — 在这种情况下，DirectX 本身通常已经损坏。 请尝试手动删除以下文件： 请尝试手动删除以下文件：
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
 现在，使用 DirectX 9 安装程序再次安装它们：*C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe*（确切的位置取决于 wallpaper_engine 安装目录的位置）。
 
-如果仍然出现此错误，那么可能是另一个相似的 DirectX 模块被某些东西损坏了。 这通常表示，Windows 安装存在较大的潜在问题，您得先解决这些问题，然后才能运行 Wallpaper Engine。
+如果仍然出现此错误，那么可能是另一个相似的 DirectX 模块被某些东西损坏了。 这通常表示，Windows 安装存在较大的潜在问题，您得先解决这些问题，然后才能运行 Wallpaper Engine。 这通常表示，Windows 安装存在较大的潜在问题，您得先解决这些问题，然后才能运行 Wallpaper Engine。
 
 ## 休眠/睡眠后崩溃
 
-如果 Wallpaper Engine 在 Windows 休眠后崩溃，则 Windows 无法正确地同时还原显卡驱动程序和 Wallpaper Engine。 Windows 中的休眠并非可靠的进程。 您可以在 Wallpaper Engine 中启用**休眠后安全启动**选项，以缓解此问题。 此选项将尝试自动重新启动 Wallpaper Engine，而不是期望 Windows 在休眠后正常工作。
+如果 Wallpaper Engine 在 Windows 休眠后崩溃，则 Windows 无法正确地同时还原显卡驱动程序和 Wallpaper Engine。 Windows 中的休眠并非可靠的进程。 您可以在 Wallpaper Engine 中启用**休眠后安全启动**选项，以缓解此问题。 此选项将尝试自动重新启动 Wallpaper Engine，而不是期望 Windows 在休眠后正常工作。 Windows 中的休眠并非可靠的进程。 您可以在 Wallpaper Engine 中启用**休眠后安全启动**选项，以缓解此问题。 如果 Wallpaper Engine 在 Windows 休眠后崩溃，则 Windows 无法正确地同时还原显卡驱动程序和 Wallpaper Engine。 Windows 中的休眠并非可靠的进程。 您可以在 Wallpaper Engine 中启用**休眠后安全启动**选项，以缓解此问题。 此选项将尝试自动重新启动 Wallpaper Engine，而不是期望 Windows 在休眠后正常工作。
