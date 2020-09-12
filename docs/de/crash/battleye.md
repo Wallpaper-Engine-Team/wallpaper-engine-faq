@@ -25,4 +25,4 @@ Falls die oben beschriebenen Schritte deine Probleme mit BattlEye-gestützten Mu
 
 * [BattlEye-Kundenservice](https://www.battleye.com/contact/)
 
-Auf einigen Systemen terminiert BattlEye Wallpaper Engine ohne einen ersichtlichen Grund. Dies ist nichts was wir verhindern können, da BattlEye ein Anti-Cheat-Programm ist, welches sehr tief in Windows eingreift und alle Anwendungen auf deinem Computer beenden kann, ohne dich darüber in Kenntnis zu setzen. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
+Auf einigen Systemen terminiert BattlEye Wallpaper Engine ohne einen ersichtlichen Grund. Dies ist nichts was wir verhindern können, da BattlEye ein Anti-Cheat-Programm ist, welches sehr tief in Windows eingreift und alle Anwendungen auf deinem Computer beenden kann, ohne dich darüber in Kenntnis zu setzen. In diesen Fällen müssen die BattlEye-Entwickler das Problem untersuchen, da es sich um einen Fehler in ihrer Software handelt.
