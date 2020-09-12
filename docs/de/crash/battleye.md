@@ -7,22 +7,22 @@ tags:
 ---
 
 # BattlEye Anti-Cheat schließt Wallpaper Engine
-Wenn Wallpaper Engine beim Start von ausgewählten Spielen geschlossen wird, ist dies höchstwahrscheinlich auf den BattlEye Anti-Cheat zurückzuführen, welcher von zahlreichen Multiplayer-Spielen verwendet wird. Known games that use BattlEye are:
+Wenn Wallpaper Engine beim Start von ausgewählten Spielen geschlossen wird, ist dies höchstwahrscheinlich auf den BattlEye Anti-Cheat zurückzuführen, welcher von zahlreichen Multiplayer-Spielen verwendet wird. Bekannte Spiele, welche BattlEye nutzen, sind:
 
 * Fortnite
 * Playerunknown's Battleground (PUBG)
 * Rainbow Six Siege
 * Escape from Tarkov
-* *And more...*
+* *Und weitere...*
 
-BattlEye closes Wallpaper Engine (and other applications) by mistake on some systems, this is not a bug or a crash in Wallpaper Engine. Wallpaper Engine gets actively terminated by BattleEye even though Wallpaper Engine does not interact with games or software on your system.
+BattlEye schließt Wallpaper Engine (und andere Anwendungen) fälschlicherweise auf einigen System, es handelt sich dabei um keinen Bug oder Crash in Wallpaper Engine selbst. Wallpaper Engine wird von BattlEye geschlossen, auch wenn Wallpaper Engine unter keinen Umständen mit Spielen oder anderer Software auf deinem System interagiert.
 
-## Nvidia Low-Latency Mode
-Most users affected by this have the *Ultra-Low Latency Mode* enabled in the Nvidia graphics drivers. If you have an Nvidia graphics card and suffer from this issue, open the Nvidia Control Panel and disable ultra-low latency mode to fix this issue. Select *"Manage 3D settings"* -> *"Global Settings"* -> *"Low Latency Mode"* and change this setting to *Off*. Click *Apply* and restart your computer. Afterwards, BattlEye will not terminate Wallpaper Engine by mistake anymore.
+## Nvidia-Modus für niedrige Latenz
+Die meisten Nutzer, welche von diesem Problem betroffen sind, haben den *Modus für niedrige Latenz* in den Nvidia-Grafikkartentreibern aktiviert. Falls du eine Nvidia-Grafikkarte besitzt und von diesem Problem betroffen bist, öffne die Nvidia-Treibereinstellungen und deaktiviere den Modus für niedrige Latenz, um dieses Problem zu lösen. Wähle *"3D-Einstellungen anpassen"* -> *"Globale Einstellungen"* -> *"Modus für niedrige Latenz"* und setze diese Einstellung auf *Aus*. Klicke auf *Anwenden* und starte deinen Computer neu. Daraufhin wird BattlEye Wallpaper Engine nicht mehr fälschlicherweise terminieren.
 
-## Contacting BattlEye Support
-If the steps above do not fix your issues with a BattlEye-powered multiplayer game, you will need to reach out to BattlEye directly:
+## Kontakt mit dem BattlEye-Kundenservice aufnehmen
+Falls die oben beschriebenen Schritte deine Probleme mit BattlEye-gestützten Multiplayer-Spielen nicht behebt, musst du selbst Kontakt mit BattlEye aufnehmen:
 
-* [BattlEye Support](https://www.battleye.com/contact/)
+* [BattlEye-Kundenservice](https://www.battleye.com/contact/)
 
-On some systems, BattlEye will terminate Wallpaper Engine for no apparent reason and this is not something we can prevent as BattlEye is a rather intrusive anti-cheat which is able to terminate any application on your computer without notifying you. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
+Auf einigen Systemen terminiert BattlEye Wallpaper Engine ohne einen ersichtlichen Grund. Dies ist nichts was wir verhindern können, da BattlEye ein Anti-Cheat-Programm ist, welches sehr tief in Windows eingreift und alle Anwendungen auf deinem Computer beenden kann, ohne dich darüber in Kenntnis zu setzen. In these cases, the BattlEye developers will need to investigate the issue on your system as its a faulty behavior in their software.
