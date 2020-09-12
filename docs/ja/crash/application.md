@@ -33,13 +33,13 @@ Wallpaper Engine は、数百万のユーザーに使用され、十分にテス
 
 これは Windows カーネル自体のコアにおけるクラッシュです。通常、アンチウイルスアプリケーションか破損したグラフィックスカードドライバーによって起きます。 詳しくは上記のクイックフィックスセクションをご覧ください。 また、破損したシステムコンポーネントによって起きる可能性もあります。 Microsoft システムファイルチェッカーツールを使って、破損している可能性のある Windows ファイルを修復してください。
 
-* [Microsoft システムファイルチェッカーツール](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft システムファイルチェッカーツール](https://support.microsoft.com/ja-jp/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
 これは DirectX におけるクラッシュです。通常、アンチウイルスアプリケーションか破損したグラフィックスカードドライバーによって起きます。 詳しくは上記のクイックフィックスセクションをご覧ください。 また、破損したシステムコンポーネントによって起きる可能性もあります。 Microsoft システムファイルチェッカーツールを使って、破損している可能性のある Windows ファイルを修復してください。
 
-* [Microsoft システムファイルチェッカーツール](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft システムファイルチェッカーツール](https://support.microsoft.com/ja-jp/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
@@ -75,25 +75,54 @@ Wallpaper Engine は、数百万のユーザーに使用され、十分にテス
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
+### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
+
+システム上の Intel ドライバーがクラッシュしています。 Intel サイトで最新のドライバーをダウンロードし、インストールしてください。
+
+* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+
+### RZChromaSDK.dll / RzChromaSDK64.dll
+
+These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+
+**Clean reinstallation of all Razer software**
+
+::: warning
+Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+:::
+
+1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
+2. Uninstall all Razer software from your computer through Windows
+3. Download the latest version of Razer's software suite from their website and install it:
+
+* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+
+4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+
+**Reinstallation does not fix the problem**
+
+If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+
+If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crahes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
-この種類のクラッシュは、システム上にインストールされたオーディオソフトウェアが破損していることによって起きます。 通常、特に各種のノートPCにプリインストールされている「サウンド強化」ソフトウェアが原因となります。 この種類のソフトウェアがクラッシュを起こしやすいのは、これらがバグの多い方法で Windows に働きかけるためです。"Sonic Studio" または "Nahimic" を探して、アップデートしてみてください。 これらのプログラムのアップデートが見つからない場合は、アンインストールすることもできます。これらはコンピューターのオーディオが正常に機能するために必要なものではありません。
+この種類のクラッシュは、システム上にインストールされたオーディオソフトウェアが破損していることによって起きます。 通常、特に各種のノートPCにプリインストールされている「サウンド強化」ソフトウェアが原因となります。 この種類のソフトウェアがクラッシュを起こしやすいのは、これらがバグの多い方法で Windows に働きかけるためです。 "Sonic Studio" または "Nahimic" を探して、アップデートしてみてください。 これらのプログラムのアップデートが見つからない場合は、アンインストールすることもできます。 これらはコンピューターのオーディオが正常に機能するために必要なものではありません。
 
 ### fraps32.dll
 
-このクラッシュは、FPSモニターおよび画面記録アプリである Fraps によって起きます。 Fraps は2013年以来アップデートされておらず、非常に時代遅れのアプリケーションとなっています。 Fraps に代わるアプリケーションをお使いください。Fraps はソフトウェアが放棄されているため、バグは決して修正されないからです。
+このクラッシュは、FPSモニターおよび画面記録アプリである Fraps によって起きます。 Fraps は2013年以来アップデートされておらず、非常に時代遅れのアプリケーションとなっています。 Fraps に代わるアプリケーションをお使いください。 Fraps はソフトウェアが放棄されているため、バグは決して修正されないからです。
 
 ## エラー 0xc000007b のクラッシュ
 
-システム上の何かによって Windows モジュールが破損しています。通常はこの場合、DirectX そのものが壊れています。 次のファイルを手動で削除してください。
+それでもエラーが出る場合は、類似した他の DirectX モジュールが何かによって破損しています。 これは通常、Windows のインストールについてより大きな問題が存在することを示しています。 次のファイルを手動で削除してください。
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
 次に、これらを DirectX 9 インストーラーでもう一度インストールします： *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* （正確な場所は、wallpaper_engine インストールディレクトリの場所によって異なります）。
 
-それでもエラーが出る場合は、類似した他の DirectX モジュールが何かによって破損しています。 これは通常、Windows のインストールについてより大きな問題が存在することを示しています。Wallpaper Engine を起動する前に修正する必要があります。
+システム上の何かによって Windows モジュールが破損しています。 通常はこの場合、DirectX そのものが壊れています。 次のファイルを手動で削除してください。 これは通常、Windows のインストールについてより大きな問題が存在することを示しています。 Wallpaper Engine を起動する前に修正する必要があります。
 
 ## ハイバネーションまたはスリープ後のクラッシュ
 
