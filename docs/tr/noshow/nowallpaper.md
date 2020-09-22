@@ -30,4 +30,4 @@ Wallpaper Engine genellikle *Fences* ile uyumlu çalışır. Ancak **Fences yük
 
 **KB2533623** Windows 7 güncellemesinin yüklü olduğundan emin olun. Ya bu bağlantıyla manuel olarak yükleyin ya da Windows Update'in düzgün çalışıp kendi başına yüklediğinden emin olun. Microsoft web sitesinden manuel olarak indirebilir ve sonrasında sistemi yeniden başlatarak sorunu çözebilirsiniz:
 
-* [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
+* [KB2533623](https://support.microsoft.com/tr-tr/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
