@@ -56,17 +56,17 @@ Dieser Fehler tritt im Normalfall durch ein Fehler in Windows selbst auf. Versuc
 * [AMD Radeon](https://www.amd.com/support)
 
 ::: tip
-Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
+Bitte beachten Während der Installation sollte die Auswahl "Eine saubere Neuinstallation durchführen" ausgewählt werden. Alternativ kannst du auch deine derzeitigen Treiber erst deinstallieren bevor du die neuen Treiber installierst. Falls deine derzeitigen Treiber defekt sind, ist es wichtig dass diese zuerst vollständig entfernt werden.
 :::
 
 ### nvwgf2umx.dll
 
-The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
+Die Nvidia-Treiber auf deinem System stürzen ab. Gehe zur Nvidia-Website, lade die neuesten Treiber dort herunter und installiere sie:
 
 * [Nvidia GeForce](https://www.nvidia.de/Download/index.aspx)
 
 ::: tip
-Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
+Bitte beachten Während der Installation sollte die Auswahl "Eine saubere Neuinstallation durchführen" ausgewählt werden. Alternativ kannst du auch deine derzeitigen Treiber erst deinstallieren bevor du die neuen Treiber installierst. Falls deine derzeitigen Treiber defekt sind, ist es wichtig dass diese zuerst vollständig entfernt werden.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
