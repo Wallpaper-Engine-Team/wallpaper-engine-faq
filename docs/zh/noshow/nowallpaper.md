@@ -30,4 +30,4 @@ Wallpaper Engine 可与大多数桌面修改应用程序协调并存。 但有�
 
 请确保已安装 Windows 7 的更新 **KB2533623**。 您可以通过以下链接手动安装该更新，或者确保 Windows Update 正常运行并自动安装该更新。 从 Microsoft 网站手动下载该更新后，重新启动系统，问题应该可以消失：
 
-* [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
+* [KB2533623](https://support.microsoft.com/zh-cn/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
