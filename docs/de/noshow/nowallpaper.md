@@ -30,4 +30,4 @@ Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fen
 
 Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
 
-* [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
+* [KB2533623](https://support.microsoft.com/de-de/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)

@@ -30,4 +30,4 @@ Wallpaper Engine은 대부분의 바탕화면 수정 응용 프로그램과 잘 
 
 Windows 7 업데이트 **KB2533623**이 설치되어 있는지 확인하세요. 링크를 통해 수동으로 설치하거나, Windows 업데이트가 제대로 작동하여 스스로 설치하는지 확인해야 합니다. Microsoft 웹사이트에서 수동으로 다운로드한 뒤 시스템을 다시 시작하면 문제가 해결됩니다:
 
-* [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
+* [KB2533623](https://support.microsoft.com/ko-kr/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)

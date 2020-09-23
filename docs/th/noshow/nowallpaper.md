@@ -30,4 +30,4 @@ Wallpaper Engine ทำงานได้ดีกับแอพพลิเค
 
 โปรดตรวจสอบให้แน่ใจว่าได้ติดตั้ง Windows 7 Update **KB2533623** แล้ว คุณสามารถติดตั้งการอัพเดตด้วยตนเองผ่านลิงก์ด้านล่างหรือตรวจสอบให้แน่ใจว่า Windows Update ของคุณทำงานได้อย่างถูกต้องและติดตั้งการอัพเดตอัตโนมัติ คุณสามารถดาวน์โหลดได้ด้วยตนเองจากเว็บไซต์ Microsoft แล้วรีสตาร์ทระบบของคุณในภายหลัง ปัญหาข้างต้นควรจะหายไป:
 
-* [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
+* [KB2533623](https://support.microsoft.com/th-th/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
