@@ -18,7 +18,7 @@ Se não conseguir encontrar um artigo apropriado ou não conseguir resolver o se
 ::: tip
 Se tiver um problema técnico, ajuda se incluir um ficheiro de registo da nossa ferramenta de varrimento (scan tool):
 
-* [Usar a ferramenta de varrimento do Wallpaper Engine para criar um registo de debug](debug/scantool)
+* [Usar a ferramenta de varrimento do Wallpaper Engine para criar um registo de debug](scantool.html)
 
 A ferramenta de varrimento inclui detalhes técnicos que costumam ajudar-nos a apontá-lo na direção certa mais depressa.
 :::
