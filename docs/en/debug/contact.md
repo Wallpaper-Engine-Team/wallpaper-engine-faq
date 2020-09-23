@@ -17,7 +17,7 @@ If you cannot find a fitting article or cannot fix your problem, you can reach u
 ::: tip
 If you are having a technical issue, it helps if you include a log file from our scan tool:
 
-* [Use the Wallpaper Engine scan tool to create a debug log](debug/scantool)
+* [Use the Wallpaper Engine scan tool to create a debug log](scantool.html)
 
 The scan tool includes technical details which usually help us point you in the right direction faster.
 :::
