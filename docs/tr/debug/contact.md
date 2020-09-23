@@ -18,7 +18,7 @@ Sorununuzla uyuşan bir tartışma bulamaz ya da kendi sorunuza yanıt alamazsan
 ::: tip
 Teknik bir sorun yaşadığınızda tarama aracımızdan bir günlük dosyası eklemeniz faydalı olacaktır:
 
-* [Hata ayıklama günlüğü oluşturmak için Wallpaper Engine tarama aracını kullanın](debug/scantool)
+* [Hata ayıklama günlüğü oluşturmak için Wallpaper Engine tarama aracını kullanın](scantool.html)
 
 Tarama aracında, sizi doğru yönlendirmemize yardımcı olabilecek teknik detaylar barındırır.
 :::
