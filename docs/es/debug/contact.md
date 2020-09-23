@@ -18,7 +18,7 @@ Si no encuentras el artículo que necesitas o no consigues resolver el problema,
 ::: tip
 Si tienes problemas técnicos, nos vendrá bien que nos envíes un archivo de registro de nuestra herramienta de escaneo:
 
-* [Usar la herramienta de escaneo de Wallpaper Engine para crear un registro de depuración](debug/scantool)
+* [Usar la herramienta de escaneo de Wallpaper Engine para crear un registro de depuración](scantool.html)
 
 Esta herramienta incluye detalles técnicos que nos suelen servir para indicarte qué ocurre más rápidamente.
 :::

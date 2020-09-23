@@ -18,7 +18,7 @@ Wallpaper Engine 관련 기술적 문제가 발생하면, 우선 FAQ를 확인�
 ::: tip
 기술적 문제가 발생하면, 스캔 도구의 로그 파일을 보내는 게 도움이 됩니다:
 
-* [Wallpaper Engine 스캔 도구를 사용하여 디버그 로그 생성하기](debug/scantool)
+* [Wallpaper Engine 스캔 도구를 사용하여 디버그 로그 생성하기](scantool.html)
 
 스캔 도구에는 저희가 더 빠르게 올바른 방향을 제시하는 데 도움이 되는 기술적 세부 내용이 포함되어 있습니다.
 :::

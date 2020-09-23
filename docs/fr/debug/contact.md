@@ -18,7 +18,7 @@ Si vous ne trouvez toujours pas de solution satisfaisante, vous pouvez nous écr
 ::: tip
 Si vous rencontrez un problème technique, n'oubliez pas de joindre une copie du rapport de notre outil d'analyse :
 
-* [Utiliser l'outil d'analyse de Wallpaper Engine pour créer un rapport de bug](debug/scantool)
+* [Utiliser l'outil d'analyse de Wallpaper Engine pour créer un rapport de bug](scantool.html)
 
 L'outil d'analyse de nous donnera des précisions qui nous permettront de rapidement comprendre d'où vient votre problème.
 :::

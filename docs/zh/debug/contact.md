@@ -18,7 +18,7 @@ tags:
 ::: tip
 如果遇到技术问题，通过我们的扫描工具添加日志文件会有所帮助：
 
-* [使用 Wallpaper Engine 扫描工具创建调试日志](debug/scantool)
+* [使用 Wallpaper Engine 扫描工具创建调试日志](scantool.html)
 
 该扫描工具包括各种技术细节，通常有助于我们更快地向您指明正确的方向。
 :::
