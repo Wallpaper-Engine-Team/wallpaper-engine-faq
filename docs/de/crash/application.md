@@ -71,19 +71,19 @@ Bitte beachten Während der Installation sollte die Auswahl "Eine saubere Neuins
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+Die Intel-Grafikkartentreiber auf Ihrem System stürzen ab. Besuchen Sie die Intel-Website und laden Sie die neuesten Treiber herunter und installieren Sie diese:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+Die Intel-Grafikkartentreiber auf Ihrem System stürzen ab. Besuchen Sie die Intel-Website und laden Sie die neuesten Treiber herunter und installieren Sie diese:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+Diese Art von Abstürzen werden von Razer Chroma verursacht, welches Teil von **Razer Synapse** ist. Normalerweise wird dies von einer fehlerhaften Installation von Razer Synapse verursacht. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
 
 **Clean reinstallation of all Razer software**
 
