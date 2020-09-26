@@ -120,4 +120,4 @@ Falls dieser Fehler weiterhin auftritt, kann das Problem den Ursprung in einem �
 
 ## Abstürze nach Standby / Ruhemodus
 
-If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+Wenn Wallpaper Engine nach einem Windows-Standby abstürzt, bedeutet dies, dass Windows nicht in der Lage ist, deinen Grafikkartentreiber und Wallpaper Engine gleichzeitig wiederherzustellen. Der Ruhemodus von Windows ist kein sehr stabiler Prozess. Du kannst die Option **Sicherer Start nach Ruhemodus** in den Wallpaper Engine-Einstellungen aktivieren, um das Problem in den meisten Fällen zu lösen. Diese Option versucht einen vollständigen Neustart von Wallpaper Engine durchzuführen, anstatt sich auf Windows nach dem Aufwachen aus dem Ruhemodus zu verlassen.
