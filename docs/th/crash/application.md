@@ -73,12 +73,6 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
-
-ไดรเวอร์ Intel Graphics ในระบบของคุณหยุดทำงาน ไดรเวอร์ Intel Graphics ในระบบของคุณหยุดทำงาน โปรดเยี่ยมชมเว็บไซต์ Intel เพื่อดาวน์โหลดไดรเวอร์ล่าสุดจากที่นั่นและทำการติดตั้ง:
-
-* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
-
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
 These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
@@ -101,27 +95,27 @@ Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
 
 If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crahes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
-ความผิดพลาดประเภทนี้เกิดขึ้นเนื่องจากซอฟต์แวร์เสียงที่ติดตั้งอยู่ในระบบของคุณนั้นเสียหาย ซึ่งมักจะเกิดจากซอฟต์แวร์ "การปรับปรุงคุณภาพเสียง" โดยเฉพาะซอฟต์แวร์ดังกล่าวที่ถูกติดตั้งไว้ล่วงหน้าในคอมพิวเตอร์โน้ตบุ๊คต่าง ๆ ซอฟต์แวร์ประเภทนี้มักจะทำให้เกิดปัญหาเนื่องจากซอฟต์แวร์ดังกล่าวทำงานโต้ตอบกับ Windows ในทางที่ผิด ลองค้นหา "Sonic Studio" หรือ "Nahimic" แล้วอัพเดท หากคุณไม่พบการอัพเดตสำหรับโปรแกรมเหล่านี้ คุณสามารถถอนการติดตั้งได้เพราะโปรแกรมข้างต้นไม่มีผลต่อการทำงานปกติของเสียงคอมพิวเตอร์
+This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
-ความผิดพลาดประเภทนี้เกิดจากจอแสดงผล FPS และแอพพลิเคชันบันทึกหน้าจอ Fraps แอพพลิเคชัน Fraps นั้นไม่ได้รับการอัพเดตมาตั้งแต่ปี 2013 และล้าสมัยอย่างมาก โปรดใช้แอพพลิเคชันอื่นแทนที่ Fraps เนื่องจากนี่เป็นข้อบกพร่องที่เกิดจาก Fraps ซึ่งไม่สามารถซ่อมแซมได้
+The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
 ## ข้อผิดพลาด 0xc000007b
 
-ข้อผิดพลาดนี้หมายถึงโมดูล Windows ได้รับความเสียหายจากบางสิ่งบางอย่างในระบบของคุณ - ในกรณีนี้มักจะเป็น DirectX ที่เกิดความเสียหาย ลองลบไฟล์เหล่านี้ด้วยตนเอง:
+This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-ตอนนี้ให้ติดตั้งอีกครั้งด้วยตัวติดตั้ง DirectX 9: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (ตำแหน่งที่แน่นอนขึ้นอยู่กับตำแหน่งของไดเรกทอรีการติดตั้ง wallpaper_engine ของคุณ)
+Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
 
-หากข้อผิดพลาดนี้ยังคงเกิดขึ้นแสดงว่าโมดูล DirectX อื่นที่คล้ายคลึงกันมีบางอย่างเสียหาย สิ่งนี้มักบ่งชี้ถึงปัญหาที่อาจเกิดขึ้นกับการติดตั้ง Windows และคุณต้องแก้ไขปัญหาเหล่านี้ก่อนถึงจะสามารถเรียกใช้ Wallpaper Engine ได้
+If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
 
 ## ความผิดพลาดหลังการไฮเบอร์เนต / โหมดสลีป
 
-หาก Wallpaper Engine ขัดข้องหลังจากการไฮเบอร์เนต Windows แสดงว่า Windows ไม่สามารถกู้คืนไดรเวอร์การ์ดจอและ Wallpaper Engine ได้อย่างถูกต้องในเวลาเดียวกัน การไฮเบอร์เนตของ Windows ไม่ใช่กระบวนการที่เชื่อถือได้ คุณสามารถเปิดใช้งานตัวเลือก **เริ่มต้นอย่างปลอดภัยหลังการไฮเบอร์เนต** ใน Wallpaper Engine เพื่อลดปัญหานี้ ตัวเลือกนี้จะพยายามรีสตาร์ท Wallpaper Engine โดยอัตโนมัติแทนที่จะคาดหวังให้ Windows ทำงานตามปกติหลังการไฮเบอร์เนต
+If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
