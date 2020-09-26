@@ -109,15 +109,15 @@ Der Absturz wurde von Fraps, einer Anwendung zum anzeigen von FPS und Aufnehmen 
 
 ## Absturzfehler 0xc000007b
 
-This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
+Dies bedeutet, dass ein Windows-Modul defekt ist - normalerweise ist DirectX in diesem Fall beschädigt. Versuche diese Dateien zu löschen:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
+Installiere diese nun neu mit dem DirectX 9-Installationsprogramm: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (Der genaue Ort der Datei kann anders sein, wenn dein wallpaper_engine-Installationspfad an einem anderen Ort liegt).
 
-If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
+Falls dieser Fehler weiterhin auftritt, kann das Problem den Ursprung in einem ähnliches DirectX-Modul haben, welches ebenfalls beschädigt wurde. Dies bedeutet normalerweise, dass deine Windows-Installation tiefere Probleme hat, welche zunächst repariert werden müssen, bevor du Wallpaper Engine ausführen kannst.
 
-## Crashing after Hibernation / Sleep
+## Abstürze nach Standby / Ruhemodus
 
 If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
