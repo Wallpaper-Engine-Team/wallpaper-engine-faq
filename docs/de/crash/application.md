@@ -75,27 +75,21 @@ Die Intel-Grafikkartentreiber auf deinem System stürzen ab. Besuche die Intel-W
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
-
-Die Intel-Grafikkartentreiber auf deinem System stürzen ab. Besuche die Intel-Website, lade die neuesten Treiber herunter und installiere diese:
-
-* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
-
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-Diese Art von Abstürzen werden von Razer Chroma verursacht, welches Teil von **Razer Synapse** ist. Normalerweise wird dies von einer fehlerhaften Installation von Razer Synapse verursacht. In den meisten Fällen behebt eine saubere Neuinstallation von Razer Synapse diese Art von Abstürzen:
+These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
 
-**Saubere Neuinstallation von Razer-Software**
+**Clean reinstallation of all Razer software**
 
 ::: warning
-Stelle sicher, dass Wallpaper Engine ausgeschaltet ist während Razer Synapse neu installiert wird.
+Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
 :::
 
 1. Schalte Wallpaper Engine vollständig ab falls es läuft (Rechtsklick auf das Wallpaper Engine-Symbol neben der Windows-Uhr und dann **Beenden** auswählen)
 2. Deinstalliere jegliche Razer-Software von deinem Computer über die Windows-Systemsteuerung
 3. Lade die neueste Version der Razer-Software von der offiziellen Website herunter und installiere diese:
 
-* [Razer Synapse 3 herunterladen](https://www.razer.com/synapse-3)
+* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
 
 4. Starte danach deinen Computer neu, ohne Wallpaper Engine vorher erneut zu starten.
 
@@ -103,7 +97,7 @@ Stelle sicher, dass Wallpaper Engine ausgeschaltet ist während Razer Synapse ne
 
 If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crahes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
