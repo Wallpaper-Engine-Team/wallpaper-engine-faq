@@ -75,12 +75,6 @@ Wallpaper Engine — тщательно тестируемая и хорошо 
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
-
-В работе драйверов Intel происходят сбои. Перейдите на сайт Intel, загрузите последнюю версию драйверов и установите ее:
-
-* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
-
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
 These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
@@ -103,27 +97,27 @@ Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
 
 If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crahes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
-Сбои подобного типа происходят по причине неисправности ПО, обрабатывающего на вашем компьютере звук. Обычно аварийное завершение работы связано с программами для улучшения качества звука, которые предустанавливаются на многие ноутбуки. Подобные программы часто приводят к сбоям в работе системы, поскольку плохо взаимодействуют с Windows. Поищите на вашем компьютере программы Sonic Studio и Nahimic и обновите их. Если вы не найдете обновлений для этих программ, их можно просто удалить, поскольку они не являются необходимыми для нормального воспроизведения звука.
+This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
-Сбой был вызван Fraps — программой для подсчета количества кадров в секунду (FPS) и захвата видео с экрана. Обновления для Fraps не выпускались с 2013 года, и в целом эта программа очень сильно устарела. Пожалуйста, воспользуйтесь альтернативными программами: к аварийному завершению работы приводит ошибка в Fraps, которая, возможно, никогда не будет исправлена, поскольку разработка этой утилиты заброшена.
+The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
 ## Crash error 0xc000007b
 
-Это сообщение означает, что один из модулей Windows был поврежден. Обычно в таких случаях оказывается неисправен сам DirectX. Попробуйте вручную удалить эти файлы:
+This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Затем установите их заново с помощью инструмента установки DirectX 9: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (точное расположение файлов будет зависеть от того, где у вас находится каталог установки wallpaper_engine).
+Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
 
-Если вы ошибка продолжает возникать, это значит, что поврежден еще и другой модуль DirectX. Обычно это указывает на более серьезные проблемы в самой системе Windows, без исправления которых Wallpaper Engine работать не будет.
+If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
 
 ## Аварийное завершение работы после гибернации / спящего режима
 
-Если Wallpaper Engine аварийно завершает работу после гибернации системы, это значит, что у Windows возникают сложности с одновременным восстановлением драйверов видеокарты и Wallpaper Engine. Гибернация в Windows — не самый надежный процесс. Чтобы обойти эту проблему, включите в Wallpaper Engine опцию **Безопасный старт после гибернации**. С ней после гибернации системы Wallpaper Engine пытается автоматически перезапуститься, не рассчитывая на правильную работу Windows.
+If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
