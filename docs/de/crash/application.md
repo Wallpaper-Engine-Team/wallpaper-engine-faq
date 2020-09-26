@@ -71,43 +71,37 @@ Bitte beachten Während der Installation sollte die Auswahl "Eine saubere Neuins
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
-
-* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
-
-### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
-
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
+Die Intel-Grafikkartentreiber auf deinem System stürzen ab. Besuche die Intel-Website, lade die neuesten Treiber herunter und installiere diese:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+Diese Art von Abstürzen werden von Razer Chroma verursacht, welches Teil von **Razer Synapse** ist. Normalerweise wird dies von einer fehlerhaften Installation von Razer Synapse verursacht. In den meisten Fällen behebt eine saubere Neuinstallation von Razer Synapse diese Art von Abstürzen:
 
-**Clean reinstallation of all Razer software**
+**Saubere Neuinstallation von Razer-Software**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+Stelle sicher, dass Wallpaper Engine ausgeschaltet ist während Razer Synapse neu installiert wird.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. Schalte Wallpaper Engine vollständig ab falls es läuft (Rechtsklick auf das Wallpaper Engine-Symbol neben der Windows-Uhr und dann **Beenden** auswählen)
+2. Deinstalliere jegliche Razer-Software von deinem Computer über die Windows-Systemsteuerung
+3. Lade die neueste Version der Razer-Software von der offiziellen Website herunter und installiere diese:
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Razer Synapse 3 herunterladen](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. Starte danach deinen Computer neu, ohne Wallpaper Engine vorher erneut zu starten.
 
-**Reinstallation does not fix the problem**
+**Neuinstallation löst das Problem nicht**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+Falls das Problem nicht durch eine Neuinstallation von Razer Synapse gelöst werden kann, liegt wahrscheinlich ein Problem in Razer Synapse selbst vor. In der Vergangenheit wurde dies beispielsweise durch fehlerhafte Razer Synapse-Updates verursacht. Versuche das LED-Plugin (*"iCUE & Chroma SDK"*) im Reiter **Plugins** in den Wallpaper Engine-Einstellungen abzuschalten, bis das Problem in einem Razer Synapse-Update behoben wurde.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crahes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Falls die Abstürze selbst nach einer sauberen Neuinstallation von Razer Synapse fortbestehen, kontaktiere bitte den Kundendienst von Razer direkt und informiere sie über die Abstürze. Falls sie dir nicht mit deinem Problem helfen können, kannst du uns natürlich trotzdem gerne kontaktieren. Wir können das Problem von unserer Seite aus angucken und unsere Analyse an das Razer Synapse-Team weiterleiten. Trotzdem sollte Razer der erste Ansprechpartner sein bei Abstürzen dieser Art.
 
 ### MMDEvAPI.dll
 
-This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+Diese Art von Absturz tritt auf, wenn fehlerhafte Audio-Software auf deinem System installiert ist. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
