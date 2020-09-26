@@ -101,13 +101,13 @@ Falls die Abstürze selbst nach einer sauberen Neuinstallation von Razer Synapse
 
 ### MMDEvAPI.dll
 
-Diese Art von Absturz tritt auf, wenn fehlerhafte Audio-Software auf deinem System installiert ist. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+Diese Art von Absturz tritt auf, wenn fehlerhafte Audio-Software auf deinem System installiert ist. Dies wird normalerweise durch Software zur "Soundverbesserung" verursacht, besonders durch Software welche auf einigen Notebooks vorinstalliert mitgeliefert wird. Diese Art von Anwendungen verursachen oft Abstürze, da sie mir Windows in einer fehlerhaften Weise interagieren. Suche auf deinem System nach "Sonic Studio" oder "Nahimic" und aktualisiere diese wenn möglich. Falls du kein Update für diese Art von Anwendung finden kannst, kannst du sie auch deinstallieren, da sie nicht notwendig für die Audiowiedergabe auf deinem System sind.
 
 ### fraps32.dll
 
-The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
+Der Absturz wurde von Fraps, einer Anwendung zum anzeigen von FPS und Aufnehmen von Bildschirmaufnahmen, verursacht. Fraps wurde seit 2013 nicht mehr aktualisiert und ist eine sehr veraltete Anwendung. Bitte verwende eine Alternative zu Fraps, da es sich hierbei um einen Fehler in Fraps handelt, welcher wahrscheinlich niemals behoben wird, da die Software nicht weiter entwickelt wird.
 
-## Crash error 0xc000007b
+## Absturzfehler 0xc000007b
 
 This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
