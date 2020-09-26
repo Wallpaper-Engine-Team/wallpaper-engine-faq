@@ -73,12 +73,6 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
-
-시스템의 Intel 그래픽 드라이버가 작동 중단됩니다. Intel 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요: 시스템의 Intel 그래픽 드라이버가 작동 중단됩니다. Intel 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요:
-
-* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
-
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
 These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
@@ -101,27 +95,27 @@ Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
 
 If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crahes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
-이 유형의 작동 중단은 시스템에 설치된 손상된 오디오 소프트웨어가 원인입니다. 보통 "사운드 향상" 소프트웨어 때문에 발생하며, 특히 여러 노트북에 사전 설치된 소프트웨어가 영향을 줍니다. 이 유형의 소프트웨어는 Windows와 이상한 방식으로 상호작용하기 때문에 종종 작동 중단을 유발합니다. "Sonic Studio" 또는 "Nahimic"를 찾아보고 업데이트하세요. 해당 프로그램의 업데이트를 찾을 수 없다면, 컴퓨터 오디오의 올바른 작동에 반드시 필요하지 않으므로 제거할 수도 있습니다.
+This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
-작동 중단의 원인이 FPS 모니터와 화면 녹화 앱 Fraps입니다. Fraps는 2013년 이후 업데이트가 되지 않은 상당히 오래된 응용프로그램입니다. Fraps는 중단된 소프트웨어로, 버그를 해결할 수 없으므로 대체 프로그램을 사용하세요.
+The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
 ## 작동 중단 오류 0xc000007b
 
-Windows 모듈이 시스템의 무언가 때문에 손상되었다는 의미입니다. 이 경우 보통 DirectX 자체가 손상됩니다. 다음 파일을 수동으로 제거해 보세요:
+This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-이제 DirectX 9 설치 관리자로 다시 설치하세요: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (정확한 위치는 wallpaper_engine 설치 디렉토리에 따라 다릅니다.)
+Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
 
-그래도 이 오류가 발생한다면, 무언가에 의해 손상된 비슷하지만 다른 DirectX 모듈이 원인일 수도 있습니다. 이는 보통 Wallpaper Engine을 실행하기 전 해결해야 할 Windows 설치 관련 더 큰 내부 문제가 있다는 걸 의미합니다.
+If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
 
 ## 최대 절전 / 취침 모드 후 작동 중단
 
-Windows 최대 절전 모드 후 Wallpaper Engine이 작동 중단되면, Windows에서 그래픽 카드 드라이버와 Wallpaper Engine을 함께 제대로 복구할 수 없습니다. Windows의 최대 절전 모드는 안정적인 프로세스가 아닙니다. Wallpaper Engine에서 **최대 절전 모드 후 안전 모드** 옵션을 사용하여 이 문제를 완화할 수 있습니다. 이 옵션은 Windows가 최대 절전 모드 후 제대로 작동하기를 기대하는 대신 Wallpaper Engine을 자동으로 다시 시작합니다.
+If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
