@@ -74,12 +74,6 @@ The Intel graphics drivers on your system are crashing. Go to the Intel website,
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-###  igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
-
-The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
-
-* [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
-
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
 These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
