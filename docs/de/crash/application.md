@@ -71,33 +71,33 @@ Bitte beachten Während der Installation sollte die Auswahl "Eine saubere Neuins
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-Die Intel-Grafikkartentreiber auf Ihrem System stürzen ab. Besuchen Sie die Intel-Website und laden Sie die neuesten Treiber herunter und installieren Sie diese:
+Die Intel-Grafikkartentreiber auf deinem System stürzen ab. Besuche die Intel-Website, lade die neuesten Treiber herunter und installiere diese:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-Die Intel-Grafikkartentreiber auf Ihrem System stürzen ab. Besuchen Sie die Intel-Website und laden Sie die neuesten Treiber herunter und installieren Sie diese:
+Die Intel-Grafikkartentreiber auf deinem System stürzen ab. Besuche die Intel-Website, lade die neuesten Treiber herunter und installiere diese:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-Diese Art von Abstürzen werden von Razer Chroma verursacht, welches Teil von **Razer Synapse** ist. Normalerweise wird dies von einer fehlerhaften Installation von Razer Synapse verursacht. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+Diese Art von Abstürzen werden von Razer Chroma verursacht, welches Teil von **Razer Synapse** ist. Normalerweise wird dies von einer fehlerhaften Installation von Razer Synapse verursacht. In den meisten Fällen behebt eine saubere Neuinstallation von Razer Synapse diese Art von Abstürzen:
 
-**Clean reinstallation of all Razer software**
+**Saubere Neuinstallation von Razer-Software**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+Stelle sicher, dass Wallpaper Engine ausgeschaltet ist während Razer Synapse neu installiert wird.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. Schalte Wallpaper Engine vollständig ab falls es läuft (Rechtsklick auf das Wallpaper Engine-Symbol neben der Windows-Uhr und dann **Beenden** auswählen)
+2. Deinstalliere jegliche Razer-Software von deinem Computer über die Windows-Systemsteuerung
+3. Lade die neueste Version der Razer-Software von der offiziellen Website herunter und installiere diese:
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Razer Synapse 3 herunterladen](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. Starte danach deinen Computer neu, ohne Wallpaper Engine vorher erneut zu starten.
 
 **Reinstallation does not fix the problem**
 
