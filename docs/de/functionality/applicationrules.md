@@ -1,22 +1,22 @@
 ---
 tags:
-  - application
-  - rules
-  - exception
+  - anwendung
+  - regeln
+  - ausnahme
   - whitelist
   - blacklist
   - lags
   - laggy
-  - game
-  - performance
+  - spiele
+  - leistung
   - fps
   - crash
   - sound
   - audio
-  - intermittent
+  - absturz
 ---
 
-# Fix issues with specific apps or games
+# Probleme mit bestimmten Anwendungen oder Spielen lösen
 
 If you are experiencing problems with specific applications or games you can configure Wallpaper Engine to behave a certain way when it detects that the app you are having problems with is launched or playing audio, for example.
 
