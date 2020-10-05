@@ -27,51 +27,55 @@ Intenta comprobar los archivos de Wallpaper Engine a través de Steam para asegu
 
 * [Steam Support: Verificar la integridad de los archivos del juego](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=spanish)
 
-## Wallpaper Engine se ha colgado por culpa de otro programa
+## Crashing after Hibernation / Sleep
+
+If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+
+## Wallpaper Engine was likely crashed by another application
 
 ### KERNELBASE.dll / ntdll.dll
 
-Se trata de un error que se produce en el propio kernel de Windows por culpa de los antivirus o de los controladores dañados de las tarjetas gráficas. Lee la guía de solución rápida para obtener más información. También puede ocurrir si los componentes del sistema están dañados. Usa la herramienta de Comprobación de archivos del sistema de Microsoft para reparar los archivos dañados de Windows:
+This is a crash in the core of the Windows kernel itself, it is usually caused by antivirus applications or broken graphics card drivers. Lee la guía de solución rápida para obtener más información. También puede ocurrir si los componentes del sistema están dañados. Usa la herramienta de Comprobación de archivos del sistema de Microsoft para reparar los archivos dañados de Windows:
 
 * [Comprobación de archivos del sistema de Microsoft](https://support.microsoft.com/es-es/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-Se trata de un error que se produce en DirectX por culpa de los antivirus o de los controladores dañados de las tarjetas gráficas. Lee la guía de solución rápida para obtener más información. También puede ocurrir si los componentes del sistema están dañados. Usa la herramienta de Comprobación de archivos del sistema de Microsoft para reparar los archivos dañados de Windows:
+This is a crash in DirectX, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
 
 * [Comprobación de archivos del sistema de Microsoft](https://support.microsoft.com/es-es/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-Se trata de un error en Windows Media Foundation que puede deberse a los controladores dañados de la tarjeta gráfica, pero es más común que suceda por culpa de codecs de vídeo dañados o no encontrados. Sigue las instrucciones de nuestra guía para solucionar este tipo de errores:
+This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
 
-[Haz clic aquí.](/noshow/notplaying.html)
+[Click here](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-Este caso suele darse por un problema de Windows. Vuelve a instalar la versión más reciente de los controladores de la tarjeta de sonido y puede que se solucione el problema. También puedes solucionar estos programas si cambias la opción *Otra aplicación reproduciendo audio* en la pestaña *Rendimiento* de los ajustes de Wallpaper Engine a *Seguir ejecutándose*.
+This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
 
 ### atiumdag.dll / atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/es/support)
 
 ::: tip
-¡Aviso! Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
+Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
 :::
 
 ### nvwgf2umx.dll
 
-Los controladores de Nvidia de tu sistema se cuelgan. Dirígete a la página web de Nvidia, descarga los controladores más recientes e instálalos:
+The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
 
 * [Nvidia GeForce](https://www.nvidia.es/Download/index.aspx?lang=es)
 
 ::: tip
-Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
+Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-Los controladores gráficos de Intel de tu sistema se cuelgan. Dirígete a la página web de Intel, descarga los controladores más recientes e instálalos:
+The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
@@ -101,23 +105,19 @@ If the crashes persist even after a clean reinstallation of Razer Synapse, pleas
 
 ### MMDEvAPI.dll
 
-Se trata de un error que se produce debido a un programa de sonido dañado que está instalado en el sistema. Suele ocurrir con los programas de «mejora de sonido», sobre todo con aquellos que ya vienen instalados en los portátiles. Este tipo de programas puede ocasionar problemas porque interactúan con Windows causando algún error. Busca «Sonic Studio» o «Nahimic» y actualízalos. Si no encuentras la actualización de dichos programas, puedes desinstalarlos, ya que no son necesarios para que el sonido del ordenador funcione correctamente.
+This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
-Se trata de un error que se produce por los fotogramas por segundo del monitor y el programa de grabación Fraps, un programa que no ha recibido ninguna actualización desde 2013 y que está completamente obsoleto. Utiliza una alternativa, ya que es probable que el error no llegue a solucionarse porque es un programa que ha quedado abandonado.
+The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
-## Error 0xc000007b
+## Crash error 0xc000007b
 
-Este error indica que algo de tu sistema ha corrompido un módulo de Windows; por lo general, en este caso, DirectX está dañado. Intenta eliminar estos archivos de forma manual:
+This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Vuelve a instalarlos con el instalador de DirectX 9:*C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe*. (La ubicación exacta depende del lugar en el que esté el directorio de instalación wallpaper_engine).
+Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
 
-Si te sigue apareciendo el mismo error es que algo ha dañado a un módulo similar de DirectX. Por lo general, es señal de que tienes un problema mayor con la instalación de Windows que tendrás que solucionar antes de poder usar Wallpaper Engine.
-
-## Se cuelga después de hibernar / suspender
-
-Si Wallpaper Engine se cuelga después de que Windows hiberne quiere decir que Windows no consigue restaurar correctamente los controladores de la tarjeta gráfica y Wallpaper Engine. El proceso de hibernación de Windows no es muy seguro, pero puedes activar la opción **Inicio seguro después de la hibernación** en Wallpaper Engine para paliar el problema. Esta opción intentará reiniciar Wallpaper Engine automáticamente en lugar de esperar que Windows funcione a la perfección tras la hibernación.
+If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
