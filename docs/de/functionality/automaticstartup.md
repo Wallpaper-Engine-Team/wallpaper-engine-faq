@@ -1,14 +1,14 @@
 ---
 tags:
   - autostart
-  - launch
+  - automatisch
 ---
 
-# Automatic start-up at boot
+# Automatischer Start mit Windows
 
-You can make Wallpaper Engine launch when your computer starts by going to the Wallpaper Engine settings and navigating to the "General" tab. At the top, you can enable the automatic startup option which will launch the application quietly in the background whenever your system boots up.
+Wallpaper Engine kann mit Windows gestartet werden, gehe dazu in die Einstellungen von Wallpaper Engine und navigiere zum Reiter "Allgemein". Oben in den Einstellungen, kann der Autostart aktiviert werden. Dies führt dazu, dass die Anwendung im Hintergrund startet, sobald der Computer gestartet wird.
 
-## What is the difference between "high-priority" and the "normal" start-up option?
+## Was ist der Unterschied zwischen dem Autostart mit "hoher Priorität" und dem "normalen" Autostart?
 
 When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
 
