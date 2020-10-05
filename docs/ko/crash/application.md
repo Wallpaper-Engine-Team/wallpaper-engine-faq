@@ -27,6 +27,10 @@ Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 
 
 * [Steam 지원: 응용프로그램 파일의 무결성 확인](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+## 최대 절전 / 취침 모드 후 작동 중단
+
+Windows 최대 절전 모드 후 Wallpaper Engine이 작동 중단되면, Windows에서 그래픽 카드 드라이버와 Wallpaper Engine을 함께 제대로 복구할 수 없습니다. Windows의 최대 절전 모드는 안정적인 프로세스가 아닙니다. Wallpaper Engine에서 **최대 절전 모드 후 안전 모드** 옵션을 사용하여 이 문제를 완화할 수 있습니다. 이 옵션은 Windows가 최대 절전 모드 후 제대로 작동하기를 기대하는 대신 Wallpaper Engine을 자동으로 다시 시작합니다.
+
 ## Wallpaper Engine 때문에 다른 응용프로그램이 작동 중단된 것 같습니다
 
 ### KERNELBASE.dll / ntdll.dll
@@ -64,12 +68,12 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: 팁 설정 중 "새로 설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. 기존 드라이브가 손상되었다면, 우선 완전히 제거해야 합니다.
+::: 팁 설정 중 "새로 설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. 기존 드라이버가 손상되었으면, 우선 완전히 제거하는 것이 중요합니다.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-시스템의 Intel 그래픽 드라이버가 작동 중단됩니다. Intel 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요:
+시스템의 Intel 그래픽 드라이버가 작동 중단됩니다. Intel 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요: 시스템의 Intel 그래픽 드라이버가 작동 중단됩니다. Intel 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
@@ -115,7 +119,3 @@ Windows 모듈이 시스템의 무언가 때문에 손상되었다는 의미입�
 이제 DirectX 9 설치 관리자로 다시 설치하세요: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (정확한 위치는 wallpaper_engine 설치 디렉토리에 따라 다릅니다.)
 
 그래도 이 오류가 발생한다면, 무언가에 의해 손상된 비슷하지만 다른 DirectX 모듈이 원인일 수도 있습니다. 이는 보통 Wallpaper Engine을 실행하기 전 해결해야 할 Windows 설치 관련 더 큰 내부 문제가 있다는 걸 의미합니다.
-
-## 최대 절전 / 취침 모드 후 작동 중단
-
-Windows 최대 절전 모드 후 Wallpaper Engine이 작동 중단되면, Windows에서 그래픽 카드 드라이버와 Wallpaper Engine을 함께 제대로 복구할 수 없습니다. Windows의 최대 절전 모드는 안정적인 프로세스가 아닙니다. Wallpaper Engine에서 **최대 절전 모드 후 안전 모드** 옵션을 사용하여 이 문제를 완화할 수 있습니다. 이 옵션은 Windows가 최대 절전 모드 후 제대로 작동하기를 기대하는 대신 Wallpaper Engine을 자동으로 다시 시작합니다.
