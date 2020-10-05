@@ -2,18 +2,26 @@
 
 Windows N ne peut pas lire de médias ! Vous devez installer le Media Feature Pack pour votre version de Windows et votre numéro de build :
 
-* Windows 10 :
-  * Télécharger [Media Feature Pack](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (en anglais)
+#### Latest versions of Windows 10
+On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
 
-* Windows 7 :
-  * [Télécharger Media Feature Pack](https://www.microsoft.com/download/details.aspx?id=16546)
+*Apps > Apps and Features > Optional Features > Add a Feature*
 
-**Assurez-vous d'installer les versions x64 et x86.**
+A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
-Si la même erreur s'affiche toujours, c'est que **vous avez installé la mauvaise version**. Essayez d'installer la bonne version et redémarrez votre PC. Si rien ne fonctionne, vos fichiers système sont probablement corrompus, essayez de restaurer le système à un état antérieur ou réinstallez Windows.
+#### Outdated Windows 10 (May 2019 update or older):
+Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
+  * [Media Feature Pack Download](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (page only provided in English by Microsoft)
+
+#### Windows 7:
+  * Windows 7 is not supported by Microsoft anymore. You need update **KB968211** to add media features but Microsoft has removed the download page for it. Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+
+**Make sure to install the x64 and x86 version.**
+
+If it still shows the same error then **you have installed the wrong version**, try installing the correct version and restarting the PC. Should nothing work and it is still missing, your system files are probably defective, try restoring the system to an earlier state or reinstall Windows.
 
 :::warning
-Attention À chaque mise à jour importante de Windows 10, vous devrez réinstaller ce pack. Si cela ne vous convient pas, vous pouvez envisager de passer à une version normale de Windows, car les autres versions sont toujours livrées avec ces fonctionnalités !
+Please note Every time Microsoft releases a major update to Windows 10, you must install the media feature pack again. If this undesirable for you, consider switching to a normal version of Windows as the other versions are always shipped with these features!
 
-**L'intérêt de Windows N est justement qu'il ne contient aucune fonctionnalité média. Windows N n'est peut-être pas fait pour vous.**
+**The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.**
 :::
