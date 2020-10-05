@@ -27,6 +27,10 @@ Experimenta também verificar os ficheiros do Wallpaper Engine através do Steam
 
 * [Assistência do Steam: Verificar a integridade dos ficheiros da aplicação](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+## Bloqueio depois de Hibernação / Suspensão
+
+Se o Wallpaper Engine bloquear depois do Windows hibernar, isso significa que o Windows não está a restaurar os controladores da sua placa gráfica e o Wallpaper Engine em conjunto. A hibernação no Windows simplesmente não é um processo fiável. Pode ativar a opção **Iniciar em segurança depois de hibernar** no Wallpaper Engine para mitigar este problema. Esta opção tentará reiniciar o Wallpaper Engine automaticamente em vez de esperar que o Windows funcione corretamente depois da hibernação.
+
 ## O Wallpaper Engine provavelmente bloqueou devido a outra aplicação
 
 ### KERNELBASE.dll / ntdll.dll
@@ -117,7 +121,3 @@ Isto significa que um módulo do Windows foi danificado por algo no seu sistema 
 Agora volte a instalá-los com o programa de instalação do DirectX 9: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (A localização exata varia consoante o diretório de instalação wallpaper_engine).
 
 Se continua a obter este erro, poderá ser outro módulo, semelhante ao DirectX, que foi danificado por algo. Isto normalmente indica problemas subjacentes maiores na sua instalação do Windows, que deve corrigir antes de poder executar o Wallpaper Engine.
-
-## Bloqueio depois de Hibernação / Suspensão
-
-Se o Wallpaper Engine bloquear depois do Windows hibernar, isso significa que o Windows não está a restaurar os controladores da sua placa gráfica e o Wallpaper Engine em conjunto. A hibernação no Windows simplesmente não é um processo fiável. Pode ativar a opção **Iniciar em segurança depois de hibernar** no Wallpaper Engine para mitigar este problema. Esta opção tentará reiniciar o Wallpaper Engine automaticamente em vez de esperar que o Windows funcione corretamente depois da hibernação.
