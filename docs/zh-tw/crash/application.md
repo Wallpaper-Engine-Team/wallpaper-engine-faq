@@ -75,7 +75,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ### igdumd64.dll/igd10umd64.dll/igdumdx32.dll/igd10umd32.dll
 
-系統上的 Intel Graphics 損壞時， 請造訪 Intel 網站，下載並安裝最新的驅動程式： 系統上的 Intel Graphics 損壞時， 請造訪 Intel 網站，下載並安裝最新的驅動程式：
+系統上的 Intel Graphics 損壞時， 請造訪 Intel 網站，下載並安裝最新的驅動程式：
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
