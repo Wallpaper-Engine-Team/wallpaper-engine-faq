@@ -2,18 +2,26 @@
 
 Windows N'de medya özellikleri bulunmaz! Windows sürümünüz ve derleme numaranız için doğru Medya Özellik Paketi'ni yüklemelisiniz:
 
-* Windows 10:
-  * [Medya Özellik Paketi indirme](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (sayfanın sadece İngilizcesi mevcuttur)
+#### Latest versions of Windows 10
+On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
 
-* Windows 7:
-  * [Medya Özellik Paketi İndirme](https://www.microsoft.com/download/details.aspx?id=16546)
+*Apps > Apps and Features > Optional Features > Add a Feature*
 
-**x64 ve x86 sürümlerini indirmeyi unutmayın.**
+A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
-Hâlâ aynı hatayı veriyorsa **yanlış sürümü indirmişsiniz demektir**, doğru sürümünü indirip PC'nizi yeniden başlatmayı deneyin. Hiçbir şey çalışmıyorsa ve mfplat.dll hâlâ eksikse sistem dosyalarınız hatalı olabilir, sistemi bir önceki haline getirip Windows'u yeniden yüklemeyi deneyin.
+#### Outdated Windows 10 (May 2019 update or older):
+Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
+  * [Media Feature Pack Download](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (page only provided in English by Microsoft)
+
+#### Windows 7:
+  * Windows 7 is not supported by Microsoft anymore. You need update **KB968211** to add media features but Microsoft has removed the download page for it. Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+
+**Make sure to install the x64 and x86 version.**
+
+If it still shows the same error then **you have installed the wrong version**, try installing the correct version and restarting the PC. Should nothing work and it is still missing, your system files are probably defective, try restoring the system to an earlier state or reinstall Windows.
 
 :::warning
-Unutmayın Microsoft'un Windows 10'a getirdiği her büyük güncellemede medya özellik paketini yeniden yüklemeniz gerekir. Bunu istemiyorsanız Windows'un normal bir sürümüne geçebilirsiniz; diğer sürümler bu özelliklerle birlikte gelirler!
+Please note Every time Microsoft releases a major update to Windows 10, you must install the media feature pack again. If this undesirable for you, consider switching to a normal version of Windows as the other versions are always shipped with these features!
 
-**Windows N'in tüm meselesi medya özelliğine sahip olmamasıdır. Bunu istemiyorsanız Windows N kullanmamalısınız.**
+**The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.**
 :::
