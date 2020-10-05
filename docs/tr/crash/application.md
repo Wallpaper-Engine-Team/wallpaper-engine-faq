@@ -75,7 +75,7 @@ Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay 
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-Sisteminizdeki Intel graphics sürücüleri çöküyor. Intel internet sitesine gidin, buradan en son sürücüleri indirin ve kurun: Sisteminizdeki Intel graphics sürücüleri çöküyor. Intel internet sitesine gidin, buradan en son sürücüleri indirin ve kurun:
+Sisteminizdeki Intel graphics sürücüleri çöküyor. Intel internet sitesine gidin, buradan en son sürücüleri indirin ve kurun:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
