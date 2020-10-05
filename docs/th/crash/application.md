@@ -27,49 +27,55 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 * [ฝ่ายสนับสนุน Steam: ตรวจสอบความถูกต้องของไฟล์แอพพลิเคชัน](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## ความผิดพลาดของ Wallpaper Engine อาจเกิดจากแอพพลิเคชันอื่น
+## Crashing after Hibernation / Sleep
+
+If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+
+## Wallpaper Engine was likely crashed by another application
 
 ### KERNELBASE.dll / ntdll.dll
 
-นี่เป็นความผิดพลาดในเคอร์เนลของ Windows ซึ่งมักเกิดจากแอพพลิเคชันป้องกันไวรัสหรือไดรเวอร์การ์ดจอที่เสียหาย ดูส่วนการแก้ไขเบื้องต้นด้านบนสำหรับข้อมูลเพิ่มเติม นอกจากนี้ยังอาจเกิดจากความเสียหายของส่วนประกอบของระบบ ใช้เครื่องมือตรวจสอบไฟล์ระบบ Microsoft เพื่อซ่อมแซมไฟล์ Windows ที่อาจเสียหาย:
+This is a crash in the core of the Windows kernel itself, it is usually caused by antivirus applications or broken graphics card drivers. ดูส่วนการแก้ไขเบื้องต้นด้านบนสำหรับข้อมูลเพิ่มเติม นอกจากนี้ยังอาจเกิดจากความเสียหายของส่วนประกอบของระบบ ใช้เครื่องมือตรวจสอบไฟล์ระบบ Microsoft เพื่อซ่อมแซมไฟล์ Windows ที่อาจเสียหาย:
 
 * [เครื่องมือตรวจสอบไฟล์ระบบ Microsoft](https://support.microsoft.com/th-th/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-นี่เป็นความผิดพลาดของ DirectX ซึ่งมักเกิดจากแอพพลิเคชันป้องกันไวรัสหรือไดรเวอร์การ์ดจอที่เสียหาย ดูส่วนการแก้ไขเบื้องต้นด้านบนสำหรับข้อมูลเพิ่มเติม นอกจากนี้ยังอาจเกิดจากความเสียหายของส่วนประกอบของระบบ ใช้เครื่องมือตรวจสอบไฟล์ระบบ Microsoft เพื่อซ่อมแซมไฟล์ Windows ที่อาจเสียหาย:
+This is a crash in DirectX, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
 
 * [เครื่องมือตรวจสอบไฟล์ระบบ Microsoft](https://support.microsoft.com/th-th/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-นี่เป็นความผิดพลาดใน Windows Media Foundation ซึ่งอาจเกิดจากไดรเวอร์การ์ดจอที่เสียหาย แต่สาเหตุที่พบบ่อยคือตัวแปลงสัญญาณวิดีโอในระบบของคุณที่เสียหายหรือหายไป โปรดปฏิบัติตามขั้นตอนการซ่อมแซมในคู่มือการซ่อมแซมวิดีโอของเราเพื่อแก้ไขปัญหาการขัดข้องดังต่อไปนี้:
+This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
 
-[คลิกที่นี่](/noshow/notplaying.html)
+[Click here](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-ความผิดพลาดนี้มักจะเกิดขึ้นเนื่องจากปัญหาในตัว Windows เอง ลองติดตั้งไดรเวอร์การ์ดเสียงเวอร์ชันล่าสุดอีกครั้งเพราะอาจช่วยแก้ไขปัญหาได้ คุณยังสามารถแก้ไขข้อขัดข้องเหล่านี้ได้โดยเปลี่ยนตัวเลือก *แอพพลิเคชันอื่นกำลังเล่นไฟล์เสียง* ในแท็บ *ประสิทธิภาพการทำงาน* ในส่วนการตั้งค่า Wallpaper Engine เป็น *ทำงานต่อไป*
+This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
 
 ### atiumdag.dll / atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: เคล็ดลับ โปรดทราบ โปรดตรวจสอบให้แน่ใจว่าคุณได้เลือกช่องทำเครื่องหมาย "ทำการติดตั้งใหม่ทั้งหมด" ในระหว่างการติดตั้งหรือถอนการติดตั้งไดรเวอร์ปัจจุบันด้วยตนเองก่อน หากไดรเวอร์ปัจจุบันของคุณได้รับความเสียหาย สิ่งสำคัญคือการลบข้อมูลทั้งหมดก่อน
+::: tip
+Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
 :::
 
 ### nvwgf2umx.dll
 
-ไดรเวอร์ Nvidia ในระบบของคุณหยุดทำงาน โปรดเยี่ยมชมเว็บไซต์ Nvidia เพื่อดาวน์โหลดไดรเวอร์ล่าสุดจากที่นั่นและทำการติดตั้ง:
+The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: เคล็ดลับ โปรดทราบ โปรดตรวจสอบให้แน่ใจว่าคุณได้เลือกช่องทำเครื่องหมาย "ทำการติดตั้งใหม่ทั้งหมด" ในระหว่างการติดตั้งหรือถอนการติดตั้งไดรเวอร์ปัจจุบันด้วยตนเองก่อน หากไดรเวอร์ปัจจุบันของคุณได้รับความเสียหาย สิ่งสำคัญคือการลบข้อมูลทั้งหมดก่อน
+::: tip
+Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-ไดรเวอร์ Intel Graphics ในระบบของคุณหยุดทำงาน โปรดเยี่ยมชมเว็บไซต์ Intel เพื่อดาวน์โหลดไดรเวอร์ล่าสุดจากที่นั่นและทำการติดตั้ง:
+The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
@@ -99,23 +105,19 @@ If the crashes persist even after a clean reinstallation of Razer Synapse, pleas
 
 ### MMDEvAPI.dll
 
-ความผิดพลาดประเภทนี้เกิดขึ้นเนื่องจากซอฟต์แวร์เสียงที่ติดตั้งอยู่ในระบบของคุณนั้นเสียหาย ซึ่งมักจะเกิดจากซอฟต์แวร์ "การปรับปรุงคุณภาพเสียง" โดยเฉพาะซอฟต์แวร์ดังกล่าวที่ถูกติดตั้งไว้ล่วงหน้าในคอมพิวเตอร์โน้ตบุ๊คต่าง ๆ ซอฟต์แวร์ประเภทนี้มักจะทำให้เกิดปัญหาเนื่องจากซอฟต์แวร์ดังกล่าวทำงานโต้ตอบกับ Windows ในทางที่ผิด ลองค้นหา "Sonic Studio" หรือ "Nahimic" แล้วอัพเดท หากคุณไม่พบการอัพเดตสำหรับโปรแกรมเหล่านี้ คุณสามารถถอนการติดตั้งได้เพราะโปรแกรมข้างต้นไม่มีผลต่อการทำงานปกติของเสียงคอมพิวเตอร์
+This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
-ความผิดพลาดประเภทนี้เกิดจากจอแสดงผล FPS และแอพพลิเคชันบันทึกหน้าจอ Fraps แอพพลิเคชัน Fraps นั้นไม่ได้รับการอัพเดตมาตั้งแต่ปี 2013 และล้าสมัยอย่างมาก โปรดใช้แอพพลิเคชันอื่นแทนที่ Fraps เนื่องจากนี่เป็นข้อบกพร่องที่เกิดจาก Fraps ซึ่งไม่สามารถซ่อมแซมได้
+The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
-## ข้อผิดพลาด 0xc000007b
+## Crash error 0xc000007b
 
-ข้อผิดพลาดนี้หมายถึงโมดูล Windows ได้รับความเสียหายจากบางสิ่งบางอย่างในระบบของคุณ - ในกรณีนี้มักจะเป็น DirectX ที่เกิดความเสียหาย ลองลบไฟล์เหล่านี้ด้วยตนเอง:
+This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-ตอนนี้ให้ติดตั้งอีกครั้งด้วยตัวติดตั้ง DirectX 9: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (ตำแหน่งที่แน่นอนขึ้นอยู่กับตำแหน่งของไดเรกทอรีการติดตั้ง wallpaper_engine ของคุณ)
+Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
 
-หากข้อผิดพลาดนี้ยังคงเกิดขึ้นแสดงว่าโมดูล DirectX อื่นที่คล้ายคลึงกันมีบางอย่างเสียหาย สิ่งนี้มักบ่งชี้ถึงปัญหาที่อาจเกิดขึ้นกับการติดตั้ง Windows และคุณต้องแก้ไขปัญหาเหล่านี้ก่อนถึงจะสามารถเรียกใช้ Wallpaper Engine ได้
-
-## ความผิดพลาดหลังการไฮเบอร์เนต / โหมดสลีป
-
-หาก Wallpaper Engine ขัดข้องหลังจากการไฮเบอร์เนต Windows แสดงว่า Windows ไม่สามารถกู้คืนไดรเวอร์การ์ดจอและ Wallpaper Engine ได้อย่างถูกต้องในเวลาเดียวกัน การไฮเบอร์เนตของ Windows ไม่ใช่กระบวนการที่เชื่อถือได้ คุณสามารถเปิดใช้งานตัวเลือก **เริ่มต้นอย่างปลอดภัยหลังการไฮเบอร์เนต** ใน Wallpaper Engine เพื่อลดปัญหานี้ ตัวเลือกนี้จะพยายามรีสตาร์ท Wallpaper Engine โดยอัตโนมัติแทนที่จะคาดหวังให้ Windows ทำงานตามปกติหลังการไฮเบอร์เนต
+If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
