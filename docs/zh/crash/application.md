@@ -27,6 +27,10 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 * [Steam 支持：验证应用程序文件的完整性](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+## 休眠/睡眠后崩溃
+
+如果 Wallpaper Engine 在 Windows 休眠后崩溃，则 Windows 无法正确地同时还原显卡驱动程序和 Wallpaper Engine。 Windows 中的休眠并非可靠的进程。 您可以在 Wallpaper Engine 中启用**休眠后安全启动**选项，以缓解此问题。 此选项将尝试自动重新启动 Wallpaper Engine，而不是期望 Windows 在休眠后正常工作。
+
 ## Wallpaper Engine 崩溃可能由其他应用程序导致
 
 ### KERNELBASE.dll / ntdll.dll
@@ -71,7 +75,7 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-系统上的 Intel Graphics 驱动程序崩溃了。 请访问 Intel 网站，从那里下载最新版驱动程序并安装：
+系统上的 Intel Graphics 驱动程序崩溃了。 请访问 Intel 网站，从那里下载最新版驱动程序并安装： 系统上的 Intel Graphics 驱动程序崩溃了。 请访问 Intel 网站，从那里下载最新版驱动程序并安装：
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
@@ -117,7 +121,3 @@ If the crashes persist even after a clean reinstallation of Razer Synapse, pleas
 现在，使用 DirectX 9 安装程序再次安装它们：*C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe*（确切的位置取决于 wallpaper_engine 安装目录的位置）。
 
 如果仍然出现此错误，那么可能是另一个相似的 DirectX 模块被某些东西损坏了。 这通常表示，Windows 安装存在较大的潜在问题，您得先解决这些问题，然后才能运行 Wallpaper Engine。
-
-## 休眠/睡眠后崩溃
-
-如果 Wallpaper Engine 在 Windows 休眠后崩溃，则 Windows 无法正确地同时还原显卡驱动程序和 Wallpaper Engine。 Windows 中的休眠并非可靠的进程。 您可以在 Wallpaper Engine 中启用**休眠后安全启动**选项，以缓解此问题。 此选项将尝试自动重新启动 Wallpaper Engine，而不是期望 Windows 在休眠后正常工作。
