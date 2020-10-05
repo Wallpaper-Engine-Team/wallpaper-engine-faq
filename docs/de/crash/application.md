@@ -101,23 +101,23 @@ Falls die Abstürze selbst nach einer sauberen Neuinstallation von Razer Synapse
 
 ### MMDEvAPI.dll
 
-Diese Art von Absturz tritt auf, wenn fehlerhafte Audio-Software auf deinem System installiert ist. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
+Diese Art von Absturz tritt auf, wenn fehlerhafte Audio-Software auf deinem System installiert ist. Dies wird normalerweise durch Software zur "Soundverbesserung" verursacht, besonders durch Software welche auf einigen Notebooks vorinstalliert mitgeliefert wird. Diese Art von Anwendungen verursachen oft Abstürze, da sie mir Windows in einer fehlerhaften Weise interagieren. Suche auf deinem System nach "Sonic Studio" oder "Nahimic" und aktualisiere diese wenn möglich. Falls du kein Update für diese Art von Anwendung finden kannst, kannst du sie auch deinstallieren, da sie nicht notwendig für die Audiowiedergabe auf deinem System sind.
 
 ### fraps32.dll
 
-The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
+Der Absturz wurde von Fraps, einer Anwendung zum anzeigen von FPS und Aufnehmen von Bildschirmaufnahmen, verursacht. Fraps wurde seit 2013 nicht mehr aktualisiert und ist eine sehr veraltete Anwendung. Bitte verwende eine Alternative zu Fraps, da es sich hierbei um einen Fehler in Fraps handelt, welcher wahrscheinlich niemals behoben wird, da die Software nicht weiter entwickelt wird.
 
-## Crash error 0xc000007b
+## Absturzfehler 0xc000007b
 
-This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
+Dies bedeutet, dass ein Windows-Modul defekt ist - normalerweise ist DirectX in diesem Fall beschädigt. Versuche diese Dateien zu löschen:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
+Installiere diese nun neu mit dem DirectX 9-Installationsprogramm: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (Der genaue Ort der Datei kann anders sein, wenn dein wallpaper_engine-Installationspfad an einem anderen Ort liegt).
 
-If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
+Falls dieser Fehler weiterhin auftritt, kann das Problem den Ursprung in einem ähnliches DirectX-Modul haben, welches ebenfalls beschädigt wurde. Dies bedeutet normalerweise, dass deine Windows-Installation tiefere Probleme hat, welche zunächst repariert werden müssen, bevor du Wallpaper Engine ausführen kannst.
 
-## Crashing after Hibernation / Sleep
+## Abstürze nach Standby / Ruhemodus
 
-If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+Wenn Wallpaper Engine nach einem Windows-Standby abstürzt, bedeutet dies, dass Windows nicht in der Lage ist, deinen Grafikkartentreiber und Wallpaper Engine gleichzeitig wiederherzustellen. Der Ruhemodus von Windows ist kein sehr stabiler Prozess. Du kannst die Option **Sicherer Start nach Ruhemodus** in den Wallpaper Engine-Einstellungen aktivieren, um das Problem in den meisten Fällen zu lösen. Diese Option versucht einen vollständigen Neustart von Wallpaper Engine durchzuführen, anstatt sich auf Windows nach dem Aufwachen aus dem Ruhemodus zu verlassen.

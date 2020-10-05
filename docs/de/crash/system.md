@@ -2,25 +2,25 @@
 tags:
   - hardware
   - bsod
-  - blue screen
+  - bluescreen
 ---
 
-# System crash / System Freeze
-Wallpaper Engine alone cannot crash your system and it does not affect other programs. If you experience system crashes, system freezes, blue screens or other programs crashing while Wallpaper Engine is running, one of these things is likely the reason:
+# Systemabsturz / System friert ein
+Wallpaper Engine kann nicht die Ursache eines vollständigen Systemabsturzes sein und es interagiert nicht mit anderen Programmen auf deinem System. Falls du Systemabstürze, ein eingefrorenes System, Blue-Screens oder Abstürze von anderen Programmen während der Nutzung von Wallpaper Engine feststellst, ist die Ursache einer der folgenden Gründe:
 
-* Hardware required by Wallpaper Engine is broken.
-* A driver for some hardware Wallpaper Engine needs is buggy or broken.
-* Intrusive software is installed that messes with drivers or Windows while Wallpaper Engine is running.
+* Von Wallpaper Engine benötigte Hardware ist defekt.
+* Ein Treiber für Hardware, welche Wallpaper Engine benötigt, ist fehlerhaft oder defekt.
+* Andere Software ist auf dem System installiert, welche in Windows-Treiber oder Windows selbst eingreift, während Wallpaper Engine läuft.
 
-Wallpaper Engine does not install any drivers, it does not replace system files and it does not perform anything dangerous or questionable that could lead to a system crash or crash another program.
+Wallpaper Engine installiert keine Treiber, ersetzt keine System-Dateien und es führt auch nichts gefährliches oder ungewöhnliches aus, was zu einem Systemabsturz oder dem Absturz eines anderen Programms führen könnte.
 
-Any bugs in Wallpaper Engine could only lead to a crash of Wallpaper Engine itself in the worst case, but no bug in Wallpaper Engine could crash your entire system or other programs. This is impossible, Microsoft has designed Windows this way and Wallpaper Engine adheres to this.
+Fehler in Wallpaper Engine können immer nur zu einem Absturz von Wallpaper Engine selbst führen. Kein Fehler in Wallpaper Engine könnte das vollständige System oder andere Programme zum Absturz bringen. Dies ist nicht möglich, da Microsoft Windows in dieser Art entwickelt hat und Wallpaper Engine sich an diese Praktiken hält.
 
-## Finding the cause of system crashes
-Wallpaper Engine needs this from your PC: 3D acceleration, video acceleration, audio. You can try to isolate what is wrong with the PC by using different wallpaper types. For example, if you only have issues with 'video' type wallpapers, the issue might be coming from the video decoding hardware on your graphics card. It won't be used by Windows alone and most games don't use it, so you wouldn't experience issues with it in games.
+## Fehlersuche nach der Ursache von Systemabstürzen
+Wallpaper Engine benötigt die folgenden Dinge von deinem System: 3D-Beschleunigung, Video-Beschleunigung und Ton-Wiedergabe. Du kannst versuchen, das Problem zu analysieren, indem du verschiedene Arten von Hintergründen verwendest. Zur Erläuterung: Wenn du nur Probleme mit Hintergründen vom Typ "Video" hast, könnte das Problem mit der Hardware zur Video-Dekodierung auf deiner Grafikkarte zusammenhängen. Windows alleine nutzt diese Features nicht und viele Spiele nutzen es ebenfalls nicht, in so einem Fall würde ein Problem mit dieser Komponente beim Spielen unerkannt bleiben.
 
-If it's a blue screen you are getting, web-search the error code. There will be a lot of results on the web that may help since it is a global system problem.
+Falls du einen Blue-Screen siehst, verwende eine Suchmaschine und suche den angegebenen Fehlercode. Es sollten für jeden Code viele Ergebnisse geliefert werden, da es sich um ein allgemeines Systemproblem handelt.
 
-Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
+Jegliche Arten von Overlays und Aufnahmeprogrammen können ebenfalls Probleme auslösen. Dies beinhaltet Programme wie Nvidia GeForce Experience. Versuche alle Programme dieser Art zu entfernen.
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool.html).
+Probiere unser Scan-Tool, um zu überprüfen ob du ein bekanntes Programm verwendest, welches Konflikte mit Wallpaper Engine verursachen kann: [Hier klicken](/debug/scantool.html).
