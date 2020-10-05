@@ -2,18 +2,26 @@
 
 Windows Nにはメディア機能は付いてきません！ 正しいWindowsバージョンおよびビルドナンバー用のMedia Feature Packをインストールする必要があります。
 
-* Windows 10:
-  * [Media Feature Packダウンロード](https://www.microsoft.com/en-us/software-download/mediafeaturepack)（Microsoftによって、英語ページのみが提供されています）
+#### Latest versions of Windows 10
+On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
 
-* Windows 7:
-  * [Media Feature Packダウンロード](https://www.microsoft.com/download/details.aspx?id=16546)
+*Apps > Apps and Features > Optional Features > Add a Feature*
 
-**x64およびx86バージョンをインストールしてください。**
+A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
-それでも同じエラーが出るときは、**インストールしたバージョンが間違っています**。正しいバージョンをインストールしてPCを再起動してください。 それでもうまくいかず、依然としてない場合は、おそらくシステムファイルが不完全です。システムを前の状態に戻すか、Windowsを再インストールしてください。
+#### Outdated Windows 10 (May 2019 update or older):
+Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
+  * [Media Feature Pack Download](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (page only provided in English by Microsoft)
+
+#### Windows 7:
+  * Windows 7 is not supported by Microsoft anymore. You need update **KB968211** to add media features but Microsoft has removed the download page for it. Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+
+**Make sure to install the x64 and x86 version.**
+
+If it still shows the same error then **you have installed the wrong version**, try installing the correct version and restarting the PC. Should nothing work and it is still missing, your system files are probably defective, try restoring the system to an earlier state or reinstall Windows.
 
 :::warning
-注意 MicrosoftがWindows 10のメジャーなアップデートをリリースするたびに、またmedia feature packをインストールする必要があります。 そうしたくない場合は、通常バージョンのWindowsへの切り替えを考えましょう。他のバージョンには、常にこれらの機能は付いてきます。
+Please note Every time Microsoft releases a major update to Windows 10, you must install the media feature pack again. If this undesirable for you, consider switching to a normal version of Windows as the other versions are always shipped with these features!
 
-**Windows Nの主要なポイントは、メディア機能がないことです。 それを希望しないのなら、Windows Nを使うべきではありません。**
+**The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.**
 :::
