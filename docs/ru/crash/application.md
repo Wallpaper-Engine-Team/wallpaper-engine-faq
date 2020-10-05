@@ -27,51 +27,55 @@ Wallpaper Engine — тщательно тестируемая и хорошо 
 
 * [Steam Support: проверка целостности файлов игры](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-## Сбои Wallpaper Engine, вызванные сторонними программами
+## Crashing after Hibernation / Sleep
+
+If Wallpaper Engine crashes after Windows hibernation, then Windows is failing to correctly restore your graphics card drivers and Wallpaper Engine together. Hibernation in Windows is simply not a reliable process. You can enable the option **Safe start after hibernation** in Wallpaper Engine to mitigate this issue. This option will attempt to automatically restart Wallpaper Engine instead of expecting Windows to correctly work after hibernation.
+
+## Wallpaper Engine was likely crashed by another application
 
 ### KERNELBASE.dll / ntdll.dll
 
-В данном случае сбой произошел в самом ядре Windows. Обычно причиной подобного сбоя являются антивирусные программы или неисправные драйверы видеокарты. Подробную информацию по решению этой проблемы см. в разделе «Быстрое решение» выше. Также подобный сбой может быть вызван неисправностями в самой системе. Восстановить потенциально неисправные файлы Windows можно с помощью средства проверки системных файлов Microsoft:
+This is a crash in the core of the Windows kernel itself, it is usually caused by antivirus applications or broken graphics card drivers. Подробную информацию по решению этой проблемы см. в разделе «Быстрое решение» выше. Также подобный сбой может быть вызван неисправностями в самой системе. Восстановить потенциально неисправные файлы Windows можно с помощью средства проверки системных файлов Microsoft:
 
 * [Средство проверки системных файлов Microsoft](https://support.microsoft.com/ru-ru/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-В данном случае сбой произошел в DirectX. Обычно причиной подобного сбоя являются антивирусные программы или неисправные драйверы видеокарты. Подробную информацию по решению этой проблемы см. в разделе «Быстрое решение» выше. Также подобный сбой может быть вызван неисправностями в самой системе. Восстановить потенциально неисправные файлы Windows можно с помощью средства проверки системных файлов Microsoft:
+This is a crash in DirectX, it is usually caused by antivirus applications or broken graphics card drivers. See the quick fix section above for more information. It can also be caused by broken system components. Use the Microsoft System File Checker tool to repair possibly broken Windows files:
 
 * [Средство проверки системных файлов Microsoft](https://support.microsoft.com/ru-ru/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
-В данном случае сбой произошел в Windows Media Foundation. Причиной подобного сбоя могут быть неисправные драйверы видеокарты, но чаще проблема связана с неисправными или отсутствующими видеокодеками в системе. В этом видео мы рассказываем, как устранить такие сбои:
+This is a crash in the Windows Media Foundation, it can be caused by broken graphics card drivers but it is more commonly caused by broken or missing video codecs on your system. Follow the fixes from our video fix guide to fix these types of crashes:
 
-[Видео](/noshow/notplaying.html)
+[Click here](/noshow/notplaying.html)
 
 ### AudioSes.dll
 
-В данном случае сбои в работе обычно бывают вызваны проблемами в самой системе Windows. Попробуйте переустановить последнюю версию драйверов звуковой карты — это может решить проблему. Кроме того, попробуйте на вкладке *Производительность* настроек Wallpaper Engine для опции *Другое приложение воспроизводит аудио* выбрать значение *Продолжать работу*.
+This crash usually happens due to an issue in Windows itself. Try to re-install the latest version of your sound card drivers as this may fix the problem. You can also fix these crashes by changing the *Other application playing audio* option in the *Performance* tab of the Wallpaper Engine settings to *Keep running*.
 
 ### atiumdag.dll / atiumd64.dll
 
 * [AMD Radeon](https://www.amd.com/support)
 
 ::: tip
-Обратите внимание Перед переустановкой установите флажок «Выполнить чистую установку» или удалите текущую версию драйверов вручную. Если драйверы на вашем компьютере неисправны, важно полностью удалить их перед установкой новой версии.
+Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
 :::
 
 ### nvwgf2umx.dll
 
-В работе драйверов Nvidia происходят сбои. Перейдите на сайт Nvidia, загрузите последнюю версию драйверов и установите ее:
+The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
 ::: tip
-Обратите внимание Перед переустановкой установите флажок «Выполнить чистую установку» или удалите текущую версию драйверов вручную. Если драйверы на вашем компьютере неисправны, важно полностью удалить их перед установкой новой версии.
+Please note Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
 
-В работе драйверов Intel происходят сбои. Перейдите на сайт Intel, загрузите последнюю версию драйверов и установите ее:
+The Intel graphics drivers on your system are crashing. Go to the Intel website, download the latest drivers from there and install them:
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
@@ -101,23 +105,19 @@ If the crashes persist even after a clean reinstallation of Razer Synapse, pleas
 
 ### MMDEvAPI.dll
 
-Сбои подобного типа происходят по причине неисправности ПО, обрабатывающего на вашем компьютере звук. Обычно аварийное завершение работы связано с программами для улучшения качества звука, которые предустанавливаются на многие ноутбуки. Подобные программы часто приводят к сбоям в работе системы, поскольку плохо взаимодействуют с Windows. Поищите на вашем компьютере программы Sonic Studio и Nahimic и обновите их. Если вы не найдете обновлений для этих программ, их можно просто удалить, поскольку они не являются необходимыми для нормального воспроизведения звука.
+This type of crash occurs to due broken audio software installed on your system. This is usually caused by "sound enhancement" software, especially the ones pre-installed on various notebooks. This type of software will often cause crashes because they interact with Windows in a buggy way, try and look for "Sonic Studio" or "Nahimic" and update them. If you cannot find an update for these programs, you can also uninstall them as they are not necessary for your computer audio to function properly.
 
 ### fraps32.dll
 
-Сбой был вызван Fraps — программой для подсчета количества кадров в секунду (FPS) и захвата видео с экрана. Обновления для Fraps не выпускались с 2013 года, и в целом эта программа очень сильно устарела. Пожалуйста, воспользуйтесь альтернативными программами: к аварийному завершению работы приводит ошибка в Fraps, которая, возможно, никогда не будет исправлена, поскольку разработка этой утилиты заброшена.
+The crash has been caused by the FPS monitor and screen recording app Fraps. Fraps has not received updates since 2013 and is a heavily outdated application. Please use an alternative to Fraps as this is a Fraps bug which may never be fixed as the software is abandoned.
 
 ## Crash error 0xc000007b
 
-Это сообщение означает, что один из модулей Windows был поврежден. Обычно в таких случаях оказывается неисправен сам DirectX. Попробуйте вручную удалить эти файлы:
+This means that a Windows module has been corrupted by something on your system - usually DirectX itself is broken in this case. Try manually deleting these files:
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
-Затем установите их заново с помощью инструмента установки DirectX 9: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (точное расположение файлов будет зависеть от того, где у вас находится каталог установки wallpaper_engine).
+Now install them again with the DirectX 9 installer: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (The exact location depends on where your wallpaper_engine installation directory is).
 
-Если вы ошибка продолжает возникать, это значит, что поврежден еще и другой модуль DirectX. Обычно это указывает на более серьезные проблемы в самой системе Windows, без исправления которых Wallpaper Engine работать не будет.
-
-## Аварийное завершение работы после гибернации / спящего режима
-
-Если Wallpaper Engine аварийно завершает работу после гибернации системы, это значит, что у Windows возникают сложности с одновременным восстановлением драйверов видеокарты и Wallpaper Engine. Гибернация в Windows — не самый надежный процесс. Чтобы обойти эту проблему, включите в Wallpaper Engine опцию **Безопасный старт после гибернации**. С ней после гибернации системы Wallpaper Engine пытается автоматически перезапуститься, не рассчитывая на правильную работу Windows.
+If you still get this error it might be another, similar DirectX module that has been broken by something. This usually indicates a bigger underlying issues with your Windows installation which you need to fix before you can run Wallpaper Engine.
