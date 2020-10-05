@@ -27,17 +27,21 @@ Bozulmamaları için Wallpaper Engine dosyalarınızı her zaman steam üzerinde
 
 * [Steam Desteği: Uygulama Dosyalarının Bütünlüğünü Doğrulama](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+## Hazırda Bekletme / Uyku modundan sonra çökme
+
+Wallpaper Engine, Windows hazırda bekletme modundan sonra çöküyorsa Windows, grafik kartı sürücülerinizi ve Wallpaper Engine'ini doğru bir şekilde geri yükleyemiyordur. Windows hazırda bekletme güvenilir bir işlem değildir. Bu sorunu hafifletmek için Wallpaper Engine'deki **Uykudan sonra güvenli başlangıç** seçeneğini etkinleştirebilirsiniz. Bu seçenek, Windows'un hazırda bekletmeden sonra düzgün çalışmasını beklemek yerine Wallpaper Engine'i otomatik olarak yeniden başlatmayı deneyecektir.
+
 ## Wallpaper Engine'in çökmesine muhtemelen başka bir uygulama sebep oldu
 
 ### KERNELBASE.dll / ntdll.dll
 
-Bu çökme Windows çekirdeğinin kendisinde gerçekleşmiştir. Bu çökmeye çoğunlukla antivirüs programları ya da bozuk grafik kartı sürücüleri sebep olur. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
+Bu çökme Windows çekirdeğinin kendisinde gerçekleşmiştir. Bu çökmeye çoğunlukla antivirüs programları ya da bozuk grafik kartı sürücüleri sebep olur. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft Sistem Dosya Denetleyicisi aracını kullanın:
 
 * [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/tr-tr/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### d3d11.dll
 
-Bu çökme DirectX'te meydana gelir ve genellikle antivirüs uygulamalarından ya da bozuk grafik kartı sürücülerinden kaynaklanır. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft Sistem Dosya Denetleyicisi aracını kullanın:
+Bu çökme DirectX'te meydana gelir ve genellikle antivirüs uygulamalarından ya da bozuk grafik kartı sürücülerinden kaynaklanır. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
 
 * [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/tr-tr/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
@@ -117,7 +121,3 @@ Windows modülü sisteminizdeki bir şey tarafından bozulmuş, bu durumda genel
 Şimdi bunları DirectX 9 yükleyicisi ile tekrar yükleyin: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (Tam konum, wallpaper_engine kurulum dizininizin bulunduğu yere bağlıdır).
 
 Hâlâ bu hatayı alıyorsanız bir şey tarafından bozulmuş başka ve benzer bir DirectX modülü olabilir. Bu durum genellikle Wallpaper Engine'i çalıştırmadan önce düzeltmeniz gereken Windows kurulumunuzla ilgili daha büyük bir soruna işaret eder.
-
-## Hazırda Bekletme / Uyku modundan sonra çökme
-
-Wallpaper Engine, Windows hazırda bekletme modundan sonra çöküyorsa Windows, grafik kartı sürücülerinizi ve Wallpaper Engine'ini doğru bir şekilde geri yükleyemiyordur. Windows hazırda bekletme güvenilir bir işlem değildir. Bu sorunu hafifletmek için Wallpaper Engine'deki **Uykudan sonra güvenli başlangıç** seçeneğini etkinleştirebilirsiniz. Bu seçenek, Windows'un hazırda bekletmeden sonra düzgün çalışmasını beklemek yerine Wallpaper Engine'i otomatik olarak yeniden başlatmayı deneyecektir.

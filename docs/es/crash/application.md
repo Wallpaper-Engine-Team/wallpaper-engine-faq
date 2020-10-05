@@ -27,6 +27,10 @@ Intenta comprobar los archivos de Wallpaper Engine a través de Steam para asegu
 
 * [Steam Support: Verificar la integridad de los archivos del juego](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=spanish)
 
+## Se cuelga después de hibernar / suspender
+
+Si Wallpaper Engine se cuelga después de que Windows hiberne quiere decir que Windows no consigue restaurar correctamente los controladores de la tarjeta gráfica y Wallpaper Engine. El proceso de hibernación de Windows no es muy seguro, pero puedes activar la opción **Inicio seguro después de la hibernación** en Wallpaper Engine para paliar el problema. Esta opción intentará reiniciar Wallpaper Engine automáticamente en lugar de esperar que Windows funcione a la perfección tras la hibernación.
+
 ## Wallpaper Engine se ha colgado por culpa de otro programa
 
 ### KERNELBASE.dll / ntdll.dll
@@ -66,7 +70,7 @@ Los controladores de Nvidia de tu sistema se cuelgan. Dirígete a la página web
 * [Nvidia GeForce](https://www.nvidia.es/Download/index.aspx?lang=es)
 
 ::: tip
-Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
+¡Aviso! Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
@@ -117,7 +121,3 @@ Este error indica que algo de tu sistema ha corrompido un módulo de Windows; po
 Vuelve a instalarlos con el instalador de DirectX 9:*C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe*. (La ubicación exacta depende del lugar en el que esté el directorio de instalación wallpaper_engine).
 
 Si te sigue apareciendo el mismo error es que algo ha dañado a un módulo similar de DirectX. Por lo general, es señal de que tienes un problema mayor con la instalación de Windows que tendrás que solucionar antes de poder usar Wallpaper Engine.
-
-## Se cuelga después de hibernar / suspender
-
-Si Wallpaper Engine se cuelga después de que Windows hiberne quiere decir que Windows no consigue restaurar correctamente los controladores de la tarjeta gráfica y Wallpaper Engine. El proceso de hibernación de Windows no es muy seguro, pero puedes activar la opción **Inicio seguro después de la hibernación** en Wallpaper Engine para paliar el problema. Esta opción intentará reiniciar Wallpaper Engine automáticamente en lugar de esperar que Windows funcione a la perfección tras la hibernación.

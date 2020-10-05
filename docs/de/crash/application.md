@@ -27,6 +27,10 @@ Versuche außerdem die Wallpaper Engine-Dateien über Steam auf Fehler zu überp
 
 * [Steam Support: Spieldateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+## Abstürze nach Standby / Ruhemodus
+
+Wenn Wallpaper Engine nach einem Windows-Standby abstürzt, bedeutet dies, dass Windows nicht in der Lage ist, deinen Grafikkartentreiber und Wallpaper Engine gleichzeitig wiederherzustellen. Der Ruhemodus von Windows ist kein sehr stabiler Prozess. Du kannst die Option **Sicherer Start nach Ruhemodus** in den Wallpaper Engine-Einstellungen aktivieren, um das Problem in den meisten Fällen zu lösen. Diese Option versucht einen vollständigen Neustart von Wallpaper Engine durchzuführen, anstatt sich auf Windows nach dem Aufwachen aus dem Ruhemodus zu verlassen.
+
 ## "Wallpaper Engine was likely crashed by another application"
 
 ### KERNELBASE.dll / ntdll.dll
@@ -117,7 +121,3 @@ Dies bedeutet, dass ein Windows-Modul defekt ist - normalerweise ist DirectX in 
 Installiere diese nun neu mit dem DirectX 9-Installationsprogramm: *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* (Der genaue Ort der Datei kann anders sein, wenn dein wallpaper_engine-Installationspfad an einem anderen Ort liegt).
 
 Falls dieser Fehler weiterhin auftritt, kann das Problem den Ursprung in einem ähnliches DirectX-Modul haben, welches ebenfalls beschädigt wurde. Dies bedeutet normalerweise, dass deine Windows-Installation tiefere Probleme hat, welche zunächst repariert werden müssen, bevor du Wallpaper Engine ausführen kannst.
-
-## Abstürze nach Standby / Ruhemodus
-
-Wenn Wallpaper Engine nach einem Windows-Standby abstürzt, bedeutet dies, dass Windows nicht in der Lage ist, deinen Grafikkartentreiber und Wallpaper Engine gleichzeitig wiederherzustellen. Der Ruhemodus von Windows ist kein sehr stabiler Prozess. Du kannst die Option **Sicherer Start nach Ruhemodus** in den Wallpaper Engine-Einstellungen aktivieren, um das Problem in den meisten Fällen zu lösen. Diese Option versucht einen vollständigen Neustart von Wallpaper Engine durchzuführen, anstatt sich auf Windows nach dem Aufwachen aus dem Ruhemodus zu verlassen.
