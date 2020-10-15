@@ -1,4 +1,4 @@
-# Ton / Sounds geht wiederholt an und aus
+# Lautstärke / Audio-Wiedergabe geht wiederholt an und aus
 
 Windows unterscheidet nicht zwischen Tonaufnahmen und Tonwiedergaben, daher signalisiert es Wallpaper Engine, dass ein anderes Programm derzeit Ton wiedergibt, während es in Wirklichkeit den Ton deines Computers aufnimmt.
 
