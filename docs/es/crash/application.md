@@ -86,7 +86,7 @@ Estos tipos de "crash" son causados por Razer Chroma (parte de **Razer Synapse**
 **Reinstalación limpia de todo software de Razer**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+Asegúrate de que Wallpaper Engine esta apagado mientras reinstalas Razer Synapse.
 :::
 
 1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
