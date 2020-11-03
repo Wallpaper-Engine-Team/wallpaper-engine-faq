@@ -81,9 +81,9 @@ Los controladores gráficos de Intel de tu sistema se cuelgan. Dirígete a la p�
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+Estos tipos de "crash" son causados por Razer Chroma (parte de **Razer Synapse**). Normalmente, esto es causado por una instalacion fallida de Razer Synapse. En la mayoria de casos, una reinstalación limpia de Razer Synapse arregla estos tipos de "crashes":
 
-**Clean reinstallation of all Razer software**
+**Reinstalación limpia de todo software de Razer**
 
 ::: warning
 Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
