@@ -101,7 +101,7 @@ Asegúrate de que Wallpaper Engine esta apagado mientras reinstalas Razer Synaps
 
 Si el problema no se resuelve con la reinstalación de Razer Synapse, puede que haya algún problema subyacente con el propio Razer Synapse, en el pasado esto ha sido causado por actualizaciones de Razer Synapse defectuosas. Prueba a cerrar el plugin LED (*"iCUE & Chroma SDK"*) en el apartado de **Plugins** dentro de los ajustes de Wallpaper Engine hasta que este problema se solucione en una actualización futura de Razer Synapse.
 
-Si los "crashes" persisten incluso después de una reinstalación de Razer Synapse, por favor contacta con el soporte de Razer directamente e informales sobre dichos "crashes". If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Si los "crashes" persisten incluso después de una reinstalación de Razer Synapse, por favor contacta con el soporte de Razer directamente e informales sobre dichos "crashes". Si no son capaces de ayudarte, por favor contacta con nosotros para obtener soporte técnico - nosotros podemos estudiar estos "crashes" y enviar lo que descubramos al equipo de desarrollo de Razer Synapse, aunque Razer debería ser el contacto principal para este "crash" específico.
 
 ### MMDEvAPI.dll
 
