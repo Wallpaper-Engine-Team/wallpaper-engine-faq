@@ -89,15 +89,15 @@ Estos tipos de "crash" son causados por Razer Chroma (parte de **Razer Synapse**
 Asegúrate de que Wallpaper Engine esta apagado mientras reinstalas Razer Synapse.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. Apaga Wallpaper Engine completamente si se encuentra en ejecución (botón-derecho en el icono de la barra de tareas **Salir**)
+2. Desinstala todo el software de Razer de tu ordenador utilizando Windows
+3. Descarga la última versión del software de Razer desde su web e instalalo:
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Descargar Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. Después reinicia tu ordenador (no inicies Wallpaper Engine sin haber reiniciado tu ordenador).
 
-**Reinstallation does not fix the problem**
+**La reinstalación no arregla el problema**
 
 If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
 
