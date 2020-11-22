@@ -21,15 +21,33 @@ Wallpaper Engine は、数百万のユーザーに使用され、十分にテス
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-アンチウイルスアプリケーションがインストールされている場合（Windows Defender を除いて）、アンチウイルスの設定で Wallpaper Engine を例外に設定してください。 アンチウイルスがいくつかのファイルを恒久的に破損したりロックしたりしている場合は、そのあとで Wallpaper Engine の再インストールが必要になることがあります。
+アンチウイルスアプリケーションがインストールされている場合（Windows Defender を除いて）、アンチウイルスの設定で Wallpaper Engine を例外に設定してください。 アンチウイルスがいくつかのファイルを恒久的に破損したりロックしたりしている場合は、そのあとで Wallpaper Engine の再インストールが必要になることがあります。 Make sure your antivirus app ignores the *wallpaper_engine* directory and especially all .exe files:
+
+* *wallpaper_engine/wallpaper32.exe*
+* *wallpaper_engine/wallpaper64.exe*
+* *wallpaper_engine/launcher.exe*
+* *wallpaper_engine/bin/webwallpaper32.exe*
+* *wallpaper_engine/bin/ui32.exe*
 
 また、Wallpaper Engine のファイルが破損していないことを確認するために、Steam を通して検証してください。
 
 * [Steam サポート：アプリケーションファイルの整合性確認](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+In severe cases, you may need to uninstall Wallpaper Engine and manually delete the *wallpaper_engine* directory and then reinstall the app once your antivirus app has been configured to be less strict.
+
 ## ハイバネーションまたはスリープ後のクラッシュ
 
 Windows のハイバネーション後に Wallpaper Engine がクラッシュする場合、 Windows が、グラフィックスカードドライバーと Wallpaper Engine を正しく復元することに失敗しています。 Windows のハイバネーションは、信頼できるプロセスではありません。 Wallpaper Engine で **ハイバネーション後セーフスタート** オプションを有効にすることにより、この問題を緩和することができます。 このオプションは、Windows がハイバネーション後に正しく動作することを期待するのでなく、自動的に Wallpaper　Engine を再起動させるものです。
+
+## Wallpaper Engine has crashed / Error code "0xC0000005"
+
+This error message is almost always caused by **antivirus applications** or **faulty drivers**. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+
+If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
+
+In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+
+!["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
 
 ## Wallpaper Engine が、他のアプリケーションによってクラッシュした可能性がある
 
@@ -43,7 +61,7 @@ Windows のハイバネーション後に Wallpaper Engine がクラッシュす
 
 これは DirectX におけるクラッシュです。通常、アンチウイルスアプリケーションか破損したグラフィックスカードドライバーによって起きます。 詳しくは上記のクイックフィックスセクションをご覧ください。 また、破損したシステムコンポーネントによって起きる可能性もあります。 Microsoft システムファイルチェッカーツールを使って、破損している可能性のある Windows ファイルを修復してください。
 
-* [Microsoft システムファイルチェッカーツール](https://support.microsoft.com/ja-jp/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft システムファイルチェッカーツール](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
