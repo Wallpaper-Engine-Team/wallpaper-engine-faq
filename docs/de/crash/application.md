@@ -21,15 +21,33 @@ Falls du dir nicht sicher bist, was die Abstürze von Wallpaper Engine verursach
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Falls du ein Antivirenprogramm installiert hast (außer Windows Defender), stelle sicher, dass eine Ausnahmeregel für Wallpaper Engine in deinen Antivirus-Einstellungen konfiguriert ist. In einigen Fällen kann es nötig sein Wallpaper Engine vollständig neu zu installieren, wenn ein Antivirenprogramm einige Dateien unwiderrufliche kaputt gemacht oder in Quarantäne platziert hat.
+Falls du ein Antivirenprogramm installiert hast (außer Windows Defender), stelle sicher, dass eine Ausnahmeregel für Wallpaper Engine in deinen Antivirus-Einstellungen konfiguriert ist. In einigen Fällen kann es nötig sein Wallpaper Engine vollständig neu zu installieren, wenn ein Antivirenprogramm einige Dateien unwiderrufliche kaputt gemacht oder in Quarantäne platziert hat. Stelle sicher, dass deine Antivirenprogramm das *wallpaper_engine*-Verzeichnis ignoriert, besonders alle ".exe"-Dateien:
+
+* *wallpaper_engine/wallpaper32.exe*
+* *wallpaper_engine/wallpaper64.exe*
+* *wallpaper_engine/launcher.exe*
+* *wallpaper_engine/bin/webwallpaper32.exe*
+* *wallpaper_engine/bin/ui32.exe*
 
 Versuche außerdem die Wallpaper Engine-Dateien über Steam auf Fehler zu überpüfen, um sicherzustellen, dass diese nicht defekt sind:
 
 * [Steam Support: Spieldateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+In einigen Fällen ist es unter Umständen nötig, Wallpaper Engine zu deinstallieren und dann das *wallpaper_engine*-Verzeichnis zu löschen, daraufhin kann die Anwendung neu installiert werden, wenn dein Antivirenprogramm weniger strikt eingestellt wurde.
+
 ## Abstürze nach Standby / Ruhemodus
 
 Wenn Wallpaper Engine nach einem Windows-Standby abstürzt, bedeutet dies, dass Windows nicht in der Lage ist, deinen Grafikkartentreiber und Wallpaper Engine gleichzeitig wiederherzustellen. Der Ruhemodus von Windows ist kein sehr stabiler Prozess. Du kannst die Option **Sicherer Start nach Ruhemodus** in den Wallpaper Engine-Einstellungen aktivieren, um das Problem in den meisten Fällen zu lösen. Diese Option versucht einen vollständigen Neustart von Wallpaper Engine durchzuführen, anstatt sich auf Windows nach dem Aufwachen aus dem Ruhemodus zu verlassen.
+
+## "Wallpaper Engine has crashed" / Error code "0xC0000005"
+
+Diese Fehlermeldung wird fast immer durch **Antivirenprogramme** oder **defekte Treiber** ausgelöst. Wenn du ein Antivirenprogramm verwendest, ist es sehr wahrscheinlich der Grund für diese Art von Abstürzen - selbst wenn dein Antivirenprogramm keine Aktivitäten meldet. Bitte stelle sicher, es so zu konfigurieren, dass es das *wallpaper_engine*-Installationsverzeichnis und alle Wallpaper Engine ".exe"-Dateien ignoriert. Siehe die Sektion *Wallpaper Engine - Schneller Lösungsversuch von Abstürzen* oben für weitere Informationen im Detail.
+
+Falls du kein Antivirenprogramm installiert hast, installiere bitte alle wichtigen Treiber neu und versuche auf die 64 Bit-Version von Wallpaper Engine zu wechseln (oder 32 Bit-Version wenn du bereits die 64 Bit-Version nutzt).
+
+In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+
+![Wallpaper Engine Absturzmeldung mit "0xC0000005"-Fehlercode](/img/faq/0xC0000005.png)
 
 ## "Wallpaper Engine was likely crashed by another application"
 
@@ -43,7 +61,7 @@ Dies ist ein Absturz im Kern von Windows selbst, dies wird im Normalfall durch A
 
 Dies ist ein Absturz in DirectX und wird normalerweise durch Antiviren-Programme oder defekte Grafikkartentreiber ausgelöst. Siehe die Sektion zum schnellen Lösungsversuch oben für weitere Informationen. Dies kann auch durch defekte System-Komponenten ausgelöst werden. Verwende das Microsoft Systemdatei-Überprüfungsprogramm um gegebenenfalls defekte Windows-Dateien zu reparieren:
 
-* [Microsoft Systemdatei-Überprüfungsprogramms](https://support.microsoft.com/de-de/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft Systemdatei-Überprüfungsprogramms](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
@@ -67,7 +85,7 @@ Bitte beachten Während der Installation sollte die Auswahl "Eine saubere Neuins
 
 Die Nvidia-Treiber auf deinem System stürzen ab. Gehe zur Nvidia-Website, lade die neuesten Treiber dort herunter und installiere sie:
 
-* [Nvidia GeForce](https://www.nvidia.de/Download/index.aspx)
+* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
 ::: tip
 Bitte beachten Während der Installation sollte die Auswahl "Eine saubere Neuinstallation durchführen" ausgewählt werden. Alternativ kannst du auch deine derzeitigen Treiber erst deinstallieren bevor du die neuen Treiber installierst. Falls deine derzeitigen Treiber defekt sind, ist es wichtig dass diese zuerst vollständig entfernt werden.
