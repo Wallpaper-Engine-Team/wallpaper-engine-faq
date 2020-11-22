@@ -21,15 +21,33 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-หากคุณติดตั้งแอพพลิเคชันป้องกันไวรัส (ยกเว้น Windows Defender) ตรวจสอบให้แน่ใจว่าได้ตั้งข้อยกเว้นสำหรับ Wallpaper Engine ในการตั้งค่าป้องกันไวรัส หากโปรแกรมป้องกันไวรัสของคุณเสียหายหรือถูกล็อกไฟล์บางไฟล์อย่างถาวร คุณอาจต้องติดตั้ง Wallpaper Engine ใหม่
+หากคุณติดตั้งแอพพลิเคชันป้องกันไวรัส (ยกเว้น Windows Defender) ตรวจสอบให้แน่ใจว่าได้ตั้งข้อยกเว้นสำหรับ Wallpaper Engine ในการตั้งค่าป้องกันไวรัส หากโปรแกรมป้องกันไวรัสของคุณเสียหายหรือถูกล็อกไฟล์บางไฟล์อย่างถาวร คุณอาจต้องติดตั้ง Wallpaper Engine ใหม่ Make sure your antivirus app ignores the *wallpaper_engine* directory and especially all .exe files:
+
+* *wallpaper_engine/wallpaper32.exe*
+* *wallpaper_engine/wallpaper64.exe*
+* *wallpaper_engine/launcher.exe*
+* *wallpaper_engine/bin/webwallpaper32.exe*
+* *wallpaper_engine/bin/ui32.exe*
 
 พยายามตรวจสอบไฟล์ Wallpaper Engine ผ่านทาง Steam อยู่เสมอเพื่อให้แน่ใจว่าไฟล์ไม่เสียหาย:
 
 * [ฝ่ายสนับสนุน Steam: ตรวจสอบความถูกต้องของไฟล์แอพพลิเคชัน](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+In severe cases, you may need to uninstall Wallpaper Engine and manually delete the *wallpaper_engine* directory and then reinstall the app once your antivirus app has been configured to be less strict.
+
 ## ความผิดพลาดหลังการไฮเบอร์เนต / โหมดสลีป
 
 หาก Wallpaper Engine ขัดข้องหลังจากการไฮเบอร์เนต Windows แสดงว่า Windows ไม่สามารถกู้คืนไดรเวอร์การ์ดจอและ Wallpaper Engine ได้อย่างถูกต้องในเวลาเดียวกัน การไฮเบอร์เนตของ Windows ไม่ใช่กระบวนการที่เชื่อถือได้ คุณสามารถเปิดใช้งานตัวเลือก **เริ่มต้นอย่างปลอดภัยหลังการไฮเบอร์เนต** ใน Wallpaper Engine เพื่อลดปัญหานี้ ตัวเลือกนี้จะพยายามรีสตาร์ท Wallpaper Engine โดยอัตโนมัติแทนที่จะคาดหวังให้ Windows ทำงานตามปกติหลังการไฮเบอร์เนต
+
+## Wallpaper Engine has crashed / Error code "0xC0000005"
+
+This error message is almost always caused by **antivirus applications** or **faulty drivers**. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+
+If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
+
+In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+
+!["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
 
 ## ความผิดพลาดของ Wallpaper Engine อาจเกิดจากแอพพลิเคชันอื่น
 
@@ -43,7 +61,7 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 นี่เป็นความผิดพลาดของ DirectX ซึ่งมักเกิดจากแอพพลิเคชันป้องกันไวรัสหรือไดรเวอร์การ์ดจอที่เสียหาย ดูส่วนการแก้ไขเบื้องต้นด้านบนสำหรับข้อมูลเพิ่มเติม นอกจากนี้ยังอาจเกิดจากความเสียหายของส่วนประกอบของระบบ ใช้เครื่องมือตรวจสอบไฟล์ระบบ Microsoft เพื่อซ่อมแซมไฟล์ Windows ที่อาจเสียหาย:
 
-* [เครื่องมือตรวจสอบไฟล์ระบบ Microsoft](https://support.microsoft.com/th-th/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [เครื่องมือตรวจสอบไฟล์ระบบ Microsoft](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
