@@ -45,7 +45,7 @@ Diese Fehlermeldung wird fast immer durch **Antivirenprogramme** oder **defekte 
 
 Falls du kein Antivirenprogramm installiert hast, installiere bitte alle wichtigen Treiber neu und versuche auf die 64 Bit-Version von Wallpaper Engine zu wechseln (oder 32 Bit-Version wenn du bereits die 64 Bit-Version nutzt).
 
-In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+In einigen Fällen, können diese Art von Abstürzen auch durch den Einfluss von anderen Anwendungen auf Wallpaper Engine ausgelöst werden. Dies tritt normalerweise bei Anwendungen auf, welche Code in Wallpaper Engine injizieren oder eine Windows-Installation signifikant modifizieren.
 
 ![Wallpaper Engine Absturzmeldung mit "0xC0000005"-Fehlercode](/img/faq/0xC0000005.png)
 
