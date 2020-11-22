@@ -42,12 +42,22 @@ Wallpaper Engine 无法直接与 RGB 硬件通信，所有颜色信息都要先�
 如果您在 Corsair 的支持方面遇到任何问题，您还可以与我们联系，我们将尽力为您提供帮助。
 
 ### Razer
-我们仅支持 Razer Synapse 3 或更高的版本。 如果您使用 Razer Synapse 1 或 Razer Synapse 2，请确保将其完全卸载，然后升级到最新版本的 Razer Synapse。 过去，有些用户遇到了系统存在旧版 Razer Synapse 残留项的问题。 如果您安装了 Razer Synapse 2 或更旧的版本，而且遇到 RGB 照明问题，或甚至在启用 RGB 插件后遇到崩溃，您可能需要找到系统上旧版 Razer Synapse 的所有残留项，然后将其删除。
 
-如果您的 Razer 硬件相对较旧，而且不支持 Razer Synapse 3 或更高的版本，那么很遗憾，其 RGB 照明与 Wallpaper Engine 不兼容。
+Most problems related to Razer RGB hardware can be fixed by doing a clean reinstallation of the Razer software suite while Wallpaper Engine is turned off:
 
-如果需要 Razer 硬件方面的支持，请直接联系 Razer：
+1. Turn off Wallpaper Engine completely. This is very important, do not skip this.
+2. Uninstall all Razer software from your computer through Windows.
+3. Redownload the latest version of Razer Synapse 3 and install it.
+4. Restart your computer, do not launch Wallpaper Engine before restarting Windows.
+
+See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
 
 [support.razer.com](https://support.razer.com/)
 
 如果您在 Razer 的支持方面遇到任何问题，您还可以与我们联系，我们将尽力为您提供帮助。
+
+#### Razer Synapse 2 and older
+
+我们仅支持 Razer Synapse 3 或更高的版本。 如果您使用 Razer Synapse 1 或 Razer Synapse 2，请确保将其完全卸载，然后升级到最新版本的 Razer Synapse。 过去，有些用户遇到了系统存在旧版 Razer Synapse 残留项的问题。 如果您安装了 Razer Synapse 2 或更旧的版本，而且遇到 RGB 照明问题，或甚至在启用 RGB 插件后遇到崩溃，您可能需要找到系统上旧版 Razer Synapse 的所有残留项，然后将其删除。
+
+如果您的 Razer 硬件相对较旧，而且不支持 Razer Synapse 3 或更高的版本，那么很遗憾，其 RGB 照明与 Wallpaper Engine 不兼容。
