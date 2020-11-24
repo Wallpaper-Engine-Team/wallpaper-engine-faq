@@ -7,14 +7,14 @@ Sur les versions à jour de Windows 10, vous pouvez installer le Media Feature P
 
 *Applications > Applications et fonctionnalités > Fonctionnalités facultatives > Ajouter une fonctionnalité*
 
-A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+Une liste de fonctionnalités facultatives s'affichera, recherchez **Media Feature Pack** dans la liste, installez le pack, puis relancez votre ordinateur. Pour toute aide supplémentaire ou pour toute information au sujet de ce pack, rendez-vous sur le site Internet de Microsoft : [Media Feature Pack pour Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
-#### Outdated Windows 10 (May 2019 update or older):
-Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
+#### Version de Windows 10 qui ne sont pas à jour (mise à jour de mai 2019 ou plus ancien) :
+Si vous disposez de versions antérieures de Windows 10, vous devez télécharger manuellement le Media Feature Pack pour votre version exacte de Windows 10 :
   * Télécharger [Media Feature Pack](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (en anglais)
 
 #### Windows 7 :
-  * Windows 7 is not supported by Microsoft anymore. You need update **KB968211** to add media features but Microsoft has removed the download page for it. Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+  * Windows 7 n'est plus pris en charge par Microsoft. Vous avez besoin de la mise à jour **KB968211** pour ajouter des fonctions multimédias, mais Microsoft a supprimé la page de téléchargement de cette mise à jour. Essayez de faire la mise à niveau vers Windows 10 ou de réinstaller une version standard de Windows 7 avec les fonctions multimédias.
 
 **Assurez-vous d'installer les versions x64 et x86.**
 
