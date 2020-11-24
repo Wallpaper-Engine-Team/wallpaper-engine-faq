@@ -41,7 +41,7 @@ Si Wallpaper Engine se bloque après la mise en veille prolongée de Windows, c'
 
 ## Wallpaper Engine has crashed / Code erreur "0xC0000005"
 
-Ce message d'erreur est généralement toujours causé par des **applications antivirus** ou des **pilotes perfectibles**. Si vous utilisez une application antivirus, il est très probable que celle-ci soit responsable de ce plantage, même si aucune activité n'a été signalée par votre antivirus. Veillez à configurer l'application antivirus pour que celle-ci ignore le répertoire d'installation *wallpaper_engine* et tous les fichiers ". exe" importants de Wallpaper Engine. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+Ce message d'erreur est généralement toujours causé par des **applications antivirus** ou des **pilotes défectueux**. Si vous utilisez une application antivirus, il est très probable que celle-ci soit responsable de ce plantage, même si aucune activité n'a été signalée par votre antivirus. Veillez à configurer l'application antivirus pour que celle-ci ignore le répertoire d'installation *wallpaper_engine* et tous les fichiers ". exe" importants de Wallpaper Engine. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
 
 Si vous n'avez pas d'application antivirus installée, veuillez réinstaller tous les pilotes importants et essayer de passer à la version 64 bits de Wallpaper Engine (ou la version 32 bits si vous avez déjà utilisé la version 64 bits).
 
@@ -108,17 +108,17 @@ Ces types de plantages sont causés par Razer Chroma qui fait partie de **Razer 
 
 1. Désactivez complètement Wallpaper Engine lorsque l'application est en cours d'exécution (faites un clic droit sur l'icône de la barre d'état de Windows, puis sélectionnez **Quitter**)
 2. Désinstallez tous les logiciels Razer de votre ordinateur via Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+3. Rendez-vous sur le site Internet de Razer pour y télécharger la version la plus récente de la suite de logiciels, puis installez-la :
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Téléchargez Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. Ensuite, redémarrez votre ordinateur sans relancer préalablement Wallpaper Engine.
 
-**Reinstallation does not fix the problem**
+**La réinstallation ne règle pas le problème**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+Si une réinstallation de Razer Synapse n'arrange pas la situation, il y a peut-être un problème sous-jacent avec Razer Synapse. Certaines causes de ces plantages se sont avérées être des mises à jour défectueuses de Razer Synapse. Essayez de désactiver le plug-in LED (*"iCUE & Chroma SDK"*) via l'onglet **Plug-ins** des paramètres de Wallpaper Engine, et ce, jusqu'à ce que le problème soit réglé lors d'une future mise à jour de Razer Synapse.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Si les plantages continuent, même après une installation propre de Razer Synapse, veuillez directement contacter les membres de l'équipe d'assistance de Razer pour les informer de ces crashs. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
