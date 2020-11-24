@@ -92,7 +92,7 @@ Passe au fond d'écran suivant d'un moniteur bien précis ou de tous les moniteu
 
 ### Remove Wallpaper
 
-Removes a wallpaper from a specified monitor or window or removes all wallpapers.
+Supprime un fond d'écran d'une fenêtre ou d'un moniteur indiqué, ou supprime tous les fonds d'écran.
 
 ``` powershell
 -control closeWallpaper [-location <string>] [-monitor <number>]
