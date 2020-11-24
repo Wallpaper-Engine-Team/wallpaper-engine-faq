@@ -4,27 +4,27 @@ sidebarDepth: 2
 
 # Contrôles des lignes de commandes
 
-Vous pouvez contrôler Wallpaper Engine avec des arguments de lignes de commandes. Ceci vous permet d'accéder à la plupart des fonctionnalités de l'application par l'intermédiaire d'un raccourci, d'une liaison macro ou de tout type de code ou de script auto-écrit de votre choix. For example, you may pause or stop all wallpapers, change wallpapers or even change settings of running wallpapers.
+Vous pouvez contrôler Wallpaper Engine avec des arguments de lignes de commandes. Ceci vous permet d'accéder à la plupart des fonctionnalités de l'application par l'intermédiaire d'un raccourci, d'une liaison macro ou de tout type de code ou de script auto-écrit de votre choix. Par exemple, vous pouvez mettre en pause ou stopper tous les fonds d'écran, changer des fonds d'écran, voire même modifier les paramètres les paramètres d'exécution des fonds d'écran.
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
+Vérifiez que Wallpaper Engine est en cours d'exécution, puis envoyez une commande en lançant le processus principal du programme, *wallpaper32.exe* (ou *wallpaper64.exe* si vous utilisez une version 64 bits de l'application), avec n'importe lequel des arguments de commandes figurant dans ce guide. Vous trouverez les fichiers exécutables dans le répertoire d'installation `wallpaper_engine`.
 
-All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
+Toutes les commandes sont émises en tant que valeur pour le paramètre `-control`. Par exemple, la commande de pause peut être exécutée de la manière suivante :
 
 ``` powershell
 wallpaper32.exe -control pause
 ```
 
-Make sure to use the double-quote **"** character for strings that have spaces in them:
+Veillez à utiliser le caractère guillemet **"** pour les chaînes où figurent des espaces :
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-## Command Overview
+## Vue générale des commandes
 
 ### Pause
 
-Pauses all wallpapers.
+Mettre en pause tous les fonds d'écran.
 
 ``` powershell
 -control pause
@@ -32,7 +32,7 @@ Pauses all wallpapers.
 
 ### Stop
 
-Stops all wallpapers.
+Arrêter tous les fonds d'écran.
 
 ``` powershell
 -control stop
@@ -40,7 +40,7 @@ Stops all wallpapers.
 
 ### Play
 
-Resumes all wallpapers from pause or stop.
+Reprend tous les fonds d'écran mis en pause ou arrêtés.
 
 ``` powershell
 -control play
