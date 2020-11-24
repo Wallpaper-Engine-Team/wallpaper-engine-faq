@@ -2,8 +2,8 @@
 
 Windows N ne peut pas lire de médias ! Vous devez installer le Media Feature Pack pour votre version de Windows et votre numéro de build :
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Versions les plus récentes de Windows 10
+Sur les versions à jour de Windows 10, vous pouvez installer le Media Feature Pack via les paramètres Windows. Open the **Windows Settings**, then navigate to the following location:
 
 *Apps > Apps and Features > Optional Features > Add a Feature*
 
