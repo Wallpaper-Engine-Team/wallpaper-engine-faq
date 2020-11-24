@@ -43,20 +43,20 @@ Si vous rencontrez un problème avec Corsair, vous pourrez toujours nous contact
 
 ### Razer
 
-Most problems related to Razer RGB hardware can be fixed by doing a clean reinstallation of the Razer software suite while Wallpaper Engine is turned off:
+Il est possible de régler la plupart des problèmes liés aux périphériques Razer RGB en effectuant une installation "propre" de la suite de logiciels Razer après avoir désactivé Wallpaper Engine :
 
-1. Turn off Wallpaper Engine completely. This is very important, do not skip this.
-2. Uninstall all Razer software from your computer through Windows.
-3. Redownload the latest version of Razer Synapse 3 and install it.
-4. Restart your computer, do not launch Wallpaper Engine before restarting Windows.
+1. Désactivea complètement Wallpaper Engine. Il est très important de ne pas ignorer cette étape.
+2. Désinstallez tous les logiciels Razer de votre ordinateur via Windows.
+3. Téléchargez la version la plus récente de Razer Synapse 3 et installez-la.
+4. Redémarrez vos ordinateur, ne lancez pas Wallpaper Engine avant d'avoir redémarrer Windows.
 
-See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
+Voyez si cette manœuvre a réglé vos problèmes concernant votre périphérique RGB. Pour toute aide supplémentaire concernant les périphériques Razer, veuillez directement contacter Razer :
 
 [razer.com/fr-fr/help](https://support.razer.com/)
 
 Si vous rencontrez un problème avec Razer, vous pourrez toujours nous contacter par la suite pour que nous vous aidions.
 
-#### Razer Synapse 2 and older
+#### Razer Synapse 2 et plus ancien
 
 Notre logiciel n'est compatible qu'avec Razer Synapse 3 et ses versions les plus récentes. Si vous utilisez Razer Synapse 1 ou Razer Synapse 2, assurez-vous de les désinstaller complètement avant de mettre à jour votre version de Razer Synapse. Par le passé, beaucoup d'utilisateurs ont eu des problèmes à cause d'anciennes versions de Razer Synapse. Si vous avez installé Razer Synapse 2 ou une version antérieure et que vous rencontrez des problèmes d'éclairage RGB ou le plug-in RGB plante, c'est qu'il reste des traces d'anciennes versions de Razer Synapse dans votre système. Vous devrez les retirer.
 
