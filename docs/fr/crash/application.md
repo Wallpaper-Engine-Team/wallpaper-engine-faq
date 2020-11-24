@@ -118,7 +118,7 @@ Ces types de plantages sont causés par Razer Chroma qui fait partie de **Razer 
 
 Si une réinstallation de Razer Synapse n'arrange pas la situation, il y a peut-être un problème sous-jacent avec Razer Synapse. Certaines causes de ces plantages se sont avérées être des mises à jour défectueuses de Razer Synapse. Essayez de désactiver le plug-in LED (*"iCUE & Chroma SDK"*) via l'onglet **Plug-ins** des paramètres de Wallpaper Engine, et ce, jusqu'à ce que le problème soit réglé lors d'une future mise à jour de Razer Synapse.
 
-Si les plantages continuent, même après une installation propre de Razer Synapse, veuillez directement contacter les membres de l'équipe d'assistance de Razer pour les informer de ces crashs. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Si les plantages continuent, même après une installation propre de Razer Synapse, veuillez directement contacter les membres de l'équipe d'assistance de Razer pour les informer de ces crashs. S'ils ne sont pas en mesure de vous aider, veuillez nous contacter : nous examinerons ces plantages et transmettront également nos conclusions à l'équipe de développement de Razer Synapse (même si Razer doit être votre interlocuteur principale dans ce genre de situation).
 
 ### MMDEvAPI.dll
 
