@@ -21,7 +21,7 @@ Wallpaper Engine'i neyin çöktürdüğünden emin değilseniz lütfen grafik ka
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Bilgisayarınızda Windows Defender haricinde bir antivirüs programı yüklüyse antivirüs ayarlarınızda Wallpaper Engine için istisna oluşturmayı unutmayın. Antivirüs programınız geçici olarak bozuksa ya da bazı dosyaları kilitlediyse Wallpaper Engine'in bundan sonra yeniden yüklenmesi gerekebilir. Make sure your antivirus app ignores the *wallpaper_engine* directory and especially all .exe files:
+Bilgisayarınızda Windows Defender haricinde bir antivirüs programı yüklüyse antivirüs ayarlarınızda Wallpaper Engine için istisna oluşturmayı unutmayın. Antivirüs programınız geçici olarak bozuksa ya da bazı dosyaları kilitlediyse Wallpaper Engine'in bundan sonra yeniden yüklenmesi gerekebilir. Antivirüs uygulamanızın *wallpaper_engine* dizinini ve özellikle tüm .exe dosyalarını yok saydığından emin olun:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -33,7 +33,7 @@ Bozulmamaları için Wallpaper Engine dosyalarınızı her zaman steam üzerinde
 
 * [Steam Desteği: Uygulama Dosyalarının Bütünlüğünü Doğrulayın](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-In severe cases, you may need to uninstall Wallpaper Engine and manually delete the *wallpaper_engine* directory and then reinstall the app once your antivirus app has been configured to be less strict.
+Ciddi durumlarda, Wallpaper Engine'i kaldırmanız ve *wallpaper_engine* dizinini manuel olarak silmeniz ve ardından antivirüs uygulamanız daha esnek olacak şekilde yapılandırıldıktan sonra uygulamayı yeniden yüklemeniz gerekebilir.
 
 ## Hazırda Bekletme / Uyku modundan sonra çökme
 
