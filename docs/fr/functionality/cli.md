@@ -137,17 +137,17 @@ Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represent
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### Masquer les icônes du bureau
 
-Hides the desktop icons.
+Masque les icônes du bureau.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### Afficher les icônes du bureau
 
-Shows the desktop icons.
+Affiche les icônes du bureau.
 
 ``` powershell
 -control showIcons
