@@ -45,12 +45,12 @@ Wallpaper Engine не имеет возможности напрямую вза�
 
 Большинство проблем, связанных с оборудованием Razer RGB, можно решить, выполнив полную переустановку программного пакета Razer при выключенном Wallpaper Engine:
 
-1. Turn off Wallpaper Engine completely. This is very important, do not skip this.
-2. Uninstall all Razer software from your computer through Windows.
-3. Redownload the latest version of Razer Synapse 3 and install it.
-4. Restart your computer, do not launch Wallpaper Engine before restarting Windows.
+1. Полностью выключите Wallpaper Engine. Это очень важно, не пропускайте этот пункт.
+2. Удалите все программное обеспечение Razer со своего компьютера через Windows.
+3. Повторно скачайте последнюю версию Razer Synapse 3 и установите ее.
+4. Перезагрузите компьютер, не запускайте Wallpaper Engine до перезагрузки Windows.
 
-See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
+Посмотрите, решит ли это ваши проблемы с оборудованием RGB. Для получения дополнительной поддержки по оборудованию Razer свяжитесь напрямую с Razer:
 
 [support.razer.com](https://support.razer.com/)
 
