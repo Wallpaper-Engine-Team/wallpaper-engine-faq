@@ -43,9 +43,9 @@ Wallpaper Engine — тщательно тестируемая и хорошо 
 
 Это сообщение об ошибке чаще всего вызвано **антивирусными приложениями** или **неисправными драйверами**. Если вы используете антивирусное приложение, то оно, скорее всего, причина этого сбоя, даже если антивирусное приложение не сообщало об активности. Не забудьте настроить антивирус так, чтобы он игнорировал каталог установки *wallpaper_engine* и все важные исполняемые файлы Wallpaper Engine. Более подробную информацию см. в разделе*Попытка быстрого исправления сбоя Wallpaper Engine* выше.
 
-If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
+Если у вас не установлено антивирусное приложение, переустановите все важные драйверы и попробуйте переключиться на 64-разрядную версию Wallpaper Engine (или 32-разрядную версию, если вы уже использовали 64-разрядную версию).
 
-In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. Это касается приложений, которые вводят код в Wallpaper Engine или каким-либо образом значительно изменяют установку Windows.
 
 !["0xC0000005" Сообщение о сбое Wallpaper Engine](/img/faq/0xC0000005.png)
 
