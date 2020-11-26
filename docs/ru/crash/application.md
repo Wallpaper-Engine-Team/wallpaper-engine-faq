@@ -109,17 +109,17 @@ Wallpaper Engine — тщательно тестируемая и хорошо 
 
 1. Полностью выключите Wallpaper Engine, если он запущен (щелкните правой кнопкой мыши значок на панели задач Windows и нажмите **Выйти**)
 2. Удалите все программное обеспечение Razer со своего компьютера через Windows
-3. Загрузите последнюю версию программного обеспечения Razer с их веб-сайта и установите ее:
+3. Скачайте последнюю версию программного обеспечения Razer с их веб-сайта и установите ее:
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Скачать Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. После этого перезагрузите компьютер без предварительного перезапуска Wallpaper Engine.
 
-**Reinstallation does not fix the problem**
+**Повторная установка не решает проблему**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+Если проблема не решена переустановкой Razer Synapse, возможно, проблема связана с самой Razer Synapse. Ранее это было вызвано ошибочными обновлениями Razer Synapse. Попробуйте отключить подключаемый модуль LED (*"iCUE & Chroma SDK"*) на вкладке **Plugins** в настройках Wallpaper Engine, пока эта проблема не будет устранена в будущем обновлении Razer Synapse.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Если сбои не исчезнут даже после полной переустановки Razer Synapse, обратитесь в службу поддержки Razer напрямую и сообщите им об этом. Если они не могут помочь, обратитесь к нам за технической поддержкой — мы можем изучить эти сбои и направить наши отчеты команде разработчиков Razer Synapse, хотя Razer должен быть основным контактным лицом для этого конкретного сбоя.
 
 ### MMDEvAPI.dll
 
