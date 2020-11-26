@@ -131,7 +131,7 @@ Example of changing a wallpaper setting named `rate` to 10:
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+Exemple de changement du paramètre de couleurs d'un fond d'écran pour passer au rouge (`"1 0 0"` représente les valeurs *RGB*) :
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
