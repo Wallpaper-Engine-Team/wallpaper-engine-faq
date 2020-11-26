@@ -115,7 +115,7 @@ Charge un nouveau fond d'écran pour un moniteur précis ou pour le premier moni
 
 ### Appliquer des paramètres de fond d'écran
 
-Applique à la volée les propriétés de fond d'écran à un fond d'écran bien précis ou à tous les fonds d'écran. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+Applique à la volée les propriétés de fond d'écran à un fond d'écran bien précis ou à tous les fonds d'écran. Cette option vous permet, pendant l'exécution du programme, de modifier dynamiquement tout paramètre appartenant à un fond d'écran, et ce, sans ouvrir le navigateur des fonds d'écran pour les changer manuellement. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
