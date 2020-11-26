@@ -123,9 +123,9 @@ Applique à la volée les propriétés de fond d'écran à un fond d'écran bien
 
 * **properties :** Propriétés définies comme chaîne **JSON** à appliquer. Il faut interrompre la chaîne à l'aide de `RAW~(` et `)~END` comme délimiteurs. Consultez les exemples ci-dessous !
 * **location *(facultatif)* :** Identificateur interne du nom de la fenêtre ou du moniteur que vous avez indiqué.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **monitor *(facultatif)* :** Index du moniteur sur lequel mettre à jouer les propriétés, commence par 0.
 
-Example of changing a wallpaper setting named `rate` to 10:
+Exemple visant à changer un paramètre d'un fond d'écran nommé `rate` pour le configurer sur 10 :
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
