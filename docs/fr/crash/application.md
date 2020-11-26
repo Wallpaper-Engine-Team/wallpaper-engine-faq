@@ -41,7 +41,7 @@ Si Wallpaper Engine se bloque après la mise en veille prolongée de Windows, c'
 
 ## Wallpaper Engine has crashed / Code erreur "0xC0000005"
 
-Ce message d'erreur est généralement toujours causé par des **applications antivirus** ou des **pilotes défectueux**. Si vous utilisez une application antivirus, il est très probable que celle-ci soit responsable de ce plantage, même si aucune activité n'a été signalée par votre antivirus. Veillez à configurer l'application antivirus pour que celle-ci ignore le répertoire d'installation *wallpaper_engine* et tous les fichiers ". exe" importants de Wallpaper Engine. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+Ce message d'erreur est généralement toujours causé par des **applications antivirus** ou des **pilotes défectueux**. Si vous utilisez une application antivirus, il est très probable que celle-ci soit responsable de ce plantage, même si aucune activité n'a été signalée par votre antivirus. Veillez à configurer l'application antivirus pour que celle-ci ignore le répertoire d'installation *wallpaper_engine* et tous les fichiers ". exe" importants de Wallpaper Engine. Voir la section *Réparations rapides en cas de plantage de Wallpaper Engine* ci-dessous pour obtenir plus de renseignements.
 
 Si vous n'avez pas d'application antivirus installée, veuillez réinstaller tous les pilotes importants et essayer de passer à la version 64 bits de Wallpaper Engine (ou la version 32 bits si vous avez déjà utilisé la version 64 bits).
 
