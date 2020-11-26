@@ -41,7 +41,7 @@ Wallpaper Engine — тщательно тестируемая и хорошо 
 
 ## Произошел сбой Wallpaper Engine / Код ошибки "0xC0000005"
 
-Это сообщение об ошибке чаще всего вызвано **антивирусными приложениями** или **неисправными драйверами**. Если вы используете антивирусное приложение, то оно, скорее всего, причина этого сбоя, даже если антивирусное приложение не сообщало об активности. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+Это сообщение об ошибке чаще всего вызвано **антивирусными приложениями** или **неисправными драйверами**. Если вы используете антивирусное приложение, то оно, скорее всего, причина этого сбоя, даже если антивирусное приложение не сообщало об активности. Не забудьте настроить антивирус так, чтобы он игнорировал каталог установки *wallpaper_engine* и все важные исполняемые файлы Wallpaper Engine. Более подробную информацию см. в разделе*Попытка быстрого исправления сбоя Wallpaper Engine* выше.
 
 If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
 
