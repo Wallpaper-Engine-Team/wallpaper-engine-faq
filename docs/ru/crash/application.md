@@ -45,7 +45,7 @@ Wallpaper Engine — тщательно тестируемая и хорошо 
 
 Если у вас не установлено антивирусное приложение, переустановите все важные драйверы и попробуйте переключиться на 64-разрядную версию Wallpaper Engine (или 32-разрядную версию, если вы уже использовали 64-разрядную версию).
 
-In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. Это касается приложений, которые вводят код в Wallpaper Engine или каким-либо образом значительно изменяют установку Windows.
+В некоторых случаях это также может быть вызвано тем, что другие приложения вмешиваются в работу Wallpaper Engine. Это касается приложений, которые вводят код в Wallpaper Engine или каким-либо образом значительно изменяют установку Windows.
 
 !["0xC0000005" Сообщение о сбое Wallpaper Engine](/img/faq/0xC0000005.png)
 
@@ -99,17 +99,17 @@ In some cases, this can also be caused by other applications interfering with Wa
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+Эти типы сбоев вызваны Razer Chroma, которая является частью**Razer Synapse**. Обычно это вызвано неправильной установкой Razer Synapse. В большинстве случаев переустановка Razer Synapse устраняет следующие типы сбоев:
 
-**Clean reinstallation of all Razer software**
+**Полная переустановка всего программного обеспечения Razer**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+Убедитесь, что Wallpaper Engine выключен при переустановке Razer Synapse.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. Полностью выключите Wallpaper Engine, если он запущен (щелкните правой кнопкой мыши значок на панели задач Windows и нажмите **Выйти**)
+2. Удалите все программное обеспечение Razer со своего компьютера через Windows
+3. Загрузите последнюю версию программного обеспечения Razer с их веб-сайта и установите ее:
 
 * [Download Razer Synapse 3](https://www.razer.com/synapse-3)
 
