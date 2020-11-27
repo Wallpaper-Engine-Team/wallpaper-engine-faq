@@ -21,7 +21,7 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-หากคุณติดตั้งแอพพลิเคชันป้องกันไวรัส (ยกเว้น Windows Defender) ตรวจสอบให้แน่ใจว่าได้ตั้งข้อยกเว้นสำหรับ Wallpaper Engine ในการตั้งค่าป้องกันไวรัส หากโปรแกรมป้องกันไวรัสของคุณเสียหายหรือถูกล็อกไฟล์บางไฟล์อย่างถาวร คุณอาจต้องติดตั้ง Wallpaper Engine ใหม่ Make sure your antivirus app ignores the *wallpaper_engine* directory and especially all .exe files:
+หากคุณติดตั้งแอพพลิเคชันป้องกันไวรัส (ยกเว้น Windows Defender) ตรวจสอบให้แน่ใจว่าได้ตั้งข้อยกเว้นสำหรับ Wallpaper Engine ในการตั้งค่าป้องกันไวรัส หากโปรแกรมป้องกันไวรัสของคุณเสียหายหรือถูกล็อกไฟล์บางไฟล์อย่างถาวร คุณอาจต้องติดตั้ง Wallpaper Engine ใหม่ ตรวจสอบให้แน่ใจว่าแอพพลิเคชันป้องกันไวรัสของคุณละเว้นไฟล์ไดเรกทอรี *wallpaper_engine* และไฟล์ .exe ทั้งหมด:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -33,7 +33,7 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 * [ฝ่ายสนับสนุน Steam: ตรวจสอบความถูกต้องของไฟล์แอพพลิเคชัน](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-In severe cases, you may need to uninstall Wallpaper Engine and manually delete the *wallpaper_engine* directory and then reinstall the app once your antivirus app has been configured to be less strict.
+ในกรณีร้ายแรง คุณอาจต้องถอนการติดตั้ง Wallpaper Engine และลบไดเรกทอรี *wallpaper_engine* ด้วยตนเอง จากนั้นจึงติดตั้งใหม่เมื่อแอพพลิเคชันป้องกันไวรัสของคุณได้รับการกำหนดค่าให้เข้มงวดน้อยลง
 
 ## ความผิดพลาดหลังการไฮเบอร์เนต / โหมดสลีป
 
@@ -47,7 +47,7 @@ In severe cases, you may need to uninstall Wallpaper Engine and manually delete 
 
 ในบางครั้งปัญหานี้อาจเกิดจากการที่แอพพลิเคชันอื่นรบกวน Wallpaper Engine อย่างผิดปกติ โดยส่วนใหญ่มักจะเกิดขึ้นกับแอพพลิเคชันที่ "ป้อน" รหัสลงใน Wallpaper Engine หรือเปลี่ยนแปลงการติดตั้ง Windows ของคุณ
 
-!["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
+!["0xC0000005" ข้อความขัดข้องของ Wallpaper Engine](/img/faq/0xC0000005.png)
 
 ## ความผิดพลาดของ Wallpaper Engine อาจเกิดจากแอพพลิเคชันอื่น
 
@@ -117,7 +117,7 @@ In severe cases, you may need to uninstall Wallpaper Engine and manually delete 
 
 หากปัญหายังคงอยู่หลังการติดตั้ง Razer Synapse ใหม่ อาจเป็นปัญหาพื้นฐานของ Razer Synapse เอง ในอดีตปัญหานี้เกิดจากการอัปเดต Razer Synapse ที่ผิดพลาด โปรดลองปิดปลั๊กอิน LED (*"iCUE & Chroma SDK"*) ในแท็บ **ปลั๊กอิน** ของการตั้งค่า Wallpaper Engine จนกว่าปัญหานี้จะได้รับการแก้ไขจากการอัพเดต Razer Synapse ในอนาคต
 
-หากยังคงพบข้อขัดข้องแม้จะติดตั้ง Razer Synapse ใหม่ทั้งหมดแล้ว โปรดติดต่อฝ่ายสนับสนุนของ Razer โดยตรงและแจ้งให้ทราบเกี่ยวกับข้อขัดข้องที่พบ If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+หากยังคงพบข้อขัดข้องแม้จะติดตั้ง Razer Synapse ใหม่ทั้งหมดแล้ว โปรดติดต่อฝ่ายสนับสนุนของ Razer โดยตรงและแจ้งให้ทราบเกี่ยวกับข้อขัดข้องที่พบ หากฝ่ายสนับสนุนไม่สามารถช่วยเหลือได้ โปรดติดต่อเราเพื่อรับการสนับสนุนทางเทคนิค เราสามารถตรวจสอบข้อขัดข้องเหล่านี้และส่งข้อมูลที่พบไปยังทีมพัฒนา Razer Synapse เช่นกัน ทั้งนี้ Razer ควรเป็นผู้ติดต่อหลักสำหรับคุณเมื่อพบข้อขัดข้องนี้
 
 ### MMDEvAPI.dll
 
