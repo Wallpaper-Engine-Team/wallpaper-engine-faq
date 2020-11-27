@@ -75,7 +75,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **file:** พาธไปยัง project.json ของวอลเปเปอร์ที่คุณต้องการเปิดหรือกำหนดพาธไปยังไฟล์วอลเปเปอร์ (.mp4 เป็นต้น)
 * **location *(ไม่บังคับ)*:** ตัวระบุภายในของจอแสดงผล คุณพบสิ่งเหล่านี้ได้ในไฟล์ config.json ซึ่งสร้างขึ้นโดยคอมพิวเตอร์ของคุณ
 * **monitor *(ไม่บังคับ)*:** ดัชนีของจอแสดงผลเพื่อโหลดวอลเปเปอร์จะขึ้นต้นด้วย 0
-* **preset *(optional)*:** Name of the local preset to load, the local preset must have been created and saved by you before.
+* **preset *(ไม่บังคับ)*:** ชื่อของการตั้งค่าล่วงหน้าเพื่อใช้โหลด คุณต้องสร้างและบันทึกการตั้งค่าล่วงหน้าในเครื่องก่อน
 * **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window.
   * **width *(optional)*:** Width of window.
   * **height *(optional)*:** Height of window.
