@@ -4,67 +4,67 @@ sidebarDepth: 2
 
 # การควบคุมบรรทัดคำสั่ง (Command Line)
 
-คุณสามารถควบคุม Wallpaper Engine ด้วยอาร์กิวเมนต์บรรทัดคำสั่ง This allows you to access most functionalities of the app through a shortcut, a macro binding or any kind of self-written script or code of your choice. For example, you may pause or stop all wallpapers, change wallpapers or even change settings of running wallpapers.
+คุณสามารถควบคุม Wallpaper Engine ด้วยอาร์กิวเมนต์บรรทัดคำสั่ง สิ่งนี้ช่วยให้คุณสามารถเข้าถึงฟังก์ชันการทำงานส่วนใหญ่ของแอพพลิเคชันด้วยทางลัด (Shortcut) การสร้างมาโคร หรือการใช้สคริปต์หรือรหัสที่คุณเลือกเอง ตัวอย่างเช่น คุณอาจหยุดวอลเปเปอร์ชั่วคราวหรือหยุดวอลเปเปอร์ทั้งหมด เปลี่ยนวอลเปเปอร์หรือแม้แต่เปลี่ยนการตั้งค่าวอลเปเปอร์ที่กำลังทำงานอยู่
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
+ตรวจสอบให้แน่ใจว่า Wallpaper Engine กำลังทำงาน จากนั้นจึงส่งคำสั่งโดยเรียกใช้กระบวนการหลักของโปรแกรม *wallpaper32.exe* (หรือ *wallpaper64.exe* หากคุณใช้แอพพลิเคชันเวอร์ชัน 64-Bit) โดยใช้อาร์กิวเมนต์คำสั่งที่ระบุไว้ในคู่มือนี้ คุณสามารถค้นหาไฟล์ปฏิบัติการได้ในไดเรกทอรีการติดตั้ง `wallpaper_engine`
 
-All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
+คำสั่งทั้งหมดถูกตั้งค่า `-control` สำหรับพารามิเตอร์ ตัวอย่างเช่น สามารถดำเนินการคำสั่งหยุดชั่วคราวได้ดังนี้:
 
 ``` powershell
 wallpaper32.exe -control pause
 ```
 
-Make sure to use the double-quote **"** character for strings that have spaces in them:
+โปรดใส่เครื่องหมายคำพูด **"** กับคำสั่งที่มีการเว้นวรรค:
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-## Command Overview
+## ภาพรวมคำสั่ง
 
-### Pause
+### หยุดชั่วคราว
 
-Pauses all wallpapers.
+หยุดวอลเปเปอร์ทั้งหมดชั่วคราว
 
 ``` powershell
 -control pause
 ```
 
-### Stop
+### หยุด
 
-Stops all wallpapers.
+หยุดวอลเปเปอร์ทั้งหมด
 
 ``` powershell
 -control stop
 ```
 
-### Play
+### เล่น
 
-Resumes all wallpapers from pause or stop.
+เล่นวอลเปเปอร์ทั้งหมดที่หยุดชั่วคราวหรือหยุดเอาไว้
 
 ``` powershell
 -control play
 ```
 
-### Mute
+### ปิดเสียง
 
-Mutes all wallpapers.
+ปิดเสียงวอลเปเปอร์ทั้งหมด
 
 ``` powershell
 -control mute
 ```
 
-### Unmute
+### เลิกปิดเสียง
 
-Unmutes all wallpapers.
+เลิกปิดเสียงวอลเปเปอร์ทั้งหมด
 
 ``` powershell
 -control unmute
 ```
 
-### Open Wallpaper
+### เปิดวอลเปเปอร์
 
-Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
+ในการโหลดวอลเปเปอร์ใหม่บนจอแสดงผลที่กำหนดหรือจอแสดงผลแรกหากไม่ได้ระบุไว้ คุณสามารถใช้พารามิเตอร์ `location` หรือ `monitor` เพื่อเลือกจอแสดงผลที่จะโหลดวอลเปเปอร์หรือเปิดวอลเปเปอร์ในหน้าต่างด้วยพารามิเตอร์ `playInWindow`
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
