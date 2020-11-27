@@ -2,10 +2,10 @@
 
 Windows N 不具备媒体功能！ 您需要针对特定的 Windows 版本和内部版本号，安装正确的媒体功能包：
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### 最新版本的 Windows 10
+在最新版本的 Windows 10 上，您可以通过 Windows 设置安装媒体功能包。 打开 **Windows 设置**，然后导航到以下位置。
 
-*Apps > Apps and Features > Optional Features > Add a Feature*
+*应用程序 > 应用程序和功能 > 可选功能 > 添加功能*
 
 A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
