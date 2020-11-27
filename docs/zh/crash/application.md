@@ -41,11 +41,11 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 ## Wallpaper Engine 已崩溃/错误代码“0xC0000005”
 
-此错误消息几乎总是由**防病毒应用程序**或**驱动程序故障**导致。 If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+此错误消息几乎总是由**防病毒应用程序**或**驱动程序故障**导致。 如果您使用防病毒应用程序，那么即使该防病毒应用程序未报告任何活动，它也很可能是导致这种崩溃的原因。 请务必对防病毒应用程序进行配置，使其忽略 *wallpaper_engine* 安装目录以及 Wallpaper Engine 所有重要的可执行文件。 有关更多详细信息，请参阅上方的 *Wallpaper Engine 崩溃快速修复尝试*部分。
 
-If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
+如果未安装防病毒应用程序，请重新安装所有重要的驱动程序，然后尝试切换到 64 位版本的 Wallpaper Engine（如果已经使用过 64 位版本，则尝试切换到 32 位版本）。
 
-In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+在某些情况下，导致这种崩溃的原因还可能是其他应用程序以异常方式干扰了 Wallpaper Engine。 这主要与将代码注入 Wallpaper Engine 或以某种方式显着改变 Windows 安装的应用程序有关。
 
 !["0xC0000005" Wallpaper Engine 崩溃消息](/img/faq/0xC0000005.png)
 
