@@ -8,7 +8,7 @@ sidebarDepth: 2
 
 Убедитесь, что Wallpaper Engine уже запущен, а затем отправьте ему команду, запустив основной процесс программы, *wallpaper32.exe* (или *wallpaper64.exe*, если вы используете 64-битную версию приложения) с любым из аргументов команды, перечисленных в этом руководстве. Вы можете найти исполняемые файлы в каталоге установки `wallpaper_engine`.
 
-All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
+Все команды выдаются как значение параметра `-control`. Например, команду паузы можно выполнить так:
 
 ``` powershell
 wallpaper32.exe -control pause
