@@ -121,7 +121,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
+* **properties:** ใช้คำสั่ง **JSON** ในการกำหนดคุณสมบัติ โปรดใช้ `RAW~(` และ `)~END` เป็นตัวคั่น - ดูตัวอย่างได้จากด้านล่าง
 * **location *(ไม่บังคับ)*:** ตัวระบุภายในของจอแสดงผลหรือชื่อหน้าต่างที่คุณระบุ
 * **monitor *(ไม่บังคับ)*:** ดัชนีของจอแสดงผลเพื่ออัพเดทคุณสมบัติ ขึ้นต้นด้วย 0
 
