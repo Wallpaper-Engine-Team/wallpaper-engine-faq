@@ -43,20 +43,20 @@ Wallpaper Engine ไม่สามารถสื่อสารกับฮา
 
 ### Razer
 
-Most problems related to Razer RGB hardware can be fixed by doing a clean reinstallation of the Razer software suite while Wallpaper Engine is turned off:
+ปัญหาส่วนใหญ่ที่เกี่ยวข้องกับฮาร์ดแวร์ Razer RGB สามารถแก้ไขได้โดยทำการติดตั้งชุดซอฟต์แวร์ Razer ใหม่ทั้งหมดในขณะที่ Wallpaper Engine ปิดอยู่:
 
-1. Turn off Wallpaper Engine completely. This is very important, do not skip this.
-2. Uninstall all Razer software from your computer through Windows.
-3. Redownload the latest version of Razer Synapse 3 and install it.
-4. Restart your computer, do not launch Wallpaper Engine before restarting Windows.
+1. ปิด Wallpaper Engine โดยสมบูรณ์ ขั้นตอนนี้สำคัญมาก โปรดอย่าข้ามขั้นตอนนี้
+2. ถอนการติดตั้งซอฟต์แวร์ Razer ทั้งหมดจากคอมพิวเตอร์ของคุณผ่านทาง Windows
+3. ดาวน์โหลด Razer Synapse 3 เวอร์ชันล่าสุดและติดตั้งอีกครั้ง
+4. รีสตาร์ทคอมพิวเตอร์ โปรดปิด Wallpaper Engine ก่อนที่จะรีสตาร์ท Windows
 
-See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
+ลองดูว่าวิธีนี้ช่วยแก้ปัญหาเกี่ยวกับฮาร์ดแวร์ RGB ของคุณได้หรือไม่ หากคุณต้องการความช่วยเหลือเพิ่มเติมเกี่ยวกับฮาร์ดแวร์ Razer โปรดติดต่อ Razer โดยตรง:
 
 [support.razer.com](https://support.razer.com/)
 
 หากคุณพบปัญหาใด ๆ กับฝ่ายสนับสนุนของ Razer คุณสามารถติดต่อเราได้และเราจะพยายามอย่างดีที่สุดเพื่อช่วยเหลือคุณ
 
-#### Razer Synapse 2 and older
+#### Razer Synapse 2 หรือรุ่นเก่ากว่า
 
 เรารองรับ Razer Synapse 3 หรือใหม่กว่าเท่านั้น หากคุณใช้ Razer Synapse 1 หรือ Razer Synapse 2 โปรดตรวจสอบให้แน่ใจว่าได้ถอนการติดตั้งทั้งหมดแล้วและอัปเกรดเป็น Razer Synapse เวอร์ชันล่าสุด ในอดีตมีผู้ใช้บางคนพบปัญหากับสิ่งที่เหลือทิ้งไว้ในระบบจาก Razer Synapse รุ่นเก่า หากคุณติดตั้ง Razer Synapse 2 หรือรุ่นเก่ากว่าและมีปัญหาเกี่ยวกับแสง RGB หรือมีการหยุดทำงานหลังจากเปิดใช้งานปลั๊กอิน RGB คุณอาจต้องค้นหาส่วนที่เหลือทั้งหมดของ Razer Synapse รุ่นเก่าบนระบบของคุณแล้วลบออก
 
