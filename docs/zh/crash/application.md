@@ -101,17 +101,17 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 这些类型的崩溃由属于 **Razer Synapse** 的一部分的 Razer Chroma 导致。 通常由 Razer Synapse 安装故障引起。 在大多数情况下，执行 Razer Synapse 的全新安装即可修复这些类型的崩溃：
 
-**Clean reinstallation of all Razer software**
+**所有 Razer 软件的全新安装**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+重新安装 Razer Synapse 时，请务必确保已关闭 Wallpaper Engine。
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. 如果 Wallpaper Engine 正在运行，请将其完全关闭（右键单击 Windows 托盘中的图标，然后选择**退出**）
+2. 通过 Windows 卸载计算机上的所有 Razer 软件
+3. 从 Razer 网站上下载 Razer 软件套件的最新版本并进行安装：
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [下载 Razer Synapse 3](https://www.razer.com/synapse-3)
 
 4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
 
