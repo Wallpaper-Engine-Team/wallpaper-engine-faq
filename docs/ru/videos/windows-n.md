@@ -2,8 +2,8 @@
 
 Windows N не поддерживает воспроизведение мультимедиа! Установите пакет Media Feature Pack, который подходит версии и номеру сборки вашей системы:
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Последние версии Windows 10
+В последних версиях Windows 10 вы можете установить Media Feature Pack в настройках Windows. Open the **Windows Settings**, then navigate to the following location:
 
 *Apps > Apps and Features > Optional Features > Add a Feature*
 
