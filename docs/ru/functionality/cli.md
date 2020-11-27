@@ -115,13 +115,13 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### Применить настройки обоев
 
-Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+Применяет выбранные свойства к данным обоям или ко всем обоям. Это позволяет вам изменять любые настройки обоев во время работы программы, не открывая браузер обоев и не меняя их вручную. Вы можете легко найти список доступных свойств в браузере, щелкнув **Share JSON** справа при выборе любых обоев в браузере.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
+* **properties:** Применяемые свойства определены как строка **JSON **. Строка должна быть специально обозначена с помощью разделителей `RAW~(` и `)~END`- см. Примеры ниже!
 * **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
 * **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
 
