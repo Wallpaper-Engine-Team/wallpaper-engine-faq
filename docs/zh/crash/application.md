@@ -47,7 +47,7 @@ If you do not have an antivirus app installed, please reinstall all important dr
 
 In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
 
-!["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
+!["0xC0000005" Wallpaper Engine 崩溃消息](/img/faq/0xC0000005.png)
 
 ## Wallpaper Engine 崩溃可能由其他应用程序导致
 
