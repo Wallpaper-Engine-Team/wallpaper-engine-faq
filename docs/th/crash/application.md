@@ -39,9 +39,9 @@ In severe cases, you may need to uninstall Wallpaper Engine and manually delete 
 
 หาก Wallpaper Engine ขัดข้องหลังจากการไฮเบอร์เนต Windows แสดงว่า Windows ไม่สามารถกู้คืนไดรเวอร์การ์ดจอและ Wallpaper Engine ได้อย่างถูกต้องในเวลาเดียวกัน การไฮเบอร์เนตของ Windows ไม่ใช่กระบวนการที่เชื่อถือได้ คุณสามารถเปิดใช้งานตัวเลือก **เริ่มต้นอย่างปลอดภัยหลังการไฮเบอร์เนต** ใน Wallpaper Engine เพื่อลดปัญหานี้ ตัวเลือกนี้จะพยายามรีสตาร์ท Wallpaper Engine โดยอัตโนมัติแทนที่จะคาดหวังให้ Windows ทำงานตามปกติหลังการไฮเบอร์เนต
 
-## Wallpaper Engine has crashed / Error code "0xC0000005"
+## Wallpaper Engine ขัดข้อง / รหัสข้อผิดพลาด "0xC0000005"
 
-This error message is almost always caused by **antivirus applications** or **faulty drivers**. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+ข้อความแสดงข้อผิดพลาดนี้มักเกิดจาก **แอพพลิเคชันป้องกันไวรัส** หรือ **ความผิดปกติของไดรเวอร์** เป็นไปได้มากว่าแอพพลิเคชันป้องกันไวรัสของคุณเป็นสาเหตุของความผิดพลาดดังกล่าว แม้ว่าแอพพลิเคชันป้องกันไวรัสของคุณจะไม่มีการรายงานก็ตาม โปรดตรวจสอบให้แน่ใจว่าได้ตั้งค่าเพื่อให้ละเว้นไดเร็กทอรีการติดตั้ง *wallpaper_engine* และไฟล์ปฏิบัติการที่สำคัญทั้งหมดของ Wallpaper Engine ดูในส่วน *วิธีแก้ไข Wallpaper Engine หยุดทำงานเบื้องต้น* ด้านบนสำหรับข้อมูลเพิ่มเติม
 
 If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
 
