@@ -14,57 +14,57 @@ sidebarDepth: 2
 wallpaper32.exe -control pause
 ```
 
-Make sure to use the double-quote **"** character for strings that have spaces in them:
+Обязательно используйте двойные кавычки **"** для строк, в которых есть пробелы:
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-## Command Overview
+## Обзор команд
 
-### Pause
+### Пауза
 
-Pauses all wallpapers.
+Приостанавливает все обои.
 
 ``` powershell
 -control pause
 ```
 
-### Stop
+### Стоп
 
-Stops all wallpapers.
+Останавливает все обои.
 
 ``` powershell
 -control stop
 ```
 
-### Play
+### Воспроизвести
 
-Resumes all wallpapers from pause or stop.
+Возобновляет все обои после паузы или остановки.
 
 ``` powershell
 -control play
 ```
 
-### Mute
+### Выключить
 
-Mutes all wallpapers.
+Отключает все обои.
 
 ``` powershell
 -control mute
 ```
 
-### Unmute
+### Включить
 
-Unmutes all wallpapers.
+Включает все обои.
 
 ``` powershell
 -control unmute
 ```
 
-### Open Wallpaper
+### Открыть обои
 
-Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
+Загружает новые обои для данного монитора или первого монитора, если они не определены. Вы можете использовать параметр `location` или `monitor`, чтобы выбрать монитор для загрузки обоев, или открыть обои в окне с помощью параметра `playInWindow`.
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
