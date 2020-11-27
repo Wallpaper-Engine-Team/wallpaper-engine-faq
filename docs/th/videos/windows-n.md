@@ -2,8 +2,8 @@
 
 Windows N ไม่ได้มาพร้อม Media Feature! คุณต้องติดตั้ง Media Feature Pack ที่ถูกต้องสำหรับ Windows เวอร์ชันที่ระบุและหมายเลขรุ่นของคุณ:
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Windows 10 เวอร์ชันล่าสุด
+คุณสามารถติดตั้ง Media Feature Pack ผ่านการตั้งค่า Windows ได้ใน Windows 10 เวอร์ชันล่าสุด เปิด **การตั้งค่า Windows** จากนั้นไปที่ตำแหน่งต่อไปนี้:
 
 *Apps > Apps and Features > Optional Features > Add a Feature*
 
