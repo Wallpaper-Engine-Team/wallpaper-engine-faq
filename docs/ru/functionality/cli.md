@@ -4,9 +4,9 @@ sidebarDepth: 2
 
 # Командная строка
 
-Вы можете управлять Wallpaper Engine с помощью командной строки. Это позволяет вам получить доступ к большинству функций приложения с помощью ярлыка, привязки макроса или любого вида самописного сценария или кода по вашему выбору. For example, you may pause or stop all wallpapers, change wallpapers or even change settings of running wallpapers.
+Вы можете управлять Wallpaper Engine с помощью командной строки. Это позволяет вам получить доступ к большинству функций приложения с помощью ярлыка, привязки макроса или любого вида самописного сценария или кода по вашему выбору. Например, вы можете приостановить или остановить все обои, изменить их или даже изменить настройки уже запущенных обоев.
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
+Убедитесь, что Wallpaper Engine уже запущен, а затем отправьте ему команду, запустив основной процесс программы, *wallpaper32.exe* (или *wallpaper64.exe*, если вы используете 64-битную версию приложения) с любым из аргументов команды, перечисленных в этом руководстве. Вы можете найти исполняемые файлы в каталоге установки `wallpaper_engine`.
 
 All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
 
