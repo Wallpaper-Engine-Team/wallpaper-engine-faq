@@ -99,7 +99,7 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+这些类型的崩溃由属于 **Razer Synapse** 的一部分的 Razer Chroma 导致。 通常由 Razer Synapse 安装故障引起。 在大多数情况下，执行 Razer Synapse 的全新安装即可修复这些类型的崩溃：
 
 **Clean reinstallation of all Razer software**
 
