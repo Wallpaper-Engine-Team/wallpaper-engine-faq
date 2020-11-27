@@ -82,17 +82,17 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
   * **x *(optional)*:** Horizontal position of window.
   * **y *(optional)*:** Vertical position of window.
 
-### Next Wallpaper
+### Следующие обои
 
-Skips to the next wallpaper of a given monitor or all monitors if none specified.
+Переход к следующим обоям данного монитора или всех мониторов, если они не определены.
 
 ``` powershell
 -control nextWallpaper [-location <string>] [-monitor <number>]
 ```
 
-### Remove Wallpaper
+### Удалить обои
 
-Removes a wallpaper from a specified monitor or window or removes all wallpapers.
+Удаляет обои с указанного монитора или окна или удаляет все обои.
 
 ``` powershell
 -control closeWallpaper [-location <string>] [-monitor <number>]
@@ -137,19 +137,19 @@ Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represent
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### Скрыть значки рабочего стола
 
-Hides the desktop icons.
+Скрывает значки на рабочем столе.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### Показать значки рабочего стола
 
-Shows the desktop icons.
+Показывает значки на рабочем столе.
 
 ``` powershell
--control showIcons
+-control hideIcons
 ```
 
