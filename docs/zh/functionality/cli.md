@@ -2,7 +2,7 @@
 sidebarDepth: 2
 ---
 
-# Command Line Controls
+# 命令行控制
 
 You can control Wallpaper Engine with command line arguments. This allows you to access most functionalities of the app through a shortcut, a macro binding or any kind of self-written script or code of your choice. For example, you may pause or stop all wallpapers, change wallpapers or even change settings of running wallpapers.
 
