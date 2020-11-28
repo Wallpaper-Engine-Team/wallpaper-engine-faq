@@ -131,23 +131,23 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+将壁纸方案颜色设置更改为红色的示例（`"1 0 0"`代表 *RGB* 值）：
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### 隐藏桌面图标
 
-Hides the desktop icons.
+隐藏桌面图标。
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### 显示桌面图标
 
-Shows the desktop icons.
+显示桌面图标。
 
 ``` powershell
 -control showIcons
