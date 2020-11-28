@@ -46,23 +46,23 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control play
 ```
 
-### Mute
+### 静音
 
-Mutes all wallpapers.
+使所有壁纸静音。
 
 ``` powershell
 -control mute
 ```
 
-### Unmute
+### 取消静音
 
-Unmutes all wallpapers.
+使所有壁纸取消静音。
 
 ``` powershell
 -control unmute
 ```
 
-### Open Wallpaper
+### 打开壁纸
 
 Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
 
