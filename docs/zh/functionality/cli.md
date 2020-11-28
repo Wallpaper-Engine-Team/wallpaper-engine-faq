@@ -8,39 +8,39 @@ sidebarDepth: 2
 
 请确保 Wallpaper Engine 已在运行，然后使用本指南中列出的任何命令参数，通过运行程序的主要进程 *wallpaper32.exe*（如果使用该应用程序的 64 位版本，则为 *wallpaper64.exe*）向 Wallpaper Engine 发送命令。 您可在 `wallpaper_engine` 安装目录中找到可执行文件。
 
-所有命令均作为 `-control` 参数的值发出。 例如，pause 命令可按照如下方式执行：
+所有命令均作为 `-control` 参数的值发出。 例如，暂停命令可按照如下方式执行：
 
 ``` powershell
 wallpaper32.exe -control pause
 ```
 
-Make sure to use the double-quote **"** character for strings that have spaces in them:
+对于包含空格的字符串，请务必使用双引号 **"** 字符：
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-## Command Overview
+## 命令概览
 
-### Pause
+### 暂停
 
-Pauses all wallpapers.
+暂停所有壁纸。
 
 ``` powershell
 -control pause
 ```
 
-### Stop
+### 停止
 
-Stops all wallpapers.
+停止所有壁纸。
 
 ``` powershell
 -control stop
 ```
 
-### Play
+### 播放
 
-Resumes all wallpapers from pause or stop.
+恢复所有暂停或停止的壁纸。
 
 ``` powershell
 -control play
