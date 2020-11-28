@@ -78,19 +78,19 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **preset*（可选）*：**要加载的本地预设的名称，您必须已经事先创建并保存该本地预设。
 * **playInWindow*（可选）*：**如果您想在一个窗口中打开/控制多款壁纸，则为该窗口的名称。
   * **width*（可选）*：**窗口宽度。
-  * **height *(optional)*:** Height of window.
-  * **x *(optional)*:** Horizontal position of window.
-  * **y *(optional)*:** Vertical position of window.
+  * **height*（可选）*：**窗口高度。
+  * **x*（可选）*：**窗口的水平位置。
+  * **y*（可选）*：**窗口的垂直位置。
 
-### Next Wallpaper
+### 下一张壁纸
 
-Skips to the next wallpaper of a given monitor or all monitors if none specified.
+跳至给定显示器或所有显示器（如果未指定显示器）的下一张壁纸。
 
 ``` powershell
 -control nextWallpaper [-location <string>] [-monitor <number>]
 ```
 
-### Remove Wallpaper
+### 移除壁纸
 
 Removes a wallpaper from a specified monitor or window or removes all wallpapers.
 
