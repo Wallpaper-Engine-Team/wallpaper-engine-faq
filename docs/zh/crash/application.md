@@ -115,11 +115,11 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 4. 然后重新启动计算机，此前不要重新启动 Wallpaper Engine。
 
-**重新安装未能解决问题**
+**重新安装无法解决问题**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+如果重新安装 Razer Synapse 无法解决问题，则 Razer Synapse 本身可能存在潜在问题，Razer Synapse 更新故障曾经导致过此类崩溃。 尝试在 Wallpaper Engine 设置的**插件**选项卡中关闭 LED 插件（*“iCUE & Chroma SDK”*），直到未来的 Razer Synapse 更新解决此问题为止。
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+如果即使执行了 Razer Synapse 的全新安装，崩溃依然存在，请直接联系 Razer 支持部门并告知有关崩溃的信息。 If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
