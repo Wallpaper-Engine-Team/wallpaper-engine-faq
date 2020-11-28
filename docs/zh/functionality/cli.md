@@ -64,7 +64,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### 打开壁纸
 
-如果给定显示器或第一个显示器未指定任何壁纸，为其加载新壁纸。 您可以使用 `location` 或 `monitor` 参数来选择要加载壁纸的显示器，或使用 `playInWindow` 参数在窗口中打开壁纸。
+为给定显示器或第一台显示器（如果未指定任何显示器）加载新壁纸。 您可以使用 `location` 或 `monitor` 参数来选择要加载壁纸的显示器，或使用 `playInWindow` 参数在窗口中打开壁纸。
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
@@ -74,7 +74,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 * **file：**要打开的壁纸的 project.json 的路径，或壁纸文件的直接路径 (.mp4 etc)。
 * **location*（可选）*：**显示器内部标识符。 它们由您的 PC 生成，可在 config.json 文件中找到。
-* **monitor*（可选）*：**要加载壁纸的显示器的索引，从 0 开始。
+* **monitor*（可选）*：**要加载壁纸的显示器的索引，以 0 开头。
 * **preset*（可选）*：**要加载的本地预设的名称，您必须已经事先创建并保存该本地预设。
 * **playInWindow*（可选）*：**如果您想在一个窗口中打开/控制多款壁纸，则为该窗口的名称。
   * **width*（可选）*：**窗口宽度。
@@ -84,7 +84,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### 下一张壁纸
 
-跳至给定显示器或所有显示器（如果未指定显示器）的下一张壁纸。
+跳至给定显示器或所有显示器（如果未指定任何显示器）的下一张壁纸。
 
 ``` powershell
 -control nextWallpaper [-location <string>] [-monitor <number>]
@@ -92,18 +92,18 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### 移除壁纸
 
-Removes a wallpaper from a specified monitor or window or removes all wallpapers.
+从指定显示器或窗口中移除壁纸，或移除所有壁纸。
 
 ``` powershell
 -control closeWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to close the wallpaper from, begins with 0.
+* **location*（可选）*：**显示器内部标识符或您指定的窗口名称。
+* **monitor*（可选）*：**要关闭壁纸的显示器的索引，以 0 开头。
 
-### Open Playlist
+### 打开播放列表
 
-Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the location or monitor parameter to choose which monitor to load the wallpaper on.
+为给定显示器或第一台显示器（如果未指定任何显示器）加载新壁纸。 您可以使用 location 或 monitor 参数来选择要加载壁纸的显示器。
 
 ``` powershell
 -control openPlaylist -playlist <string> [-location <string>] [-monitor <number>]
