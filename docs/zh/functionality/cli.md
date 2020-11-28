@@ -115,17 +115,17 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### 应用壁纸设置
 
-将壁纸属性动态应用于给定壁纸或所有壁纸。 这使您能够在该程序运行时动态更改属于壁纸的任何设置，而无需打开壁纸浏览器手动更改壁纸设置。 You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+将壁纸属性动态应用于给定壁纸或所有壁纸。 这使您能够在该程序运行时动态更改属于壁纸的任何设置，而无需打开壁纸浏览器手动更改壁纸设置。 选择浏览器中的任何壁纸时，单击右侧的**分享 JSON**，即可在浏览器中轻松找到可用属性列表。
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties：**定义为要应用的 **JSON** 字符串的属性。 必须以 `RAW~(` 和 `)~END` 为分隔符对该字符串进行特殊转义，请参阅下方的示例！
+* **location*（可选）*：**显示器内部标识符或您指定的窗口名称。
+* **monitor*（可选）*：**要更新属性的显示器的索引，以 0 开头。
 
-Example of changing a wallpaper setting named `rate` to 10:
+将名为 `rate` 的壁纸设置更改为 10 的示例：
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
