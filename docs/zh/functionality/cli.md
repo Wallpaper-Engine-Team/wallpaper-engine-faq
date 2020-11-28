@@ -4,11 +4,11 @@ sidebarDepth: 2
 
 # 命令行控制
 
-You can control Wallpaper Engine with command line arguments. This allows you to access most functionalities of the app through a shortcut, a macro binding or any kind of self-written script or code of your choice. For example, you may pause or stop all wallpapers, change wallpapers or even change settings of running wallpapers.
+您可以使用命令行参数来控制 Wallpaper Engine。 这使您可以通过快捷方式、宏绑定或您选择的任何一种自行编写的脚本或代码，来访问该应用程序的大多数功能。 例如，您可以暂停或停止所有壁纸，更改壁纸，甚至更改正在运行的壁纸的设置。
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
+请确保 Wallpaper Engine 已在运行，然后使用本指南中列出的任何命令参数，通过运行程序的主要进程 *wallpaper32.exe*（如果使用该应用程序的 64 位版本，则为 *wallpaper64.exe*）向 Wallpaper Engine 发送命令。 您可在 `wallpaper_engine` 安装目录中找到可执行文件。
 
-All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
+所有命令均作为 `-control` 参数的值发出。 例如，pause 命令可按照如下方式执行：
 
 ``` powershell
 wallpaper32.exe -control pause
