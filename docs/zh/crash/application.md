@@ -113,9 +113,9 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 * [下载 Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. 然后重新启动计算机，此前不要重新启动 Wallpaper Engine。
 
-**Reinstallation does not fix the problem**
+**重新安装未能解决问题**
 
 If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
 
