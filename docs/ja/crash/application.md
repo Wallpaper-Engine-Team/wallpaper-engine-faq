@@ -119,7 +119,7 @@ Razer Synapse の再インストール中は、Wallpaper Engine を必ず終了�
 
 Razer Synapse を再インストールしても問題が解決しない場合は、Razer Synapse 自体に問題がある可能性があります。過去には、Razer Synapse がうまくアップデートされていないことによってこの問題が起きたことがありました。 将来の Razer Synapse アップデートによってこの問題が解決されるまでは、Wallpaper Engine 設定の**プラグイン**タブで LED プラグイン（*"iCUE & Chroma SDK"*）をオフにしておいてください。
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Razer Synapse をクリーン再インストールしてもクラッシュが起きる場合は、Razer のサポートに直接ご連絡いただき、クラッシュのことを報告してください。 If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
