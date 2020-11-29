@@ -41,7 +41,7 @@ Windows のハイバネーション後に Wallpaper Engine がクラッシュす
 
 ## Wallpaper Engine がクラッシュした / エラーコード "0xC0000005"
 
-このエラーメッセージが出る場合は、**アンチウイルスアプリケーション**または**正しくないドライバー**が原因であることがほとんどです。 If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+このエラーメッセージが出る場合は、**アンチウイルスアプリケーション**または**正しくないドライバー**が原因であることがほとんどです。 アンチウイルスアプリケーションをお持ちの場合、そのアプリが特に何も通知しなくても、このクラッシュの原因がそれである可能性は高いです。 アンチウイルスアプリケーションが、*wallpaper_engine* インストールディレクトリと、Wallpaper Engine の重要な実行可能ファイルすべてを無視する設定にしてください。 See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
 
 If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
 
