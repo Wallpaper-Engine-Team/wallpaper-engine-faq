@@ -121,33 +121,33 @@ pause または stop しているすべての壁紙を再開します。
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties：****JSON** 文字列を適用することで定義されるプロパティです。 The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties：****JSON** 文字列を適用することで定義されるプロパティです。 文字列は特に、デリミタとして `RAW~(` および `)~END` でエスケープする必要があります。下の例をご覧ください。
+* **location *（オプション）*：**モニターの内部識別子または自分で指定したウィンドウ名です。
+* **monitor *（オプション）*：**プロパティを更新するモニターのインデックスで、0から始まります。
 
-Example of changing a wallpaper setting named `rate` to 10:
+`rate` という壁紙設定名を 10 に変更する例：
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+壁紙のツールバーの色設定を赤（`"1 0 0"` は *RGB* 値）に変更する例：
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### デスクトップアイコンを隠す
 
-Hides the desktop icons.
+デスクトップアイコンを隠します。
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### デスクトップアイコンを表示する
 
-Shows the desktop icons.
+デスクトップアイコンを表示します。
 
 ``` powershell
 -control showIcons
