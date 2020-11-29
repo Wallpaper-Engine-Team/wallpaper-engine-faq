@@ -47,7 +47,7 @@ Windows のハイバネーション後に Wallpaper Engine がクラッシュす
 
 場合によっては、他のアプリケーションが異常な形で Wallpaper Engine に干渉している可能性もあります。 これは主に、Wallpaper Engine にコードを注入したり、なんらかの方法で Windows のインストールを大きく変えたりするアプリが関係しています。
 
-!["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
+!["0xC0000005" Wallpaper Engine のクラッシュメッセージ](/img/faq/0xC0000005.png)
 
 ## Wallpaper Engine が、他のアプリケーションによってクラッシュした可能性がある
 
@@ -119,7 +119,7 @@ Razer Synapse の再インストール中は、Wallpaper Engine を必ず終了�
 
 Razer Synapse を再インストールしても問題が解決しない場合は、Razer Synapse 自体に問題がある可能性があります。過去には、Razer Synapse がうまくアップデートされていないことによってこの問題が起きたことがありました。 将来の Razer Synapse アップデートによってこの問題が解決されるまでは、Wallpaper Engine 設定の**プラグイン**タブで LED プラグイン（*"iCUE & Chroma SDK"*）をオフにしておいてください。
 
-Razer Synapse をクリーン再インストールしてもクラッシュが起きる場合は、Razer のサポートに直接ご連絡いただき、クラッシュのことを報告してください。 If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Razer Synapse をクリーン再インストールしてもクラッシュが起きる場合は、Razer のサポートに直接ご連絡いただき、クラッシュのことを報告してください。 Razer が解決できない場合、当社の技術サポートにご連絡ください。このクラッシュの問題を調べ、わかったことを Razer Synapse の開発チームに伝えます。ただしいずれにしても、この特定のクラッシュに関する主要な連絡先は Razer になります。
 
 ### MMDEvAPI.dll
 
