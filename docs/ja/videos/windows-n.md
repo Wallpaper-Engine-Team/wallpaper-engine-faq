@@ -2,8 +2,8 @@
 
 Windows Nにはメディア機能は付いてきません！ 正しいWindowsバージョンおよびビルドナンバー用のMedia Feature Packをインストールする必要があります。
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Windows 10 の最新バージョン
+最新の Windows 10 では、Windows の設定からメディア機能パックをインストールすることができます。 Open the **Windows Settings**, then navigate to the following location:
 
 *Apps > Apps and Features > Optional Features > Add a Feature*
 
