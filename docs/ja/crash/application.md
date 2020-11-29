@@ -43,9 +43,9 @@ Windows のハイバネーション後に Wallpaper Engine がクラッシュす
 
 このエラーメッセージが出る場合は、**アンチウイルスアプリケーション**または**正しくないドライバー**が原因であることがほとんどです。 アンチウイルスアプリケーションをお持ちの場合、そのアプリが特に何も通知しなくても、このクラッシュの原因がそれである可能性は高いです。 アンチウイルスアプリケーションが、*wallpaper_engine* インストールディレクトリと、Wallpaper Engine の重要な実行可能ファイルすべてを無視する設定にしてください。 詳しくは、上の *Wallpaper Engine のクラッシュのクイックフィックス* セクションをご覧ください。
 
-If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
+アンチウイルスアプリがインストールされていない場合は、すべての重要なドライバーを再インストールし、Wallpaper Engine の 64 Bit バージョン（既に 64 Bit バージョンをお使いの場合は 32 Bit バージョン）に切り替えてみてください。
 
-In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+場合によっては、他のアプリケーションが異常な形で Wallpaper Engine に干渉している可能性もあります。 これは主に、Wallpaper Engine にコードを注入したり、なんらかの方法で Windows のインストールを大きく変えたりするアプリが関係しています。
 
 !["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
 
