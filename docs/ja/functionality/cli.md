@@ -6,21 +6,21 @@ sidebarDepth: 2
 
 Wallpaper Engine は、コマンドラインのコマンドによってコントロールすることができます。 これにより、アプリのほとんどの機能に、ショートカット、マクロバインディング、好みの自己記述スクリプトないしはコードを使ってアクセスすることができます。 例えば、すべての壁紙の一時停止や再生中止、壁紙の変更、起動中の壁紙の設定の変更さえも行えます。
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
+Wallpaper Engine が既に起動している状態で、プログラムのメインプロセス *wallpaper32.exe*（64 Bit バージョンをお使いの場合は *wallpaper64.exe*）を起動し、このガイドに書かれているコマンド変数のいずれかを使ってコマンドを送ります。 実行可能ファイルは `wallpaper_engine` インストールディレクトリにあります。
 
-All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
+すべてのコマンドは、`-control` パラメータの値として発行されます。 例えば、一時停止コマンドの実行は次のようになります：
 
 ``` powershell
 wallpaper32.exe -control pause
 ```
 
-Make sure to use the double-quote **"** character for strings that have spaces in them:
+スペースが入っている文字列にはダブルクォーテーション **"** 記号を使用します：
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-## Command Overview
+## コマンド概要
 
 ### Pause
 
