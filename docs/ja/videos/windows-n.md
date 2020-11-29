@@ -14,7 +14,7 @@ Windows Nにはメディア機能は付いてきません！ 正しいWindowsバ
   * [Media Feature Packダウンロード](https://www.microsoft.com/en-us/software-download/mediafeaturepack)（Microsoftによって、英語ページのみが提供されています）
 
 #### Windows 7:
-  * Windows 7 は、もう Microsoft にサポートされていません。 メディア機能を追加するには **KB968211** をアップデートする必要がありますが、そのダウンロードページは Microsoft によって削除されています。 Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+  * Windows 7 は、もう Microsoft にサポートされていません。 メディア機能を追加するには **KB968211** をアップデートする必要がありますが、そのダウンロードページは Microsoft によって削除されています。 Windows 10 にアップグレードするか、メディア機能の付いた通常の Windows 7 を再インストールすることを検討してください。
 
 **x64およびx86バージョンをインストールしてください。**
 
