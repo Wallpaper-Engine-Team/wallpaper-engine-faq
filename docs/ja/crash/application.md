@@ -33,15 +33,15 @@ Wallpaper Engine は、数百万のユーザーに使用され、十分にテス
 
 * [Steam サポート：アプリケーションファイルの整合性確認](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-In severe cases, you may need to uninstall Wallpaper Engine and manually delete the *wallpaper_engine* directory and then reinstall the app once your antivirus app has been configured to be less strict.
+深刻なケースでは、Wallpaper Engine をアンインストールし、手動で *wallpaper_engine* ディレクトリを削除して、アンチウイルスアプリの制限を弱めてからアプリを再インストール必要がある場合があります。
 
 ## ハイバネーションまたはスリープ後のクラッシュ
 
 Windows のハイバネーション後に Wallpaper Engine がクラッシュする場合、 Windows が、グラフィックスカードドライバーと Wallpaper Engine を正しく復元することに失敗しています。 Windows のハイバネーションは、信頼できるプロセスではありません。 Wallpaper Engine で **ハイバネーション後セーフスタート** オプションを有効にすることにより、この問題を緩和することができます。 このオプションは、Windows がハイバネーション後に正しく動作することを期待するのでなく、自動的に Wallpaper　Engine を再起動させるものです。
 
-## Wallpaper Engine has crashed / Error code "0xC0000005"
+## Wallpaper Engine がクラッシュした / エラーコード "0xC0000005"
 
-This error message is almost always caused by **antivirus applications** or **faulty drivers**. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+このエラーメッセージが出る場合は、**アンチウイルスアプリケーション**または**正しくないドライバー**が原因であることがほとんどです。 If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
 
 If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
 
