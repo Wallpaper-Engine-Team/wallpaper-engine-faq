@@ -2,9 +2,9 @@
 sidebarDepth: 2
 ---
 
-# Command Line Controls
+# コマンドラインによるコントロール
 
-You can control Wallpaper Engine with command line arguments. This allows you to access most functionalities of the app through a shortcut, a macro binding or any kind of self-written script or code of your choice. For example, you may pause or stop all wallpapers, change wallpapers or even change settings of running wallpapers.
+Wallpaper Engine は、コマンドラインのコマンドによってコントロールすることができます。 これにより、アプリのほとんどの機能に、ショートカット、マクロバインディング、好みの自己記述スクリプトないしはコードを使ってアクセスすることができます。 例えば、すべての壁紙の一時停止や再生中止、壁紙の変更、起動中の壁紙の設定の変更さえも行えます。
 
 Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
 
