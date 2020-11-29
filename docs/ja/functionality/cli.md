@@ -22,7 +22,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ## コマンド概要
 
-### Pause
+### 一時停止
 
 すべての壁紙を一時停止します。
 
@@ -30,7 +30,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control pause
 ```
 
-### Stop
+### 停止
 
 すべての壁紙を止めます。
 
@@ -38,7 +38,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control stop
 ```
 
-### Play
+### 再生
 
 pause または stop しているすべての壁紙を再開します。
 
@@ -46,7 +46,7 @@ pause または stop しているすべての壁紙を再開します。
 -control play
 ```
 
-### Mute
+### ミュート
 
 すべての壁紙をミュートします。
 
@@ -54,7 +54,7 @@ pause または stop しているすべての壁紙を再開します。
 -control mute
 ```
 
-### Unmute
+### ミュート解除
 
 すべての壁紙のミュートを解除します。
 
@@ -62,7 +62,7 @@ pause または stop しているすべての壁紙を再開します。
 -control unmute
 ```
 
-### Open Wallpaper
+### 壁紙を開く
 
 指定されたモニター、または指定されたモニターがない場合は1台目のモニターに、新しい壁紙をロードします。 壁紙をロードするモニターを選択するには、`location` または `monitor` パラメータを使用します。あるいは、 `playInWindow` パラメータを使ってウィンドウにパラメータを開くこともできます。
 
@@ -82,7 +82,7 @@ pause または stop しているすべての壁紙を再開します。
   * **x *（オプション）*：**ウィンドウの水平位置です。
   * **y *（オプション）*：**ウィンドウの垂直位置です。
 
-### Next Wallpaper
+### 次の壁紙
 
 指定されたモニター、または指定されたモニターがない場合はすべてのモニターで、次の壁紙までスキップします。
 
@@ -90,7 +90,7 @@ pause または stop しているすべての壁紙を再開します。
 -control nextWallpaper [-location <string>] [-monitor <number>]
 ```
 
-### Remove Wallpaper
+### 壁紙解除
 
 指定されたモニターまたはウィンドウの壁紙を削除、またはすべての壁紙を削除します。
 
@@ -101,7 +101,7 @@ pause または stop しているすべての壁紙を再開します。
 * **location *（オプション）*：**モニターの内部識別子または自分で指定したウィンドウ名です。
 * **monitor *（オプション）*：**壁紙を閉じるモニターのインデックスで、0から始まります。
 
-### Open Playlist
+### プレイリストを開く
 
 指定されたモニター、または指定されたモニターがない場合は1台目のモニターに、新しい壁紙をロードします。 ロケーションまたはモニターのパラメータを使用して、どのモニターに壁紙をロードするかを選択することができます。
 
@@ -113,15 +113,15 @@ pause または stop しているすべての壁紙を再開します。
 * **location *（オプション）*：**モニターの内部識別子です。 お使いのPCによって生成され、config.json に書かれています。
 * **monitor *（オプション）*：**プレイリストをロードするモニターのインデックスで、0から始まります。
 
-### Apply Wallpaper Settings
+### 壁紙設定の適用
 
-Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+指定された壁紙またはすべての壁紙に、実行中に壁紙設定を適用します。 これにより、壁紙ブラウザを開いたり、手動で設定を変更したりすることなく、プログラムの実行中に壁紙の設定をダイナミックに変更することができます。 ブラウザで壁紙を選択中に、右側の **Share JSON** をクリックすることで、簡単にブラウザ内で使用できるプロパティのリストを見ることができます。
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
+* **properties：****JSON** 文字列を適用することで定義されるプロパティです。 The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
 * **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
 * **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
 
