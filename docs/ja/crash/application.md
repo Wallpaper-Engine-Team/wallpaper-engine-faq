@@ -109,13 +109,13 @@ Razer Synapse の再インストール中は、Wallpaper Engine を必ず終了�
 
 1. Wallpaper Engine が起動している場合は、完全に終了させます（Windows のタスクトレイでアイコンを右クリックし、**終了**を選択）
 2. Windows 経由で Razer ソフトウェアをコンピューターからアンインストールします
-3. Download the latest version of Razer's software suite from their website and install it:
+3. Razer のソフトウェアスイートの最新バージョンを公式サイトからダウンロードし、インストールします：
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Razer Synapse 3 のダウンロード](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. その後、Wallpaper Engine を再起動せずにコンピューターを再起動します。
 
-**Reinstallation does not fix the problem**
+**再インストールしても問題が解決しない場合**
 
 If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
 
