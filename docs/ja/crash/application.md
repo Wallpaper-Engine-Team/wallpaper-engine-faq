@@ -99,16 +99,16 @@ Windows のハイバネーション後に Wallpaper Engine がクラッシュす
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+この種類のクラッシュは、**Razer Synapse** の一部であるRazer Chroma が原因で発生します。 通常、Razer Synapse が正しくインストールされていない時に起きます。 ほとんどの場合、この種類のクラッシュは Razer Synapse をクリーン再インストールすることによって解消します。
 
-**Clean reinstallation of all Razer software**
+**Razer のすべてのソフトウェアのクリーン再インストール**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+Razer Synapse の再インストール中は、Wallpaper Engine を必ず終了させておいてください。
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
+1. Wallpaper Engine が起動している場合は、完全に終了させます（Windows のタスクトレイでアイコンを右クリックし、**終了**を選択）
+2. Windows 経由で Razer ソフトウェアをコンピューターからアンインストールします
 3. Download the latest version of Razer's software suite from their website and install it:
 
 * [Download Razer Synapse 3](https://www.razer.com/synapse-3)
