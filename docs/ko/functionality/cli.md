@@ -4,7 +4,7 @@ sidebarDepth: 2
 
 # 명령줄 제어
 
-명령줄 인수를 통해 Wallpaper Engine을 제어할 수 있습니다. 이를 통해 단축키, 매크로 바인딩 등 자신이 직접 작성한 스크립트 또는 코드를 사용하여 프로그램의 거의 모든 기능을 사용할 수 있습니다. 예를 들어, 모든 배경화면을 일시 정지 혹은 중지시키거나, 배경화면을 변경하거나, 심지어는 작동 중인 배경화면의 설정을 변경할 수 있습니다.
+명령줄 인수를 통해 Wallpaper Engine을 제어할 수 있습니다. 이를 통해 단축키, 매크로 바인딩 등 자신이 직접 작성한 스크립트 또는 코드를 사용하여 프로그램의 거의 모든 기능을 사용할 수 있습니다. 예를 들어, 모든 배경화면을 일시정지 혹은 종료하거나, 배경화면을 변경하거나, 심지어는 작동 중인 배경화면의 설정도 변경할 수 있습니다.
 
 Wallpaper Engine이 실행 중인지 확인한 후, 프로그램의 주 프로세스인 *wallpaper32.exe* (64비트 버전을 사용 중이라면 *wallpaper64.exe*)를 실행하고 이 가이드에 나온 명령 인수를 사용하여 명령을 보내십시오. 실행 파일은 `wallpaper_engine` 설치 디렉터리에서 찾을 수 있습니다.
 
@@ -30,9 +30,9 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control pause
 ```
 
-### 중지
+### 종료
 
-모든 배경화면 중지.
+모든 배경화면 종료.
 
 ``` powershell
 -control stop
@@ -40,31 +40,31 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### 재생
 
-Resumes all wallpapers from pause or stop.
+일시 정지 혹은 중지된 모든 배경화면 다시 재생.
 
 ``` powershell
 -control play
 ```
 
-### Mute
+### 음소거
 
-Mutes all wallpapers.
+모든 배경화면 음소거.
 
 ``` powershell
 -control mute
 ```
 
-### Unmute
+### 음소거 해제
 
-Unmutes all wallpapers.
+모든 배경화면 음소거 해제.
 
 ``` powershell
 -control unmute
 ```
 
-### Open Wallpaper
+### 배경화면 열기
 
-Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
+지정한 모니터, 또는 미지정 시 첫 번째 모니터에 새로운 배경화면을 불러옵니다. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
