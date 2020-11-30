@@ -8,7 +8,7 @@ sidebarDepth: 2
 
 Wallpaper Engine이 실행 중인지 확인한 후, 프로그램의 주 프로세스인 *wallpaper32.exe* (64비트 버전을 사용 중이라면 *wallpaper64.exe*)를 실행하고 이 가이드에 나온 명령 인수를 사용하여 명령을 보내십시오. 실행 파일은 `wallpaper_engine` 설치 디렉터리에서 찾을 수 있습니다.
 
-All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
+모든 명령은 `-control` 패러미터의 값으로 내려집니다. For example, the pause command can be executed like this:
 
 ``` powershell
 wallpaper32.exe -control pause
