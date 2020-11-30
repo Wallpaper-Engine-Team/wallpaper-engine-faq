@@ -122,32 +122,32 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 ```
 
 * **properties:** 적용할 **JSON** 스트링으로 정의된 속성. 이 스트링은 `RAW~(` and `)~END`를 구분 문자로 이스케이핑해야 합니다. 아래 예를 참조하세요!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **location *(선택 사항)*:** 지정한 모니터 혹은 창 이름의 내부 식별자.
+* **monitor *(선택 사항)*:** 속성을 업데이트할 모니터의 인덱스. 0에서부터 시작합니다.
 
-Example of changing a wallpaper setting named `rate` to 10:
+`rate`라는 배경화면 설정을 10으로 변경하는 예:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+배경화면의 구성표 색 설정을 빨강으로 바꾸는 예 (`"1 0 0"`은 *RGB* 값을 나타냄):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### 데스크탑 아이콘 숨기기
 
-Hides the desktop icons.
+데스크탑 아이콘을 숨깁니다.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### 데스크탑 아이콘 표시
 
-Shows the desktop icons.
+데스크탑 아이콘을 표시합니다.
 
 ``` powershell
 -control showIcons
