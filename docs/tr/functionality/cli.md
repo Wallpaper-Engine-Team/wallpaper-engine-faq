@@ -6,7 +6,7 @@ sidebarDepth: 2
 
 Wallpaper Engine'i komut satırı argümanlarıyla kontrol edebilirsiniz. Bu, bir kısayol, bir makro bağlama veya herhangi bir kendi kendine yazılan komut dosyası veya seçtiğiniz kod aracılığıyla uygulamanın çoğu işlevine erişmenizi sağlar. Örneğin, tüm duvar kâğıtlarını duraklatabilir veya durdurabilirsiniz, duvar kâğıtlarını değiştirebilir ve hatta çalışan duvar kâğıtlarının ayarlarını değiştirebilirsiniz.
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. `wallpaper_engine` kurulum dizininde çalıştırılabilirleri bulabilirsiniz.
+Wallpaper Engine'in zaten çalıştığından emin olun ve ardından programın ana işlemini, *wallpaper32.exe*'yi (veya uygulamanın 64 Bit sürümünü kullanıyorsanız *wallpaper64.exe*) bu kılavuzda listelenen komut argümanlarından herhangi birini çalıştırarak ona bir komut gönderin. `wallpaper_engine` kurulum dizininde çalıştırılabilirleri bulabilirsiniz.
 
 Tüm komutlara `kontrol` parametresi için bir değer tanındı. Örneğin, duraklat komutu şöyle gerçekleştirilebilir:
 
@@ -131,23 +131,23 @@ Duvar kağıdı özelliklerini anında belirli bir duvar kağıdına veya tüm d
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+Bir duvar kağıdı düzeni renk ayarını kırmızı olarak değiştirme örneği (` "1 0 0" `, *RGB* değerlerini temsil eder):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### Masaüstü simgelerini gizle
 
-Hides the desktop icons.
+Masaüstü simgelerini gizler.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### Masaüstü Simgelerini Göster
 
-Shows the desktop icons.
+Masaüstü simgelerini gösterir.
 
 ``` powershell
 -control showIcons
