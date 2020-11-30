@@ -6,7 +6,7 @@ sidebarDepth: 2
 
 您可利用命令列引數控制 Wallpaper Engine， 即可從捷徑、巨集繫結或任何自行撰寫的腳本或程式碼，來存取此應用程式大部分功能。 例如，您可能暫停或停止所有桌布、變更桌布，甚至使正在運作的桌布變更設定。
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
+確定 Wallpaper Engine 已在運作，接著使用本指南列出的任何命令引數，透過此程式的主要流程 *wallpaper32.exe* (如果使用的是 64 位元，則為 *wallpaper64.exe*) 向 Wallpaper Engine 傳送命令。 您可以在 `wallpaper_engine` 安裝目錄中找到可執行檔。
 
 All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
 
