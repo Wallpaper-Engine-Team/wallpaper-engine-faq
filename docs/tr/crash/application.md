@@ -119,7 +119,7 @@ Razer Synapse'i yeniden yüklerken Wallpaper Engine'in kapalı olduğundan emin 
 
 Sorun, Razer Synapse'in yeniden kurulmasıyla da çözülmüyorsa Razer Synapse'ın kendisiyle ilgili bir sorun olabilir. Geçmişte buna hatalı Razer Synapse güncellemeleri sebep olmuştur. Bu sorun gelecekteki bir Razer Synapse güncellemesinde çözülene kadar Wallpaper Engine ayarlarındaki **Eklentiler** sekmesinden LED Eklentisini (*"iCUE & Chroma SDK"*) kapatmayı deneyin.
 
-Razer Synapse, temiz bir şekilde yeniden kurulduktan sonra bile çökmeler devam ediyorsa lütfen Razer destek birimiyle iletişime geçin ve onları çökmeler konusunda bilgi verin. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Razer Synapse, temiz bir şekilde yeniden kurulduktan sonra bile çökmeler devam ediyorsa lütfen Razer destek birimiyle iletişime geçin ve onları çökmeler konusunda bilgi verin. Yardımcı olamıyorlarsa lütfen teknik destek için bize ulaşın. Bu spesifik çöküş konusunda Razer ana iletişim kişisi olsa da bu çökmeleri inceleyebilir ve bulgularımızı Razer Synapse geliştirme ekibine de iletebiliriz.
 
 ### MMDEvAPI.dll
 
