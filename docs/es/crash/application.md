@@ -21,7 +21,7 @@ Si desconoces qué es lo que hace que Wallpaper Engine se cuelgue, vuelve a inst
 * [AMD Radeon](https://www.amd.com/es/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Si tienes un antivirus instalado (no se aplica a Windows Defender), asegúrate de establecer una excepción para Wallpaper Engine en los ajustes de este. A veces es necesario volver a instalar Wallpaper Engine en caso de que el antivirus haya bloqueado ciertos archivos de forma permanente. Make sure your antivirus app ignores the *wallpaper_engine* directory and especially all .exe files:
+Si tienes un antivirus instalado (no se aplica a Windows Defender), asegúrate de establecer una excepción para Wallpaper Engine en los ajustes de este. A veces es necesario volver a instalar Wallpaper Engine en caso de que el antivirus haya bloqueado ciertos archivos de forma permanente. Asegúrate de que el antivirus ignore el directorio *wallpaper_engine* y, sobre todo, todos los archivos .exe:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -33,15 +33,15 @@ Intenta comprobar los archivos de Wallpaper Engine a través de Steam para asegu
 
 * [Steam Support: Verificar la integridad de los archivos del juego](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-In severe cases, you may need to uninstall Wallpaper Engine and manually delete the *wallpaper_engine* directory and then reinstall the app once your antivirus app has been configured to be less strict.
+En el peor de los casos, es posible que tengas que volver a instalar Wallpaper Engine y borrar el directorio *wallpaper_engine* de forma manual. Vuelve a instalar el programa cuando configures el antivirus para que sea menos estricto.
 
 ## Se cuelga después de hibernar / suspender
 
 Si Wallpaper Engine se cuelga después de que Windows hiberne quiere decir que Windows no consigue restaurar correctamente los controladores de la tarjeta gráfica y Wallpaper Engine. El proceso de hibernación de Windows no es muy seguro, pero puedes activar la opción **Inicio seguro después de la hibernación** en Wallpaper Engine para paliar el problema. Esta opción intentará reiniciar Wallpaper Engine automáticamente en lugar de esperar que Windows funcione a la perfección tras la hibernación.
 
-## Wallpaper Engine has crashed / Error code "0xC0000005"
+## «Wallpaper Engine has crashed» / Código de error «0xC0000005»
 
-This error message is almost always caused by **antivirus applications** or **faulty drivers**. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+Por lo general, este error aparece por culpa de los **antivirus** o de los **controladores defectuosos**. Si usas un antivirus, es muy probable que sea el motivo del problema, incluso aunque el propio antivirus no te informe de ningún tipo de actividad. Configúralo para que ignore el directorio de instalación *wallpaper_engine* y todos los ejecutables importantes de Wallpaper Engine. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
 
 If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
 
