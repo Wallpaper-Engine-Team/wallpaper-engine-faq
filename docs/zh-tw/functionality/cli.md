@@ -80,25 +80,25 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
   * **width *(選用)*：**視窗寬度。
   * **height *(選用)*：**視窗高度。
   * **x *(選用)*：**視窗的水平位置。
-  * **y *(optional)*:** Vertical position of window.
+  * **y *(選用)*：**視窗的垂直位置。
 
-### Next Wallpaper
+### 下一張桌布
 
-Skips to the next wallpaper of a given monitor or all monitors if none specified.
+跳至特定顯示器或所有顯示器 (如未指定任何顯示器) 的下一張桌布。
 
 ``` powershell
 -control nextWallpaper [-location <string>] [-monitor <number>]
 ```
 
-### Remove Wallpaper
+### 移除桌布
 
-Removes a wallpaper from a specified monitor or window or removes all wallpapers.
+從特定顯示器或視窗移除一張或多張桌布。
 
 ``` powershell
 -control closeWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
+* **location *(選用)*：**顯示器內部識別碼或您指定的視窗名稱。
 * **monitor *(optional)*:** Index of the monitor to close the wallpaper from, begins with 0.
 
 ### Open Playlist
