@@ -99,23 +99,23 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+此類當機的原因是 Razer Chroma，為 **Razer Synapse** 的一部分。 通常這是因為 Razer Synapse 安裝時故障。 大部分情況下，全新安裝 Razer Synapse 即可解決這類當機問題：
 
-**Clean reinstallation of all Razer software**
+**全新安裝所有 Razer 軟體**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+確保重新安裝 Razer Synapse 時，Wallpaper Engine 已關閉。
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. 如果 Wallpaper Engine 正在運作，請完全關閉 (以滑鼠右鍵按一下 Windows 通知區域的圖示，接著點選**結束**)
+2. 透過 Windows 將所有 Razer 軟體解除安裝
+3. 從 Razer 網站下載最新版本的軟體套件並安裝：
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [下載 Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. 先重新啟動電腦，再重新啟動 Wallpaper Engine。
 
-**Reinstallation does not fix the problem**
+**重新安裝無法解決問題**
 
 If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
 
