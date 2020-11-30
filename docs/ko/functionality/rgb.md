@@ -43,20 +43,20 @@ Corsair 지원과 관련하여 문제 발생 시 저희에게 문의하면, 도�
 
 ### Razer
 
-Most problems related to Razer RGB hardware can be fixed by doing a clean reinstallation of the Razer software suite while Wallpaper Engine is turned off:
+Razer RGB 하드웨어와 관련된 대부분의 문제는 Wallpaper Engine이 꺼진 상태에서 Razer 소프트웨어 제품군을 완전히 새롭게 재설치하면 해결할 수 있습니다.
 
-1. Turn off Wallpaper Engine completely. This is very important, do not skip this.
-2. Uninstall all Razer software from your computer through Windows.
-3. Redownload the latest version of Razer Synapse 3 and install it.
-4. Restart your computer, do not launch Wallpaper Engine before restarting Windows.
+1. Wallpaper Engine을 완전히 종료하십시오. 매우 중요한 절차이며 건너뛰어서는 안 됩니다.
+2. Windows로 컴퓨터에서 모든 Razer 소프트웨어를 제거하십시오.
+3. Razer Synapse 3 최신 버전을 다운로드한 후 설치하십시오.
+4. 컴퓨터를 재시작하십시오. 윈도우즈를 재시작하기 전까지 Wallpaper Engine을 실행시켜서는 안 됩니다.
 
-See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
+이 절차를 따랐을 시 RGB 하드웨어 문제가 해결되는지 확인하십시오. 추가적인 Razer 하드웨어 지원은 Razer에 직접 문의하세요:
 
 [support.razer.com](https://support.razer.com/)
 
 Razer 지원과 관련하여 문제 발생 시 저희에게 문의하면, 도움이 될 수 있는지 확인하도록 하겠습니다.
 
-#### Razer Synapse 2 and older
+#### Razer Synapse 2 또는 이전 제품
 
 Razer Synapse 3 이상만 지원합니다. Razer Synapse 1 또는 Razer Synapse 2를 사용하고 있다면, 완전히 삭제하고 Razer Synapse의 최신 버전으로 업데이트하세요. 과거 일부 사용자가 시스템에서 Razer Synapse가 완전히 삭제되지 않아 문제를 겪은 적이 있습니다. Razer Synapse 2 이하 버전이 설치되어 있고 RGB 조명 또는 활성화된 RGB 플러그인의 작동 중단 문제가 발생했다면, 시스템에서 오래된 Razer Synapse 버전의 나머지 구성물을 찾아 삭제해야 합니다.
 
