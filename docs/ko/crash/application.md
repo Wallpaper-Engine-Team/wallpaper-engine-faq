@@ -97,7 +97,7 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-**Razer Synapse**의 일부인 Razer Chroma로 인해 발생합니다. 일반적으로 Razer Synapse가 제대로 설치되지 않은 것이 원인입니다. 대부분의 경우, Razer Snyapse를 완전히 새로 설치하면 해결됩니다.
+**Razer Synapse**의 일부인 Razer Chroma로 인해 발생합니다. 일반적으로 Razer Synapse가 제대로 설치되지 않은 것이 원인입니다. 대부분의 경우, Razer Synapse를 완전히 새로 설치하면 해결됩니다.
 
 **모든 Razer 소프트웨어 완전히 새로 설치하기**
 
@@ -106,7 +106,7 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 1. 만약 Wallpaper Engine이 실행 중이라면 종료하십시오 (Windows 트레이의 아이콘을 오른쪽 클릭하고 **종료** 선택)
 2. Windows를 통해 컴퓨터에서 모든 Razer 소프트웨어를 제거하십시오
-3. Razer 웹사이트에서 최신 버전의 통합 소프트웨어를 다운로드한 후 설치하십시오
+3. Razer 웹사이트에서 최신 버전의 소프트웨어 제품군을 다운로드한 후 설치하십시오
 
 * [Razer Synapse 3를 다운로드하십시오](https://www.razer.com/synapse-3)
 
@@ -116,7 +116,7 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 Razer Synapse를 재설치해도 문제가 해결되지 않았다면, Razer Synapse 자체에 근본적으로 문제가 있을지도 모릅니다. 과거 잘못된 Razer Synapse 업데이트로 인해 발생한 사례가 있습니다. Razer Synapse 업데이트로 해당 문제가 고쳐질 때까지 Wallpaper Engine 설정 메뉴의 **플러그인** 탭에서 LED 플러그인(*"iCUE & Chroma SDK"*)을 비활성화한 후 시도해보십시오.
 
-Razer Synapse를 완전히 재설치해도 작동 중단이 계속된다면, Razer 고객지원에 직접 연락하여 문제를 보고하십시오. Razer 측에서 해결하지 못했다면, 저희에게 연락하십시오. 해당 작동 중단을 조사한 후 결과를 Razer Synapse 개발진 측에 전달하겠습니다. 하지만 이 작동 중단의 경우 Razer에게 먼저 문의하셔야 합니다.
+Razer Synapse를 완전히 재설치해도 작동 중단이 계속된다면, Razer 고객지원에 직접 연락하여 문제를 보고하십시오. Razer 측에서 해결하지 못했다면, 저희에게 연락하십시오. 이 작동 중단의 경우 Razer에게 문의하셔야 하지만, 저희 측에서 해당 작동 중단을 조사한 후 결과를 Razer Synapse 개발진 측에 전달할 수는 있습니다.
 
 ### MMDEvAPI.dll
 
