@@ -64,7 +64,7 @@ Tüm duvar kâğıtlarının sesini açar.
 
 ### Duvar kâğıtlarını aç
 
-Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar kağıdı yükler. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
+Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar kağıdı yükler. Duvar kağıdının hangi monitöre yükleneceğini seçmek için ` location ` veya ` monitor ` parametresini kullanabilir veya ` playInWindow ` parametresi ile bir pencerede bir duvar kağıdı açabilirsiniz.
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
