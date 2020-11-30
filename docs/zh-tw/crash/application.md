@@ -33,15 +33,15 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 * [Steam 支援：驗證應用程式檔案完整性](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-如果情況嚴重，等到防毒軟體設定比較不嚴格後，可能需要解除安裝 Wallpaper Engine，並手動刪除 *wallpaper_engine* 目錄，再重新安裝應用程式。
+如果情況嚴重，等到防毒應用程式設定比較不嚴格後，可能需要解除安裝 Wallpaper Engine，並手動刪除 *wallpaper_engine* 目錄，再重新安裝。
 
 ## 電腦休眠/睡眠後當機
 
 如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不會寄望 Windows 休眠後能正常運作。
 
-## Wallpaper Engine has crashed / Error code "0xC0000005"
+## Wallpaper Engine 當機/錯誤代碼「0xC0000005」
 
-This error message is almost always caused by **antivirus applications** or **faulty drivers**. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+此錯誤訊息幾乎都是因為**防毒應用程式**或**驅動程式有問題**。 If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
 
 If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
 
