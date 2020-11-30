@@ -6,33 +6,33 @@ sidebarDepth: 2
 
 Wallpaper Engine'i komut satırı argümanlarıyla kontrol edebilirsiniz. Bu, bir kısayol, bir makro bağlama veya herhangi bir kendi kendine yazılan komut dosyası veya seçtiğiniz kod aracılığıyla uygulamanın çoğu işlevine erişmenizi sağlar. Örneğin, tüm duvar kâğıtlarını duraklatabilir veya durdurabilirsiniz, duvar kâğıtlarını değiştirebilir ve hatta çalışan duvar kâğıtlarının ayarlarını değiştirebilirsiniz.
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
+Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. `wallpaper_engine` kurulum dizininde çalıştırılabilirleri bulabilirsiniz.
 
-All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
+Tüm komutlara `kontrol` parametresi için bir değer tanındı. Örneğin, duraklat komutu şöyle gerçekleştirilebilir:
 
 ``` powershell
 wallpaper32.exe -control pause
 ```
 
-Make sure to use the double-quote **"** character for strings that have spaces in them:
+İçlerinde boşluklar olan dizeler için çift tırnak **"** karakterini kullandığınızdan emin olun:
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-## Command Overview
+## Komuta Genel Bakış
 
-### Pause
+### Duraklat
 
-Pauses all wallpapers.
+Tüm duvar kâğıtlarını duraklatır.
 
 ``` powershell
 -control pause
 ```
 
-### Stop
+### Durdur
 
-Stops all wallpapers.
+Tüm duvar kâğıtlarını durdurur.
 
 ``` powershell
 -control stop
