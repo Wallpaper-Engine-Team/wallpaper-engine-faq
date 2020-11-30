@@ -45,9 +45,9 @@ Bu hata mesajı neredeyse her zaman **antivirüs uygulamaları** veya **hatalı 
 
 Yüklü bir antivirüs uygulamanız yoksa lütfen tüm önemli sürücüleri yeniden yükleyin ve Wallpaper Engine'in 64 Bit sürümüne (veya 64 Bit sürümünü zaten kullandıysanız 32 Bit sürümüne) geçmeyi deneyin.
 
-In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+Bazı durumlarda bunun kaynağı Wallpaper Engine'e olağan dışı bir şekilde müdahale eden diğer uygulamalar da olabilir. Bu, esas olarak Wallpaper Engine'e kod ekleyen veya Windows kurulumunuzu önemli ölçüde değiştiren uygulamalarla ilgilidir.
 
-!["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
+!["0xC0000005" Wallpaper Engine çökme mesajı](/img/faq/0xC0000005.png)
 
 ## Wallpaper Engine'in çökmesine muhtemelen başka bir uygulama sebep oldu
 
@@ -99,27 +99,27 @@ Sisteminizdeki Intel graphics sürücüleri çöküyor. Intel internet sitesine 
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+Bu tür çökmelere, **Razer Synapse** içerisindeki Razer Chroma sebep olur. Genellikle bunun nedeni Razer Synapse'in hatalı kurulumudur. Çoğu durumda Razer Synapse'in temiz şekilde yeniden yüklenmesi bu tür çökmeleri düzeltir:
 
-**Clean reinstallation of all Razer software**
+**Tüm Razer yazılımının temiz şekilde yeniden yüklenmesi**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+Razer Synapse'i yeniden yüklerken Wallpaper Engine'in kapalı olduğundan emin olun.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. Çalışır durumdaysa Wallpaper Engine'i tamamen kapatın (Windows tepsisindeki simgenin üzerine sağ tıklayın ve sonra **Çık** seçeneğini seçin)
+2. Windows aracılığıyla bilgisayarınızdaki tüm Razer yazılımlarını kaldırın
+3. Razer'in yazılım paketinin en son sürümünü internet sitelerinden indirin ve kurun:
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Razer Synapse 3'ü indirin](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. Daha sonra Wallpaper Engine'i öncesinde yeniden başlatmadan bilgisayarınızı yeniden başlatın.
 
-**Reinstallation does not fix the problem**
+**Yeniden kurulum sorunu çözmüyor**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+Sorun, Razer Synapse'in yeniden kurulmasıyla da çözülmüyorsa Razer Synapse'ın kendisiyle ilgili bir sorun olabilir. Geçmişte buna hatalı Razer Synapse güncellemeleri sebep olmuştur. Bu sorun gelecekteki bir Razer Synapse güncellemesinde çözülene kadar Wallpaper Engine ayarlarındaki **Eklentiler** sekmesinden LED Eklentisini (*"iCUE & Chroma SDK"*) kapatmayı deneyin.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Razer Synapse, temiz bir şekilde yeniden kurulduktan sonra bile çökmeler devam ediyorsa lütfen Razer destek birimiyle iletişime geçin ve onları çökmeler konusunda bilgi verin. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
 ### MMDEvAPI.dll
 
