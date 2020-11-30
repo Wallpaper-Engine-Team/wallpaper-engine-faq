@@ -38,33 +38,33 @@ Tüm duvar kâğıtlarını durdurur.
 -control stop
 ```
 
-### Play
+### Oynat
 
-Resumes all wallpapers from pause or stop.
+Duraklat veya durdur komutlarındaki tüm duvar kâğıtlarını devam ettirir.
 
 ``` powershell
 -control play
 ```
 
-### Mute
+### Sesi Kıs
 
-Mutes all wallpapers.
+Tüm duvar kâğıtlarını susturur.
 
 ``` powershell
--control mute
+-control pause
 ```
 
-### Unmute
+### Sesi Aç
 
-Unmutes all wallpapers.
+Tüm duvar kâğıtlarının sesini açar.
 
 ``` powershell
 -control unmute
 ```
 
-### Open Wallpaper
+### Duvar kâğıtlarını aç
 
-Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
+Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar kağıdı yükler. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
