@@ -41,9 +41,9 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 ## Wallpaper Engine 當機/錯誤代碼「0xC0000005」
 
-此錯誤訊息幾乎都是因為**防毒應用程式**或**驅動程式有問題**。 If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+此錯誤訊息幾乎都是因為**防毒應用程式**或**驅動程式故障**。 如果您正在使用防毒應用程式，儘管防毒應用程式並未回報任何活動，也極有可能是當機的原因。 請確認已設定為忽略 *wallpaper_engine* 安裝目錄以及所有重要的 Wallpaper Engine 可執行檔。 詳情請見上方 *Wallpaper Engine 當機快速修復方式*一節。
 
-If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
+如果目前並未安裝防毒應用程式，請重新安裝所有重要的驅動程式，並切換為 Wallpaper Engine 的 64 位元版本 (如果目前使用的是 64 位元版本，則切換至 32 位元版本)。
 
 In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
 
