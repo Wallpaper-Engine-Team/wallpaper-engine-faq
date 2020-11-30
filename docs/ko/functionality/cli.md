@@ -76,29 +76,29 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(선택 사항)*:** 모니터의 내부 식별자. PC가 생성한 식별자로 config.json에서 찾을 수 있습니다.
 * **monitor *(선택 사항)*:** 배경화면을 불러올 모니터의 인덱스. 0에서부터 시작합니다.
 * **preset *(선택 사항)*:** 불러올 사전 설정의 이름. 이전에 생성하고 저장한 사전 설정이 있어야 사용할 수 있습니다.
-* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window.
-  * **width *(optional)*:** Width of window.
-  * **height *(optional)*:** Height of window.
-  * **x *(optional)*:** Horizontal position of window.
-  * **y *(optional)*:** Vertical position of window.
+* **playInWindow *(선택 사항)*:** 다수의 배경화면을 창에서 열고 싶을 때 창의 이름.
+  * **width *(선택 사항)*:** 창의 너비.
+  * **height *(선택 사항)*:** 창의 높이.
+  * **x *(선택 사항)*:** 창의 수평 위치.
+  * **y *(선택 사항)*:** 창의 수직 위치.
 
-### Next Wallpaper
+### 다음 배경화면
 
-Skips to the next wallpaper of a given monitor or all monitors if none specified.
+지정된 모니터, 혹은 미지정 시 모든 모니터에서 다음 배경화면으로 건너뜁니다.
 
 ``` powershell
 -control nextWallpaper [-location <string>] [-monitor <number>]
 ```
 
-### Remove Wallpaper
+### 배경화면 제거
 
-Removes a wallpaper from a specified monitor or window or removes all wallpapers.
+특정 모니터 또는 창의 배경화면을 제거하거나, 모든 배경화면을 제거합니다.
 
 ``` powershell
 -control closeWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
+* **location *(선택 사항)*:** 지정한 모니터 혹은 창 이름의 내부 식별자.
 * **monitor *(optional)*:** Index of the monitor to close the wallpaper from, begins with 0.
 
 ### Open Playlist
