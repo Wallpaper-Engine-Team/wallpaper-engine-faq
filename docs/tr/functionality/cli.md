@@ -78,32 +78,32 @@ Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar ka
 * **preset *(isteğe bağlı)*:** Yüklenecek yerel ön ayarın adı ve yerel ön ayar sizin tarafınızdan önceden oluşturulmuş ve kaydedilmiş olmalıdır.
 * **playInWindow *(isteğe bağlı)*:** Bir pencerede birden fazla duvar kağıdını açmak / kontrol etmek istiyorsanız, pencerenin adı.
   * **width *(isteğe bağlı)*:** Pencere genişliği.
-  * **height *(optional)*:** Height of window.
-  * **x *(optional)*:** Horizontal position of window.
-  * **y *(optional)*:** Vertical position of window.
+  * **height *(isteğe bağlı)*:** Pencere yüksekliği.
+  * **x *(isteğe bağlı)*:** Pencerenin yatay konumu.
+  * **y *(isteğe bağlı)*:** Pencerenin dikey konumu.
 
-### Next Wallpaper
+### Sıradaki Duvar Kâğıdı
 
-Skips to the next wallpaper of a given monitor or all monitors if none specified.
+Belirli bir monitör veya belirtilmemişse tüm monitörler sonraki duvar kağıdına atlar.
 
 ``` powershell
 -control nextWallpaper [-location <string>] [-monitor <number>]
 ```
 
-### Remove Wallpaper
+### Duvar Kâğıdını Kaldır
 
-Removes a wallpaper from a specified monitor or window or removes all wallpapers.
+Duvar kağıdını belirli bir monitörden veya pencereden kaldırır veya tüm duvar kağıtlarını kaldırır.
 
 ``` powershell
 -control closeWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to close the wallpaper from, begins with 0.
+* **location *(isteğe bağlı)*:** Monitörün dahili tanımlayıcısı veya belirttiğiniz pencere adı.
+* **monitor *(isteğe bağlı)*:** Duvar kağıdının kapatılacağı monitör dizini 0 ile başlar.
 
-### Open Playlist
+### Oynatma Listesini Aç
 
-Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the location or monitor parameter to choose which monitor to load the wallpaper on.
+Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar kağıdı yükler. Duvar kağıdının hangi monitöre yükleneceğini seçmek için konum veya izleme parametresini kullanabilirsiniz.
 
 ``` powershell
 -control openPlaylist -playlist <string> [-location <string>] [-monitor <number>]
