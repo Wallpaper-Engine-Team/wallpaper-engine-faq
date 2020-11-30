@@ -2,14 +2,14 @@
 
 Windows N은 미디어 기능을 지원하지 않습니다! Windows 버전과 빌드 번호에 맞는 올바른 미디어 기능 팩을 설치해야 합니다:
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Windows 10 최신 버전
+Windows 10의 최신 버전에서는, Windows 설정을 통해 미디어 기능 팩을 설치할 수 있습니다. **Windows Settings**을 연 후 다음 경로로 이동하십시오:
 
-*Apps > Apps and Features > Optional Features > Add a Feature*
+*앱 > 앱 및 기능 > 선택적 기능 > 기능 추가*
 
-A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+사용 가능한 선택적 기능의 목록이 표시됩니다. **미디어 기능 팩**을 찾아 설치한 후 컴퓨터를 재시작하십시오. 추가 도움 및 정보가 필요할 시에는 Microsoft 웹사이트를 방문해주십시오: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
-#### Outdated Windows 10 (May 2019 update or older):
+#### 구형 Windows 10 (2019년 5월 업데이트 혹은 이전)
 Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
   * [미디어 기능 팩 다운로드](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (Microsoft에서 영어 페이지만 지원합니다)
 
