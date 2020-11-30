@@ -121,17 +121,17 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties：**定義為欲套用 **JSON** 字串的屬性。 此字串必須特別以 `RAW~(` 和 `)~END` 逸出作為分隔符號，請見下方實例！
+* **location *(選用)*：**顯示器內部識別碼或您指定的視窗名稱。
+* **monitor *(選用)*：**欲更新屬性的顯示器索引，以 0 開頭。
 
-Example of changing a wallpaper setting named `rate` to 10:
+將名為 `rate` 的桌布設定變更為 10 的實例：
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+將桌布配置顏色變更為紅色的實例 (`"1 0 0"` 代表 *RGB* 值)：
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
