@@ -97,19 +97,18 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-**Razer Synapse**의 일부인 Razer Chroma로 인해 발생합니다. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+**Razer Synapse**의 일부인 Razer Chroma로 인해 발생합니다. 일반적으로 Razer Synapse가 제대로 설치되지 않은 것이 원인입니다. 대부분의 경우, Razer Snyapse를 완전히 새로 설치하면 해결됩니다.
 
-**Clean reinstallation of all Razer software**
+**모든 Razer 소프트웨어 완전히 새로 설치하기**
 
-::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+::: 경고 Razer Synapse를 재설치하는 동안 반드시 Wallpaper Engine이 꺼져있는지 확인하십시오.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. 만약 Wallpaper Engine이 실행 중이라면 종료하십시오 (Windows 트레이의 아이콘을 오른쪽 클릭하고 **종료** 선택)
+2. Windows를 통해 컴퓨터에서 모든 Razer 소프트웨어를 제거하십시오
+3. Razer 웹사이트에서 최신 버전의 통합 소프트웨어를 다운로드한 후 설치하십시오
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Razer Synapse 3를 다운로드하십시오](https://www.razer.com/synapse-3)
 
 4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
 
