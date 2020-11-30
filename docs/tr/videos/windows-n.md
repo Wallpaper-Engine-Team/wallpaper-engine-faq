@@ -9,12 +9,12 @@ Güncel Windows 10 sürümleri için Windows ayarlar aracılığıyla Media Feat
 
 İsteğe bağlı özelliklerin bir listesi belirir, uygun İsteğe Bağlı Özelliklerden **Media Fature Pack**'i arayın, kurun ve bilgisayarınızı yeniden başlatın. Bu konuda daha fazla yardım almak ve daha fazla bilgi için lütfen Microsoft İnternet Sitesini ziyaret edin: [Windows 10 N için Media Feature Pack](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
-#### Outdated Windows 10 (May 2019 update or older):
-Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
+#### Güncel olmayan Windows 10 (2019 güncellemesinden eski):
+Windows 10'un eski sürümleri için Media Feature Pack'i size uygun Windows 10 sürümüne göre elle indirmelisiniz:
   * [Medya Özellik Paketi indirme](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (sayfanın sadece İngilizcesi mevcuttur)
 
 #### Windows 7:
-  * Windows 7 is not supported by Microsoft anymore. You need update **KB968211** to add media features but Microsoft has removed the download page for it. Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+  * Windows 7, Microsoft tarafından artık desteklenmiyor. Medya özellikleri eklemek için **KB968211** güncellemesine ihtiyacınız var, ancak Microsoft bunun için indirme sayfasını kaldırdı. Windows 10'a yükseltmeyi deneyin veya medya özellikleriyle normal bir Windows 7'yi yeniden yükleyin.
 
 **x64 ve x86 sürümlerini indirmeyi unutmayın.**
 
