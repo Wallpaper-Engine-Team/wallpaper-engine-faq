@@ -21,7 +21,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-如果您安裝了防毒應用程式 (Windows Defender 除外)，請務必在 Wallpaper Engine 的防毒設定中設定為例外。 如果防毒應用程式永久損壞或鎖定某些檔案，有時候必須重新安裝 Wallpaper Engine。 Make sure your antivirus app ignores the *wallpaper_engine* directory and especially all .exe files:
+如果您安裝了防毒應用程式 (Windows Defender 除外)，請務必在 Wallpaper Engine 的防毒設定中設定為例外。 如果防毒應用程式永久損壞或鎖定某些檔案，有時候必須重新安裝 Wallpaper Engine。 請確保您的防毒應用程式已忽略 *wallpaper_engine* 目錄，以及所有 .exe 檔案：
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
