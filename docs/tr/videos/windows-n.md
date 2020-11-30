@@ -2,12 +2,12 @@
 
 Windows N'de medya özellikleri bulunmaz! Windows sürümünüz ve derleme numaranız için doğru Medya Özellik Paketi'ni yüklemelisiniz:
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Windows 10'un son sürümleri
+Güncel Windows 10 sürümleri için Windows ayarlar aracılığıyla Media Feature Pack'i kurabilirsiniz. **Windows Settings**'i açın ve sonra şu konuma gidin:
 
-*Apps > Apps and Features > Optional Features > Add a Feature*
+*Uygulamalar> Uygulamalar ve Özellikler > İsteğe Bağlı Özellikler > Bir Özellik Ekle*
 
-A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+İsteğe bağlı özelliklerin bir listesi belirir, uygun İsteğe Bağlı Özelliklerden **Media Fature Pack**'i arayın, kurun ve bilgisayarınızı yeniden başlatın. Bu konuda daha fazla yardım almak ve daha fazla bilgi için lütfen Microsoft İnternet Sitesini ziyaret edin: [Windows 10 N için Media Feature Pack](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
 #### Outdated Windows 10 (May 2019 update or older):
 Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
