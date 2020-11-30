@@ -4,41 +4,41 @@ sidebarDepth: 2
 
 # 명령줄 제어
 
-명령줄 인수를 통해 Wallpaper Engine을 제어할 수 있습니다. 이를 통해 단축키, 매크로 바인딩 등 자신이 직접 작성한 스크립트 또는 코드를 사용하여 프로그램의 거의 모든 기능을 사용할 수 있습니다. 예를 들어, 모든 배경화면을 일시 정지 혹은 정지시키거나, 배경화면을 변경하거나, 심지어는 작동 중인 배경화면의 설정을 변경할 수 있습니다.
+명령줄 인수를 통해 Wallpaper Engine을 제어할 수 있습니다. 이를 통해 단축키, 매크로 바인딩 등 자신이 직접 작성한 스크립트 또는 코드를 사용하여 프로그램의 거의 모든 기능을 사용할 수 있습니다. 예를 들어, 모든 배경화면을 일시 정지 혹은 중지시키거나, 배경화면을 변경하거나, 심지어는 작동 중인 배경화면의 설정을 변경할 수 있습니다.
 
 Wallpaper Engine이 실행 중인지 확인한 후, 프로그램의 주 프로세스인 *wallpaper32.exe* (64비트 버전을 사용 중이라면 *wallpaper64.exe*)를 실행하고 이 가이드에 나온 명령 인수를 사용하여 명령을 보내십시오. 실행 파일은 `wallpaper_engine` 설치 디렉터리에서 찾을 수 있습니다.
 
-모든 명령은 `-control` 패러미터의 값으로 내려집니다. For example, the pause command can be executed like this:
+모든 명령은 `-control` 패러미터의 값으로 내려집니다. 예를 들어, 일시 정지 명령은 다음과 같이 실행할 수 있습니다.
 
 ``` powershell
 wallpaper32.exe -control pause
 ```
 
-Make sure to use the double-quote **"** character for strings that have spaces in them:
+띄어쓰기가 있는 스트링 값에는 반드시 큰따옴표 **"** 문자를 사용해야 합니다.
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-## Command Overview
+## 명령 개요
 
-### Pause
+### 일시정지
 
-Pauses all wallpapers.
+모든 배경화면 일시정지.
 
 ``` powershell
 -control pause
 ```
 
-### Stop
+### 중지
 
-Stops all wallpapers.
+모든 배경화면 중지.
 
 ``` powershell
 -control stop
 ```
 
-### Play
+### 재생
 
 Resumes all wallpapers from pause or stop.
 
