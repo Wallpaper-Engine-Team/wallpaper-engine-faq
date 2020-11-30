@@ -8,63 +8,63 @@ sidebarDepth: 2
 
 確定 Wallpaper Engine 已在運作，接著使用本指南列出的任何命令引數，透過此程式的主要流程 *wallpaper32.exe* (如果使用的是 64 位元，則為 *wallpaper64.exe*) 向 Wallpaper Engine 傳送命令。 您可以在 `wallpaper_engine` 安裝目錄中找到可執行檔。
 
-All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
+所有命令均作為 `-control` 參數的值發出。 例如，暫停命令可以下列方式執行：
 
 ``` powershell
 wallpaper32.exe -control pause
 ```
 
-Make sure to use the double-quote **"** character for strings that have spaces in them:
+對於包含空格的字串，務必使用雙引號 **"** 字元：
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-## Command Overview
+## 命令一覽
 
-### Pause
+### 暫停
 
-Pauses all wallpapers.
+暫停所有桌布。
 
 ``` powershell
 -control pause
 ```
 
-### Stop
+### 停止
 
-Stops all wallpapers.
+停止所有桌布。
 
 ``` powershell
 -control stop
 ```
 
-### Play
+### 播放
 
-Resumes all wallpapers from pause or stop.
+繼續播放原本暫停或停止的桌布。
 
 ``` powershell
 -control play
 ```
 
-### Mute
+### 靜音
 
-Mutes all wallpapers.
+將所有桌布靜音。
 
 ``` powershell
 -control mute
 ```
 
-### Unmute
+### 取消靜音
 
-Unmutes all wallpapers.
+將所有桌布取消靜音。
 
 ``` powershell
 -control unmute
 ```
 
-### Open Wallpaper
+### 開啟桌布
 
-Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
+為特定顯示器或第一台顯示器 (如未指定任何顯示器) 載入桌布。 You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
