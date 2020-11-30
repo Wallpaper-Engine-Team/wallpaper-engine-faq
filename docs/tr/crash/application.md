@@ -39,9 +39,9 @@ Ciddi durumlarda, Wallpaper Engine'i kaldırmanız ve *wallpaper_engine* dizinin
 
 Wallpaper Engine, Windows hazırda bekletme modundan sonra çöküyorsa Windows, grafik kartı sürücülerinizi ve Wallpaper Engine'ini doğru bir şekilde geri yükleyemiyordur. Windows hazırda bekletme güvenilir bir işlem değildir. Bu sorunu hafifletmek için Wallpaper Engine'deki **Uykudan sonra güvenli başlangıç** seçeneğini etkinleştirebilirsiniz. Bu seçenek, Windows'un hazırda bekletmeden sonra düzgün çalışmasını beklemek yerine Wallpaper Engine'i otomatik olarak yeniden başlatmayı deneyecektir.
 
-## Wallpaper Engine has crashed / Error code "0xC0000005"
+## Wallpaper Engine çöktü / Hata kodu "0xC0000005"
 
-This error message is almost always caused by **antivirus applications** or **faulty drivers**. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+Bu hata mesajı neredeyse her zaman **antivirüs uygulamaları** veya **hatalı sürücüler** nedeniyle oluşur. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
 
 If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
 
