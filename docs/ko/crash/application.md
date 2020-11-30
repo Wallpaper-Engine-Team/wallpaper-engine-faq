@@ -110,11 +110,11 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 * [Razer Synapse 3를 다운로드하십시오](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. 그 후 Wallpaper Engine을 다시 켜지 않고 컴퓨터를 재시작하십시오.
 
-**Reinstallation does not fix the problem**
+**재설치로 문제가 해결되지 않을 시**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+Razer Synapse를 재설치해도 문제가 해결되지 않았다면, Razer Synapse 자체에 근본적으로 문제가 있을지도 모릅니다. 과거 잘못된 Razer Synapse 업데이트로 인해 발생한 사례가 있습니다. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
 
 If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
 
