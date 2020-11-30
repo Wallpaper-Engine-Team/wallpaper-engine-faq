@@ -41,13 +41,13 @@ Si Wallpaper Engine se cuelga después de que Windows hiberne quiere decir que W
 
 ## «Wallpaper Engine has crashed» / Código de error «0xC0000005»
 
-Por lo general, este error aparece por culpa de los **antivirus** o de los **controladores defectuosos**. Si usas un antivirus, es muy probable que sea el motivo del problema, incluso aunque el propio antivirus no te informe de ningún tipo de actividad. Configúralo para que ignore el directorio de instalación *wallpaper_engine* y todos los ejecutables importantes de Wallpaper Engine. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+Por lo general, este error aparece por culpa de los **antivirus** o de los **controladores defectuosos**. Si usas un antivirus, es muy probable que sea el motivo del problema, incluso aunque el propio antivirus no te informe de ningún tipo de actividad. Configúralo para que ignore el directorio de instalación *wallpaper_engine* y todos los ejecutables importantes de Wallpaper Engine. Echa un vistazo a la sección *Solución rápida para evitar que Wallpaper Engine se cuelgue* si necesitas más información.
 
-If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
+Si no tienes un antivirus instalado, vuelve a instalar los drivers más importantes e intenta cambiar a la versión de 64 Bit de Wallpaper Engine (o a la de 32 Bit si ya has usado la versión de 64 Bit).
 
-In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+En algunos casos, es posible que sean otros programas los que interfieren con Wallpaper Engine de forma inusual. Podría ocurrir con programas que le inserten código a Wallpaper Engine o alteren la instalación de Windows de alguna forma.
 
-!["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
+![Mensaje de error de Wallpaper Engine: "0xC0000005"](/img/faq/0xC0000005.png)
 
 ## Wallpaper Engine se ha colgado por culpa de otro programa
 
@@ -109,11 +109,11 @@ Asegúrate de que Wallpaper Engine esta apagado mientras reinstalas Razer Synaps
 
 1. Cierra Wallpaper Engine completamente si se encuentra en ejecución (botón-derecho en el icono de la barra de tareas y selecciona **Salir**)
 2. Desinstala todo el software de Razer de tu ordenador utilizando Windows
-3. Descarga la última versión del software de Razer desde su web e instalalo:
+3. Descarga la última versión del software de Razer desde su web e instálalo:
 
 * [Descargar Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Después reinicia tu ordenador (no inicies Wallpaper Engine sin haber reiniciado tu ordenador).
+4. Después, reinicia el ordenador (no inicies Wallpaper Engine sin haber reiniciado el ordenador).
 
 **La reinstalación no arregla el problema**
 
