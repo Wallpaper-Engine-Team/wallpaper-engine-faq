@@ -6,15 +6,15 @@ sidebarDepth: 2
 
 Puedes controlar Wallpaper Engine con líneas de comando, lo que te permitirá acceder a la mayoría de funciones del programa con atajos, macros o cualquier otro tipo de código de tu elección. Podrías, por ejemplo, pausar o detener todos los fondos, cambiarlos o incluso cambiar los ajustes de los fondos que tienes en uso.
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
+Comprueba que Wallpaper Engine esté abierto y abre el proceso del programa *wallpaper32.exe* (o *wallpaper64.exe* si usas la versión 64 Bit) para enviarle un comando con cualquiera de los argumentos de comando que aparecen en esta guía. Encontrarás los ejecutables en el directorio de instalación `wallpaper_engine`.
 
-All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
+All commands are issued as a value for the `-control` parameter. Por ejemplo, el comando de pausa se puede ejecutar así:
 
 ``` powershell
 wallpaper32.exe -control pause
 ```
 
-Make sure to use the double-quote **"** character for strings that have spaces in them:
+Asegúrate de usar comillas inglesas **"** en las líneas que contienen espacios:
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
