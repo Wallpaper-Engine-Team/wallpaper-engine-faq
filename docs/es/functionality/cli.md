@@ -121,7 +121,7 @@ Ajusta uno o todos los fondos sobre la marcha. Esta opción te permite cambiar t
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
+* **properties:** Propiedades definidas como **JSON** que se aplicarán. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
 * **location *(opcional)*:** Identificador interno del nombre del monitor o la ventana que hayas elegido.
 * **monitor *(opcional)*:** Índice del monitor en el que quieres actualizar las propiedades. Empieza por 0.
 
