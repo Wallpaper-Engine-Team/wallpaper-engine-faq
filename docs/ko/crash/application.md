@@ -21,7 +21,7 @@ Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-바이러스 백신 응용프로그램이 설치되었으면(Windows 방화벽 제외), 바이러스 백신 설정에서 Wallpaper Engine을 제외하세요. 바이러스 백신이 일부 파일을 영구 손상시키거나 잠그면, 이 과정 후 Wallpaper Engine의 재설치가 필요하기도 합니다. 백신 프로그램의 무시 목록에 *wallpaper_engine*의 디렉터리, 그 중에서도 특히 모든 .exe 파일을 반드시 추가해야 합니다.
+바이러스 백신 응용프로그램이 설치되었으면(Windows 방화벽 제외), 바이러스 백신 설정에서 Wallpaper Engine을 제외하세요. 바이러스 백신이 일부 파일을 영구 손상시키거나 잠그면, 이 과정 후 Wallpaper Engine의 재설치가 필요하기도 합니다. 바이러스 백신 프로그램의 무시 목록에 *wallpaper_engine*의 디렉터리, 그 중에서도 특히 모든 .exe 파일을 반드시 추가해야 합니다.
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -33,19 +33,19 @@ Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 
 
 * [Steam 지원: 응용 프로그램 파일 결합 확인](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-In severe cases, you may need to uninstall Wallpaper Engine and manually delete the *wallpaper_engine* directory and then reinstall the app once your antivirus app has been configured to be less strict.
+심각한 경우에는, Wallpaper Engine을 제거하고 *wallpaper_engine* 디렉터리를 직접 삭제한 다음, 바이러스 백신 프로그램의 설정을 완화한 후 재설치해야 할 수도 있습니다.
 
 ## 최대 절전 / 취침 모드 후 작동 중단
 
 Windows 최대 절전 모드 후 Wallpaper Engine이 작동 중단되면, Windows에서 그래픽 카드 드라이버와 Wallpaper Engine을 함께 제대로 복구할 수 없습니다. Windows의 최대 절전 모드는 안정적인 프로세스가 아닙니다. Wallpaper Engine에서 **최대 절전 모드 후 안전 모드** 옵션을 사용하여 이 문제를 완화할 수 있습니다. 이 옵션은 Windows가 최대 절전 모드 후 제대로 작동하기를 기대하는 대신 Wallpaper Engine을 자동으로 다시 시작합니다.
 
-## Wallpaper Engine has crashed / Error code "0xC0000005"
+## Wallpaper Engine has crashed / 오류 코드 "0xC0000005"
 
-This error message is almost always caused by **antivirus applications** or **faulty drivers**. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+이 오류 코드의 원인은 대부분의 경우 **바이러스 백신 프로그램** 또는 **드라이버 오류**입니다. 바이러스 백신 프로그램을 사용하고 있다면, 아무런 활동 보고가 없었다고 해도 해당 프로그램이 원인일 가능성이 매우 높습니다. *wallpaper_engine*이 설치된 디렉터리와 Wallpaper Engine의 주요 실행 파일을 전부 무시하도록 설정해주세요. 자세한 정보는 위에 있는 *Wallpaper Engine 작동 중단 빠른 해결 시도* 항목에서 확인하세요.
 
-If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
+만약 바이러스 백신 프로그램이 설치되어 있지 않다면, 주요 드라이버를 전부 재설치한 후 Wallpaper Engine을 64비트 버전으로 변경하세요. (이미 64비트 버전을 사용 중이었다면 32비트로 변경하세요)
 
-In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+또한, 다른 응용 프로그램이 Wallpaper Engine을 예기치 못한 방법으로 방해하는 경우에도 발생할 수 있습니다. 주로 Wallpaper Engine에 코드를 주입하거나 Windows 설치를 크게 변경하는 응용 프로그램에서 나타납니다.
 
 !["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
 
@@ -97,7 +97,7 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+**Razer Synapse**의 일부인 Razer Chroma로 인해 발생합니다. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
 
 **Clean reinstallation of all Razer software**
 
