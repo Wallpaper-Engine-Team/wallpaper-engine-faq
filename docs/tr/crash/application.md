@@ -41,9 +41,9 @@ Wallpaper Engine, Windows hazırda bekletme modundan sonra çöküyorsa Windows,
 
 ## Wallpaper Engine çöktü / Hata kodu "0xC0000005"
 
-Bu hata mesajı neredeyse her zaman **antivirüs uygulamaları** veya **hatalı sürücüler** nedeniyle oluşur. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+Bu hata mesajı neredeyse her zaman **antivirüs uygulamaları** veya **hatalı sürücüler** nedeniyle oluşur. Bir antivirüs uygulaması kullanıyorsanız antivirüs uygulamanız tarafından herhangi bir etkinlik raporlanmamış olsa bile çökmenin neden yüksek ihtimalle budur. Lütfen yapılandırdığınızdan emin olun ve *wallpaper_engine* yükleme dizini ile diğer tüm önemli Wallpaper Engine yürütülebilir dosyalarını yoksaymasını sağlayın. Daha detaylı bilgi için yukarıdaki *Wallpaper Engine Çökmesi Hızlı Çözüm Denemesi* bölümüne göz atın.
 
-If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
+Yüklü bir antivirüs uygulamanız yoksa lütfen tüm önemli sürücüleri yeniden yükleyin ve Wallpaper Engine'in 64 Bit sürümüne (veya 64 Bit sürümünü zaten kullandıysanız 32 Bit sürümüne) geçmeyi deneyin.
 
 In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
 
