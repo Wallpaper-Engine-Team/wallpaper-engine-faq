@@ -21,7 +21,7 @@ Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-바이러스 백신 응용프로그램이 설치되었으면(Windows 방화벽 제외), 바이러스 백신 설정에서 Wallpaper Engine을 제외하세요. 바이러스 백신이 일부 파일을 영구 손상시키거나 잠그면, 이 과정 후 Wallpaper Engine의 재설치가 필요하기도 합니다. Make sure your antivirus app ignores the *wallpaper_engine* directory and especially all .exe files:
+바이러스 백신 응용프로그램이 설치되었으면(Windows 방화벽 제외), 바이러스 백신 설정에서 Wallpaper Engine을 제외하세요. 바이러스 백신이 일부 파일을 영구 손상시키거나 잠그면, 이 과정 후 Wallpaper Engine의 재설치가 필요하기도 합니다. 백신 프로그램의 무시 목록에 *wallpaper_engine*의 디렉터리, 그 중에서도 특히 모든 .exe 파일을 반드시 추가해야 합니다.
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
