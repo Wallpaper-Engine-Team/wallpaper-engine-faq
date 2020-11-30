@@ -43,20 +43,20 @@ Si tienes algún problema con el servicio al cliente de Corsair, ponte en contac
 
 ### Razer
 
-Most problems related to Razer RGB hardware can be fixed by doing a clean reinstallation of the Razer software suite while Wallpaper Engine is turned off:
+La mayoría de los problemas de los periféricos de RGB de Razer se solucionan al volver a instalar el programa de Razer desde cero mientras tengas Wallpaper Engine cerrado:
 
-1. Turn off Wallpaper Engine completely. This is very important, do not skip this.
+1. Cierra Wallpaper Engine. Es un paso muy importante, así que no te lo saltes.
 2. Desinstala todo el software de Razer de tu ordenador utilizando Windows.
-3. Redownload the latest version of Razer Synapse 3 and install it.
-4. Restart your computer, do not launch Wallpaper Engine before restarting Windows.
+3. Vuelve a descargarte la última versión de Razer Synapse 3 e instálala.
+4. Reinicia el ordenador. No abras Wallpaper Engine antes de reiniciar Windows.
 
-See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
+Comprueba si se han solucionado los problemas con los periféricos RGB. Si necesitas más ayuda con los periféricos de Razer, ponte en contacto con Razer directamente:
 
 [https://support.razer.com/es-es](https://support.razer.com/)
 
 Si tienes algún problema con el servicio al cliente de Razer, ponte en contacto con nosotros y veremos si podemos ayudar.
 
-#### Razer Synapse 2 and older
+#### Razer Synapse 2 y anterior
 
 Solo tenemos compatibilidad con Razer Synapse 3 o superior. Si usas Razer Synapse 1 o Razer Synapse 2, asegúrate de desinstalarlos y actualizarlos a la última versión de Razer Synapse. Algunos usuarios han tenido problemas con los restos obsoletos de Razer Synapse que se les habían quedado en el equipo. Si has tenido instalado Razer Synapse 2 o anterior y tienes problemas con las luces RGB o incluso se te cuelga el programa al tener el complemento RBG habilitado, es posible que tengas que encontrar y eliminar restos de versiones obsoletas de Razer Synapse.
 
