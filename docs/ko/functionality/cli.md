@@ -75,7 +75,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **file:** 열고 싶은 배경화면의 project.json 경로 혹은 배경화면 파일 자체 경로 (.mp4 등).
 * **location *(선택 사항)*:** 모니터의 내부 식별자. PC가 생성한 식별자로 config.json에서 찾을 수 있습니다.
 * **monitor *(선택 사항)*:** 배경화면을 불러올 모니터의 인덱스. 0에서부터 시작합니다.
-* **preset *(optional)*:** Name of the local preset to load, the local preset must have been created and saved by you before.
+* **preset *(선택 사항)*:** 불러올 사전 설정의 이름. 이전에 생성하고 저장한 사전 설정이 있어야 사용할 수 있습니다.
 * **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window.
   * **width *(optional)*:** Width of window.
   * **height *(optional)*:** Height of window.
