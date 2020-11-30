@@ -6,7 +6,7 @@ sidebarDepth: 2
 
 명령줄 인수를 통해 Wallpaper Engine을 제어할 수 있습니다. 이를 통해 단축키, 매크로 바인딩 등 자신이 직접 작성한 스크립트 또는 코드를 사용하여 프로그램의 거의 모든 기능을 사용할 수 있습니다. 예를 들어, 모든 배경화면을 일시 정지 혹은 정지시키거나, 배경화면을 변경하거나, 심지어는 작동 중인 배경화면의 설정을 변경할 수 있습니다.
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
+Wallpaper Engine이 실행 중인지 확인한 후, 프로그램의 주 프로세스인 *wallpaper32.exe* (64비트 버전을 사용 중이라면 *wallpaper64.exe*)를 실행하고 이 가이드에 나온 명령 인수를 사용하여 명령을 보내십시오. You can find the executables in the `wallpaper_engine` installation directory.
 
 All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
 
