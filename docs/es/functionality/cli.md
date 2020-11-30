@@ -20,51 +20,51 @@ Asegúrate de usar comillas inglesas **"** en las líneas que contienen espacios
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-## Command Overview
+## Resumen de los comandos
 
-### Pause
+### Pausa
 
-Pauses all wallpapers.
+Pausa todos los fondos.
 
 ``` powershell
 -control pause
 ```
 
-### Stop
+### Detener
 
-Stops all wallpapers.
+Detiene todos los fondos.
 
 ``` powershell
 -control stop
 ```
 
-### Play
+### Reproducir
 
-Resumes all wallpapers from pause or stop.
+Quita la pausa y pone en marcha todos los fondos.
 
 ``` powershell
 -control play
 ```
 
-### Mute
+### Silenciar
 
-Mutes all wallpapers.
+Silencia todos los fondos.
 
 ``` powershell
 -control mute
 ```
 
-### Unmute
+### Activar sonido
 
-Unmutes all wallpapers.
+Activa el sonido de todos los fondos.
 
 ``` powershell
 -control unmute
 ```
 
-### Open Wallpaper
+### Abrir fondo
 
-Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
+Carga un fondo nuevo para el monitor seleccionado o para el principal si no se especifica ninguno. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
