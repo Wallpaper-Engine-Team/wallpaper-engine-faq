@@ -45,7 +45,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 如果目前並未安裝防毒應用程式，請重新安裝所有重要的驅動程式，並切換為 Wallpaper Engine 的 64 位元版本 (如果目前使用的是 64 位元版本，則切換至 32 位元版本)。
 
-In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+在某些情況下，也可能是因為其他應用程式以異常方式干擾了 Wallpaper Engine。 This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
 
 !["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
 
