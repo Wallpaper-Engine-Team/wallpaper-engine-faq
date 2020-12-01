@@ -54,7 +54,7 @@ Wallpaper Engine 無法直接與 RGB 硬體溝通，所有顏色資訊都是先�
 
 [support.razer.com](https://support.razer.com/)
 
-如果您聯絡 Razer 支援部門後遇到任何問題，還是可以與我們聯絡，一起確認如何解決。
+如果您聯絡 Razer 支援部門後仍遇到任何問題，還是可以與我們聯絡，一起確認如何解決。
 
 #### Razer Synapse 2 及更舊版本
 
