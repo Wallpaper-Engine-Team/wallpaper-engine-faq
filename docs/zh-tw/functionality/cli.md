@@ -4,9 +4,9 @@ sidebarDepth: 2
 
 # 命令列控制
 
-您可利用命令列引數控制 Wallpaper Engine， 即可從捷徑、巨集繫結或任何自行撰寫的腳本或程式碼，來存取此應用程式大部分功能。 例如，您可能暫停或停止所有桌布、變更桌布，甚至使正在運作的桌布變更設定。
+您可利用命令列引數控制 Wallpaper Engine， 從捷徑、巨集繫結或任何自行撰寫的腳本或程式碼，來存取此應用程式大部分功能。 例如，您可能暫停或停止所有桌布、變更桌布，甚至使正在運作的桌布變更設定。
 
-確定 Wallpaper Engine 已在運作，接著使用本指南列出的任何命令引數，透過此程式的主要流程 *wallpaper32.exe* (如果使用的是 64 位元，則為 *wallpaper64.exe*) 向 Wallpaper Engine 傳送命令。 您可以在 `wallpaper_engine` 安裝目錄中找到可執行檔。
+請確認 Wallpaper Engine 已在運作，接著使用本指南列出的任何命令引數，透過此程式的主要處理程序 *wallpaper32.exe* (如果使用的是 64 位元，則為 *wallpaper64.exe*) 向 Wallpaper Engine 傳送命令。 您可以在 `wallpaper_engine` 安裝目錄中找到可執行檔。
 
 所有命令均作為 `-control` 參數的值發出。 例如，暫停命令可以下列方式執行：
 
