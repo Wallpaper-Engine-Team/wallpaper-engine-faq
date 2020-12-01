@@ -6,7 +6,7 @@ sidebarDepth: 2
 
 Pode controlar o Wallpaper Engine com argumentos de linha de comandos. Isto permite-lhe aceder à maior parte das funcionalidades da aplicação através de um atalho, uma macro binding ou qualquer tipo de script auto-gerado ou código à sua escolha. Por exemplo, pode pausar ou parar todos wallpapers, mudar wallpapers ou até mudar definições dos wallpapers em execução.
 
-Certifique-se de que o Wallpaper Engine já está a ser executado e depois envie-lhe um comando executando o processo principal do programa, *wallpaper32.exe* (ou *wallpaper64.exe* se esiver a usar a versão 64 Bits da aplicação), com qualquer dos argumentos de comando listados neste guia. Pode encontrar os executáveis no diretório de instalação `wallpaper_engine`.
+Certifique-se de que o Wallpaper Engine já está a ser executado e depois envie-lhe um comando executando o processo principal do programa, *wallpaper32.exe* (ou *wallpaper64.exe* se estiver a usar a versão 64 Bits da aplicação), com qualquer dos argumentos de comando listados neste guia. Pode encontrar os executáveis no diretório de instalação `wallpaper_engine`.
 
 Todos os comandos são emitidos como valor para o parâmetro `-control`. Por exemplo, o comando pausa pode ser executado desta forma:
 
@@ -14,7 +14,7 @@ Todos os comandos são emitidos como valor para o parâmetro `-control`. Por exe
 wallpaper32.exe -control pause
 ```
 
-Certifique-se de que utiliza o caratere de aspas duplas **"** para cadeias que contenham espaços:
+Certifique-se de que utiliza o caractere de aspas duplas **"** para cadeias que contenham espaços:
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
@@ -109,7 +109,7 @@ Carrega um novo wallpaper para um dado monitor ou para o primeiro monitor, caso 
 -control openPlaylist -playlist <string> [-location <string>] [-monitor <number>]
 ```
 
-* **playlist:** Nome da lista de reprodução que criou e juardou no Wallpaper Engine.
+* **playlist:** Nome da lista de reprodução que criou e guardou no Wallpaper Engine.
 * **location *(opcional)*:** Identificador interno do monitor. Pode encontrá-los no ficheiro config.json e são gerados pelo seu PC.
 * **monitor *(opcional)*:** Index do monitor no qual carregar a lista de reprodução, começa por 0.
 
@@ -121,33 +121,33 @@ Aplica propriedades do wallpaper no momento, para um determinado wallpaper ou pa
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties:** Propriedades definidas como cadeia **JSON** a ser aplicada. A cadeia deve ser especialmente terminado com `RAW~(` e `)~END` como delimitadores - veja os exemplos abaixo!
+* **location *(opcional)*:** Identificador interno do monitor ou nome da janela que especificou.
+* **monitor *(opcional)*:** Index do monitor no qual atualizar as propriedades, começa por 0.
 
-Example of changing a wallpaper setting named `rate` to 10:
+Exemplo de mudar uma definição de wallpaper com o nome `rate` para 10:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+Exemplo de mudar a definição de esquema de cores de um wallpaper para vermelho (`"1 0 0"` representa *RGB* valores):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### Ocultar ícones do desktop
 
-Hides the desktop icons.
+Oculta os ícones do desktop.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### Mostrar ícones do desktop
 
-Shows the desktop icons.
+Mostra os ícones do desktop.
 
 ``` powershell
 -control showIcons
