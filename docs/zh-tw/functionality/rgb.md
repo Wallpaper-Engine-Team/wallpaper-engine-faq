@@ -48,7 +48,7 @@ Wallpaper Engine 無法直接與 RGB 硬體溝通，所有顏色資訊都是先�
 1. 完全關閉 Wallpaper Engine。 這步驟很重要，請勿跳過。
 2. 透過 Windows 系統將所有 Razer 軟體解除安裝。
 3. 重新下載並安裝最新版本的 Razer Synapse 3。
-4. 重新啟動電腦，務必先重新啟動 Windows，在啟動 Wallpaper Engine。
+4. 重新啟動電腦，務必先重新啟動 Windows，再啟動 Wallpaper Engine。
 
 確認上述步驟是否能解決 RGB 硬體問題。 如果需要其他 Razer 硬體方面的支援，請直接聯絡 Razer：
 
