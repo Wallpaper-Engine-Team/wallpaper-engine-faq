@@ -43,20 +43,20 @@ Caso depare com quaisquer problemas com a assistência do Corsair, continua a po
 
 ### Razer
 
-Most problems related to Razer RGB hardware can be fixed by doing a clean reinstallation of the Razer software suite while Wallpaper Engine is turned off:
+A maior parte dos problemas relacionados com o hardware Razer RGB pode ser corrigida fazendo uma reinstalação limpa da suite de software do Razer enquanto o Wallpaper Engine está desativado:
 
-1. Turn off Wallpaper Engine completely. This is very important, do not skip this.
-2. Uninstall all Razer software from your computer through Windows.
-3. Redownload the latest version of Razer Synapse 3 and install it.
-4. Restart your computer, do not launch Wallpaper Engine before restarting Windows.
+1. Desative completamente o Wallpaper Engine. Isto é muito importante, não salte este passo.
+2. Desinstale todo o software Razer o seu computador através do Windows.
+3. Volte a transferir a versão mais recente do Razer Synapse 3 e instale-a.
+4. Reinicie o seu computador, não inicie o Wallpaper Engine antes de reiniciar o Windows.
 
-See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
+Veja se isto resolve os seus problemas com o seu hardware RGB. Para obter assistência adicional para hardware Razer, deve contactar a Razer diretamente:
 
 [support.razer.com](https://support.razer.com/)
 
 Caso depare com quaisquer problemas com a assistência da Razer, continua a poder contactar-nos e faremos todos os possíveis para o ajudar.
 
-#### Razer Synapse 2 and older
+#### Razer Synapse 2 e mais antigo
 
 Só suportamos Razer Synapse 3 ou mais recente. Se está a usar o Razer Synapse 1 ou Razer Synapse 2, certifique-se de que os desinstala completamente e atualiza para a versão mais recente do Razer Synapse. Anteriormente, alguns utilizadores tiveram problemas com restos do velho Razer Synapse que ficaram no seu sistema. Se teve o Razer Synapse 2 ou mais antigo instalado e tem problemas com a sua iluminação RGB ou até sofra bloqueios com o plugin RGB ativado, poderá ser necessário encontrar quaisquer restos de versões antigas do Razer Synapse no seu sistema e apagá-las.
 
