@@ -121,7 +121,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties：**定義為欲套用 **JSON** 字串的屬性。 此字串必須特別以 `RAW~(` 和 `)~END` 逸出作為分隔符號，請見下方實例！
+* **properties：**定義為欲套用 **JSON** 字串的屬性。 此字串必須特別以 `RAW~(` 和 `)~END` 逸出作為分隔符號，請見下方實例。
 * **location *(選用)*：**顯示器內部識別碼或您指定的視窗名稱。
 * **monitor *(選用)*：**欲更新屬性的顯示器索引，以 0 開頭。
 
