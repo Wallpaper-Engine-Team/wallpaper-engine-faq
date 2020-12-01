@@ -75,7 +75,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **file：**欲開啟桌布 project.json 的路徑，或桌布檔案的直接路徑 (.mp4 etc)。
 * **location *(選用)*：**顯示器內部識別碼。 這些由您的電腦生成，您可在 config.json 檔案中找到。
 * **monitor *(選用)*：**欲載入桌布顯示器的索引，以 0 開頭。
-* **preset *(選用)*：**欲載入本機的名稱，您必須已經事先建立本機預設並儲存。
+* **preset *(選用)*：**欲載入本機的名稱；必須已事先建立本機預設並儲存。
 * **playInWindow *(選用)*：**如果您想在一視窗內開啟/控制多個桌布，則為該視窗名稱。
   * **width *(選用)*：**視窗寬度。
   * **height *(選用)*：**視窗高度。
