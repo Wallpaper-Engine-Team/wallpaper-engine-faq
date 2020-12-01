@@ -21,7 +21,7 @@ Se não estiver certo do que está a bloquear o Wallpaper Engine, faça uma rein
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender), certifique-se de que configura uma exceção para o Wallpaper Engine nas definições do seu antivírus. Por vezes é necessário reinstalar o Wallpaper Engine depois disto se o seu antivírus tiver permanentemente danificado ou bloqueado alguns ficheiros. Make sure your antivirus app ignores the *wallpaper_engine* directory and especially all .exe files:
+Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender), certifique-se de que configura uma exceção para o Wallpaper Engine nas definições do seu antivírus. Por vezes é necessário reinstalar o Wallpaper Engine depois disto se o seu antivírus tiver permanentemente danificado ou bloqueado alguns ficheiros. Certifique-se de que a sua aplicação antvírus ignora o diretório *wallpaper_engine* e especialmente todos os ficheiros .exe:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -33,21 +33,21 @@ Experimenta também verificar os ficheiros do Wallpaper Engine através do Steam
 
 * [Assistência do Steam: Verificar a integridade dos ficheiros da aplicação](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-In severe cases, you may need to uninstall Wallpaper Engine and manually delete the *wallpaper_engine* directory and then reinstall the app once your antivirus app has been configured to be less strict.
+Em casos mais graves, poderá ser necessário desinstalar o Wallpaper Engine e apagar o diretório *wallpaper_engine* manualmente e depois reinstalar a aplicação depois da aplicação antivírus ser configurada para ser menos severa.
 
 ## Bloqueio depois de Hibernação / Suspensão
 
 Se o Wallpaper Engine bloquear depois do Windows hibernar, isso significa que o Windows não está a restaurar os controladores da sua placa gráfica e o Wallpaper Engine em conjunto. A hibernação no Windows simplesmente não é um processo fiável. Pode ativar a opção **Iniciar em segurança depois de hibernar** no Wallpaper Engine para mitigar este problema. Esta opção tentará reiniciar o Wallpaper Engine automaticamente em vez de esperar que o Windows funcione corretamente depois da hibernação.
 
-## Wallpaper Engine has crashed / Error code "0xC0000005"
+## O Wallpaper Engine bloqueou / Código de erro "0xC0000005"
 
-This error message is almost always caused by **antivirus applications** or **faulty drivers**. If you are using an antivirus application it is very likely the reason for this crash even if no activity was reported by your antivirus app. Please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables. See the *Wallpaper Engine Crash Quick Fix Attempt* section above for more detailed information.
+Esta mensagem de erro é quase sempre causada por **aplicações antivírus** ou **controladores danificados**. Se estiver a utilizar uma aplicação antivírus, esta é muito provável a causa deste bloqueio, mesmo que não tenha sido reportada qualquer atividade pela sua aplicação antivírus. Certifique-se de que a configura de forma a que ignore o diretório de instalação *wallpaper_engine* e todos os executáveis importantes do Wallpaper Engine. Para obter informações mais detalhadas, consulte a secção *Tentativa de correção rápida de bloqueio do Wallpaper Engine* mais acima.
 
-If you do not have an antivirus app installed, please reinstall all important drivers and try switching to the 64 Bit version of Wallpaper Engine (or 32 Bit version if you have already used the 64 Bit version).
+Se não tiver uma aplicação antivírus instalada, reinstale todos os controladores importantes e tente passar para a versão 64 Bits do Wallpaper Engine (ou para a versão 32 Bits se já utilizou a versão 64 Bits).
 
-In some cases, this can also be caused by other applications interfering with Wallpaper Engine in an unusual way. This mainly concerns apps that inject code into Wallpaper Engine or alter your Windows installation significantly in some way.
+Nalguns casos, isto também pode ser causado pela interferência de outras aplicações no Wallpaper Engine de uma forma invulgar. Isto respeita principalmente a aplicações que injetam código no Wallpaper Engine ou alteram significativamente a sua instalação do Windows.
 
-!["0xC0000005" Wallpaper Engine crash message](/img/faq/0xC0000005.png)
+!["0xC0000005" Mensagem de bloqueio do Wallpaper Engine](/img/faq/0xC0000005.png)
 
 ## O Wallpaper Engine provavelmente bloqueou devido a outra aplicação
 
@@ -99,27 +99,26 @@ Os controladores gráficos Intel do seu sistema estão a bloquear. Vá ao websit
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+Estes tipos de bloqueios são causados pelo Razer Chroma, que faz parte do **Razer Synapse**. Normalmente, isto é causado por uma instalação defeituosa do Razer Synapse. Na maior parte dos casos, uma reinstalação limpa do Razer Synapse corrige estes tipos de bloqueios:
 
-**Clean reinstallation of all Razer software**
+**Reinstalação limpa de todo o software Razer**
 
-::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+::: aviso Certifique-se de que o Wallpaper Engine está desligado enquanto reinstala o Razer Synapse.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. Desative completamente o Wallpaper Engine, caso esteja a ser executado (clique com o botão direito no ícone do tabuleiro do Windows e depois selecione **Sair**)
+2. Desinstale todo o software Razer o seu computador através do Windows
+3. Volte a transferir a versão mais recente da suite de software Razer a partir do respetivo website e instale-a:
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Transfira o Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. Depois, reinicie o seu computador sem reiniciar previamente o Wallpaper Engine.
 
-**Reinstallation does not fix the problem**
+**A reinstalação não resolve o problema**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+Se o problema não for resolvido pela reinstalação do Razer Synapse, poderá haver um problema subjacente com o próprio Razer Synapse, no passado isto foi causado por atualizações danificadas do Razer Synapse. Experimente desativar o LED Plugin (*"iCUE & Chroma SDK"*) no separador **Plugins** das definições do Wallpaper Engine até este problema ser corrigido numa futura atualização do Razer Synapse.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Se os bloqueios persistirem até depois de uma reinstalação limpa do Razer Synapse, contacte a assistência do Razer diretamente e informe-os acerca dos bloqueios. Se eles forem incapazes de o ajudar, contacte a nossa assistência técnica - podemos examinar estes bloqueios e encaminhar as nossas conclusões para a equipa de desenvolvimento do Razer Synapse, apesar da Razer dever ser o contacto principal para este bloqueio específico.
 
 ### MMDEvAPI.dll
 
