@@ -33,7 +33,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 * [Steam 支援：驗證應用程式檔案完整性](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-如果情況嚴重，等到防毒應用程式設定比較不嚴格後，可能需要解除安裝 Wallpaper Engine，並手動刪除 *wallpaper_engine* 目錄，再重新安裝。
+如果情況嚴重，請將防毒應用程式設定改為比較不嚴格的模式，接著可能需要解除安裝 Wallpaper Engine，並手動刪除 *wallpaper_engine* 目錄，再重新安裝。
 
 ## 電腦休眠/睡眠後當機
 
