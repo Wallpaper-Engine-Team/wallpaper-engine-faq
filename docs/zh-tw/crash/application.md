@@ -97,7 +97,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-### RZChromaSDK.dll / RzChromaSDK64.dll
+### RZChromaSDK.dll/RzChromaSDK64.dll
 
 此類當機的原因是 Razer Chroma，為 **Razer Synapse** 的一部分。 通常這是因為 Razer Synapse 安裝時故障。 大部分情況下，全新安裝 Razer Synapse 即可解決這類當機問題：
 
