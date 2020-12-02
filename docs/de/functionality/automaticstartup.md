@@ -10,13 +10,13 @@ Wallpaper Engine kann mit Windows gestartet werden, gehe dazu in die Einstellung
 
 ## Was ist der Unterschied zwischen dem Autostart mit "hoher Priorität" und dem "normalen" Autostart?
 
-Wenn der Autostart mit hoher Priorität ausgewählt wird, registriert Wallpaper Engine einen Windows-Dienst. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+Wenn der Autostart mit hoher Priorität ausgewählt wird, registriert Wallpaper Engine einen Windows-Dienst. Dies bedeutet, dass Wallpaper Engine vor anderen Programmen startet, welche ebenfalls mit einer Autostart-Funktion mit Windows starten. Es verändert die Leistung der Anwendung ansonsten in keinster Weise.
 
-The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
+Der Nachteil des Autostarts mit hoher Priorität ist lediglich, dass er weniger verlässlich sein kann, hauptsächlich dadurch, dass einige Antivirenprogramme überreagieren und Wallpaper Engine blockieren können, wenn dieser Modus aktiviert ist, da sie das Verhalten fälschlicherweise als verdächtig einstufen.
 
-## I have enabled the automatic startup but it is not working, what can I do?
+## Ich habe den Autostart aktiviert aber er funktioniert nicht, was kann ich tun?
 
-If you are using the *high-priority* option, try to switch to *normal* automatic start-up by disabling the high-priority option. As explained above, high-priority mode starts quicker but is less reliable for various reasons, mainly because it is sometimes blocked by antivirus software.
+Wenn du den Autostart mit *hoher Priorität* verwendest, versuche auf den *normalen* Autostart zu wechseln, indem du die Option für hohe Priorität ausschaltest. Wie oben erklärt, ist der Autostart mit hoher Priorität schneller aber weniger verlässlich für verschiedenste Gründe, hauptsächlich aber da er öfters von Antivirenprogrammen blockiert wird.
 
 If you are using normal-priority option and the app is not launching alongside Windows, try changing the option to high-priority and see if the problem goes away.
 
