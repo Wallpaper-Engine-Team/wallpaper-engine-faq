@@ -125,7 +125,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(необязательно)*:** внутренний идентификатор монитора или указанное вами имя окна.
 * **monitor *(необязательно)*:** индекс монитора, на котором нужно обновить свойства, начинается с 0.
 
-Пример изменения параметра обоев с именем `rate` на 10:
+Пример изменения параметра обоев `rate` на 10:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
