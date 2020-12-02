@@ -10,7 +10,7 @@ Wallpaper Engine kann mit Windows gestartet werden, gehe dazu in die Einstellung
 
 ## Was ist der Unterschied zwischen dem Autostart mit "hoher Priorität" und dem "normalen" Autostart?
 
-When you select the high-priority option, Wallpaper Engine will register a Windows service. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
+Wenn der Autostart mit hoher Priorität ausgewählt wird, registriert Wallpaper Engine einen Windows-Dienst. This means that Wallpaper Engine will start before other programs you have configured to automatically start alongside Windows. It will not affect the performance of the application in any other way.
 
 The downside to using this high-priority option is that it can be less reliable, mainly due to the fact that some antivirus will overreact and block Wallpaper Engine from starting in this mode because they misidentify this as malicious behavior.
 
