@@ -121,9 +121,9 @@ Duvar kağıdı özelliklerini anında belirli bir duvar kağıdına veya tüm d
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **özellikler:****JSON** dizesi olarak tanımlanacak özellikler. Dize, sınırlayıcı olarak `RAW~(`ve`)~END` ile özel olarak öncelenmelidir. Aşağıdaki örneklere bakın!
+* **özellikler:** **JSON** dizesi olarak tanımlanacak özellikler. Dize, sınırlayıcı olarak `RAW~(`ve`)~END` ile özel olarak öncelenmelidir. Aşağıdaki örneklere bakın!
 * **location *(isteğe bağlı)*:** Monitörün dahili tanımlayıcısı veya belirttiğiniz pencere adı.
-* **monitor *(isteğe bağlı)*:**Özellikleri güncellemek için monitörün dizini 0 ile başlar.
+* **monitor *(isteğe bağlı)*:** Özellikleri güncellemek için monitörün dizini 0 ile başlar.
 
 `rate` adlı bir duvar kâğıdı ayarının 10 olarak değiştirilmesine örnek:
 
