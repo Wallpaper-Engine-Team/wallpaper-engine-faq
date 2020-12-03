@@ -39,7 +39,7 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 
 如果 Wallpaper Engine 在 Windows 休眠後當機，則 Windows 便無法同時正確還原顯示卡驅動程式與 Wallpaper Engine。 Windows 的休眠模式並不可靠。 您可啟用 Wallpaper Engine 中的**休眠後安全啟動**以緩解此問題。 Wallpaper Engine 將自動重新啟動，不會寄望 Windows 休眠後能正常運作。
 
-## Wallpaper Engine 當機/錯誤代碼「0xC0000005」
+## Wallpaper Engine has crashed / 錯誤代碼「0xC0000005」
 
 此錯誤訊息幾乎都是因為**防毒應用程式**或**驅動程式故障**。 如果您正在使用防毒應用程式，儘管防毒應用程式並未回報任何活動，也極有可能是當機的原因。 請確認已設定為忽略 *wallpaper_engine* 安裝目錄以及所有重要的 Wallpaper Engine 可執行檔。 詳情請見上方 *Wallpaper Engine 當機快速修復方式*一節。
 

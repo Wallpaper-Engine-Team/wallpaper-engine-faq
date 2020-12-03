@@ -39,7 +39,7 @@ Em casos mais graves, poderá ser necessário desinstalar o Wallpaper Engine e a
 
 Se o Wallpaper Engine bloquear depois do Windows hibernar, isso significa que o Windows não está a restaurar os controladores da sua placa gráfica e o Wallpaper Engine em conjunto. A hibernação no Windows simplesmente não é um processo fiável. Pode ativar a opção **Iniciar em segurança depois de hibernar** no Wallpaper Engine para mitigar este problema. Esta opção tentará reiniciar o Wallpaper Engine automaticamente em vez de esperar que o Windows funcione corretamente depois da hibernação.
 
-## O Wallpaper Engine bloqueou / Código de erro "0xC0000005"
+## O Wallpaper Engine has crashed / Código de erro "0xC0000005"
 
 Esta mensagem de erro é quase sempre causada por **aplicações antivírus** ou **controladores danificados**. Se estiver a utilizar uma aplicação antivírus, esta é muito provável a causa deste bloqueio, mesmo que não tenha sido reportada qualquer atividade pela sua aplicação antivírus. Certifique-se de que a configura de forma a que ignore o diretório de instalação *wallpaper_engine* e todos os executáveis importantes do Wallpaper Engine. Para obter informações mais detalhadas, consulte a secção *Tentativa de correção rápida de bloqueio do Wallpaper Engine* mais acima.
 
