@@ -42,12 +42,22 @@ Si necesitas asistencia con los componentes iCUE de Corsair, contacta directamen
 Si tienes algún problema con el servicio al cliente de Corsair, ponte en contacto con nosotros y veremos si podemos ayudar.
 
 ### Razer
+
+La mayoría de los problemas de los periféricos de RGB de Razer se solucionan al volver a instalar el programa de Razer desde cero mientras tengas Wallpaper Engine cerrado:
+
+1. Cierra Wallpaper Engine. Es un paso muy importante, así que no te lo saltes.
+2. Desinstala todo el software de Razer de tu ordenador utilizando Windows.
+3. Vuelve a descargarte la última versión de Razer Synapse 3 e instálala.
+4. Reinicia el ordenador. No abras Wallpaper Engine antes de reiniciar Windows.
+
+Comprueba si se han solucionado los problemas con los periféricos RGB. Si necesitas más ayuda con los periféricos de Razer, ponte en contacto con Razer directamente:
+
+[https://support.razer.com/es-es](https://support.razer.com/)
+
+Si tienes algún problema con el servicio al cliente de Razer, ponte en contacto con nosotros y veremos si podemos ayudar.
+
+#### Razer Synapse 2 y anterior
+
 Solo tenemos compatibilidad con Razer Synapse 3 o superior. Si usas Razer Synapse 1 o Razer Synapse 2, asegúrate de desinstalarlos y actualizarlos a la última versión de Razer Synapse. Algunos usuarios han tenido problemas con los restos obsoletos de Razer Synapse que se les habían quedado en el equipo. Si has tenido instalado Razer Synapse 2 o anterior y tienes problemas con las luces RGB o incluso se te cuelga el programa al tener el complemento RBG habilitado, es posible que tengas que encontrar y eliminar restos de versiones obsoletas de Razer Synapse.
 
 Si los componentes de Razer son bastante antiguos y no son compatibles con Razer Synapse 3 o superior, sentimos comunicarte que las funciones RGB no son compatibles con Wallpaper Engine.
-
-Si necesitas asistencia con los componentes de Razer, contacta directamente con Razer:
-
-[https://support.razer.com/es-es](https://https://support.razer.com/es-es/)
-
-Si tienes algún problema con el servicio al cliente de Razer, ponte en contacto con nosotros y veremos si podemos ayudar.

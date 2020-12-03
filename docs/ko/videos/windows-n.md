@@ -2,19 +2,19 @@
 
 Windows N은 미디어 기능을 지원하지 않습니다! Windows 버전과 빌드 번호에 맞는 올바른 미디어 기능 팩을 설치해야 합니다:
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Windows 10 최신 버전
+Windows 10의 최신 버전에서는, Windows 설정을 통해 미디어 기능 팩을 설치할 수 있습니다. **Windows Settings**을 연 후 다음 경로로 이동하십시오:
 
-*Apps > Apps and Features > Optional Features > Add a Feature*
+*앱 > 앱 및 기능 > 선택적 기능 > 기능 추가*
 
-A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+사용 가능한 선택적 기능의 목록이 표시됩니다. **미디어 기능 팩**을 찾아 설치한 후 컴퓨터를 재시작하십시오. 추가 도움 및 정보가 필요할 시에는 Microsoft 웹사이트를 방문해주십시오: [Windows 10 N 미디어 기능 팩](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
-#### Outdated Windows 10 (May 2019 update or older):
-Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
+#### 구형 Windows 10 (2019년 5월 업데이트 혹은 이전)
+Windows 10의 구형 버전에서는 자신의 버전과 정확히 일치하는 미디어 기능 팩을 직접 다운로드해야 합니다.
   * [미디어 기능 팩 다운로드](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (Microsoft에서 영어 페이지만 지원합니다)
 
 #### Windows 7:
-  * Windows 7 is not supported by Microsoft anymore. You need update **KB968211** to add media features but Microsoft has removed the download page for it. Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+  * Microsoft는 더 이상 Windows 7을 지원하지 않습니다. 미디어 기능을 추가하려면 **KB968211** 업데이트가 필요하지만, Microsoft에서 해당 업데이트의 다운로드 페이지를 제거하였습니다. Windows 10으로 업그레이드하거나 미디어 기능이 있는 일반 Windows 7를 재설치하십시오.
 
 **x64 및 x86 버전이 설치되어야 합니다.**
 

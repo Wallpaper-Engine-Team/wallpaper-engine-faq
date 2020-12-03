@@ -42,12 +42,22 @@ Corsair iCUE donanımı desteği için lütfen doğrudan Corsair ile iletişime 
 Corsair desteği konusunda herhangi bir sorun yaşarsanız yine bize ulaşabilirsiniz ve size yardımcı olup olamayacağımıza bakabiliriz.
 
 ### Razer
-Yalnızca Razer Synapse 3 veya daha yeni sürümünü destekliyoruz. Razer Synapse 1 veya Razer Synapse 2 kullanıyorsanız bunları tamamen kaldırdığınızdan emin olun ve en güncel Razer Synapse sürümüne yükseltin. Bazı kullanıcılar geçmişte eski Razer Synapse kalıntıları sistemlerinde kaldığı için sorunlar yaşamıştır. Razer Synapse 2 veya daha eski bir sürümü yüklediyseniz ve RGB aydınlatmanızla ilgili sorunlar veya RGB eklentisi etkinleştirildiğinde çökmeler yaşıyorsanız sisteminizdeki eski Razer Synapse sürümlerinin kalıntılarını bulmanız ve silmeniz gerekebilir.
 
-Razer donanımınız eskiyse ve Razer Synapse 3 veya daha yeni sürümünü desteklemiyorsa maalesef ki RGB aydınlatması Wallpaper Engine ile uyumlu değildir.
+Razer RGB donanımıyla ilgili çoğu sorun, Wallpaper Engine kapalıyken Razer yazılım paketinin temiz bir şekilde yeniden yüklenmesi ile çözülebilir:
 
-Razer donanımı desteği için lütfen doğrudan Razer ile iletişime geçin:
+1. Wallpaper Engine'i tamamen kapatın. Bu çok önemli, bu işlemi geçmeyin.
+2. Windows'tan tüm Razer yazılımlarını kaldırın.
+3. Razer Synapse 3'ü tekrar indirin ve kurun.
+4. Bilgisayarınızı yeniden başlatın, Windows'u yeniden başlatmadan Wallpaper Engine'i çalıştırmayın.
+
+Bu işlemin RGB donanımınızla ilgini sorunları çözeceğini göreceksiniz. Razer donanımı ek desteği için lütfen doğrudan Razer ile iletişime geçin:
 
 [support.razer.com](https://support.razer.com/)
 
 Razer desteği konusunda herhangi bir sorun yaşarsanız yine bize ulaşabilirsiniz ve size yardımcı olup olamayacağımıza bakabiliriz.
+
+#### Razer Synapse 2 ve daha eski sürümleri
+
+Yalnızca Razer Synapse 3 veya daha yeni sürümünü destekliyoruz. Razer Synapse 1 veya Razer Synapse 2 kullanıyorsanız bunları tamamen kaldırdığınızdan emin olun ve en güncel Razer Synapse sürümüne yükseltin. Bazı kullanıcılar geçmişte eski Razer Synapse kalıntıları sistemlerinde kaldığı için sorunlar yaşamıştır. Razer Synapse 2 veya daha eski bir sürümü yüklediyseniz ve RGB aydınlatmanızla ilgili sorunlar veya RGB eklentisi etkinleştirildiğinde çökmeler yaşıyorsanız sisteminizdeki eski Razer Synapse sürümlerinin kalıntılarını bulmanız ve silmeniz gerekebilir.
+
+Razer donanımınız eskiyse ve Razer Synapse 3 veya daha yeni sürümünü desteklemiyorsa maalesef ki RGB aydınlatması Wallpaper Engine ile uyumlu değildir.

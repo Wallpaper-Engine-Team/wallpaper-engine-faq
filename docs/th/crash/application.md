@@ -21,15 +21,33 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-หากคุณติดตั้งแอพพลิเคชันป้องกันไวรัส (ยกเว้น Windows Defender) ตรวจสอบให้แน่ใจว่าได้ตั้งข้อยกเว้นสำหรับ Wallpaper Engine ในการตั้งค่าป้องกันไวรัส หากโปรแกรมป้องกันไวรัสของคุณเสียหายหรือถูกล็อกไฟล์บางไฟล์อย่างถาวร คุณอาจต้องติดตั้ง Wallpaper Engine ใหม่
+หากคุณติดตั้งแอพพลิเคชันป้องกันไวรัส (ยกเว้น Windows Defender) ตรวจสอบให้แน่ใจว่าได้ตั้งข้อยกเว้นสำหรับ Wallpaper Engine ในการตั้งค่าป้องกันไวรัส หากโปรแกรมป้องกันไวรัสของคุณเสียหายหรือถูกล็อกไฟล์บางไฟล์อย่างถาวร คุณอาจต้องติดตั้ง Wallpaper Engine ใหม่ ตรวจสอบให้แน่ใจว่าแอพพลิเคชันป้องกันไวรัสของคุณละเว้นไฟล์ไดเรกทอรี *wallpaper_engine* และไฟล์ .exe ทั้งหมด:
+
+* *wallpaper_engine/wallpaper32.exe*
+* *wallpaper_engine/wallpaper64.exe*
+* *wallpaper_engine/launcher.exe*
+* *wallpaper_engine/bin/webwallpaper32.exe*
+* *wallpaper_engine/bin/ui32.exe*
 
 พยายามตรวจสอบไฟล์ Wallpaper Engine ผ่านทาง Steam อยู่เสมอเพื่อให้แน่ใจว่าไฟล์ไม่เสียหาย:
 
 * [ฝ่ายสนับสนุน Steam: ตรวจสอบความถูกต้องของไฟล์แอพพลิเคชัน](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+ในกรณีร้ายแรง คุณอาจต้องถอนการติดตั้ง Wallpaper Engine และลบไดเรกทอรี *wallpaper_engine* ด้วยตนเอง จากนั้นจึงติดตั้งใหม่เมื่อแอพพลิเคชันป้องกันไวรัสของคุณได้รับการกำหนดค่าให้เข้มงวดน้อยลง
+
 ## ความผิดพลาดหลังการไฮเบอร์เนต / โหมดสลีป
 
 หาก Wallpaper Engine ขัดข้องหลังจากการไฮเบอร์เนต Windows แสดงว่า Windows ไม่สามารถกู้คืนไดรเวอร์การ์ดจอและ Wallpaper Engine ได้อย่างถูกต้องในเวลาเดียวกัน การไฮเบอร์เนตของ Windows ไม่ใช่กระบวนการที่เชื่อถือได้ คุณสามารถเปิดใช้งานตัวเลือก **เริ่มต้นอย่างปลอดภัยหลังการไฮเบอร์เนต** ใน Wallpaper Engine เพื่อลดปัญหานี้ ตัวเลือกนี้จะพยายามรีสตาร์ท Wallpaper Engine โดยอัตโนมัติแทนที่จะคาดหวังให้ Windows ทำงานตามปกติหลังการไฮเบอร์เนต
+
+## Wallpaper Engine ขัดข้อง / รหัสข้อผิดพลาด "0xC0000005"
+
+ข้อความแสดงข้อผิดพลาดนี้มักเกิดจาก **แอพพลิเคชันป้องกันไวรัส** หรือ **ความผิดปกติของไดรเวอร์** เป็นไปได้มากว่าแอพพลิเคชันป้องกันไวรัสของคุณเป็นสาเหตุของความผิดพลาดดังกล่าว แม้ว่าแอพพลิเคชันป้องกันไวรัสของคุณจะไม่มีการรายงานก็ตาม โปรดตรวจสอบให้แน่ใจว่าได้ตั้งค่าเพื่อให้ละเว้นไดเร็กทอรีการติดตั้ง *wallpaper_engine* และไฟล์ปฏิบัติการที่สำคัญทั้งหมดของ Wallpaper Engine ดูในส่วน *วิธีแก้ไข Wallpaper Engine หยุดทำงานเบื้องต้น* ด้านบนสำหรับข้อมูลเพิ่มเติม
+
+หากคุณไม่ได้ติดตั้งแอพพลิเคชันป้องกันไวรัส โปรดติดตั้งไดรเวอร์ที่สำคัญทั้งหมดใหม่และลองเปลี่ยนไปใช้ Wallpaper Engine เวอร์ชัน 64-Bit (หรือเวอร์ชัน 32-Bit หากคุณใช้เวอร์ชัน 64-Bit อยู่ก่อนแล้ว)
+
+ในบางครั้งปัญหานี้อาจเกิดจากการที่แอพพลิเคชันอื่นรบกวน Wallpaper Engine อย่างผิดปกติ โดยส่วนใหญ่มักจะเกิดขึ้นกับแอพพลิเคชันที่ "ป้อน" รหัสลงใน Wallpaper Engine หรือเปลี่ยนแปลงการติดตั้ง Windows ของคุณ
+
+!["0xC0000005" ข้อความขัดข้องของ Wallpaper Engine](/img/faq/0xC0000005.png)
 
 ## ความผิดพลาดของ Wallpaper Engine อาจเกิดจากแอพพลิเคชันอื่น
 
@@ -43,7 +61,7 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 นี่เป็นความผิดพลาดของ DirectX ซึ่งมักเกิดจากแอพพลิเคชันป้องกันไวรัสหรือไดรเวอร์การ์ดจอที่เสียหาย ดูส่วนการแก้ไขเบื้องต้นด้านบนสำหรับข้อมูลเพิ่มเติม นอกจากนี้ยังอาจเกิดจากความเสียหายของส่วนประกอบของระบบ ใช้เครื่องมือตรวจสอบไฟล์ระบบ Microsoft เพื่อซ่อมแซมไฟล์ Windows ที่อาจเสียหาย:
 
-* [เครื่องมือตรวจสอบไฟล์ระบบ Microsoft](https://support.microsoft.com/th-th/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [เครื่องมือตรวจสอบไฟล์ระบบ Microsoft](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
@@ -79,27 +97,27 @@ Wallpaper Engine เป็นซอฟต์แวร์ที่มีการ
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+ข้อขัดข้องประเภทนี้เกิดจาก Razer Chroma ซึ่งเป็นส่วนหนึ่งของ **Razer Synapse** โดยปกติแล้วจะเกิดจากการติดตั้ง Razer Synapse ที่ผิดพลาด การติดตั้ง Razer Synapse ใหม่ทั้งหมดจะแก้ไข "ข้อขัดข้อง" ประเภทนี้ได้เป็นส่วนมาก:
 
-**Clean reinstallation of all Razer software**
+**การติดตั้งซอฟต์แวร์ Razer ใหม่ทั้งหมด**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+ตรวจสอบให้แน่ใจว่า Wallpaper Engine ปิดอยู่ในขณะที่ติดตั้ง Razer Synapse ใหม่
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. ปิด Wallpaper Engine ลงอย่างสมบูรณ์หากโปรแกรมกำลังทำงานอยู่ (คลิกขวาที่ไอคอนในแถบ Windows จากนั้นเลือก **ออกจากโปรแกรม**)
+2. ถอนการติดตั้งซอฟต์แวร์ Razer ทั้งหมดจากคอมพิวเตอร์ของคุณผ่านทาง Windows
+3. ดาวน์โหลดชุดซอฟต์แวร์ Razer เวอร์ชันล่าสุดจากเว็บไซต์และทำการติดตั้ง:
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [ดาวน์โหลด Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. จากนั้นรีสตาร์ทคอมพิวเตอร์โดยไม่ต้องรีสตาร์ท Wallpaper Engine
 
-**Reinstallation does not fix the problem**
+**ปัญหายังคงอยู่หลังการติดตั้งใหม่**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+หากปัญหายังคงอยู่หลังการติดตั้ง Razer Synapse ใหม่ อาจเป็นปัญหาพื้นฐานของ Razer Synapse เอง ในอดีตปัญหานี้เกิดจากการอัปเดต Razer Synapse ที่ผิดพลาด โปรดลองปิดปลั๊กอิน LED (*"iCUE & Chroma SDK"*) ในแท็บ **ปลั๊กอิน** ของการตั้งค่า Wallpaper Engine จนกว่าปัญหานี้จะได้รับการแก้ไขจากการอัพเดต Razer Synapse ในอนาคต
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+หากยังคงพบข้อขัดข้องแม้จะติดตั้ง Razer Synapse ใหม่ทั้งหมดแล้ว โปรดติดต่อฝ่ายสนับสนุนของ Razer โดยตรงและแจ้งให้ทราบเกี่ยวกับข้อขัดข้องที่พบ หากฝ่ายสนับสนุนไม่สามารถช่วยเหลือได้ โปรดติดต่อเราเพื่อรับการสนับสนุนทางเทคนิค เราสามารถตรวจสอบข้อขัดข้องเหล่านี้และส่งข้อมูลที่พบไปยังทีมพัฒนา Razer Synapse เช่นกัน ทั้งนี้ Razer ควรเป็นผู้ติดต่อหลักสำหรับคุณเมื่อพบข้อขัดข้องนี้
 
 ### MMDEvAPI.dll
 

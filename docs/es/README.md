@@ -1,5 +1,5 @@
 # Guía de solución de problemas y preguntas frecuentes de Wallpaper Engine
-Si tienes problemas técnicos o tienes preguntas acerca de Wallpaper Engine, aquí encontrarás la respuesta. El 95 % de las preguntas y los problemas que recibimos son los mismos, así que es muy probable que ya tengamos la solución.
+Si tienes problemas técnicos o alguna pregunta acerca de Wallpaper Engine, probablemente aquí encontrarás la respuesta. El 95 % de las preguntas y los problemas que recibimos son los mismos, así que es muy probable que ya tengamos la solución.
 
 **Usa el buscador de la esquina superior derecha** o echa un vistazo a la lista de artículos a la izquierda. Los hemos clasificado para que tengan sentido. Además, hemos hecho una lista de los artículos que se consultan con más frecuencia, así que puedes comprobar si el problema aparece ahí.
 

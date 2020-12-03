@@ -21,15 +21,33 @@ Si vous ne savez pas ce qui provoque le crash de Wallpaper Engine, nous vous con
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Si un antivirus est installé (à l'exception de Windows Defender), assurez-vous de configurer une exception pour Wallpaper Engine dans vos paramètres. Une réinstallation de Wallpaper Engine est parfois nécessaire si votre antivirus a corrompu ou verrouillé certains fichiers.
+Si un antivirus est installé (à l'exception de Windows Defender), assurez-vous de configurer une exception pour Wallpaper Engine dans vos paramètres. Une réinstallation de Wallpaper Engine est parfois nécessaire si votre antivirus a corrompu ou verrouillé certains fichiers. Vérifiez que votre application antivirale ignore le répertoire *wallpaper_engine* et surtout tous les fichiers ".exe" :
+
+* *wallpaper_engine/wallpaper32.exe*
+* *wallpaper_engine/wallpaper64.exe*
+* *wallpaper_engine/launcher.exe*
+* *wallpaper_engine/bin/webwallpaper32.exe*
+* *wallpaper_engine/bin/ui32.exe*
 
 Essayez également de vérifier l'intégrité de Wallpaper Engine grâce à Steam :
 
 * [Steam : vérifier l'intégrité des fichiers d'un jeu](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+Dans les cas les plus extrêmes, il est possible que vous ayez besoin de désinstaller Wallpaper Engine et de supprimer manuellement le répertoire *wallpaper_engine*, puis de réinstaller l'application lorsque l'antivirus aura été configuré pour être moins restrictif.
+
 ## Plantage après la mise en veille
 
 Si Wallpaper Engine se bloque après la mise en veille prolongée de Windows, c'est que Windows ne parvient pas à restaurer correctement les pilotes de votre carte graphique avec Wallpaper Engine. La mise en veille prolongée de Windows n'est pas fiable. Activez l'option **"Lancement sécurisé après la mise en veille prolongée"** de Wallpaper Engine pour régler ce problème. Cette option tentera de redémarrer automatiquement Wallpaper Engine après la mise en veille prolongée.
+
+## Wallpaper Engine has crashed / Code erreur "0xC0000005"
+
+Ce message d'erreur est généralement toujours causé par des **applications antivirus** ou des **pilotes défectueux**. Si vous utilisez une application antivirus, il est très probable que celle-ci soit responsable de ce plantage, même si aucune activité n'a été signalée par votre antivirus. Veillez à configurer l'application antivirus pour que celle-ci ignore le répertoire d'installation *wallpaper_engine* et tous les fichiers ". exe" importants de Wallpaper Engine. Voir la section *Réparations rapides en cas de plantage de Wallpaper Engine* ci-dessous pour obtenir plus de renseignements.
+
+Si vous n'avez pas d'application antivirus installée, veuillez réinstaller tous les pilotes importants et essayer de passer à la version 64 bits de Wallpaper Engine (ou la version 32 bits si vous avez déjà utilisé la version 64 bits).
+
+Dans certains cas, ce problème peut également être causé par d'autres applications qui entrent en conflit avec Wallpaper Engine. Il s'agit généralement d'applications qui "injectent" du code dans Wallpaper Engine ou qui modifient votre installation de Windows de manière importante.
+
+!["0xC0000005" - Message de plantage de Wallpaper Engine](/img/faq/0xC0000005.png)
 
 ## Wallpaper a planté à cause d'une autre application
 
@@ -43,7 +61,7 @@ Il s'agit d'un crash dans le noyau de Windows. C'est généralement dû à un an
 
 Il s'agit d'un crash de DirectX. C'est généralement dû à un antivirus ou à des pilotes de carte graphique corrompus. Nous vous renvoyons à la section sur les réparations rapides pour plus d'informations. Ce problème peut également être causé par des composants système corrompus. Utilisez le vérificateur des fichiers système Microsoft pour trouver de potentiels fichiers corrompus :
 
-* [Vérificateur des fichiers système Microsoft](https://support.microsoft.com/fr-fr/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Vérificateur des fichiers système Microsoft](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
@@ -81,27 +99,26 @@ Les pilotes Intel de votre système ont un problème. Rendez-vous sur le site In
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+Ces types de plantages sont causés par Razer Chroma qui fait partie de **Razer Synapse**. Généralement, une mauvaise installation de Razer Synapse en est la cause. Dans la plupart des cas, il suffit de réinstaller correctement Razer Synapse pour régler le problème :
 
-**Clean reinstallation of all Razer software**
+**Réinstallation propre de tous les logiciels de Razer**
 
-::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+::: avertissement Veillez à ce que Wallpaper Engine soit désactivé pendant la réinstallation de Razer Synapse.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. Désactivez complètement Wallpaper Engine lorsque l'application est en cours d'exécution (faites un clic droit sur l'icône de la barre d'état de Windows, puis sélectionnez **Quitter**)
+2. Désinstallez tous les logiciels Razer de votre ordinateur via Windows
+3. Rendez-vous sur le site Internet de Razer pour y télécharger la version la plus récente de la suite de logiciels, puis installez-la :
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Téléchargez Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. Ensuite, redémarrez votre ordinateur sans relancer préalablement Wallpaper Engine.
 
-**Reinstallation does not fix the problem**
+**La réinstallation ne règle pas le problème**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+Si une réinstallation de Razer Synapse n'arrange pas la situation, il y a peut-être un problème sous-jacent avec Razer Synapse. Certaines causes de ces plantages se sont avérées être des mises à jour défectueuses de Razer Synapse. Essayez de désactiver le plug-in LED (*"iCUE & Chroma SDK"*) via l'onglet **Plug-ins** des paramètres de Wallpaper Engine, et ce, jusqu'à ce que le problème soit réglé lors d'une future mise à jour de Razer Synapse.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Si les plantages continuent, même après une installation propre de Razer Synapse, veuillez directement contacter les membres de l'équipe d'assistance de Razer pour les informer de ces crashs. S'ils ne sont pas en mesure de vous aider, veuillez nous contacter : nous examinerons ces plantages et transmettront également nos conclusions à l'équipe de développement de Razer Synapse (même si Razer doit être votre interlocuteur principale dans ce genre de situation).
 
 ### MMDEvAPI.dll
 
