@@ -2,21 +2,21 @@
 
 Windows N no viene con funciones multimedia. Tendrás que instalar el Paquete de características multimedia correcto para tu versión:
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Últimas versiones de Windows 10
+En versiones actualizadas de Windows 10, puedes instalar el "Media Feature Pack" a través de la configuración de Windows. Abre la **Configuración de Windows**. después navega hasta el siguiente menú:
 
-*Apps > Apps and Features > Optional Features > Add a Feature*
+*Aplicaciones > Aplicaciones y características > Características Opcionales > Añadir una característica*
 
-A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+Aparecerá una lista de características opcionales, busca "**Media Feature Pack**" en la lista de Características Opcionales disponibles, instálala y posteriormente reinicia tu ordenador. Para obtener ayuda e información adicional sobre esto, por favor visita la web de Microsoft: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
-#### Outdated Windows 10 (May 2019 update or older):
-Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
-  * [Paquete de características multimedia](https://www.microsoft.com/en-us/software-download/mediafeaturepack).
+#### Versiones desactualizadas de Windows 10 (actualización de Mayo 2019 o anteriores):
+Versiones anteriores de Windows 10 requieren que descargues manualmente el "Media Feature Pack" para tu versión exacta de Windows 10:
+  * [Media Feature Pack Download](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (página de Microsoft solo disponible en inglés)
 
 #### Windows 7:
-  * Windows 7 is not supported by Microsoft anymore. You need update **KB968211** to add media features but Microsoft has removed the download page for it. Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+  * Windows 7 ya no recibe soporte por parte de Microsoft. Necesitas la actualización **KB968211** para añadir características multimedia ("Media Feature Pack"), pero Microsoft ha quitado la página de descarga de la misma. Prueba actualizando a Windows 10 o reinstalando una versión normal de Windows 7 con características multimedia.
 
-**Instala las dos versiones: x64 y x86.**
+**Asegúrate de Instalar las dos versiones: x64 y x86.**
 
 Si todavía aparece el mismo error, **es que has instalado la versión incorrecta**. Instala la versión correspondiente y reinicia el equipo. Si todavía no funciona y falta el mismo archivo, es probable que los archivos del sistema estén dañados. Restáuralo a un estado anterior o vuelve a instalar Windows.
 
