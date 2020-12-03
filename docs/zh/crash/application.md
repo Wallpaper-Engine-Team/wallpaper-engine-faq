@@ -21,15 +21,33 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-如果安装了防病毒应用程序（Windows Defender 除外），请务必在防病毒设置中为 Wallpaper Engine 设置例外。 如果防病毒软件永久损坏或锁定了某些文件，则此后有时必须重新安装 Wallpaper Engine。
+如果安装了防病毒应用程序（Windows Defender 除外），请务必在防病毒设置中为 Wallpaper Engine 设置例外。 如果防病毒软件永久损坏或锁定了某些文件，则此后有时必须重新安装 Wallpaper Engine。 请确保您的防病毒应用程序忽略了 *wallpaper_engine* 目录，特别是所有的 .exe 文件：
+
+* *wallpaper_engine/wallpaper32.exe*
+* *wallpaper_engine/wallpaper64.exe*
+* *wallpaper_engine/launcher.exe*
+* *wallpaper_engine/bin/webwallpaper32.exe*
+* *wallpaper_engine/bin/ui32.exe*
 
 此外，请务必尝试通过 Steam 验证 Wallpaper Engine 文件，以确保其完好无损：
 
 * [Steam 支持：验证应用程序文件的完整性](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+在严重的情况下，您可能需要卸载 Wallpaper Engine，并手动删除 *wallpaper_engine* 目录，然后在将防病毒应用程序配置为不那么严格之后，重新安装 Wallpaper Engine。
+
 ## 休眠/睡眠后崩溃
 
 如果 Wallpaper Engine 在 Windows 休眠后崩溃，则 Windows 无法正确地同时还原显卡驱动程序和 Wallpaper Engine。 Windows 中的休眠并非可靠的进程。 您可以在 Wallpaper Engine 中启用**休眠后安全启动**选项，以缓解此问题。 此选项将尝试自动重新启动 Wallpaper Engine，而不是期望 Windows 在休眠后正常工作。
+
+## Wallpaper Engine 已崩溃/错误代码“0xC0000005”
+
+此错误消息几乎总是由**防病毒应用程序**或**驱动程序故障**导致。 如果您使用防病毒应用程序，那么即使该防病毒应用程序未报告任何活动，它也很可能是导致这种崩溃的原因。 请务必对防病毒应用程序进行配置，使其忽略 *wallpaper_engine* 安装目录以及 Wallpaper Engine 所有重要的可执行文件。 有关更多详细信息，请参阅上方的 *Wallpaper Engine 崩溃快速修复尝试*部分。
+
+如果未安装防病毒应用程序，请重新安装所有重要的驱动程序，然后尝试切换到 64 位版本的 Wallpaper Engine（如果已经使用过 64 位版本，则尝试切换到 32 位版本）。
+
+在某些情况下，导致这种崩溃的原因还可能是其他应用程序以异常方式干扰了 Wallpaper Engine。 这主要与将代码注入 Wallpaper Engine 或以某种方式显着改变 Windows 安装的应用程序有关。
+
+!["0xC0000005" Wallpaper Engine 崩溃消息](/img/faq/0xC0000005.png)
 
 ## Wallpaper Engine 崩溃可能由其他应用程序导致
 
@@ -43,7 +61,7 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 这是 DirectX 中发生的崩溃，通常由防病毒应用程序或损坏的显卡驱动程序导致。 有关更多信息，请参阅上方快速修复部分。 系统组件损坏也可能导致这种崩溃。 使用 Microsoft 系统文件检查器工具，修复可能损坏的 Windows 文件：
 
-* [Microsoft 系统文件检查器工具](https://support.microsoft.com/zh-cn/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft 系统文件检查器工具](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
@@ -81,27 +99,27 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+这些类型的崩溃由属于 **Razer Synapse** 的一部分的 Razer Chroma 导致。 通常由 Razer Synapse 安装故障引起。 在大多数情况下，执行 Razer Synapse 的全新安装即可修复这些类型的崩溃：
 
-**Clean reinstallation of all Razer software**
+**所有 Razer 软件的全新安装**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+重新安装 Razer Synapse 时，请务必确保已关闭 Wallpaper Engine。
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. 如果 Wallpaper Engine 正在运行，请将其完全关闭（右键单击 Windows 托盘中的图标，然后选择**退出**）
+2. 通过 Windows 卸载计算机上的所有 Razer 软件
+3. 从 Razer 网站上下载 Razer 软件套件的最新版本并进行安装：
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [下载 Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. 然后重新启动计算机，此前不要重新启动 Wallpaper Engine。
 
-**Reinstallation does not fix the problem**
+**重新安装无法解决问题**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+如果重新安装 Razer Synapse 无法解决问题，则 Razer Synapse 本身可能存在潜在问题，Razer Synapse 更新故障曾经导致过此类崩溃。 尝试在 Wallpaper Engine 设置的**插件**选项卡中关闭 LED 插件（*“iCUE & Chroma SDK”*），直到未来的 Razer Synapse 更新解决此问题为止。
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+如果即使执行了 Razer Synapse 的全新安装，崩溃依然存在，请直接联系 Razer 支持部门并告知有关崩溃的信息。 如果他们无法提供帮助，请与我们联系以获取技术支持，我们可以调查这些崩溃，并将调查结果转呈 Razer Synapse 开发团队，尽管 Razer 应该是此类特定崩溃的主要联系人。
 
 ### MMDEvAPI.dll
 
