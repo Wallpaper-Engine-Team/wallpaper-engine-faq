@@ -2,19 +2,19 @@
 
 Windows N ไม่ได้มาพร้อม Media Feature! คุณต้องติดตั้ง Media Feature Pack ที่ถูกต้องสำหรับ Windows เวอร์ชันที่ระบุและหมายเลขรุ่นของคุณ:
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Windows 10 เวอร์ชันล่าสุด
+คุณสามารถติดตั้ง Media Feature Pack ผ่านการตั้งค่า Windows ได้ใน Windows 10 เวอร์ชันล่าสุด เปิด **การตั้งค่า Windows** จากนั้นไปที่ตำแหน่งต่อไปนี้:
 
-*Apps > Apps and Features > Optional Features > Add a Feature*
+*แอป (Apps) > แอปและคุณสมบัติ (Apps and Features) > คุณสมบัติเสริม (Optional Features) > เพิ่มคุณสมบัติ (Add a Feature)*
 
-A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+รายการคุณสมบัติเสริมจะปรากฏขึ้น ให้ค้นหา **Media Feature Pack** ในรายการคุณสมบัติเสริมที่มีให้ จากนั้นจึงติดตั้งและรีสตาร์ทคอมพิวเตอร์ หากต้องการความช่วยเหลือและข้อมูลเพิ่มเติม โปรดเยี่ยมชมเว็บไซต์ของ Microsoft: [Media Feature Pack สำหรับ Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019)
 
-#### Outdated Windows 10 (May 2019 update or older):
-Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
+#### Windows 10 ที่ล้าสมัย (อัพเดตพฤษภาคม 2019 หรือเก่ากว่า):
+หากคุณใช้ Windows 10 เวอร์ชันเก่า คุณต้องดาวน์โหลด Media Feature Pack ที่ตรงกับเวอร์ชัน Windows 10 ของคุณด้วยตนเอง:
   * [ดาวน์โหลด Media Feature Pack](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (Microsoft จะแสดงหน้าเว็บเป็นภาษาอังกฤษเท่านั้น)
 
 #### Windows 7:
-  * Windows 7 is not supported by Microsoft anymore. You need update **KB968211** to add media features but Microsoft has removed the download page for it. Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+  * Microsoft ไม่รองรับ Windows 7 อีกต่อไป คุณต้องอัพเดต **KB968211** เพื่อเพิ่ม Media Feature แต่ Microsoft ได้ลบหน้าดาวน์โหลดออกไปแล้ว โปรดอัปเกรดเป็น Windows 10 หรือติดตั้ง Windows 7 แบบมาตรฐานใหม่พร้อมกับ Media Feature
 
 **ตรวจสอบให้แน่ใจว่าติดตั้งเวอร์ชัน x64 และ x86**
 
