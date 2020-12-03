@@ -2,19 +2,19 @@
 
 Windows N не поддерживает воспроизведение мультимедиа! Установите пакет Media Feature Pack, который подходит версии и номеру сборки вашей системы:
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Последние версии Windows 10
+В последних версиях Windows 10 вы можете установить Media Feature Pack в параметрах Windows. Откройте **Параметры Windows**, затем перейдите в следующие разделы:
 
-*Apps > Apps and Features > Optional Features > Add a Feature*
+*Приложения > Приложения и возможности > Дополнительные возможности (Дополнительные компоненты) > Добавить компонент*
 
-A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+Откроется список дополнительных компонентов. Найдите в нем **Media Feature Pack**, установите компонент и перезагрузите компьютер. Для получения дополнительной информации посетите сайт Microsoft: [Media Feature Pack для Windows 10 N](https://support.microsoft.com/ru-ru/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
-#### Outdated Windows 10 (May 2019 update or older):
-Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
+#### Устаревшие версии Windows 10 (обновление от мая 2019 г. и ранее)
+Более старые версии Windows 10 требуют, чтобы вы вручную загрузили Media Feature Pack конкретно для вашей версии Windows 10:
   * [Скачать Media Feature Pack](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (Microsoft предоставляет информацию на странице только на английском)
 
 #### Windows 7:
-  * Windows 7 is not supported by Microsoft anymore. You need update **KB968211** to add media features but Microsoft has removed the download page for it. Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+  * Windows 7 более не поддерживается Microsoft. Чтобы добавить мультимедийные функции, вам необходимо обновление **KB968211**, однако Microsoft удалили его страницу загрузки. Попробуйте обновить систему до Windows 10 или переустановите Windows 7 с мультимедийными функциями.
 
 **Необходимо установить пакеты для обеих версий: x64 и x86.**
 
