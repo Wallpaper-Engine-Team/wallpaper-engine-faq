@@ -73,14 +73,14 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 ```
 
 * **file：** 要打开的壁纸的 project.json 的路径，或壁纸文件的直接路径 (.mp4 etc)。
-* **location*（可选）*：** 显示器内部标识符。 它们由您的 PC 生成，可在 config.json 文件中找到。
-* **monitor*（可选）*：** 要加载壁纸的显示器的索引，以 0 开头。
-* **preset*（可选）*：** 要加载的本地预设的名称，您必须已经事先创建并保存该本地预设。
-* **playInWindow*（可选）*：** 如果您想在一个窗口中打开/控制多款壁纸，则为该窗口的名称。
-  * **width* （可选）*：** 窗口宽度。
-  * **height* （可选）*：** 窗口高度。
-  * **x* （可选）*：** 窗口的水平位置。
-  * **y* （可选）*：** 窗口的垂直位置。
+* **location* （可选） *：** 显示器内部标识符。 它们由您的 PC 生成，可在 config.json 文件中找到。
+* **monitor* （可选） *：** 要加载壁纸的显示器的索引，以 0 开头。
+* **preset* （可选） *：** 要加载的本地预设的名称，您必须已经事先创建并保存该本地预设。
+* **playInWindow* （可选） *：** 如果您想在一个窗口中打开/控制多款壁纸，则为该窗口的名称。
+  * **width* （可选） *：** 窗口宽度。
+  * **height* （可选） *：** 窗口高度。
+  * **x* （可选） *：** 窗口的水平位置。
+  * **y* （可选） *：** 窗口的垂直位置。
 
 ### 下一张壁纸
 
@@ -98,8 +98,8 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control closeWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location* （可选）*：** 显示器内部标识符或您指定的窗口名称。
-* **monitor* （可选）*：** 要关闭壁纸的显示器的索引，以 0 开头。
+* **location* （可选） *：** 显示器内部标识符或您指定的窗口名称。
+* **monitor* （可选） *：** 要关闭壁纸的显示器的索引，以 0 开头。
 
 ### 打开播放列表
 
@@ -110,8 +110,8 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 ```
 
 * **playlist：** 您已创建并保存在 Wallpaper Engine 中的播放列表的名称。
-* **location* （可选）*：** 显示器内部标识符。 它们由您的 PC 生成，可在 config.json 文件中找到。
-* **monitor* （可选）*：** 要加载播放列表的显示器的索引，以 0 开头。
+* **location* （可选） *：** 显示器内部标识符。 它们由您的 PC 生成，可在 config.json 文件中找到。
+* **monitor* （可选） *：** 要加载播放列表的显示器的索引，以 0 开头。
 
 ### 应用壁纸设置
 
@@ -122,8 +122,8 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 ```
 
 * **properties：** 定义为要应用的 **JSON** 字符串的属性。 必须以 `RAW~(` 和 `)~END` 为分隔符对该字符串进行特殊转义，请参阅下方的示例！
-* **location* （可选）*：** 显示器内部标识符或您指定的窗口名称。
-* **monitor* （可选）*：** 要更新属性的显示器的索引，以 0 开头。
+* **location* （可选） *：** 显示器内部标识符或您指定的窗口名称。
+* **monitor* （可选） *：** 要更新属性的显示器的索引，以 0 开头。
 
 将名为 `rate` 的壁纸设置更改为 10 的示例：
 
