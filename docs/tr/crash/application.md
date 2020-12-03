@@ -21,21 +21,39 @@ Wallpaper Engine'i neyin çöktürdüğünden emin değilseniz lütfen grafik ka
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Bilgisayarınızda Windows Defender haricinde bir antivirüs programı yüklüyse antivirüs ayarlarınızda Wallpaper Engine için istisna oluşturmayı unutmayın. Antivirüs programınız geçici olarak bozuksa ya da bazı dosyaları kilitlediyse Wallpaper Engine'in bundan sonra yeniden yüklenmesi gerekebilir.
+Bilgisayarınızda Windows Defender haricinde bir antivirüs programı yüklüyse antivirüs ayarlarınızda Wallpaper Engine için istisna oluşturmayı unutmayın. Antivirüs programınız geçici olarak bozuksa ya da bazı dosyaları kilitlediyse Wallpaper Engine'in bundan sonra yeniden yüklenmesi gerekebilir. Antivirüs uygulamanızın *wallpaper_engine* dizinini ve özellikle tüm .exe dosyalarını yok saydığından emin olun:
+
+* *wallpaper_engine/wallpaper32.exe*
+* *wallpaper_engine/wallpaper64.exe*
+* *wallpaper_engine/launcher.exe*
+* *wallpaper_engine/bin/webwallpaper32.exe*
+* *wallpaper_engine/bin/ui32.exe*
 
 Bozulmamaları için Wallpaper Engine dosyalarınızı her zaman steam üzerinden doğrulamaya çalışın:
 
-* [Steam Desteği: Uygulama Dosyalarının Bütünlüğünü Doğrulama](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam Desteği: Uygulama Dosyalarının Bütünlüğünü Doğrulayın](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+
+Ciddi durumlarda, Wallpaper Engine'i kaldırmanız ve *wallpaper_engine* dizinini manuel olarak silmeniz ve ardından antivirüs uygulamanız daha esnek olacak şekilde yapılandırıldıktan sonra uygulamayı yeniden yüklemeniz gerekebilir.
 
 ## Hazırda Bekletme / Uyku modundan sonra çökme
 
 Wallpaper Engine, Windows hazırda bekletme modundan sonra çöküyorsa Windows, grafik kartı sürücülerinizi ve Wallpaper Engine'ini doğru bir şekilde geri yükleyemiyordur. Windows hazırda bekletme güvenilir bir işlem değildir. Bu sorunu hafifletmek için Wallpaper Engine'deki **Uykudan sonra güvenli başlangıç** seçeneğini etkinleştirebilirsiniz. Bu seçenek, Windows'un hazırda bekletmeden sonra düzgün çalışmasını beklemek yerine Wallpaper Engine'i otomatik olarak yeniden başlatmayı deneyecektir.
 
+## Wallpaper Engine çöktü / Hata kodu "0xC0000005"
+
+Bu hata mesajı neredeyse her zaman **antivirüs uygulamaları** veya **hatalı sürücüler** nedeniyle oluşur. Bir antivirüs uygulaması kullanıyorsanız antivirüs uygulamanız tarafından herhangi bir etkinlik raporlanmamış olsa bile çökmenin neden yüksek ihtimalle budur. Lütfen yapılandırdığınızdan emin olun ve *wallpaper_engine* yükleme dizini ile diğer tüm önemli Wallpaper Engine yürütülebilir dosyalarını yoksaymasını sağlayın. Daha detaylı bilgi için yukarıdaki *Wallpaper Engine Çökmesi Hızlı Çözüm Denemesi* bölümüne göz atın.
+
+Yüklü bir antivirüs uygulamanız yoksa lütfen tüm önemli sürücüleri yeniden yükleyin ve Wallpaper Engine'in 64 Bit sürümüne (veya 64 Bit sürümünü zaten kullandıysanız 32 Bit sürümüne) geçmeyi deneyin.
+
+Bazı durumlarda bunun kaynağı Wallpaper Engine'e olağan dışı bir şekilde müdahale eden diğer uygulamalar da olabilir. Bu, esas olarak Wallpaper Engine'e kod ekleyen veya Windows kurulumunuzu önemli ölçüde değiştiren uygulamalarla ilgilidir.
+
+!["0xC0000005" Wallpaper Engine çökme mesajı](/img/faq/0xC0000005.png)
+
 ## Wallpaper Engine'in çökmesine muhtemelen başka bir uygulama sebep oldu
 
 ### KERNELBASE.dll / ntdll.dll
 
-Bu çökme Windows çekirdeğinin kendisinde gerçekleşmiştir. Bu çökmeye çoğunlukla antivirüs programları ya da bozuk grafik kartı sürücüleri sebep olur. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft Sistem Dosya Denetleyicisi aracını kullanın:
+Bu çökme Windows çekirdeğinin kendisinde gerçekleşmiştir. Bu çökmeye çoğunlukla antivirüs programları ya da bozuk grafik kartı sürücüleri sebep olur. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
 
 * [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/tr-tr/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
@@ -43,7 +61,7 @@ Bu çökme Windows çekirdeğinin kendisinde gerçekleşmiştir. Bu çökmeye ç
 
 Bu çökme DirectX'te meydana gelir ve genellikle antivirüs uygulamalarından ya da bozuk grafik kartı sürücülerinden kaynaklanır. Daha fazla bilgi için yukarıdaki hızlı çözüm bölümüne bakabilirsiniz. Ayrıca buna bozuk sistem bileşenleri de sebep olmuş olabilir. Bozuk olabilecek Windows dosyalarını onarmak için Microsoft System File Checker aracını kullanın:
 
-* [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/tr-tr/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft Sistem Dosya Denetleyicisi Aracı](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
@@ -81,27 +99,27 @@ Sisteminizdeki Intel graphics sürücüleri çöküyor. Intel internet sitesine 
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+Bu tür çökmelere, **Razer Synapse** içerisindeki Razer Chroma sebep olur. Genellikle bunun nedeni Razer Synapse'in hatalı kurulumudur. Çoğu durumda Razer Synapse'in temiz şekilde yeniden yüklenmesi bu tür çökmeleri düzeltir:
 
-**Clean reinstallation of all Razer software**
+**Tüm Razer yazılımının temiz şekilde yeniden yüklenmesi**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+Razer Synapse'i yeniden yüklerken Wallpaper Engine'in kapalı olduğundan emin olun.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. Çalışır durumdaysa Wallpaper Engine'i tamamen kapatın (Windows tepsisindeki simgenin üzerine sağ tıklayın ve sonra **Çık** seçeneğini seçin)
+2. Windows aracılığıyla bilgisayarınızdaki tüm Razer yazılımlarını kaldırın
+3. Razer'in yazılım paketinin en son sürümünü internet sitelerinden indirin ve kurun:
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Razer Synapse 3'ü indirin](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. Daha sonra Wallpaper Engine'i öncesinde yeniden başlatmadan bilgisayarınızı yeniden başlatın.
 
-**Reinstallation does not fix the problem**
+**Yeniden kurulum sorunu çözmüyor**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+Sorun, Razer Synapse'in yeniden kurulmasıyla da çözülmüyorsa Razer Synapse'ın kendisiyle ilgili bir sorun olabilir. Geçmişte buna hatalı Razer Synapse güncellemeleri sebep olmuştur. Bu sorun gelecekteki bir Razer Synapse güncellemesinde çözülene kadar Wallpaper Engine ayarlarındaki **Eklentiler** sekmesinden LED Eklentisini (*"iCUE & Chroma SDK"*) kapatmayı deneyin.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Razer Synapse, temiz bir şekilde yeniden kurulduktan sonra bile çökmeler devam ediyorsa lütfen Razer destek birimiyle iletişime geçin ve onları çökmeler konusunda bilgi verin. Yardımcı olamıyorlarsa lütfen teknik destek için bize ulaşın. Bu spesifik çöküş konusunda Razer ana iletişim kişisi olsa da bu çökmeleri inceleyebilir ve bulgularımızı Razer Synapse geliştirme ekibine de iletebiliriz.
 
 ### MMDEvAPI.dll
 
