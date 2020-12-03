@@ -21,15 +21,33 @@ Wallpaper Engine 작동 중단의 원인을 알 수 없다면, 그래픽 카드 
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-바이러스 백신 응용프로그램이 설치되었으면(Windows 방화벽 제외), 바이러스 백신 설정에서 Wallpaper Engine을 제외하세요. 바이러스 백신이 일부 파일을 영구 손상시키거나 잠그면, 이 과정 후 Wallpaper Engine의 재설치가 필요하기도 합니다.
+바이러스 백신 응용프로그램이 설치되었으면(Windows 방화벽 제외), 바이러스 백신 설정에서 Wallpaper Engine을 제외하세요. 바이러스 백신이 일부 파일을 영구 손상시키거나 잠그면, 이 과정 후 Wallpaper Engine의 재설치가 필요하기도 합니다. 바이러스 백신 프로그램의 무시 목록에 *wallpaper_engine*의 디렉터리, 그 중에서도 특히 모든 .exe 파일을 반드시 추가해야 합니다.
+
+* *wallpaper_engine/wallpaper32.exe*
+* *wallpaper_engine/wallpaper64.exe*
+* *wallpaper_engine/launcher.exe*
+* *wallpaper_engine/bin/webwallpaper32.exe*
+* *wallpaper_engine/bin/ui32.exe*
 
 항상 Steam을 통해 Wallpaper Engine 파일 손상 여부를 확인하세요:
 
-* [Steam 지원: 응용프로그램 파일의 무결성 확인](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam 지원: 응용 프로그램 파일 결합 확인](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+
+심각한 경우에는, Wallpaper Engine을 제거하고 *wallpaper_engine* 디렉터리를 직접 삭제한 다음, 바이러스 백신 프로그램의 설정을 완화한 후 재설치해야 할 수도 있습니다.
 
 ## 최대 절전 / 취침 모드 후 작동 중단
 
 Windows 최대 절전 모드 후 Wallpaper Engine이 작동 중단되면, Windows에서 그래픽 카드 드라이버와 Wallpaper Engine을 함께 제대로 복구할 수 없습니다. Windows의 최대 절전 모드는 안정적인 프로세스가 아닙니다. Wallpaper Engine에서 **최대 절전 모드 후 안전 모드** 옵션을 사용하여 이 문제를 완화할 수 있습니다. 이 옵션은 Windows가 최대 절전 모드 후 제대로 작동하기를 기대하는 대신 Wallpaper Engine을 자동으로 다시 시작합니다.
+
+## Wallpaper Engine has crashed / 오류 코드 "0xC0000005"
+
+이 오류 코드의 원인은 대부분의 경우 **바이러스 백신 프로그램** 또는 **드라이버 오류**입니다. 바이러스 백신 프로그램을 사용하고 있다면, 아무런 활동 보고가 없었다고 해도 해당 프로그램이 원인일 가능성이 매우 높습니다. *wallpaper_engine*이 설치된 디렉터리와 Wallpaper Engine의 주요 실행 파일을 전부 무시하도록 설정해주세요. 자세한 정보는 위에 있는 *Wallpaper Engine 작동 중단 빠른 해결 시도* 항목에서 확인하세요.
+
+만약 바이러스 백신 프로그램이 설치되어 있지 않다면, 주요 드라이버를 전부 재설치한 후 Wallpaper Engine을 64비트 버전으로 변경하세요. (이미 64비트 버전을 사용 중이었다면 32비트로 변경하세요)
+
+또한, 다른 응용 프로그램이 Wallpaper Engine을 예기치 못한 방법으로 방해하는 경우에도 발생할 수 있습니다. 주로 Wallpaper Engine에 코드를 주입하거나 Windows 설치를 크게 변경하는 응용 프로그램에서 나타납니다.
+
+!["0xC0000005" Wallpaper Engine 작동 중단 메시지](/img/faq/0xC0000005.png)
 
 ## Wallpaper Engine 때문에 다른 응용프로그램이 작동 중단된 것 같습니다
 
@@ -43,7 +61,7 @@ Windows 커널 코어의 자체 작동 중단으로, 일반적으로 바이러�
 
 DirectX의 작동 중단으로, 일반적으로 바이러스 백신 응용프로그램 또는 손상된 그래픽 카드 드라이버가 원인입니다. 자세한 내용의 위의 빠른 해결 섹션을 참조하세요. 또한 이 현상은 손상된 시스템 구성 요소로 일어날 수도 있습니다. Microsoft 시스템 파일 검사 도구를 사용해 손상되었을 수 있는 Windows 파일을 복구하세요:
 
-* [Microsoft 시스템 파일 검사 도구](https://support.microsoft.com/ko-ko/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Microsoft 시스템 파일 검사 도구](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
@@ -66,7 +84,7 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 시스템의 Nvidia 드라이버가 작동 중단됩니다. Nvidia 웹사이트로 이동하여 최신 드라이버를 다운로드 및 설치하세요:
 
-* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
+* [Nvidia GeForc](https://www.nvidia.com/Download/index.aspx)
 
 ::: 팁 설정 중 "새로 설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. 기존 드라이버가 손상되었으면, 우선 완전히 제거하는 것이 중요합니다.
 :::
@@ -79,27 +97,26 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+**Razer Synapse**의 일부인 Razer Chroma로 인해 발생합니다. 일반적으로 Razer Synapse가 제대로 설치되지 않은 것이 원인입니다. 대부분의 경우, Razer Synapse를 완전히 새로 설치하면 해결됩니다.
 
-**Clean reinstallation of all Razer software**
+**모든 Razer 소프트웨어 완전히 새로 설치하기**
 
-::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+::: 경고 Razer Synapse를 재설치하는 동안 반드시 Wallpaper Engine이 꺼져있는지 확인하십시오.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. 만약 Wallpaper Engine이 실행 중이라면 종료하십시오 (Windows 트레이의 아이콘을 오른쪽 클릭하고 **종료** 선택)
+2. Windows를 통해 컴퓨터에서 모든 Razer 소프트웨어를 제거하십시오
+3. Razer 웹사이트에서 최신 버전의 소프트웨어 제품군을 다운로드한 후 설치하십시오
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Razer Synapse 3를 다운로드하십시오](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. 그 후 Wallpaper Engine을 다시 켜지 않고 컴퓨터를 재시작하십시오.
 
-**Reinstallation does not fix the problem**
+**재설치로 문제가 해결되지 않을 시**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+Razer Synapse를 재설치해도 문제가 해결되지 않았다면, Razer Synapse 자체에 근본적으로 문제가 있을지도 모릅니다. 과거 잘못된 Razer Synapse 업데이트로 인해 발생한 사례가 있습니다. Razer Synapse 업데이트로 해당 문제가 고쳐질 때까지 Wallpaper Engine 설정 메뉴의 **플러그인** 탭에서 LED 플러그인(*"iCUE & Chroma SDK"*)을 비활성화한 후 시도해보십시오.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Razer Synapse를 완전히 재설치해도 작동 중단이 계속된다면, Razer 고객지원에 직접 연락하여 문제를 보고하십시오. Razer 측에서 해결하지 못했다면, 저희에게 연락하십시오. 이 작동 중단의 경우 Razer에게 문의하셔야 하지만, 저희 측에서 해당 작동 중단을 조사한 후 결과를 Razer Synapse 개발진 측에 전달할 수는 있습니다.
 
 ### MMDEvAPI.dll
 
