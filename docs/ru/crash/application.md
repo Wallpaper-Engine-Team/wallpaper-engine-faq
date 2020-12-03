@@ -21,15 +21,33 @@ Wallpaper Engine — тщательно тестируемая и хорошо 
 * [AMD Radeon](https://www.amd.com/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-Если у вас установлен антивирус, обязательно добавьте Wallpaper Engine в исключения в его настройках (этот пункт не касается Windows Defender). В некоторых случаях после этого бывает необходимо переустановить Wallpaper Engine, поскольку антивирус может нарушать целостность некоторых файлов или блокировать их без возможности восстановления.
+Если у вас установлен антивирус, обязательно добавьте Wallpaper Engine в исключения в его настройках (этот пункт не касается Windows Defender). В некоторых случаях после этого бывает необходимо переустановить Wallpaper Engine, поскольку антивирус может нарушать целостность некоторых файлов или блокировать их без возможности восстановления. Убедитесь, что ваш антивирус игнорирует каталог *wallpaper_engine* и в особенности все exe-файлы:
+
+* *wallpaper_engine/wallpaper32.exe*
+* *wallpaper_engine/wallpaper64.exe*
+* *wallpaper_engine/launcher.exe*
+* *wallpaper_engine/bin/webwallpaper32.exe*
+* *wallpaper_engine/bin/ui32.exe*
 
 Также обязательно проведите проверку целостности файлов Wallpaper Engine с помощью Steam:
 
 * [Steam Support: проверка целостности файлов игры](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
+В особых случаях вам может потребоваться удалить Wallpaper Engine и вручную удалить каталог *wallpaper_engine*, а затем переустановить приложение, задав перед этим менее строгие настройки антивируса.
+
 ## Аварийное завершение работы после гибернации / спящего режима
 
 Если Wallpaper Engine аварийно завершает работу после гибернации системы, это значит, что у Windows возникают сложности с одновременным восстановлением драйверов видеокарты и Wallpaper Engine. Гибернация в Windows — не самый надежный процесс. Чтобы обойти эту проблему, включите в Wallpaper Engine опцию **Безопасный старт после гибернации**. С ней после гибернации системы Wallpaper Engine пытается автоматически перезапуститься, не рассчитывая на правильную работу Windows.
+
+## Wallpaper Engine has crashed / Код ошибки "0xC0000005"
+
+Это сообщение об ошибке чаще всего вызвано **антивирусными программами** или **неисправными драйверами**. Если вы используете антивирусную программу, то, скорее всего, именно она является причиной такого сбоя, даже если сообщений об активности приложения не появлялось. Настройте антивирус таким образом, чтобы он игнорировал каталог установки *wallpaper_engine* и все важные исполняемые файлы Wallpaper Engine. Более подробную информацию см. в разделе *«Аварийное завершение работы Wallpaper Engine: быстрое решение»* выше.
+
+Если у вас не установлена антивирусная программа, переустановите все важные драйверы и попробуйте переключиться на 64-разрядную версию Wallpaper Engine (или 32-разрядную версию, если вы уже использовали 64-разрядную).
+
+В некоторых случаях это также может быть вызвано тем, что другие приложения влияют на работу Wallpaper Engine. Это касается приложений, которые встраивают код в Wallpaper Engine или каким-либо образом значительно изменяют установку Windows.
+
+!["0xC0000005" Сообщение о сбое Wallpaper Engine](/img/faq/0xC0000005.png)
 
 ## Сбои Wallpaper Engine, вызванные сторонними программами
 
@@ -43,7 +61,7 @@ Wallpaper Engine — тщательно тестируемая и хорошо 
 
 В данном случае сбой произошел в DirectX. Обычно причиной подобного сбоя являются антивирусные программы или неисправные драйверы видеокарты. Подробную информацию по решению этой проблемы см. в разделе «Быстрое решение» выше. Также подобный сбой может быть вызван неисправностями в самой системе. Восстановить потенциально неисправные файлы Windows можно с помощью средства проверки системных файлов Microsoft:
 
-* [Средство проверки системных файлов Microsoft](https://support.microsoft.com/ru-ru/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
+* [Средство проверки системных файлов Microsoft](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
 
 ### mfplat.dll
 
@@ -81,27 +99,27 @@ Wallpaper Engine — тщательно тестируемая и хорошо 
 
 ### RZChromaSDK.dll / RzChromaSDK64.dll
 
-These types of crashes are caused by Razer Chroma which is part of **Razer Synapse**. Usually, this is caused by a faulty installation of Razer Synapse. In most cases, a clean reinstallation of Razer Synapse fixes these types of crashes:
+В данном случае сбой произошел в Razer Chroma, которая является частью **Razer Synapse**. Обычно причиной является неправильная установка Razer Synapse. В большинстве случаев чистая переустановка Razer Synapse устраняет следующие типы сбоев:
 
-**Clean reinstallation of all Razer software**
+**Чистая переустановка всего программного обеспечения Razer**
 
 ::: warning
-Make sure Wallpaper Engine is turned off while reinstalling Razer Synapse.
+Убедитесь, что программа Wallpaper Engine выключена при переустановке Razer Synapse.
 :::
 
-1. Turn off Wallpaper Engine completely if it is running (right-click on the icon in the Windows tray and then select **Quit**)
-2. Uninstall all Razer software from your computer through Windows
-3. Download the latest version of Razer's software suite from their website and install it:
+1. Если Wallpaper Engine запущена, полностью выключите ее (нажмите правой кнопкой мыши на значок программы в панели задач Windows и выберите **Выход**).
+2. Удалите все программное обеспечение Razer со своего компьютера через Windows.
+3. Скачайте последнюю версию программного обеспечения Razer с официального сайта и установите ее:
 
-* [Download Razer Synapse 3](https://www.razer.com/synapse-3)
+* [Скачать Razer Synapse 3](https://www.razer.com/synapse-3)
 
-4. Afterwards restart your computer without restarting Wallpaper Engine beforehand.
+4. После этого перезагрузите компьютер без предварительного перезапуска Wallpaper Engine.
 
-**Reinstallation does not fix the problem**
+**Повторная установка не решает проблему**
 
-If the issue is not resolved by a reinstallation of Razer Synapse, there may be an underlying issue with Razer Synapse itself, in the past this has been caused by faulty Razer Synapse updates. Try turning off the LED Plugin (*"iCUE & Chroma SDK"*) in the **Plugins** tab of the Wallpaper Engine settings until this problem is fixed in a future Razer Synapse update.
+Если проблема не решена переустановкой Razer Synapse, причина может быть во внутренних ошибках Razer Synapse. Ранее они возникали из-за дефектных обновлений Razer Synapse. Попробуйте отключить плагин LED-подсветки (*"iCUE & Chroma SDK"*) в разделе **Плагины** в настройках Wallpaper Engine до тех пор, пока эта проблема не будет устранена в будущем обновлении Razer Synapse.
 
-If the crashes persist even after a clean reinstallation of Razer Synapse, please contact Razer support directly and inform them about the crashes. If they are unable to help, please reach out to us for technical support - we can look into these crashes and forward our findings to the Razer Synapse development team as well though Razer should be the main contact for this specific crash.
+Если сбои не исчезнут даже после чистой переустановки Razer Synapse, пожалуйста, обратитесь в службу поддержки Razer напрямую и сообщите об этом. Если вам не смогли помочь, обратитесь к нам за техподдержкой: мы проанализируем эти сбои и также направим отчет команде разработчиков Razer Synapse, однако Razer должен быть основным контактным лицом для решения этой проблемы.
 
 ### MMDEvAPI.dll
 
