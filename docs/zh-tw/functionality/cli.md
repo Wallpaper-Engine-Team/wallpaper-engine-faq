@@ -72,15 +72,15 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
         [-x <number>] [-y <number>] [-preset <string>]
 ```
 
-* **file：**欲開啟桌布 project.json 的路徑，或桌布檔案的直接路徑 (.mp4 etc)。
-* **location *(選用)*：**顯示器內部識別碼。 這些由您的電腦生成，您可在 config.json 檔案中找到。
-* **monitor *(選用)*：**欲載入桌布顯示器的索引，以 0 開頭。
-* **preset *(選用)*：**欲載入本機的名稱；必須已事先建立本機預設並儲存。
-* **playInWindow *(選用)*：**如果您想在一視窗內開啟/控制多個桌布，則為該視窗名稱。
-  * **width *(選用)*：**視窗寬度。
-  * **height *(選用)*：**視窗高度。
-  * **x *(選用)*：**視窗的水平位置。
-  * **y *(選用)*：**視窗的垂直位置。
+* **file：** 欲開啟桌布 project.json 的路徑，或桌布檔案的直接路徑 (.mp4 etc)。
+* **location *(選用)*：** 顯示器內部識別碼。 這些由您的電腦生成，您可在 config.json 檔案中找到。
+* **monitor *(選用)*：** 欲載入桌布顯示器的索引，以 0 開頭。
+* **preset *(選用)*：** 欲載入本機的名稱；必須已事先建立本機預設並儲存。
+* **playInWindow *(選用)*：** 如果您想在一視窗內開啟/控制多個桌布，則為該視窗名稱。
+  * **width *(選用)*：** 視窗寬度。
+  * **height *(選用)*：** 視窗高度。
+  * **x *(選用)*：** 視窗的水平位置。
+  * **y *(選用)*：** 視窗的垂直位置。
 
 ### 下一張桌布
 
@@ -98,8 +98,8 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control closeWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(選用)*：**顯示器內部識別碼或您指定的視窗名稱。
-* **monitor *(選用)*：**欲關閉桌布的顯示器索引，以 0 開頭。
+* **location *(選用)*：** 顯示器內部識別碼或您指定的視窗名稱。
+* **monitor *(選用)*：** 欲關閉桌布的顯示器索引，以 0 開頭。
 
 ### 開啟播放清單
 
@@ -109,9 +109,9 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control openPlaylist -playlist <string> [-location <string>] [-monitor <number>]
 ```
 
-* **playlist：**您已在 Wallpaper Engine 建立並儲存的播放清單名稱。
-* **location *(選用)*：**顯示器內部識別碼。 這些由您的電腦生成，您可在 config.json 檔案中找到。
-* **monitor *(選用)*：**欲載入播放清單的索引，以 0 開頭。
+* **playlist：** 您已在 Wallpaper Engine 建立並儲存的播放清單名稱。
+* **location *(選用)*：** 顯示器內部識別碼。 這些由您的電腦生成，您可在 config.json 檔案中找到。
+* **monitor *(選用)*：** 欲載入播放清單的索引，以 0 開頭。
 
 ### 套用桌布設定
 
@@ -121,9 +121,9 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties：**定義為欲套用 **JSON** 字串的屬性。 此字串必須特別以 `RAW~(` 和 `)~END` 逸出作為分隔符號，請見下方實例。
-* **location *(選用)*：**顯示器內部識別碼或您指定的視窗名稱。
-* **monitor *(選用)*：**欲更新屬性的顯示器索引，以 0 開頭。
+* **properties：** 定義為欲套用 **JSON** 字串的屬性。 此字串必須特別以 `RAW~(` 和 `)~END` 逸出作為分隔符號，請見下方實例。
+* **location *(選用)*：** 顯示器內部識別碼或您指定的視窗名稱。
+* **monitor *(選用)*：** 欲更新屬性的顯示器索引，以 0 開頭。
 
 將名為 `rate` 的桌布設定變更為 10 的實例：
 
