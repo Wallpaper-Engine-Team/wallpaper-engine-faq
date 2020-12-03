@@ -39,7 +39,7 @@ Wallpaper Engine 是一款成熟的软件，用户数量高达数百万，已经
 
 如果 Wallpaper Engine 在 Windows 休眠后崩溃，则 Windows 无法正确地同时还原显卡驱动程序和 Wallpaper Engine。 Windows 中的休眠并非可靠的进程。 您可以在 Wallpaper Engine 中启用**休眠后安全启动**选项，以缓解此问题。 此选项将尝试自动重新启动 Wallpaper Engine，而不是期望 Windows 在休眠后正常工作。
 
-## Wallpaper Engine 已崩溃/错误代码“0xC0000005”
+## Wallpaper Engine has crashed / 错误代码“0xC0000005”
 
 此错误消息几乎总是由**防病毒应用程序**或**驱动程序故障**导致。 如果您使用防病毒应用程序，那么即使该防病毒应用程序未报告任何活动，它也很可能是导致这种崩溃的原因。 请务必对防病毒应用程序进行配置，使其忽略 *wallpaper_engine* 安装目录以及 Wallpaper Engine 所有重要的可执行文件。 有关更多详细信息，请参阅上方的 *Wallpaper Engine 崩溃快速修复尝试*部分。
 
