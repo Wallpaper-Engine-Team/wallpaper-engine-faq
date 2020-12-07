@@ -18,16 +18,20 @@ tags:
 Windows Defender以外のアンチウイルスアプリケーションがインストールされている場合、これが問題の原因である可能性が高いです。 試してみても問題が解決しない場合は、もう少し詳しく調べてみましょう。
 :::
 
-## 他のデスクトップ変更ソフトウェアとの競合
+## High-contrast mode in Windows
 
-Wallpaper Engineは、ほとんどのデスクトップ変更アプリケーションと一緒に問題なく動作します。 しかし、StarDock DeskScapesなどのアプリケーションもまたWindows壁紙を変更するため、両方のアプリケーションを同時に実行することはできません。 Wallpaper Engineに似たアプリケーションをお使いの場合、継続して使用したいアプリケーションをどちらか選ぶ必要があります。
+If you have enabled **high-contrast mode** in your Windows 10 theme settings, Wallpaper Engine sometimes does not work on some systems. If your wallpapers do not appear but you have high-contrast mode enabled, please disable it in your Windows 10 theme settings, then restart Wallpaper Engine and try again.
+
+## Conflicts with other desktop modification software
+
+Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
 
 ### Fences
 
-基本的に、Wallpaper Engineは*Fences*と一緒に問題なく動作します。 しかし、**Fencesをインストールしていて無効にしている場合**、それがWallpaper Engineから壁紙を隠します。 有効にするか、完全にアンインストールするか、どちらかにする必要があります。
+Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
 
-## Windowsで壁紙が灰色になったり、テクスチャが表示されなかったりする
+## Gray Wallpaper or missing textures on Windows 7
 
-Windows 7のアップデート**KB2533623**がインストールされていることを確認してください。 リンクから手動でインストールするか、Windows Updateが正常に動いていて、そこからインストールしていることを確認してください。 Microsoftのサイトから手動でダウンロードすることができます。その後システムを再起動すると問題は解消するはずです。
+Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
 
 * [KB2533623](https://support.microsoft.com/ja-jp/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
