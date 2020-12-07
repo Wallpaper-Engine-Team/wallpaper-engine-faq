@@ -18,6 +18,10 @@ If some or all of your wallpapers do not show up, it's often caused by an antivi
 If you have an anti-virus application installed (except Windows Defender), it's very likely that this is the cause of your problems. Take some time to investigate this further if your first attempts do not fix this issue.
 :::
 
+## High-contrast mode in Windows
+
+If you have enabled **high-contrast mode** in your Windows 10 theme settings, Wallpaper Engine sometimes does not work on some systems. If your wallpapers do not appear but you have high-contrast mode enabled, please disable it in your Windows 10 theme settings, then restart Wallpaper Engine and try again.
+
 ## Conflicts with other desktop modification software
 
 Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
