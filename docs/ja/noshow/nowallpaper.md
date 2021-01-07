@@ -20,7 +20,7 @@ Windows Defender以外のアンチウイルスアプリケーションがイン�
 
 ## High-contrast mode in Windows
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings, Wallpaper Engine sometimes does not work on some systems. If your wallpapers do not appear but you have high-contrast mode enabled, please disable it in your Windows 10 theme settings, then restart Wallpaper Engine and try again.
+If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
 
 ## Conflicts with other desktop modification software
 
