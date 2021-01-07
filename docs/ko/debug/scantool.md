@@ -5,10 +5,13 @@ Wallpaper Engine에 FAQ의 도움으로 해결할 수 없는 기술적 문제가
 1. (가능한 경우) Wallpaper Engine이 실행 중인지 확인합니다.
 2. Steam에서 4번째 실행 옵션을 선택합니다 (*"Scan for conflicting applications"*, 아래의 짧은 비디오를 참조하세요):
 3. **Save Full Log**을 클릭하여 바탕화면에 저장합니다. (아래의 짧은 비디오를 참조하세요)
-4. 다음 방법 중 하나를 선택하여 개발자에게 로그 파일을 공유합니다:
-    * [pastebin.com](https://pastebin.com/)으로 이동하여 로그 파일 내용을 복사하여 붙여넣은 뒤, 해당 링크를 공유하세요.
-    * 또는 이메일에 로그 파일을 첨부하여 보낼 수 있습니다. 이미 보낸 이메일이 있으면, 이전 이메일에 로그 파일을 첨부해서 회신하세요. 처음 보내는 이메일이라면, 발생한 문제에 대한 정보 또는 기존 토론 링크를 추가하세요.
-5. *선택 사항:* 작동 중단이 발생하면 **.mdmp** 파일의 *wallpaper_engine* 디렉터리를 확인하고, 그 내용을 이메일로 보내거나 어딘가에 업로드하세요. 그리고 다수의 .mdmp 파일을 찾으면, 가장 최신 파일을 보내주세요.
+4. Share the log file with our developers:
+    * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
+        * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
+    * **Talked to us via email already?** Simply reply to the email and attach the log file.
+    * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
+
+5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
 처음에는 스캔 도구가 보고하는 문제가 없더라도, 로그 파일을 자세히 조사하면 저희가 기술적 문제의 해결 방법을 빠르게 조언하는 데 도움이 될 일반적인 컴퓨터 문제를 찾을 수 있는 경우가 종종 있습니다.
