@@ -5,10 +5,13 @@ Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'd
 1. Wallpaper Engine'in çalıştığından emin olun (mümkünse).
 2. Steam'deki 4. başlatma seçeneğini tıklayın (*"Scan for conflicting applications"*, aşağıda bunun için kısa bir video bulunmaktadır):
 3. **Save Full Log** seçeneğini tıklayıp masaüstünüze kaydedin (aşağıda kısa bir video bulunmaktadır).
-4. Bu yöntemlerden herhangi birini kullanarak günlük dosyasını geliştiricilerle paylaşın:
-    * [pastebin.com](https://pastebin.com/) adresine giderek günlük dosyanızın içeriğini yapıştırın ve yapıştırdığınız içeriğin bağlantısını paylaşın.
-    * Alternatif olarak, günlük dosyasını bir e-postaya ekleyip bize gönderebilirsiniz. E-posta üzerinden halihazırda bir tartışma yürüttüyseniz lütfen günlük dosyasını ekleyerek son gönderilen e-postayı yanıtlayın. İlk e-postanızı atıyorsanız karşılaştığınız sorunla ilgili bilgi verin ya da mevcut tartışmanın bağlantısını gönderin.
-5. *İsteğe Bağlı:* Çökme sorunu yaşıyorsanız herhangi bir **.mdmp** dosyası var mı diye lütfen *wallpaper_engine* dizininizi kontrol edin ve bize e-posta yoluyla ya da bir yerlere yükleyerek gönderin. Çok fazla .mdmp dosyası bulamazsanız lütfen en yenilerini gönderin.
+4. Share the log file with our developers:
+    * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
+        * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
+    * **Talked to us via email already?** Simply reply to the email and attach the log file.
+    * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
+
+5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
 Tarama aracı ilk bakışta herhangi bir sorun bildirmese bile, günlük dosyasının daha ayrıntılı bir incelemesiyle yaygın bilgisayar sorunları ortaya çıkar. Bu şekilde teknik sorunlarınızın çözümünde size daha hızlı yardımcı olabiliriz.
