@@ -5,10 +5,13 @@
 1. ตรวจสอบให้แน่ใจว่า Wallpaper Engine กำลังทำงาน (ถ้าเป็นไปได้)
 2. เลือกตัวเลือกเริ่มการทำงานข้อที่ 4 ใน Steam (*"Scan for conflicting applications"* โปรดดูวิดีโอสั้นด้านล่าง):
 3. คลิกที่ **Save Full Log** และบันทึกลงในเดสก์ท็อปของคุณ (ดูวิดีโอสั้นด้านล่าง)
-4. ใช้หนึ่งในสองวิธีต่อไปนี้เพื่อแชร์ไฟล์ Log ให้กับผู้พัฒนา:
-    * ไปที่ [pastebin.com](https://pastebin.com/) คัดลอกและวางเนื้อหาของไฟล์ Log ที่นั่นและแชร์ลิงก์ไปยังเนื้อหาที่คุณวาง
-    * หรือคุณสามารถแนบไฟล์ Log ทางอีเมลและส่งมาให้เรา หากคุณมีการสนทนาทางอีเมลก่อนหน้านี้แล้ว โปรดตอบกลับไปยังอีเมลก่อนหน้าพร้อมกับแนบไฟล์ Log หากนี่เป็นครั้งแรกที่คุณส่งอีเมลเกี่ยวกับปัญหา โปรดเพิ่มข้อมูลที่เกี่ยวข้องหรือลิงค์ไปยังการสนทนาที่มีอยู่
-5. *ตัวเลือกเสริม: * หากคุณพบข้อผิดพลาด โปรดตรวจสอบไดเรกทอรี *wallpaper_engine* ของคุณเพื่อหาไฟล์ **.mdmp** ใด ๆ และส่งให้เราทางอีเมลหรืออัปโหลดไว้ที่ใดที่หนึ่ง หากคุณพบไฟล์ .mdmp จำนวนมาก โปรดส่งเฉพาะไฟล์ .mdmp ล่าสุดเท่านั้น
+4. Share the log file with our developers:
+    * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
+        * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
+    * **Talked to us via email already?** Simply reply to the email and attach the log file.
+    * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
+
+5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
 แม้ว่าเครื่องมือสแกนจะไม่รายงานปัญหาใด ๆ ในตอนแรก การตรวจสอบไฟล์ Log เชิงลึกเพิ่มเติมมักจะพบปัญหาคอมพิวเตอร์ทั่วไปซึ่งช่วยให้เราสามารถให้คำแนะนำถึงวิธีแก้ไขปัญหาด้านเทคนิคได้อย่างรวดเร็ว
