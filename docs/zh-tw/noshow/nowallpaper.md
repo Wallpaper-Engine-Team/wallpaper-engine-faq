@@ -22,16 +22,16 @@ tags:
 
 If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
 
-## Conflicts with other desktop modification software
+## 與其他桌面改造軟體衝突
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine 可與大多數桌面改造應用程式安然並存。 但有些應用程式也能修改 Windows 桌布，例如 StarDock DeskScapes，此時兩個應用程式無法同時運作。 如果您使用類似 Wallpaper Engine 的應用程式，則必須決定使用哪個應用程式。
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+一般而言，Wallpaper Engine 與 *Fences* 配合良好。 不過，**如果您安裝了 Fences 卻將其停用**，將使 Wallpaper Engine 中的桌布隱藏。 您必須啟用或完全解除安裝。
 
-## Gray Wallpaper or missing textures on Windows 7
+## 在 Windows 7 上桌布呈現灰色或缺少紋理
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+確保已安裝 Windows 7 的更新 **KB2533623**。 您可透過下方連結手動安裝，或確保 Windows Update 正常運作並可自動安裝更新。 您可從 Microsoft 網站手動下載該更新，之後重新啟動，此問題應該就能消失：
 
 * [KB2533623](https://support.microsoft.com/zh-tw/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
