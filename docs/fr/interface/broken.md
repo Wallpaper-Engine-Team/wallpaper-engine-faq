@@ -25,18 +25,22 @@ Il est parfois nécessaire de vérifier les fichiers de Wallpaper Engine ou mêm
 
 Si la vérification Steam ne résout pas ce problème non plus, essayez de réinstaller Wallpaper Engine avec Steam. Si votre antivirus est devenu fou, il a peut-être entièrement bloqué Wallpaper Engine. Dans ce cas-ci, assurez-vous de désinstaller l'antivirus en premier, puis installez Wallpaper Engine dans un répertoire différent. Vous pouvez même choisir de créer une nouvelle bibliothèque de jeux Steam.
 
+If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+
+![Launch option: Disable UI hardware acceleration](/img/faq/steam_launch_option.jpg)
+
 ## L'interface de Wallpaper Engine est parasitée par des artefacts verts ou des lignes blanches
 
-Les pilotes de votre carte graphique sont corrompus ou mal configurés. Téléchargez les derniers pilotes pour vos cartes graphiques (même si vous les aviez déjà) et effectuez une réinstallation propre de ces pilotes. Désinstallez d'abord vos pilotes actuels avant d'installer les dernières versions pour vous assurer que tous les fichiers ou paramètres corrompus sont bien supprimés.
+Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
 
-Si le problème persiste, quittez Wallpaper Engine. Relancez ensuite Wallpaper Engine en utilisant la troisième option de lancement Steam : "Désactiver l'accélération matérielle de l'interface utilisateur".
+If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
 
-**Si l'interface utilisateur de Wallpaper Engine a des lignes blanches** : **Nvidia Image Sharpening** est activé pour toutes les applications. Désactivez-le dans vos drivers Nvidia ou effectuez une réinstallation complète de vos drivers Nvidia en désinstallant d'abord ceux que vous avez actuellement.
+**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
 
-![Problème avec Nvidia Image Sharpening](./imagesharpening.png) *Les lignes blanches seront visibles dans toute la fenêtre d'application sur Nvidia image sharpening est activé pour Wallapaper Engine par erreur.*
+![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
 
 ### L'overlay Steam entre en conflit avec Wallpaper Engine
 
-C'est plus rare, mais le problème peut également venir de l'overlay Steam. Voici ce que vous pouvez faire :
+The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
 
-Fermez complètement Wallpaper Engine (clic droit sur l'icône dans la barre des tâches "Quitter"). Ouvrez Steam, faites un clic droit sur Wallpaper Engine, sélectionnez "Propriétés" puis désactivez l'option "Activer l'overlay de Steam". Après avoir désactivé cette option, redémarrez Wallpaper Engine avec Steam. 
+Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
