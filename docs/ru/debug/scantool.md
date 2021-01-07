@@ -5,10 +5,13 @@
 1. Необходимо, чтобы Wallpaper Engine был запущена (если это возможно).
 2. Выберите в Steam четвертый вариант запуска программы (*Scan for conflicting applications*, ниже приведена короткая видеоинструкция).
 3. Нажмите кнопку **Save Full Log** и сохраните файл на рабочий стол (ниже приведена короткая видеоинструкция).
-4. Отправьте лог-файл разработчикам одним из способов ниже:
-    * Скопируйте содержимое лог-файла, зайдите на сайт [pastebin.com](https://pastebin.com/) вставьте туда скопированное, затем отправьте в техподдержку ссылку на страницу с вашим документом.
-    * Вы также можете воспользоваться альтернативным вариантом: просто прикрепить лог-файл к электронному письму и прислать его нам. Если вы уже начали одну переписку по поводу вашей проблемы, просим отправлять лог-файл ответом на последнее письмо в цепочке. Если вы впервые обращаетесь в поддержку с этой проблемой, добавьте к лог-файлу информацию о проблеме или ссылку на дискуссию на доске.
-5. *Дополнительно:* если программа аварийно завершает работу, проверьте есть ли в каталоге *wallpaper_engine* файлы типа **.mdmp** и тоже приложите их к письму или загрузите на хостинг. Если файлов .mdmp много, пожалуйста, пришлите самые новые.
+4. Share the log file with our developers:
+    * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
+        * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
+    * **Talked to us via email already?** Simply reply to the email and attach the log file.
+    * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
+
+5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
 Даже если на первый взгляд инструмент сканирования не обнаружил никаких ошибок, при тщательном изучении лог-файла часто обнаруживаются распространенные проблемы. Такая информация поможет нам быстрее дать вам совет по решению проблемы.
