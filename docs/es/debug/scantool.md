@@ -5,10 +5,13 @@ Si tienes problemas técnicos con Wallpaper Engine y no puedes resolverlos tras 
 1. Asegúrate de que Wallpaper Engine está activo (si es posible).
 2. Elige la cuarta opción de Steam (*«Scan for conflicting applications»*, abajo encontrarás un vídeo explicativo):
 3. Haz clic en **Save Full Log** y guárdalo en el escritorio (abajo encontrarás un vídeo explicativo).
-4. Comparte el registro con alguno de estos métodos:
-    * Ve a [pastebin.com](https://pastebin.com/), pega los contenidos del registro y después comparte el enlace.
-    * También puedes enviarnos el archivo del registro por correo. Si ya tienes una conversación por correo electrónico con nosotros, contesta al mensaje anterior con el archivo del registro. En caso de que sea el primer correo que nos envías, coméntanos el problema que tienes o mándanos el enlace de una discusión existente.
-5. *Opcional:* si el programa se cuelga, dirígete al directorio *wallpaper_engine* para comprobar si hay algún archivo **.mdmp** y envíanoslos por correo o súbelos a alguna página. Si hay muchos archivos .mdmp, mándanos solo los más recientes.
+4. Share the log file with our developers:
+    * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
+        * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
+    * **Talked to us via email already?** Simply reply to the email and attach the log file.
+    * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
+
+5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
 Si la herramienta de escaneo no encuentra ningún problema a primera vista, a nosotros nos sirve investigar a fondo el archivo de registro, pues suele revelar problemas comunes del ordenador que nos vendrán bien para decirte cómo arreglar los problemas técnicos.
