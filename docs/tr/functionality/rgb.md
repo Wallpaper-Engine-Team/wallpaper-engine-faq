@@ -47,7 +47,7 @@ Razer RGB donanımıyla ilgili çoğu sorun, Wallpaper Engine kapalıyken Razer 
 
 1. Wallpaper Engine'i tamamen kapatın. Bu çok önemli, bu işlemi geçmeyin.
 2. Windows'tan tüm Razer yazılımlarını kaldırın.
-3. Razer Synapse 3'ü tekrar indirin ve kurun.
+3. Redownload the latest version of Razer Synapse 3 and install it. **Important:** Make sure to also reinstall the **Chroma Connect** module in Razer Synapse itself.
 4. Bilgisayarınızı yeniden başlatın, Windows'u yeniden başlatmadan Wallpaper Engine'i çalıştırmayın.
 
 Bu işlemin RGB donanımınızla ilgini sorunları çözeceğini göreceksiniz. Razer donanımı ek desteği için lütfen doğrudan Razer ile iletişime geçin:
