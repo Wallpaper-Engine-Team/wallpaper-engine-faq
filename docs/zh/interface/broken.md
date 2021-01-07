@@ -25,22 +25,22 @@ tags:
 
 在配置了防病毒应用程序以后，如果通过 Steam 进行的验证仍无法解决此问题，请尝试通过 Steam 重新安装 Wallpaper Engine。 如果防病毒软件失控，它甚至可能永久阻止 Wallpaper Engine 使用的文件路径。 在这种情况下，请务必先卸载防病毒软件，然后再将 Wallpaper Engine 安装到其他目​​录中，您可以为此选择在 Steam 中创建新的 Steam 游戏库。
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+如果问题仍然存在，请关闭 Wallpaper Engine。 然后，使用 Steam 中标记为“禁用 UI 硬件加速”的第三个启动选项，重新启动 Wallpaper Engine。
 
 ![Launch option: Disable UI hardware acceleration](/img/faq/steam_launch_option.jpg)
 
 ## 带绿色项目或白色线条的 Wallpaper Engine 界面
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+您的显卡驱动程序已损坏或配置错误。 为显卡下载最新版驱动程序（即使您已经拥有最新版驱动程序），然后执行驱动程序的全新安装。 请务必先卸载当前的驱动程序，然后再安装最新版驱动程序，以确保删除所有损坏的文件或设置。
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+如果问题仍然存在，请关闭 Wallpaper Engine。 然后，使用 Steam 中标记为“禁用 UI 硬件加速”的第三个启动选项，重新启动 Wallpaper Engine。
 
-**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+**如果 Wallpaper Engine 用户界面出现白色线条**。您已为所有应用程序打开 **Nvidia 图像锐化**。 在您的 Nvidia 驱动程序中将其关闭，或者先卸载当前驱动程序以执行 Nvidia 驱动程序全新安装。
 
-![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+![Nvidia 图像锐化问题](./imagesharpening.png) *如果不小心打开了 Wallpaper Engine 的 Nvidia 图像锐化，则应用程序窗口的所有区域都将显示白色线条。*
 
 ### 罕见的 Steam overlay 错误导致 Wallpaper Engine 用户界面损坏
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+导致应用程序窗口呈黑色的另一个可能的原因是，罕见的 Steam overlay 错误。 您可以尝试执行以下操作：
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+完全关闭 Wallpaper Engine（右键单击托盘图标，然后选择“退出”）。 然后，打开 Steam，右键单击 Wallpaper Engine，选择“属性”，禁用“在游戏中启用 Steam Overlay”选项。 禁用该选项后，尝试通过 Steam 重新启动 Wallpaper Engine。 
