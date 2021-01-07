@@ -81,7 +81,7 @@ Este bloqueio acontece habitualmente devido a um problema no próprio Windows. E
 Atenção! Certifique-se de que seleciona a caixa de verificação "Efetuar reinstalação limpa" durante a configuração ou primeiro desinstale os seus controladores atuais. Se os seus controladores atuais estiverem danificados, é importante primeiro removê-los completamente.
 :::
 
-### nvwgf2umx.dll
+### nvwgf2umx.dll / nvwgf2um.dll
 
 Os controladores Nvidia do seu sistema estão a bloquear. Vá ao website da Nvidia, transfira os controladores mais recentes a partir do website e instale-os:
 
