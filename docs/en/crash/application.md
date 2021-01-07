@@ -80,7 +80,7 @@ This crash usually happens due to an issue in Windows itself. Try to re-install 
 Make sure to select the "Perform clean re-installation" checkbox during setup or manually uninstall your current drivers first. If your current drivers are broken, it's important to fully clear them first.
 :::
 
-### nvwgf2umx.dll
+### nvwgf2umx.dll / nvwgf2um.dll
 
 The Nvidia drivers on your system are crashing. Go to the Nvidia website, download the latest drivers from there and install them:
 
