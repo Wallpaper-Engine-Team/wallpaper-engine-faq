@@ -25,18 +25,22 @@ Em certos casos, a seguir é necessário verificar os ficheiros do Wallpaper Eng
 
 Se a verificação através do Steam não corrigir este problema depois de ter configurado a sua aplicação antivírus, experimente reinstalar o Wallpaper através do Steam. Se o seu antivírus tiver enlouquecido, ele pode até ter bloqueado permanentemente os caminhos de ficheiro utilizados pelo Wallpaper Engine. Nesse caso deve desinstalar primeiro o antivírus e depois instalar o Wallpaper Engine num diretório diferente. Para isto, pode escolher criar uma nova biblioteca de jogos no Steam.
 
+If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+
+![Launch option: Disable UI hardware acceleration](/img/faq/steam_launch_option.jpg)
+
 ## Interface do Wallpaper Engine com artefactos verdes ou linhas brancas
 
-Os controladores da sua placa gráfica estão danificados ou mal configurados. Transfira os controladores mais recentes para as suas placas gráficas (mesmo que já possua os controladores mais recentes) e faça uma reinstalação limpa dos controladores. É importante que primeiro desinstale os seus controladores atuais e depois instale os controladores mais recentes para garantir que quaisquer definições ou ficheiros danificados são removidos.
+Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
 
-Se o problema persistir, desative o Wallpaper Engine. Em seguida, volte a iniciar o Wallpaper Engine utilizando a opção de lançamento de terceiros no Steam, assinalado "disable UI hardware accelleration" (desativar aceleração por hardware da IU).
+If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
 
-**Se o interface para o utilizador do Wallpaper Engine tiver linhas brancas**: Tem **Nvidia Image Sharpening** ativado para todas as aplicações. Desative a opção nos seus controladores Nvidia ou faça uma reinstalação limpa dos seus controladores Nvidia atuais.
+**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
 
-![Problema de aumento de nitidez Nvidia](./imagesharpening.png) *As linhas brancas devem ser visíveis em toda a janela da aplicação se o aumento de nitidez da imagem da Nvidia estiver ativado para o Wallpaper Engine por engano.*
+![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
 
 ### Erro raro do overlay do Steam quebra o interface para o utilizador do Wallpaper Engine
 
-A outra razão possível para uma janela de aplicação toda preta é um error raro do Steam com o Steam overlay. Pode experimentar o seguinte:
+The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
 
-Desative completamente o Wallpaper Engine (clique com o botão direito no ícone do tabuleiro e depois selecione "Sair"). Em seguida, abra o Steam, clique com o botão direito no Wallpaper Engine, selecione "Properties" (Propriedades) e depois desative a opção "Enable Steam Overlay while in-game" (Ativar Steam Overlay durante o jogo). Depois de desativar a opção, experimente reiniciar o Wallpaper Engine através do Steam. 
+Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
