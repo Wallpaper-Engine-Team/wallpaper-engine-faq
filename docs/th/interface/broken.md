@@ -25,22 +25,22 @@ tags:
 
 หากคุณกำหนดค่าแอพพลิเคชันป้องกันไวรัสของคุณแล้ว แต่การตรวจสอบผ่าน Steam ยังไม่สามารถแก้ไขปัญหานี้ได้ ให้ลองติดตั้ง Wallpaper Engine ผ่าน Steam อีกครั้ง หากไม่สามารถควบคุมซอฟต์แวร์ป้องกันไวรัสได้ ซอฟต์แวร์อาจปิดกั้นพาธไฟล์ที่ใช้โดย Wallpaper Engine อย่างถาวร ในกรณีนี้โปรดถอนการติดตั้งซอฟต์แวร์ป้องกันไวรัสก่อนที่จะติดตั้ง Wallpaper Engine ไปยังไดเรกทอรีอื่น คุณสามารถเลือกสร้างคลังเกมใหม่ใน Steam เพื่อวัตถุประสงค์นี้
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+หากยังคงพบปัญหาอยู่ โปรดปิด Wallpaper Engine จากนั้นจึงเริ่มการทำงาน Wallpaper Engine อีกครั้งโดยใช้ตัวเลือกเริ่มการทำงานข้อที่สามที่มีข้อความว่า "disable UI hardware acceleration" (ปิดใช้งานการเร่งความเร็วฮาร์ดแวร์ UI) ใน Steam
 
 ![Launch option: Disable UI hardware acceleration](/img/faq/steam_launch_option.jpg)
 
 ## ส่วนต่อประสาน Wallpaper Engine กับสัญญาณรบกวนสีเขียวหรือเส้นสีขาว
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+ไดรเวอร์การ์ดจอของคุณเสียหายหรือกำหนดค่าไม่ถูกต้อง ดาวน์โหลดไดรเวอร์ล่าสุดสำหรับการ์ดจอของคุณ (แม้ว่าคุณจะมีไดรเวอร์ล่าสุดแล้ว) และทำการติดตั้งไดรเวอร์ใหม่อีกครั้ง คุณจำเป็นต้องถอนการติดตั้งไดรเวอร์ปัจจุบันก่อนติดตั้งไดรเวอร์ล่าสุดเพื่อให้แน่ใจว่าไฟล์หรือการตั้งค่าที่เสียหายทั้งหมดถูกลบ
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+หากยังคงพบปัญหาอยู่ โปรดปิด Wallpaper Engine จากนั้นจึงเริ่มการทำงาน Wallpaper Engine อีกครั้งโดยใช้ตัวเลือกเริ่มการทำงานข้อที่สามที่มีข้อความว่า "disable UI hardware acceleration" (ปิดใช้งานการเร่งความเร็วฮาร์ดแวร์ UI) ใน Steam
 
-**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+**หากส่วนต่อประสานกับผู้ใช้ Wallpaper Engine มีเส้นสีขาว**: คุณได้เปิด **การปรับภาพให้คมชัดของ Nvidia** (Nvidia Image Sharpening) สำหรับแอพพลิเคชันทั้งหมด คุณสามารถปิดได้ในไดรเวอร์ Nvidia ของคุณ หรือถอนการติดตั้งไดรเวอร์ Nvidia ปัจจุบันก่อนเพื่อทำการติดตั้งใหม่ทั้งหมด
 
-![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+![ปัญหาการปรับภาพให้คมชัดของ Nvidia](./imagesharpening.png) *หากคุณเปิดการปรับภาพให้คมชัดของ Nvidia สำหรับ Wallpaper Engine โดยไม่ได้ตั้งใจ พื้นที่ทั้งหมดของหน้าต่างแอพพลิเคชันจะแสดงเส้นสีขาว*
 
 ### ข้อผิดพลาดของการโอเวอร์เลย์ที่หาได้ยากบน Steam ทำให้เกิดความเสียหายกับส่วนต่อประสานกับผู้ใช้ของ Wallpaper Engine
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+สาเหตุที่เป็นไปได้อีกประการหนึ่งของหน้าต่างแอพพลิเคชันสีดำคือข้อผิดพลาดการโอเวอร์เลย์ที่หาได้ยากบน Steam คุณสามารถลองทำดังนี้:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+ปิด Wallpaper Engine (คลิกขวาที่ Wallpaper Engine ในแถบงานและเลือก "ออกจากโปรแกรม") จากนั้นเปิด Steam ขึ้นมา คลิกขวาที่ Wallpaper Engine เลือก "คุณสมบัติ" และปิดการใช้งานตัวเลือก "เปิดการใช้งานโอเวอร์เลย์ Steam ขณะอยู่ในเกม" หลังจากปิดการใช้งานตัวเลือกแล้ว ให้ลองรีสตาร์ท Wallpaper Engine ผ่าน Steam 
