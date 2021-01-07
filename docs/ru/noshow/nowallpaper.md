@@ -22,16 +22,16 @@ tags:
 
 If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
 
-## Conflicts with other desktop modification software
+## Конфликты с другими программами для модификации рабочего стола
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine не конфликтует с большинством программ для модификации рабочего стола. Однако в случае программ, которые тоже модифицируют обои Windows, например DeskScapes от StarDock, совместная работа невозможна. Если вы используете программу, выполняющую схожие с Wallpaper Engine функции, вам придется выбрать, какой программой вы предпочитаете пользоваться.
 
 ### Программа Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+В целом, Wallpaper Engine успешно работает с *Fences*. Однако, **если программа Fences установлена у вас на компьютере, но отключена**, она будет скрывать обои Wallpaper Engine. Ее нужно либо включить, либо полностью удалить.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Серые обои или отсутствующие текстуры на Windows 7
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Проверьте, установлено ли на вашей системе обновление **KB2533623** для Windows 7. Либо установите его вручную, скачав по ссылке ниже, либо включите Windows Update и удостоверьтесь, что обновление будет установлено автоматически. Обновление можно вручную скачать на сайте Microsoft. После установки перегрузите компьютер. Это должно решить проблему:
 
 * [KB2533623](https://support.microsoft.com/ru-ru/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
