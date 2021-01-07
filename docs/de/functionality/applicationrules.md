@@ -28,8 +28,7 @@ Im Reiter *Leistung* der Wallpaper Engine-Einstellungen kannst du mit einem Klic
 
 Dir wird eine Liste mit allen laufenden .exe-Dateien auf deinem System angezeigt. Entweder kannst du eine .exe aus der Liste auswählen oder du kannst den exakten Namen der .exe eintippen, mit welcher du Probleme hast. Du kannst die Bedingung und das Verhalten von Wallpaper Engine mit den zwei anderen Optionen konfigurieren. Siehe weiter unten für mehr Informationen und konkrete Beispiele.
 
-::: tip
-Für Wallpaper Engine ist nur der exakte Name der .exe relevant. Der genaue Dateipfad ist dabei egal, du kannst also jede beliebige .exe im Feld *Anwendungsname* eintragen. Stelle dabei sicher, dass der Name der .exe genau gleich ist, inklusiver Groß- und Kleinschreibung.
+::: tip Für Wallpaper Engine ist nur der exakte Name der .exe relevant. Der genaue Dateipfad ist dabei egal, du kannst also jede beliebige .exe im Feld *Anwendungsname* eintragen. Stelle dabei sicher, dass der Name der .exe genau gleich ist, inklusiver Groß- und Kleinschreibung.
 :::
 
 ### Leistungsprobleme mit Anwendungen und Spielen lösen
