@@ -25,22 +25,22 @@ Wallpaper Engine 사용자 인터페이스가 바이러스 백신 응용 프로�
 
 바이러스 백신 응용 프로그램 구성 후에도 Steam에서 이 문제가 해결되지 않으면, Steam을 통해 Wallpaper Engine을 다시 설치해 보세요. 바이러스 백신이 제어되지 않으면, Wallpaper Engine이 사용하는 파일 경로를 영구 차단할 수도 있습니다. 그럴 경우 우선 바이러스 백신을 삭제한 다음 Wallpaper Engine을 다른 디렉터리에 설치해야 합니다. 이를 위해 Steam에서 새로운 Steam 라이브러리를 만들 수 있습니다.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+문제가 지속되면 Wallpaper Engine를 끕니다. 그런 다음 Steam의 세 번째 실행 옵션인 "UI 하드웨어 가속 사용 안 함"을 사용해 Wallpaper Engine을 다시 실행하세요.
 
 ![Launch option: Disable UI hardware acceleration](/img/faq/steam_launch_option.jpg)
 
 ## 초록색 아티팩트 또는 흰색 줄이 있는 Wallpaper Engine 인터페이스
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+그래픽 카드 드라이버가 손상되었거나 잘못 구성되었습니다. (이미 최신 드라이버가 있더라도) 그래픽 카드의 최신 드라이버를 다운로드하고, 드라이버를 완전히 새로 설치하세요. 손상된 파일이나 설정을 제거하려면 우선 기존 드라이버를 삭제한 다음 최신 드라이버를 설치하는 것이 중요합니다.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+문제가 지속되면 Wallpaper Engine를 끕니다. 그런 다음 Steam의 세 번째 실행 옵션인 "UI 하드웨어 가속 사용 안 함"을 사용해 Wallpaper Engine을 다시 실행하세요.
 
-**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+**Wallpaper Engine 사용자 인터페이스에 흰색 줄이 있습니다**: **Nvidia Image Sharpening** 기능이 모든 응용 프로그램에 전역 설정되어 있습니다. Nvidia 드라이버에서 해당 기능을 끄거나, 기존 Nvidia 드라이버를 삭제한 뒤 재설치하세요.
 
-![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+![Nvidia Image Sharpening 문제](./imagesharpening.png) *실수로 Nvidia Image Sharpening 기능이 Wallpaper Engine에 설정되어 있으면, 해당 응용 프로그램의 모든 창에 흰색 줄이 나타납니다.*
 
 ### Wallpaper Engine 사용자 인터페이스를 손상시키는 희귀 Steam 오버레이 버그
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+검은색 응용프로그램 창이 나타나는 다른 가능성은 희귀한 Steam 오버레이 Steam 버그입니다. 다음을 시도해 보세요:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Wallpaper Engine을 완전히 끕니다. (트레이 아이콘을 오른쪽 클릭한 다음 "종료" 선택) 그런 다음 Steam을 열어 Wallpaper Engine을 오른쪽 클릭하고 "속성"을 선택하여 "게임 내 Steam 오버레이 사용" 옵션을 비활성화하세요. 옵션을 비활성화한 후 Steam을 통해 Wallpaper Engine을 다시 시작합니다. 
