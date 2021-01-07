@@ -31,7 +31,8 @@ Steam dosyaları indirip doğrulamıyor. Steam indirmeleriniz belirli bir süre 
     * **Unutmayın:** `C:\Program Files (x86)\Steam` varsayılan Steam yoludur. Eğer bunu farklı bir yere kurduysanız orayı kontrol edin.
 * Steam'i yeniden başlatın. Herhangi bir oyunu başlatmayın. İlerleme için Steam indirme sekmesine bakın ve duraklatılmış indirme işlemlerini devam ettirin.
 
-::: details Yukarıdaki adımlar indirme sorunlarınıza çözüm bulmadıysa daha fazla alternatif görmek için buraya tıklayın
+::: details
+Yukarıdaki adımlar indirme sorunlarınıza çözüm bulmadıysa daha fazla alternatif görmek için buraya tıklayın
 * Herhangi bir antivirüs veya güvenlik duvarının Steam'i engellemediğinden emin olun. Antivirüs uygulama ayarlarınızda tüm Steam dizinini hariç tutun.
 * İndirilemeyen duvar kâğıtlarının aboneliğinden çıkın ve Steam'i yeniden başlattıktan sonra bunlara tekrar abone olun.
 * Steam ayarlarından farklı bir içerik sunucusu seçin. Bu seçenek, Steam ayarlarındaki "İndirilenler" sekmesinde bulunur.
