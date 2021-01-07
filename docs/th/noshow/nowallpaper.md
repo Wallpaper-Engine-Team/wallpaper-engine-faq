@@ -22,16 +22,16 @@ tags:
 
 If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
 
-## Conflicts with other desktop modification software
+## ความขัดแย้งกับซอฟต์แวร์การแก้ไขเดสก์ทอปอื่น ๆ
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine ทำงานได้ดีกับแอพพลิเคชันการแก้ไขเดสก์ทอปส่วนใหญ่ อย่างไรก็ตาม แอพพลิเคชันบางตัว (เช่น StarDock DeskScapes) ก็สามารถใช้แก้ไขวอลเปเปอร์ของ Windows ได้ ดังนั้นแอพพลิเคชั่นทั้งสองนี้จึงไม่สามารถทำงานได้ในเวลาเดียวกันเดียวกัน หากคุณใช้แอพพลิเคชันที่คล้ายกับ Wallpaper Engine คุณจะต้องตัดสินใจว่าจะใช้แอพพลิเคชันใดต่อไป
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+โดยทั่วไปแล้ว Wallpaper Engine ทำงานได้ดีกับ *Fences* อย่างไรก็ตาม **หากคุณติดตั้ง Fences แต่ปิดการใช้งานไว้** มันจะซ่อนวอลเปเปอร์จาก Wallpaper Engine คุณต้องเปิดใช้งานหรือถอนการติดตั้งอย่างสมบูรณ์
 
-## Gray Wallpaper or missing textures on Windows 7
+## วอลเปเปอร์สีเทาหรือพื้นผิวหายไปใน Windows 7
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+โปรดตรวจสอบให้แน่ใจว่าได้ติดตั้ง Windows 7 Update **KB2533623** แล้ว คุณสามารถติดตั้งการอัพเดตด้วยตนเองผ่านลิงก์ด้านล่างหรือตรวจสอบให้แน่ใจว่า Windows Update ของคุณทำงานได้อย่างถูกต้องและติดตั้งการอัพเดตอัตโนมัติ คุณสามารถดาวน์โหลดได้ด้วยตนเองจากเว็บไซต์ Microsoft แล้วรีสตาร์ทระบบของคุณในภายหลัง ปัญหาข้างต้นควรจะหายไป:
 
 * [KB2533623](https://support.microsoft.com/th-th/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
