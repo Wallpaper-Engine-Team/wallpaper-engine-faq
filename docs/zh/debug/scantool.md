@@ -5,10 +5,13 @@
 1. 确保 Wallpaper Engine 正在运行（如果可能）。
 2. 选择 Steam 中的第 4 个启动选项（*“Scan for conflicting applications”*，请参看下方的简短视频）：
 3. 单击**Save Full Log**，然后将其保存到桌面（请参看下方的简短视频）。
-4. 使用以下两种方法之一，将该日志文件分享给开发人员：
-    * 访问 [pastebin.com](https://pastebin.com/)，将日志文件的内容复制粘贴到那里，然后分享指向粘贴内容的链接。
-    * 或者，您可以将日志文件附加到电子邮件中，然后将其发送给我们。 如果之前已经发送了电子邮件进行讨论，请回复上一封电子邮件，并将日志文件添加为附件。 如果这是您第一次就遇到的问题发送电子邮件，请添加一些相关信息或指向现有讨论的链接。
-5. *可选：*如果遇到崩溃问题，请检查 *wallpaper_engine* 目录中是否存在任何 **.mdmp** 文件，然后通过电子邮件将这些文件发送给我们，或将其上传到某处。 如果能找到许多个 .mdmp 文件，请仅发送最新的 .mdmp 文件。
+4. Share the log file with our developers:
+    * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
+        * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
+    * **Talked to us via email already?** Simply reply to the email and attach the log file.
+    * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
+
+5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
 即使扫描工具起初没有报告任何问题，更深入的日志文件研究也经常能发现常见的计算机问题，这有助于我们快速为您提供有关如何解决技术问题的建议。
