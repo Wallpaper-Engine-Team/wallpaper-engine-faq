@@ -31,7 +31,8 @@ O Steam não acabou de transferir e de verificar os ficheiros. Se as transferên
     * **Nota:** `C:\Program Files (x86)\Steam` é o caminho predefinido do Steam. Se instalou noutro local, procure nesse local.
 * Reinicie o Steam. Não inicie quaisquer jogos. Procure o progresso no separador de transferências do Steam e retome quaisquer transferências que tenham ficado em pausa.
 
-::: details Clique aqui para ver mais soluções possíveis se as instruções acima não resolverem os seus problemas de transferências
+::: details
+Clique aqui para ver mais soluções possíveis se as instruções acima não resolverem os seus problemas de transferências
 * Certifique-se de que nenhum antivírus ou firewall está a bloquear o Steam. Exclua o diretório inteiro do Steam nas definições da sua aplicação antivírus.
 * Anule a subscrição de wallpapers que não transfiram e volte a subscrevê-los depois de reiniciar o Steam.
 * Escolha outro servidor de conteúdo na definições do Steam. Pode encontrar a opção no separador "Downloads" das definições do Steam.
