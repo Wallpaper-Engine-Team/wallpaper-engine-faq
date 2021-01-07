@@ -25,22 +25,22 @@ tags:
 
 Если после того, как вы настроили список исключений антивируса, проверка файлов с помощью Steam не решила ошибку, попробуйте переустановить Wallpaper Engine через Steam. Если ваш антивирус слишком хищный, он может даже заблокировать без возможности восстановления пути к файлам, которые использует Wallpaper Engine. В этом случае необходимо сначала удалить антивирус, а затем установить Wallpaper Engine в другой каталог. По желанию для этого можно создать новую библиотеку игр в Steam.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+Если проблема не была решена, отключите Wallpaper Engine. Затем перезапустите Wallpaper Engine, использовав для этого третий вариант запуска программы в Steam (Disable UI hardware acceleration).
 
 ![Launch option: Disable UI hardware acceleration](/img/faq/steam_launch_option.jpg)
 
 ## Интерфейс Wallpaper Engine отображается с зелеными артефактами или белыми линиями
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+У вас неисправны или неправильно настроены драйвера видеокарты. Загрузите последнюю версию драйверов для вашей видеокарты (даже если у вас уже установлена последняя версия) и проведите чистую переустановку. Чтобы точно очистить систему от неисправных файлов и старых настроек, важно сначала удалить драйверы, а потом установить последнюю версию.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "disable UI hardware acceleration".
+Если проблема не была решена, отключите Wallpaper Engine. Затем перезапустите Wallpaper Engine, использовав для этого третий вариант запуска программы в Steam (Disable UI hardware acceleration).
 
-**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+**Интерфейс Wallpaper Engine отображается с белыми линиями**: у вас включена функция **Nvidia Image Sharpening** (повышение резкости) для всех программ. Выключите эту функцию на драйверах Nvidia или проведите чистую переустановку драйверов Nvidia, полностью удалив старую версию с системы.
 
-![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+![Проблема с функцией повышения резкости: Nvidia Image Sharpening](./imagesharpening.png) *Wallpaper Engine отображается с белыми линиями по всему интерфейсу, если по ошибке для программы была включена функция повышения резкости Nvidia.*
 
 ### Пользовательский интерфейс Wallpaper Engine поврежден в результате редкой ошибки в работе оверлея Steam
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+Еще одна возможная причина, по которой у вас открывается черное окно программы — редко встречающаяся ошибка, связанная с работой оверлея Steam. Попробуйте следующее:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Полностью выключите Wallpaper Engine (нажмите правой кнопкой мыши на значок программы в панели задач и выберите «Выход»). Затем откройте Steam, нажмите правой кнопкой мыши на Wallpaper Engine, выберите «Свойства…» и затем снимите флажок «Включить оверлей Steam в игре». После отключения оверлея попробуйте перезапустить Wallpaper Engine через Steam. 
