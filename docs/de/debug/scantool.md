@@ -11,7 +11,7 @@ Falls du technische Probleme mit Wallpaper Engine hast, welche du nicht mit der 
     * **Du bist bereits mit uns im E-Mail-Kontakt?** Antworte einfach auf die vorherige E-Mail und füge die Log-Datei als Anhang an.
     * **Du hast noch keinen Kontakt mit uns aufgenommen?** Erstelle eine neue Hilfe-Anfrage indem du eine E-Mail an **support@wallpaperengine.io** sendest.
 
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
+5. *Optional:* Falls die Anwendung abstürzt, überprüfe dein *wallpaper_engine*-Verzeichnis auf **.mdmp**-Dateien und sende uns diese via E-Mail (**logs@wallpaperengine.io**) oder lade sie irgendwo hoch und teile sie mit uns. Falls du sehr viele .mdmp-Dateien finden kannst, sende uns bitte einfach ein paar der neuesten.
 
 ::: tip
 Tipp Auch wenn das Scan-Tool anscheinend keine Fehler meldet, so kann ein tieferer Einblick in die Log-Datei oft häufige Computer-Probleme zum Vorschein bringen, welche uns helfen dir schnell einen Lösungsvorschlag für deine technischen Probleme mitzuteilen.
