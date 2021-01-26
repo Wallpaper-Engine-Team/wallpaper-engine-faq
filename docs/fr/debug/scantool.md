@@ -3,7 +3,7 @@
 Si vous rencontrez des problèmes avec Wallpaper Engine que vous ne parvenez pas résoudre à l'aide de la FAQ, vous pouvez créer un rapport pour votre système que vous pourrez par la suite nous envoyer :
 
 1. Assurez-vous d'avoir lancé Wallpaper Engine (si cela est possible).
-2. Choisissez la 4e option de lancement sur Steam (*"Scan for conflicting applications"*, vous trouverez une courte vidéo ci-dessous) :
+2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video):
 3. Cliquez sur **Save Full Log** et enregistrez-le sur notre bureau (vous trouverez une courte vidéo ci-dessous).
 4. Share the log file with our developers:
     * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
