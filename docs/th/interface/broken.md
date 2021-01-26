@@ -25,15 +25,15 @@ tags:
 
 หากคุณกำหนดค่าแอพพลิเคชันป้องกันไวรัสของคุณแล้ว แต่การตรวจสอบผ่าน Steam ยังไม่สามารถแก้ไขปัญหานี้ได้ ให้ลองติดตั้ง Wallpaper Engine ผ่าน Steam อีกครั้ง หากไม่สามารถควบคุมซอฟต์แวร์ป้องกันไวรัสได้ ซอฟต์แวร์อาจปิดกั้นพาธไฟล์ที่ใช้โดย Wallpaper Engine อย่างถาวร ในกรณีนี้โปรดถอนการติดตั้งซอฟต์แวร์ป้องกันไวรัสก่อนที่จะติดตั้ง Wallpaper Engine ไปยังไดเรกทอรีอื่น คุณสามารถเลือกสร้างคลังเกมใหม่ใน Steam เพื่อวัตถุประสงค์นี้
 
-หากยังคงพบปัญหาอยู่ โปรดปิด Wallpaper Engine Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface Safe Start".
+หากยังคงพบปัญหาอยู่ โปรดปิด Wallpaper Engine Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
 
-![Launch option: User Interface Safe Start](/img/faq/steam_launch_option.jpg)
+![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
 
 ## ส่วนต่อประสาน Wallpaper Engine กับสัญญาณรบกวนสีเขียวหรือเส้นสีขาว
 
 ไดรเวอร์การ์ดจอของคุณเสียหายหรือกำหนดค่าไม่ถูกต้อง ดาวน์โหลดไดรเวอร์ล่าสุดสำหรับการ์ดจอของคุณ (แม้ว่าคุณจะมีไดรเวอร์ล่าสุดแล้ว) และทำการติดตั้งไดรเวอร์ใหม่อีกครั้ง คุณจำเป็นต้องถอนการติดตั้งไดรเวอร์ปัจจุบันก่อนติดตั้งไดรเวอร์ล่าสุดเพื่อให้แน่ใจว่าไฟล์หรือการตั้งค่าที่เสียหายทั้งหมดถูกลบ
 
-หากยังคงพบปัญหาอยู่ โปรดปิด Wallpaper Engine Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface Safe Start".
+หากยังคงพบปัญหาอยู่ โปรดปิด Wallpaper Engine Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
 
 **หากส่วนต่อประสานกับผู้ใช้ Wallpaper Engine มีเส้นสีขาว**: คุณได้เปิด **การปรับภาพให้คมชัดของ Nvidia** (Nvidia Image Sharpening) สำหรับแอพพลิเคชันทั้งหมด คุณสามารถปิดได้ในไดรเวอร์ Nvidia ของคุณ หรือถอนการติดตั้งไดรเวอร์ Nvidia ปัจจุบันก่อนเพื่อทำการติดตั้งใหม่ทั้งหมด
 
