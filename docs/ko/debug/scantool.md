@@ -3,7 +3,7 @@
 Wallpaper Engine에 FAQ의 도움으로 해결할 수 없는 기술적 문제가 발생하면, 저희에게 공유할 시스템 로그 파일을 만들 수 있습니다.
 
 1. (가능한 경우) Wallpaper Engine이 실행 중인지 확인합니다.
-2. Steam에서 4번째 실행 옵션을 선택합니다 (*"Scan for conflicting applications"*, 아래의 짧은 비디오를 참조하세요):
+2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video):
 3. **Save Full Log**을 클릭하여 바탕화면에 저장합니다. (아래의 짧은 비디오를 참조하세요)
 4. Share the log file with our developers:
     * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
