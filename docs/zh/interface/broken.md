@@ -25,15 +25,15 @@ tags:
 
 在配置了防病毒应用程序以后，如果通过 Steam 进行的验证仍无法解决此问题，请尝试通过 Steam 重新安装 Wallpaper Engine。 如果防病毒软件失控，它甚至可能永久阻止 Wallpaper Engine 使用的文件路径。 在这种情况下，请务必先卸载防病毒软件，然后再将 Wallpaper Engine 安装到其他目​​录中，您可以为此选择在 Steam 中创建新的 Steam 游戏库。
 
-如果问题仍然存在，请关闭 Wallpaper Engine。 然后，使用 Steam 中标记为“禁用 UI 硬件加速”的第三个启动选项，重新启动 Wallpaper Engine。
+如果问题仍然存在，请关闭 Wallpaper Engine。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface Safe Start".
 
-![Launch option: Disable UI hardware acceleration](/img/faq/steam_launch_option.jpg)
+![Launch option: User Interface Safe Start](/img/faq/steam_launch_option.jpg)
 
 ## 带绿色项目或白色线条的 Wallpaper Engine 界面
 
 您的显卡驱动程序已损坏或配置错误。 为显卡下载最新版驱动程序（即使您已经拥有最新版驱动程序），然后执行驱动程序的全新安装。 请务必先卸载当前的驱动程序，然后再安装最新版驱动程序，以确保删除所有损坏的文件或设置。
 
-如果问题仍然存在，请关闭 Wallpaper Engine。 然后，使用 Steam 中标记为“禁用 UI 硬件加速”的第三个启动选项，重新启动 Wallpaper Engine。
+如果问题仍然存在，请关闭 Wallpaper Engine。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface Safe Start".
 
 **如果 Wallpaper Engine 用户界面出现白色线条**。您已为所有应用程序打开 **Nvidia 图像锐化**。 在您的 Nvidia 驱动程序中将其关闭，或者先卸载当前驱动程序以执行 Nvidia 驱动程序全新安装。
 
