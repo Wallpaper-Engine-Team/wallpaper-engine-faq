@@ -18,9 +18,9 @@ Si certains ou tous vos fonds d'écran ne s'affichent pas, c'est souvent dû à 
 Si vous avez installé un antivirus (à l'exception de Windows Defender), il est très probable que cela soit la cause de vos problèmes. N'abandonnez pas et prenez le temps de chercher davantage d'informations si vos premières tentatives ne résolvent pas ce problème.
 :::
 
-## High-contrast mode in Windows
+## Mode de contraste élevé de Windows
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+Si vous utilisez le **mode de contraste élevé** de Windows 10 avec le **thème blanc**, Windows risque de désactiver Wallpaper Engine. Essayez de changer votre thème ou de désactiver le mode de contraste élevé pour résoudre ce problème.
 
 ## Conflits avec d'autres logiciels de modification du bureau
 
