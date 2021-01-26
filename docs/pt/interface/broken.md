@@ -25,15 +25,15 @@ Em certos casos, a seguir é necessário verificar os ficheiros do Wallpaper Eng
 
 Se a verificação através do Steam não corrigir este problema depois de ter configurado a sua aplicação antivírus, experimente reinstalar o Wallpaper através do Steam. Se o seu antivírus tiver enlouquecido, ele pode até ter bloqueado permanentemente os caminhos de ficheiro utilizados pelo Wallpaper Engine. Nesse caso deve desinstalar primeiro o antivírus e depois instalar o Wallpaper Engine num diretório diferente. Para isto, pode escolher criar uma nova biblioteca de jogos no Steam.
 
-Se o problema persistir, desative o Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface Safe Start".
+Se o problema persistir, desative o Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
 
-![Launch option: User Interface Safe Start](/img/faq/steam_launch_option.jpg)
+![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
 
 ## Interface do Wallpaper Engine com artefactos verdes ou linhas brancas
 
 Os controladores da sua placa gráfica estão danificados ou mal configurados. Transfira os controladores mais recentes para as suas placas gráficas (mesmo que já possua os controladores mais recentes) e faça uma reinstalação limpa dos controladores. É importante que primeiro desinstale os seus controladores atuais e depois instale os controladores mais recentes para garantir que quaisquer definições ou ficheiros danificados são removidos.
 
-Se o problema persistir, desative o Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface Safe Start".
+Se o problema persistir, desative o Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
 
 **Se o interface para o utilizador do Wallpaper Engine tiver linhas brancas**: Tem **Nvidia Image Sharpening** ativado para todas as aplicações. Desative a opção nos seus controladores Nvidia ou faça uma reinstalação limpa dos seus controladores Nvidia atuais.
 
