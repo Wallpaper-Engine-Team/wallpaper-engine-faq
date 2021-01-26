@@ -25,15 +25,15 @@ Il est parfois nécessaire de vérifier les fichiers de Wallpaper Engine ou mêm
 
 Si la vérification Steam ne résout pas ce problème non plus, essayez de réinstaller Wallpaper Engine avec Steam. Si votre antivirus est devenu fou, il a peut-être entièrement bloqué Wallpaper Engine. Dans ce cas-ci, assurez-vous de désinstaller l'antivirus en premier, puis installez Wallpaper Engine dans un répertoire différent. Vous pouvez même choisir de créer une nouvelle bibliothèque de jeux Steam.
 
-Si le problème persiste, quittez Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
+Si le problème persiste, quittez Wallpaper Engine. Relancez ensuite Wallpaper Engine en utilisant la troisième option de lancement Steam : "Interface utilisateur en mode sans échec".
 
-![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
+![Option Interface utilisateur en mode sans échec](/img/faq/steam_launch_option.jpg)
 
 ## L'interface de Wallpaper Engine est parasitée par des artefacts verts ou des lignes blanches
 
 Les pilotes de votre carte graphique sont corrompus ou mal configurés. Téléchargez les derniers pilotes pour vos cartes graphiques (même si vous les aviez déjà) et effectuez une réinstallation propre de ces pilotes. Désinstallez d'abord vos pilotes actuels avant d'installer les dernières versions pour vous assurer que tous les fichiers ou paramètres corrompus sont bien supprimés.
 
-Si le problème persiste, quittez Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
+Si le problème persiste, quittez Wallpaper Engine. Relancez ensuite Wallpaper Engine en utilisant la troisième option de lancement Steam : "Interface utilisateur en mode sans échec".
 
 **Si l'interface utilisateur de Wallpaper Engine a des lignes blanches** : **Nvidia Image Sharpening** est activé pour toutes les applications. Désactivez-le dans vos drivers Nvidia ou effectuez une réinstallation complète de vos drivers Nvidia en désinstallant d'abord ceux que vous avez actuellement.
 
