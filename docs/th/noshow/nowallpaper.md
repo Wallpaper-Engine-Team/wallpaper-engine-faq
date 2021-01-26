@@ -20,7 +20,7 @@ tags:
 
 ## โหมด High-contrast ใน Windows
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+หากคุณเปิดใช้งาน **โหมด high-contrast** ในการตั้งค่าธีม Windows 10 ของคุณโดยเลือกธีม **High Contrast สีขาว** ไว้ Windows จะบังคับปิดวอลเปเปอร์ของ Wallpaper Engine ลองเปลี่ยนธีม high-contrast ที่คุณใช้ในการตั้งค่า high-contrast ของ Windows หรือปิดโหมด high-contrast ทั้งหมดแล้วปัญหาจะหายไป
 
 ## ความขัดแย้งกับซอฟต์แวร์การแก้ไขเดสก์ทอปอื่น ๆ
 
