@@ -3,7 +3,7 @@
 หากคุณพบปัญหาทางเทคนิคกับ Wallpaper Engine ที่คุณไม่สามารถแก้ไขได้ด้วยความช่วยเหลือของคำถามที่พบบ่อย คุณสามารถสร้างไฟล์ Log สำหรับระบบซึ่งคุณสามารถแบ่งปันกับเราได้เมื่อคุณติดต่อเรา:
 
 1. ตรวจสอบให้แน่ใจว่า Wallpaper Engine กำลังทำงาน (ถ้าเป็นไปได้)
-2. เลือกตัวเลือกเริ่มการทำงานข้อที่ 4 ใน Steam (*"Scan for conflicting applications"* โปรดดูวิดีโอสั้นด้านล่าง):
+2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video):
 3. คลิกที่ **Save Full Log** และบันทึกลงในเดสก์ท็อปของคุณ (ดูวิดีโอสั้นด้านล่าง)
 4. Share the log file with our developers:
     * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
