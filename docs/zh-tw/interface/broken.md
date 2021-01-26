@@ -25,15 +25,15 @@ tags:
 
 如果您已設定防毒應用程式並透過 Steam 驗證後，問題仍未解決，請重新透過 Steam 重新安裝 Wallpaper Engine。 如果防毒應用程式失控，甚至可能永久封鎖 Wallpaper Engine 使用的檔案路徑。 此時請先將防毒應用程式解除安裝，再將 Wallpaper Engine 安裝至其他目錄，您可為此在 Steam 中建立新的 Steam 遊戲收藏庫。
 
-如果問題仍存在，請關閉 Wallpaper Engine。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface Safe Start".
+如果問題仍存在，請關閉 Wallpaper Engine。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
 
-![Launch option: User Interface Safe Start](/img/faq/steam_launch_option.jpg)
+![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
 
 ## Wallpaper Engine 介面出現綠色雜訊或白色線條
 
 您的顯示卡驅動程式已損壞或設定錯誤。 請下載最新的顯示卡驅動程式 (即使您已經有最新的驅動程式)，並執行全新安裝。 您必須先將目前的驅動程式解除安裝，再安裝最新的驅動程式，確保移除所有損壞的檔案或設定。
 
-如果問題仍存在，請關閉 Wallpaper Engine。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface Safe Start".
+如果問題仍存在，請關閉 Wallpaper Engine。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
 
 **如果 Wallpaper Engine 介面出現白色線條**：您已為所有應用程式開啟 **Nvidia Image Sharpening (影像銳利化)**。 在 Nvidia 驅動程式中將其關閉，或者先解除安裝 Nvidia 驅動程式再執行全新安裝。
 
