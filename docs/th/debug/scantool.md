@@ -11,7 +11,7 @@
     * **หากเคยพูดคุยกับเราทางอีเมลมาก่อน** คุณสามารถตอบกลับอีเมลและแนบไฟล์ Log ถึงเรา
     * **หากพูดคุยกับเราเป็นครั้งแรก** สร้างทิกเก็ตใหม่โดยส่งอีเมลมาที่ **support@wallpaperengine.io**
 
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
+5. *ตัวเลือกเสริม: * หากคุณพบข้อผิดพลาด โปรดตรวจสอบไดเรกทอรี *wallpaper_engine* ของคุณเพื่อหาไฟล์ **.mdmp** ใด ๆ และส่งให้เราทางอีเมล (**logs@wallpaperengine.io**) หรืออัปโหลดไว้ที่ใดที่หนึ่ง หากคุณพบไฟล์ .mdmp จำนวนมาก โปรดส่งเฉพาะไฟล์ .mdmp ล่าสุดเท่านั้น
 
 ::: tip
 แม้ว่าเครื่องมือสแกนจะไม่รายงานปัญหาใด ๆ ในตอนแรก การตรวจสอบไฟล์ Log เชิงลึกเพิ่มเติมมักจะพบปัญหาคอมพิวเตอร์ทั่วไปซึ่งช่วยให้เราสามารถให้คำแนะนำถึงวิธีแก้ไขปัญหาด้านเทคนิคได้อย่างรวดเร็ว
