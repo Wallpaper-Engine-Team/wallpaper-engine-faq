@@ -3,7 +3,7 @@
 Если при использовании Wallpaper Engine у вас возникли технические проблемы, решений которых в списке часто задаваемых вопросов вы не нашли, создайте системный лог-файл и приложите его к письму в техподдержку:
 
 1. Необходимо, чтобы Wallpaper Engine был запущена (если это возможно).
-2. Выберите в Steam четвертый вариант запуска программы (*Scan for conflicting applications*, ниже приведена короткая видеоинструкция).
+2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video):
 3. Нажмите кнопку **Save Full Log** и сохраните файл на рабочий стол (ниже приведена короткая видеоинструкция).
 4. Share the log file with our developers:
     * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
