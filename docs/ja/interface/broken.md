@@ -25,15 +25,15 @@ Wallpaper Engineブラウズウィンドウが正しく動作しない場合、�
 
 アンチウイルスアプリケーションの設定後、Steamによる確認で問題が解決しない場合は、SteamからWallpaper Engineを再インストールしてみてください。 アンチウイルスが暴走した場合は、Wallpaper Engineが使用するファイルパスを永久的にブロックしてしまっていることがあります。 その場合はまずアンチウイルスをアンインストールしてから、Wallpaper Engineを別のディレクトリにインストールしてください。ディレクトリはSteamで新しいSteamゲームライブラリを作ると変更できます。
 
-それでも問題が解消しない場合はWallpaper Engineを終了します。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface Safe Start".
+それでも問題が解消しない場合はWallpaper Engineを終了します。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
 
-![Launch option: User Interface Safe Start](/img/faq/steam_launch_option.jpg)
+![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
 
 ## Wallpaper Engineのインターフェースに緑のノイズや白いラインが入る
 
 グラフィックスカードドライバが壊れているか、設定が間違っています。 （最新ドライバを既に持っていても）グラフィックスカードの最新ドライバをダウンロードし、ドライバのクリーン再インストールを行ってください。 破損したファイルや設定が確実に削除されるよう、まず使用中のドライバをアンインストールしてから最新ドライバをインストールしてください。
 
-それでも問題が解消しない場合はWallpaper Engineを終了します。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface Safe Start".
+それでも問題が解消しない場合はWallpaper Engineを終了します。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
 
 **Wallpaper Engineのユーザーインターフェースに白い線が入る場合**：**Nvidiaの画面のシャープ化**がすべてのアプリケーションに対してオンになっています。 Nvidiaドライバでそれをオフにするか、現在のバージョンをまずアンインストールしたあとで、Nvidiaドライバをクリーン再インストールしてください。
 
