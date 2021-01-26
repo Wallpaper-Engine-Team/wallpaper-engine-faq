@@ -3,7 +3,7 @@
 Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'de bulamıyorsanız bir sistem günlüğü dosyası oluşturabilir ve bizimle paylaşabilirsiniz:
 
 1. Wallpaper Engine'in çalıştığından emin olun (mümkünse).
-2. Steam'deki 4. başlatma seçeneğini tıklayın (*"Scan for conflicting applications"*, aşağıda bunun için kısa bir video bulunmaktadır):
+2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video):
 3. **Save Full Log** seçeneğini tıklayıp masaüstünüze kaydedin (aşağıda kısa bir video bulunmaktadır).
 4. Share the log file with our developers:
     * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
