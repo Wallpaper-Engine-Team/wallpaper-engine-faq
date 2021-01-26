@@ -5,7 +5,7 @@
 1. Необходимо, чтобы Wallpaper Engine был запущена (если это возможно).
 2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video):
 3. Нажмите кнопку **Save Full Log** и сохраните файл на рабочий стол (ниже приведена короткая видеоинструкция).
-4. Share the log file with our developers:
+4. Поделитесь лог-файлом с нашими разработчиками:
     * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
         * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
     * **Talked to us via email already?** Simply reply to the email and attach the log file.
