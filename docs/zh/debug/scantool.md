@@ -3,7 +3,7 @@
 如果 Wallpaper Engine 遇到技术问题，而您无法借助常见问题解答予以解决，则您可以创建系统日志文件，并在与我们联系时分享给我们：
 
 1. 确保 Wallpaper Engine 正在运行（如果可能）。
-2. 选择 Steam 中的第 4 个启动选项（*“Scan for conflicting applications”*，请参看下方的简短视频）：
+2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video):
 3. 单击**Save Full Log**，然后将其保存到桌面（请参看下方的简短视频）。
 4. Share the log file with our developers:
     * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
