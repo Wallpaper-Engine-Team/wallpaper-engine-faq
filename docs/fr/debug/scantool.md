@@ -7,11 +7,11 @@ Si vous rencontrez des problèmes avec Wallpaper Engine que vous ne parvenez pas
 3. Cliquez sur **Save Full Log** et enregistrez-le sur notre bureau (vous trouverez une courte vidéo ci-dessous).
 4. Envoyer le rapport à nos développeurs :
     * **Vous nous parlez déjà sur un forum ou un réseau social ?** Envoyez le rapport à **logs@wallpaperengine.io**.
-        * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
-    * **Talked to us via email already?** Simply reply to the email and attach the log file.
-    * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
+        * **ATTENTION :** si vous utilisez cette adresse e-mail, n'oubliez pas de joindre un lien vers notre précédente conversation et précisez également votre pseudo.
+    * **Vous nous parlez déjà par e-mail ?** Envoyez simplement une réponse avec le rapport.
+    * **Vous ne nous avez pas encore contactés ?** Créez un nouveau ticket en nous écrivant à **support@wallpaperengine.io**.
 
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
+5. *Facultatif :* si vous avec un problème de crash, veuillez vérifier dans le répertoire *wallpaper_engine* les fichiers **.mdmp** et nous les envoyer par e-mail (**logs@wallpaperengine.io**) ou par un autre moyen qui vous convient. Si vous trouvez beaucoup de fichiers .mdmp, envoyez-nous les plus récents.
 
 ::: tip Même si l'outil d'analyse ne signale aucun problème à première vue, une analyse plus approfondie du rapport peut nous indiquer des problèmes courants qui nous permettront de vous conseiller rapidement.
 :::
