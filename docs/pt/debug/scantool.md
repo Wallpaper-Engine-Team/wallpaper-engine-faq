@@ -3,7 +3,7 @@
 Se está a ter problemas tcnicos com o Wallpaper Engine que não consegue resolver com a ajuda do FAQ, pode criar um ficheiro de registo do sistema que pode partilhar connosco quando nos contactar:
 
 1. Certifique-se de que o Wallpaper Engine está a ser executado (caso seja possível).
-2. Escolha a 4. ª opção de lançamento no Steam (*"Scan for conflicting applications"*, veja um breve vídeo mais abaixo):
+2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video):
 3. Clique em **Save Full Log** e guarde-o no seu ambiente de trabalho (veja um breve vídeo mais abaixo).
 4. Share the log file with our developers:
     * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
