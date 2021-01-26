@@ -20,7 +20,7 @@ tags:
 
 ## Режим высокой контрастности в Windows
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Попробуйте изменить тему высокой контрастности, которую вы используете, в настройках высокой контрастности Windows или полностью отключите режим высокой контрастности, и проблема исчезнет.
 
 ## Конфликты с другими программами для модификации рабочего стола
 
