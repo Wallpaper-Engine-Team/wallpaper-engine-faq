@@ -18,7 +18,7 @@ tags:
 หากคุณติดตั้งแอปพลิเคชันป้องกันไวรัส (ยกเว้น Windows Defender) เป็นไปได้มากว่านี่คือสาเหตุของปัญหาของคุณ หากความพยายามครั้งแรกของคุณไม่สามารถแก้ไขปัญหานี้ได้ โปรดใช้เวลาสักครู่เพื่อตรวจสอบเพิ่มเติม
 :::
 
-## High-contrast mode in Windows
+## โหมด High-contrast ใน Windows
 
 If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
 
