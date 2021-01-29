@@ -18,9 +18,9 @@ Si no aparecen algunos de los fondos (o ninguno), puede ser por culpa de que el 
 Si tienes un antivirus instalado (que no sea Windows Defender) es muy probable que sea el causante de los problemas. Investiga el asunto con calma si no consigues solucionar el error tras los primeros intentos.
 :::
 
-## High-contrast mode in Windows
+## Modo de contraste alto en Windows
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+Si tienes activado el **modo de contraste alto** en los ajustes de Windows 10 con el tema **Blanco en alto contraste**, Windows se encargará de desactivar los fondos de Wallpaper Engine a la fuerza. Intenta cambiar el tema de contraste alto en los ajustes de Windows o desactiva el modo de contraste alto por completo para que desaparezca el problema.
 
 ## Conflictos con otros programas de modificación de escritorio
 
