@@ -4,8 +4,8 @@
 
 1. 確保 Wallpaper Engine 正在運作 (若可行)。
 2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video):
-3. 按一下**Save Full Log**，並儲存至桌面 (請參見下方簡短視訊)。
-4. Share the log file with our developers:
+3. 按一下 **Save Full Log**，並儲存至桌面 (請參見下方簡短視訊)。
+4. 將記錄檔提供給開發人員：
     * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
         * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
     * **Talked to us via email already?** Simply reply to the email and attach the log file.
