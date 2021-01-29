@@ -6,8 +6,8 @@ Wallpaper Engine에 FAQ의 도움으로 해결할 수 없는 기술적 문제가
 2. Steam에서 4번째 실행 옵션을 선택합니다 (*"시스템 충돌 점검"*, 아래의 짧은 비디오를 참조하세요):
 3. **Save Full Log**을 클릭하여 바탕화면에 저장합니다. (아래의 짧은 비디오를 참조하세요)
 4. 로그 파일을 개발자와 공유합니다:
-    * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
-        * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
+    * **공식 포럼 또는 다른 소셜 미디어 페이지를 통해 저희와 대화하셨나요?****logs@wallpaperengine.io**로 로그 파일을 보내주세요.
+        * **중요:** 이 이메일 주소로 로그 파일을 보낼 때에는 해당 대화의 링크와 사용자 이름을 알려주세요.
     * **Talked to us via email already?** Simply reply to the email and attach the log file.
     * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
 
