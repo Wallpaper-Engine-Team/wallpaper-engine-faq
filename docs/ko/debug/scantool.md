@@ -8,10 +8,10 @@ Wallpaper Engine에 FAQ의 도움으로 해결할 수 없는 기술적 문제가
 4. 로그 파일을 개발자와 공유합니다:
     * **공식 포럼 또는 다른 소셜 미디어 페이지를 통해 저희와 대화하셨나요?****logs@wallpaperengine.io**로 로그 파일을 보내주세요.
         * **중요:** 이 이메일 주소로 로그 파일을 보낼 때에는 해당 대화의 링크와 사용자 이름을 알려주세요.
-    * **Talked to us via email already?** Simply reply to the email and attach the log file.
-    * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
+    * **이미 이메일로 대화하셨나요?** 해당 이메일에 답장으로 로그 파일을 첨부해주시면 됩니다.
+    * **저희에게 처음 연락하시는 건가요?** **support@wallpaperengine.io**로 이메일을 보내 새 티켓을 생성하세요.
 
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
+5. *선택 사항:* 작동 중단이 발생하면 *wallpaper_engine* 디렉터리에 있는 모든 **.mdmp** 파일을 이메일(**logs@wallpaperengine.io**)로 보내거나 어딘가에 업로드하여 저희와 공유해주세요. .mdmp 파일이 너무 많으면, 최근 파일들만 보내주시면 됩니다.
 
 ::: tip
 처음에는 스캔 도구가 보고하는 문제가 없더라도, 로그 파일을 자세히 조사하면 저희가 기술적 문제의 해결 방법을 빠르게 조언하는 데 도움이 될 일반적인 컴퓨터 문제를 찾을 수 있는 경우가 종종 있습니다.
