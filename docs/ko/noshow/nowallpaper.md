@@ -18,9 +18,9 @@ tags:
 바이러스 백신 응용 프로그램(Windows Defender 제외)이 설치되었다면, 이것이 문제의 원인일 가능성이 매우 높습니다. 처음 시도해서 문제가 해결되지 않으면, 시간을 들여 좀 더 조사하세요.
 :::
 
-## High-contrast mode in Windows
+## Windows 고대비 모드
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+Windows 10 테마 설정에서 **고대비 흰색 테마**로 **고대비 모드**를 활성화하면, Windows가 강제로 Wallpaper Engine 배경화면을 비활성화합니다. Windows 고대비 설정에서 사용 중인 고대비 테마를 변경하거나 고대비 모드 자체를 비활성화하면 문제가 해결됩니다.
 
 ## 다른 바탕화면 수정 소프트웨어와 충돌
 
