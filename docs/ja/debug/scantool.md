@@ -3,10 +3,10 @@
 Wallpaper Engineで技術的な問題が発生し、FAQを見ても解決できない場合、システムログファイルを作成し、お問い合わせの際に添付していただくことができます。
 
 1. Wallpaper Engineを起動させます（可能な場合）。
-2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video):
+2. Steamで4番目の起動オプションを選択します（*システムコンフリクトのチェック*。下の短い動画をご覧ください）。
 3. **Save Full Log**をクリックし、デスクトップに保存します（下の短い動画をご覧ください）。
-4. Share the log file with our developers:
-    * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
+4. ログファイルを開発者と共有：
+    * **フォーラムまたはその他のソーシャルメディアサイトで私たちとお話しになりましたか？**以下にファイルをお送りください： **logs@wallpaperengine.io**
         * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
     * **Talked to us via email already?** Simply reply to the email and attach the log file.
     * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
