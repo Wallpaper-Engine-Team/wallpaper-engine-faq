@@ -20,7 +20,7 @@ tags:
 
 ## Windows 的高對比模式
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+如果您的 Windows 10 主題設定啟動**高對比模式**，且選擇**高對比白色**，Windows 將強制關閉 Wallpaper Engine 桌布。 Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
 
 ## 與其他桌面改造軟體衝突
 
