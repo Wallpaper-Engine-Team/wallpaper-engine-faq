@@ -18,9 +18,9 @@ tags:
 Windows Defender以外のアンチウイルスアプリケーションがインストールされている場合、これが問題の原因である可能性が高いです。 試してみても問題が解決しない場合は、もう少し詳しく調べてみましょう。
 :::
 
-## High-contrast mode in Windows
+## Windowsのハイコントラストモード
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+Windows 10のテーマ設定で**ハイコントラストモード**を有効にし、**ハイコントラスト白**が選択されている場合、Windowsは強制的にWallpaper Engineの壁紙をオフにします。 Windowsのハイコントラスト設定で使用しているハイコントラストテーマを変更するか、ハイコントラストモード自体をオフにすると、問題は解消します。
 
 ## 他のデスクトップ変更ソフトウェアとの競合
 
