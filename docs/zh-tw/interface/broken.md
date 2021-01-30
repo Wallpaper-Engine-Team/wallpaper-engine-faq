@@ -25,7 +25,7 @@ tags:
 
 如果您已設定防毒應用程式並透過 Steam 驗證後，問題仍未解決，請重新透過 Steam 重新安裝 Wallpaper Engine。 如果防毒應用程式失控，甚至可能永久封鎖 Wallpaper Engine 使用的檔案路徑。 此時請先將防毒應用程式解除安裝，再將 Wallpaper Engine 安裝至其他目錄，您可為此在 Steam 中建立新的 Steam 遊戲收藏庫。
 
-如果問題仍存在，請關閉 Wallpaper Engine。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
+如果問題仍存在，請關閉 Wallpaper Engine。 接著，使用 Steam 第三個啟動選項「安全模式下的使用者介面」，重新啟動 Wallpaper Engine。
 
 ![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
 
