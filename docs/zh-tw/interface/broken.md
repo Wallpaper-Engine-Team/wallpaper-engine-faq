@@ -27,13 +27,13 @@ tags:
 
 如果問題仍存在，請關閉 Wallpaper Engine。 接著，使用 Steam 第三個啟動選項「安全模式下的使用者介面」，重新啟動 Wallpaper Engine。
 
-![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
+![啟動選項：安全模式下的使用者介面](/img/faq/steam_launch_option.jpg)
 
 ## Wallpaper Engine 介面出現綠色雜訊或白色線條
 
 您的顯示卡驅動程式已損壞或設定錯誤。 請下載最新的顯示卡驅動程式 (即使您已經有最新的驅動程式)，並執行全新安裝。 您必須先將目前的驅動程式解除安裝，再安裝最新的驅動程式，確保移除所有損壞的檔案或設定。
 
-如果問題仍存在，請關閉 Wallpaper Engine。 Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
+如果問題仍存在，請關閉 Wallpaper Engine。 接著，使用 Steam 第三個啟動選項「安全模式下的使用者介面」，重新啟動 Wallpaper Engine。
 
 **如果 Wallpaper Engine 介面出現白色線條**：您已為所有應用程式開啟 **Nvidia Image Sharpening (影像銳利化)**。 在 Nvidia 驅動程式中將其關閉，或者先解除安裝 Nvidia 驅動程式再執行全新安裝。
 
