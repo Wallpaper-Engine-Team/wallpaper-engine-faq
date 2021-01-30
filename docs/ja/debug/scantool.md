@@ -7,11 +7,11 @@ Wallpaper Engineで技術的な問題が発生し、FAQを見ても解決でき�
 3. **Save Full Log**をクリックし、デスクトップに保存します（下の短い動画をご覧ください）。
 4. ログファイルを開発者と共有：
     * **フォーラムまたはその他のソーシャルメディアサイトで私たちとお話しになりましたか？**以下にファイルをお送りください： **logs@wallpaperengine.io**
-        * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
-    * **Talked to us via email already?** Simply reply to the email and attach the log file.
-    * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
+        * **重要：**このメールアドレスをお使いの場合、ディスカッションのリンクと、あなたのユーザー名をお知らせください。
+    * **既にメールでご連絡をいただきましたか？**ログファイルを添付の上、メールでお返事ください。
+    * **これが初めてのお問い合わせですか？**以下にメールをお送りいただき、新しいチケットを作成してください：**support@wallpaperengine.io**
 
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
+5. *オプション：*クラッシュが起きた場合は、*wallpaper_engine*ディレクトリの中で**.mdmp**ファイルを探し、それもメールでお送りいただくか（**logs@wallpaperengine.io**）、 どこかにアップロードしてリンクをお送りください。 .mdmpファイルがたくさんある場合は、最新のものをお送りください。
 
 ::: tip
 最初の1回でスキャンツールが問題を報告しない場合でも、ログファイルを詳しく調べると、よくあるコンピュータの問題が発見され、技術的問題の解決に向けたアドバイスを差し上げられることがよくあります。
