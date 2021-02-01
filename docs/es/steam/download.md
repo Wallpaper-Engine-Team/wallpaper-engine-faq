@@ -31,7 +31,8 @@ Steam no ha terminado de descargar y verificar los archivos. Si llevas esperando
     * **Aviso:** `C:\Program Files (x86)\Steam` es la ruta de Steam por defecto. Si lo has instalado en otro directorio, tendrás que comprobar ese.
 * Reinicia Steam. No abras ningún juego. Comprueba la pestaña de descargas de Steam para ver el progreso y reinicia las descargas pausadas.
 
-::: details Haz click aquí para ver más soluciones posibles si los pasos anteriores no solucionan el problema con las descargas.
+::: details
+Haz click aquí para ver más soluciones posibles si los pasos anteriores no solucionan el problema con las descargas.
 * Comprueba que el antivirus o el firewall no tienen Steam bloqueado. Excluye el directorio entero de Steam en la configuración del antivirus.
 * Desuscríbete de los fondos que no puedan descargarse y vuelve a suscribirse después de reiniciar Steam.
 * Elige otro servidor de contenido en la configuración de Steam. Encontrarás la opción en la pestaña «Descargas» de la configuración de Steam.
