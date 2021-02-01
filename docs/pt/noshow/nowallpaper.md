@@ -20,7 +20,7 @@ Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender),
 
 ## Modo de alto contraste no Windows
 
-Caso tenha ativado o **modo de alto contraste** nas definições de tema do seu Windows 10 com o tema **Branco de Alto Contaste**, o Windows forçará a desativação dos wallpapers do Wallpaper Engine. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+Caso tenha ativado o **modo de alto contraste** nas definições de tema do seu Windows 10 com o tema **Branco de Alto Contaste**, o Windows forçará a desativação dos wallpapers do Wallpaper Engine. Experimente mudar o tema de alto contraste que está a utilizar nas definições de alto contraste do Windows, ou desative totalmente o modo de alto contraste e o problema irá desaparecer.
 
 ## Conflitos com outro software de modificação do ambiente de trabalho
 
