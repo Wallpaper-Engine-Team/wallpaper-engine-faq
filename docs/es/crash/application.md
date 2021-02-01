@@ -81,7 +81,7 @@ Este caso suele darse por un problema de Windows. Vuelve a instalar la versión 
 ¡Aviso! Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
 :::
 
-### nvwgf2umx.dll
+### nvwgf2umx.dll / nvwgf2um.dll
 
 Los controladores de Nvidia de tu sistema se cuelgan. Dirígete a la página web de Nvidia, descarga los controladores más recientes e instálalos:
 
