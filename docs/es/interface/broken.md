@@ -25,11 +25,15 @@ En algunos casos es necesario verificar los archivos de Wallpaper Engine despué
 
 Si la verificación de archivos de Steam no soluciona el problema tras configurar el antivirus, intenta volver a instalar Wallpaper Engine en Steam. Si el antivirus ha enloquecido, es probable que haya bloqueado de forma permanente las rutas de acceso que utiliza Wallpaper Engine. En ese caso, desinstala primero el antivirus y después instala Wallpaper Engine en un directorio diferente: puedes crear una biblioteca de juegos nueva en Steam para hacerlo.
 
+Si el problema persiste, cierra Wallpaper Engine Vuelve a abrir Wallpaper Engine con la tercera opción de Steam «Interfaz de usuario en modo seguro».
+
+![Inicio: Interfaz de usuario en modo seguro](/img/faq/steam_launch_option.jpg)
+
 ## La interfaz de Wallpaper Engine tiene artefactos verdes o líneas blancas
 
 Los controladores de la tarjeta gráfica están dañados o desconfigurados. Descarga los más recientes (incluso si ya los tienes instalados) y vuelve a instalarlos de cero. Es necesario que desinstales los controladores que tienes instalados e instales los más recientes para asegurarte de que se eliminen los archivos o ajustes dañados.
 
-Si el problema persiste, cierra Wallpaper Engine y vuelve a abrirlo con la tercera opción en Steam: «Deshabilitar aceleración de hardware».
+Si el problema persiste, cierra Wallpaper Engine Vuelve a abrir Wallpaper Engine con la tercera opción de Steam «Interfaz de usuario en modo seguro».
 
 **Si la interfaz de usuario de Wallpaper Engine tiene líneas blancas**: tienes **Nvidia Image Sharpening** activado para todas las aplicaciones. Desactívalo en los controladores de Nvidia o desinstálalos todos y vuelve a instalarlos desde cero.
 
