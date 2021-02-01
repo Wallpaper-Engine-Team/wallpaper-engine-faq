@@ -18,9 +18,9 @@ Se alguns ou todos os seus wallpapers não aparecerem, é frequente que isso sej
 Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender), é muito provável que esta seja a causa dos seus problemas. Se as suas primeiras tentativas não corrigirem este problema, dedique algum tempo a investigar isto de forma mais aprofundada.
 :::
 
-## High-contrast mode in Windows
+## Modo de alto contraste no Windows
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+Caso tenha ativado o **modo de alto contraste** nas definições de tema do seu Windows 10 com o tema **Branco de Alto Contaste**, o Windows forçará a desativação dos wallpapers do Wallpaper Engine. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
 
 ## Conflitos com outro software de modificação do ambiente de trabalho
 
