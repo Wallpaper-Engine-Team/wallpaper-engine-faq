@@ -14,9 +14,12 @@ Duvar kâğıtlarınızın bir kısmı veya hiçbiri görünmüyorsa bunun neden
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-::: tip
-Yüklü bir antivirüs uygulamanız varsa (Windows Defender hariç) sorunlarınızın sebebi büyük olasılıkla bu uygulamadır. İlk denemeleriniz bu sorunu çözmüyorsa bunu araştırmak için biraz daha zaman ayırın.
+::: tip Yüklü bir antivirüs uygulamanız varsa (Windows Defender hariç) sorunlarınızın sebebi büyük olasılıkla bu uygulamadır. İlk denemeleriniz bu sorunu çözmüyorsa bunu araştırmak için biraz daha zaman ayırın.
 :::
+
+## Windows'ta yüksek kontrast modu
+
+Windows 10 tema ayarlarınızdan **Yüksek Kontrast Beyaz** temasını seçerek **yüksek kontrast modunu** etkinleştirdiyseniz, Windows zorla Wallpaper Engine duvar kâğıtlarını kapatır. Windows yüksek kontrast ayarlarını kullanıyorsanıza yüksek kontrast temasını değiştirmeyi ya da yüksek kontrast modunu tamamen kapatmayı deneyin, sorun ortadan kalkacaktır.
 
 ## Diğer masaüstü değişiklik yazılımlarıyla çakışmalar
 
