@@ -18,6 +18,10 @@ tags:
 如果您安裝了防毒應用程式 (Windows Defender 除外)，很可能就是原因。 如果您試了幾次都無法解決此問題，請花些時間確認。
 :::
 
+## Windows 的高對比模式
+
+如果您的 Windows 10 主題設定啟動**高對比模式**，且選擇**高對比白色**，Windows 將強制關閉 Wallpaper Engine 桌布。 嘗試變更您正在使用的 Windows 高對比主題，或是完全關閉高對比模式，此問題就會消失。
+
 ## 與其他桌面改造軟體衝突
 
 Wallpaper Engine 可與大多數桌面改造應用程式安然並存。 但有些應用程式也能修改 Windows 桌布，例如 StarDock DeskScapes，此時兩個應用程式無法同時運作。 如果您使用類似 Wallpaper Engine 的應用程式，則必須決定使用哪個應用程式。
