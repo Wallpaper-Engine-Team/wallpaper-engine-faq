@@ -31,7 +31,8 @@ Steam n'a pas fini de télécharger et de vérifier ces fichiers. Si les téléc
     * **Attention :** `C:\Program Files (x86)\Steam` est le chemin par défaut. Regardez ailleurs si vous avez installé l'application dans un autre dossier.
 * Redémarrez Steam. Ne lancez aucun jeu. Vérifiez les téléchargements de Steam et reprenez les téléchargements mis en pause.
 
-::: details Cliquez ici pour voir d'autres solutions si les étapes ci-dessus n'ont pas résolu vos problèmes
+::: details
+Cliquez ici pour voir d'autres solutions si les étapes ci-dessus n'ont pas résolu vos problèmes
 * Assurez-vous qu'aucun antivirus ou pare-feu ne bloque Steam. Mettez une exception dans votre antivirus pour le répertoire de Steam.
 * Désabonnez-vous des fonds d'écran qui ne parviennent pas à se télécharger et abonnez-vous à nouveau après le redémarrage de Steam.
 * Choisissez un différent serveur dans les paramètres de Steam. Cette option se trouve dans l'onglet "Téléchargements" des paramètres de Steam.
