@@ -18,6 +18,10 @@ Si no aparecen algunos de los fondos (o ninguno), puede ser por culpa de que el 
 Si tienes un antivirus instalado (que no sea Windows Defender) es muy probable que sea el causante de los problemas. Investiga el asunto con calma si no consigues solucionar el error tras los primeros intentos.
 :::
 
+## Modo de contraste alto en Windows
+
+Si tienes activado el **modo de contraste alto** en los ajustes de Windows 10 con el tema **Blanco en alto contraste**, Windows se encargará de desactivar los fondos de Wallpaper Engine a la fuerza. Intenta cambiar el tema de contraste alto en los ajustes de Windows o desactiva el modo de contraste alto por completo para que desaparezca el problema.
+
 ## Conflictos con otros programas de modificación de escritorio
 
 Wallpaper Engine funciona bien con casi todos los programas de modificación de escritorios. Sin embargo, hay algunos como StarDock DeskScapes que también modifican los fondos de Windows, por lo que no es posible usar los dos programas a la vez. Si usas un programa parecido a Wallpaper Engine, deberás decantarse por uno solo.
