@@ -19,7 +19,7 @@ Duvar kâğıtlarınızın bir kısmı veya hiçbiri görünmüyorsa bunun neden
 
 ## Windows'ta yüksek kontrast modu
 
-Windows 10 tema ayarlarınızdan **Yüksek Kontrast Beyaz** temasını seçerek **yüksek kontrast modunu** etkinleştirdiyseniz, Windows zorla Wallpaper Engine duvar kâğıtlarını kapatır. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+Windows 10 tema ayarlarınızdan **Yüksek Kontrast Beyaz** temasını seçerek **yüksek kontrast modunu** etkinleştirdiyseniz, Windows zorla Wallpaper Engine duvar kâğıtlarını kapatır. Windows yüksek kontrast ayarlarını kullanıyorsanıza yüksek kontrast temasını değiştirmeyi ya da yüksek kontrast modunu tamamen kapatmayı deneyin, sorun ortadan kalkacaktır.
 
 ## Diğer masaüstü değişiklik yazılımlarıyla çakışmalar
 
