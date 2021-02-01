@@ -47,7 +47,7 @@ Wallpaper Engine 无法直接与 RGB 硬件通信，所有颜色信息都要先�
 
 1. 完全关闭 Wallpaper Engine。 这一点非常重要，请不要跳过此步骤。
 2. 通过 Windows 卸载计算机上的所有 Razer 软件。
-3. Redownload the latest version of Razer Synapse 3 and install it. **Important:** Make sure to also reinstall the **Chroma Connect** module in Razer Synapse itself.
+3. 重新下载并安装最新版本的 Razer Synapse 3。 **重要提示：**请务必同时重新安装 Razer Synapse 本身里面的 **Chroma Connect** 模块。
 4. 重新启动计算机，在重新启动 Windows 之前，请勿启动 Wallpaper Engine。
 
 看看这种方法能否解决您的 RGB 硬件问题。 如果需要 Razer 硬件方面的更多支持，请直接联系 Razer：
