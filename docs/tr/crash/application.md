@@ -77,18 +77,16 @@ Bu çökme, genellikle Windows'un kendisinden kaynaklanır. Sorunu çözmek içi
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: tip
-Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay kutusunu seçtiğinizden emin olun veya önce mevcut sürücülerinizi elle kaldırın. Mevcut sürücüleriniz bozuksa önce bunları temizlemeniz önemlidir.
+::: tip Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay kutusunu seçtiğinizden emin olun veya önce mevcut sürücülerinizi elle kaldırın. Mevcut sürücüleriniz bozuksa önce bunları temizlemeniz önemlidir.
 :::
 
-### nvwgf2umx.dll
+### nvwgf2umx.dll / nvwgf2um.dll
 
 Sisteminizdeki Nvidia sürücüleri çöküyor. Nvidia internet sitesine gidin, buradan en son sürücüleri indirin ve kurun:
 
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
-::: tip
-Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay kutusunu seçtiğinizden emin olun veya önce mevcut sürücülerinizi elle kaldırın. Mevcut sürücüleriniz bozuksa önce bunları temizlemeniz önemlidir.
+::: tip Lütfen unutmayın Kurulum sırasında "Temiz bir şekilde yeniden yükle" onay kutusunu seçtiğinizden emin olun veya önce mevcut sürücülerinizi elle kaldırın. Mevcut sürücüleriniz bozuksa önce bunları temizlemeniz önemlidir.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
