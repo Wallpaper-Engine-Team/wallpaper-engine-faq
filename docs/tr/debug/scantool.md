@@ -6,8 +6,8 @@ Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'd
 2. Steam'deki 4. başlatma seçeneğini seçin (*"Sistem Çakışmalarını Denetle"*, aşağıdan konuyla alakalı kısa video izleyebilirsiniz):
 3. **Save Full Log** seçeneğini tıklayıp masaüstünüze kaydedin (aşağıda kısa bir video bulunmaktadır).
 4. Kayıt dosyasını geliştiricilerimizle paylaşın:
-    * **Talked to us on our forums or another social media website?** Send the log file to **logs@wallpaperengine.io**.
-        * **IMPORTANT:** If you use this email address, please share a link to your discussion and tell us your username.
+    * **Forumlarımızda veya başka bir sosyal medya internet sitesinde bizimle konuştunuz mu?**Günlük kaydını **logs@wallpaperengine.io** adresine gönderin.
+        * **ÖNEMLİ:**Bu e-posta adresini kullanıyorsanız lütfen tartışmanın bir bağlantısını paylaşın ve bize kullanıcı adınızı söyleyin.
     * **Talked to us via email already?** Simply reply to the email and attach the log file.
     * **First time talking to us?** Create a new ticket by sending an email to **support@wallpaperengine.io**.
 
