@@ -18,6 +18,10 @@ Se alguns ou todos os seus wallpapers não aparecerem, é frequente que isso sej
 Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender), é muito provável que esta seja a causa dos seus problemas. Se as suas primeiras tentativas não corrigirem este problema, dedique algum tempo a investigar isto de forma mais aprofundada.
 :::
 
+## Modo de alto contraste no Windows
+
+Caso tenha ativado o **modo de alto contraste** nas definições de tema do seu Windows 10 com o tema **Branco de Alto Contaste**, o Windows forçará a desativação dos wallpapers do Wallpaper Engine. Experimente mudar o tema de alto contraste que está a utilizar nas definições de alto contraste do Windows, ou desative totalmente o modo de alto contraste e o problema irá desaparecer.
+
 ## Conflitos com outro software de modificação do ambiente de trabalho
 
 O Wallpaper Engine funciona bem com a maior parte das aplicações de modificação do ambiente de trabalho. No entanto, algumas aplicações como o StarDock DeskScapes também modificam o wallpaper do Windows e não é possível executar as duas aplicações ao mesmo tempo. Se utilizar uma aplicação semelhante ao Wallpaper Engine, será necessário decidir qual delas continuará a usar.

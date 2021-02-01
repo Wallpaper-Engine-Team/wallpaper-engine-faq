@@ -1,20 +1,20 @@
-# Wallpaper Engine Troubleshooting Guide & FAQ
-If you are having a technical problem or just a question about Wallpaper Engine, you will likely find an answer here. 95% of questions and problems we get asked are the same so it is likely that you will find your answer here.
+# Wallpaper Engine - Problemlösungen & Häufige Fragen
+Falls du technische Probleme oder einfach eine Frage über Wallpaper Engine hast, wirst du hier wahrscheinlich die passende Antwort finden. 95% der Fragen und Probleme die an uns gesendet werden, behandeln die gleichen Themen und du wirst wahrscheinlich die Lösung dazu hier finden.
 
-**It's best if you use the search bar in the upper right corner** or simply look on the list of all articles on the left - we have tried to categorize them sensibly. We have also listed the most frequently accessed help articles below, check if your problem is in there.
+**Am besten nutzt du die Suche oben rechts** oder schaust dir links die Liste von allen Artikeln an - wir haben versucht diese möglichst sinnvoll zu sortieren. Wir haben außerdem die am häufigsten gelesenen Hilfe-Artikel unten aufgelistet, schaue ob dein Problem in dieser Liste auftaucht.
 
 ::: tip
-Use the search bar in the upper right corner with single keywords. For example, if your wallpapers are just showing as black backgrounds, try simply searching for "black".
+Nutze die Suchleiste oben rechts mit einzelnen Schlagwörtern. Zum Beispiel, wenn deine Hintergründe einfach schwarz angezeigt werden, versuche einfach nur nach "schwarz" zu suchen.
 :::
 
-## Most popular support articles
+## Am häufigsten gelesene Hilfe-Artikel
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+Schaue zunächst ob dein Problem in der folgenden Liste dabei ist, ansonsten nutze die Suche oben rechts oder schaue durch die Liste von Artikeln auf der linken Seite:
 
-| **Top Articles**                                                                                                      |
-| --------------------------------------------------------------------------------------------------------------------- |
-| 1. [Steam Download Issues](steam/download.html)                                                                       |
-| 2. [Black Screen / Videos not Playing](noshow/notplaying.html)                                                        |
-| 3. [Video colors wrong / too bright or too dark / zoomed-in / pixelated / border around video](videos/artifacts.html) |
-| 4. [Wallpaper Engine crashing](crash/application.html)                                                                |
-| 5. [Exporting wallpapers as GIF / video files](functionality/export.html)                                             |
+| **Top-Hilfeseiten**                                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. [Steam Download-Probleme](steam/download.html)                                                                                               |
+| 2. [Schwarzer Hintergrund / Videos spielen nicht ab](noshow/notplaying.html)                                                                    |
+| 3. [Video-Farben sind falsch / zu hell oder zu dunkel/ reingezoomtes bild / verpixeltes Bild / Rahmen um das Bild herum](videos/artifacts.html) |
+| 4. [Abstürze von Wallpaper Engine](crash/application.html)                                                                                      |
+| 5. [Hintergründe als GIF- / Video-Dateien exportieren](functionality/export.html)                                                               |

@@ -3,12 +3,15 @@
 Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'de bulamıyorsanız bir sistem günlüğü dosyası oluşturabilir ve bizimle paylaşabilirsiniz:
 
 1. Wallpaper Engine'in çalıştığından emin olun (mümkünse).
-2. Steam'deki 4. başlatma seçeneğini tıklayın (*"Scan for conflicting applications"*, aşağıda bunun için kısa bir video bulunmaktadır):
+2. Steam'deki 4. başlatma seçeneğini seçin (*"Sistem Çakışmalarını Denetle"*, aşağıdan konuyla alakalı kısa video izleyebilirsiniz):
 3. **Save Full Log** seçeneğini tıklayıp masaüstünüze kaydedin (aşağıda kısa bir video bulunmaktadır).
-4. Bu yöntemlerden herhangi birini kullanarak günlük dosyasını geliştiricilerle paylaşın:
-    * [pastebin.com](https://pastebin.com/) adresine giderek günlük dosyanızın içeriğini yapıştırın ve yapıştırdığınız içeriğin bağlantısını paylaşın.
-    * Alternatif olarak, günlük dosyasını bir e-postaya ekleyip bize gönderebilirsiniz. E-posta üzerinden halihazırda bir tartışma yürüttüyseniz lütfen günlük dosyasını ekleyerek son gönderilen e-postayı yanıtlayın. İlk e-postanızı atıyorsanız karşılaştığınız sorunla ilgili bilgi verin ya da mevcut tartışmanın bağlantısını gönderin.
-5. *İsteğe Bağlı:* Çökme sorunu yaşıyorsanız herhangi bir **.mdmp** dosyası var mı diye lütfen *wallpaper_engine* dizininizi kontrol edin ve bize e-posta yoluyla ya da bir yerlere yükleyerek gönderin. Çok fazla .mdmp dosyası bulamazsanız lütfen en yenilerini gönderin.
+4. Kayıt dosyasını geliştiricilerimizle paylaşın:
+    * **Forumlarımızda veya başka bir sosyal medya internet sitesinde bizimle konuştunuz mu?**Günlük kaydını **logs@wallpaperengine.io** adresine gönderin.
+        * **ÖNEMLİ:**Bu e-posta adresini kullanıyorsanız lütfen tartışmanın bir bağlantısını paylaşın ve bize kullanıcı adınızı söyleyin.
+    * **Bizimle e-posta üzerinden mi konuştunuz?**E-postayı cevaplayın ve günlük kaydını ek olarak gönderin.
+    * **Bizimle ilk kez mi konuşuyorsunuz?****support@wallpaperengine.io** adresine bir e-posta göndererek yeni bir bilet oluşturun.
+
+5. *İsteğe bağlı:*Çökme sorunu yaşıyorsanız lütfen *wallpaper_engine* dizininizdeki **.mdmp** dosyalarını kontrol edin ve o dosyaları bize **logs@wallpaperengine.io** e-posta adresinden ya da bir yere yükleyerek gönderin. Birçok .mdmp dosyası buluyorsanız lütfen yalnızca en yenilerini gönderin.
 
 ::: tip
 Tarama aracı ilk bakışta herhangi bir sorun bildirmese bile, günlük dosyasının daha ayrıntılı bir incelemesiyle yaygın bilgisayar sorunları ortaya çıkar. Bu şekilde teknik sorunlarınızın çözümünde size daha hızlı yardımcı olabiliriz.

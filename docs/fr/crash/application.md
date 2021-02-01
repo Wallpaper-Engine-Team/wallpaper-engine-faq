@@ -81,7 +81,7 @@ Ce crash est généralement dû à Windows lui-même. Essayez de réinstaller la
 Attention N'oubliez pas de sélectionner "Effectuer une réinstallation propre" ou désinstaller manuellement vos pilotes. Si vos pilotes actuels sont corrompus, il faut les éliminer en premier.
 :::
 
-### nvwgf2umx.dll
+### nvwgf2umx.dll / nvwgf2um.dll
 
 Les pilotes Nvidia de votre système ont un problème. Rendez-vous sur le site Nvidia pour télécharger la dernière version de vos pilotes :
 
