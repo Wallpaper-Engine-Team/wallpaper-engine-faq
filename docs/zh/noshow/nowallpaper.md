@@ -18,9 +18,9 @@ tags:
 如果您安装了防病毒应用程序（Windows Defender 除外），那么这很可能是造成问题的原因。 如果您的前几次尝试未能解决此问题，请花些时间深入调查。
 :::
 
-## High-contrast mode in Windows
+## Windows 中的高对比度模式
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+如果您在 Windows 10 主题设置中启用了**高对比度模式**并选择了**高对比度白色**主题，Windows 将强行关闭 Wallpaper Engine 的壁纸。 尝试在 Windows 的高对比度设置中更换您正在使用的高对比度主题，或者完全关闭高对比度模式，问题就会消失。
 
 ## 与其他桌面修改软件冲突
 
