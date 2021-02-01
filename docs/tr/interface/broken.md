@@ -24,15 +24,15 @@ Bazı durumlarda daha sonra Wallpaper Engine dosyalarını doğrulamanız veya a
 
 Antivirüs uygulamanızı yapılandırdıktan sonra Steam üzerindeki doğrulama da bu sorunu çözmezse Wallpaper Engine'i Steam üzerinden yeniden yüklemeyi deneyin. Eğer antivirüs uygulamanız aşırı tepki veriyorsa Wallpaper Engine'in kullandığı dosya yollarını kalıcı olarak engellemiş de olabilir. Bu durumda önce antivirüs yazılımını kaldırın ve sonrasında Wallpaper Engine'i farklı bir dizine kurun. Bunun için Steam'de yeni bir Steam oyun kütüphanesi oluşturmayı tercih edebilirsiniz.
 
-Sorun devam ederse Wallpaper Engine'i kapatın. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
+Sorun devam ederse Wallpaper Engine'i kapatın. Ardından Steam'de "Güvenli Modda Kullanıcı Arayüzü" isimli üçüncü başlatma seçeneğini kullanarak Wallpaper Engine'i tekrar başlatın.
 
-![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
+![Başlatma seçeneği: Güvenli Modda Kullanıcı Arayüzü](/img/faq/steam_launch_option.jpg)
 
 ## Yeşil yapıtlı veya beyaz çizgili Wallpaper Engine arayüzü
 
 Grafik kartı sürücüleriniz bozuk veya yanlış yapılandırılmış. Grafik kartlarınız için en güncel sürücüleri indirin (en güncel sürücülere sahip olsanız bile) ve sürücüler için temiz bir yeniden kurulum gerçekleştirin. Bozuk dosyaların veya ayarların kaldırılmasını sağlamak için öncelikle mevcut sürücülerinizi kaldırmanız ve sonrasında en güncel sürücüleri kurmanız önemlidir.
 
-Sorun devam ederse Wallpaper Engine'i kapatın. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
+Sorun devam ederse Wallpaper Engine'i kapatın. Ardından Steam'de "Güvenli Modda Kullanıcı Arayüzü" isimli üçüncü başlatma seçeneğini kullanarak Wallpaper Engine'i tekrar başlatın.
 
 **Wallpaper Engine kullanıcı arayüzünde beyaz çizgiler varsa**: **Nvidia Görüntü Keskinleştirme** tüm uygulamalar için açıktır. Nvidia sürücülerinizden kapatın veya mevcut sürücülerinizi kaldırıp temiz bir Nvidia sürücüsü kurun.
 
