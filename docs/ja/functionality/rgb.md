@@ -47,7 +47,7 @@ Razer RGB ハードウェアに関する問題のほとんどは、Wallpaper Eng
 
 1. Wallpaper Engine を完全に終了します。 これは非常に重要な手順なので飛ばさないでください。
 2. すべての Razer ソフトウェアを Windows を使ってアンインストールします。
-3. Razer Synapse 3 の最新バージョンをダウンロードし直し、インストールします。
+3. Razer Synapse 3 の最新バージョンをダウンロードし直し、インストールします。 **重要：**Razer Synapseそのものの**Chroma Connect**モジュールも必ず再インストールしてください。
 4. コンピューターを再起動します。Windows の再起動前に Wallpaper Engine を起動しないでください。
 
 RGB ハードウェアの問題が解決しているかどうか確認します。 Razer ハードウェアに関してさらにサポートが必要な場合は、Razer に直接お問い合わせください：
