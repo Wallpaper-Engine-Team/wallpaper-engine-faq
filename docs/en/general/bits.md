@@ -12,7 +12,7 @@ You may also opt for the 64-bit version when the video system on your PC has err
 Note that "Web" type wallpapers will always be executed with a 32-Bit executable (webwallpaper32.exe). The same applies to the user interface itself (ui32.exe). 64-Bit only applies when selecting wallpapers of the type "Scene" or "Video".
 :::
 
-## How to set-up Wallpaper Engine to autstart with either the 32 or 64 Bit version when Windows launches?
+## How to set-up Wallpaper Engine to automatically start with either the 32 or 64 Bit version when Windows launches?
 
 First, completely turn off Wallpaper Engine via the tray icon (right-click on the Wallpaper Engine icon in the Windows tray -> "Quit"). This is important as Steam will otherwise not launch Wallpaper Engine and only bring the already running version to the foreground.
 
