@@ -3,8 +3,10 @@
   "description": "Wallpaper Engine FAQ",
   "license": "Apache-2.0",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev-default": "vuepress dev docs",
+    "docs:dev": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js dev docs --open",
+    "docs:build-default": "vuepress build docs",
+    "docs:build": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.4.0",
