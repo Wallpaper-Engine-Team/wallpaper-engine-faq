@@ -8,8 +8,11 @@
 
 Данная инструкция предполагает, что на вашем компьютере Steam и Wallpaper Engine установлены в «C:\Program Files (x86)\Steam\». Если вы установили Steam и/или Wallpaper Engine в другом месте, файлы нужно будет искать там.
 
-1. Найдите папку, в которой Steam хранит ваши обои. По умолчанию это `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** — это идентификационный номер Wallpaper Engine в Steam. Этот каталог используется для всех файлов, загруженных через Wallpaper Engine.
+::: tip
+**431960** — это идентификационный номер Wallpaper Engine в Steam. Этот каталог используется для всех файлов, загруженных через Wallpaper Engine.
 :::
+
+1. Найдите папку, в которой Steam хранит ваши обои. По умолчанию это `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`
 2. Скопируйте папку 431960 в путь установки Wallpaper Engine: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`.
 3. **Переименуйте** папку `431960` в `backup` (резервная копия), чтобы путь полностью выглядел вот так: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`.
 4. Теперь в каталоге `backup` хранятся все загруженные до этого момента обои в индивидуальных подкаталогах (номера соответствуют идентификационным номерам, которые конкретным обоям присвоила Мастерская Steam).
