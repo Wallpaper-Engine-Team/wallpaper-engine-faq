@@ -8,8 +8,11 @@
 
 以下指南预计您将 Steam 和 Wallpaper Engine 安装在“C:\Program Files (x86)\Steam\”中，如果您将其安装在其他目录，请务必查看这些位置。
 
-1. 找到 Steam 用于存储壁纸的文件夹，默认路径为 `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` ::: tip **431960** 是 Wallpaper Engine 的 Steam ID，Steam 使用此目录存储 Wallpaper Engine 下载的所有内容。
+::: tip
+**431960** 是 Wallpaper Engine 的 Steam ID，Steam 使用此目录存储 Wallpaper Engine 下载的所有内容。
 :::
+
+1. 找到 Steam 用于存储壁纸的文件夹，默认路径为 `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`
 2. 将文件夹 431960 复制到 Wallpaper Engine 的以下安装路径：`C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
 3. 将文件夹 `431960` **重命名**为 `backup`，使其完整路径如下所示：`C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
 4. 现在，`backup` 目录包含您之前下载的所有壁纸，每张壁纸都位于其各自的子目录中（数字代表壁纸的 Steam 创意工坊 ID）
