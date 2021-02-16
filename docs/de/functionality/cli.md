@@ -86,7 +86,7 @@ Schaltet die Tonwiedergabe aller Hintergründe wieder an.
 
 ### Hintergrund öffnen
 
-Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
+Lädt einen neuen Hintergrund für einen angegebenen Bildschirm (oder den ersten Bildschirm wenn keiner angegeben wurde). You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
