@@ -38,53 +38,53 @@ Du solltest nun den Reiter **Verknüpfung** sehen mit einer Zeile namens **Ziel*
 
 * Stelle sicher, dass der Pfad zu deiner wallpaper32.exe / wallpaper64.exe korrekt bleibt. Das Beispiel oben nutzt die Standardpfad von Steam.
 * Stelle sicher, dass du den korrekten Pfad zu deinem Hintergrund angibst. Das Beispiel nutzt exemplarisch die Workshop-ID **123456789**, du musst diese ändern, damit dein Hintergrund angezeigt wird. Du kannst an dieser Stelle auch jede unterstützte Datei auf deinem Computer nutzen.
-  * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
-* Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
-* You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
+  * Der vollständige Pfad für jeden Hintergrund kann gefunden werden, indem du mit Rechtsklick auf einen Hintergrund in Wallpaper Engine klickst und dann **Im Dateimanager öffnen** auswählst. Für Hintergründe vom Type Szene solltest du allgemein auf die zugehörige *project.json* zeigen, für Video-Hintergründe wirst du wahrscheinlich eine Datei vom Typ *.mp4* finden und für Web-Hintergründe heißt die jeweilige Datei normalerweise *index.html*.
+* Gib dem Fenster einen einzigartigen Namen. Das Beispiel oben verwendet **Wallpaper #1** als Namen. **Wenn du mehrere Fenster öffnen möchtest, weise ihnen jeweils allen einen einzigartigen Namen zu.**
+* Gegebenenfalls möchtest du auch eine andere Auflösung verwenden, das Beispiel oben verwendet 1920x1080 (Full HD). Ändere dazu die Parameter `width` und `height` entsprechend.
 
-## Command Overview
+## Übersicht über alle Befehle
 
 ### Pause
 
-Pauses all wallpapers.
+Pausiert alle Hintergründe.
 
 ``` powershell
 -control pause
 ```
 
-### Stop
+### Stoppen
 
-Stops all wallpapers.
+Stoppt alle Hintergründe.
 
 ``` powershell
 -control stop
 ```
 
-### Play
+### Abspielen
 
-Resumes all wallpapers from pause or stop.
+Spielt alle pausierten oder gestoppten Hintergründe wieder ab.
 
 ``` powershell
 -control play
 ```
 
-### Mute
+### Stumm schalten
 
-Mutes all wallpapers.
+Schaltet alle Hintergründe stumm.
 
 ``` powershell
 -control mute
 ```
 
-### Unmute
+### Laut schalten
 
-Unmutes all wallpapers.
+Schaltet die Tonwiedergabe aller Hintergründe wieder an.
 
 ``` powershell
 -control unmute
 ```
 
-### Open Wallpaper
+### Hintergrund öffnen
 
 Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
 
