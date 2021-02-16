@@ -20,51 +20,73 @@ wallpaper32.exe -control pause
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
+### Shortcut example: Opening a wallpaper in a window
+
+The following example allows you to open any number of wallpapers in a window through a Windows shortcut. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+
+First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+
+![Wallpaper Engine shortcut properties](/img/faq/target.gif)
+
+You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+
+```bash
+"C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
+```
+
+Check the following things when configuring this command:
+
+* Make sure the path to your wallpaper32.exe / wallpaper64.exe stays correct. The example above uses the default Steam directory.
+* Make sure to use the correct path to your wallpaper. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
+  * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
+* Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
+* You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
+
 ## ภาพรวมคำสั่ง
 
-### หยุดชั่วคราว
+### Pause
 
-หยุดวอลเปเปอร์ทั้งหมดชั่วคราว
+Pauses all wallpapers.
 
 ``` powershell
 -control pause
 ```
 
-### หยุด
+### Stop
 
-หยุดวอลเปเปอร์ทั้งหมด
+Stops all wallpapers.
 
 ``` powershell
 -control stop
 ```
 
-### เล่น
+### Play
 
-เล่นวอลเปเปอร์ทั้งหมดที่หยุดชั่วคราวหรือหยุดเอาไว้
+Resumes all wallpapers from pause or stop.
 
 ``` powershell
 -control play
 ```
 
-### ปิดเสียง
+### Mute
 
-ปิดเสียงวอลเปเปอร์ทั้งหมด
+Mutes all wallpapers.
 
 ``` powershell
 -control mute
 ```
 
-### เลิกปิดเสียง
+### Unmute
 
-เลิกปิดเสียงวอลเปเปอร์ทั้งหมด
+Unmutes all wallpapers.
 
 ``` powershell
 -control unmute
 ```
 
-### เปิดวอลเปเปอร์
+### Open Wallpaper
 
-ในการโหลดวอลเปเปอร์ใหม่บนจอแสดงผลที่กำหนดหรือจอแสดงผลแรกหากไม่ได้ระบุไว้ คุณสามารถใช้พารามิเตอร์ `location` หรือ `monitor` เพื่อเลือกจอแสดงผลที่จะโหลดวอลเปเปอร์หรือเปิดวอลเปเปอร์ในหน้าต่างด้วยพารามิเตอร์ `playInWindow`
+Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
@@ -72,82 +94,82 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
         [-x <number>] [-y <number>] [-preset <string>]
 ```
 
-* **file:** พาธไปยัง project.json ของวอลเปเปอร์ที่คุณต้องการเปิดหรือกำหนดพาธไปยังไฟล์วอลเปเปอร์ (.mp4 เป็นต้น)
-* **location *(ไม่บังคับ)*:** ตัวระบุภายในของจอแสดงผล คุณพบสิ่งเหล่านี้ได้ในไฟล์ config.json ซึ่งสร้างขึ้นโดยคอมพิวเตอร์ของคุณ
-* **monitor *(ไม่บังคับ)*:** ดัชนีของจอแสดงผลเพื่อโหลดวอลเปเปอร์ ขึ้นต้นด้วย 0
-* **preset *(ไม่บังคับ)*:** ชื่อของการตั้งค่าล่วงหน้าเพื่อใช้โหลด คุณต้องสร้างและบันทึกการตั้งค่าล่วงหน้าในเครื่องก่อน
-* **playInWindow *(ไม่บังคับ)*:** ชื่อของหน้าต่างหากคุณต้องการเปิด/ควบคุมหลายวอลเปเปอร์ในหน้าต่าง
-  * **width *(ไม่บังคับ)*:** ความกว้างของหน้าต่าง
-  * **height *(ไม่บังคับ)*:** ความสูงของหน้าต่าง
-  * **x *(ไม่บังคับ)*:** ตำแหน่งแนวนอนของหน้าต่าง
-  * **y *(ไม่บังคับ)*:** ตำแหน่งแนวตั้งของหน้าต่าง
+* **file:** Path to the project.json of the wallpaper you want to open or direct path to wallpaper file (.mp4 etc).
+* **location *(optional)*:** Internal identifier of the monitor. You can find these in the config.json file and they are generated by your PC.
+* **monitor *(optional)*:** Index of the monitor to load the wallpaper on, begins with 0.
+* **preset *(optional)*:** Name of the local preset to load, the local preset must have been created and saved by you before.
+* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window.
+  * **width *(optional)*:** Width of window.
+  * **height *(optional)*:** Height of window.
+  * **x *(optional)*:** Horizontal position of window.
+  * **y *(optional)*:** Vertical position of window.
 
-### วอลเปเปอร์ถัดไป
+### Next Wallpaper
 
-ข้ามไปวอลเปเปอร์ถัดไปบนจอแสดงผลที่กำหนดหรือจอแสดงผลทั้งหมดหากไม่มีการระบุไว้
+Skips to the next wallpaper of a given monitor or all monitors if none specified.
 
 ``` powershell
 -control nextWallpaper [-location <string>] [-monitor <number>]
 ```
 
-### ลบวอลเปเปอร์
+### Remove Wallpaper
 
-ลบวอลเปเปอร์จากจอแสดงผลหรือหน้าต่างที่ระบุหรือลบวอลเปเปอร์ทั้งหมด
+Removes a wallpaper from a specified monitor or window or removes all wallpapers.
 
 ``` powershell
 -control closeWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(ไม่บังคับ)*:** ตัวระบุภายในของจอแสดงผลหรือชื่อหน้าต่างที่คุณระบุ
-* **monitor *(ไม่บังคับ)*:** ดัชนีของจอแสดงผลเพื่อปิดวอลเปเปอร์ ขึ้นต้นด้วย 0
+* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
+* **monitor *(optional)*:** Index of the monitor to close the wallpaper from, begins with 0.
 
-### เปิดเพลย์ลิสต์
+### Open Playlist
 
-ในการโหลดวอลเปเปอร์ใหม่บนจอแสดงผลที่กำหนดหรือจอแสดงผลแรกหากไม่ได้ระบุไว้ คุณสามารถใช้พารามิเตอร์ตำแหน่งหรือจอแสดงผลเพื่อเลือกจอแสดงผลที่จะโหลดวอลเปเปอร์ได้
+Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the location or monitor parameter to choose which monitor to load the wallpaper on.
 
 ``` powershell
 -control openPlaylist -playlist <string> [-location <string>] [-monitor <number>]
 ```
 
-* **playlist:** ชื่อของเพลย์ลิสต์ที่คุณสร้างและบันทึกไว้ใน Wallpaper Engine
-* **location *(ไม่บังคับ)*:** ตัวระบุภายในของจอแสดงผล คุณพบสิ่งเหล่านี้ได้ในไฟล์ config.json ซึ่งสร้างขึ้นโดยคอมพิวเตอร์ของคุณ
-* **monitor *(ไม่บังคับ)*:** ดัชนีของจอแสดงผลเพื่อโหลดเพลย์ลิสต์ ขึ้นต้นด้วย 0
+* **playlist:** Name of the playlist you have created and saved in Wallpaper Engine.
+* **location *(optional)*:** Internal identifier of the monitor. You can find these in the config.json file and they are generated by your PC.
+* **monitor *(optional)*:** Index of the monitor to load the playlist on, begins with 0.
 
-### ใช้การตั้งค่าวอลเปเปอร์
+### Apply Wallpaper Settings
 
-นำคุณสมบัติของวอลเปเปอร์ไปใช้กับวอลเปเปอร์ที่กำหนดหรือวอลเปเปอร์ทั้งหมด วิธีนี้จะช่วยให้คุณเปลี่ยนการตั้งค่าของวอลเปเปอร์ได้ในขณะที่โปรแกรมกำลังทำงานโดยไม่ต้องเปิดเบราว์เซอร์วอลเปเปอร์และเปลี่ยนด้วยตนเอง คุณจะพบรายการคุณสมบัติในเบราว์เซอร์ได้อย่างง่ายดายโดยคลิกที่ **แบ่งปัน JSON** ทางด้านขวาเมื่อเลือกวอลเปเปอร์ในเบราว์เซอร์
+Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** ใช้คำสั่ง **JSON** ในการกำหนดคุณสมบัติ โปรดใช้ `RAW~(` และ `)~END` เป็นตัวคั่น - ดูตัวอย่างได้จากด้านล่าง
-* **location *(ไม่บังคับ)*:** ตัวระบุภายในของจอแสดงผลหรือชื่อหน้าต่างที่คุณระบุ
-* **monitor *(ไม่บังคับ)*:** ดัชนีของจอแสดงผลเพื่ออัพเดทคุณสมบัติ ขึ้นต้นด้วย 0
+* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
+* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
+* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
 
-ตัวอย่างการเปลี่ยนการตั้งค่าวอลเปเปอร์ชื่อ `rate` เป็น 10:
+Example of changing a wallpaper setting named `rate` to 10:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-ตัวอย่างการเปลี่ยนการตั้งค่าสีชุดรูปแบบวอลเปเปอร์เป็นสีแดง (`"1 0 0"` แสดงค่า *RGB*):
+Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### ซ่อนไอคอนบนเดสก์ทอป
+### Hide Desktop Icons
 
-ซ่อนไอคอนบนเดสก์ทอป
+Hides the desktop icons.
 
 ``` powershell
 -control hideIcons
 ```
 
-### แสดงไอคอนบนเดสก์ทอป
+### Show Desktop Icons
 
-แสดงไอคอนบนเดสก์ทอป
+Shows the desktop icons.
 
 ``` powershell
 -control showIcons
