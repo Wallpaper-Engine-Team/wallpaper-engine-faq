@@ -20,51 +20,73 @@ wallpaper32.exe -control pause
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
+### Shortcut example: Opening a wallpaper in a window
+
+The following example allows you to open any number of wallpapers in a window through a Windows shortcut. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+
+First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+
+![Wallpaper Engine shortcut properties](/img/faq/target.gif)
+
+You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+
+```bash
+"C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
+```
+
+Check the following things when configuring this command:
+
+* Make sure the path to your wallpaper32.exe / wallpaper64.exe stays correct. The example above uses the default Steam directory.
+* Make sure to use the correct path to your wallpaper. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
+  * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
+* Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
+* You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
+
 ## Обзор команд
 
-### Пауза
+### Pause
 
-Приостанавливает все обои.
+Pauses all wallpapers.
 
 ``` powershell
 -control pause
 ```
 
-### Стоп
+### Stop
 
-Останавливает все обои.
+Stops all wallpapers.
 
 ``` powershell
 -control stop
 ```
 
-### Воспроизвести
+### Play
 
-Возобновляет все обои после паузы или остановки.
+Resumes all wallpapers from pause or stop.
 
 ``` powershell
 -control play
 ```
 
-### Заглушить
+### Mute
 
-Отключает звук всех обоев.
+Mutes all wallpapers.
 
 ``` powershell
 -control mute
 ```
 
-### Включить звук
+### Unmute
 
-Включает звук всех обоев.
+Unmutes all wallpapers.
 
 ``` powershell
 -control unmute
 ```
 
-### Открыть обои
+### Open Wallpaper
 
-Загружает новые обои для данного монитора или первого монитора, если не указан конкретный. Вы можете использовать параметр `location` или `monitor`, чтобы выбрать монитор для загрузки обоев, или открыть обои в окне с помощью параметра `playInWindow`.
+Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the `location` or `monitor` parameter to choose which monitor to load the wallpaper on, or open a wallpaper in a window with the `playInWindow` parameter.
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
@@ -72,82 +94,82 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
         [-x <number>] [-y <number>] [-preset <string>]
 ```
 
-* **file:** путь к project.json обоев, которые вы хотите открыть, или прямой путь к файлу обоев (.mp4 и т. д.).
-* **location *(необязательно)*:** внутренний идентификатор монитора. Он генерируется вашим компьютером и находится в файле config.json.
-* **monitor *(необязательно)*:** индекс монитора, на который будут загружены обои, начинается с 0.
-* **preset *(необязательно)*:** имя локального пресета для загрузки. Пресет должен быть создан и сохранен заранее.
-* **playInWindow *(необязательно)*:** имя окна, если вы хотите открыть несколько обоев в окне или управлять ими.
-  * **width *(необязательно)*:** ширина окна.
-  * **height *(необязательно)*:** высота окна.
-  * **x *(необязательно)*:** положение окна по горизонтали.
-  * **y *(необязательно)*:** положение окна по вертикали.
+* **file:** Path to the project.json of the wallpaper you want to open or direct path to wallpaper file (.mp4 etc).
+* **location *(optional)*:** Internal identifier of the monitor. You can find these in the config.json file and they are generated by your PC.
+* **monitor *(optional)*:** Index of the monitor to load the wallpaper on, begins with 0.
+* **preset *(optional)*:** Name of the local preset to load, the local preset must have been created and saved by you before.
+* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window.
+  * **width *(optional)*:** Width of window.
+  * **height *(optional)*:** Height of window.
+  * **x *(optional)*:** Horizontal position of window.
+  * **y *(optional)*:** Vertical position of window.
 
-### Следующие обои
+### Next Wallpaper
 
-Переход к следующим обоям данного монитора или всех мониторов, если не указан конкретный.
+Skips to the next wallpaper of a given monitor or all monitors if none specified.
 
 ``` powershell
 -control nextWallpaper [-location <string>] [-monitor <number>]
 ```
 
-### Удалить обои
+### Remove Wallpaper
 
-Удаляет обои с указанного монитора или из окна или удаляет все обои.
+Removes a wallpaper from a specified monitor or window or removes all wallpapers.
 
 ``` powershell
 -control closeWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(необязательно)*:** внутренний идентификатор монитора или указанное вами имя окна.
-* **monitor *(необязательно)*:** индекс монитора, на котором нужно закрыть обои, начинается с 0.
+* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
+* **monitor *(optional)*:** Index of the monitor to close the wallpaper from, begins with 0.
 
-### Открыть плейлист
+### Open Playlist
 
-Загружает новые обои для данного монитора или первого монитора, если не указан конкретный. Вы можете использовать параметр location или monitor, чтобы выбрать, на какой монитор загрузить обои.
+Loads a new wallpaper for a given monitor or the first monitor if none was specified. You can use either the location or monitor parameter to choose which monitor to load the wallpaper on.
 
 ``` powershell
 -control openPlaylist -playlist <string> [-location <string>] [-monitor <number>]
 ```
 
-* **playlist:** название плейлиста, который вы создали и сохранили в Wallpaper Engine.
-* **location *(необязательно)*:** внутренний идентификатор монитора. Он генерируется вашим компьютером и находится в файле config.json.
-* **monitor *(необязательно)*:** индекс монитора, на котором будет загружен плейлист, начинается с 0.
+* **playlist:** Name of the playlist you have created and saved in Wallpaper Engine.
+* **location *(optional)*:** Internal identifier of the monitor. You can find these in the config.json file and they are generated by your PC.
+* **monitor *(optional)*:** Index of the monitor to load the playlist on, begins with 0.
 
-### Применить настройки обоев
+### Apply Wallpaper Settings
 
-Применяет выбранные свойства к данным обоям или ко всем обоям. Это позволяет вам изменять любые настройки обоев во время работы программы, не открывая обозреватель обоев и не меняя их вручную. Вы можете легко найти список доступных свойств в обозревателе, щелкнув **Share JSON** справа при выборе любых обоев в обозревателе.
+Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** применяемые свойства, определенные как строка **JSON **. Строка должна быть специально обозначена с помощью разделителей `RAW~(` и `)~END`. См. примеры ниже.
-* **location *(необязательно)*:** внутренний идентификатор монитора или указанное вами имя окна.
-* **monitor *(необязательно)*:** индекс монитора, на котором нужно обновить свойства, начинается с 0.
+* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
+* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
+* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
 
-Пример изменения параметра обоев `rate` на 10:
+Example of changing a wallpaper setting named `rate` to 10:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Пример изменения параметра цветовой схемы обоев на красный (`"1 0 0"` обозначает значения *RGB *):
+Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Скрыть значки рабочего стола
+### Hide Desktop Icons
 
-Скрывает значки на рабочем столе.
+Hides the desktop icons.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Показать значки рабочего стола
+### Show Desktop Icons
 
-Показывает значки на рабочем столе.
+Shows the desktop icons.
 
 ``` powershell
 -control showIcons
