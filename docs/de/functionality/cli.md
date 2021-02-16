@@ -2,42 +2,42 @@
 sidebarDepth: 2
 ---
 
-# Command Line Controls
+# Kommandozeilen-Befehle
 
-You can control Wallpaper Engine with command line arguments. This allows you to access most functionalities of the app through a shortcut, a macro binding or any kind of self-written script or code of your choice. For example, you may pause or stop all wallpapers, change wallpapers or even change settings of running wallpapers.
+Wallpaper Engine kann mit Kommandozeilen-Befehlen gesteuert werden. Dies erlaubt es dir auf die meisten Funktionalitäten der App über eine Verknüpfung, ein Makro-Script oder jegliche Art von Script oder Code deiner Wahl zuzugreifen. Du kannst so beispielsweise alle Hintergründe pausieren oder stoppen, die Hintergründe wechseln oder sogar die Einstellungen laufender Hintergründe verändern.
 
-Make sure Wallpaper Engine is already running and then send a command to it by running the main process of the program, *wallpaper32.exe* (or *wallpaper64.exe* if you are using the 64 Bit version of the app), with any of the command arguments listed in this guide. You can find the executables in the `wallpaper_engine` installation directory.
+Stelle zunächst sicher, dass Wallpaper Engine bereits läuft und sende dann einen Befehl an den Hauptprozess des Programms, *wallpaper32.exe* (oder*wallpaper64.exe* wenn du die 64-Bit-Version der Anwendung nutzt), du kannst dabei alle Befehle nutzen, die weiter unten in dieser Anleitung aufgelistet sind. Die Anwendungsdateien können im Installationsverzeichnis `wallpaper_engine` gefunden werden.
 
-All commands are issued as a value for the `-control` parameter. For example, the pause command can be executed like this:
+Alle Kommandos werden als Wert für den Parameter `-control` übergeben. So wird der Befehl zum Pausieren beispielsweise so ausgeführt:
 
 ``` powershell
 wallpaper32.exe -control pause
 ```
 
-Make sure to use the double-quote **"** character for strings that have spaces in them:
+Stelle sicher, dass du die doppelten Anführungszeichen **"** verwendest, wenn ein Parameter Leerzeichen enthält:
 
 ``` powershell
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-### Shortcut example: Opening a wallpaper in a window
+### Beispiel: Verknüpfung zum Öffnen eines Hintergrundes in einem Fenster
 
-The following example allows you to open any number of wallpapers in a window through a Windows shortcut. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+Das folgende Beispiel erlaubt es dir eine beliebige Anzahl an Hintergründen in jeweils einem Fenster über eine Windows-Verknüpfung zu öffnen. Du kannst diesen Prozess wiederholen um eine beliebige Anzahl an Fenstern öffnen, was beispielsweise nützlich für Streamer sein kann, welche Wallpaper Engine nutzen wollen um Abwesenheitsanimationen oder dynamische Übergänge zu erstellen.
 
-First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+Gehe zunächst in das Installationsverzeichnis `wallpaper_engine` und rechtsklicke auf entweder `wallpaper32.exe` oder `wallpaper64.exe`, wähle dann `Senden an` und klicke daraufhin auf `Desktop (Verknüpfung erstellen)` um eine neue Verknüpfung für Wallpaper Engine auf deinem Desktop zu erstellen. Navigiere zu deiner neuen Verknüpfung und gib ihr einen sinnvollen Namen für deinen Anwendungsfall. Klicke danach mit einem Rechtsklick auf die Verknüpfung und wähle **Eigenschaften** aus.
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
-You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+Du solltest nun den Reiter **Verknüpfung** sehen mit einer Zeile namens **Ziel**. Diese Zeile zeigt derzeit nur auf Wallpaper Engine. An dieser Stelle müssen wir die Zeile editieren und den Befehl `openWallpaper` mit dem vollständigen Pfad zu deinem Hintergrund und dem Parameter `playInWindow` einfügen, wie im Beispiel unten gezeigt wird (du kannst das Beispiel kopieren und an deinen Anwendungsfall anpassen):
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
 ```
 
-Check the following things when configuring this command:
+Überprüfe die folgenden Dinge wenn du diesen Befehl einstellst:
 
-* Make sure the path to your wallpaper32.exe / wallpaper64.exe stays correct. The example above uses the default Steam directory.
-* Make sure to use the correct path to your wallpaper. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
+* Stelle sicher, dass der Pfad zu deiner wallpaper32.exe / wallpaper64.exe korrekt bleibt. Das Beispiel oben nutzt die Standardpfad von Steam.
+* Stelle sicher, dass du den korrekten Pfad zu deinem Hintergrund angibst. Das Beispiel nutzt exemplarisch die Workshop-ID **123456789**, du musst diese ändern, damit dein Hintergrund angezeigt wird. Du kannst an dieser Stelle auch jede unterstützte Datei auf deinem Computer nutzen.
   * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
 * Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
 * You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
