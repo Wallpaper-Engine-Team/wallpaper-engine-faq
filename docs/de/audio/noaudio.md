@@ -1,16 +1,16 @@
 # Kein Ton wird abgespielt / Probleme mit der Audio-Ausgabe
-This help guide will help you figure out any issue related to audio playback with wallpapers. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
+Dieser Hilfe-Artikel hilft dabei Probleme mit der Wiedergabe von Sounds mit Hintergründen zu lösen. Zunächst solltest du sicherstellen, dass der von dir genutzte Hintergrund tatsächlich Audio enthält, indem du einige andere Hintergründe ausprobierst. Viele Hintergründe enthalten gar keinen Ton. Wenn du dir sicher bist, dass dein Hintergrund Audio enthält, fahre mit diesem Hilfe-Artikel fort.
 
 ::: warning
-Please note If your sound keeps turning off and back on within a matter of seconds, please read the following help guide instead:
+Achtung Wenn dein Ton wiederholt an und aus geht innerhalb weniger Sekunden, schaue dir stattdessen bitte den folgenden Artikel an:
 
 * [Lautstärke / Audio-Wiedergabe geht wiederholt an und aus](/audio/intermittent)
 :::
 
-## Ensure Wallpaper Engine is not muting itself
-There are three places in the app which allow you to mute audio output:
+## Stelle sicher, dass Wallpaper Engine sich nicht selbst stumm schaltet
+Es gibt drei Stellen in der Anwendung, welche es dir erlauben die Tonwiedergabe stumm zu schalten:
 
-1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
+1. Im Reiter **Allgemein** in den Einstellungen von Wallpaper Engine gibt es eine Option namens **Ton-Wiedergabe**. Stelle sicher, dass diese Einstellung aktiviert ist.
 2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
 3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
 
