@@ -2,6 +2,13 @@
 
 音訊可視化工具無法運作的原因林林總總。 以下列出已知的可能原因，請閱讀完整指南，確保您知道所有無法運作的原因。
 
+::: warning
+Please note This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+
+* [No Sound Playing / Audio Output Problems](/audio/nosound)
+:::
+
+
 ## 1. 音訊裝置設定
 前往 Wallpaper Engine 設定後開啟「一般」分頁。 您可到中心位置找到「媒體」區段，選取音訊輸入裝置， 請確定已選取正確的裝置。 如果您不確定哪一個是正確的裝置，可邊聽音樂，邊確認所有可能的裝置，一直到音訊可視化工具開始運作。
 
