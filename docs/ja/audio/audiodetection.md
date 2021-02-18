@@ -2,6 +2,13 @@
 
 オーディオビジュアライザーが機能しない理由としてはいくつかの原因が考えられます。 ここに、現時点でわかっている原因可能性をすべてリストアップしました。フルガイドをお読みいただき、機能しない原因として見落としているものがないか、ご確認ください。
 
+::: warning
+Please note This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+
+* [No Sound Playing / Audio Output Problems](/audio/nosound)
+:::
+
+
 ## 1. オーディオデバイスのセットアップ
 Wallpaper Engineの設定画面で、「一般」タブを開きます。 中ほどに「メディア」セクションがあります。ここでオーディオ入力デバイスを選択することができます。 正しいデバイスが選択されていることを確認してください。 どのデバイスが正しいのかよくわからない場合は、音楽を聴きながら可能性のあるデバイスをすべて、オーディオビジュアライザーが動くまで試してください。
 
