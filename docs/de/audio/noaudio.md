@@ -11,7 +11,7 @@ Achtung Wenn dein Ton wiederholt an und aus geht innerhalb weniger Sekunden, sch
 Es gibt drei Stellen in der Anwendung, welche es dir erlauben die Tonwiedergabe stumm zu schalten:
 
 1. Im Reiter **Allgemein** in den Einstellungen von Wallpaper Engine gibt es eine Option namens **Ton-Wiedergabe**. Stelle sicher, dass diese Einstellung aktiviert ist.
-2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
+2. Klick auf die Schaltfläche **Bildschirme** oben rechts im Hauptfenster von Wallpaper Engine. Dies zeigt dir eine Übersicht aller deiner Bildschirme an. Jeder Bildschirm hat einen Schalter zum stumm schalten unten links in der Ecke. Stelle sicher, dass deine Bildschirme hier nicht stumm geschaltet sind.
 3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
 
 ## Check the Windows audio mixer
