@@ -2,6 +2,13 @@
 
 There are multiple reasons why audio visualizers may not work. We are listing all known possible reasons here, please read the full guide to ensure you have not missed any of the possible reasons why it does not work.
 
+::: warning Please note
+This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+
+* [No Sound Playing / Audio Output Problems](/audio/nosound)
+:::
+
+
 ## 1. Audio device setup
 Go to the Wallpaper Engine settings and navigate to the "General" tab. Towards the center you can find the "Media" section where you can select an audio input device. Make sure the correct device is selected. If you are unsure which device is correct, try all possible devices while listening to music until the audio visualizers start working.
 

@@ -296,6 +296,7 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 			collapsable: false,
 			children: [
 				locale + 'audio/audiodetection',
+				locale + 'audio/noaudio',
 				locale + 'audio/intermittent',
 				locale + 'audio/limittomusicplayer',
 			]
