@@ -2,6 +2,13 @@
 
 Há várias razões pelas quais os visualizadores de áudio podem não funcionar. Enumeramos aqui todas as razões possíveis, leia atentamente o guia completo para garantir que não lhe escapou nenhuma das razões possíveis pela qual eles não funcionam.
 
+::: warning
+Please note This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+
+* [No Sound Playing / Audio Output Problems](/audio/nosound)
+:::
+
+
 ## 1. Configuração do dispositivo de áudio
 Vá às definições do Wallpaper Engine e navegue até ao separador "Geral". Perto do centro poderá encontrar a secção "Multimédia", na qual poderá selecionar um dispositivo de entrada de áudio. Certifique-se de que selecionou o dispositivo correto. Se não tem a certeza de qual será o dispositivo correto, experimente todos os dispositivos possíveis enquanto ouve música até os visualizadores de áudio começarem a funcionar.
 
