@@ -5,7 +5,7 @@ tags:
   - black
 ---
 
-# Videos Black / Not Playing Properly
+# Videos sind schwarz oder spielen nicht richtig ab
 
 Black screens and other issues with wallpapers of the type *Video* are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
 
