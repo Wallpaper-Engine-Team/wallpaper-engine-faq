@@ -2,6 +2,13 @@
 
 Ses görselleştiricilerinin çalışmamasının birden çok nedeni olabilir. Bilinen tüm olası nedenleri burada listeliyoruz. Çalışmamasının olası nedenlerinden herhangi birini gözden kaçırmamak için lütfen tüm rehberi okuyun.
 
+::: warning
+Please note This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+
+* [No Sound Playing / Audio Output Problems](/audio/nosound)
+:::
+
+
 ## 1. Ses cihazı kurulumu
 Wallpaper Engine ayarlarına ve sonrasında "Genel" sekmesine gidin. Merkeze gelince bir ses giriş cihazı seçebileceğiniz "Medya" bölümünü bulabilirsiniz. Doğru cihazın seçili olduğundan emin olun. Hangi cihazın doğru olduğundan emin değilseniz ses görselleştiriciler çalışmaya başlayana kadar müzik dinleyerek tüm olası cihazları deneyin.
 
