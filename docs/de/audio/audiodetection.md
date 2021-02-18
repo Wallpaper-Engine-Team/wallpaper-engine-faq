@@ -2,6 +2,13 @@
 
 Es gibt verschiedene Gründe, warum Audio-Visualisierer nicht funktionieren können. Wir listen alle bekannten Gründe hier auf, bitte lies diese Seite komplett um sicherzustellen, dass du nicht aus Versehen einen der möglichen Gründe überspringst.
 
+::: warning
+Achtung Dieser Artikel handelt von nicht-funktionierenden Audio-Visualisierern. Falls du Probleme mit der Audio-Ausgabe von Hintergründen hast, schaue dir stattdessen diesen Hilfe-Artikel an:
+
+* [Kein Ton wird abgespielt / Probleme mit der Audio-Ausgabe](/audio/nosound)
+:::
+
+
 ## 1. Einstellungen des Audio-Geräts
 Öffne die Wallpaper Engine-Einstellungen und navigier zum Reiter "Allgemein". Zur Mitte findest du die "Medien"-Sektion, in welcher du ein Audio-Eingabe-Gerät auswählen kannst. Stelle sicher, dass das korrekte Gerät ausgewählt ist. Wenn du dir unsicher bist, welches Gerät das korrekte ist, probiere alle möglichen Geräte durch, während du Musik hörst und schaue ob die Audio-Visualisierer anfangen zu funktionieren.
 
