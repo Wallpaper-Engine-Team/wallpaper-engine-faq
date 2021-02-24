@@ -3,7 +3,7 @@
 오디오 시각화 도우미가 작동하지 않는 데는 여러 이유가 있습니다. 이 문서에 그 이유가 모두 있으니, 읽어 보고 작동하지 않는 이유를 찾아보시길 바랍니다.
 
 ::: warning
-Please note This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+주의: 오디오 시각화 도우미가 작동하지 않는 경우에 대한 항목입니다. 오디오 재생과 관련된 문제를 겪고 계시다면, 다음 가이드를 확인해주세요:
 
 * [No Sound Playing / Audio Output Problems](/audio/nosound)
 :::
