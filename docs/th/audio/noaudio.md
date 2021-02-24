@@ -1,25 +1,25 @@
-# No Sound Playing / Audio Output Problems
-This help guide will help you figure out any issue related to audio playback with wallpapers. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
+# เสียงไม่เล่น / ปัญหาของอุปกรณ์เสียง
+คู่มือนี้จะช่วยให้คุณทราบปัญหาเกี่ยวกับการเล่นเสียงกับวอลเปเปอร์ ขั้นแรกคุณควรตรวจสอบให้แน่ใจว่าวอลเปเปอร์ที่ใช้มีเสียงอยู่จริง ทำได้โดยการลองใช้วอลเปเปอร์อื่น ๆ วอลเปเปอร์จำนวนมากไม่มีเสียงเลย หากคุณแน่ใจว่าวอลเปเปอร์ของคุณมีเสียง โปรดดำเนินการตามคู่มือนี้
 
 ::: warning
-Please note If your sound keeps turning off and back on within a matter of seconds, please read the following help guide instead:
+โปรดทราบ หากเสียงปิดและเปิดใหม่ซ้ำ ๆ ภายในเวลาไม่กี่วินาที โปรดอ่านคู่มือต่อไปนี้แทน:
 
-* [Sound / audio turns on and off intermittently](/audio/intermittent)
+* [เสียงเปิดและปิดเป็นระยะ](/audio/intermittent)
 :::
 
-## Ensure Wallpaper Engine is not muting itself
-There are three places in the app which allow you to mute audio output:
+## ตรวจสอบให้แน่ใจว่าไม่ได้ปิดเสียง Wallpaper Engine
+มีสามที่ในแอพพลิเคชันที่คุณสามารถปิดอุปกรณ์เสียงได้:
 
-1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
-2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
-3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
+1. ในแท็บ **ทั่วไป** ของการตั้งค่าจะมีตัวเลือก **อุปกรณ์เสียง** โปรดตรวจสอบให้แน่ใจเปิดใช้งานอยู่
+2. คลิกที่ปุ่ม **หน้าจอ** ที่มุมขวาบนของหน้าต่างหลักของ Wallpaper Engine ภาพรวมของหน้าจอทั้งหมดของคุณจะแสดงขึ้น แต่ละหน้าจอมีปุ่มปิดเสียงที่มุมล่างซ้าย โปรดตรวจสอบให้แน่ใจว่าไม่ได้ปิดเสียงหน้าจอของคุณ
+3. คุณจะพบตัวเลือก **ระดับเสียง** ทางด้านขวามือเมื่อเลือกวอลเปเปอร์ โปรดตรวจสอบว่าไม่ได้ตั้งค่าศูนย์หรือระดับเสียงเบา หากขึ้นตัวเลือก **เสียงถูกปิดใช้งานในการตั้งค่าหน้าจอ** หมายถึงหน้าจอถูกปิดเสียง ให้ตรวจสอบขั้นตอนที่ 2 อีกครั้งและเปิดเสียงหน้าจอของคุณ
 
-## Check the Windows audio mixer
-Wallpaper Engine lets all audio output be handled by Windows, so if Wallpaper Engine itself is not muted, the issue must be somewhere in your Windows setup. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
+## ตรวจสอบตัวปรับแต่งเสียง Windows
+Wallpaper Engine อนุญาตให้ Windows จัดการอุปกรณ์เสียงได้ทั้งหมด หาก Wallpaper Engine ไม่ได้ปิดเสียงอยู่ ปัญหาจะต้องอยู่ในการตั้งค่า Windows ของคุณ ขั้นแรกให้ตรวจสอบตัวปรับแต่งเสียง Windows เพื่อให้แน่ใจว่า Wallpaper Engine ไม่ได้ปิดเสียงหรือตั้งค่าเป็นระดับเสียงเบามาก ดังที่แสดงในภาพหน้าจอต่อไปนี้:
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-## Check the selected audio device
+## ตรวจสอบอุปกรณ์เสียงที่เลือก
 Another possible reason for the lack of audio output could be that Windows has selected the wrong audio output device for Wallpaper Engine, try manually forcing your desired audio output device to be used:
 
 1. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
