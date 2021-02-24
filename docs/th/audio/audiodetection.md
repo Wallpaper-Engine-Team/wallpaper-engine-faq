@@ -3,9 +3,9 @@
 มีหลายสาเหตุที่ Visualizer เสียงอาจไม่ทำงาน เราแสดงรายการสาเหตุที่เป็นไปได้ทั้งหมดที่นี่ โปรดอ่านคู่มือฉบับเต็มเพื่อให้แน่ใจว่าคุณไม่พลาดสาเหตุที่เป็นไปได้ว่าทำไมมันไม่ทำงาน
 
 ::: warning
-Please note This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+โปรดทราบ บทความนี้เกี่ยวกับ Visualizer เสียงไม่ทำงาน หากคุณมีปัญหาเกี่ยวกับการเล่นเสียง โปรดดูคู่มือนี้แทน:
 
-* [No Sound Playing / Audio Output Problems](/audio/nosound)
+* [เสียงไม่เล่น / ปัญหาของอุปกรณ์เสียง](/audio/nosound)
 :::
 
 
