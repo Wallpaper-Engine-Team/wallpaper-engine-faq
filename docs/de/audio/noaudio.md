@@ -12,7 +12,7 @@ Es gibt drei Stellen in der Anwendung, welche es dir erlauben die Tonwiedergabe 
 
 1. Im Reiter **Allgemein** in den Einstellungen von Wallpaper Engine gibt es eine Option namens **Ton-Wiedergabe**. Stelle sicher, dass diese Einstellung aktiviert ist.
 2. Klick auf die Schaltfläche **Bildschirme** oben rechts im Hauptfenster von Wallpaper Engine. Dies zeigt dir eine Übersicht aller deiner Bildschirme an. Jeder Bildschirm hat einen Schalter zum stumm schalten unten links in der Ecke. Stelle sicher, dass deine Bildschirme hier nicht stumm geschaltet sind.
-3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
+3. Wenn du einen Hintergrund auswählst, findest du rechts eine Option **Lautstärke**, stelle sicher, dass diese nicht auf 0 oder einen niedrigen Wert gesetzt wurde. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
 
 ## Check the Windows audio mixer
 Wallpaper Engine lets all audio output be handled by Windows, so if Wallpaper Engine itself is not muted, the issue must be somewhere in your Windows setup. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
