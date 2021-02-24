@@ -32,7 +32,7 @@ Falls du mehrere Audio-Geräte verwendest (besonders im Falle von USB- oder Blue
 
 Wenn die Tonwiedergabe an dieser Stelle immer noch nicht funktioniert, können einige Audio-Codecs unter Umständen defekt sein, dies ist jedoch hauptsächlich relevant wenn man Hintergründe vom Typ **Video** verwendet. Du kannst dies auch überprüfen, indem du mit Rechtsklick auf den Hintergrund in Wallpaper Engine klickst und **Im Dateimanager anzeigen** auswählst. Du solltest dann die dazugehörige Video-Datei sehen (normalerweise im **.mp4**-Format), öffne diese Datei im Windows Media Player und überprüfe, ob dort Ton abgespielt wird. **Achtung:** Es es sehr wichtig, dass du dies im Windows Media Player testest - andere Video-Player sind irrelevant für diesen Test, da die darunterliegenden Audio-Codecs ebenfalls von Wallpaper Engine verwendet werden. Falls im Windows Media Player auch kein Ton wiedergegeben wird, hat die Datei entweder keinen Ton oder die Audio-Codecs auf deinem System sind defekt oder fehlen.
 
-In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
+In diesem Fall kannst du das *Codec Tweak Tool* verwenden, wie auf der folgenden Seite erklärt. Mit dem Tool kannst du alle Audio- und Video-Codecs auf deinem System zurücksetzen, starte danach Wallpaper Engine neu und versuche es erneut:
 
 * [Videos sind schwarz oder spielen nicht richtig ab - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
 
