@@ -1,17 +1,16 @@
-# No Sound Playing / Audio Output Problems
-This help guide will help you figure out any issue related to audio playback with wallpapers. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
+# Seç Çalmıyor / Ses Çıkışı Sorunları
+Bu yardım rehberi, duvar kâğıtlarındaki ses çalma ile ilgili herhangi bir sorunu çözmenize yardımcı olacaktır. Öncelikle birkaç tanesini daha deneyerek gerçekten ses içeren bir duvar kâğıdı kullandığınızdan emin olmalısınız. Birçok duvar kâğıdı tamamen sessizdir. Duvar kâğıdınızın ses içerdiğinden eminseniz bu rehbere devam edin.
 
-::: warning
-Please note If your sound keeps turning off and back on within a matter of seconds, please read the following help guide instead:
+::: warning Lütfen unutmayın Sesiniz saniyeler içinde kapanıp tekrar açılıyorsa lütfen aşağıdaki yardım rehberini okuyun:
 
-* [Sound / audio turns on and off intermittently](/audio/intermittent)
+* [Ses aralıklarla açılıp kapanıyor](/audio/intermittent)
 :::
 
-## Ensure Wallpaper Engine is not muting itself
-There are three places in the app which allow you to mute audio output:
+## Wallpaper Engine'in kendini sessize almadığından emin olun
+Uygulamada ses çıkışını kapatabileceğiniz üç yer vardır:
 
-1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
-2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
+1. Wallpaper Engine ayarlarının **Genel** sekmesinde **Ses Çıkışı** denilen bir seçenek vardır. Bunun etkin olduğundan emin olun.
+2. Wallpaper Engine ana penceresinin sağ üst köşesindeki **Ekranlar** butonuna tıklayın. Buradan tüm ekranlarınıza genel bakış atabilirsiniz. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
 3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
 
 ## Check the Windows audio mixer
