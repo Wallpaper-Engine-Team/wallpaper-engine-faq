@@ -3,7 +3,7 @@
 音频可视化工具无法正常工作可能有多种原因。 我们在此处列出了所有已知的可能原因，请阅读完整指南，以确保充分了解可能导致其无法正常工作的所有原因。
 
 ::: warning
-Please note This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+请注意 本文章介绍音频可视化工具无法工作的原因。 If you are having issues with audio playback, please see this guide instead:
 
 * [No Sound Playing / Audio Output Problems](/audio/nosound)
 :::
