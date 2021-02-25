@@ -24,9 +24,9 @@ Wallpaper Engine อนุญาตให้ Windows จัดการอุป
 
 1. คลิกขวาที่ไอคอนเสียงข้างนาฬิกาที่แถบงาน Windows แล้วเลือก **เปิดการตั้งค่าเสียง** (Open Sound Settings)
 2. เลื่อนลงไปที่ด้านล่างสุดของหน้าที่เปิดขึ้นมา แล้วคลิกที่ **การตั้งค่าระดับเสียงและอุปกรณ์** (App volume and device preferences)
-3. รายการแอพพลิเคชันทั้งหมดที่เล่นไฟล์เสียงจะปรากฏขึ้น ค้นหา Wallpaper Engine และเลือกอุปกรณ์เสียงที่ถูกต้องในคอลัมน์ **เอาต์พุต** (Output) If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
+3. รายการแอพพลิเคชันทั้งหมดที่เล่นไฟล์เสียงจะปรากฏขึ้น ค้นหา Wallpaper Engine และเลือกอุปกรณ์เสียงที่ถูกต้องในคอลัมน์ **เอาต์พุต** (Output) หากคุณไม่แน่ใจ ให้ลองใช้ตัวเลือกที่เป็นไปได้ทั้งหมด คุณอาจต้องรีสตาร์ท Wallpaper Engine เพื่อให้การตั้งค่านี้ทำงาน
 
-If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
+บางครั้ง Windows ไม่สามารถสลับอุปกรณ์เสียงในโปรแกรมที่ทำงานอยู่ได้ หากคุณใช้อุปกรณ์เสียงหลายชนิด (โดยเฉพาะเมื่อใช้อุปกรณ์เสียงทาง USB หรือบลูทูธ) เสียงอาจขาดหายไปในบางครั้งที่อุปกรณ์ตัดการเชื่อมต่อหรือเชื่อมต่อใหม่ This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
 
 ## Reset all audio codecs
 
