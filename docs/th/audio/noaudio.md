@@ -17,7 +17,7 @@
 ## ตรวจสอบตัวปรับแต่งเสียง Windows
 Wallpaper Engine อนุญาตให้ Windows จัดการอุปกรณ์เสียงได้ทั้งหมด หาก Wallpaper Engine ไม่ได้ปิดเสียงอยู่ ปัญหาจะต้องอยู่ในการตั้งค่า Windows ของคุณ ขั้นแรกให้ตรวจสอบตัวปรับแต่งเสียง Windows เพื่อให้แน่ใจว่า Wallpaper Engine ไม่ได้ปิดเสียงหรือตั้งค่าเป็นระดับเสียงเบามาก ดังที่แสดงในภาพหน้าจอต่อไปนี้:
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![เพิ่มระดับเสียงและเปิดเสียง Wallpaper Engine ในตัวปรับแต่งเสียงของ Windows](./audiomixer.png)
 
 ## ตรวจสอบอุปกรณ์เสียงที่เลือก
 อีกสาเหตุหนึ่งที่ทำให้ไม่ได้ยินเสียงจากอุปกรณ์เสียงอาจเป็นเพราะ Windows เลือกอุปกรณ์เสียงสำหรับ Wallpaper Engine ไม่ถูกต้อง ลองบังคับใช้อุปกรณ์เสียงที่คุณต้องการด้วยตนเอง:
@@ -30,9 +30,9 @@ Wallpaper Engine อนุญาตให้ Windows จัดการอุป
 
 ## รีเซ็ตตัวแปลงสัญญาณเสียงทั้งหมด
 
-หากถึงตอนนี้แล้วอุปกรณ์เสียงของคุณยังไม่เล่น ปัญหาอาจเกิดจากตัวแปลงสัญญาณเสียงบางตัวที่เสีย โดยส่วนใหญ่จะเกี่ยวข้องกับการใช้วอลเปเปอร์ประเภท **วิดีโอ** คุณสามารถตรวจสอบอีกครั้งโดยคลิกขวาที่วอลเปเปอร์ใน Wallpaper Engine แล้วเลือก **เปิดใน Explorer** ไฟล์วิดีโอต้นฉบับควรปรากฎขึ้น (โดยปกติจะเป็นไฟล์ **.mp4**) เปิดไฟล์นั้นด้วย Windows Media Player และตรวจสอบว่าไฟล์นั้นเล่นเสียงหรือไม่ **โปรดทราบ:** คุณต้องทดสอบเสียงกับ Windows Media Player เท่านั้น เครื่องเล่นวิดีโออื่น ๆ ใช้ทดสอบนี้ไม่ได้เนื่องจาก Wallpaper Engine ใช้ตัวแปลงสัญญาณเสียงพื้นฐานแบบเดียวกัน If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+หากถึงตอนนี้แล้วอุปกรณ์เสียงของคุณยังไม่เล่น ปัญหาอาจเกิดจากตัวแปลงสัญญาณเสียงบางตัวที่เสีย โดยส่วนใหญ่จะเกี่ยวข้องกับการใช้วอลเปเปอร์ประเภท **วิดีโอ** คุณสามารถตรวจสอบอีกครั้งโดยคลิกขวาที่วอลเปเปอร์ใน Wallpaper Engine แล้วเลือก **เปิดใน Explorer** ไฟล์วิดีโอต้นฉบับควรปรากฎขึ้น (โดยปกติจะเป็นไฟล์ **.mp4**) เปิดไฟล์นั้นด้วย Windows Media Player และตรวจสอบว่าไฟล์นั้นเล่นเสียงหรือไม่ **โปรดทราบ:** คุณต้องทดสอบเสียงกับ Windows Media Player เท่านั้น เครื่องเล่นวิดีโออื่น ๆ ใช้ทดสอบนี้ไม่ได้เนื่องจาก Wallpaper Engine ใช้ตัวแปลงสัญญาณเสียงพื้นฐานแบบเดียวกัน หาก Windows Media Player ไม่เล่นเสียง ไฟล์วิดีโอของคุณอาจไม่มีเสียงหรือตัวแปลงสัญญาณเสียงในระบบของคุณเสียหายหรือหายไป
 
-In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
+ในกรณีนี้คุณสามารถใช้ *Codec Tweak Tool* เพื่อรีเซ็ตตัวแปลงสัญญาณเสียงและวิดีโอทั้งหมดในระบบของคุณตามที่อธิบายในหน้าถัดไป หลังจากนั้นรีสตาร์ท Wallpaper Engine แล้วลองอีกครั้ง:
 
-* [Videos Black / Not Playing Properly - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [วิดีโอสีดำ / ไม่สามารถเล่นได้ตามปกติ - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
 
