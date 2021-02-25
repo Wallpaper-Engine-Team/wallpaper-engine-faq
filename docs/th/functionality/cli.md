@@ -28,7 +28,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
-แท็บ **Shortcut**  (ทางลัด) ที่มีบรรทัดชื่อ **Target**  (เป้าหมาย) จะปรากฎขึ้น This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+แท็บ **Shortcut**  (ทางลัด) ที่มีบรรทัดชื่อ **Target**  (เป้าหมาย) จะปรากฎขึ้น บรรทัดนี้จะชี้ไปที่ Wallpaper Engine ในขณะนี้ ในตอนนี้คุณต้องแก้ไขโดยเพิ่มคำสั่ง `openWallpaper` พร้อมพาธแบบเต็มไปยังวอลเปเปอร์และพารามิเตอร์ `playInWindow` เช่นที่ปรากฎในตัวอย่างด้านล่าง (คุณอาจต้องคัดลอก วาง และปรับให้เข้ากับความต้องการของคุณ):
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
