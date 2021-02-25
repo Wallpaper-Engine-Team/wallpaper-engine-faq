@@ -23,7 +23,7 @@ Ses çıkışı olmamasının bir başka olası nedeni de Windows'un, Wallpaper 
 
 1. Windows tepsisindeki saatin yanında bulunan ses simgesine sağ tıklayın ve **Ses ayarlarını aç**'ı seçin.
 2. Açılan sayfanın en altına ilerleyin ve **Uygulama birimi ve cihaz tercihleri** seçeneğine tıklayın.
-3. Ses çalan tüm uygulamaların bir listesi gösterilecektir. Wallpaper Engine'i bulun ve **Çıkış** sütunundan doğru ses çıkış cihazını seçin. Emin değilseniz tüm olası seçenekleri deneyin. A restart of Wallpaper Engine may be necessary for this to take effect.
+3. Ses çalan tüm uygulamaların bir listesi gösterilecektir. Wallpaper Engine'i bulun ve **Çıkış** sütunundan doğru ses çıkış cihazını seçin. Emin değilseniz tüm olası seçenekleri deneyin. Bu işlemin etkinleşmesi için Wallpaper Engine'in yeniden başlatılması gerekebilir.
 
 If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
 
