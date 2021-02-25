@@ -37,8 +37,8 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 โปรดตรวจสอบสิ่งต่อไปนี้เมื่อกำหนดค่าคำสั่ง:
 
 * ตรวจสอบให้แน่ใจว่าพาธไปยัง wallpaper32.exe / wallpaper64.exe ของคุณถูกต้อง ใช้ไดเรกทอรี Steam เริ่มต้นสำหรับตัวอย่างด้านบน
-* ตรวจสอบให้แน่ใจว่าพาธไปยังวอลเปเปอร์ของคุณถูกต้อง The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
-  * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
+* ตรวจสอบให้แน่ใจว่าพาธไปยังวอลเปเปอร์ของคุณถูกต้อง ตัวอย่างด้านบนใช้ **123456789** ซึ่งเป็นรหัสเวิร์กชอปตัวอย่าง คุณต้องเปลี่ยนค่านี้เพื่อให้วอลเปเปอร์ใช้งานได้ คุณยังสามารถชี้ไปที่ไฟล์ใดก็ได้ที่รองรับในคอมพิวเตอร์ของคุณ
+  * คุณสามารถค้นหาพาธแบบเต็มของวอลเปเปอร์ใดก็ได้โดยการคลิกขวาที่วอลเปเปอร์ใน Wallpaper Engine แล้วเลือก **เปิดใน Explorer** For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
 * Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
 * You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
 
