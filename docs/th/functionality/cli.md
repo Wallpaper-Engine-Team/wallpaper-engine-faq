@@ -26,7 +26,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ขั้นแรกให้ไปที่ไดเรกทอรี `wallpaper_engine` และคลิกขวาที่ `wallpaper32.exe` หรือ `wallpaper64.exe` แล้ววางเมาส์เหนือ `Send to` แล้วเลือก `Desktop (create shortcut)` เพื่อสร้างทางลัดใหม่สำหรับการเรียกใช้ Wallpaper Engine บนเดสก์ท็อปของคุณ จากนั้นให้ค้นหาทางลัดใหม่และเปลี่ยนชื่อให้เหมาะกับการใช้งาน หลังจากนั้นคลิกขวาที่ไอคอน เลือก **Properties** (คุณสมบัติ)
 
-![Wallpaper Engine shortcut properties](/img/faq/target.gif)
+![Wallpaper Engine - คุณสมบัติทางลัด](/img/faq/target.gif)
 
 แท็บ **Shortcut**  (ทางลัด) ที่มีบรรทัดชื่อ **Target**  (เป้าหมาย) จะปรากฎขึ้น บรรทัดนี้จะชี้ไปที่ Wallpaper Engine ในขณะนี้ ในตอนนี้คุณต้องแก้ไขโดยเพิ่มคำสั่ง `openWallpaper` พร้อมพาธแบบเต็มไปยังวอลเปเปอร์และพารามิเตอร์ `playInWindow` เช่นที่ปรากฎในตัวอย่างด้านล่าง (คุณอาจต้องคัดลอก วาง และปรับให้เข้ากับความต้องการของคุณ):
 
@@ -38,9 +38,9 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 * ตรวจสอบให้แน่ใจว่าพาธไปยัง wallpaper32.exe / wallpaper64.exe ของคุณถูกต้อง ใช้ไดเรกทอรี Steam เริ่มต้นสำหรับตัวอย่างด้านบน
 * ตรวจสอบให้แน่ใจว่าพาธไปยังวอลเปเปอร์ของคุณถูกต้อง ตัวอย่างด้านบนใช้ **123456789** ซึ่งเป็นรหัสเวิร์กชอปตัวอย่าง คุณต้องเปลี่ยนค่านี้เพื่อให้วอลเปเปอร์ใช้งานได้ คุณยังสามารถชี้ไปที่ไฟล์ใดก็ได้ที่รองรับในคอมพิวเตอร์ของคุณ
-  * คุณสามารถค้นหาพาธแบบเต็มของวอลเปเปอร์ใดก็ได้โดยการคลิกขวาที่วอลเปเปอร์ใน Wallpaper Engine แล้วเลือก **เปิดใน Explorer** For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
-* Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
-* You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
+  * คุณสามารถค้นหาพาธแบบเต็มของวอลเปเปอร์ใดก็ได้โดยการคลิกขวาที่วอลเปเปอร์ใน Wallpaper Engine แล้วเลือก **เปิดใน Explorer** โดยปกติแล้วคุณต้องชี้ไปที่ไฟล์ *project.json* สำหรับวอลเปเปอร์ประเภทฉาก และ *.mp4* สำหรับวอลเปเปอร์วิดีโอ คุณจะพบไฟล์ชื่อ *index.html* สำหรับเว็บวอลเปเปอร์
+* ตั้งชื่อเฉพาะให้กับหน้าต่างของคุณ ตัวอย่างด้านบนใช้ชื่อ **วอลเปเปอร์ #1** **หากคุณต้องการเปิดหลายหน้าต่าง ให้กำหนดชื่อที่ไม่ซ้ำกันสำหรับแต่ละหน้าต่าง**
+* คุณสามารถปรับความละเอียดได้เช่นกัน ตัวอย่างด้านบนใช้ 1920x1080 (Full HD) เปลี่ยนพารามิเตอร์ `width` และ `height` ให้สอดคล้องกัน
 
 ## ภาพรวมคำสั่ง
 
