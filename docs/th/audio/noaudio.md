@@ -30,7 +30,7 @@ Wallpaper Engine อนุญาตให้ Windows จัดการอุป
 
 ## รีเซ็ตตัวแปลงสัญญาณเสียงทั้งหมด
 
-หากถึงตอนนี้แล้วอุปกรณ์เสียงของคุณยังไม่เล่น ปัญหาอาจเกิดจากตัวแปลงสัญญาณเสียงบางตัวที่เสีย โดยส่วนใหญ่จะเกี่ยวข้องกับการใช้วอลเปเปอร์ประเภท **วิดีโอ** คุณสามารถตรวจสอบอีกครั้งโดยคลิกขวาที่วอลเปเปอร์ใน Wallpaper Engine แล้วเลือก **เปิดใน Explorer** ไฟล์วิดีโอต้นฉบับควรปรากฎขึ้น (โดยปกติจะเป็นไฟล์ **.mp4**) เปิดไฟล์นั้นด้วย Windows Media Player และตรวจสอบว่าไฟล์นั้นเล่นเสียงหรือไม่ **Please note:** It is very important that you test this with Windows Media Player only - other video players are irrelevant for this test as the underlying audio codecs are used by Wallpaper Engine as well. If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+หากถึงตอนนี้แล้วอุปกรณ์เสียงของคุณยังไม่เล่น ปัญหาอาจเกิดจากตัวแปลงสัญญาณเสียงบางตัวที่เสีย โดยส่วนใหญ่จะเกี่ยวข้องกับการใช้วอลเปเปอร์ประเภท **วิดีโอ** คุณสามารถตรวจสอบอีกครั้งโดยคลิกขวาที่วอลเปเปอร์ใน Wallpaper Engine แล้วเลือก **เปิดใน Explorer** ไฟล์วิดีโอต้นฉบับควรปรากฎขึ้น (โดยปกติจะเป็นไฟล์ **.mp4**) เปิดไฟล์นั้นด้วย Windows Media Player และตรวจสอบว่าไฟล์นั้นเล่นเสียงหรือไม่ **โปรดทราบ:** คุณต้องทดสอบเสียงกับ Windows Media Player เท่านั้น เครื่องเล่นวิดีโออื่น ๆ ใช้ทดสอบนี้ไม่ได้เนื่องจาก Wallpaper Engine ใช้ตัวแปลงสัญญาณเสียงพื้นฐานแบบเดียวกัน If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
 
 In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
 
