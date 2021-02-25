@@ -22,13 +22,13 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### ตัวอย่างทางลัด (Shortcut): เปิดวอลเปเปอร์ในหน้าต่าง
 
-The following example allows you to open any number of wallpapers in a window through a Windows shortcut. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+ตัวอย่างต่อไปนี้จะช่วยให้คุณสามารถใช้ทางลัดของ Windows เพื่อเปิดวอลเปเปอร์เท่าใดก็ได้ในหน้าต่าง คุณสามารถทำขั้นตอนนี้ซ้ำเพื่อเปิดวอลเปเปอร์เท่าใดก็ได้ในแต่ละหน้าต่าง สิ่งนี้อาจเป็นประโยชน์สำหรับสตรีมเมอร์ที่ต้องการใช้ Wallpaper Engine เป็นหน้าจอว่างหรือภาพเคลื่อนไหวประเภทใดก็ได้
 
-First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+ขั้นแรกให้ไปที่ไดเรกทอรี `wallpaper_engine` และคลิกขวาที่ `wallpaper32.exe` หรือ `wallpaper64.exe` แล้ววางเมาส์เหนือ `Send to` แล้วเลือก `Desktop (create shortcut)` เพื่อสร้างทางลัดใหม่สำหรับการเรียกใช้ Wallpaper Engine บนเดสก์ท็อปของคุณ จากนั้นให้ค้นหาทางลัดใหม่และเปลี่ยนชื่อให้เหมาะกับการใช้งาน หลังจากนั้นคลิกขวาที่ไอคอน เลือก **Properties** (คุณสมบัติ)
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
-You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+แท็บ **Shortcut**  (ทางลัด) ที่มีบรรทัดชื่อ **Target**  (เป้าหมาย) จะปรากฎขึ้น This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
