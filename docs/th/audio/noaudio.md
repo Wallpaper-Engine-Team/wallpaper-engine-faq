@@ -20,11 +20,11 @@ Wallpaper Engine อนุญาตให้ Windows จัดการอุป
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
 ## ตรวจสอบอุปกรณ์เสียงที่เลือก
-Another possible reason for the lack of audio output could be that Windows has selected the wrong audio output device for Wallpaper Engine, try manually forcing your desired audio output device to be used:
+อีกสาเหตุหนึ่งที่ทำให้ไม่ได้ยินเสียงจากอุปกรณ์เสียงอาจเป็นเพราะ Windows เลือกอุปกรณ์เสียงสำหรับ Wallpaper Engine ไม่ถูกต้อง ลองบังคับใช้อุปกรณ์เสียงที่คุณต้องการด้วยตนเอง:
 
-1. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-2. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-3. A list of all applications playing audio will be shown. Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
+1. คลิกขวาที่ไอคอนเสียงข้างนาฬิกาที่แถบงาน Windows แล้วเลือก **เปิดการตั้งค่าเสียง** (Open Sound Settings)
+2. เลื่อนลงไปที่ด้านล่างสุดของหน้าที่เปิดขึ้นมา แล้วคลิกที่ **การตั้งค่าระดับเสียงและอุปกรณ์** (App volume and device preferences)
+3. รายการแอพพลิเคชันทั้งหมดที่เล่นไฟล์เสียงจะปรากฏขึ้น ค้นหา Wallpaper Engine และเลือกอุปกรณ์เสียงที่ถูกต้องในคอลัมน์ **เอาต์พุต** (Output) If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
 
 If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
 
