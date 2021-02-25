@@ -2,10 +2,9 @@
 
 Ses görselleştiricilerinin çalışmamasının birden çok nedeni olabilir. Bilinen tüm olası nedenleri burada listeliyoruz. Çalışmamasının olası nedenlerinden herhangi birini gözden kaçırmamak için lütfen tüm rehberi okuyun.
 
-::: warning
-Please note This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+::: warning Lütfen unutmayın Bu yazı, çalışmayan ses görselleştiricileriyle ilgilidir. Ses çalmayla ilgili sorunlar yaşıyorsanız lütfen şu rehbere bakın:
 
-* [No Sound Playing / Audio Output Problems](/audio/nosound)
+* [Ses Çalmıyor / Ses Çıkışı Sorunları](/audio/nosound)
 :::
 
 
