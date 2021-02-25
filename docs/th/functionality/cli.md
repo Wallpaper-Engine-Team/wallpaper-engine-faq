@@ -34,10 +34,10 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
 ```
 
-Check the following things when configuring this command:
+โปรดตรวจสอบสิ่งต่อไปนี้เมื่อกำหนดค่าคำสั่ง:
 
-* Make sure the path to your wallpaper32.exe / wallpaper64.exe stays correct. The example above uses the default Steam directory.
-* Make sure to use the correct path to your wallpaper. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
+* ตรวจสอบให้แน่ใจว่าพาธไปยัง wallpaper32.exe / wallpaper64.exe ของคุณถูกต้อง ใช้ไดเรกทอรี Steam เริ่มต้นสำหรับตัวอย่างด้านบน
+* ตรวจสอบให้แน่ใจว่าพาธไปยังวอลเปเปอร์ของคุณถูกต้อง The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
   * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
 * Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
 * You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
