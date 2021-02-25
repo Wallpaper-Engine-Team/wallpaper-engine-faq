@@ -3,7 +3,7 @@
 Есть несколько причин, почему визуализаторы аудио могут не работать. Здесь мы перечислим все известные возможные причины. Пожалуйста, прочтите полное руководство, чтобы не пропустить какие-либо иные причины проблем.
 
 ::: warning
-Please note This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+Обратите внимание Эта статья о том, что делать, если не работают визуализаторы аудио. If you are having issues with audio playback, please see this guide instead:
 
 * [No Sound Playing / Audio Output Problems](/audio/nosound)
 :::
