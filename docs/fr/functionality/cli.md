@@ -22,25 +22,25 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### Exemple de raccourci : ouverture d'un fond d'écran dans une fenêtre
 
-L'exemple suivant vous permet d'ouvrir plusieurs fonds d'écran dans un fenêtre via un raccourci Windows. Vous pouvez recommencer ce processus afin d'ouvrir plusieurs fonds d'écran dans une fenêtre distincte qui peut s'avérer utile pour les streamers qui souhaitent utiliser Wallpaper Engine pour tout type d'animation ou d'écran d'inactivité.
+L'exemple suivant vous permet d'ouvrir plusieurs fonds d'écran dans une fenêtre via un raccourci Windows. Vous pouvez recommencer ce processus afin d'ouvrir plusieurs fonds d'écran dans une fenêtre distincte qui peut s'avérer utile pour les streamers qui souhaitent utiliser Wallpaper Engine pour tout type d'animation ou d'écran d'inactivité.
 
-Pour commencer, accédez au répertoire `wallpaper_engine` et faites un clic droit sur `wallpaper32.exe` ou `wallpaper64.exe`, puis positionnez le curseur sur `Envoyer vers` et `Bureau (créer un raccourci)` afin de créer sur votre bureau un nouveau raccourci vers le processus Wallpaper Engine. Ensuite, repérez votre nouveau raccourci et renommez-le à votre convenance. Afterwards, right-click on it, then select **Properties**.
+Pour commencer, accédez au répertoire `wallpaper_engine` et faites un clic droit sur `wallpaper32.exe` ou `wallpaper64.exe`, puis positionnez le curseur sur `Envoyer vers` et `Bureau (créer un raccourci)` afin de créer sur votre bureau un nouveau raccourci vers le processus Wallpaper Engine. Ensuite, repérez votre nouveau raccourci et renommez-le à votre convenance. Ensuite, faites un clic droit sur ce raccourci, puis sélectionnez **Propriétés**.
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
-You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+Vous devriez voir l'onglet **Raccourci** avec une ligne intitulée **Cible**. Cette ligne indique l'emplacement actuel de Wallpaper Engine. Vous devez modifier cette entrée en y ajouter la commande `openWallpaper` avec le chemin complet vers votre fond d'écran et paramètre `playInWindow`, comme indiqué dans l'exemple ci-dessous (il est peut-être préférable de faire un copier-coller et d'ajuster la commande à vos besoins) :
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
 ```
 
-Check the following things when configuring this command:
+Vérifiez les éléments suivants lors de la configuration de cette commande :
 
-* Make sure the path to your wallpaper32.exe / wallpaper64.exe stays correct. The example above uses the default Steam directory.
-* Make sure to use the correct path to your wallpaper. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
-  * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
-* Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
-* You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
+* Veillez à ce qu'il n'y ait aucune faute de frappe dans le chemin d'accès pour wallpaper32.exe / wallpaper64.exe. Dans l'exemple, nous avons utilisé le répertoire par défaut de Steam.
+* Vérifiez que vous utilisez le bon chemin d'accès pour votre fond d'écran. Dans l'exemple ci-dessus, nous avons utilisé l'ID Workshop **123456789**, vous devez le modifier pour que votre fond d'écran fonctionne. Vous pouvez également indiquer tout fichier pris en charge se trouvant sur votre ordinateur.
+  * Vous trouverez le chemin d'accès de tout fond d'écran en faisant un clic droit sur celui-ci depuis Wallpaper Engine et en sélectionnant **Ouvrir dans l'explorateur de fichiers**. Pour les fonds d'écran de type Scène, il est conseillé de sélectionner le fichier *project.json* ; pour les fonds d'écran de type Vidéo, il s'agira probablement d'un fichier *.mp4* et pour les fonds d'écran de type Web, vous trouverez un fichier appelé *index.html*.
+* Donnez à votre fenêtre un nom unique. Dans l'exemple ci-dessus, nous utilisons **Wallpaper #1** comme nom. **Si vous voulez ouvrir plusieurs fenêtres, attribuez-leur à chacune un nom unique.**
+* Vous pouvez également ajuster la résolution. Dans l'exemple ci-dessus, nous utilisons 1920x1080 (Full HD). Changer les paramètres `largeur` et `hauteur`.
 
 ## Vue générale des commandes
 
