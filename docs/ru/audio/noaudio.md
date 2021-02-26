@@ -26,7 +26,7 @@ Windows обрабатывает весь вывод звука в Wallpaper Eng
 2. Докрутите открывшееся окно до самого низа и кликните на **«Параметры устройств и громкости приложений»**.
 3. Отобразится список всех программ, проигрывающих звук. Найдите Wallpaper Engine и выберите правильное аудиоустройство в колонке **«Вывод»**. Если вы не уверены, попробуйте все варианты. Чтобы изменения вступили в силу, может понадобиться перезапустить Wallpaper Engine.
 
-If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
+Если вы используете несколько аудиоустройств (в особенности устройства с USB или Bluetooth) и замечали, что звук прерывается во время подключения/отключения этого устройства, то Windows может неверно переключать аудиоустройства во время работы программ. Мы не можем исправить данную проблему со своей стороны, в таких случаях можно попробовать перезапустить Wallpaper Engine, чтобы вывод аудио корректно заработал в Windows. Вы также можете переустановить и обновить аудио-драйверы, возможно, это решит проблему.
 
 ## Reset all audio codecs
 
