@@ -20,13 +20,13 @@ wallpaper32.exe -control pause
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-### Shortcut example: Opening a wallpaper in a window
+### Пример ярлыка: открыть обои в окне
 
-The following example allows you to open any number of wallpapers in a window through a Windows shortcut. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+На следующем примере вы научитесь открывать любое количество обоев в окне с помощью ярлыка Windows. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
 
 First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
 
-![Wallpaper Engine shortcut properties](/img/faq/target.gif)
+![Свойства ярлыка Wallpaper Engine](/img/faq/target.gif)
 
 You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
 
