@@ -1,4 +1,4 @@
-# No Sound Playing / Audio Output Problems
+# Nenhum som a ser reproduzido / Problemas na saída de áudio
 This help guide will help you figure out any issue related to audio playback with wallpapers. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
 
 ::: warning
