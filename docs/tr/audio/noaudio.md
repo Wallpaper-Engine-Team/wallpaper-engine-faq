@@ -16,7 +16,7 @@ Uygulamada ses çıkışını kapatabileceğiniz üç yer vardır:
 ## Windows ses karıştırıcısını kontrol edin
 Wallpaper Engine, tüm ses çıkışlarının Windows tarafından işlenmesine izin verir. Yani Wallpaper Engine'in kendisi sessizde değilse sorun muhtemelen Windows kurulumunuzla ilgilidir. Öncelikle Windows ses karıştırıcısını kontrol edin ve Wallpaper Engine'in aşağıdaki ekran görüntüsünde gösterildiği şekilde sessizde veya çok düşük bir ses düzeyinde olmadığından emin olun:
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![Windows ses karıştırıcısında sesi artırın ve Wallpaper Engine'in sesini açın](./audiomixer.png)
 
 ## Seçili ses cihazını kontrol edin
 Ses çıkışı olmamasının bir başka olası nedeni de Windows'un, Wallpaper Engine için yanlış ses çıkış cihazını seçmesi olabilir. Kullanmak istediğiniz ses çıkış cihazını manuel olarak zorlamayı deneyin:
@@ -27,11 +27,11 @@ Ses çıkışı olmamasının bir başka olası nedeni de Windows'un, Wallpaper 
 
 Birden fazla ses cihazı kullanıyorsanız (özellikle USB veya Bluetooth ses cihazları kullanırken) ve bir cihazın bağlantısı kesildiğinde veya yeniden bağlandığında sesin kesildiğini fark ettiyseniz bunun nedeni Windows'un, bazen çalışan programlar için ses cihazlarını anında güvenilir bir şekilde değiştirmemesidir. Bu durum bizim tarafımızdan düzeltilemez. Bu gibi nadir durumlarda Windows'un ses çıkışını yeniden doğru şekilde işlemeye başlaması için Wallpaper Engine'i yeniden başlatmanız gerekebilir. Ayrıca herhangi bir ses sürücüsünü yeniden yükleyip güncellemeyi deneyerek bu tarz sorunların hafifleyip hafiflemediğine bakabilirsiniz.
 
-## Reset all audio codecs
+## Tüm ses codec bileşenlerini sıfırlayın
 
-If audio output is still not playing at this point, some audio codecs may be broken, this is mainly relevant when using **Video** type wallpapers. You can double-check this by right-clicking on your wallpaper in Wallpaper Engine and selecting **Open in Explorer**. You should see the source video file (usually an **.mp4** file), open that file with Windows Media Player and check if it plays audio. **Please note:** It is very important that you test this with Windows Media Player only - other video players are irrelevant for this test as the underlying audio codecs are used by Wallpaper Engine as well. If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+Ses çıkışı bu noktada hala çalmıyorsa bazı ses codec bileşenleri bozuk olabilir. Bu genellikle **Video** türündeki duvar kâğıtları kullanılırken meydana gelir. Bunu Wallpaper Engine'deki duvar kâğıdınıza sağ tıklayarak ve **Dosya Gezgini'nde Aç**'ı seçerek bir kez daha kontrol edebilirsiniz. Burada kaynak video dosyasınız (genellikle bir **.mp4** dosyası) göreceksiniz; Windows Media Player ile bu dosyayı açın ve sesi çalıp çalmadığına bakın. **Lütfen unutmayın:** Bunu yalnızca Windows Media Player ile test etmeniz oldukça önemlidir. Temel ses codec bileşenleri Wallpaper Engine tarafından da kullanıldığı için bu testte diğer video oynatıcılarının kullanılması işe yaramaz. Windows Media Player'da hiçbir ses çalışmıyorsa bu durumda ya video dosyasının sesi yoktur ya da sisteminizdeki ses codec bileşenleri gerçekten bozuk veya eksiktir.
 
-In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
+Bu durumda, sisteminizdeki tüm ses ve video codec bileşenlerini sıfırlamak için aşağıdaki sayfada açıklandığı şekilde *Codec Tweak Tool*'u kullanabilirsiniz. Sonrasında Wallpaper Engine'i yeniden başlatıp tekrar deneyin:
 
-* [Videos Black / Not Playing Properly - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [Videolar Siyah / Düzgün Oynatılmıyor - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
 
