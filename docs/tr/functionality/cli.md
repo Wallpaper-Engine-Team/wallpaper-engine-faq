@@ -24,11 +24,11 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 Aşağıdaki örnek, Windows kısayolu aracılığıyla bir pencerede istediğiniz sayıda duvar kâğıdı açmanızı sağlar. İstediğiniz sayıda duvar kâğıdını ayrı bir pencerede açmak için bu işlemi tekrarlayabilirsiniz. Bu, özellikle Wallpaper Engine'i herhangi bir boş ekran veya animasyon türü için kullanmak isteyen yayıncılar için faydalıdır.
 
-First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+Önce `wallpaper_engine` dizinine gidin ve `wallpaper32.exe` veya `wallpaper64.exe` üzerine sağ tıklayın. Sonrasında `Gönder` ve `Masaüstü (kısayol oluştur)` üzerine gelerek masaüstünüzdeki Wallpaper Engine işlemi için yeni bir kısayol oluşturun. Sonra yeni kısayolunuzu bulun ve kullanım durumunuza uyacak şekilde yeniden adlandırın. Sonrasında üzerine sağ tıklayarak **Özellikler**'i seçin.
 
-![Wallpaper Engine shortcut properties](/img/faq/target.gif)
+![Wallpaper Engine kısayol özellikleri](/img/faq/target.gif)
 
-You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+**Kısayol** sekmesini, **Hedef** isimle bir satırla göreceksiniz. Bu satır Wallpaper Engine'i gösterecektir. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
