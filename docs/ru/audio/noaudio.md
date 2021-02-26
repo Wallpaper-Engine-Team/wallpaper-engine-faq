@@ -20,9 +20,9 @@ Windows обрабатывает весь вывод звука в Wallpaper Eng
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
 ## Проверьте выбранное звуковое устройство
-Another possible reason for the lack of audio output could be that Windows has selected the wrong audio output device for Wallpaper Engine, try manually forcing your desired audio output device to be used:
+Еще одна причина для отсутствия звука может заключаться в том, что в Windows выбрано неверное устройство вывода звука для Wallpaper Engine. Попробуйте выбрать вручную нужное устройство для вывода звука:
 
-1. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
+1. Нажмите правой кнопкой мыши по значку звука рядом с часами в панели задач и выберите "**Открыть параметры звука**".
 2. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
 3. A list of all applications playing audio will be shown. Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
 
