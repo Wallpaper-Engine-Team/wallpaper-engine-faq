@@ -22,13 +22,13 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### Exemple de raccourci : ouverture d'un fond d'écran dans une fenêtre
 
-L'exemple suivant vous permet d'ouvrir plusieurs fonds d'écran dans une fenêtre via un raccourci Windows. Vous pouvez recommencer ce processus afin d'ouvrir plusieurs fonds d'écran dans une fenêtre distincte qui peut s'avérer utile pour les streamers qui souhaitent utiliser Wallpaper Engine pour tout type d'animation ou d'écran d'inactivité.
+L'exemple suivant vous permet d'ouvrir plusieurs fonds d'écran dans une fenêtre via un raccourci Windows. Vous pouvez recommencer ce processus afin d'ouvrir plusieurs fonds d'écran dans une fenêtre distincte, qui peut s'avérer utile pour les streamers souhaitant utiliser Wallpaper Engine pour tout type d'animation ou d'écran d'inactivité.
 
 Pour commencer, accédez au répertoire `wallpaper_engine` et faites un clic droit sur `wallpaper32.exe` ou `wallpaper64.exe`, puis positionnez le curseur sur `Envoyer vers` et `Bureau (créer un raccourci)` afin de créer sur votre bureau un nouveau raccourci vers le processus Wallpaper Engine. Ensuite, repérez votre nouveau raccourci et renommez-le à votre convenance. Ensuite, faites un clic droit sur ce raccourci, puis sélectionnez **Propriétés**.
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
-Vous devriez voir l'onglet **Raccourci** avec une ligne intitulée **Cible**. Cette ligne indique l'emplacement actuel de Wallpaper Engine. Vous devez modifier cette entrée en y ajouter la commande `openWallpaper` avec le chemin complet vers votre fond d'écran et paramètre `playInWindow`, comme indiqué dans l'exemple ci-dessous (il est peut-être préférable de faire un copier-coller et d'ajuster la commande à vos besoins) :
+Vous devriez voir l'onglet **Raccourci** avec une ligne intitulée **Cible**. Cette ligne indique l'emplacement actuel de Wallpaper Engine. Vous devez modifier cette entrée en y ajoutant la commande `openWallpaper` avec le chemin complet vers votre fond d'écran et paramètre `playInWindow`, comme indiqué dans l'exemple ci-dessous (il est peut-être préférable de faire un copier-coller et d'ajuster la commande à vos besoins) :
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
