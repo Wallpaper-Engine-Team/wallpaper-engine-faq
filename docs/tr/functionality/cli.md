@@ -22,7 +22,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### Kısa yol örneği: Bir duvar kâğıdını bir pencerede açmak
 
-The following example allows you to open any number of wallpapers in a window through a Windows shortcut. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+Aşağıdaki örnek, Windows kısayolu aracılığıyla bir pencerede istediğiniz sayıda duvar kâğıdı açmanızı sağlar. İstediğiniz sayıda duvar kâğıdını ayrı bir pencerede açmak için bu işlemi tekrarlayabilirsiniz. Bu, özellikle Wallpaper Engine'i herhangi bir boş ekran veya animasyon türü için kullanmak isteyen yayıncılar için faydalıdır.
 
 First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
 
