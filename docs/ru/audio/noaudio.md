@@ -10,9 +10,9 @@
 ## Убедитесь, что в Wallpaper Engine не выключен звук
 В приложении есть три места, где можно отключить вывод аудио:
 
-1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
-2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
-3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
+1. В настройках Wallpaper Engine на вкладке **Общее** есть опция, которая называется **Вывод звука**. Проверьте, что она включена.
+2. Нажмите кнопку **Мониторы** на главном окне Wallpaper Engine в правом верхнем углу. Перед вами отобразятся все ваши экраны. На каждом экране есть кнопка выключения звука в левом нижнем углу. Проверьте, что на ваших экранах не выключен звук.
+3. При выборе обоев с правой стороны находится опция **Громкость**, проверьте, что она не выключена и ннаходится на низком уровне. Если в опции написано "**Звук отключен в настройках монитора**", значит, ваш монитор выключен. Вернитесь к пункту 2 и включите звук на экране.
 
 ## Check the Windows audio mixer
 Wallpaper Engine lets all audio output be handled by Windows, so if Wallpaper Engine itself is not muted, the issue must be somewhere in your Windows setup. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
