@@ -1,14 +1,14 @@
 # Не воспроизводится звук / проблемы с выводом звука
-This help guide will help you figure out any issue related to audio playback with wallpapers. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
+Данное руководство поддержки поможет вам выявить проблемы, связанные с воспроизведением аудио в обоях. Прежде всего убедитесь, что вы используете обои, которые содержат аудио. Для этого проверьте несколько других обоев. Многие обои не содержат звуков. Если вы убедились, что ваши обои содержат аудио, читайте данное руководство.
 
 ::: warning
-Please note If your sound keeps turning off and back on within a matter of seconds, please read the following help guide instead:
+Обратите внимание Если звук постоянно включается и выключается каждые несколько секунд, пожалуйста, прочитайте следующее руководство:
 
-* [Sound / audio turns on and off intermittently](/audio/intermittent)
+* [Звук периодически включается и выключается](/audio/intermittent)
 :::
 
-## Ensure Wallpaper Engine is not muting itself
-There are three places in the app which allow you to mute audio output:
+## Убедитесь, что в Wallpaper Engine не выключен звук
+В приложении есть три места, где можно отключить вывод аудио:
 
 1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
 2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
