@@ -1,21 +1,20 @@
-# No Sound Playing / Audio Output Problems
-This help guide will help you figure out any issue related to audio playback with wallpapers. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
+# Aucun son / Problèmes de sortie audio
+Ce guide vous aide à déterminer tout problème lié à la lecture audio avec les fonds d'écran. Pour commencer, veillez à utiliser un fond d'écran qui comporte de l'audio. Il en existe un grand nombre totalement silencieux. Si vous avez la certitude que votre fond d'écran comporte une piste sonore, poursuivez votre lecture.
 
-::: warning
-Please note If your sound keeps turning off and back on within a matter of seconds, please read the following help guide instead:
+::: Avertissement / Remarque : Si le son s'allume et s'éteint continuellement pendant quelques secondes, nous invitons à consulter ce guide :
 
-* [Sound / audio turns on and off intermittently](/audio/intermittent)
+* [Le son s'allume et s'éteint par intermittence](/audio/intermittent)
 :::
 
-## Ensure Wallpaper Engine is not muting itself
-There are three places in the app which allow you to mute audio output:
+## Vérifier que le son n'est pas désactivé depuis Wallpaper Engine
+Il existe trois options au sein de l'application qui vous permettent de désactiver la sortie sonore :
 
-1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
-2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
-3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
+1. Dans l'onglet **Général** des paramètres de Wallpaper Engine, vous trouverez une option intitulée **Sortie audio**. Vérifiez qu'elle est bien activée.
+2. Cliquez sur le bouton **Écrans** situé en haut à droite de la fenêtre principale de Wallpaper Engine. Vous accéderez alors à une vue générale de tous vos écrans. Chacun d'eux est comporte un bouton de désactivation du son qui se trouve dans le coin inférieur gauche. Vérifiez que le mode muet de vos écrans n'est pas activé.
+3. Lorsque vous sélectionnez un fond d'écran, vous remarquerez une option **Volume** situé sur la droite. Veillez à ce qu'elle ne soit pas configurée sur 0 ou à un niveau trop faible. Si l'option est paramétrée sur **Son désactivé dans les paramètres d'écrans**, votre écran est en mode muet. Reportez-vous alors à l'étape 2 et désactivez le mode muet.
 
-## Check the Windows audio mixer
-Wallpaper Engine lets all audio output be handled by Windows, so if Wallpaper Engine itself is not muted, the issue must be somewhere in your Windows setup. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
+## Vérifier le mélangeur audio de Windowd
+Wallpaper Engine laisse à Windows la gestion de toutes les sorties audio. Par conséquent, si le son n'est pas désactivé depuis l'interface de Wallpaper Engine, le problème est nécessairement lié à votre configuration de Windows. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
