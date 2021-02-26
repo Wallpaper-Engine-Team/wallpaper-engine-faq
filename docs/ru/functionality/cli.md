@@ -22,9 +22,9 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### Пример ярлыка: открыть обои в окне
 
-На следующем примере вы научитесь открывать любое количество обоев в окне с помощью ярлыка Windows. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+На следующем примере вы научитесь открывать любое количество обоев в окне с помощью ярлыка Windows. Вы можете повторять этот процесс и открывать любое количество обоев в отдельном окне. Это может пригодиться для стримеров, которые хотят использовать Wallpaper Engine для любого типа экрана в режиме ожидания или анимации.
 
-First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+Сначала перейдите в каталог `wallpaper_engine` и нажмите правой кнопкой на `wallpaper32.exe` или `wallpaper64.exe` и наведите курсор на `Отправить`, затем на `Рабочий стол (создать ярлык)`, чтобы создать новый ярлык процесса Wallpaper Engine на вашем рабочем столе. Затем найдите ваш новый ярлык и переименуйте его по своему усмотрению. После этого нажмите на него правой кнопки и выберите **Свойства**.
 
 ![Свойства ярлыка Wallpaper Engine](/img/faq/target.gif)
 
