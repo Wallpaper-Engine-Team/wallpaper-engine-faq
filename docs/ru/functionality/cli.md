@@ -37,10 +37,10 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 При настройке данной команды проверьте следующее:
 
 * Убедитесь, что указан верный путь к wallpaper32.exe / wallpaper64.exe. Пример выше по умолчанию использует каталог Steam.
-* Убедитесь, что вы указали верный путь к обоям. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
-  * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
-* Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
-* You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
+* Убедитесь, что вы указали верный путь к обоям. Пример выше использует ID Мастерской **123456789**, вам необходимо изменить его, чтобы ваши обои работали. Вы также можете указать любой поддерживаемый файл на вашем компьютере.
+  * Полный путь для любых обоев можно найти, нажав на них в Wallpaper Engine и выбрав **Открыть в Проводнике**. Для обоев типа «сцена» по умолчанию выбираются файлы *project.json*, для видеообоев — формат *.mp4* и для веб-обоев вы найдете файлы с названием *index.html*.
+* Присвойте уникальное имя вашему окну. Пример выше использует **Wallpaper #1** в качестве имени. **Если вы хотите открыть множество окон, присвойте каждому из них уникальное имя.**
+* Вы также можете настроить разрешение, в примере выше указано разрешение 1920x1080 (Full HD). Также измените параметры `width` и `height`.
 
 ## Обзор команд
 
