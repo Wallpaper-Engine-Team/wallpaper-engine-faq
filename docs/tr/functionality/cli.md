@@ -28,19 +28,19 @@ Aşağıdaki örnek, Windows kısayolu aracılığıyla bir pencerede istediğin
 
 ![Wallpaper Engine kısayol özellikleri](/img/faq/target.gif)
 
-**Kısayol** sekmesini, **Hedef** isimle bir satırla göreceksiniz. Bu satır Wallpaper Engine'i gösterecektir. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+**Kısayol** sekmesini, **Hedef** isimli bir satırla göreceksiniz. Bu satır Wallpaper Engine'i gösterecektir. Şimdi aşağıdaki örnekte gösterildiği şekilde (kopyalayıp yapıştırabilir ve ihtiyaçlarınıza uyacak şekilde ayarlayabilirsiniz) duvar kâğıdınıza tam yol ile `openWallpaper` komutunu ve `playInWindow` parametresini eklemek için düzenlemeniz gerekir:
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
 ```
 
-Check the following things when configuring this command:
+Bu komutu yapılandırırken aşağıdakileri kontrol edin:
 
-* Make sure the path to your wallpaper32.exe / wallpaper64.exe stays correct. The example above uses the default Steam directory.
-* Make sure to use the correct path to your wallpaper. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
-  * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
-* Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
-* You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
+* wallpaper32.exe / wallpaper64.exe için olan yolun doğru olduğundan emin olun. Yukarıdaki örnek, varsayılan Steam dizinini kullanır.
+* Kendi duvar kâğıdınıza giden doğru yolu kullandığınızdan emin olun. Yukarıdaki örnek, **123456789** örnek Atölye Kimliğini kullanır; duvar kâğıdınızın çalışması için bunu değiştirmeniz gerekir. Bilgisayarınızda desteklenen herhangi bir dosyanın da üzerine gelebilirsiniz.
+  * Herhangi bir duvar kâğıdının tam yolunu, Wallpaper Engine'de üzerine sağ tıklayarak ve **Dosya Gezgini'nde Aç**'ı seçerek bulabilirsiniz. Sahne duvar kâğıtları için genellikle *project.json* dosyasının üzerine gelmeniz gerekebilir. Video duvar kâğıtları içinse bu genelde *.mp4* dosyası ve web duvar kâğıtları için de *index.html* adlı dosyadır.
+* Pencerenize benzersiz bir ad verin. Yukarıdaki örnek **Wallpaper #1** adını kullanır. **Birden fazla pencere açmak istiyorsanız her birine benzersiz bir ad verin.**
+* Ayrıca çözünürlüğü ayarlamanız da gerekebilir. Yukarıdaki örnek 1920x1080 (Full HD) çözünürlük kullanır. `width` ve `height` parametrelerini buna göre değiştirin.
 
 ## Komuta Genel Bakış
 
