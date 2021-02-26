@@ -4,7 +4,7 @@ Há várias razões pelas quais os visualizadores de áudio podem não funcionar
 
 ::: Atenção Este artigo é sobre visualizadores de áudio que não funcionam. Se está a ter problemas com a reprodução de áudio, consulte este guia:
 
-* [No Sound Playing / Audio Output Problems](/audio/nosound)
+* [Nenhum som a ser reproduzido / Problemas na saída de áudio](/audio/nosound)
 :::
 
 
