@@ -1,5 +1,5 @@
 # Nenhum som a ser reproduzido / Problemas na saída de áudio
-Este guia de ajuda irá ajudá-lo a resolver qualquer problema que esteja relacionado com reprodução de áudio em wallpapers. Primeiro que tudo, deve certificar-se de que está a utilizar um wallpaper que realmente contém áudio experimentando alguns outros. Muitos wallpapers são completametne silenciosos. Se tiver a certeza de que o seu wallpaper contém áudio, continue com este guia.
+Este guia de ajuda irá ajudá-lo a resolver qualquer problema que esteja relacionado com reprodução de áudio em wallpapers. Primeiro que tudo, deve certificar-se de que está a utilizar um wallpaper que realmente contém áudio experimentando alguns outros. Muitos wallpapers são completamene silenciosos. Se tiver a certeza de que o seu wallpaper contém áudio, continue com este guia.
 
 ::: Aviso Se o seu som estiver sempre a ligar-se e desligar-se dentro de poucos segundos leia, em vez disso, o seguinte guia de ajuda:
 
@@ -9,29 +9,29 @@ Este guia de ajuda irá ajudá-lo a resolver qualquer problema que esteja relaci
 ## Certifique-se de que o Wallpaper Engine não está a silenciar-se a si próprio
 Há três lugares na aplicação que que lhe permitem silenciar a saída de áudio:
 
-1. No separador **Gerais** das definições do Wallpaper Engine, há uma opção chamda **Saída de Áudio**. Certifique-se de que está ativada.
-2. Clique no botão **Ecrãs** no canto superior direito da janela prncipal do Wallpaper Engine. Isto irá mostrar-lhe uma visão geral com todos os seus ecrãs. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
-3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
+1. No separador **Gerais** das definições do Wallpaper Engine, há uma opção chamada **Saída de Áudio**. Certifique-se de que está ativada.
+2. Clique no botão **Ecrãs** no canto superior direito da janela principal do Wallpaper Engine. Isto irá mostrar-lhe uma visão geral com todos os seus ecrãs. Cada ecrã tem um botão para silenciar no canto inferior esquerdo. Certifique-se de que os seus ecrãs não estão silenciados.
+3. Quando seleciona um wallpaper, encontrará uma opção de **Volume** do lado direito, certifique-se de que não está definida como zero ou um volume de som baixo. Se a opção disser **Áudio desativado nas definições do ecrã**, yo seu ecrã está silenciado, consulte novamente o 2.º passo e ative o som do seu ecrã.
 
-## Check the Windows audio mixer
-Wallpaper Engine lets all audio output be handled by Windows, so if Wallpaper Engine itself is not muted, the issue must be somewhere in your Windows setup. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
+## Consulte o misturador de áudio do Windows
+O Wallpaper Engine permite que toda a saída de áudio seja controlada pelo Windows, pelo que se o próprio Wallpaper Engine não estiver silenciado, o problema reside algures na sua configuração do Windows. Primeiro, consulte se o misturador de áudio do Windows e certifique-se de que o Wallpaper Engine não está silenciado ou definido para um volume muito baixo, tal como é ilustrado na captura de imagem que se segue:
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![Suba o volume e anule o silêncio do Wallpaper Engine no misturador de áudio do Windows](./audiomixer.png)
 
-## Check the selected audio device
-Another possible reason for the lack of audio output could be that Windows has selected the wrong audio output device for Wallpaper Engine, try manually forcing your desired audio output device to be used:
+## Examine o dispositivo de áudio selecionado
+Outra razão possivel para a ausência de saída de áudio pode ser que o Windows tenha selecionado o dispositivo errado para saída de áudio para o Wallpaper Engine, tente forçar manualmente que seja utilizado o seu dispositivo de saída de áudio pretendido:
 
-1. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-2. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-3. A list of all applications playing audio will be shown. Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
+1. Clique com o botão direito no ícone de áudio ao lado do relógio no tabuleiro do Windows e selecione **Open Sound settings** (Abrir definições de som).
+2. Desloque até ao fundo da página que se abre e clique em **App volume and device preferences** (Volume da aplicação e preferências do dispositivo).
+3. Será apresentada uma lista de todas as aplicações que estão a reproduzir áudio. Procure o Wallpaper Engine e, na coluna **Output** (Saída), selecione o dispositivo de saída de áudio correto. Caso não tenha a certeza, experimente todas as opções possíveis. Poderá ser necessário reiniciar o Wallpaper Engine para que isto seja implementado.
 
-If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
+Se utilizar vários dispositivos de áudio (especialmente se utilizar dispositivos USB ou Bluetooth) e reparar que o áudio é cortado quando um dispositivo é desligado ou volta a ser ligado, por vezes o Windows não muda os dispositivos de áudio corretamente e no momento para programas em execução. Isto não pode ser corrigido do nosso lado, nestes casos raros poderá ser necessário reiniciar o Wallpaper Engine para que o Windows volte a lidar corretamente com a saída de áudio. Também pode tentar reinstalar e atualizar quaisquer controladores de áudio e ver se isso corrige estes tipos de problema.
 
-## Reset all audio codecs
+## Reinicie todos os codecs de áudio
 
-If audio output is still not playing at this point, some audio codecs may be broken, this is mainly relevant when using **Video** type wallpapers. You can double-check this by right-clicking on your wallpaper in Wallpaper Engine and selecting **Open in Explorer**. You should see the source video file (usually an **.mp4** file), open that file with Windows Media Player and check if it plays audio. **Please note:** It is very important that you test this with Windows Media Player only - other video players are irrelevant for this test as the underlying audio codecs are used by Wallpaper Engine as well. If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+Se por esta altura a saída de áudio ainda não estiver a reproduzir áudio, alguns codecs de áudio podem estar danificados, sendo isto principalmente relevante quando utiliza wallpapers do tipo **Vídeo**. Pode confirmar isto clicando com o botão direito no wallpaper no Wallpaper Engine e selecionando **Abrir no Explorer**. Deverá ver o ficheiro de origem de vídeo (habitualmente um ficheiro **.mp4**), abra esse ficheiro com o Windows Media Player e verifique se reproduz áudio. **Tenha atenção:** é muito importante que só faça este teste com o Windows Media Player - outros leitores de vídeo são irrelevantes para este teste, pois os codecs de áudio subjacentes também são utilizados pelo Wallpaper Engine. Se o Windows Media Player não reproduzir áudio, então o ficheiro de vídeo não contém áudio ou os codecs de áudio no seu sistema estão realmente danificados ou em falta.
 
-In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
+Nesse caso, pode utilizar a *Codec Tweak Tool* tal como é explicado na página seguinte para reiniciar todos os codecs de áudio e vídeo do seu sistema e, em seguida, reiniciar o Wallpaper Engine e tentar novamente:
 
-* [Videos Black / Not Playing Properly - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [Vídeos pretos / não são reproduzidos corretamente - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
 
