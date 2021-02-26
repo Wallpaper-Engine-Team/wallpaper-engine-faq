@@ -23,7 +23,7 @@ Il est également possible que Windows n'ait pas sélectionné le bon périphér
 
 1. Faites un clic droit sur l'icône audio à côté de l'horloge dans la barre des tâches de Windows et sélectionnez **Ouvrir les paramètres de son**.
 2. Faites entièrement défiler vers le bas la page qui s'ouvre, puis cliquez sur **Préférences de volume des applications et des appareils**.
-3. A list of all applications playing audio will be shown. Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
+3. Une liste de toutes les applications qui émettent du son s'affiche. Repérez Wallpaper Engine et, dans la colonne **Sortie**, sélectionnez le bon périphérique de sortie audio. Si vous n'êtes pas sûr de vous, essayez toutes les solutions possibles. Vous devrez peut-être redémarrer Wallpaper Engine pour que votre sélection soit prise en compte.
 
 If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
 
