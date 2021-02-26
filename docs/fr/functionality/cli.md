@@ -20,9 +20,9 @@ Veillez à utiliser le caractère guillemet **"** pour les chaînes où figurent
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-### Shortcut example: Opening a wallpaper in a window
+### Exemple de raccourci : ouverture d'un fond d'écran dans une fenêtre
 
-The following example allows you to open any number of wallpapers in a window through a Windows shortcut. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+L'exemple suivant vous permet d'ouvrir plusieurs fonds d'écran dans un fenêtre via un raccourci Windows. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
 
 First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
 
