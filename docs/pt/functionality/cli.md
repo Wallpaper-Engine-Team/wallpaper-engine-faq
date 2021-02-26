@@ -24,11 +24,11 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 O seguinte exemplo permite-lhe abrir qualquer quantidade de wallpapers numa janela através de um atalho do Windows. Pode repetir este processo para abrir qualquer quantidade de wallpapers numa janela diferente, o que poderá ser útil para streamers que querem utilizar o Wallpaper Engine para qualquer tipo de ecrã inativo ou animação.
 
-Primeiro, vá ao diretório `wallpaper_engine` e clique com o botão direito em `wallpaper32.exe` ou `wallpaper64.exe` e passe o rato sobre `Enviar para` e depois `Ambiente de tgrabalho (criar atalho)` para criar um novo atalho para o processo do Wallpaper Engine no sue ambiente de trabalho. Em seguida, procure o seu novo atalho e mude-lhe o nome para algo apropriado para a sua utilização. Depois clique nele com o botão direito e selecione **Propriedades**.
+Primeiro, vá ao diretório `wallpaper_engine` e clique com o botão direito em `wallpaper32.exe` ou `wallpaper64.exe` e passe o rato sobre `Enviar para` e depois `Ambiente de trabalho (criar atalho)` para criar um novo atalho para o processo do Wallpaper Engine no sue ambiente de trabalho. Em seguida, procure o seu novo atalho e mude-lhe o nome para algo apropriado para a sua utilização. Depois clique nele com o botão direito e selecione **Propriedades**.
 
-![Wallpaper Engine shortcut properties](/img/faq/target.gif)
+![Propriedades do atalho do Wallpaper Engine](/img/faq/target.gif)
 
-Deverá ver o separador **Atalhos** com uma linha chamada **Alvo**. Netse momento, esta linha aponta apenas para o Wallpaper Engine. Agora tem de editá-lo e adicionar o comando `openWallpaper` com o caminho completo para o seu wallpaper e o parâmetro `playInWindow` tal como é apresentado no exemplo abaixo (poderá querer copiar/colar e ajustá-lo às suas necessidades):
+Deverá ver o separador **Atalhos** com uma linha chamada **Alvo**. Neste momento, esta linha aponta apenas para o Wallpaper Engine. Agora tem de editá-lo e adicionar o comando `openWallpaper` com o caminho completo para o seu wallpaper e o parâmetro `playInWindow` tal como é apresentado no exemplo abaixo (poderá querer copiar/colar e ajustá-lo às suas necessidades):
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
@@ -38,8 +38,8 @@ Quando configurar este comando, confirme o seguinte:
 
 * Certifique-se de que o caminho para o seu wallpaper32.exe / wallpaper64.exe se mantém correto. O exemplo acima utiliza o diretório Steam predefinido.
 * Certifique-se de que utiliza o caminho correto para o seu wallpaper. O exemplo acima utiliza uma Workshop ID **123456789** de exemplo, deve mudá-la para que o seu wallpaper funcione. Também pode apontar para qualquer ficheiro suportado do seu computador.
-  * Pode encontar o caminho completo de qualquer wallpaper clicando nele com o botão direito no Wallpaper Engine e seleccionando **Abrir no Explorer**. Para wallpapers do tipo Cena, em geral deve apontar para o ficheiro *project.json*, para wallpapers de vídeo isto provavelmente será um ficheiro *.mp4* e para wallpapers web encontrará um ficheiro chamado *index.html*.
-* Dê um nome único à sua janela. O exemplo supra utiliza o nome **Wallpaper #1**. **Se pretender abrir vária sjanelas, basta atribuir um nome único a cada uma.**
+  * Pode encontar o caminho completo de qualquer wallpaper clicando nele com o botão direito no Wallpaper Engine e selecionando **Abrir no Explorer**. Para wallpapers do tipo Cena, em geral deve apontar para o ficheiro *project.json*, para wallpapers de vídeo isto provavelmente será um ficheiro *.mp4* e para wallpapers web encontrará um ficheiro chamado *index.html*.
+* Dê um nome único à sua janela. O exemplo supra utiliza o nome **Wallpaper #1**. **Se pretender abrir várias janelas, basta atribuir um nome único a cada uma.**
 * Também poderá querer ajustar a resolução, o exemplo supra utiliza 1920x1080 (Full HD). Mude os parâmetros `width` and `height` da forma apropriada.
 
 ## Visão geral dos comandos
