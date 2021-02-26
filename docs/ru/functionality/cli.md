@@ -28,16 +28,16 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ![Свойства ярлыка Wallpaper Engine](/img/faq/target.gif)
 
-You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+Перед вами появится вкладка **Ярлык** со строкой под названием **Объект**. В настоящий момент в строке указана только Wallpaper Engine. Теперь вам нужно отредактировать ее, чтобы добавить команду `openWallpaper`, полный путь к вашим обоям и параметр `playInWindow`, как показано на примере ниже (вы можете скопировать его и изменить для своих нужд):
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
 ```
 
-Check the following things when configuring this command:
+При настройке данной команды проверьте следующее:
 
-* Make sure the path to your wallpaper32.exe / wallpaper64.exe stays correct. The example above uses the default Steam directory.
-* Make sure to use the correct path to your wallpaper. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
+* Убедитесь, что указан верный путь к wallpaper32.exe / wallpaper64.exe. Пример выше по умолчанию использует каталог Steam.
+* Убедитесь, что вы указали верный путь к обоям. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
   * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
 * Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
 * You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
