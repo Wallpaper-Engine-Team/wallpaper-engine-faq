@@ -19,12 +19,12 @@ Windows обрабатывает весь вывод звука в Wallpaper Eng
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-## Проверьте выбранное звуковое устройство
+## Проверьте выбранное аудиоустройство
 Еще одна причина для отсутствия звука может заключаться в том, что в Windows выбрано неверное устройство вывода звука для Wallpaper Engine. Попробуйте выбрать вручную нужное устройство для вывода звука:
 
 1. Нажмите правой кнопкой мыши по значку звука рядом с часами в панели задач и выберите "**Открыть параметры звука**".
-2. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-3. A list of all applications playing audio will be shown. Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
+2. Докрутите открывшееся окно до самого низа и кликните на **«Параметры устройств и громкости приложений»**.
+3. Отобразится список всех программ, проигрывающих звук. Найдите Wallpaper Engine и выберите правильное аудиоустройство в колонке **«Вывод»**. Если вы не уверены, попробуйте все варианты. Чтобы изменения вступили в силу, может понадобиться перезапустить Wallpaper Engine.
 
 If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
 
