@@ -17,7 +17,7 @@
 ## Проверьте звуковой мишкер Windows
 Windows обрабатывает весь вывод звука в Wallpaper Engine, если звук в Wallpaper Engine не выключен, значит, проблема заключается в системе Windows. Сначала проверьте звуковой микшер Windows и убедитесь, что звук в Wallpaper Engine не выключен и не слишком тихий, как показано на скриншоте:
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![Увеличьте громкость и включите звук Wallpaper Engine в звуковом микшере Windows](./audiomixer.png)
 
 ## Проверьте выбранное аудиоустройство
 Еще одна причина для отсутствия звука может заключаться в том, что в Windows выбрано неверное устройство вывода звука для Wallpaper Engine. Попробуйте выбрать вручную нужное устройство для вывода звука:
@@ -28,11 +28,11 @@ Windows обрабатывает весь вывод звука в Wallpaper Eng
 
 Если вы используете несколько аудиоустройств (в особенности устройства с USB или Bluetooth) и замечали, что звук прерывается во время подключения/отключения этого устройства, то Windows может неверно переключать аудиоустройства во время работы программ. Мы не можем исправить данную проблему со своей стороны, в таких случаях можно попробовать перезапустить Wallpaper Engine, чтобы вывод аудио корректно заработал в Windows. Вы также можете переустановить и обновить аудио-драйверы, возможно, это решит проблему.
 
-## Reset all audio codecs
+## Восстановите все аудиокодеки
 
-If audio output is still not playing at this point, some audio codecs may be broken, this is mainly relevant when using **Video** type wallpapers. You can double-check this by right-clicking on your wallpaper in Wallpaper Engine and selecting **Open in Explorer**. You should see the source video file (usually an **.mp4** file), open that file with Windows Media Player and check if it plays audio. **Please note:** It is very important that you test this with Windows Media Player only - other video players are irrelevant for this test as the underlying audio codecs are used by Wallpaper Engine as well. If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+Если на данном этапе звук не воспроизводится, возможно, проблема заключается в неисправных аудиокодеках. Такое происходит, если вы используете обои типа **«видео»**. Вы можете проверить это, нажав правой кнопкой на обои в Wallpaper Engine и выбрав **«Открыть в Проводнике»**. Вы увидите исходный видеофайл (обычно в формате **.mp4**), откройте его в проигрывателе Windows Media и проверьте, воспроизводит ли он аудио. **Обратите внимание:** проверку нужно выполнять только в проигрывателе Windows Media — другие видеопроигрыватели не помогут выявить проблему, поскольку такие же аудиокодеки используются в Wallpaper Engine. Если в проигрывателе Windows Media звук не вопроизводится, значит, видеофайл не содержит аудио или же кодеки в вашей системе неисправны или отсутствуют.
 
-In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
+В таком случае вы можете использовать инструмент *Codec Tweak Tool* следуя инструкции, указанной на следующей странице, чтобы восстановить все аудио- и видеокодеки в вашей системе, и затем перезапустите Wallpaper Engine и попробуйте снова:
 
-* [Videos Black / Not Playing Properly - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [Черный экран / видео не воспроизводится — Инструмент Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
 
