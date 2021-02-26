@@ -14,15 +14,15 @@ Il existe trois options au sein de l'application qui vous permettent de désacti
 3. Lorsque vous sélectionnez un fond d'écran, vous remarquerez une option **Volume** situé sur la droite. Veillez à ce qu'elle ne soit pas configurée sur 0 ou à un niveau trop faible. Si l'option est paramétrée sur **Son désactivé dans les paramètres d'écrans**, votre écran est en mode muet. Reportez-vous alors à l'étape 2 et désactivez le mode muet.
 
 ## Vérifier le mélangeur audio de Windowd
-Wallpaper Engine laisse à Windows la gestion de toutes les sorties audio. Par conséquent, si le son n'est pas désactivé depuis l'interface de Wallpaper Engine, le problème est nécessairement lié à votre configuration de Windows. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
+Wallpaper Engine laisse à Windows la gestion de toutes les sorties audio. Par conséquent, si le son n'est pas désactivé depuis l'interface de Wallpaper Engine, le problème est nécessairement lié à votre configuration de Windows. Pour commencer, accédez au mélangeur audio de Windows et vérifiez que le son émis par Wallpaper Engine n'est pas désactivé ou configuré sur un volume très faible, comme le montre la capture d'écran suivante :
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-## Check the selected audio device
-Another possible reason for the lack of audio output could be that Windows has selected the wrong audio output device for Wallpaper Engine, try manually forcing your desired audio output device to be used:
+## Vérifier le périphérique audio sélectionné
+Il est également possible que Windows n'ait pas sélectionné le bon périphérique de sortie audio pour Wallpaper Engine. Essayez alors de forcer l'utilisation du périphérique de sortie audio souhaité :
 
-1. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-2. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
+1. Faites un clic droit sur l'icône audio à côté de l'horloge dans la barre des tâches de Windows et sélectionnez **Ouvrir les paramètres de son**.
+2. Faites entièrement défiler vers le bas la page qui s'ouvre, puis cliquez sur **Préférences de volume des applications et des appareils**.
 3. A list of all applications playing audio will be shown. Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
 
 If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
