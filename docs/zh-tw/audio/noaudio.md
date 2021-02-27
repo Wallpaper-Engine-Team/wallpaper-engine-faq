@@ -15,16 +15,16 @@
 3. 選取一張桌布時，您會發現右手邊有**音量**選項，確認並未設定為零或低音量。 如果選項寫的是**已在顯示器設定中停用音訊**，您的顯示器已經靜音，請回到步驟 2，將螢幕取消靜音。
 
 ## 確認 Windows 音訊混音器
-Wallpaper Engine lets all audio output be handled by Windows, so if Wallpaper Engine itself is not muted, the issue must be somewhere in your Windows setup. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
+Wallpaper Engine 讓所有音訊輸出交由 Windows 處理，所以如果 Wallpaper Engine 本身並未靜音，問題必定出自 Windows 的設定。 首先，檢查 Windows 的音訊混音器，確認 Wallpaper Engine 並未靜音或設定為極低音量，如以下螢幕截圖所示：
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
 ## 檢查選取的音訊工具
-Another possible reason for the lack of audio output could be that Windows has selected the wrong audio output device for Wallpaper Engine, try manually forcing your desired audio output device to be used:
+音訊無法輸出的另一個原因可能是 Windows 為 Wallpaper Engine 選取錯誤的音訊輸出裝置，請嘗試手動選取希望使用的音訊輸出裝置：
 
-1. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-2. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-3. A list of all applications playing audio will be shown. Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
+1. 以滑鼠右鍵按一下 Windows 通知區域時鐘旁的喇叭圖示，選擇**開啟音效設定**。
+2. 向下滾動至開啟頁面的底部，按一下**應用程式音量和裝置喜好設定**。
+3. 此頁面將列出所有可播放音訊的應用程式。 在**輸出**欄位找到 Wallpaper Engine，選取正確的音訊輸出裝置。 如果您不確定，可嘗試所有可能的選項。 A restart of Wallpaper Engine may be necessary for this to take effect.
 
 If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
 
