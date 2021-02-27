@@ -22,9 +22,9 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### 捷徑示例：在視窗中開啟桌布
 
-以下示例可讓您透過 Windows 捷徑在一視窗中開啟任何數量的桌布。 You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+以下示例可讓您透過 Windows 捷徑在一視窗中開啟任何數量的桌布。 您可重複此步驟，在個別的視窗開啟任何數量的桌布，這功能對於實況主來說可能很方便，他們可以將 Wallpaper Engine 用於任何類型的閒置螢幕或動畫。
 
-First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+首先，前往 `wallpaper_engine` 目錄，以滑鼠右鍵按一下 `wallpaper32.exe` 或 `wallpaper64.exe`，並懸停在`傳送到`上選取`桌面 (建立捷徑)`，以在桌面上為 Wallpaper Engine 的流程建立新捷徑。 接著，找出新的捷徑，並依您的使用情境重新命名。 最後，以滑鼠右鍵在上方按一下，選取**屬性**。
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
