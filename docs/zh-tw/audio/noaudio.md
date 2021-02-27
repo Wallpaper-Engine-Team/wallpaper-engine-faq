@@ -26,13 +26,13 @@ Wallpaper Engine 讓所有音訊輸出交由 Windows 處理，所以如果 Wallp
 2. 向下滾動至開啟頁面的底部，按一下**應用程式音量和裝置喜好設定**。
 3. 此頁面將列出所有可播放音訊的應用程式。 在**輸出**欄位找到 Wallpaper Engine，選取正確的音訊輸出裝置。 如果您不確定，可嘗試所有可能的選項。 Wallpaper Engine 可能必須重新啟動才能生效。
 
-如果您使用多種音訊裝置 (尤其使用 USB 或藍牙音訊裝置)，發現裝置中斷連線或重新連線時，音訊會也會中斷，原因是 Windows 切換執行程式的音訊裝置時有時候無法確實而即時。 This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
+如果您使用多種音訊裝置 (尤其使用 USB 或藍牙音訊裝置)，發現裝置中斷連線或重新連線時，音訊會也會中斷，原因是 Windows 切換執行程式的音訊裝置時有時候無法確實而即時。 我們這一方無法解決這個問題，但面對這種極少見的情況，可能需要重新啟動 Wallpaper Engine，Windows 才可開始再次正確處理音訊輸出。 您也可以重新安裝、更新任何音訊驅動程式，看看問題是否減輕。
 
-## Reset all audio codecs
+## 重新設定所有音訊轉碼器
 
 If audio output is still not playing at this point, some audio codecs may be broken, this is mainly relevant when using **Video** type wallpapers. You can double-check this by right-clicking on your wallpaper in Wallpaper Engine and selecting **Open in Explorer**. You should see the source video file (usually an **.mp4** file), open that file with Windows Media Player and check if it plays audio. **Please note:** It is very important that you test this with Windows Media Player only - other video players are irrelevant for this test as the underlying audio codecs are used by Wallpaper Engine as well. If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
 
 In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
 
-* [Videos Black / Not Playing Properly - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [視訊螢幕呈現黑色/無法正常播放：Codec Tweak Tool (轉碼器調整工具)](noshow/notplaying.html#codec-tweak-tool)
 
