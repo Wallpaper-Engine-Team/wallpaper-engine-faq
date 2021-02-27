@@ -12,7 +12,7 @@
 
 1. 在 Wallpaper Engine 設定的**一般**分頁，有個選項為**音訊輸出**。 確定此選項已啟用。
 2. 按一下 Wallpaper Engine 主視窗右上角的**顯示器**按鈕， 之後將可瀏覽所有螢幕畫面。 每個螢幕畫面的左下角皆有靜音按鈕， 可在此確定您的螢幕並未靜音。
-3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
+3. 選取一張桌布時，您會發現右手邊有**音量**選項，確認並未設定為零或低音量。 如果選項寫的是**已在顯示器設定中停用音訊**，您的顯示器已經靜音，請回到步驟 2，將螢幕取消靜音。
 
 ## 確認 Windows 音訊混音器
 Wallpaper Engine lets all audio output be handled by Windows, so if Wallpaper Engine itself is not muted, the issue must be somewhere in your Windows setup. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
