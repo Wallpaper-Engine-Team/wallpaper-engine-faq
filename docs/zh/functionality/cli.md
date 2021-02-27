@@ -36,9 +36,9 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 配置此命令时需注意以下事项：
 
-* 确保您的 wallpaper32.exe/wallpaper64.exe 路径正确。 上面的示例使用默认 Steam 目录。
-* 确保使用正确的壁纸路径。 The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
-  * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
+* 确保您的 wallpaper32.exe/wallpaper64.exe 路径正确。 上面的示例使用了默认 Steam 目录。
+* 确保使用正确的壁纸路径。 上面的示例使用了创意工坊 ID 示例 **123456789**，您必须更改此设置才能让壁纸正常工作。 您也可以指向计算机上任何受支持的文件。
+  * 通过在 Wallpaper Engine 中右键单击任何壁纸，并选择**在资源管理器中打开**，即可找到壁纸的完整路径。 For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
 * Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
 * You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
 
