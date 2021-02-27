@@ -17,7 +17,7 @@
 ## 確認 Windows 音訊混音器
 Wallpaper Engine 讓所有音訊輸出交由 Windows 處理，所以如果 Wallpaper Engine 本身並未靜音，問題必定出自 Windows 的設定。 首先，檢查 Windows 的音訊混音器，確認 Wallpaper Engine 並未靜音或設定為極低音量，如以下螢幕截圖所示：
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![在 Windows 音訊混音器中調高 Wallpaper Engine 音量與取消靜音](./audiomixer.png)
 
 ## 檢查選取的音訊工具
 音訊無法輸出的另一個原因可能是 Windows 為 Wallpaper Engine 選取錯誤的音訊輸出裝置，請嘗試手動選取希望使用的音訊輸出裝置：
@@ -30,9 +30,9 @@ Wallpaper Engine 讓所有音訊輸出交由 Windows 處理，所以如果 Wallp
 
 ## 重新設定所有音訊轉碼器
 
-如果到此階段音訊輸出還是不能正確運作，可能代表音訊轉碼器壞掉了，尤其使用**視訊**類型的桌布更有密切關係。 再次確認的方法是，在 Wallpaper Engine 以滑鼠右鍵按一下桌布，選取**在檔案總管中開啟**。 您應該會看到原始的視訊檔案 (通常是 **.mp4** 檔案)，使用 Windows Media Player 開啟該檔案，確認是否可以播放音訊。 **請注意：**務必使用 Windows Media Player 測試，其他播放程式與這種測試無關，因為 Wallpaper Engine 使用的音訊轉碼器僅與此程式相同。 If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+如果到此階段音訊輸出還是不能正確運作，可能代表音訊轉碼器壞掉了，尤其使用**視訊**類型的桌布更有密切關係。 再次確認的方法是，在 Wallpaper Engine 以滑鼠右鍵按一下桌布，選取**在檔案總管中開啟**。 您應該會看到原始的視訊檔案 (通常是 **.mp4** 檔案)，使用 Windows Media Player 開啟該檔案，確認是否可以播放音訊。 **請注意：**務必使用 Windows Media Player 測試，其他播放程式與這種測試無關，Wallpaper Engine 使用的音訊轉碼器與此程式相同。 如果 Windows Media Player 並未播放音訊，代表視訊檔案並未含有音訊，或是系統上的音訊轉碼器確實壞掉或遺失。
 
-In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
+在這種情況下，您可使用下方頁面說明的 *Codec Tweak Tool*，重設系統上所有音訊及視訊轉碼器，之後再重新啟動 Wallpaper Engine 試用：
 
 * [視訊螢幕呈現黑色/無法正常播放：Codec Tweak Tool (轉碼器調整工具)](noshow/notplaying.html#codec-tweak-tool)
 
