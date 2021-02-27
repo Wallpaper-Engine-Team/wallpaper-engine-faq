@@ -30,7 +30,7 @@ Wallpaper Engine 讓所有音訊輸出交由 Windows 處理，所以如果 Wallp
 
 ## 重新設定所有音訊轉碼器
 
-If audio output is still not playing at this point, some audio codecs may be broken, this is mainly relevant when using **Video** type wallpapers. You can double-check this by right-clicking on your wallpaper in Wallpaper Engine and selecting **Open in Explorer**. You should see the source video file (usually an **.mp4** file), open that file with Windows Media Player and check if it plays audio. **Please note:** It is very important that you test this with Windows Media Player only - other video players are irrelevant for this test as the underlying audio codecs are used by Wallpaper Engine as well. If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+如果到此階段音訊輸出還是不能正確運作，可能代表音訊轉碼器壞掉了，尤其使用**視訊**類型的桌布更有密切關係。 再次確認的方法是，在 Wallpaper Engine 以滑鼠右鍵按一下桌布，選取**在檔案總管中開啟**。 您應該會看到原始的視訊檔案 (通常是 **.mp4** 檔案)，使用 Windows Media Player 開啟該檔案，確認是否可以播放音訊。 **請注意：**務必使用 Windows Media Player 測試，其他播放程式與這種測試無關，因為 Wallpaper Engine 使用的音訊轉碼器僅與此程式相同。 If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
 
 In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
 
