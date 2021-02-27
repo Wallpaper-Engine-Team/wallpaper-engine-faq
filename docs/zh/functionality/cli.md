@@ -24,7 +24,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 以下示例可让您通过 Windows 快捷方式在窗口中打开任意数量的壁纸。 您可以重复此过程以在单独的窗口中打开任意数量的壁纸，这对于想要将 Wallpaper Engine 用于任何类型的空闲屏幕或动画的直播主非常有用。
 
-First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+首先，转到 `wallpaper_engine` 目录，右键单击 `wallpaper32.exe` 或 `wallpaper64.exe`，然后将鼠标依次悬停在`“发送到”`和`“桌面快捷方式”`上，以在桌面上为 Wallpaper Engine 进程创建新的快捷方式。 接下来，找到新的快捷方式并将其重命名以符合您的用例。 然后，右键单击该快捷方式，再选择**属性**。
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
