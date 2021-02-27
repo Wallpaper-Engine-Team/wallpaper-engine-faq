@@ -5,7 +5,7 @@
 ::: warning
 请注意 本文章介绍音频可视化工具无法工作的原因。 如果您在播放音频时遇到问题，请参阅本指南：
 
-* [No Sound Playing / Audio Output Problems](/audio/nosound)
+* [无声音播放/音频输出问题](/audio/nosound)
 :::
 
 
