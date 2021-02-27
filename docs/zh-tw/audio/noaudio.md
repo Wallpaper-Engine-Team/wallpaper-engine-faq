@@ -24,9 +24,9 @@ Wallpaper Engine 讓所有音訊輸出交由 Windows 處理，所以如果 Wallp
 
 1. 以滑鼠右鍵按一下 Windows 通知區域時鐘旁的喇叭圖示，選擇**開啟音效設定**。
 2. 向下滾動至開啟頁面的底部，按一下**應用程式音量和裝置喜好設定**。
-3. 此頁面將列出所有可播放音訊的應用程式。 在**輸出**欄位找到 Wallpaper Engine，選取正確的音訊輸出裝置。 如果您不確定，可嘗試所有可能的選項。 A restart of Wallpaper Engine may be necessary for this to take effect.
+3. 此頁面將列出所有可播放音訊的應用程式。 在**輸出**欄位找到 Wallpaper Engine，選取正確的音訊輸出裝置。 如果您不確定，可嘗試所有可能的選項。 Wallpaper Engine 可能必須重新啟動才能生效。
 
-If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
+如果您使用多種音訊裝置 (尤其使用 USB 或藍牙音訊裝置)，發現裝置中斷連線或重新連線時，音訊會也會中斷，原因是 Windows 切換執行程式的音訊裝置時有時候無法確實而即時。 This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
 
 ## Reset all audio codecs
 
