@@ -28,7 +28,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ![Wallpaper Engine 快捷方式属性](/img/faq/target.gif)
 
-您应该会看到**快捷方式**选项卡，其中有一行名为**目标**。 该行当前仅指向 Wallpaper Engine。 You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+您应该会看到**快捷方式**选项卡，其中有一行名为**目标**。 该行当前仅指向 Wallpaper Engine。 现在您需要编辑该行，以添加 `openWallpaper` 命令以及壁纸的完整路径和 ` playInWindow` 参数，如下面的示例所示（您可能需要复制粘贴并进行调整以适应您的需求）：
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
