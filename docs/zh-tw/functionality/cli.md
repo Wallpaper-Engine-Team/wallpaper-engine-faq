@@ -20,7 +20,7 @@ wallpaper32.exe -control pause
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-### Shortcut example: Opening a wallpaper in a window
+### 捷徑示例：在視窗中開啟桌布
 
 The following example allows you to open any number of wallpapers in a window through a Windows shortcut. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
 
