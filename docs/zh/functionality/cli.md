@@ -26,7 +26,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 首先，转到 `wallpaper_engine` 目录，右键单击 `wallpaper32.exe` 或 `wallpaper64.exe`，然后将鼠标依次悬停在`“发送到”`和`“桌面快捷方式”`上，以在桌面上为 Wallpaper Engine 进程创建新的快捷方式。 接下来，找到新的快捷方式并将其重命名以符合您的用例。 然后，右键单击该快捷方式，再选择**属性**。
 
-![Wallpaper Engine shortcut properties](/img/faq/target.gif)
+![Wallpaper Engine 快捷方式属性](/img/faq/target.gif)
 
 You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
 
