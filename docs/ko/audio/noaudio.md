@@ -26,7 +26,7 @@ Windows가 Wallpaper Engine의 오디오 출력 장치를 잘못 선택한 것�
 2. 열린 페이지를 맨 아래까지 스크롤하고 **앱 볼륨 및 장치 기본 설정**을 클릭합니다.
 3. 오디오를 재생 중인 모든 응용 프로그램 목록이 표시됩니다. 목록에서 Wallpaper Engine을 찾은 후 **출력** 열에서 알맞은 오디오 출력 장치를 선택합니다. 확실하지 않다면 가능한 모든 장치를 시험해보십시오. 변경 사항이 적용되려면 Wallpaper Engine을 재시작해야 할 수도 있습니다.
 
-If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
+다수의 오디오 장치, 특히 USB 또는 Bluetooth 오디오 장치를 사용 중인지 그리고 장치의 연결이 끊기거나 다시 연결할 때 오디오가 끊기는 증상이 있는지 확인하십시오. 그 경우 Windows가 작동 중인 프로그램의 오디오 장치를 즉시 변경하는 데 어려움을 겪는 경우도 종종 있습니다. 드물게 나타나는 이 문제의 경우 저희 측에서 해결할 수 없으며, Windows가 다시 올바르게 오디오 출력을 제어할 수 있도록 Wallpaper Engine을 재시작해야 할 수도 있습니다. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
 
 ## Reset all audio codecs
 
