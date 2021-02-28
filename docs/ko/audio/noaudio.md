@@ -1,13 +1,13 @@
 # 소리 재생 안 됨 / 오디오 출력 문제
-이 가이드는 배경화면의 오디오 출력과 관련 각종 문제를 해결하는 데 도움이 될 것입니다. 우선, 다른 배경화면을 몇 가지 시험해보며 실제로 오디오가 포함된 배경화면을 사용하고 있는 것인지 확인하십시오. 대다수의 배경화면은 소리가 전혀 나지 않습니다. If you are sure your wallpaper contains audio, proceed with this guide.
+이 가이드는 배경화면의 오디오 출력과 관련 각종 문제를 해결하는 데 도움이 될 것입니다. 우선, 다른 배경화면을 몇 가지 시험해보며 실제로 오디오가 포함된 배경화면을 사용하고 있는 것인지 확인하십시오. 대다수의 배경화면은 소리가 전혀 나지 않습니다. 자신의 배경화면이 확실하게 오디오를 포함하고 있다면 계속 이 가이드를 따르십시오:
 
 ::: warning
-Please note If your sound keeps turning off and back on within a matter of seconds, please read the following help guide instead:
+주의: 사운드가 몇 초 상관으로 꺼졌다 켜지기를 반복한다면 다음 가이드를 대신 확인하십시오:
 
-* [Sound / audio turns on and off intermittently](/audio/intermittent)
+* [사운드 / 오디오가 간헐적으로 켜지고 꺼집니다](/audio/intermittent)
 :::
 
-## Ensure Wallpaper Engine is not muting itself
+## Wallpaper Engine이 자체적으로 음소거되어 있지 않은지 확인하십시오
 There are three places in the app which allow you to mute audio output:
 
 1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
