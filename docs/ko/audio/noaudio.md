@@ -7,24 +7,24 @@
 * [사운드 / 오디오가 간헐적으로 켜지고 꺼집니다](/audio/intermittent)
 :::
 
-## Wallpaper Engine이 자체적으로 음소거되어 있지 않은지 확인하십시오
-There are three places in the app which allow you to mute audio output:
+## Wallpaper Engine이 자체적으로 음소거되어 있지 않은지 확인
+앱 내에서 오디오 출력의 음소거 설정을 확인하는 3가지 방법은 다음과 같습니다.
 
-1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
-2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
-3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
+1. Wallpaper Engine 설정의 **일반** 탭을 확인하면 **오디오 출력**이라는 옵션이 있습니다. 해당 옵션이 활성화되어 있는지 확인하십시오.
+2. Wallpaper Engine 메인 창의 오른쪽 상단에 있는 **디스플레이** 버튼을 클릭하십시오. 그러면 모든 화면의 개요가 표시됩니다. 각 화면의 왼쪽 하단을 보시면 음소거 버튼이 있습니다. 화면이 음소거되어 있지 않은지 확인하십시오.
+3. 배경화면을 선택했을 때 오른쪽에 표시되는 **볼륨** 설정이 0이거나 너무 낮게 설정되어 있지 읂은지 확인하십시오. 옵션에 **디스플레이 설정에서 오디오 비활성화됨**이라고 표시된다면, 2번 단계를 다시 확인한 후 화면의 음소거를 해제하십시오.
 
-## Check the Windows audio mixer
-Wallpaper Engine lets all audio output be handled by Windows, so if Wallpaper Engine itself is not muted, the issue must be somewhere in your Windows setup. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
+## Windows 오디오 믹서 확인
+Wallpaper Engine은 모든 오디오 출력을 Windows가 관리하도록 허용하기 때문에, Wallpaper Engine 자체가 음소거되어 있지 않다면 Windows 환경에 문제가 있다는 의미입니다. 우선 다음 스크린샷을 참조하여 Windows 오디오 믹서에서 Wallpaper Engine이 음소거되었거나 매우 낮은 볼륨으로 설정되어 있지 않은지 확인하십시오:
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-## Check the selected audio device
-Another possible reason for the lack of audio output could be that Windows has selected the wrong audio output device for Wallpaper Engine, try manually forcing your desired audio output device to be used:
+## 선택된 오디오 장치 확인
+Windows가 Wallpaper Engine의 오디오 출력 장치를 잘못 선택한 것이 원인일 수도 있습니다. 사용할 오디오 출력 장치를 직접 선택해보십시오:
 
-1. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-2. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-3. A list of all applications playing audio will be shown. Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
+1. Windows 트레이에서 시계 옆 오디오 아이콘을 오른쪽 클릭하고 **소리 설정 열기**를 선택합니다.
+2. 열린 페이지를 맨 아래까지 스크롤하고 **앱 볼륨 및 장치 기본 설정**을 클릭합니다.
+3. 오디오를 재생 중인 모든 응용 프로그램 목록이 표시됩니다. 목록에서 Wallpaper Engine을 찾은 후 **출력** 열에서 알맞은 오디오 출력 장치를 선택합니다. 확실하지 않다면 가능한 모든 장치를 시험해보십시오. 변경 사항이 적용되려면 Wallpaper Engine을 재시작해야 할 수도 있습니다.
 
 If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
 
