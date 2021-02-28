@@ -22,9 +22,9 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### 바로 가기 예시: 창으로 배경화면 열기
 
-다음 예시를 따르면 Windows 바로 가기를 사용하여 배경화면을 원하는 만큼 창으로 열 수 있습니다. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+다음 예시를 따르면 Windows 바로 가기를 사용하여 배경화면을 원하는 만큼 창으로 열 수 있습니다. 이 과정을 반복하여 배경화면을 원하는 만큼 개별 창으로 열 수 있으며, 이는 Wallpaper Engine을 대기 화면 또는 애니메이션에 활용하고자 하는 스트리머에게 유용합니다.
 
-First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+우선 `wallpaper_engine` 디렉토리로 이동하여 `wallpaper32.exe` 또는 `wallpaper64.exe`를 오른쪽 클릭한 후, `보내기`에 커서를 올려놓은 다음 `바탕 화면에 바로 가기 만들기` 를 클릭하여 바탕 화면에 Wallpaper Engine 프로세스의 바로 가기를 새로 생성하십시오. 그다음, 새로운 바로 가기를 찾아 용도에 알맞게 이름을 변경하십시오. Afterwards, right-click on it, then select **Properties**.
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
