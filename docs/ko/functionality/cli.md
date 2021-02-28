@@ -26,21 +26,21 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 우선 `wallpaper_engine` 디렉토리로 이동하여 `wallpaper32.exe` 또는 `wallpaper64.exe`를 오른쪽 클릭한 후, `보내기`에 커서를 올려놓은 다음 `바탕 화면에 바로 가기 만들기` 를 클릭하여 바탕 화면에 Wallpaper Engine 프로세스의 바로 가기를 새로 생성하십시오. 그다음, 새 바로 가기의 이름을 용도에 알맞게 변경하십시오. 그리고 바로 가기를 오른쪽 클릭한 후 **속성**을 선택하십시오.
 
-![Wallpaper Engine shortcut properties](/img/faq/target.gif)
+![Wallpaper Engine 바로 가기 속성](/img/faq/target.gif)
 
-그러면 **바로 가기** 탭에 **대상**이라는 항목이 보일 것입니다. 해당 시점에서는 Wallpaper Engine이 대상으로 지정되어 있을 것이며, You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+그러면 **바로 가기** 탭에 **대상**이라는 항목이 보일 것입니다. 해당 시점에서는 Wallpaper Engine이 대상으로 지정되어 있을 것이며, 이제 아래 예시와 같이 배경화면의 전체 경로, `openWallpaper` 명령어 그리고 `playInWindow` 매개변수를 추가해야 합니다(복사하여 붙여넣은 후 필요한 대로 조정하십시오):
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
 ```
 
-Check the following things when configuring this command:
+이 명령어를 설정할 때는 다음 사항에 유의하십시오:
 
-* Make sure the path to your wallpaper32.exe / wallpaper64.exe stays correct. The example above uses the default Steam directory.
-* Make sure to use the correct path to your wallpaper. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
-  * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
-* Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
-* You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
+* wallpaper32.exe / wallpaper64.exe 경로가 올바른지 확인하십시오. 위의 예시는 Steam의 기본 경로를 사용하고 있습니다.
+* 배경화면의 경로가 올바른지 확인하십시오. 위의 예는 **123456789**라는 예시 창작마당 ID를 사용하고 있으며, 배경화면이 제대로 작동하려면 알맞게 변경하여야 합니다. 또한 컴퓨터 상의 지원되는 파일을 선택할 수도 있습니다.
+  * 배경화면의 전체 경로는 Wallpaper Engine에서 해당 배경화면을 오른쪽 클릭한 후 **탐색기에서 열기**를 선택하여 확인할 수 있습니다. 일반적으로 장면 유형의 배경화면은 *project.json* 파일을, 영상 배경화면은 *.mp4* 파일을, 웹사이트 배경화면은 *index.html* 파일을 경로로 지정해야 합니다.
+* 창에 고유한 이름을 부여하십시오. 위의 예시는 임의로 **Wallpaper #1**라는 이름을 사용하고 있습니다. **여러 개의 창을 열고자 할 경우에는 각각 고유한 이름을 부여하면 됩니다.**
+* 또한 위 예시는 1920x1080 (Full HD) 해상도를 사용하며, 해상도를 변경해야 할 수도 있습니다. `width` 및 `height` 매개변수를 알맞게 변경하십시오.
 
 ## 명령 개요
 
