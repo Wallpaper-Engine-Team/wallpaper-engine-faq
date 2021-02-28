@@ -17,7 +17,7 @@
 ## Windows 오디오 믹서 확인
 Wallpaper Engine은 모든 오디오 출력을 Windows가 관리하도록 허용하기 때문에, Wallpaper Engine 자체가 음소거되어 있지 않다면 Windows 환경에 문제가 있다는 의미입니다. 우선 다음 스크린샷을 참조하여 Windows 오디오 믹서에서 Wallpaper Engine이 음소거되었거나 매우 낮은 볼륨으로 설정되어 있지 않은지 확인하십시오:
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![볼륨을 높이고, Windows 오디오 믹서에서 Wallpaper Engine 음소거를 해제합니다](./audiomixer.png)
 
 ## 선택된 오디오 장치 확인
 Windows가 Wallpaper Engine의 오디오 출력 장치를 잘못 선택한 것이 원인일 수도 있습니다. 사용할 오디오 출력 장치를 직접 선택해보십시오:
@@ -30,9 +30,9 @@ Windows가 Wallpaper Engine의 오디오 출력 장치를 잘못 선택한 것�
 
 ## 모든 오디오 코덱 초기화
 
-아직도 오디오 출력이 재생되지 않는다면 일부 오디오 코덱에 문제가 생겼을 수 있습니다. 이는 주로 **영상** 유형의 배경화면을 사용할 때 나타납니다. Wallpaper Engine에서 자신의 배경화면을 오른쪽 클릭한 후 **탐색기에서 열기**를 선택하여 확실하게 알아볼 수 있습니다. 그러면 소스 비디오 파일(주로 **.mp4** 파일)이 표시될 것입니다. 해당 파일을 Windows Media Player로 열어 오디오가 재생되는지 확인하십시오. **주의:** 반드시 Windows Media Player로만 테스트해야 합니다. 다른 비디오 플레이어는 Wallpaper Engine 역시 같은 기반 오디오 코덱을 사용하기 때문에 이 테스트에 부적합합니다. If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+아직도 오디오 출력이 재생되지 않는다면 일부 오디오 코덱에 문제가 생겼을 수 있습니다. 이는 주로 **영상** 유형의 배경화면을 사용할 때 나타납니다. Wallpaper Engine에서 자신의 배경화면을 오른쪽 클릭한 후 **탐색기에서 열기**를 선택하여 확실하게 알아볼 수 있습니다. 그러면 소스 비디오 파일(주로 **.mp4** 파일)이 표시될 것입니다. 해당 파일을 Windows Media Player로 열어 오디오가 재생되는지 확인하십시오. **주의:** 반드시 Windows Media Player로만 테스트해야 합니다. 다른 비디오 플레이어는 Wallpaper Engine 역시 같은 기반 오디오 코덱을 사용하기 때문에 이 테스트에 부적합합니다. Windows Media Player에서 오디오가 재생되지 않는다면 비디오 파일에 오디오가 없거나, 시스템의 오디오 코덱이 고장났거나 존재하지 않는 것입니다.
 
-In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
+그 경우 다음 페이지를 참조하며 *Codec Tweak 도구*로 시스템의 모든 오디오 및 비디오 코덱을 초기화한 후, Wallpaper Engine을 재시작하고 다시 시도하십시오:
 
-* [Videos Black / Not Playing Properly - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [영상 검은색 / 제대로 재생되지 않습니다 - Codec Tweak 도구](noshow/notplaying.html#codec-tweak-tool)
 
