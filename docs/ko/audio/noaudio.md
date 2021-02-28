@@ -1,5 +1,5 @@
 # 소리 재생 안 됨 / 오디오 출력 문제
-이 가이드는 배경화면의 오디오 출력과 관련 각종 문제를 해결하는 데 도움이 될 것입니다. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
+이 가이드는 배경화면의 오디오 출력과 관련 각종 문제를 해결하는 데 도움이 될 것입니다. 우선, 다른 배경화면을 몇 가지 시험해보며 실제로 오디오가 포함된 배경화면을 사용하고 있는 것인지 확인하십시오. 대다수의 배경화면은 소리가 전혀 나지 않습니다. If you are sure your wallpaper contains audio, proceed with this guide.
 
 ::: warning
 Please note If your sound keeps turning off and back on within a matter of seconds, please read the following help guide instead:
