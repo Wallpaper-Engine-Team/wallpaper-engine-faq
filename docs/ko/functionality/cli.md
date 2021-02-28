@@ -24,11 +24,11 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 다음 예시를 따르면 Windows 바로 가기를 사용하여 배경화면을 원하는 만큼 창으로 열 수 있습니다. 이 과정을 반복하여 배경화면을 원하는 만큼 개별 창으로 열 수 있으며, 이는 Wallpaper Engine을 대기 화면 또는 애니메이션에 활용하고자 하는 스트리머에게 유용합니다.
 
-우선 `wallpaper_engine` 디렉토리로 이동하여 `wallpaper32.exe` 또는 `wallpaper64.exe`를 오른쪽 클릭한 후, `보내기`에 커서를 올려놓은 다음 `바탕 화면에 바로 가기 만들기` 를 클릭하여 바탕 화면에 Wallpaper Engine 프로세스의 바로 가기를 새로 생성하십시오. 그다음, 새로운 바로 가기를 찾아 용도에 알맞게 이름을 변경하십시오. Afterwards, right-click on it, then select **Properties**.
+우선 `wallpaper_engine` 디렉토리로 이동하여 `wallpaper32.exe` 또는 `wallpaper64.exe`를 오른쪽 클릭한 후, `보내기`에 커서를 올려놓은 다음 `바탕 화면에 바로 가기 만들기` 를 클릭하여 바탕 화면에 Wallpaper Engine 프로세스의 바로 가기를 새로 생성하십시오. 그다음, 새 바로 가기의 이름을 용도에 알맞게 변경하십시오. 그리고 바로 가기를 오른쪽 클릭한 후 **속성**을 선택하십시오.
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
-You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+그러면 **바로 가기** 탭에 **대상**이라는 항목이 보일 것입니다. 해당 시점에서는 Wallpaper Engine이 대상으로 지정되어 있을 것이며, You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
