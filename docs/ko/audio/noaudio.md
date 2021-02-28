@@ -1,5 +1,5 @@
-# 소리 재생 / 오디오 출력 문제
-This help guide will help you figure out any issue related to audio playback with wallpapers. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
+# 소리 재생 안 됨 / 오디오 출력 문제
+이 가이드는 배경화면의 오디오 출력과 관련 각종 문제를 해결하는 데 도움이 될 것입니다. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
 
 ::: warning
 Please note If your sound keeps turning off and back on within a matter of seconds, please read the following help guide instead:
