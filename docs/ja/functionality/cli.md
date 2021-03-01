@@ -26,7 +26,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 まず、`wallpaper_engine`ディレクトリを開き、`wallpaper32.exe`または`wallpaper64.exe`のどちらかを右クリックして、`送る`から`デスクトップ（ショートカットを作成）`を選び、デスクトップにWallpaper Engineプロセスのショートカットを作成します。 次に、その新しいショートカットを見つけ、用途に合った名前に変えます。 その後、それを右クリックして**プロパティ**を選択します。
 
-![Wallpaper Engine shortcut properties](/img/faq/target.gif)
+![Wallpaper Engineのショートカットプロパティ](/img/faq/target.gif)
 
 **ショートカット**タブを見ると、**リンク先**という欄があります。 現在、ここはWallpaper Engineの場所が表示されています。 ここに、壁紙のフルパスを書いた`openWallpaper`コマンドと、`playInWindow`パラメータを、次の例のように追加します（コピーペーストし、その後、必要な部分を変更するとよいでしょう）。
 
@@ -37,10 +37,10 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 このコマンドを設定する時は、次の点にご注意ください。
 
 * wallpaper32.exe または wallpaper64.exe へのパスが正しいことを確認してください。 上の例では、デフォルトのSteamディレクトリが使用されています。
-* 壁紙へのパスが正しいことを確認してください。 上の例では、ダミーのワークショップID **123456789**を使用しています。壁紙が正しく動作するように、ここを変更します。 コンピュータ上の対応しているファイルなら何でも使えます。
-  * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
-* Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
-* You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
+* 壁紙へのパスが正しいことを確認してください。 上の例では、ダミーのワークショップID **123456789**を使用しています。壁紙が正しく動作するように、ここを変更します。 コンピュータ上の対応しているファイルなら何でも指定できます。
+  * 壁紙のフルパスは、Wallpaper Engine上で壁紙を右クリックし、**エクスプローラーを開く**を選択すると確認できます。 ファイルの種類は通常、シーンタイプの壁紙であれば*project.json*ファイル、ビデオ壁紙は*.mp4*ファイル、Web壁紙は*index.html*となることが多いです。
+* ウィンドウに独自の名前を付けます。 上の例では、**Wallpaper #1**という名前を使用しています。 **複数のウィンドウを開きたい場合は、それぞれに別の名前を付けてください。**
+* また、解像度も指定した方が良いでしょう。上の例では1920x1080（フルHD）です。 `幅`と`高さ`のパラメータを状況に応じて変更します。
 
 ## コマンド概要
 
