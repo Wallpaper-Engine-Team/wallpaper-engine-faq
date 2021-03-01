@@ -17,7 +17,7 @@
 ## Windowsのオーディオミキサーを確認する
 Wallpaper Engineはすべてのオーディオ出力をWindowsに任せています。Wallpaper Engineそのものがミュートになっていない場合、問題はWindows設定のどこかにあると考えられます。 まず、Windowsのオーディオミキサーを見て、Wallpaper Engineがミュートや低音量になっていないことを確認します。次のスクリーンショットをご覧ください：
 
-![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
+![Windows オーディオミキサーで、Wallpaper Engine のボリュームを上げるか消音を解除する](./audiomixer.png)
 
 ## 選択されたオーディオデバイスを確認する
 もう一つ、オーディオ出力がない場合に考えられる原因としては、WindowsがWallpaper Engineに対して間違った出力デバイスを選択している可能性が考えられます。希望するオーディオ出力が使用されるように、手動で設定してみてください：
@@ -30,9 +30,9 @@ Wallpaper Engineはすべてのオーディオ出力をWindowsに任せていま
 
 ## 全部のオーディオコーデックをリセットする
 
-この時点でもオーディオ出力が再生されない場合、オーディオコーデックが破損している可能性があります。これは主に、**ビデオ**タイプの壁紙を使用している時に発生します。 You can double-check this by right-clicking on your wallpaper in Wallpaper Engine and selecting **Open in Explorer**. You should see the source video file (usually an **.mp4** file), open that file with Windows Media Player and check if it plays audio. **Please note:** It is very important that you test this with Windows Media Player only - other video players are irrelevant for this test as the underlying audio codecs are used by Wallpaper Engine as well. If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+この時点でもオーディオ出力が再生されない場合、オーディオコーデックが破損している可能性があります。これは主に、**ビデオ**タイプの壁紙を使用している時に発生します。 これは、Wallpaper Engineの壁紙を右クリックし、**エクスプローラーを開く**を選択すると確認することができます。 ソースビデオファイル（通常は**.mp4**ファイル）を見て、そのファイルをWindows Media Playerで開き、オーディオが再生されているかどうかを確かめます。 **ご注意ください：**この確認は、必ずWindows Media Playerのみで行ってください。この基本のオーディオコーデックはWallpaper Engineでも使用されているため、他のビデオプレイヤーでテストしても意味がありません。 Windows Media Playerで音が出ない場合は、ビデオファイルに音が含まれていないか、システムのオーディオコーデックが実際に破損している、またはなくなっている可能性があります。
 
-In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
+その場合は、次のページの指示に従って*Codec Tweak Tool*をダウンロードし、システム上のすべてのオーディオおよびビデオコーデックをリセットして、その後Wallpaper Engineを再起動してから、もう一度試してみてください：
 
-* [Videos Black / Not Playing Properly - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [ビデオが黒い / 正しく再生されない - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
 
