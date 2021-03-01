@@ -1,14 +1,14 @@
-# No Sound Playing / Audio Output Problems
-This help guide will help you figure out any issue related to audio playback with wallpapers. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
+# 音が出ません / オーディオ出力の問題
+このヘルプは、壁紙のオーディオ再生に関連した問題を解決するためのものです。 まず、何枚かの壁紙を試して、実際にオーディオが含まれている壁紙を使っていることを確認してください。 全く音のない壁紙はたくさんあります。 壁紙にオーディオが含まれていることが確認できたら、このガイドを読み進めてください。
 
 ::: warning
-Please note If your sound keeps turning off and back on within a matter of seconds, please read the following help guide instead:
+ご注意ください 数秒の間に音が聞こえたり消えたりする場合は、ここではなく次のガイドをお読みください：
 
-* [Sound / audio turns on and off intermittently](/audio/intermittent)
+* [サウンドやオーディオが断続的にオンオフされる](/audio/intermittent)
 :::
 
-## Ensure Wallpaper Engine is not muting itself
-There are three places in the app which allow you to mute audio output:
+## Wallpaper Engineがミュートになっていないことを確認します
+オーディオ出力をミュートにできる場所は3つあります：
 
 1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
 2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
