@@ -11,11 +11,11 @@
 该应用程序中有三个地方可将音频输出设置为静音：
 
 1. 在 Wallpaper Engine 设置的**常规**选项卡中，有一个选项名为**音频输出**。 确保已启用该选项。
-2. 单击 Wallpaper Engine 主窗口右上角的**显示**按钮。 这样将可以概览所有屏幕。 每个屏幕的左下角都有一个静音按钮。 确保您的屏幕没有静音。
-3. 选择壁纸时，您会在右侧找到**音量**选项，确保未将其设置为零或较低的音量。 If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
+2. 单击 Wallpaper Engine 主窗口右上角的**显示器**按钮。 这样将可以概览所有屏幕。 每个屏幕的左下角都有一个静音按钮。 确保您的屏幕没有静音。
+3. 选择壁纸时，您会在右侧找到**音量**选项，确保未将其设置为零或较低的音量。 如果选项显示**已在显示器设置中禁用音频**，则显示器处于静音状态，请再次检查第 2 步，然后将屏幕取消静音。
 
-## Check the Windows audio mixer
-Wallpaper Engine lets all audio output be handled by Windows, so if Wallpaper Engine itself is not muted, the issue must be somewhere in your Windows setup. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
+## 检查 Windows 音频混音器
+Wallpaper Engine 让 Windows 处理所有音频输出，因此如果未将 Wallpaper Engine 本身静音，则问题一定出自 Windows 设置。 First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
