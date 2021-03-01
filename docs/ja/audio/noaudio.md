@@ -28,9 +28,9 @@ Wallpaper Engineはすべてのオーディオ出力をWindowsに任せていま
 
 複数のオーディオデバイスを使用（特に、USBまたはBluetoothデバイスを使用）していて、デバイスを切断したり再接続したりした時に音が途切れる場合、Windowsは実行中のプログラムに対して正しくオーディオデバイスを切り替えられないことがあります。 これは、Wallpaper Engineの側からは修正できません。このようなレアケースについては、Windowsがオーディオ出力を再びきちんと制御できるようにするために、Wallpaper Engineの再起動が必要になることがあります。 また、オーディオドライバの再インストールやアップデートによって、事態の改善を試みることもできます。
 
-## Reset all audio codecs
+## 全部のオーディオコーデックをリセットする
 
-If audio output is still not playing at this point, some audio codecs may be broken, this is mainly relevant when using **Video** type wallpapers. You can double-check this by right-clicking on your wallpaper in Wallpaper Engine and selecting **Open in Explorer**. You should see the source video file (usually an **.mp4** file), open that file with Windows Media Player and check if it plays audio. **Please note:** It is very important that you test this with Windows Media Player only - other video players are irrelevant for this test as the underlying audio codecs are used by Wallpaper Engine as well. If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+この時点でもオーディオ出力が再生されない場合、オーディオコーデックが破損している可能性があります。これは主に、**ビデオ**タイプの壁紙を使用している時に発生します。 You can double-check this by right-clicking on your wallpaper in Wallpaper Engine and selecting **Open in Explorer**. You should see the source video file (usually an **.mp4** file), open that file with Windows Media Player and check if it plays audio. **Please note:** It is very important that you test this with Windows Media Player only - other video players are irrelevant for this test as the underlying audio codecs are used by Wallpaper Engine as well. If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
 
 In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
 
