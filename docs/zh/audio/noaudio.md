@@ -20,11 +20,11 @@ Wallpaper Engine 让 Windows 处理所有音频输出，因此如果未将 Wallp
 ![提高音量，并在 Windows 音频混音器中将 Wallpaper Engine 取消静音](./audiomixer.png)
 
 ## 检查所选的音频设备
-Another possible reason for the lack of audio output could be that Windows has selected the wrong audio output device for Wallpaper Engine, try manually forcing your desired audio output device to be used:
+没有音频输出的另一个原因可能是 Windows 为 Wallpaper Engine 选择了错误的音频输出设备，请尝试手动强制选择所需的音频输出设备：
 
-1. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-2. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-3. A list of all applications playing audio will be shown. Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
+1. 右键单击 Windows 托盘中时钟旁边的音频图标，然后选择**打开声音设置**。
+2. 向下滚动至打开的页面底部，然后单击**应用音量和设备首选项**。
+3. 此时将显示播放音频的所有应用程序列表。 Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
 
 If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
 
