@@ -3,9 +3,9 @@
 オーディオビジュアライザーが機能しない理由としてはいくつかの原因が考えられます。 ここに、現時点でわかっている原因可能性をすべてリストアップしました。フルガイドをお読みいただき、機能しない原因として見落としているものがないか、ご確認ください。
 
 ::: warning
-Please note This article is about audio visualizers not working. If you are having issues with audio playback, please see this guide instead:
+ご注意ください この記事はオーディオビジュアライザーが機能しないことについてです。 オーディオ再生に問題がある場合は、次のガイドをご覧ください：
 
-* [No Sound Playing / Audio Output Problems](/audio/nosound)
+* [音が出ません / オーディオ出力の問題](/audio/nosound)
 :::
 
 
