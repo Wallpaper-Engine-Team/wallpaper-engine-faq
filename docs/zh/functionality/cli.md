@@ -40,7 +40,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * 确保使用正确的壁纸路径。 上面的示例使用了创意工坊 ID 示例 **123456789**，您必须更改此设置才能让壁纸正常工作。 您也可以指向计算机上任何受支持的文件。
   * 通过在 Wallpaper Engine 中右键单击任何壁纸，并选择**在资源管理器中打开**，即可找到壁纸的完整路径。 对于场景类型的壁纸，通常要指向 *project.json* 文件，对于视频壁纸，可能是 *.mp4* 文件，而对于 Web 壁纸，则要找到名为 *index.html* 的文件。
 * 为窗口设置唯一名称。 上面的示例使用 **Wallpaper #1** 作为名称。 **如果要打开多个窗口，只需为每个窗口分配一个唯一名称。**
-* You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
+* 您可能还需要调整分辨率，上面的示例使用 1920x1080（全高清）。 相应地更改`宽度`和`高度`参数。
 
 ## 命令概览
 
