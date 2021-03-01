@@ -1,8 +1,8 @@
 # 无声音播放/音频输出问题
-This help guide will help you figure out any issue related to audio playback with wallpapers. First of all, you should make sure that you are using a wallpaper that actually contains audio by trying a few others. Many wallpapers are completely silent. If you are sure your wallpaper contains audio, proceed with this guide.
+本帮助指南将帮助您了解与壁纸音频播放有关的任何问题。 首先，您应该尝试其他一些壁纸，以确保目前使用的壁纸确实包含音频。 许多壁纸完全没有音频。 如果确定壁纸包含音频，请继续阅读本指南。
 
 ::: warning
-Please note If your sound keeps turning off and back on within a matter of seconds, please read the following help guide instead:
+请注意 如果声音在几秒钟内断断续续，请改为阅读以下帮助指南：
 
 * [Sound / audio turns on and off intermittently](/audio/intermittent)
 :::
