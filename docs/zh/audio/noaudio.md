@@ -26,7 +26,7 @@ Wallpaper Engine 让 Windows 处理所有音频输出，因此如果未将 Wallp
 2. 向下滚动至打开的页面底部，然后单击**应用音量和设备首选项**。
 3. 此时将显示播放音频的所有应用程序列表。 找到 Wallpaper Engine，然后在**输出**列中，选择正确的音频输出设备。 如果不确定，请尝试所有可能的选项。 可能需要重新启动 Wallpaper Engine 才能生效。
 
-如果您使用多个音频设备（尤其是在使用 USB 或蓝牙音频设备时），并发现设备断开连接或重新连接时音频会中断，则 Windows 有时无法可靠地实时切换音频设备以运行程序。 This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
+如果您使用多个音频设备（尤其是在使用 USB 或蓝牙音频设备时），并发现设备断开连接或重新连接时音频会中断，则 Windows 有时无法可靠地实时切换音频设备以运行程序。 我们无法解决此问题，在极少数情况下，您可能需要重新启动 Wallpaper Engine，以便 Windows 开始再次正确处理音频输出。 您也可以尝试重新安装和更新任何音频驱动程序，以查看是否可以缓解这些类型的问题。
 
 ## Reset all audio codecs
 
