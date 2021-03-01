@@ -20,13 +20,13 @@ Wallpaper Engineはすべてのオーディオ出力をWindowsに任せていま
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
 ## 選択されたオーディオデバイスを確認する
-Another possible reason for the lack of audio output could be that Windows has selected the wrong audio output device for Wallpaper Engine, try manually forcing your desired audio output device to be used:
+もう一つ、オーディオ出力がない場合に考えられる原因としては、WindowsがWallpaper Engineに対して間違った出力デバイスを選択している可能性が考えられます。希望するオーディオ出力が使用されるように、手動で設定してみてください：
 
-1. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
-2. Scroll down to the bottom of the page that opens and click on **App volume and device preferences**.
-3. A list of all applications playing audio will be shown. Find Wallpaper Engine and in the **Output** column, select the correct audio output device. If you are unsure, try all possible options. A restart of Wallpaper Engine may be necessary for this to take effect.
+1. Windowsのタスクトレイの時計の隣にあるオーディオアイコンを右クリックし、**サウンド設定を開く**を選択します。
+2. 開いたページを一番下までスクロールし、**アプリの音量とデバイスの設定**をクリックします。
+3. オーディオを再生するアプリケーションすべてがリスト表示されます。 **出力**の列でWallpaper Engineを見つけ、正しいオーディオ出力デバイスを選択します。 どれが正しいか自信がない時は、可能なオプションを全部試してみましょう。 この変更が反映されるためには、Wallpaper Engineの再起動が必要になることがあります。
 
-If you use multiple audio devices (especially when using USB or Bluetooth audio devices) and notice that audio cuts out when a device disconnects or reconnects, Windows sometimes does not reliably switch audio devices on-the-fly for running programs. This cannot be fixed from our end, in these rare cases you may need to restart Wallpaper Engine so that Windows starts to correctly handle the audio output again. You can also try and reinstall and update any audio drivers and see if that alleviates these types of issues.
+複数のオーディオデバイスを使用（特に、USBまたはBluetoothデバイスを使用）していて、デバイスを切断したり再接続したりした時に音が途切れる場合、Windowsは実行中のプログラムに対して正しくオーディオデバイスを切り替えられないことがあります。 これは、Wallpaper Engineの側からは修正できません。このようなレアケースについては、Windowsがオーディオ出力を再びきちんと制御できるようにするために、Wallpaper Engineの再起動が必要になることがあります。 また、オーディオドライバの再インストールやアップデートによって、事態の改善を試みることもできます。
 
 ## Reset all audio codecs
 
