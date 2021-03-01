@@ -20,11 +20,11 @@ wallpaper32.exe -control pause
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
-### Shortcut example: Opening a wallpaper in a window
+### ショートカットの例：ウィンドウで壁紙を開く
 
-The following example allows you to open any number of wallpapers in a window through a Windows shortcut. You can repeat this process to open any number of wallpapers in a separate window which may be useful for streamers who want to utilize Wallpaper Engine for any type of idle screen or animation.
+次の例では、Windowsのショートカットを使って、ウィンドウに好きな数の壁紙を開くことができます。 このプロセスを繰り返して、個別のウィンドウに好きな数の壁紙を開くことができます。Wallpaper Engineを使って、操作していない時の画面やアニメーションを設定したいストリーマーには便利な動作です。
 
-First, go to the `wallpaper_engine` directory and right-click on either `wallpaper32.exe` or `wallpaper64.exe` and hover over `Send to` and then `Desktop (create shortcut)` to create a new shortcut to the Wallpaper Engine process on your desktop. Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+まず、`wallpaper_engine`ディレクトリを開き、`wallpaper32.exe`または`wallpaper64.exe`のどちらかを右クリックして、`送る`から`デスクトップ（ショートカットを作成）`を選び、デスクトップにWallpaper Engineプロセスのショートカットを作成します。 Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
