@@ -24,20 +24,20 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 次の例では、Windowsのショートカットを使って、ウィンドウに好きな数の壁紙を開くことができます。 このプロセスを繰り返して、個別のウィンドウに好きな数の壁紙を開くことができます。Wallpaper Engineを使って、操作していない時の画面やアニメーションを設定したいストリーマーには便利な動作です。
 
-まず、`wallpaper_engine`ディレクトリを開き、`wallpaper32.exe`または`wallpaper64.exe`のどちらかを右クリックして、`送る`から`デスクトップ（ショートカットを作成）`を選び、デスクトップにWallpaper Engineプロセスのショートカットを作成します。 Next, find your new shortcut and rename it to fit your use-case. Afterwards, right-click on it, then select **Properties**.
+まず、`wallpaper_engine`ディレクトリを開き、`wallpaper32.exe`または`wallpaper64.exe`のどちらかを右クリックして、`送る`から`デスクトップ（ショートカットを作成）`を選び、デスクトップにWallpaper Engineプロセスのショートカットを作成します。 次に、その新しいショートカットを見つけ、用途に合った名前に変えます。 その後、それを右クリックして**プロパティ**を選択します。
 
 ![Wallpaper Engine shortcut properties](/img/faq/target.gif)
 
-You should see the **Shortcut** tab with a line called **Target**. This line will currently just point to Wallpaper Engine. You now need to edit it to add the `openWallpaper` command with the full path to your wallpaper and the `playInWindow` parameter as shown in the example below (you may want to copy-paste it and adjust it to fit your needs):
+**ショートカット**タブを見ると、**リンク先**という欄があります。 現在、ここはWallpaper Engineの場所が表示されています。 ここに、壁紙のフルパスを書いた`openWallpaper`コマンドと、`playInWindow`パラメータを、次の例のように追加します（コピーペーストし、その後、必要な部分を変更するとよいでしょう）。
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
 ```
 
-Check the following things when configuring this command:
+このコマンドを設定する時は、次の点にご注意ください。
 
-* Make sure the path to your wallpaper32.exe / wallpaper64.exe stays correct. The example above uses the default Steam directory.
-* Make sure to use the correct path to your wallpaper. The example above uses an example Workshop ID **123456789**, you must change this in order for your wallpaper to work. You can also point at any supported file on your computer.
+* wallpaper32.exe または wallpaper64.exe へのパスが正しいことを確認してください。 上の例では、デフォルトのSteamディレクトリが使用されています。
+* 壁紙へのパスが正しいことを確認してください。 上の例では、ダミーのワークショップID **123456789**を使用しています。壁紙が正しく動作するように、ここを変更します。 コンピュータ上の対応しているファイルなら何でも使えます。
   * You can find the full path of any wallpaper by right-clicking on it in Wallpaper Engine and selecting **Open in Explorer**. For Scene type wallpapers, you generally want to point at the *project.json* file, for video wallpapers this will likely be an *.mp4* file and for web wallpapers you will find a file called *index.html*.
 * Give your window a unique name. The example above uses **Wallpaper #1** as a name. **If you want to open multiple windows, simply assign each of them a unique name.**
 * You may also want to adjust the resolution, the example above uses 1920x1080 (Full HD). Change the `width` and `height` parameters accordingly.
