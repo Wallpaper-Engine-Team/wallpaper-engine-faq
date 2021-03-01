@@ -4,11 +4,11 @@
 ::: warning
 请注意 如果声音在几秒钟内断断续续，请改为阅读以下帮助指南：
 
-* [Sound / audio turns on and off intermittently](/audio/intermittent)
+* [声音/音频断断续续](/audio/intermittent)
 :::
 
-## Ensure Wallpaper Engine is not muting itself
-There are three places in the app which allow you to mute audio output:
+## 确保 Wallpaper Engine 本身未静音
+该应用程序中有三个地方可将音频输出设置为静音：
 
 1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
 2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
