@@ -7,19 +7,19 @@
 * [サウンドやオーディオが断続的にオンオフされる](/audio/intermittent)
 :::
 
-## Wallpaper Engineがミュートになっていないことを確認します
+## Wallpaper Engineがミュートになっていないことを確認する
 オーディオ出力をミュートにできる場所は3つあります：
 
-1. In the **General** tab of the Wallpaper Engine settings, there is an option called **Audio Output**. Make sure this is enabled.
-2. Click on the **Displays** button in the upper right corner of the main Wallpaper Engine window. This will show you an overview with all your screens. Each screen has a mute button in the lower left corner. Make sure your screens are not muted.
-3. When selecting a wallpaper, you will find a **Volume** option on the right-hand side, make sure it is not set to zero or a low volume. If the option says **Audio disabled in display settings**, your display is muted, check step 2 again and unmute your screen.
+1. Wallpaper Engine設定の**一般**タブには、**オーディオ出力**というオプションがあります。 これが有効になっていることを確認してください。
+2. Wallpaper Engineのメイン画面で、右上の**ディスプレイ**ボタンをクリックします。 これにより、お使いのすべての画面の概要が表示されます。 各画面には、左下にミュートボタンがあります。 画面がミュートになっていないことを確認してください。
+3. 壁紙を選択すると、右側に**音量**オプションがあります。これがゼロや低音量になっていないことを確認してください。 **ディスプレイ設定にて音声無効**と表示されている場合は、ディスプレイがミュートになっています。ステップ2をもう一度確認し、画面のミュートを解除してください。
 
-## Check the Windows audio mixer
-Wallpaper Engine lets all audio output be handled by Windows, so if Wallpaper Engine itself is not muted, the issue must be somewhere in your Windows setup. First, check the Windows audio mixer and ensure that Wallpaper Engine is not muted or set to a very low volume, as shown in the following screenshot:
+## Windowsのオーディオミキサーを確認する
+Wallpaper Engineはすべてのオーディオ出力をWindowsに任せています。Wallpaper Engineそのものがミュートになっていない場合、問題はWindows設定のどこかにあると考えられます。 まず、Windowsのオーディオミキサーを見て、Wallpaper Engineがミュートや低音量になっていないことを確認します。次のスクリーンショットをご覧ください：
 
 ![Raise volume and unmute Wallpaper Engine in the Windows audio mixer](./audiomixer.png)
 
-## Check the selected audio device
+## 選択されたオーディオデバイスを確認する
 Another possible reason for the lack of audio output could be that Windows has selected the wrong audio output device for Wallpaper Engine, try manually forcing your desired audio output device to be used:
 
 1. Right-click on the audio icon next to the clock in the Windows tray and select **Open Sound settings**.
