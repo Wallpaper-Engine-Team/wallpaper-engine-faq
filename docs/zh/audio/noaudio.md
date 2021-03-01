@@ -30,9 +30,9 @@ Wallpaper Engine 让 Windows 处理所有音频输出，因此如果未将 Wallp
 
 ## 重置所有音频编解码器
 
-如果此时音频输出仍未播放，则可能是某些音频编解码器出现故障，这主要与使用**视频**类型的壁纸有关。 您可以通过在 Wallpaper Engine 中右键单击壁纸，然后选择**在资源管理器中打开**来再次检查。 您应该会看到源视频文件（通常是 **.mp4** 文件），使用 Windows Media Player 打开该文件，确认是否可以播放音频。 **请注意：**务必仅使用 Windows Media Player 进行测试，其他视频播放器与此测试无关，因为 Wallpaper Engine 使用相同的基础音频编解码器。 If no audio is playing in Windows Media Player, then either the video file does not have audio or the audio codecs on your system are indeed broken or missing.
+如果此时音频输出仍未播放，则可能是某些音频编解码器出现故障，这主要与使用**视频**类型的壁纸有关。 您可以通过在 Wallpaper Engine 中右键单击壁纸，然后选择**在资源管理器中打开**来再次检查。 您应该会看到源视频文件（通常是 **.mp4** 文件），使用 Windows Media Player 打开该文件，确认是否可以播放音频。 **请注意：**务必仅使用 Windows Media Player 进行测试，其他视频播放器与此测试无关，因为 Wallpaper Engine 使用相同的基础音频编解码器。 如果 Windows Media Player 中没有音频播放，则说明视频文件没有音频，或者系统上的音频编解码器确实出现故障或缺失。
 
-In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
+在这种情况下，您可以按照下一页中的说明，使用*编解码器调整工具*来重置系统上的所有音频和视频编解码器，然后重新启动 Wallpaper Engine 并重试：
 
-* [Videos Black / Not Playing Properly - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [视频黑屏/无法正常播放 - 编解码器调整工具](noshow/notplaying.html#codec-tweak-tool)
 
