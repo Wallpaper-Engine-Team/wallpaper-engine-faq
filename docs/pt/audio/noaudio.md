@@ -1,7 +1,8 @@
 # Nenhum som a ser reproduzido / Problemas na saída de áudio
 Este guia de ajuda irá ajudá-lo a resolver qualquer problema que esteja relacionado com reprodução de áudio em wallpapers. Primeiro que tudo, deve certificar-se de que está a utilizar um wallpaper que realmente contém áudio experimentando alguns outros. Muitos wallpapers são completamene silenciosos. Se tiver a certeza de que o seu wallpaper contém áudio, continue com este guia.
 
-::: Aviso Se o seu som estiver sempre a ligar-se e desligar-se dentro de poucos segundos leia, em vez disso, o seguinte guia de ajuda:
+::: warning
+Aviso Se o seu som estiver sempre a ligar-se e desligar-se dentro de poucos segundos leia, em vez disso, o seguinte guia de ajuda:
 
 * [Som / áudio liga e desliga intermitentemente](/audio/intermittent)
 :::
