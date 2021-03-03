@@ -20,6 +20,28 @@ wallpaper32.exe -control pause
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
+### ショートカットの例：ウィンドウで壁紙を開く
+
+次の例では、Windowsのショートカットを使って、ウィンドウに好きな数の壁紙を開くことができます。 このプロセスを繰り返して、個別のウィンドウに好きな数の壁紙を開くことができます。Wallpaper Engineを使って、操作していない時の画面やアニメーションを設定したいストリーマーには便利な動作です。
+
+まず、`wallpaper_engine`ディレクトリを開き、`wallpaper32.exe`または`wallpaper64.exe`のどちらかを右クリックして、`送る`から`デスクトップ（ショートカットを作成）`を選び、デスクトップにWallpaper Engineプロセスのショートカットを作成します。 次に、その新しいショートカットを見つけ、用途に合った名前に変えます。 その後、それを右クリックして**プロパティ**を選択します。
+
+![Wallpaper Engineのショートカットプロパティ](/img/faq/target.gif)
+
+**ショートカット**タブを見ると、**リンク先**という欄があります。 現在、ここはWallpaper Engineの場所が表示されています。 ここに、壁紙のフルパスを書いた`openWallpaper`コマンドと、`playInWindow`パラメータを、次の例のように追加します（コピーペーストし、その後、必要な部分を変更するとよいでしょう）。
+
+```bash
+"C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
+```
+
+このコマンドを設定する時は、次の点にご注意ください。
+
+* wallpaper32.exe または wallpaper64.exe へのパスが正しいことを確認してください。 上の例では、デフォルトのSteamディレクトリが使用されています。
+* 壁紙へのパスが正しいことを確認してください。 上の例では、ダミーのワークショップID **123456789**を使用しています。壁紙が正しく動作するように、ここを変更します。 コンピュータ上の対応しているファイルなら何でも指定できます。
+  * 壁紙のフルパスは、Wallpaper Engine上で壁紙を右クリックし、**エクスプローラーを開く**を選択すると確認できます。 ファイルの種類は通常、シーンタイプの壁紙であれば*project.json*ファイル、ビデオ壁紙は*.mp4*ファイル、Web壁紙は*index.html*となることが多いです。
+* ウィンドウに独自の名前を付けます。 上の例では、**Wallpaper #1**という名前を使用しています。 **複数のウィンドウを開きたい場合は、それぞれに別の名前を付けてください。**
+* また、解像度も指定した方が良いでしょう。上の例では1920x1080（フルHD）です。 `幅`と`高さ`のパラメータを状況に応じて変更します。
+
 ## コマンド概要
 
 ### 一時停止

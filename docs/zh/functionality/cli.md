@@ -20,6 +20,28 @@ wallpaper32.exe -control pause
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
+### 快捷方式示例：在窗口中打开壁纸
+
+以下示例可让您通过 Windows 快捷方式在窗口中打开任意数量的壁纸。 您可以重复此过程以在单独的窗口中打开任意数量的壁纸，这对于想要将 Wallpaper Engine 用于任何类型的空闲屏幕或动画的直播主非常有用。
+
+首先，转到 `wallpaper_engine` 目录，右键单击 `wallpaper32.exe` 或 `wallpaper64.exe`，然后将鼠标依次悬停在`“发送到”`和`“桌面快捷方式”`上，以在桌面上为 Wallpaper Engine 进程创建新的快捷方式。 接下来，找到新的快捷方式并将其重命名以符合您的用例。 然后，右键单击该快捷方式，再选择**属性**。
+
+![Wallpaper Engine 快捷方式属性](/img/faq/target.gif)
+
+您应该会看到**快捷方式**选项卡，其中有一行名为**目标**。 该行当前仅指向 Wallpaper Engine。 现在您需要编辑该行，以添加 `openWallpaper` 命令以及壁纸的完整路径和 ` playInWindow` 参数，如下面的示例所示（您可能需要复制粘贴并进行调整以适应您的需求）：
+
+```bash
+"C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
+```
+
+配置此命令时需注意以下事项：
+
+* 确保您的 wallpaper32.exe/wallpaper64.exe 路径正确。 上面的示例使用了默认 Steam 目录。
+* 确保使用正确的壁纸路径。 上面的示例使用了创意工坊 ID 示例 **123456789**，您必须更改此设置才能让壁纸正常工作。 您也可以指向计算机上任何受支持的文件。
+  * 通过在 Wallpaper Engine 中右键单击任何壁纸，并选择**在资源管理器中打开**，即可找到壁纸的完整路径。 对于场景类型的壁纸，通常要指向 *project.json* 文件，对于视频壁纸，可能是 *.mp4* 文件，而对于 Web 壁纸，则要找到名为 *index.html* 的文件。
+* 为窗口设置唯一名称。 上面的示例使用 **Wallpaper #1** 作为名称。 **如果要打开多个窗口，只需为每个窗口分配一个唯一名称。**
+* 您可能还需要调整分辨率，上面的示例使用 1920x1080（全高清）。 相应地更改`宽度`和`高度`参数。
+
 ## 命令概览
 
 ### 暂停

@@ -2,6 +2,12 @@
 
 La visualisation audio peut ne pas fonctionner à cause de plusieurs raisons. Voici une liste de tous les facteurs qui pourraient être à la source de vos problèmes.
 
+:::: Avertissement Remarque Cet article aborde les problèmes de visualiseurs audio ne fonctionnant pas. Si vous rencontrez des problèmes de lecture audio, veuillez vous reporter à ce guide :
+
+* [Aucun son / Problèmes de sortie audio](/audio/nosound)
+:::
+
+
 ## 1. Configuration du périphérique audio
 Allez dans les paramètres de Wallpaper Engine et trouvez l'onglet "Général". Vers le milieu, vous devriez trouver la section "Média" où vous pourrez choisir le périphérique audio. Assurez-vous que le bon périphérique est connecté. Si vous ne savez pas quel périphérique est le bon, essayez-les tous en écoutant de la musique jusqu'à ce que la visualisation fonctionne.
 

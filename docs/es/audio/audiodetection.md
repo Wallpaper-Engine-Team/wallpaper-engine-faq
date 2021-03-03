@@ -2,6 +2,13 @@
 
 Los visualizadores de audio pueden dejar de funcionar por varios motivos, y aquí tenemos una lista de todas las razones posibles. Lee la guía al completo y asegúrate de no perderte ninguno de los motivos posibles por los que podría no funcionar.
 
+::: warning
+¡Aviso! Este artículo trata de los visualizadores de audio que no funcionan. Si tienes problemas con la reproducción de audio, visita esta guía:
+
+* [No se reproducen sonidos / Problemas con la salida de audio](/audio/nosound)
+:::
+
+
 ## 1. Instalación del dispositivo de audio
 Ve a la configuración de «Wallpaper Engine» y dirígete a la etiqueta «General». En la zona del centro encontrarás la sección «Multimedia», donde podrás elegir un dispositivo de entrada de audio. Asegúrate de que se ha seleccionado el dispositivo correcto. Si no sabes con certeza cuál es dicho dispositivo, pruébalos todos mientras escuchas música hasta que empiecen a funcionar los visualizadores de audio.
 

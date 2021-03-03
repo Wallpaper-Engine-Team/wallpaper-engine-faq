@@ -20,6 +20,28 @@ Veillez à utiliser le caractère guillemet **"** pour les chaînes où figurent
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
+### Exemple de raccourci : ouverture d'un fond d'écran dans une fenêtre
+
+L'exemple suivant vous permet d'ouvrir plusieurs fonds d'écran dans une fenêtre via un raccourci Windows. Vous pouvez recommencer ce processus afin d'ouvrir plusieurs fonds d'écran dans une fenêtre distincte, qui peut s'avérer utile pour les streamers souhaitant utiliser Wallpaper Engine pour tout type d'animation ou d'écran d'inactivité.
+
+Pour commencer, accédez au répertoire `wallpaper_engine` et faites un clic droit sur `wallpaper32.exe` ou `wallpaper64.exe`, puis positionnez le curseur sur `Envoyer vers` et `Bureau (créer un raccourci)` afin de créer sur votre bureau un nouveau raccourci vers le processus Wallpaper Engine. Ensuite, repérez votre nouveau raccourci et renommez-le à votre convenance. Ensuite, faites un clic droit sur ce raccourci, puis sélectionnez **Propriétés**.
+
+![Propriétés des raccourcis de Wallpaper Engine](/img/faq/target.gif)
+
+Vous devriez voir l'onglet **Raccourci** avec une ligne intitulée **Cible**. Cette ligne indique l'emplacement actuel de Wallpaper Engine. Vous devez modifier cette entrée en y ajoutant la commande `openWallpaper` avec le chemin complet vers votre fond d'écran et paramètre `playInWindow`, comme indiqué dans l'exemple ci-dessous (il est peut-être préférable de faire un copier-coller et d'ajuster la commande à vos besoins) :
+
+```bash
+"C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
+```
+
+Vérifiez les éléments suivants lors de la configuration de cette commande :
+
+* Veillez à ce qu'il n'y ait aucune faute de frappe dans le chemin d'accès pour wallpaper32.exe / wallpaper64.exe. Dans l'exemple, nous avons utilisé le répertoire par défaut de Steam.
+* Vérifiez que vous utilisez le bon chemin d'accès pour votre fond d'écran. Dans l'exemple ci-dessus, nous avons utilisé l'ID Workshop **123456789**, vous devez le modifier pour que votre fond d'écran fonctionne. Vous pouvez également indiquer tout fichier pris en charge se trouvant sur votre ordinateur.
+  * Vous trouverez le chemin d'accès de tout fond d'écran en faisant un clic droit sur celui-ci depuis Wallpaper Engine et en sélectionnant **Ouvrir dans l'explorateur de fichiers**. Pour les fonds d'écran de type Scène, il est conseillé de sélectionner le fichier *project.json* ; pour les fonds d'écran de type Vidéo, il s'agira probablement d'un fichier *.mp4* et pour les fonds d'écran de type Web, vous trouverez un fichier appelé *index.html*.
+* Donnez à votre fenêtre un nom unique. Dans l'exemple ci-dessus, nous utilisons **Wallpaper #1** comme nom. **Si vous voulez ouvrir plusieurs fenêtres, attribuez-leur à chacune un nom unique.**
+* Vous pouvez également ajuster la résolution. Dans l'exemple ci-dessus, nous utilisons 1920x1080 (Full HD). Changer les paramètres `largeur` et `hauteur`.
+
 ## Vue générale des commandes
 
 ### Pause
@@ -38,7 +60,7 @@ Arrêter tous les fonds d'écran.
 -control stop
 ```
 
-### Lancer
+### Jouer
 
 Reprend tous les fonds d'écran mis en pause ou arrêtés.
 
@@ -46,7 +68,7 @@ Reprend tous les fonds d'écran mis en pause ou arrêtés.
 -control play
 ```
 
-### Muet
+### Désactiver le son
 
 Désactive le son de tous les fonds d'écran.
 
@@ -54,7 +76,7 @@ Désactive le son de tous les fonds d'écran.
 -control mute
 ```
 
-### Unmute
+### Réactiver le son
 
 Réactive le son de tous les fonds d'écran.
 
@@ -62,7 +84,7 @@ Réactive le son de tous les fonds d'écran.
 -control unmute
 ```
 
-### Open Wallpaper
+### Ouvrir un fond d'écran
 
 Charge une nouveau fond d'écran pour un moniteur bien précis ou pour le premier moniteur si aucun moniteur n'a été indiqué. Vous pouvez utiliser le paramètre `location` ou `monitor` pour choisir sur quel moniteur chargeur le fond d'écran ou ouvrir un fond d'écran dans une fenêtre avec la paramètre `playInWindow`.
 
@@ -90,7 +112,7 @@ Passe au fond d'écran suivant d'un moniteur bien précis ou de tous les moniteu
 -control nextWallpaper [-location <string>] [-monitor <number>]
 ```
 
-### Supprimer fond d'écran
+### Retirer le fond d'écran
 
 Supprime un fond d'écran d'une fenêtre ou d'un moniteur indiqué, ou supprime tous les fonds d'écran.
 
@@ -101,9 +123,9 @@ Supprime un fond d'écran d'une fenêtre ou d'un moniteur indiqué, ou supprime 
 * **location *(facultatif)* :** Identificateur interne du nom de la fenêtre ou du moniteur que vous avez indiqué.
 * **monitor *(facultatif)* :** Index du moniteur à partir duquel fermer le fond d'écran, commence par 0.
 
-### Ouvrir liste de lecture
+### Ouvrir playlist
 
-Charge un nouveau fond d'écran pour un moniteur précis ou pour le premier moniteur si aucun n'est indiqué. Vous pouvez utiliser soit location, soit monitor parameter pour choisir le moniteur sur lequel charger le fond d'écran.
+Charge une nouveau fond d'écran pour un moniteur bien précis ou pour le premier moniteur si aucun moniteur n'a été indiqué. Vous pouvez utiliser soit location, soit monitor parameter pour choisir le moniteur sur lequel charger le fond d'écran.
 
 ``` powershell
 -control openPlaylist -playlist <string> [-location <string>] [-monitor <number>]

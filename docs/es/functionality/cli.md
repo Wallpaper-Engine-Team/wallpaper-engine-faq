@@ -20,9 +20,31 @@ Asegúrate de usar comillas inglesas **"** en las líneas que contienen espacios
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
+### Ejemplo de acceso directo: Abrir un fondo en una ventana
+
+Este ejemplo te permitirá abrir todos los fondos que quieras en una ventana a través de un acceso directo de Windows. Puedes repetir este proceso para abrir los fondos en una ventana independiente, cosa que podrá resultarles muy útil a quienes hagan retransmisiones o a quienes quieran usar Wallpaper Engine de pantalla en reposo o animación.
+
+Primero, accede al directorio `wallpaper_engine` y haz clic derecho en `wallpaper32.exe` o `wallpaper64.exe`. Coloca el ratón sobre `Enviar a` y haz clic en `Escritorio (crear acceso directo)` para crear un acceso directo nuevo a Wallpaper Engine en tu escritorio. Busca el acceso directo que has creado y cámbiale el nombre a tu gusto. Después, haz clic derecho y elige **Propiedades**.
+
+![Propiedades de acceso directo de Wallpaper Engine](/img/faq/target.gif)
+
+En la pestaña **Acceso directo** encontrarás una línea que se llama **Destino**. Verás que la dirección te dirige a Wallpaper Engine. Tendrás que editarla para añadir el comando `openWallpaper` con la dirección completa al fondo y el parámetro `playInWindow` tal y como puedes ver en el ejemplo de abajo (puedes hacer copia y pega y ajustarlo a tus necesidades):
+
+```bash
+"C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
+```
+
+Echa un vistazo a estos consejos cuando configures el comando:
+
+* Comprueba que la ruta a wallpaper32.exe o wallpaper64.exe sea correcta. El ejemplo de arriba usa el directorio por defecto de Steam.
+* Comprueba que la ruta del fondo sea correcta. El ejemplo de arriba usa una ID de Workshop de ejemplo, **123456789**, por lo que tendrás que cambiarla para que funcione el fondo. También puedes poner al ruta de cualquier archivo compatible que tengas en el equipo.
+  * Podrás encontrar la ruta completa de cualquier fondo si haces clic derecho en un fondo desde Wallpaper Engine y eliges **Abrir en el explorador**. Si usas fondos de escena, lo más adecuado es que la ruta lleve al archivo *project.json*; para los fondos de vídeo tendrá que llevar al archivo *.mp4*; y para los fondos web tendrá que llevar al archivo *index.html*.
+* Ponle un nombre reconocible a la ventana. El nombre que tiene el ejemplo de arriba es **Wallpaper #1**. **Si quieres abrir varias ventanas, solo tendrás que ponerle un nombre distinto a cada una de ellas.**
+* También puedes cambiar la resolución. El ejemplo de arriba utiliza 1920x1080 (Full HD). Cambia los parámetros de `ancho (width)` y `alto (height)` a tu gusto.
+
 ## Resumen de los comandos
 
-### Pausa
+### Pausar
 
 Pausa todos los fondos.
 
@@ -82,7 +104,7 @@ Carga un fondo nuevo para el monitor seleccionado o para el principal si no se e
   * **x *(opcional)*:** Posición horizontal de la ventana.
   * **y *(opcional)*:** Posición vertical de la ventana.
 
-### Fondo siguiente
+### Siguiente fondo
 
 Pasa al fondo siguiente del monitor seleccionado o de todos los monitores si no se especifica ninguno.
 

@@ -2,10 +2,16 @@
 
 Há várias razões pelas quais os visualizadores de áudio podem não funcionar. Enumeramos aqui todas as razões possíveis, leia atentamente o guia completo para garantir que não lhe escapou nenhuma das razões possíveis pela qual eles não funcionam.
 
+::: Atenção Este artigo é sobre visualizadores de áudio que não funcionam. Se está a ter problemas com a reprodução de áudio, consulte este guia:
+
+* [Nenhum som a ser reproduzido / Problemas na saída de áudio](/audio/nosound)
+:::
+
+
 ## 1. Configuração do dispositivo de áudio
 Vá às definições do Wallpaper Engine e navegue até ao separador "Geral". Perto do centro poderá encontrar a secção "Multimédia", na qual poderá selecionar um dispositivo de entrada de áudio. Certifique-se de que selecionou o dispositivo correto. Se não tem a certeza de qual será o dispositivo correto, experimente todos os dispositivos possíveis enquanto ouve música até os visualizadores de áudio começarem a funcionar.
 
-Se o dispositivo de áudio c orreto for selecionado mas continuar a não ouvir qualquer som ou se os seus visualizadores de áudio não funcionarem, certifique-se de que não silenciou o Wallpaper Engine no misturador de áudio do Windows ou que definiu um volume muito baixo para ele. O Windows não diferencia entre os volumes para gravação de áudio e reprodução de áudio. Isto significa que se tiver definido um volume baixo no Windows, a gravação de áudio também não funcionará:
+Se o dispositivo de áudio correto for selecionado mas continuar a não ouvir qualquer som ou se os seus visualizadores de áudio não funcionarem, certifique-se de que não silenciou o Wallpaper Engine no misturador de áudio do Windows ou que definiu um volume muito baixo para ele. O Windows não diferencia entre os volumes para gravação de áudio e reprodução de áudio. Isto significa que se tiver definido um volume baixo no Windows, a gravação de áudio também não funcionará:
 
 ![Suba o volume e anule o silêncio do Wallpaper Engine no misturador de áudio do Windows](./audiomixer.png)
 

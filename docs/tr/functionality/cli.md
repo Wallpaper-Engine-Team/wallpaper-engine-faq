@@ -20,6 +20,28 @@ wallpaper32.exe -control pause
 wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\myprojects\myWallpaper\project.json"
 ```
 
+### Kısa yol örneği: Bir duvar kâğıdını bir pencerede açmak
+
+Aşağıdaki örnek, Windows kısayolu aracılığıyla bir pencerede istediğiniz sayıda duvar kâğıdı açmanızı sağlar. İstediğiniz sayıda duvar kâğıdını ayrı bir pencerede açmak için bu işlemi tekrarlayabilirsiniz. Bu, özellikle Wallpaper Engine'i herhangi bir boş ekran veya animasyon türü için kullanmak isteyen yayıncılar için faydalıdır.
+
+Önce `wallpaper_engine` dizinine gidin ve `wallpaper32.exe` veya `wallpaper64.exe` üzerine sağ tıklayın. Sonrasında `Gönder` ve `Masaüstü (kısayol oluştur)` üzerine gelerek masaüstünüzdeki Wallpaper Engine işlemi için yeni bir kısayol oluşturun. Sonra yeni kısayolunuzu bulun ve kullanım durumunuza uyacak şekilde yeniden adlandırın. Sonrasında üzerine sağ tıklayarak **Özellikler**'i seçin.
+
+![Wallpaper Engine kısayol özellikleri](/img/faq/target.gif)
+
+**Kısayol** sekmesini, **Hedef** isimli bir satırla göreceksiniz. Bu satır Wallpaper Engine'i gösterecektir. Şimdi aşağıdaki örnekte gösterildiği şekilde (kopyalayıp yapıştırabilir ve ihtiyaçlarınıza uyacak şekilde ayarlayabilirsiniz) duvar kâğıdınıza tam yol ile `openWallpaper` komutunu ve `playInWindow` parametresini eklemek için düzenlemeniz gerekir:
+
+```bash
+"C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
+```
+
+Bu komutu yapılandırırken aşağıdakileri kontrol edin:
+
+* wallpaper32.exe / wallpaper64.exe için olan yolun doğru olduğundan emin olun. Yukarıdaki örnek, varsayılan Steam dizinini kullanır.
+* Kendi duvar kâğıdınıza giden doğru yolu kullandığınızdan emin olun. Yukarıdaki örnek, **123456789** örnek Atölye Kimliğini kullanır; duvar kâğıdınızın çalışması için bunu değiştirmeniz gerekir. Bilgisayarınızda desteklenen herhangi bir dosyanın da üzerine gelebilirsiniz.
+  * Herhangi bir duvar kâğıdının tam yolunu, Wallpaper Engine'de üzerine sağ tıklayarak ve **Dosya Gezgini'nde Aç**'ı seçerek bulabilirsiniz. Sahne duvar kâğıtları için genellikle *project.json* dosyasının üzerine gelmeniz gerekebilir. Video duvar kâğıtları içinse bu genelde *.mp4* dosyası ve web duvar kâğıtları için de *index.html* adlı dosyadır.
+* Pencerenize benzersiz bir ad verin. Yukarıdaki örnek **Wallpaper #1** adını kullanır. **Birden fazla pencere açmak istiyorsanız her birine benzersiz bir ad verin.**
+* Ayrıca çözünürlüğü ayarlamanız da gerekebilir. Yukarıdaki örnek 1920x1080 (Full HD) çözünürlük kullanır. `width` ve `height` parametrelerini buna göre değiştirin.
+
 ## Komuta Genel Bakış
 
 ### Duraklat
@@ -46,7 +68,7 @@ Duraklat veya durdur komutlarındaki tüm duvar kâğıtlarını devam ettirir.
 -control play
 ```
 
-### Sesi Kıs
+### Sessize al
 
 Tüm duvar kâğıtlarını susturur.
 
@@ -54,7 +76,7 @@ Tüm duvar kâğıtlarını susturur.
 -control pause
 ```
 
-### Sesi Aç
+### Sesi aç
 
 Tüm duvar kâğıtlarının sesini açar.
 
@@ -62,7 +84,7 @@ Tüm duvar kâğıtlarının sesini açar.
 -control unmute
 ```
 
-### Duvar kâğıtlarını aç
+### Duvar Kağıdı Aç
 
 Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar kağıdı yükler. Duvar kağıdının hangi monitöre yükleneceğini seçmek için ` location ` veya ` monitor ` parametresini kullanabilir veya ` playInWindow ` parametresi ile bir pencerede bir duvar kağıdı açabilirsiniz.
 
@@ -82,7 +104,7 @@ Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar ka
   * **x *(isteğe bağlı)*:** Pencerenin yatay konumu.
   * **y *(isteğe bağlı)*:** Pencerenin dikey konumu.
 
-### Sıradaki Duvar Kâğıdı
+### Sonraki Duvar Kâğıdı
 
 Belirli bir monitör veya belirtilmemişse tüm monitörler sonraki duvar kağıdına atlar.
 
@@ -90,7 +112,7 @@ Belirli bir monitör veya belirtilmemişse tüm monitörler sonraki duvar kağı
 -control nextWallpaper [-location <string>] [-monitor <number>]
 ```
 
-### Duvar Kâğıdını Kaldır
+### Duvar Kağıdını Kaldır
 
 Duvar kağıdını belirli bir monitörden veya pencereden kaldırır veya tüm duvar kağıtlarını kaldırır.
 
