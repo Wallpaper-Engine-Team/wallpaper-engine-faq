@@ -3,7 +3,7 @@
 Los visualizadores de audio pueden dejar de funcionar por varios motivos, y aquí tenemos una lista de todas las razones posibles. Lee la guía al completo y asegúrate de no perderte ninguno de los motivos posibles por los que podría no funcionar.
 
 ::: warning
-¡Aviso! Este artículo trata de los visualizadores de audio que no funcionan. Si tienes problemas con la reproducción de audio, visita esta guía:
+Aviso Este artículo trata de los visualizadores de audio que no funcionan. Si tienes problemas con la reproducción de audio, visita esta guía:
 
 * [No se reproducen sonidos / Problemas con la salida de audio](/audio/nosound)
 :::
