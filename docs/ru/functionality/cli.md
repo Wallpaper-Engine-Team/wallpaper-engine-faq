@@ -143,7 +143,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Применяемые свойства определены как строка **JSON **. Строка должна быть специально обозначена с помощью разделителей `RAW~(` и `)~END`. См. примеры ниже!
+* **properties:** Применяемые свойства определены как строка **JSON**. Строка должна быть специально обозначена с помощью разделителей `RAW~(` и `)~END`. См. примеры ниже!
 * **location *(необязательно)*:** Внутренний идентификатор монитора или указанное вами имя окна.
 * **monitor *(необязательно)*:** Индекс монитора, на котором нужно обновить свойства, начинается с 0.
 
@@ -153,7 +153,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Пример изменения настройки цвета схемы обоев на красный (`"1 0 0"`обозначает значения *RGB *):
+Пример изменения настройки цвета схемы обоев на красный (`"1 0 0"`обозначает значения *RGB*):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
