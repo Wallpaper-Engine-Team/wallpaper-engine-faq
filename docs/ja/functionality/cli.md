@@ -135,41 +135,51 @@ pause または stop しているすべての壁紙を再開します。
 * **location *（オプション）*：** モニターの内部識別子です。 お使いのPCによって生成され、config.json に書かれています。
 * **monitor *（オプション）*：** プレイリストをロードするモニターのインデックスで、0から始まります。
 
-### 壁紙設定の適用
+### Open Profile
 
-指定された壁紙またはすべての壁紙に、実行中に壁紙設定を適用します。 これにより、壁紙ブラウザを開いたり、手動で設定を変更したりすることなく、プログラムの実行中に壁紙の設定をダイナミックに変更することができます。 ブラウザで壁紙を選択中に、右側の **Share JSON** をクリックすることで、簡単にブラウザ内で使用できるプロパティのリストを見ることができます。
+Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name of the profile you have created in Wallpaper Engine.
+
+### Apply Wallpaper Settings
+
+Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties：** **JSON** 文字列を適用することで定義されるプロパティです。 文字列は特に、デリミタとして `RAW~(` および `)~END` でエスケープする必要があります。下の例をご覧ください。
-* **location *（オプション）*：** モニターの内部識別子または自分で指定したウィンドウ名です。
-* **monitor *（オプション）*：** プロパティを更新するモニターのインデックスで、0から始まります。
+* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
+* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
+* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
 
-`rate` という壁紙設定名を 10 に変更する例：
+Example of changing a wallpaper setting named `rate` to 10:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-壁紙のツールバーの色設定を赤（`"1 0 0"` は *RGB* 値）に変更する例：
+Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### デスクトップアイコンを隠す
+### Hide Desktop Icons
 
-デスクトップアイコンを隠します。
+Hides the desktop icons.
 
 ``` powershell
 -control hideIcons
 ```
 
-### デスクトップアイコンを表示する
+### Show Desktop Icons
 
-デスクトップアイコンを表示します。
+Shows the desktop icons.
 
 ``` powershell
 -control showIcons
