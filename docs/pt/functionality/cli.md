@@ -135,41 +135,51 @@ Carrega um novo wallpaper para um dado monitor ou para o primeiro monitor, caso 
 * **location *(opcional)*:** Identificador interno do monitor. Pode encontrá-los no ficheiro config.json e são gerados pelo seu PC.
 * **monitor *(opcional)*:** Index do monitor no qual carregar a lista de reprodução, começa por 0.
 
-### Aplicar definições do wallpaper
+### Open Profile
 
-Aplica propriedades do wallpaper no momento, para um determinado wallpaper ou para todos os wallpapers. Isto permite-lhe mudar de forma dinâmica quaisquer definições que pertençam a um wallpaper enquanto o programa está a ser executado sem abrir o browser de wallpapers e mudando-os manualmente. Poderá encontrar uma facilmente lista de propriedades disponíveis no browser clicando em **Partilhar JSON** do lado direito quando seleciona qualquer wallpaper no browser.
+Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name of the profile you have created in Wallpaper Engine.
+
+### Apply Wallpaper Settings
+
+Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Propriedades definidas como cadeia **JSON** a ser aplicada. A cadeia deve ser especialmente terminado com `RAW~(` e `)~END` como delimitadores - veja os exemplos abaixo!
-* **location *(opcional)*:** Identificador interno do monitor ou nome da janela que especificou.
-* **monitor *(opcional)*:** Index do monitor no qual atualizar as propriedades, começa por 0.
+* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
+* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
+* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
 
-Exemplo de mudar uma definição de wallpaper com o nome `rate` para 10:
+Example of changing a wallpaper setting named `rate` to 10:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Exemplo de mudar a definição de esquema de cores de um wallpaper para vermelho (`"1 0 0"` representa *RGB* valores):
+Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Ocultar ícones do desktop
+### Hide Desktop Icons
 
-Oculta os ícones do desktop.
+Hides the desktop icons.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Mostrar ícones do desktop
+### Show Desktop Icons
 
-Mostra os ícones do desktop.
+Shows the desktop icons.
 
 ``` powershell
 -control showIcons
