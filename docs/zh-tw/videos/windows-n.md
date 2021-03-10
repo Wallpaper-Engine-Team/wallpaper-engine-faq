@@ -7,7 +7,7 @@ Windows N 不含媒體功能！ 您需要安裝適用您 Windows 版本和組建
 
 *應用程式 > 應用程式與功能 > 選用功能 > 新增功能*
 
-之後將出現選用功能清單，搜尋 **Media Feature Pack**，安裝後重新啟動電腦。 For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+之後將出現選用功能清單，搜尋 **Media Feature Pack**，安裝後重新啟動電腦。 如需額外協助與資訊，請造訪 Microsoft 網站：[Media Feature Pack for Windows 10 N](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019)。
 
 #### 舊版 Windows 10 (2019 年 5 月更新或更舊)：
 如為舊版的 Windows 10，則須手動下載符合您 Windows 10 確切版本的 Media Feature Pack：
