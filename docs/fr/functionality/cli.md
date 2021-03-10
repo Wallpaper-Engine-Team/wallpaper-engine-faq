@@ -145,41 +145,41 @@ Applies an existing profile by name to all displays that was created and saved i
 
 * **profile:** Name of the profile you have created in Wallpaper Engine.
 
-### Apply Wallpaper Settings
+### Appliquer des paramètres de fond d'écran
 
-Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+Applique à la volée les propriétés de fond d'écran à un fond d'écran bien précis ou à tous les fonds d'écran. Cette option vous permet, pendant l'exécution du programme, de modifier dynamiquement tout paramètre appartenant à un fond d'écran, et ce, sans ouvrir le navigateur des fonds d'écran pour les changer manuellement. Vous trouverez facilement une liste des propriétés disponibles dans le navigateur en cliquant sur l'option **Partager JSON** qui se trouve sur la droite lors de la sélection d'un fond d'écran dans le navigateur.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties :** Propriétés définies comme chaîne **JSON** à appliquer. Il faut interrompre la chaîne à l'aide de `RAW~(` et `)~END` comme délimiteurs. Consultez les exemples ci-dessous !
+* **location *(facultatif)* :** Identificateur interne du nom de la fenêtre ou du moniteur que vous avez indiqué.
+* **monitor *(facultatif)* :** Index du moniteur sur lequel mettre à jouer les propriétés, commence par 0.
 
-Example of changing a wallpaper setting named `rate` to 10:
+Exemple visant à changer un paramètre d'un fond d'écran nommé `rate` pour le configurer sur 10 :
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+Exemple de changement du paramètre de couleurs d'un fond d'écran pour passer au rouge (`"1 0 0"` représente les valeurs *RGB*) :
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### Masquer les icônes du bureau
 
-Hides the desktop icons.
+Masque les icônes du bureau.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### Afficher les icônes du bureau
 
-Shows the desktop icons.
+Affiche les icônes du bureau.
 
 ``` powershell
 -control showIcons
