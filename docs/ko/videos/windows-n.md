@@ -7,7 +7,7 @@ Windows 10의 최신 버전에서는, Windows 설정을 통해 미디어 기능 
 
 *앱 > 앱 및 기능 > 선택적 기능 > 기능 추가*
 
-사용 가능한 선택적 기능의 목록이 표시됩니다. **미디어 기능 팩**을 찾아 설치한 후 컴퓨터를 재시작하십시오. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+사용 가능한 선택적 기능의 목록이 표시됩니다. **미디어 기능 팩**을 찾아 설치한 후 컴퓨터를 재시작하십시오. 추가 도움 및 정보가 필요할 시에는 Microsoft 웹사이트를 방문해주십시오: [Windows 10 N 미디어 기능 팩](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
 #### 구형 Windows 10 (2019년 5월 업데이트 혹은 이전)
 Windows 10의 구형 버전에서는 자신의 버전과 정확히 일치하는 미디어 기능 팩을 직접 다운로드해야 합니다.
