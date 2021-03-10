@@ -7,7 +7,7 @@ Güncel Windows 10 sürümleri için Windows ayarlar aracılığıyla Media Feat
 
 *Uygulamalar> Uygulamalar ve Özellikler > İsteğe Bağlı Özellikler > Bir Özellik Ekle*
 
-İsteğe bağlı özelliklerin bir listesi belirir, uygun İsteğe Bağlı Özelliklerden **Media Fature Pack**'i arayın, kurun ve bilgisayarınızı yeniden başlatın. Bu konuda daha fazla yardım almak ve daha fazla bilgi için lütfen Microsoft İnternet Sitesini ziyaret edin: [Windows 10 N için Media Feature Pack](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+İsteğe bağlı özelliklerin bir listesi belirir, uygun İsteğe Bağlı Özelliklerden **Media Fature Pack**'i arayın, kurun ve bilgisayarınızı yeniden başlatın. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
 #### Güncel olmayan Windows 10 (2019 güncellemesinden eski):
 Windows 10'un eski sürümleri için Media Feature Pack'i size uygun Windows 10 sürümüne göre elle indirmelisiniz:
