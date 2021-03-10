@@ -145,41 +145,41 @@ Applies an existing profile by name to all displays that was created and saved i
 
 * **profile:** Name of the profile you have created in Wallpaper Engine.
 
-### Apply Wallpaper Settings
+### 套用桌布設定
 
-Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+將桌布動態屬性套用於特定桌布或所有桌布。 如此一來，您即可在程式運作時即時變更桌布的任何設定，不需要開啟桌布瀏覽器並手動變更。 選擇瀏覽器中任何桌布時，按一下右側的**分享 JSON**，即可在瀏覽器中輕鬆找到可用屬性列表。
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties：** 定義為欲套用 **JSON** 字串的屬性。 此字串必須特別以 `RAW~(` 和 `)~END` 逸出作為分隔符號，請見下方實例。
+* **location *(選用)*：** 顯示器內部識別碼或您指定的視窗名稱。
+* **monitor *(選用)*：** 欲更新屬性的顯示器索引，以 0 開頭。
 
-Example of changing a wallpaper setting named `rate` to 10:
+將名為 `rate` 的桌布設定變更為 10 的實例：
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+將桌布配置顏色變更為紅色的實例 (`"1 0 0"` 代表 *RGB* 值)：
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### 隱藏桌面圖示
 
-Hides the desktop icons.
+隱藏桌面圖示。
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### 顯示桌面圖示
 
-Shows the desktop icons.
+顯示桌面圖示。
 
 ``` powershell
 -control showIcons
