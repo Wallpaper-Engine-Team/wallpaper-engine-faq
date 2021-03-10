@@ -7,7 +7,7 @@ Windows Nにはメディア機能は付いてきません！ 正しいWindowsバ
 
 *アプリ > アプリと機能 > オプション機能の管理 > 機能の追加*
 
-オプション機能の一覧が表示されます。利用可能なオプション機能の一覧から**メディア機能パック**を選び、インストールしてコンピューターを再起動します。 For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+オプション機能の一覧が表示されます。利用可能なオプション機能の一覧から**メディア機能パック**を選び、インストールしてコンピューターを再起動します。 この問題に関する追加のヘルプと詳細情報は、Microsoft のサイト：[Windows 10 N 用メディア機能パック](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019)をご覧ください。
 
 #### 古いWindows 10（2019年5月以前）：
 古いバージョンの Windows 10 では、お使いの Windows 10 の正確なバージョンに応じたメディア機能パックを手動でダウンロードする必要があります。
