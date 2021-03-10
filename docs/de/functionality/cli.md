@@ -135,7 +135,7 @@ Lädt einen neuen Hintergrund für einen angegebenen Bildschirm (oder den ersten
 * **location *(optional)*:** Interne ID des Bildschirms. Du kannst diese in der config.json finden, diese sind jeweils speziell von deinem PC generiert.
 * **monitor *(optional)*:** Index des Bildschirms auf dem die Wiedergabeliste geladen werden soll, startet bei 0.
 
-### Open Profile
+### Profil öffnen
 
 Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
 
@@ -145,41 +145,41 @@ Applies an existing profile by name to all displays that was created and saved i
 
 * **profile:** Name of the profile you have created in Wallpaper Engine.
 
-### Apply Wallpaper Settings
+### Hintergrundeinstellungen anwenden
 
-Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+Wendet Hintergrund-Einstellungen sofort auf den angegebenen Hintergrund oder alle Hintergründe an. Dies erlaubt dir dynamisch alle Einstellungen eines Hintergrundes zu ändern, während die Anwendung läuft, ohne dass das Wallpaper Engine-Fenster geöffnet werden muss. Du kannst eine Liste aller verfügbaren Hintergrundeinstellungen im Wallpaper Engine-Fenster finden, indem du einen Hintergrund auswählst und dann rechts auf **JSON teilen** klickst.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties:** Einstellungen welche übernommen werden sollen, diese müssen als **JSON-String** übergeben werden. Der String muss explizit mit `RAW~(` und `)~END` als Trennzeichen umgeben werden - ein Beispiel dazu kann weiter unten gefunden werden!
+* **location *(optional)*:** Interne ID des Bildschirms oder des Fensternamens.
+* **monitor *(optional)*:** Index des Bildschirms auf dem die Einstellungen aktualisiert werden sollen, startet bei 0.
 
-Example of changing a wallpaper setting named `rate` to 10:
+Beispiel einer Hintergrundeinstellung namens `rate`, welche auf 10 gesetzt werden soll:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+Beispiel der Änderung einer Farbeinstellung auf Rot (`"1 0 0"` steht dabei für *RGB-Farbwerte*):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### Desktop-Symbole verstecken
 
-Hides the desktop icons.
+Versteckt die Desktop-Symbole.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### Desktop-Symbole anzeigen
 
-Shows the desktop icons.
+Zeigt die Desktop-Symbole wieder an.
 
 ``` powershell
 -control showIcons
