@@ -145,43 +145,43 @@ Applies an existing profile by name to all displays that was created and saved i
 
 * **profile:** Name of the profile you have created in Wallpaper Engine.
 
-### Apply Wallpaper Settings
+### Применить настройки обоев
 
-Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+Применяет выбранные свойства к данным обоям или ко всем обоям. Это позволяет вам изменять любые настройки обоев во время работы программы, не открывая браузер обоев и не меняя их вручную. Вы можете легко найти список доступных свойств в браузере, щелкнув **Share JSON** справа при выборе любых обоев в браузере.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties:** Применяемые свойства определены как строка **JSON **. Строка должна быть специально обозначена с помощью разделителей `RAW~(` и `)~END`. См. примеры ниже!
+* **location *(необязательно)*:** Внутренний идентификатор монитора или указанное вами имя окна.
+* **monitor *(необязательно)*:** Индекс монитора, на котором нужно обновить свойства, начинается с 0.
 
-Example of changing a wallpaper setting named `rate` to 10:
+Пример изменения параметра обоев `rate` на 10:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+Пример изменения настройки цвета схемы обоев на красный (`"1 0 0"`обозначает значения *RGB *):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### Скрыть значки рабочего стола
 
-Hides the desktop icons.
+Скрывает значки на рабочем столе.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### Показать значки рабочего стола
 
-Shows the desktop icons.
+Показывает значки на рабочем столе.
 
 ``` powershell
--control showIcons
+-control hideIcons
 ```
 
