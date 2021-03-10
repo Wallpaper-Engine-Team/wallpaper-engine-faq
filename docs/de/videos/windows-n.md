@@ -23,5 +23,5 @@ Wenn es weiterhin den gleichen Fehler anzeigt, **hast du die falsche Version ins
 ::: warning
 Achtung Mit jedem größeren Windows 10 Update musst du das Media Feature Pack gegebenenfalls erneut installieren. Wenn du dies nicht willst, solltest du überlegen auf eine normale Version von Windows zu wechseln, da diese immer mit diesen Features ausgeliefert werden!
 
-**The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.**
+**Der Sinn von Windows N besteht darin, dass es nicht mit Media-Features ausgeliefert wird. Wenn dies nicht in deinem Interesse ist, solltest du nicht Windows N benutzen.**
 :::
