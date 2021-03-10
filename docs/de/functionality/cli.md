@@ -137,13 +137,13 @@ Lädt einen neuen Hintergrund für einen angegebenen Bildschirm (oder den ersten
 
 ### Profil öffnen
 
-Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+Wendet ein existierendes Profil auf alle Bildschirme anhand des Namens an, welcher in der Bildschirm-Übersicht in Wallpaper Engine angelegt wurde.
 
 ``` powershell
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **profile:** Name des Profils welches in Wallpaper Engine gespeichert wurde.
 
 ### Hintergrundeinstellungen anwenden
 
