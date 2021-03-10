@@ -1,10 +1,10 @@
-# Red Line on screen
+# Rote Line auf dem Bildschirm
 
-The red line comes from your AMD graphics card drivers. Disable the 'demo mode' to remove it. The option may be in different places depending on the version of your graphics card drivers. Look through all AMD graphics card settings, you should find it somewhere. If you are unable to locate it, you can also fix this problem by doing a clean re-installation of your graphics card drivers.
+Die rote Linie kommt von deinen AMD-Grafikkartentreibern. Deaktiviere den 'Demo-Modus' um sie zu entfernen. Die Option kann je nach Treiber-Version an verschiedenen Stellen untergebracht sein. Schaue dir alle AMD-Grafikkarten-Einstellungen an, du solltest sie dort irgendwo finden können. Solltest du die Option nicht finden können, so kannst du das Problem auch lösen, indem du eine saubere Neuinstallation deiner Grafikkartentreiber durchführst.
 
-Download the latest drivers for your graphics card from the AMD website:
+Lade die neuesten Treiber für deine Grafikkarte von der AMD-Website herunter:
 
-* [AMD Radeon drivers](https://www.amd.com/support)
+* [AMD Radeon-Treiber](https://www.amd.com/support)
 
 Then uninstall your current drivers first, it is very important that you first uninstall them and clear all existing settings if asked. Afterwards, you can install the drivers you have just downloaded. If you are unsure how to properly uninstall your drivers, you can also use a tool like DDU ("Display Driver Uninstaller") to uninstall your drivers in a clean way:
 
