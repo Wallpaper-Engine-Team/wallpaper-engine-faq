@@ -145,41 +145,41 @@ Applies an existing profile by name to all displays that was created and saved i
 
 * **profile:** Name of the profile you have created in Wallpaper Engine.
 
-### Apply Wallpaper Settings
+### 배경화면 설정 적용
 
-Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+지정된 혹은 모든 배경화면에 배경화면 속성을 즉시 적용합니다. 이를 통해 배경화면 브라우저를 열어 직접 변경하지 않고도, 프로그램이 작동하는 도중에 배경화면의 모든 설정을 유동적으로 변경할 수 있습니다. 브라우저에서 배경화면을 선택할 때 우측의 **JSON 공유**를 누르면, 사용 가능한 모든 속성의 목록을 확인할 수 있습니다.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties:** 적용할 **JSON** 스트링으로 정의된 속성. 이 스트링은 `RAW~(` and `)~END`를 구분 문자로 이스케이핑해야 합니다. 아래 예를 참조하세요!
+* **location *(선택 사항)*:** 지정한 모니터 혹은 창 이름의 내부 식별자.
+* **monitor *(선택 사항)*:** 속성을 업데이트할 모니터의 인덱스. 0에서부터 시작합니다.
 
-Example of changing a wallpaper setting named `rate` to 10:
+`rate`라는 배경화면 설정을 10으로 변경하는 예:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+배경화면의 구성표 색 설정을 빨강으로 바꾸는 예 (`"1 0 0"`은 *RGB* 값을 나타냄):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### 데스크탑 아이콘 숨기기
 
-Hides the desktop icons.
+데스크탑 아이콘을 숨깁니다.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### 데스크탑 아이콘 표시
 
-Shows the desktop icons.
+데스크탑 아이콘을 표시합니다.
 
 ``` powershell
 -control showIcons
