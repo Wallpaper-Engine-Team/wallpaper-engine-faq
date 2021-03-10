@@ -145,41 +145,41 @@ Applies an existing profile by name to all displays that was created and saved i
 
 * **profile:** Name of the profile you have created in Wallpaper Engine.
 
-### Apply Wallpaper Settings
+### ใช้การตั้งค่าวอลเปเปอร์
 
-Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+นำคุณสมบัติของวอลเปเปอร์ไปใช้กับวอลเปเปอร์ที่กำหนดหรือวอลเปเปอร์ทั้งหมด วิธีนี้จะช่วยให้คุณเปลี่ยนการตั้งค่าของวอลเปเปอร์ได้ในขณะที่โปรแกรมกำลังทำงานโดยไม่ต้องเปิดเบราว์เซอร์วอลเปเปอร์และเปลี่ยนด้วยตนเอง คุณจะพบรายการคุณสมบัติในเบราว์เซอร์ได้อย่างง่ายดายโดยคลิกที่ **แบ่งปัน JSON** ทางด้านขวาเมื่อเลือกวอลเปเปอร์ในเบราว์เซอร์
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties:** ใช้คำสั่ง **JSON** ในการกำหนดคุณสมบัติ โปรดใช้ `RAW~(` และ `)~END` เป็นตัวคั่น - ดูตัวอย่างได้จากด้านล่าง
+* **location *(ไม่บังคับ)*:** ตัวระบุภายในของจอแสดงผลหรือชื่อหน้าต่างที่คุณระบุ
+* **monitor *(ไม่บังคับ)*:** ดัชนีของจอแสดงผลเพื่ออัพเดทคุณสมบัติ ขึ้นต้นด้วย 0
 
-Example of changing a wallpaper setting named `rate` to 10:
+ตัวอย่างการเปลี่ยนการตั้งค่าวอลเปเปอร์ชื่อ `rate` เป็น 10:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+ตัวอย่างการเปลี่ยนการตั้งค่าสีชุดรูปแบบวอลเปเปอร์เป็นสีแดง (`"1 0 0"` แสดงค่า *RGB*):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### ซ่อนไอคอนบนเดสก์ทอป
 
-Hides the desktop icons.
+ซ่อนไอคอนบนเดสก์ทอป
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### แสดงไอคอนบนเดสก์ทอป
 
-Shows the desktop icons.
+แสดงไอคอนบนเดสก์ทอป
 
 ``` powershell
 -control showIcons
