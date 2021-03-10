@@ -1,13 +1,13 @@
-# Windows N: mfplat.dll missing
+# Windows N: mfplat.dll fehlt
 
-Windows N does not come with media features! You need to install the correct Media Feature Pack for your specific Windows version and build number:
+Windows N wird ohne Medien-Wiedergabemöglichkeiten ausgeliefert. Du musst das korrekte Media Feature Pack für deine spezifische Windows Version installieren:
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Neueste Versionen von Windows 10
+Auf aktuellen Versionen von Windows 10, kannst du das Media Feature Pack über die Windows-Einstellungen installieren. Öffne die **Windows-Einstellungen**, dann navigiere zur folgenden Option:
 
-*Apps > Apps and Features > Optional Features > Add a Feature*
+*Apps > Apps und Funktionen > Optionale Funktionen > Hinzufügen einer Funktion*
 
-A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+Eine Liste von optionalen Funktionen wird nun angezeigt, suche nach **Media Feature Pack** in der Liste von optionalen Funktionen. Installiere es und starte dann deinen Computer neu. Für weitere Hilfen und Informationen über dieses Thema, besuche bitte die Microsoft-Website: [Media Feature Pack für Windows 10 N](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
 #### Outdated Windows 10 (May 2019 update or older):
 Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
