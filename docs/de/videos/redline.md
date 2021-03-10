@@ -6,6 +6,6 @@ Lade die neuesten Treiber für deine Grafikkarte von der AMD-Website herunter:
 
 * [AMD Radeon-Treiber](https://www.amd.com/support)
 
-Then uninstall your current drivers first, it is very important that you first uninstall them and clear all existing settings if asked. Afterwards, you can install the drivers you have just downloaded. If you are unsure how to properly uninstall your drivers, you can also use a tool like DDU ("Display Driver Uninstaller") to uninstall your drivers in a clean way:
+Deinstalliere deine derzeitigen Treiber zuerst, es ist wichtig dass du sie erst löschst und alle bestehenden Einstellungen entfernst, wenn Deinstallationsprogramm danach fragt. Danach kannst du die Treiber die du zuvor heruntergeladen hast installieren. Falls du dir unsicher bist, wie du deine Treiber richtig deinstallierst, kannst du auch eine Anwendung wie DDU ("Display Driver Uninstaller") nutzen, um deine Treiber sauber zu entfernen:
 
 * [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
