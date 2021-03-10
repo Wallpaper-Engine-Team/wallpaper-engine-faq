@@ -145,41 +145,41 @@ Applies an existing profile by name to all displays that was created and saved i
 
 * **profile:** Name of the profile you have created in Wallpaper Engine.
 
-### Apply Wallpaper Settings
+### Establecer ajustes del fondo
 
-Applies wallpaper properties on-the-fly to a given wallpaper or all wallpapers. This allows you to dynamically change any settings that belong to a wallpaper while the program is running without opening the wallpaper browser and manually changing them. You can find a list of available properties in the browser easily by clicking on **Share JSON** on the right-side when selecting any wallpaper in the browser.
+Ajusta uno o todos los fondos sobre la marcha. Esta opción te permite cambiar todos los ajustes de un fondo mientras el programa esté abierto y sin necesidad de abrir el navegador de fondos y cambiarlos manualmente. Encontrarás una lista con las propiedades disponibles en el navegador si haces clic en **Compartir JSON** en el lado derecho al elegir cualquier fondo en el navegador.
 
 ``` powershell
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties:** Properties defined as **JSON** string to be applied. The string must be specially escaped with `RAW~(` and `)~END` as delimiters - see examples below!
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **properties:** Propiedades definidas como **JSON** que se aplicarán. La línea ha de estar entre `RAW~(` y `)~END`, que hacen de delimitadores. Abajo encontrarás algunos ejemplos.
+* **location *(opcional)*:** Identificador interno del nombre del monitor o la ventana que hayas elegido.
+* **monitor *(opcional)*:** Índice del monitor en el que quieres actualizar las propiedades. Empieza por 0.
 
-Example of changing a wallpaper setting named `rate` to 10:
+Ejemplo para cambiar una propiedad de un fondo llamada `rate` a 10:
 
 ``` cpp 
 -control applyProperties -properties RAW~({"rate":10})~END
 ```
 
-Example of changing a wallpaper scheme color setting to red (`"1 0 0"` represents *RGB* values):
+Ejemplo para cambiar los colores de un fondo a rojo (`"1 0 0"` representa los valores *RGB*):
 
 ``` cpp
 -control applyProperties -properties RAW~({"schemecolor":"1 0 0"})~END
 ```
 
-### Hide Desktop Icons
+### Esconder iconos del escritorio
 
-Hides the desktop icons.
+Esconde los iconos del escritorio.
 
 ``` powershell
 -control hideIcons
 ```
 
-### Show Desktop Icons
+### Mostrar iconos del escritorio
 
-Shows the desktop icons.
+Muestra los iconos del escritorio.
 
 ``` powershell
 -control showIcons
