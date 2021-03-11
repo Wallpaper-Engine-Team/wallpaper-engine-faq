@@ -3,7 +3,7 @@
 Dies kann daran liegen, wenn deine Hardware nicht genug Leistung besitzt, um den speziellen Video-Hintergrund wiederzugeben. Ein Video-Hintergrund ist nicht mit Video-Playern vergleichbar, da es mit den Desktop-Icons dargestellt und gegebenenfalls über mehrere Hintergründe gespannt werden muss. Es nutzt außerdem den Video-Decoder deiner Grafikkarte um die Prozessor-Auslastung auf ein Minimum zu reduzieren.
 
 ## Hintergrund-Aufnahme-Programme
-It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
+Das Problem kann auch von diversen Treiber-Funktionen ausgelöst werden, welche dazu dienen Anwendungen aufzunehmen. Darunter fallen Anwendungen wie AMD ReLive, Nvidia Shadow Play, Nvidia Share oder Windows GameDVR. Versuche diese Arten von Anwendungen zu deaktivieren und schaue ob es einen Unterschied macht, dann konfiguriere diese so, dass sie Wallpaper Engine ignorieren. Stelle außerdem sicher, dass kein Aufnahme-Programm oder In-Game-Overlay in Wallpaper Engine geladen wird und so die Wiedergabe von Hintergründen verlangsamt.
 
 You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
 
