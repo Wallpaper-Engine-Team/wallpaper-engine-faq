@@ -1,8 +1,8 @@
-# Video freezes / stuttering / bad performance
+# Videos frieren ein / Wiedergabe ruckelt / schlechte Leistung
 
-This could come from your hardware not being powerful enough to display the specific video properly. A video wallpaper isn't comparable to standard video players, it must be composed with the icons as well and potentially stretches over multiple screens. It is also using the video decoder of your GPU by default to reduce CPU usage to a minimum.
+Dies kann daran liegen, wenn deine Hardware nicht genug Leistung besitzt, um den speziellen Video-Hintergrund wiederzugeben. Ein Video-Hintergrund ist nicht mit Video-Playern vergleichbar, da es mit den Desktop-Icons dargestellt und gegebenenfalls über mehrere Hintergründe gespannt werden muss. Es nutzt außerdem den Video-Decoder deiner Grafikkarte um die Prozessor-Auslastung auf ein Minimum zu reduzieren.
 
-## Background recording hooks
+## Hintergrund-Aufnahme-Programme
 It could also come from any kind of driver features to record applications like ReLive, Shadow Play/Nvidia Share or Windows GameDVR. Try disabling them and see if it makes a difference, then exclude Wallpaper Engine from them. Also make sure no other recording/overlay programs load themselves into Wallpaper Engine and slow down rendering.
 
 You can try to use our scan tool to determine if any programs with know recording hooks are installed but it does not catch everything, especially common recording hooks like the ones coming with Nvidia GeForce Experience:
