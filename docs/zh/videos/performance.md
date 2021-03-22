@@ -5,7 +5,7 @@
 ## 后台录制挂钩
 这还可能由旨在录制 ReLive、Shadow Play/Nvidia Share 或 Windows GameDVR 等应用程序的任何类型的驱动程序功能导致。 尝试禁用这些驱动程序功能，看看是否有效果，然后从这些功能中排除 Wallpaper Engine。 此外，还要确保没有任何其他录制/覆盖程序自行加载到 Wallpaper Engine 中，减缓渲染速度。
 
-您可以尝试使用我们的扫描工具，来确定是否安装了任何具有已知录制挂钩的程序，但该工具无法捕获所有内容，尤其是像 Nvidia GeForce Experience 附带的常见录制挂钩这样的内容：
+You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
 
 * [Wallpaper Engine 扫描工具](/debug/scantool.html)
 
