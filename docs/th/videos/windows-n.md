@@ -7,7 +7,7 @@ Windows N ไม่ได้มาพร้อม Media Feature! คุณต้
 
 *แอป (Apps) > แอปและคุณสมบัติ (Apps and Features) > คุณสมบัติเสริม (Optional Features) > เพิ่มคุณสมบัติ (Add a Feature)*
 
-รายการคุณสมบัติเสริมจะปรากฏขึ้น ให้ค้นหา **Media Feature Pack** ในรายการคุณสมบัติเสริมที่มีให้ จากนั้นจึงติดตั้งและรีสตาร์ทคอมพิวเตอร์ หากต้องการความช่วยเหลือและข้อมูลเพิ่มเติม โปรดเยี่ยมชมเว็บไซต์ของ Microsoft: [Media Feature Pack สำหรับ Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019)
+รายการคุณสมบัติเสริมจะปรากฏขึ้น ให้ค้นหา **Media Feature Pack** ในรายการคุณสมบัติเสริมที่มีให้ จากนั้นจึงติดตั้งและรีสตาร์ทคอมพิวเตอร์ หากต้องการความช่วยเหลือและข้อมูลเพิ่มเติม โปรดเยี่ยมชมเว็บไซต์ของ Microsoft: [Media Feature Pack สำหรับ Windows 10 N](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019)
 
 #### Windows 10 ที่ล้าสมัย (อัพเดตพฤษภาคม 2019 หรือเก่ากว่า):
 หากคุณใช้ Windows 10 เวอร์ชันเก่า คุณต้องดาวน์โหลด Media Feature Pack ที่ตรงกับเวอร์ชัน Windows 10 ของคุณด้วยตนเอง:
