@@ -38,9 +38,9 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 * wallpaper32.exe または wallpaper64.exe へのパスが正しいことを確認してください。 上の例では、デフォルトのSteamディレクトリが使用されています。
 * 壁紙へのパスが正しいことを確認してください。 上の例では、ダミーのワークショップID **123456789**を使用しています。壁紙が正しく動作するように、ここを変更します。 コンピュータ上の対応しているファイルなら何でも指定できます。
-  * 壁紙のフルパスは、Wallpaper Engine上で壁紙を右クリックし、**エクスプローラーを開く**を選択すると確認できます。 ファイルの種類は通常、シーンタイプの壁紙であれば*project.json*ファイル、ビデオ壁紙は*.mp4*ファイル、Web壁紙は*index.html*となることが多いです。
+  * 壁紙のフルパスは、Wallpaper Engine上で壁紙を右クリックし、**エクスプローラーを開く**を選択すると確認できます。 ファイルの種類は通常、シーンタイプの壁紙であれば*project.json*ファイル、ビデオ壁紙は *.mp4* ファイル、Web壁紙は *index.html* となることが多いです。
 * ウィンドウに独自の名前を付けます。 上の例では、**Wallpaper #1**という名前を使用しています。 **複数のウィンドウを開きたい場合は、それぞれに別の名前を付けてください。**
-* また、解像度も指定した方が良いでしょう。上の例では1920x1080（フルHD）です。 `幅`と`高さ`のパラメータを状況に応じて変更します。
+* また、解像度も指定した方が良いでしょう。上の例では1920x1080（フルHD）です。 `width`と`height`のパラメータを状況に応じて変更します。
 
 ## コマンド概要
 
@@ -134,6 +134,16 @@ pause または stop しているすべての壁紙を再開します。
 * **playlist：** 自分で作成し、Wallpaper Engine に保存したプレイリストの名前です。
 * **location *（オプション）*：** モニターの内部識別子です。 お使いのPCによって生成され、config.json に書かれています。
 * **monitor *（オプション）*：** プレイリストをロードするモニターのインデックスで、0から始まります。
+
+### Open Profile
+
+Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name of the profile you have created in Wallpaper Engine.
 
 ### 壁紙設定の適用
 
