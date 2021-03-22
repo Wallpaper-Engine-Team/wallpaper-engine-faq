@@ -135,6 +135,16 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(선택 사항)*:** 모니터의 내부 식별자. PC가 생성한 식별자이며 config.json에서 찾을 수 있습니다.
 * **monitor *(선택 사항)*:** 재생목록을 불러올 모니터의 인덱스. 0에서부터 시작합니다.
 
+### Open Profile
+
+Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name of the profile you have created in Wallpaper Engine.
+
 ### 배경화면 설정 적용
 
 지정된 혹은 모든 배경화면에 배경화면 속성을 즉시 적용합니다. 이를 통해 배경화면 브라우저를 열어 직접 변경하지 않고도, 프로그램이 작동하는 도중에 배경화면의 모든 설정을 유동적으로 변경할 수 있습니다. 브라우저에서 배경화면을 선택할 때 우측의 **JSON 공유**를 누르면, 사용 가능한 모든 속성의 목록을 확인할 수 있습니다.
