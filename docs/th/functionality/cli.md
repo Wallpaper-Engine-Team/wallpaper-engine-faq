@@ -135,6 +135,16 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(ไม่บังคับ)*:** ตัวระบุภายในของจอแสดงผล คุณพบสิ่งเหล่านี้ได้ในไฟล์ config.json ซึ่งสร้างขึ้นโดยคอมพิวเตอร์ของคุณ
 * **monitor *(ไม่บังคับ)*:** ดัชนีของจอแสดงผลเพื่อโหลดเพลย์ลิสต์ ขึ้นต้นด้วย 0
 
+### Open Profile
+
+Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name of the profile you have created in Wallpaper Engine.
+
 ### ใช้การตั้งค่าวอลเปเปอร์
 
 นำคุณสมบัติของวอลเปเปอร์ไปใช้กับวอลเปเปอร์ที่กำหนดหรือวอลเปเปอร์ทั้งหมด วิธีนี้จะช่วยให้คุณเปลี่ยนการตั้งค่าของวอลเปเปอร์ได้ในขณะที่โปรแกรมกำลังทำงานโดยไม่ต้องเปิดเบราว์เซอร์วอลเปเปอร์และเปลี่ยนด้วยตนเอง คุณจะพบรายการคุณสมบัติในเบราว์เซอร์ได้อย่างง่ายดายโดยคลิกที่ **แบ่งปัน JSON** ทางด้านขวาเมื่อเลือกวอลเปเปอร์ในเบราว์เซอร์
