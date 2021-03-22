@@ -5,7 +5,7 @@
 ## 背景錄製勾點
 上述問題也可能源自各種驅動程式錄製應用程式的功能，例如 ReLive、Shadow Play/Nvidia Share 或 Windows GameDVR。 請停用這些功能，看看狀況是否改善，再前往這些功能中將 Wallpaper Engine 排除。 此外，請避免其他錄製/重疊程式自行載入進 Wallpaper Engine，降低視訊呈現速度。
 
-您可以使用我們的掃描工具，找出是否安裝了有已知錄製勾點但並未擷取任何東西的程式，常見的錄製勾點尤其會出現這種情形，例如來自 Nvidia GeForce Experience 的錄製勾點。
+You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
 
 * [Wallpaper Engine 掃描工具](/debug/scantool.html)
 
