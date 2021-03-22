@@ -5,7 +5,7 @@ Isto pode decorrer do facto do seu hardware não ser suficientemente potente par
 ## Ganchos de gravação em segundo plano
 Também pode vir de qualquer tipo de funcionalidades do controlador para gravar aplicações como ReLive, Shadow Play/Nvidia Share ou Windows GameDVR. Experimente desativá-los e ver se isso faz alguma diferença e, em seguida, excluir-lhes o Wallpaper Engine. Certifique-se também de que nenhum outro programa de gravação/overlay se carrega no Wallpaper Engine e torna o rendering mais lento.
 
-Pode experimentar usar a nossa ferramenta de deteção para determinar se algum programa com ganchos de gravação conhecidos está instalada mas não apanha tudo, especialmente ganchos de gravação comuns como os da Nvidia GeForce Experience:
+You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
 
 * [Wallpaper Engine Scan Tool](/debug/scantool.html)
 
