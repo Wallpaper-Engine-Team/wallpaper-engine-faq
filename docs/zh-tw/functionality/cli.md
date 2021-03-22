@@ -135,6 +135,16 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(選用)*：** 顯示器內部識別碼。 這些由您的電腦生成，您可在 config.json 檔案中找到。
 * **monitor *(選用)*：** 欲載入播放清單的索引，以 0 開頭。
 
+### Open Profile
+
+Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name of the profile you have created in Wallpaper Engine.
+
 ### 套用桌布設定
 
 將桌布動態屬性套用於特定桌布或所有桌布。 如此一來，您即可在程式運作時即時變更桌布的任何設定，不需要開啟桌布瀏覽器並手動變更。 選擇瀏覽器中任何桌布時，按一下右側的**分享 JSON**，即可在瀏覽器中輕鬆找到可用屬性列表。
