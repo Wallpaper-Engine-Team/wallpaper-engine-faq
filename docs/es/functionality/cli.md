@@ -135,6 +135,16 @@ Carga un fondo nuevo para el monitor seleccionado o para el principal si no se e
 * **location *(opcional)*:** Identificador interno del monitor. Lo encontrarás en el archivo config.json que genera el propio ordenador.
 * **monitor *(opcional)*:** Índice del monitor en el que quieres cargar la lista de reproducción. Empieza por 0.
 
+### Open Profile
+
+Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name of the profile you have created in Wallpaper Engine.
+
 ### Establecer ajustes del fondo
 
 Ajusta uno o todos los fondos sobre la marcha. Esta opción te permite cambiar todos los ajustes de un fondo mientras el programa esté abierto y sin necesidad de abrir el navegador de fondos y cambiarlos manualmente. Encontrarás una lista con las propiedades disponibles en el navegador si haces clic en **Compartir JSON** en el lado derecho al elegir cualquier fondo en el navegador.
