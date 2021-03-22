@@ -7,7 +7,7 @@ Sur les versions à jour de Windows 10, vous pouvez installer le Media Feature P
 
 *Applications > Applications et fonctionnalités > Fonctionnalités facultatives > Ajouter une fonctionnalité*
 
-Une liste de fonctionnalités facultatives s'affichera, recherchez **Media Feature Pack** dans la liste, installez le pack, puis relancez votre ordinateur. Pour toute aide supplémentaire ou pour toute information au sujet de ce pack, rendez-vous sur le site Internet de Microsoft : [Media Feature Pack pour Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+Une liste de fonctionnalités facultatives s'affichera, recherchez **Media Feature Pack** dans la liste, installez le pack, puis relancez votre ordinateur. Pour toute aide supplémentaire ou pour toute information au sujet de ce pack, rendez-vous sur le site Internet de Microsoft : [Media Feature Pack pour Windows 10 N](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
 #### Version de Windows 10 qui ne sont pas à jour (mise à jour de mai 2019 ou plus ancien) :
 Si vous disposez de versions antérieures de Windows 10, vous devez télécharger manuellement le Media Feature Pack pour votre version exacte de Windows 10 :
