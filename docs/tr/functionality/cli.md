@@ -135,6 +135,16 @@ Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar ka
 * **location *(isteğe bağlı)*:** Monitörün dahili tanımlayıcısı. Bunları config.json dosyasında bulabilirsiniz ve bu dosya bilgisayarınız tarafından oluşturulurlar.
 * **monitor *(isteğe bağlı)*:** Oynatma listesinin yükleneceği monitör dizini 0 ile başlar.
 
+### Open Profile
+
+Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name of the profile you have created in Wallpaper Engine.
+
 ### Duvar Kâğıdı Ayarlarını Uygula
 
 Duvar kağıdı özelliklerini anında belirli bir duvar kağıdına veya tüm duvar kağıtlarına uygular. Bu, program çalışırken duvar kağıdına ait tüm ayarları, duvar kağıdı tarayıcısını açmadan ve bunları manuel olarak değiştirmeden dinamik olarak değiştirmenize olanak tanır. Tarayıcıda herhangi bir duvar kağıdını seçerken sağ taraftaki **JSON'ı Paylaş**'ı tıklayarak tarayıcıda mevcut özelliklerin bir listesini kolayca bulabilirsiniz.

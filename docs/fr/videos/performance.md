@@ -5,7 +5,7 @@ C'est peut-être dû au fait que votre matériel n'est pas assez puissant pour a
 ## Hooks d'enregistrement en arrière-plan
 Ce problème peut venir des fonctionnalités des pilotes pour l'enregistrement telles que ReLive, Shadow Play/Nvidia Share ou Windows GameDVR. Essayez de les désactiver et voyez si cela fait une différence, puis excluez-les de Wallpaper Engine. Assurez-vous également qu'aucun autre programme d'enregistrement ne se charge dans Wallpaper Engine, cela peut ralentir les vidéos.
 
-Vous pouvez essayer d'utiliser notre outil d'analyse pour déterminer si des programmes avec des hooks d'enregistrement sont installés, mais il ne pourra pas tout trouver, notamment les hooks d'enregistrement comme ceux fournis avec Nvidia GeForce Experience :
+You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
 
 * [Outil d'analyse de Wallpaper Engine](/debug/scantool.html)
 

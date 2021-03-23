@@ -2,7 +2,7 @@
 Ce guide vous aide à identifier et solutionner tout problème lié à la lecture audio avec les fonds d'écran. Pour commencer, veillez à utiliser un fond d'écran qui comporte de l'audio. Il en existe un grand nombre totalement silencieux. Si vous avez la certitude que votre fond d'écran comporte une piste sonore, poursuivez votre lecture.
 
 ::: warning
-Remarque : Si le son s'allume et s'éteint continuellement pendant quelques secondes, nous vous invitons à consulter ce guide :
+Remarque Si le son s'allume et s'éteint continuellement pendant quelques secondes, nous vous invitons à consulter ce guide :
 
 * [Le son s'allume et s'éteint par intermittence](/audio/intermittent)
 :::

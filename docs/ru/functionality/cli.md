@@ -135,6 +135,16 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(необязательно)*:** Внутренний идентификатор монитора. Вы можете найти его в файле config.json, который генерируется вашим компьютером.
 * **monitor *(необязательно)*:** Индекс монитора, на котором будет загружен список воспроизведения, начинается с 0.
 
+### Open Profile
+
+Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name of the profile you have created in Wallpaper Engine.
+
 ### Применить настройки обоев
 
 Применяет выбранные свойства к данным обоям или ко всем обоям. Это позволяет вам изменять любые настройки обоев во время работы программы, не открывая браузер обоев и не меняя их вручную. Вы можете легко найти список доступных свойств в браузере, щелкнув **Share JSON** справа при выборе любых обоев в браузере.

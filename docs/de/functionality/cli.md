@@ -135,6 +135,16 @@ Lädt einen neuen Hintergrund für einen angegebenen Bildschirm (oder den ersten
 * **location *(optional)*:** Interne ID des Bildschirms. Du kannst diese in der config.json finden, diese sind jeweils speziell von deinem PC generiert.
 * **monitor *(optional)*:** Index des Bildschirms auf dem die Wiedergabeliste geladen werden soll, startet bei 0.
 
+### Profil öffnen
+
+Wendet ein existierendes Profil auf alle Bildschirme anhand des Namens an, welcher in der Bildschirm-Übersicht in Wallpaper Engine angelegt wurde.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name des Profils welches in Wallpaper Engine gespeichert wurde.
+
 ### Hintergrundeinstellungen anwenden
 
 Wendet Hintergrund-Einstellungen sofort auf den angegebenen Hintergrund oder alle Hintergründe an. Dies erlaubt dir dynamisch alle Einstellungen eines Hintergrundes zu ändern, während die Anwendung läuft, ohne dass das Wallpaper Engine-Fenster geöffnet werden muss. Du kannst eine Liste aller verfügbaren Hintergrundeinstellungen im Wallpaper Engine-Fenster finden, indem du einen Hintergrund auswählst und dann rechts auf **JSON teilen** klickst.

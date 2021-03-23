@@ -1,27 +1,27 @@
-# Windows N: mfplat.dll missing
+# Windows N: mfplat.dll fehlt
 
-Windows N does not come with media features! You need to install the correct Media Feature Pack for your specific Windows version and build number:
+Windows N wird ohne Medien-Wiedergabemöglichkeiten ausgeliefert. Du musst das korrekte Media Feature Pack für deine spezifische Windows Version installieren:
 
-#### Latest versions of Windows 10
-On up-to-date versions of Windows 10, you can install the Media Feature Pack through the Windows settings. Open the **Windows Settings**, then navigate to the following location:
+#### Neueste Versionen von Windows 10
+Auf aktuellen Versionen von Windows 10, kannst du das Media Feature Pack über die Windows-Einstellungen installieren. Öffne die **Windows-Einstellungen**, dann navigiere zur folgenden Option:
 
-*Apps > Apps and Features > Optional Features > Add a Feature*
+*Apps > Apps und Funktionen > Optionale Funktionen > Hinzufügen einer Funktion*
 
-A list of optional features will appear, search for **Media Feature Pack** in the list of available Optional Features, install it and then restart your computer. For additional help and more information about this, please visit the Microsoft Website: [Media Feature Pack for Windows 10 N](https://support.microsoft.com/en-us/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
+Eine Liste von optionalen Funktionen wird nun angezeigt, suche nach **Media Feature Pack** in der Liste von optionalen Funktionen. Installiere es und starte dann deinen Computer neu. Für weitere Hilfen und Informationen über dieses Thema, besuche bitte die Microsoft-Website: [Media Feature Pack für Windows 10 N](https://support.microsoft.com/help/4516397/media-feature-pack-for-windows-10-n-november-2019).
 
-#### Outdated Windows 10 (May 2019 update or older):
-Older versions of Windows 10 require you to manually download the Media Feature Pack for your exact version of Windows 10:
-  * [Media Feature Pack Download](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (page only provided in English by Microsoft)
+#### Veraltete Versionen von Windows 10 (Mai 2019 oder älter):
+Ältere Versionen von Windows 10 erfordern, dass du das Media Feature Pack für deine genaue Windows 10-Version herunterlädst:
+  * [Media Feature Pack-Download](https://www.microsoft.com/en-us/software-download/mediafeaturepack) (Seite nur auf Englisch verfügbar)
 
 #### Windows 7:
-  * Windows 7 is not supported by Microsoft anymore. You need update **KB968211** to add media features but Microsoft has removed the download page for it. Try upgrading to Windows 10 or reinstall a normal Windows 7 with media features.
+  * Windows 7 wird nicht mehr von Microsoft unterstützt. Du benötigst Update **KB968211** um Media-Features hinzuzufügen, aber Microsoft hat die Download-Seite für das Update entfernt. Versuche ein Upgrade auf Windows 10 durchzuführen oder installiere Windows 7 mit den Media-Features neu.
 
-**Make sure to install the x64 and x86 version.**
+**Stelle sicher, dass du die x64 und x86-Versionen installierst.**
 
-If it still shows the same error then **you have installed the wrong version**, try installing the correct version and restarting the PC. Should nothing work and it is still missing, your system files are probably defective, try restoring the system to an earlier state or reinstall Windows.
+Wenn es weiterhin den gleichen Fehler anzeigt, **hast du die falsche Version installiert**, versuche erneut die richtige Version zu installieren und starte deinen PC neu. Sollte all dies nicht funktionieren und die Medien-Features fehlen weiterhin, so sind wichtige System-Dateien wahrscheinlich defekt. Versuche das System auf einen vorherigen Zustand zurückzusetzen oder installiere Windows neu.
 
-:::warning
-Please note Every time Microsoft releases a major update to Windows 10, you must install the media feature pack again. If this undesirable for you, consider switching to a normal version of Windows as the other versions are always shipped with these features!
+::: warning
+Achtung Mit jedem größeren Windows 10 Update musst du das Media Feature Pack gegebenenfalls erneut installieren. Wenn du dies nicht willst, solltest du überlegen auf eine normale Version von Windows zu wechseln, da diese immer mit diesen Features ausgeliefert werden!
 
-**The whole point of Windows N is that it does not have media features. So if this is not what you want, you should not use Windows N.**
+**Der Sinn von Windows N besteht darin, dass es nicht mit Media-Features ausgeliefert wird. Wenn dies nicht in deinem Interesse ist, solltest du nicht Windows N benutzen.**
 :::

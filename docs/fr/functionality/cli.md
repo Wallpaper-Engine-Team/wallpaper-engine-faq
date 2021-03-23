@@ -40,7 +40,7 @@ Vérifiez les éléments suivants lors de la configuration de cette commande :
 * Vérifiez que vous utilisez le bon chemin d'accès pour votre fond d'écran. Dans l'exemple ci-dessus, nous avons utilisé l'ID Workshop **123456789**, vous devez le modifier pour que votre fond d'écran fonctionne. Vous pouvez également indiquer tout fichier pris en charge se trouvant sur votre ordinateur.
   * Vous trouverez le chemin d'accès de tout fond d'écran en faisant un clic droit sur celui-ci depuis Wallpaper Engine et en sélectionnant **Ouvrir dans l'explorateur de fichiers**. Pour les fonds d'écran de type Scène, il est conseillé de sélectionner le fichier *project.json* ; pour les fonds d'écran de type Vidéo, il s'agira probablement d'un fichier *.mp4* et pour les fonds d'écran de type Web, vous trouverez un fichier appelé *index.html*.
 * Donnez à votre fenêtre un nom unique. Dans l'exemple ci-dessus, nous utilisons **Wallpaper #1** comme nom. **Si vous voulez ouvrir plusieurs fenêtres, attribuez-leur à chacune un nom unique.**
-* Vous pouvez également ajuster la résolution. Dans l'exemple ci-dessus, nous utilisons 1920x1080 (Full HD). Changer les paramètres `largeur` et `hauteur`.
+* Vous pouvez également ajuster la résolution. Dans l'exemple ci-dessus, nous utilisons 1920x1080 (Full HD). Changer les paramètres `width` (largeur) et `height` (hauteur).
 
 ## Vue générale des commandes
 
@@ -134,6 +134,16 @@ Charge une nouveau fond d'écran pour un moniteur bien précis ou pour le premie
 * **playlist :** Nom de la liste de lecture que vous avez créée et enregistrée dans Wallpaper Engine.
 * **location *(facultatif)* :** Identificateur interne du moniteur. Vous trouverez ces informations dans le fichier config.json (ces infos sont générées par votre PC).
 * **monitor *(facultatif)* :** Index du moniteur sur lequel charger la liste de lecture, commence avec 0.
+
+### Open Profile
+
+Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+
+``` powershell
+-control openProfile -profile <string>
+```
+
+* **profile:** Name of the profile you have created in Wallpaper Engine.
 
 ### Appliquer des paramètres de fond d'écran
 
