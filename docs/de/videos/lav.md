@@ -29,9 +29,9 @@ Aus rechtlichen Gründen dürfen wir LAV nicht mit Wallpaper Engine ausliefern, 
 * Starte die Anwendung neu und versuche deinen Video-Hintergrund erneut zu nutzen
 
 ## WebM-Hardware-Beschleunigung aktivieren
-Falls du Stottern am Ende von Video-Hintergründen wahrnehmen kannst, kannst du .webm-Dateien nutzen, welche im Normalfall dieses Problem nicht haben. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **WebM framework** option to **Prefer Native**
-* Restart the application and try using your video wallpaper again
+Falls du Stottern am Ende von Video-Hintergründen wahrnehmen kannst, kannst du .webm-Dateien nutzen, welche im Normalfall dieses Problem nicht haben. In diesem Fall aktivierst du am besten auch Hardware-Beschleunigung für .webm-Videos, was deine Prozessorauslastung signifikant verringert und gleichzeitig das Stottern am Ende von Videos beseitigt. Hierbei handelt es sich um eine Fortführung der oben beschriebenen Schritte, stelle zunächst sicher, dass du LAV installiert hast und DirectShow aktiviert wurde, so wie im vorherigen Abschnitt beschrieben.
+* Öffne die Wallpaper Engine-Einstellungen und navigiere zum Reiter "Allgemein"
+* Ändere die Einstellung **WebM-Framework** auf **Nativ bevorzugen**
+* Starte die Anwendung neu und versuche deinen Video-Hintergrund erneut zu nutzen
 
 Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
