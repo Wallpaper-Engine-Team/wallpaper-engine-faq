@@ -21,15 +21,15 @@ Aus rechtlichen Gründen dürfen wir LAV nicht mit Wallpaper Engine ausliefern, 
   * Mirror #1: [Github](https://github.com/Nevcairiel/LAVFilters/releases)
   * Mirror #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
 * Installiere LAV, stelle sicher, dass dein Windows-Benutzerkonto über Adminrechte verfügt.
-* Restart Wallpaper Engine.
+* Start Wallpaper Engine neu.
 
-## 2. Enable DirectShow
-* Open the Wallpaper Engine settings and navigate to the "General" tab
-* Change the **Video framework** option to **Prefer DirectShow**
-* Restart the application and try using your video wallpaper again
+## 2. Aktiviere DirectShow
+* Öffne die Wallpaper Engine-Einstellungen und navigiere zum Reiter "Allgemein"
+* Ändere die Einstellung **Video-Framework** auf **DirectShow-LAV bevorzugen**
+* Starte die Anwendung neu und versuche deinen Video-Hintergrund erneut zu nutzen
 
-## Enabling WebM Hardware Acceleration
-If you are experiencing stutters at the end of your video wallpapers, you can use .webm files which do not suffer from the same issue. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
+## WebM-Hardware-Beschleunigung aktivieren
+Falls du Stottern am Ende von Video-Hintergründen wahrnehmen kannst, kannst du .webm-Dateien nutzen, welche im Normalfall dieses Problem nicht haben. It's best if you also enable hardware acceleration for .webm videos which will reduce the CPU usage for them significantly and still allows video wallpapers to loop without a notable cut after the last frame. This is a continuation of the steps above, make sure you have installed LAV and enabled DirectShow as instructed in the previous section.
 * Open the Wallpaper Engine settings and navigate to the "General" tab
 * Change the **WebM framework** option to **Prefer Native**
 * Restart the application and try using your video wallpaper again
