@@ -1,19 +1,19 @@
 ---
 tags:
-  - colors
-  - bright
-  - dark
+  - farben
+  - hell
+  - dunkel
   - zoom
-  - zoomed-in
-  - pixelated
-  - border
+  - groß
+  - verpixelt
+  - rand
   - gamma
-  - quality
-  - wrong
-  - ugly
+  - qualität
+  - falsch
+  - hässlich
 ---
 
-# Video wallpapers look wrong
+# Video-Hintergründen werden nicht korrekt dargestellt
 
 Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
 
