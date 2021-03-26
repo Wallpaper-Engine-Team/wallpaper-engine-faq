@@ -34,4 +34,4 @@ Falls du Stottern am Ende von Video-Hintergründen wahrnehmen kannst, kannst du 
 * Ändere die Einstellung **WebM-Framework** auf **Nativ bevorzugen**
 * Starte die Anwendung neu und versuche deinen Video-Hintergrund erneut zu nutzen
 
-Check if the LAV system tray icon shows up and if the CPU usage is nearly zero, then your .webm content is now hardware accelerated. If it does not seem to work, make sure all options are configured correctly and LAV is correctly installed.
+Überprüfe ob du das LAV-Symbol in der Windows-Taskleiste siehst und ob die Prozessorauslastung nahe 0% ist, in diesem Fall funktioniert die Hardware-Beschleunigung für .webm-Dateien nun richtig. Falls dies nicht funktioniert, stelle sicher, dass alle Optionen korrekt konfiguriert wurden und dass LAV korrekt installiert wurde.
