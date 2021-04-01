@@ -15,9 +15,9 @@ tags:
 
 # Video-Hintergründen werden nicht korrekt dargestellt
 
-Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
+Im Gegensatz zu den meisten Video-Playern nutzt Wallpaper Engine Hardware-Beschleunigung für Videos um die Computer-Auslastung zu minimieren. Dies bedeutet, dass deine Grafikkartentreiber das Aussehen von Videos beeinflussen können.
 
-**If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
+**Falls deine Video-Hintergründe falsche Farben haben, zu hell oder zu dunkel sind, reingezoomt oder verpixelt aussehen oder falls ein Rand um den Hintergrund ist**, kannst du dieses Problem durch das Zurücksetzen deiner Video-Optionen in deinen Grafikkartentreiber-Einstellungen deiner Nvidia-, AMD- oder Intel-Grafikkarte lösen. Falls dein Computer mehrere GPUs hat (zum Beispiel eine Haupt-Karte von Nvidia und eine zweite GPU von Intel), stelle sicher, dass du beide Treiber zurücksetzt.
 
 You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
 
