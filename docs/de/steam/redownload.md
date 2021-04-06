@@ -20,7 +20,7 @@ Wir haben eine automatische Anwendungen zum Reparieren von Steam erstellt, welch
 * Starte Steam neu und überprüfe die Wallpaper Engine auf Fehler:
   * [Wallpaper Engine-Dateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-You have to repeat this every time the Steam download cache breaks up, unfortunately. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
+Dieser Vorgang muss leider jedes mal wiederholt werden, wenn der Steam Download-Cache Fehler aufweist. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
 
 ## Reinstall Steam
 
