@@ -18,18 +18,18 @@ Wir haben eine automatische Anwendungen zum Reparieren von Steam erstellt, welch
 * Führe dieses Programm aus: `wallpaper_engine\bin\steamredownloadfixer32.exe`
   * Wenn die Anwendung eine Fehlermeldung anzeigt, kannst du uns eine E-Mail senden und wir schauen, ob wir die Anwendung verbessern können
 * Starte Steam neu und überprüfe die Wallpaper Engine auf Fehler:
-  * [Wallpaper Engine-Dateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+  * [Wallpaper Engine-Dateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=german)
 
-Dieser Vorgang muss leider jedes mal wiederholt werden, wenn der Steam Download-Cache Fehler aufweist. Please keep in mind that we have not built Steam and cannot fix Steam ourselves.
+Dieser Vorgang muss leider jedes mal wiederholt werden, wenn der Steam Download-Cache Fehler aufweist. Bitte behalte im Hinterkopf, dass wir nicht die Entwickler von Steam sind und solche Steam-Probleme nicht selbst lösen können.
 
-## Reinstall Steam
+## Steam neuinstallieren
 
-The most reliable long-term fix for most users affected by this Steam bug regularly appears to be to reinstall Steam as some Steam files may simply be broken on your system. Try to reinstall Steam completely:
+Der verlässlichste Weg um dieses Steam-Problem langfristig zu lösen scheint eine Neuinstallation von Steam zu sein, da einige Dateien von Steam gegebenenfalls einfach defekt sind auf deinem System. Versuche Steam komplett neu zu installieren:
 
-1. Uninstall Wallpaper Engine through Steam.
-2. Uninstall Steam itself, make sure to follow the official guide:
-  * [Uninstall Steam](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526)
-  * Specifically check the Manually Removing Steam section in the Steam Support article above and make a backup of your *steamapps* directory as described there to ensure you will not have to redownload all your games.
+1. Deinstalliere Wallpaper Engine über Steam.
+2. Deinstalliere Steam selbst, stelle sicher, dass du der offiziellen Anleitung dazu folgst:
+  * [Steam deinstallieren](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526&l=german)
+  * Schaue besonders die Sektion "Manuelles Entfernen von Steam" in der Anleitung vom Steam-Support an und mache eine Backup deines *steamapps*-Verzeichnisses wie dort beschrieben, um sicherzustellen, dass du nicht alle deine Spiele erneut herunterladen musst.
 
 ## Use local backups as a workaround
 
