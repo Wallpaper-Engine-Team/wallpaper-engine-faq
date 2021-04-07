@@ -31,9 +31,9 @@ Der verlässlichste Weg um dieses Steam-Problem langfristig zu lösen scheint ei
   * [Steam deinstallieren](https://support.steampowered.com/kb_article.php?ref=9609-OBMP-2526&l=german)
   * Schaue besonders die Sektion "Manuelles Entfernen von Steam" in der Anleitung vom Steam-Support an und mache eine Backup deines *steamapps*-Verzeichnisses wie dort beschrieben, um sicherzustellen, dass du nicht alle deine Spiele erneut herunterladen musst.
 
-## Use local backups as a workaround
+## Lokale Backups als Workaround nutzen
 
-If the issue continues happening to you, you can also make local backups of all wallpapers and then unsubscribe from all wallpapers. Steam will not redownload wallpapers that you are not subscribed to, so the work-around is to simply only rely on local backups. You can find our guide on how to create backups here:
+Wenn das Problem weiterhin und oft auftritt, kannst du auch lokale Backups deiner Hintergründe machen und die Hintergründe bei Steam deabonnieren. Steam lädt keine Hintergründe erneut herunter, welche du nicht abonniert hast, von daher kann man als Notlösung einfach auf lokale Backups setzen. You can find our guide on how to create backups here:
 
 * [Using wallpaper backups](/steam/backup)
 
