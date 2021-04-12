@@ -38,7 +38,7 @@ Klicke hier, um weitere Lösungsvorschlage zu sehen, falls die Schritte oben dei
 * Wähle eine andere Server-Region in den Steam-Einstellungen. Die Option kann im Reiter "Downloads" in den Steam-Einstellungen gefunden werden.
 * Stelle sicher, dass du die Steam-Downloads nicht in den **Steam-Einstellungen** basierend auf Uhrzeit, Bandbreite oder Im-Spiel-Status limitiert hast.
 * Öffne den Reiter "Downloads" in Steam (Bibliothek -> Downloads). Schaue ob Downloads pausiert sind. Wenn dies der Fall ist, klicke auf die Fortführen-Schaltfläche.
-* Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
+* Rechtsklicke auf Wallpaper Engine in Steam, dann Eigenschaften, dann stelle sicher, dass die Option **Hintergrund-Downloads erlauben** aktiviert ist.
 * Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
 * Try again after waiting at least for a day in case there are Steam server issues.
 * **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!).
