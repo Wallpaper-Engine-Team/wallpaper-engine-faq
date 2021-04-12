@@ -35,8 +35,8 @@ Steam hat den Download und die Überprüfung der Dateien noch nicht abgeschlosse
 Klicke hier, um weitere Lösungsvorschlage zu sehen, falls die Schritte oben deine Download-Probleme nicht lösen
 * Stelle sicher, dass kein Antiviren- oder Firewall-Programm Steam blockiert. Stelle sicher, dass das gesamte Steam-Verzeichnis in den Ausnahmeregeln deines Antivirenprogramms eingestellt ist.
 * Deabonniere alle Hintergründe, welche nicht heruntergeladen werden können und abonniere sie erneut nach einem Neustart von Steam.
-* Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
-* Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
+* Wähle eine andere Server-Region in den Steam-Einstellungen. Die Option kann im Reiter "Downloads" in den Steam-Einstellungen gefunden werden.
+* Stelle sicher, dass du die Steam-Downloads nicht in den **Steam-Einstellungen** basierend auf Uhrzeit, Bandbreite oder Im-Spiel-Status limitiert hast.
 * Open the 'Downloads' tab in Steam (Library -> Downloads). Look for paused downloads. If you can see any, click on 'Resume'.
 * Right-click Wallpaper Engine in Steam, then Properties, then select **Allow Background Downloads**.
 * Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
