@@ -25,11 +25,11 @@ Steam hat den Download und die Überprüfung der Dateien noch nicht abgeschlosse
   * [Steams Download-Cache löschen](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638&l=german)
 * Versuche danach, die Dateien von Wallpaper Engine über Steam auf Fehler zu überprüfen:
   * [Wallpaper Engine-Dateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=german)
-* If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
+* Wenn alle Downloads weiterhin feststecken: **Schalte Steam aus** und danach **lösche den Inhalt** des folgenden Verzeichnisses:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-    * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
-    * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Restart Steam. Do not start any games. Check in the Steam download tab for progress and resume any paused downloads.
+    * Wenn du ein Antivirenprogramm benutzt, stelle sicher, dass es explizit diesen Ordner ignoriert
+    * **Bitte beachte:** `C:\Program Files (x86)\Steam` ist das standardmäßige Installationsverzeichnis von Steam, wenn du es woanders installiert hast musst du dort schauen.
+* Starte Steam neu. Starte keine Spiele über Steam. Check in the Steam download tab for progress and resume any paused downloads.
 
 ::: details
 Click here to see more possible solutions if the steps above did not fix your download problems
