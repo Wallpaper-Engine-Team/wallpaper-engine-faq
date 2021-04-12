@@ -29,11 +29,11 @@ Steam hat den Download und die Überprüfung der Dateien noch nicht abgeschlosse
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
     * Wenn du ein Antivirenprogramm benutzt, stelle sicher, dass es explizit diesen Ordner ignoriert
     * **Bitte beachte:** `C:\Program Files (x86)\Steam` ist das standardmäßige Installationsverzeichnis von Steam, wenn du es woanders installiert hast musst du dort schauen.
-* Starte Steam neu. Starte keine Spiele über Steam. Check in the Steam download tab for progress and resume any paused downloads.
+* Starte Steam neu. Starte keine Spiele über Steam. Überprüfe die Download-Übersicht in Steam für den Fortschritt des Downloads und stelle sicher, dass dort keine Downloads pausiert sind.
 
 ::: details
-Click here to see more possible solutions if the steps above did not fix your download problems
-* Make sure no anti-virus or firewall is blocking Steam. Exclude the whole Steam directory in your anti-virus app settings.
+Klicke hier, um weitere Lösungsvorschlage zu sehen, falls die Schritte oben deine Download-Probleme nicht lösen
+* Stelle sicher, dass kein Antiviren- oder Firewall-Programm Steam blockiert. Exclude the whole Steam directory in your anti-virus app settings.
 * Unsubscribe the wallpapers that fail to download and subscribe to them again after restarting Steam.
 * Choose a different content server in Steam's settings. The option can be found in the "Downloads" tab of the Steam settings.
 * Make sure you did not restrict Steam downloads in the **Steam settings** based on time, bandwidth, being in-app.
