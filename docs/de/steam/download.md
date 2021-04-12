@@ -10,21 +10,21 @@ tags:
 
 # Steam-Probleme beim Downloaden von Hintergründen
 
-Bitte beachte, dass **alle Downloads von Steam durchgeführt werden**. Wallpaper Engine zeigt lediglich den Download-Status von Steam an, alle Download-Probleme hängen mit Steam zusammen und sind nicht direkt mit Wallpaper Engine verbunden. This guide contains a collection of the most common issues with downloads, in many cases the initial cause of problems are overzealous antivirus applications or blocked network ports.
+Bitte beachte, dass **alle Downloads von Steam durchgeführt werden**. Wallpaper Engine zeigt lediglich den Download-Status von Steam an, alle Download-Probleme hängen mit Steam zusammen und sind nicht direkt mit Wallpaper Engine verbunden. Diese Seite enthält eine Sammlung der häufigsten Download-Probleme, in vielen Fällen werden Probleme dieser Art von zu strikt konfigurierten Antivirenprogrammen oder blockierten Netzwerk-Ports ausgelöst.
 
-If you are having issues with Steam downloads, make sure no antivirus application is blocking your Steam and that all necessary ports are open in your firewall - including any firewalls in your network routers.
+Falls du Probleme mit Steam-Downloads hast, stelle sicher, dass kein Antivirenprogramm dein Steam blockiert und dass alle benötigten Ports in deiner Firewall offen sind - inklusive der Firewall deines Netzwerk-Routers.
 
 ::: tip
-You can easily check if your network router is blocking Steam downloads by switching to a mobile hotspot on your smartphone and attempt to download a wallpaper through that.
+Du kannst einfach überprüfen, ob dein Netzwerk-Router Steam blockiert, indem du deinen PC mit einem mobilen Hotspot deines Smartphone verbindest und versuchst darüber Hintergründe herunterzuladen.
 :::
 
-## Wallpaper download stuck at 0% or 100% (or any other percentage)
-Steam is not done downloading and verifying the files. If the downloads are stuck for a while, try these things if your Steam downloads do not work even after you waited for a while:
+## Download von Hintergründen steckt bei 0% oder 100% (oder jeglicher anderen Prozentzahl)
+Steam hat den Download und die Überprüfung der Dateien noch nicht abgeschlossen. Falls die Downloads für eine Weile stecken bleiben, versuche die folgenden Dinge wenn das Problem trotz einiger Wartezeit nicht weggeht:
 
-* Clear Steam's download cache in Steam's options:
-  * [Clear Steam Download cache](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638)
-* Afterwards verify the files of Wallpaper Engine in Steam:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* Lösche den Download-Cache von Steam in den Steam-Einstellungen:
+  * [Steams Download-Cache löschen](https://support.steampowered.com/kb_article.php?ref=3134-TIAL-4638&l=german)
+* Versuche danach, die Dateien von Wallpaper Engine über Steam auf Fehler zu überprüfen:
+  * [Wallpaper Engine-Dateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=german)
 * If all downloads are still stuck: **Turn off Steam** and afterwards **delete the contents** of this directory:
   * `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
     * If you have an anti-virus application installed, make sure that it's specifically excluding this directory
@@ -63,7 +63,7 @@ Steam is unable to download some files, this can be due to anti-virus applicatio
 * Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
   * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
 * Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=german)
 
 If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
