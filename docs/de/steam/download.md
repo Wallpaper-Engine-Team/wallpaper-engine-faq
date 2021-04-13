@@ -54,17 +54,17 @@ Die Steam Server werden wöchentlich gewartet und sind zu diesen Zeiten nicht er
 Wenn du diese Anleitung zu ungefähr dieser Uhrzeit der Woche liest, können die Server derzeit kurzzeitig nicht erreichbar sein. Warte in bis zwei Stunden und versuche es dann erneut.
 :::
 
-## Steam: "Missing Downloaded Files" error
+## Steam-Fehlermeldung: "Fehlende Downloaddateien"
 
-Steam is unable to download some files, this can be due to anti-virus applications blocking Steam or just absolutely random. It can usually be fixed this way:
+Steam ist nicht in der Lage einige Dateien richtig herunterzuladen, dies kann durch Antivirenprogramme ausgelöst werden aber auch einfach durch zufällige Probleme. Dieses Problem kann normalerweise wie folgt behoben werden:
 
-* Turn off Steam.
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
-* Delete the contents of this directory: `C:\Program Files (x86)\Steam\steamapps\downloading\431960`
-  * **Note:** `C:\Program Files (x86)\Steam` is the default Steam path, if you have installed it somewhere else, check there.
-* Start Steam and verify the Wallpaper Engine files:
-  * [Verify Wallpaper Engine files](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=german)
+* Schalte Steam vollständig aus.
+* Lösche den Inhalt des folgenden Verzeichnisses: `C:\Programme (x86)\Steam\steamapps\workshop\downloads`
+* Lösche den Inhalt des folgenden Verzeichnisses: `C:\Programme (x86)\Steam\steamapps\downloading\431960`
+  * **Bitte beachte:** `C:\Programme (x86)\Steam` ist das standardmäßige Installationsverzeichnis von Steam, wenn du es woanders installiert hast musst du dort schauen.
+* Starte Steam erneut und überprüfe die Wallpaper Engine auf Fehler:
+  * [Wallpaper Engine-Dateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=german)
 
-If you have an antivirus-app installed: Configure an exception for this directory to prevent it from blocking Steam's Workshop downloads: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
+Wenn du ein Antivirenprogramm installiert hast: Stelle eine Ausnahmeregel für das folgende Verzeichnis ein, um sicherzustellen, dass Steams Workshop-Downloads nicht blockiert werden: `C:\Program Files (x86)\Steam\steamapps\workshop\downloads`
 
-#### Related article: [Steam re-downloading all wallpapers](/steam/redownload)
+#### Verwandte Hilfe-Seite: [Steam lädt Hintergründe erneut runter](/steam/redownload)
