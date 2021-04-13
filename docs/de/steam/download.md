@@ -41,17 +41,17 @@ Klicke hier, um weitere Lösungsvorschlage zu sehen, falls die Schritte oben dei
 * Rechtsklicke auf Wallpaper Engine in Steam, dann Eigenschaften, dann stelle sicher, dass die Option **Hintergrund-Downloads erlauben** aktiviert ist.
 * Stelle sicher, dass du keine aktiven oder pausierten Spiele-Updates in Steam hast, dies könnte die Downloads von Hintergründen pausieren oder deaktivieren.
 * Versuche den Download der Hintergründe später noch einmal, für den Fall das es Probleme mit den Steam-Servern gibt.
-* **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!).
+* **Als letzte Möglichkeit** kannst du versuchen Wallpaper Engine neu zu installieren um mögliche defekte Steam-Dateien so zu löschen (dies wird jedoch alle Hintergründe erneut herunterladen!).
 :::
 
 ::: tip
-Steam servers go offline every week for maintenance at a fixed time:
+Die Steam Server werden wöchentlich gewartet und sind zu diesen Zeiten nicht erreichbar:
 
-* United States West Coast: **Tuesday at 4 pm (UTC - 7)**
-* Same time in Central Europe: **Wednesday at 1 am (UTC + 1)**
-* Same time in China: **Wednesday at 8 am (UTC + 8)**
+* USA - Westküste: **Dienstag um 16 Uhr (UTC - 7)**
+* Die gleiche Uhrzeit in Zentraleuropa: **Mittwoch um 1:00 Uhr morgens (UTC + 1)**
+* Die gleiche Uhrzeit in China: **Mittwoch um 8:00 Uhr morgens (UTC + 8)**
 
-If you are reading this while it is roughly this time of the week, it may be that the servers are temporarily offline. Wait one or two hours and try again.
+Wenn du diese Anleitung zu ungefähr dieser Uhrzeit der Woche liest, können die Server derzeit kurzzeitig nicht erreichbar sein. Warte in bis zwei Stunden und versuche es dann erneut.
 :::
 
 ## Steam: "Missing Downloaded Files" error
