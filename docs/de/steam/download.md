@@ -39,8 +39,8 @@ Klicke hier, um weitere Lösungsvorschlage zu sehen, falls die Schritte oben dei
 * Stelle sicher, dass du die Steam-Downloads nicht in den **Steam-Einstellungen** basierend auf Uhrzeit, Bandbreite oder Im-Spiel-Status limitiert hast.
 * Öffne den Reiter "Downloads" in Steam (Bibliothek -> Downloads). Schaue ob Downloads pausiert sind. Wenn dies der Fall ist, klicke auf die Fortführen-Schaltfläche.
 * Rechtsklicke auf Wallpaper Engine in Steam, dann Eigenschaften, dann stelle sicher, dass die Option **Hintergrund-Downloads erlauben** aktiviert ist.
-* Make sure you do not have pending game updates in Steam, it could pause or disable wallpaper downloads.
-* Try again after waiting at least for a day in case there are Steam server issues.
+* Stelle sicher, dass du keine aktiven oder pausierten Spiele-Updates in Steam hast, dies könnte die Downloads von Hintergründen pausieren oder deaktivieren.
+* Versuche den Download der Hintergründe später noch einmal, für den Fall das es Probleme mit den Steam-Servern gibt.
 * **As a last resort**, try to re-install Wallpaper Engine to clear any broken Steam files (this will re-download all wallpapers!).
 :::
 
