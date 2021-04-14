@@ -16,13 +16,13 @@ Rechtsklicke auf einen Hintergrund im Reiter "Installiert" und wähle "Im Dateim
 
 Szene-Hintergründe werden in eine .pkg-Datei gepackt, welche nicht einfach so editiert werden können, da sie nicht alle Projekt-Dateien enthalten. Das Öffnen einer .pkg-Datei resultiert in der Fehlermeldung "Gepackte Hintergründe können nicht geöffnet werden.". Eine Analogie an dieser Stelle wäre, dass .jpeg-Bilddateien auch nicht mit ihren ursprünglichen Photoshop-Projektdateien ausgeliefert werden - diese bleiben immer nur auf dem System des Autors zurück.
 
-#### Unofficial Community Scene Unpacker
+#### Inoffizieller Szene-Unpacker aus der Community
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+Einige Mitglieder aus der Community haben ein inoffizielles Tool zum Auspacken von Szene-Hintergründen erstellt, welches es dir erlaubt, Szene-Files auszupacken und diese als Ausgangspunkt für deine eigenen Hintergründe zu verwenden. Schaue dir die folgende Website für weitere Informationen an:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+Du benötigst trotzdem noch eine valide project.json-Datei. Du kannst eine solche Datei erstellen, indem du einen neuen leeren Hintergrund im Editor erstellst, daraufhin Wallpaper Engine ausschaltest und dann den von dir heruntergeladenen Hintergrund auspackst und dessen Inhalte in das leere Projekt-Verzeichnis kopierst.
 
 If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
 
@@ -42,7 +42,7 @@ Video-based wallpapers are video files. You can find the video file as described
 
 Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
 
-## Updating a lost project
+## Ein eigenes verlorenes Projekt aktualisieren
 
 If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
 
