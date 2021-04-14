@@ -24,27 +24,26 @@ Einige Mitglieder aus der Community haben ein inoffizielles Tool zum Auspacken v
 
 Du benötigst trotzdem noch eine valide project.json-Datei. Du kannst eine solche Datei erstellen, indem du einen neuen leeren Hintergrund im Editor erstellst, daraufhin Wallpaper Engine ausschaltest und dann den von dir heruntergeladenen Hintergrund auspackst und dessen Inhalte in das leere Projekt-Verzeichnis kopierst.
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+Wenn du einen Hintergrund erneut bearbeiten willst, du jedoch die Projektdateien verloren hast, schaue dir die Sektion *Ein eigenes verlorenes Projekt aktualisieren* weiter unten an für weitere Informationen über Änderungen die du an der project.json machen musst, sodass du ein Update für deinen existierenden Hintergrund machen kannst.
 
-::: warning
-Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators.
+::: Bitte beachte Wir bieten keine offizielle Unterstützung für dieses Tool an und können nicht garantieren, dass es korrekt funktioniert. Falls du Probleme mit oder Fragen über den Unpacker hast, kontaktiere bitte die Autoren des Tools.
 :::
 
-### Web wallpapers
+### Web-Hintergründe
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Web-basierte Hintergründe nutzen HTML und JavaScript. Du kannst die Source-Dateien wie in der obigen Sektion beschrieben ansehen und diese als Ausgangslage für deinen eigenen web-basierten Hintergrund nutzen.
 
-### Video wallpapers
+### Video-Hintergründe
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+Video-basierte Hintergründe sind einfache Video-Dateien. Du kannst die Video-Datei finden, indem du die Schritte in der Sektion weiter oben verfolgst und dann ein Videoschnittprogramm deiner Wahl verwenden, um das Video anzupassen.
 
-### Application wallpapers
+### Anwendungshintergrund
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+Allgemein gesagt, kann man Hintergründe basierend auf Anwendungen nicht editieren. Bei Anwendungshintergründen handelt es sich normalerweise um kompilierte Programme, was bedeutet, dass du keinen Zugriff auf den Quellcode hast. Wenn du einen auf einer Anwendung basierenden Hintergrund wirklich verändern möchtest, versuche die Autoren des Hintergrundes zu kontaktieren und frage nach, ob sie dir dabei helfen können.
 
 ## Ein eigenes verlorenes Projekt aktualisieren
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+Falls du die Projektdateien einer deiner Hintergründe gelöscht hast, kannst du ihn dennoch aktualisieren, aber je nachdem um welche Art von Hintergrund es sich handelt, ist es gegebenenfalls nicht mehr möglich, das Projekt noch zu bearbeiten. Erstelle einen neuen Hintergrund wie sonst auch und öffne dessen Projektdateien über die Schaltfläche Bearbeiten -> im Dateimanager anzeigen. Öffne die `project.json`-Datei mit einem Text-Editor, dies sollte ungefähr so aussehen:
 
 ```json
 {
