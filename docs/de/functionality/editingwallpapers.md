@@ -1,6 +1,6 @@
-# Heruntergeladene Wallpaper bearbeiten
+# Heruntergeladene Hintergründe bearbeiten
 
-Grundsätzlich unterstützt Wallpaper Engine das Bearbeiten von heruntergeladenen Wallpapern nicht. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+Grundsätzlich unterstützt Wallpaper Engine das Bearbeiten von heruntergeladenen Hintergründen nicht. Nichtsdestotrotz ist es normalerweise trotzdem möglich Hintergründe zu mithilfe von Drittanbieter-Anwendungen editieren, je nachdem um welchen Art von Hintergrund es sich handelt (du kannst die Art des Hintergrunds rechts unter dem Vorschaubild finden).
 
 Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
 
