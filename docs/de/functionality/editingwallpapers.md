@@ -1,20 +1,20 @@
-# Editing Downloaded Wallpapers
+# Heruntergeladene Hintergründe bearbeiten
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+Grundsätzlich unterstützt Wallpaper Engine das Bearbeiten von heruntergeladenen Hintergründen nicht. Nichtsdestotrotz ist es normalerweise trotzdem möglich Hintergründe zu mithilfe von Drittanbieter-Anwendungen editieren, je nachdem um welchen Art von Hintergrund es sich handelt (du kannst die Art des Hintergrunds rechts unter dem Vorschaubild finden).
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+Bitte beachte, dass du gegebenenfalls die Rechte der originalen Autoren einholen solltest, bevor du deren Werke erneut veröffentlichst. Im Zweifelsfall solltest du die ursprünglichen Autoren kontaktieren, bevor du deine Werke im Steam Workshop veröffentlichst.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## Wie finde ich die Dateien eines Hintergrundes?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+Rechtsklicke auf einen Hintergrund im Reiter "Installiert" und wähle "Im Dateimanager anzeigen" aus.
 
-## How to edit wallpapers of different types
+## Das Editieren der verschiedenen Hintergrundarten
 
-### Scene wallpapers
+### Szene-Hintergründe
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Szene-Hintergründe werden in eine .pkg-Datei gepackt, welche nicht einfach so editiert werden können, da sie nicht alle Projekt-Dateien enthalten. Das Öffnen einer .pkg-Datei resultiert in der Fehlermeldung "Gepackte Hintergründe können nicht geöffnet werden.". Eine Analogie an dieser Stelle wäre, dass .jpeg-Bilddateien auch nicht mit ihren ursprünglichen Photoshop-Projektdateien ausgeliefert werden - diese bleiben immer nur auf dem System des Autors zurück.
 
 #### Unofficial Community Scene Unpacker
 
@@ -71,12 +71,12 @@ If you deleted your project you can still overwrite it, but depending on the typ
 }
 ```
 
-Add this line at the top right after `{`:
+Füge diese Zeile oben direkt nach `{` ein:
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+Der obere Teil sollte nun so aussehen:
 
 ```json{2}
 {
@@ -86,6 +86,6 @@ So that it looks like:
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**Ersetze dabei die Nummer 12345678 mit deiner bestehenden Workshop-ID! Du kannst diese ID in der URL deines bereits existierenden Uploads finden:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
