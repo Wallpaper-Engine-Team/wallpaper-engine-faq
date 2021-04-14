@@ -21,7 +21,7 @@ Zusammenfassend: Es ist wichtig, die GPU-Taktrate im Kopf zu behalten, wenn du d
 Wenn du die Leistung deiner GPU verbessern willst kannst du die folgenden Dinge probieren:
 
 * Deaktiviere oder lösche alle Arten von Overlays und Aufnahmeprogrammen, inklusive Nvidia GeForce Experience und AMD ReLive.
-* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+* Senke die Einstellung "Bilder pro Sekunde" und deaktiviere die Einstellung "Kantenglättung" (dies hat keinen Effekt auf 2D-Hintergründe).
+    * Dies beeinflusst nicht die Qualität von Videos, diese haben eine fixe Bildwiederholungsrate und Qualität.
+    * Die Auflösung und Bildwiederholungsrate von Video-Hintergründen beeinflussen die Leistung, nutze Videos mit niedrigere Bildwiederholungsrate um die GPU-Auslastung zu verringern.
+* Verbinde alle Bildschirme mit der gleichen Grafikkarte, ansonsten hat Windows Probleme damit, das Gesamtbild zu synchronisieren.
