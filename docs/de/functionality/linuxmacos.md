@@ -1,6 +1,6 @@
-# Wallpaper Engine on Linux, Mac or Android
+# Wallapper Engine auf Linux, Mac oder Android
 
-Wallpaper Engine is currently only available on Windows and there are no immediate plans to support other platforms.
+Wallpaper Engine ist derzeit nur für Windows verfügbar und es gibt derzeit keine Pläne dies auf weitere Plattformen auszubauen.
 
 While we definitely understand that users want us to support more operating systems, it is really not a simple task. The core of Wallpaper Engine is a completely custom written software solution and the amount of work involved to fully port it to other platforms is enormous.
 
