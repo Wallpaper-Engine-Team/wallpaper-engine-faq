@@ -1,12 +1,12 @@
 ---
 tags:
   - antivirus
-  - showing
+  - antivirenprogramm
 ---
 
-# Wallpapers not visible
+# Hintergründe werden nicht angezeigt
 
-If some or all of your wallpapers do not show up, it's often caused by an antivirus application blocking Wallpaper Engine by mistake. If you are using an antivirus application, please make sure to configure it so that it ignores the *wallpaper_engine* installation directory and all important Wallpaper Engine executables:
+Wenn einige oder gar alle deine Hintergründe nicht angezeigt werden, so wird dies in den meisten Fällen von Antivirenprogrammen verursachten, die Wallpaper Engine fälschlicherweise blockieren. Wenn du ein Antivirenprogramm verwendest, stelle sicher, dass du es so konfiguriert hast, dass es das *wallpaper_engine*-Installationsverzeichnis und alle .exe-Dateien von Wallpaper Engine ignoriert:
 
 * *wallpaper_engine/wallpaper32.exe*
 * *wallpaper_engine/wallpaper64.exe*
@@ -15,23 +15,23 @@ If some or all of your wallpapers do not show up, it's often caused by an antivi
 * *wallpaper_engine/bin/ui32.exe*
 
 ::: tip
-If you have an anti-virus application installed (except Windows Defender), it's very likely that this is the cause of your problems. Take some time to investigate this further if your first attempts do not fix this issue.
+Wenn du ein Antivirenprogramm installiert hast (außer Windows Defender), ist es sehr wahrscheinlich, dass es die Ursache für diese Art von Problemen ist. Schaue dir dein Antivirenprogramm genauer an, wenn die ersten Schritte beim Konfigurieren des Antivirenprogramms nicht zum Erfolg führen.
 :::
 
-## High-contrast mode in Windows
+## Modus für hohen Kontrast in Windows
 
-If you have enabled **high-contrast mode** in your Windows 10 theme settings with the **High Contrast White** theme selected, Windows will forcibly turn off Wallpaper Engine wallpapers. Try changing the high-contrast theme you are using in the high-contrast settings of Windows or turn high-contrast mode off entirely and the issue will disappear.
+Wenn du den **Modus für hohen Kontrast** in deinen Windows 10-Einstellungen aktiviert hast und den Design-Stil **Hoher Kontrast - Weiß** ausgewählt hast, deaktiviert Windows die Hintergründe von Wallpaper Engine. Versuche den Design-Stil des für den Modus mit hohem Kontrast in den dazugehörigen Einstellungen von Windows zu verändern oder deaktiviere den Modus mit hohem Kontrast vollständig, in beiden Fällen sollte das Problem gelöst werden.
 
-## Conflicts with other desktop modification software
+## Konflikte mit anderen Anwendungen zur Veränderung des Windows-Desktops
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine funktioniert gut zusammen mit den meisten anderen Anwendungen zur Veränderungen des Windows Desktops. Trotzdem können einige Anwendungen, wie zum Beispiel StarDock DeskScapes auch die Hintergründe von Windows bearbeiten, in diesen Fällen kann man nicht beide Anwendungen gleichzeitig laufen lassen. Wenn du eine andere Anwendung nutzt, welche ähnlich zu Wallpaper Engine ist, musst du eine Wahl treffen und dich für eine dieser Anwendungen entscheiden.
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+Allgemein funktioniert Wallpaper Engine gut in Verbindung mit *Fences*. **Wenn du jedoch Fences installiert hast, es aber deaktiviert ist**, wird es den Hintergrund von Wallpaper Engine verstecken. In diesem Fall musst du Fences entweder aktivieren oder vollständig deinstallieren.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Grauer Hintergrund oder fehlende Texturen auf Windows 7
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Stelle sicher, dass das Windows 7-Update **KB2533623** installiert ist. Installiere es entweder manuell über den folgenden Link oder stelle sicher, dass Windows Update korrekt konfiguriert ist und von selbst installieren kann. Du kannst das Update manuell von der Microsoft-Website herunterladen, starte dein System nach der Installation neu und das Problem sollte gelöst sein:
 
 * [KB2533623](https://support.microsoft.com/de-de/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
