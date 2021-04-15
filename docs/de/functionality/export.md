@@ -8,8 +8,8 @@ Nichtsdestotrotz kannst du eine Aufnahme deiner Hintergründe machen und händis
 
 * [OBS Studio](https://obsproject.com/) (Erweiterter Funktionsumfang)
 
-#### Getting a clear shot of your wallpapers
+#### Ein sauberes Bild deiner Hintergründe kriegen
 
-You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+Du kannst einfach einen sauberen Blick auf deine Hintergründe kriegen und die Größe verändern, indem du im Reiter "Installiert" mit einem Rechtsklick auf deinen Hintergrund klickst und dann "In Fenster wiedergeben" anklickst, was ein Fenster mit deinem Hintergrund öffnet. Dadurch ist es unnötig, dass du deine Desktop-Icons und andere Windows-Elemente versteckst und erlaubt es dir, die Fenstergröße zu verändern um die von dir gewünschte Größe und das Seitenverhältnis für deinen "Export" zu erhalten:
 
 ![Rechtsklicke auf einen Hintergrund und wähle "In Fenster wiedergeben"](./playinwindow.gif)
