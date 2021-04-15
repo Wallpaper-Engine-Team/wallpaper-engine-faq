@@ -2,25 +2,25 @@
 tags:
   - activemovie window
   - active movie
-  - black
+  - schwarz
 ---
 
 # Videos sind schwarz oder spielen nicht richtig ab
 
-Black screens and other issues with wallpapers of the type *Video* are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
+Wenn du ein schwarzes Bild oder andere Probleme mit der Wiedergabe von Hintergründen des Typs *Video* hast, so ist dies *immer* ein Problem mit deinen Grafikkartentreibern oder fehlerhaften Video-Codecs. Versuche die folgenden Schritte in der vorgegebenen Reihenfolge. Wenn du diese Anleitung von oben nach unten befolgst, sollte dein Problem gelöst werden:
 
 ::: warning
-Please note This topic is about the Wallpaper Engine **wallpapers** being black or not playing properly. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black).
+Bitte beachte Dieser Artikel handelt über den Fall, in dem **Hintergründe** von Wallpaper Engine schwarz sind oder nicht richtig abgespielt werden. Wenn die **Benutzeroberfläche von Wallpaper Engine schwarz ist**, musst du den folgenden Artikel lesen: [Benutzeroberfläche von Wallpaper Engine ist schwarz oder weiß](/interface/broken.html).
 :::
 
-## Clean graphics card driver re-installation
+## Saubere Neuinstallations der Grafikkartentreiber
 
 For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
 
 1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
 
-* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
-* [AMD Radeon](https://www.amd.com/support)
+* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx?lang=de-de)
+* [AMD Radeon](https://www.amd.com/de/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
@@ -41,12 +41,12 @@ If it does not work after doing a clean re-installation of your graphics card dr
 * Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
 * Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![Deaktiviere alle Optionen in den Media Foundationen-Einstellungen](./codectweak.gif)
 
 * Restart the PC and try the affected wallpapers again.
 
-## Additional video codecs
+## Weitere Video-Codecs
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+Wenn die jeweiligen Video-Hintergründe immer noch nicht funktionieren nach den vorherigen Schritten, lade LAV herunter und nutze DirectShow, wie im folgenden Artikel beschrieben wird:
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [LAV und DirectShow nutzen](/videos/lav.html).
