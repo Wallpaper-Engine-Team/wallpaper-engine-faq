@@ -1,50 +1,49 @@
-# Editing Downloaded Wallpapers
+# Heruntergeladene Hintergründe bearbeiten
 
-Generally, Wallpaper Engine does not support editing downloaded wallpapers itself. However, it is usually possible to edit wallpapers depending on their type (you can find the type below the preview image on the right) with the help of third-party applications.
+Grundsätzlich unterstützt Wallpaper Engine das Bearbeiten von heruntergeladenen Hintergründen nicht. Nichtsdestotrotz ist es normalerweise trotzdem möglich Hintergründe zu mithilfe von Drittanbieter-Anwendungen editieren, je nachdem um welchen Art von Hintergrund es sich handelt (du kannst die Art des Hintergrunds rechts unter dem Vorschaubild finden).
 
-Please always keep in mind that you may need the rights from the original author(s) in order to re-publish their work. When in doubt, contact the original authors before publishing it to the Steam Workshop.
+Bitte beachte, dass du gegebenenfalls die Rechte der originalen Autoren einholen solltest, bevor du deren Werke erneut veröffentlichst. Im Zweifelsfall solltest du die ursprünglichen Autoren kontaktieren, bevor du deine Werke im Steam Workshop veröffentlichst.
 
 [[toc]]
 
-## How do I find the source files of a wallpaper?
+## Wie finde ich die Dateien eines Hintergrundes?
 
-Right-click on a wallpaper in the "Installed" tab and select "Open in Explorer".
+Rechtsklicke auf einen Hintergrund im Reiter "Installiert" und wähle "Im Dateimanager anzeigen" aus.
 
-## How to edit wallpapers of different types
+## Das Editieren der verschiedenen Hintergrundarten
 
-### Scene wallpapers
+### Szene-Hintergründe
 
-Scene wallpapers are packed into a .pkg file which is not editable out of the box because it is missing all project-related data. Trying to open a .pkg file will result in the error "Packed wallpapers cannot be opened." to be shown. An analogy would be that .jpeg image files also do not come with Photoshop project data attached - this is always left on the system of the original author.
+Szene-Hintergründe werden in eine .pkg-Datei gepackt, welche nicht einfach so editiert werden können, da sie nicht alle Projekt-Dateien enthalten. Das Öffnen einer .pkg-Datei resultiert in der Fehlermeldung "Gepackte Hintergründe können nicht geöffnet werden.". Eine Analogie an dieser Stelle wäre, dass .jpeg-Bilddateien auch nicht mit ihren ursprünglichen Photoshop-Projektdateien ausgeliefert werden - diese bleiben immer nur auf dem System des Autors zurück.
 
-#### Unofficial Community Scene Unpacker
+#### Inoffizieller Szene-Unpacker aus der Community
 
-However, community members have created an unofficial scene wallpaper unpacking tool, which allows you to unpack Scene files and use them as a starting point for your own wallpapers. See this website for more information:
+Einige Mitglieder aus der Community haben ein inoffizielles Tool zum Auspacken von Szene-Hintergründen erstellt, welches es dir erlaubt, Szene-Files auszupacken und diese als Ausgangspunkt für deine eigenen Hintergründe zu verwenden. Schaue dir die folgende Website für weitere Informationen an:
 
 * [https://wetranslate.thiscould.work/scene.pkg/](https://wetranslate.thiscould.work/scene.pkg/)
 
-You will still need to have a valid project.json file, you can create one by simply creating a new empty wallpaper in the editor, closing the Wallpaper Engine and then unpacking the downloaded wallpaper and copy-pasting its contents into the new project directory.
+Du benötigst trotzdem noch eine valide project.json-Datei. Du kannst eine solche Datei erstellen, indem du einen neuen leeren Hintergrund im Editor erstellst, daraufhin Wallpaper Engine ausschaltest und dann den von dir heruntergeladenen Hintergrund auspackst und dessen Inhalte in das leere Projekt-Verzeichnis kopierst.
 
-If you want to edit one of your own wallpapers that you have previously lost the project files for, see the *Updating a lost project* section below for more infos on what changes you need to make to the project.json so that you can push updates to your existing wallpapers.
+Wenn du einen Hintergrund erneut bearbeiten willst, du jedoch die Projektdateien verloren hast, schaue dir die Sektion *Ein eigenes verlorenes Projekt aktualisieren* weiter unten an für weitere Informationen über Änderungen die du an der project.json machen musst, sodass du ein Update für deinen existierenden Hintergrund machen kannst.
 
-::: warning
-Please note We do not provide official support for this tool and do not guarantee that it works correctly. If you have any problems with or questions about the unpacker, please get in touch with the original creators.
+::: Bitte beachte Wir bieten keine offizielle Unterstützung für dieses Tool an und können nicht garantieren, dass es korrekt funktioniert. Falls du Probleme mit oder Fragen über den Unpacker hast, kontaktiere bitte die Autoren des Tools.
 :::
 
-### Web wallpapers
+### Web-Hintergründe
 
-Web-based wallpapers are HTML and JavaScript-based. You can go to the source files as described in the section above and use these files as a basis for your own web-based wallpaper.
+Web-basierte Hintergründe nutzen HTML und JavaScript. Du kannst die Source-Dateien wie in der obigen Sektion beschrieben ansehen und diese als Ausgangslage für deinen eigenen web-basierten Hintergrund nutzen.
 
-### Video wallpapers
+### Video-Hintergründe
 
-Video-based wallpapers are video files. You can find the video file as described in the section above and then use a third-party video editing application of your choice to modify the video.
+Video-basierte Hintergründe sind einfache Video-Dateien. Du kannst die Video-Datei finden, indem du die Schritte in der Sektion weiter oben verfolgst und dann ein Videoschnittprogramm deiner Wahl verwenden, um das Video anzupassen.
 
-### Application wallpapers
+### Anwendungshintergrund
 
-Generally, application wallpapers cannot be edited. Application wallpapers are usually compiled programs which means you do not have access to the source code. If you really want to change application-based wallpapers, try contacting the author of the wallpaper and see if they are willing to help.
+Allgemein gesagt, kann man Hintergründe basierend auf Anwendungen nicht editieren. Bei Anwendungshintergründen handelt es sich normalerweise um kompilierte Programme, was bedeutet, dass du keinen Zugriff auf den Quellcode hast. Wenn du einen auf einer Anwendung basierenden Hintergrund wirklich verändern möchtest, versuche die Autoren des Hintergrundes zu kontaktieren und frage nach, ob sie dir dabei helfen können.
 
-## Updating a lost project
+## Ein eigenes verlorenes Projekt aktualisieren
 
-If you deleted your project you can still overwrite it, but depending on the type of wallpaper you published, you may not be able to edit it anymore. Create a new wallpaper as usual and open its project directory with Edit -> Open in Explorer. Open the `project.json` file with a text editor, it will look something like this:
+Falls du die Projektdateien einer deiner Hintergründe gelöscht hast, kannst du ihn dennoch aktualisieren, aber je nachdem um welche Art von Hintergrund es sich handelt, ist es gegebenenfalls nicht mehr möglich, das Projekt noch zu bearbeiten. Erstelle einen neuen Hintergrund wie sonst auch und öffne dessen Projektdateien über die Schaltfläche Bearbeiten -> im Dateimanager anzeigen. Öffne die `project.json`-Datei mit einem Text-Editor, dies sollte ungefähr so aussehen:
 
 ```json
 {
@@ -71,12 +70,12 @@ If you deleted your project you can still overwrite it, but depending on the typ
 }
 ```
 
-Add this line at the top right after `{`:
+Füge diese Zeile oben direkt nach `{` ein:
 
 ```json
     "workshopid" : "12345678",
 ```
-So that it looks like:
+Der obere Teil sollte nun so aussehen:
 
 ```json{2}
 {
@@ -86,6 +85,6 @@ So that it looks like:
     [...]
 ```
 
-**Replace the number 12345678 with the ID of your submission! You can find this ID in the URL of your existing upload:**
+**Ersetze dabei die Nummer 12345678 mit deiner bestehenden Workshop-ID! Du kannst diese ID in der URL deines bereits existierenden Uploads finden:**
 
 ![https://steamcommunity.com/sharedfiles/filedetails/?id=12345678](./workshopid.png)
