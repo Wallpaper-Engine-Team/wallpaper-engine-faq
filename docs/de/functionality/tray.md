@@ -1,14 +1,14 @@
-# Hiding the Wallpaper Engine tray icon
+# Taskleistensymbol von Wallpaper Engine verstecken
 
-It is possible to hide the Wallpaper Engine tray icon by manually creating a registry key which tells Wallpaper Engine to hide the tray icon next to the Windows clock.
+Es ist möglich, das Taskleistensymbol von Wallpaper Engine zu verstecken, indem ein Schlüssel in der Windows-Registry angelegt wird, welcher Wallpaper Engine mitteilt, dass es das Symbol neben der Windows-Uhr verstecken soll.
 
 ::: warning
-We do not recommend to do this unless you are absolutely sure that the tray icon is annoying you so much that you are willing to accept the downsides of hiding the tray icon.
+Wir empfehlen diesen Schritt nicht, außer du bist dir absolut sicher, dass dich das Symbol in der Taskleiste so viel nervt, dass du ganz bewusst die Nachteile die durch das Verstecken des Taskleistensymbols in Kauf nimmst.
 :::
 
-Once the tray icon is hidden, the only way to turn off Wallpaper Engine will be to kill it through the Windows Task Manager. You will only be able to open up the user interface through Steam or the .exe files which is rather inconvenient and confusing.
+Sobald das Icon in der Taskleiste versteckt ist, kannst du Wallpaper Engine nur noch deaktivieren, indem du es über den Windows Task Manager terminierst. Du bist dann auch nur in der Lage die Benutzeroberfläche über Steam oder durch das Anklicken der .exe-Dateien zu öffnen, was unter Umständen relativ lästig sein und für Verwirrung sorgen kann.
 
-If you still want to proceed with hiding the tray icon, this is how you do it:
+Wenn du trotzdem fortfahren möchtest und das Taskleistensymbol verstecken möchtest, kannst du dies wie folgt tun:
 
 In order to create the registry key, open up the Windows start menu and type "regedit.exe" which will open the "Registry Editor".
 
