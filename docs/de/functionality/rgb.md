@@ -43,21 +43,21 @@ Wenn du Probleme mit dem Support von Corsair hast, kannst du uns natürlich auch
 
 ### Razer
 
-Most problems related to Razer RGB hardware can be fixed by doing a clean reinstallation of the Razer software suite while Wallpaper Engine is turned off:
+Die meisten Probleme mit Razer RGB-Hardware können geläst werden, indem eine saubere Neuinstallation durchgeführt wird, während Wallpaper Engine ausgeschaltet ist:
 
-1. Turn off Wallpaper Engine completely. This is very important, do not skip this.
+1. Schalte Wallpaper Engine vollständig aus. Dies ist sehr wichtig, überspringe diesen Schritt nicht.
 2. Deinstalliere jegliche Razer-Software von deinem Computer über die Windows-Systemsteuerung.
-3. Redownload the latest version of Razer Synapse 3 and install it. **Important:** Make sure to also reinstall the **Chroma Connect** module in Razer Synapse itself.
-4. Restart your computer, do not launch Wallpaper Engine before restarting Windows.
+3. Lade die neueste Version von Razer Synapse 3 herunter und installiere es. **Wichtig:** Stelle sicher, dass du auch das **Chroma Connect**-Modul in Razer Synapse selbst neu installierst.
+4. Starte deinen Computer neu, starte Wallpaper Engine nicht bis nach einem System-Neustart.
 
-See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
+Überprüfe nun, ob deine Probleme mit deiner RGB-Hardware nun gelöst wurden. Für weitere Unterstützung mit Razer-Hardware, kontaktiere bitte Razer direkt:
 
 [support.razer.com](https://support.razer.com/)
 
-Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
+Wenn du Probleme mit dem Support von Razer hast, kannst du uns natürlich auch kontaktieren und wir können schauen, ob wir dir helfen können.
 
-#### Razer Synapse 2 and older
+#### Razer Synapse 2 oder älter
 
-We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+Wir unterstützen nur Razer Synapse 3 oder neuer. Wenn du Razer Synapse 1 oder Razer Synapse 2 nutzt, stelle sicher, dass du diese zunächst vollständig deinstallierst und dann auf die neueste Version von Razer Synapse aktualisierst. In der Vergangenheit gab es einige Probleme mit Systemen, auf welchen Überreste von alten Razer Synapse-Versionen übrig waren. Falls du Razer Synapse 2 oder älter je installiert hattest und du Probleme mit deiner Beleuchtung hast oder sogar Abstürze mit dem RGB-Plugin hast, suche nach Überresten dieser alten Versionen von Razer Synapse und lösche diese.
 
-If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
+Wenn deine Razer-Hardware relativ alt ist und Razer Synapse 3 oder neuer nicht unterstützt, so ist die RGB-Beleuchtung leider nicht mit Wallpaper Engine kompatibel.
