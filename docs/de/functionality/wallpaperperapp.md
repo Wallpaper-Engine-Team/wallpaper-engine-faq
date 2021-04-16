@@ -8,11 +8,11 @@ Wenn du technische Probleme mit bestimmten Spielen oder Anwendungen hast, kannst
 
 ## Erstellen einer Anwendungsregel
 
-Im Reiter **Leistung** in den Einstellungen von Wallpaper Engine, klicke auf die Schaltfläche **Bearbeiten** in der Sektion über **Anwendungsregeln**. Klicke auf **Neue Regel erstellen** um eine Auswahl an Hintergründen für die .exe deiner Wahl zu erstellen. Gib im Eingabefeld **Anwendungsname** den Namen deiner .exe ein, stelle sicher, dass der Name genau gleich ist, zum Beispiel *musikprogramm.exe*. Setze die **Bedingung** auf **Ist gestartet**. In the **Wallpaper playback** option you can select one of the following options:
+Im Reiter **Leistung** in den Einstellungen von Wallpaper Engine, klicke auf die Schaltfläche **Bearbeiten** in der Sektion über **Anwendungsregeln**. Klicke auf **Neue Regel erstellen** um eine Auswahl an Hintergründen für die .exe deiner Wahl zu erstellen. Gib im Eingabefeld **Anwendungsname** den Namen deiner .exe ein, stelle sicher, dass der Name genau gleich ist, zum Beispiel *musikprogramm.exe*. Setze die **Bedingung** auf **Ist gestartet**. In der Option **Hintergrund-Wiedergabe** kannst du nun eine der folgenden Auswahlmöglichkeiten treffen:
 
-* Load wallpaper
-* Load playlist
-* Load profile
+* Hintergrund laden
+* Wiedergabeliste laden
+* Profil laden
 
 What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
 
