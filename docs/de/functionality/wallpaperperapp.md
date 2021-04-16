@@ -3,12 +3,12 @@
 Wallpaper Engine erlaubt es dir einen anderen Hintergrund zu laden, sobald eine bestimmte .exe auf deinem System gestartet wird. Dies kann beispielsweise nützlich sein wenn du weniger ablenkende Hintergründe haben möchtest, wenn du ein Spiel spielst oder kann automatisch einen Audio-Visualisierer starten wenn du deinen Musik-Wiedergabeprogramm startest.
 
 ::: tip
-Wenn du technische Probleme mit bestimmten Spielen oder Anwendungen hast, kannst du auch Anwendungsregeln um Wallpaper Engine zu deaktivieren, wenn eine bestimmte .exe gestartet wird. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+Wenn du technische Probleme mit bestimmten Spielen oder Anwendungen hast, kannst du auch Anwendungsregeln um Wallpaper Engine zu deaktivieren, wenn eine bestimmte .exe gestartet wird. Wenn du ein technisches Problem mit einer anderen App lösen willst, schaue dir diesen Artikel an: [Probleme mit bestimmten Anwendungen oder Spielen lösen](/functionality/applicationrules.html)
 :::
 
-## Setting up an application rule
+## Erstellen einer Anwendungsregel
 
-In the **Performance** tab of the Wallpaper Engine settings, click on the **Edit** button in the **Application rules** section. Click on **Create new rule** to set up a new set of wallpapers for an .exe of your choice. In the **Application name** input field, enter the name of your .exe, make sure the name matches exactly, for example *musicplayer.exe*. Set the **Condition** to **Is running**. In the **Wallpaper playback** option you can select one of the following options:
+Im Reiter **Leistung** in den Einstellungen von Wallpaper Engine, klicke auf die Schaltfläche **Bearbeiten** in der Sektion über **Anwendungsregeln**. Klicke auf **Neue Regel erstellen** um eine Auswahl an Hintergründen für die .exe deiner Wahl zu erstellen. Gib im Eingabefeld **Anwendungsname** den Namen deiner .exe ein, stelle sicher, dass der Name genau gleich ist, zum Beispiel *musikprogramm.exe*. Setze die **Bedingung** auf **Ist gestartet**. In the **Wallpaper playback** option you can select one of the following options:
 
 * Load wallpaper
 * Load playlist
