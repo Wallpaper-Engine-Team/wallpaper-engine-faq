@@ -1,4 +1,4 @@
-# Wallapper Engine auf Linux, Mac oder Android
+# Wallpaper Engine auf Linux, Mac oder Android
 
 Wallpaper Engine ist derzeit nur für Windows verfügbar und es gibt derzeit keine Pläne dies auf weitere Plattformen auszubauen.
 
