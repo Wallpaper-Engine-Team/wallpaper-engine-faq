@@ -19,27 +19,27 @@ Standardmäßig erhöhen wir die RGB-Farben ein wenig. Auf vielen Hintergründen
 
 ## Meine RGB-Hardware funktioniert nicht
 
-Wallpaper Engine is not capable of directly communicating to your RGB hardware, all color information are sent to the RGB drivers first. If one or more pieces of hardware are not working, the issue must be on the software side of your hardware vendor. Some very old hardware is not fully supported anymore by these hardware vendors and will not work. Keep in mind that this is nothing we can fix on our end.
+Wallpaper Engine ist nicht in der Lage direkt mit deiner RGB-Hardware zu kommunizieren, alle Farbinformationen werden an den RGB-Treiber vom Hersteller gesendet. Wenn ein oder mehrere Hardware-Teile nicht funktionieren muss das Problem in der Software deines Hardware-Herstellers liegen. Einige sehr alte Hardware-Teile werden gegebenenfalls nicht mehr vollständig vom Hardware-Hersteller unterstützt und können daher nicht funktionieren. Probleme dieser Art können von uns nicht behoben werden.
 
-If the *Plugin* section of Wallpaper Engine settings is not visible at all to you, you are likely missing or have a broken installation of the *Visual C++ Redistributable for Visual Studio 2015* which is mandatory for these features to work. You can download this package from the Microsoft website and install it, this should fix the issue after a system restart:
+Wenn die *Plugin*-Sektion in den Einstellungen von Wallpaper Engine gar nicht für dich sichtbar ist, so ist die dafür benötigte Installation der *Visual C++ Redistributable für Visual Studio 2015* wahrscheinlich defekt oder fehlt vollständig. In diesem Fall kannst du das Paket von der Microsoft-Website herunterladen und installieren, dies sollte das Problem nach einem System-Neustart beheben:
 
-* [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/de-de/download/details.aspx?id=48145)
+* [Visual C++ Redistributable für Visual Studio 2015](https://www.microsoft.com/de-de/download/details.aspx?id=48145)
 
 ### Corsair
 
-Some hardware such as **Corsair system memory (RAM) have software controls disabled by default**, meaning that your memory modules will not light up according to Wallpaper Engine unless you allow this in the iCUE software settings. Make sure the "Enable full software control" option in your iCUE device settings in the memory section is selected:
+Einige Hardware-Teile, wie **Corsairs Arbeitsspeicher (RAM) haben Software-Steuerung standardmäßig deaktiviert**, was bedeutet dass diese Speichermodule nicht dem Farbverlauf von Wallpaper Engine verfolgen, außer du konfigurierst diese explizit so in den Einstellungen. Stelle sicher, dass du die Option zur "vollen Software-Steuerung" in den Geräteeinstellungen deines Arbeitsspeichers in iCUE aktivierst:
 
 ![Volle Software-Kontrolle in iCUE aktivieren](./icue.png)
 
-Double-check this option for any other hardware parts which are not working properly.
+Überprüfe alle Einstellungen dieser Art für andere Hardware-Teile, welche ebenfalls nicht richtig funktionieren.
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+Bitte beachte, dass iCUE im *exklusiven Modus* benutzt wird, dies bedeutet, dass Wallpaper Engine eine höhere Priorität hat als andere iCUE-kompatible Software hat, so wie zum Beispiel Spiele. Wenn du möchtest, dass deine Spiele die Kontrolle über deine RGB-Hardware haben, gehe zum Reiter **Leistung** in den Einstellungen von Wallpaper Engine und setze die Einstellung **Andere Anwendungen vollbild** auf **Stoppen (Speicher freigeben)** um die Hintergründe vollständig zu stoppen, wenn du in einem Spiel bist. Alternativ kannst du das RGB-Plugin auch vollständig deaktivieren oder die RGB-Option auf einzelnen Hintergründen ausschalten.
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+Für weitere Unterstützung mit Corsair iCUE-Hardware, kontaktiere Corsair bitte direkt:
 
 [help.corsair.com](https://help.corsair.com/)
 
-Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
+Wenn du Probleme mit dem Support von Corsair hast, kannst du uns natürlich auch kontaktieren und wir können schauen, ob wir dir helfen können.
 
 ### Razer
 
