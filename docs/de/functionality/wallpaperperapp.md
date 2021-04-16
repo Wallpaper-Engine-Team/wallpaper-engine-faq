@@ -1,9 +1,9 @@
 # Auswählen von Hintergründen wenn eine Anwendung gestartet wird
 
-Wallpaper Engine erlaubt es dir einen anderen Hintergrund zu laden, sobald eine bestimmte .exe auf deinem System gestartet wird. For example, this may be useful if you want to have less distracting wallpapers whenever playing a game or automatically launch an audio visualizer when starting your music player.
+Wallpaper Engine erlaubt es dir einen anderen Hintergrund zu laden, sobald eine bestimmte .exe auf deinem System gestartet wird. Dies kann beispielsweise nützlich sein wenn du weniger ablenkende Hintergründe haben möchtest, wenn du ein Spiel spielst oder kann automatisch einen Audio-Visualisierer starten wenn du deinen Musik-Wiedergabeprogramm startest.
 
 ::: tip
-If you are having technical problems with certain games or applications, you can also use application rules to disable Wallpaper Engine when a certain .exe is launched. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
+Wenn du technische Probleme mit bestimmten Spielen oder Anwendungen hast, kannst du auch Anwendungsregeln um Wallpaper Engine zu deaktivieren, wenn eine bestimmte .exe gestartet wird. If you want to solve a technical problem with another app, view this guide instead: [Fix issues with specific apps or games](/functionality/applicationrules.html)
 :::
 
 ## Setting up an application rule
