@@ -1,18 +1,18 @@
 ---
 tags:
-  - screensavers
-  - hibernation
-  - sleep
-  - power saving
+  - bildschirmschoner
+  - standby
+  - ruhemodus
+  - energiesparmodus
 ---
 
-# Hibernation / Screensavers do not work
+# Standby / Ruhemodus / Bildschirmschoner funktionieren nicht
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings to prevent Windows from blocking hibernation in the first place. If you want to continue to have audio output, follow the steps in this guide on how to achieve that.
+Windows aktiviert den Ruhemodus nicht, wenn ein Audio-Stream aktiv ist. Du kannst dieses Problem umgehen, indem du die Audio-Ausgabe im Reiter "Allgemein" in den Einstellungen von Wallpaper Engine deaktivierst, um Windows daran zu hindern, den Ruhemodus zu blockieren. Falls du weiterhin Audio-Ausgabe nutzen möchtest, folge den Schritten in dieser Anleitung, um zu erfahren wie dies konfiguriert werden kann.
 
-## Change the Windows power settings
+## Anpassen der Windows-Energie-Einstellungen
 
-Windows does not hibernate with any active audio streams open. You can get around this by either disabling audio output in the "General" tab of the Wallpaper Engine settings or re-configuring your Windows to allow it to sleep with audio playback enabled:
+Windows aktiviert den Ruhemodus nicht, wenn ein Audio-Stream aktiv ist. Du kannst dieses Problem umgehen, indem du die Audio-Ausgabe im Reiter "Allgemein" in den Einstellungen von Wallpaper Engine deaktivierst oder indem du Windows so einstellst, dass es auch mit aktiver Audio-Wiedergabe den Ruhemodus aktiviert:
 
 1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
 2. Click on "Additional power settings"

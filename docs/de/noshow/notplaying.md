@@ -2,51 +2,51 @@
 tags:
   - activemovie window
   - active movie
-  - black
+  - schwarz
 ---
 
 # Videos sind schwarz oder spielen nicht richtig ab
 
-Black screens and other issues with wallpapers of the type *Video* are *always* caused by either faulty graphics card drivers or faulty video codecs. Try the following steps in the exact order. If you follow this guide from top to bottom, the problem will be solved:
+Wenn du ein schwarzes Bild oder andere Probleme mit der Wiedergabe von Hintergründen des Typs *Video* hast, so ist dies *immer* ein Problem mit deinen Grafikkartentreibern oder fehlerhaften Video-Codecs. Versuche die folgenden Schritte in der vorgegebenen Reihenfolge. Wenn du diese Anleitung von oben nach unten befolgst, sollte dein Problem gelöst werden:
 
 ::: warning
-Please note This topic is about the Wallpaper Engine **wallpapers** being black or not playing properly. If your **Wallpaper Engine interface is black** you need to go here: [Wallpaper Engine User Interface is Black](/interface/broken.html#wallpaper-engine-interface-is-black).
+Bitte beachte Dieser Artikel handelt über den Fall, in dem **Hintergründe** von Wallpaper Engine schwarz sind oder nicht richtig abgespielt werden. Wenn die **Benutzeroberfläche von Wallpaper Engine schwarz ist**, musst du den folgenden Artikel lesen: [Benutzeroberfläche von Wallpaper Engine ist schwarz oder weiß](/interface/broken.html).
 :::
 
-## Clean graphics card driver re-installation
+## Saubere Neuinstallations der Grafikkartentreiber
 
-For the majority of users, a clean re-installation of the graphics card drivers will fix most type of issues related to video wallpapers. This includes black screens and users whose wallpapers are shown in a separate window (titled **"ActiveMovie Window"**).
+Für die meisten Betroffenen werden Probleme mit Video-Hintergründen durch eine saubere Neuinstallations der Grafikkartentreiber gelöst. Dies betrifft beispielsweise Fälle wo der Hintergrund schwarz ist oder in einem separaten Fenster angezeigt wird (mit dem Titel **"ActiveMovie Window"**).
 
-1. Download the latest graphics card drivers for your graphics card (or all of them if you have two, for example Nvidia and Intel):
+1. Lade die neuesten Grafikkartentreiber für deine Grafikkarte herunter (oder für alle Grafikkarten, wenn du zum Beispiel eine von Nvidia und eine von Intel hast):
 
-* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
-* [AMD Radeon](https://www.amd.com/support)
+* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx?lang=de-de)
+* [AMD Radeon](https://www.amd.com/de/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-2. Uninstall your current graphics card drivers completely and delete all existing settings if asked. Nvidia drivers have a checkbox which says "Perform clean re-installation" which also works.
+2. Deinstalliere deine derzeitigen Grafikkartentreiber vollständige und lösche alle bestehenden Einstellungen wenn du danach gefragt wirst. Nvidia-Treiber haben beispielsweise auch eine Option zur "sauberen Neuinstallation" welche dies auch beinhaltet.
 
-You can also use [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) if you are unsure on how to do that.
+Du kannst außerdem [Display Driver Uninstaller ("DDU")](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) verwenden, wenn du dir unsicher bist, wie du dies am besten machen kannst.
 
-3. Install the drivers you have just downloaded in step 1.
-4. Restart your PC again, see if it works now.
+3. Installiere die von dir in Schritt 1 heruntergeladenen Treiber.
+4. Starte deinen PC neu und schaue ob es nun funktioniert.
 
 ::: tip
-It's very important that you do a clean re-installation - this means your current graphics card drivers and driver settings have to be completely deleted before you install the new drivers, otherwise it will not work.
+Es ist wichtig dass du eine saubere Neuinstallation machst - dies bedeutet, dass du deine derzeitigen Grafikkartentreiber und Treibereinstellungen vollständig löschst bevor du deine neuen Treiber installierst, ansonsten funktioniert der hier beschriebene Lösungsansatz nicht.
 :::
 
 ## Codec Tweak Tool
 
-If it does not work after doing a clean re-installation of your graphics card drivers, try resetting your video codecs:
+Wenn es immer noch nicht funktioniert nach einer sauberen Neuinstallation der Grafikkartentreiber, versuche deine Video-Codecs zurückzusetzen:
 
-* Download the Codec Tweak Tool: [Click here](https://www.codecguide.com/download_other.htm)
-* Make sure that all checkboxes in the "Media Foundation" menu are **not** checked, then apply the settings:
+* Lade das Codec Tweak Tool herunter: [Klicke hier](https://www.codecguide.com/download_other.htm)
+* Stelle sicher, dass alle Optionen im Menü "Media Foundation" **nicht** aktiviert sind, dann wende die Einstellungen an:
 
-![Uncheck all options in the Media Foundation options](./codectweak.gif)
+![Deaktiviere alle Optionen in den Media Foundationen-Einstellungen](./codectweak.gif)
 
-* Restart the PC and try the affected wallpapers again.
+* Starte den PC neu und versuche die betroffenen Hintergründe erneut zu benutzen.
 
-## Additional video codecs
+## Weitere Video-Codecs
 
-If affected video wallpapers still do not work after the previous steps, download LAV and use DirectShow as described in this guide:
+Wenn die jeweiligen Video-Hintergründe immer noch nicht funktionieren nach den vorherigen Schritten, lade LAV herunter und nutze DirectShow, wie im folgenden Artikel beschrieben wird:
 
-* [Using LAV and DirectShow](/videos/lav.html).
+* [LAV und DirectShow nutzen](/videos/lav.html).

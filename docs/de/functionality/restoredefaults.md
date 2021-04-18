@@ -1,17 +1,17 @@
-# Restoring deleted default wallpapers
+# Wiederherstellen von gelöschten Standard-Hintergründen
 
-If you have deleted wallpapers that come pre-installed with Wallpaper Engine, you can get them back by deleting a config file in your *wallpaper_engine* installation directory:
+Wenn du Hintergründe gelöscht hast, welche mit Wallpaper Engine vorinstalliert ausgeliefert werden, kannst du diese zurück erhalten, indem du eine Konfigurationsdatei in deinem *wallpaper_engine*-Installationsverzeichnis löschst:
 
-1. Turn off Wallpaper Engine completely (right-click on it in the tray -> "Quit")
+1. Schalte Wallpaper Engine vollständig aus (Rechtsklick auf das Symbol Windows-Taskleiste -> "Beenden")
 
-2. Go to your Wallpaper Engine directory and delete a file called "visibility.json". The file can be found here by default:
+2. Gehe in das Installationsverzeichnis von Wallpaper Engine und lösche die dort vorhandene Datei namens "visibility.json". Die Datei kann standardmäßig hier gefunden werden:
 
-* *C:\Program Files (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
+* *C:\Programme (x86)\Steam\SteamApps\common\wallpaper_engine\projects\defaultprojects\visibility.json*
 
-If your Steam or Wallpaper Engine are installed in a different place / directory, the directory will be slightly different, but *wallpaper_engine\projects\defaultprojects\visibility.json* sub-directory is always the same.
+Wenn dein Steam oder Wallpaper Engine in einem anderen Verzeichnis installiert sind, dann ist der Pfad leicht anders, aber das Unterverzeichnis *wallpaper_engine\projects\defaultprojects\visibility.json* bleibt immer gleich.
 
-3. Once the file is deleted, start Wallpaper Engine again, you will have all default wallpapers back.
+3. Sobald die Datei gelöscht wurde, kannst du Wallpaper Engine erneut starten und alle Standard-Hintergründe sollten wieder da sein.
 
 ::: tip
-If you are unable to find the "visibility.json" file for some reason, you can also always just re-install Wallpaper Engine. This will also restore all default wallpapers but will require you to re-download all wallpapers which you can avoid by following the steps above.
+Wenn du die Datei "visibility.json" nicht finden kannst, kannst du auch einfach Wallpaper Engine neu installieren. Dies stellt alle Standard-Hintergründe wieder her, erfordert aber, dass du alle anderen Hintergründe ebenfalls erneut herunterlädst, du kannst dies vermeiden indem du die oben beschriebenen Schritte befolgst.
 :::

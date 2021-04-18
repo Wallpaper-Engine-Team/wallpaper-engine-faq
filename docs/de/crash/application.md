@@ -29,7 +29,7 @@ Falls du ein Antivirenprogramm installiert hast (außer Windows Defender), stell
 * *wallpaper_engine/bin/webwallpaper32.exe*
 * *wallpaper_engine/bin/ui32.exe*
 
-Versuche außerdem die Wallpaper Engine-Dateien über Steam auf Fehler zu überpüfen, um sicherzustellen, dass diese nicht defekt sind:
+Versuche außerdem die Wallpaper Engine-Dateien über Steam auf Fehler zu überprüfen, um sicherzustellen, dass diese nicht defekt sind:
 
 * [Steam Support: Spieldateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
