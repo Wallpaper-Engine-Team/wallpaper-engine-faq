@@ -14,8 +14,8 @@ Windows aktiviert den Ruhemodus nicht, wenn ein Audio-Stream aktiv ist. Du kanns
 
 Windows aktiviert den Ruhemodus nicht, wenn ein Audio-Stream aktiv ist. Du kannst dieses Problem umgehen, indem du die Audio-Ausgabe im Reiter "Allgemein" in den Einstellungen von Wallpaper Engine deaktivierst oder indem du Windows so einstellst, dass es auch mit aktiver Audio-Wiedergabe den Ruhemodus aktiviert:
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
+1. Gehe zu den Einstellungen "Netzbetrieb und Energiesparen" von Windows, indem du es in die Windows-Suche eintippst.
+2. Klicke auf "Zusätzliche Energieeinstellungen"
 3. Click on "Change plan settings" next to the plan that is selected
 4. Click on "Change advanced power settings"
 5. Scroll down and expand "Multimedia settings"
