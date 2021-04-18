@@ -1,9 +1,9 @@
 ---
 tags:
-  - lock screen
-  - login screen
+  - Sperrbildschirm
+  - Loginbildschirm
 ---
 
-# Wallpaper Engine on the Windows lock screen
+# Wallpaper Engine auf dem Login-Bildschirm
 
-We frequently get asked if it is possible to set a Wallpaper Engine wallpaper on the Windows lock screen. Unfortunately this is not possible due to limitations in Windows itself. The lock screen is a protected area of Windows which cannot be modified without hacking Windows. This serves system security as applications should not be able to add malicious content to the login window. For this reason, Wallpaper Engine cannot add wallpapers to the lock screen and we cannot add this feature in the future either.
+Wir werden häufig gefragt, ob es möglich ist, Hintergründe von Wallpaper Engine auf dem Login-Bildschirm von Windows anzuzeigen. Leider ist dies nicht möglich, da Windows dies nicht erlaubt. Der Login-Bildschirm ist ein von Windows gesicherter Bereich, welche nicht modifiziert werden kann, ohne dass direkt Windows gehackt wird. Dies dient der Systemsicherheit, da Anwendungen so keine schädlichen Inhalte in das Login-Fenster einfügen können. For this reason, Wallpaper Engine cannot add wallpapers to the lock screen and we cannot add this feature in the future either.
