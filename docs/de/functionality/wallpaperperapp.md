@@ -14,15 +14,15 @@ Im Reiter **Leistung** in den Einstellungen von Wallpaper Engine, klicke auf die
 * Wiedergabeliste laden
 * Profil laden
 
-What is important to note here is that **Load wallpaper** and **Load playlist** will both only load one wallpaper and span it across all screens. If you have multiple monitors and want to load independent wallpapers for each screen (or even different playlists on each screen), you need to use the **Load Profile** option. Read the following section for more infos on how to set this up.
+An dieser Stelle ist es wichtig zu beachten, dass **Hintergrund laden** und **Wiedergabeliste laden** beide jeweils nur einen Hintergrund über alle Bildschirme spannen. Falls du mehrere Bildschirme hast und für diese jeweils unabhängige Hintergründe laden möchtest (oder verschiedene Wiedergabelisten auf jedem Bildschirm nutzen willst), musst du die Option **Profil laden** nutzen. Lies dazu die folgende Sektion, um zu erfahren, wie du dies einrichten kannst.
 
-### Setting up a multi-monitor profile
+### Aufsetzen eines Profils für mehrere Bildschirme
 
-**Load Profile** in the application rules refers to mulit-monitor profiles which can be configured in the monitor overview (screen icon in the upper right corner of the interface). A profile is a snapshot of all your currently selected wallpapers and playlists across all your screens. Whenever a profile is loaded, all wallpapers and playlists will be placed according to the profile configuration.
+**Profil laden** in den Anwendungsregeln bezieht sich auf Multi-Monitor-Profile, welche in der Bildschirm-Übersicht erstellt werden können (Bildschirm-Symbol oben rechts in der Benutzeroberfläche). Ein Profil ist eine Aufzeichnung deiner derzeit ausgewählten Hintergründe und Wiedergabelisten auf allen Bildschirmen. Wenn ein Profil geladen wird, so werden alle Hintergründe und Wiedergabelisten geladen, wie sie im Profil hinterlegt worden.
 
-Configure your wallpapers and playlists across all monitors the the way you want them to be, then click on the **Save profile** button in the monitor settings and save the current setup under a name of your choice. Keep in mind that any subsequent changes you make to your setup will not change the profile until you use the **Save profile** button again. You can set up multiple profiles and assign them to multiple apps at once. For example, you may create a **Music**, a **Gaming** and a **Movies** profile and then assign each profile to all .exe files that match these categories.
+Stelle deine Hintergründe und Wiedergabelisten auf allen Bildschirmen genau so ein, wie du sie haben möchtest, dann klicke auf **Profil speichern** in den Bildschirmeinstellungen und speichere die derzeitige Konfiguration unter einem Namen deiner Wahl. Bitte behalte im Hinterkopf, dass alle folgenden Einstellungen des Profils nicht gespeichert werden, bis du erneut auf **Profil speichern** klickst. Du kannst mehrere Profile erstellen und diese dann verschiedenen Anwendungen zuweisen. Konkret könntest du zum Beispiel ein Profil für **Musik**, ein Profil für **Gaming** und ein Profil für **Filme** anlegen und dann jeweils bestimmten .exe-Dateien zuordnen, die diesen Kategorien entsprechen.
 
 <video width="100%" controls autplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
