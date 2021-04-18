@@ -15,7 +15,7 @@ Le guide va partir du principe que Steam et Wallpaper Engine sont installés dan
 1. Recherchez le dossier dans lequel Steam stocke vos fonds d'écran. Par défaut, il s'agit de `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`
 2. Copier le dossier 431960 ici : `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
 3. **Renommer** le fichier `431960` en `backup` pour que le chemin du fichier ressemble à ceci : `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
-4. Ce dossier de `sauvegarde` inclut tous vos fonds d'écran téléchargés précédemment. Chacun a son propre sous-dossier (les numéros représentent leur identifiant Workshop)
+4. Ce dossier de `backup` inclut tous vos fonds d'écran téléchargés précédemment. Chacun a son propre sous-dossier (les numéros représentent leur identifiant Workshop)
 5. Redémarrez le navigateur des fonds d'écran et vous devriez voir toutes les sauvegardes des fonds d'écran. Vous pouvez vous désabonner des fonds d'écran sauvegardés et utiliser votre copie
 
 ::: warning
