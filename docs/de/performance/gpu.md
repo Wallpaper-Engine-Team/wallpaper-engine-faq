@@ -1,27 +1,27 @@
-# High GPU usage misconception
+# Verwirrung über hohe Grafikkartenauslastung
 
-The Windows Task Manager does not show the real GPU usage in most cases which is the cause for a lot of confusion. The GPU usage ignores the *power state* and clock rate of the graphics card which makes it extremely inaccurate and usually shows a much higher GPU usage. To see the real GPU, usage, use a tool like GPU-Z:
+Der Windows Task Manager zeigt nicht die tatsächliche GPU-Auslastung an, was oft für Verwirrung sorgen kann. Die GPU-Auslastung ignoriert die tatsächliche *Leistungsaufnahme und Taktrate* der Grafikkarte, was zu einer extrem inakkuraten und oft viel zu hohen Angabe der GPU-Auslastung führt. Um die tatsächliche Auslastung deiner Grafikkarte zu sehen, nutze ein Tool wie GPU-Z:
 
-* [Download GPU-Z](https://www.techpowerup.com/gpuz/)
+* [GPU-Z herunterladen](https://www.techpowerup.com/gpuz/)
 
-## Finding out your actual GPU load
+## Herausfinden der tatsächlichen GPU-Auslastung
 
-Once you have installed GPU-Z, check out the "Sensors" tab to see the GPU clock rate and the GPU Load:
+Sobald du GPU-Z installiert hast, überprüfe den Reiter "Sensoren" und schaue dir die GPU-Taktrate und GPU-Auslastung an:
 
-![Real GPU usage](./gpuz.png)
+![Tatsächliche GPU-Auslastung](./gpuz.png)
 
-Notice *GPU load* in the screenshot is at 24%. However, at the top you can see that the graphics card is in its low power state at 202.5 MHz. This is the best case scenario, although the 'usage' is displayed as 24%. The actual usage based on the max clockrate of 1823mhz is only **2.6%** *(24% * 202.5 MHz / 1823 MHz)*.
+Beachte wie im Screenshot die GPU-Auslastung (*GPU load*) im Screenshot bei 24% liegt. In der oberen Zeile jedoch, kann man sehen, dass die Grafikkarte in ihrem Energiesparmodus ist und nur mit 202,5 MHz taktet. Dabei handelt es sich um das bestmögliche Szenario, auch wenn die Auslastung mit 24% angegeben wird. Die tatsächliche Auslastung basierend auf der maximalen Taktrate von 1823 MHz liegt bei nur **2,6%** *(24% * 202,5 MHz / 1823 MHz)*.
 
-A card could have clock rates between 100 Mhz and 2000 Mhz for example. If the task manager shows 50% then **it makes a big difference whether it is 50% of 100 MHz or 50% of 2000 MHz**.
+Eine Karte kann beispielsweise ihre Taktrate zwischen 100 Mhz und 200 Mhz regulieren. Wenn der Task Manager nun eine Auslastung von 50% anzeigt, **so macht es einen riesigen Unterschied, ob dies 50% von 100 MHz oder 50% von 2000 MHz sind**.
 
 ::: tip
-To summarize: It's important to keep the GPU clock rate in mind when looking at the GPU load. 50% of 100 MHz is better than 5% of 2000 MHz.
+Zusammenfassend: Es ist wichtig, die GPU-Taktrate im Kopf zu behalten, wenn du die Auslastung deiner Grafikkarte bestimmen willst. 50% von 100 MHz ist besser als 5% von 2000 MHz.
 :::
 
-If you want to improve GPU performance:
+Wenn du die Leistung deiner GPU verbessern willst kannst du die folgenden Dinge probieren:
 
-* Disable or delete overlay and recording tools, including Geforce Experience.
-* Lower the frame rate setting and disable MSAA (it does not affect the quality 2D scene wallpapers).
-    * This won't influence the performance of videos, they have fixed frame rates and quality.
-    * The resolution and frame rate of the video wallpapers will control these, use videos with lower FPS to reduce GPU load
-* Connect your monitors to the same GPU or Windows will perform poorly while trying to merge them.
+* Deaktiviere oder lösche alle Arten von Overlays und Aufnahmeprogrammen, inklusive Nvidia GeForce Experience und AMD ReLive.
+* Senke die Einstellung "Bilder pro Sekunde" und deaktiviere die Einstellung "Kantenglättung" (dies hat keinen Effekt auf 2D-Hintergründe).
+    * Dies beeinflusst nicht die Qualität von Videos, diese haben eine fixe Bildwiederholungsrate und Qualität.
+    * Die Auflösung und Bildwiederholungsrate von Video-Hintergründen beeinflussen die Leistung, nutze Videos mit niedrigere Bildwiederholungsrate um die GPU-Auslastung zu verringern.
+* Verbinde alle Bildschirme mit der gleichen Grafikkarte, ansonsten hat Windows Probleme damit, das Gesamtbild zu synchronisieren.

@@ -1,36 +1,36 @@
 ---
 tags:
-  - colors
-  - bright
-  - dark
+  - farben
+  - hell
+  - dunkel
   - zoom
-  - zoomed-in
-  - pixelated
-  - border
+  - groß
+  - verpixelt
+  - rand
   - gamma
-  - quality
-  - wrong
-  - ugly
+  - qualität
+  - falsch
+  - hässlich
 ---
 
-# Video wallpapers look wrong
+# Video-Hintergründen werden nicht korrekt dargestellt
 
-Wallpaper Engine uses hardware acceleration for videos for optimal performance unlike most video players. This means that your graphics card drivers may influence the way videos look.
+Im Gegensatz zu den meisten Video-Playern nutzt Wallpaper Engine Hardware-Beschleunigung für Videos um die Computer-Auslastung zu minimieren. Dies bedeutet, dass deine Grafikkartentreiber das Aussehen von Videos beeinflussen können.
 
-**If your video wallpapers have wrong colors, are too bright or too dark, appear zoomed-in, pixelated or if there is a border around the wallpaper**, you can fix this problem by resetting the video options in your graphics control panel for your Nvidia, AMD or Intel graphics card. If you have a computer with multiple GPUs (for example, the main card from Nvidia and the secondary GPU from Intel), make sure to reset it for all of them.
+**Falls deine Video-Hintergründe falsche Farben haben, zu hell oder zu dunkel sind, reingezoomt oder verpixelt aussehen oder falls ein Rand um den Hintergrund ist**, kannst du dieses Problem durch das Zurücksetzen deiner Video-Optionen in deinen Grafikkartentreiber-Einstellungen deiner Nvidia-, AMD- oder Intel-Grafikkarte lösen. Falls dein Computer mehrere GPUs hat (zum Beispiel eine Haupt-Karte von Nvidia und eine zweite GPU von Intel), stelle sicher, dass du beide Treiber zurücksetzt.
 
-You can also reinstall the graphics card drivers and choose to reset all settings ("clean re-installation") to do this, this is possible with Nvidia's drivers, for example. That means you need to first uninstall your drivers and then re-install the latest drivers after your current drivers have been fully uninstalled. Some drivers offer a "Perform clean re-installation" option in the advanced section, be sure to enable that option to automatically clean any remnants of broken drivers. You can get the latest graphics card drivers from all big vendors here:
+Du kannst außerdem alle Grafikkartentreiber neu installieren und dabei alle Einstellungen zurücksetzen (eine "saubere Neuinstallation"), viele Grafikkartentreiber bieten dazu eine Option an. Dies bedeutet, dass du zunächst deine Grafikkartentreiber deinstallieren und dann die neuesten Treiber erneut installieren musst, nachdem die alten Treiber vollständig entfernt wurden. Eine Treiber bieten eine Option zur "sauberen Neuinstallation" in den erweiterten Installationseinstellungen an. Stelle sicher, dass du diese Option aktivierst um jegliche Überbleibsel von defekten Treibern zu entfernen. Du kannst die neuesten Grafikkartentreiber von allen Herstellern hier herunterladen:
 
-* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
-* [AMD Radeon](https://www.amd.com/support)
+* [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx?lang=de-de)
+* [AMD Radeon](https://www.amd.com/de/support)
 * [Intel Graphics](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
-If you are uncertain what to do: Download the latest drivers for your graphics card, then use DDU to uninstall your graphics card drivers and delete all settings:
+Wenn du dir unsicher bist, was du tun kannst: Lade die neuesten Treiber für deine Grafikkarte herunter, dann nutze DDU um eine Grafikkartentreiber zu deinstallieren und lösche alle Einstellungen:
 
-* [Display Driver Uninstaller Download](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
+* [Display Driver Uninstaller herunterladen](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
-Afterwards, install the drivers you have just downloaded. This will definitely fix the problem if done right.
+Danach kannst du die Treiber die du zuvor heruntergeladen hast installieren. Dies sollte das Problem lösen, wenn du alle Schritte korrekt befolgt hast.
 
 ::: tip
-If the colors are still wrong even after re-installing your graphics card drivers, you may have more than one GPU or you did not perform a "clean" re-installation. Make sure you first uninstall all your current graphics card drivers and clear up all driver settings.
+Wenn die Farben weiterhin falsch angezeigt werden nach einer Neuinstallation deiner Grafikkartentreiber, dann hast du wahrscheinlich mehr als eine GPU oder du hast keine "saubere" Neuinstallation durchgeführt. Stelle sicher, dass du zuerst deine derzeitigen Grafikkartentreiber deinstallierst um alle bestehenden Treiber-Einstellungen zurückzusetzen.
 :::

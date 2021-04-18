@@ -14,8 +14,8 @@ Esta guía da por supuesto que Steam y Wallpaper Engine están instalados en «C
 
 1. Localiza la carpeta en la que Steam guarda los fondos. Por defecto los guarda en `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`
 2. Copia la carpeta 431960 en la ruta de instalación de Wallpaper Engine: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`.
-3. **Cambia el nombre** de la carpeta `431960` a `backup` para que la ubicación quede así: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\copia de seguridad`.
-4. El directorio `copia de seguridad` incluirá todos los fondos que ya has descargado, cada uno en su propio directorio (los números representan la ID de Steam Workshop del fondo).
+3. **Cambia el nombre** de la carpeta `431960` a `backup` para que la ubicación quede así: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`.
+4. El directorio `backup` incluirá todos los fondos que ya has descargado, cada uno en su propio directorio (los números representan la ID de Steam Workshop del fondo).
 5. Reinicia el buscador de fondos y podrás ver las copias de seguridad de los fondos. Ahora puedes quitar la suscripción de los duplicados de Steam y usar únicamente la copia personal.
 
 ::: warning

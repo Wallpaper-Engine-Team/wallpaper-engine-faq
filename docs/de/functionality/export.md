@@ -1,15 +1,15 @@
-# Exporting wallpapers as GIF / video
+# Exportieren von Hintergründen als GIF oder Video
 
-Wallpapers made in the Wallpaper Engine editor are more like levels in a computer game rather than a video file. They do not have a clearly defined start or end and they contain elements of randomness in them. Just like you cannot export computer games as video files, you cannot export wallpapers as videos or GIFs.
+Hintergründe, welche mit dem Editor von Wallpaper Engine erstellt werden, sind eher mit einem Level in einem Computerspiel vergleichbar als mit einer Video-Datei. Sie haben keinen klar definierten Anfang und kein definiertes Ende und können Elemente mit zufälligem Verhalten enthalten. Genauso wie man Computerspiele nicht als Video-Datei exportieren kann, kann man auch keine Hintergründe einfach so als Video oder GIF exportieren.
 
-However, you can create a recording of your wallpapers and manually try to create a perfect loop if the elements in your wallpaper allow for that. For this purpose, we recommend free tools like *ScreenToGif* or *OBS Studio*:
+Nichtsdestotrotz kannst du eine Aufnahme deiner Hintergründe machen und händisch versuchen so eine lückenlose Video-Schleife zu erstellen, wenn dein Hintergrund dies ermöglicht. Für diesen Zweck empfehlen wir kostenlose Tools wie *ScreenToGif* oder *OBS Studio*:
 
-* [ScreenToGif](https://www.screentogif.com/) (Easy to use)
+* [ScreenToGif](https://www.screentogif.com/) (Einfach zu bedienen)
 
-* [OBS Studio](https://obsproject.com/) (More advanced features)
+* [OBS Studio](https://obsproject.com/) (Erweiterter Funktionsumfang)
 
-#### Getting a clear shot of your wallpapers
+#### Ein sauberes Bild deiner Hintergründe kriegen
 
-You can easily get a clear view at your wallpaper and resize it by right-clicking it in the "Installed" tab and then clicking on "Play in Window", which will open a window with your wallpaper in it. This eliminates the need to hide your desktop icons and other Windows elements and allows you to resize the window to get the size and aspect ratio you want for your "export":
+Du kannst einfach einen sauberen Blick auf deine Hintergründe kriegen und die Größe verändern, indem du im Reiter "Installiert" mit einem Rechtsklick auf deinen Hintergrund klickst und dann "In Fenster wiedergeben" anklickst, was ein Fenster mit deinem Hintergrund öffnet. Dadurch ist es unnötig, dass du deine Desktop-Icons und andere Windows-Elemente versteckst und erlaubt es dir, die Fenstergröße zu verändern um die von dir gewünschte Größe und das Seitenverhältnis für deinen "Export" zu erhalten:
 
-![Right-click on a wallpaper and select "Play in window"](./playinwindow.gif)
+![Rechtsklicke auf einen Hintergrund und wähle "In Fenster wiedergeben"](./playinwindow.gif)

@@ -1,23 +1,22 @@
-# Backup Steam Workshop
+# Backup des Steam Workshops
 
-When wallpapers are deleted from Steam for any reason, Steam will also delete them from your PC. Wallpaper Engine cannot prevent that, but if this is a concern for you, you can make a backup of your wallpapers.
+Wenn Hintergründe von Steam aus irgendeinem Grund gelöscht werden, so löscht Steam diese ebenfalls von deinem PC. Wallpaper Engine kann dies nicht verhindern, aber wenn dies für dich ein Problem ist, kannst du Backups deiner Hintergründe anlegen.
 
-Similar to that, there are many reports that Steam will randomly decide to re-download all Workshop files, which can be an annoyance if you have many Gigabytes of data. Creating a backup and severing all ties to Steam can avoid that if it happens too often.
+Es gibt darüber hinaus auch ein Steam-Problem, bei welchem es alle Workshop-Dateien erneut herunterlädt, was sehr nervig sein kann, falls es sich um mehrere Gigabyte an Daten handelt. Das Erstellen von Backups und das Trennen der Hintergründe von Steam kann eine Lösung sein, wenn dies sehr oft auftritt.
 
-# Creating a Backup
+# Erstellen eines Backups
 
-The following guide expects that your Steam and Wallpaper Engine are installed in `C:\Program Files (x86)\Steam\`, if you have installed your Steam / Wallpaper Engine somewhere else, be sure to check in those locations.
+Die folgende Anleitung erwartet, dass Steam und Wallpaper Engine im folgenden Verzeichnis installiert wurden: `C:\Programme (x86)\Steam\`. Sollten Steam und / oder Wallpaper Engine woanders installiert sein, stelle sicher, dass du die korrekten Verzeichnisse verwendest.
 
 ::: tip
-**431960** is the Steam ID of Wallpaper Engine, Steam uses this directory for all Wallpaper Engine downloads.
+**431960** ist die Steam-ID von Wallpaper Engine, Steam nutzt dieses Verzeichnis für alle Downloads für Wallpaper Engine.
 :::
 
-1. Locate the folder in which Steam stores your wallpapers, by default it is in `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`
-2. Copy the folder 431960 to Wallpaper Engine's installation path here: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
-3. **Rename** the folder `431960` into `backup` so that the complete path looks like this: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
-4. The `backup` directory now includes all your previously downloaded wallpapers, each in their own sub-directory (the numbers represent the Steam Workshop ID of the wallpaper)
-5. Restart the wallpaper browser and you should see the backed up wallpapers now. You can now unsubscribe the duplicate Steam ones and only use your personal copy of them
+1. Finde den Ordner, in welchem Steam deine Hintergründe speichert, standardmäßig ist dies in `C:\Programme (x86)\Steam\steamapps\workshop\content\431960`
+2. Kopiere den Ordner 431960 in das Installationsverzeichnis von Wallpaper Engine: `C:\Programme (x86)\Steam\steamapps\common\wallpaper_engine\projects\431960`
+3. **Ändere den Namen** des Ordners `431960` in `backup`, sodass der vollständige Pfad nun wie folgt aussieht: `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\backup`
+4. Das Verzeichnis `backup` enthält nun alle deine zuvor heruntergeladenen Hintergründe, alle jeweils in deren eigenen Unterverzeichnis (die Zahlen repräsentieren dabei die Identifikationsnummer des Hintergrunds im Steam Workshop)
+5. Starte Wallpaper Engine nun neu und du solltest alle Hintergründe deines Backups nun sehen. Du kannst nun die doppelten und noch bei Steam abonnierten Hintergründe über die "Entfernen"-Funktion deabonnieren und nur noch deine persönliche Sicherheitskopie des Hintergrunds verwenden
 
-::: warning
-Do **not** manually delete the Steam Workshop folder `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960`. This will cause your Steam to be confused and re-download all wallpapers. Simply unsubscribe from your wallpapers and let Steam delete the duplicate files itself.
+::: warning Lösche das Steam Workshop-Verzeichnis **nicht** von Hand: `C:\Programme (x86)\Steam\steamapps\workshop\content\431960`. Dies kann Steam verwirren und dafür sorgen, dass es alle Hintergründe erneut herunterlädt. Du solltest einfach das Steam Workshop-Abo der Hintergründe entfernen und Steam die doppelten Dateien selbst löschen lassen.
 :::
