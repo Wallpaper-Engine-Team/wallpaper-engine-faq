@@ -1,6 +1,6 @@
-# Windows 7: Aero cannot be enabled
+# Windows 7: Aero kann nicht aktiviert werden
 
-Aero is a feature of Windows and a minimum system requirement to use Wallpaper Engine - if it is disabled, it is impossible to use a dynamic wallpaper. If it cannot be enabled automatically, there is an issue with your system or it does not fulfill the minimum hardware requirements to enable Aero on Windows 7.
+Aero ist ein Feature von Windows und Teil der minimalen Systemanforderungen von Wallpaper Engine - wenn es deaktiviert ist, ist es unmöglich einen dynamischen Hintergrund zu setzen. If it cannot be enabled automatically, there is an issue with your system or it does not fulfill the minimum hardware requirements to enable Aero on Windows 7.
 
 Windows Aero is responsible for the transparent effect on the task bar or the top row of windows. If your task bar is not transparent (and has a light blue color), Aero is disabled. You can enable Aero in the Windows 7 theme settings. Your Windows 7 should look like this after enabling an Aero theme (notice the transparent task bar and start menu):
 
