@@ -16,9 +16,9 @@ Windows aktiviert den Ruhemodus nicht, wenn ein Audio-Stream aktiv ist. Du kanns
 
 1. Gehe zu den Einstellungen "Netzbetrieb und Energiesparen" von Windows, indem du es in die Windows-Suche eintippst.
 2. Klicke auf "Zusätzliche Energieeinstellungen"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
+3. Klicke auf "Energiesparplaneinstellungen" neben dem Plan, welcher ausgewählt ist
+4. Klicke auf "Erweiterte Energieeinstellungen ändern"
+5. Scrolle nach unten und klappe die Sektion "Multimediaeinstellungen" aus
 6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
 
 ![Enable "Allow the computer to sleep"](./power.gif)
