@@ -1,3 +1,4 @@
+const de = require('../../app_strings/de.json');
 const en = require('../../app_strings/en.json');
 const es = require('../../app_strings/es.json');
 const fr = require('../../app_strings/fr.json');
@@ -27,6 +28,11 @@ module.exports = {
 			lang: 'fr',
 			title: fr.title,
 			description: fr.description,
+		},
+		'/de/': {
+			lang: 'de',
+			title: de.title,
+			description: de.description,
 		},
 		'/ja/': {
 			lang: 'ja',
@@ -93,6 +99,16 @@ module.exports = {
 				ariaLabel: fr.language_name,
 				sidebar: {
 					'/': getTopLevelSidebar('/fr/', fr.sidebar_windows, fr.sidebar_crashes, fr.sidebar_videos, fr.sidebar_analysis, fr.sidebar_audio, fr.sidebar_performance, fr.sidebar_noshow, fr.sidebar_browser, fr.sidebar_downloads, fr.sidebar_general),
+				}
+			},
+			'/de/': {
+				contactUs: de.contactUs,
+				searchPlaceholder: de.searchPlaceholder,
+				selectText: de.language_name,
+				label: de.language_name,
+				ariaLabel: de.language_name,
+				sidebar: {
+					'/': getTopLevelSidebar('/de/', de.sidebar_windows, de.sidebar_crashes, de.sidebar_videos, de.sidebar_analysis, de.sidebar_audio, de.sidebar_performance, de.sidebar_noshow, de.sidebar_browser, de.sidebar_downloads, de.sidebar_general),
 				}
 			},
 			'/ja/': {
