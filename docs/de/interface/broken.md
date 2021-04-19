@@ -1,18 +1,18 @@
 ---
 tags:
-  - user interface
-  - green
+  - benutzeroberfläche
+  - grün
   - weiss
-  - pixelated
-  - unreadable
+  - verpixelt
+  - unlesbar
 ---
 
-# Wallpaper Engine window not displayed correctly
+# Fenster von Wallpaper Engine wird nicht korrekt angezeigt
 
-If your Wallpaper Engine browse window is not working, it is usually caused by faulty graphics card drivers or antivirus applications. Read below for more information.
+Wenn die Benutzeroberfläche von Wallpaper Engine nicht richtig funktioniert, so liegt dies fast immer an defekten Grafikkartentreibern oder Antivirenprogrammen. Für weitere Informationen, siehe die relevanten Sektionen weiter unten.
 
 ::: warning
-Please note This section is about the Wallpaper Engine **interface** being black or broken. If your **wallpapers are black** you need to go here: [Black Screen / Videos not Playing](/noshow/notplaying.html).
+Bitte beachte Dieser Artikel handelt über den Fall, in dem die **Benutzeroberfläche** von Wallpaper Engine schwarz, weiß oder anderweitig defekt ist. Wenn deine **Hintergründe schwarz sind**, schaue dir bitte diesen Artikel an: [Videos sind schwarz oder spielen nicht richtig ab](/noshow/notplaying.html).
 :::
 
 ## Benutzeroberfläche von Wallpaper Engine ist schwarz oder weiß
