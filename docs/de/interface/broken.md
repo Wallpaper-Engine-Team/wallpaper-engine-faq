@@ -25,13 +25,13 @@ Daraufhin ist es in einigen Fällen nötig, die Dateien von Wallpaper Engine auf
 
 Wenn die Überprüfung der Dateien über Steam das Problem nicht behebt nachdem dein Antivirenprogramm korrekt konfiguriert wurde, probiere Wallpaper Engine über Steam neu zu installieren. Wenn dein Antivirenprogramm überreagiert hat, hat es unter Umständen einige Dateien und Verzeichnisse von Wallpaper Engine permanent blockiert. In diesen seltenen Fällen deinstalliere dein Antivirenprogramm zunächst, dann installiere Wallpaper Engine in ein neues Verzeichnis, du kannst für diesen Zweck ein neues Spiele-Verzeichnis in Steam anlegen.
 
-Wenn das Problem dann immer noch besteht, schalte zunächst Wallpaper Engine vollständig aus. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
+Wenn das Problem dann immer noch besteht, schalte zunächst Wallpaper Engine vollständig aus. Dann starte Wallpaper Engine über die dritte Startoption in Steam neu ("Benutzeroberfläche im abgesicherten Modus starten").
 
 ![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
 
-## Wallpaper Engine interface with green artifacts or white lines
+## Benutzeroberfläche von Wallpaper Engine hat grüne Artefakte oder weiße Linien
 
-Your graphics card drivers are broken or misconfigured. Download the latest drivers for your graphics cards (even if you already have the latest drivers) and perform a clean re-installation of the drivers. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+Deine Grafikkartentreiber sind defekt oder falsch konfiguriert. Lade die neuesten Treiber für deine Grafikkarte herunter (auch wenn du bereits die neuesten Treiber installiert hast) und führe eine saubere Neuinstallation der Treiber durch. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
 
 If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
 
