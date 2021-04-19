@@ -1,11 +1,11 @@
-# Preview images / search results not showing
+# Vorschaubilder / Suchergebnisse werden nicht angezeigt
 
-If you cannot see preview images for wallpapers except for installed ones, there is a firewall or security software that blocks the browser from accessing the internet. You must disable that or add an exception for 'ui32.exe'.
+Wenn du nur Vorschaubilder für bereits installierte Hintergründe sehen kannst, dann verhindert eine Firewall oder sonstige Sicherheitsanwendung, dass die Benutzeroberfläche sich mit dem Internet verbinden kann. Du musst diese Art von Anwendung deaktivieren oder speziell eine Ausnahme für "ui32.exe" einrichten.
 
-The preview images are direct image downloads from the Steam servers. If the preview images are not loading, something is blocking the connection between Wallpaper Engine and the Steam servers. Some users had these blocks in their network router, you can test if this is an issue in your router or on your computer by testing if the preview images start showing up when your computer is connected to a wi-fi hotspot from your smartphone.
+Die Vorschaubilder sind direkte Bilder-Downloads von den Steam-Servern. Wenn die Vorschaubilder nicht laden, dann blockt irgendetwas die Verbindung zwischen Wallpaper Engine und den Steam-Servern. Bei einigen Nutzern hat sich in der Vergangenheit herausgestellt, dass diese Blockierung von Netzwerkrouter ausging, du kannst dies beispielsweise testen, indem du deinen Computer zu einem WLAN-Hotspot deines Smartphones verbindest und schaust, ob die Vorschaubilder nun erscheinen.
 
-Some users of *accelerator software* also have issues with image previews being loaded. Make sure any type of network acceleration software is not blocking Wallpaper Engine from downloading image files in the background.
+Einige Nutzer von *Netzwerkoptimierungsanwendungen* können auch Problemen mit dem Laden von Vorschaubildern haben. Stelle sicher, dass jegliche Art von Netzwerktreiber oder Optimierungssoftware nicht Wallpaper Engine daran hindert, dass es im Hintergrund Bilddateien herunterlädt.
 
-## No wallpapers or only very few wallpapers showing
+## Keine oder nur sehr wenige Hintergründe werden angezeigt
 
-You likely have too strict filters enabled. Try resetting all filters by clicking on the "Reset filters" button in the filter sidebar.
+Du hast wahrscheinlich sehr strikte Filterregeln aktiv. Versuche alle Filter zurückzusetzen, indem du die Schaltfläche "Filter zurücksetzen" am oberen Ende der Filter-Sidebar verwendest.
