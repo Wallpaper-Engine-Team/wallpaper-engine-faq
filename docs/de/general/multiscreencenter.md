@@ -1,7 +1,7 @@
-# Centering wallpaper with monitors of different resolutions
+# Zentrieren von Hintergründen auf Bildschirmen mit verschiedenen Auflösungen
 
-If you choose to display a single wallpaper across multiple monitors with different resolutions, then it will act according to the resolutions you are using, not the physical size of your monitors. Windows does not account for the physical size, only the size in pixels is relevant.
+Wenn du einen einzelnen Hintergrund über mehrere Bildschirme strecken willst mit unterschiedlichen Auflösungen, so wird die Größe von der Anzahl der Pixel bestimmt und nicht der tatsächlichen Größe der Bildschirme. Windows ist nicht in der Lage die Größe des Monitors einzubeziehen, nur die Auflösung ist für Windows relevant.
 
-Imagine you would center a single, normal window like Steam between your monitors. You cannot scale one side up or down without affecting the other monitor. This is exactly how a wallpaper works too. Live wallpapers are not static images, so they cannot be cut up and stitched together continuously like it would be possible with an image.
+Um dies zu verdeutlichen kannst du ein einzelnes normales Fenster wie Steam zwischen deine Bildschirme ziehen. Du kannst nicht eine Seite des Fensters größer machen, ohne die andere Seite ebenfalls größer zu machen. Hintergründe funktionieren nach dem gleichen Prinzip. Dynamische Hintergründe sind nicht wie statische Bilder, sie können nicht einfach zerschnitten und neu angeordnet werden, wie man es mit einer normalen Bilddatei machen könnte.
 
-Take a screenshot of your entire desktop in Windows or through Wallpaper Engine and examine it, you will see that the wallpaper is centered according to that, the resolution of your monitors controls the center. 
+Nimm einen Screenshot deines Windows-Desktops auf und schaue es dir an, du wirst feststellen, dass der Hintergrund korrekt zentriert ist und die Auflösung deiner Bildschirme das Bildzentrum bestimmt. 
