@@ -31,11 +31,11 @@ Wenn das Problem dann immer noch besteht, schalte zunächst Wallpaper Engine vol
 
 ## Benutzeroberfläche von Wallpaper Engine hat grüne Artefakte oder weiße Linien
 
-Deine Grafikkartentreiber sind defekt oder falsch konfiguriert. Lade die neuesten Treiber für deine Grafikkarte herunter (auch wenn du bereits die neuesten Treiber installiert hast) und führe eine saubere Neuinstallation der Treiber durch. Is is important that you first uninstall your current drivers and then install the latest drivers to ensure any broken files or settings are removed.
+Deine Grafikkartentreiber sind defekt oder falsch konfiguriert. Lade die neuesten Treiber für deine Grafikkarte herunter (auch wenn du bereits die neuesten Treiber installiert hast) und führe eine saubere Neuinstallation der Treiber durch. Es ist wichtig, dass du zunächst deine derzeitigen Treiber vollständig deinstallierst und dann die neuesten Treiber installierst, um sicher zu stellen, dass jegliche defekte Dateien oder fehlerhafte Einstellungen vollständig gelöscht werden.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
+Wenn das Problem dann immer noch besteht, schalte zunächst Wallpaper Engine vollständig aus. Dann starte Wallpaper Engine über die dritte Startoption in Steam neu ("Benutzeroberfläche im abgesicherten Modus starten").
 
-**If the Wallpaper Engine user interface has white lines**: You have **Nvidia Image Sharpening** turned on for all applications. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+**Wenn die Benutzeroberfläche von Wallpaper Engine voll mit weißen Linien ist:** Du hast **Nvidia Image Sharpening (Bildschärfung)** für alle Anwendungen aktiviert. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
 
 ![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
 
