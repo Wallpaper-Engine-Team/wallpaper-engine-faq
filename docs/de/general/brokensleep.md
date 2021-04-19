@@ -14,22 +14,22 @@ Windows aktiviert den Ruhemodus nicht, wenn ein Audio-Stream aktiv ist. Du kanns
 
 Windows aktiviert den Ruhemodus nicht, wenn ein Audio-Stream aktiv ist. Du kannst dieses Problem umgehen, indem du die Audio-Ausgabe im Reiter "Allgemein" in den Einstellungen von Wallpaper Engine deaktivierst oder indem du Windows so einstellst, dass es auch mit aktiver Audio-Wiedergabe den Ruhemodus aktiviert:
 
-1. Go to the "Power and sleep settings" of Windows by typing it into the Windows search.
-2. Click on "Additional power settings"
-3. Click on "Change plan settings" next to the plan that is selected
-4. Click on "Change advanced power settings"
-5. Scroll down and expand "Multimedia settings"
-6. Set "When sharing media" to "Allow the computer to enter away mode" (screensavers) **or** "Allow the computer to sleep" (hibernation)
+1. Gehe zu den Einstellungen "Netzbetrieb und Energiesparen" von Windows, indem du es in die Windows-Suche eintippst.
+2. Klicke auf "Zusätzliche Energieeinstellungen"
+3. Klicke auf "Energiesparplaneinstellungen" neben dem Plan, welcher ausgewählt ist
+4. Klicke auf "Erweiterte Energieeinstellungen ändern"
+5. Scrolle nach unten und klappe die Sektion "Multimediaeinstellungen" aus
+6. Setze "Bei der Freigabe von Medien" auf "Wechseln in den Modus "Abwesend" zulassen" (für Bildschirmschoner) **oder** "Der Computer kann in den Energiesparmodus wechseln" (für den Ruhemodus)
 
-![Enable "Allow the computer to sleep"](./power.gif)
+![Aktiviere "Der Computer kann in den Energiesparmodus wechseln"](./power.gif)
 
-## Hibernation issues with "Web" type wallpapers
+## Probleme mit dem Energiesparmodus beim Nutzen von Hintergründen des Typs "Web"
 
-"Web" wallpapers use a web browser similar to Google Chrome ("CEF") which will prevent hibernation mode. Until this is fixed in the browser, you can get around this with some command-line prompts.
+"Web"-Hintergründe nutzen einen Web-Browser ähnlich wie Google Chrome ("CEF"), welcher den Energiesparmodus unter Umständen blockieren kann. Bis das Problem im Browser behoben wurde, kannst du das Problem mit den folgenden Befehlen in der Windows-Konsole lösen.
 
-1. Search Windows for "cmd.exe" and right-click on it and select "Run as administrator" (very important, otherwise this will not work!).
-2. Use the command `powercfg /requests` to view all processes that are blocking your system from hibernation (also check if other programs may be at fault here).
-3. Use the following three commands to permit your system to sleep with Wallpaper Engine running:
+1. Suche in Windows nach "cmd.exe", mache dann einen Rechtsklick darauf und wähle "Als Administrator ausführen" aus (dies ist sehr wichtig, ansonsten funktioniert die Lösung nicht!).
+2. Tippe den befehl `powercfg /requests` ein, um alle Prozesse zu sehen, welche dein System daran hindern in den Ruhemodus zu gehen (und um so sicherzustellen, dass keine anderen Programme dies verursachen).
+3. Tippe die folgenden drei Befehle eine, um deinem System zu erlauben in den Ruhemodus zu gehen, während Wallpaper Engine läuft:
 
 ```
 powercfg /requestsoverride PROCESS webwallpaper32.exe AWAYMODE DISPLAY SYSTEM
@@ -37,4 +37,4 @@ powercfg /requestsoverride PROCESS wallpaper32.exe AWAYMODE DISPLAY SYSTEM
 powercfg /requestsoverride PROCESS wallpaper64.exe AWAYMODE DISPLAY SYSTEM
 ```
 
-Additionally, you can also set the **Display asleep** option in the **Performance** tab of the Wallpaper Engine settings to *Stop (free memory)* and turn off your display. That way Wallpaper Engine stops all playback when you turn your display off when leaving your computer unattended.
+Darüber hinaus kannst du noch die Einstellung **Bildschirm aus** im Reiter **Leistung** der Einstellungen von Wallpaper Engine auf *Stoppen (Speicher freigeben)* setzen und deinen Monitor ausschalten wenn du deinen Computer verlässt. Dadurch stopp Wallpaper Engine die Wiedergabe von Hintergründen wenn dein Bildschirm ausgeschaltet ist, wenn du deinen PC gerade nicht benutzt.
