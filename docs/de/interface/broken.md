@@ -21,13 +21,13 @@ Für die meisten bedeutet dies, dass die Benutzeroberfläche von Wallpaper Engin
 
 Daraufhin ist es in einigen Fällen nötig, die Dateien von Wallpaper Engine auf Fehler zu überprüfen oder gar Wallpaper Engine völlig neu zu installieren falls dein Antivirenprogramm einige Dateien permanent blockiert hat:
 
-* [Steam Support: Spieldateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
+* [Steam Support: Spieldateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=german)
 
 Wenn die Überprüfung der Dateien über Steam das Problem nicht behebt nachdem dein Antivirenprogramm korrekt konfiguriert wurde, probiere Wallpaper Engine über Steam neu zu installieren. Wenn dein Antivirenprogramm überreagiert hat, hat es unter Umständen einige Dateien und Verzeichnisse von Wallpaper Engine permanent blockiert. In diesen seltenen Fällen deinstalliere dein Antivirenprogramm zunächst, dann installiere Wallpaper Engine in ein neues Verzeichnis, du kannst für diesen Zweck ein neues Spiele-Verzeichnis in Steam anlegen.
 
 Wenn das Problem dann immer noch besteht, schalte zunächst Wallpaper Engine vollständig aus. Dann starte Wallpaper Engine über die dritte Startoption in Steam neu ("Benutzeroberfläche im abgesicherten Modus starten").
 
-![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
+![Startoption: Benutzeroberfläche im abgesicherten Modus starten](/img/faq/steam_launch_option.jpg)
 
 ## Benutzeroberfläche von Wallpaper Engine hat grüne Artefakte oder weiße Linien
 
@@ -35,12 +35,12 @@ Deine Grafikkartentreiber sind defekt oder falsch konfiguriert. Lade die neueste
 
 Wenn das Problem dann immer noch besteht, schalte zunächst Wallpaper Engine vollständig aus. Dann starte Wallpaper Engine über die dritte Startoption in Steam neu ("Benutzeroberfläche im abgesicherten Modus starten").
 
-**Wenn die Benutzeroberfläche von Wallpaper Engine voll mit weißen Linien ist:** Du hast **Nvidia Image Sharpening (Bildschärfung)** für alle Anwendungen aktiviert. Turn it off in your Nvidia drivers or do a clean reinstallation of your Nvidia drivers by uninstalling your current ones first.
+**Wenn die Benutzeroberfläche von Wallpaper Engine voll mit weißen Linien ist:** Du hast **Nvidia Image Sharpening (Bildschärfung)** für alle Anwendungen aktiviert. Schalte das Feature in deinen Nvidia-Treibern aus oder führe eine saubere Neuinstallation deiner Nvidia-Treiber durch, indem du sie zunächst deinstallierst.
 
-![Nvidia Image Sharpening Issue](./imagesharpening.png) *White lines will be visible all over the application window if Nvidia image sharpening is turned on for Wallpaper Engine by mistake.*
+![Problem mit Nvidia Image Sharpening](./imagesharpening.png) *Wenn Nvidia Image Sharpening für Wallpaper Engine fälschlicherweise aktiviert wurde, erscheinen im gesamten Fenster weiße Linien.*
 
-### Rare Steam Overlay Bug Breaking Wallpaper Engine User Interface
+### Seltener Fehler mit dem Steam-Overlay kann die Benutzeroberfläche kaputt machen
 
-The other possible reason for a black application window is a rare Steam bug with the Steam overlay. You can try the following:
+Eine weitere Möglichkeit für ein leeres Anwendungsfenster ist ein seltener Fehler in Steam, der das Steam-Overlay betrifft. Du kannst das folgende versuchen:
 
-Turn off Wallpaper Engine completely (right-click on the tray icon and then select "Quit"). Afterwards, open up Steam, right-click on Wallpaper Engine, select "Properties" and then disable the "Enable Steam Overlay while in-game" option. After disabling the option, try to restart Wallpaper Engine via Steam. 
+Schalte Wallpaper Engine vollständig aus (Rechtsklick auf das Symbol in der Windows-Taskleiste und dann "Beenden"). Öffne danach Steam, rechtsklicke auf Wallpaper Engine und wähle "Eigenschaften" aus, dann deaktiviere die Option "Steam-Overlay während des Spiels aktivieren". Nachdem du die Option deaktiviert hast, versuche Wallpaper Engine über Steam neu zu starten. 
