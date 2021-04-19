@@ -2,40 +2,40 @@
 tags:
   - anime
   - filter
-  - search
-  - categories
-  - mature
-  - adult
+  - suche
+  - kategorien
+  - nicht jugendfrei
+  - sexuell
 ---
 
-# Exclude certain wallpapers from the search
+# Bestimmte Arten von Hintergründen aus der Suche ausschließen
 
-Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+Nutze immer den Workshop-Reiter in der Anwendung zum Suchen von neuen Hintergründen. Die Steam-Workshop-Website hat nicht die gleichen Filtermöglichkeiten wie die Anwendung und zeigt generell zu viele Inhalte an, welche nicht relevant für die meisten Suchanfragen sind.
 
-## Excluding certain genres (anime, for example)
+## Filtern von bestimmten Genres (zum Beispiel Anime)
 
-You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+Du kannst bestimmte Kategorien, die du nicht magst, aus der Anwendung herausfiltern. Öffne den Workshop-Reiter in Wallpaper Engine und aktiviere die Filter-Sidebar, indem du auf die "Ergebnisse filtern"-Schaltfläche oben links klickst. Entferne alle Genres die du nicht in deinen Suchergebnissen sehen willst.
 
-You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+Du kannst außerdem über die Schaltfläche **Filter-Einstellungen** die meisten Anime-Inhalte automatisch herausfiltern, indem du auf **Anime verstecken** klickst. Du kannst diese Einstellung später weiterhin manuell anpassen, jedoch wird die Schaltfläche **Filter zurücksetzen** von nun an alle Anime-Kategorien deaktivieren, solange du **Anime verstecken** in den Filter-Einstellungen als Auswahl belässt.
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
-## Excluding certain age ratings
+## Filter von altersbeschränkten Inhalten
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Der Steam Workshop erlaubt einen gewissen Grad an Inhalten für Erwachsene, zum Beispiel Nacktheit. Wenn du Inhalte dieser Art nicht sehen willst, stelle sicher, dass du nur "Alle Altersgruppen" in der Filtersektion zur Altersbeschränkung ausgewählt hast:
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
-Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
+Die allermeisten Inhalte sind mit den korrekten Altersbeschränkungen versehen und somit wird der Großteil an Inhalten für Erwachsene herausgefiltert. Falls du trotzdem noch Inhalte für Erwachsene siehst, so nutze bitte die Melde-Funktion in der Anwendung. Der Hintergrund wird dann mit der korrekten Altersbeschränkung versehen oder ganz gebannt.
 
-## Reporting rule-breaking content
+## Melden von Inhalten, welche die Regeln brechen
 
-We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
+Wir und die Administratoren und Moderatoren von Steam bannen täglich Hintergründe, welche grob gegen die Regeln von Steam verstoßen. Bitte melde Workshop-Inhalte, welche die Regeln brechen, damit es einfacher ist für uns diese zu finden.
 
-The Workshop allows users to publicize works without us being able to check them prior to them being visible, this is how the Steam Workshop works and not something we can change. We can only remove submissions after they have been uploaded. If this is a problem for you, make sure to enable the *Approved* tag in the filter settings as these are hand-picked and manually-checked wallpapers. Be sure to read the sections above on how to configure your filter settings so that you can simply remove certain types of content that you do not wish to see.
+Workshop-Inhalte werden ohne vorherige Sichtung veröffentlicht, dies liegt außerhalb unserer Kontrolle und ist fundamental wie Steam funktioniert. Wir können Inhalte erst bannen, nachdem sie bereits veröffentlicht wurden. Wenn dies ein Problem für dich darstellt, nutze den *Empfohlen*-Filter in der Anwendung, da es sich dabei nur um von uns manuell überprüfte und empfehlenswerte Hintergründe handelt. Stelle sicher, die Sektionen oben zu lesen, um zu erfahren, wie du deine Filter-Einstellungen korrekt vornehmen kannst, um bestimmte Inhalte an denen du kein Interesse hast herauszufiltern.
