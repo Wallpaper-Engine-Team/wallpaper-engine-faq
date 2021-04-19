@@ -17,15 +17,15 @@ Bitte beachte Dieser Artikel handelt über den Fall, in dem die **Benutzeroberfl
 
 ## Benutzeroberfläche von Wallpaper Engine ist schwarz oder weiß
 
-For most people, this means that the Wallpaper Engine user interface is being blocked by an antivirus application by mistake. Make sure to set up an exception in your antivirus application so that it ignores Wallpaper Engine, specifically all executables in the wallpaper_engine installation directory and especially **wallpaper_engine/bin/ui32.exe**.
+Für die meisten bedeutet dies, dass die Benutzeroberfläche von Wallpaper Engine fälschlicherweise von einem Antivirenprogramm blockiert wird. Stelle sicher, dass du eine Ausnahme in deinem Antivirenprogramm eingerichtet hast, sodass es Wallpaper Engine ignoriert, besonders alle .exe-Dateien im Installationsverzeichnis "wallpaper_engine" und ganz besonders **wallpaper_engine/bin/ui32.exe**.
 
-In some cases, it is necessary to verify the Wallpaper Engine files afterwards or even to re-install Wallpaper Engine if your antivirus application has placed a permanent lock on some important Wallpaper Engine files:
+Daraufhin ist es in einigen Fällen nötig, die Dateien von Wallpaper Engine auf Fehler zu überprüfen oder gar Wallpaper Engine völlig neu zu installieren falls dein Antivirenprogramm einige Dateien permanent blockiert hat:
 
 * [Steam Support: Spieldateien auf Fehler überprüfen](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-If the verification through Steam does not fix this issue after you have configured your antivirus application, try to re-install Wallpaper Engine through Steam. If your antivirus has gone berserk, it might even have permanently blocked the filepaths used by Wallpaper Engine. In that case make sure to uninstall the antivirus first and then install Wallpaper Engine into a different directory, you can choose to create a new Steam games library in Steam for this.
+Wenn die Überprüfung der Dateien über Steam das Problem nicht behebt nachdem dein Antivirenprogramm korrekt konfiguriert wurde, probiere Wallpaper Engine über Steam neu zu installieren. Wenn dein Antivirenprogramm überreagiert hat, hat es unter Umständen einige Dateien und Verzeichnisse von Wallpaper Engine permanent blockiert. In diesen seltenen Fällen deinstalliere dein Antivirenprogramm zunächst, dann installiere Wallpaper Engine in ein neues Verzeichnis, du kannst für diesen Zweck ein neues Spiele-Verzeichnis in Steam anlegen.
 
-If the problem persists, turn off Wallpaper Engine. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
+Wenn das Problem dann immer noch besteht, schalte zunächst Wallpaper Engine vollständig aus. Then re-launch Wallpaper Engine using the third launch option in Steam labeled "User Interface in Safe Mode".
 
 ![Launch option: User Interface in Safe Mode](/img/faq/steam_launch_option.jpg)
 
