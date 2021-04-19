@@ -2,17 +2,17 @@
 tags:
   - anime
   - filter
-  - search
-  - categories
-  - mature
-  - adult
+  - suche
+  - kategorien
+  - nicht jugendfrei
+  - sexuell
 ---
 
-# Exclude certain wallpapers from the search
+# Bestimmte Arten von Hintergründen aus der Suche ausschließen
 
-Always use the Workshop tab in the application to search for new wallpapers. The Steam Workshop website does not have the same filtering abilities as the app and will show you too much content you are not interested in.
+Nutze immer den Workshop-Reiter in der Anwendung zum Suchen von neuen Hintergründen. Die Steam-Workshop-Website hat nicht die gleichen Filtermöglichkeiten wie die Anwendung und zeigt generell zu viele Inhalte an, welche nicht relevant für die meisten Suchanfragen sind.
 
-## Excluding certain genres (anime, for example)
+## Filtern von bestimmten Genres (zum Beispiel Anime)
 
 You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
 
