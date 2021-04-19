@@ -14,27 +14,27 @@ Nutze immer den Workshop-Reiter in der Anwendung zum Suchen von neuen Hintergrü
 
 ## Filtern von bestimmten Genres (zum Beispiel Anime)
 
-You can filter out categories you do not like in the application. Open up the "Workshop" tab in Wallpaper Engine and enable the filter sidebar by clicking on the "Filter results" button in the upper left corner. Deselect all categories you do not like to see in your results.
+Du kannst bestimmte Kategorien, die du nicht magst, aus der Anwendung herausfiltern. Öffne den Workshop-Reiter in Wallpaper Engine und aktiviere die Filter-Sidebar, indem du auf die "Ergebnisse filtern"-Schaltfläche oben links klickst. Entferne alle Genres die du nicht in deinen Suchergebnissen sehen willst.
 
-You can also use the **Filter Settings** button and then click on **Hide Anime** to automatically disable the categories that contain the most anime-type content. You can still manually alter the categories on the left afterwards but the **Reset filters** buttons will keep anime categories unselected as long as the **Hide Anime** option is enabled in the filter settings.
+Du kannst außerdem über die Schaltfläche **Filter-Einstellungen** die meisten Anime-Inhalte automatisch herausfiltern, indem du auf **Anime verstecken** klickst. Du kannst diese Einstellung später weiterhin manuell anpassen, jedoch wird die Schaltfläche **Filter zurücksetzen** von nun an alle Anime-Kategorien deaktivieren, solange du **Anime verstecken** in den Filter-Einstellungen als Auswahl belässt.
 
 <video width="100%" autoplay loop>
   <source src="/videos/filtercontent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
-## Excluding certain age ratings
+## Filter von altersbeschränkten Inhalten
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. If you do not want to see this kind of content, only enable the "Everyone" age rating in the filters:
+Der Steam Workshop erlaubt einen gewissen Grad an Inhalten für Erwachsene, zum Beispiel Nacktheit. Wenn du Inhalte dieser Art nicht sehen willst, stelle sicher, dass du nur "Alle Altersgruppen" in der Filtersektion zur Altersbeschränkung ausgewählt hast:
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
-Most content is tagged correctly and this will filter out the large majority of mature content. If you still come across adult content which has been rated for "Everyone", please use the report functionality in the app. The content will be re-classified or banned after a review.
+Die allermeisten Inhalte sind mit den korrekten Altersbeschränkungen versehen und somit wird der Großteil an Inhalten für Erwachsene herausgefiltert. Falls du trotzdem noch Inhalte für Erwachsene siehst, so nutze bitte die Melde-Funktion in der Anwendung. Der Hintergrund wird dann mit der korrekten Altersbeschränkung versehen oder ganz gebannt.
 
-## Reporting rule-breaking content
+## Melden von Inhalten, welche die Regeln brechen
 
 We and the Steam administrators / moderators remove wallpapers breaking the rules on a daily basis. Please report Workshop submissions that break the guidelines to help us find them.
 
