@@ -263,7 +263,8 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 				locale + 'steam/contentfile',
 				locale + 'steam/backup',
 				locale + 'steam/uploads',
-				locale + 'steam/ingame'
+				locale + 'steam/ingame',
+				locale + 'steam/library'
 			]
 		},
 		{
