@@ -25,6 +25,12 @@ Wallpaper Engine не имеет возможности напрямую вза�
 
 * [Распространяемый компонент Visual C++ для Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
+## Problems with RGB hardware after hibernation
+
+In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+
+Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+
 ### Corsair
 
 На некоторых компонентах аппаратного обеспечения, в том числе на **модулях памяти Corsair по умолчанию отключена функция управления с помощью программных средств**. Это значит, что подсветка модулей памяти не будет включаться в соответствии с командами Wallpaper Engine, пока вы не включите эту функцию в программных настройках iCUE. Удостоверьтесь, что в разделе памяти в настройках вашего устройства iCUE выбрана опция «Разрешить приложению полный контроль»:
