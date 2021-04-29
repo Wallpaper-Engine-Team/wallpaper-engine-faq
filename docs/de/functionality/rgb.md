@@ -25,6 +25,12 @@ Wenn die *Plugin*-Sektion in den Einstellungen von Wallpaper Engine gar nicht f�
 
 * [Visual C++ Redistributable für Visual Studio 2015](https://www.microsoft.com/de-de/download/details.aspx?id=48145)
 
+## Probleme mit RGB-Hardware nach Standby
+
+In seltenen Fällen kann der Ruhemodus von Windows Probleme mit RGB-Hardware verursachen, sodass diese gar nicht oder nur beschränkt in Verbindung mit Wallpaper Engine funktioniert. Wenn ein Teil oder deine gesamte RGB-Hardware nach dem Aufwachen aus dem Standby nicht mehr funktioniert, versuche die Option **Sicherer Start nach Ruhemodus** im Reiter **Allgemein** der Einstellungen von Wallpaper Engine zu aktivieren, dies behebt Probleme dieser Art für die meisten betroffenen Nutzer.
+
+Zudem kannst du noch die **Plugin-Lade-Verzögerung** am unteren Ende des Reiters **Plugins** in den Wallpaper Engine-Einstellungen benutzen, um die Verbindung zwischen deiner RGB-Hardware und Wallpaper Engine leicht zu verzögern. Du kannst beispielsweise einen Wert von **30 Sekunden** ausprobieren und schauen, ob dies dein Problem löst.
+
 ### Corsair
 
 Einige Hardware-Teile, wie **Corsairs Arbeitsspeicher (RAM) haben Software-Steuerung standardmäßig deaktiviert**, was bedeutet dass diese Speichermodule nicht dem Farbverlauf von Wallpaper Engine verfolgen, außer du konfigurierst diese explizit so in den Einstellungen. Stelle sicher, dass du die Option zur "vollen Software-Steuerung" in den Geräteeinstellungen deines Arbeitsspeichers in iCUE aktivierst:
