@@ -25,6 +25,12 @@ Wallpaper Engine ayarlarındaki *Eklenti* bölümü size görünür değilse bu 
 
 * [Visual Studio 2015 için Visual C++ 2015 Yeniden Dağıtılabilir](https://www.microsoft.com/download/details.aspx?id=48145)
 
+## Problems with RGB hardware after hibernation
+
+In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+
+Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+
 ### Corsair
 
 **Corsair sistem belleği (RAM) gibi donanımlar varsayılan olarak devre dışı bırakılmış yazılım kontrollerine sahiptir**. Yani bellek modülleriniz, buna iCUE yazılım ayarlarında izin vermediğiniz sürece Wallpaper Engine'e göre yanmayacaktır. Bellek bölümünde bulunan iCUE cihaz ayarlarınızdaki "Tam yazılım kontrolünü etkinleştir" seçeneğinin seçili olduğundan emin olun:
