@@ -11,12 +11,12 @@ Lorsque vous prévisualisez un papier peint personnalisable dans Wallpaper Engin
 * Huawei
 * Xiaomi
 
-## How to unset Wallpaper Engine wallpaper
+## Comment désactiver le fond d'écran de Wallpaper Engine
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+Si vous souhaitez ne plus utiliser un fond d'écran Wallpaper Engine, vous pouvez simplement attribuer un nouveau fond d'écran via vos paramètres Android. Wallpaper Engine est simplement un autre fond d'écran pour Android, et les fonds d'écran ne peuvent pas se désactiver tout seuls.
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+Vous pouvez également désinstaller entièrement Wallpaper Engine, ce qui rétablira le fond d'écran par défaut de votre téléphone.
 
-## Android wallpaper regularly disappears or crashes silently
+## Le fond d'écran Android disparaît régulièrement ou se bloque silencieusement
 
-If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+Si vous utilisez Wallpaper Engine comme fond d'écran, mais que celui-ci disparaît sans message d'erreur après quelques heures, jours ou semaines, il est probable que la fonction d'économie d'énergie de votre téléphone l'interrompe à tort. Dans des circonstances normales, Android ne devrait jamais mettre fin aux fonds d'écran en direct pour des raisons d'économie d'énergie, mais certains utilisateurs ont signalé que cela leur était arrivé. Cela dépend en grande partie du fabricant de votre appareil. Si Wallpaper Engine disparaît régulièrement, désactivez l'optimisation de l'alimentation pour Wallpaper Engine dans les paramètres d'Android. Si vous n'êtes pas sûr, recherchez sur le Web les moyens de désactiver l'optimisation de l'alimentation des applications, à l'aide du nom exact de votre appareil mobile.
