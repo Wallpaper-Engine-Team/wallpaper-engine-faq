@@ -2,11 +2,11 @@
 
 Cette page contient une liste des questions et des problèmes techniques les plus fréquents que les utilisateurs rencontrent.
 
-## Cannot set live wallpaper on Android lock-screen
+## Impossible de définir un fond d'écran personnalisable sur l'écran de verrouillage d'Android
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+Selon le fabricant de votre appareil et le lanceur Android que vous utilisez, il est possible que vous ne puissiez pas définir un fond d'écran personnalisable sur votre écran de verrouillage ou que vous ne puissiez définir que le fond d'écran utilisé pour votre écran d'accueil.
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+Lorsque vous prévisualisez un papier peint personnalisable dans Wallpaper Engine sur votre téléphone, appuyez pendant quelques secondes sur le symbole de la coche dans le coin supérieur droit. L'écran de fond d'écran de votre téléphone s'affichera. Selon le fabricant, vous devriez voir apparaître l'option permettant de définir le fond d'écran sur votre écran de verrouillage. Si cette option ne s'affiche pas, cela signifie que votre téléphone ne prend pas en charge les fonds d'écran personnalisable sur l'écran de verrouillage. Les fabricants de téléphones suivants sont connus pour ne pas autoriser les fonds d'écran sur l'écran de verrouillage de certains de leurs appareils :
 
 * Huawei
 * Xiaomi
