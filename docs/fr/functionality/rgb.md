@@ -25,11 +25,11 @@ Si l'onglet *Plug-ins* des paramètres de Wallpaper Engine n'est pas visible, c'
 
 * [Redistribuable Visual C++ pour Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
-## Problèmes avec le matériel RVB après une mise en veille
+## Problèmes avec le matériel RGB après une mise en veille
 
 Dans de rares cas, la mise en veille peut empêcher le matériel RGB de fonctionner en combinaison avec Wallpaper Engine. Si une partie ou la totalité de votre matériel RGB cesse de fonctionner correctement après le sortie de votre système d'une veille, essayez d'activer l'option **Lancement sécurisé après la mise en veille prolongée** dans l'onglet **Général** des paramètres de Wallpaper Engine. Cette méthode règle ce type de problèmes pour la majorité des utilisateurs concernés.
 
-Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+En outre, vous pouvez utiliser l'option **Chargement retardé des plug-ins** en bas de l'onglet **Plug-ins** des paramètres de Wallpaper Engine pour retarder la tentative de connexion de Wallpaper Engine à votre matériel RGB. Vous pouvez essayer une valeur de **30 secondes** et tester si cette méthode règle le problème.
 
 ### Corsair
 
