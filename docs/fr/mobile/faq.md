@@ -1,6 +1,6 @@
-# Android - Frequent Questions and Problems
+# Android - Questions et problèmes fréquents
 
-This page contains a list of the most frequent questions and technical issues that users run into.
+Cette page contient une liste des questions et des problèmes techniques les plus fréquents que les utilisateurs rencontrent.
 
 ## Cannot set live wallpaper on Android lock-screen
 
