@@ -25,9 +25,9 @@ Si l'onglet *Plug-ins* des paramètres de Wallpaper Engine n'est pas visible, c'
 
 * [Redistribuable Visual C++ pour Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
-## Problems with RGB hardware after hibernation
+## Problèmes avec le matériel RVB après une mise en veille
 
-In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+Dans de rares cas, la mise en veille peut empêcher le matériel RGB de fonctionner en combinaison avec Wallpaper Engine. Si une partie ou la totalité de votre matériel RGB cesse de fonctionner correctement après le sortie de votre système d'une veille, essayez d'activer l'option **Lancement sécurisé après la mise en veille prolongée** dans l'onglet **Général** des paramètres de Wallpaper Engine. Cette méthode règle ce type de problèmes pour la majorité des utilisateurs concernés.
 
 Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
 
