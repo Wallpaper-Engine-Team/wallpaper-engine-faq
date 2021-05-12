@@ -5,7 +5,7 @@
 ## Фоновые программы видеозахвата
 Подобные проблемы могут быть также связаны работой драйверов, использующих любые технологии видеозахвата программ, например ReLive, ShadowPlay/Nvidia Share и Windows GameDVR. Попробуйте отключить эти функции и проверьте, была ли решена проблема. Затем внесите Wallpaper Engine в список исключений. Также надо удостовериться, что с Wallpaper Engine не взаимодействуют программы записи экрана и программы, накладывающиеся поверх экрана. Они могут замедлять воспроизведение видео.
 
-You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
+Вы можете попробовать использовать инструмент сканирования, чтобы определить, установлены ли какие-либо программы, вызывающие подобные проблемы. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
 
 * [Инструмент сканирования Wallpaper Engine](/debug/scantool.html)
 
