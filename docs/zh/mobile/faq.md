@@ -1,8 +1,8 @@
-# Android - 常见问题
+# Android - 常见疑问和问题
 
-This page contains a list of the most frequent questions and technical issues that users run into.
+此页面包含用户遇到的常见疑问和技术问题的列表。
 
-## Cannot set live wallpaper on Android lock-screen
+## 无法在 Android 锁屏上设置动态壁纸
 
 Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
 
