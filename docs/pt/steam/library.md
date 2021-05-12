@@ -10,4 +10,4 @@ Se este filtro não xistir para si ou continuar a não encontrar o Wallpaper Eng
 
 Caos continue a não conseguir encontrar o Wallpaper Engine na sua conta Steam, deve contactar diretamente a Equipa de Assistência do Steam. Infelizmente, os programadores do Steam não têm acesso aos dados de conta do Steam e não podem oferecer assistência para isto, só a equipa do Steam pode ajudar em problemas de contas e compras:
 
-* [Steam Support](https://help.steampowered.com)
+* [Assistência do Steam](https://help.steampowered.com)
