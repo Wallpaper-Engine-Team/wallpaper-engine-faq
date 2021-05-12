@@ -25,9 +25,9 @@ Wallpaper Engine не имеет возможности напрямую вза�
 
 * [Распространяемый компонент Visual C++ для Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
-## Problems with RGB hardware after hibernation
+## Проблемы с RGB-подсветкой после гибернации
 
-In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+Иногда после гибернации RGB-подсветка может перестать работать в сочетании с Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
 
 Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
 
