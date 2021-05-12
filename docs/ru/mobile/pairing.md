@@ -1,14 +1,14 @@
-# Pairing Mobile Device with Windows
+# Сопряжение мобильного устройства с Windows
 
-You can pair your mobile devices with your computer to wirelessly transfer your wallpaper collection to the Wallpaper Engine companion app on your mobile device. It's not possible for the Android app to directly download wallpapers from the Steam Workshop because only Steam itself can download the wallpaper files.
+Вы можете подключить свои мобильные устройства к компьютеру для беспроводной передачи коллекции обоев в мобильное приложение Wallpaper Engine. Приложение Android не может загружать обои напрямую из Steam Workshop, потому что только Steam может загружать файлы обоев.
 
-### Preparing Wallpaper Engine on Windows
+### Подготовка Wallpaper Engine в Windows
 
-In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
+В приложении **Windows** нажмите кнопку **Мобильные устройства** в правом верхнем углу пользовательского интерфейса. Отобразится мобильное устройство. В нижней части окна нажмите кнопку **Подключить новое устройство**. Wallpaper Engine покажет вам четырехзначный PIN-код для сопряжения одного мобильного устройства.
 
 ![Mobile PIN](/img/faq/mobile_pin.gif)
 
-### Connecting Your Mobile Device
+### Подключить мобильного устройства
 
 In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above). The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
 
