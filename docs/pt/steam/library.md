@@ -1,13 +1,13 @@
-# Wallpaper Engine missing in Steam Library
+# Wallpaper Engine em falta na biblioteca do Steam
 
-If you have purchased Wallpaper Engine on Steam but are unable to find it in your Steam library, the most common reason is that your Steam is configured to only show **Games**. Wallpaper Engine is not a game, so be sure to enable the **Software** filter by clicking on the Steam library filter options at the top of your library tab as shown here:
+Se adquiriu o Wallpaper Engine no Steam mas não o consegue encontrar na sua biblioteca do Steam, o motivo mais comum é que o Steam está configurado para mostrar apenas **Jogos**. O Wallpaper Engine não é um jogo, pelo que deve ativar o filtro **Software** clicando nas opções de filtragem da bilbioteca do Steam no topo do seu separador da biblioteca, tal como é ilustrado aqui:
 
-![Software Filter in Steam](/img/faq/gamesandsoftware.gif)
+![Filtro de software no Steam](/img/faq/gamesandsoftware.gif)
 
-If this filter does not exist for you or if you are still unable to find Wallpaper Engine in your library, be sure to check the purchase history of the Steam account to double-check that the account you are using really owns Wallpaper Engine. You can view your purchase history on the following page (make sure you are logged into the correct Steam account):
+Se este filtro não xistir para si ou continuar a não encontrar o Wallpaper Engine na sua biblioteca, consulte o historial de compras da sua conta Steam para confirmar que a conta que está a utilizar realmente possui o Wallpaper Engine. Pode consultar o seu historial de compras na seguinte página (certifique-se de que tem sessão iniciada na conta Steam correta):
 
-* [Steam Account Purchase History](https://store.steampowered.com/account/history/)
+* [Histórico de compras da conta Steam](https://store.steampowered.com/account/history/)
 
-If you are still unable to find Wallpaper Engine in your Steam account, please reach out to the Steam Support team directly. Unfortunately developers on Steam have no access to Steam account data and cannot provide support with this, only the Steam team can help with account and purchase related issues:
+Caos continue a não conseguir encontrar o Wallpaper Engine na sua conta Steam, deve contactar diretamente a Equipa de Assistência do Steam. Infelizmente, os programadores do Steam não têm acesso aos dados de conta do Steam e não podem oferecer assistência para isto, só a equipa do Steam pode ajudar em problemas de contas e compras:
 
 * [Steam Support](https://help.steampowered.com)
