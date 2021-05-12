@@ -27,9 +27,9 @@ Wallpaper Engine не имеет возможности напрямую вза�
 
 ## Проблемы с RGB-подсветкой после гибернации
 
-Иногда после гибернации RGB-подсветка может перестать работать в сочетании с Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+Иногда после гибернации RGB-подсветка может перестать работать в сочетании с Wallpaper Engine. Если RGB-подсветка или ее часть перестает правильно работать после выхода системы из спящего режима, попробуйте включить параметр **Безопасный старт после гибернации** в разделе **Общие** в настройках Wallpaper Engine. В большинстве случаев это решает проблему такого типа.
 
-Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+Кроме того, вы можете использовать параметр **Задержка загрузки плагинов** в нижней части вкладки **Плагины** в настройках Wallpaper Engine, чтобы отложить попытку подключения Wallpaper Engine к RGB-подсветке. Вы можете попробовать значение **30 секунд** и проверить, решится ли ваша проблема.
 
 ### Corsair
 
