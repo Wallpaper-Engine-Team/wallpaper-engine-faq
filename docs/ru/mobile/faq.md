@@ -1,17 +1,17 @@
-# Android - Frequent Questions and Problems
+# Частые вопросы и проблемы на Android
 
-This page contains a list of the most frequent questions and technical issues that users run into.
+Эта страница содержит список наиболее часто возникающих вопросов и технических проблем.
 
-## Cannot set live wallpaper on Android lock-screen
+## Невозможно установить живые обои на экран блокировки Android
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+На некоторых устройствах в зависимости от производителя и используемой программы запуска Android нельзя установить живые обои на экране блокировки или же можно установить только те же обои, что и на главном экране.
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+При предварительном просмотре живых обоев в Wallpaper Engine на телефоне нажмите и удерживайте в течение нескольких секунд символ галочки в правом верхнем углу. Появится экран живых обоев вашего телефона. В зависимости от производителя вы должны увидеть возможность установить обои на экране блокировки. Если этот параметр не отображается, ваш телефон не поддерживает живые обои на экране блокировки. Известно, что в телефонах от следующих производителей нет функции отображения живых обоев на экране блокировки на всех или некоторых устройствах:
 
 * Huawei
 * Xiaomi
 
-## How to unset Wallpaper Engine wallpaper
+## Wallpaper Engine нет в библиотеке Steam
 
 If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
 
