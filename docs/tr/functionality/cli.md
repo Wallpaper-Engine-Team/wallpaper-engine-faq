@@ -137,13 +137,13 @@ Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar ka
 
 ### Profil Aç
 
-Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+Mevcut bir profili Wallpaper Engine'in görüntü menüsünde oluşturulmuş ve kaydedilmiş tüm görüntülere ismen uygular.
 
 ``` powershell
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **profil:** Wallpaper Engine içerisinde oluşturduğunuz profilin ismi.
 
 ### Duvar Kâğıdı Ayarlarını Uygula
 
