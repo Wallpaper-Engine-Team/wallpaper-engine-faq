@@ -16,11 +16,11 @@ PIN'inizi girdikten sonra mobil uygulamadaki durum çubuğu yeşile döner ve ha
 
 ![Mobil PIN](/img/faq/mobile_pair.gif)
 
-## Mobile Pairing Problem Solving
+## Mobil Eşleme Sorun Çözme
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+Eğer mobil cihazınızı bilgisayarınızla eşleştiremiyorsanız büyük ihtimalle sebebi bir güvenlik duvarı veya yerel ağdır. Şu muhtemel sorun kaynaklarını kontrol edin:
 
-* Ensure that your phone and computer are connected to the same local network.
-* Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
-* Ensure your network router is not blocking your devices from communicating with each other.
-* Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
+* Telefonunuzun ve bilgisayarınızın aynı yerel ağa bağlandığından emin olun.
+* Hiçbir güvenlik duvarının Wallpaper Engine'ın yerel ağınızla iletişime geçmesine engel olmadığından emin olun.
+* Ağ yönlendiricinizin cihazlarınızın birbirleriye iletişime geçmesini engellemediğinden emin olun.
+* Hem Windows'daki hem de mobil cihazınızdaki Wallpaper Engine'ın güncel olduğunu ve çalışır durumda olup olmadığını kontrol edin.
