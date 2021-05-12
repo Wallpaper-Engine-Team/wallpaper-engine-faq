@@ -1,22 +1,22 @@
-# Android - Sık Sorular Sorunlar
+# Android - Sık Sorular ve Sorunlar
 
 Bu sayfa en sık sorulan sorular ve kullanıcıların karşılaştığı teknik sorunların bir listesini içerir.
 
-## Canlı duvar kâğıdı Android kilit ekranına koyulamaz
+## Android kilit ekranı için canlı duvar kâğıdı ayarlayamıyorum
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+Cihazınızın üreticisine ve kullandığınız Android başlatıcısına bağlı olarak kilit ekranınıza canlı bir duvar kâğıdı koymanız mümkün olmayabilir ya da yalnızca ana ekranınızdaki duvar kâğıdını koymanız gerekebilir.
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+Telefonunuzda Wallpaper Engine'de bir canlı duvar kâğıdını görüntülerken, sağ üst köşedeki tik sembolüne birkaç saniye uzun basın. Bu, telefonunuzun canlı duvar kâğıdı ekranını getirir. Üreticinize bağlı olarak, duvar kâğıdını kilit ekranınız için ayarlama seçeceğini görmelisiniz. Eğer bu seçenek görünmüyorsa telefonunuz kilit ekranında canlı duvar kâğıtlarını desteklemiyordur. Aşağıdaki telefon üreticileri cihazlarının tümünde veya bir kısmında kilit ekranında canlı duvar kâğıtlarına izin vermez:
 
 * Huawei
 * Xiaomi
 
-## How to unset Wallpaper Engine wallpaper
+## Wallpaper Engine duvar kâğıdı kaldırma
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+Bir Wallpaper Engine duvar kâğıdı kullanmayı bırakmak istiyorsanız, Android ayarlarından yeni bir duvar kâğıdı ayarlamanız yeterlidir. Wallpaper Engine, Android için yalnızca bir duvar kâğıdıdır ve duvar kâğıtları kendilerini kaldıramaz.
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+Alternatif olarak Wallpaper Engine'ı tamamen silebilirsiniz, bu durumda telefonunuz varsayılan duvar kâğıdına döner.
 
-## Android wallpaper regularly disappears or crashes silently
+## Android duvar kâğıdı sürekli kayboluyor ya da çöküyor
 
-If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+Eğer Wallpaper Engine'ı bir duvar kâğıdı olarak kullanıyorsanız ancak duvar kâğıdı birkaç saat, gün ya da hafta sonra bir hata ya da mesaj olmadan kayboluyorsa, muhtemelen telefonunuzun güç tasarruf modu işlevi nedeniyle kapatılıyordur. Normal durumlarda Android canlı duvar kâğıtlarını güç tasarrufu amacıyla kaldırmamalıdır ancak bazı kullanıcılar bunun gerçekleştiğini söylemiştir. Bu büyük oranda cihazınızın üreticisine bağlıdır, eğer Wallpaper Engine düzenli olarak kayboluyorsa Android ayarlarından güç optimizasyonunu Wallpaper Engine için devre dışı bırakın. Bu, Android versiyonunuza ve cihazınıza göre değişiklik gösterir. Eğer emin değilseniz, kendi mobil cihazınızın modeliyle uygulamalar için güç optimizasyonunu nasıl devre dışı bırakacağınızı internette arayın.
