@@ -11,7 +11,7 @@
 * 華為
 * 小米
 
-## How to unset Wallpaper Engine wallpaper
+## 如何取消設定 Wallpaper Engine 桌布
 
 If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
 
