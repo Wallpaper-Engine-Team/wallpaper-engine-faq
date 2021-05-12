@@ -16,11 +16,11 @@ Once you have entered your PIN, the status bar in the mobile app turns green and
 
 ![PIN มือถือ](/img/faq/mobile_pair.gif)
 
-## Mobile Pairing Problem Solving
+## กำลังแก้ปัญหาการจับคู่มือถือ
 
 If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
 
 * Ensure that your phone and computer are connected to the same local network.
 * Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
-* Ensure your network router is not blocking your devices from communicating with each other.
-* Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
+* ตรวจสอบให้แน่ใจว่าเราเตอร์เครือข่ายไม่ได้ปิดกั้นอุปกรณ์ของคุณไม่ให้สื่อสารกัน
+* ตรวจสอบอีกครั้งว่า Wallpaper Engine บน Windows และอุปกรณ์มือถือของคุณเป็นรุ่นล่าสุดและกำลังทำงาน
