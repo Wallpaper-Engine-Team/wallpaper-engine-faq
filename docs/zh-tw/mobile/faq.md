@@ -4,12 +4,12 @@
 
 ## 無法在 Android 上設定動態桌布
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+依據使用的裝置製造商與 Android 啟動器的不同，您可能無法在鎖定螢幕上設定動態桌布，或只能在主螢幕設定相同的桌布。
 
 When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
 
-* Huawei
-* Xiaomi
+* 華為
+* 小米
 
 ## How to unset Wallpaper Engine wallpaper
 
