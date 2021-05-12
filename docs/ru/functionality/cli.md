@@ -137,7 +137,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### Открыть профиль
 
-Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+Применяет существующий профиль ко всем дисплеям, которые были созданы и сохранены в меню дисплеев Wallpaper Engine.
 
 ``` powershell
 -control openProfile -profile <string>
