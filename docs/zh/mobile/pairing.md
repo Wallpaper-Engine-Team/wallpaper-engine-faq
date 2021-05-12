@@ -10,15 +10,15 @@
 
 ### 连接移动设备
 
-在 Wallpaper Engine 移动伴侣应用程序上，单击右下角的**添加**，然后单击**与计算机配对**。 Wallpaper Engine 应用程序将在您的本地网络中搜索 Windows 版 Wallpaper Engine 的运行实例。 您的 Windows 计算机将在几秒钟后出现，使您可以通过单击来连接到它。 如果您是第一次连接，则会要求您输入 4 位数 PIN（参阅上面的 Windows 部分）。 The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
+在 Wallpaper Engine 移动伴侣应用程序上，单击右下角的**添加**，然后单击**与计算机配对**。 Wallpaper Engine 应用程序将在您的本地网络中搜索 Windows 版 Wallpaper Engine 的运行实例。 您的 Windows 计算机将在几秒钟后出现，使您可以通过单击来连接到它。 如果您是第一次连接，则会要求您输入 4 位数 PIN（参阅上面的 Windows 部分）。 PIN 是一种附加安全措施，可确保未经授权的用户无法在您不知情的情况下连接到计算机。
 
-Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+输入 PIN 后，手机应用程序中的状态栏就会变成绿色，并显示所连接的计算机。 在 Windows 应用程序中，**移动设备**按钮现在也会变成绿色，表示移动设备连接处于活动状态。
 
-![Mobile PIN](/img/faq/mobile_pair.gif)
+![移动设备 PIN](/img/faq/mobile_pair.gif)
 
-## Mobile Pairing Problem Solving
+## 移动设备配对问题解决
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+如果无法将移动设备与计算机配对，则防火墙或本地网络设置很可能出错了。 检查以下可能的问题来源：
 
 * Ensure that your phone and computer are connected to the same local network.
 * Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
