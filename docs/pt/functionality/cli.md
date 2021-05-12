@@ -135,15 +135,15 @@ Carrega um novo wallpaper para um dado monitor ou para o primeiro monitor, caso 
 * **location *(opcional)*:** Identificador interno do monitor. Pode encontrá-los no ficheiro config.json e são gerados pelo seu PC.
 * **monitor *(opcional)*:** Index do monitor no qual carregar a lista de reprodução, começa por 0.
 
-### Open Profile
+### Abrir perfil
 
-Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+Aplica um nome de perfil existente por nome a todos os ecrãs que foram criados e guardados no menu de ecrã do Wallpaper Engine.
 
 ``` powershell
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **profile:** Nome do perfil que criou no Wallpaper Engine.
 
 ### Aplicar definições do wallpaper
 
