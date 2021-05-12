@@ -1,6 +1,6 @@
 # Steam 收藏庫中找不到 Wallpaper Engine
 
-如果您已在 Steam 上購買 Wallpaper Engine，在 Steam 收藏庫中卻找不到，最常見的原因是您的 Steam 設定為僅顯示**遊戲**。 Wallpaper Engine is not a game, so be sure to enable the **Software** filter by clicking on the Steam library filter options at the top of your library tab as shown here:
+如果您已在 Steam 上購買 Wallpaper Engine，在 Steam 收藏庫中卻找不到，最常見的原因是您的 Steam 設定為僅顯示**遊戲**。 Wallpaper Engine 並不是遊戲，故務必在 Steam 收藏庫分頁上方的篩選欄位勾選**軟體**的選項，如下所示：
 
 ![Software Filter in Steam](/img/faq/gamesandsoftware.gif)
 
