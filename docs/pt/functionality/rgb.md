@@ -25,9 +25,9 @@ Se a secção *Plugin* das definições do Wallpaper Engine não estiver visíve
 
 * [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
-## Problemas com hardwarre RGB depois de hibernar
+## Problemas com hardware RGB depois de hibernar
 
-Em casos raros, a hibernação podem fazer com que o hardware RGB pare de funcionar em combinação com o Wallpaper Engine. Se algum ou todo o seu hardware RGB parar de funcionar corretamente depois do seu sistema despertar da hibernação, experimente ativar a opção **Iniciar em segurança depois de hibernar** no separador **Gerais** das definições do Wallpaper Engine. Isto resolve estes tipos de problemas para a maior parte dos utiizadores afetados.
+Em casos raros, a hibernação podem fazer com que o hardware RGB pare de funcionar em combinação com o Wallpaper Engine. Se algum ou todo o seu hardware RGB parar de funcionar corretamente depois do seu sistema despertar da hibernação, experimente ativar a opção **Iniciar em segurança depois de hibernar** no separador **Gerais** das definições do Wallpaper Engine. Isto resolve estes tipos de problemas para a maior parte dos utilizadores afetados.
 
 Além disto, também pode utilizar a opção **Atraso no carregamento dos plugins** no fundo do separador **Plugins** das definições do Wallpaper Engine para atrasar a tentativa de ligação que o Wallpaper Engine faz ao seu hardware RGB. Pode experimentar um valor de **30 segundos** e testar se isso lhe resolve o problema.
 
