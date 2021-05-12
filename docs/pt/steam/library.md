@@ -1,10 +1,10 @@
 # Wallpaper Engine em falta na biblioteca do Steam
 
-Se adquiriu o Wallpaper Engine no Steam mas não o consegue encontrar na sua biblioteca do Steam, o motivo mais comum é que o Steam está configurado para mostrar apenas **Jogos**. O Wallpaper Engine não é um jogo, pelo que deve ativar o filtro **Software** clicando nas opções de filtragem da bilbioteca do Steam no topo do seu separador da biblioteca, tal como é ilustrado aqui:
+Se adquiriu o Wallpaper Engine no Steam mas não o consegue encontrar na sua biblioteca do Steam, o motivo mais comum é que o Steam está configurado para mostrar apenas **Jogos**. O Wallpaper Engine não é um jogo, pelo que deve ativar o filtro **Software** clicando nas opções de filtragem da biblioteca do Steam no topo do seu separador da biblioteca, tal como é ilustrado aqui:
 
 ![Filtro de software no Steam](/img/faq/gamesandsoftware.gif)
 
-Se este filtro não xistir para si ou continuar a não encontrar o Wallpaper Engine na sua biblioteca, consulte o historial de compras da sua conta Steam para confirmar que a conta que está a utilizar realmente possui o Wallpaper Engine. Pode consultar o seu historial de compras na seguinte página (certifique-se de que tem sessão iniciada na conta Steam correta):
+Se este filtro não existir para si ou continuar a não encontrar o Wallpaper Engine na sua biblioteca, consulte o historial de compras da sua conta Steam para confirmar que a conta que está a utilizar realmente possui o Wallpaper Engine. Pode consultar o seu historial de compras na seguinte página (certifique-se de que tem sessão iniciada na conta Steam correta):
 
 * [Histórico de compras da conta Steam](https://store.steampowered.com/account/history/)
 
