@@ -4,9 +4,9 @@
 
 ## 無法在 Android 上設定動態桌布
 
-依據使用的裝置製造商與 Android 啟動器的不同，您可能無法在鎖定螢幕上設定動態桌布，或只能在主螢幕設定相同的桌布。
+依據使用的裝置製造商與 Android 啟動器的不同，您可能無法在鎖定畫面上設定動態桌布，或只能在主螢幕設定相同的桌布。
 
-在手機上的 Wallpaper Engine 預覽動態桌布時，長按右上角的勾號幾秒鐘， 就能打開手機上的動態桌布螢幕。 Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+在手機上的 Wallpaper Engine 預覽動態桌布時，長按右上角的勾號幾秒鐘， 就能打開手機上的動態桌布螢幕。 雖然使用裝置的製造商不同，但您應該在鎖定畫面可以看見設定桌布的選項，如果此選項未出現，應該是手機的鎖定畫面不支援動態桌布。 已知下列手機製造商不允許其部分或所有裝置在鎖定畫面顯示動態桌布：
 
 * 華為
 * 小米
