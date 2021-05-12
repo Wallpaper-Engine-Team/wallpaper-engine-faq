@@ -19,4 +19,4 @@
 
 ## Android 桌布定期消失或默默當機
 
-如果您將 Wallpaper Engine 當作桌布，但桌布在數小時、數天或數週後消失，且未出現任何錯誤訊息，則很可能是因為手機的省電功能使其意外終止運作。 在正常情況下，Android 絕不會因為省電而終止動態桌布，但一些使用者卻回報了此狀況。 這大部分與裝置製造商有關，如果 Wallpaper Engine 固定消失，請在 Android 設定中停用 Wallpaper Engine 電源最佳化。 This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+如果您將 Wallpaper Engine 當作桌布，但桌布在數小時、數天或數週後消失，且未出現任何錯誤訊息，則很可能是因為手機的省電功能使其意外終止運作。 在正常情況下，Android 絕不會因為省電而終止動態桌布，但一些使用者卻回報了此狀況。 這大部分與裝置製造商有關，如果 Wallpaper Engine 固定消失，請在 Android 設定中停用 Wallpaper Engine 電源最佳化。 因 Android 版本與裝置的操作方法各不相同，如果您不確定，可上網搜尋方法，依據確切的行動裝置名稱，確認如何停用應用程式電源最佳化。
