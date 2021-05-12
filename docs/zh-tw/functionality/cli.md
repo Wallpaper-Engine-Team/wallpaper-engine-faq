@@ -143,7 +143,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **profile：** 您在 Wallpaper Engine 中建立檔案的名稱。
 
 ### 套用桌布設定
 
