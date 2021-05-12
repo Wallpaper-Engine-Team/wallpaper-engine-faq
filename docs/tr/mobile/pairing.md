@@ -1,6 +1,6 @@
 # Mobil Cihazı Windows ile eşleştirme
 
-You can pair your mobile devices with your computer to wirelessly transfer your wallpaper collection to the Wallpaper Engine companion app on your mobile device. It's not possible for the Android app to directly download wallpapers from the Steam Workshop because only Steam itself can download the wallpaper files.
+Mobil cihazlarınızı bilgisayarınızla eşleştirerek duvar kâğıdı koleksiyonunuzu mobil cihazınızdaki Wallpaper Engine tamamlayıcı uygulamasına kablosuz olarak aktarabilirsiniz. It's not possible for the Android app to directly download wallpapers from the Steam Workshop because only Steam itself can download the wallpaper files.
 
 ### Preparing Wallpaper Engine on Windows
 
