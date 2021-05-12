@@ -1,8 +1,8 @@
 # Configurar o Wallpaper Engine em Android
 
-A app complementar gratuita do Wallpaper Engine para dispositivos Android requer **Abdroid 8.1** ou mais recente e duposte telefones e tablets.
+A app complementar gratuita do Wallpaper Engine para dispositivos Android requer **Android 8.1** ou mais recente e suporte telefones e tablets.
 
-Recomendamos que instale a app através da versão oficial da app store, mas também pode transferir a app mais recente diretamente da nossa página na web. For download links and more information, please view our Android download page:
+Recomendamos que instale a app através da versão oficial da app store, mas também pode transferir a app mais recente diretamente da nossa página na web. Para obter as ligações para transferência e mais informações, visite nossa página de transferências para Android:
 
-* [Download Wallpaper Engine for Android](https://www.wallpaperengine.io/android/)
+* [Transferir o Wallpaper Engine para Android](https://www.wallpaperengine.io/android/)
 
