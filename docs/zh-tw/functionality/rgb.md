@@ -25,7 +25,7 @@ Wallpaper Engine 無法直接與 RGB 硬體溝通，所有顏色資訊都是先�
 
 * [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
-## Problems with RGB hardware after hibernation
+## 休眠後 RGB 硬體出現問題
 
 In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
 
