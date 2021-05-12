@@ -1,4 +1,4 @@
-# Wallpaper Engine missing in Steam Library
+# Wallpaper Engine нет в библиотеке Steam
 
 If you have purchased Wallpaper Engine on Steam but are unable to find it in your Steam library, the most common reason is that your Steam is configured to only show **Games**. Wallpaper Engine is not a game, so be sure to enable the **Software** filter by clicking on the Steam library filter options at the top of your library tab as shown here:
 
