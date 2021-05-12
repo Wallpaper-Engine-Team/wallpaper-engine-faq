@@ -27,7 +27,7 @@ Wallpaper Engine 无法直接与 RGB 硬件通信，所有颜色信息都要先�
 
 ## 休眠后 RGB 硬件出现问题
 
-In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+在极少数情况下，休眠可能会导致 RGB 硬件停止与 Wallpaper Engine 一起工作。 如果系统从休眠状态唤醒后，部分或全部 RGB 硬件无法正常工作，请尝试在 Wallpaper Engine 设置的**常规**选项卡中启用**休眠后安全启动**，这可以为大多数受影响的用户解决这些类型的问题。
 
 Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
 
