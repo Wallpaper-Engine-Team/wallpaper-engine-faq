@@ -4,18 +4,18 @@
 
 ## 无法在 Android 锁屏上设置动态壁纸
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+根据设备制造商和所用 Android 启动器的不同，您可能无法在锁屏上设置动态壁纸，或者只能设置与主屏幕相同的壁纸。
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+在手机上预览 Wallpaper Engine 中的动态壁纸时，长按右上角的复选标记符号几秒钟。 这样会打开手机的动态壁纸屏幕。 根据制造商的不同，您现在应该在锁屏上看到用于设置壁纸的选项，如果未出现此选项，则您的手机不支持锁屏上的动态壁纸。 已知以下手机制造商不允许在其所有或部分设备的锁屏上显示动态壁纸：
 
-* Huawei
-* Xiaomi
+* 华为
+* 小米
 
-## How to unset Wallpaper Engine wallpaper
+## 如何取消设置 Wallpaper Engine 壁纸
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+如果想要停止使用 Wallpaper Engine 壁纸，直接在 Android 设置中分配新的壁纸即可。 Wallpaper Engine 只是 Android 的另一张壁纸，壁纸无法自行取消设置。
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+您也可以完全卸载 Wallpaper Engine，这将使手机恢复到默认壁纸。
 
 ## Android wallpaper regularly disappears or crashes silently
 
