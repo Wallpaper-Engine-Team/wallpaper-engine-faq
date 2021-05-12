@@ -17,6 +17,6 @@
 
 您也可以完全卸载 Wallpaper Engine，这将使手机恢复到默认壁纸。
 
-## Android wallpaper regularly disappears or crashes silently
+## Android 壁纸定期消失或无声崩溃
 
-If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+如果您将 Wallpaper Engine 用作壁纸，但壁纸在几小时、几天或几周后消失而没有任何错误消息，则很可能是由于手机的省电功能而遭到错误终止。 Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
