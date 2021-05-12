@@ -29,7 +29,7 @@ Wallpaper Engine 无法直接与 RGB 硬件通信，所有颜色信息都要先�
 
 在极少数情况下，休眠可能会导致 RGB 硬件停止与 Wallpaper Engine 一起工作。 如果系统从休眠状态唤醒后，部分或全部 RGB 硬件无法正常工作，请尝试在 Wallpaper Engine 设置的**常规**选项卡中启用**休眠后安全启动**，这可以为大多数受影响的用户解决这些类型的问题。
 
-Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+此外，您可以在 Wallpaper Engine 设置中，使用**插件**选项卡底部的**插件加载延迟**选项，延迟 Wallpaper Engine 与 RGB 硬件的连接尝试。 您可以尝试 **30 秒**的值，并测试是否解决了问题。
 
 ### Corsair
 
