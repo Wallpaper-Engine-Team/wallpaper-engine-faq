@@ -27,9 +27,9 @@ Se a secção *Plugin* das definições do Wallpaper Engine não estiver visíve
 
 ## Problemas com hardwarre RGB depois de hibernar
 
-Em casos raros, a hibernação podem fazer com que o hardware RGB pare de funcionar em combinação com o Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+Em casos raros, a hibernação podem fazer com que o hardware RGB pare de funcionar em combinação com o Wallpaper Engine. Se algum ou todo o seu hardware RGB parar de funcionar corretamente depois do seu sistema despertar da hibernação, experimente ativar a opção **Iniciar em segurança depois de hibernar** no separador **Gerais** das definições do Wallpaper Engine. Isto resolve estes tipos de problemas para a maior parte dos utiizadores afetados.
 
-Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+Além disto, também pode utilizar a opção **Atraso no carregamento dos plugins** no fundo do separador **Plugins** das definições do Wallpaper Engine para atrasar a tentativa de ligação que o Wallpaper Engine faz ao seu hardware RGB. Pode experimentar um valor de **30 segundos** e testar se isso lhe resolve o problema.
 
 ### Corsair
 
