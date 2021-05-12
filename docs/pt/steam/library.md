@@ -8,6 +8,6 @@ Se este filtro não existir para si ou continuar a não encontrar o Wallpaper En
 
 * [Histórico de compras da conta Steam](https://store.steampowered.com/account/history/)
 
-Caos continue a não conseguir encontrar o Wallpaper Engine na sua conta Steam, deve contactar diretamente a Equipa de Assistência do Steam. Infelizmente, os programadores do Steam não têm acesso aos dados de conta do Steam e não podem oferecer assistência para isto, só a equipa do Steam pode ajudar em problemas de contas e compras:
+Caos continue a não conseguir encontrar o Wallpaper Engine na sua conta Steam, deve contactar diretamente a Equipa de Assistência do Steam. Infelizmente, no Steam os criadores não têm acesso aos dados de conta do Steam e não podem oferecer assistência para isto, só a equipa do Steam pode ajudar em problemas de contas e compras:
 
 * [Assistência do Steam](https://help.steampowered.com)
