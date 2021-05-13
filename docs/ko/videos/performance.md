@@ -5,7 +5,7 @@
 ## 배경 녹화 후크
 또한 ReLive, Shadow Play/Nvidia Share 또는 Windows GameDVR과 같은 녹화 응용 프로그램의 드라이버 기능 때문일 수도 있습니다. 이것을 비활성화하여 바뀐 내용을 확인한 다음, 여기서 Wallpaper Engine을 제외하세요. 또한 다른 녹화/오버레이 프로그램이 Wallpaper Engine으로 로드되어 렌더링 속도를 늦추는지도 확인해야 합니다.
 
-You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
+스캔 도구를 사용해 이러한 유형의 문제를 유발하는 것으로 알려진 프로그램이 설치되어 있는지 확인할 수 있습니다. 스캔 도구는 문제의 근원을 안정적으로 파악할 수 없다는 점에 유의하십시오. 아무런 문제도 감지하지 못하거나 문제와 관련 없는 앱을 보고할 수도 있습니다.
 
 * [Wallpaper Engine 스캔 도구](/debug/scantool.html)
 
