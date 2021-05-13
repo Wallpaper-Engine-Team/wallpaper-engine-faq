@@ -20,7 +20,7 @@
 
 如果无法将移动设备与计算机配对，则防火墙或本地网络设置很可能出错了。 检查以下可能的问题来源：
 
-* Ensure that your phone and computer are connected to the same local network.
-* Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
-* Ensure your network router is not blocking your devices from communicating with each other.
+* 确保您的手机和计算机连接到同一本地网络。
+* 确保防火墙没有阻止 Wallpaper Engine 与本地网络通信。
+* 确保网络路由器没有阻止您的设备相互通信。
 * Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
