@@ -1,8 +1,8 @@
 # 在 Android 上设置 Wallpaper Engine
 
-The free Wallpaper Engine companion app for Android devices requires **Android 8.1** or newer and supports phones and tablets.
+适用于 Android 设备的免费 Wallpaper Engine 伴侣应用程序需要 **Android 8.1** 或更高版本，并支持手机和平板电脑。
 
-We recommend installing the app through the official app store release but you can also directly download the latest app directly from our homepage. For download links and more information, please view our Android download page:
+我们建议通过官方应用商店发行版安装应用程序，但您也可以直接从我们的主页下载最新的应用程序。 有关下载链接和更多信息，请查看我们的 Android 下载页面：
 
 * [下载 Android 版 Wallpaper Engine](https://www.wallpaperengine.io/android/)
 
