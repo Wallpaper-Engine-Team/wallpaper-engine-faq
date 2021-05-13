@@ -143,7 +143,7 @@ Carga un perfil que se haya creado en el menú de pantallas de Wallpaper Engine 
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **profile:** Nombre del perfil que has creado en Wallpaper Engine.
 
 ### Establecer ajustes del fondo
 
