@@ -25,7 +25,7 @@ Wallpaper 설정의 *플러그인* 섹션이 보이지 않으면, 이 기능을 
 
 * [Visual Studio 2015용 Visual C++ 재배포 가능 패키지](https://www.microsoft.com/download/details.aspx?id=48145)
 
-## Problems with RGB hardware after hibernation
+## 절전 모드 후 RGB 하드웨어 문제
 
 In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
 
