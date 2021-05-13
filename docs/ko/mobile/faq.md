@@ -6,17 +6,17 @@
 
 자신의 기기 제조사와 사용 중인 Android 런처에 따라 라이브 배경화면을 잠금화면 또는 홈 화면으로 설정하는 것이 불가능할 수도 있습니다.
 
-핸드폰의 Wallpaper Engine에서 라이브 배경화면을 미리보기 할 때, 화면 우측 상단의 체크 표시를 몇 초 동안 길게 누르세요. 그러면 핸드폰의 라이브 배경화면이 표시됩니다. 기기 제조사에 따라 배경화면을 잠금화면으로 설정할 옵션이 표시될 것입니다. 해당 옵션이 표시되지 않는다면, 귀하의 핸드폰이 잠금화면에 라이브 배경화면을 지원하지 않는다는 의미입니다. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+핸드폰의 Wallpaper Engine에서 라이브 배경화면을 미리보기 할 때, 화면 우측 상단의 체크 표시를 몇 초 동안 길게 누르세요. 그러면 핸드폰의 라이브 배경화면이 표시됩니다. 기기 제조사에 따라 배경화면을 잠금화면으로 설정할 옵션이 표시될 것입니다. 해당 옵션이 표시되지 않는다면, 귀하의 핸드폰이 잠금화면에 라이브 배경화면을 지원하지 않는다는 의미입니다. 다음 핸드폰 제조사는 일부 또는 모든 기기에서 잠금화면에 라이브 배경화면을 지원하지 않습니다:
 
 * Huawei
 * Xiaomi
 
-## How to unset Wallpaper Engine wallpaper
+## Wallpaper Engine 배경화면 설정 해제
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+Wallpaper Engine의 배경화면을 그만 사용하고 싶을 때에는 Android 설정에서 새로운 배경화면을 지정하면 됩니다. Android는 Wallpaper Engine을 일반 배경화면과 똑같이 간주하기 때문에 Wallpaper Engine을 통해서는 해제할 수 없습니다.
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+또는 Wallpaper Engine 자체를 제거하면 핸드폰이 기본 배경화면으로 되돌아갑니다.
 
-## Android wallpaper regularly disappears or crashes silently
+## Android 배경화면이 주기적으로 사라지거나 충돌합니다
 
-If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+Wallpaper Engine을 배경화면으로 사용 중이지만 몇 시간, 며칠 또는 몇 주 후 배경화면이 오류 메시지 없이 사라진다면, 핸드폰의 배터리 절약 기능으로 인해 잘못 종료된 것일 가능성이 높습니다. 일반적인 상황에서는 Android가 전력을 절약하기 위해 라이브 배경화면을 종료하지 않지만, 일부 유저들이 이러한 현상을 경험했다고 보고했습니다. 이 문제는 주로 기기 제조사에 달려 있으며, Wallpaper Engine이 주기적으로 사라진다면 Android 설정에서 Wallpaper Engine의 배터리 최적화를 비활성화하십시오. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
