@@ -10,9 +10,9 @@
 
 ### 連接行動裝置
 
-在 Wallpaper Engine 行動版隨附應用程式，按一下右下角的**新增**，之後再按一下**與電腦配對**。 Wallpaper Engine 應用程式將在您的區域網路搜尋 Windows 的 Wallpaper Engine 執行個體。 Windows 電腦應該數秒後就會出現，您可按一下開始連線。 如果您是第一次連線，將必須輸入 4 位數的 PIN 碼 (請見上方 Windows 一節)。 The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
+在 Wallpaper Engine 行動版隨附應用程式，按一下右下角的**新增**，之後再按一下**與電腦配對**。 Wallpaper Engine 應用程式將在您的區域網路搜尋 Windows 的 Wallpaper Engine 執行個體。 Windows 電腦應該數秒後就會出現，您可按一下開始連線。 如果您是第一次連線，將必須輸入 4 位數的 PIN 碼 (請見上方 Windows 一節)。 PIN 碼是額外的安全措施，以免未授權的使用者在您未知情況下連線至您的電腦。
 
-Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+您一旦輸入 PIN 碼，行動應用程式的狀態列會變成綠色，顯示已連線的電腦。 On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
 
 ![Mobile PIN](/img/faq/mobile_pair.gif)
 
