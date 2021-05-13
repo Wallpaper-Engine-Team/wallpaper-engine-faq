@@ -2,20 +2,20 @@
 
 หน้านี้ประกอบด้วยรายการคำถามที่พบบ่อยที่สุดและปัญหาทางเทคนิคที่พบโดยผู้ใช้
 
-## ไม่สามารถตั้งวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อกของ Android
+## ไม่สามารถตั้งค่าวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อกของ Android
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+ทั้งนี้ขึ้นอยู่กับผู้ผลิตอุปกรณ์ของคุณและตัวเรียกใช้งาน Android ที่คุณใช้ คุณอาจไม่สามารถตั้งค่าวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อกได้ หรืออาจทำได้เพียงตั้งค่าวอลเปเปอร์เดียวกันกับหน้าจอหลัก
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+เมื่อดูตัวอย่างวอลเปเปอร์ภาพเคลื่อนไหวใน Wallpaper Engine บนโทรศัพท์ของคุณ ให้กดสัญลักษณ์เครื่องหมายถูกที่มุมขวาบนค้างไว้สองสามวินาที เพื่อเปิดวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอโทรศัพท์ของคุณ ตอนนี้ตัวเลือกในการตั้งค่าวอลเปเปอร์บนหน้าจอล็อกควรปรากฏขึ้น ทั้งนี้ขึ้นอยู่กับผู้ผลิตของคุณ หากตัวเลือกนี้ไม่ปรากฏขึ้น แสดงว่าโทรศัพท์ของคุณไม่รองรับวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อก ผู้ผลิตโทรศัพท์ต่อไปนี้เป็นที่ทราบกันดีว่าไม่อนุญาตให้ใช้วอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อกของอุปกรณ์บางประเภทหรือทั้งหมด:
 
 * Huawei
 * Xiaomi
 
-## How to unset Wallpaper Engine wallpaper
+## วิธียกเลิกการตั้งค่าวอลเปเปอร์ Wallpaper Engine
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+หากคุณต้องการหยุดใช้วอลเปเปอร์ Wallpaper Engine คุณสามารถกำหนดวอลเปเปอร์ใหม่ได้ในการตั้งค่า Android Wallpaper Engine เป็นเพียงวอลเปเปอร์หนึ่งสำหรับ Android และวอลเปเปอร์ไม่สามารถยกเลิกการตั้งค่าได้ด้วยตัวเอง
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+คุณยังสามารถถอนการติดตั้งทั้งหมดของ Wallpaper Engine ซึ่งจะคืนค่าวอลเปเปอร์เริ่มต้นให้โทรศัพท์ของคุณ
 
 ## Android wallpaper regularly disappears or crashes silently
 
