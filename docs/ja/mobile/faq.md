@@ -6,14 +6,14 @@
 
 お使いのデバイスのメーカーや、Androidのランチャーによっては、ロック画面にライブ壁紙が設定できなかったり、ホーム画面と同じ壁紙しか設定できなかったりすることがあります。
 
-スマートフォン上のWallpaper Engineでライブ壁紙をプレビューする時に、右上のチェックマークを数秒間押したままにしてみてください。 これにより、スマートフォンにライブ壁紙の画面が現れます。 Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+スマートフォン上のWallpaper Engineでライブ壁紙をプレビューする時に、右上のチェックマークを数秒間押したままにしてみてください。 これにより、スマートフォンにライブ壁紙の画面が現れます。 メーカーによっては、この時、ロック画面に壁紙を設定するというオプションが表示されます。このオプションが表示されない場合は、お使いのデバイスはロック画面でのライブ壁紙をサポートしていません。 次のメーカーの一部、あるいは全部のデバイスは、ロック画面にライブ壁紙を使用できないことが分かっています：
 
 * Huawei
 * Xiaomi
 
-## How to unset Wallpaper Engine wallpaper
+## Wallpaper Engineの壁紙の設定を解除するには
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+Wallpaper Engineの壁紙の使用をやめたい時は、Androidの設定で新しい壁紙を設定してください。 Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
 
 Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
 
