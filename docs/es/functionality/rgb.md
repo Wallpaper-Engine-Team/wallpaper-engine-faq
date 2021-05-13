@@ -29,7 +29,7 @@ Si no puedes ver la sección *Complementos* de Wallpaper Engine, es probable que
 
 No es lo habitual, pero la hibernación puede provocar que los componentes RGB dejen de funcionar con Wallpaper Engine. Si algunos de tus componentes RGB no funcionan correctamente después de que el sistema hiberne, activa la opción **Inicio seguro después de la hibernación** en la pestaña **General** de los ajustes de Wallpaper Engine. Así suelen resolverse los problemas de la mayoría de usuarios afectados.
 
-Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+Además, también puedes usar la opción **Ralentizar carga de plugin** que se encuentra en la parte inferior de la pestaña **Complementos** de los ajustes de Wallpaper Engine para ralentizar las conexiones del programa con los componentes RGB. Prueba con **30 segundos** para ver si así se soluciona el problema.
 
 ### Corsair
 
