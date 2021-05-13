@@ -17,6 +17,6 @@
 
 คุณยังสามารถถอนการติดตั้งทั้งหมดของ Wallpaper Engine ซึ่งจะคืนค่าวอลเปเปอร์เริ่มต้นให้โทรศัพท์ของคุณ
 
-## Android wallpaper regularly disappears or crashes silently
+## วอลเปเปอร์ Android หายไปหรือหยุดทำงานอย่างเงียบ ๆ อยู่บ่อยครั้ง
 
-If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+หากคุณใช้ Wallpaper Engine เป็นวอลเปเปอร์ แต่วอลเปเปอร์กลับหายไปโดยไม่มีข้อความแสดงข้อผิดพลาดเมื่อผ่านไปสองสามชั่วโมง หลายวัน หรือหลายสัปดาห์ เป็นไปได้ว่าวอลเปเปอร์ถูกยกเลิกโดยฟังก์ชันการประหยัดพลังงานของโทรศัพท์ของคุณโดยไม่ได้ตั้งใจ โดยปกติแล้ว Android ไม่ควรหยุดการใช้งานวอลเปเปอร์ภาพเคลื่อนไหวเพื่อจุดประสงค์ในการประหยัดพลังงาน แต่ผู้ใช้บางรายได้รายงานว่าสิ่งนี้เกิดขึ้นกับพวกเขา ส่วนใหญ่แล้วสิ่งนี้ขึ้นอยู่กับผู้ผลิตอุปกรณ์ของคุณ หาก Wallpaper Engine หายไปเป็นประจำ โปรดปิดการใช้งานการเพิ่มประสิทธิภาพพลังงานสำหรับ Wallpaper Engine ในการตั้งค่า Android การดำเนินการนี้ขึ้นอยู่กับเวอร์ชันและอุปกรณ์ Android ของคุณ หากคุณไม่แน่ใจ คุณสามารถค้นหาวิธีปิดการใช้งานการเพิ่มประสิทธิภาพพลังงานสำหรับแอปทางอินเทอร์เน็ตโดยใช้ชื่ออุปกรณ์มือถือของคุณ
