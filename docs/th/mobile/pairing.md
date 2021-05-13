@@ -4,23 +4,23 @@
 
 ### กำลังเตรียม Wallpaper Engine บน Windows
 
-ในแอป **Windows** ให้คลิกปุ่ม **โทรศัพท์** ที่มุมขวาบนของส่วนต่อประสานกับผู้ใช้ ภาพรวมอุปกรณ์มือถือจะเปิดขึ้น ด้านล่างของภาพรวมอุปกรณ์ ให้คลิกที่ปุ่ม **เชื่อมต่ออุปกรณ์ใหม่** Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
+ในแอป **Windows** ให้คลิกปุ่ม **โทรศัพท์** ที่มุมขวาบนของส่วนต่อประสานกับผู้ใช้ ภาพรวมอุปกรณ์มือถือจะเปิดขึ้น ด้านล่างของภาพรวมอุปกรณ์ ให้คลิกที่ปุ่ม **เชื่อมต่ออุปกรณ์ใหม่** Wallpaper Engine จะแสดง PIN 4 หลักซึ่งคุณสามารถใช้เพื่อจับคู่กับอุปกรณ์มือถือหนึ่งเครื่อง
 
 ![PIN มือถือ](/img/faq/mobile_pin.gif)
 
 ### กำลังเชื่อมต่ออุปกรณ์มือถือของคุณ
 
-In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above). The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
+ในแอปคู่หูโทรศัพท์มือถือ Wallpaper Engine ให้คลิก **เพิ่ม** ที่มุมล่างขวา จากนั้นคลิก **จับคู่กับคอมพิวเตอร์** แอป Wallpaper Engine จะค้นหาเครือข่ายภายในของคุณเพื่อเรียกใช้ตัวอย่างของ Wallpaper Engine สำหรับ Windows คอมพิวเตอร์ Windows ของคุณจะปรากฏขึ้นภายในเวลาไม่นานเพื่อให้คุณเชื่อมต่อได้ในคลิกเดียว หากคุณเชื่อมต่อเป็นครั้งแรก ระบบจะขอให้คุณป้อน PIN 4 หลัก (ดูหัวข้อ Windows ด้านบน) PIN เป็นมาตรการรักษาความปลอดภัยเพิ่มเติมที่ช่วยเพิ่มความมั่นใจว่าผู้ใช้ที่ไม่ได้รับอนุญาตจะไม่สามารถเชื่อมต่อกับคอมพิวเตอร์ของคุณได้โดยที่คุณไม่รู้ตัว
 
-Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+หลังจากป้อน PIN แล้ว แถบสถานะในแอปมือถือจะเปลี่ยนเป็นสีเขียวและแสดงคอมพิวเตอร์ที่เชื่อมต่อ ปุ่ม **โทรศัพท์** ในแอป Windows จะเปลี่ยนเป็นสีเขียวเพื่อแสดงว่ากำลังการเชื่อมต่อมือถือทำงานอยู่
 
 ![PIN มือถือ](/img/faq/mobile_pair.gif)
 
 ## กำลังแก้ปัญหาการจับคู่มือถือ
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+หากคุณไม่สามารถจับคู่อุปกรณ์มือถือกับคอมพิวเตอร์ได้ อาจเกิดจากความผิดพลาดของไฟร์วอลล์หรือการตั้งค่าเครือข่ายภายใน ตรวจสอบสาเหตุที่อาจทำให้เกิดปัญหาดังต่อไปนี้:
 
-* Ensure that your phone and computer are connected to the same local network.
-* Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
+* ตรวจสอบให้แน่ใจว่าโทรศัพท์และคอมพิวเตอร์ของคุณเชื่อมต่อกับเครือข่ายภายในเดียวกัน
+* ตรวจสอบให้แน่ใจว่าไฟร์วอลล์ไม่ได้ป้องกันไม่ให้ Wallpaper Engine สื่อสารกับเครือข่ายภายในของคุณ
 * ตรวจสอบให้แน่ใจว่าเราเตอร์เครือข่ายไม่ได้ปิดกั้นอุปกรณ์ของคุณไม่ให้สื่อสารกัน
 * ตรวจสอบอีกครั้งว่า Wallpaper Engine บน Windows และอุปกรณ์มือถือของคุณเป็นรุ่นล่าสุดและกำลังทำงาน
