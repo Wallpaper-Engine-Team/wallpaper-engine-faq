@@ -13,10 +13,10 @@
 
 ## Wallpaper Engineの壁紙の設定を解除するには
 
-Wallpaper Engineの壁紙の使用をやめたい時は、Androidの設定で新しい壁紙を設定してください。 Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+Wallpaper Engineの壁紙の使用をやめたい時は、Androidの設定で新しい壁紙を設定してください。 Wallpaper Engineは、Androidにとっては単に壁紙の一つにすぎないため、壁紙自体を解除することはできません。
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+あるいは、Wallpaper Engineを完全にアンインストールすることもできます。それによって壁紙はデフォルトのものに戻ります。
 
-## Android wallpaper regularly disappears or crashes silently
+## Androidの壁紙が定期的に消えたり、静かにクラッシュしたりする
 
 If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
