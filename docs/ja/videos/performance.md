@@ -5,7 +5,7 @@
 ## バックグラウンドの録画のフック
 ReLive、Shadow Play/Nvidia Share、Windows GameDVRなどのアプリケーションで録画するためのドライバの機能による可能性もあります。 それらを無効にし、違いがあるかどうか確認してから、Wallpaper Engineをそれらから除外してみてください。 また、他の録画/オーバーレイプログラムがWallpaper Engineに自身をロードし、レンダリングの速度を低下させていないかどうか確かめてください。
 
-You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
+スキャンツールを使って、この種類の問題を引き起こすことが分かっているプログラムがインストールされているかどうかを判定することができます。 このスキャンツールが、この問題の根本的な原因を必ず検知できるわけではないという点にご注意ください。問題を全く検知できない可能性もありますし、問題に関係のないアプリケーションを報告する可能性もあります：
 
 * [Wallpaper Engine スキャンツール](/debug/scantool.html)
 
