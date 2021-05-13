@@ -1,16 +1,16 @@
 # 모바일 기기와 Windows 페어링하기
 
-You can pair your mobile devices with your computer to wirelessly transfer your wallpaper collection to the Wallpaper Engine companion app on your mobile device. It's not possible for the Android app to directly download wallpapers from the Steam Workshop because only Steam itself can download the wallpaper files.
+자신의 모바일 기기와 컴퓨터를 무선으로 페어링하여 자신의 배경화면을 모바일 기기의 Wallpaper Engine 앱으로 전송할 수 있습니다. Steam만이 Steam 창작마당에서 배경화면 파일을 다운로드할 수 있기 때문에, Android 앱은 배경화면을 직접 다운로드할 수 없습니다.
 
-### Preparing Wallpaper Engine on Windows
+### Windows에서 Wallpaper Engine 준비
 
-In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
+**Windows** 앱에서 사용자 인터페이스 우측 상단의 **모바일** 버튼을 클릭하세요. 모바일 기기 개요가 표시됩니다. 기기 개요에서 가장 아래에 있는 **새로운 기기 연결** 버튼을 클릭하세요. 모바일 기기와 페어링하기 위한 4자리 PIN이 표시됩니다.
 
 ![Mobile PIN](/img/faq/mobile_pin.gif)
 
-### Connecting Your Mobile Device
+### 모바일 기기 연결
 
-In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above). The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
+Wallpaper Engine 모바일 앱에서 화면 우측 하단의 **추가**를 누르고 **컴퓨터와 페어링**을 클릭하세요. Wallpaper Engine이 로컬 네트워크에서 실행 중인 Windows Wallpaper Engine을 검색합니다. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above). The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
 
 Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
 
