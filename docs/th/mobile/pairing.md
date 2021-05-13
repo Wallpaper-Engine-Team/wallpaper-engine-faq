@@ -4,7 +4,7 @@
 
 ### กำลังเตรียม Wallpaper Engine บน Windows
 
-In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
+ในแอป **Windows** ให้คลิกปุ่ม **โทรศัพท์** ที่มุมขวาบนของส่วนต่อประสานกับผู้ใช้ ภาพรวมอุปกรณ์มือถือจะเปิดขึ้น ด้านล่างของภาพรวมอุปกรณ์ ให้คลิกที่ปุ่ม **เชื่อมต่ออุปกรณ์ใหม่** Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
 
 ![PIN มือถือ](/img/faq/mobile_pin.gif)
 
