@@ -137,13 +137,13 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ### 프로필 열기
 
-Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+기존 프로필을 Wallpaper Engine의 디스플레이 메뉴에서 생성하고 저장한 모든 디스플레이에 적용합니다.
 
 ``` powershell
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **프로필:** Wallpaper Engine에서 만들고 저장한 프로필의 이름.
 
 ### 배경화면 설정 적용
 
