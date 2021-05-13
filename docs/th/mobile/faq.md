@@ -1,8 +1,8 @@
 # Android - คำถามและปัญหาที่พบบ่อย
 
-This page contains a list of the most frequent questions and technical issues that users run into.
+หน้านี้ประกอบด้วยรายการคำถามที่พบบ่อยที่สุดและปัญหาทางเทคนิคที่พบโดยผู้ใช้
 
-## Cannot set live wallpaper on Android lock-screen
+## ไม่สามารถตั้งวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อกของ Android
 
 Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
 
