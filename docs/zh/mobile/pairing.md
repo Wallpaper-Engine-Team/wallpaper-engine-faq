@@ -23,4 +23,4 @@
 * 确保您的手机和计算机连接到同一本地网络。
 * 确保防火墙没有阻止 Wallpaper Engine 与本地网络通信。
 * 确保网络路由器没有阻止您的设备相互通信。
-* Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
+* 仔细检查 Windows 上的 Wallpaper Engine 和移动设备是否均为最新版本且正常运行。
