@@ -5,7 +5,7 @@ Podría ocurrir si tienes componentes que no son lo suficientemente potentes par
 ## Grabaciones en segundo plano que se enganchan
 Podría suceder a causa de los controladores para grabar programas como ReLive, Shadow Play/Nvidia Share o Windows GameDVR. Deshabilítalos para ver si cambia la situación y luego excluye Wallpaper Engine en dichos programas. Asegúrate de que no hay más programas de grabación o superposición cargándose en Wallpaper Engine que puedan ralentizar el procesamiento.
 
-You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
+Puedes utilizar nuestra herramienta de escaneo para ver si alguno de los programas que tienes instalados suele causar este tipo de problemas. Ten en cuenta que dicha herramienta no es capaz de detectar el origen del problema con total fiabilidad, sino que puede pasarlo por alto o incluso alertarte por un programa que no tiene que ver con el problema que tienes:
 
 * [Herramienta de escaneo de Wallpaper Engine.](/debug/scantool.html)
 
