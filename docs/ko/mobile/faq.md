@@ -6,7 +6,7 @@
 
 자신의 기기 제조사와 사용 중인 Android 런처에 따라 라이브 배경화면을 잠금화면 또는 홈 화면으로 설정하는 것이 불가능할 수도 있습니다.
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+핸드폰의 Wallpaper Engine에서 라이브 배경화면을 미리보기 할 때, 화면 우측 상단의 체크 표시를 몇 초 동안 길게 누르세요. 그러면 핸드폰의 라이브 배경화면이 표시됩니다. 기기 제조사에 따라 배경화면을 잠금화면으로 설정할 옵션이 표시될 것입니다. 해당 옵션이 표시되지 않는다면, 귀하의 핸드폰이 잠금화면에 라이브 배경화면을 지원하지 않는다는 의미입니다. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
 
 * Huawei
 * Xiaomi
