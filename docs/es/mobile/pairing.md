@@ -18,7 +18,7 @@ Cuando hayas introducido el PIN, la barra de estado de la aplicación móvil se 
 
 ## Solucionar problemas con el emparejamiento del dispositivo
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+Si no puedes emparejar un dispositivo móvil con el ordenador, es problema que sea culpa del firewall o de algún ajuste de la red local. Check the following possible problem sources:
 
 * Ensure that your phone and computer are connected to the same local network.
 * Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
