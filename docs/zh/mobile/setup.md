@@ -1,4 +1,4 @@
-# Setting up Wallpaper Engine on Android
+# 在 Android 上设置 Wallpaper Engine
 
 The free Wallpaper Engine companion app for Android devices requires **Android 8.1** or newer and supports phones and tablets.
 
