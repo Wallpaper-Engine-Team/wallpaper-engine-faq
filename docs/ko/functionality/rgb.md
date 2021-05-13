@@ -27,9 +27,9 @@ Wallpaper 설정의 *플러그인* 섹션이 보이지 않으면, 이 기능을 
 
 ## 절전 모드 후 RGB 하드웨어 문제
 
-In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+극히 일부의 경우, 절전 모드로 인해 RGB 하드웨어가 Wallpaper Engine과 함께 작동하지 않을 수도 있습니다. 만약 시스템이 최대 절전 모드에서 벗어난 후 RGB 하드웨어가 오작동한다면 Wallpaper Engine 설정의 **일반** 탭에서 **최대 절전 모드 후 안전 모드:** 옵션을 활성화하세요. 이와 같은 문제의 대부분이 해당 옵션을 켜는 것으로 해결됩니다.
 
-Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+또한, Wallpaper Engine 설정의 **플러그인** 탭에서 **플러그인 로드 지연** 옵션을 사용해서 Wallpaper Engine의 RGB 하드웨어 연결 시도를 지연할 수 있습니다. **30초**로 시험해보고 문제가 해결되는지 확인하십시오.
 
 ### Corsair
 
