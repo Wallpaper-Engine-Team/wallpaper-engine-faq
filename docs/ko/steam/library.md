@@ -1,13 +1,13 @@
-# Wallpaper Engine missing in Steam Library
+# Steam 라이브러리에 Wallpaper Engine이 없는 경우
 
-If you have purchased Wallpaper Engine on Steam but are unable to find it in your Steam library, the most common reason is that your Steam is configured to only show **Games**. Wallpaper Engine is not a game, so be sure to enable the **Software** filter by clicking on the Steam library filter options at the top of your library tab as shown here:
+Steam에서 Wallpaper Engine을 구매했지만 Steam 라이브러리에서 찾을 수 없을 시, 대부분의 경우 Steam이 **게임**만 표시하도록 설정되어 있기 때문입니다. Wallpaper Engine은 게임이 아니므로 **소프트웨어** 필터를 클릭하여 활성화하세요. Steam 라이브러리 필터 옵션은 보이는 바와 같이 라이브러리 탭의 맨 위에 있습니다:
 
-![Software Filter in Steam](/img/faq/gamesandsoftware.gif)
+![Steam 내 소프트웨어 필터](/img/faq/gamesandsoftware.gif)
 
-If this filter does not exist for you or if you are still unable to find Wallpaper Engine in your library, be sure to check the purchase history of the Steam account to double-check that the account you are using really owns Wallpaper Engine. You can view your purchase history on the following page (make sure you are logged into the correct Steam account):
+해당 필터가 존재하지 않거나 그래도 라이브러리에서 Wallpaper Engine을 찾는 데 실패한 경우, Steam 계정의 구매 내역을 확인하여 현재 사용 중인 계정이 정말 Wallpaper Engine을 보유하고 있는지 확인하세요. 구매 내역은 다음 페이지에서 확인할 수 있습니다(올바른 Steam 계정으로 로그인되어 있는지 확인하십시오):
 
-* [Steam Account Purchase History](https://store.steampowered.com/account/history/)
+* [Steam 계정 구매 내역](https://store.steampowered.com/account/history/)
 
-If you are still unable to find Wallpaper Engine in your Steam account, please reach out to the Steam Support team directly. Unfortunately developers on Steam have no access to Steam account data and cannot provide support with this, only the Steam team can help with account and purchase related issues:
+그래도 Steam 계정에서 Wallpaper Engine을 찾을 수 없을 때에는 Steam 지원 팀에 직접 연락하십시오. 안타깝게도 Steam상의 개발자들은 Steam 계정 데이터에 접근할 수 없으며 이와 관련해 지원을 제공할 수 없습니다. 오직 Steam 팀만이 계정 및 구매 관련 문제를 해결할 수 있습니다.
 
-* [Steam Support](https://help.steampowered.com)
+* [Steam 고객지원](https://help.steampowered.com)
