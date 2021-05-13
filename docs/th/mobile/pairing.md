@@ -1,8 +1,8 @@
-# Pairing Mobile Device with Windows
+# จับคู่อุปกรณ์มือถือกับ Windows
 
-You can pair your mobile devices with your computer to wirelessly transfer your wallpaper collection to the Wallpaper Engine companion app on your mobile device. It's not possible for the Android app to directly download wallpapers from the Steam Workshop because only Steam itself can download the wallpaper files.
+คุณสามารถจับคู่อุปกรณ์มือถือของคุณกับคอมพิวเตอร์เพื่อถ่ายโอนคอลเลคชันวอลเปเปอร์ของคุณแบบไร้สายไปยังแอปคู่หู Wallpaper Engine บนอุปกรณ์มือถือของคุณ แอป Android ไม่สามารถดาวน์โหลดวอลเปเปอร์ได้โดยตรงจาก Steam Workshop เนื่องจากมีเพียง Steam เท่านั้นที่สามารถดาวน์โหลดไฟล์วอลเปเปอร์ได้
 
-### Preparing Wallpaper Engine on Windows
+### กำลังเตรียม Wallpaper Engine บน Windows
 
 In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
 
