@@ -1,4 +1,4 @@
-# Android - Frequent Questions and Problems
+# Android - 자주 묻는 질문 및 문제
 
 This page contains a list of the most frequent questions and technical issues that users run into.
 
