@@ -4,14 +4,14 @@ Esta página contiene una lista de las preguntas y los problemas técnicos que s
 
 ## No puedo ver fondos dinámicos en la pantalla de bloqueo de Android
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+Es posible que no puedas usar un fondo dinámico en la pantalla de bloqueo o que tengas que usar el mismo que en la pantalla de inicio dependiendo del fabricante del dispositivo o del lanzador de Android que utilices.
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+Deja pulsado el símbolo de visto de la esquina superior derecha cuando previsualices un fondo dinámico en la aplicación de Wallpaper Engine para abrir la pantalla de fondos dinámicos del dispositivo. Dependiendo del fabricante, tendría que aparecerte una opción para poner el fondo en la pantalla de bloqueo. En caso de que no aparezca, no podrás poner fondos dinámicos en la pantalla de bloqueo. Aquí tienes una lista de fabricantes cuyos dispositivos no son compatibles con los fondos dinámicos en la pantalla de bloqueo:
 
 * Huawei
 * Xiaomi
 
-## How to unset Wallpaper Engine wallpaper
+## Cómo quitar un fondo de Wallpaper Engine
 
 If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
 
