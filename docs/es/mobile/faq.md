@@ -1,8 +1,8 @@
-# Android - Frequent Questions and Problems
+# Android: preguntas y problemas más frecuentes
 
-This page contains a list of the most frequent questions and technical issues that users run into.
+Esta página contiene una lista de las preguntas y los problemas técnicos que se encuentran los usuarios con más frecuencia.
 
-## Cannot set live wallpaper on Android lock-screen
+## No puedo ver fondos dinámicos en la pantalla de bloqueo de Android
 
 Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
 
