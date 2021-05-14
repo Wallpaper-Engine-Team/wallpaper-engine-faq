@@ -135,15 +135,15 @@ Charge une nouveau fond d'écran pour un moniteur bien précis ou pour le premie
 * **location *(facultatif)* :** Identificateur interne du moniteur. Vous trouverez ces informations dans le fichier config.json (ces infos sont générées par votre PC).
 * **monitor *(facultatif)* :** Index du moniteur sur lequel charger la liste de lecture, commence avec 0.
 
-### Open Profile
+### Ouvir profil
 
-Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+Applique un profil existant par nom à tous les affichages créés et enregistrés dans le menu d'affichage de Wallpaper Engine.
 
 ``` powershell
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **profil :** Nom du profil que vous avez créé dans Wallpaper Engine.
 
 ### Appliquer des paramètres de fond d'écran
 
