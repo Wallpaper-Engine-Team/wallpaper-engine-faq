@@ -6,27 +6,27 @@ Should you run into any problems with pairing your mobile devices, you can still
 
 ### Windows üzerinde Wallpaper Engine hazırlama
 
-In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
+**Windows** uygulamasında kullanıcı arayüzünün sağ üst köşesinden **Mobil** butonuna tıklayın. Mobil cihaz genel bakışı açılır. Cihaz genel bakışında alt tarafta **yeni Cihaz Bağla** butonuna tıkla. Wallpaper Engine size, bir mobil cihaz eşlemek için kullanabileceğin 4 haneli bir PIN gösterecek.
 
-![Mobile PIN](/img/faq/mobile_pin.gif)
+![Mobil PIN](/img/faq/mobile_pin.gif)
 
 ### Mobil Cihazını Bağlama
 
-In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above). The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
+Wallpaper Engine mobil tamamlayıcı uygulamasında sağ alt köşede **Ekle**'ye tıklayın, ardından **Bilgisayar ile Eşleştir**'e tıklayın. Wallpaper Engine uygulaması Windows için çalışan Wallpaper Engine uygulamaları için yerel ağınızı arar. Windows bilgisayarınız birkaç saniyenin ardından görünmeli ve üzerine tıklayarak bağlanmanıza izin vermeli. Eğer ilk kez bağlanıyorsanız 4 haneli PIN'i girmeniz istenecek (yukarıdaki Windows kısmına bakınız). PIN, yetkili olmayan kullanıcıların sizin bilginiz olmadan bilgisayarınıza bağlanamaması için koyulmuş bir ek güvenlik önlemidir.
 
-Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+PIN'inizi girdikten sonra mobil uygulamadaki durum çubuğu yeşile döner ve hangi bilgisayara bağlandığını gösterir. Windows uygulamasında **Mobil** butonu da yeşile döner ve mobil bağlantının aktif olduğunu gösterir.
 
-![Mobile PIN](/img/faq/mobile_pair.gif)
+![Mobil PIN](/img/faq/mobile_pair.gif)
 
 ## Mobil Eşleme Sorun Çözme
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+Eğer mobil cihazınızı bilgisayarınızla eşleştiremiyorsanız büyük ihtimalle sebebi bir güvenlik duvarı veya yerel ağdır. Şu muhtemel sorun kaynaklarını kontrol edin:
 
 * Telefonunuzun ve bilgisayarınızın aynı yerel ağa bağlandığından emin olun.
 * Hiçbir güvenlik duvarının Wallpaper Engine'ın yerel ağınızla iletişime geçmesine engel olmadığından emin olun.
 * Ağ yönlendiricinizin cihazlarınızın birbirleriye iletişime geçmesini engellemediğinden emin olun.
 * Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
-* Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
+* Hem Windows'daki hem de mobil cihazınızdaki Wallpaper Engine'ın güncel olduğunu ve çalışır durumda olup olmadığını kontrol edin.
 
 ## Backup solution: Manually importing a Wallpaper File (.mpkg)
 
