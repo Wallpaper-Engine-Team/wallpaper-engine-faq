@@ -6,27 +6,27 @@ Should you run into any problems with pairing your mobile devices, you can still
 
 ### Preparar Wallpaper Engine en Windows
 
-In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
+Haz clic en el botón de **Dispositivo** que se encuentra en la esquina superior derecha de la interfaz de usuario en el programa de **Windows**  para que aparezca la información general del dispositivo. Haz clic en el botón de **Conectar otro dispositivo** que aparece en la parte inferior. Wallpaper Engine te mostrará un PIN de 4 dígitos que te servirá para emparejar un dispositivo.
 
-![Mobile PIN](/img/faq/mobile_pin.gif)
+![PIN móvil](/img/faq/mobile_pin.gif)
 
 ### Conectar un dispositivo móvil
 
-In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above). The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
+Pulsa el botón de **Añadir** que aparece en la esquina inferior derecha de la aplicación de Wallpaper Engine y después pulsa **Emparejar con el ordenador**. La aplicación buscará una instancia en ejecución de Wallpaper Engine para Windows en tu red local. Tu ordenador debería de aparecer pasados unos segundos y, si lo pulsas, podrás conectarte a él. Si es la primera vez que te conectas, tendrás que introducir un PIN de 4 dígitos (consulta el apartado anterior de Windows). El PIN es una medida de seguridad adicional para que los usuarios no autorizados no puedan conectarse a tu ordenador sin que tú lo sepas.
 
-Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+Cuando hayas introducido el PIN, la barra de estado de la aplicación móvil se pondrá verde y mostrará a qué ordenador se ha conectado. Además, el botón **Dispositivo** del programa de Windows también aparecerá en verde para indicar que hay una conexión móvil activa.
 
-![Mobile PIN](/img/faq/mobile_pair.gif)
+![PIN móvil](/img/faq/mobile_pair.gif)
 
 ## Solucionar problemas con el emparejamiento del dispositivo
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+Si no puedes emparejar un dispositivo móvil con el ordenador, es posible que sea culpa del firewall o de algún ajuste de la red local. En esta lista verás varios posibles orígenes del problema:
 
 * Comprueba que el dispositivo y el ordenador estén conectados a la misma red local.
 * Comprueba que ningún firewall impida a Wallpaper Engine comunicarse con la red local.
 * Comprueba que el enrutador de red no impida a los dispositivos comunicarse entre ellos.
 * Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
-* Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
+* Comprueba que tanto el Wallpaper Engine de Windows como el del dispositivo móvil estén actualizados y en funcionamiento.
 
 ## Backup solution: Manually importing a Wallpaper File (.mpkg)
 
