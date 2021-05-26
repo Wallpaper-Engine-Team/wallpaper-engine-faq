@@ -22,7 +22,7 @@ An dieser Stelle ist es wichtig zu beachten, dass **Hintergrund laden** und **Wi
 
 Stelle deine Hintergründe und Wiedergabelisten auf allen Bildschirmen genau so ein, wie du sie haben möchtest, dann klicke auf **Profil speichern** in den Bildschirmeinstellungen und speichere die derzeitige Konfiguration unter einem Namen deiner Wahl. Bitte behalte im Hinterkopf, dass alle folgenden Einstellungen des Profils nicht gespeichert werden, bis du erneut auf **Profil speichern** klickst. Du kannst mehrere Profile erstellen und diese dann verschiedenen Anwendungen zuweisen. Konkret könntest du zum Beispiel ein Profil für **Musik**, ein Profil für **Gaming** und ein Profil für **Filme** anlegen und dann jeweils bestimmten .exe-Dateien zuordnen, die diesen Kategorien entsprechen.
 
-<video width="100%" controls autplay loop>
+<video width="100%" controls autoplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
