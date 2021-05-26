@@ -22,7 +22,7 @@ Dans les règles d'application, **Charger un profil** sert à configurer des pro
 
 Configurez vos fonds d'écran et les playlists dans tous vos écrans comme vous le désirez, puis cliquez sur le bouton **Sauvegarder le profil** dans les paramètres d'écran et sauvegardez la configuration actuelle sous le nom de votre choix. N'oubliez pas que tout changement que vous effectuez ensuite dans votre configuration ne changera pas le profil tant que vous ne recliquez pas sur le bouton **Sauvegarder le profil**. Vous pouvez configurer plusieurs profils et les assigner à plusieurs applis en même temps. Par exemple, vous pouvez créer un profil **Musique**, **Jeux** et **Films**, puis assigner chaque profil à tous les fichiers .exe qui correspondent à ces catégories.
 
-<video width="100%" controls autplay loop>
+<video width="100%" controls autoplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
   Votre explorateur ne prend pas en charge le filtre vidéo.
 </video>
