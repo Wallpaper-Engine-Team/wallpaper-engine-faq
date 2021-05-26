@@ -22,7 +22,7 @@ O que é important ter em conta aqui é que **Carregar wallpaper** e **Carregar 
 
 Configure os seus wallpapers e listas de reprodução em todos os monitores da forma que pretende que fiquem e, em seguida, clique no botão **Guardar perfil** nas definições do monitor e guarde a atual configuração com um nome à sua escolha. Tenha em mente que quaisquer alterações subsequentes que faça à sua configuração não modificarão o perfil até voltar a usar o botão **Guardar perfil**. Pode configurar vários perfil e atribui-los a várias aplicações ao mesmo tempo. Por exemplo, pode criar um perfil **Música**, um perfil **Jogos** e um perfil **Filmes** e depois atribuir cada perfil a todos os ficheiros .exe que correspondam a estas categorias.
 
-<video width="100%" controls autplay loop>
+<video width="100%" controls autoplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
   O seu browser não suporta o tag vídeo.
 </video>
