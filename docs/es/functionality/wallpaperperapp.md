@@ -22,7 +22,7 @@ La opción **Cargar perfil** de las reglas de la aplicación se refiere a perfil
 
 Configura los fondos de pantalla y las listas de reproducción de todos los monitores a tu gusto, haz clic en el botón **Guardar perfil** en los ajustes del monitor y guarda la configuración actual con el nombre que elijas. Ten en cuenta que los cambios que hagas no cambiarán el perfil hasta que vuelvas a hacer clic en el botón **Guardar perfil**. Puedes configurar varios perfiles y asignarlos a aplicaciones distintas a la vez. Por ejemplo, puedes crear un perfil de **Música**, **Juegos** y **Películas** y después asignarlos a todos los .exe que estén en dichas categorías.
 
-<video width="100%" controls autplay loop>
+<video width="100%" controls autoplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
   Tu navegador no admite la etiqueta de vídeo.
 </video>
