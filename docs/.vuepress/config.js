@@ -228,6 +228,7 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 			title: functionalityGroup,
 			collapsable: false,
 			children: [
+				locale + 'functionality/screensaver',
 				locale + 'functionality/automaticstartup',
 				locale + 'functionality/rgb',
 				locale + 'functionality/restoredefaults',
