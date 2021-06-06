@@ -135,15 +135,15 @@ Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar ka
 * **location *(isteğe bağlı)*:** Monitörün dahili tanımlayıcısı. Bunları config.json dosyasında bulabilirsiniz ve bu dosya bilgisayarınız tarafından oluşturulurlar.
 * **monitor *(isteğe bağlı)*:** Oynatma listesinin yükleneceği monitör dizini 0 ile başlar.
 
-### Open Profile
+### Profil Aç
 
-Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+Mevcut bir profili Wallpaper Engine'in görüntü menüsünde oluşturulmuş ve kaydedilmiş tüm görüntülere ismen uygular.
 
 ``` powershell
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **profil:** Wallpaper Engine içerisinde oluşturduğunuz profilin ismi.
 
 ### Duvar Kâğıdı Ayarlarını Uygula
 

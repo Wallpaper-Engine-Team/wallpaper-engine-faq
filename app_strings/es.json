@@ -14,5 +14,6 @@
 	"sidebar_noshow": "Los fondos no aparecen",
 	"sidebar_browser": "Buscador de fondos",
 	"sidebar_downloads": "Steam: descargas y subidas",
-	"sidebar_general": "General"
+	"sidebar_general": "General",
+	"sidebar_mobile": "Android"
 }

@@ -25,11 +25,11 @@ Wallpaper Engine ayarlarındaki *Eklenti* bölümü size görünür değilse bu 
 
 * [Visual Studio 2015 için Visual C++ 2015 Yeniden Dağıtılabilir](https://www.microsoft.com/download/details.aspx?id=48145)
 
-## Problems with RGB hardware after hibernation
+## Hazırda bekleme sonrasında RGB donanımıyla ilgili sorunlar
 
-In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+Nadir durumlarda hazırda bekleme RGB yazılımının Wallpaper Engine ile birlikte çalışmayı bırakmasına neden olabilir. Sistem hazırda beklemeden uyandıktan sonra RGB donanımlarınızın bazıları ya da tümü çalışmayı durdurursa Wallpaper Engine ayarlarında **Genel** sekmesinden **Hazırda bekleme sonrası güvenli başlangıç** seçeceğini etkinleştirmeyi deneyin, bu, etkilenen kullanıcıların büyük çoğunluğu için bu tür sorunları çözer.
 
-Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+Ayrıca, Wallpaper Engine'in RGB donanımınıza bağlanmasını geciktirmek için Wallpaper Engine ayarlarının **Eklentiler** sekmesinin altındaki **Eklenti Yükleme Gecikmesi** seçeceğini kullanabilirsiniz. **30 saniye** deneyip sorun çözülecek mi bakabilirsiniz.
 
 ### Corsair
 

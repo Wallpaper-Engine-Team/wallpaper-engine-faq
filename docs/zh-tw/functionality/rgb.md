@@ -25,11 +25,11 @@ Wallpaper Engine 無法直接與 RGB 硬體溝通，所有顏色資訊都是先�
 
 * [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
-## Problems with RGB hardware after hibernation
+## 休眠後 RGB 硬體出現問題
 
-In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+在極少見的情況下，休眠可能會造成 RGB 硬體與 Wallpaper Engine 共同停止運作。 如果系統從休眠中醒來後，部分或全部的 RGB 硬體停止運作，請在 Wallpaper Engine 的**一般**分頁中啟用**休眠後安全啟動**選項，大部分受影響的使用者都能因此解決問題。
 
-Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+此外，您可使用 Wallpaper Engine 設定中**外掛程式**分頁底部的**外掛程式載入延遲**選項，使 Wallpaper Engine 嘗試連線至 RGB 硬體的作業延遲。 您可設定為 **30 秒**的值，測試看看可否解決問題。
 
 ### Corsair
 

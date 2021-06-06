@@ -1,13 +1,13 @@
-# Wallpaper Engine missing in Steam Library
+# Wallpaper Engine, Steam Kütüphanesi'nde görünmüyor
 
-If you have purchased Wallpaper Engine on Steam but are unable to find it in your Steam library, the most common reason is that your Steam is configured to only show **Games**. Wallpaper Engine is not a game, so be sure to enable the **Software** filter by clicking on the Steam library filter options at the top of your library tab as shown here:
+Eğer Wallpaper Engine'ı Steam üzerinden satın aldıysanız ancak Steam kütüphanenizde göremiyorsanız, bunun en yaygın sebebi Steam'inizin yalnızca **Oyunları** gösterecek şekilde ayarlanmasıdır. Wallpaper Engine bir oyun değildir, bu nedenle aşağıda gösterdiğimiz gibi, kütüphanenizin üst tarafındaki Steam kütüphanesi filtresi seçeneklerine tıklayarak **Yazılım** filtresini etkinleştirin:
 
-![Software Filter in Steam](/img/faq/gamesandsoftware.gif)
+![Steam'de Yazılım Filtresi](/img/faq/gamesandsoftware.gif)
 
-If this filter does not exist for you or if you are still unable to find Wallpaper Engine in your library, be sure to check the purchase history of the Steam account to double-check that the account you are using really owns Wallpaper Engine. You can view your purchase history on the following page (make sure you are logged into the correct Steam account):
+Eğer bu filtre sizde görünmüyorsa ya da seçmenize rağmen Wallpaper Engine'ı kütüphanenizde bulamıyorsanız, Steam hesabının satın alım geçmişine bakın ve kullandığınız hesabın Wallpaper Engine'a sahip olup olmadığını kontrol edin. Satın alım geçmişinizi şu sayfadan görüntüleyebilirsiniz (doğru Steam hesabına giriş yaptığınızdan emin olun):
 
-* [Steam Account Purchase History](https://store.steampowered.com/account/history/)
+* [Steam Hesabı Satın Alım Geçmişi](https://store.steampowered.com/account/history/)
 
-If you are still unable to find Wallpaper Engine in your Steam account, please reach out to the Steam Support team directly. Unfortunately developers on Steam have no access to Steam account data and cannot provide support with this, only the Steam team can help with account and purchase related issues:
+Eğer Wallpaper Engine'ı Steam hesabınızda halen bulamıyorsanız lütfen direkt olarak Steam Destek ekibi ile temasa geçin. Ne yazıkki Steam'deki geliştiriciler Steam hesabı verilerine sahip değildir ve bu konuda destek sağlayamaz. Yalnızca Steam ekibi hesap ve satın alımla ilgili konularda yardımcı olabilir:
 
-* [Steam Support](https://help.steampowered.com)
+* [Steam Destek](https://help.steampowered.com)

@@ -135,15 +135,15 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(ไม่บังคับ)*:** ตัวระบุภายในของจอแสดงผล คุณพบสิ่งเหล่านี้ได้ในไฟล์ config.json ซึ่งสร้างขึ้นโดยคอมพิวเตอร์ของคุณ
 * **monitor *(ไม่บังคับ)*:** ดัชนีของจอแสดงผลเพื่อโหลดเพลย์ลิสต์ ขึ้นต้นด้วย 0
 
-### Open Profile
+### เปิดโปรไฟล์
 
-Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+ใช้โปรไฟล์ที่มีอยู่ตามชื่อกับหน้าจอทั้งหมดที่สร้างและบันทึกไว้ในเมนูการแสดงผลของ Wallpaper Engine
 
 ``` powershell
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **profile:** ชื่อของโปรไฟล์ที่คุณสร้างไว้ใน Wallpaper Engine
 
 ### ใช้การตั้งค่าวอลเปเปอร์
 

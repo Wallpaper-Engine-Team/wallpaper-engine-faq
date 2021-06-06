@@ -135,15 +135,15 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(選用)*：** 顯示器內部識別碼。 這些由您的電腦生成，您可在 config.json 檔案中找到。
 * **monitor *(選用)*：** 欲載入播放清單的索引，以 0 開頭。
 
-### Open Profile
+### 開啟檔案
 
-Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+依名稱將現有的檔案套用至 Wallpaper Engine 顯示器選單中建立和儲存的所有顯示器。
 
 ``` powershell
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **profile：** 您在 Wallpaper Engine 中建立檔案的名稱。
 
 ### 套用桌布設定
 

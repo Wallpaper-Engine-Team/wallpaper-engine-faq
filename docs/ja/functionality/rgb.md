@@ -25,11 +25,11 @@ Wallpaper Engineの*プラグイン*セクションが見えない場合、*Visu
 
 * [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48145)
 
-## Problems with RGB hardware after hibernation
+## ハイバネーション後のRGBハードウェアに関する問題
 
-In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+珍しいケースですが、ハイバネーションによって、Wallpaper Engineと組み合わせて使用しているRGBハードウェアが動作を止めてしまうことがあります。 システムがハイバネーションから復帰した時に、RGBハードウェアのいくつか、または全部が正しく動作しなくなってしまう場合は、Wallpaper Engine設定の **一般** タブで、**ハイバネーション後セーフスタート** オプションを有効にしてみてください。これにより、この種類の問題が起きた多くのユーザーについて、問題が解決しています。
 
-Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+さらに、Wallpaper Engine設定の **プラグイン** タブの下部にある **プラグインロード遅延** オプションを使うと、Wallpaper EngineがRGBハードウェアに接続しようとする試みを遅らせることができます。 値を **30秒** にして、問題が解決するかどうかを試してみてください。
 
 ### Corsair
 

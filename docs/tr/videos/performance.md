@@ -5,7 +5,7 @@ Donanımınız videoyu düzgün görüntüleyecek kadar güçlü olmayabilir. Vi
 ## Arka plan kaydı kancaları
 ReLive, Shadow Play/Nvidia Share ya da Windows GameDVR gibi uygulamaları kaydetmek için gerekli sürücü özelliklerinden gelebilir. Devre dışı bırakıp bir fark olacak mı diye bakın, ardından Wallpaper Engine'i programlardan hariç tutun. Ayrıca hiçbir kayıt/katman programının Wallpaper Engine'in içine yüklenip işlemeyi yavaşlatmadığından emin olun.
 
-You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
+Bu tür sorunlara yol açtığı bilinen programlar yüklü mü belirlemek için tarama aracımızı deneyebilirsiniz. Tarama aracımızın bu sorunun kök nedenini güvenilir bir şekilde tespit edemediğini unutmayın. Sorun tespit etmeyebilir ya da sorunlarınızla alakası olmasa da bir uygulamayı raporlayabilir:
 
 * [Wallpaper Engine Tarama Aracı](/debug/scantool.html)
 

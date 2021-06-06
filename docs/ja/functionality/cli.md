@@ -135,15 +135,15 @@ pause または stop しているすべての壁紙を再開します。
 * **location *（オプション）*：** モニターの内部識別子です。 お使いのPCによって生成され、config.json に書かれています。
 * **monitor *（オプション）*：** プレイリストをロードするモニターのインデックスで、0から始まります。
 
-### Open Profile
+### プロファイルを開く
 
-Applies an existing profile by name to all displays that was created and saved in Wallpaper Engine's display menu.
+既存のプロファイルを、Wallpaper Engineのディスプレイメニューで作成され、保存されたすべてのディスプレイに、名前によって適用します。
 
 ``` powershell
 -control openProfile -profile <string>
 ```
 
-* **profile:** Name of the profile you have created in Wallpaper Engine.
+* **profile:** Wallpaper Engineで、自分が作成したプロファイルの名前。
 
 ### 壁紙設定の適用
 

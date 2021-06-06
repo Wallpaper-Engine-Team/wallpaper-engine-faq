@@ -22,7 +22,7 @@ Wallpaper Engine 能讓您在系統上啟動特定 .exe 時自動啟動不同桌
 
 依據您希望的方式為所有顯示器設定桌布及播放清單，接著在顯示器設定按一下**儲存設定檔**按鈕，以您選擇的名稱儲存目前設定。 謹記，您得先按一下**儲存設定檔**按鈕，後續變更的所有設定才會使該設定檔變更。 您可設定多個設定檔，並一次指派給多個應用程式。 例如，您可建立一個**音樂**設定檔、一個**遊戲**設定檔和一個**電影**設定檔，再將每一個設定檔指派給所有符合這些類別的 .exe 檔案。
 
-<video width="100%" controls autplay loop>
+<video width="100%" controls autoplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
   您的瀏覽器不支援影片標籤。
 </video>

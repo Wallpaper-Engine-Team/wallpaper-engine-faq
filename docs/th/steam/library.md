@@ -1,13 +1,13 @@
-# Wallpaper Engine missing in Steam Library
+# ไม่พบ Wallpaper Engine ในคลัง Steam
 
-If you have purchased Wallpaper Engine on Steam but are unable to find it in your Steam library, the most common reason is that your Steam is configured to only show **Games**. Wallpaper Engine is not a game, so be sure to enable the **Software** filter by clicking on the Steam library filter options at the top of your library tab as shown here:
+หากคุณซื้อ Wallpaper Engine บน Steam แต่ไม่พบโปรแกรมในคลัง Steam ของคุณ สาเหตุที่พบบ่อยที่สุดคือ Steam ของคุณได้รับการกำหนดค่าให้แสดงเฉพาะ **เกม** Wallpaper Engine ไม่ใช่เกม ดังนั้นอย่าลืมเปิดใช้งานตัวกรอง **ซอฟต์แวร์** โดยคลิกตัวเลือกตัวกรองคลัง Steam ที่ด้านบนสุดของแท็บคลังของคุณดังที่แสดงด้านล่าง:
 
-![Software Filter in Steam](/img/faq/gamesandsoftware.gif)
+![ตัวกรองซอฟต์แวร์ใน Steam](/img/faq/gamesandsoftware.gif)
 
-If this filter does not exist for you or if you are still unable to find Wallpaper Engine in your library, be sure to check the purchase history of the Steam account to double-check that the account you are using really owns Wallpaper Engine. You can view your purchase history on the following page (make sure you are logged into the correct Steam account):
+หากคุณไม่มีตัวกรองนี้หรือยังไม่พบ Wallpaper Engine ในคลัง โปรดตรวจสอบประวัติการซื้อของบัญชี Steam เพื่อยืนยันอีกครั้งว่าบัญชีที่คุณใช้ได้ซื้อ Wallpaper Engine แล้วจริงๆ คุณสามารถดูประวัติการสั่งซื้อของคุณได้ในหน้าต่อไปนี้ (โปรดดูให้แน่ใจว่าคุณได้ลงชื่อเข้าใช้บัญชี Steam ที่ถูกต้อง):
 
-* [Steam Account Purchase History](https://store.steampowered.com/account/history/)
+* [ประวัติการสั่งซื้อบัญชี Steam](https://store.steampowered.com/account/history/)
 
-If you are still unable to find Wallpaper Engine in your Steam account, please reach out to the Steam Support team directly. Unfortunately developers on Steam have no access to Steam account data and cannot provide support with this, only the Steam team can help with account and purchase related issues:
+หากคุณยังไม่พบ Wallpaper Engine ในบัญชี Steam ของคุณ โปรดติดต่อทีมสนับสนุน Steam โดยตรง น่าเสียดายที่ผู้พัฒนาบน Steam ไม่สามารถเข้าถึงข้อมูลบัญชี Steam และให้การสนับสนุนได้ มีเพียงทีมของ Steam เท่านั้นที่สามารถช่วยเหลือเกี่ยวกับปัญหาที่เกี่ยวข้องกับบัญชีและการสั่งซื้อ:
 
-* [Steam Support](https://help.steampowered.com)
+* [ฝ่ายสนับสนุน Steam](https://help.steampowered.com)

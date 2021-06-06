@@ -5,7 +5,7 @@
 ## การบันทึกพื้นหลังค้าง
 สิ่งนี้อาจเกิดจากบางคุณสมบัติของไดรเวอร์ที่ออกแบบมาเพื่อบันทึกแอพพลิเคชันเช่น ReLive Shadow Play/Nvidia Share หรือ Windows GameDVR ลองปิดการใช้งานคุณสมบัติเหล่านี้เพื่อดูว่าสามารถทำงานได้ปกติหรือไม่ จากนั้นจึงยกเว้น Wallpaper Engine จากคุณสมบัติเหล่านี้ นอกจากนี้ตรวจสอบให้แน่ใจว่าไม่มีการโหลดโปรแกรมบันทึก/โอเวอร์เลย์อื่น ๆ ลงใน Wallpaper Engine ด้วยตนเองทำให้ชะลอการเรนเดอร์
 
-You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
+คุณสามารถลองใช้เครื่องมือสแกนของเราเพื่อตรวจสอบว่ามีการติดตั้งโปรแกรมที่เป็นที่รู้จักว่าก่อให้เกิดปัญหาประเภทนี้หรือไม่ โปรดทราบว่าเครื่องมือสแกนของเราไม่สามารถตรวจหาสาเหตุที่แท้จริงของปัญหานี้ได้อย่างน่าเชื่อถือ โดยอาจตรวจไม่พบปัญหาหรืออาจรายงานชื่อแอปพลิเคชันที่ไม่เกี่ยวข้องกับปัญหาของคุณ:
 
 * [เครื่องมือสแกน Wallpaper Engine](/debug/scantool.html)
 

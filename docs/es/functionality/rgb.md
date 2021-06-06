@@ -17,7 +17,7 @@ Además, puedes desactivar la compatibilidad RGB en cada fondo. Verás si está 
 
 Potenciamos los colores RGB por defecto, ya que queda mejor en la mayoría de los fondos. Si no te gusta, puedes desactivar la opción **«Impulsar colores de LED»** en la configuración del componente RGB.
 
-## Mi hardware RGB no funciona
+## Mi componente RGB no funciona
 
 Wallpaper Engine no es capaz de comunicarse directamente con el componente RGB, pues toda la información de los colores se envía antes a los controladores RGB. Si una o más partes del componente no funcionan, es probable que sea un problema del software del proveedor del componente. Hay componentes muy antiguos que ya no reciben asistencia de los proveedores, y por eso no funcionan. Ten en cuenta que no podemos solucionar ese tipo de problemas.
 
@@ -25,11 +25,11 @@ Si no puedes ver la sección *Complementos* de Wallpaper Engine, es probable que
 
 * [Visual C++ Redistributable para Visual Studio 2015](https://www.microsoft.com/es-es/download/details.aspx?id=48145)
 
-## Problems with RGB hardware after hibernation
+## Problemas con los componentes RGB después de la hibernación
 
-In rare cases, hibernation may cause RGB hardware to stop working in combination with Wallpaper Engine. If some or all of your RGB hardware stops working correctly after your system wakes up from hibernation, try enabling the **Safe start after hibernation** option in the **General** tab of the Wallpaper Engine settings, this solves these types of issues for the majority of affected users.
+No es lo habitual, pero la hibernación puede provocar que los componentes RGB dejen de funcionar con Wallpaper Engine. Si algunos de tus componentes RGB no funcionan correctamente después de que el sistema hiberne, activa la opción **Inicio seguro después de la hibernación** en la pestaña **General** de los ajustes de Wallpaper Engine. Así suelen resolverse los problemas de la mayoría de usuarios afectados.
 
-Additionally, you can use the **Plugin load delay** option at the bottom of the **Plugins** tab of the Wallpaper Engine settings to delay the connection attempt that Wallpaper Engine makes to your RGB hardware. You can try a value of **30 seconds** and test if that fixes the problem for you.
+Además, también puedes usar la opción **Ralentizar carga de plugin** que se encuentra en la parte inferior de la pestaña **Complementos** de los ajustes de Wallpaper Engine para ralentizar las conexiones del programa con los componentes RGB. Prueba con **30 segundos** para ver si así se soluciona el problema.
 
 ### Corsair
 

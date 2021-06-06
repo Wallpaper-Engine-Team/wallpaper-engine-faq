@@ -22,7 +22,7 @@ Uygulama kurallarındaki **Profil Yükle** seçeneği, monitöre genel bakış (
 
 Duvar kâğıtlarınızı ve oynatma listelerinizi, tüm monitörlerde olmasını istediğiniz şekilde yapılandırın ve sonra monitör ayarlarındaki **Profili kaydet** tuşuna tıklayarak seçeceğiniz bir isimle mevcut kurulumu kaydedin. Kurulumuzdaki yapacağınız sonraki değişikliklerin, **Profili kaydet** tuşunu tekrar kullanana kadar profili değiştirmeyeceğini unutmayın. Birden fazla profil oluşturup bunları aynı anda birden fazla uygulamaya atayabilirsiniz. Örneğin **Müzik**, **Oyun** ve **Filmler** profillerini oluşturup her bir profili, bu kategorilerle eşleşen tüm .exe dosyalarına atayabilirsiniz.
 
-<video width="100%" controls autplay loop>
+<video width="100%" controls autoplay loop>
   <source src="/videos/apprules.mp4" type="video/mp4">
   Tarayıcınız video etiketini desteklemiyor.
 </video>
