@@ -10,6 +10,6 @@ Windows kilit ekranına Wallpaper Engine duvar kağıdı ayarlamanın mümkün o
 
 ## Screensaver Functionality
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver with a low waiting time of one minute. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
 
 * [Screensavers with Wallpaper Engine](/functionality/screensaver.html)
