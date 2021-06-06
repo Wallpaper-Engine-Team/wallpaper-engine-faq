@@ -292,7 +292,6 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 			collapsable: false,
 			children: [
 				locale + 'interface/broken',
-				locale + 'interface/transparent',
 				locale + 'interface/emptyresults',
 				locale + 'interface/exclude',
 			]
