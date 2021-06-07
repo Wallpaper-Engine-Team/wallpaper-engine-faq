@@ -1,29 +1,29 @@
 # Économiseurs d'écran avec Wallpaper Engine
 
-Wallpaper Engine allows you to use your wallpapers as screensavers. Traditionally, screensavers were used to protect displays from permanent image burn-in, however, most modern display technologies are not susceptible to these types of display damage anymore and you can safely use any type of wallpaper as a screensaver for aesthetic purposes. If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
+Wallpaper Engine vous permet d'utiliser vos fonds d'écran comme économiseurs d'écran. Traditionnellement, les économiseurs d'écran étaient utilisés pour protéger les écrans contre les brûlures d'image permanentes. Cependant, la plupart des technologies d'affichage modernes ne sont plus susceptibles de subir ce type de dommages. Par conséquent, vous pouvez utiliser en toute sécurité n'importe quel type de fond d'écran comme économiseur d'écran à des fins esthétiques. Si vous utilisez un écran CRT, Plasma, OLED ou une technologie d'écran similaire qui est susceptible d'être brûlée, nous vous recommandons d'utiliser une playlist de fonds d'écran comme économiseur d'écran ou un fond d'écran avec un mouvement régulier.
 
-## Initial Screensaver Setup
+## Configuration initiale de économiseur d'écran
 
-In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
+Afin de commencer à utiliser Wallpaper Engine comme économiseur d'écran, survolez l'onglet **Installés**dans la fenêtre de Wallpaper Engine et sélectionnez **Configurer écran de veille**. Wallpaper Engine va maintenant vérifier si vous avez déjà installé économiseur d'écran Wallpaper Engine pour Windows. Si l'économiseur d'écran n'a pas encore été installé, vous serez invité à l'installer. Assurez-vous que votre utilisateur Windows dispose des droits d'administration et qu'aucune application antivirus n'empêche Wallpaper Engine d'installer l'économiseur d'écran.
 
-After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
+Après l'installation initiale, les paramètres de l'économiseur d'écran de Windows devraient s'ouvrir automatiquement. Vous pouvez également ouvrir les paramètres manuellement en utilisant le bouton **Paramètres et aperçu** ou en accédant directement aux paramètres de l'économiseur d'écran via Windows.
 
-## Configuring the Screensaver
+## Configurer l'économiseur d'écran
 
-### Windows Configuration
+### Configuration de Windows
 
-In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+Pour que l'économiseur d'écran Wallpaper Engine fonctionne, vous devez d'abord sélectionner Wallpaper Engine comme économiseur d'écran actif dans les **Paramètres Windows**. Vous pouvez ouvrir les paramètres de l'économiseur d'écran Windows via le panneau de configuration de Windows ou en cliquant sur **Paramètres et aperçu** lorsque vous êtes en mode économiseur d'écran dans Wallpaper Engine. Voir la vidéo ci-dessous pour les étapes nécessaires :
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
+Dans les paramètres de Windows, vous pouvez contrôler le délai d'apparition de l'économiseur d'écran et déterminer si l'écran de verrouillage de Windows s'affiche ou non lorsque vous revenez sur votre ordinateur. Ces paramètres sont entièrement gérés par Windows, Wallpaper Engine ne contrôle pas le délai d'attente de l'écran ou toute autre option de ce type.
 
-### Wallpaper Engine Configuration
+### Configuration de Wallpaper Engine
 
-Once you have set up the screensaver in Windows, you can start configuring the Wallpaper Engine screensaver. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+Une fois que vous avez configuré l'économiseur d'écran dans Windows, vous pouvez commencer à configurer l'économiseur d'écran Wallpaper Engine. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
 
 In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
