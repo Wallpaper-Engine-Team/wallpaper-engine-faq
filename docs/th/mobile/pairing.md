@@ -2,7 +2,7 @@
 
 คุณสามารถจับคู่อุปกรณ์มือถือของคุณกับคอมพิวเตอร์เพื่อถ่ายโอนคอลเลคชันวอลเปเปอร์ของคุณแบบไร้สายไปยังแอปคู่หู Wallpaper Engine บนอุปกรณ์มือถือของคุณ แอป Android ไม่สามารถดาวน์โหลดวอลเปเปอร์ได้โดยตรงจาก Steam Workshop เนื่องจากมีเพียง Steam เท่านั้นที่สามารถดาวน์โหลดไฟล์วอลเปเปอร์ได้
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+หากคุณพบปัญหาในการจับคู่อุปกรณ์มือถือ คุณยังสามารถนำเข้าวอลเปเปอร์ได้โดยการส่งออก **.mpkg** ที่แอปมือถือ Wallpaper Engine ใช้เรนเดอร์วอลเปเปอร์ได้ด้วยตนเอง
 
 ### กำลังเตรียม Wallpaper Engine บน Windows
 
