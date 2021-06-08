@@ -2,7 +2,7 @@
 
 Vous pouvez appairer vos appareils mobiles avec votre ordinateur pour transférer sans fil votre collection de fonds d'écran vers l'application compagnon Wallpaper Engine sur votre appareil mobile. Il n'est pas possible pour l'application Android de télécharger directement des fonds d'écran à partir du Workshop Steam, car seul Steam peut télécharger les fichiers de fonds d'écran.
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+Si vous rencontrez des problèmes pour associer vos appareils mobiles, vous pouvez toujours importer des fonds d'écran en exportant manuellement le **.mpkg** que l'application mobile Wallpaper Engine utilise pour rendre les fonds d'écran.
 
 ### Préparation de Wallpaper Engine sur Windows
 
