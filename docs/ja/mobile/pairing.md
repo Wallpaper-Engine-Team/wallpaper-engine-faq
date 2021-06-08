@@ -34,4 +34,4 @@ PCとモバイル デバイス間の接続を修正できない場合でも、�
 
 Wallpaper Engineによって指定の壁紙の.mpkgファイルが作成されたら、USB経由またはファイルを SDカードにコピーすることでモバイル デバイスに転送することができます。 または、モバイルデバイス上でファイル共有サービス、メッセージングサービスもしくはメール機能（ファイル サイズに問題がない場合) を使用して自分自身に送信することもできます。
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+ファイルがモバイルデバイス側に保存されたら、同デバイス上でWallpaper Engineを開き、**ファイルをインポート**を選択してください。ファイルを保存したディレクトリから.mpkgファイルを選択することで、アプリに直接インポートすることができます。
