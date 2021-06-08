@@ -6,13 +6,13 @@ Wallpaper Engine, duvar kâğıtlarınızı ekran koruyucu olarak kullanmanıza 
 
 Wallpaper Engin'i ekran koruyucu olarak kullanmaya başlamak için Wallpaper Engine penceresindeki **Yüklü** sekmesinin üzerine gelin ve **Ekran Koruyucuyu Yapılandır** öğesini seçin. Wallpaper Engine, şimdi Windows'a Wallpaper Engin ekran koruyucu yükleyip yüklemediğinizi kontrol edecek. Ekran koruyucuyu henüz yüklemediyseniz, yüklemeniz istenecek. Windows kullanıcınızın yönetici haklarına sahip olduğuna ve hiçbir antivirüs programının Wallpaper Engin'in ekran koruyucuyu kurmasını engellemediğinden emin olun.
 
-After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
+İlk yükleme sonrasında Windows ekran koruyucu ayarları otomatik olarak açılır, alternatif olarak **Ayarlar & Ön izleme** düğmesi veya Windows üzerinden ekran koruyucu ayarlarına doğrudan erişebilirsiniz.
 
-## Configuring the Screensaver
+## Ekran koruyucu Yapılandırması
 
-### Windows Configuration
+### Windows Yapılandırması
 
-In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+Wallpaper Engine ekran koruyucunun çalışması için ilk önce **Windows ayarlarından** Wallpaper Engine'i etkin ekran koruyucunuz olarak seçmelisiniz. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
