@@ -4,7 +4,7 @@ Wallpaper Engine ให้คุณใช้วอลเปเปอร์เป
 
 ## การตั้งค่าสกรีนเซฟเวอร์เริ่มต้น
 
-In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
+In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine จะตรวจสอบว่าคุณได้ติดตั้งสกรีนเซฟเวอร์ Wallpaper Engine สำหรับ Windows แล้วหรือยัง ระบบจะขอให้คุณติดตั้งสกรีนเซฟเวอร์หากคุณยังไม่ได้ทำการติดตั้ง โปรดตรวจสอบให้แน่ใจว่าบัญชีผู้ใช้ Windows ของคุณมีสิทธิ์ในฐานะผู้ดูแลระบบ และไม่มีโปรแกรมป้องกันไวรัสที่ปิดกั้น Wallpaper Engine จากการติดตั้งสกรีนเซฟเวอร์
 
 After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
 
