@@ -10,6 +10,6 @@ Windowsのロック画面でWallpaper Engineの壁紙をセットできるかど
 
 ## スクリーンセーバー機能
 
-ロック画面使用に代わる手段として、Wallpaper Engineをスクリーンセーバーとして設定し、さらにWindows のスクリーンセーバーの設定で [**再開時にログオン画面に戻る**]を有効にすることをお勧めします。 . Wallpaper Engineをスクリーンセーバーに設定する方法は、スクリーンセーバーガイドを参照してください：
+ロック画面使用に代わる手段として、Wallpaper Engineをスクリーンセーバーとして設定し、さらにWindows のスクリーンセーバーの設定で**再開時にログオン画面に戻る**を有効にすることをお勧めします。 . Wallpaper Engineをスクリーンセーバーに設定する方法は、スクリーンセーバーガイドを参照してください：
 
 * [Wallpaper Engineのスクリーンセーバー](/functionality/screensaver.html)
