@@ -25,12 +25,12 @@
 * ตรวจสอบให้แน่ใจว่าโทรศัพท์และคอมพิวเตอร์ของคุณเชื่อมต่อกับเครือข่ายภายในเดียวกัน
 * ตรวจสอบให้แน่ใจว่าไฟร์วอลล์ไม่ได้ป้องกันไม่ให้ Wallpaper Engine สื่อสารกับเครือข่ายภายในของคุณ
 * ตรวจสอบให้แน่ใจว่าเราเตอร์เครือข่ายไม่ได้ปิดกั้นอุปกรณ์ของคุณไม่ให้สื่อสารกัน
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
+* ปิดการใช้งาน VPN หรือซอฟต์แวร์พร็อกซีบนคอมพิวเตอร์และอุปกรณ์มือถือซึ่งอาจรบกวนการสื่อสารระหว่างอุปกรณ์ของคุณ
 * ตรวจสอบอีกครั้งว่า Wallpaper Engine บน Windows และอุปกรณ์มือถือของคุณเป็นรุ่นล่าสุดและกำลังทำงาน
 
-## Backup solution: Manually importing a Wallpaper File (.mpkg)
+## วิธีแก้ปัญหาสำรอง: นำเข้าไฟล์วอลเปเปอร์ (.mpkg) ด้วยตนเอง
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+หากคุณแก้ไขปัญหาการเชื่อมต่อระหว่างคอมพิวเตอร์และอุปกรณ์มือถือไม่ได้ คุณยังสามารถโอนวอลเปเปอร์ไปยังอุปกรณ์มือถือได้ด้วยตนเอง First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
 
 Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
 
