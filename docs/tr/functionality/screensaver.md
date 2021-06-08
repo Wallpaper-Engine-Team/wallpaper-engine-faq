@@ -1,8 +1,8 @@
-# Screensavers with Wallpaper Engine
+# Wallpaper Engine ile Ekran koruyucu
 
-Wallpaper Engine allows you to use your wallpapers as screensavers. Traditionally, screensavers were used to protect displays from permanent image burn-in, however, most modern display technologies are not susceptible to these types of display damage anymore and you can safely use any type of wallpaper as a screensaver for aesthetic purposes. If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
+Wallpaper Engine, duvar kâğıtlarınızı ekran koruyucu olarak kullanmanıza olanak sağlar. Geleneksel olarak, ekranları kalıcı görüntü yanmasından korumak için ekran koruyucular kullanılırdı. Ancak çoğu modern ekran teknolojisi artık bu tür ekran hasarlarından etkilenmez ve bu yüzden estetik amaçlar için herhangi bir duvar kağıdını ekran koruyucu olarak güvenle kullanabilirsiniz. Yanıklara karşı hassas olan bir CRT, Plazma, OLED veya benzeri ekran teknolojisi kullanıyorsanız, ekran koruyucu olarak duvar kağıtlarından oluşan bir oynatma listesi veya düzenli hareketli bir duvar kağıdı kullanmanızı öneririz.
 
-## Initial Screensaver Setup
+## Ekran Koruyucu Kurulumu
 
 In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
 
