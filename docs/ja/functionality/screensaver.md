@@ -1,6 +1,6 @@
 # Wallpaper Engineのスクリーンセーバー
 
-Wallpaper Engineを使えば、自分の壁紙をスクリーンセーバーとして利用することができます。 Traditionally, screensavers were used to protect displays from permanent image burn-in, however, most modern display technologies are not susceptible to these types of display damage anymore and you can safely use any type of wallpaper as a screensaver for aesthetic purposes. If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
+Wallpaper Engineを使えば、自分の壁紙をスクリーンセーバーとして利用することができます。 かつてスクリーンセーバーはディスプレイを焼き付きから保護する目的で使用されていました。しかし、最新のディスプレイ技術では焼き付きが発生しにくくなっており、現在ではアクセサリ的な要素としてあらゆるタイプの壁紙を、スクリーンセーバーとして安全に利用することができます。 If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
 
 ## Initial Screensaver Setup
 
