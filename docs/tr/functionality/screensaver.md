@@ -23,9 +23,9 @@ Windows ayarlarında, ekran koruyucu belirene kadar geçecek süreyi ve bilgisay
 
 ### Wallpaper Engine Yapılandırması
 
-Windows'ta ekran koruyucuyu kurduktan sonra, Wallpaper Engine ekran koruyucusunu yapılandırmaya başlayabilirsiniz. Duvar Kağıdı Motorunda **Yüklenenler** sekmesinin üzerine gelin ve **Ekran Koruyucuyu Yapılandır**'ı seçin. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+Windows'ta ekran koruyucuyu kurduktan sonra, Wallpaper Engine ekran koruyucusunu yapılandırmaya başlayabilirsiniz. Duvar Kağıdı Motorunda **Yüklenenler** sekmesinin üzerine gelin ve **Ekran Koruyucuyu Yapılandır**'ı seçin. Wallpaper Engine artık duvar kâğıtları yerine ekran koruyucularınızı ön izleyecek. Ekran koruyucu modundan çıktığınızda duvar kâğıdı yapılandırmanıza geri döneceksiniz.
 
-In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
+Wallpaper Engine, varsayılan durumunda ekran koruyucularınızın aktif olarak çalışan duvar kâğıtlarınızla tamamen aynı olan en temel kurulumu kullanır. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
 ## Screensaver Problem Solving
 
