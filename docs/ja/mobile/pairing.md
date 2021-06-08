@@ -30,8 +30,8 @@ PINを入力するとモバイルアプリのステータスバーが緑にな�
 
 ## バックアップソリューション：壁紙ファイル（.mpkg）を手動でインポート
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+PCとモバイル デバイス間の接続を修正できない場合でも、手動で壁紙をモバイルデバイスに転送することができます。 まず、Wallpaper Engineでエクスポートしたい壁紙を選択し、右クリックをして**モバイルデバイスに送信**を選択後、**.mpkgをエクスポート**をクリックしてください。
 
-Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+Wallpaper Engineによって指定の壁紙の.mpkgファイルが作成されたら、USB経由またはファイルを SDカードにコピーすることでモバイル デバイスに転送することができます。 または、モバイルデバイス上でファイル共有サービス、メッセージングサービスもしくはメール機能（ファイル サイズに問題がない場合) を使用して自分自身に送信することもできます。
 
 Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
