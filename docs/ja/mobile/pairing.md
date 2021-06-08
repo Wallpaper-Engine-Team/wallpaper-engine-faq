@@ -2,7 +2,7 @@
 
 モバイルデバイスとPCをペアリングすると、ワイヤレスで壁紙コレクションをモバイルデバイス上のWallpaper Engineコンパニオンアプリに転送することができます。 Androidアプリから直接、Steamワークショップから壁紙をダウンロードすることはできません。これは、壁紙ファイルのダウンロードがSteamでしか行なえないためです。
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+モバイル デバイスでペアリングの問題が発生した場合は、Wallpaper Engineのモバイルアプリが壁紙のレンダリングする際に使用する **.mpkg** を手動でエクスポートすることで、壁紙をインポートすることができます。
 
 ### WindowsでのWallpaper Engineの準備
 
@@ -25,10 +25,10 @@ PINを入力するとモバイルアプリのステータスバーが緑にな�
 * スマートフォンとPCが同じローカルネットワークに接続されていることを確認します。
 * ファイアーウォールが、Wallpaper Engineのローカルネットワークとの通信をブロックしていないことを確認します。
 * ネットワークルーターが、デバイス同士の通信をブロックしていないことを確認します。
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
+* デバイス間の通信を妨げる可能性のある、PCならびにモバイルデバイス上のあらゆるタイプのVPNまたはプロキシソフトウェアを無効にしてください。
 * Windows上とモバイルデバイス上のWallpaper Engineが、どちらも最新で起動していることを確認します。
 
-## Backup solution: Manually importing a Wallpaper File (.mpkg)
+## バックアップソリューション：壁紙ファイル（.mpkg）を手動でインポート
 
 Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
 
