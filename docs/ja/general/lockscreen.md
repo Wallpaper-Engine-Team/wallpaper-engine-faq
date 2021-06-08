@@ -10,6 +10,6 @@ Windowsのロック画面でWallpaper Engineの壁紙をセットできるかど
 
 ## スクリーンセーバー機能
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+ロック画面使用に代わる手段として、Wallpaper Engineをスクリーンセーバーとして設定し、さらにWindows のスクリーンセーバーの設定で [**再開時にログオン画面に戻る**]を有効にすることをお勧めします。 . Wallpaper Engineをスクリーンセーバーに設定する方法は、スクリーンセーバーガイドを参照してください：
 
-* [Screensavers with Wallpaper Engine](/functionality/screensaver.html)
+* [Wallpaper Engineのスクリーンセーバー](/functionality/screensaver.html)
