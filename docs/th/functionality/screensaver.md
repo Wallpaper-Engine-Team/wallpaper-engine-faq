@@ -8,9 +8,9 @@ In order to get started with using Wallpaper Engine as a screensaver, hover over
 
 After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
 
-## การปรับแต่งสกรีนเซฟเวอร์
+## การกำหนดค่าสกรีนเซฟเวอร์
 
-### การปรับแต่ง Windows
+### การกำหนดค่า Windows
 
 In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
 
@@ -21,9 +21,9 @@ In order for the Wallpaper Engine screensaver to work, you need to first select 
 
 In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
 
-### การปรับแต่ง Wallpaper Engine
+### การกำหนดค่า Wallpaper Engine
 
-Once you have set up the screensaver in Windows, you can start configuring the Wallpaper Engine screensaver. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+เมื่อคุณตั้งค่าสกรีนเซฟเวอร์ใน Windows แล้ว คุณสามารถเริ่มกำหนดค่าสกรีนเซฟเวอร์ Wallpaper Engine ได้ทันที Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
 
 In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
