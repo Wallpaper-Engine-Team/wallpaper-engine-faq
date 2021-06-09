@@ -12,7 +12,7 @@ Wallpaper Engineをスクリーンセーバーとして使用する際は、Wall
 
 ### Windows設定
 
-In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+Wallpaper Engineのスクリーンセーバーを有効にするには、まず **Windows設定**でWallpaper Engineをアクティブなスクリーンセーバーとして指定する必要があります。 You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
