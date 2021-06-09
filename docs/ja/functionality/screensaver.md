@@ -25,7 +25,7 @@ Windowsの設定ではスクリーンセーバーが表示されるまでの時�
 
 Windows側でスクリーンセーバーを設定すれば、Wallpaper Engine側のスクリーンセーバー設定が可能となります。 Wallpaper Engineのウィンドウの **インストール済み**タブにカーソルを合わせ、**スクリーンセーバー設定**を選択してください。 Wallpaper Engineは、壁紙ではなくスクリーンセーバーをプレビュー表示します。スクリーンセーバーモードを終了すると壁紙設定に戻ります。
 
-デフォルト状態のWallpaper Engineは最も基本的な設定が採用され、現在有効となっている壁紙と同じものがスクリーンセーバーとして使用されます。 これを変更するには、画面上部の**スクリーンセーバーは**の選択を**個別に設定**に変更してください。 With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
+デフォルト状態のWallpaper Engineは最も基本的な設定が採用され、現在有効となっている壁紙と同じものがスクリーンセーバーとして使用されます。 これを変更するには、画面上部の**スクリーンセーバーは**の選択を**個別に設定**に変更してください。 この選択が有効になると、各画面にスクリーンセーバーとして使用する壁紙の選択、スクリーンセーバーの設定とはまったく異なるディスプレイプロファイルまたはプレイリストの使用が可能となります。 You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
 ## Screensaver Problem Solving
 
