@@ -12,11 +12,11 @@ Wallpaper Engine ให้คุณใช้วอลเปเปอร์เป
 
 ### การกำหนดค่า Windows
 
-คุณต้องเลือก Wallpaper Engine เป็นสกรีนเซฟเวอร์ที่ใช้งานอยู่ใน **การตั้งค่า Windows** เพื่อให้สกรีนเซฟเวอร์ Wallpaper Engine ทำงาน คุณสามารถเปิดการตั้งค่าสกรีนเซฟเวอร์ของ Windows ผ่านแผงควบคุมของ Windows หรือโดยคลิกที่ **การตั้งค่า & แสดงตัวอย่าง** ขณะอยู่ในโหมดสกรีนเซฟเวอร์ใน Wallpaper Engine See the video below for the necessary steps:
+คุณต้องเลือก Wallpaper Engine เป็นสกรีนเซฟเวอร์ที่ใช้งานอยู่ใน **การตั้งค่า Windows** เพื่อให้สกรีนเซฟเวอร์ Wallpaper Engine ทำงาน คุณสามารถเปิดการตั้งค่าสกรีนเซฟเวอร์ของ Windows ผ่านแผงควบคุมของ Windows หรือโดยคลิกที่ **การตั้งค่า & แสดงตัวอย่าง** ขณะอยู่ในโหมดสกรีนเซฟเวอร์ใน Wallpaper Engine ดูขั้นตอนที่จำเป็นได้จากวิดีโอด้านล่าง:
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  เบราว์เซอร์ของคุณไม่รองรับแท็กวิดีโอ
 </video>
 
 In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
