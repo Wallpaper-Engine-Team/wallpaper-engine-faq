@@ -19,11 +19,11 @@ Wallpaper Engine позволяет вам использовать обои в 
   Ваш браузер не поддерживает воспроизведение видео.
 </video>
 
-В настройках Windows вы можете контролировать время, через которое появляется заставка, а также то, будет ли показываться экран блокировки Windows, когда вы вернетесь к работе за компьютером. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
+В настройках Windows вы можете контролировать время, через которое появляется заставка, а также то, будет ли показываться экран блокировки Windows, когда вы вернетесь к работе за компьютером. Эти настройки полностью зависят от Windows, Wallpaper Engine не контролирует тайм-аут экрана и другие подобные настройки.
 
-### Wallpaper Engine Configuration
+### Настройка Wallpaper Engine
 
-Once you have set up the screensaver in Windows, you can start configuring the Wallpaper Engine screensaver. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+После того, как вы установили заставку в Windows, вы можете начать настройку заставки в Wallpaper Engine. Наведите курсор на вкладку **Установлено** в Wallpaper Engine и выберите **Настроить заставку**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
 
 In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
