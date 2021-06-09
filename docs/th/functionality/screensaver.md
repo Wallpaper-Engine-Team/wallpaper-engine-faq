@@ -6,13 +6,13 @@ Wallpaper Engine ให้คุณใช้วอลเปเปอร์เป
 
 ในการเริ่มต้นใช้งาน Wallpaper Engine เป็นสกรีนเซฟเวอร์ ให้วางเมาส์เหนือแท็บ **ติดตั้งแล้ว** ในหน้าต่าง Wallpaper Engine แล้วเลือก **ปรับแต่งสกรีนเซฟเวอร์** Wallpaper Engine จะตรวจสอบว่าคุณได้ติดตั้งสกรีนเซฟเวอร์ Wallpaper Engine สำหรับ Windows แล้วหรือยัง ระบบจะขอให้คุณติดตั้งสกรีนเซฟเวอร์หากคุณยังไม่ได้ทำการติดตั้ง โปรดตรวจสอบให้แน่ใจว่าบัญชีผู้ใช้ Windows ของคุณมีสิทธิ์ในฐานะผู้ดูแลระบบ และไม่มีโปรแกรมป้องกันไวรัสที่ปิดกั้น Wallpaper Engine จากการติดตั้งสกรีนเซฟเวอร์
 
-After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
+เมื่อติดตั้งเบื้องต้นแล้ว การตั้งค่าสกรีนเซฟเวอร์ Windows จะเปิดขึ้นโดยอัตโนมัติ หรือคุณสามารถเปิดการตั้งค่าด้วยตนเองโดยใช้ปุ่ม **การตั้งค่า & แสดงตัวอย่าง** หรือเข้าถึงการตั้งค่าสกรีนเซฟเวอร์ผ่าน Windows ได้โดยตรง
 
 ## การกำหนดค่าสกรีนเซฟเวอร์
 
 ### การกำหนดค่า Windows
 
-In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+คุณต้องเลือก Wallpaper Engine เป็นสกรีนเซฟเวอร์ที่ใช้งานอยู่ใน **การตั้งค่า Windows** เพื่อให้สกรีนเซฟเวอร์ Wallpaper Engine ทำงาน You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
