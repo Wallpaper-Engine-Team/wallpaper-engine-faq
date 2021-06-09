@@ -2,7 +2,7 @@
 
 Вы можете подключить свои мобильные устройства к компьютеру для беспроводной передачи коллекции обоев в мобильное приложение Wallpaper Engine. Приложение Android не может загружать обои напрямую из Steam Workshop, потому что только Steam может загружать файлы обоев.
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+Если у вас возникнут проблемы с сопряжением мобильных устройств, вы все равно можете импортировать обои, вручную экспортировав файл **.mpkg**, который мобильное приложение Wallpaper Engine использует для воспроизведения обоев.
 
 ### Подготовка Wallpaper Engine в Windows
 
@@ -25,7 +25,7 @@ Should you run into any problems with pairing your mobile devices, you can still
 * Убедитесь, что ваш телефон и компьютер подключены к одной локальной сети.
 * Убедитесь, что брандмауэр не блокирует связь Wallpaper Engine с вашей локальной сетью.
 * Убедитесь, что сетевой маршрутизатор не блокирует связь ваших устройств друг с другом.
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
+* Отключите на своем компьютере и мобильном устройстве любую программу VPN или прокси, которая может мешать обмену данными между вашими устройствами.
 * Убедитесь, что приложение Wallpaper Engine в Windows и на вашем мобильном устройстве обновлено и работает.
 
 ## Backup solution: Manually importing a Wallpaper File (.mpkg)
