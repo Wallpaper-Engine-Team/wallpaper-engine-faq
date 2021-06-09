@@ -4,7 +4,7 @@ Wallpaper Engineを使えば、自分の壁紙をスクリーンセーバーと�
 
 ## 初期スクリーンセーバー設定
 
-Wallpaper Engineをスクリーンセーバーとして使用する際は、Wallpaper Engineのウィンドウの **インストール済み**タブにカーソルを合わせ、**スクリーンセーバー設定**を選択してください。 Wallpaper EngineがWindows用のWallpaper Engineスクリーンセーバーをインストールしているかの確認を開始します。 スクリーンセーバーがまだインストールされていない場合は、インストールを実行するように求められます。 お使いのWindowsユーザーに管理者権限があり、Wallpaper Engineのスクリーンセーバーのインストールをブロックするアンチウイルスソフトウェアが起動していないことを確認してください。
+Wallpaper Engineをスクリーンセーバーとして使用する際は、Wallpaper Engineのウィンドウの **インストール済み**タブにカーソルを合わせ、**スクリーンセーバー設定**を選択してください。 Wallpaper EngineがWindows用のWallpaper Engineスクリーンセーバーをインストールしているかの確認を開始します。 スクリーンセーバーがまだインストールされていない場合は、インストールを実行するように求められます。 お使いのWindowsユーザーに管理者権限があり、Wallpaper Engineのスクリーンセーバーのインストールをブロックするアンチウイルスソフトが起動していないことを確認してください。
 
 初回インストール後、Windowsの「スクリーンセーバーの設定」画面が自動で開きます。また、**設定 & プレビュー**ボタンから手動で開いたり、Windowsの「個人用設定」から直接「スクリーンセーバーの設定」にアクセスすることもできます。
 
@@ -29,6 +29,6 @@ Windows側でスクリーンセーバーを設定すれば、Wallpaper Engine側
 
 ## スクリーンセーバーの問題解消
 
-Wallpaper EngineのスクリーンセーバーはWindows側の設定で有効化されています。スクリーンセーバーが正しく動作しない場合は、Windows側でデフォルトのスクリーンセーバーが正しく動作しているかを確認してください。 Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
+Wallpaper EngineのスクリーンセーバーはWindows側の設定で有効化されています。スクリーンセーバーが正しく動作しない場合は、Windows側でデフォルトのスクリーンセーバーが正しく動作しているかを確認してください。 Windows側のスクリーンセーバーの設定と電源の設定で、スクリーンセーバーのタイムアウトが正しく設定されていること、ならびにWallpaper Engineが有効なスクリーンセーバーとして設定されていることを確認してください。
 
 The screensaver will be installed in `C:\Windows\System32\wpxscreensaver64.scr`, make sure no antivirus app is deleting this file by mistake or preventing it from being installed. You can also manually uninstall the screensaver by deleting that specific file, but be sure to not delete any other important Windows files in the `System32` directory when doing so.
