@@ -2,7 +2,7 @@
 
 您可以将移动设备与计算机配对，以将壁纸合集无线传输到移动设备上的 Wallpaper Engine 伴侣应用程序。 Android 应用程序无法直接从 Steam 创意工坊下载壁纸，因为只有 Steam 本身可以下载壁纸文件。
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+如果您在配对移动设备时遇到任何问题，您仍可通过手动导出 Wallpaper Engine 移动应用程序用来渲染壁纸的 **.mpkg** 来导入壁纸。
 
 ### 在 Windows 上准备 Wallpaper Engine
 
@@ -25,10 +25,10 @@ Should you run into any problems with pairing your mobile devices, you can still
 * 确保您的手机和计算机连接到同一本地网络。
 * 确保防火墙没有阻止 Wallpaper Engine 与本地网络通信。
 * 确保网络路由器没有阻止您的设备相互通信。
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
+* 在计算机和移动设备上，禁用可能干扰设备间通信的任何类型的 VPN 或代理软件。
 * 仔细检查 Windows 上的 Wallpaper Engine 和移动设备是否均为最新版本且正常运行。
 
-## Backup solution: Manually importing a Wallpaper File (.mpkg)
+## 备用解决方案：手动导入壁纸文件 (.mpkg)
 
 Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
 
