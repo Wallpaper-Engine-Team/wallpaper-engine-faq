@@ -4,13 +4,13 @@ Wallpaper Engine позволяет вам использовать обои в 
 
 ## Начальная настройка заставки
 
-Чтобы начать использовать Wallpaper Engine в качестве заставки, наведите мышью на вкладку **Установлено** в окне Wallpaper Engine и выберите **Настроить заставку**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
+Чтобы начать использовать Wallpaper Engine в качестве заставки, наведите мышью на вкладку **Установлено** в окне Wallpaper Engine и выберите **Настроить заставку**. После этого Wallpaper Engine проверит, установлена ли у вас заставка Wallpaper Engine для Windows. Если заставка еще не установлена, вам будет предложено ее установить. Убедитесь, что у вас есть права администратора пользователя Windows и что ни одно антивирусное приложение не блокирует установку заставки Wallpaper Engine.
 
-After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
+После начальной настройки заставки заставки автоматически откроются настройки Windows. Вы также можете открыть настройки вручную, используя **Настройки & Предпросмотр** или напрямую через настройки заставок Windows.
 
-## Configuring the Screensaver
+## Настроить заставку
 
-### Windows Configuration
+### Настройка в Windows
 
 In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
 
