@@ -1,4 +1,4 @@
-# Screensavers with Wallpaper Engine
+# Заставки в Wallpaper Engine
 
 Wallpaper Engine allows you to use your wallpapers as screensavers. Traditionally, screensavers were used to protect displays from permanent image burn-in, however, most modern display technologies are not susceptible to these types of display damage anymore and you can safely use any type of wallpaper as a screensaver for aesthetic purposes. If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
 
