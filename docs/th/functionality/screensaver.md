@@ -25,7 +25,7 @@ Wallpaper Engine ให้คุณใช้วอลเปเปอร์เป
 
 เมื่อคุณตั้งค่าสกรีนเซฟเวอร์ใน Windows แล้ว คุณสามารถเริ่มกำหนดค่าสกรีนเซฟเวอร์ Wallpaper Engine ได้ทันที วางเมาส์เหนือแท็บ **ติดตั้งแล้ว** ใน Wallpaper Engine แล้วเลือก **ปรับแต่งสกรีนเซฟเวอร์** Wallpaper Engine จะแสดงตัวอย่างสกรีนเซฟเวอร์แทนที่วอลเปเปอร์ และจะกลับสู่การกำหนดค่าวอลเปเปอร์เมื่อคุณออกจากโหมดสกรีนเซฟเวอร์
 
-ในสถานะเริ่มต้น Wallpaper Engine จะใช้การตั้งค่าพื้นฐานที่สุด โดยจะใช้สกรีนเซฟเวอร์แบบเดียวกับวอลเปเปอร์ที่กำลังทำงานอยู่ คุณสามารถเปลี่ยนได้โดยการเปลี่ยนตัวเลือก **สกรีนเซฟเวอร์** เป็น **ปรับแต่งแยกต่างหาก** ที่ด้านบน With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
+ในสถานะเริ่มต้น Wallpaper Engine จะใช้การตั้งค่าพื้นฐานที่สุด โดยจะใช้สกรีนเซฟเวอร์แบบเดียวกับวอลเปเปอร์ที่กำลังทำงานอยู่ คุณสามารถเปลี่ยนได้โดยการเปลี่ยนตัวเลือก **สกรีนเซฟเวอร์** เป็น **ปรับแต่งแยกต่างหาก** ที่ด้านบน เมื่อเปิดใช้งานตัวเลือกดังกล่าวแล้ว คุณจะสามารถเลือกวอลเปเปอร์ที่จะใช้ในแต่ละหน้าจอเป็นสกรีนเซฟเวอร์ได้ หรือแม้แต่ตั้งค่าสกรีนเซฟเวอร์โดยใช้โปรไฟล์การแสดงผล (Display Profile) หรือเพลย์ลิสต์ที่ต่างไปจากเดิมโดยสิ้นเชิง You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
 ## การแก้ปัญหาสกรีนเซฟเวอร์
 
