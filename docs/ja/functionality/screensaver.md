@@ -8,9 +8,9 @@ Wallpaper Engineをスクリーンセーバーとして使用する際は、Wall
 
 初回インストール後、Windowsの「スクリーンセーバーの設定」画面が自動で開きます。また、**設定 & プレビュー**ボタンから手動で開いたり、Windowsの「個人用設定」から直接「スクリーンセーバーの設定」にアクセスすることもできます。
 
-## Configuring the Screensaver
+## スクリーンセーバー設定
 
-### Windows Configuration
+### Windows設定
 
 In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
 
