@@ -12,11 +12,11 @@ Wallpaper Engineをスクリーンセーバーとして使用する際は、Wall
 
 ### Windows設定
 
-Wallpaper Engineのスクリーンセーバーを有効にするには、まず **Windows設定**でWallpaper Engineをアクティブなスクリーンセーバーとして指定する必要があります。 You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+Wallpaper Engineのスクリーンセーバーを有効にするには、まず **Windows設定**でWallpaper Engineをアクティブなスクリーンセーバーとして指定する必要があります。 Windowsのスクリーンセーバーの設定はWindowsのコントロールパネルから開くことができます。また、Wallpaper Engineのスクリーンセーバーモードで**設定 & プレビュー**をクリックすることでもアクセスすることができます。 必要なステップに関しては下記の動画を参照してください：
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  お使いのブラウザは動画タグをサポートしていません。
 </video>
 
 In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
