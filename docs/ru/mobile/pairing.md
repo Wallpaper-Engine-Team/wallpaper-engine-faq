@@ -28,10 +28,10 @@
 * Отключите на своем компьютере и мобильном устройстве любую программу VPN или прокси, которая может мешать обмену данными между вашими устройствами.
 * Убедитесь, что приложение Wallpaper Engine в Windows и на вашем мобильном устройстве обновлено и работает.
 
-## Backup solution: Manually importing a Wallpaper File (.mpkg)
+## Решение для резервного копирования: вручную импортировать файл обоев (.mpkg)
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+Если вам не удается установить соединение между вашим компьютером и мобильным устройством, вы можете вручную перенести обои на мобильное устройство. Сначала выберите обои, которые вы хотите экспортировать в Wallpaper Engine, затем щелкните по ним правой кнопкой мыши и выберите **Отправить на мобильное устройство** и нажмите **Экспорт .mpkg**.
 
-Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+После того, как Wallpaper Engine создаст файлы .mpkg для ваших обоев, вы можете либо перенести их на мобильное устройство через USB, либо скопировав файлы на SD-карту. Вы также можете использовать любое средство обмена файлами на своем мобильном устройстве, отправить их себе сообщением или даже по электронной почте (если размер файла позволяет).
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+Как только файлы окажутся на вашем мобильном устройстве, откройте на нем Wallpaper Engine и используйте функцию **Импортировать файл**, чтобы напрямую импортировать файлы .mpkg в приложение, выбрав их из каталога, который вы их поместили.
