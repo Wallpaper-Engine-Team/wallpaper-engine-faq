@@ -1,10 +1,10 @@
 # Заставки в Wallpaper Engine
 
-Wallpaper Engine позволяет вам использовать обои в качестве заставок. Traditionally, screensavers were used to protect displays from permanent image burn-in, however, most modern display technologies are not susceptible to these types of display damage anymore and you can safely use any type of wallpaper as a screensaver for aesthetic purposes. If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
+Wallpaper Engine позволяет вам использовать обои в качестве заставок. Раньше заставки использовались для защиты дисплеев от выгорания изображения, однако большинство современных технологичных дисплеев больше не подвержены таким типам повреждений, и вы можете безопасно использовать любые обои в качестве эстетичной заставки. Если на вашем экране используется ЭЛТ, плазма, OLED или другая подверженная выгоранию технология, мы рекомендуем установить плейлист с обоями в качестве заставки или движущиеся обои.
 
-## Initial Screensaver Setup
+## Начальная настройка заставки
 
-In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
+Чтобы начать использовать Wallpaper Engine в качестве заставки, наведите мышью на вкладку **Установлено** в окне Wallpaper Engine и выберите **Настроить заставку**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
 
 After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
 
@@ -27,7 +27,7 @@ Once you have set up the screensaver in Windows, you can start configuring the W
 
 In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
-## Screensaver Problem Solving
+## Решение проблем с заставками
 
 The Wallpaper Engine screensaver is activated through Windows itself, if the screensaver is not working correctly, please double-check to see if any of the default Windows screensavers work correctly for you. Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
 
