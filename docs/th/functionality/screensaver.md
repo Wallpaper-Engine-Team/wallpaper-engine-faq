@@ -1,10 +1,10 @@
 # สกรีนเซฟเวอร์กับ Wallpaper Engine
 
-Wallpaper Engine ให้คุณใช้วอลเปเปอร์เป็นสกรีนเซฟเวอร์ได้ Traditionally, screensavers were used to protect displays from permanent image burn-in, however, most modern display technologies are not susceptible to these types of display damage anymore and you can safely use any type of wallpaper as a screensaver for aesthetic purposes. If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
+Wallpaper Engine ให้คุณใช้วอลเปเปอร์เป็นสกรีนเซฟเวอร์ได้ ปกติแล้วสกรีนเซฟเวอร์มีไว้เพื่อป้องกันไม่ให้รูปภาพบนหน้าจอเกิดการเบิร์นอินอย่างถาวร อย่างไรก็ตาม เทคโนโลยีการแสดงผลที่ทันสมัยส่วนใหญ่ไม่ทำให้เกิดการเบิร์นอินอีกต่อไป คุณจึงสามารถใช้วอลเปเปอร์ทุกประเภทเป็นสกรีนเซฟเวอร์ได้อย่างปลอดภัยและสวยงาม หากคุณใช้เทคโนโลยีหน้าจอแบบ CRT, Plasma, OLED หรือประเภทอื่นที่เสี่ยงต่อการเบิร์นอิน เราขอแนะนำให้ใช้วอลเปเปอร์แบบเพลย์ลิสต์หรือวอลเปเปอร์ที่มีการเคลื่อนไหวปกติเป็นสกรีนเซฟเวอร์
 
 ## การตั้งค่าสกรีนเซฟเวอร์เริ่มต้น
 
-In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine จะตรวจสอบว่าคุณได้ติดตั้งสกรีนเซฟเวอร์ Wallpaper Engine สำหรับ Windows แล้วหรือยัง ระบบจะขอให้คุณติดตั้งสกรีนเซฟเวอร์หากคุณยังไม่ได้ทำการติดตั้ง โปรดตรวจสอบให้แน่ใจว่าบัญชีผู้ใช้ Windows ของคุณมีสิทธิ์ในฐานะผู้ดูแลระบบ และไม่มีโปรแกรมป้องกันไวรัสที่ปิดกั้น Wallpaper Engine จากการติดตั้งสกรีนเซฟเวอร์
+ในการเริ่มต้นใช้งาน Wallpaper Engine เป็นสกรีนเซฟเวอร์ ให้วางเมาส์เหนือแท็บ **ติดตั้งแล้ว** ในหน้าต่าง Wallpaper Engine แล้วเลือก **ปรับแต่งสกรีนเซฟเวอร์** Wallpaper Engine จะตรวจสอบว่าคุณได้ติดตั้งสกรีนเซฟเวอร์ Wallpaper Engine สำหรับ Windows แล้วหรือยัง ระบบจะขอให้คุณติดตั้งสกรีนเซฟเวอร์หากคุณยังไม่ได้ทำการติดตั้ง โปรดตรวจสอบให้แน่ใจว่าบัญชีผู้ใช้ Windows ของคุณมีสิทธิ์ในฐานะผู้ดูแลระบบ และไม่มีโปรแกรมป้องกันไวรัสที่ปิดกั้น Wallpaper Engine จากการติดตั้งสกรีนเซฟเวอร์
 
 After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
 
