@@ -23,7 +23,7 @@ Wallpaper Engine позволяет вам использовать обои в 
 
 ### Настройка Wallpaper Engine
 
-После того, как вы установили заставку в Windows, вы можете начать настройку заставки в Wallpaper Engine. Наведите курсор на вкладку **Установлено** в Wallpaper Engine и выберите **Настроить заставку**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+После того, как вы установили заставку в Windows, вы можете начать настройку заставки в Wallpaper Engine. Наведите курсор на вкладку **Установлено** в Wallpaper Engine и выберите **Настроить заставку**. Wallpaper Engine теперь будет предварительно показывать ваши заставки вместо обоев. Как только вы выйдете из режима заставки, вы вернетесь к настройке обоев.
 
 In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
