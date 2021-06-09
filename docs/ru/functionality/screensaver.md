@@ -6,20 +6,20 @@ Wallpaper Engine позволяет вам использовать обои в 
 
 Чтобы начать использовать Wallpaper Engine в качестве заставки, наведите мышью на вкладку **Установлено** в окне Wallpaper Engine и выберите **Настроить заставку**. После этого Wallpaper Engine проверит, установлена ли у вас заставка Wallpaper Engine для Windows. Если заставка еще не установлена, вам будет предложено ее установить. Убедитесь, что у вас есть права администратора пользователя Windows и что ни одно антивирусное приложение не блокирует установку заставки Wallpaper Engine.
 
-После начальной настройки заставки заставки автоматически откроются настройки Windows. Вы также можете открыть настройки вручную, используя **Настройки & Предпросмотр** или напрямую через настройки заставок Windows.
+После начальной настройки заставки заставки автоматически откроются настройки Windows. Вы также можете открыть настройки вручную, используя **Настройки и Предпросмотр** или напрямую через настройки заставок Windows.
 
 ## Настроить заставку
 
 ### Настройка в Windows
 
-Чтобы заставка Wallpaper Engine работала, необходимо сначала выбрать Wallpaper Engine в качестве активной заставки в **настройках Windows**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+Чтобы заставка Wallpaper Engine работала, необходимо сначала выбрать Wallpaper Engine в качестве активной заставки в **настройках Windows**. Вы можете открыть настройки заставки Windows через панель управления Windows или нажав **Настройки и Предпросмотр** в режиме заставки в Wallpaper Engine. В качестве подсказки посмотрите видео ниже:
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Ваш браузер не поддерживает воспроизведение видео.
 </video>
 
-In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
+В настройках Windows вы можете контролировать время, через которое появляется заставка, а также то, будет ли показываться экран блокировки Windows, когда вы вернетесь к работе за компьютером. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
 
 ### Wallpaper Engine Configuration
 
