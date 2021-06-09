@@ -12,7 +12,7 @@ Wallpaper Engine позволяет вам использовать обои в 
 
 ### Настройка в Windows
 
-In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+Чтобы заставка Wallpaper Engine работала, необходимо сначала выбрать Wallpaper Engine в качестве активной заставки в **настройках Windows**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
