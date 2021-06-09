@@ -2,11 +2,11 @@
 
 Wallpaper Engineを使えば、自分の壁紙をスクリーンセーバーとして利用することができます。 かつてスクリーンセーバーはディスプレイを焼き付きから保護する目的で使用されていました。しかし、最新のディスプレイ技術では焼き付きが発生しにくくなっており、現在ではアクセサリ的な要素としてあらゆるタイプの壁紙を、スクリーンセーバーとして安全に利用することができます。 焼き付きの影響を受けやすいCRT、プラズマ、OLEDやその他類似した技術が使われているディスプレイを使用している場合は、壁紙のプレイリストをスクリーン セーバーとして使うか、通常の動きがある壁紙を使用することをお勧めします。
 
-## Initial Screensaver Setup
+## 初期スクリーンセーバー設定
 
-In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
+Wallpaper Engineをスクリーンセーバーとして使用する際は、Wallpaper Engineウィンドウの **インストール済み**タブにカーソルを合わせ、**スクリーンセーバー設定**を選択してください。 Wallpaper EngineがWindows用のWallpaper Engineスクリーンセーバーをインストールしているかの確認を開始します。 スクリーンセーバーがまだインストールされていない場合は、インストールを実行するように求められます。 お使いのWindowsユーザーに管理者権限があり、Wallpaper Engineのスクリーンセーバーのインストールをブロックするアンチウイルスソフトウェアが起動していないことを確認してください。
 
-After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
+初回インストール後、Windowsの「スクリーンセーバーの設定」画面が自動で開きます。また、**設定 & プレビュー**ボタンから手動で開いたり、Windowsの「個人用設定」から直接「スクリーンセーバーの設定」にアクセスすることもできます。
 
 ## Configuring the Screensaver
 
