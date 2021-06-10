@@ -1,6 +1,6 @@
 # 使用 Wallpaper Engine 設定螢幕保護程式
 
-Wallpaper Engine 能讓您將桌布設為螢幕保護程式。 Traditionally, screensavers were used to protect displays from permanent image burn-in, however, most modern display technologies are not susceptible to these types of display damage anymore and you can safely use any type of wallpaper as a screensaver for aesthetic purposes. If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
+Wallpaper Engine 能讓您將桌布設為螢幕保護程式。 以往螢幕保護程式是用來防止圖像永久烙印，不過大多數現代的顯示技術不再容易發生此種類型的顯示器損壞問題，您可放心將任何類型的桌布當作螢幕保護程式，以達美觀目的。 If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
 
 ## Initial Screensaver Setup
 
