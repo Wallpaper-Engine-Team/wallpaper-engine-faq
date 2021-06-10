@@ -23,12 +23,12 @@ Puedes controlar el tiempo que tarda en aparecer el salvapantallas desde la conf
 
 ### Configuración de Wallpaper Engine
 
-Cuando configures el salvapantallas en Windows, podrás empezar a configurar el de Wallpaper Engine. Pasa el cursor por encima de la pestaña **Instalados** de Wallpaper Engine y elige **Configurar salvapantallas**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+Cuando configures el salvapantallas en Windows, podrás empezar a configurar el de Wallpaper Engine. Pasa el cursor por encima de la pestaña **Instalados** de Wallpaper Engine y elige **Configurar salvapantallas**. Así Wallpaper Engine te mostrará los salvapantallas en vez de los fondos y, cuando salgas del modo salvapantallas, volverás a la configuración de los fondos.
 
-In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
+En el modo normal, Wallpaper Engine usará la configuración más básica en la que los salvapantallas serán exactamente los mismos que los fondos que tienes activos. Puedes cambiarlo si cambias la opción **Tipo de salvapantallas** a **Configuración distinta** en la parte superior. Si activas dicha opción, podrás elegir un fondo para que cada pantalla use un salvapantallas o incluso usar un perfil completamente distinto o listas de reproducción para la configuración del salvapantallas. También puedes volver a la configuración del fondo si haces clic en el botón **Salir** de la esquina superior izquierda.
 
-## Screensaver Problem Solving
+## Solucionar problemas del salvapantallas
 
-The Wallpaper Engine screensaver is activated through Windows itself, if the screensaver is not working correctly, please double-check to see if any of the default Windows screensavers work correctly for you. Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
+Windows se encarga de activar el salvapantallas de Wallpaper Engine, así que, en caso de que no funcione correctamente, comprueba si puedes usar los salvapantallas por defecto de Windows. Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
 
 The screensaver will be installed in `C:\Windows\System32\wpxscreensaver64.scr`, make sure no antivirus app is deleting this file by mistake or preventing it from being installed. You can also manually uninstall the screensaver by deleting that specific file, but be sure to not delete any other important Windows files in the `System32` directory when doing so.
