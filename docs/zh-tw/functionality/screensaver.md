@@ -19,7 +19,7 @@ Wallpaper Engine 能讓您將桌布設為螢幕保護程式。 以往螢幕保�
   您的瀏覽器不支援視訊標籤。
 </video>
 
-在 Windows 設定中，您可控制螢幕保護程式出現前的等待時間，以及返回電腦時是否顯示 Windows 鎖定畫面。 這些設定完全由 Windows 管理，Wallpaper Engine 本身不會控制螢幕逾時或類似問題。
+在 Windows 設定中，您可控制螢幕保護程式出現前的等待時間，以及返回電腦時是否顯示 Windows 鎖定畫面。 這些設定完全由 Windows 管理，Wallpaper Engine 本身不會控制螢幕等候時間或類似問題。
 
 ### Wallpaper Engine 設定
 
@@ -27,8 +27,8 @@ Wallpaper Engine 能讓您將桌布設為螢幕保護程式。 以往螢幕保�
 
 在預設狀態下，Wallpaper Engine 將使用最基本的設定，亦即您的螢幕保護程式將等同於使用中的桌布。 您可在上方將**螢幕保護程式為**的選項變更為**另外設定**。 啟用該選項後，即可為每個螢幕選擇一張用作螢幕保護程式的桌布，甚至使用完全不同的顯示器設定檔或播放清單來設定成螢幕保護程式。 您可在左上角按一下紅色**結束**按鈕，隨時返回桌布設定。
 
-## 螢幕保護程式問題解決
+## 解決螢幕保護程式問題
 
 Wallpaper Engine 螢幕保護程式是透過 Windows 本身啟動，若螢幕保護程式並未正常運作，請再三確認預設的 Windows 螢幕保護程式是否也能正常運作。 檢查 Windows 螢幕保護程式設定與 Windows 電源設定，確保螢幕保護程式設定為正確的等候時間，而且 Wallpaper Engine 也已設定為使用中的螢幕保護程式。
 
-The screensaver will be installed in `C:\Windows\System32\wpxscreensaver64.scr`, make sure no antivirus app is deleting this file by mistake or preventing it from being installed. You can also manually uninstall the screensaver by deleting that specific file, but be sure to not delete any other important Windows files in the `System32` directory when doing so.
+螢幕保護程式將安裝於 `C:\Windows\System32\wpxscreensaver64.scr`，請確保防毒應用程式不會意外刪除此檔案或阻擋該程式安裝。 您可手動刪除該特定檔案以解除安裝螢幕保護程式，但操作時請注意，勿刪除 `System32` 目錄下其他重要的 Windows 檔案。
