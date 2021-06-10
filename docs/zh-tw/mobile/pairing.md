@@ -2,7 +2,7 @@
 
 您可將行動裝置與電腦配對．將桌布收藏無線傳輸至行動裝置上的 Wallpaper Engine 隨附應用程式。 Android 應用程式無法直接從 Steam 工作坊下載桌布，因為只有 Steam 本身才能下載桌布檔案。
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+如果您配對行動裝置時遇到任何問題，可手動輸出 Wallpaper Engine 行動應用程式用來轉譯桌布的 **.mpkg** 檔，以利輸入桌布。
 
 ### 在 Windows 上準備 Wallpaper Engine
 
@@ -25,7 +25,7 @@ Should you run into any problems with pairing your mobile devices, you can still
 * 確認手機與電腦連線至同一個區域網路。
 * 確認防火牆並未阻擋 Wallpaper Engine 與區域網路通訊。
 * 確認網路路由器並未阻擋裝置之間的通訊。
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
+* 在電腦和行動裝置上停用任何可能干擾裝置通訊的 VPN 或代理軟體。
 * 再次確認 Windows 和行動版的 Wallpaper Engine 皆為最新版本且正常運作。
 
 ## Backup solution: Manually importing a Wallpaper File (.mpkg)
