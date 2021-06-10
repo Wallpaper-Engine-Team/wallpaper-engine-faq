@@ -19,13 +19,13 @@ Wallpaper Engine 允许将壁纸用作屏幕保护程序。 屏幕保护程序�
   您的浏览器不支持视频标签。
 </video>
 
-在 Windows 设置中，您可以控制屏幕保护程序出现之前的等待时间，以及返回计算机时是否显示 Windows 锁屏。 These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
+在 Windows 设置中，您可以控制屏幕保护程序出现之前的等待时间，以及返回计算机时是否显示 Windows 锁屏。 这些设置完全由 Windows 处理，Wallpaper Engine 本身并不控制屏幕超时或类似设置。
 
-### Wallpaper Engine Configuration
+### Wallpaper Engine 配置
 
-Once you have set up the screensaver in Windows, you can start configuring the Wallpaper Engine screensaver. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+在 Windows 中设置屏幕保护程序后，您就可以开始配置 Wallpaper Engine 屏幕保护程序。 将鼠标悬停在 Wallpaper Engine 中的**已安装**选项卡上，然后选择**配置屏幕保护程序**。 Wallpaper Engine 现在将预览您的屏幕保护程序而非壁纸，一旦您退出屏幕保护程序模式，您将返回到壁纸配置。
 
-In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
+默认状态下，Wallpaper Engine 将使用最基本的设置，其中的屏幕保护程序将与您正在运行的壁纸完全相同。 要更改此设置，您可以在顶部将**屏幕保护程序：**选项更改为**单独配置**。 With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
 ## Screensaver Problem Solving
 
