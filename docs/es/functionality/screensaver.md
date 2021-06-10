@@ -19,7 +19,7 @@ Para que funcione el salvapantallas de Wallpaper Engine, tendrás que selecciona
   Your browser does not support the video tag.
 </video>
 
-In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
+Puedes controlar el tiempo que tarda en aparecer el salvapantallas desde la configuración de Windows y si quieres que te aparezca la pantalla de bloque de Windows o no cuando vuelvas al ordenador. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
 
 ### Wallpaper Engine Configuration
 
