@@ -6,17 +6,17 @@ Wallpaper Engine 能讓您將桌布設為螢幕保護程式。 以往螢幕保�
 
 若要開始將 Wallpaper Engine 設定為螢幕保護程式，請懸停在 Wallpaper Engine 視窗的**已安裝**分頁，並選取**設定螢幕保護程式**。 Wallpaper Engine 現在將確認您是否已安裝 Windows 版的 Wallpaper Engine 螢幕保護程式。 如果螢幕保護程式尚未安裝，系統將要求您安裝。 請確保您的 Windows 使用者身分具管理員權限，且防毒應用程式並未阻擋 Wallpaper Engine 安裝螢幕保護程式。
 
-After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
+初始安裝後，Windows 螢幕保護程式設定應會自動開啟，您也可手動使用**設定 & 預覽**按鈕來開啟設定，或者直接透過 Windows 頁面開啟螢幕保護程式設定。
 
-## Configuring the Screensaver
+## 設定螢幕保護程式
 
-### Windows Configuration
+### Windows 設定
 
-In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+為了使 Wallpaper Engine 螢幕保護程式正常運作，您必須先到 **Windows 設定**中將 Wallpaper Engine 選為使用中的螢幕保護程式。 您可透過 Windows 控制面板或在 Wallpaper Engine 螢幕保護程式模式中按一下**設定 & 預覽**，以開啟 Windows 螢幕保護程式設定。 請見以下影片了解設定步驟：
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的瀏覽器不支援視訊標籤。
 </video>
 
 In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
