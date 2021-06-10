@@ -1,10 +1,10 @@
 # 使用 Wallpaper Engine 设置屏幕保护程序
 
-Wallpaper Engine allows you to use your wallpapers as screensavers. Traditionally, screensavers were used to protect displays from permanent image burn-in, however, most modern display technologies are not susceptible to these types of display damage anymore and you can safely use any type of wallpaper as a screensaver for aesthetic purposes. If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
+Wallpaper Engine 允许将壁纸用作屏幕保护程序。 屏幕保护程序历来被用于防止显示器出现永久性图像烧屏，但大多数现代显示技术不再容易发生这些类型的显示器损坏，您可以安全地将任何类型的壁纸用作屏幕保护程序，以达到美观目的。 如果您使用 CRT、等离子、OLED 或容易烧屏的类似屏幕技术，我们建议您将壁纸播放列表或具有规律运动的壁纸用作屏幕保护程序。
 
-## Initial Screensaver Setup
+## 初始屏幕保护程序设置
 
-In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
+要开始将 Wallpaper Engine 用作屏幕保护程序，请将鼠标悬停在 Wallpaper Engine 窗口中的**已安装**选项卡上，然后选择**配置屏幕保护程序**。 Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
 
 After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
 
