@@ -2,7 +2,7 @@
 
 Puedes emparejar dispositivos móviles con el ordenador de forma inalámbrica para transferir tu colección de fondos a la aplicación de Wallpaper Engine. La aplicación de Android no puede descargarse fondos directamente desde Steam Workshop porque eso tiene que hacerlo Steam directamente.
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+Si tienes algún problema al emparejar los dispositivos móviles, puedes importar los fondos de forma manual si exportas el archivo **.mpkg** que utiliza la aplicación móvil de Wallpaper Engine para renderizar los fondos.
 
 ### Preparar Wallpaper Engine en Windows
 
@@ -25,12 +25,12 @@ Si no puedes emparejar un dispositivo móvil con el ordenador, es posible que se
 * Comprueba que el dispositivo y el ordenador estén conectados a la misma red local.
 * Comprueba que ningún firewall impida a Wallpaper Engine comunicarse con la red local.
 * Comprueba que el enrutador de red no impida a los dispositivos comunicarse entre ellos.
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
+* Desactiva cualquier VPN o programa de proxy que tengas en el ordenador o en el dispositivo móvil que pueda interferir con la comunicación entre los dispositivos.
 * Comprueba que tanto el Wallpaper Engine de Windows como el del dispositivo móvil estén actualizados y en funcionamiento.
 
-## Backup solution: Manually importing a Wallpaper File (.mpkg)
+## Solución de emergencia: Importar un archivo de forma manual (.mpkg)
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+Si no puede solucionar el problema de la conexión entre el ordenador y el dispositivo móvil, puedes transferir los fondos de forma manual al dispositivo móvil. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
 
 Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
 
