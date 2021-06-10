@@ -28,10 +28,10 @@
 * 在電腦和行動裝置上停用任何可能干擾裝置通訊的 VPN 或代理軟體。
 * 再次確認 Windows 和行動版的 Wallpaper Engine 皆為最新版本且正常運作。
 
-## 備份解決方案：手動匯入桌布檔案 (.mpkg)
+## 備用解決方案：手動匯入桌布檔案 (.mpkg)
 
-如果您無法修復電腦和行動裝置之間的連線問題，仍可手動將桌布轉移至行動裝置上。 首先，在 Wallpaper Engine 上選擇要匯出的桌布，再以右鍵按一下桌布，選取**傳送至行動裝置**，接下來按一下**匯出 .mpkg**。
+如果您無法修復電腦和行動裝置之間的連線問題，仍可手動將桌布轉移至行動裝置上。 首先，在 Wallpaper Engine 上選擇要匯出的桌布，以右鍵按一下桌布，選取**傳送至行動裝置**，再按一下**匯出 .mpkg**。
 
 一旦 Wallpaper Engine 建立 .mpkg 檔案，即可利用 USB 或複製檔案至 SD 卡，將檔案轉移至行動裝置上。 或者，您也可使用行動裝置上的任何檔案分享功能，或透過即時通訊、甚至是電子郵件 (若檔案大小符合限制) 將檔案傳送給自己。
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+檔案轉移到行動裝置上後，開啟行動裝置上的 Wallpaper Engine，利用**匯入檔案**功能從儲存檔案的目錄選擇檔案，直接將 .mpkg 檔案匯入行動裝置。
