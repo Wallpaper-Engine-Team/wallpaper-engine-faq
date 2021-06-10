@@ -29,6 +29,6 @@ Windows에서 화면 보호기를 설정하고 나면, Wallpaper Engine 화면 �
 
 ## 화면 보호기 문제 해결
 
-The Wallpaper Engine screensaver is activated through Windows itself, if the screensaver is not working correctly, please double-check to see if any of the default Windows screensavers work correctly for you. Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
+Wallpaper Engine 화면 보호기는 Windows 자체를 통해 활성화되며, 화면 보호기가 제대로 작동하지 않을 경우 기본 Windows 화면 보호기도 작동하지 않는지 한 번 더 확인해주세요. Windows 화면 보호기 설정과 Windows 전원 설정을 확인하여 화면 보호기 표시 시간이 원하는 대로 설정되어 있는지, Wallpaper Engine이 현재 화면 보호기로 설정되어 있는지 확인하십시오.
 
-The screensaver will be installed in `C:\Windows\System32\wpxscreensaver64.scr`, make sure no antivirus app is deleting this file by mistake or preventing it from being installed. You can also manually uninstall the screensaver by deleting that specific file, but be sure to not delete any other important Windows files in the `System32` directory when doing so.
+화면 보호기는 `C:\Windows\System32\wpxscreensaver64.scr`에 저장되며, 백신 프로그램이 해당 파일을 실수로 삭제하거나 설치를 방해하는지 확인하세요. 또한 해당 파일을 삭제하여 화면 보호기를 삭제할 수 있지만, 그러면서 `System32` 디렉토리의 다른 중요 Windows 파일을 삭제하지 않도록 주의하세요.
