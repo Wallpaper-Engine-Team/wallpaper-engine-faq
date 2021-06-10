@@ -34,4 +34,4 @@
 
 在 Wallpaper Engine 为壁纸创建 .mpkg 文件后，您可以通过 USB 将这些文件移动到移动设备上，或者将文件复制到 SD 卡上，进而转移到移动设备。 或者，您还可以使用移动设备上的任何文件共享服务，或通过消息服务乃至电子邮件（如果文件大小不成问题）将文件发送给自己。
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+文件转移到移动设备上以后，在移动设备上打开 Wallpaper Engine，然后使用**导入文件**功能，从放置文件的目录选择文件，直接将 .mpkg 文件导入该应用程序。
