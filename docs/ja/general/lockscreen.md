@@ -8,8 +8,8 @@ tags:
 
 Windowsのロック画面でWallpaper Engineの壁紙をセットできるかどうか、という質問をよく受けます。 残念ながら、Windows自体の制限により、それは不可能です。 ロック画面はWindowsの保護されたエリアで、Windowsをハッキングしない限り改造できません。 これは、アプリケーションがログイン画面に悪意のあるコンテンツを追加できないようにするというシステムセキュリティに役立っています。 そういう理由でWallpaper Engineはロック画面に壁紙を追加することはできません。また、将来的にその機能が追加されることもありません。
 
-## Screensaver Functionality
+## スクリーンセーバー機能
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+ロック画面を使用する代わりに、Wallpaper Engineをスクリーンセーバーとして設定、さらにWindowsのスクリーンセーバーの設定で**再開時にログオン画面に戻る**を有効にするという組み合わせをお勧めしています。 Wallpaper Engineをスクリーンセーバーに設定する方法は、スクリーンセーバーガイドを参照してください：
 
-* [Screensavers with Wallpaper Engine](/functionality/screensaver.html)
+* [Wallpaper Engineのスクリーンセーバー](/functionality/screensaver.html)
