@@ -29,6 +29,6 @@ Wallpaper Engine 允许将壁纸用作屏幕保护程序。 屏幕保护程序�
 
 ## 屏幕保护程序问题解决
 
-The Wallpaper Engine screensaver is activated through Windows itself, if the screensaver is not working correctly, please double-check to see if any of the default Windows screensavers work correctly for you. Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
+Wallpaper Engine 屏幕保护程序通过 Windows 本身激活，如果屏幕保护程序无法正常工作，请仔细检查您的所有默认 Windows 屏幕保护程序是否正常工作。 检查 Windows 屏幕保护程序设置和 Windows 能源设置，以确保屏幕保护程序配置了所期望的正确超时，而且 Wallpaper Engine 已被设置为活动屏幕保护程序。
 
-The screensaver will be installed in `C:\Windows\System32\wpxscreensaver64.scr`, make sure no antivirus app is deleting this file by mistake or preventing it from being installed. You can also manually uninstall the screensaver by deleting that specific file, but be sure to not delete any other important Windows files in the `System32` directory when doing so.
+屏幕保护程序将安装在 `C:\Windows\System32\wpxscreensaver64.scr` 中，请确保防病毒应用程序不会错误地删除此文件或阻止其安装。 您还可以通过删除该特定文件来手动卸载屏幕保护程序，但在执行此操作时，务必确保不要删除 `System32` 目录中的任何其他重要 Windows 文件。
