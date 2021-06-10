@@ -1,8 +1,8 @@
 # 使用 Wallpaper Engine 設定螢幕保護程式
 
-Wallpaper Engine 能讓您將桌布設為螢幕保護程式。 以往螢幕保護程式是用來防止圖像永久烙印，不過大多數現代的顯示技術不再容易發生此種類型的顯示器損壞問題，您可放心將任何類型的桌布當作螢幕保護程式，以達美觀目的。 If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
+Wallpaper Engine 能讓您將桌布設為螢幕保護程式。 以往螢幕保護程式是用來防止圖像永久烙印，不過大多數現代的顯示技術不再容易發生此種類型的顯示器損壞問題，您可放心將任何類型的桌布當作螢幕保護程式，以達美觀目的。 如果您使用 CRT 映像管、電漿、OLED 或容易產生螢幕烙印的技術，建議您將桌布播放清單或具規律動態的桌布設定為螢幕保護程式。
 
-## Initial Screensaver Setup
+## 初始螢幕保護程式設定
 
 In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
 
