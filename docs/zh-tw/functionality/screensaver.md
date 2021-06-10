@@ -4,7 +4,7 @@ Wallpaper Engine 能讓您將桌布設為螢幕保護程式。 以往螢幕保�
 
 ## 初始螢幕保護程式設定
 
-若要開始將 Wallpaper Engine 設定為螢幕保護程式，請懸停在 Wallpaper Engine 視窗的**已安裝**分頁，並選取**設定螢幕保護程式**。 Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
+若要開始將 Wallpaper Engine 設定為螢幕保護程式，請懸停在 Wallpaper Engine 視窗的**已安裝**分頁，並選取**設定螢幕保護程式**。 Wallpaper Engine 現在將確認您是否已安裝 Windows 版的 Wallpaper Engine 螢幕保護程式。 如果螢幕保護程式尚未安裝，系統將要求您安裝。 請確保您的 Windows 使用者身分具管理員權限，且防毒應用程式並未阻擋 Wallpaper Engine 安裝螢幕保護程式。
 
 After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
 
