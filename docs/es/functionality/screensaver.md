@@ -23,7 +23,7 @@ Puedes controlar el tiempo que tarda en aparecer el salvapantallas desde la conf
 
 ### Configuración de Wallpaper Engine
 
-Cuando configures el salvapantallas en Windows, podrás empezar a configurar el de Wallpaper Engine. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+Cuando configures el salvapantallas en Windows, podrás empezar a configurar el de Wallpaper Engine. Pasa el cursor por encima de la pestaña **Instalados** de Wallpaper Engine y elige **Configurar salvapantallas**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
 
 In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
