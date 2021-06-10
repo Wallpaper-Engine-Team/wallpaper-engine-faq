@@ -10,6 +10,6 @@ tags:
 
 ## 화면 보호기 기능
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+잠금화면에 의존하는 대신 Wallpaper Engine을 화면보호기로 설정하고 Windows 화면보호기 설정에서 **다시 시작할 때 로그온 화면 표시 ** 설정을 활성화하는 것을 권장합니다. Wallpaper Engine을 화면보호기로 설정하는 방법은 저희 화면보호기 가이드를 확인해주세요:
 
-* [Screensavers with Wallpaper Engine](/functionality/screensaver.html)
+* [Wallpaper Engine 화면보호기](/functionality/screensaver.html)
