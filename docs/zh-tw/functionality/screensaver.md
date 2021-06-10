@@ -29,6 +29,6 @@ Wallpaper Engine 能讓您將桌布設為螢幕保護程式。 以往螢幕保�
 
 ## 螢幕保護程式問題解決
 
-Wallpaper Engine 螢幕保護程式是透過 Windows 本身啟動，若螢幕保護程式並未正常運作，請再三確認預設的 Windows 螢幕保護程式是否也能正常運作。 Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
+Wallpaper Engine 螢幕保護程式是透過 Windows 本身啟動，若螢幕保護程式並未正常運作，請再三確認預設的 Windows 螢幕保護程式是否也能正常運作。 檢查 Windows 螢幕保護程式設定與 Windows 電源設定，確保螢幕保護程式設定為正確的等候時間，而且 Wallpaper Engine 也已設定為使用中的螢幕保護程式。
 
 The screensaver will be installed in `C:\Windows\System32\wpxscreensaver64.scr`, make sure no antivirus app is deleting this file by mistake or preventing it from being installed. You can also manually uninstall the screensaver by deleting that specific file, but be sure to not delete any other important Windows files in the `System32` directory when doing so.
