@@ -1,34 +1,34 @@
-# Screensavers with Wallpaper Engine
+# 使用 Wallpaper Engine 设置屏幕保护程序
 
-Wallpaper Engine allows you to use your wallpapers as screensavers. Traditionally, screensavers were used to protect displays from permanent image burn-in, however, most modern display technologies are not susceptible to these types of display damage anymore and you can safely use any type of wallpaper as a screensaver for aesthetic purposes. If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
+Wallpaper Engine 允许将壁纸用作屏幕保护程序。 屏幕保护程序历来被用于防止显示器出现永久性图像烧屏，但大多数现代显示技术不再容易发生这些类型的显示器损坏，您可以安全地将任何类型的壁纸用作屏幕保护程序，以达到美观目的。 如果您使用 CRT、等离子、OLED 或容易烧屏的类似屏幕技术，我们建议您将壁纸播放列表或具有规律运动的壁纸用作屏幕保护程序。
 
-## Initial Screensaver Setup
+## 初始屏幕保护程序设置
 
-In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
+要开始将 Wallpaper Engine 用作屏幕保护程序，请将鼠标悬停在 Wallpaper Engine 窗口中的**已安装**选项卡上，然后选择**配置屏幕保护程序**。 Wallpaper Engine 现在将检查您是否已经安装了适用于 Windows 的 Wallpaper Engine 屏幕保护程序。 如果尚未安装屏幕保护程序，系统会要求您执行安装。 请确保您的 Windows 用户具有管理权限，而且没有防病毒应用程序阻止 Wallpaper Engine 安装屏幕保护程序。
 
-After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
+初始安装后，Windows 屏幕保护程序设置应自动打开，您还可以使用**设置和预览**按钮手动打开设置，或通过 Windows 直接访问屏幕保护程序设置。
 
-## Configuring the Screensaver
+## 配置屏幕保护程序
 
-### Windows Configuration
+### Windows 配置
 
-In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+要让 Wallpaper Engine 屏幕保护程序正常工作，您首先需要在 **Windows 设置**中将 Wallpaper Engine 选择为活动屏幕保护程序。 您可以通过 Windows 控制面板或者在 Wallpaper Engine 的屏幕保护程序模式下单击**设置和预览**，以打开 Windows 屏幕保护程序设置。 有关必要步骤，请参阅下面的视频：
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>
 
-In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
+在 Windows 设置中，您可以控制屏幕保护程序出现之前的等待时间，以及返回计算机时是否显示 Windows 锁屏。 这些设置完全由 Windows 处理，Wallpaper Engine 本身并不控制屏幕超时或类似设置。
 
-### Wallpaper Engine Configuration
+### Wallpaper Engine 配置
 
-Once you have set up the screensaver in Windows, you can start configuring the Wallpaper Engine screensaver. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+在 Windows 中设置屏幕保护程序后，您就可以开始配置 Wallpaper Engine 屏幕保护程序。 将鼠标悬停在 Wallpaper Engine 中的**已安装**选项卡上，然后选择**配置屏幕保护程序**。 Wallpaper Engine 现在将预览您的屏幕保护程序而非壁纸，一旦您退出屏幕保护程序模式，您将返回到壁纸配置。
 
-In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
+默认状态下，Wallpaper Engine 将使用最基本的设置，其中的屏幕保护程序将与您正在运行的壁纸完全相同。 要更改此设置，您可以在顶部将**屏幕保护程序：**选项更改为**单独配置**。 启用该选项后，您可以为要用作屏幕保护程序的每个屏幕选择壁纸，或甚至针对屏幕保护程序设置，使用完全不同的显示配置文件或播放列表。 您可以随时单击左上角的红色**退出**按钮返回壁纸配置。
 
-## Screensaver Problem Solving
+## 屏幕保护程序问题解决
 
-The Wallpaper Engine screensaver is activated through Windows itself, if the screensaver is not working correctly, please double-check to see if any of the default Windows screensavers work correctly for you. Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
+Wallpaper Engine 屏幕保护程序通过 Windows 本身激活，如果屏幕保护程序无法正常工作，请仔细检查您的所有默认 Windows 屏幕保护程序是否正常工作。 检查 Windows 屏幕保护程序设置和 Windows 能源设置，以确保屏幕保护程序配置了所期望的正确超时，而且 Wallpaper Engine 已被设置为活动屏幕保护程序。
 
-The screensaver will be installed in `C:\Windows\System32\wpxscreensaver64.scr`, make sure no antivirus app is deleting this file by mistake or preventing it from being installed. You can also manually uninstall the screensaver by deleting that specific file, but be sure to not delete any other important Windows files in the `System32` directory when doing so.
+屏幕保护程序将安装在 `C:\Windows\System32\wpxscreensaver64.scr` 中，请确保防病毒应用程序不会错误地删除此文件或阻止其安装。 您还可以通过删除该特定文件来手动卸载屏幕保护程序，但在执行此操作时，务必确保不要删除 `System32` 目录中的任何其他重要 Windows 文件。
