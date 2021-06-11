@@ -2,7 +2,7 @@
 
 คุณสามารถจับคู่อุปกรณ์มือถือของคุณกับคอมพิวเตอร์เพื่อถ่ายโอนคอลเลคชันวอลเปเปอร์ของคุณแบบไร้สายไปยังแอปคู่หู Wallpaper Engine บนอุปกรณ์มือถือของคุณ แอป Android ไม่สามารถดาวน์โหลดวอลเปเปอร์ได้โดยตรงจาก Steam Workshop เนื่องจากมีเพียง Steam เท่านั้นที่สามารถดาวน์โหลดไฟล์วอลเปเปอร์ได้
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+หากคุณพบปัญหาในการจับคู่อุปกรณ์มือถือ คุณยังสามารถนำเข้าวอลเปเปอร์ได้โดยการส่งออก **.mpkg** ที่แอปมือถือ Wallpaper Engine ใช้เรนเดอร์วอลเปเปอร์ได้ด้วยตนเอง
 
 ### กำลังเตรียม Wallpaper Engine บน Windows
 
@@ -25,13 +25,13 @@ Should you run into any problems with pairing your mobile devices, you can still
 * ตรวจสอบให้แน่ใจว่าโทรศัพท์และคอมพิวเตอร์ของคุณเชื่อมต่อกับเครือข่ายภายในเดียวกัน
 * ตรวจสอบให้แน่ใจว่าไฟร์วอลล์ไม่ได้ป้องกันไม่ให้ Wallpaper Engine สื่อสารกับเครือข่ายภายในของคุณ
 * ตรวจสอบให้แน่ใจว่าเราเตอร์เครือข่ายไม่ได้ปิดกั้นอุปกรณ์ของคุณไม่ให้สื่อสารกัน
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
+* ปิดการใช้งาน VPN หรือซอฟต์แวร์พร็อกซีบนคอมพิวเตอร์และอุปกรณ์มือถือซึ่งอาจรบกวนการสื่อสารระหว่างอุปกรณ์ของคุณ
 * ตรวจสอบอีกครั้งว่า Wallpaper Engine บน Windows และอุปกรณ์มือถือของคุณเป็นรุ่นล่าสุดและกำลังทำงาน
 
-## Backup solution: Manually importing a Wallpaper File (.mpkg)
+## วิธีแก้ปัญหาสำรอง: นำเข้าไฟล์วอลเปเปอร์ (.mpkg) ด้วยตนเอง
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+หากคุณแก้ไขปัญหาการเชื่อมต่อระหว่างคอมพิวเตอร์และอุปกรณ์มือถือไม่ได้ คุณยังสามารถโอนวอลเปเปอร์ไปยังอุปกรณ์มือถือได้ด้วยตนเอง ขั้นแรกให้เลือกวอลเปเปอร์ใน Wallpaper Engine ที่ต้องการส่งออก จากนั้นคลิกขวาที่วอลเปเปอร์เหล่านั้นแล้วเลือก **ส่งไปยังอุปกรณ์มือถือ** ตามด้วยคลิกที่ **ส่งออก .mpkg**
 
-Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+เมื่อ Wallpaper Engine สร้างไฟล์ .mpkg สำหรับวอลเปเปอร์ของคุณแล้ว คุณสามารถถ่ายโอนไฟล์เหล่านั้นไปยังอุปกรณ์มือถือได้ได้โดยการย้ายไฟล์ผ่าน USB หรือคัดลอกไฟล์ไปยังการ์ด SD คุณยังสามารถใช้บริการ File Sharing บนอุปกรณ์มือถือ หรือส่งผ่านบริการส่งข้อความให้ตัวเอง หรือส่งทางอีเมลก็ได้เช่นกัน (หากขนาดไฟล์ไม่เกินที่กำหนด)
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+เมื่อไฟล์อยู่ในอุปกรณ์มือถือของคุณแล้ว ให้เปิด Wallpaper Engine บนอุปกรณ์มือถือของคุณและใช้ฟังก์ชัน **นำเข้าไฟล์** เพื่อนำเข้าไฟล์ .mpkg จากไดเร็กทอรีที่คุณวางไว้เข้าสู่แอปโดยตรง

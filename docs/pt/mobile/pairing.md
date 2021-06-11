@@ -1,14 +1,14 @@
-# Emparelhar o dispositivo móvel com o Windows
+# Emparelhar um dispositivo móvel com o Windows
 
 Pode emparelhar os seus dispositivos móveis com o seu computador para transferir sem fios a sua coleção de wallpapers para a app complementar do wallpaper Engine no seu dispositivo móvel. Não é possível para a app Android transferir wallpapers diretamente da Steam Workshop porque só o próprio Steam pode transferir ficheiros de wallpaper.
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+Caso urja algum problema ao emparelhar os seus dispositivos móveis, continua a poder importar wallpapers exportando manualmente o **.mpkg** que a aplicação móvel do Wallpaper Engine utiliza para fazer render de wallpapers.
 
 ### Preparar o Wallpaper Engine no Windows
 
 Na app **Windows**, clique no botão **Mobile** no canto superior direito do interface para o utilizador. Abrir-se-á a visão geral do dispositivo móvel. No fundo da visão geral do dispositivo, clique no botão **Ligar novo dispositivo**. O Wallpaper Engine irá mostrar-lhe um PIN de 4 dígitos que pode usar para emparelhar um dispositivo móvel.
 
-![PIN Mobile](/img/faq/mobile_pin.gif)
+![Mobile PIN](/img/faq/mobile_pin.gif)
 
 ### Ligar o seu dispositivo móvel
 
@@ -25,13 +25,13 @@ Se não consegue emparelhar o seu dispositivo móvel ao seu computador, é muito
 * Certifique-se de que o seu telefone e computador estão ligados à mesma rede local.
 * Certifique-se de que nenhuma firewall está a impedir o Wallpaper Engine de comunicar com a sua rede local.
 * Certifique-se de que o seu router de rede não está a impedir que os seus dispositivos comuniquem entre si.
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
+* Desative qualquer tipo de VPN ou software de proxy no sue computador e no sue dispositivo móvel que possa interferir na comunicação entre os seus dispositivos.
 * Confirme que o Wallpaper Engine para Windows e o seu dispositivo móvel estão atualizados e ligados.
 
-## Backup solution: Manually importing a Wallpaper File (.mpkg)
+## Solução de recurso: importar manualmente um ficheiro de Wallpaper (.mpkg)
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+Caso não consiga reparar a ligação entre o seu computador e o seu dispositivo móvel, continua a poder transferir manualmente os seus wallpapers para o seu dispositivo móvel. Primeiro, selecione os wallpapers que pretende exportar no Wallpaper Engine e, em seguida, clique neles com o botão direito e selecione **Enviar para dispositivo móvel**, clicando em seguida em **Exportar .mpkg**.
 
-Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+Depois do Wallpaper Engine criar os ficheiros .mpkg para os seus wallpapers, pode transferi-los para o seu dispositivo móvel movendo os ficheiros para o seu dispositivo móvel através de USB ou copiando os ficheiros para um cartão SD. Como alternativa, também pode utilizar qualquer serviço de partilha de ficheiros no seu dispositivo móvel ou enviá-los para si próprio através de um serviço de mensagens ou até através de email (caso o tamanho do ficheiro não represente um problema).
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+Quando os ficheiros estiverem no seu dispositivo móvel, abra o Wallpaper Engine no seu dispositivo móvel e utilize a funcionalidade **Importar ficheiro** para importar os ficheiros .mpkg diretamente para a aplicação selecionando-os a partir do diretório em que os colocou.

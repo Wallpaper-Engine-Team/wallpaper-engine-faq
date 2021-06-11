@@ -2,7 +2,7 @@
 
 자신의 모바일 기기와 컴퓨터를 무선으로 페어링하여 자신의 배경화면을 모바일 기기의 Wallpaper Engine 앱으로 전송할 수 있습니다. Steam만이 Steam 창작마당에서 배경화면 파일을 다운로드할 수 있기 때문에, Android 앱은 배경화면을 직접 다운로드할 수 없습니다.
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+모바일 기기를 페어링할 때 문제가 발생해도, Wallpaper Engine이 배경화면을 렌더링할 때 사용하는 **.mpkg** 파일을 직접 내보내기 하여 배경화면을 불러올 수 있습니다.
 
 ### Windows에서 Wallpaper Engine 준비
 
@@ -25,13 +25,13 @@ PIN을 입력하고 나면 모바일 앱의 상태 바가 초록색으로 변하
 * 핸드폰과 컴퓨터가 같은 로컬 네트워크에 연결되어 있는지 확인
 * 방화벽이 Wallpaper Engine이 로컬 네트워크와 통신하지 못하도록 막고 있는지 확인
 * 네트워크 공유기가 기기들이 서로 통신하지 못하도록 막고 있는지 확인
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
+* 기기 간의 통신을 방해할 수 있는 컴퓨터와 모바일 기기의 모든 VPN 또는 프록시 소프트웨어를 비활성화하세요.
 * Windows 및 모바일 기기의 Wallpaper Engine이 최신 버전이며 실행 중인지 확인
 
-## Backup solution: Manually importing a Wallpaper File (.mpkg)
+## 백업 해결책: 직접 배경화면 파일(.mpkg) 불러오기
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+컴퓨터와 모바일 기기 간의 연결을 고치는 것이 불가능할 때도 직접 모바일 기기로 배경화면을 옮길 수 있습니다. 우선, Wallpaper Engine에서 내보내고자 하는 배경화면을 선택한 후 오른쪽 클릭하고, **모바일 기기로 전송**을 누른 다음 **.mpkg 내보내기**를 클릭하세요.
 
-Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+Wallpaper Engine이 배경화면의 .mpkg 파일을 생성하고 나면 해당 파일을 USB로 모바일 기기에 옮기거나 SD 카드에 파일을 복사하여 모바일 기기로 파일을 옮길 수 있습니다. 또는 모바일 기기의 파일 공유 서비스를 사용하여 메시지 서비스 또는 이메일로 자신에게 보낼 수도 있습니다.(파일 크기에 제약이 있을 수 있습니다)
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+파일을 모바일 기기로 옮긴 후, 모바일 기기에서 Wallpaper Engine을 실행하고 **파일 불러오기** 기능을 사용하세요. 파일을 넣은 디렉토리에서 .mpkg 파일을 선택하여 앱으로 직접 불러오세요.
