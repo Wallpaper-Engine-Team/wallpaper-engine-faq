@@ -12,7 +12,7 @@ Nach der Installation des Bildschirmschoners, sollten sich die Bildschirmschoner
 
 ### Windows-Einstellungen
 
-In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+Damit die Bildschirmschoner von Wallpaper Engine funktionieren, musst du zunächst Wallpaper Engine als deinen aktiven Bildschirmschoner in den **Windows-Einstellungen** auswählen. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
