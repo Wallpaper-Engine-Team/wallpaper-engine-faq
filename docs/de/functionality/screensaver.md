@@ -19,13 +19,13 @@ Damit die Bildschirmschoner von Wallpaper Engine funktionieren, musst du zunäch
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
-In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
+In den Windows-Einstellungen kannst du die Zeit einstellen, die benötigt wird, bis der Bildschirmschoner angezeigt wird, du kannst außerdem auswählen, ob der Windows-Sperrbildschirm erscheint, wenn du an deinen Computer zurückkehrst. Diese Einstellungen werden vollständig von Windows geregelt, Wallpaper Engine steuert nicht die Zeit die vergehen muss oder ähnliche Einstellungen.
 
-### Wallpaper Engine Configuration
+### Einstellen von Wallpaper Engine
 
-Once you have set up the screensaver in Windows, you can start configuring the Wallpaper Engine screensaver. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+Nachdem du den Bildschirmschoner in Windows konfiguriert hast, kannst du den Bildschirmschoner in Wallpaper Engine anpassen. Bewege den Mauszeiger über den Reiter **Installiert** in Wallpaper Engine und wähle **Bildschirmschoner einstellen** aus. Wallpaper Engine zeigt dir nun eine Vorschau deiner Bildschirmschoner an, anstatt deiner Hintergründe - sobald du den Bildschirmschoner-Modus wieder verlässt, wird es zu deinen Hintergründen zurückkehren.
 
-In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
+Standardmäßig nutzt Wallpaper Engine für deinen Bildschirmschoner deine aktiven Hintergründe. Du kannst dies ändern, indem du oben in der Benutzeroberfläche die Option **Bildschirmschoner ist** auf **Getrennt konfiguriert** setzt. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
 ## Screensaver Problem Solving
 
