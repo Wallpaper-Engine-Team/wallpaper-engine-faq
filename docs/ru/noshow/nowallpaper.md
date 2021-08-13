@@ -22,16 +22,22 @@ tags:
 
 Если вы включили **режим высокой контрастности** в настройках темы Windows 10 с выбранной темой **Контрастная белая**, Windows принудительно отключит обои Wallpaper Engine. Попробуйте изменить тему высокой контрастности, которую вы используете, в настройках высокой контрастности Windows или полностью отключите режим высокой контрастности, и проблема исчезнет.
 
-## Конфликты с другими программами для модификации рабочего стола
+## Wallpapers disappearing / fading away in regular intervals
 
-Wallpaper Engine не конфликтует с большинством программ для модификации рабочего стола. Однако в случае программ, которые тоже модифицируют обои Windows, например DeskScapes от StarDock, совместная работа невозможна. Если вы используете программу, выполняющую схожие с Wallpaper Engine функции, вам придется выбрать, какой программой вы предпочитаете пользоваться.
+If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+
+## Conflicts with other desktop modification software
+
+Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
 
 ### Программа Fences
 
-В целом, Wallpaper Engine успешно работает с *Fences*. Однако, **если программа Fences установлена у вас на компьютере, но отключена**, она будет скрывать обои Wallpaper Engine. Ее нужно либо включить, либо полностью удалить.
+Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
 
-## Серые обои или отсутствующие текстуры на Windows 7
+If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
 
-Проверьте, установлено ли на вашей системе обновление **KB2533623** для Windows 7. Либо установите его вручную, скачав по ссылке ниже, либо включите Windows Update и удостоверьтесь, что обновление будет установлено автоматически. Обновление можно вручную скачать на сайте Microsoft. После установки перегрузите компьютер. Это должно решить проблему:
+## Gray Wallpaper or missing textures on Windows 7
+
+Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
 
 * [KB2533623](https://support.microsoft.com/ru-ru/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
