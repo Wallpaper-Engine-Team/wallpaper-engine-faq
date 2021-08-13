@@ -2,9 +2,16 @@
 
 Wallpaper Engine과 Steam이 어떤 이유로 소통할 수 없습니다. Steam과 Wallpaper Engine을 차례로 다시 시작하세요. Wallpaper Engine이 있는 계정으로 로그인해야 합니다. Steam이나 Wallpaper Engine을 관리자로 실행 중이면, Wallpaper Engine의 SDK가 작동하지 않을 수 있습니다. 두 프로그램을 관리자로 실행해서는 안 되며, 이는 의도된 것입니다. 그래도 여전히 작동하지 않으면, Steam을 새로 설치하고 프로그램 간 소통을 막는 바이러스 백신을 모두 제거하세요.
 
+**Please make sure your Steam installation is up-to-date.** This problem frequently occurs when Steam is extremely outdated. You can verify your Steam version by opening Steam and clicking on **Help** at the top, afterwards select **About Steam**. You will be presented with a version number and a version date, make sure this date is not older than two months, otherwise you are missing the latest Steam updates.
+
+If you are unable to update Steam, an antivirus app is likely blocking it. In that case, configure any antivirus app to ignore your entire Steam directory and try again. In some cases, it is necessary to uninstall Steam and to manually delete the Steam directory to clear any antivirus locks on important Steam files.
+
+### Steamworks Repair Checklist
+
 다음 단계를 따르세요:
 
-* Steam과 Wallpaper Engine을 차례로 다시 시작합니다.
+* Make sure your Steam installation is up-to-date.
+* Steam과 Wallpaper Engine을 차례로 다시 시작하세요.
 * Wallpaper Engine이 있는 Steam 계정으로 로그인해야 합니다.
 * Steam이나 Wallpaper Engine을 관리자로 실행하면 **안됩니다**.
 * 바이러스 백신에서 Steam 디렉터리를 제외하거나 타사 바이러스 백신 응용 프로그램을 완전히 비활성화합니다.
