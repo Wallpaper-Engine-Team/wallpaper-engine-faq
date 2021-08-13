@@ -26,18 +26,18 @@ Windows 10 테마 설정에서 **고대비 흰색 테마**로 **고대비 모드
 
 If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
 
-## Conflicts with other desktop modification software
+## 다른 바탕화면 수정 소프트웨어와 충돌
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine은 대부분의 바탕화면 수정 응용 프로그램과 잘 작동합니다. 그러나 StarDock DeskScapes와 같은 일부 응용 프로그램도 Windows 배경화면을 수정하므로, 동시에 이 두 가지 응용 프로그램을 실행할 수는 없습니다. Wallpaper Engine과 비슷한 응용 프로그램을 사용한다면, 어느 것을 계속 사용할지 결정해야 합니다.
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+일반적으로 Wallpaper Engine은 *Fences*와 잘 작동합니다. 그러나 **설치된 Fences를 비활성화하면**, Wallpaper Engine의 배경화면을 숨기게 됩니다. 활성화하거나 완전히 삭제해야 합니다.
 
 If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Windows 7에서 회색 배경화면 또는 텍스처 누락
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Windows 7 업데이트 **KB2533623**이 설치되어 있는지 확인하세요. 링크를 통해 수동으로 설치하거나, Windows 업데이트가 제대로 작동하여 스스로 설치하는지 확인해야 합니다. Microsoft 웹사이트에서 수동으로 다운로드한 뒤 시스템을 다시 시작하면 문제가 해결됩니다:
 
 * [KB2533623](https://support.microsoft.com/ko-kr/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
