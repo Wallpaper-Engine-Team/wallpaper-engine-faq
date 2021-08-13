@@ -26,18 +26,18 @@ Si tienes activado el **modo de contraste alto** en los ajustes de Windows 10 co
 
 If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
 
-## Conflicts with other desktop modification software
+## Conflictos con otros programas de modificación de escritorio
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine funciona bien con casi todos los programas de modificación de escritorios. Sin embargo, hay algunos como StarDock DeskScapes que también modifican los fondos de Windows, por lo que no es posible usar los dos programas a la vez. Si usas un programa parecido a Wallpaper Engine, deberás decantarse por uno solo.
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+Por lo general, Wallpaper Engine funciona bien con *Fences*. Sin embargo, **si tienes Fences instalado y lo has desactivado**, este ocultará el fondo de Wallpaper Engine. Tendrás que volver a activarlo o, en su defecto, desinstalarlo.
 
 If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Fondo gris o no hay texturas en Windows 7
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Asegúrate de que tienes instalada la actualización **KB2533623** de Windows 7. Instálala manualmente desde ese enlace o comprueba si Windows Update funciona correctamente y puede instalarla. Puedes descargarla desde la página web de Microsoft y el problema se solucionará en cuanto reinicies el equipo:
 
 * [KB2533623](https://support.microsoft.com/es-es/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
