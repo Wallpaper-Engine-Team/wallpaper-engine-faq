@@ -2,9 +2,16 @@
 
 Wallpaper Engine 與 Steam 出於某些原因無法通訊。 請重新啟動 Steam，再啟動 Wallpaper Engine。 確定 Steam 登入的帳號是您擁有 Wallpaper Engine 的帳號。 如果您以管理員身分執行 Steam 或 Wallpaper Engine，Wallpaper Engine 中的 Steamworks SDK 可能不會運作。 理想的解決方法是不要以管理員身分執行上述任一程式。 如果仍然無效，請重新安裝 Steam 並排除任何阻擋不同軟體之間通訊的防毒程式。
 
+**Please make sure your Steam installation is up-to-date.** This problem frequently occurs when Steam is extremely outdated. You can verify your Steam version by opening Steam and clicking on **Help** at the top, afterwards select **About Steam**. You will be presented with a version number and a version date, make sure this date is not older than two months, otherwise you are missing the latest Steam updates.
+
+If you are unable to update Steam, an antivirus app is likely blocking it. In that case, configure any antivirus app to ignore your entire Steam directory and try again. In some cases, it is necessary to uninstall Steam and to manually delete the Steam directory to clear any antivirus locks on important Steam files.
+
+### Steamworks Repair Checklist
+
 請嘗試下列步驟：
 
-* 重新啟動 Steam，再啟動 Wallpaper Engine。
+* Make sure your Steam installation is up-to-date.
+* 請重新啟動 Steam，再啟動 Wallpaper Engine。
 * 確定您登入 Steam 的帳號擁有 Wallpaper Engine。
 * **切勿**以管理員身分執行 Steam 或 Wallpaper Engine。
 * 在防毒程式中排除 Steam 的目錄，或完全停用所有第三方防毒應用程式
