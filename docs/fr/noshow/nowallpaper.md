@@ -22,16 +22,22 @@ Si vous avez installé un antivirus (à l'exception de Windows Defender), il est
 
 Si vous utilisez le **mode de contraste élevé** de Windows 10 avec le **thème blanc**, Windows risque de désactiver Wallpaper Engine. Essayez de changer votre thème ou de désactiver le mode de contraste élevé pour résoudre ce problème.
 
-## Conflits avec d'autres logiciels de modification du bureau
+## Wallpapers disappearing / fading away in regular intervals
 
-Wallpaper Engine est compatible avec les autres applications de modification du bureau. Cependant, certaines applications, comme StarDock DeskScapes, modifient également le fond d'écran et il n'est pas possible d'exécuter les deux applications en même temps. Vous allez devoir faire un choix entre Wallpaper Engine et ces autres applications.
+If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+
+## Conflicts with other desktop modification software
+
+Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
 
 ### Fences
 
-Wallpaper Engine est compatible avec *Fences*. Mais, **si vous avez installé Fences, mais que vous l'avez désactivé**, cela empêchera Wallpaper Engine d'accéder au fond d'écran. Vous devez l'activer et le désinstaller totalement.
+Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
 
-## Fond d'écran gris ou textures manquantes avec Windows 7
+If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
 
-Assurez-vous que la mise à jour **KB2533623** de Windows 7 est installée. Installez-le manuellement avec ce lien ou assurez-vous que Windows se met à jour correctement et s'en occupe pour vous. Vous pouvez le télécharger manuellement depuis le site de Microsoft. Redémarrez votre ordinateur et le problème devrait être résolu :
+## Gray Wallpaper or missing textures on Windows 7
+
+Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
 
 * [KB2533623](https://support.microsoft.com/fr-fr/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
