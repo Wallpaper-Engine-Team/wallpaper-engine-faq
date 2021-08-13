@@ -22,16 +22,22 @@ tags:
 
 如果您在 Windows 10 主题设置中启用了**高对比度模式**并选择了**高对比度白色**主题，Windows 将强行关闭 Wallpaper Engine 的壁纸。 尝试在 Windows 的高对比度设置中更换您正在使用的高对比度主题，或者完全关闭高对比度模式，问题就会消失。
 
-## 与其他桌面修改软件冲突
+## Wallpapers disappearing / fading away in regular intervals
 
-Wallpaper Engine 可与大多数桌面修改应用程序协调并存。 但有些应用程序（例如 StarDock DeskScapes）也可以修改 Windows 壁纸，因此无法同时运行这两个应用程序。 如果您使用与 Wallpaper Engine 类似的应用程序，那么您需要决定要继续使用的应用程序。
+If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+
+## Conflicts with other desktop modification software
+
+Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
 
 ### Fences
 
-一般来说，Wallpaper Engine 可以很好地与 *Fences* 配合使用。 但**如果您安装了 Fences 却将其禁用**，它将隐藏 Wallpaper Engine 中的壁纸。 您需要启用它，或将其完全卸载。
+Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
 
-## 壁纸在 Windows 7 系统上呈灰色或缺少纹理
+If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
 
-请确保已安装 Windows 7 的更新 **KB2533623**。 您可以通过以下链接手动安装该更新，或者确保 Windows Update 正常运行并自动安装该更新。 从 Microsoft 网站手动下载该更新后，重新启动系统，问题应该可以消失：
+## Gray Wallpaper or missing textures on Windows 7
+
+Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
 
 * [KB2533623](https://support.microsoft.com/zh-cn/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
