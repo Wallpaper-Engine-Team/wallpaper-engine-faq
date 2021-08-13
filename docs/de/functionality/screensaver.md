@@ -1,34 +1,34 @@
-# Screensavers with Wallpaper Engine
+# Bildschirmschoner mit Wallpaper Engine
 
-Wallpaper Engine allows you to use your wallpapers as screensavers. Traditionally, screensavers were used to protect displays from permanent image burn-in, however, most modern display technologies are not susceptible to these types of display damage anymore and you can safely use any type of wallpaper as a screensaver for aesthetic purposes. If you use a CRT, Plasma, OLED or similar screen technology that is susceptible burn-ins, we recommend using a playlist of wallpapers as a screensaver or a wallpaper with regular motion.
+Wallpaper Engine erlaubt es dir, deine Hintergründe auch als Bildschirmschoner zu verwenden. Ursprünglich hat man Bildschirmschoner genutzt, um Bildschirme vor dem Einbrennen von Standbildern zu bewahren. Heutzutage ist dies bei den meisten Bildschirmtechnologien jedoch nicht mehr nötig, da diese keinen dauerhaften Schaden von Standbildern erhalten können, sodass du sicher jeden Hintergrund auch als Bildschirmschoner einsetzen kannst aus ästhetischen Gründen. Wenn du einen CRT-, Plasma- oder OLED-Bildschirm nutzt, welcher unter Umständen noch zum Einbrennen von Standbildern neigen kann, so empfehlen wir das Nutzen einer Wiedergabeliste an Hintergründen oder das Verwenden eines Hintergrunds mit regelmäßigen Bewegungsabläufen.
 
-## Initial Screensaver Setup
+## Einrichten des Bildschirmschoners
 
-In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
+Um mit dem Einrichten eines Bildschirmschoners mit Wallpaper Engine zu starten, bewege deine Maus über den Reiter **Installiert** in Wallpaper Engine-Fenster und wähle **Bildschirmschoner einstellen** aus. Wallpaper Engine überprüft nun, ob du den Bildschirmschoner von Wallpaper Engine bereits installiert hast. Wenn der Bildschirmschoner noch nicht installiert wurde, wirst du gefragt, diesen zu installieren. Stelle sicher, dass dein Windows-Nutzer über Administrator-Rechte verfügt und dass kein Antivirenprogramm Wallpaper Engine daran hindert, den Bildschirmschoner zu installieren.
 
-After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
+Nach der Installation des Bildschirmschoners, sollten sich die Bildschirmschoner-Einstellungen von Windows automatisch öffnen, alternativ kannst du diese auch über die Schaltfläche **Einstellungen & Vorschau** öffnen oder diese direkt über die Windows-Einstellungen erreichen.
 
-## Configuring the Screensaver
+## Einstellen des Bildschirmschoners
 
-### Windows Configuration
+### Windows-Einstellungen
 
-In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+Damit die Bildschirmschoner von Wallpaper Engine funktionieren, musst du zunächst Wallpaper Engine als deinen aktiven Bildschirmschoner in den **Windows-Einstellungen** auswählen. Du kannst die Bildschirmschoner-Einstellungen von Windows über die Windows-Systemsteuerung öffnen oder indem du auf die Schaltfläche **Einstellungen & Vorschau** klickst, welche angezeigt wird, wenn du im Bildschirmschoner-Modus von Wallpaper Engine bist. Schaue dir das folgende Video an, für alle wichtigen Einrichtungsschritte:
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
-In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
+In den Windows-Einstellungen kannst du die Zeit einstellen, die benötigt wird, bis der Bildschirmschoner angezeigt wird, du kannst außerdem auswählen, ob der Windows-Sperrbildschirm erscheint, wenn du an deinen Computer zurückkehrst. Diese Einstellungen werden vollständig von Windows geregelt, Wallpaper Engine steuert nicht die Zeit die vergehen muss oder ähnliche Einstellungen.
 
-### Wallpaper Engine Configuration
+### Einstellen von Wallpaper Engine
 
-Once you have set up the screensaver in Windows, you can start configuring the Wallpaper Engine screensaver. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+Nachdem du den Bildschirmschoner in Windows konfiguriert hast, kannst du den Bildschirmschoner in Wallpaper Engine anpassen. Bewege den Mauszeiger über den Reiter **Installiert** in Wallpaper Engine und wähle **Bildschirmschoner einstellen** aus. Wallpaper Engine zeigt dir nun eine Vorschau deiner Bildschirmschoner an, anstatt deiner Hintergründe - sobald du den Bildschirmschoner-Modus wieder verlässt, wird es zu deinen Hintergründen zurückkehren.
 
-In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
+Standardmäßig nutzt Wallpaper Engine für deinen Bildschirmschoner deine aktiven Hintergründe. Du kannst dies ändern, indem du oben in der Benutzeroberfläche die Option **Bildschirmschoner ist** auf **Getrennt konfiguriert** setzt. Wenn die Option aktiviert wurde, kannst du für jeden Bildschirm einen eigenen Bildschirmschoner setzen oder sogar ein eigenes Bildschirm-Profil oder eigene Wiedergabelisten für deinen Bildschirmschoner nutzen. Du kannst zu jeder Zeit zum Modus zum Einrichten der Hintergründe zurückkehren, indem du oben links auf die rote **Verlassen**-Schaltfläche klickst.
 
-## Screensaver Problem Solving
+## Probleme mit Bildschirmschonern beheben
 
-The Wallpaper Engine screensaver is activated through Windows itself, if the screensaver is not working correctly, please double-check to see if any of the default Windows screensavers work correctly for you. Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
+Der Wallpaper Engine-Bildschirmschoner wird durch Windows selbst aktiviert, wenn der Bildschirmschoner nicht korrekt funktioniert, überprüfe bitte ob einer der vorinstallierten Windows-Bildschirmschoner für dich funktionieren. Überprüfe die Windows-Bildschirmschoner-Einstellungen und die Windows-Energie-Einstellungen, um sicher zu stellen, dass dein Bildschirmschoner mit der von dir erwarteten Wartezeit konfiguriert ist und dass Wallpaper Engine als Bildschirmschoner in Windows eingestellt wurde.
 
-The screensaver will be installed in `C:\Windows\System32\wpxscreensaver64.scr`, make sure no antivirus app is deleting this file by mistake or preventing it from being installed. You can also manually uninstall the screensaver by deleting that specific file, but be sure to not delete any other important Windows files in the `System32` directory when doing so.
+Der Bildschirmschoner wird in `C:\Windows\System32\wpxscreensaver64.scr` installiert, stelle sicher, dass kein Antivirenprogramm diese Datei fälschlicherweise löscht oder Wallpaper Engine daran hindert, diese Datei zu installieren. Du kannst den Bildschirmschoner auch von Hand löschen, indem du speziell diese Datei löschst, achte aber darauf, dass du keine weiteren wichtigen Windows-Dateien im `System32`-Verzeichnis löschst, wenn du dies machst.
