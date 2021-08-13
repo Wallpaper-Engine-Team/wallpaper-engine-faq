@@ -22,22 +22,22 @@ Wenn du ein Antivirenprogramm installiert hast (außer Windows Defender), ist es
 
 Wenn du den **Modus für hohen Kontrast** in deinen Windows 10-Einstellungen aktiviert hast und den Design-Stil **Hoher Kontrast - Weiß** ausgewählt hast, deaktiviert Windows die Hintergründe von Wallpaper Engine. Versuche den Design-Stil des für den Modus mit hohem Kontrast in den dazugehörigen Einstellungen von Windows zu verändern oder deaktiviere den Modus mit hohem Kontrast vollständig, in beiden Fällen sollte das Problem gelöst werden.
 
-## Wallpapers disappearing / fading away in regular intervals
+## Wallpaper verschwinden in regelmäßigen Abständen
 
-If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+Wenn deine Hintergründe wiederholt für einen kurzen Moment verschwinden, hast du wahrscheinlich eine Diashow als deinen Windows-Hintergrund konfiguriert. Öffne deine Windows-Hintergrundeinstellungen und setze eine Farbe oder ein statisches Bild als dein herkömmliches Windows-Hintergrundbild, dies löst dieses Problem.
 
-## Conflicts with other desktop modification software
+## Konflikte mit anderen Anwendungen zur Veränderung des Windows-Desktops
 
-Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
+Wallpaper Engine funktioniert gut zusammen mit den meisten anderen Anwendungen zur Veränderungen des Windows Desktops. Trotzdem können einige Anwendungen, wie zum Beispiel StarDock DeskScapes auch die Hintergründe von Windows bearbeiten, in diesen Fällen kann man nicht beide Anwendungen gleichzeitig laufen lassen. Wenn du eine andere Anwendung nutzt, welche ähnlich zu Wallpaper Engine ist, musst du eine Wahl treffen und dich für eine dieser Anwendungen entscheiden.
 
 ### Fences
 
-Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
+Allgemein funktioniert Wallpaper Engine gut in Verbindung mit *Fences*. **Wenn du jedoch Fences installiert hast, es aber deaktiviert ist**, wird es den Hintergrund von Wallpaper Engine verstecken. In diesem Fall musst du Fences entweder aktivieren oder vollständig deinstallieren.
 
-If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
+Wenn du Fences nutzt und deine Hintergründe von Wallpaper Engine nicht sichtbar sind, stelle sicher, dass du **Fences 3.13 oder neuer** nutzt, um diese Art von Kompatibilitätsproblemen mit Wallpaper Engine zu beheben. Fences 3.13 und neuere Versionen enthalten wichtige Fehlerbehebungen zur Kompatibilität mit Wallpaper Engine, von daher ist es wichtig, dass deine Fences-Installation auf dem neuesten Stand ist.
 
-## Gray Wallpaper or missing textures on Windows 7
+## Grauer Hintergrund oder fehlende Texturen auf Windows 7
 
-Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
+Stelle sicher, dass das Windows 7-Update **KB2533623** installiert ist. Installiere es entweder manuell über den folgenden Link oder stelle sicher, dass Windows Update korrekt konfiguriert ist und von selbst installieren kann. Du kannst das Update manuell von der Microsoft-Website herunterladen, starte dein System nach der Installation neu und das Problem sollte gelöst sein:
 
 * [KB2533623](https://support.microsoft.com/de-de/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
