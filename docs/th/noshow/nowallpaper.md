@@ -22,16 +22,22 @@ tags:
 
 หากคุณเปิดใช้งาน **โหมด high-contrast** ในการตั้งค่าธีม Windows 10 ของคุณโดยเลือกธีม **High Contrast สีขาว** ไว้ Windows จะบังคับปิดวอลเปเปอร์ของ Wallpaper Engine ลองเปลี่ยนธีม high-contrast ที่คุณใช้ในการตั้งค่า high-contrast ของ Windows หรือปิดโหมด high-contrast ทั้งหมดแล้วปัญหาจะหายไป
 
-## ความขัดแย้งกับซอฟต์แวร์การแก้ไขเดสก์ทอปอื่น ๆ
+## Wallpapers disappearing / fading away in regular intervals
 
-Wallpaper Engine ทำงานได้ดีกับแอพพลิเคชันการแก้ไขเดสก์ทอปส่วนใหญ่ อย่างไรก็ตาม แอพพลิเคชันบางตัว (เช่น StarDock DeskScapes) ก็สามารถใช้แก้ไขวอลเปเปอร์ของ Windows ได้ ดังนั้นแอพพลิเคชั่นทั้งสองนี้จึงไม่สามารถทำงานได้ในเวลาเดียวกันเดียวกัน หากคุณใช้แอพพลิเคชันที่คล้ายกับ Wallpaper Engine คุณจะต้องตัดสินใจว่าจะใช้แอพพลิเคชันใดต่อไป
+If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+
+## Conflicts with other desktop modification software
+
+Wallpaper Engine works well with most desktop-modification applications. However, some applications such as StarDock DeskScapes also modify the Windows wallpaper and it is not possible to run both applications at the same time. If you use a similar application to Wallpaper Engine, you will need to decide on one which you want to continue to use.
 
 ### Fences
 
-โดยทั่วไปแล้ว Wallpaper Engine ทำงานได้ดีกับ *Fences* อย่างไรก็ตาม **หากคุณติดตั้ง Fences แต่ปิดการใช้งานไว้** มันจะซ่อนวอลเปเปอร์จาก Wallpaper Engine คุณต้องเปิดใช้งานหรือถอนการติดตั้งอย่างสมบูรณ์
+Generally, Wallpaper Engine works fine with *Fences*. However, **if you have Fences installed but have disabled it**, it will hide the wallpaper from Wallpaper Engine. You need to either enable or uninstall it completely.
 
-## วอลเปเปอร์สีเทาหรือพื้นผิวหายไปใน Windows 7
+If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
 
-โปรดตรวจสอบให้แน่ใจว่าได้ติดตั้ง Windows 7 Update **KB2533623** แล้ว คุณสามารถติดตั้งการอัพเดตด้วยตนเองผ่านลิงก์ด้านล่างหรือตรวจสอบให้แน่ใจว่า Windows Update ของคุณทำงานได้อย่างถูกต้องและติดตั้งการอัพเดตอัตโนมัติ คุณสามารถดาวน์โหลดได้ด้วยตนเองจากเว็บไซต์ Microsoft แล้วรีสตาร์ทระบบของคุณในภายหลัง ปัญหาข้างต้นควรจะหายไป:
+## Gray Wallpaper or missing textures on Windows 7
+
+Make sure that the Windows 7 update **KB2533623** is installed. Either install it manually with that link or ensure that your Windows Update is working right and installing it by itself. You can download it manually from the Microsoft website, restart your system afterwards and the problem should go away:
 
 * [KB2533623](https://support.microsoft.com/th-th/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
