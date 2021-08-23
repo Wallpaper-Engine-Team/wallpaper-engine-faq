@@ -7,3 +7,5 @@
 * `C:\Program Files (x86)\Steam\steamapps\downloading`
 
 *如果您将 Steam 或 Wallpaper Engine 安装在其他目录中，则您需要将上面的目录调整为实际的 Steam 安装路径。*
+
+If you have configured your antivirus app to ignore these directories but the issue persists, it is sometimes necessary to uninstall Wallpaper Engine through Steam, followed by manually deleting the remains of the `wallpaper_engine` directory to clear any antivirus locks which may continue to block Steam from downloading files. After deleting the entire `wallpaper_engine` folder, try reinstalling the app through Steam again.
