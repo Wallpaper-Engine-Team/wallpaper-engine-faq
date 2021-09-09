@@ -34,5 +34,5 @@ Wenn die Tonwiedergabe an dieser Stelle immer noch nicht funktioniert, können e
 
 In diesem Fall kannst du das *Codec Tweak Tool* verwenden, wie auf der folgenden Seite erklärt. Mit dem Tool kannst du alle Audio- und Video-Codecs auf deinem System zurücksetzen, starte danach Wallpaper Engine neu und versuche es erneut:
 
-* [Videos sind schwarz oder spielen nicht richtig ab - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [Videos sind schwarz oder spielen nicht richtig ab - Codec Tweak Tool](/noshow/notplaying.html#codec-tweak-tool)
 
