@@ -34,5 +34,5 @@ Wallpaper Engine 讓所有音訊輸出交由 Windows 處理，所以如果 Wallp
 
 在這種情況下，您可如下方頁面的說明使用 *Codec Tweak Tool*，重設系統上所有音訊及視訊轉碼器，之後再重新啟動 Wallpaper Engine 試試看：
 
-* [視訊螢幕呈現黑色/無法正常播放：Codec Tweak Tool (轉碼器調整工具)](noshow/notplaying.html#codec-tweak-tool)
+* [視訊螢幕呈現黑色/無法正常播放：Codec Tweak Tool (轉碼器調整工具)](/noshow/notplaying.html#codec-tweak-tool)
 
