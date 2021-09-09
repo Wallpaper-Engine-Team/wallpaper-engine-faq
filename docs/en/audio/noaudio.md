@@ -34,5 +34,5 @@ If audio output is still not playing at this point, some audio codecs may be bro
 
 In that case, you can use the *Codec Tweak Tool* as explained on the following page to reset all audio and video codecs on your system, afterwards restart Wallpaper Engine and try again:
 
-* [Videos Black / Not Playing Properly - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [Videos Black / Not Playing Properly - Codec Tweak Tool](/noshow/notplaying.html#codec-tweak-tool)
 
