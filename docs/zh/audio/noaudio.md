@@ -34,5 +34,5 @@ Wallpaper Engine 让 Windows 处理所有音频输出，因此如果未将 Wallp
 
 在这种情况下，您可以按照下一页中的说明，使用*编解码器调整工具*来重置系统上的所有音频和视频编解码器，然后重新启动 Wallpaper Engine 并重试：
 
-* [视频黑屏/无法正常播放 - 编解码器调整工具](noshow/notplaying.html#codec-tweak-tool)
+* [视频黑屏/无法正常播放 - 编解码器调整工具](/noshow/notplaying.html#codec-tweak-tool)
 
