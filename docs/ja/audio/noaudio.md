@@ -34,5 +34,5 @@ Wallpaper Engineはすべてのオーディオ出力をWindowsに任せていま
 
 その場合は、次のページの指示に従って*Codec Tweak Tool*をダウンロードし、システム上のすべてのオーディオおよびビデオコーデックをリセットして、その後Wallpaper Engineを再起動してから、もう一度試してみてください：
 
-* [ビデオが黒い / 正しく再生されない - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [ビデオが黒い / 正しく再生されない - Codec Tweak Tool](/noshow/notplaying.html#codec-tweak-tool)
 
