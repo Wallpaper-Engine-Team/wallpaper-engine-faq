@@ -34,5 +34,5 @@ Se por esta altura a saída de áudio ainda não estiver a reproduzir áudio, al
 
 Nesse caso, pode utilizar a *Codec Tweak Tool* tal como é explicado na página seguinte para reiniciar todos os codecs de áudio e vídeo do seu sistema e, em seguida, reiniciar o Wallpaper Engine e tentar novamente:
 
-* [Vídeos pretos / não são reproduzidos corretamente - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [Vídeos pretos / não são reproduzidos corretamente - Codec Tweak Tool](/noshow/notplaying.html#codec-tweak-tool)
 
