@@ -22,9 +22,9 @@ Si vous avez installé un antivirus (à l'exception de Windows Defender), il est
 
 Si vous utilisez le **mode de contraste élevé** de Windows 10 avec le **thème blanc**, Windows risque de désactiver Wallpaper Engine. Essayez de changer votre thème ou de désactiver le mode de contraste élevé pour résoudre ce problème.
 
-## Wallpapers disappearing / fading away in regular intervals
+## Fonds d'écran qui disparaissent / s'effacent à intervalles réguliers
 
-If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+Si vos fonds d'écran disparaissent pendant un bref instant, il est probable qu'un diaporama soit configuré comme fond d'écran Windows. Pour régler le problème, ouvrez les paramètres du fond d'écran de Windows et définissez une couleur unie ou une image statique comme fond d'écran normal de Windows.
 
 ## Conflits avec d'autres logiciels de modification du bureau
 
@@ -34,7 +34,7 @@ Wallpaper Engine est compatible avec les autres applications de modification du 
 
 Wallpaper Engine est compatible avec *Fences*. Mais, **si vous avez installé Fences, mais que vous l'avez désactivé**, cela empêchera Wallpaper Engine d'accéder au fond d'écran. Vous devez l'activer et le désinstaller totalement.
 
-If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
+Si vous utilisez Fences et que vos fonds d'écran Wallpaper Engine ne sont pas visibles, assurez-vous d'utiliseer **Fences 3.13 ou plus récent** pour éviter ces problèmes de compatibilité avec Wallpaper Engine. Fences 3.13 et les versions plus récentes contiennent d'importants correctifs de compatibilité avec Wallpaper Engine, il est donc important de vérifier que votre version de Fences est à jour.
 
 ## Fond d'écran gris ou textures manquantes avec Windows 7
 
