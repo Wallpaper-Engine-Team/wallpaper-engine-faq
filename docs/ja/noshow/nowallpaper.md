@@ -34,7 +34,7 @@ Wallpaper Engineは、ほとんどのデスクトップ変更アプリケーシ�
 
 基本的に、Wallpaper Engineは*Fences*と一緒に問題なく動作します。 しかし、**Fencesをインストールしていて無効にしている場合**、それがWallpaper Engineから壁紙を隠します。 有効にするか、完全にアンインストールするか、どちらかにする必要があります。
 
-If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
+Fencesを使用していてWallpaper Engineの壁紙が表示されない場合はWallpaper Engineとの互換性の問題がある可能性があります。バージョンが**Fences 3.13以降**であることを確認をしてください。 Fences 3.13以降ではWallpaper Engineとの互換性に関する重要な修正が実装されています。最新バージョンをお使いいただくようお願いします。
 
 ## Windowsで壁紙が灰色になったり、テクスチャが表示されなかったりする
 
