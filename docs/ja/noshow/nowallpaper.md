@@ -22,9 +22,9 @@ Windows Defender以外のアンチウイルスアプリケーションがイン�
 
 Windows 10のテーマ設定で**ハイコントラストモード**を有効にし、**ハイコントラスト白**が選択されている場合、Windowsは強制的にWallpaper Engineの壁紙をオフにします。 Windowsのハイコントラスト設定で使用しているハイコントラストテーマを変更するか、ハイコントラストモード自体をオフにすると、問題は解消します。
 
-## Wallpapers disappearing / fading away in regular intervals
+## 壁紙が一定時間経過後消えてしまう
 
-If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+壁紙が少しの間消える場合は、Windows側の壁紙としてスライドショーが設定されている可能性があります。 Windowsの壁紙設定画面を開いて通常のWindowsの壁紙として単色または静止画像を設定すれば、問題は解消されます。
 
 ## 他のデスクトップ変更ソフトウェアとの競合
 
