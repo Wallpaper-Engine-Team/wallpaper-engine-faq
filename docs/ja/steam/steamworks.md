@@ -2,15 +2,15 @@
 
 なんらかの理由により、Wallpaper EngineとSteamがコミュニケーションできなくなっています。 まずSteamを再起動し、次にWallpaper Engineを再起動してください。 Wallpaper Engineを持っているアカウントにログインしていることを確認してください。 SteamまたはWallpaper Engineを管理者として起動している場合、Wallpaper EngineのSteamworks SDKは動かないことがあります。 解決方法は、どちらのプログラムも管理者として実行しないことです。そのように想定されているためです。 それでも動作しない場合は、Steamを再インストールして、異なるプログラム間のコミュニケーションをブロックしているアンチウイルスを削除してください。
 
-**Steamが最新バージョンであることを確認してください。**Steamのバージョンがかなり古いと、この問題が頻繁に発生します。 SteamのバージョンはSteamを開いて上部の**ヘルプ**をクリックし、**Steamについて**を選択することで確認することができます。 You will be presented with a version number and a version date, make sure this date is not older than two months, otherwise you are missing the latest Steam updates.
+**Steamが最新バージョンであることを確認してください。**Steamのバージョンがかなり古いと、この問題が頻繁に発生します。 SteamのバージョンはSteamを開いて上部の**ヘルプ**をクリックし、**Steamについて**を選択することで確認することができます。 次の画面でバージョンナンバーならびに日付が表示れます。この日付が2か月前以上でないことを確認してください。直近のアップデートから2か月以上経過している場合は、Steamの最新バージョンがインストールされていないことを意味します。
 
-If you are unable to update Steam, an antivirus app is likely blocking it. In that case, configure any antivirus app to ignore your entire Steam directory and try again. In some cases, it is necessary to uninstall Steam and to manually delete the Steam directory to clear any antivirus locks on important Steam files.
+Steamをアップデートできない場合は、ウイルス対策ソフトによってブロックされている可能性があります。 その場合、Steamのディレクトリを無視するようにすべてのウイルス対策ソフトを設定し、再度アップデートを試みてください。 状況によってはSteamをアンインストールし、手動でSteamのディレクトリを削除することで重要なSteamのファイルからウイルス対策ソフトのロックを外す必要があります。
 
-### Steamworks Repair Checklist
+### Steamworks修復チェックリスト
 
 次の手順を試してみてください。
 
-* Make sure your Steam installation is up-to-date.
+* Steamが最新バージョンであることを確認してください。
 * まずSteamを再起動し、次にWallpaper Engineを再起動してください。
 * Wallpaper Engineを持っているアカウントにログインしていることを確認します。
 * SteamまたはWallpaper Engineを管理者として実行**しない**ようにします。
