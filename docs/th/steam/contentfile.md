@@ -8,4 +8,4 @@
 
 *หากคุณติดตั้ง Steam หรือ Wallpaper Engine ในไดเรกทอรีอื่น คุณต้องปรับเปลี่ยนไดเรกทอรีดังกล่าวเป็นพาธการติดตั้ง Steam ที่แท้จริงของคุณ*
 
-If you have configured your antivirus app to ignore these directories but the issue persists, it is sometimes necessary to uninstall Wallpaper Engine through Steam, followed by manually deleting the remains of the `wallpaper_engine` directory to clear any antivirus locks which may continue to block Steam from downloading files. After deleting the entire `wallpaper_engine` folder, try reinstalling the app through Steam again.
+หากคุณยังคงพบปัญหาหลังกำหนดค่าแอพพลิเคชันป้องกันไวรัสให้ละเว้นไดเรกทอรีเหล่านี้แล้ว ในบางครั้งคุณอาจต้องถอนการติดตั้ง Wallpaper Engine ผ่าน Steam ตามด้วยการลบไดเรกทอรี `wallpaper_engine` ส่วนที่เหลือด้วยตนเองเพื่อล้างการล็อคของโปรแกรมป้องกันไวรัสที่อาจยังปิดกั้น Steam จากการดาวน์โหลดไฟล์อยู่ เมื่อลบโฟลเดอร์ `wallpaper_engine` ทั้งหมดแล้ว ให้ลองติดตั้งแอปอีกครั้งผ่าน Steam
