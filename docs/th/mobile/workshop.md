@@ -1,4 +1,4 @@
-# Workshop Agreement Addendum
+# เพิ่มเติมจากข้อตกลงของเวิร์กชอป
 
 With the release of Wallpaper Engine 2.0, Wallpaper Engine allows users to transfer their Workshop wallpapers to their Android mobile device. Mobile devices cannot directly access any Workshop content, users have to transfer their wallpapers from their Windows version of Wallpaper Engine to Android.
 
