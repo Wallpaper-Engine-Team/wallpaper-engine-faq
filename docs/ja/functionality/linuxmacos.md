@@ -20,4 +20,4 @@ Androidのポートに施した作業の一部は、後にLinuxならびにOSX�
 
 ## iPhoneならびにiPadのサポートに関して聞かせてください
 
-アップル端末で採用されているiOSは、Android端末のようにライブ壁紙に対応していません。 iOSではライブ壁紙はサポートされておらず、 現状ではiOSでライブ壁紙が利用できるようになる可能性は低いと言えるでしょう。 There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+アップル端末で採用されているiOSは、Android端末のようにライブ壁紙に対応していません。 iOSではライブ壁紙はサポートされておらず、 現状ではiOSでライブ壁紙が利用できるようになる可能性は低いと言えるでしょう。 *ライブフォト*という形式の非常に短いアニメーションの壁紙利用はサポートされていますが、利用できる形式は非常に厳しく制限されています。私たちが規定する条件の意味合いにおいては、大部分のWallpaper Engineの壁紙は互換性がありません。
