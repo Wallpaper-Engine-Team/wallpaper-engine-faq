@@ -22,9 +22,9 @@ tags:
 
 หากคุณเปิดใช้งาน **โหมด high-contrast** ในการตั้งค่าธีม Windows 10 ของคุณโดยเลือกธีม **High Contrast สีขาว** ไว้ Windows จะบังคับปิดวอลเปเปอร์ของ Wallpaper Engine ลองเปลี่ยนธีม high-contrast ที่คุณใช้ในการตั้งค่า high-contrast ของ Windows หรือปิดโหมด high-contrast ทั้งหมดแล้วปัญหาจะหายไป
 
-## Wallpapers disappearing / fading away in regular intervals
+## วอลเปเปอร์หายไป / จางหายเป็นรอบสม่ำเสมอ
 
-If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+หากวอลเปเปอร์ของคุณหายไปชั่วขณะ อาจเป็นเพราะคุณกำหนดค่าการนำเสนอภาพนิ่ง (Slideshow) เป็นวอลเปเปอร์ Windows ให้เปิดการตั้งค่าวอลเปเปอร์ Windows และตั้งค่าสีทึบหรือภาพนิ่งเป็นวอลเปเปอร์ Windows ทั่วไป วิธีนี้จะช่วยแก้ไขปัญหาได้
 
 ## ความขัดแย้งกับซอฟต์แวร์การแก้ไขเดสก์ทอปอื่น ๆ
 
