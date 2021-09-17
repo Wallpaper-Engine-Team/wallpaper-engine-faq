@@ -16,8 +16,8 @@
 
 ผู้ใช้งานในปัจจุบันของเราจำนวนมากใช้อุปกรณ์ Android ซึ่งมากกว่าจำนวนผู้ที่ใช้อุปกรณ์ Linux หรือ Mac OS ด้วยเหตุผลนี้เราจึงรองรับ Android เป็นขั้นถัดมาเมื่อต้องเพิ่มการรองรับแพลตฟอร์มอื่น ๆ เราคิดว่าการสร้างแอป Android ฟรีเป็นคุณสมบัติใหม่ถือเป็นการปรับปรุงครั้งยิ่งใหญ่สำหรับผู้ใช้งานจำนวนมาก
 
-งานส่วนหนึ่งที่เข้าสู่พอร์ต Android ยังสามารถนำมาใช้ซ้ำกับ Linux และ OSX ได้ในภายหลัง ซึ่งจะช่วยเราลดอุปสรรคใหญ่ในการสนับสนุนระบบปฏิบัติการเหล่านั้นได้เล็กน้อย While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
+งานส่วนหนึ่งที่เข้าสู่พอร์ต Android ยังสามารถนำมาใช้ซ้ำกับ Linux และ OSX ได้ในภายหลัง ซึ่งจะช่วยเราลดอุปสรรคใหญ่ในการสนับสนุนระบบปฏิบัติการเหล่านั้นได้เล็กน้อย แม้การสร้างแอปคู่หู Android จะเป็นงานใหญ่สำหรับเรา แต่ก็ยังทำได้ง่ายกว่าพอร์ต Linux หรือ OSX ที่ต้องรองรับการท่องเว็บและการแก้ไขอย่างเต็มรูปแบบเป็นอย่างมาก
 
-## What about support for iPhones and iPads?
+## การรองรับ iPhone และ iPads เป็นอย่างไร
 
-Apple's mobile operating system iOS currently does not support real dynamic live wallpapers like Android does. The possibilities for live wallpapers on iOS are very limiting since iOS does not allow for true live wallpapers. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+ระบบปฏิบัติการมือถือ iOS ของ Apple ในปัจจุบันไม่รองรับวอลเปเปอร์ภาพเคลื่อนไหวของจริงเหมือน Android ความเป็นไปได้ในการใช้งานวอลเปเปอร์แบบเคลื่อนไหวบน iOS นั้นจำกัดมาก เนื่องจาก iOS ไม่อนุญาตให้มีวอลเปเปอร์แบบเคลื่อนไหวของจริง There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
