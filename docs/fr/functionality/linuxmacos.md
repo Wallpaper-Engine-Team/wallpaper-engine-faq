@@ -20,4 +20,4 @@ Une partie du travail effectué dans le cadre du portage sur Android peut égale
 
 ## Qu'en est-il de la prise en charge de l'iPhone et de l'iPad ?
 
-Apple's mobile operating system iOS currently does not support real dynamic live wallpapers like Android does. The possibilities for live wallpapers on iOS are very limiting since iOS does not allow for true live wallpapers. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+Le système d'exploitation mobile d'Apple, iOS, ne prend actuellement pas en charge les fonds d'écran dynamiques réels comme le fait Android. Les possibilités de fonds d'écran en direct sur iOS sont très limitées, car iOS ne permet pas de prendre en charge cette fonctionnalité. Il existe une prise en charge limitée pour les fonds d'écran animés très basiques sous la forme de *Live Photos* mais le format est très restrictif et sa compatibilité avec une grande majorité des fonds d'écran de Wallpaper Engine est loin d'être optimale.
