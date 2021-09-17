@@ -1,10 +1,10 @@
-# เพิ่มเติมจากข้อตกลงของเวิร์กชอป
+# ภาคผนวกข้อตกลงของเวิร์กชอป
 
-With the release of Wallpaper Engine 2.0, Wallpaper Engine allows users to transfer their Workshop wallpapers to their Android mobile device. Mobile devices cannot directly access any Workshop content, users have to transfer their wallpapers from their Windows version of Wallpaper Engine to Android.
+ในการเปิดตัว Wallpaper Engine 2.0 ผู้ใช้ Wallpaper Engine สามารถถ่ายโอนวอลเปเปอร์ในเวิร์กชอปไปยังอุปกรณ์มือถือ Android ของตนได้ อุปกรณ์มือถือไม่สามารถเข้าถึงเนื้อหาเวิร์กชอปได้โดยตรง ผู้ใช้ต้องถ่ายโอนวอลเปเปอร์จาก Wallpaper Engine เวอร์ชัน Windows ไปยัง Android
 
-If you have created wallpapers for Wallpaper Engine in the past, you need to accept the latest Wallpaper Engine Workshop addendum before users can transfer your wallpapers to their mobile devices. Wallpaper Engine will prevent users from transferring wallpapers to the mobile app without the consent of the wallpaper creator.
+หากคุณเคยสร้างวอลเปเปอร์สำหรับ Wallpaper Engine มาก่อน คุณต้องยอมรับภาคผนวกเวิร์กชอปล่าสุดของ Wallpaper Engine ก่อนจึงจะสามารถถ่ายโอนวอลเปเปอร์ของคุณไปยังอุปกรณ์มือถือได้ Wallpaper Engine จะป้องกันไม่ให้ผู้ใช้ถ่ายโอนวอลเปเปอร์ไปยังแอปมือถือโดยไม่ได้รับความยินยอมจากผู้สร้างวอลเปเปอร์
 
-Since transferring Steam Workshop content to mobile devices has never been done before, the Steam Workshop Agreement does not cover this type of activity. We created an addendum to the Steam Workshop Agreement to ensure content creators are aware of the ability to transfer content to mobile devices. You can review and accept the addendum in either of the links below:
+เนื่องจากไม่เคยมีการถ่ายโอนเนื้อหาเวิร์กชอปของ Steam ไปยังอุปกรณ์มือถือมาก่อน ข้อตกลงของเวิร์กชอป Steam จึงไม่ครอบคลุมกิจกรรมประเภทนี้ We created an addendum to the Steam Workshop Agreement to ensure content creators are aware of the ability to transfer content to mobile devices. You can review and accept the addendum in either of the links below:
 
 * [Workshop Addendum (View in Web Browser)](https://store.steampowered.com/workshopeula/431960/)
 * <a href="steam://url/WorkshopEula/431960/">Workshop Addendum (View in Steam)</a>
