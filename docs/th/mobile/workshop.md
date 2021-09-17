@@ -4,9 +4,9 @@
 
 หากคุณเคยสร้างวอลเปเปอร์สำหรับ Wallpaper Engine มาก่อน คุณต้องยอมรับภาคผนวกเวิร์กชอปล่าสุดของ Wallpaper Engine ก่อนจึงจะสามารถถ่ายโอนวอลเปเปอร์ของคุณไปยังอุปกรณ์มือถือได้ Wallpaper Engine จะป้องกันไม่ให้ผู้ใช้ถ่ายโอนวอลเปเปอร์ไปยังแอปมือถือโดยไม่ได้รับความยินยอมจากผู้สร้างวอลเปเปอร์
 
-เนื่องจากไม่เคยมีการถ่ายโอนเนื้อหาเวิร์กชอปของ Steam ไปยังอุปกรณ์มือถือมาก่อน ข้อตกลงของเวิร์กชอป Steam จึงไม่ครอบคลุมกิจกรรมประเภทนี้ We created an addendum to the Steam Workshop Agreement to ensure content creators are aware of the ability to transfer content to mobile devices. You can review and accept the addendum in either of the links below:
+เนื่องจากไม่เคยมีการถ่ายโอนเนื้อหาเวิร์กชอปของ Steam ไปยังอุปกรณ์มือถือมาก่อน ข้อตกลงของเวิร์กชอป Steam จึงไม่ครอบคลุมกิจกรรมประเภทนี้ เราได้สร้างภาคผนวกข้อตกลงของเวิร์กชอปบน Steam เพื่อให้ผู้สร้างเนื้อหาทราบถึงความสามารถในการถ่ายโอนเนื้อหาไปยังอุปกรณ์มือถือ คุณสามารถตรวจสอบและยอมรับภาคผนวกได้จากลิงก์ใดลิงก์หนึ่งด้านล่าง:
 
-* [Workshop Addendum (View in Web Browser)](https://store.steampowered.com/workshopeula/431960/)
-* <a href="steam://url/WorkshopEula/431960/">Workshop Addendum (View in Steam)</a>
+* [ภาคผนวกเวิร์กชอป (ดูในเว็บเบราว์เซอร์)](https://store.steampowered.com/workshopeula/431960/)
+* <a href="steam://url/WorkshopEula/431960/">ภาคผนวกเวิร์กชอป (ดูใน Steam)</a>
 
-If you are trying to use a wallpaper from a content creator that has not yet agreed to the latest Workshop addendum, please ask the content creator to review the latest addendum. You will be able to transfer the wallpaper to your Android mobile device once the creator has accepted the latest agreement.
+หากคุณกำลังพยายามใช้วอลเปเปอร์จากผู้สร้างเนื้อหาที่ยังไม่ได้ยอมรับภาคผนวกล่าสุดของเวิร์กชอป โปรดขอให้ผู้สร้างเนื้อหาตรวจสอบภาคผนวกล่าสุด เมื่อผู้สร้างยอมรับข้อตกลงล่าสุด คุณจะสามารถถ่ายโอนวอลเปเปอร์ไปยังอุปกรณ์มือถือ Android ของคุณ
