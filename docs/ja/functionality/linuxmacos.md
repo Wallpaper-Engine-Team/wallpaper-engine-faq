@@ -1,8 +1,8 @@
-# Wallpaper Engine on Linux or Mac OS
+# LinuxまたはMac OSとWallpaper Engine
 
-Wallpaper Engine is currently available for Windows and Android and there are no immediate plans to support other platforms at this time.
+Wallpaper EngineはWindowsならびにAndroid端末でサポートされており、他OSでのサポートは現在のところ予定されておりません。
 
-We definitely understand that users may want us to support other operating systems that they personally prefer, but it is really not a simple task to make Wallpaper Engine available on every possible platform. Wallpaper Engineのコアは完全にカスタムに書かれたソフトウェアソリューションで、これを他のプラットフォームに完全移植する際に生じる労力は莫大です。
+他OSでの対応を望むユーザーからの要望は承知しておりますが、すべてのOSでWallpaper Engineを利用可能な状態にするには膨大な作業が伴うということをご理解いただければと思います。 Wallpaper Engineのコアは完全にカスタムに書かれたソフトウェアソリューションで、これを他のプラットフォームに完全移植する際に生じる労力は莫大です。
 
 デベロッパーが見たところ簡単にMacやLinuxに移植しているゲームやアプリケーションもあるじゃないか、と思われる方もあるでしょう。それに対する答えは、それらのタイトルはUnityやUnreal Engineなどの広く使われているビデオゲームエンジンをベースにしており、個別のデベロッパーが他のプラットフォームをサポートするために必要な作業はあまりないということです。 However, none of this applies when it comes to a custom application like Wallpaper Engine - since it's an application which interacts closely with the operating system, it really needs to be tailored to each specific operating system to make it work properly. In the case of Linux, it goes even further and must be made to work with every popular display manager which differ significantly between distributions.
 
