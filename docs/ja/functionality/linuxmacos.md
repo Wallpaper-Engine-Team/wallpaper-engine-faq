@@ -14,10 +14,10 @@ Wallpaper EngineはWindowsならびにAndroid端末でサポートされてお�
 
 ## LinuxまたはMac OS対応をする前に無料Androidアプリを開発した理由
 
-既存ユーザーの多くがAndroid端末を利用しており、その数はLinuxまたはMac OSのユーザー数よりも遥かに多い状況となっています。 This is why supporting Android was the only rational next step when it comes to adding support for more platforms. By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
+既存ユーザーの多くがAndroid端末を利用しており、その数はLinuxまたはMac OSのユーザー数よりも遥かに多い状況となっています。 これが理由で、他OSへの対応よりもAndroidユーザーへのサポート改善を優先させるに至りました。 新しい機能として無料のAndroidアプリを公開することで、非常に多くの数のユーザー対応に大きな改善をもたらすことができたと考えています。
 
-Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
+Androidのポートに施した作業の一部は、後にLinuxならびにOSXの対応する際に利用することができます。これにより、これらOSを実際にサポートする際に対応すべき大きな障害が幾分軽減されたと言えるでしょう。 Androidコンパニオンアプリの作成には膨大な作業が必要でしたが、ブラウジングならびに編集のエクスペリエンスを全体的にサポートする必要があるLinuxまたはOSXポートに比べれば、その作業量は遥かに実行可能な範疇でした。
 
-## What about support for iPhones and iPads?
+## iPhoneならびにiPadのサポートに関して聞かせてください
 
-Apple's mobile operating system iOS currently does not support real dynamic live wallpapers like Android does. The possibilities for live wallpapers on iOS are very limiting since iOS does not allow for true live wallpapers. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+アップル端末で採用されているiOSは、Android端末のようにライブ壁紙に対応していません。 iOSではライブ壁紙はサポートされておらず、 現状ではiOSでライブ壁紙が利用できるようになる可能性は低いと言えるでしょう。 There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
