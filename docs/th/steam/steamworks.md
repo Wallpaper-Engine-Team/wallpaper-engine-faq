@@ -2,9 +2,9 @@
 
 Wallpaper Engine และ Steam ไม่สามารถสื่อสารกันได้ด้วยเหตุผลบางอย่าง รีสตาร์ท Steam แล้วจึงรีสตาร์ท Wallpaper Engine โปรดตรวจสอบให้แน่ใจว่าคุณได้ลงชื่อเข้าใช้ด้วยบัญชีที่เป็นเจ้าของ Wallpaper Engine หากคุณใช้งาน Steam หรือ Wallpaper Engine ในฐานะแอดมิน Steamworks SDK ใน Wallpaper Engine อาจทำงานไม่ถูกต้อง การแก้ปัญหาคือการตั้งใจไม่เรียกใช้โปรแกรมใดโปรแกรมหนึ่งในฐานะแอดมิน หากยังไม่สามารถใช้งานได้ โปรดติดตั้ง Steam ใหม่และลบซอฟต์แวร์ป้องกันไวรัสที่ปิดกั้นการสื่อสารระหว่างโปรแกรมต่างๆ
 
-**Please make sure your Steam installation is up-to-date.** This problem frequently occurs when Steam is extremely outdated. You can verify your Steam version by opening Steam and clicking on **Help** at the top, afterwards select **About Steam**. You will be presented with a version number and a version date, make sure this date is not older than two months, otherwise you are missing the latest Steam updates.
+**โปรดตรวจสอบให้แน่ใจว่าการติดตั้ง Steam ของคุณเป็นเวอร์ชันล่าสุด** ปัญหานี้มักเกิดจากการใช้ Steam ที่ล้าสมัยมาก คุณสามารถตรวจสอบเวอร์ชัน Steam ของคุณได้โดยเปิด Steam และคลิกที่ **ความช่วยเหลือ** ด้านบน จากนั้นเลือก **เกี่ยวกับ Steam** คุณจะเห็นหมายเลขและวันที่ของเวอร์ชัน โปรดตรวจสอบว่าวันที่ดังกล่าวไม่เกินสองเดือน มิฉะนั้นจะหมายความว่าคุณพลาดอัปเดตล่าสุดของ Steam
 
-If you are unable to update Steam, an antivirus app is likely blocking it. In that case, configure any antivirus app to ignore your entire Steam directory and try again. In some cases, it is necessary to uninstall Steam and to manually delete the Steam directory to clear any antivirus locks on important Steam files.
+หากคุณไม่สามารถอัปเดต Steam ได้ อาจเป็นเพราะแอพพลิเคชันป้องกันไวรัสปิดกั้นเอาไว้ ในกรณีนั้น ให้คุณกำหนดค่าแอพพลิเคชันป้องกันไวรัสให้ละเว้นไดเรกทอรี Steam ทั้งหมดและลองอีกครั้ง ในบางกรณี คุณอาจต้องถอนการติดตั้ง Steam และลบไดเร็กทอรี Steam ด้วยตนเองเพื่อล้างการล็อคเพื่อป้องกันไวรัสในไฟล์ Steam ที่สำคัญ
 
 ### Steamworks Repair Checklist
 
