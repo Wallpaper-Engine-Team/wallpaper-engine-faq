@@ -4,9 +4,9 @@ Avec la sortie de Wallpaper Engine 2.0, le logiciel permet aux utilisateurs de t
 
 Si vous avez créé des fonds d'écran pour Wallpaper Engine dans le passé, vous devez accepter le dernier addendum de Wallpaper Engine Workshop avant que les utilisateurs ne puissent transférer vos fonds d'écran sur leurs appareils mobiles. Wallpaper Engine empêchera les utilisateurs de transférer des fonds d'écran vers l'application mobile sans le consentement du créateur desdits fonds d'écran.
 
-Since transferring Steam Workshop content to mobile devices has never been done before, the Steam Workshop Agreement does not cover this type of activity. We created an addendum to the Steam Workshop Agreement to ensure content creators are aware of the ability to transfer content to mobile devices. You can review and accept the addendum in either of the links below:
+Comme le transfert de contenu de Steam Workshop vers des appareils mobiles n'a jamais été effectué auparavant, l'accord relatif à Steam Workshop ne couvre pas ce type d'activité. Nous avons créé un addendum à l'accord relatif à Steam Workshop pour nous assurer que les créateurs de contenu sont conscients de la possibilité de transférer du contenu sur des appareils mobiles. Vous pouvez consulter et accepter l'addendum en cliquant sur l'un des liens ci-dessous :
 
-* [Workshop Addendum (View in Web Browser)](https://store.steampowered.com/workshopeula/431960/)
-* <a href="steam://url/WorkshopEula/431960/">Workshop Addendum (View in Steam)</a>
+* [Addendum Workshop (voir dans un navigateur Web)](https://store.steampowered.com/workshopeula/431960/)
+* <a href="steam://url/WorkshopEula/431960/">Addendum Workshop (voir dans Steam)</a>
 
-If you are trying to use a wallpaper from a content creator that has not yet agreed to the latest Workshop addendum, please ask the content creator to review the latest addendum. You will be able to transfer the wallpaper to your Android mobile device once the creator has accepted the latest agreement.
+Si vous essayez d'utiliser le fond d'écran d'un créateur de contenu qui n'a pas encore accepté le dernier addendum de Workshop, veuillez demander au créateur de contenu de consulter le dernier addendum. Vous pourrez transférer le fond d'écran sur votre appareil mobile Android lorsque le créateur aura accepté le dernier accord.
