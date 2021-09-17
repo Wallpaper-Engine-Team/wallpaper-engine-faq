@@ -16,7 +16,7 @@
 
 ผู้ใช้งานในปัจจุบันของเราจำนวนมากใช้อุปกรณ์ Android ซึ่งมากกว่าจำนวนผู้ที่ใช้อุปกรณ์ Linux หรือ Mac OS ด้วยเหตุผลนี้เราจึงรองรับ Android เป็นขั้นถัดมาเมื่อต้องเพิ่มการรองรับแพลตฟอร์มอื่น ๆ เราคิดว่าการสร้างแอป Android ฟรีเป็นคุณสมบัติใหม่ถือเป็นการปรับปรุงครั้งยิ่งใหญ่สำหรับผู้ใช้งานจำนวนมาก
 
-Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
+งานส่วนหนึ่งที่เข้าสู่พอร์ต Android ยังสามารถนำมาใช้ซ้ำกับ Linux และ OSX ได้ในภายหลัง ซึ่งจะช่วยเราลดอุปสรรคใหญ่ในการสนับสนุนระบบปฏิบัติการเหล่านั้นได้เล็กน้อย While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
 
 ## What about support for iPhones and iPads?
 
