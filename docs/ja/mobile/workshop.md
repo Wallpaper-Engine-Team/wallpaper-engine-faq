@@ -4,9 +4,9 @@ Wallpaper Engine2.0のリリースに伴い、Wallpaper Engineを使ってワー
 
 過去にWallpaper Engineの壁紙を作成したことがある場合は、最新のWallpaper Engineワークショップに関する追加規定に同意してください。同意後、ユーザーは壁紙をモバイルデバイスに転送できるようになります。 Wallpaper Engineでは、壁紙作成者の同意なしにユーザーが壁紙をモバイルアプリに転送することを許可しません。
 
-Since transferring Steam Workshop content to mobile devices has never been done before, the Steam Workshop Agreement does not cover this type of activity. We created an addendum to the Steam Workshop Agreement to ensure content creators are aware of the ability to transfer content to mobile devices. You can review and accept the addendum in either of the links below:
+Steamワークショップのコンテンツのモバイルデバイスへの転送が過去に行われたことがないため、Steamワークショップの利用規約はこの種のアクションを対象としていません。 コンテンツをモバイルデバイスに転送できるという機能をコンテンツ作成者が認識できるように、Steamワークショップの利用規約に追加規定を設けました。 下記のどちらかのリンクから追加規約の確認ならびに同意をすることができます。
 
-* [Workshop Addendum (View in Web Browser)](https://store.steampowered.com/workshopeula/431960/)
-* <a href="steam://url/WorkshopEula/431960/">Workshop Addendum (View in Steam)</a>
+* [ワークショップ追加規定（ウェブブラウザで閲覧）](https://store.steampowered.com/workshopeula/431960/)
+* <a href="steam://url/WorkshopEula/431960/">ワークショップ追加規定（Steamで閲覧）</a>
 
-If you are trying to use a wallpaper from a content creator that has not yet agreed to the latest Workshop addendum, please ask the content creator to review the latest addendum. You will be able to transfer the wallpaper to your Android mobile device once the creator has accepted the latest agreement.
+最新のワークショップに関する追加規定に同意していないコンテンツ作成者の壁紙を使用を希望する場合は、コンテンツ作成者に最新の追加規定を確認するように促してください。 作成者が最新の利用規約に同意すれば、Androidモバイルデバイスに壁紙を転送できるようになります。
