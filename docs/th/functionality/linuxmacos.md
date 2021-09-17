@@ -20,4 +20,4 @@
 
 ## การรองรับ iPhone และ iPads เป็นอย่างไร
 
-ระบบปฏิบัติการมือถือ iOS ของ Apple ในปัจจุบันไม่รองรับวอลเปเปอร์ภาพเคลื่อนไหวของจริงเหมือน Android ความเป็นไปได้ในการใช้งานวอลเปเปอร์แบบเคลื่อนไหวบน iOS นั้นจำกัดมาก เนื่องจาก iOS ไม่อนุญาตให้มีวอลเปเปอร์แบบเคลื่อนไหวของจริง There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+ระบบปฏิบัติการมือถือ iOS ของ Apple ในปัจจุบันไม่รองรับวอลเปเปอร์ภาพเคลื่อนไหวของจริงเหมือน Android ความเป็นไปได้ในการใช้งานวอลเปเปอร์แบบเคลื่อนไหวบน iOS นั้นจำกัดมาก เนื่องจาก iOS ไม่อนุญาตให้มีวอลเปเปอร์แบบเคลื่อนไหวของจริง มีการรองรับวอลเปเปอร์ภาพเคลื่อนไหวพื้นฐานสั้น ๆ ในรูปแบบของ *Live Photos* แต่รูปแบบมีข้อจำกัดมาก และวอลเปเปอร์ Wallpaper Engine ส่วนใหญ่ไม่สามารถใช้งานในแบบที่เราถือว่ายอมรับได้
