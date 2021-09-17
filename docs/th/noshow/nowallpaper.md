@@ -34,7 +34,7 @@ Wallpaper Engine ทำงานได้ดีกับแอพพลิเค
 
 โดยทั่วไปแล้ว Wallpaper Engine ทำงานได้ดีกับ *Fences* อย่างไรก็ตาม **หากคุณติดตั้ง Fences แต่ปิดการใช้งานไว้** มันจะซ่อนวอลเปเปอร์จาก Wallpaper Engine คุณต้องเปิดใช้งานหรือถอนการติดตั้งอย่างสมบูรณ์
 
-If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
+หากคุณกำลังใช้ Fences แล้วมองไม่เห็นวอลเปเปอร์ Wallpaper Engine โปรดตรวจสอบให้แน่ใจว่าคุณกำลังใช้ **Fences 3.13 หรือใหม่กว่า** เพื่อหลีกเลี่ยงปัญหาความเข้ากันได้กับ Wallpaper Engine Fences 3.13 และเวอร์ชันที่ใหม่กว่าได้มีการแก้ไขความเข้ากันได้กับ Wallpaper Engine ในส่วนสำคัญ ดังนั้นโปรดตรวจสอบอยู่เสมอว่า Fences ของคุณเป็นเวอร์ชันล่าสุด
 
 ## วอลเปเปอร์สีเทาหรือพื้นผิวหายไปใน Windows 7
 
