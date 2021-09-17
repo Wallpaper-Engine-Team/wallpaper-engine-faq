@@ -4,7 +4,7 @@ Wallpaper EngineはWindowsならびにAndroid端末でサポートされてお�
 
 他OSでの対応を望むユーザーからの要望は承知しておりますが、すべてのOSでWallpaper Engineを利用可能な状態にするには膨大な作業が伴うということをご理解いただければと思います。 Wallpaper Engineのコアは完全にカスタムに書かれたソフトウェアソリューションで、これを他のプラットフォームに完全移植する際に生じる労力は莫大です。
 
-デベロッパーが見たところ簡単にMacやLinuxに移植しているゲームやアプリケーションもあるじゃないか、と思われる方もあるでしょう。それに対する答えは、それらのタイトルはUnityやUnreal Engineなどの広く使われているビデオゲームエンジンをベースにしており、個別のデベロッパーが他のプラットフォームをサポートするために必要な作業はあまりないということです。 However, none of this applies when it comes to a custom application like Wallpaper Engine - since it's an application which interacts closely with the operating system, it really needs to be tailored to each specific operating system to make it work properly. In the case of Linux, it goes even further and must be made to work with every popular display manager which differ significantly between distributions.
+デベロッパーが見たところ簡単にMacやLinuxに移植しているゲームやアプリケーションもあるじゃないか、と思われる方もあるでしょう。それに対する答えは、それらのタイトルはUnityやUnreal Engineなどの広く使われているビデオゲームエンジンをベースにしており、個別のデベロッパーが他のプラットフォームをサポートするために必要な作業はあまりないということです。 しかしながら、Wallpaper Engineなどのカスタムアプリケーションはこの限りではありません。OSとの詳細に及ぶやり取りが発生するアプリケーションであるため、正しく作動させるために各OSに合わせた各調整が必要になるのが理由です。 In the case of Linux, it goes even further and must be made to work with every popular display manager which differ significantly between distributions.
 
 The situation is simply that it's not economically viable for us to add support for Linux or Mac OS at this time. [Steam hardware survey](https://store.steampowered.com/hwsurvey)を見れば、Linuxを使うSteamユーザーは1%未満です。 そしてここでもまた、これはLinuxのさまざまなディストリビューションに細分化されます。主にUbuntuですが、これはユーザーの0.25%にすぎません。
 
