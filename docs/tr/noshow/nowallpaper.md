@@ -33,7 +33,7 @@ Wallpaper Engine, çoğu masaüstü değişiklik uygulamasıyla uyumlu çalış�
 
 Wallpaper Engine genellikle *Fences* ile uyumlu çalışır. Ancak **Fences yüklüyse ve bunu devre dışı bıraktıysanız** duvar kâğıdını Wallpaper Engine'den gizleyecektir. Uygulamayı tamamen etkinleştirmeniz veya kaldırmanız gerekir.
 
-If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
+Fences kullanıyorsanız ve Wallpaper Engine arka planlarınız görünmüyor ise bu tür Wallpaper Engine uyum sorunlarından kaçınmak için **Fences 3.13 veya daha güncelini** kullandığınızdan emin olun. Fences 3.13 ve daha güncel sürümlerinde Wallpaper Engine'e yönelik önemli uyum ayarları mevcut olduğundan Fences uygulamanızın güncel olması önemlidir.
 
 ## Windows 7'deki Gri Duvar Kâğıdı veya eksik dokular
 
