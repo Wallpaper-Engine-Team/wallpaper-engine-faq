@@ -20,4 +20,4 @@ Android için yaptığımız çalışmanın bir kısmı ileride Linux ve OSX iç
 
 ## Peki ya iPhone ve iPad'lerin desteklenmesi?
 
-Apple'ın mobil işletim sistemi iOS henüz Android'deki gibi gerçek dinamik canlı duvar kağıtlarını desteklemiyor. iOS üzerinde canlı duvar kağıdı imkanları fazlasıyla sınırlı çünkü iOS gerçek canlı duvar kağıtlarını desteklemiyor. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+Apple'ın mobil işletim sistemi iOS henüz Android'deki gibi gerçek dinamik canlı duvar kağıtlarını desteklemiyor. iOS üzerinde canlı duvar kağıdı imkanları fazlasıyla sınırlı çünkü iOS gerçek canlı duvar kağıtlarını desteklemiyor. *Canlı Fotoğraf* şeklindeki oldukça temel kısa animasyonlu arka planlar için kısıtlı bir miktarda destek bulunmakla birlikte format fazlasıyla sınırlayıcı ve Wallpaper Engine arka planlarının büyük kısmı bununla kabul edilebilir görebileceğimiz ölçüde uyumlu sayılmamaktadır.
