@@ -1,10 +1,10 @@
-# Workshop Agreement Addendum
+# Atölye Sözleşmesi Eki
 
-With the release of Wallpaper Engine 2.0, Wallpaper Engine allows users to transfer their Workshop wallpapers to their Android mobile device. Mobile devices cannot directly access any Workshop content, users have to transfer their wallpapers from their Windows version of Wallpaper Engine to Android.
+Wallpaper Engine 2.0 sürümü ile Wallpaper Engine, kullanıcıların Atölye arka planlarını Android mobil cihazlarına aktarmalarını mümkün kılar. Mobil cihazlar herhangi bir Atölye içeriğine doğrudan erişemez; dolayısıyla kullanıcılar arka planlarını Wallpaper Engine'in Windows sürümü üzerinden Android'e aktarması gerekir.
 
-If you have created wallpapers for Wallpaper Engine in the past, you need to accept the latest Wallpaper Engine Workshop addendum before users can transfer your wallpapers to their mobile devices. Wallpaper Engine will prevent users from transferring wallpapers to the mobile app without the consent of the wallpaper creator.
+Daha önce Wallpaper Engine için arka plan hazırladıysanız, kullanıcıların arka planlarınızı mobil cihazlarına indirebilmesi için Wallpaper Engine Atölyesinin en güncel ekini kabul etmelisiniz. Wallpaper Engine, arka plan sahibinin onayı olmadan kullanıcıların arka planları mobil uygulamaya aktarmasına izin vermez.
 
-Since transferring Steam Workshop content to mobile devices has never been done before, the Steam Workshop Agreement does not cover this type of activity. We created an addendum to the Steam Workshop Agreement to ensure content creators are aware of the ability to transfer content to mobile devices. You can review and accept the addendum in either of the links below:
+Steam Atölyesi içeriğinin mobil cihazlara indirilmesi daha önce hiç yapılmayan bir işlem olduğu için Steam Atölyesi Sözleşmesi bu tür bir eylemi kapsamamaktadır. Biz de içerik sahiplerinin mobil cihazlara aktarım özelliğinden haberdar olmalarını sağlamak amacıyla Steam Atölyesi Sözleşmesine bir ek hazırladık. You can review and accept the addendum in either of the links below:
 
 * [Workshop Addendum (View in Web Browser)](https://store.steampowered.com/workshopeula/431960/)
 * <a href="steam://url/WorkshopEula/431960/">Workshop Addendum (View in Steam)</a>
