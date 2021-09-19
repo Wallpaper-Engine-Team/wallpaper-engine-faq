@@ -4,7 +4,7 @@ Wallpaper Engine ve Steam, bir sebepten dolayı iletişim kuramıyor. Steam'i ve
 
 **Steam kurulumunuzun güncel olduğundan emin olun.** Steam aşırı eski olduğunda bu sorun sık sık meydana gelir. Steam sürümünüzü Steam'i açıp üst kısımda bulunan **Yardım** kısmına girdikten sonra **Steam Hakkında** seçeneğini tıklayarak doğrulayabilirsiniz. Bir sürüm numarası ve sürüm tarihi görüntülenecektir; bu tarihin iki aydan eski olmadığından emin olun, aksi takdirde en son Steam güncellemelerine erişemiyor olabilirsiniz.
 
-Steam'i güncelleyemiyorsanız, bunu yapmanızı bir antivirüs uygulaması engelliyor olabilir. In that case, configure any antivirus app to ignore your entire Steam directory and try again. In some cases, it is necessary to uninstall Steam and to manually delete the Steam directory to clear any antivirus locks on important Steam files.
+Steam'i güncelleyemiyorsanız, bunu yapmanızı bir antivirüs uygulaması engelliyor olabilir. Bu durumda, antivirüs uygulamalarını Steam dizinlerinizi yok saymaları yönünde yapılandırın ve tekrar deneyin. In some cases, it is necessary to uninstall Steam and to manually delete the Steam directory to clear any antivirus locks on important Steam files.
 
 ### Steamworks Repair Checklist
 
