@@ -22,9 +22,9 @@ tags:
 
 如果您的 Windows 10 主題設定啟動**高對比模式**，且選擇**高對比白色**，Windows 將強制關閉 Wallpaper Engine 桌布。 嘗試變更您正在使用的 Windows 高對比主題，或是完全關閉高對比模式，此問題就會消失。
 
-## Wallpapers disappearing / fading away in regular intervals
+## 桌布消失/固定時間間隔不見
 
-If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+如果桌布一直短暫消失，可能設定為和 Windows 桌布一樣的幻燈片秀了。 Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
 
 ## 與其他桌面改造軟體衝突
 
