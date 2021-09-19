@@ -10,8 +10,8 @@ If you are unable to update Steam, an antivirus app is likely blocking it. In th
 
 請嘗試下列步驟：
 
-* Make sure your Steam installation is up-to-date.
-* 請重新啟動 Steam，再啟動 Wallpaper Engine。
+* 確保 Steam 安裝最新版程式。
+* 重新啟動 Steam，再啟動 Wallpaper Engine。
 * 確定您登入 Steam 的帳號擁有 Wallpaper Engine。
 * **切勿**以管理員身分執行 Steam 或 Wallpaper Engine。
 * 在防毒程式中排除 Steam 的目錄，或完全停用所有第三方防毒應用程式
