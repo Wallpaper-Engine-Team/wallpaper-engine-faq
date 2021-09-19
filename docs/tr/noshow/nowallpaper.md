@@ -21,9 +21,9 @@ Duvar kâğıtlarınızın bir kısmı veya hiçbiri görünmüyorsa bunun neden
 
 Windows 10 tema ayarlarınızdan **Yüksek Kontrast Beyaz** temasını seçerek **yüksek kontrast modunu** etkinleştirdiyseniz, Windows zorla Wallpaper Engine duvar kâğıtlarını kapatır. Windows yüksek kontrast ayarlarını kullanıyorsanıza yüksek kontrast temasını değiştirmeyi ya da yüksek kontrast modunu tamamen kapatmayı deneyin, sorun ortadan kalkacaktır.
 
-## Wallpapers disappearing / fading away in regular intervals
+## Belirli aralıklarla yok olan arka planlar
 
-If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+Arka planlarınız sürekli kısa süreliğine yok oluyor ise slayt gösteriniz Windows arka planınız olarak yapılandırılmış olabilir. Windows arka plan ayarlarınız açıp normal Windows arka planınız olarak düz bir renk veya hareketsiz bir görüntü ayarlayarak sorunu çözebilirsiniz.
 
 ## Diğer masaüstü değişiklik yazılımlarıyla çakışmalar
 
