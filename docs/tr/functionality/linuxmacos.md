@@ -8,13 +8,13 @@ Bazı kullanıcılar oyun ve uygulama geliştiricilerinin ürünlerini Mac ve Li
 
 Durum basit bir ifade ile henüz Linux veya Mac OS için destek sağlamamız için ekonomik açıdan uyugn değil. [Steam donanım anketinde](https://store.steampowered.com/hwsurvey) Steam kullanıcılarının %1'inin bile Linux kullanmadığını görebilirsiniz. Linux'un farklı dağıtımlarında kullanıcı sayısı iyice düşer; en fazla kullanıcıya sahip Ubuntu bile kullanıcıların sadece %0.25'i tarafından tercih edilmektedir.
 
-As explained above, the time needed to port Wallpaper Engine to another operating system is immense and it will also increase the costs of on-going maintenance work significantly, while the possible user group benefiting of the large amount of time we would spend on this is comparatively very tiny. We should focus our time and energy on updates and platforms that benefit the most people, like the 96% of Steam users who use Windows.
+Yukarıda da açıkladığımız gibi, Wallpaper Engine'in başka bir işletim sistemine bağlanması çok büyük bir zaman gerektirmekle beraber süregelen bakım işlerinin maliyet çok yüksek ve üzerinde harcanacak büyük miktarda zaman sonucu bundan yararlanacak olası kullanıcı sayısı oldukça düşüktür. Zaman ve enerjimizi, Windows kullanan Steam kullanıcılarının %96'sı gibi çoğunluğa faydalı güncellemeler ve platformalara odaklamalıyız.
 
-Yet we are always keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable.
+Yine de bir gözümüz daima Steam istatistiklerinde. Steam'deki durum değişirse biz de mutlaka gelecekte daha fazla platformu desteklemenin yollarını aramaya koyulacağız.
 
-## Why we created a free Android app before supporting Linux or Mac OS
+## Neden Linux veya Mac OS'yi desteklemeden önce ücretsiz bir Android uygulaması yarattık
 
-A lot of our existing users use Android devices, far more than who use Linux or Mac OS devices. This is why supporting Android was the only rational next step when it comes to adding support for more platforms. By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
+Mevcut kullanıcılarımız arasında Android cihazlar kullananların sayısı Linux veya Mac OS cihazları kullananlardan çok daha fazla. Bu nedenle Android'in desteklenmesi, ilave platformların desteklenmesi söz konusu olduğunda atılabilecek tek mantıklı adımdı. Yeni bir özellik bağlamında yeni bir ücretsiz Android uygulama yaratırken kullanıcılarımızın büyük bir kısmı çin büyük bir gelişme sağladığımızı düşündük.
 
 Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
 
