@@ -24,7 +24,7 @@ tags:
 
 ## 桌布消失/固定時間間隔不見
 
-如果桌布一直短暫消失，可能設定為和 Windows 桌布一樣的幻燈片秀了。 Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+如果桌布一直短暫消失，可能設定為和 Windows 桌布一樣的幻燈片秀了。 開啟 Windows 桌布設定，將純色或圖片設定為一般的 Windows 桌布，即可解決此問題。
 
 ## 與其他桌面改造軟體衝突
 
@@ -34,7 +34,7 @@ Wallpaper Engine 可與大多數桌面改造應用程式安然並存。 但有�
 
 一般而言，Wallpaper Engine 與 *Fences* 配合良好。 不過，**如果您安裝了 Fences 卻將其停用**，將使 Wallpaper Engine 中的桌布隱藏。 您必須啟用或完全解除安裝。
 
-If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
+如果您正在使用 Fences 但看不見 Wallpaper Engine 桌布，確保您正在使用 **Fences 3.13 或更新版本**，避免與 Wallpaper Engine 出現相容性問題。 Fences 3.13 和更新版本包含重大的相容性更新，可與 Wallpaper Engine 相容，因此必須確保 Fences 為最新版本。
 
 ## 在 Windows 7 上桌布呈現灰色或缺少紋理
 
