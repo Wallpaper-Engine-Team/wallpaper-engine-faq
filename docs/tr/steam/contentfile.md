@@ -8,4 +8,4 @@ Steam, uygulamayı yüklerken veya güncellerken Wallpaper Engine'i indiremiyors
 
 *Steam veya Wallpaper Engine farklı bir dizine kurulmuşsa dizinleri gerçek Steam yükleme yolunuza göre ayarlamanız gerekir.*
 
-If you have configured your antivirus app to ignore these directories but the issue persists, it is sometimes necessary to uninstall Wallpaper Engine through Steam, followed by manually deleting the remains of the `wallpaper_engine` directory to clear any antivirus locks which may continue to block Steam from downloading files. After deleting the entire `wallpaper_engine` folder, try reinstalling the app through Steam again.
+Antivirüs uygulamanızı bu tür dizinleri yok sayma yönünde yapılandırdığınız hâlde sorun devam ettiği takdirde, bazen Wallpaper Engine Steam yoluyla silinmelidir ve ardından Steam'in dosya indirmesini engellemeye devam edebilecek olan antivirüs sınırlamalarının kaldırılması için `wallpaper_engine` dizini kalıntılarının silinmesi gerekir. `wallpaper_engine` klasörünün tamamının silinmesinin ardından uygulamayı tekrar Steam üzerinden indirmeyi deneyin.
