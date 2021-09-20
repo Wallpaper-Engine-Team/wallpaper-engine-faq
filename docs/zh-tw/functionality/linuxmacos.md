@@ -4,7 +4,7 @@ Wallpaper Engine 目前僅適用於 Windows 和 Android，近期也沒有支援�
 
 我們確實知道使用者可能希望本應用程式支援個人喜好的作業系統，但要使 Wallpaper Engine 支援各項平台，實際上並非一蹴可幾。 Wallpaper Engine 基本上是完全自訂編寫的軟體解決方案，要將此程式完整轉移到其他平台，實在是偌大工程。
 
-有些使用者可能想知道，為何某些開發商看似能輕鬆將其遊戲和應用程式轉移至 Mac 與 Linux 上，答案是，這些作品建立在廣泛使用的遊戲引擎上，例如 Unity 或 Unreal Engine，個別開發商無須再投入重大資源，即可支援更多平台。 不過，這些情況並不適用於 Wallpaper Engine 這類自訂的終端使用者應用程式，因為本程式與作業系統互動密切，確實需要針對各作業系統量身訂做，才能使其正常運作。 如果是 Linux 系統，另還需要使此程式適用於各種熱門顯示管理器，但這些顯示管理器彼此發佈版本差異顯著。
+有些使用者可能想知道，為何某些開發商看似能輕鬆將其遊戲和應用程式轉移至 Mac 與 Linux 上，答案是，這些作品建立在廣泛使用的遊戲引擎上，例如 Unity 或 Unreal Engine，個別開發商無須再投入重大資源，即可支援更多平台。 不過，這些情況並不適用於 Wallpaper Engine 這類自訂的終端使用者應用程式，因為本程式與作業系統互動密切，確實需要針對各作業系統量身訂做，才能使其正常運作。 如果是 Linux 系統，另還需要使此程式適用於各種熱門顯示管理器，但這些顯示管理器的發佈版本卻具有顯著差異。
 
 有鑑於此，我們無法在合乎經濟效益的條件增加對 Linus 或 Mac OS 的支援。 如果您檢視 [Steam 硬體調查](https://store.steampowered.com/hwsurvey)，會發現只有不到 1% 的 Steam 使用者使用 Linux。 而且這些使用者的 Linux 還要進一步區分發佈版本，主要為 Ubuntu，其人數僅佔總數的 0.25%。
 
@@ -14,10 +14,10 @@ Wallpaper Engine 目前僅適用於 Windows 和 Android，近期也沒有支援�
 
 ## 為什麼不先支援 Linux 或 Mac OS，卻先開發免費的 Android 應用程式
 
-許多現有的使用者都使用 Android 裝置，人數遠比 Linux 或 Mac OS 的使用者多。 因此，若要增加更多平台支援，先建置 Android 是唯一的明智之舉。 打造免費的 Android 應用程式，對廣大使用者來說應該是一大改進。
+許多現有的使用者都使用 Android 裝置，人數遠比 Linux 或 Mac OS 的使用者多。 因此，若要增加更多平台支援，先建置 Android 版是唯一合理的舉措。 打造免費的 Android 應用程式，對廣大使用者來說應該是一大改進。
 
-現在投注心血製作了 Android 連接埠，未來也可以改用於製作 Linux 和 OSX，稍微減輕支援這些作業系統的重大負擔。 雖然製作 Android 隨附應用程式已是浩大工程，比起打造 Linux 或 OSX 連接埠，仍是簡單得多，畢竟完整瀏覽與編輯體驗也都必須支援。
+現在投注心血製作了 Android 連接埠，未來也可以改用於製作 Linux 和 OSX，稍微減輕設計這些作業系統支援作業的重大負擔。 而儘管製作 Android 隨附應用程式已是浩大工程，比起打造 Linux 或 OSX 連接埠，仍是簡單得多，畢竟瀏覽與編輯體驗也都必須完整支援。
 
 ## 是否考慮支援 iPhone 和 iPad？
 
-目前 Apple 行動裝置系統 iOS 並未和 Android 一樣支援動態桌布。 由於 iOS 並不允許真正的動態桌布執行，iOS 要執行動態桌布的機會相當有限。 There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+目前 Apple 行動作業系統 iOS 並未和 Android 一樣支援動態桌布。 由於 iOS 並不允許真正的動態桌布執行，iOS 要執行動態桌布的機會相當有限。 目前該系統對動態桌布的支援並不完整，僅能以*原況照片*的形式支援為時不長的基本動畫桌布，而且處處受限，Wallpaper Engine 絕大多數的桌布在該系統上均無法以符合我們的標準相容。
