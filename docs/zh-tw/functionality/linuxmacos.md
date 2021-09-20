@@ -12,12 +12,12 @@ Wallpaper Engine 目前僅適用於 Windows 和 Android，近期也沒有支援�
 
 不過，我們一直在密切注意 Steam 的官方統計資料，如果 Steam 現狀產生變化，我們當然會開始考慮如何在可行的情況下支援更多平台。
 
-## Why we created a free Android app before supporting Linux or Mac OS
+## 為什麼不先支援 Linux 或 Mac OS，卻先開發免費的 Android 應用程式
 
-A lot of our existing users use Android devices, far more than who use Linux or Mac OS devices. This is why supporting Android was the only rational next step when it comes to adding support for more platforms. By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
+許多現有的使用者都使用 Android 裝置，人數遠比 Linux 或 Mac OS 的使用者多。 因此，若要增加更多平台支援，先建置 Android 是唯一的明智之舉。 打造免費的 Android 應用程式，對廣大使用者來說應該是一大改進。
 
 Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
 
-## What about support for iPhones and iPads?
+## 是否考慮支援 iPhone 和 iPad？
 
 Apple's mobile operating system iOS currently does not support real dynamic live wallpapers like Android does. The possibilities for live wallpapers on iOS are very limiting since iOS does not allow for true live wallpapers. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
