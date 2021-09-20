@@ -1,4 +1,4 @@
-# Wallpaper Engine on Linux or Mac OS
+# Wallpaper Engine на Linux, Mac или Mac OS
 
 Wallpaper Engine is currently available for Windows and Android and there are no immediate plans to support other platforms at this time.
 
