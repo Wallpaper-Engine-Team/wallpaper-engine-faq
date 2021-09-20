@@ -16,7 +16,7 @@ Wallpaper Engine 目前僅適用於 Windows 和 Android，近期也沒有支援�
 
 許多現有的使用者都使用 Android 裝置，人數遠比 Linux 或 Mac OS 的使用者多。 因此，若要增加更多平台支援，先建置 Android 是唯一的明智之舉。 打造免費的 Android 應用程式，對廣大使用者來說應該是一大改進。
 
-Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
+現在投注心血製作了 Android 連接埠，未來也可以改用於製作 Linux 和 OSX，稍微減輕支援這些作業系統的重大負擔。 雖然製作 Android 隨附應用程式已是浩大工程，比起打造 Linux 或 OSX 連接埠，仍是簡單得多，畢竟完整瀏覽與編輯體驗也都必須支援。
 
 ## 是否考慮支援 iPhone 和 iPad？
 
