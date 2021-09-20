@@ -2,15 +2,15 @@
 
 Por qualquer motivo, o Wallpaper Engine e o Steam não conseguem comunicar. Reinicie o Steam e depois o Wallpaper Engine. Certifique-se de que tem sessão iniciada na conta que possui o Wallpaper Engine. Se executar o Steam ou o Wallpaper Engine como administrador, o Steamworks SDK do Wallpaper Engine poderá não funcionar. A solução é não executar nenhum dos programas como admin, o que é a forma correta. Se mesmo assim não funcionar, reinstale o Steam e livre-se de quaisquer antivírus que bloqueiem a comunicação entre programas diferentes.
 
-**Certifique-se de que a sua instalação do Steam está atualizada.** É freuqente este problema ocorrer quando o Steam está extremamente desatualizado. Pode verificar a sua versão do Steam abrindo o Steam e clicando em **Ajuda** no topo e, em sgeuida, seleccionado **Acerca do Steam**. You will be presented with a version number and a version date, make sure this date is not older than two months, otherwise you are missing the latest Steam updates.
+**Certifique-se de que a sua instalação do Steam está atualizada.** É freuqente este problema ocorrer quando o Steam está extremamente desatualizado. Pode verificar a sua versão do Steam abrindo o Steam e clicando em **Ajuda** no topo e, em sgeuida, seleccionado **Acerca do Steam**. Ser-lhe-á apresentado um número de versão e uma data da versão. Certifique-se de que esta data não é anterior a dois meses, caso contrário necessita das atualizações ao Steam mais recentes.
 
-If you are unable to update Steam, an antivirus app is likely blocking it. In that case, configure any antivirus app to ignore your entire Steam directory and try again. In some cases, it is necessary to uninstall Steam and to manually delete the Steam directory to clear any antivirus locks on important Steam files.
+Caos não seja possível atualizar o Steam, é provávl que esteja a ser bloqueado por uma aplicação antivírus. Nesse caso, configure qualquer aplicação antivírus para ignorar o seu diretório do Steam inteiro e tente novamente. Em alguns casos, é necessário desinstalar o Steam e apagar manualmente o diretório Steam para remover quaisquer bloqueios que o antivírus tenha colocado em ficheiros Steam importantes.
 
-### Steamworks Repair Checklist
+### Lista de verificação de reparação do Steamworks
 
-Experimente seguir as seguintes instruções:
+Experimente seguir estas instruções:
 
-* Make sure your Steam installation is up-to-date.
+* Certifique-se de que a sua instalação do Steam está atualizada.
 * Reinicie o Steam e depois o Wallpaper Engine.
 * Certifique-se de que tem sessão iniciada na conta do Steam que possui o Wallpaper Engine.
 * **Não** execute o Steam ou o Wallpaper Engine como administrador.
