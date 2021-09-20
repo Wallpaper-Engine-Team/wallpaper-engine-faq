@@ -14,10 +14,10 @@ No entanto, estamos sempre atentos às estatísticas oficiais do Steam e se a si
 
 ## Por que razão criámos uma aplicação grátis para Android antes de oferecermos suporte para Linux ou Mac OS
 
-Muitos dos nossos clientes utilizam dispositivos Android, muitos mais do que os utilizadores de dispositivos Linux ou Mac OS. This is why supporting Android was the only rational next step when it comes to adding support for more platforms. By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
+Muitos dos nossos clientes utilizam dispositivos Android, muitos mais do que os utilizadores de dispositivos Linux ou Mac OS. É por isos que suportar Android era o único passo seguinte racional no que respeita a adicionar suporte para mais plataformas. Ao criarmos uma aplicação Android gratuita como nova funcionalidade, acreditamos ter criado um grande melhoramento para a grande maioria dos nossos utilizadores.
 
-Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
+Parte do trabalho feito na conversão para Android também pode ser reutilizada para Linux ou OSX mais tarde, reduzindo ligeiramente os grandes obstávulos que enfrentamos ao suportar esses sistemas operativos. Apesar de criar a aplicação para Android fosse já uma tarefa hercúlea par anós, foi muito mais exequível do que uma conversão para Linux ou OSX, na qual toda a experiência de navegação e edição tem também de ser suportada.
 
-## What about support for iPhones and iPads?
+## Que tal suporte para iPhone e iPads?
 
-Apple's mobile operating system iOS currently does not support real dynamic live wallpapers like Android does. The possibilities for live wallpapers on iOS are very limiting since iOS does not allow for true live wallpapers. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+Neste momento, o sistema opeativo movel iOS da Apple não suporta verdadeiros wallpapers anhimados dinâmicos como Android. As possibilidades para wallpapers animados em iOS são muito limitadoras, pois o iOS não permite verdadeiros wallpapers animados. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
