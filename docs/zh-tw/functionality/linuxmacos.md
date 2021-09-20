@@ -1,10 +1,10 @@
-# Wallpaper Engine on Linux or Mac OS
+# Linux 或 Mac OS 上的 Wallpaper Engine
 
-Wallpaper Engine is currently available for Windows and Android and there are no immediate plans to support other platforms at this time.
+Wallpaper Engine 目前僅適用於 Windows 和 Android，近期也沒有支援其他平台的計畫。
 
-We definitely understand that users may want us to support other operating systems that they personally prefer, but it is really not a simple task to make Wallpaper Engine available on every possible platform. Wallpaper Engine 基本上是完全自訂編寫的軟體解決方案，要將此程式完整轉移到其他平台，實在是莫大工程。
+我們確實知道使用者可能希望本應用程式支援個人喜好的作業系統，但要使 Wallpaper Engine 支援各項平台，實際上並非一蹴可幾。 Wallpaper Engine 基本上是完全自訂編寫的軟體解決方案，要將此程式完整轉移到其他平台，實在是偌大工程。
 
-有些使用者可能想知道，為何某些開發商看似能輕鬆將其遊戲和應用程式轉移至 Mac 與 Linux 上，答案是，這些作品建立在廣泛使用的遊戲引擎上，例如 Unity 或 Unreal Engine，個別開發商無須再投入重大資源，即可支援更多平台。 However, none of this applies when it comes to a custom application like Wallpaper Engine - since it's an application which interacts closely with the operating system, it really needs to be tailored to each specific operating system to make it work properly. In the case of Linux, it goes even further and must be made to work with every popular display manager which differ significantly between distributions.
+有些使用者可能想知道，為何某些開發商看似能輕鬆將其遊戲和應用程式轉移至 Mac 與 Linux 上，答案是，這些作品建立在廣泛使用的遊戲引擎上，例如 Unity 或 Unreal Engine，個別開發商無須再投入重大資源，即可支援更多平台。 不過，這些情況並不適用於 Wallpaper Engine 這類自訂的終端使用者應用程式，因為本程式與作業系統互動密切，確實需要針對各作業系統量身訂做，才能使其正常運作。 如果是 Linux 系統，另還需要使此程式適用於各種熱門顯示管理器，但這些顯示管理器彼此發佈版本差異顯著。
 
 The situation is simply that it's not economically viable for us to add support for Linux or Mac OS at this time. 如果您檢視 [Steam 硬體調查](https://store.steampowered.com/hwsurvey)，會發現只有不到 1% 的 Steam 使用者使用 Linux。 而且這些使用者的 Linux 還要進一步區分發佈版本，主要為 Ubuntu，其人數僅佔總數的 0.25%。
 
