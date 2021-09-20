@@ -22,9 +22,9 @@ Caso possua qualquer aplicação antivírus instalada (exceto Windows Defender),
 
 Caso tenha ativado o **modo de alto contraste** nas definições de tema do seu Windows 10 com o tema **Branco de Alto Contaste**, o Windows forçará a desativação dos wallpapers do Wallpaper Engine. Experimente mudar o tema de alto contraste que está a utilizar nas definições de alto contraste do Windows, ou desative totalmente o modo de alto contraste e o problema irá desaparecer.
 
-## Wallpapers disappearing / fading away in regular intervals
+## Wallpapers desaparecem / desvanecem a intervalos regulares
 
-If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+Se os seus wallpapers estão sempre a desaparecer por breves momentos, é provável que tenha uma apresentação de diapositivos configurada como wallpaper do Windows. Abra as definições de wallpaper do Windows e defina uma cor sólida ou uma imagem estática como seu wallpaper normal do Windows, e isto irá resolver este problema.
 
 ## Conflitos com outro software de modificação do ambiente de trabalho
 
@@ -34,7 +34,7 @@ O Wallpaper Engine funciona bem com a maior parte das aplicações de modificaç
 
 Em geral, o Wallpaper Engine funciona bem com *Fences*. No entanto, **se tem o Fences instalado mas desativado**, ele esconderá o wallpaper do Wallpaper Engine. Deve ativá-lo ou desativá-lo completamente.
 
-If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
+Se estiver a utilizar Fences e os seus wallpapers do Wallpaper Engine não estiverem visíveis, certifique-se de que está a utilizar **Fences 3.13 ou mais recente** para evitar estes problemas de compatibilidade com o Wallpaper Engine. Fences 3.13 e versões mais recentes contêm correções importantes na compatibilidade com o Wallpaper Engine, pelo que é importante que o seu Fences esteja atualizado.
 
 ## Wallpaper cinzento ou texturas em falta no Windows 7
 
