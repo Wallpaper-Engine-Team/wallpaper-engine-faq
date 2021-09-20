@@ -8,13 +8,13 @@ Wallpaper Engine 目前适用于 Windows 和 Android，近期没有支持其他�
 
 目前的情况很简单，添加对 Linux 或 Mac OS 的支持对我们来说在经济上尚不可行。 如果查看 [Steam 硬件调查](https://store.steampowered.com/hwsurvey)，您会发现只有不到 1% 的 Steam 用户使用 Linux。 而就这些用户还要进一步细分到 Linux 的各个发行版（主要是 Ubuntu，而其用户数量仅占 Steam 用户总数的 0.25%）。
 
-如上所述，将 Wallpaper Engine 移植到其他操作系统，不但需要花费大量时间，还会显著增加持续维护工作的成本，而可能从我们在这方面花费的大量时间中受益的用户群体相对来说非常小。 We should focus our time and energy on updates and platforms that benefit the most people, like the 96% of Steam users who use Windows.
+如上所述，将 Wallpaper Engine 移植到其他操作系统，不但需要花费大量时间，还会显著增加持续维护工作的成本，而可能从我们在这方面花费的大量时间中受益的用户群体相对来说非常小。 我们应该将时间和精力集中在使大多数人受益的更新和平台上，例如使用 Windows 的 Steam 用户（占总用户数的 96%）。
 
-Yet we are always keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable.
+但我们一直在密切关注 Steam 的官方统计数据，如果 Steam 的状况发生变化，我们肯定会开始考虑如何在未来可行的情况下支持更多平台。
 
-## Why we created a free Android app before supporting Linux or Mac OS
+## 我们为何在支持 Linux 或 Mac OS 之前先创建免费 Android 应用程序
 
-A lot of our existing users use Android devices, far more than who use Linux or Mac OS devices. This is why supporting Android was the only rational next step when it comes to adding support for more platforms. By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
+我们现有的用户中有许多人使用 Android 设备，其数量远远超过使用 Linux 或 Mac OS 设备的用户。 This is why supporting Android was the only rational next step when it comes to adding support for more platforms. By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
 
 Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
 
