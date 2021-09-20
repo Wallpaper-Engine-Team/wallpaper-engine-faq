@@ -4,9 +4,9 @@
 
 如果您曾為 Wallpaper Engine 創作桌布，則必須同意最新的 Wallpaper Engine 工作坊協議增補條款，如此一來，使用者方可將您創作的桌布傳輸至其行動裝置。 未經桌布建立者同意，Wallpaper Engine 不允許使用者將桌布傳輸至行動裝置。
 
-Since transferring Steam Workshop content to mobile devices has never been done before, the Steam Workshop Agreement does not cover this type of activity. We created an addendum to the Steam Workshop Agreement to ensure content creators are aware of the ability to transfer content to mobile devices. You can review and accept the addendum in either of the links below:
+由於先前未曾將 Steam 工作坊的內容傳輸至行動裝置，Steam 工作坊訂戶協議並未涵蓋這類做法。 如今我們制定了 Steam 工作坊協議的增補條款，確保內容建立者知道現在能將內容傳輸至行動裝置。 您可至下列連結檢視並同意增補條款：
 
-* [Workshop Addendum (View in Web Browser)](https://store.steampowered.com/workshopeula/431960/)
-* <a href="steam://url/WorkshopEula/431960/">Workshop Addendum (View in Steam)</a>
+* [工作坊增補條款 (在網頁瀏覽器中檢視)](https://store.steampowered.com/workshopeula/431960/)
+* <a href="steam://url/WorkshopEula/431960/">工作坊增補條款 (在 Steam 中檢視)</a>
 
-If you are trying to use a wallpaper from a content creator that has not yet agreed to the latest Workshop addendum, please ask the content creator to review the latest addendum. You will be able to transfer the wallpaper to your Android mobile device once the creator has accepted the latest agreement.
+若您打算使用一張桌布，但桌布建立者尚未同意最新的工作坊增補條款，請通知內容建立者檢視最新的增補條款。 建立者同意最新協議內容後，您的桌布將可傳輸至 Android 行動裝置。
