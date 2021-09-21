@@ -20,4 +20,4 @@ Parte del trabajo que hemos hecho para la versión de Android se podrá reutiliz
 
 ## ¿Será compatible con iPhone o iPad?
 
-Al contrario que Android, iOS, el sistema operativo móvil de Apple, no es compatible con los fondos de pantalla dinámicos. Las posibilidades de tener fondos de pantalla dinámicos en iOS es muy limitada, ya que iOS no admite fondos dinámicos de verdad. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+Al contrario que Android, iOS, el sistema operativo móvil de Apple, no es compatible con los fondos de pantalla dinámicos. Las posibilidades de tener fondos de pantalla dinámicos en iOS es muy limitada, ya que iOS no admite fondos dinámicos de verdad. Es cierto que tiene cierta compatibilidad con los fondos de pantalla animados muy básicos en forma de *Live Photos*, pero dicho formato tiene muchas restricciones y la gran mayoría de los fondos de pantalla de Wallpaper Engine no son compatibles de una manera que podamos considerar aceptable.
