@@ -1,6 +1,6 @@
 # Дополнение к Соглашению Мастерской
 
-С выходом Wallpaper Engine 2.0 пользователи могут переносить обои из Мастерской на свои мобильные устройства Android. Mobile devices cannot directly access any Workshop content, users have to transfer their wallpapers from their Windows version of Wallpaper Engine to Android.
+С выходом Wallpaper Engine 2.0 пользователи могут переносить обои из Мастерской на свои мобильные устройства Android. Мобильные устройства не могут напрямую получить доступ к какому-либо контенту Мастерской, поэтому пользователи должны переносить обои из Windows-версии Wallpaper Engine на Android.
 
 Если вы ранее создавали обои для Wallpaper Engine, вам необходимо принять последнее дополнение к Соглашению Мастерской Wallpaper Engine, прежде чем пользователи смогут перенести ваши обои на свои мобильные устройства. Wallpaper Engine не позволит пользователям переносить обои в мобильное приложение без согласия создателя обоев.
 
@@ -9,4 +9,4 @@
 * [Дополнение к Соглашению Мастерской (открыть в браузере)](https://store.steampowered.com/workshopeula/431960/)
 * <a href="steam://url/WorkshopEula/431960/">Дополнение к Соглашению Мастерской (открыть в Steam)</a>
 
-If you are trying to use a wallpaper from a content creator that has not yet agreed to the latest Workshop addendum, please ask the content creator to review the latest addendum. You will be able to transfer the wallpaper to your Android mobile device once the creator has accepted the latest agreement.
+Если вы пытаетесь использовать обои от создателя контента, который еще не принял последнее дополнение к Соглашению Мастерской, попросите создателя контента прочитать его. Вы сможете перенести обои на свое мобильное устройство Android, как только создатель примет последнее соглашение.
