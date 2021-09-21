@@ -8,16 +8,16 @@ Algunos usuarios se preguntarán cómo es posible que sea tan fácil hacer que a
 
 La situación es bastante sencilla: hacer que Wallpaper Engine sea compatible con Linux o Mac OS no es económicamente viable para nosotros ahora mismo. Si echas un vistazo a [la encuesta de hardware de Steam](https://store.steampowered.com/hwsurvey), verás que menos de un 1 % de los usuarios utiliza Linux. Por si fuera poco, esa cantidad se divide incluso más entre distintas distribuciones de Linux, especialmente en Ubuntu, que cuenta tan solo con un 0,25 % de usuarios.
 
-Tal y como hemos explicado anteriormente, hace falta muchísimo tiempo para hacer que Wallpaper Engine sea compatible con otros sistemas operativos y, a mayores, aumentaría el precio del mantenimiento. Además, en comparación con todo el tiempo que nos llevaría hacerlo, solo beneficiaría a un grupo bastante reducido de usuarios. We should focus our time and energy on updates and platforms that benefit the most people, like the 96% of Steam users who use Windows.
+Tal y como hemos explicado anteriormente, hace falta muchísimo tiempo para hacer que Wallpaper Engine sea compatible con otros sistemas operativos y, a mayores, aumentaría el precio del mantenimiento. Además, en comparación con todo el tiempo que nos llevaría hacerlo, solo beneficiaría a un grupo bastante reducido de usuarios. Deberíamos concentrarnos en las actualizaciones y en las plataformas que benefician a la mayoría de usuarios, como el 96 % de usuarios de Steam que utilizan Windows.
 
-Yet we are always keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable.
+Aun así, siempre estamos atentos a las estadísticas de Steam y, en caso de que cambie la situación, estamos abiertos a investigar cómo hacer el programa compatible con más plataformas en el futuro si fuera sea viable.
 
-## Why we created a free Android app before supporting Linux or Mac OS
+## ¿Por qué hemos creado una aplicación gratis para Android en lugar de hacerlo compatible con Linux o Mac OS?
 
-A lot of our existing users use Android devices, far more than who use Linux or Mac OS devices. This is why supporting Android was the only rational next step when it comes to adding support for more platforms. By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
+La inmensa mayoría de nuestros usuarios utilizan más Android que Linux o Mac OS. Es por eso que consideramos que la compatibilidad con Android era la opción más sensata a la hora de añadir más plataformas. Creemos que crear una aplicación gratuita para Android es una gran mejora para la mayoría de nuestros usuarios.
 
-Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
+Parte del trabajo que hemos hecho para la versión de Android se podrá reutilizar para Linux y OSX más adelante, lo que reduce un poco la cantidad de obstáculos a la que nos enfrentamos para hacer compatibles esos sistemas operativos. Aunque la creación de la aplicación para Android nos suponía tarea considerable, era mucho más factible que una versión para Linux u OSX, ya que también hay que adaptar toda la experiencia de navegación y edición.
 
-## What about support for iPhones and iPads?
+## ¿Será compatible con iPhone o iPad?
 
-Apple's mobile operating system iOS currently does not support real dynamic live wallpapers like Android does. The possibilities for live wallpapers on iOS are very limiting since iOS does not allow for true live wallpapers. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+Al contrario que Android, iOS, el sistema operativo móvil de Apple, no es compatible con los fondos de pantalla dinámicos. Las posibilidades de tener fondos de pantalla dinámicos en iOS es muy limitada, ya que iOS no admite fondos dinámicos de verdad. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
