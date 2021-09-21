@@ -14,7 +14,7 @@ Wallpaper Engine 目前适用于 Windows 和 Android，近期没有支持其他�
 
 ## 我们为何在支持 Linux 或 Mac OS 之前先创建免费 Android 应用程序
 
-我们现有的用户中有许多人使用 Android 设备，其数量远远超过使用 Linux 或 Mac OS 设备的用户。 This is why supporting Android was the only rational next step when it comes to adding support for more platforms. By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
+我们现有的用户中有许多人使用 Android 设备，其数量远远超过使用 Linux 或 Mac OS 设备的用户。 因此，就添加对更多平台的支持而言，支持 Android 是唯一合理的下一步。 By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
 
 Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
 
