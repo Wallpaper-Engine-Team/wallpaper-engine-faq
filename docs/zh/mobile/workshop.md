@@ -2,11 +2,11 @@
 
 随着 Wallpaper Engine 2.0 的发布，Wallpaper Engine 允许用户将其创意工坊壁纸传输到 Android 移动设备上。 移动设备无法直接访问任何创意工坊内容，用户必须将其壁纸从 Windows 版本的 Wallpaper Engine 传输到 Android。
 
-If you have created wallpapers for Wallpaper Engine in the past, you need to accept the latest Wallpaper Engine Workshop addendum before users can transfer your wallpapers to their mobile devices. Wallpaper Engine will prevent users from transferring wallpapers to the mobile app without the consent of the wallpaper creator.
+如果您过去为 Wallpaper Engine 创建过壁纸，您需要先接受最新的 Wallpaper Engine 创意工坊附录，然后用户才能将您的壁纸传输到其移动设备。 Wallpaper Engine 可阻止用户在未经壁纸创建者同意的情况下将壁纸传输到移动应用程序。
 
-Since transferring Steam Workshop content to mobile devices has never been done before, the Steam Workshop Agreement does not cover this type of activity. We created an addendum to the Steam Workshop Agreement to ensure content creators are aware of the ability to transfer content to mobile devices. You can review and accept the addendum in either of the links below:
+由于之前从未将 Steam 创意工坊内容传输到移动设备，因此 Steam 创意工坊协议不涵盖此类活动。 我们创建 Steam 创意工坊协议的附录，是旨在确保内容创作者了解将内容传输到移动设备的功能。 您可以访问以下任一链接查看并接受附录：
 
-* [Workshop Addendum (View in Web Browser)](https://store.steampowered.com/workshopeula/431960/)
-* <a href="steam://url/WorkshopEula/431960/">Workshop Addendum (View in Steam)</a>
+* [创意工坊附录（在 Web 浏览器中查看）](https://store.steampowered.com/workshopeula/431960/)
+* <a href="steam://url/WorkshopEula/431960/">创意工坊附录（在 Steam 中查看）</a>
 
-If you are trying to use a wallpaper from a content creator that has not yet agreed to the latest Workshop addendum, please ask the content creator to review the latest addendum. You will be able to transfer the wallpaper to your Android mobile device once the creator has accepted the latest agreement.
+如果您想要使用尚未同意最新创意工坊附录的内容创作者的壁纸，请让内容创作者查看最新的附录。 一旦创作者接受了最新协议，您就可以将壁纸传输到 Android 移动设备。
