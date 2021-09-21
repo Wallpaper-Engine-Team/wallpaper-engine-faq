@@ -1,6 +1,6 @@
-# Wallpaper Engine on Linux or Mac OS
+# Linux 또는 Mac에서의 Wallpaper Engine
 
-Wallpaper Engine is currently available for Windows and Android and there are no immediate plans to support other platforms at this time.
+Wallpaper Engine은 현재 Windows와 Android에서만 이용할 수 있으며, 현재로서는 다른 플랫폼을 지원할 계획이 없습니다.
 
 We definitely understand that users may want us to support other operating systems that they personally prefer, but it is really not a simple task to make Wallpaper Engine available on every possible platform. Wallpaper Engine의 핵심은 완전한 사용자 지정 소프트웨어 솔루션으로, 다른 플랫폼으로 완벽하게 포팅하려면 그 작업량이 방대합니다.
 
