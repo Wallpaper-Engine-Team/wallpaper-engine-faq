@@ -20,4 +20,4 @@
 
 ## А как насчет поддержки iPhone и iPad?
 
-Apple's mobile operating system iOS currently does not support real dynamic live wallpapers like Android does. The possibilities for live wallpapers on iOS are very limiting since iOS does not allow for true live wallpapers. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+Мобильная операционная система Apple iOS пока не поддерживает динамические живые обои, в отличие от Android. Возможности живых обоев на iOS очень ограничены, поскольку iOS не позволяет создавать полноценные живые обои. *Live Photos* поддерживает очень простые короткие анимированные обои, но этот формат очень ограничен, и подавляющее большинство обоев Wallpaper Engine несовместимы с ним в том смысле, который мы считаем приемлемым.
