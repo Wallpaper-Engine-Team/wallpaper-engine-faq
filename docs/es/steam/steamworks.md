@@ -6,11 +6,11 @@ Wallpaper Engine y Steam no pueden comunicarse por algún motivo. Reinicia Steam
 
 Si no puedes actualizar Steam, es probable que lo esté bloqueando el antivirus. En ese caso, configura el antivirus para que ignore todo el directorio de Steam y vuelve a intentarlo. En algunos casos, es necesario desinstalar Steam y borrar manualmente el directorio de Steam para eliminar los bloqueos del antivirus que pueda haber en los archivos importantes de Steam.
 
-### Steamworks Repair Checklist
+### Lista de reparaciones posibles de Steamworks
 
 Prueba a hacer lo siguiente:
 
-* Make sure your Steam installation is up-to-date.
+* Asegúrate de que tu versión de Steam está actualizada.
 * Reinicia Steam y luego Wallpaper Engine.
 * Asegúrate de que inicias sesión con la cuenta de Steam en la que tienes Wallpaper Engine.
 * **No** abras Steam ni Wallpaper Engine como administrador.
