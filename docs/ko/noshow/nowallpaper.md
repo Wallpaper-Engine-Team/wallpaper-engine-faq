@@ -24,7 +24,7 @@ Windows 10 테마 설정에서 **고대비 흰색 테마**로 **고대비 모드
 
 ## 배경화면이 주기적으로 사라집니다
 
-If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+배경화면이 계속 잠시 동안 사라질 경우, Windows 배경화면으로 슬라이드쇼를 설정하셨을 가능성이 높습니다. Windows 배경화면 설정을 열어 기본 Windows 배경화면으로 단색 또는 정지된 이미지를 사용하면 문제가 해결될 것입니다.
 
 ## 다른 바탕화면 수정 소프트웨어와 충돌
 
@@ -34,7 +34,7 @@ Wallpaper Engine은 대부분의 바탕화면 수정 응용 프로그램과 잘 
 
 일반적으로 Wallpaper Engine은 *Fences*와 잘 작동합니다. 그러나 **설치된 Fences를 비활성화하면**, Wallpaper Engine의 배경화면을 숨기게 됩니다. 활성화하거나 완전히 삭제해야 합니다.
 
-If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
+Fences를 사용 중이며 Wallpaper Engine 배경화면이 보이지 않을 경우, **Fences 3.13 또는 이후 버전**을 사용하고 있는지 확인하세요. 이전 버전은 Wallpaper Engine과 호환 문제가 발생할 수 있습니다. Fences 3.13 및 이후 버전은 Wallpaper Engine과의 호환성 문제를 해결하는 중요한 수정 사항이 포함되어 있으므로, Fences가 최신 버전인지 확인하는 것이 중요합니다.
 
 ## Windows 7에서 회색 배경화면 또는 텍스처 누락
 
