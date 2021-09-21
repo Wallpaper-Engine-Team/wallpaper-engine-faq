@@ -2,22 +2,22 @@
 
 Wallpaper Engine은 현재 Windows와 Android에서만 이용할 수 있으며, 현재로서는 다른 플랫폼을 지원할 계획이 없습니다.
 
-We definitely understand that users may want us to support other operating systems that they personally prefer, but it is really not a simple task to make Wallpaper Engine available on every possible platform. Wallpaper Engine의 핵심은 완전한 사용자 지정 소프트웨어 솔루션으로, 다른 플랫폼으로 완벽하게 포팅하려면 그 작업량이 방대합니다.
+사용자들이 자신이 선호하는 운영 체제의 지원을 바란다는 것은 충분히 이해하지만, Wallpaper Engine을 가능한 모든 플랫폼에서 이용할 수 있게 만드는 것은 간단한 작업이 아닙니다. Wallpaper Engine의 핵심은 완전한 사용자 지정 소프트웨어 솔루션으로, 다른 플랫폼으로 완벽하게 포팅하려면 그 작업량이 방대합니다.
 
-일부 게임과 응용 프로그램의 경우 개발자가 쉽게 Mac과 Linux에 포팅하는 것처럼 보일 수도 있습니다. 그런 경우는 대부분 개발자가 특별한 작업을 하지 않아도 더 많은 플랫폼을 지원할 수 있는 Unity 또는 Unreal Engine과 같은 비디오 게임 엔진을 사용하기 때문입니다. However, none of this applies when it comes to a custom application like Wallpaper Engine - since it's an application which interacts closely with the operating system, it really needs to be tailored to each specific operating system to make it work properly. In the case of Linux, it goes even further and must be made to work with every popular display manager which differ significantly between distributions.
+일부 게임과 응용 프로그램의 경우 개발자가 쉽게 Mac과 Linux에 포팅하는 것처럼 보일 수도 있습니다. 그런 경우는 대부분 개발자가 특별한 작업을 하지 않아도 더 많은 플랫폼을 지원할 수 있는 Unity 또는 Unreal Engine과 같은 비디오 게임 엔진을 사용하기 때문입니다. 그러나 Wallpaper Engine과 같은 사용자 지정 응용 프로그램은 해당되지 않습니다. 운영 체제와 긴밀히 상호작용하는 응용 프로그램이므로, 제대로 작동하려면 각 운영 체제에 따라 맞춤 제작하여야 하기 때문입니다. Linux의 경우 한 걸음 더 나아가 모든 인기 있는 디스플레이 매니저와 호환되도록 만들어야 하며, 인기 있는 디스플레이 매니저는 Linux 버전 별로 크게 달라집니다.
 
-The situation is simply that it's not economically viable for us to add support for Linux or Mac OS at this time. [Steam 하드웨어 설문조사](https://store.steampowered.com/hwsurvey)에서 Steam 사용자 중 Linux를 이용하는 사람은 1% 미만이라는 것을 알 수 있습니다. 게다가 이 수치는 다양한 Linux 배포 형태로 다시 나뉘며, 다수를 차지하는 Ubuntu 사용자는 0.25%에 불과합니다.
+현 시점에서 Linux 또는 Mac OS 지원을 추가하는 것은 경제성이 없습니다. [Steam 하드웨어 설문조사](https://store.steampowered.com/hwsurvey)에서 Steam 사용자 중 Linux를 이용하는 사람은 1% 미만이라는 것을 알 수 있습니다. 게다가 이 수치는 다양한 Linux 배포 형태로 다시 나뉘며, 다수를 차지하는 Ubuntu 사용자는 0.25%에 불과합니다.
 
-As explained above, the time needed to port Wallpaper Engine to another operating system is immense and it will also increase the costs of on-going maintenance work significantly, while the possible user group benefiting of the large amount of time we would spend on this is comparatively very tiny. We should focus our time and energy on updates and platforms that benefit the most people, like the 96% of Steam users who use Windows.
+위에서 설명한 대로 Wallpaper Engine을 다른 운영 체제로 포팅하려면 매우 많은 시간이 필요하고, 진행 중인 유지관리 작업 비용이 크게 증가하는 반면, 저희가 투자해야 하는 막대한 시간에 비해 사용자 그룹이 받을 수 있는 혜택은 미미합니다. Windows를 이용하는 96%의 Steam 사용자와 같은 대다수의 사람들에게 도움이 되는 업데이트 및 플랫폼에 시간과 에너지를 집중하는 것이 더 이롭습니다.
 
-Yet we are always keeping a close eye on the official Steam statistics and if the situation on Steam changes we are definitely open to look into figuring out how we could support more platforms in the future if it becomes viable.
+그러나 저희는 계속해서 공식 Steam 통계를 유심히 지켜보고 있으며, Steam의 상황이 가시적으로 변화하면 더 많은 플랫폼을 지원할 방안을 찾아볼 것입니다.
 
-## Why we created a free Android app before supporting Linux or Mac OS
+## Linux 또는 Mac OS 지원보다 무료 Android 앱을 먼저 만든 이유
 
-A lot of our existing users use Android devices, far more than who use Linux or Mac OS devices. This is why supporting Android was the only rational next step when it comes to adding support for more platforms. By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
+저희들의 기존 사용자 대다수가 Android 기기를 사용하며, Linux 또는 Mac OS 기기의 사용자보다 수가 훨씬 많습니다. 그렇기 때문에 더 많은 플랫폼의 지원을 추가하는 데 있어 Android부터 지원하는 것이 합리적이었죠. 저희는 무료 Android 앱을 새로운 기능으로 제작하면서 사용자 대다수의 경험을 크게 개선하였다고 생각합니다.
 
-Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
+Android 이식에서 사용된 작업 일부는 추후 Linux 및 OSX에서 다시 활용할 수 있어, 해당 운영 체제를 지원할 때 겪는 큰 어려움을 다소 줄여줄 것입니다. Android 모바일 앱을 만드는 것 역시 큰 작업이었지만, 브라우징 및 편집 기능도 전부 지원해야 하는 Linux 또는 OSX 이식보다는 훨씬 수월했습니다.
 
-## What about support for iPhones and iPads?
+## iPhone과 iPad 지원은 언제 추가되나요?
 
-Apple's mobile operating system iOS currently does not support real dynamic live wallpapers like Android does. The possibilities for live wallpapers on iOS are very limiting since iOS does not allow for true live wallpapers. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+Apple의 모바일 운영 체제인 iOS는 Android와는 다르게 진짜 움직이는 라이브 배경화면을 지원하지 않습니다. iOS에서는 진정한 의미의 라이브 배경화면을 사용할 수 없기 때문에, iOS를 지원할 가능성은 매우 적습니다. 매우 기본적인 짧은 애니메이션 배경화면이 *Live Photo*의 형태로나마 일부 제한적으로 지원되긴 하지만, 해당 형식은 제약이 많으며 저희가 보기에 대다수의 Wallpaper Engine 배경화면은 그에 호환되지 않습니다.
