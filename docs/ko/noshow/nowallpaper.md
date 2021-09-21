@@ -22,7 +22,7 @@ tags:
 
 Windows 10 테마 설정에서 **고대비 흰색 테마**로 **고대비 모드**를 활성화하면, Windows가 강제로 Wallpaper Engine 배경화면을 비활성화합니다. Windows 고대비 설정에서 사용 중인 고대비 테마를 변경하거나 고대비 모드 자체를 비활성화하면 문제가 해결됩니다.
 
-## Wallpapers disappearing / fading away in regular intervals
+## 배경화면이 주기적으로 사라집니다
 
 If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
 
