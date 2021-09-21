@@ -4,9 +4,9 @@ Con el lanzamiento de Wallpaper Engine 2.0, Wallpaper Engine permite a los usuar
 
 Si has creado fondos de pantalla para Wallpaper Engine con anterioridad, tendrás que aceptar el último anexo de Wallpaper Engine Workshop antes de que los usuarios puedan transferir tus fondos de pantalla a sus dispositivos móviles. Wallpaper Engine no permitirá que los usuarios transfieran fondos de pantalla a la aplicación móvil sin el consentimiento del creador del fondo de pantalla.
 
-Since transferring Steam Workshop content to mobile devices has never been done before, the Steam Workshop Agreement does not cover this type of activity. We created an addendum to the Steam Workshop Agreement to ensure content creators are aware of the ability to transfer content to mobile devices. You can review and accept the addendum in either of the links below:
+Dado que la transferencia de contenido de Steam Workshop a dispositivos móviles no se había hecho antes, el acuerdo de Steam Workshop no cubre este tipo de actividad. Hemos creado un anexo al acuerdo de Steam Workshop para asegurarnos de que los creadores de contenido sean conscientes de la posibilidad de transferir contenido a dispositivos móviles. Puedes revisar y aceptar el anexo en cualquiera de los siguientes enlaces:
 
-* [Workshop Addendum (View in Web Browser)](https://store.steampowered.com/workshopeula/431960/)
-* <a href="steam://url/WorkshopEula/431960/">Workshop Addendum (View in Steam)</a>
+* [Anexo del Workshop (ver en el navegador)](https://store.steampowered.com/workshopeula/431960/)
+* <a href="steam://url/WorkshopEula/431960/">Anexo del Workshop (ver en Steam)</a>
 
-If you are trying to use a wallpaper from a content creator that has not yet agreed to the latest Workshop addendum, please ask the content creator to review the latest addendum. You will be able to transfer the wallpaper to your Android mobile device once the creator has accepted the latest agreement.
+Si intentas utilizar un fondo de pantalla de un creador de contenido que aún no ha aceptado el último anexo, pídele que lo revise. Podrás transferir el fondo de pantalla a tu dispositivo Android cuando el creador haya aceptado el último acuerdo.
