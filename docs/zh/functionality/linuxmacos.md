@@ -14,10 +14,10 @@ Wallpaper Engine 目前适用于 Windows 和 Android，近期没有支持其他�
 
 ## 我们为何在支持 Linux 或 Mac OS 之前先创建免费 Android 应用程序
 
-我们现有的用户中有许多人使用 Android 设备，其数量远远超过使用 Linux 或 Mac OS 设备的用户。 因此，就添加对更多平台的支持而言，支持 Android 是唯一合理的下一步。 By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
+我们现有的用户中有许多人使用 Android 设备，其数量远远超过使用 Linux 或 Mac OS 设备的用户。 因此，就添加对更多平台的支持而言，支持 Android 是唯一合理的下一步。 我们认为，通过将免费 Android 应用程序当作新功能创建，我们为广大用户带来了巨大的改进。
 
-Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
+Android 移植过程中的部分工作亦可在以后某个时间点再次用于 Linux 和 OSX 移植，从而略微减少我们在支持这些操作系统时面临的巨大障碍。 虽然创建 Android 配套应用程序对我们来说已是一项艰巨的任务，但这仍比 Linux 或 OSX 移植容易实现得多，因为 Linux 或 OSX 移植还需要支持完整的浏览和编辑体验。
 
-## What about support for iPhones and iPads?
+## 对 iPhone 和 iPad 的支持呢？
 
-Apple's mobile operating system iOS currently does not support real dynamic live wallpapers like Android does. The possibilities for live wallpapers on iOS are very limiting since iOS does not allow for true live wallpapers. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
+Apple 的移动操作系统 iOS 目前并不像 Android 那样支持真正的动态壁纸。 在 iOS 上使用动态壁纸的可能性非常有限，因为 iOS 不支持真正的动态壁纸。 它仅以*动态照片*的形式，有限地支持非常基本的短动画壁纸，但格式要求非常严格，Wallpaper Engine 的绝大多数壁纸并不能以我们认为可接受的方式与其真正兼容。
