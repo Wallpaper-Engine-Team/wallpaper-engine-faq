@@ -22,9 +22,9 @@ tags:
 
 如果您在 Windows 10 主题设置中启用了**高对比度模式**并选择了**高对比度白色**主题，Windows 将强行关闭 Wallpaper Engine 的壁纸。 尝试在 Windows 的高对比度设置中更换您正在使用的高对比度主题，或者完全关闭高对比度模式，问题就会消失。
 
-## Wallpapers disappearing / fading away in regular intervals
+## 壁纸定期消失
 
-If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+如果壁纸总是消失一小段时间，您可能将幻灯片配置为了 Windows 壁纸。 打开 Windows 壁纸设置，将纯色或静态图像设置为常规 Windows 壁纸，这将解决此问题。
 
 ## 与其他桌面修改软件冲突
 
