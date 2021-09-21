@@ -22,9 +22,9 @@ tags:
 
 Если вы включили **режим высокой контрастности** в настройках темы Windows 10 с выбранной темой **Контрастная белая**, Windows принудительно отключит обои Wallpaper Engine. Попробуйте изменить тему высокой контрастности, которую вы используете, в настройках высокой контрастности Windows или полностью отключите режим высокой контрастности, и проблема исчезнет.
 
-## Wallpapers disappearing / fading away in regular intervals
+## Обои исчезают через определенные промежутки времени
 
-If your wallpapers keep disappearing for a brief moment, you likely have a slideshow configured as your Windows wallpaper. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
+Если ваши обои исчезают на короткий промежуток времени, скорее всего, в качестве обоев Windows установлено слайд-шоу. Open the Windows wallpaper settings and set a solid color or a static image as your regular Windows wallpaper, this will fix this problem.
 
 ## Конфликты с другими программами для модификации рабочего стола
 
