@@ -1,6 +1,6 @@
 # 创意工坊协议附录
 
-With the release of Wallpaper Engine 2.0, Wallpaper Engine allows users to transfer their Workshop wallpapers to their Android mobile device. Mobile devices cannot directly access any Workshop content, users have to transfer their wallpapers from their Windows version of Wallpaper Engine to Android.
+随着 Wallpaper Engine 2.0 的发布，Wallpaper Engine 允许用户将其创意工坊壁纸传输到 Android 移动设备上。 移动设备无法直接访问任何创意工坊内容，用户必须将其壁纸从 Windows 版本的 Wallpaper Engine 传输到 Android。
 
 If you have created wallpapers for Wallpaper Engine in the past, you need to accept the latest Wallpaper Engine Workshop addendum before users can transfer your wallpapers to their mobile devices. Wallpaper Engine will prevent users from transferring wallpapers to the mobile app without the consent of the wallpaper creator.
 
