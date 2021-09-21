@@ -1,6 +1,6 @@
-# Workshop Agreement Addendum
+# 창작마당 약관 부록
 
-With the release of Wallpaper Engine 2.0, Wallpaper Engine allows users to transfer their Workshop wallpapers to their Android mobile device. Mobile devices cannot directly access any Workshop content, users have to transfer their wallpapers from their Windows version of Wallpaper Engine to Android.
+Wallpaper Engine 2.0 출시와 함께 창작마당 배경화면을 자신의 Android 모바일 기기로 이전할 수 있게 되었습니다. 모바일 기기는 창작마당 콘텐츠에 직접 접근할 수 없으며, 자신의 배경화면을 Windows Wallpaper Engine에서 Android 버전으로 이전해야 합니다.
 
 If you have created wallpapers for Wallpaper Engine in the past, you need to accept the latest Wallpaper Engine Workshop addendum before users can transfer your wallpapers to their mobile devices. Wallpaper Engine will prevent users from transferring wallpapers to the mobile app without the consent of the wallpaper creator.
 
