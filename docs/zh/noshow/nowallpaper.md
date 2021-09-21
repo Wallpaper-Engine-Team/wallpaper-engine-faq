@@ -34,7 +34,7 @@ Wallpaper Engine 可与大多数桌面修改应用程序协调并存。 但有�
 
 一般来说，Wallpaper Engine 可以很好地与 *Fences* 配合使用。 但**如果您安装了 Fences 却将其禁用**，它将隐藏 Wallpaper Engine 中的壁纸。 您需要启用它，或将其完全卸载。
 
-If you are using Fences and your Wallpaper Engine wallpapers are not visible, ensure that you are using **Fences 3.13 or newer** to avoid these compatibility issues with Wallpaper Engine. Fences 3.13 and newer versions contain important compatibility fixes with Wallpaper Engine, so it is important that you ensure your Fences is up-to-date.
+如果您使用 Fences 而且 Wallpaper Engine 壁纸不可见，请确保您使用的是 **Fences 3.13 或更高版本**，以避免这些与 Wallpaper Engine 间的兼容性问题。 Fences 3.13 和更高版本包含与 Wallpaper Engine 间的重要兼容性修复，因此请务必确保您的 Fences 是最新的。
 
 ## 壁纸在 Windows 7 系统上呈灰色或缺少纹理
 
