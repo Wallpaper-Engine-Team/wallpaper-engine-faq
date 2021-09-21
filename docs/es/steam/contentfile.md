@@ -8,4 +8,4 @@ Si Steam no puede descargar Wallpaper Engine al instalar o al actualizar el prog
 
 *Si tienes Steam o Wallpaper Engine instalado en un directorio distinto, tendrás que cambiar los directorios a la ruta de instalación de Steam.*
 
-If you have configured your antivirus app to ignore these directories but the issue persists, it is sometimes necessary to uninstall Wallpaper Engine through Steam, followed by manually deleting the remains of the `wallpaper_engine` directory to clear any antivirus locks which may continue to block Steam from downloading files. After deleting the entire `wallpaper_engine` folder, try reinstalling the app through Steam again.
+Si has configurado el antivirus para que ignore estos directorios y el problema persiste, puede que sea necesario desinstalar Wallpaper Engine a través de Steam. Después, tendrás que borrar manualmente los restos del directorio `wallpaper_engine` para eliminar cualquier bloqueo del antivirus que pueda seguir afectando a la descarga de archivos de Steam. Cuando borres toda la carpeta `wallpaper_engine`, vuelve a reinstalar el programa a través de Steam.
