@@ -14,10 +14,10 @@
 
 ## Почему мы создали бесплатное приложение для Android до поддержки Linux или Mac OS
 
-Большинство наших текущих пользователей использует устройства Android, но не Linux или Mac OS. Вот почему портирование на Android было единственным рациональным шагом, когда дело дошло до расширения количества платформ. By creating a free Android app as a new feature, we think we created a large improvement for the a vast number of our users.
+Большинство наших текущих пользователей использует устройства Android, но не Linux или Mac OS. Вот почему портирование на Android было единственным рациональным шагом, когда дело дошло до расширения количества платформ. Создав бесплатное приложение для Android в качестве дополнительной функции, мы думаем, что значительно улучшили работу огромного числа наших пользователей.
 
-Part of the work that went into the Android port can also be reused for Linux and OSX at a later point in time, slightly reducing the big hurdles we face supporting those operating systems. While creating the Android companion app was already a huge task for us, it was still significantly more achievable than a Linux or OSX port, where the full browsing and editing experience needs to be supported as well.
+Часть проделанной для портирования на Android работы позднее может быть повторно использована для Linux и OSX, что немного уменьшит серьезные препятствия, с которыми мы сталкиваемся при переносе на эти операционные системы. Хотя создание сопутствующего приложения для Android уже было сложной задачей, это все же было значительно проще, чем порт для Linux или OSX, который должен поддерживать полноценный просмотр и редактирование.
 
-## What about support for iPhones and iPads?
+## А как насчет поддержки iPhone и iPad?
 
 Apple's mobile operating system iOS currently does not support real dynamic live wallpapers like Android does. The possibilities for live wallpapers on iOS are very limiting since iOS does not allow for true live wallpapers. There is some limited support for very basic short animated wallpapers in the form of *Live Photos* but the format is very restrictive and the vast majority of Wallpaper Engine wallpapers aren't really compatible with it in a way that we deem acceptable.
