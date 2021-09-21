@@ -1,8 +1,8 @@
-# Workshop Agreement Addendum
+# Anexo del acuerdo del Workshop
 
-With the release of Wallpaper Engine 2.0, Wallpaper Engine allows users to transfer their Workshop wallpapers to their Android mobile device. Mobile devices cannot directly access any Workshop content, users have to transfer their wallpapers from their Windows version of Wallpaper Engine to Android.
+Con el lanzamiento de Wallpaper Engine 2.0, Wallpaper Engine permite a los usuarios transferir sus fondos de pantalla del Workshop a su dispositivo móvil Android. Los dispositivos móviles no pueden acceder directamente a ningún contenido del Workshop, así que los usuarios tienen que transferir los fondos de pantalla desde su versión de Windows de Wallpaper Engine a Android.
 
-If you have created wallpapers for Wallpaper Engine in the past, you need to accept the latest Wallpaper Engine Workshop addendum before users can transfer your wallpapers to their mobile devices. Wallpaper Engine will prevent users from transferring wallpapers to the mobile app without the consent of the wallpaper creator.
+Si has creado fondos de pantalla para Wallpaper Engine con anterioridad, tendrás que aceptar el último anexo de Wallpaper Engine Workshop antes de que los usuarios puedan transferir tus fondos de pantalla a sus dispositivos móviles. Wallpaper Engine no permitirá que los usuarios transfieran fondos de pantalla a la aplicación móvil sin el consentimiento del creador del fondo de pantalla.
 
 Since transferring Steam Workshop content to mobile devices has never been done before, the Steam Workshop Agreement does not cover this type of activity. We created an addendum to the Steam Workshop Agreement to ensure content creators are aware of the ability to transfer content to mobile devices. You can review and accept the addendum in either of the links below:
 
