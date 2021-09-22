@@ -34,5 +34,5 @@ Si la sortie audio ne génère toujours aucun son, il est possible que certains 
 
 Dans ce cas, vous pouvez utiliser *Codec Tweak Tool* pour réinitialiser tous les codecs audio et vidéo sur votre ordinateur (voir la page suivante). Redémarrez ensuite Wallpaper Engine, puis réessayez :
 
-* [Vidéos noires / Vidéos qui ne se lancent pas / Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [Vidéos noires / Vidéos qui ne se lancent pas / Codec Tweak Tool](/noshow/notplaying.html#codec-tweak-tool)
 

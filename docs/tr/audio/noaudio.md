@@ -33,5 +33,5 @@ Ses çıkışı bu noktada hala çalmıyorsa bazı ses codec bileşenleri bozuk 
 
 Bu durumda, sisteminizdeki tüm ses ve video codec bileşenlerini sıfırlamak için aşağıdaki sayfada açıklandığı şekilde *Codec Tweak Tool*'u kullanabilirsiniz. Sonrasında Wallpaper Engine'i yeniden başlatıp tekrar deneyin:
 
-* [Videolar Siyah / Düzgün Oynatılmıyor - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [Videolar Siyah / Düzgün Oynatılmıyor - Codec Tweak Tool](/noshow/notplaying.html#codec-tweak-tool)
 

@@ -7,3 +7,5 @@
 * `C:\Program Files (x86)\Steam\steamapps\downloading`
 
 *如果您的 Steam 或 Wallpaper Engine 安裝在不同目錄中，您必須將目錄調整至符合實際的 Steam 安裝路徑。*
+
+如果你已將防毒應用程式設定為忽略這些目錄，但此問題仍在，有時候必須透過 Steam 解除安裝 Wallpaper Engine，接著手動刪除 `wallpaper_engine` 目錄剩餘的檔案，來解除任何防毒應用程式的鎖定，以免又繼續阻擋 Steam 下載檔案。 刪除整個 `wallpaper_engine` 資料夾後，嘗試重新透過 Steam 再次安裝。

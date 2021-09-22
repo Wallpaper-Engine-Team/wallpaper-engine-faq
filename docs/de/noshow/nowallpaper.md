@@ -22,6 +22,10 @@ Wenn du ein Antivirenprogramm installiert hast (außer Windows Defender), ist es
 
 Wenn du den **Modus für hohen Kontrast** in deinen Windows 10-Einstellungen aktiviert hast und den Design-Stil **Hoher Kontrast - Weiß** ausgewählt hast, deaktiviert Windows die Hintergründe von Wallpaper Engine. Versuche den Design-Stil des für den Modus mit hohem Kontrast in den dazugehörigen Einstellungen von Windows zu verändern oder deaktiviere den Modus mit hohem Kontrast vollständig, in beiden Fällen sollte das Problem gelöst werden.
 
+## Wallpaper verschwinden in regelmäßigen Abständen
+
+Wenn deine Hintergründe wiederholt für einen kurzen Moment verschwinden, hast du wahrscheinlich eine Diashow als deinen Windows-Hintergrund konfiguriert. Öffne deine Windows-Hintergrundeinstellungen und setze eine Farbe oder ein statisches Bild als dein herkömmliches Windows-Hintergrundbild, dies löst dieses Problem.
+
 ## Konflikte mit anderen Anwendungen zur Veränderung des Windows-Desktops
 
 Wallpaper Engine funktioniert gut zusammen mit den meisten anderen Anwendungen zur Veränderungen des Windows Desktops. Trotzdem können einige Anwendungen, wie zum Beispiel StarDock DeskScapes auch die Hintergründe von Windows bearbeiten, in diesen Fällen kann man nicht beide Anwendungen gleichzeitig laufen lassen. Wenn du eine andere Anwendung nutzt, welche ähnlich zu Wallpaper Engine ist, musst du eine Wahl treffen und dich für eine dieser Anwendungen entscheiden.
@@ -29,6 +33,8 @@ Wallpaper Engine funktioniert gut zusammen mit den meisten anderen Anwendungen z
 ### Fences
 
 Allgemein funktioniert Wallpaper Engine gut in Verbindung mit *Fences*. **Wenn du jedoch Fences installiert hast, es aber deaktiviert ist**, wird es den Hintergrund von Wallpaper Engine verstecken. In diesem Fall musst du Fences entweder aktivieren oder vollständig deinstallieren.
+
+Wenn du Fences nutzt und deine Hintergründe von Wallpaper Engine nicht sichtbar sind, stelle sicher, dass du **Fences 3.13 oder neuer** nutzt, um diese Art von Kompatibilitätsproblemen mit Wallpaper Engine zu beheben. Fences 3.13 und neuere Versionen enthalten wichtige Fehlerbehebungen zur Kompatibilität mit Wallpaper Engine, von daher ist es wichtig, dass deine Fences-Installation auf dem neuesten Stand ist.
 
 ## Grauer Hintergrund oder fehlende Texturen auf Windows 7
 

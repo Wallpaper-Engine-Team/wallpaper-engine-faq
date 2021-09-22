@@ -21,6 +21,10 @@ Duvar kâğıtlarınızın bir kısmı veya hiçbiri görünmüyorsa bunun neden
 
 Windows 10 tema ayarlarınızdan **Yüksek Kontrast Beyaz** temasını seçerek **yüksek kontrast modunu** etkinleştirdiyseniz, Windows zorla Wallpaper Engine duvar kâğıtlarını kapatır. Windows yüksek kontrast ayarlarını kullanıyorsanıza yüksek kontrast temasını değiştirmeyi ya da yüksek kontrast modunu tamamen kapatmayı deneyin, sorun ortadan kalkacaktır.
 
+## Belirli aralıklarla kaybolan duvar kâğıtları
+
+Duvar kâğıtlarınız sürekli kısa süreliğine kayboluyor ise slayt gösteriniz Windows duvar kâğıdınız olarak yapılandırılmış olabilir. Windows duvar kâğıdı ayarlarınız açıp normal Windows duvar kâğıdınız olarak düz bir renk veya hareketsiz bir görüntü ayarlayarak sorunu çözebilirsiniz.
+
 ## Diğer masaüstü değişiklik yazılımlarıyla çakışmalar
 
 Wallpaper Engine, çoğu masaüstü değişiklik uygulamasıyla uyumlu çalışır. Ancak StarDock DeskScapes gibi bazı uygulamalar Windows duvar kâğıdını da değiştirir ve iki uygulamayı da aynı anda çalıştırmak mümkün değildir. Wallpaper Engine'e benzer bir uygulama kullanıyorsanız hangisini kullanmaya devam edeceğinize karar vermeniz gerekir.
@@ -28,6 +32,8 @@ Wallpaper Engine, çoğu masaüstü değişiklik uygulamasıyla uyumlu çalış�
 ### Fences
 
 Wallpaper Engine genellikle *Fences* ile uyumlu çalışır. Ancak **Fences yüklüyse ve bunu devre dışı bıraktıysanız** duvar kâğıdını Wallpaper Engine'den gizleyecektir. Uygulamayı tamamen etkinleştirmeniz veya kaldırmanız gerekir.
+
+Fences kullanıyorsanız ve Wallpaper Engine duvar kâğıtlarınız görünmüyor ise bu tür Wallpaper Engine uyum sorunlarından kaçınmak amacıyla **Fences 3.13 veya daha üstünü** kullandığınızdan emin olun. Fences 3.13 ve daha güncel sürümlerinde Wallpaper Engine'e yönelik önemli uyum ayarları mevcut olduğundan Fences uygulamanızın güncel olması önemlidir.
 
 ## Windows 7'deki Gri Duvar Kâğıdı veya eksik dokular
 

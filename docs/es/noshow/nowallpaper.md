@@ -22,6 +22,10 @@ Si tienes un antivirus instalado (que no sea Windows Defender) es muy probable q
 
 Si tienes activado el **modo de contraste alto** en los ajustes de Windows 10 con el tema **Blanco en alto contraste**, Windows se encargará de desactivar los fondos de Wallpaper Engine a la fuerza. Intenta cambiar el tema de contraste alto en los ajustes de Windows o desactiva el modo de contraste alto por completo para que desaparezca el problema.
 
+## Los fondos desaparecen o se desvanecen en intervalos regulares
+
+Si tus fondos no dejan de desaparecer durante un instante, es probable que tengas configurada una presentación como fondo de Windows. Abre la configuración del fondo de Windows y elige una imagen o un color sólido como fondo para solucionar el problema.
+
 ## Conflictos con otros programas de modificación de escritorio
 
 Wallpaper Engine funciona bien con casi todos los programas de modificación de escritorios. Sin embargo, hay algunos como StarDock DeskScapes que también modifican los fondos de Windows, por lo que no es posible usar los dos programas a la vez. Si usas un programa parecido a Wallpaper Engine, deberás decantarse por uno solo.
@@ -29,6 +33,8 @@ Wallpaper Engine funciona bien con casi todos los programas de modificación de 
 ### Fences
 
 Por lo general, Wallpaper Engine funciona bien con *Fences*. Sin embargo, **si tienes Fences instalado y lo has desactivado**, este ocultará el fondo de Wallpaper Engine. Tendrás que volver a activarlo o, en su defecto, desinstalarlo.
+
+Si usas Fences y no puedes ver los fondos de pantalla de Wallpaper Engine, asegúrate de que estés usando la versión **Fences 3.13 o superior** para evitar los problemas de compatibilidad con Wallpaper Engine. Las versiones 3.13 o superiores contienen varios cambios de compatibilidad con Wallpaper Engine, así que es importante que te asegures de que tienes Fences actualizado.
 
 ## Fondo gris o no hay texturas en Windows 7
 

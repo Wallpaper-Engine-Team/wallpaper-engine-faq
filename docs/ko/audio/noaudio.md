@@ -34,5 +34,5 @@ Windows가 Wallpaper Engine의 오디오 출력 장치를 잘못 선택한 것�
 
 그 경우 다음 페이지를 참조하며 *Codec Tweak 도구*로 시스템의 모든 오디오 및 비디오 코덱을 초기화한 후, Wallpaper Engine을 재시작하고 다시 시도하십시오:
 
-* [영상 검은색 / 제대로 재생되지 않습니다 - Codec Tweak 도구](noshow/notplaying.html#codec-tweak-tool)
+* [영상 검은색 / 제대로 재생되지 않습니다 - Codec Tweak 도구](/noshow/notplaying.html#codec-tweak-tool)
 

@@ -7,3 +7,5 @@ SteamがWallpaper Engineのインストールまたはアップデート中に�
 * `C:\Program Files (x86)\Steam\steamapps\downloading`
 
 *SteamまたはWallpaper Engineが別のディレクトリにインストールされている場合は、実際のSteamインストールパスに合わせてディレクトリを変更する必要があります。*
+
+ウイルス対策ソフトにこれらディレクトリを無視するよう設定をしても問題が解消されない場合は、SteamからWallpaper Engineをアンインストールし、`wallpaper_engine`のディレクトリに残るファイルを手動動で削除してください。これにより、Steamによるファイルのダウンロードをブロックするウイルス対策ロックをクリアすることができます。 `wallpaper_engine`のフォルダ全体を削除した後、Steamから本アプリを再インストールしてください。

@@ -34,5 +34,5 @@ Si la salida de audio sigue sin funcionar, es posible que estén dañados los co
 
 En ese caso, puedes usar *Codec Tweak Tool* tal y como te explicamos en esta página para reiniciar todos los codecs de sonido y de vídeo del sistema. Después, solo tendrás que reiniciar Wallpaper Engine y volver a intentarlo:
 
-* [Vídeos en negro / no se reproducen correctamente](noshow/notplaying.html#codec-tweak-tool)
+* [Vídeos en negro / no se reproducen correctamente](/noshow/notplaying.html#codec-tweak-tool)
 

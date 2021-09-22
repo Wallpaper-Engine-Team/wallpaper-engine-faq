@@ -34,5 +34,5 @@ Windows обрабатывает весь вывод звука в Wallpaper Eng
 
 В таком случае вы можете использовать инструмент *Codec Tweak Tool* следуя инструкции, указанной на следующей странице, чтобы восстановить все аудио- и видеокодеки в вашей системе, и затем перезапустите Wallpaper Engine и попробуйте снова:
 
-* [Черный экран / видео не воспроизводится — Инструмент Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [Черный экран / видео не воспроизводится — Инструмент Codec Tweak Tool](/noshow/notplaying.html#codec-tweak-tool)
 

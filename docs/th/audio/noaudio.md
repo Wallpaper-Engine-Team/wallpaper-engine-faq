@@ -34,5 +34,5 @@ Wallpaper Engine อนุญาตให้ Windows จัดการอุป
 
 ในกรณีนี้คุณสามารถใช้ *Codec Tweak Tool* เพื่อรีเซ็ตตัวแปลงสัญญาณเสียงและวิดีโอทั้งหมดในระบบของคุณตามที่อธิบายในหน้าถัดไป หลังจากนั้นรีสตาร์ท Wallpaper Engine แล้วลองอีกครั้ง:
 
-* [วิดีโอสีดำ / ไม่สามารถเล่นได้ตามปกติ - Codec Tweak Tool](noshow/notplaying.html#codec-tweak-tool)
+* [วิดีโอสีดำ / ไม่สามารถเล่นได้ตามปกติ - Codec Tweak Tool](/noshow/notplaying.html#codec-tweak-tool)
 
