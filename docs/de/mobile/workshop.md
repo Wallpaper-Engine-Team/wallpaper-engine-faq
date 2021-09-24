@@ -1,6 +1,6 @@
 # Zusatz zur Workshop-Vereinbarung
 
-Mit der Veröffentlichung von Wallpaper Engine 2.0, erlaubt Wallpaper Engine es Nutzern, Hintergründe aus dem Workshop auf deren Android-Mobilgeräte zu transferieren. Mobile devices cannot directly access any Workshop content, users have to transfer their wallpapers from their Windows version of Wallpaper Engine to Android.
+Mit der Veröffentlichung von Wallpaper Engine 2.0, erlaubt Wallpaper Engine es Nutzern, Hintergründe aus dem Workshop auf deren Android-Mobilgeräte zu transferieren. Mobile Endgeräte können nicht direkt auf den Workshop zugreifen, Nutzer müssen Hintergründe von der Windows-Version auf ihr Android-Gerät übertragen.
 
 If you have created wallpapers for Wallpaper Engine in the past, you need to accept the latest Wallpaper Engine Workshop addendum before users can transfer your wallpapers to their mobile devices. Wallpaper Engine will prevent users from transferring wallpapers to the mobile app without the consent of the wallpaper creator.
 
