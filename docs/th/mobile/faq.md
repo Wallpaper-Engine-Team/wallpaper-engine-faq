@@ -10,29 +10,29 @@ If you are having issues with connecting your computer to your Android device, s
 * [Pairing Mobile Device with Windows](/mobile/pairing.html)
 :::
 
-## Setting up Wallpaper Engine on Android
+## กำลังติดตั้ง Wallpaper Engine บน Android
 
-The free Wallpaper Engine companion app for Android devices requires **Android 8.1** or newer and supports phones and tablets.
+แอปคู่หู Wallpaper Engine ฟรีสำหรับอุปกรณ์ Android ต้องใช้ **Android 8.1** ขึ้นไป โดยรองรับทั้งโทรศัพท์มือถือและแท็บเล็ต
 
-We recommend installing the app through the official app store release but you can also directly download the latest app directly from our homepage. For download links and more information, please view our Android download page:
+เราขอแนะนำให้ติดตั้งแอปผ่านทาง App Store อย่างเป็นทางการ แต่คุณสามารถดาวน์โหลดแอปล่าสุดได้โดยตรงจากหน้าแรกของเรา โปรดดูลิงก์ดาวน์โหลดและข้อมูลเพิ่มเติมได้ที่หน้าดาวน์โหลด Android ของเรา:
 
-* [Download Wallpaper Engine for Android](https://www.wallpaperengine.io/android/)
+* [ดาวน์โหลด Wallpaper Engine สำหรับ Android](https://www.wallpaperengine.io/android/)
 
-## Cannot set live wallpaper on Android lock-screen
+## ไม่สามารถตั้งค่าวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อกของ Android
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+ทั้งนี้ขึ้นอยู่กับผู้ผลิตอุปกรณ์ของคุณและตัวเรียกใช้งาน Android ที่คุณใช้ คุณอาจไม่สามารถตั้งค่าวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อกได้ หรืออาจทำได้เพียงตั้งค่าวอลเปเปอร์เดียวกันกับหน้าจอหลัก
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+เมื่อดูตัวอย่างวอลเปเปอร์ภาพเคลื่อนไหวใน Wallpaper Engine บนโทรศัพท์ของคุณ ให้กดสัญลักษณ์เครื่องหมายถูกที่มุมขวาบนค้างไว้สองสามวินาที เพื่อเปิดวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอโทรศัพท์ของคุณ ตอนนี้ตัวเลือกในการตั้งค่าวอลเปเปอร์บนหน้าจอล็อกควรปรากฏขึ้น ทั้งนี้ขึ้นอยู่กับผู้ผลิตของคุณ หากตัวเลือกนี้ไม่ปรากฏขึ้น แสดงว่าโทรศัพท์ของคุณไม่รองรับวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อก ผู้ผลิตโทรศัพท์ต่อไปนี้เป็นที่ทราบกันดีว่าไม่อนุญาตให้ใช้วอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อกของอุปกรณ์บางประเภทหรือทั้งหมด:
 
 * Huawei
 * Xiaomi
 
-## How to unset Wallpaper Engine wallpaper
+## วิธียกเลิกการตั้งค่าวอลเปเปอร์ Wallpaper Engine
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+หากคุณต้องการหยุดใช้วอลเปเปอร์ Wallpaper Engine คุณสามารถกำหนดวอลเปเปอร์ใหม่ได้ในการตั้งค่า Android Wallpaper Engine เป็นเพียงวอลเปเปอร์หนึ่งสำหรับ Android และวอลเปเปอร์ไม่สามารถยกเลิกการตั้งค่าได้ด้วยตัวเอง
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+คุณยังสามารถถอนการติดตั้งทั้งหมดของ Wallpaper Engine ซึ่งจะคืนค่าวอลเปเปอร์เริ่มต้นให้โทรศัพท์ของคุณ
 
-## Android wallpaper regularly disappears or crashes silently
+## วอลเปเปอร์ Android หายไปหรือหยุดทำงานอย่างเงียบ ๆ อยู่บ่อยครั้ง
 
-If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+หากคุณใช้ Wallpaper Engine เป็นวอลเปเปอร์ แต่วอลเปเปอร์กลับหายไปโดยไม่มีข้อความแสดงข้อผิดพลาดเมื่อผ่านไปสองสามชั่วโมง หลายวัน หรือหลายสัปดาห์ เป็นไปได้ว่าวอลเปเปอร์ถูกยกเลิกโดยฟังก์ชันการประหยัดพลังงานของโทรศัพท์ของคุณโดยไม่ได้ตั้งใจ โดยปกติแล้ว Android ไม่ควรหยุดการใช้งานวอลเปเปอร์ภาพเคลื่อนไหวเพื่อจุดประสงค์ในการประหยัดพลังงาน แต่ผู้ใช้บางรายได้รายงานว่าสิ่งนี้เกิดขึ้นกับพวกเขา ส่วนใหญ่แล้วสิ่งนี้ขึ้นอยู่กับผู้ผลิตอุปกรณ์ของคุณ หาก Wallpaper Engine หายไปเป็นประจำ โปรดปิดการใช้งานการเพิ่มประสิทธิภาพพลังงานสำหรับ Wallpaper Engine ในการตั้งค่า Android การดำเนินการนี้ขึ้นอยู่กับเวอร์ชันและอุปกรณ์ Android ของคุณ หากคุณไม่แน่ใจ คุณสามารถค้นหาวิธีปิดการใช้งานการเพิ่มประสิทธิภาพพลังงานสำหรับแอปทางอินเทอร์เน็ตโดยใช้ชื่ออุปกรณ์มือถือของคุณ
