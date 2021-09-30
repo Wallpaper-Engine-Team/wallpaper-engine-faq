@@ -88,7 +88,7 @@ module.exports = {
 				label: es.language_name,
 				ariaLabel: es.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/es/', es.sidebar_windows, es.sidebar_crashes, es.sidebar_videos, es.sidebar_analysis, es.sidebar_audio, es.sidebar_performance, es.sidebar_noshow, es.sidebar_browser, es.sidebar_downloads, es.sidebar_general),
+					'/': getTopLevelSidebar('/es/', es.sidebar_windows, es.sidebar_crashes, es.sidebar_videos, es.sidebar_analysis, es.sidebar_audio, es.sidebar_performance, es.sidebar_noshow, es.sidebar_browser, es.sidebar_downloads, es.sidebar_general, es.sidebar_mobile),
 				}
 			},
 			'/fr/': {
@@ -98,7 +98,7 @@ module.exports = {
 				label: fr.language_name,
 				ariaLabel: fr.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/fr/', fr.sidebar_windows, fr.sidebar_crashes, fr.sidebar_videos, fr.sidebar_analysis, fr.sidebar_audio, fr.sidebar_performance, fr.sidebar_noshow, fr.sidebar_browser, fr.sidebar_downloads, fr.sidebar_general),
+					'/': getTopLevelSidebar('/fr/', fr.sidebar_windows, fr.sidebar_crashes, fr.sidebar_videos, fr.sidebar_analysis, fr.sidebar_audio, fr.sidebar_performance, fr.sidebar_noshow, fr.sidebar_browser, fr.sidebar_downloads, fr.sidebar_general, fr.sidebar_mobile),
 				}
 			},
 			'/de/': {
@@ -108,7 +108,7 @@ module.exports = {
 				label: de.language_name,
 				ariaLabel: de.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/de/', de.sidebar_windows, de.sidebar_crashes, de.sidebar_videos, de.sidebar_analysis, de.sidebar_audio, de.sidebar_performance, de.sidebar_noshow, de.sidebar_browser, de.sidebar_downloads, de.sidebar_general),
+					'/': getTopLevelSidebar('/de/', de.sidebar_windows, de.sidebar_crashes, de.sidebar_videos, de.sidebar_analysis, de.sidebar_audio, de.sidebar_performance, de.sidebar_noshow, de.sidebar_browser, de.sidebar_downloads, de.sidebar_general, de.sidebar_mobile),
 				}
 			},
 			'/ja/': {
@@ -118,7 +118,7 @@ module.exports = {
 				label: ja.language_name,
 				ariaLabel: ja.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/ja/', ja.sidebar_windows, ja.sidebar_crashes, ja.sidebar_videos, ja.sidebar_analysis, ja.sidebar_audio, ja.sidebar_performance, ja.sidebar_noshow, ja.sidebar_browser, ja.sidebar_downloads, ja.sidebar_general),
+					'/': getTopLevelSidebar('/ja/', ja.sidebar_windows, ja.sidebar_crashes, ja.sidebar_videos, ja.sidebar_analysis, ja.sidebar_audio, ja.sidebar_performance, ja.sidebar_noshow, ja.sidebar_browser, ja.sidebar_downloads, ja.sidebar_general, ja.sidebar_mobile),
 				}
 			},
 			'/ko/': {
@@ -128,7 +128,7 @@ module.exports = {
 				label: ko.language_name,
 				ariaLabel: ko.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/ko/', ko.sidebar_windows, ko.sidebar_crashes, ko.sidebar_videos, ko.sidebar_analysis, ko.sidebar_audio, ko.sidebar_performance, ko.sidebar_noshow, ko.sidebar_browser, ko.sidebar_downloads, ko.sidebar_general),
+					'/': getTopLevelSidebar('/ko/', ko.sidebar_windows, ko.sidebar_crashes, ko.sidebar_videos, ko.sidebar_analysis, ko.sidebar_audio, ko.sidebar_performance, ko.sidebar_noshow, ko.sidebar_browser, ko.sidebar_downloads, ko.sidebar_general, ko.sidebar_mobile),
 				}
 			},
 			'/pt/': {
@@ -138,7 +138,7 @@ module.exports = {
 				label: pt.language_name,
 				ariaLabel: pt.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/pt/', pt.sidebar_windows, pt.sidebar_crashes, pt.sidebar_videos, pt.sidebar_analysis, pt.sidebar_audio, pt.sidebar_performance, pt.sidebar_noshow, pt.sidebar_browser, pt.sidebar_downloads, pt.sidebar_general),
+					'/': getTopLevelSidebar('/pt/', pt.sidebar_windows, pt.sidebar_crashes, pt.sidebar_videos, pt.sidebar_analysis, pt.sidebar_audio, pt.sidebar_performance, pt.sidebar_noshow, pt.sidebar_browser, pt.sidebar_downloads, pt.sidebar_general, pt.sidebar_mobile),
 				}
 			},
 			'/ru/': {
@@ -148,7 +148,7 @@ module.exports = {
 				label: ru.language_name,
 				ariaLabel: ru.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/ru/', ru.sidebar_windows, ru.sidebar_crashes, ru.sidebar_videos, ru.sidebar_analysis, ru.sidebar_audio, ru.sidebar_performance, ru.sidebar_noshow, ru.sidebar_browser, ru.sidebar_downloads, ru.sidebar_general),
+					'/': getTopLevelSidebar('/ru/', ru.sidebar_windows, ru.sidebar_crashes, ru.sidebar_videos, ru.sidebar_analysis, ru.sidebar_audio, ru.sidebar_performance, ru.sidebar_noshow, ru.sidebar_browser, ru.sidebar_downloads, ru.sidebar_general, ru.sidebar_mobile),
 				}
 			},
 			'/th/': {
@@ -158,7 +158,7 @@ module.exports = {
 				label: th.language_name,
 				ariaLabel: th.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/th/', th.sidebar_windows, th.sidebar_crashes, th.sidebar_videos, th.sidebar_analysis, th.sidebar_audio, th.sidebar_performance, th.sidebar_noshow, th.sidebar_browser, th.sidebar_downloads, th.sidebar_general),
+					'/': getTopLevelSidebar('/th/', th.sidebar_windows, th.sidebar_crashes, th.sidebar_videos, th.sidebar_analysis, th.sidebar_audio, th.sidebar_performance, th.sidebar_noshow, th.sidebar_browser, th.sidebar_downloads, th.sidebar_general, th.sidebar_mobile),
 				}
 			},
 			'/tr/': {
@@ -168,7 +168,7 @@ module.exports = {
 				label: tr.language_name,
 				ariaLabel: tr.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/tr/', tr.sidebar_windows, tr.sidebar_crashes, tr.sidebar_videos, tr.sidebar_analysis, tr.sidebar_audio, tr.sidebar_performance, tr.sidebar_noshow, tr.sidebar_browser, tr.sidebar_downloads, tr.sidebar_general),
+					'/': getTopLevelSidebar('/tr/', tr.sidebar_windows, tr.sidebar_crashes, tr.sidebar_videos, tr.sidebar_analysis, tr.sidebar_audio, tr.sidebar_performance, tr.sidebar_noshow, tr.sidebar_browser, tr.sidebar_downloads, tr.sidebar_general, tr.sidebar_mobile),
 				}
 			},
 			'/zh/': {
@@ -178,7 +178,7 @@ module.exports = {
 				label: zh.language_name,
 				ariaLabel: zh.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/zh/', zh.sidebar_windows, zh.sidebar_crashes, zh.sidebar_videos, zh.sidebar_analysis, zh.sidebar_audio, zh.sidebar_performance, zh.sidebar_noshow, zh.sidebar_browser, zh.sidebar_downloads, zh.sidebar_general),
+					'/': getTopLevelSidebar('/zh/', zh.sidebar_windows, zh.sidebar_crashes, zh.sidebar_videos, zh.sidebar_analysis, zh.sidebar_audio, zh.sidebar_performance, zh.sidebar_noshow, zh.sidebar_browser, zh.sidebar_downloads, zh.sidebar_general, zh.sidebar_mobile),
 				}
 			},
 			'/zh-tw/': {
@@ -188,7 +188,7 @@ module.exports = {
 				label: zhtw.language_name,
 				ariaLabel: zhtw.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/zh-tw/', zhtw.sidebar_windows, zhtw.sidebar_crashes, zhtw.sidebar_videos, zhtw.sidebar_analysis, zhtw.sidebar_audio, zhtw.sidebar_performance, zhtw.sidebar_noshow, zhtw.sidebar_browser, zhtw.sidebar_downloads, zhtw.sidebar_general),
+					'/': getTopLevelSidebar('/zh-tw/', zhtw.sidebar_windows, zhtw.sidebar_crashes, zhtw.sidebar_videos, zhtw.sidebar_analysis, zhtw.sidebar_audio, zhtw.sidebar_performance, zhtw.sidebar_noshow, zhtw.sidebar_browser, zhtw.sidebar_downloads, zhtw.sidebar_general, zhtw.sidebar_mobile),
 				}
 			},
 			'/en/': {
@@ -198,7 +198,7 @@ module.exports = {
 				label: en.language_name,
 				ariaLabel: en.language_name,
 				sidebar: {
-					'/': getTopLevelSidebar('/en/', en.sidebar_windows, en.sidebar_crashes, en.sidebar_videos, en.sidebar_analysis, en.sidebar_audio, en.sidebar_performance, en.sidebar_noshow, en.sidebar_browser, en.sidebar_downloads, en.sidebar_general),
+					'/': getTopLevelSidebar('/en/', en.sidebar_windows, en.sidebar_crashes, en.sidebar_videos, en.sidebar_analysis, en.sidebar_audio, en.sidebar_performance, en.sidebar_noshow, en.sidebar_browser, en.sidebar_downloads, en.sidebar_general, en.sidebar_mobile),
 				}
 			},
 		}
@@ -222,7 +222,7 @@ module.exports = {
 	]
 };
 
-function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup, notShowingGroup, interfaceGroup, steamGroup, functionalityGroup) {
+function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugGroup, audioGroup, performanceGroup, notShowingGroup, interfaceGroup, steamGroup, functionalityGroup, mobileGroup) {
 	let groups = [
 		{
 			title: functionalityGroup,
@@ -266,6 +266,15 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 				locale + 'steam/uploads',
 				locale + 'steam/ingame',
 				locale + 'steam/library'
+			]
+		},
+		{
+			title: mobileGroup,
+			collapsable: false,
+			children: [
+				locale + 'mobile/faq',
+				locale + 'mobile/pairing',
+				locale + 'mobile/workshop',
 			]
 		},
 		{
