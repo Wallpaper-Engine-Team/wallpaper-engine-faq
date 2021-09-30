@@ -42,31 +42,31 @@ Starting with iCUE 4, you need to manually enable software control in the iCUE s
 
 If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+Обратите внимание, что iCUE работает в *монопольном режиме*. Это значит, что Wallpaper Engine будет иметь приоритет перед другими программами, совместимыми с iCUE, например, играми. Если вы хотите, чтобы игра управляла анимацией подсветки клавиатуры, зайдите в настройки Wallpaper Engine, откройте вкладку **Производительность** и выберите в выпадающем списке параметра **Другое приложение в полный экран** вариант **Остановить (освободить память)**, чтобы отключить воспроизведение обоев на время игры. Вы также можете отключить либо сам плагин RGB-подсветки, либо опцию RGB-подсветки для отдельных обоев.
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+Если вам нужа помощь с устройствами Corsair iCUE, пожалуйста, обратитесь в техподдержку Corsair напрямую:
 
 [help.corsair.com](https://help.corsair.com/)
 
-Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
+Если у вас возникнут сложности с техподдержкой Corsair, вы можете написать нам, и мы попробуем вам помочь.
 
 ### Razer
 
-Most problems related to Razer RGB hardware can be fixed by doing a clean reinstallation of the Razer software suite while Wallpaper Engine is turned off:
+Большинство проблем, связанных с устройствами Razer с RGB-подсветкой, можно решить, выполнив чистую переустановку программного пакета Razer при выключенной Wallpaper Engine:
 
 1. Полностью выключите Wallpaper Engine. Этот шаг очень важен, не пропускайте его.
 2. Удалите все программное обеспечение Razer со своего компьютера через Windows.
 3. Повторно скачайте последнюю версию Razer Synapse 3 и установите ее. **Важно:** обязательно переустановите модуль **Chroma Connect** в самом Razer Synapse.
 4. Перезагрузите компьютер, не запускайте Wallpaper Engine до перезагрузки Windows.
 
-See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
+Проверьте, решат ли эти шаги проблемы аппаратного обеспечения с RGB-подсветкой. Для получения дополнительной поддержки по устройствам Razer свяжитесь напрямую с командой Razer:
 
 [support.razer.com](https://support.razer.com/)
 
-Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
+Если у вас возникнут сложности с техподдержкой Razer, вы можете написать нам, и мы попробуем вам помочь.
 
 #### Razer Synapse 2 и более ранние версии
 
-We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+Мы поддерживаем Razer Synapse начиная с третьей версии. Если вы используете Razer Synapse 1 или Razer Synapse 2, полностью удалите устаревшую программу и обновитесь до последней версии Razer Synapse. Некоторые пользователи сталкивались с проблемами, которые вызывали сохранившиеся в системе остаточные файлы старой версии Razer Synapse. Если раньше вы пользовались Razer Synapse 2 или более старыми версиями программы, а теперь столкнулись с проблемами в работе RGB-подсветки или даже с аварийным завершением работы при включенном плагине RGB-подсветки, вам надо найти остаточные файлы старой версии Razer Synapse и удалить их.
 
-If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
+Если ваше устройство Razer сравнительно старое и не поддерживает Razer Synapse 3 и более новые версии, к сожалению его RGB-подсветка несовместима с Wallpaper Engine.
