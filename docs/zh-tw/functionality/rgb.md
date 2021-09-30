@@ -42,31 +42,31 @@ Starting with iCUE 4, you need to manually enable software control in the iCUE s
 
 If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
 
-Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
+請注意，iCUE 是以*獨佔模式*使用，代表 Wallpaper Engine 將優先於其他與 iCUE 相容的軟體，例如遊戲。 如果您希望遊戲為鍵盤賦予動畫效果，請前往 Wallpaper Engine 設定的**效能**分頁，將**其他應用程式全螢幕顯示時**選項設定為**停止 (釋放記憶體)**，玩遊戲時便能阻止桌布開啟。 或者，您可以停用 RGB 外掛程式或在個別的桌布停用 RGB 選項。
 
-For support with Corsair iCUE hardware, please contact Corsair directly:
+如果需要 Corsair iCUE 硬體方面的支援，請直接聯絡 Corsair：
 
 [help.corsair.com](https://help.corsair.com/)
 
-Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
+如果您聯絡 Corsair 支援部門後仍遇到任何問題，還是可以與我們聯絡，一起確認如何解決。
 
 ### Razer
 
-Most problems related to Razer RGB hardware can be fixed by doing a clean reinstallation of the Razer software suite while Wallpaper Engine is turned off:
+大部分與 Razer RGB 硬體相關的問題皆可解決，只要關閉 Wallpaper Engine 並將 Razer 軟體套件全新安裝即可：
 
 1. 完全關閉 Wallpaper Engine。 這步驟很重要，請勿跳過。
 2. 透過 Windows 系統將所有 Razer 軟體解除安裝。
 3. 重新下載並安裝最新版本的 Razer Synapse 3。 **重要事項：**請確認也重新安裝 Razer Synapse 本身的 **Chroma Connect** 模組。
 4. 重新啟動電腦，務必先重新啟動 Windows，再啟動 Wallpaper Engine。
 
-See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
+確認上述步驟是否能解決 RGB 硬體問題。 如果需要其他 Razer 硬體方面的支援，請直接聯絡 Razer：
 
 [support.razer.com](https://support.razer.com/)
 
-Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
+如果您聯絡 Razer 支援部門後遇到任何問題，還是可以與我們聯絡，一起確認如何解決。
 
 #### Razer Synapse 2 及更舊版本
 
-We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
+我們僅支援 Razer Synapse 3 或更新版本。 如果您使用 Razer Synapse 1 或 Razer Synapse 2，請確認完全解除安裝，並升級到最新版本的 Razer Synapse。 以往有些使用者的系統存在舊版 Razer Synapse 遺留的檔案，結果便遇到了問題。 如果您安裝了 Razer Synapse 2 或更舊的版本，而且遇到 RGB 亮光問題，或甚至在啟用 RGB 外掛程式後遇到當機，可能需要找到舊版 Razer Synapse 所有遺留的檔案，並將其刪除。
 
-If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
+如果您的 Razer 硬體相對較舊，且不支援 Razer Synapse 3 或更新版本，那很可惜，代表 RGB 亮光與 Wallpaper Engine 並不相容。
