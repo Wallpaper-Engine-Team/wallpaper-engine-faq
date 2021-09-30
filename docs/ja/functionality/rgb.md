@@ -33,37 +33,40 @@ Wallpaper Engineの*プラグイン*セクションが見えない場合、*Visu
 
 ### Corsair
 
-**Corsair system memory (RAM) などのハードウェアでは、ソフトウェアコントロールがデフォルトで無効**になっています。これは、iCUEソフトウェア設定で許可しない限り、メモリモジュールがWallpaper Engineに従ってライトアップしないということです。 メモリセクションのiCUEデバイス設定で「完全なソフトウェアコントロールを有効にする」が選択されていることを確認してください。
+Starting with iCUE 4, you need to manually enable software control in the iCUE settings first, otherwise Wallpaper Engine cannot connect to iCUE. If you have any issues with RGB lighting in combination with Corsair iCUE, make sure to check the iCUE settings first.
 
-![iCUEで完全なソフトウェアコントロールを有効にする](./icue.png)
+* Open iCUE.
+* Click the Settings icon in the upper right corner.
+* Click **Software and Games** on the left menu of the settings window.
+* Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
 
-正しく動作しない、その他のハードウェアパーツについても、このオプションを確認してください。
+If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
 
-iCUEは*排他モード*で使用されているという点に注意してください。これは、Wallpaper Engineが、ゲームなどの他のiCUE互換ソフトウェアよりも優先的に使用するということです。 ゲームにキーボードをアニメーションさせたい場合は、Wallpaper Engine設定の**パフォーマンス**タブで、**他のアプリケーションがフルスクリーンになった場合**オプションを**停止（メモリ解放）** にセットして、ゲーム中は壁紙を停止させてください。 または、RGBプラグインを無効にしたり、壁紙ごとにRGBオプションを無効にしたりすることもできます。
+Note that iCUE is used in *exclusive mode*, this means that Wallpaper Engine will take priority over other iCUE-compatible software such as games. If you want your games to animate your keyboard, go to the **Performance** tab of the Wallpaper Engine settings and set the **Other applications fullscreen** option to **Stop (free memory)** to stop wallpapers while in-game. Alternatively, disable either the RGB plugin or disable the RGB option on individual wallpapers.
 
-Corsair iCUEハードウェアのサポートが必要な場合は、Corsairに直接お問い合わせください。
+For support with Corsair iCUE hardware, please contact Corsair directly:
 
 [help.corsair.com](https://help.corsair.com/)
 
-Corsairのサポートに関して問題が起きた場合、私たちにご連絡いただくこともできます。何か力になれるかどうか確認させていただきます。
+Should you run into any issues with Corsair's support, you can still reach out to us and we will see if we can help you.
 
 ### Razer
 
-Razer RGB ハードウェアに関する問題のほとんどは、Wallpaper Engine が起動していない時に Razer ソフトウェアスイートのクリーン再インストールを行うことで解消できます。
+Most problems related to Razer RGB hardware can be fixed by doing a clean reinstallation of the Razer software suite while Wallpaper Engine is turned off:
 
 1. Wallpaper Engine を完全に終了します。 これは非常に重要な手順なので飛ばさないでください。
 2. すべての Razer ソフトウェアを Windows を使ってアンインストールします。
 3. Razer Synapse 3 の最新バージョンをダウンロードし直し、インストールします。 **重要：**Razer Synapseそのものの**Chroma Connect**モジュールも必ず再インストールしてください。
 4. コンピューターを再起動します。Windows の再起動前に Wallpaper Engine を起動しないでください。
 
-RGB ハードウェアの問題が解決しているかどうか確認します。 Razer ハードウェアに関してさらにサポートが必要な場合は、Razer に直接お問い合わせください：
+See if this resolves your issues with your RGB hardware. For additional support with Razer hardware, please contact Razer directly:
 
 [support.razer.com](https://support.razer.com/)
 
-Razerのサポートに関して問題が起きた場合、私たちにご連絡いただくこともできます。何か力になれるかどうか確認させていただきます。
+Should you run into any issues with Razer's support, you can still reach out to us and we will see if we can help you.
 
 #### Razer Synapse 2 以前
 
-Wallpaper Engineは、Razer Synapse 3以降のみをサポートしています。 Razer Synapse 1またはRazer Synapse 2をお使いの場合は、これらを完全にアンインストールして、Razer Synapseの最新バージョンにアップグレードしてください。 以前、古いRazer Synapseの名残がシステムに残っていたために問題が起きたことがあります。 Razer Synapse 2以前のバージョンをインストールしていたことがあり、RGBライティングに問題が起きたり、RGBプラグインが有効になっているときにクラッシュしたりする場合は、古いRazer Synapseバージョンのものがシステムに残っているのを見つけて削除する必要があるかもしれません。
+We only support Razer Synapse 3 or newer. If you are using Razer Synapse 1 or Razer Synapse 2, make sure to fully uninstall them and upgrade to the latest version of Razer Synapse. In the past, some users had issues with remnants of old Razer Synapse having been left on their system. If you had Razer Synapse 2 or older installed and have issues with your RGB lighting or even experience crashes with the RGB plugin being enabled, you may need to find any leftovers of old Razer Synapse versions on your system and delete it.
 
-お使いのRazerハードウェアが古く、Razer Synapse 3以降をサポートしていない場合は、残念ながら、そのRGBライティングはWallpaper Engineとは互換性がありません。
+If your Razer hardware is relatively old and does not support Razer Synapse 3 or newer, unfortunately its RGB lighting is not compatible with Wallpaper Engine.
