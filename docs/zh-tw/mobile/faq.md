@@ -10,29 +10,29 @@ If you are having issues with connecting your computer to your Android device, s
 * [Pairing Mobile Device with Windows](/mobile/pairing.html)
 :::
 
-## Setting up Wallpaper Engine on Android
+## 在 Android 上設定 Wallpaper Engine
 
-The free Wallpaper Engine companion app for Android devices requires **Android 8.1** or newer and supports phones and tablets.
+適用於 Android 裝置的免費 Wallpaper Engine 隨附應用程式需要 **Android 8.1** 或更新版本，支援手機與平板。
 
-We recommend installing the app through the official app store release but you can also directly download the latest app directly from our homepage. For download links and more information, please view our Android download page:
+建議您透過官方應用程式商店下載，不過您也可以從我們的首頁直接下載最新的應用程式。 如需下載的連結或進一步了解詳情，請檢視我們的 Android 版本下載頁面：
 
-* [Download Wallpaper Engine for Android](https://www.wallpaperengine.io/android/)
+* [下載 Android 版 Wallpaper Engine](https://www.wallpaperengine.io/android/)
 
-## Cannot set live wallpaper on Android lock-screen
+## 無法在 Android 鎖定畫面上設定動態桌布
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+依據使用的裝置製造商與 Android 啟動器的不同，您可能無法在鎖定畫面上設定動態桌布，或只能在主畫面設定相同的桌布。
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+在手機上的 Wallpaper Engine 預覽動態桌布時，請長按右上角的勾號， 就能打開手機上的動態桌布螢幕。 雖然使用裝置的製造商不同，但您應該可以在鎖定畫面看見設定桌布的選項，如果此選項未出現，應該是手機的鎖定畫面不支援動態桌布。 已知下列手機製造商不允許其部分或所有裝置在鎖定畫面顯示動態桌布：
 
-* Huawei
-* Xiaomi
+* 華為
+* 小米
 
-## How to unset Wallpaper Engine wallpaper
+## 如何取消設定 Wallpaper Engine 桌布
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+如果您不想再使用 Wallpaper Engine 的桌布，只要在 Android 設定中指派新的桌布即可。 Wallpaper Engine 只是 Android 的另一種桌布，桌布本身無法取消設定。
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+不過，您可解除安裝 Wallpaper Engine，手機將回復成預設桌布。
 
-## Android wallpaper regularly disappears or crashes silently
+## Android 桌布定期消失或突然無法運作
 
-If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+如果您將 Wallpaper Engine 設為桌布，但桌布在數小時、數天或數週後消失，且未出現任何錯誤訊息，則很可能是因為手機的省電功能使其錯誤終止運作。 在正常情況下，Android 絕不會因為省電而終止動態桌布，但一些使用者卻回報了此狀況。 這大部分與裝置製造商有關，如果 Wallpaper Engine 固定消失，請在 Android 設定中停用 Wallpaper Engine 電源最佳化。 因 Android 版本與裝置的操作方法各不相同，如果您不確定，可上網搜尋方法，依據確切的行動裝置名稱，確認如何停用應用程式電源最佳化。
