@@ -1,11 +1,26 @@
 # 預覽圖像/搜尋結果未顯示
 
-如果您看不見已安裝桌布之外的預覽圖像，代表有防火牆或安全軟體阻止瀏覽器存取網際網路。 您必須停用該防火牆或安全軟體，或將「ui32.exe」新增至例外。
+If you cannot see preview images for uninstalled wallpapers in Wallpaper Engine, this usually means that is a firewall or security software is blocking Wallpaper Engine from accessing the Steam image servers.
 
-預覽圖像是由 Steam 伺服器直接下載。 如果無法載入預覽圖像，代表 Wallpaper Engine 與 Steam 伺服器之間的連結受阻。 有些使用者是因為網路路由器的封鎖，您可以將電腦改連線至智慧型手機的 Wi-Fi 熱點，確認預覽圖像是否能顯示，藉此測試是否為網路路由器的問題。
+## Test Your Connection to the Steam Image Servers
 
-有些*加速器軟體*的使用者也會遇到無法載入預覽圖像的問題。 請確保任何類型的網路加速器軟體皆不會阻止 Wallpaper Engine 在背景下載圖像檔案。
+First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
 
-## 無桌布或僅少數桌布顯示
+* [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-您可能啟用了條件過於嚴格的篩選條件。 按一下篩選條件側欄的「重設篩選條件」按鈕，以重設所有篩選條件。
+You should see a messages that says **OK** and shows a **green checkmark** when clicking on the link above.
+
+### I can see the OK message
+
+If you see the **OK** message when clicking the test link above:
+
+* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine.
+
+### I can NOT see the OK message
+
+If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
+
+* An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers. Make sure to specifically configure any applications like that to ignore the Wallpaper Engine process **ui32.exe**.
+* Your router is somehow misconfigured. Check your router firewall settings.
+    * You can easily test if your router is at fault by connecting your computer to a wifi hotspot through your smartphone. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router.
+* Your internet service provider may be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
