@@ -7,9 +7,16 @@ Teknik bir sorun yaşıyor ya da Wallpaper Engine hakkında soru sormak istiyors
 Sağ üst köşedeki arama çubuğuna anahtar kelimeler girin. Örneğin, duvar kâğıdınız sadece siyah arka planları gösteriyorsa, "siyah" kelimesini arayabilirsiniz.
 :::
 
-## En popüler destek makaleleri
+## Android FAQ
 
-Önce bu listede kendi sorununuza benzer başlıkların açılıp açılmadığına bakın, bulamazsanız sağ üst köşedeki arama çubuğunu kullanabilir ya da soldaki listeden diğer makaleleri inceleyebilirsiniz:
+If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+
+* [Android - Frequent Questions and Problems](mobile/faq.html)
+* [Pairing Mobile Device with Windows](mobile/pairing.html)
+
+## Most popular support articles
+
+Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
 | **Popüler Makaleler**                                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -18,3 +25,4 @@ Sağ üst köşedeki arama çubuğuna anahtar kelimeler girin. Örneğin, duvar 
 | 3. [Video renkleri yanlış/çok parlak ya da çok karanlık/yakınlaştırılmış/pikselli/videonun çevresinde kenarlık var](videos/artifacts.html) |
 | 4. [Wallpaper Engine çöktü](crash/application.html)                                                                                        |
 | 5. [Duvar kâğıtlarını GIF/video dosyası olarak dışarı aktarma](functionality/export.html)                                                  |
+
