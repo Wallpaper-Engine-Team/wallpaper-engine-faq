@@ -274,7 +274,6 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 			children: [
 				locale + 'mobile/faq',
 				locale + 'mobile/pairing',
-				locale + 'mobile/workshop',
 			]
 		},
 		{

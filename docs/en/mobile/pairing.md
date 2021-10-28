@@ -2,7 +2,11 @@
 
 You can pair your mobile devices with your computer to wirelessly transfer your wallpaper collection to the Wallpaper Engine companion app on your mobile device. It's not possible for the Android app to directly download wallpapers from the Steam Workshop because only Steam itself can download the wallpaper files.
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+::: tip
+Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting them as **.mpkg** files that the Wallpaper Engine mobile app uses.
+
+See the **Backup Solution** section at the bottom of this page to learn how to create **.mpkg** and how to import them on your mobile device.
+:::
 
 ### Preparing Wallpaper Engine on Windows
 
@@ -25,6 +29,8 @@ If you cannot pair your mobile device to your computer, a firewall or local netw
 * Ensure that your phone and computer are connected to the same local network.
 * Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
 * Ensure your network router is not blocking your devices from communicating with each other.
+    * Make sure your router is not blocking network traffic between devices.
+    * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
 * Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
 * Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
 
