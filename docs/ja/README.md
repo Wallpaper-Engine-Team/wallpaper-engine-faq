@@ -7,9 +7,16 @@
 右上の検索バーでは、一つのキーワードのみをお使いください。 例えば、壁紙がただの黒背景になってしまっているときは、単に「黒」で検索してみてください。
 :::
 
-## 最も多く利用されるサポート項目
+## Android FAQ
 
-まずこのリストをチェックして、ご自分の問題に当てはまるものがないかどうか確かめてください。右上の検索を使ったり、左のリストでもっと多くの項目から探したりすることもできます。
+If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+
+* [Android - Frequent Questions and Problems](mobile/faq.html)
+* [Pairing Mobile Device with Windows](mobile/pairing.html)
+
+## Most popular support articles
+
+Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
 | **トップ項目**                                                                                   |
 | ------------------------------------------------------------------------------------------- |
@@ -18,3 +25,4 @@
 | 3. [ビデオの色がおかしい / 明るすぎる、または暗すぎる / 拡大表示される / ピクセル化される / ビデオの周囲に境界線が出る](videos/artifacts.html) |
 | 4. [Wallpaper Engineがクラッシュする](crash/application.html)                                       |
 | 5. [壁紙をGIFや動画ファイルにエクスポートする](functionality/export.html)                                      |
+
