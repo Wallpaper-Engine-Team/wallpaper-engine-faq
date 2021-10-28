@@ -14,13 +14,13 @@ You should see a messages that says **OK** and shows a **green checkmark** when 
 
 If you see the **OK** message when clicking the test link above:
 
-* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine.
+* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
 
 ### I can NOT see the OK message
 
 If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
 
-* An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers. Make sure to specifically configure any applications like that to ignore the Wallpaper Engine process **ui32.exe**.
+* An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
 * Your router is somehow misconfigured. Check your router firewall settings.
     * You can easily test if your router is at fault by connecting your computer to a wifi hotspot through your smartphone. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router.
 * Your internet service provider may be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
