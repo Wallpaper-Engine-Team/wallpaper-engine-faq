@@ -7,9 +7,16 @@ Falls du technische Probleme oder einfach eine Frage über Wallpaper Engine hast
 Nutze die Suchleiste oben rechts mit einzelnen Schlagwörtern. Zum Beispiel, wenn deine Hintergründe einfach schwarz angezeigt werden, versuche einfach nur nach "schwarz" zu suchen.
 :::
 
-## Am häufigsten gelesene Hilfe-Artikel
+## Android FAQ
 
-Schaue zunächst ob dein Problem in der folgenden Liste dabei ist, ansonsten nutze die Suche oben rechts oder schaue durch die Liste von Artikeln auf der linken Seite:
+If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+
+* [Android - Frequent Questions and Problems](mobile/faq.html)
+* [Pairing Mobile Device with Windows](mobile/pairing.html)
+
+## Most popular support articles
+
+Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
 | **Top-Hilfeseiten**                                                                                                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -18,3 +25,4 @@ Schaue zunächst ob dein Problem in der folgenden Liste dabei ist, ansonsten nut
 | 3. [Video-Farben sind falsch / zu hell oder zu dunkel/ reingezoomtes bild / verpixeltes Bild / Rahmen um das Bild herum](videos/artifacts.html) |
 | 4. [Abstürze von Wallpaper Engine](crash/application.html)                                                                                      |
 | 5. [Hintergründe als GIF- / Video-Dateien exportieren](functionality/export.html)                                                               |
+
