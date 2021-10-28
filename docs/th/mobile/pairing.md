@@ -10,25 +10,25 @@ See the **Backup Solution** section at the bottom of this page to learn how to c
 
 ### กำลังเตรียม Wallpaper Engine บน Windows
 
-In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
+ในแอป **Windows** ให้คลิกปุ่ม **โทรศัพท์** ที่มุมขวาบนของส่วนต่อประสานกับผู้ใช้ ภาพรวมอุปกรณ์มือถือจะเปิดขึ้น ด้านล่างของภาพรวมอุปกรณ์ ให้คลิกที่ปุ่ม **เชื่อมต่ออุปกรณ์ใหม่** Wallpaper Engine จะแสดง PIN 4 หลักซึ่งคุณสามารถใช้เพื่อจับคู่กับอุปกรณ์มือถือหนึ่งเครื่อง
 
-![Mobile PIN](/img/faq/mobile_pin.gif)
+![PIN มือถือ](/img/faq/mobile_pin.gif)
 
 ### กำลังเชื่อมต่ออุปกรณ์มือถือของคุณ
 
-In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above). The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
+ในแอปคู่หูโทรศัพท์มือถือ Wallpaper Engine ให้คลิก **เพิ่ม** ที่มุมล่างขวา จากนั้นคลิก **จับคู่กับคอมพิวเตอร์** แอป Wallpaper Engine จะค้นหาเครือข่ายภายในของคุณเพื่อเรียกใช้ตัวอย่างของ Wallpaper Engine สำหรับ Windows คอมพิวเตอร์ Windows ของคุณจะปรากฏขึ้นภายในเวลาไม่นานเพื่อให้คุณเชื่อมต่อได้ในคลิกเดียว หากคุณเชื่อมต่อเป็นครั้งแรก ระบบจะขอให้คุณป้อน PIN 4 หลัก (ดูหัวข้อ Windows ด้านบน) PIN เป็นมาตรการรักษาความปลอดภัยเพิ่มเติมที่ช่วยเพิ่มความมั่นใจว่าผู้ใช้ที่ไม่ได้รับอนุญาตจะไม่สามารถเชื่อมต่อกับคอมพิวเตอร์ของคุณได้โดยที่คุณไม่รู้ตัว
 
-Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+หลังจากป้อน PIN แล้ว แถบสถานะในแอปมือถือจะเปลี่ยนเป็นสีเขียวและแสดงคอมพิวเตอร์ที่เชื่อมต่อ ปุ่ม **โทรศัพท์** ในแอป Windows จะเปลี่ยนเป็นสีเขียวเพื่อแสดงว่ากำลังการเชื่อมต่อมือถือทำงานอยู่
 
-![Mobile PIN](/img/faq/mobile_pair.gif)
+![PIN มือถือ](/img/faq/mobile_pair.gif)
 
 ## กำลังแก้ปัญหาการจับคู่มือถือ
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+หากคุณไม่สามารถจับคู่อุปกรณ์มือถือกับคอมพิวเตอร์ได้ อาจเกิดจากความผิดพลาดของไฟร์วอลล์หรือการตั้งค่าเครือข่ายภายใน ตรวจสอบสาเหตุที่อาจทำให้เกิดปัญหาดังต่อไปนี้:
 
 * ตรวจสอบให้แน่ใจว่าโทรศัพท์และคอมพิวเตอร์ของคุณเชื่อมต่อกับเครือข่ายภายในเดียวกัน
 * ตรวจสอบให้แน่ใจว่าไฟร์วอลล์ไม่ได้ป้องกันไม่ให้ Wallpaper Engine สื่อสารกับเครือข่ายภายในของคุณ
-* Ensure your network router is not blocking your devices from communicating with each other.
+* ตรวจสอบให้แน่ใจว่าเราเตอร์เครือข่ายไม่ได้ปิดกั้นอุปกรณ์ของคุณไม่ให้สื่อสารกัน
     * Make sure your router is not blocking network traffic between devices.
     * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
 * ปิดการใช้งาน VPN หรือซอฟต์แวร์พร็อกซีบนคอมพิวเตอร์และอุปกรณ์มือถือซึ่งอาจรบกวนการสื่อสารระหว่างอุปกรณ์ของคุณ
@@ -36,8 +36,8 @@ If you cannot pair your mobile device to your computer, a firewall or local netw
 
 ## วิธีแก้ปัญหาสำรอง: นำเข้าไฟล์วอลเปเปอร์ (.mpkg) ด้วยตนเอง
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+หากคุณแก้ไขปัญหาการเชื่อมต่อระหว่างคอมพิวเตอร์และอุปกรณ์มือถือไม่ได้ คุณยังสามารถโอนวอลเปเปอร์ไปยังอุปกรณ์มือถือได้ด้วยตนเอง ขั้นแรกให้เลือกวอลเปเปอร์ใน Wallpaper Engine ที่ต้องการส่งออก จากนั้นคลิกขวาที่วอลเปเปอร์เหล่านั้นแล้วเลือก **ส่งไปยังอุปกรณ์มือถือ** ตามด้วยคลิกที่ **ส่งออก .mpkg**
 
-Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+เมื่อ Wallpaper Engine สร้างไฟล์ .mpkg สำหรับวอลเปเปอร์ของคุณแล้ว คุณสามารถถ่ายโอนไฟล์เหล่านั้นไปยังอุปกรณ์มือถือได้ได้โดยการย้ายไฟล์ผ่าน USB หรือคัดลอกไฟล์ไปยังการ์ด SD คุณยังสามารถใช้บริการ File Sharing บนอุปกรณ์มือถือ หรือส่งผ่านบริการส่งข้อความให้ตัวเอง หรือส่งทางอีเมลก็ได้เช่นกัน (หากขนาดไฟล์ไม่เกินที่กำหนด)
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+เมื่อไฟล์อยู่ในอุปกรณ์มือถือของคุณแล้ว ให้เปิด Wallpaper Engine บนอุปกรณ์มือถือของคุณและใช้ฟังก์ชัน **นำเข้าไฟล์** เพื่อนำเข้าไฟล์ .mpkg จากไดเร็กทอรีที่คุณวางไว้เข้าสู่แอปโดยตรง
