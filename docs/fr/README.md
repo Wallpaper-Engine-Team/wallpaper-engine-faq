@@ -7,9 +7,16 @@ Si vous rencontrez un problème ou si vous avez une question sur Wallpaper Engin
 Utilisez la barre de recherche avec des mots-clés simples. Par exemple, si vos fonds d'écran restent noirs, cherchez le mot-clé "noir".
 :::
 
-## Articles les plus populaires
+## Android FAQ
 
-Jetez un œil à cette liste et voyez si l'un des problèmes correspond au vôtre. Sinon, vous pouvez utiliser la barre de recherche ou consultez la liste de gauche :
+If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+
+* [Android - Frequent Questions and Problems](mobile/faq.html)
+* [Pairing Mobile Device with Windows](mobile/pairing.html)
+
+## Most popular support articles
+
+Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
 | **Articles les plus populaires**                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------- |
@@ -18,3 +25,4 @@ Jetez un œil à cette liste et voyez si l'un des problèmes correspond au vôtr
 | 3. [Couleurs étranges / problèmes de luminosité / zoom / pixels / bordure autour d'une vidéo](videos/artifacts.html) |
 | 4. [Plantage de Wallpaper Engine](crash/application.html)                                                            |
 | 5. [Exporter un fond d'écran en tant que GIF / vidéo](functionality/export.html)                                     |
+
