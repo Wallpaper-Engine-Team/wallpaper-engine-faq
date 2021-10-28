@@ -7,9 +7,16 @@
 借助单个关键词，使用右上角的搜索栏。 例如，如果您的壁纸仅显示为黑色背景，请尝试直接搜索“黑色”。
 :::
 
-## 最热门的支持文章
+## Android FAQ
 
-请先查看此列表，了解其中是否有任何问题与您遇到的问题相符，如果没有，请使用右上角的搜索功能或查看左侧的列表，以获取更多文章：
+If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+
+* [Android - Frequent Questions and Problems](mobile/faq.html)
+* [Pairing Mobile Device with Windows](mobile/pairing.html)
+
+## Most popular support articles
+
+Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
 | **热门文章**                                             |
 | ---------------------------------------------------- |
@@ -18,3 +25,4 @@
 | 3. [视频颜色错误/太亮或太暗/放大/像素化/视频边框](videos/artifacts.html) |
 | 4. [Wallpaper Engine 崩溃](crash/application.html)     |
 | 5. [将壁纸导出为 GIF/视频文件](functionality/export.html)      |
+
