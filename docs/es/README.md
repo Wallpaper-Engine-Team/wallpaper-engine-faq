@@ -7,9 +7,16 @@ Si tienes problemas técnicos o alguna pregunta acerca de Wallpaper Engine, prob
 Busca una palabra clave en el buscador de la esquina superior derecha. Por ejemplo, si los fondos te aparecen negros, busca: «negro».
 :::
 
-## Artículos más consultados
+## Android FAQ
 
-Antes de nada, comprueba esta lista para ver si los problemas nombrados se asemejan al tuyo. Si no, usa el buscador de la esquina superior derecha o fíjate en los artículos de la lista de la izquierda:
+If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+
+* [Android - Frequent Questions and Problems](mobile/faq.html)
+* [Pairing Mobile Device with Windows](mobile/pairing.html)
+
+## Most popular support articles
+
+Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
 | **Artículos más populares**                                                                                                                    |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -18,3 +25,4 @@ Antes de nada, comprueba esta lista para ver si los problemas nombrados se aseme
 | 3. [Los vídeos muestran colores incorrectos / son claros u oscuros / enfocados / pixelados / borde alrededor del fondo](videos/artifacts.html) |
 | 4. [Wallpaper Engine se cuelga](crash/application.html)                                                                                        |
 | 5. [Exportar fondos como GIF / vídeo](functionality/export.html)                                                                               |
+
