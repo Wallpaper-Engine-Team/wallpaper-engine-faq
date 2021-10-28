@@ -7,9 +7,16 @@
 ใช้แถบค้นหาที่มุมขวาบนด้วยคีย์เวิร์ดเดียว เช่น หากวอลเปเปอร์ของคุณแสดงเฉพาะพื้นหลังสีดำ ให้ลองค้นหาด้วยคำว่า "สีดำ"
 :::
 
-## บทความสนับสนุนยอดนิยม
+## Android FAQ
 
-โปรดตรวจสอบรายการนี้ก่อนเพื่อดูว่ามีปัญหาใด ๆ ตรงกับของคุณหรือไม่ หรือลองใช้การค้นหาที่มุมขวาบนหรือตรวจสอบรายการทางด้านซ้ายสำหรับบทความเพิ่มเติม:
+If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+
+* [Android - Frequent Questions and Problems](mobile/faq.html)
+* [Pairing Mobile Device with Windows](mobile/pairing.html)
+
+## Most popular support articles
+
+Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
 | **บทความยอดนิยม**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------ |
@@ -18,3 +25,4 @@
 | 3. [สีวิดีโอผิดปกติ / สว่างหรือมืดเกินไป / ถูกขยาย / เป็นพิกเซล / มีเส้นขอบรอบวิดีโอ](videos/artifacts.html) |
 | 4. [Wallpaper Engine หยุดทำงาน](crash/application.html)                                                      |
 | 5. [ส่งออกวอลเปเปอร์เป็นไฟล์ GIF / วิดีโอ](functionality/export.html)                                        |
+
