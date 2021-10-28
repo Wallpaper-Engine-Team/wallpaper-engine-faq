@@ -10,25 +10,25 @@ See the **Backup Solution** section at the bottom of this page to learn how to c
 
 ### 在 Windows 上準備 Wallpaper Engine
 
-In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
+在 **Windows** 應用程式中，在使用者介面的右上角按一下**行動裝置**按鈕。 行動裝置的概覽將隨即開啟。 在裝置概覽的底部，按一下**連接新的行動裝置**按鈕。 Wallpaper Engine 將顯示 4 位數的 PIN 碼，可用來與一個行動裝置配對。
 
-![Mobile PIN](/img/faq/mobile_pin.gif)
+![行動裝置 PIN 碼](/img/faq/mobile_pin.gif)
 
 ### 連接行動裝置
 
-In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above). The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
+在 Wallpaper Engine 行動版隨附應用程式，按一下右下角的**新增**，之後再按一下**與電腦配對**。 Wallpaper Engine 應用程式將在您的區域網路搜尋 Windows 的 Wallpaper Engine 執行個體。 應該數秒後就會出現 Windows 電腦的選項，您可按一下開始連線。 如果您是第一次連線，將必須輸入 4 位數的 PIN 碼 (請見上方 Windows 一節)。 PIN 碼是額外的安全措施，以免未授權的使用者在您未知情況下連線至您的電腦。
 
-Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+您一旦輸入 PIN 碼，行動應用程式的狀態列會變成綠色，顯示已連線的電腦。 在 Windows 應用程式中，**行動裝置**按鈕也會變成綠色，代表行動裝置已連線。
 
-![Mobile PIN](/img/faq/mobile_pair.gif)
+![行動裝置 PIN 碼](/img/faq/mobile_pair.gif)
 
 ## 解決行動裝置配對問題
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+如果行動裝置無法與電腦配對，很可能是因為防火牆或區域網路設定出錯。 請確認以下可能的問題來源：
 
 * 確認手機與電腦連線至同一個區域網路。
 * 確認防火牆並未阻擋 Wallpaper Engine 與區域網路通訊。
-* Ensure your network router is not blocking your devices from communicating with each other.
+* 確認網路路由器並未阻擋裝置之間的通訊。
     * Make sure your router is not blocking network traffic between devices.
     * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
 * 在電腦和行動裝置上停用任何可能干擾裝置通訊的 VPN 或代理軟體。
@@ -36,8 +36,8 @@ If you cannot pair your mobile device to your computer, a firewall or local netw
 
 ## 備用解決方案：手動匯入桌布檔案 (.mpkg)
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+如果您無法修復電腦和行動裝置之間的連線問題，仍可手動將桌布轉移至行動裝置上。 首先，在 Wallpaper Engine 上選擇要匯出的桌布，以右鍵按一下桌布，選取**傳送至行動裝置**，再按一下**匯出 .mpkg**。
 
-Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+一旦 Wallpaper Engine 建立 .mpkg 檔案，即可利用 USB 或複製檔案至 SD 卡，將檔案轉移至行動裝置上。 或者，您也可使用行動裝置上的任何檔案分享功能，或透過即時通訊、甚至是電子郵件 (若檔案大小符合限制) 將檔案傳送給自己。
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+檔案轉移到行動裝置上後，開啟行動裝置上的 Wallpaper Engine，利用**匯入檔案**功能從儲存檔案的目錄選擇檔案，直接將 .mpkg 檔案匯入行動裝置。
