@@ -7,9 +7,16 @@
 Ищите статьи по отдельным ключевым словам через панель поиска в правом верхнем углу. Например, если обои выглядят как обычный черный фон, попробуйте искать по слову «черный».
 :::
 
-## Самые популярные статьи
+## Android FAQ
 
-Первым делом просмотрите этот список: в нем могут быть описаны какие-либо из проблем, касающиеся вашей. В противном случае воспользуйтесь поиском в правом верхнем углу или просмотрите остальные статьи в списке слева:
+If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+
+* [Android - Frequent Questions and Problems](mobile/faq.html)
+* [Pairing Mobile Device with Windows](mobile/pairing.html)
+
+## Most popular support articles
+
+Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
 
 | **Самые популярные статьи**                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -18,3 +25,4 @@
 | 3. [Видео обои: неправильного цвета / слишком яркие или слишком темные / растянутые / выглядят некачественно / окружены рамкой](videos/artifacts.html) |
 | 4. [Аварийное завершение работы Wallpaper Engine](crash/application.html)                                                                              |
 | 5. [Экспорт обоев в виде GIF- и видеофайлов](functionality/export.html)                                                                                |
+
