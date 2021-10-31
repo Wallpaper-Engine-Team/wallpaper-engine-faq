@@ -1,6 +1,6 @@
 # ไม่ปรากฏรูปภาพตัวอย่าง / ผลการค้นหา
 
-If you cannot see preview images for uninstalled wallpapers in Wallpaper Engine, this usually means that is a firewall or security software is blocking Wallpaper Engine from accessing the Steam image servers.
+If you cannot see preview images for uninstalled wallpapers in Wallpaper Engine, this usually means that a firewall or security software is blocking Wallpaper Engine from accessing the Steam image servers.
 
 ## Test Your Connection to the Steam Image Servers
 
@@ -8,7 +8,7 @@ First, try and test if any connection to the Steam image servers is possible fro
 
 * [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-You should see a messages that says **OK** and shows a **green checkmark** when clicking on the link above.
+You should see a message that says **OK** and shows a **green checkmark** when clicking on the link above.
 
 ### I can see the OK message
 
