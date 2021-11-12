@@ -7,7 +7,7 @@
 
 您可使用我們的掃描工具，確認是否安裝了任何會導致此類問題的程式。 請注意，我們的掃描工具無法可靠偵測出此問題的根本原因，可能無法偵測出任何問題，或可能指出與該問題無關的應用程式：
 
-* [Wallpaper Engine 掃描工具](/debug/scantool.html)
+* [Wallpaper Engine 掃描工具](/debug/scantool_support.html)
 
 ## 動態超解析度 (DSR)/GPU 縮放
 GPU 縮放/DSR 這樣的驅動程式層級處理功能也可能造成問題，請停用該功能。如果停用有效，請將該功能設定為使用 Wallpaper Engine 時停用。
