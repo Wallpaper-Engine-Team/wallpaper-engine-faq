@@ -12,6 +12,6 @@ However, you can still configure Wallpaper Engine to override the static lock sc
 
 ## Ekran Koruyucu İşlevi
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+Kilit ekranına güvenmeye bir alternatif olarak, Windows ekran koruyucu ayarlarında etkinleştirilmiş **Devam ederken, oturum açma ekranını görüntüle** seçeneğiyle birlikte Wallpaper Engine'i ekran koruyucu olarak ayarlamanızı öneririz. Wallpaper Engine'i ekran koruyucunuz olarak nasıl ayarlayacağınızı görmek için ekran koruyucu rehberimize göz atın:
 
 * [Wallpaper Engine ile Ekran koruyucu](/functionality/screensaver.html)
