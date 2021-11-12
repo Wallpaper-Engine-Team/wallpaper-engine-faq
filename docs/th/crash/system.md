@@ -23,4 +23,4 @@ Wallpaper Engine ไม่ได้ติดตั้งไดรเวอร์
 
 โปรแกรมโอเวอร์เลย์และโปรแกรมบันทึกใด ๆ ทุกประเภทอาจทำให้เกิดปัญหา (รวมถึง Geforce Experience) โปรดลองลบออกทั้งหมด
 
-โปรดลองใช้เครื่องมือสแกนซึ่งจะตรวจสอบว่ามีแอพพลิเคชันที่รู้จักกันดีและได้รับการยืนยันเกิดการขัดแย้งใด ๆ หรือไม่: [คลิกที่นี่](/debug/scantool.html)
+Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool_support.html).
