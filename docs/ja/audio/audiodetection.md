@@ -43,5 +43,5 @@ Wallpaper Engine へのオーディオ入力を、「スピーカー（Razer XYZ
 
 そのようなアプリケーションがインストールされているかどうかわからない場合は、Wallpaper Engine スキャンツールを使うと、これらの問題を引き起こすことがわかっているプログラムが通知されます。
 
-* [Wallpaper Engine スキャンツール](/debug/scantool.html)
+* [Wallpaper Engine スキャンツール](/debug/scantool_support.html)
 
