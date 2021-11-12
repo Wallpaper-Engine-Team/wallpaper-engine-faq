@@ -5,10 +5,10 @@
 1. Необходимо, чтобы Wallpaper Engine был запущена (если это возможно).
 2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video).
 3. Нажмите кнопку **Save Full Log** и сохраните файл на рабочий стол (ниже приведена короткая видеоинструкция).
-4. Share the log file with our developers:
+4. Поделитесь лог-файлом с нашими разработчиками:
     * Send the log file to **logs@wallpaperengine.io**.
         * **ВАЖНО:** Если вы используете этот адрес электронной почты, поделитесь ссылкой на обсуждение и скажите нам свое имя пользователя.
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
+5. *Дополнительно:* Если у вас возникают сбои, проверьте каталог *wallpaper_engine* на наличие файлов **.mdmp**, а также отправьте их нам по электронной почте (**logs@wallpaperengine.io**) или загрузите их куда-нибудь. Если файлов .mdmp много, пожалуйста, пришлите самые новые.
 
 ::: tip
 Даже если на первый взгляд инструмент сканирования не обнаружил никаких ошибок, при тщательном изучении лог-файла часто обнаруживаются распространенные проблемы. Такая информация поможет нам быстрее дать вам совет по решению проблемы.
