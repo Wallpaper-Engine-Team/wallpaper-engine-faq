@@ -40,7 +40,7 @@ En outre, vous pouvez utiliser l'option **Chargement retardé des plug-ins** en 
 * Cliquez sur **Logiciels et jeux** dans le menu de gauche de la fenêtre des paramètres.
 * Assurez-vous que les options d'*intégrations logicielles* sont activées. Vérifiez l'onglet **Périphériques** afin de vous assurer que tous vos périphériques matériels sont également activés pour ce type d'éclairage RVB.
 
-If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
+Si vous rencontrez toujours des problèmes avec votre configuration d'éclairage Corsair, essayez une réinstallation complète de votre logiciel Corsair iCUE, puis redémarrez votre ordinateur et réinstallez. De nombreux problèmes peuvent être résolus en réinstallant la suite logicielle Corsair, puis en activant manuellement les options d'intégration logicielle.
 
 iCUE est utilisé en *mode exclusif*, cela veut dire que Wallpaper Engine aura la priorité sur les autres logiciels compatibles iCUE, comme des jeux par exemple. Si vous souhaitez que vos jeux interagissent avec votre clavier, allez dans l'onglet **Performances** des paramètres de Wallpaper Engine et choisissez **Arrêter (mémoire libre)** pour l'option **Autres applications en plein écran** afin d'arrêter les fonds d'écran pendant que vous jouez. Vous pouvez également désactiver le plug-in RGB ou désactiver l'option RGB d'un fond d'écran.
 
