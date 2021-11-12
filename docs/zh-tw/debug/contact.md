@@ -18,7 +18,7 @@ tags:
 ::: tip
 如果您遇到技術問題，請利用我們的掃描工具產生記錄檔，並提供給我們：
 
-* [使用 Wallpaper Engine 掃描工具建立偵錯記錄](scantool.html)
+* [使用 Wallpaper Engine 掃描工具建立偵錯記錄](scantool_support.html)
 
 此掃描工具包含各種技術詳細資料，通常能協助我們更快速替您指引正確方向。
 :::
