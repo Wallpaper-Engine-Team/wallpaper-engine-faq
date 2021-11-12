@@ -11,12 +11,12 @@ Use a barra de p4esquisa no canto superior direito com palavras-chave individuai
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
-* [Android - Frequent Questions and Problems](mobile/faq.html)
-* [Pairing Mobile Device with Windows](mobile/pairing.html)
+* [Android - Perguntas e Problemas mais Frequentes](mobile/faq.html)
+* [Emparelhar um dispositivo móvel com o Windows](mobile/pairing.html)
 
-## Most popular support articles
+## Artigos de assistência mais populares
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+Consulte primeiro esta lista e veja se algum dos problemas descreve a sua dificuldade, caso contrário use a pesquisa no canto superior direito ou consulte a lista à esquerda para mais artigos:
 
 | **Artigos mais visitados**                                                                                                                      |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- |
