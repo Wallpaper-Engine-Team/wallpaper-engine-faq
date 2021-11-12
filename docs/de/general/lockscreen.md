@@ -12,6 +12,6 @@ However, you can still configure Wallpaper Engine to override the static lock sc
 
 ## Bildschirmschoner-Funktionalität
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+Als Alternative zu Hintergründen auf dem Login-Bildschirm schlagen wir das Nutzen von Wallpaper Engine als Bildschirmschoner in Kombination mit der **Anmeldeseite bei Reaktivierung**-Funktion vor, welche in den Bildschirmschoner-Einstellungen von Windows aktiviert werden kann. Schaue dir unseren Bildschirmschoner-Artikel an, um herauszufinden, wie du Wallpaper als Bildschirmschoner nutzen kannst. Schaue dir den folgenden Hilfe-Artikel an, um mehr darüber zu erfahren, wie du Wallpaper Engine als Bildschirmschoner nutzen kannst:
 
 * [Bildschirmschoner mit Wallpaper Engine](/functionality/screensaver.html)
