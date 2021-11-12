@@ -7,7 +7,7 @@ Podría suceder a causa de los controladores para grabar programas como ReLive, 
 
 Puedes utilizar nuestra herramienta de escaneo para ver si alguno de los programas que tienes instalados suele causar este tipo de problemas. Ten en cuenta que dicha herramienta no es capaz de detectar el origen del problema con total fiabilidad, sino que puede pasarlo por alto o incluso alertarte por un programa que no tiene que ver con el problema que tienes:
 
-* [Herramienta de escaneo de Wallpaper Engine.](/debug/scantool.html)
+* [Herramienta de escaneo de Wallpaper Engine.](/debug/scantool_support.html)
 
 ## Superresolución Dinámica (DSR) / Escalado de GPU
 Las modificaciones de los controladores como el escalado de GPU o DSR pueden causar problemas, así que deshabilítalos. En caso de que funcione, asegúrate de deshabilitarlos para que no afecten a Wallpaper Engine.
