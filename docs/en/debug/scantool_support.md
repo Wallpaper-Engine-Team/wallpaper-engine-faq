@@ -7,7 +7,6 @@ If you are having technical issues with Wallpaper Engine that you are unable to 
 3. Click on **Save Full Log** and save it to your desktop (see below for a short video).
 4. Share the log file with our developers:
     * Describe the problem you are having and send an email to **support@wallpaperengine.io**.
-
 5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
