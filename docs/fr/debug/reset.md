@@ -1,48 +1,48 @@
-# Fully Resetting Wallpaper Engine
+# Réinitialisation complète de Wallpaper Engine
 
-If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
+Si vous rencontrez des problèmes techniques avec Wallpaper Engine, vous pouvez réinitialiser complètement votre installation de Wallpaper Engine. Suivez ce guide pour réinitialiser complètement Wallpaper Engine, y compris les abonnements aux fonds d'écran corrompus.
 
 ::: danger
-Read this first if you use an antivirus app (except Microsoft Defender)
+Lisez d'abord ceci si vous utilisez une application antivirus (sauf Microsoft Defender)
 
-A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
+La grande majorité des problèmes que nous traitons sont causés par des applications antivirus qui bloquent Wallpaper Engine ou Steam par erreur. Les applications antivirus sont souvent à l'origine des problèmes suivants :
 
-* Wallpaper Engine crashes
-* Broken or empty Wallpaper Engine user interface
-* Wallpaper Engine failing to start at all without any error message
-* Wallpaper Engine failing to install or update itself
-* Various other issues caused by broken or inaccessible files
+* Plantages de Wallpaper Engine
+* Interface utilisateur de Wallpaper Engine corrompue ou vide
+* Wallpaper Engine ne démarre pas du tout, et aucun message d'erreur ne s'affiche
+* Wallpaper Engine ne parvient pas à s'installer ou à se mettre à jour
+* Divers autres problèmes causés par des fichiers corrompus ou inaccessibles
 
-**If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
+**Si vous utilisez une application antivirus, assurez-vous qu'elle ignore votre répertoire d'installation `wallpaper_engine` avant de procéder aux étapes décrites sur cette page. Vérifiez les paramètres de votre antivirus pour trouver un moyen d'exclure complètement les dossiers.**
 
-Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
+La plupart des applications antivirus peuvent bloquer les fichiers Wallpaper Engine sans vous en informer, et certains fichiers Wallpaper Engine seront bloqués de manière permanente.
 :::
 
-## Fully Uninstalling Wallpaper Engine
+## Désinstallation complète de Wallpaper Engine
 
-To fully uninstall Wallpaper Engine to clear any corrupted files:
+Désinstallez complètement Wallpaper Engine pour effacer tous les fichiers corrompus :
 
-1. If you have enabled the automatic startup functionality: Open the Wallpaper Engine settings, turn off the automatic startup at the top of the **General** tab in the Wallpaper Engine settings.
-2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
-3. Navigate to the Wallpaper Engine installation directory and delete the remaining `wallpaper_engine` directory entirely. by default, it is located here:
+1. Si vous avez activé la fonctionnalité de démarrage automatique : Ouvrez les paramètres de Wallpaper Engine, désactivez le démarrage automatique en haut de l'onglet **Général** dans les paramètres de Wallpaper Engine.
+2. Ouvrez Steam et faites un clic droit sur Wallpaper Engine, puis cliquez sur **Gérer**, et **Désinstaller**.
+3. Accédez au répertoire d'installation de Wallpaper Engine et supprimez entièrement le répertoire `wallpaper_engine` restant. par défaut, celui-ci se trouve ici :
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-If you have installed Wallpaper Engine in a different directory, please look for the `wallpaper_engine` directory there. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+Si vous avez installé Wallpaper Engine dans un autre répertoire, veuillez y rechercher le dossier `wallpaper_engine`. Assurez-vous que le dossier est entièrement effacé afin de supprimer tout verrouillage invisible des fichiers antivirus ou tout fichier corrompu.
 
-You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+Vous pouvez maintenant réinstaller Wallpaper Engine. Si vous souhaitez repartir de zéro, veuillez lire la section suivante qui explique comment réinitialiser complètement tous vos abonnements aux fonds d'écran ; cette opération n'est pas nécessaire dans la plupart des cas.
 
-## Resetting all Steam Workshop Subscriptions
+## Réinitialisation de tous les abonnements Steam Workshop
 
-If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+Si vous rencontrez des problèmes liés au téléchargement de fonds d'écran par Steam, vous pouvez essayer de réinitialiser complètement vos abonnements Steam Workshop. Dans de rares cas, cela peut aider à résoudre le problème des abonnements Workshop corrompus qui ne sont pas visibles dans l'application. Si vous remarquez que Steam continue de télécharger à nouveau tous vos fonds d'écran ou télécharge des fonds d'écran qui ont été préalablement supprimés de Steam Workshop, vous pouvez tenter une réinitialisation complète.
 
 Voici la marche à suivre :
 
-1. Fermez Steam. **Optional:** Uninstall Wallpaper Engine first.
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+1. Fermez Steam. **Facultatif :** Désinstallez d'abord Wallpaper Engine.
+2. Ouvrez le site Steam Workshop de Wallpaper Engine et connectez-vous à votre compte Steam :
 
-* [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
+* [Steam Workshop pour Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
 
-3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
-4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
-5. **Restart Steam**, your subscriptions are now reset.
+3. Sur la droite, positionnez votre curseur sur **Your files**, puis **Subscribed Items**.
+4. Une page contenant vos abonnements vous sera présentée. Cliquez sur le bouton **Unsubscribe From All** sur le côté droit pour effacer tous vos abonnements Workshop (y compris les abonnements corrompus masqués).
+5. **Redémarrez Steam**, vos abonnements sont maintenant réinitialisés.
