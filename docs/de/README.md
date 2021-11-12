@@ -14,9 +14,9 @@ If you are looking for help with the Android app, be sure to check out our summa
 * [Android - Frequent Questions and Problems](mobile/faq.html)
 * [Pairing Mobile Device with Windows](mobile/pairing.html)
 
-## Most popular support articles
+## Am häufigsten gelesene Hilfe-Artikel
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+Schaue zunächst ob dein Problem in der folgenden Liste dabei ist, ansonsten nutze die Suche oben rechts oder schaue durch die Liste von Artikeln auf der linken Seite:
 
 | **Top-Hilfeseiten**                                                                                                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- |
