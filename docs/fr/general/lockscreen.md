@@ -12,6 +12,6 @@ However, you can still configure Wallpaper Engine to override the static lock sc
 
 ## Fonctionnalité de l'économiseur d'écran
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+Plutôt que de vous fier à l'écran de verrouillage, nous suggérons de configurer Wallpaper Engine comme économiseur d'écran en combinaison avec l'option **À la reprise, afficher l'écran de connexion** activée dans les paramètres de l'économiseur d'écran de Windows. Consultez notre guide sur les écrans de veille pour connaître la manière de configurer Wallpaper Engine comme écran de veille :
 
 * [Économiseurs d'écran avec Wallpaper Engine](/functionality/screensaver.html)
