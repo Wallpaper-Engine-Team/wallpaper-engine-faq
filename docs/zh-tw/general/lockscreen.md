@@ -12,6 +12,6 @@ However, you can still configure Wallpaper Engine to override the static lock sc
 
 ## 螢幕保護程式功能
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+若不需要鎖定畫面，建議可將 Wallpaper Engine 設定為螢幕保護程式，並在螢幕保護程式設定頁面中勾選**繼續執行後，顯示登入畫面**。 請見我們的螢幕保護程式指南，了解如何將 Wallpaper Engine 設定為螢幕保護程式：
 
 * [Wallpaper Engine 螢幕保護程式](/functionality/screensaver.html)
