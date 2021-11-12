@@ -43,5 +43,5 @@ Wallpaper Engine에서 오디오 입력을 '스피커(Razer XYZ)' 장치로 변�
 
 해당 응용 프로그램이 설치되었는지 알 수 없으면, Wallpaper Engine 스캔 도구를 사용하여 해당 문제를 유발하는 프로그램을 찾을 수 있습니다.
 
-* [Wallpaper Engine 스캔 도구](/debug/scantool.html)
+* [Wallpaper Engine 스캔 도구](/debug/scantool_support.html)
 
