@@ -43,5 +43,5 @@ USB/無線耳機容易出現音效驅動程式問題。 許多裝置都可永久
 
 如果您不確定是否安裝這類應用程式，亦可使用 Wallpaper Engine 掃描工具辨識出已知可能造成此類問題的程式：
 
-* [Wallpaper Engine 掃描工具](/debug/scantool.html)
+* [Wallpaper Engine 掃描工具](/debug/scantool_support.html)
 

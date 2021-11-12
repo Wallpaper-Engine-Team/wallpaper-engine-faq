@@ -7,7 +7,7 @@ Ce problème peut venir des fonctionnalités des pilotes pour l'enregistrement t
 
 Vous pouvez essayer d'utiliser notre outil d'analyse pour déterminer si des programmes installés sont connus pour causer ces types de problèmes. Gardez à l'esprit que notre outil d'analyse n'est pas en mesure de détecter de manière fiable la cause profonde de ce problème. Il peut ne détecter aucun problème ou signaler une application même si elle n'est pas liée à vos problèmes :
 
-* [Outil d'analyse de Wallpaper Engine](/debug/scantool.html)
+* [Outil d'analyse de Wallpaper Engine](/debug/scantool_support.html)
 
 ## Dynamic Super Resolution (DSR) / Étalonnage du GPU
 L'étalonnage du GPU/DSR peut également causer des problèmes, essayez de le désactiver et si cela vous aide, désactivez-le uniquement pour Wallpaper Engine.

@@ -43,5 +43,5 @@
 
 หากคุณไม่แน่ใจว่ามีการติดตั้งแอพพลิเคชันดังกล่าวหรือไม่ คุณสามารถใช้เครื่องมือสแกน Wallpaper Engine ซึ่งจะรายงานถึงบางโปรแกรมที่มักทำให้เกิดปัญหาเหล่านี้:
 
-* [เครื่องมือสแกน Wallpaper Engine](/debug/scantool.html)
+* [เครื่องมือสแกน Wallpaper Engine](/debug/scantool_support.html)
 

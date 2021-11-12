@@ -23,4 +23,4 @@ Si vous avez un écran bleu, cherchez le code d'erreur sur internet. Vous trouve
 
 Tous les programmes qui enregistrent ou se superposent peuvent poser des problèmes, comme Geforce Experience. Essayez de désinstaller les programmes de ce genre.
 
-Essayez l'outil d'analyse qui vérifiera si une application conflictuelle connue est en cours d'exécution : [cliquez ici](/debug/scantool.html).
+Essayez l'outil d'analyse qui vérifiera si une application conflictuelle connue est en cours d'exécution : [cliquez ici](/debug/scantool_support.html).

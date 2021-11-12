@@ -22,4 +22,4 @@ If it's a blue screen you are getting, web-search the error code. There will be 
 
 Any kind of overlay and recording program can cause problems, that includes Geforce Experience, try removing all of that.
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool.html).
+Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool_support.html).

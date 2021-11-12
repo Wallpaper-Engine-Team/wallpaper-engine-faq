@@ -7,7 +7,7 @@ ReLive, Shadow Play/Nvidia Share ya da Windows GameDVR gibi uygulamaları kaydet
 
 Bu tür sorunlara yol açtığı bilinen programlar yüklü mü belirlemek için tarama aracımızı deneyebilirsiniz. Tarama aracımızın bu sorunun kök nedenini güvenilir bir şekilde tespit edemediğini unutmayın. Sorun tespit etmeyebilir ya da sorunlarınızla alakası olmasa da bir uygulamayı raporlayabilir:
 
-* [Wallpaper Engine Tarama Aracı](/debug/scantool.html)
+* [Wallpaper Engine Tarama Aracı](/debug/scantool_support.html)
 
 ## Dinamik Süper Çözünürlük (DSR) / GPU Ölçekleme
 GPU Ölçekleme/DSR gibi sürücü düzeyindeki izinsiz girişler de sorunlar çıkarabilir. Önce bunları devre dışı bırakmayı deneyin, daha sonra işe yararsa özel olarak Wallpaper Engine için devre dışı bırakın.

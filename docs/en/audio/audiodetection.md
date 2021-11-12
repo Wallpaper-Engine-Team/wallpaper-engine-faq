@@ -43,5 +43,5 @@ If you believe your audio settings are correct but audio responsive wallpapers d
 
 If you are unsure if you have any such applications installed, you can also use the Wallpaper Engine scan tool and it will report some programs which are known to cause these issues:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Wallpaper Engine Scan Tool](/debug/scantool_support.html)
 

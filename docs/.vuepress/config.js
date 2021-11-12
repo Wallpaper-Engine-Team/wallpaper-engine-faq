@@ -340,7 +340,7 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 			title: debugGroup,
 			collapsable: false,
 			children: [
-				locale + 'debug/scantool',
+				locale + 'debug/scantool_support',
 				locale + 'debug/reset',
 				locale + 'debug/contact'
 			]

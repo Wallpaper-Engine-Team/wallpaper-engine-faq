@@ -42,5 +42,5 @@ Ses ayarlarınızın doğru olduğunu ancak sese duyarlı duvar kâğıtlarını
 
 Bu tür uygulamaların yüklü olup olmadığından emin değilseniz Wallpaper Engine tarama aracını da kullanabilirsiniz. Bu araç, sorunlara neden olduğu bilinen bazı programları bildirecektir:
 
-* [Wallpaper Engine Tarama Aracı](/debug/scantool.html)
+* [Wallpaper Engine Tarama Aracı](/debug/scantool_support.html)
 

@@ -7,7 +7,7 @@ Das Problem kann auch von diversen Treiber-Funktionen ausgelöst werden, welche 
 
 Du kannst versuchen unser Scan-Tool zu verwenden, um Programme zu finden, welche bekannt dafür sind solche Art von Problemen auszulösen. Bitte beachte dabei, dass unser Scan-Tool nicht absolut verlässlich ist um die Ursache dieses Problems zu finden - es kann unter Umständen gar kein Problem feststellen oder eine Anwendung als problematisch melden, auch wenn diese gar nichts mit deinem Problem zu tun hat:
 
-* [Wallpaper Engine Scan-Tool](/debug/scantool.html)
+* [Wallpaper Engine Scan-Tool](/debug/scantool_support.html)
 
 ## Dynamic Super Resolution (DSR) / GPU-Bildskalierung
 Treiber-Hacks wie GPU-Bildskalierung / DSR können ebenfalls Probleme verursachen. Versuche diese zu deaktivieren, wenn dies hilft, deaktiviere sie speziell für Wallpaper Engine.

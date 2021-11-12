@@ -7,7 +7,7 @@ It could also come from any kind of driver features to record applications like 
 
 You can try to use our scan tool to determine if any programs are installed that are known to cause these types of issues. Keep in mind that our scan tool is not able to reliably detect the root cause of this problem - it may fail to detect any problem or it may report an application even though it is unrelated to your issues:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Wallpaper Engine Scan Tool](/debug/scantool_support.html)
 
 ## Dynamic Super Resolution (DSR) / GPU Scaling
 Driver level hacks like GPU Scaling/DSR could cause issues as well, try disabling them and if that helps, disable them for Wallpaper Engine specifically.

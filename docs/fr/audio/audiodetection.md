@@ -42,5 +42,5 @@ Si vous pensez que vos paramètres audio sont corrects, mais que les fonds d'éc
 
 Si vous ne savez pas si des applications de ce genre sont installées, vous pouvez également utiliser l'outil d'analyse de Wallpaper Engine. Il vous signalera si un programme est susceptible de poser problème :
 
-* [Outil d'analyse de Wallpaper Engine](/debug/scantool.html)
+* [Outil d'analyse de Wallpaper Engine](/debug/scantool_support.html)
 

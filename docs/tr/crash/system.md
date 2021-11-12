@@ -23,4 +23,4 @@ Eğer mavi ekran hatası alıyorsanız hata kodunu internette aratın. Global ç
 
 Her türlü kaplama ve kayıt programı sorunlara neden olabilir. Buna Geforce Experience da dâhildir, bunların tümünü kaldırmayı deneyin.
 
-Tanınmış ve onaylanmış herhangi bir çakışan uygulamanın çalışıp çalışmadığını kontrol edecek tarama aracını deneyin: [Buraya tıklayın](/debug/scantool.html).
+Tanınmış ve onaylanmış herhangi bir çakışan uygulamanın çalışıp çalışmadığını kontrol edecek tarama aracını deneyin: [Buraya tıklayın](/debug/scantool_support.html).

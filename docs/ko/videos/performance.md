@@ -7,7 +7,7 @@
 
 스캔 도구를 사용해 이러한 유형의 문제를 유발하는 것으로 알려진 프로그램이 설치되어 있는지 확인할 수 있습니다. 스캔 도구는 문제의 근원을 안정적으로 파악할 수 없다는 점에 유의하십시오. 아무런 문제도 감지하지 못하거나 문제와 관련 없는 앱을 보고할 수도 있습니다.
 
-* [Wallpaper Engine 스캔 도구](/debug/scantool.html)
+* [Wallpaper Engine 스캔 도구](/debug/scantool_support.html)
 
 ## 동적 초해상도(DSR) / GPU 조정
 GPU 조정/DSR과 같은 드라이버 레벨 핵도 이와 같은 문제를 일으킬 수 있습니다. 이걸 비활성화해보고, 도움이 되면 Wallpaper Engine 전용으로 비활성화하세요.

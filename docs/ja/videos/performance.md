@@ -7,7 +7,7 @@ ReLive、Shadow Play/Nvidia Share、Windows GameDVRなどのアプリケーシ�
 
 スキャンツールを使って、この種類の問題を引き起こすことが分かっているプログラムがインストールされているかどうかを判定することができます。 このスキャンツールが、この問題の根本的な原因を必ず検知できるわけではないという点にご注意ください。問題を全く検知できない可能性もありますし、問題に関係のないアプリケーションを報告する可能性もあります：
 
-* [Wallpaper Engine スキャンツール](/debug/scantool.html)
+* [Wallpaper Engine スキャンツール](/debug/scantool_support.html)
 
 ## Dynamic Super Resolution (DSR) / GPU Scaling
 GPU Scaling/DSRなどのドライバレベルハックも問題を引き起こします。これらを無効にしてみてうまくいくようなら、Wallpaper Engineを指定して無効にします。

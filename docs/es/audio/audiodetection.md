@@ -43,5 +43,5 @@ Si crees que la configuración del sonido es correcta, pero los fondos de pantal
 
 Si no sabes con certeza si tienes alguna de las aplicaciones anteriores instaladas, puedes utilizar la herramienta de escaneo de Wallpaper Engine y te notificará qué programas suelen causar estos problemas:
 
-* [Herramienta de escaneo de Wallpaper Engine.](/debug/scantool.html)
+* [Herramienta de escaneo de Wallpaper Engine.](/debug/scantool_support.html)
 

@@ -43,5 +43,5 @@ Falls du meinst, dass deine Audio-Einstellungen korrekt sind aber Hintergründe 
 
 Wenn du dir unsicher bist, ob du irgendwelche Anwendungen dieser Art installiert hast, kannst du auch das Scan-Tool von Wallpaper Engine verwenden, welches einige bekannte Anwendungen meldet, welche Probleme dieser Art verursachen:
 
-* [Wallpaper Engine Scan-Tool](/debug/scantool.html)
+* [Wallpaper Engine Scan-Tool](/debug/scantool_support.html)
 
