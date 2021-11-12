@@ -3,15 +3,12 @@
 Si tienes problemas técnicos con Wallpaper Engine y no puedes resolverlos tras leer las preguntas frecuentes, puedes crear un registro de depuración y enviárnoslo cuando contactes con nosotros:
 
 1. Asegúrate de que Wallpaper Engine está activo (si es posible).
-2. Elige la cuarta opción de Steam (*«Revisión de conflictos del sistema»*, abajo encontrarás un vídeo explicativo):
+2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video).
 3. Haz clic en **Save Full Log** y guárdalo en el escritorio (abajo encontrarás un vídeo explicativo).
-4. Envíales el archivo de registro a los desarrolladores:
-    * **¿Has hablado con nosotros en los foros o en otra red social?** Pues envíanos el archivo de registro a **logs@wallpaperengine.io**.
+4. Share the log file with our developers:
+    * Send the log file to **logs@wallpaperengine.io**.
         * **IMPORTANTE:** Si nos escribes a esta dirección de correo, no te olvides de enviarnos el enlace al hilo del foro ni de decirnos tu nombre de usuario.
-    * **¿Ya nos has escrito por correo electrónico?** Pues contesta a ese mismo correo y adjunta el archivo de registro.
-    * **¿Es la primera vez que hablas con nosotros?** Entonces, envíanos un correo a **support@wallpaperengine.io**.
-
-5. *Opcional:* si el programa se cuelga, dirígete al directorio *wallpaper_engine* para comprobar si hay algún archivo **.mdmp** y envíanoslo por correo (**logs@wallpaperengine.io**) o súbelo a alguna página. Si encuentras demasiados archivos .mdmp, envíanos solo los más nuevos.
+5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
 Si la herramienta de escaneo no encuentra ningún problema a primera vista, a nosotros nos sirve investigar a fondo el archivo de registro, pues suele revelar problemas comunes del ordenador que nos vendrán bien para decirte cómo arreglar los problemas técnicos.
