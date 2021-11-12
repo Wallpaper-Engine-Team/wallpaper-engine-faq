@@ -11,12 +11,12 @@
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
-* [Android - Frequent Questions and Problems](mobile/faq.html)
-* [Pairing Mobile Device with Windows](mobile/pairing.html)
+* [Android - 常見問題](mobile/faq.html)
+* [行動裝置與 Windows 配對](mobile/pairing.html)
 
-## Most popular support articles
+## 熱門支援文章
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+請優先檢視這份清單，了解清單中的問題描述是否符合您碰上的問題，否則請使用右上角的搜尋列，或檢視左方的清單以檢視更多文章：
 
 | **最常用文章**                                              |
 | ------------------------------------------------------ |
