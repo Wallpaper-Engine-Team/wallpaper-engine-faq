@@ -1,43 +1,87 @@
 # 모바일 기기와 Windows 페어링하기
 
-자신의 모바일 기기와 컴퓨터를 무선으로 페어링하여 자신의 배경화면을 모바일 기기의 Wallpaper Engine 앱으로 전송할 수 있습니다. Steam만이 Steam 창작마당에서 배경화면 파일을 다운로드할 수 있기 때문에, Android 앱은 배경화면을 직접 다운로드할 수 없습니다.
+You can pair your mobile devices with your computer to wirelessly transfer your wallpaper collection to the Wallpaper Engine companion app on your mobile device.
+
+It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
 
 ::: tip
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting them as **.mpkg** files that the Wallpaper Engine mobile app uses.
-
-See the **Backup Solution** section at the bottom of this page to learn how to create **.mpkg** and how to import them on your mobile device.
+If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
 :::
 
-### Windows에서 Wallpaper Engine 준비
+[[toc]]
 
-**Windows** 앱에서 사용자 인터페이스 우측 상단의 **모바일** 버튼을 클릭하세요. 모바일 기기 개요가 표시됩니다. 기기 개요에서 가장 아래에 있는 **새로운 기기 연결** 버튼을 클릭하세요. 모바일 기기와 페어링하기 위한 4자리 PIN이 표시됩니다.
+## 1. Install the free Wallpaper Engine Android Companion App
 
-![모바일 PIN](/img/faq/mobile_pin.gif)
+Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
 
-### 모바일 기기 연결
+We recommend installing the app through the official app store release but you can also directly download the latest app directly from our homepage. For download links and more information, please view our Android download page:
 
-Wallpaper Engine 모바일 앱에서 화면 우측 하단의 **추가**를 누르고 **컴퓨터와 페어링**을 클릭하세요. Wallpaper Engine이 로컬 네트워크에서 실행 중인 Windows Wallpaper Engine을 검색합니다. 몇 초 후 자신의 Windows 컴퓨터가 나타나며, 클릭 시 연결할 수 있습니다. 처음으로 연결할 때는 4자리 PIN을 입력해야 합니다(위의 Windows 섹션 참조). PIN은 인가받지 않은 사용자가 자신의 컴퓨터에 몰래 연결하는 것을 방지하는 추가 보안 조치입니다.
+* [Download Wallpaper Engine for Android](https://www.wallpaperengine.io/android/)
 
-PIN을 입력하고 나면 모바일 앱의 상태 바가 초록색으로 변하며, 어떤 컴퓨터와 연결되어 있는지 표시됩니다. Windows 앱에서는 **모바일** 버튼이 초록색으로 변하여 모바일 기기와 연결되었다는 것을 나타냅니다.
+For security reasons, we advise against installing the app from any sources not listed on our website.
 
-![모바일 PIN](/img/faq/mobile_pair.gif)
+## 2. Preparing Wallpaper Engine on Windows
 
-## 모바일 페어링 문제 해결
+In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
 
-모바일 기기를 컴퓨터에 페어링할 수 없다면 높은 확률로 방화벽 또는 로컬 네트워크 설정의 문제입니다. 다음 절차를 따라 가능한 문제 원인들을 확인하세요.
+<video width="100%" controls autoplay loop>
+  <source src="/videos/mobile_pin.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-* 핸드폰과 컴퓨터가 같은 로컬 네트워크에 연결되어 있는지 확인
-* 방화벽이 Wallpaper Engine이 로컬 네트워크와 통신하지 못하도록 막고 있는지 확인
-* 네트워크 공유기가 기기들이 서로 통신하지 못하도록 막고 있는지 확인
+## 3. Connecting Your Mobile Device
+
+In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above).
+
+<video height="590px" style="display:block;margin:0 auto;" controls autoplay loop>
+  <source src="/videos/mobile_connect.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+
+By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+
+## 4. Transferring Wallpapers to Your Mobile Device
+
+Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+
+You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+
+#### Scene Wallpapers
+
+Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+
+<video width="100%" controls autoplay loop>
+  <source src="/videos/mobile_transfer.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+::: tip
+You can also transfer multiple wallpapers at the same time by clicking on multiple wallpapers while holding the CTRL key on your keyboard.
+:::
+
+## Mobile Pairing Problem Solving
+
+If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+
+* Ensure that your phone and computer are connected to the same local network.
+* Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
+* Ensure your network router is not blocking your devices from communicating with each other.
     * Make sure your router is not blocking network traffic between devices.
     * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
-* 기기 간의 통신을 방해할 수 있는 컴퓨터와 모바일 기기의 모든 VPN 또는 프록시 소프트웨어를 비활성화하세요.
-* Windows 및 모바일 기기의 Wallpaper Engine이 최신 버전이며 실행 중인지 확인
+* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
+* Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
 
-## 백업 해결책: 직접 배경화면 파일(.mpkg) 불러오기
+### Backup solution: Manually importing a Wallpaper File (.mpkg)
 
-컴퓨터와 모바일 기기 간의 연결을 고치는 것이 불가능할 때도 직접 모바일 기기로 배경화면을 옮길 수 있습니다. 우선, Wallpaper Engine에서 내보내고자 하는 배경화면을 선택한 후 오른쪽 클릭하고, **모바일 기기로 전송**을 누른 다음 **.mpkg 내보내기**를 클릭하세요.
+Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
 
-Wallpaper Engine이 배경화면의 .mpkg 파일을 생성하고 나면 해당 파일을 USB로 모바일 기기에 옮기거나 SD 카드에 파일을 복사하여 모바일 기기로 파일을 옮길 수 있습니다. 또는 모바일 기기의 파일 공유 서비스를 사용하여 메시지 서비스 또는 이메일로 자신에게 보낼 수도 있습니다.(파일 크기에 제약이 있을 수 있습니다)
+<video width="100%" controls autoplay loop>
+  <source src="/videos/mobile_export.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-파일을 모바일 기기로 옮긴 후, 모바일 기기에서 Wallpaper Engine을 실행하고 **파일 불러오기** 기능을 사용하세요. 파일을 넣은 디렉토리에서 .mpkg 파일을 선택하여 앱으로 직접 불러오세요.
+Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+
+Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
