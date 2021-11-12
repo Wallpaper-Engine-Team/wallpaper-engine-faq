@@ -7,7 +7,7 @@ Teknik bir sorun yaşıyor ya da Wallpaper Engine hakkında soru sormak istiyors
 Sağ üst köşedeki arama çubuğuna anahtar kelimeler girin. Örneğin, duvar kâğıdınız sadece siyah arka planları gösteriyorsa, "siyah" kelimesini arayabilirsiniz.
 :::
 
-## Android FAQ
+## Android SSS
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
