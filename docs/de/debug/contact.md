@@ -18,7 +18,7 @@ Falls du dein Problem nicht mit dieser Website lösen kannst, kannst du uns unte
 ::: tip
 Falls du ein technisches Problem hast, hilft es oft wenn du einen Analyse-Bericht unseres Scan-Tools mitsendest:
 
-* [Verwende das Scan-Tool von Wallpaper Engine um einen Analyse-Bericht zu erstellen](scantool.html)
+* [Verwende das Scan-Tool von Wallpaper Engine um einen Analyse-Bericht zu erstellen](scantool_support.html)
 
 Das Scan-Tool sammelt technische Details, welche uns dabei helfen können, dir eine passende Lösung zu deinem Problem zu nennen.
 :::
