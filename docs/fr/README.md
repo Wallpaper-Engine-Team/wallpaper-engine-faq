@@ -7,9 +7,9 @@ Si vous rencontrez un problème ou si vous avez une question sur Wallpaper Engin
 Utilisez la barre de recherche avec des mots-clés simples. Par exemple, si vos fonds d'écran restent noirs, cherchez le mot-clé "noir".
 :::
 
-## Android FAQ
+## FAQ Android
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+Si vous cherchez de l'aide pour l'application Android, n'hésitez pas à consulter notre récapitulatif des questions les plus fréquentes sur Android et notre guide sur le couplage de votre ordinateur avec votre appareil Android :
 
 * [Android - Questions et problèmes fréquents](mobile/faq.html)
 * [Appairage d'un appareil mobile avec Windows](mobile/pairing.html)
