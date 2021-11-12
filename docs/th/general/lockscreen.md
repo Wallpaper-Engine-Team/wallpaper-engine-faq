@@ -12,6 +12,6 @@ However, you can still configure Wallpaper Engine to override the static lock sc
 
 ## ฟังก์ชันสกรีนเซฟเวอร์
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+เพื่อเป็นอีกทางเลือกแทนการใช้หน้าจอล็อก เราขอแนะนำให้ตั้งค่า Wallpaper Engine เป็นสกรีนเซฟเวอร์ร่วมกับการเปิดใช้งานตัวเลือก **On resume, display logon screen** (เมื่อดำเนินการต่อ ให้แสดงหน้าจอการเข้าสู่ระบบ) ในการตั้งค่าสกรีนเซฟเวอร์ของ Windows ดูวิธีกำหนดค่า Wallpaper Engine เป็นสกรีนเซฟเวอร์ได้ทางคู่มือสกรีนเซฟเวอร์ของเรา:
 
 * [สกรีนเซฟเวอร์กับ Wallpaper Engine](/functionality/screensaver.html)
