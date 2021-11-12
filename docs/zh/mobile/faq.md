@@ -10,21 +10,21 @@ If you want to connect your Android device to Windows to install more wallpapers
 * [Pairing Mobile Device with Windows](/mobile/pairing.html)
 :::
 
-## Cannot set live wallpaper on Android lock-screen
+## 无法在 Android 锁屏上设置动态壁纸
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+根据设备制造商和所用 Android 启动器的不同，您可能无法在锁屏上设置动态壁纸，或者只能设置与主屏幕相同的壁纸。
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+在手机上预览 Wallpaper Engine 中的动态壁纸时，长按右上角的复选标记符号几秒钟。 这样会打开手机的动态壁纸屏幕。 根据制造商的不同，您现在应该在锁屏上看到用于设置壁纸的选项，如果未出现此选项，则您的手机不支持锁屏上的动态壁纸。 已知以下手机制造商不允许在其所有或部分设备的锁屏上显示动态壁纸：
 
-* Huawei
-* Xiaomi
+* 华为
+* 小米
 
-## How to unset Wallpaper Engine wallpaper
+## 如何取消设置 Wallpaper Engine 壁纸
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+如果想要停止使用 Wallpaper Engine 壁纸，直接在 Android 设置中分配新的壁纸即可。 Wallpaper Engine 只是 Android 的另一张壁纸，壁纸无法自行取消设置。
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+您也可以完全卸载 Wallpaper Engine，这将使手机恢复到默认壁纸。
 
-## Android wallpaper regularly disappears or crashes silently
+## Android 壁纸定期消失或无声崩溃
 
-If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+如果您将 Wallpaper Engine 用作壁纸，但壁纸在几小时、几天或几周后消失而没有任何错误消息，则很可能是由于手机的省电功能而遭到错误终止。 在正常情况下，Android 绝不应该出于省电目的而终止动态壁纸，但一些用户报告他们遇到了这种情况。 这在很大程度上取决于设置制造商，如果 Wallpaper Engine 定期消失，请在 Android 设置中禁用 Wallpaper Engine 的电源优化。 该操作取决于您的 Android 版本和设备，如果不确定，可在网上搜索在确切移动设备名称上禁用应用程序电源优化的方法。
