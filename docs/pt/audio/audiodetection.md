@@ -43,5 +43,5 @@ Se acredita que as suas definições de áudio estão corretas mas os wallpapers
 
 Caso não tenha a certeza de ter quaisquer destas aplicações instaladas, também pode usar a ferramenta de deteção do Wallpaper Engine e esta irá informá-lo sobre quaisquer programas que se saiba provocarem estes problemas:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Wallpaper Engine Scan Tool](/debug/scantool_support.html)
 
