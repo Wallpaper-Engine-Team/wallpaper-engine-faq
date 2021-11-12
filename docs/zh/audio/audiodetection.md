@@ -43,5 +43,5 @@ USB/无线耳麦很容易出现声音驱动程序问题。 对于许多设备来
 
 如果不确定是否安装了任何此类应用程序，您还可以使用 Wallpaper Engine 扫描工具，它将报告一些已知可导致这些问题的程序：
 
-* [Wallpaper Engine 扫描工具](/debug/scantool.html)
+* [Wallpaper Engine 扫描工具](/debug/scantool_support.html)
 
