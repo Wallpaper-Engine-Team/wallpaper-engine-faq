@@ -12,6 +12,6 @@ However, you can still configure Wallpaper Engine to override the static lock sc
 
 ## Funcionalidad del salvapantallas
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+Una alternativa para la pantalla de bloqueo es seleccionar Wallpaper Engine como salvapantallas en combinación con la opción **Mostrar la pantalla de inicio de sesión al reanudar** que se encuentra en la configuración del protector de pantalla de Windows. Aquí tienes una guía para configurar Wallpaper Engine como tu salvapantallas por defecto:
 
 * [Salvapantallas con Wallpaper Engine](/functionality/screensaver.html)
