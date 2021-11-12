@@ -5,34 +5,26 @@ Esta página contiene una lista de las preguntas y los problemas técnicos que s
 [[toc]]
 
 ::: tip
-If you are having issues with connecting your computer to your Android device, see our extensive pairing guide here:
+If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
 
 * [Pairing Mobile Device with Windows](/mobile/pairing.html)
 :::
 
-## Configurar Wallpaper Engine en Android
+## Cannot set live wallpaper on Android lock-screen
 
-La aplicación gratis de Wallpaper Engine para dispositivos Android funciona en teléfonos y tabletas con **Android 8.1** o superior.
+Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
 
-Recomendamos instalar la aplicación desde la tienda oficial, pero también puedes descargártela directamente desde nuestra página web. Si quieres los enlaces de descarga o saber más, echa un vistazo a la página de descargas en Android:
-
-* [Descargar Wallpaper Engine para Android](https://www.wallpaperengine.io/android/)
-
-## No puedo ver fondos dinámicos en la pantalla de bloqueo de Android
-
-Es posible que no puedas usar un fondo dinámico en la pantalla de bloqueo o que tengas que usar el mismo que en la pantalla de inicio dependiendo del fabricante del dispositivo o del lanzador de Android que utilices.
-
-Deja pulsado el símbolo de visto de la esquina superior derecha cuando previsualices un fondo dinámico en la aplicación de Wallpaper Engine para abrir la pantalla de fondos dinámicos del dispositivo. Dependiendo del fabricante, tendría que aparecerte una opción para poner el fondo en la pantalla de bloqueo. En caso de que no aparezca, no podrás poner fondos dinámicos en la pantalla de bloqueo. Aquí tienes una lista de fabricantes que tienen algunos dispositivos que no son compatibles con los fondos dinámicos en la pantalla de bloqueo:
+When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
 
 * Huawei
 * Xiaomi
 
-## Cómo quitar un fondo de Wallpaper Engine
+## How to unset Wallpaper Engine wallpaper
 
-Si quieres quitar un fondo de Wallpaper Engine, solo tienes que poner cualquier otro fondo en los ajustes de Android. Wallpaper Engine funciona como un fondo normal y corriente, por lo que no puede eliminarse por sí solo.
+If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
 
-Si lo prefieres, puedes desinstalar Wallpaper Engine para que el dispositivo vuelva a tener el fondo por defecto.
+Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
 
-## El fondo de Android desaparece o se cuelga
+## Android wallpaper regularly disappears or crashes silently
 
-Si usas Wallpaper Engine de fondo y este desaparece después de unas horas, días o semanas sin ningún tipo de mensaje, lo más probable es que lo esté cerrando la función de ahorro de energía de tu dispositivo. En circunstancias normales, Android no tendría por qué cerrar fondos dinámicos para ahorrar energía, pero hay algunos usuarios que nos han informado de que les ha pasado. Todo depende del fabricante del dispositivo. Si Wallpaper Engine desaparece muy a menudo, desactiva la optimización del rendimiento de la aplicación en los ajustes de Android. Esta opción puede variar en función del dispositivo por lo que, si tienes alguna duda, busca en internet cómo desactivar esta opción en tu dispositivo en concreto.
+If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
