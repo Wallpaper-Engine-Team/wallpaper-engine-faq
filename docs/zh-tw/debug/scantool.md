@@ -3,15 +3,12 @@
 如果您使用 Wallpaper Engine 遇到技術問題，但常見問題集的說明無法解決，請您建立系統記錄檔後提供給我們：
 
 1. 確保 Wallpaper Engine 正在運作 (若可行)。
-2. 在 Steam 中選擇第 4 個啟動選項 (*「系統衝突檢查」*，請參見下方簡短視訊)：
+2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video).
 3. 按一下 **Save Full Log**，並儲存至桌面 (請參見下方簡短視訊)。
-4. 將記錄檔提供給開發人員：
-    * **已經在論壇或其他社群媒體網站向我們提問了嗎？** 請傳送記錄檔至 **logs@wallpaperengine.io**。
+4. Share the log file with our developers:
+    * Send the log file to **logs@wallpaperengine.io**.
         * **重要事項：** 如果您使用這個電子郵件地址，請分享此連結到該討論上，並告知使用者名稱。
-    * **已透過電子郵件聯絡我們了嗎？** 請直接回覆電子郵件，並附上記錄檔。
-    * **還沒聯絡過我們？** 請傳送電子郵件至 **support@wallpaperengine.io** 建立新的提問。
-
-5. *另可選擇：* 如果遇到當機，請檢查 *wallpaper_engine* 目錄中是否存在任何 **.mdmp** 檔案，並利用電子郵件 (**logs@wallpaperengine.io**) 傳送或上傳至某處以提供給我們。 如果您找到許多 .mdmp 檔案，請傳送最新的即可。
+5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
 即使掃描工具起初並未回報任何問題，若更深入研究記錄檔，也通常能發現常見的電腦問題，有助我們快速為您提供解決方式。
