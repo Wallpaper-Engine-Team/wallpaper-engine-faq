@@ -7,7 +7,7 @@ Também pode vir de qualquer tipo de funcionalidades do controlador para gravar 
 
 Pode experimentar usar a nossa ferramenta de deteção para determinar se está instalado algum dos programas que sabemos provocarem este tipo de problemas. Tenha em conta que a nossa ferramenta de deteção não é capaz de detetar de forma fiável a raiz deste problema - poderá não detetar qualquer problema ou poderá identificar uma aplicação que não esteja relacionada com os seus problemas:
 
-* [Wallpaper Engine Scan Tool](/debug/scantool.html)
+* [Wallpaper Engine Scan Tool](/debug/scantool_support.html)
 
 ## Dynamic Super Resolution (DSR) / GPU Scaling
 Hacks ao nível do controlador como GPU Scaling/DSR também podem dar origem a problemas. Experimente desativá-los e, se isso ajudar, desative-os especificamente para o Wallpaper Engine.
