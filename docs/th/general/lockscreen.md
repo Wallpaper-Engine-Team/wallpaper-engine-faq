@@ -6,10 +6,12 @@ tags:
 
 # Wallpaper Engine บนหน้าจอล็อกของ Windows
 
-เรามักจะถูกถามอยู่บ่อยครั้งว่าสามารถตั้งค่าวอลเปเปอร์ Wallpaper Engine บนหน้าจอล็อกของ Windows ได้หรือไม่ น่าเสียดายที่การดำเนินการนี้จึงไม่สามารถทำได้เนื่องจากข้อจำกัดของ Windows หน้าจอล็อกคือพื้นที่คุ้มครองของ Windows ซึ่งไม่สามารถแก้ไขได้เว้นแต่ Windows จะถูกแฮ็ก เพื่อเป็นการรักษาความปลอดภัยของระบบ แอพพลิเคชันจึงไม่ควรเพิ่มเนื้อหาที่เป็นอันตรายลงในหน้าต่างเข้าสู่ระบบ ดังนั้น Wallpaper Engine จึงไม่สามารถเพิ่มวอลเปเปอร์ให้กับหน้าจอล็อกได้และเราไม่สามารถเพิ่มคุณสมบัตินี้ได้ในอนาคต
+The Windows lock screen is a protected area of Windows which does not allow for live and dynamic wallpapers. Microsoft has purposefully built it this way as a security measure.
+
+However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
 
 ## ฟังก์ชันสกรีนเซฟเวอร์
 
-เพื่อเป็นอีกทางเลือกแทนการใช้หน้าจอล็อก เราขอแนะนำให้ตั้งค่า Wallpaper Engine เป็นสกรีนเซฟเวอร์ร่วมกับการเปิดใช้งานตัวเลือก **On resume, display logon screen** (เมื่อดำเนินการต่อ ให้แสดงหน้าจอการเข้าสู่ระบบ) ในการตั้งค่าสกรีนเซฟเวอร์ของ Windows ดูวิธีกำหนดค่า Wallpaper Engine เป็นสกรีนเซฟเวอร์ได้ทางคู่มือสกรีนเซฟเวอร์ของเรา:
+As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
 
 * [สกรีนเซฟเวอร์กับ Wallpaper Engine](/functionality/screensaver.html)
