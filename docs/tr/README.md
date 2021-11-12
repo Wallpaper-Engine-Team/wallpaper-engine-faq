@@ -11,12 +11,12 @@ Sağ üst köşedeki arama çubuğuna anahtar kelimeler girin. Örneğin, duvar 
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
-* [Android - Frequent Questions and Problems](mobile/faq.html)
-* [Pairing Mobile Device with Windows](mobile/pairing.html)
+* [Android - Sık Sorular ve Sorunlar](mobile/faq.html)
+* [Mobil Cihazı Windows ile eşleştirme](mobile/pairing.html)
 
-## Most popular support articles
+## En popüler destek makaleleri
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+Önce bu listede kendi sorununuza benzer başlıkların açılıp açılmadığına bakın, bulamazsanız sağ üst köşedeki arama çubuğunu kullanabilir ya da soldaki listeden diğer makaleleri inceleyebilirsiniz:
 
 | **Popüler Makaleler**                                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------------ |
