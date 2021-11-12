@@ -23,4 +23,4 @@ Wallpaper Engine은 PC에서 3D 가속, 비디오 가속, 오디오가 필요합
 
 Geforce Experience를 포함한 오버레이 및 기록 프로그램이 문제를 유발할 수 있습니다. 관련된 모든 걸 제거해 보세요.
 
-스캔 도구를 사용해 잘 알려지고 확인된 충돌 응용 프로그램이 실행 중인지 확인해 봅니다: [여기를 클릭하세요](/debug/scantool.html).
+Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool_support.html).
