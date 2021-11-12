@@ -11,12 +11,12 @@
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
-* [Android - Frequent Questions and Problems](mobile/faq.html)
-* [Pairing Mobile Device with Windows](mobile/pairing.html)
+* [Android - よくある質問と問題](mobile/faq.html)
+* [モバイルデバイスとWindowsのペアリング](mobile/pairing.html)
 
-## Most popular support articles
+## 最も多く利用されるサポート項目
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+まずこのリストをチェックして、ご自分の問題に当てはまるものがないかどうか確かめてください。右上の検索を使ったり、左のリストでもっと多くの項目から探したりすることもできます。
 
 | **トップ項目**                                                                                   |
 | ------------------------------------------------------------------------------------------- |
