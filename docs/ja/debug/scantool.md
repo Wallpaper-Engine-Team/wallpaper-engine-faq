@@ -5,10 +5,10 @@ Wallpaper Engineで技術的な問題が発生し、FAQを見ても解決でき�
 1. Wallpaper Engineを起動させます（可能な場合）。
 2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video).
 3. **Save Full Log** をクリックし、デスクトップに保存します（下の短い動画をご覧ください）。
-4. Share the log file with our developers:
+4. ログファイルを開発者と共有：
     * Send the log file to **logs@wallpaperengine.io**.
         * **重要：** このメールアドレスをお使いの場合、ディスカッションのリンクと、あなたのユーザー名をお知らせください。
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
+5. *オプション：* クラッシュが起きた場合は、*wallpaper_engine*ディレクトリの中で **.mdmp** ファイルを探し、それもメールでお送りいただくか（**logs@wallpaperengine.io**）、 どこかにアップロードしてリンクをお送りください。 .mdmpファイルがたくさんある場合は、最新のものをお送りください。
 
 ::: tip
 最初の1回でスキャンツールが問題を報告しない場合でも、ログファイルを詳しく調べると、よくあるコンピュータの問題が発見され、技術的問題の解決に向けたアドバイスを差し上げられることがよくあります。
