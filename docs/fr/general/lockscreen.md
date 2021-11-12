@@ -6,9 +6,9 @@ tags:
 
 # Wallpaper Engine sur l'écran de verrouillage Windows
 
-The Windows lock screen is a protected area of Windows which does not allow for live and dynamic wallpapers. Microsoft has purposefully built it this way as a security measure.
+L'écran de verrouillage de Windows est une zone protégée de Windows qui n'autorise pas les fonds d'écran dynamiques. Microsoft l'a délibérément conçu de cette façon par mesure de sécurité.
 
-However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+Cependant, vous pouvez toujours configurer Wallpaper Engine pour remplacer l'image statique de l'écran de verrouillage par un instantané de votre fond d'écran actuel. Pour ce faire, activez l'option **Remplacer l'image d'écran de verrouillage** dans l'onglet **Général** des paramètres de Wallpaper Engine.
 
 ## Fonctionnalité de l'économiseur d'écran
 
