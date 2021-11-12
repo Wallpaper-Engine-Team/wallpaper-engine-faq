@@ -23,4 +23,4 @@ Wallpaper Engine не устанавливает никаких драйверо
 
 Любые программы записи и программы, накладывающиеся поверх экрана, могут вызывать сбои в работе; попробуйте их отключить. Это касается и Geforce Experience.
 
-Попробуйте воспользоваться инструментом сканирования. Он сверяется со списком распространенных программ, про которые достоверно известно, что они конфликтуют с Wallpaper Engine, и сообщает, если одна из них запущена на вашем компьютере. [Нажмите сюда](/debug/scantool.html).
+Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool_support.html).
