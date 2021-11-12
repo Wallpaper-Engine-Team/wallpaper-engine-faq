@@ -6,10 +6,12 @@ tags:
 
 # Wallpaper Engine на экране блокировки Windows
 
-Нас часто спрашивают, возможно ли установить обои Wallpaper Engine в качестве изображения для экрана блокировки Windows. К сожалению, это невозможно в связи с внутренними ограничениями Windows. Экран блокировки относится к защищенным сегментам Windows, в которые невозможно вносить изменения без взламывания системы. Эта важная защитная функция системы, которая не позволяет программам добавлять на окно входа вредоносный контент. Поэтому с помощью Wallpaper Engine невозможно добавить обои на экран блокировки, и в дальнейшем такой функции у программы не появится.
+The Windows lock screen is a protected area of Windows which does not allow for live and dynamic wallpapers. Microsoft has purposefully built it this way as a security measure.
+
+However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
 
 ## Функциональные возможности заставки
 
-Вместо экрана блокировки мы предлагаем настроить Wallpaper Engine в качестве заставки в сочетании с включенным параметром **"Начинать с экрана входа в систему"** в настройках заставки Windows. См. руководство о том, как настроить заставки в Wallpaper Engine:
+As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
 
 * [Заставки в Wallpaper Engine](/functionality/screensaver.html)
