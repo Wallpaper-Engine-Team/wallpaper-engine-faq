@@ -11,12 +11,12 @@
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
-* [Android - Frequent Questions and Problems](mobile/faq.html)
-* [Pairing Mobile Device with Windows](mobile/pairing.html)
+* [Частые вопросы и проблемы на Android](mobile/faq.html)
+* [Сопряжение мобильного устройства с Windows](mobile/pairing.html)
 
-## Most popular support articles
+## Самые популярные статьи
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+Первым делом просмотрите этот список: в нем могут быть описаны какие-либо из проблем, касающиеся вашей. В противном случае воспользуйтесь поиском в правом верхнем углу или просмотрите остальные статьи в списке слева:
 
 | **Самые популярные статьи**                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
