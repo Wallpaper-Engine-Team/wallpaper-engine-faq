@@ -33,12 +33,12 @@ En outre, vous pouvez utiliser l'option **Chargement retardé des plug-ins** en 
 
 ### Corsair
 
-Starting with iCUE 4, you need to manually enable software control in the iCUE settings first, otherwise Wallpaper Engine cannot connect to iCUE. If you have any issues with RGB lighting in combination with Corsair iCUE, make sure to check the iCUE settings first.
+À partir de iCUE 4, vous devez d'abord activer manuellement le contrôle logiciel dans les paramètres iCUE, sinon Wallpaper Engine ne peut pas se connecter à iCUE. Si vous avez des problèmes avec l'éclairage RVB en combinaison avec Corsair iCUE, vérifiez d'abord les paramètres iCUE.
 
-* Open iCUE.
-* Click the Settings icon in the upper right corner.
-* Click **Software and Games** on the left menu of the settings window.
-* Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
+* Ouvrez iCUE.
+* Cliquez sur l'icône Paramètres dans le coin supérieur droit.
+* Cliquez sur **Logiciels et jeux** dans le menu de gauche de la fenêtre des paramètres.
+* Assurez-vous que les options d'*intégrations logicielles* sont activées. Vérifiez l'onglet **Périphériques** afin de vous assurer que tous vos périphériques matériels sont également activés pour ce type d'éclairage RVB.
 
 If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
 
