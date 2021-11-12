@@ -26,7 +26,7 @@ In the **Windows** app, click on the **Mobile** button in the upper right corner
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
 ## 3. Connecting Your Mobile Device
@@ -35,7 +35,7 @@ In the Wallpaper Engine mobile companion app, click on **Add** in the lower righ
 
 <video height="590px" style="display:block;margin:0 auto;" controls autoplay loop>
   <source src="/videos/mobile_connect.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
 Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
@@ -54,7 +54,7 @@ Dynamic and interactive wallpapers that are of the **Scene** type will first be 
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
 ::: tip
@@ -79,7 +79,7 @@ Should you be able unable to fix the connection between your computer and your m
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_export.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
 Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
