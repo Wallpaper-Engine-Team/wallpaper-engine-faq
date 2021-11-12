@@ -3,15 +3,12 @@
 Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'de bulamıyorsanız bir sistem günlüğü dosyası oluşturabilir ve bizimle paylaşabilirsiniz:
 
 1. Wallpaper Engine'in çalıştığından emin olun (mümkünse).
-2. Steam'deki 4. başlatma seçeneğini seçin (*"Sistem Çakışmalarını Denetle"*, aşağıdan konuyla alakalı kısa video izleyebilirsiniz):
+2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video).
 3. **Save Full Log** seçeneğini tıklayıp masaüstünüze kaydedin (aşağıda kısa bir video bulunmaktadır).
-4. Kayıt dosyasını geliştiricilerimizle paylaşın:
-    * **Forumlarımızda veya başka bir sosyal medya internet sitesinde bizimle konuştunuz mu?** Günlük kaydını **logs@wallpaperengine.io** adresine gönderin.
+4. Share the log file with our developers:
+    * Send the log file to **logs@wallpaperengine.io**.
         * **ÖNEMLİ:** Bu e-posta adresini kullanıyorsanız lütfen tartışmanın bir bağlantısını paylaşın ve bize kullanıcı adınızı söyleyin.
-    * **Bizimle e-posta üzerinden mi konuştunuz?** E-postayı cevaplayın ve günlük kaydını ek olarak gönderin.
-    * **Bizimle ilk kez mi konuşuyorsunuz?** **support@wallpaperengine.io** adresine bir e-posta göndererek yeni bir bilet oluşturun.
-
-5. *İsteğe bağlı:* Çökme sorunu yaşıyorsanız lütfen *wallpaper_engine* dizininizdeki **.mdmp** dosyalarını kontrol edin ve o dosyaları bize **logs@wallpaperengine.io** e-posta adresinden ya da bir yere yükleyerek gönderin. Birçok .mdmp dosyası buluyorsanız lütfen yalnızca en yenilerini gönderin.
+5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email (**logs@wallpaperengine.io**) or by uploading them somewhere. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
 Tarama aracı ilk bakışta herhangi bir sorun bildirmese bile, günlük dosyasının daha ayrıntılı bir incelemesiyle yaygın bilgisayar sorunları ortaya çıkar. Bu şekilde teknik sorunlarınızın çözümünde size daha hızlı yardımcı olabiliriz.
