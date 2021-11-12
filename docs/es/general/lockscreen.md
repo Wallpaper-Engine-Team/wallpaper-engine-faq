@@ -6,10 +6,12 @@ tags:
 
 # Wallpaper Engine en la pantalla de bloqueo de Windows
 
-Nos suelen llegar preguntas sobre si es posible configurar un fondo de Wallpaper Engine en la pantalla de bloqueo de Windows. Por desgracia, no es posible debido a las limitaciones del propio Windows. La pantalla de bloqueo es una zona protegida que no se puede modificar sin hackear Windows, lo que actúa como un sistema de seguridad, pues las aplicaciones no deberían de poder añadir contenido malicioso a la pantalla de inicio. Es por eso que Wallpaper Engine no puede poner fondos en la pantalla de bloqueo y no podremos añadir dicha función en un futuro.
+The Windows lock screen is a protected area of Windows which does not allow for live and dynamic wallpapers. Microsoft has purposefully built it this way as a security measure.
+
+However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
 
 ## Funcionalidad del salvapantallas
 
-Una alternativa para la pantalla de bloqueo es seleccionar Wallpaper Engine como salvapantallas en combinación con la opción **Mostrar la pantalla de inicio de sesión al reanudar** que se encuentra en la configuración del protector de pantalla de Windows. Aquí tienes una guía para configurar Wallpaper Engine como tu salvapantallas por defecto:
+As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
 
 * [Salvapantallas con Wallpaper Engine](/functionality/screensaver.html)
