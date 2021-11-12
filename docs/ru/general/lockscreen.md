@@ -12,6 +12,6 @@ However, you can still configure Wallpaper Engine to override the static lock sc
 
 ## Функциональные возможности заставки
 
-As an alternative to relying on the lock screen, we suggest setting up Wallpaper Engine as a screensaver in combination with the **On resume, display logon screen** option enabled in the Windows screensaver settings. See our screensaver guide on how to configure Wallpaper Engine as your screensaver:
+Вместо экрана блокировки мы предлагаем настроить Wallpaper Engine в качестве заставки в сочетании с включенным параметром **"Начинать с экрана входа в систему"** в настройках заставки Windows. См. руководство о том, как настроить заставки в Wallpaper Engine:
 
 * [Заставки в Wallpaper Engine](/functionality/screensaver.html)
