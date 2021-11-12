@@ -26,7 +26,7 @@ To fully uninstall Wallpaper Engine to clear any corrupted files:
 2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
 3. Navigate to the Wallpaper Engine installation directory and delete the remaining `wallpaper_engine` directory entirely. by default, it is located here:
 
-* `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
+* `C:\Programme (x86)\Steam\steamapps\common\wallpaper_engine`
 
 If you have installed Wallpaper Engine in a different directory, please look for the `wallpaper_engine` directory there. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
 
@@ -36,9 +36,9 @@ You can now reinstall Wallpaper Engine. If you want to start from a clean slate,
 
 If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
 
-Follow these steps:
+Folge diesen Schritten:
 
-1. Turn off Steam. **Optional:** Uninstall Wallpaper Engine first.
+1. Schalte Steam vollständig aus. **Optional:** Uninstall Wallpaper Engine first.
 2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
 
 * [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
