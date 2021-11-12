@@ -1,6 +1,6 @@
 # 移动设备与 Windows 配对
 
-You can pair your mobile devices with your computer to wirelessly transfer your wallpaper collection to the Wallpaper Engine companion app on your mobile device.
+您可以将移动设备与计算机配对，以将壁纸合集无线传输到移动设备上的 Wallpaper Engine 伴侣应用程序。
 
 It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
 
@@ -14,31 +14,31 @@ If pairing does not work for you, see the **Backup Solution** section at the bot
 
 Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
 
-We recommend installing the app through the official app store release but you can also directly download the latest app directly from our homepage. For download links and more information, please view our Android download page:
+我们建议通过官方应用商店发行版安装应用程序，但您也可以直接从我们的主页下载最新的应用程序。 有关下载链接和更多信息，请查看我们的 Android 下载页面：
 
-* [Download Wallpaper Engine for Android](https://www.wallpaperengine.io/android/)
+* [下载 Android 版 Wallpaper Engine](https://www.wallpaperengine.io/android/)
 
 For security reasons, we advise against installing the app from any sources not listed on our website.
 
-## 2. Preparing Wallpaper Engine on Windows
+## 2. 在 Windows 上准备 Wallpaper Engine
 
-In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+在 **Windows** 应用程序中，单击用户界面右上角的**移动设备**按钮。 移动设备概览随即打开。 在设备概览底部，单击**连接新设备**按钮。 Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>
 
-## 3. Connecting Your Mobile Device
+## 3. 连接移动设备
 
-In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above).
+在 Wallpaper Engine 移动伴侣应用程序上，单击右下角的**添加**，然后单击**与计算机配对**。 Wallpaper Engine 应用程序将在您的本地网络中搜索 Windows 版 Wallpaper Engine 的运行实例。 您的 Windows 计算机将在几秒钟后出现，使您可以通过单击来连接到它。 如果您是第一次连接，则会要求您输入 4 位数 PIN（参阅上面的 Windows 部分）。
 
 <video height="590px" style="display:block;margin:0 auto;" controls autoplay loop>
   <source src="/videos/mobile_connect.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>
 
-Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+输入 PIN 后，手机应用程序中的状态栏就会变成绿色，并显示所连接的计算机。 在 Windows 应用程序中，**移动设备**按钮现在也会变成绿色，表示移动设备连接处于活动状态。
 
 By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
 
@@ -54,34 +54,34 @@ Dynamic and interactive wallpapers that are of the **Scene** type will first be 
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>
 
 ::: tip
 You can also transfer multiple wallpapers at the same time by clicking on multiple wallpapers while holding the CTRL key on your keyboard.
 :::
 
-## Mobile Pairing Problem Solving
+## 移动设备配对问题解决
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+如果无法将移动设备与计算机配对，则防火墙或本地网络设置很可能出错了。 检查以下可能的问题来源：
 
-* Ensure that your phone and computer are connected to the same local network.
-* Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
-* Ensure your network router is not blocking your devices from communicating with each other.
+* 确保您的手机和计算机连接到同一本地网络。
+* 确保防火墙没有阻止 Wallpaper Engine 与本地网络通信。
+* 确保网络路由器没有阻止您的设备相互通信。
     * Make sure your router is not blocking network traffic between devices.
     * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
-* Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
+* 在计算机和移动设备上，禁用可能干扰设备间通信的任何类型的 VPN 或代理软件。
+* 仔细检查 Windows 上的 Wallpaper Engine 和移动设备是否均为最新版本且正常运行。
 
-### Backup solution: Manually importing a Wallpaper File (.mpkg)
+### 备用解决方案：手动导入壁纸文件 (.mpkg)
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+如果您无法修复计算机和移动设备之间的连接，您仍可手动将壁纸转移到移动设备上。 首先，在 Wallpaper Engine 中选择要导出的壁纸，然后右键单击并选择**发送到移动设备**，接下来单击**导出 .mpkg**。
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_export.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>
 
-Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+在 Wallpaper Engine 为壁纸创建 .mpkg 文件后，您可以通过 USB 将这些文件移动到移动设备上，或者将文件复制到 SD 卡上，进而转移到移动设备。 或者，您还可以使用移动设备上的任何文件共享服务，或通过消息服务乃至电子邮件（如果文件大小不成问题）将文件发送给自己。
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+文件转移到移动设备上以后，在移动设备上打开 Wallpaper Engine，然后使用**导入文件**功能，从放置文件的目录选择文件，直接将 .mpkg 文件导入该应用程序。
