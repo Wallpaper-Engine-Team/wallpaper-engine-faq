@@ -11,12 +11,12 @@ Wallpaper Engine 관련 기술적 문제나 질문이 있다면, 여기서 답�
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
-* [Android - Frequent Questions and Problems](mobile/faq.html)
-* [Pairing Mobile Device with Windows](mobile/pairing.html)
+* [Android - 자주 묻는 질문 및 문제](mobile/faq.html)
+* [모바일 기기와 Windows 페어링하기](mobile/pairing.html)
 
-## Most popular support articles
+## 많이 보는 지원 문서
 
-Check this list first and see if any of the problems describe your issue, otherwise use the search in the upper right corner or check the list on the left for more articles:
+목록에서 문제를 설명한 항목이 있는지 살펴보거나, 오른쪽 상단의 검색 창을 이용하거나, 왼쪽 목록에서 더 많은 문서를 확인해 보세요:
 
 | **상위 문서**                                                                                              |
 | ------------------------------------------------------------------------------------------------------ |
