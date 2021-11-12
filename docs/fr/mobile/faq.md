@@ -4,10 +4,9 @@ Cette page contient une liste des questions et des problèmes techniques les plu
 
 [[toc]]
 
-::: tip
-If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
+::: conseil Si vous voulez connecter votre appareil Android à Windows pour installer plus de fonds d'écran ? Consultez notre guide complet sur l'appairage Android ici :
 
-* [Pairing Mobile Device with Windows](/mobile/pairing.html)
+* [Apparaige d'un appareil mobile avec Windows](/mobile/pairing.html)
 :::
 
 ## Impossible de définir un fond d'écran personnalisable sur l'écran de verrouillage d'Android
