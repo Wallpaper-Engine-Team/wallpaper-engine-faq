@@ -7,7 +7,7 @@
 右上の検索バーでは、一つのキーワードのみをお使いください。 例えば、壁紙がただの黒背景になってしまっているときは、単に「黒」で検索してみてください。
 :::
 
-## Android FAQ
+## Androidに関するよくある質問
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
