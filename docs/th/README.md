@@ -9,7 +9,7 @@
 
 ## คำถามที่พบบ่อย Android
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+หากคุณต้องการความช่วยเหลือเกี่ยวกับแอป Android โปรดอ่านสรุปคำถามที่พบบ่อยที่สุดเกี่ยวกับ Android และคำแนะนำของเราในการจับคู่คอมพิวเตอร์กับอุปกรณ์ Android ของคุณ:
 
 * [Android - คำถามและปัญหาที่พบบ่อย](mobile/faq.html)
 * [จับคู่อุปกรณ์มือถือกับ Windows](mobile/pairing.html)
