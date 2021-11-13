@@ -6,9 +6,9 @@ tags:
 
 # Wallpaper Engine บนหน้าจอล็อกของ Windows
 
-หน้าจอล็อกของ Windows เป็นพื้นที่ป้องกันของ Windows ซึ่งไม่อนุญาตให้ใช้วอลเปเปอร์ภาพเคลื่อนไหวและไดนามิก Microsoft has purposefully built it this way as a security measure.
+หน้าจอล็อกของ Windows เป็นพื้นที่ป้องกันของ Windows ซึ่งไม่อนุญาตให้ใช้วอลเปเปอร์ภาพเคลื่อนไหวและไดนามิก Microsoft ตั้งใจสร้างด้วยวิธีนี้เพื่อเป็นมาตรการรักษาความปลอดภัย
 
-However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+แต่คุณยังสามารถกำหนดค่า Wallpaper Engine เพื่อแทนที่ภาพหน้าจอล็อกแบบภาพนิ่งด้วยภาพบันทึกวอลเปเปอร์ภาพเคลื่อนไหวปัจจุบันของคุณได้ To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
 
 ## ฟังก์ชันสกรีนเซฟเวอร์
 
