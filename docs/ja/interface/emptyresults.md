@@ -23,4 +23,4 @@
 * ウイルス対策ソフト、ファイアウォールまたはネットワークアクセラレータアプリによって、お使いのPC上の全アプリのSteamの画像サーバーへの接続がブロックされている。
 * お使いのネットワークルーターの構成が不適当である。 お使いのルーターのファイアウォール設定ならびに詳細な設定を確認し、原因を探ってみてください。
     * スマートフォンを使ったWi-fiスポットに接続することで、ルーターが原因かどうかを容易に確かめることが可能です。 モバイルWi-fiホットスポットへの接続中にプレビュー画像が表示された場合、ネットワークルーターまたはインターネットサービスプロバイダーのネットワークが原因であることに間違いありません。
-    * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
+    * お使いのインターネットサービスプロバイダーがSteamの画像サーバーをブロックしている、または一時的に接続に関する問題が発生している可能性があります。 This is very rare but it can happen, try again later.
