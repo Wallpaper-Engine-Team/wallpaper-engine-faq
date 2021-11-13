@@ -35,9 +35,9 @@ Wallpaper Engineの*プラグイン*セクションが見えない場合、*Visu
 
 Wallpaper EngineのiCUEへの接続を許可するため、iCUE 4以降ではiCUEの設定でソフトウェア制御を手動で有効にしておく必要があります。 RGBライティングとCorsair iCUEの間で互換性の問題が発生した際、まずはiCUE側の設定を確認してください。
 
-* Open iCUE.
-* Click the Settings icon in the upper right corner.
-* Click **Software and Games** on the left menu of the settings window.
+* iCUEを起動してください。
+* 画面右上にある設定のアイコンをクリックしてください。
+* 設定ウィンドウ内、左側のメニューにある**ソフトウェアとゲーム**をクリックしてください。
 * Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
 
 If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
