@@ -36,11 +36,11 @@ Wallpaper Engine ไม่สามารถสื่อสารกับฮา
 ให้เริ่มต้นจาก iCUE 4 โดยคุณต้องเปิดใช้งานการควบคุมซอฟต์แวร์ในการตั้งค่า iCUE ด้วยตนเองก่อน มิฉะนั้น Wallpaper Engine จะไม่สามารถเชื่อมต่อกับ iCUE ได้ หากคุณพบปัญหาใดๆ กับการใช้งานแสง RGB ร่วมกับ Corsair iCUE โปรดตรวจสอบการตั้งค่า iCUE ก่อน
 
 * เปิด iCUE
-* Click the Settings icon in the upper right corner.
-* Click **Software and Games** on the left menu of the settings window.
-* Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
+* คลิกไอคอนการตั้งค่าที่มุมขวาบน
+* คลิก**ซอฟต์แวร์และเกม**ที่เมนูด้านซ้ายของหน้าต่างการตั้งค่า
+* ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานตัวเลือก*การรวมซอฟต์แวร์* ตรวจสอบแท็บ**อุปกรณ์**ว่าอุปกรณ์ฮาร์ดแวร์ทั้งหมดของคุณเปิดใช้งานสำหรับแสง RGB ประเภทนี้
 
-If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
+หากคุณยังคงพบปัญหากับการตั้งค่าแสง Corsair ให้ลองติดตั้งซอฟต์แวร์ Corsair iCUE ใหม่ทั้งหมด จากนั้นรีสตาร์ทคอมพิวเตอร์และติดตั้งอีกครั้ง หลากหลายปัญหาที่แก้ไขได้โดยการติดตั้งชุดซอฟต์แวร์ Corsair ใหม่ ตามด้วยการเปิดใช้งานตัวเลือกการรวมซอฟต์แวร์ด้วยตนเอง
 
 โปรดทราบว่ามีการใช้ iCUE ใน *โหมดเฉพาะ* ดังนั้น Wallpaper Engine จะมีความสำคัญเหนือกว่าซอฟต์แวร์อื่นที่เข้ากันได้กับ iCUE เช่น เกม ฯลฯ หากคุณต้องการทำให้แป้นพิมพ์เคลื่อนไหวในเกม ให้ไปที่แท็บ **ประสิทธิภาพการทำงาน** ในส่วนการตั้งค่า Wallpaper Engine และตั้งค่าตัวเลือก **แอพพลิเคชันอื่นทำงานแบบเต็มหน้าจอ** เป็น **หยุด (ลดการใช้หน่วยความจำ)** เพื่อหยุดวอลเปเปอร์ขณะอยู่ในเกม หรือคุณสามารถปิดใช้งานปลั๊กอิน RGB หรือปิดใช้งานตัวเลือก RGB สำหรับวอลเปเปอร์แต่ละแบบ
 
