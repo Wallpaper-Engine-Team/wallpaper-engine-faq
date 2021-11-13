@@ -12,17 +12,17 @@
 
 ## 1. ติดตั้งแอปคู่หู Android Wallpaper Engine ฟรี
 
-Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
+ก่อนดำเนินการต่อ โปรดตรวจสอบให้แน่ใจว่าแอปคู่หู Wallpaper Engine Android ที่ติดตั้งเป็นเวอร์ชันล่าสุด
 
 เราขอแนะนำให้ติดตั้งแอปผ่านทาง App Store อย่างเป็นทางการ แต่คุณสามารถดาวน์โหลดแอปล่าสุดได้โดยตรงจากหน้าแรกของเรา โปรดดูลิงก์ดาวน์โหลดและข้อมูลเพิ่มเติมได้ที่หน้าดาวน์โหลด Android ของเรา:
 
 * [ดาวน์โหลด Wallpaper Engine สำหรับ Android](https://www.wallpaperengine.io/android/)
 
-For security reasons, we advise against installing the app from any sources not listed on our website.
+ด้วยเหตุผลด้านความปลอดภัย เราไม่แนะนำให้ติดตั้งแอปจากแหล่งที่มาที่ไม่ได้อยู่ในเว็บไซต์ของเรา
 
 ## 2. กำลังเตรียม Wallpaper Engine บน Windows
 
-ในแอป **Windows** ให้คลิกปุ่ม **โทรศัพท์** ที่มุมขวาบนของส่วนต่อประสานกับผู้ใช้ ภาพรวมอุปกรณ์มือถือจะเปิดขึ้น ด้านล่างของภาพรวมอุปกรณ์ ให้คลิกที่ปุ่ม **เชื่อมต่ออุปกรณ์ใหม่** Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+ในแอป **Windows** ให้คลิกปุ่ม **โทรศัพท์** ที่มุมขวาบนของส่วนต่อประสานกับผู้ใช้ ภาพรวมอุปกรณ์มือถือจะเปิดขึ้น ด้านล่างของภาพรวมอุปกรณ์ ให้คลิกที่ปุ่ม **เชื่อมต่ออุปกรณ์ใหม่** Wallpaper Engine จะแสดง PIN 4 หลักซึ่งคุณสามารถใช้เพื่อจับคู่กับอุปกรณ์มือถือหนึ่งเครื่องในขั้นตอนถัดไป
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
@@ -40,15 +40,15 @@ For security reasons, we advise against installing the app from any sources not 
 
 หลังจากป้อน PIN แล้ว แถบสถานะในแอปมือถือจะเปลี่ยนเป็นสีเขียวและแสดงคอมพิวเตอร์ที่เชื่อมต่อ ปุ่ม **โทรศัพท์** ในแอป Windows จะเปลี่ยนเป็นสีเขียวเพื่อแสดงว่ากำลังการเชื่อมต่อมือถือทำงานอยู่
 
-By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+ตามค่าเริ่มต้น Wallpaper Engine จะเชื่อมต่อกับคอมพิวเตอร์ของคุณโดยอัตโนมัติเสมอหากคุณเริ่มใช้งาน Wallpaper Engine บนอุปกรณ์มือถือและคอมพิวเตอร์ของคุณพร้อมกัน
 
-## 4. Transferring Wallpapers to Your Mobile Device
+## 4. การถ่ายโอนวอลเปเปอร์ไปยังอุปกรณ์มือถือของคุณ
 
-Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+เมื่อสร้างการเชื่อมต่อแล้ว ปุ่ม**มือถือ**ที่มุมขวาบนจะเปลี่ยนเป็นสีเขียว
 
-You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+ตอนนี้คุณสามารถคลิกที่ปุ่ม**ส่งไปยังอุปกรณ์มือถือ**ที่ด้านขวา หรือคลิกขวาที่วอลเปเปอร์ที่เข้ากันได้ แล้วเลือก **ส่งไปยังอุปกรณ์มือถือ** ตามด้วยการเลือกอุปกรณ์ของคุณจากรายการ
 
-#### Scene Wallpapers
+#### วอลเปเปอร์ฉาก
 
 Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
 
