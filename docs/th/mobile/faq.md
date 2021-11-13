@@ -5,9 +5,9 @@
 [[toc]]
 
 ::: tip
-If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
+หากคุณต้องการเชื่อมต่ออุปกรณ์ Android ของคุณกับ Windows เพื่อติดตั้งวอลเปเปอร์เพิ่มเติม ให้ดูคู่มือการจับคู่ Android แบบครอบคลุมของเราได้ที่นี่:
 
-* [Pairing Mobile Device with Windows](/mobile/pairing.html)
+* [การจับคู่อุปกรณ์มือถือกับ Windows](/mobile/pairing.html)
 :::
 
 ## ไม่สามารถตั้งค่าวอลเปเปอร์ภาพเคลื่อนไหวบนหน้าจอล็อกของ Android
