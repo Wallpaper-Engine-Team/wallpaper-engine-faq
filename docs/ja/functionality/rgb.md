@@ -38,9 +38,9 @@ Wallpaper EngineのiCUEへの接続を許可するため、iCUE 4以降ではiCU
 * iCUEを起動してください。
 * 画面右上にある設定のアイコンをクリックしてください。
 * 設定ウィンドウ内、左側のメニューにある**ソフトウェアとゲーム**をクリックしてください。
-* Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
+* *ソフトウェア統合*が有効になっていることを確認してください。 **デバイス**タブで、すべてのハードウェアデバイスがこのタイプのRGBライティングに対して有効になっていることを確認してください。
 
-If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
+Corsairのライティング設定に関する問題が解消されない場合は、PCを再起動させた後、Corsair iCUEを再インストールしてください。 Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
 
 iCUEは*排他モード*で使用されているという点に注意してください。これは、Wallpaper Engineが、ゲームなどの他のiCUE互換ソフトウェアよりも優先的に使用するということです。 ゲームにキーボードをアニメーションさせたい場合は、Wallpaper Engine設定の**パフォーマンス**タブで、**他のアプリケーションがフルスクリーンになった場合**オプションを**停止（メモリ解放）** にセットして、ゲーム中は壁紙を停止させてください。 または、RGBプラグインを無効にしたり、壁紙ごとにRGBオプションを無効にしたりすることもできます。
 
