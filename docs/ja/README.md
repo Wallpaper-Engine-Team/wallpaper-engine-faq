@@ -9,7 +9,7 @@
 
 ## Androidに関するよくある質問
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+Androidアプリに関するサポートが必要な質方は、Androidに関するよくある質問の概要と、PCとAndroidデバイスのペアリングに関するガイドをご確認ください。
 
 * [Android - よくある質問と問題](mobile/faq.html)
 * [モバイルデバイスとWindowsのペアリング](mobile/pairing.html)
