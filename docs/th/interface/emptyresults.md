@@ -22,5 +22,5 @@
 
 * แอพพลิเคชันป้องกันไวรัส ไฟร์วอลล์ หรือแอปเพิ่มประสิทธิภาพกำลังปิดกั้นการเชื่อมต่อเซิร์ฟเวอร์รูปภาพ Steam ในการใช้กับแอพพลิเคชันทั้งหมดบนคอมพิวเตอร์ของคุณ
 * เราเตอร์เครือข่ายของคุณกำหนดค่าผิดพลาด ให้ตรวจสอบการตั้งค่าไฟร์วอลล์ของเราเตอร์และการตั้งค่าเราเตอร์ขั้นสูงอื่นๆ ที่อาจส่งผลนี้อย่างละเอียดถี่ถ้วน
-    * คุณสามารถทดสอบได้ง่ายๆ ว่าเราเตอร์ของคุณมีข้อผิดพลาดหรือไม่ โดยเชื่อมต่อคอมพิวเตอร์กับฮอตสปอต Wi-Fi ผ่านสมาร์ทโฟนของคุณ If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
-    * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
+    * คุณสามารถทดสอบได้ง่ายๆ ว่าเราเตอร์ของคุณมีข้อผิดพลาดหรือไม่ โดยเชื่อมต่อคอมพิวเตอร์กับฮอตสปอต Wi-Fi ผ่านสมาร์ทโฟนของคุณ หากภาพตัวอย่างเริ่มปรากฏขึ้นขณะเชื่อมต่อกับฮอตสปอต WiFi มือถือ ปัญหานั้นเกิดจากเราเตอร์เครือข่ายของคุณหรือเครือข่ายของผู้ให้บริการอินเทอร์เน็ตของคุณอย่างแน่นอน
+    * ผู้ให้บริการอินเทอร์เน็ตของคุณอาจปิดกั้นเซิร์ฟเวอร์รูปภาพ Steam หรืออาจมีปัญหาการเชื่อมต่อชั่วคราว This is very rare but it can happen, try again later.
