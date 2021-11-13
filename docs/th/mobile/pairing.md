@@ -50,7 +50,7 @@
 
 #### วอลเปเปอร์ฉาก
 
-Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+วอลเปเปอร์แบบเคลื่อนไหวและโต้ตอบได้ประเภท**ฉาก**จะได้รับการปรับให้เหมาะสมก่อนการใช้งานบนโทรศัพท์มือถือ และเพื่อให้แน่ใจว่าเข้ากันได้กับฮาร์ดแวร์มือถือ ขั้นตอนนี้อาจใช้เวลาสักครู่ ระบบจะถามคุณด้วยว่าต้องการใช้ตัวเลือกคุณภาพใด โดยเฉพาะสำหรับวอลเปเปอร์ความละเอียดสูง เราขอแนะนำให้ลองใช้ตัวเลือก**สมดุล**หากคุณพบปัญหาด้านประสิทธิภาพบนอุปกรณ์มือถือ
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
@@ -58,7 +58,7 @@ Dynamic and interactive wallpapers that are of the **Scene** type will first be 
 </video>
 
 ::: tip
-You can also transfer multiple wallpapers at the same time by clicking on multiple wallpapers while holding the CTRL key on your keyboard.
+คุณยังสามารถถ่ายโอนวอลเปเปอร์หลายภาพได้พร้อมกัน โดยคลิกวอลเปเปอร์หลายภาพขณะกดปุ่ม CTRL บนแป้นพิมพ์ค้างไว้
 :::
 
 ## กำลังแก้ปัญหาการจับคู่มือถือ
