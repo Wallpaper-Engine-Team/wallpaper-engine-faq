@@ -1,13 +1,13 @@
-# Fully Resetting Wallpaper Engine
+# การรีเซ็ต Wallpaper Engine โดยสมบูรณ์
 
-If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
+คุณอาจต้องรีเซ็ตการติดตั้ง Wallpaper Engine โดยสมบูรณ์หากพบปัญหาทางเทคนิคกับ Wallpaper Engine โปรดทำตามคำแนะนำนี้เพื่อรีเซ็ต Wallpaper Engine โดยสมบูรณ์ รวมถึงการสมัครรับข้อมูลวอลเปเปอร์ที่เสียหาย
 
 ::: danger
-Read this first if you use an antivirus app (except Microsoft Defender)
+โปรดอ่านตรงนี้ก่อนหากคุณใช้แอพพลิเคชันป้องกันไวรัส (ยกเว้น Microsoft Defender)
 
-A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
+ปัญหาส่วนใหญ่ที่เราพบเกิดจากการที่แอพพลิเคชันป้องกันไวรัสปิดกั้น Wallpaper Engine หรือ Steam โดยไม่ได้ตั้งใจ แอพพลิเคชันป้องกันไวรัสมักเป็นสาเหตุให้เกิด:
 
-* Wallpaper Engine crashes
+* Wallpaper Engine หยุดทำงาน
 * Broken or empty Wallpaper Engine user interface
 * Wallpaper Engine failing to start at all without any error message
 * Wallpaper Engine failing to install or update itself
