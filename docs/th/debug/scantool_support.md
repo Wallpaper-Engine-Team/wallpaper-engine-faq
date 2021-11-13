@@ -6,7 +6,7 @@
 2. เลือกตัวเลือกเริ่มการทำงานข้อที่ 4 ใน Steam (*"การตรวจสอบความขัดแย้งของระบบ"* โปรดดูวิดีโอสั้นด้านล่าง).
 3. คลิกที่ **Save Full Log** และบันทึกลงในเดสก์ท็อปของคุณ (ดูวิดีโอสั้นด้านล่าง)
 4. แบ่งปันไฟล์ Log กับนักพัฒนาของเรา:
-    * Describe the problem you are having and send an email to **support@wallpaperengine.io**.
+    * อธิบายปัญหาที่คุณพบและส่งอีเมลไปที่ **support@wallpaperengine.io**
 5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email. หากคุณพบไฟล์ .mdmp จำนวนมาก โปรดส่งเฉพาะไฟล์ .mdmp ล่าสุดเท่านั้น
 
 ::: tip
