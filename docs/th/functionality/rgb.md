@@ -33,9 +33,9 @@ Wallpaper Engine ไม่สามารถสื่อสารกับฮา
 
 ### Corsair
 
-Starting with iCUE 4, you need to manually enable software control in the iCUE settings first, otherwise Wallpaper Engine cannot connect to iCUE. If you have any issues with RGB lighting in combination with Corsair iCUE, make sure to check the iCUE settings first.
+ให้เริ่มต้นจาก iCUE 4 โดยคุณต้องเปิดใช้งานการควบคุมซอฟต์แวร์ในการตั้งค่า iCUE ด้วยตนเองก่อน มิฉะนั้น Wallpaper Engine จะไม่สามารถเชื่อมต่อกับ iCUE ได้ หากคุณพบปัญหาใดๆ กับการใช้งานแสง RGB ร่วมกับ Corsair iCUE โปรดตรวจสอบการตั้งค่า iCUE ก่อน
 
-* Open iCUE.
+* เปิด iCUE
 * Click the Settings icon in the upper right corner.
 * Click **Software and Games** on the left menu of the settings window.
 * Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
