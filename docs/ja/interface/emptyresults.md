@@ -4,13 +4,13 @@
 
 ## Steamの画像サービスへの接続テスト
 
-First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
+まず、お使いのPCからSteamの画像サーバーへの接続が可能かどうかをテストしてください。 ウェブブラウザで下記リンクを開いて接続テストを実行してください。
 
-* [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+* [**クリックしてSteamの画像サーバーをテスト**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-You should see a message that says **OK** and shows a **green checkmark** when clicking on the link above.
+上記のリンクをクリックすると、**OK**というメッセージと**緑色のチェックマーク**が表示されます。
 
-### I can see the OK message
+### 「OK」と表示された場合
 
 If you see the **OK** message when clicking the test link above:
 
