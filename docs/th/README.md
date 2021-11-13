@@ -7,7 +7,7 @@
 ใช้แถบค้นหาที่มุมขวาบนด้วยคีย์เวิร์ดเดียว เช่น หากวอลเปเปอร์ของคุณแสดงเฉพาะพื้นหลังสีดำ ให้ลองค้นหาด้วยคำว่า "สีดำ"
 :::
 
-## Android FAQ
+## คำถามที่พบบ่อย Android
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
