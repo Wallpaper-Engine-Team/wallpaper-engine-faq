@@ -14,13 +14,13 @@
 
 หากคุณเห็นข้อความ**ตกลง**เมื่อคลิกลิงก์ทดสอบด้านบน:
 
-* หมายความว่ามีเพียง Wallpaper Engine เท่านั้นที่ถูกปิดกั้นโดยซอฟต์แวร์ความปลอดภัยบางตัวในคอมพิวเตอร์ของคุณ Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* หมายความว่ามีเพียง Wallpaper Engine เท่านั้นที่ถูกปิดกั้นโดยซอฟต์แวร์ความปลอดภัยบางตัวในคอมพิวเตอร์ของคุณ ให้คุณกำหนดค่าแอพพลิเคชันป้องกันไวรัส ไฟร์วอลล์ หรือแอปเพิ่มประสิทธิภาพให้ละเว้น Wallpaper Engine โดยเฉพาะกระบวนการ **ui32.exe** ที่เป็นของ Wallpaper Engine
 
-### I can NOT see the OK message
+### ฉันไม่เห็นข้อความตกลง
 
-If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
+หากคุณ**ไม่**เห็นข้อความ**ตกลง**เมื่อคลิกลิงก์ทดสอบด้านบน นั่นหมายความว่าทั้งคอมพิวเตอร์หรือแม้แต่เครือข่ายทั้งหมดของคุณไม่สามารถโหลดรูปภาพจากเซิร์ฟเวอร์รูปภาพ Steam ได้ สาเหตุของปัญหาอาจมีดังนี้:
 
-* An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
-* Your network router is somehow misconfigured. Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
-    * You can easily test if your router is at fault by connecting your computer to a wifi hotspot through your smartphone. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
+* แอพพลิเคชันป้องกันไวรัส ไฟร์วอลล์ หรือแอปเพิ่มประสิทธิภาพกำลังปิดกั้นการเชื่อมต่อเซิร์ฟเวอร์รูปภาพ Steam ในการใช้กับแอพพลิเคชันทั้งหมดบนคอมพิวเตอร์ของคุณ
+* เราเตอร์เครือข่ายของคุณกำหนดค่าผิดพลาด ให้ตรวจสอบการตั้งค่าไฟร์วอลล์ของเราเตอร์และการตั้งค่าเราเตอร์ขั้นสูงอื่นๆ ที่อาจส่งผลนี้อย่างละเอียดถี่ถ้วน
+    * คุณสามารถทดสอบได้ง่ายๆ ว่าเราเตอร์ของคุณมีข้อผิดพลาดหรือไม่ โดยเชื่อมต่อคอมพิวเตอร์กับฮอตสปอต Wi-Fi ผ่านสมาร์ทโฟนของคุณ If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
     * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
