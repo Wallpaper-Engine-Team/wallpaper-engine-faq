@@ -39,10 +39,10 @@
 โปรดทำตามขั้นตอนเหล่านี้:
 
 1. ปิด Steam **ตัวเลือก:** ถอนการติดตั้ง Wallpaper Engine ก่อน
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+2. เปิดเว็บไซต์ Wallpaper Engine Steam Workshop และเข้าสู่ระบบบัญชี Steam ของคุณ:
 
-* [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
+* [Steam Workshop สำหรับ Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
 
-3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
-4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
-5. **Restart Steam**, your subscriptions are now reset.
+3. ทางด้านขวามือ ให้วางเมาส์เหนือ **ไฟล์ของคุณ** แล้วตามด้วย **รายการที่สมัครรับข้อมูล**
+4. คุณจะเห็นหน้าการสมัครรับข้อมูลของคุณ คลิกปุ่ม **เลิกสมัครรับข้อมูลจากทั้งหมด** ทางด้านขวามือเพื่อล้างการสมัครรับข้อมูลเวิร์กชอปของคุณทั้งหมด (รวมถึงการสมัครรับข้อมูลที่เสียหายที่ซ่อนอยู่)
+5. **รีสตาร์ท Steam** การสมัครรับข้อมูลของคุณถูกรีเซ็ตแล้ว
