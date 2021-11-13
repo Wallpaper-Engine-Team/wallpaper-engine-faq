@@ -33,7 +33,7 @@ Wallpaper Engineの*プラグイン*セクションが見えない場合、*Visu
 
 ### Corsair
 
-Starting with iCUE 4, you need to manually enable software control in the iCUE settings first, otherwise Wallpaper Engine cannot connect to iCUE. If you have any issues with RGB lighting in combination with Corsair iCUE, make sure to check the iCUE settings first.
+Wallpaper EngineのiCUEへの接続を許可するため、iCUE 4以降ではiCUEの設定でソフトウェア制御を手動で有効にしておく必要があります。 RGBライティングとCorsair iCUEの間で互換性の問題が発生した際、まずはiCUE側の設定を確認してください。
 
 * Open iCUE.
 * Click the Settings icon in the upper right corner.
