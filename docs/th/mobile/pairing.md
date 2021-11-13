@@ -5,12 +5,12 @@
 ด้วยข้อจำกัดทางเทคนิคและกฎหมายที่ป้องกันไม่ให้แอป Android เชื่อมต่อโดยตรงกับเวิร์กชอป แอป Android จึงไม่สามารถดาวน์โหลดวอลเปเปอร์โดยตรงจากเวิร์กชอป
 
 ::: tip
-If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
+หากการจับคู่ไม่ได้ผลสำหรับคุณ โปรดดูส่วน**วิธีแก้ปัญหาสำรอง**ที่ด้านล่างของหน้านี้เพื่อเรียนรู้วิธีสร้างแพ็กเกจวอลเปเปอร์มือถือ (**.mpkg**) และวิธีนำเข้ามายังอุปกรณ์มือถือของคุณ
 :::
 
 [[toc]]
 
-## 1. Install the free Wallpaper Engine Android Companion App
+## 1. ติดตั้งแอปคู่หู Android Wallpaper Engine ฟรี
 
 Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
 
