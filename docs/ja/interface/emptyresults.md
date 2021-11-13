@@ -1,8 +1,8 @@
 # プレビュー画像や検索結果が表示されない
 
-If you cannot see preview images for uninstalled wallpapers in Wallpaper Engine, this usually means that a firewall or security software is blocking Wallpaper Engine from accessing the Steam image servers.
+アンインストールされた壁紙のプレビュー画像がWallpaper Engineに表示されない状態は、多くのケースでファイヤーウォールまたはセキュリティソフトによってWallpaper EngineのSteamの画像サーバーへのアクセスがブロックされていることを意味します。
 
-## Test Your Connection to the Steam Image Servers
+## Steamの画像サービスへの接続テスト
 
 First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
 
