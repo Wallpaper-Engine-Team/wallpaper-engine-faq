@@ -20,7 +20,7 @@
 
 上記のテストリンクをクリックして**OK**というメッセージが**表示されない**場合は、お使いのPCまたはネットワーク全体がSteamの画像サーバーから画像をダウンロードできない状態だということを意味します。 考えられる原因は...
 
-* An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
-* Your network router is somehow misconfigured. Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
-    * You can easily test if your router is at fault by connecting your computer to a wifi hotspot through your smartphone. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
+* ウイルス対策ソフト、ファイアウォールまたはネットワークアクセラレータアプリによって、お使いのPC上の全アプリのSteamの画像サーバーへの接続がブロックされている。
+* お使いのネットワークルーターの構成が不適当である。 お使いのルーターのファイアウォール設定ならびに詳細な設定を確認し、原因を探ってみてください。
+    * スマートフォンを使ったWi-fiスポットに接続することで、ルーターが原因かどうかを容易に確かめることが可能です。 モバイルWi-fiホットスポットへの接続中にプレビュー画像が表示された場合、ネットワークルーターまたはインターネットサービスプロバイダーのネットワークが原因であることに間違いありません。
     * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
