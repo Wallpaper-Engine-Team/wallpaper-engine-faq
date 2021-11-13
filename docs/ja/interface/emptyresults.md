@@ -12,13 +12,13 @@
 
 ### 「OK」と表示された場合
 
-If you see the **OK** message when clicking the test link above:
+上記のテストリンクをクリックして**OK**というメッセージが表示された場合は...
 
-* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* Wallpaper EngineのみがPCのセキュリティソフトによってブロックされているという状態で間違いありません。 Wallpaper Engine、特にWallpaper Engineに属する**ui32.exe**のプロセスを除外するように、ウイルス対策ソフト、ファイアウォールまたはネットワークアクセラレータアプリを設定してください。
 
-### I can NOT see the OK message
+### 「OK」が表示されない場合
 
-If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
+上記のテストリンクをクリックして**OK**というメッセージが**表示されない**場合は、お使いのPCまたはネットワーク全体がSteamの画像サーバーから画像をダウンロードできない状態だということを意味します。 考えられる原因は...
 
 * An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
 * Your network router is somehow misconfigured. Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
