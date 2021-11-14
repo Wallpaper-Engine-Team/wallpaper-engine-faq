@@ -6,7 +6,7 @@
 
 ::: ヒント AndroidデバイスをWindows PCに接続し、さらに壁紙をインストールしたい場合は？ こちらからAndroidのペアリングに関するガイドをご覧ください。
 
-* [Pairing Mobile Device with Windows](/mobile/pairing.html)
+* [モバイルデバイスとWindowsとのペアリング](/mobile/pairing.html)
 :::
 
 ## Androidのロック画面にライブ壁紙を設定できない
