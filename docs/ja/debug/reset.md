@@ -1,9 +1,8 @@
-# Fully Resetting Wallpaper Engine
+# Wallpaper Engineのフルリセット
 
-Wallpaper Engineで技術的な問題が発生する場合は、Wallpaper Engineのフルリセットが必要な場合があります。 Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
+Wallpaper Engineで技術的な問題が発生する場合は、Wallpaper Engineのフルリセットが必要な場合があります。 破損したサブスクリプションを含むWallpaper Engineの完全なリセットを実行するには、このガイドの指示にしたがってください、
 
-::: danger
-Read this first if you use an antivirus app (except Microsoft Defender)
+::: 重要: Microsoft Defender以外のウイルス対策ソフトをお使いの場合は、必ずお読みください。
 
 A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
 
