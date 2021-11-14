@@ -29,16 +29,16 @@ Wallpaper Engineを完全にアンインストールするには、破損ファ�
 
 Wallpaper Engineが他の場所にインストールされている場合は、`wallpaper_engine`のディレクトリを検索してください。 フォルダを完全に削除し、見えないウイルス対策ファイルのロックまたは破損ファイルが消去してください。
 
-Wallpaper Engineを再インストールしてください。 If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+Wallpaper Engineを再インストールしてください。 白紙の状態からの再開を希望する場合は、壁紙のサブスクリプションすべてを完全にリセットする方法が記載されている次の記事を参照してください (この方法の実行は、多くの場合において必要ありません)
 
-## Resetting all Steam Workshop Subscriptions
+## Steamワークショップサブスクリプションのリセット
 
-If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+Steamによる壁紙のダウンロードに関する問題が発生する場合、Steamワークショップサブスクリプションのフルリセットをお試しください。 稀なケースですが、これを実行することでアプリ内にある見えない破損したワークショップのサブスクリプションの解消に役立つことがあります。 Steamがすべての壁紙を複数回ダウンロードしたり、Steamワークショップからすでに削除されている壁紙をダウンロードするようであれば、フルリセットをお試しください。
 
 次の手順に従ってください。
 
-1. Steamを終了します。 **Optional:** Uninstall Wallpaper Engine first.
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+1. Steamを終了します。 **任意:** 最初にWallpaper Engineをアンインストールする。
+2. Wallpaper EngineのSteamワークショップのWebサイトにアクセスし、Steamアカウントにログインしてください。
 
 * [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
 
