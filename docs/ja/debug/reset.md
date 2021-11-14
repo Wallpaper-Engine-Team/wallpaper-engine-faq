@@ -1,10 +1,10 @@
 # Wallpaper Engineのフルリセット
 
-Wallpaper Engineで技術的な問題が発生する場合は、Wallpaper Engineのフルリセットが必要な場合があります。 破損したサブスクリプションを含むWallpaper Engineの完全なリセットを実行するには、このガイドの指示にしたがってください、
+Wallpaper Engineで技術的な問題が発生する場合は、Wallpaper Engineのフルリセットが必要な場合があります。 破損したサブスクリプションを含むWallpaper Engineの完全なリセットを実行するには、このガイドの記載内容にしたがってください、
 
-::: 重要: Microsoft Defender以外のウイルス対策ソフトをお使いの場合は、必ずお読みください。
+::: 重要: Microsoft Defender以外のウイルス対策ソフトをお使いの場合は、必ず最初にお読みください。
 
-発生する問題の大部分は、ウイルス対策ソフトが誤ってWallpaper EngineまたはSteamをブロックしてしまうことが原因です。 ウイルス対策ソフトが原因となって発生する問題の例:
+発生する問題の多くは、ウイルス対策ソフトがWallpaper EngineまたはSteamを誤ってブロックしてしまうことが原因です。 ウイルス対策ソフトが原因で発生する問題の例:
 
 * Wallpaper Engineのクラッシュ
 * Wallpaper Engineのユーザーインターフェースの破損または表示エラー
