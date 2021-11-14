@@ -42,6 +42,6 @@ Steamによる壁紙のダウンロードに関する問題が発生する場合
 
 * [Wallpaper Engine向けのSteamワークショップ](https://steamcommunity.com/app/431960/workshop/)
 
-3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
-4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
-5. **Restart Steam**, your subscriptions are now reset.
+3. 画面右側の**あなたのファイル**をクリックし、**サブスクライブ中のアイテム**を選択してください。
+4. あなたのサブスクリプションが表示されます。 画面右側の**サブスクリプションをすべて解除**をクリックし、すべてのワークショップのサブスクリプションを消去してください (破損した隠しファイルも含む。)
+5. **Steamを再起動**し、すべてのサブスクリプションがリセットされていることを確認してください。
