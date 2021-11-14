@@ -1,6 +1,6 @@
 # Fully Resetting Wallpaper Engine
 
-If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
+Wallpaper Engineで技術的な問題が発生する場合は、Wallpaper Engineのフルリセットが必要な場合があります。 Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
 
 ::: danger
 Read this first if you use an antivirus app (except Microsoft Defender)
