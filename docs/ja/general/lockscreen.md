@@ -8,7 +8,7 @@ tags:
 
 Windowsのロック画面はWindows側で制御されており、ライブまたはダイナミック壁紙を適用させることはできません。 Microsoftはセキュリティー対策として意図的にこのような仕様を構築しています。
 
-しかし、Wallpaper Engineの設定を変えることにより、現在のライブ壁紙の一部を利用してロック画面の静止画を上書きすることもできます。 To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+しかし、Wallpaper Engineの設定を変更すれば、現在のライブ壁紙の一部分を利用してロック画面の静止画を上書きすることも可能です。 これは、Wallpaper Engineの設定画面の**一般**タブから**ロック画面画像の上書き**を有効にすることで可能です。
 
 ## スクリーンセーバー機能
 
