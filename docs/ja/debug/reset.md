@@ -9,12 +9,12 @@ Wallpaper Engineで技術的な問題が発生する場合は、Wallpaper Engine
 * Wallpaper Engineのクラッシュ
 * Wallpaper Engineのユーザーインターフェースの破損または表示エラー
 * エラーメッセージが表示されずにでWallpaper Engineの起動に失敗する
-* Wallpaper Engine failing to install or update itself
-* Various other issues caused by broken or inaccessible files
+* Wallpaper Engineのインストールまたはアップデートの失敗
+* 破損またはアクセスできないファイルによるさまざまな問題の発生
 
-**If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
+**ウイルス対策ソフトを使用している場合、このページに記載されているステップを試す前に`wallpaper_engine`というインストールのディレクトリが除外されていることを確認してください。 ウイルス対策ソフトの設定を確認し、すべてのフォルダを除外するように設定してください。**
 
-Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
+多くのウイルス対策ソフトは、通知することなくWallpaper Engine関連のファイルをブロックの対象とします。その中には永久にブロックされてしまうファイルも含まれます。
 :::
 
 ## Fully Uninstalling Wallpaper Engine
