@@ -2,7 +2,7 @@
 
 モバイルデバイスとPCをペアリングすると、ワイヤレスで壁紙コレクションをモバイルデバイス上のWallpaper Engineコンパニオンアプリに転送することができます。
 
-It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
+技術的ならびに法的な制約によってAndroidアプリからワークショップにアクセスすることができないため、ワークショップから壁紙を直接ダウンロードすることはできません。
 
 ::: tip
 If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
