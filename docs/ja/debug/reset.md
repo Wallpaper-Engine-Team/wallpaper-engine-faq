@@ -4,11 +4,11 @@ Wallpaper Engineで技術的な問題が発生する場合は、Wallpaper Engine
 
 ::: 重要: Microsoft Defender以外のウイルス対策ソフトをお使いの場合は、必ずお読みください。
 
-A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
+発生する問題の大部分は、ウイルス対策ソフトが誤ってWallpaper EngineまたはSteamをブロックしてしまうことが原因です。 ウイルス対策ソフトが原因となって発生する問題の例:
 
-* Wallpaper Engine crashes
-* Broken or empty Wallpaper Engine user interface
-* Wallpaper Engine failing to start at all without any error message
+* Wallpaper Engineのクラッシュ
+* Wallpaper Engineのユーザーインターフェースの破損または表示エラー
+* エラーメッセージが表示されずにでWallpaper Engineの起動に失敗する
 * Wallpaper Engine failing to install or update itself
 * Various other issues caused by broken or inaccessible files
 
