@@ -17,9 +17,9 @@ Wallpaper Engineで技術的な問題が発生する場合は、Wallpaper Engine
 多くのウイルス対策ソフトは、通知することなくWallpaper Engine関連のファイルをブロックの対象とします。その中には永久にブロックされてしまうファイルも含まれます。
 :::
 
-## Fully Uninstalling Wallpaper Engine
+## Wallpaper Engineのアンインストール
 
-To fully uninstall Wallpaper Engine to clear any corrupted files:
+Wallpaper Engineを完全にアンインストールするには、破損ファイルをすべて削除する必要があります。
 
 1. If you have enabled the automatic startup functionality: Open the Wallpaper Engine settings, turn off the automatic startup at the top of the **General** tab in the Wallpaper Engine settings.
 2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
