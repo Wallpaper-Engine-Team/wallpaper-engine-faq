@@ -23,13 +23,13 @@ Wallpaper Engineを完全にアンインストールするには、破損ファ�
 
 1. 自動スタートアップ機能が有効になっている場合: Wallpaper Engineの設定を開き、**一般**タブの最上部から自動スタートアップ機能を無効にしてください。
 2. Steamを開いてWallpaper Engineを右クリックした後、**管理**、**アンインストール**の産んでクリックしてください。
-3. Wallpaper Engineのインストールディレクトリへと進み、残っている`wallpaper_engine`のディレクトリをすべて削除してください。 デフォルト設定では下記に格納されています:
+3. Wallpaper Engineのインストールディレクトリへと進み、残っている`wallpaper_engine`のディレクトリをすべて消去してください。 デフォルト設定では下記に格納されています:
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-Wallpaper Engineが他の場所にインストールされている場合は、`wallpaper_engine`のディレクトリを検索してください。 Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+Wallpaper Engineが他の場所にインストールされている場合は、`wallpaper_engine`のディレクトリを検索してください。 フォルダを完全に削除し、見えないウイルス対策ファイルのロックまたは破損ファイルが消去してください。
 
-You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+Wallpaper Engineを再インストールしてください。 If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
 
 ## Resetting all Steam Workshop Subscriptions
 
