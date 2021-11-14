@@ -49,7 +49,7 @@ PINを入力するとモバイルアプリのステータスバーが緑にな�
 
 #### シーンの壁紙
 
-Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+**シーン**タイプのダイナミックならびにインタラクティブ壁紙は、モバイルフォン上での使用とモバイルハードウェアとの互換性を保証するために最適化されます。 このステップにはしばらく時間がかかることがあります。 また、特に解像度が高い壁紙に対しては画質を選択する必要があります。お使いのモバイルデバイスでパフォーマンスに関する問題が発生する場合は、**バランス**を選択することをお勧めします。
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
