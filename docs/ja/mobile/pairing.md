@@ -4,21 +4,20 @@
 
 技術的ならびに法的な制約によってAndroidアプリからワークショップにアクセスすることができないため、ワークショップから壁紙を直接ダウンロードすることはできません。
 
-::: tip
-If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
+::: ヒント ペアリングがうまくいかない場合は、このページ最下部にある**バックアップソリューション**をご覧ください。モバイル向けの壁紙パッケージ(**.mpkg**) を作成し、それをお持ちのモバイルデバイスにインポートする方法が記載されています。
 :::
 
 [[toc]]
 
-## 1. Install the free Wallpaper Engine Android Companion App
+## 1. 無料のWallpaper Engine向けAndroidコンパニオンアプリをインストールしてください
 
-Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
+続行する前に、最新版のWallpaper Engine向けAndroidコンパニオンアプリがインストールされていることを確認してください
 
 公式アプリストアからアプリをインストールすることをお勧めしますが、当社のホームページから最新アプリを直接ダウンロードすることもできます。 ダウンロードリンクとさらに詳しい情報は、当社のAndroidダウンロードページをご覧ください：
 
 * [Android版Wallpaper Engineのダウンロード](https://www.wallpaperengine.io/android/)
 
-For security reasons, we advise against installing the app from any sources not listed on our website.
+セキュリティー上の理由で、当社のWebサイトに記載されているソース以外からのアプリインストールはご遠慮ください。
 
 ## 2. WindowsでのWallpaper Engineの準備
 
