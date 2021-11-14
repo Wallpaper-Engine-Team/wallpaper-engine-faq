@@ -4,8 +4,7 @@
 
 [[toc]]
 
-::: tip
-If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
+::: ヒント AndroidデバイスをWindows PCに接続し、さらに壁紙をインストールしたい場合は？ こちらからAndroidのペアリングに関するガイドをご覧ください。
 
 * [Pairing Mobile Device with Windows](/mobile/pairing.html)
 :::
