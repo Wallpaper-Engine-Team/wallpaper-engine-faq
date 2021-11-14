@@ -9,7 +9,7 @@
 
 ## Androidに関するよくある質問
 
-Androidアプリに関するサポートが必要な質方は、Androidに関するよくある質問の概要と、PCとAndroidデバイスのペアリングに関するガイドをご確認ください。
+Androidアプリに関するサポートが必要な方は、Androidに関するよくある質問の概要と、PCとAndroidデバイスのペアリングに関するガイドをご確認ください。
 
 * [Android - よくある質問と問題](mobile/faq.html)
 * [モバイルデバイスとWindowsのペアリング](mobile/pairing.html)
