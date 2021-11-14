@@ -6,9 +6,9 @@ tags:
 
 # Windowsのロック画面でのWallpaper Engine
 
-Windowsのロック画面はWindows側で制御されており、ライブまたはダイナミック壁紙を適用させることはできません。 Microsoft has purposefully built it this way as a security measure.
+Windowsのロック画面はWindows側で制御されており、ライブまたはダイナミック壁紙を適用させることはできません。 Microsoftはセキュリティー対策として意図的にこのような仕様を構築しています。
 
-However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+しかし、Wallpaper Engineの設定を変えることにより、現在のライブ壁紙の一部を利用してロック画面の静止画を上書きすることもできます。 To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
 
 ## スクリーンセーバー機能
 
