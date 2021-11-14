@@ -21,7 +21,7 @@
 
 ## 2. WindowsでのWallpaper Engineの準備
 
-**Windows** アプリにおいて、ユーザーインターフェースの右上にある **モバイル** ボタンをクリックします。 モバイルデバイスの概要が表示されます。 デバイス概要の下部で、**新しいデバイスを接続** ボタンをクリックします。 Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+**Windows** アプリにおいて、ユーザーインターフェースの右上にある **モバイル** ボタンをクリックします。 モバイルデバイスの概要が表示されます。 デバイス概要の下部で、**新しいデバイスを接続** ボタンをクリックします。 Wallpaper Engineに4桁のPINが表示されるので、これを使って次のステップでモバイルデバイスを1台ペアリングすることができます。
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
@@ -39,15 +39,15 @@ Wallpaper Engineモバイルコンパニオンアプリで、右下の **追加*
 
 PINを入力するとモバイルアプリのステータスバーが緑になり、どのPCに接続されたかを示します。 Windowsアプリの方でも、**モバイル** ボタンが緑になり、モバイル接続がアクティブになっていることを示します。
 
-By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+デフォルト設定では、モバイルデバイスのWallpaper EngineとPCを同時に起動させた場合、Wallpaper Engineが常に自動でPCに接続されるとは限りません。
 
-## 4. Transferring Wallpapers to Your Mobile Device
+## 4. モバイルデバイスの壁紙への転送
 
-Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+接続が確立されると、画面右上の**モバイル**ボタンが緑色に変わります。
 
-You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+画面右側の**モバイルデバイスに送信**というボタンをクリック、または条件を満たした壁紙を右クリックして**モバイルデバイスに送信**を選択した後、リストからお使いのデバイスを選んでください。
 
-#### Scene Wallpapers
+#### シーンの壁紙
 
 Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
 
