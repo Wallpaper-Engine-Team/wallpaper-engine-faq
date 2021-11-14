@@ -66,8 +66,8 @@ PINを入力するとモバイルアプリのステータスバーが緑にな�
 * スマートフォンとPCが同じローカルネットワークに接続されていることを確認します。
 * ファイアーウォールが、Wallpaper Engineのローカルネットワークとの通信をブロックしていないことを確認します。
 * ネットワークルーターが、デバイス同士の通信をブロックしていないことを確認します。
-    * Make sure your router is not blocking network traffic between devices.
-    * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
+    * ルーターがデバイス間のネットワークトラフィックを干渉していないかを確認してください。
+    * ルーターの設定で**UPnP** (**Universal Plug and Play**)を有効にしてください。
 * デバイス間の通信を妨げる可能性のある、PCならびにモバイルデバイス上のあらゆるタイプのVPNまたはプロキシソフトウェアを無効にしてください。
 * Windows上とモバイルデバイス上のWallpaper Engineが、どちらも最新で起動していることを確認します。
 
