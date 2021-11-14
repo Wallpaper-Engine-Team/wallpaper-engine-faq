@@ -56,8 +56,7 @@ PINを入力するとモバイルアプリのステータスバーが緑にな�
   お使いのブラウザは動画タグをサポートしていません。
 </video>
 
-::: tip
-You can also transfer multiple wallpapers at the same time by clicking on multiple wallpapers while holding the CTRL key on your keyboard.
+::: ヒント CTRLキーを押したままクリックをし続ければ、送信する壁紙を複数指定することも可能です。
 :::
 
 ## モバイルのペアリングに関する問題の解決
