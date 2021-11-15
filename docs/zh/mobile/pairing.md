@@ -2,27 +2,26 @@
 
 您可以将移动设备与计算机配对，以将壁纸合集无线传输到移动设备上的 Wallpaper Engine 伴侣应用程序。
 
-It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
+由于技术和法律限制，Android 应用程序无法直接连接到创意工坊，因此 Android 应用程序无法直接从创意工坊下载壁纸。
 
-::: tip
-If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
+::: 提示 如果配对不适合您，请参阅本页底部的**备份解决方案**部分，了解如何创建移动设备壁纸包 (**.mpkg**) 以及如何在您的移动设备上导入它们。
 :::
 
 [[toc]]
 
-## 1. Install the free Wallpaper Engine Android Companion App
+## 1. 安装免费的 Wallpaper Engine Android 伴侣应用程序
 
-Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
+在继续之前，请务必安装最新版本的 Wallpaper Engine Android 伴侣应用程序。
 
 我们建议通过官方应用商店发行版安装应用程序，但您也可以直接从我们的主页下载最新的应用程序。 有关下载链接和更多信息，请查看我们的 Android 下载页面：
 
 * [下载 Android 版 Wallpaper Engine](https://www.wallpaperengine.io/android/)
 
-For security reasons, we advise against installing the app from any sources not listed on our website.
+出于安全原因，我们建议不要从我们网站上未列出的任何来源安装应用程序。
 
 ## 2. 在 Windows 上准备 Wallpaper Engine
 
-在 **Windows** 应用程序中，单击用户界面右上角的**移动设备**按钮。 移动设备概览随即打开。 在设备概览底部，单击**连接新设备**按钮。 Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+在 **Windows** 应用程序中，单击用户界面右上角的**移动设备**按钮。 移动设备概览随即打开。 在设备概览底部，单击**连接新设备**按钮。 Wallpaper Engine 将显示 4 位数 PIN，您可以在下一步中使用该 PIN 与一台移动设备配对。
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
@@ -40,15 +39,15 @@ For security reasons, we advise against installing the app from any sources not 
 
 输入 PIN 后，手机应用程序中的状态栏就会变成绿色，并显示所连接的计算机。 在 Windows 应用程序中，**移动设备**按钮现在也会变成绿色，表示移动设备连接处于活动状态。
 
-By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+默认情况下，如果您同时在移动设备和计算机上启动 Wallpaper Engine，Wallpaper Engine 现在将始终自动连接到您的计算机。
 
-## 4. Transferring Wallpapers to Your Mobile Device
+## 4. 将壁纸传输到移动设备
 
-Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+建立连接后，右上角的**移动设备**按钮变为绿色。
 
-You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+您现在只需单击右侧的**发送到移动设备**按钮，或右键单击任何兼容的壁纸并选择**发送到移动设备**，然后从列表中选择您的设备。
 
-#### Scene Wallpapers
+#### 场景壁纸
 
 Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
 
