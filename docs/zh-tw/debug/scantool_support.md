@@ -7,7 +7,7 @@
 3. 按一下 **Save Full Log**，並儲存至桌面 (請參見下方簡短視訊)。
 4. 將記錄檔提供給開發人員：
     * 描述您遇到的問題，並寄電子郵件至 **support@wallpaperengine.io**。
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email. 如果您找到許多 .mdmp 檔案，請傳送最新的即可。
+5. *選用：*如果您遇到當機，請檢查 *wallpaper_engine* 目錄，找出 **.mdmp** 檔案，並一併附在電子郵件裡寄給我們。 如果您找到許多 .mdmp 檔案，請傳送最新的即可。
 
 ::: tip
 即使掃描工具起初並未回報任何問題，若更深入研究記錄檔，也通常能發現常見的電腦問題，有助我們快速為您提供解決方式。
