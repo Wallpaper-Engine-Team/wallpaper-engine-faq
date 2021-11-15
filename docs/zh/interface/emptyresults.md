@@ -6,17 +6,17 @@
 
 首先，尝试测试是否可以从您的计算机连接到 Steam 图像服务器。 在 Web 浏览器中打开以下链接以测试您的连接：
 
-* [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+* [**单击此处测试 STEAM 图像服务器**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-You should see a message that says **OK** and shows a **green checkmark** when clicking on the link above.
+单击上面的链接时，您应该会看到一条消息，内容为 **确定**并显示一个**绿色复选标记**。
 
-### I can see the OK message
+### 我可以看到“确定”消息
 
-If you see the **OK** message when clicking the test link above:
+如果您在单击上面的测试链接时看到**确定**消息：
 
-* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* 这绝对意味着只有 Wallpaper Engine 被您计算机上的某些安全软件阻止。 将任何防病毒、防火墙或网络加速器应用程序配置为忽略 Wallpaper Engine，尤其是属于 Wallpaper Engine 的 **ui32.exe** 进程。
 
-### I can NOT see the OK message
+### 我看不到“确定”消息
 
 If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
 
