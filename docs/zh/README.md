@@ -9,7 +9,7 @@
 
 ## Android 常见问题
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+如果您正在寻求有关 Android 应用程序的帮助，请务必查看我们有关 Android 的常见问题总结以及有关将计算机与 Android 设备配对的指南：
 
 * [Android - 常见疑问和问题](mobile/faq.html)
 * [移动设备与 Windows 配对](mobile/pairing.html)
