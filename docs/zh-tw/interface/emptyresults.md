@@ -8,9 +8,9 @@
 
 * [**點選此處以測試 STEAM 圖像伺服器**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-You should see a message that says **OK** and shows a **green checkmark** when clicking on the link above.
+您點選上方連結時，應該會看到一條訊息顯示 **OK**，並顯示**綠色的勾勾**。
 
-### I can see the OK message
+### 我可以看到 OK 訊息
 
 If you see the **OK** message when clicking the test link above:
 
