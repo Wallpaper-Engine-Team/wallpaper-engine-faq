@@ -1,10 +1,10 @@
 # 预览图像/搜索结果不显示
 
-If you cannot see preview images for uninstalled wallpapers in Wallpaper Engine, this usually means that a firewall or security software is blocking Wallpaper Engine from accessing the Steam image servers.
+如果您无法在 Wallpaper Engine 中看到已卸载壁纸的预览图像，这通常意味着防火墙或安全软件阻止了 Wallpaper Engine 访问 Steam 图像服务器。
 
-## Test Your Connection to the Steam Image Servers
+## 测试您与 Steam 图像服务器的连接
 
-First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
+首先，尝试测试是否可以从您的计算机连接到 Steam 图像服务器。 在 Web 浏览器中打开以下链接以测试您的连接：
 
 * [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
