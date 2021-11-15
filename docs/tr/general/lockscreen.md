@@ -6,9 +6,9 @@ tags:
 
 # Windows kilit ekranında Wallpaper Engine
 
-The Windows lock screen is a protected area of Windows which does not allow for live and dynamic wallpapers. Microsoft has purposefully built it this way as a security measure.
+Windows kilit ekranı, canlı ve dinamik duvar kağıtlarına izin vermeyen korumalı bir Windows alanıdır. Microsoft, bir güvenlik önlemi olarak kasıtlı olarak bunu bu şekilde oluşturmuştur.
 
-However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+Ancak yine de Wallpaper Engine'i, geçerli canlı duvar kağıdınızın anlık görüntüsüyle statik kilit ekranı görüntüsünü geçersiz kılacak şekilde yapılandırabilirsiniz. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
 
 ## Ekran Koruyucu İşlevi
 
