@@ -4,10 +4,9 @@ Bu sayfa en sık sorulan sorular ve kullanıcıların karşılaştığı teknik 
 
 [[toc]]
 
-::: tip
-If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
+::: ipucu Daha fazla duvar kağıdı yüklemek için Android cihazınızı Windows'a bağlamak mı istiyorsunuz? Kapsamlı Android eşleştirme kılavuzumuza buradan göz atın:
 
-* [Pairing Mobile Device with Windows](/mobile/pairing.html)
+* [Mobil Cihazı Windows ile Eşleştirme](/mobile/pairing.html)
 :::
 
 ## Android kilit ekranı için canlı duvar kâğıdı ayarlayamıyorum
