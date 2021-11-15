@@ -7,7 +7,7 @@
 借助单个关键词，使用右上角的搜索栏。 例如，如果您的壁纸仅显示为黑色背景，请尝试直接搜索“黑色”。
 :::
 
-## Android FAQ
+## Android 常见问题
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
