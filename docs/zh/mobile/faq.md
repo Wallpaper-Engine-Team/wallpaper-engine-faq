@@ -4,7 +4,8 @@
 
 [[toc]]
 
-::: 提示 是否要将您的 Android 设备连接到 Windows 以安装更多壁纸？ 请在此处查看我们详细的 Android 配对指南：
+::: tip
+是否要将您的 Android 设备连接到 Windows 以安装更多壁纸？ 请在此处查看我们详细的 Android 配对指南：
 
 * [将移动设备与 Windows 配对](/mobile/pairing.html)
 :::
