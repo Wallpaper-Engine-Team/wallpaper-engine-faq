@@ -6,7 +6,7 @@ tags:
 
 # Windows 锁屏上的 Wallpaper Engine
 
-The Windows lock screen is a protected area of Windows which does not allow for live and dynamic wallpapers. Microsoft has purposefully built it this way as a security measure.
+Windows 锁屏是 Windows 的受保护区域，不允许使用动态壁纸。 Microsoft 有意以这种方式进行构建，以作为一种安全措施。
 
 However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
 
