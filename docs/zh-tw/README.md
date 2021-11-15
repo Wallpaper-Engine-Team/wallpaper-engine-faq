@@ -7,9 +7,9 @@
 請使用右上角的搜尋列輸入單一關鍵字。 例如，如果您的桌布只顯示為黑色背景，請以「黑」為關鍵字執行搜尋。
 :::
 
-## Android FAQ
+## Android 版常見問題集
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+如果您在尋找有關 Android 應用程式的說明，務必檢視 Android 版常見問題集，以及 Android 行動裝置與電腦配對的指南：
 
 * [Android - 常見問題](mobile/faq.html)
 * [行動裝置與 Windows 配對](mobile/pairing.html)
