@@ -9,7 +9,7 @@ Sağ üst köşedeki arama çubuğuna anahtar kelimeler girin. Örneğin, duvar 
 
 ## Android SSS
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+Android uygulamasıyla ilgili yardım arıyorsanız Android ile ilgili en sık sorulan soruların özetine ve bilgisayarınızı Android cihazınızla eşleştirme konusundaki kılavuzumuza göz atmayı unutmayın:
 
 * [Android - Sık Sorular ve Sorunlar](mobile/faq.html)
 * [Mobil Cihazı Windows ile eşleştirme](mobile/pairing.html)
