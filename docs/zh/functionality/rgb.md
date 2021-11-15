@@ -33,7 +33,7 @@ Wallpaper Engine 无法直接与 RGB 硬件通信，所有颜色信息都要先�
 
 ### Corsair
 
-Starting with iCUE 4, you need to manually enable software control in the iCUE settings first, otherwise Wallpaper Engine cannot connect to iCUE. If you have any issues with RGB lighting in combination with Corsair iCUE, make sure to check the iCUE settings first.
+从 iCUE 4 开始，您需要先在 iCUE 设置中手动启用软件控制，否则 Wallpaper Engine 无法连接到 iCUE。 If you have any issues with RGB lighting in combination with Corsair iCUE, make sure to check the iCUE settings first.
 
 * Open iCUE.
 * Click the Settings icon in the upper right corner.
