@@ -3,7 +3,7 @@
 如果您使用 Wallpaper Engine 遇到技術問題，但常見問題集的說明無法解決，請您建立系統記錄檔後提供給我們：
 
 1. 確保 Wallpaper Engine 正在運作 (若可行)。
-2. Choose the 4th launch option in Steam (*"Check for System Conflicts"*, see below for a short video).
+2. 在 Steam 中選擇第 4 個啟動選項 (*「系統衝突檢查」*，請參見下方簡短視訊)。
 3. 按一下 **Save Full Log**，並儲存至桌面 (請參見下方簡短視訊)。
 4. 將記錄檔提供給開發人員：
     * Describe the problem you are having and send an email to **support@wallpaperengine.io**.
