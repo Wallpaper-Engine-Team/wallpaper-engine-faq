@@ -1,8 +1,8 @@
 # 預覽圖像/搜尋結果未顯示
 
-If you cannot see preview images for uninstalled wallpapers in Wallpaper Engine, this usually means that a firewall or security software is blocking Wallpaper Engine from accessing the Steam image servers.
+如果您無法在 Wallpaper Engine 中看見已解除安裝的桌布出現預覽圖像，通常表示防火牆或安全軟體阻擋 Wallpaper Engine 存取 Steam 圖像伺服器。
 
-## Test Your Connection to the Steam Image Servers
+## 測試與 Steam 圖像伺服器的連線
 
 First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
 
