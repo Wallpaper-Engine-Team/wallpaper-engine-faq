@@ -38,9 +38,9 @@ Wallpaper Engine 無法直接與 RGB 硬體溝通，所有顏色資訊都是先�
 * 開啟 iCUE。
 * 按一下右上角的「設定」圖示。
 * 按一下設定視窗左側選單的**軟體和遊戲**。
-* Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
+* 確定已啟用*軟體整合*選項。 檢查**裝置**分頁，確認所有硬體裝置皆已啟用此類 RGB 亮光。
 
-If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
+如果您的 Corsair 亮光設定仍有問題，請嘗試全新安裝 Corsair iCUE 軟體，接著重新啟動電腦並重新安裝。 重新安裝 Corsair 軟體套件，再手動啟用軟體整合選項，可解決許多問題。
 
 請注意，iCUE 是以*獨佔模式*使用，代表 Wallpaper Engine 將優先於其他與 iCUE 相容的軟體，例如遊戲。 如果您希望遊戲為鍵盤賦予動畫效果，請前往 Wallpaper Engine 設定的**效能**分頁，將**其他應用程式全螢幕顯示時**選項設定為**停止 (釋放記憶體)**，玩遊戲時便能阻止桌布開啟。 或者，您可以停用 RGB 外掛程式或在個別的桌布停用 RGB 選項。
 
