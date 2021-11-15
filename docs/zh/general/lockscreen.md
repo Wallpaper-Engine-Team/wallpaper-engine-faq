@@ -8,7 +8,7 @@ tags:
 
 Windows 锁屏是 Windows 的受保护区域，不允许使用动态壁纸。 Microsoft 有意以这种方式进行构建，以作为一种安全措施。
 
-However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+但是，您仍然可以配置 Wallpaper Engine 以使用当前动态墙纸的快照覆盖静态锁屏图像。 为此，请在 Wallpaper Engine 设置的**常规**选项卡中启用**覆盖锁屏图像**选项。
 
 ## 屏幕保护程序功能
 
