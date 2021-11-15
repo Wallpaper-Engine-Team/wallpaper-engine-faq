@@ -33,14 +33,14 @@ Wallpaper Engine 无法直接与 RGB 硬件通信，所有颜色信息都要先�
 
 ### Corsair
 
-从 iCUE 4 开始，您需要先在 iCUE 设置中手动启用软件控制，否则 Wallpaper Engine 无法连接到 iCUE。 If you have any issues with RGB lighting in combination with Corsair iCUE, make sure to check the iCUE settings first.
+从 iCUE 4 开始，您需要先在 iCUE 设置中手动启用软件控制，否则 Wallpaper Engine 无法连接到 iCUE。 如果您在使用 Corsair iCUE 时遇到 RGB 照明问题，请务必先检查 iCUE 设置。
 
-* Open iCUE.
-* Click the Settings icon in the upper right corner.
-* Click **Software and Games** on the left menu of the settings window.
-* Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
+* 打开 iCUE。
+* 单击右上角的“设置”图标。
+* 单击设置窗口左侧菜单上的**软件和游戏**。
+* 确保已启用*软件集成*选项。 检查**设备**选项卡以确保所有硬件设备也都启用了这种类型的 RGB 照明。
 
-If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
+如果您的 Corsair 照明设置仍有问题，请尝试完全重新安装 Corsair iCUE 软件，然后重新启动计算机并重新安装。 通过重新安装 Corsair 软件套件，然后手动启用“软件集成”选项，可以解决许多问题。
 
 请注意，iCUE 的使用为*独占模式*，这意味着，Wallpaper Engine 将优先于其他兼容 iCUE 的软件（例如游戏）。 如想让游戏为键盘赋予动画效果，请转到 Wallpaper Engine 设置的**性能**选项卡，然后将**其他应用程序全屏时**选项设置为**停止（释放内存）**，以便在游戏中阻止壁纸。 或者，您可以禁用 RGB 插件，或禁用个别壁纸的 RGB 选项。
 
