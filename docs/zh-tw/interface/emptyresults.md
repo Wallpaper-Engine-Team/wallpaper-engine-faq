@@ -4,9 +4,9 @@
 
 ## 測試與 Steam 圖像伺服器的連線
 
-First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
+首先，測試是否可以從電腦連線至 Steam 圖像伺服器。 在網頁瀏覽器中開啟以下連結，以測試連線：
 
-* [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+* [**點選此處以測試 STEAM 圖像伺服器**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
 You should see a message that says **OK** and shows a **green checkmark** when clicking on the link above.
 
