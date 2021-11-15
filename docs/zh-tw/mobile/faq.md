@@ -5,9 +5,9 @@
 [[toc]]
 
 ::: tip
-If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
+是否想將 Android 裝置連線至 Windows，以便安裝更多桌布？ 請查看詳盡的 Android 配對指南：
 
-* [Pairing Mobile Device with Windows](/mobile/pairing.html)
+* [將行動裝置與 Windows 配對](/mobile/pairing.html)
 :::
 
 ## 無法在 Android 鎖定畫面上設定動態桌布
