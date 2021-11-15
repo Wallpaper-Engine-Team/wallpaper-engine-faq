@@ -4,10 +4,9 @@
 
 [[toc]]
 
-::: tip
-If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
+::: 提示 是否要将您的 Android 设备连接到 Windows 以安装更多壁纸？ 请在此处查看我们详细的 Android 配对指南：
 
-* [Pairing Mobile Device with Windows](/mobile/pairing.html)
+* [将移动设备与 Windows 配对](/mobile/pairing.html)
 :::
 
 ## 无法在 Android 锁屏上设置动态壁纸
