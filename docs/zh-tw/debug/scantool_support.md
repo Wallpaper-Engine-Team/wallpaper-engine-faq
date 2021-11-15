@@ -6,7 +6,7 @@
 2. 在 Steam 中選擇第 4 個啟動選項 (*「系統衝突檢查」*，請參見下方簡短視訊)。
 3. 按一下 **Save Full Log**，並儲存至桌面 (請參見下方簡短視訊)。
 4. 將記錄檔提供給開發人員：
-    * Describe the problem you are having and send an email to **support@wallpaperengine.io**.
+    * 描述您遇到的問題，並寄電子郵件至 **support@wallpaperengine.io**。
 5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email. 如果您找到許多 .mdmp 檔案，請傳送最新的即可。
 
 ::: tip
