@@ -23,4 +23,4 @@ Wallpaper Engine 需要 PC 提供以下功能：3D 加速、视频加速、音�
 
 任何类型的覆盖和录制程序都可能导致问题（包括 Geforce Experience），请尝试将其全部删除。
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool_support.html).
+请尝试使用扫描工具，该工具将检查是否有任何知名和已确认的冲突应用程序正在运行：[单击此处](/debug/scantool_support.html)。
