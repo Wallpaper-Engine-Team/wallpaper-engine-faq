@@ -8,19 +8,19 @@
 
 * [**单击此处测试 STEAM 图像服务器**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-单击上面的链接时，您应该会看到一条消息，内容为 **确定**并显示一个**绿色复选标记**。
+单击上面的链接时，您应该会看到一条消息，内容为 **正常**并显示一个**绿色复选标记**。
 
-### 我可以看到“确定”消息
+### 我可以看到“正常”消息
 
-如果您在单击上面的测试链接时看到**确定**消息：
+如果您在单击上面的测试链接时看到**正常**消息：
 
 * 这绝对意味着只有 Wallpaper Engine 被您计算机上的某些安全软件阻止。 将任何防病毒、防火墙或网络加速器应用程序配置为忽略 Wallpaper Engine，尤其是属于 Wallpaper Engine 的 **ui32.exe** 进程。
 
-### 我看不到“确定”消息
+### 我看不到“正常”消息
 
-If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
+如果您在单击上面的测试链接时**没有**看到**正常**消息，这意味着整个计算机甚至整个网络无法从 Steam 图像服务器加载图像。 原因可能是：
 
-* An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
-* Your network router is somehow misconfigured. Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
-    * You can easily test if your router is at fault by connecting your computer to a wifi hotspot through your smartphone. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
-    * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
+* 防病毒、防火墙或网络加速器应用程序完全阻止了您计算机上的所有应用程序与 Steam 图像服务器的连接。
+* 您的网络路由器不知何故配置错误。 仔细查看路由器的防火墙设置和其他可能在此处发挥作用的高级路由器设置。
+    * 您可以通过智能手机将计算机连接到 wifi 热点，从而轻松测试路由器是否出现故障。 如果您在连接到移动 wifi 热点时开始看到预览图像，则问题肯定出在您的网络路由器或互联网服务提供商的网络中。
+    * 您的互联网服务提供商也可能阻止了 Steam 图像服务器或存在临时连接问题。 这种情况很罕见，但可能发生，请稍后重试。
