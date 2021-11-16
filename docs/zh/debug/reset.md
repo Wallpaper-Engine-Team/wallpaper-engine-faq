@@ -10,8 +10,8 @@
 * Wallpaper Engine 崩溃
 * Wallpaper Engine 用户界面损坏或空白
 * Wallpaper Engine 根本无法启动，但没有任何错误消息
-* Wallpaper Engine failing to install or update itself
-* Various other issues caused by broken or inaccessible files
+* Wallpaper Engine 无法自行安装或更新
+* 由损坏或无法访问的文件引起的各种其他问题
 
 **If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
 
