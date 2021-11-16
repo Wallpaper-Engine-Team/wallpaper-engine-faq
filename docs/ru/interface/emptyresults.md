@@ -1,8 +1,8 @@
 # Не отображаются изображения для предпросмотра / результаты поиска
 
-Если обои, не установленные на ваше устройство, недоступны для предпросмотра в Wallpaper Engine, скорее всего, брандмауэр или защитная программа блокирует Wallpaper Engine доступ к серверам с изображениями Steam.
+Если обои, не установленные на ваше устройство, недоступны для предпросмотра в Wallpaper Engine, скорее всего, ваш брандмауэр или защитная программа блокирует Wallpaper Engine доступ к серверам с изображениями Steam.
 
-## Test Your Connection to the Steam Image Servers
+## Проверьте подключение к серверам с изображениями Steam
 
 First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
 
