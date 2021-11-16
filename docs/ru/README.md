@@ -9,7 +9,7 @@
 
 ## Android: часто задаваемые вопросы
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+Нужна помощь с приложением для Android? Изучите список наиболее часто задаваемых вопросов касательно Android и наше руководство по сопряжению устройства Android с компьютером:
 
 * [Частые вопросы и проблемы на Android](mobile/faq.html)
 * [Сопряжение мобильного устройства с Windows](mobile/pairing.html)
