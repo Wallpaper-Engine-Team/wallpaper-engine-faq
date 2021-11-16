@@ -50,7 +50,7 @@
 
 #### 場景桌布
 
-Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+**場景**類型的動態及互動式桌布將為首批針對手機使用最佳化的桌布，確保與行動裝置的硬體相容。 此最佳化程序可能需要一些時間。 You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
@@ -68,7 +68,7 @@ You can also transfer multiple wallpapers at the same time by clicking on multip
 * 確認手機與電腦連線至同一個區域網路。
 * 確認防火牆並未阻擋 Wallpaper Engine 與區域網路通訊。
 * 確認網路路由器並未阻擋裝置之間的通訊。
-    * Make sure your router is not blocking network traffic between devices.
+    * 確保路由器並未阻擋裝置之間的網路流量。
     * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
 * 在電腦和行動裝置上停用任何可能干擾裝置通訊的 VPN 或代理軟體。
 * 再次確認 Windows 和行動版的 Wallpaper Engine 皆為最新版本且正常運作。
