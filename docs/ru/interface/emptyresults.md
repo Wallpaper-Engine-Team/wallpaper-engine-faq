@@ -14,13 +14,13 @@
 
 Если вы видите сообщение **«ОК»** при нажатии на тестовую ссылку выше:
 
-* Значит, на вашем компьютере есть защитная программа, которая блокирует сам Wallpaper Engine. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* Значит, на вашем компьютере есть защитная программа, которая блокирует сам Wallpaper Engine. Настройте свой антивирус, брандмауэры и программы для ускорения интернета так, чтобы они игнорировали Wallpaper Engine, в особенности процесс **ui32.exe** (это файл Wallpaper Engine).
 
-### I can NOT see the OK message
+### Я не вижу сообщение «ОК»
 
-If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
+Если вы **не** увидели сообщение **«ОК»** при нажатии на тестовую ссылку выше, значит, ваш компьютер или даже целая сеть не может загружать изображения с серверов Steam. Возможные причины:
 
-* An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
-* Your network router is somehow misconfigured. Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
-    * You can easily test if your router is at fault by connecting your computer to a wifi hotspot through your smartphone. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
+* Антивирус, брандмауэр или программа для ускорения интернета полностью блокирует подключение к серверам с изображениями Steam для всех приложений на вашем компьютере.
+* Возможно, ваш сетевой маршрутизатор настроен неправильно. Обратите внимание на настройки брандмауэра своего маршрутизатора и расширенные настройки, которые могут влиять на подключение к серверам.
+    * Проверить, влияет ли маршрутизатор на подключение, довольно легко: подключите компьютер к интернету через мобильную сеть на смартфоне. Если изображения для предпросмотра начинают загружаться после подключения к мобильной сети, значит, проблема точно в сетевом маршрутизаторе или сети вашего интернет-провайдера.
     * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
