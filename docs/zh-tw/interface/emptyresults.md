@@ -22,5 +22,5 @@
 
 * 防毒應用程式、防火牆或網路加速器應用程式徹底阻擋 Steam 圖像伺服器連線至電腦上所有應用程式。
 * 網路路由器不知為何設定錯誤。 仔細檢視路由器的防火牆設定以及其他可能相關的進階路由器設定。
-    * 您可以透過智慧型手機連線至 Wi-Fi 熱點，輕鬆測試路由器是否出現故障。 If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
-    * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
+    * 您可以透過智慧型手機連線至 Wi-Fi 熱點，輕鬆測試路由器是否出現故障。 如果您連線至行動 Wi-Fi 熱點時開始看見預覽圖像，問題肯定出在網路路由器或網際網路服務供應商。
+    * 您的網際網路服務供應商也可能會阻擋 Steam 圖像伺服器，或暫時有連線問題。 此情況相當罕見，但仍可能發生，請稍後再試。
