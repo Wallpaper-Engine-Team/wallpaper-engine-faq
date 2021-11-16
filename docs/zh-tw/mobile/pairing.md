@@ -2,7 +2,7 @@
 
 您可將行動裝置與電腦配對．將桌布收藏無線傳輸至行動裝置上的 Wallpaper Engine 隨附應用程式。
 
-It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
+由於技術和法律限制，Android 應用程式無法直接連線至工作坊，因此 Android 應用程式無法直接從工作坊下載桌布。
 
 ::: tip
 If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
