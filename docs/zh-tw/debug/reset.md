@@ -28,9 +28,9 @@
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-如果您將 Wallpaper Engine 安裝在其他目錄，請在其中找到 `wallpaper_engine` 目錄。 Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+如果您將 Wallpaper Engine 安裝在其他目錄，請在其中找到 `wallpaper_engine` 目錄。 確保完全刪除該資料夾，以清除任何不可見的防毒應用程式檔案鎖定或損壞的檔案。
 
-You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+現在即可重新安裝 Wallpaper Engine。 如果您想從頭開始，請參閱下一節，了解如何完全重設所有桌布訂閱，不過在大多數情況下並非必要。
 
 ## Resetting all Steam Workshop Subscriptions
 
