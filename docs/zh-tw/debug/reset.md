@@ -1,17 +1,17 @@
 # 完全重設 Wallpaper Engine
 
-If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
+如果您使用 Wallpaper Engine 時遇到技術問題，可能需要全新重設 Wallpaper Engine。 請參照本指南的說明將 Wallpaper Engine 完全重設，包括損壞的桌布訂閱。
 
 ::: danger
-Read this first if you use an antivirus app (except Microsoft Defender)
+如果您使用防毒應用程式 (除了 Microsoft Defender) 請先閱讀此內容
 
-A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
+我們處理的絕大多數問題，原因始自防毒應用程式錯誤阻擋 Wallpaper Engine 或 Steam。 防毒應用程式通常造成以下問題：
 
-* Wallpaper Engine crashes
-* Broken or empty Wallpaper Engine user interface
-* Wallpaper Engine failing to start at all without any error message
-* Wallpaper Engine failing to install or update itself
-* Various other issues caused by broken or inaccessible files
+* Wallpaper Engine 當機
+* Wallpaper Engine 使用者介面損壞或空白
+* Wallpaper Engine 根本無法啟動，但沒有任何錯誤訊息
+* Wallpaper Engine 無法自行安裝或更新
+* 由損壞或無法存取的檔案引起的各種問題
 
 **If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
 
