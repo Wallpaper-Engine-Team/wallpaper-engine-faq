@@ -7,12 +7,12 @@ Falls du technische Probleme oder einfach eine Frage über Wallpaper Engine hast
 Nutze die Suchleiste oben rechts mit einzelnen Schlagwörtern. Zum Beispiel, wenn deine Hintergründe einfach schwarz angezeigt werden, versuche einfach nur nach "schwarz" zu suchen.
 :::
 
-## Android FAQ
+## Android - Problemlösungen & Häufige Fragen
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+Falls du Hilfe mit der Android-App benötigst, stelle sicher unsere Zusammenfassung der häufigsten Android-Fragen und unsere Anleitung zur Verbindung zwischen deinem Computer und Android zu lesen:
 
-* [Android - Frequent Questions and Problems](mobile/faq.html)
-* [Pairing Mobile Device with Windows](mobile/pairing.html)
+* [Android - Problemlösungen & Häufige Fragen](mobile/faq.html)
+* [Verbinden eines Mobilgerätes mit Windows](mobile/pairing.html)
 
 ## Am häufigsten gelesene Hilfe-Artikel
 
