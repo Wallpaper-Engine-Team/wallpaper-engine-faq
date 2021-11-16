@@ -38,7 +38,7 @@ Wallpaper Engine не имеет возможности напрямую вза�
 * Откройте iCUE.
 * Нажмите на значок настроек в правом верхнем углу.
 * Нажмите **«ПО и игры»‎** в меню слева в настройках.
-* Убедитесь, что параметры *интеграции с программным обеспечением* включены. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
+* Убедитесь, что параметры *интеграции с программным обеспечением* включены. Проверьте вкладку **«Устройства»**, чтобы убедиться, что все ваши аппаратные устройства поддерживают эту RGB-подсветку.
 
 If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
 
