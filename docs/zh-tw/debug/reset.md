@@ -13,22 +13,22 @@
 * Wallpaper Engine 無法自行安裝或更新
 * 由損壞或無法存取的檔案引起的各種問題
 
-**If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
+**如果您使用了防毒應用程式，請確保該程式已忽略 `wallpaper_engine` 安裝目錄，再繼續執行此頁面上列出的步驟。 檢查防毒應用程式的設定，以完全排除資料夾。**
 
-Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
+大多數的防毒應用程式可以在不通知您的情況下，阻擋 Wallpaper Engine 檔案，有些 Wallpaper Engine 的檔案會永久阻擋。
 :::
 
-## Fully Uninstalling Wallpaper Engine
+## 完全解除安裝 Wallpaper Engine
 
-To fully uninstall Wallpaper Engine to clear any corrupted files:
+以下為完全解除安裝 Wallpaper Engine 的步驟：
 
-1. If you have enabled the automatic startup functionality: Open the Wallpaper Engine settings, turn off the automatic startup at the top of the **General** tab in the Wallpaper Engine settings.
-2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
-3. Navigate to the Wallpaper Engine installation directory and delete the remaining `wallpaper_engine` directory entirely. by default, it is located here:
+1. 如果您已啟用自動啟動功能： 開啟 Wallpaper Engine 設定頁面，到**一般**分頁上方關閉自動啟動功能。
+2. 開啟 Steam 並以滑鼠右鍵按一下 Wallpaper Engine，接著點選**管理**，接著點選 **解除安裝**。
+3. 前往 Wallpaper Engine 安裝目錄，徹底刪除剩餘的 `wallpaper_engine` 目錄。 目錄預設位置在：
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-If you have installed Wallpaper Engine in a different directory, please look for the `wallpaper_engine` directory there. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+如果您將 Wallpaper Engine 安裝在其他目錄，請在其中找到 `wallpaper_engine` 目錄。 Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
 
 You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
 
