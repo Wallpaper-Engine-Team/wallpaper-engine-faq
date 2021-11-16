@@ -14,7 +14,7 @@
 
 Если вы видите сообщение **«ОК»** при нажатии на тестовую ссылку выше:
 
-* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* Значит, на вашем компьютере есть защитная программа, которая блокирует сам Wallpaper Engine. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
 
 ### I can NOT see the OK message
 
