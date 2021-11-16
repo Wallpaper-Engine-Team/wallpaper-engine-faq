@@ -50,7 +50,7 @@
 
 #### 场景壁纸
 
-**场景**类型的动态和交互式壁纸将首先针对在手机上使用进行优化，并确保与移动硬件的兼容性。 这个过程可能需要一段时间。 You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+**场景**类型的动态和交互式壁纸将首先针对在手机上使用进行优化，并确保与移动硬件的兼容性。 这个过程可能需要一段时间。 系统还会询问您想使用哪种质量选项，尤其是高分辨率壁纸，如果您发现移动设备存在性能问题，我们建议您尝试**均衡**选项。
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
@@ -58,7 +58,7 @@
 </video>
 
 ::: tip
-You can also transfer multiple wallpapers at the same time by clicking on multiple wallpapers while holding the CTRL key on your keyboard.
+您还可以通过在按住键盘上的 CTRL 键的同时单击多个壁纸来同时传输多个壁纸。
 :::
 
 ## 移动设备配对问题解决
@@ -68,8 +68,8 @@ You can also transfer multiple wallpapers at the same time by clicking on multip
 * 确保您的手机和计算机连接到同一本地网络。
 * 确保防火墙没有阻止 Wallpaper Engine 与本地网络通信。
 * 确保网络路由器没有阻止您的设备相互通信。
-    * Make sure your router is not blocking network traffic between devices.
-    * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
+    * 确保您的路由器没有阻止设备之间的网络流量。
+    * 在您的路由器设置中打开 **UPnP**（**"通用即插即用"**）。
 * 在计算机和移动设备上，禁用可能干扰设备间通信的任何类型的 VPN 或代理软件。
 * 仔细检查 Windows 上的 Wallpaper Engine 和移动设备是否均为最新版本且正常运行。
 
