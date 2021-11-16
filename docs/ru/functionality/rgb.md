@@ -33,11 +33,11 @@ Wallpaper Engine не имеет возможности напрямую вза�
 
 ### Corsair
 
-Начиная с версии iCUE 4 пользователю требуется вручную разрешить приложению контроль в настройках iCUE. Без этого разрешения Wallpaper Engine не сможет подключиться к iCUE. If you have any issues with RGB lighting in combination with Corsair iCUE, make sure to check the iCUE settings first.
+Начиная с версии iCUE 4 пользователю требуется вручную разрешить приложению контроль в настройках iCUE. Без этого разрешения Wallpaper Engine не сможет подключиться к iCUE. Если вы столкнулись с проблемами при использовании RGB-подсветки вместе с Corsair iCUE, сперва проверьте настройки iCUE.
 
-* Open iCUE.
-* Click the Settings icon in the upper right corner.
-* Click **Software and Games** on the left menu of the settings window.
+* Откройте iCUE.
+* Нажмите на значок настроек в правом верхнем углу.
+* Нажмите **«ПО и игры»‎** в меню слева в настройках.
 * Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
 
 If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
