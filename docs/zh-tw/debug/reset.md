@@ -1,4 +1,4 @@
-# Fully Resetting Wallpaper Engine
+# 完全重設 Wallpaper Engine
 
 If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
 
@@ -45,4 +45,4 @@ If you are experiencing issues related to wallpaper downloads by Steam, you can 
 
 3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
 4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
-5. **Restart Steam**, your subscriptions are now reset.
+5. **重新啟動 Steam**，您的訂閱現在已重設完成。
