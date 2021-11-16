@@ -12,7 +12,7 @@
 
 ### 我可以看到 OK 訊息
 
-If you see the **OK** message when clicking the test link above:
+如果你點選上方測試連結時看見 **OK** 訊息：
 
 * This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
 
