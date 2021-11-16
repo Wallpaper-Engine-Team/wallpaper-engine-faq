@@ -6,7 +6,7 @@ tags:
 
 # Wallpaper Engine auf dem Login-Bildschirm
 
-The Windows lock screen is a protected area of Windows which does not allow for live and dynamic wallpapers. Microsoft has purposefully built it this way as a security measure.
+Der Windows-Login-Bildschirm ist ein geschützter Bereich von Windows und erlaubt keine dynamischen Hintergründe. Microsoft hat diesen so absichtlich aus Sicherheitsgründen gebaut.
 
 However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
 
