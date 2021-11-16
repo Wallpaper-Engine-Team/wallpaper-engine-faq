@@ -1,9 +1,9 @@
 # 完全重置 Wallpaper Engine
 
-If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
+如果您在使用 Wallpaper Engine 时遇到技术问题，您可能需要对 Wallpaper Engine 安装进行完全重置。 请按照本指南中有关如何完全重置 Wallpaper Engine 的说明操作，包括损坏的壁纸订阅。
 
 ::: danger
-Read this first if you use an antivirus app (except Microsoft Defender)
+如果您使用防病毒应用程序（Microsoft Defender 除外），请先阅读此内容
 
 A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
 
