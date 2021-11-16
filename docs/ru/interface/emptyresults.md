@@ -4,15 +4,15 @@
 
 ## Проверьте подключение к серверам с изображениями Steam
 
-First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
+Сначала проверьте, доступно ли для вашего компьютера подключение к серверам с изображениями Steam. Чтобы проверить подключение, откройте эту ссылку в своем браузере:
 
-* [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+* [**НАЖМИТЕ ЗДЕСЬ, ЧТОБЫ ПРОВЕРИТЬ СЕРВЕРЫ С ИЗОБРАЖЕНИЯМИ STEAM**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-You should see a message that says **OK** and shows a **green checkmark** when clicking on the link above.
+При нажатии на ссылку выше вы должны увидеть сообщение **«ОК»** с **зеленой галочкой**.
 
-### I can see the OK message
+### Я вижу сообщение «ОК»
 
-If you see the **OK** message when clicking the test link above:
+Если вы видите сообщение **«ОК»** при нажатии на тестовую ссылку выше:
 
 * This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
 
