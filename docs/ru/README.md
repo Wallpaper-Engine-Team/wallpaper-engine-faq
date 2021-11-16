@@ -7,7 +7,7 @@
 Ищите статьи по отдельным ключевым словам через панель поиска в правом верхнем углу. Например, если обои выглядят как обычный черный фон, попробуйте искать по слову «черный».
 :::
 
-## Android FAQ
+## Android: часто задаваемые вопросы
 
 If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
 
