@@ -1,6 +1,6 @@
 # Не отображаются изображения для предпросмотра / результаты поиска
 
-If you cannot see preview images for uninstalled wallpapers in Wallpaper Engine, this usually means that a firewall or security software is blocking Wallpaper Engine from accessing the Steam image servers.
+Если обои, не установленные на ваше устройство, недоступны для предпросмотра в Wallpaper Engine, скорее всего, брандмауэр или защитная программа блокирует Wallpaper Engine доступ к серверам с изображениями Steam.
 
 ## Test Your Connection to the Steam Image Servers
 
