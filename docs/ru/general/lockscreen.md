@@ -6,9 +6,9 @@ tags:
 
 # Wallpaper Engine на экране блокировки Windows
 
-The Windows lock screen is a protected area of Windows which does not allow for live and dynamic wallpapers. Microsoft has purposefully built it this way as a security measure.
+Экран блокировки относится к защищенным сегментам Windows, которые не поддерживают живые и динамические обои. Microsoft ввела это ограничение в качестве меры безопасности.
 
-However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+Однако вы можете настроить Wallpaper Engine таким образом, чтобы скриншот с вашими живыми обоями перекрывал статическое изображение на экране блокировки. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
 
 ## Функциональные возможности заставки
 
