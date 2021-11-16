@@ -13,14 +13,14 @@
 * Wallpaper Engine 无法自行安装或更新
 * 由损坏或无法访问的文件引起的各种其他问题
 
-**If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
+**如果您使用了防病毒应用程序，请确保该应用程序忽略您的 `wallpaper_engine` 安装目录，然后再继续执行此页面上列出的步骤。 检查您的防病毒设置以获取完全排除文件夹的方法。**
 
-Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
+大多数防病毒应用程序可以在不通知您的情况下阻止 Wallpaper Engine 文件，并且某些 Wallpaper Engine 文件会被永久阻止。
 :::
 
-## Fully Uninstalling Wallpaper Engine
+## 完全卸载 Wallpaper Engine
 
-To fully uninstall Wallpaper Engine to clear any corrupted files:
+要完全卸载 Wallpaper Engine 以清除所有损坏的文件，请执行以下操作：
 
 1. If you have enabled the automatic startup functionality: Open the Wallpaper Engine settings, turn off the automatic startup at the top of the **General** tab in the Wallpaper Engine settings.
 2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
