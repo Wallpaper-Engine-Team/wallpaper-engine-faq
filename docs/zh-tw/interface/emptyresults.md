@@ -10,15 +10,15 @@
 
 您點選上方連結時，應該會看到一條訊息顯示 **OK**，並顯示**綠色的勾勾**。
 
-### 我可以看到 OK 訊息
+### 我看得到 OK 訊息
 
 如果你點選上方測試連結時看見 **OK** 訊息：
 
-* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* 這絕對代表只有 Wallpaper Engine 受到電腦上某種安全軟體阻擋。 可設定任何防毒應用程式、防火牆或網路加速器應用程式，忽略 Wallpaper Engine，尤其是屬於 Wallpaper Engine 的 **ui32.exe** 處理序。
 
-### I can NOT see the OK message
+### 我看不到 OK 訊息
 
-If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
+如果你點選上方測試連結時看**不**見 **OK** 訊息，這代表整個電腦、甚至整個網路都無法從 Steam 圖像伺服器下載圖像。 Reasons for this can be:
 
 * An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
 * Your network router is somehow misconfigured. Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
