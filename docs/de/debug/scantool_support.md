@@ -6,8 +6,8 @@ Falls du technische Probleme mit Wallpaper Engine hast, welche du nicht mit der 
 2. Wähle die vierte Start-Option in Steam (*"Überprüfung auf System-Konflikte"*, siehe unten für ein kurzes Video).
 3. Klicke auf **Save Full Log** und speichere es auf deinen Desktop (siehe unten für ein kurzes Video).
 4. Teile die Log-Datei mit unseren Entwicklern:
-    * Describe the problem you are having and send an email to **support@wallpaperengine.io**.
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email. Falls du sehr viele .mdmp-Dateien findest, sende uns bitte einfach nur die neueste Datei.
+    * Beschreibe das Problem was du hast und sende eine E-Mail an **support@wallpaperengine.io**.
+5. *Optional:* Wenn du Programmabstürze hast, überprüfe bitte deinen *wallpaper_engine*-Installationspfad und suche nach **.mdmp**-Dateien. Sende uns diese bitte auch per E-Mail. Falls du sehr viele .mdmp-Dateien findest, sende uns bitte einfach nur die neueste Datei.
 
 ::: tip
 Tipp Auch wenn das Scan-Tool anscheinend keine Fehler meldet, so kann ein tieferer Einblick in die Log-Datei oft häufige Computer-Probleme zum Vorschein bringen, welche uns helfen dir schnell einen Lösungsvorschlag für deine technischen Probleme mitzuteilen.
