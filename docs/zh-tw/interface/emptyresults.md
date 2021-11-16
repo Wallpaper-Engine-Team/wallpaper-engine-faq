@@ -18,9 +18,9 @@
 
 ### 我看不到 OK 訊息
 
-如果你點選上方測試連結時看**不**見 **OK** 訊息，這代表整個電腦、甚至整個網路都無法從 Steam 圖像伺服器下載圖像。 Reasons for this can be:
+如果你點選上方測試連結時看**不**見 **OK** 訊息，這代表整個電腦、甚至整個網路都無法從 Steam 圖像伺服器下載圖像。 原因可能是：
 
-* An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
-* Your network router is somehow misconfigured. Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
+* 防毒應用程式、防火牆或網路加速器應用程式徹底阻擋 Steam 圖像伺服器連線至電腦上所有應用程式。
+* 網路路由器不知為何設定錯誤。 Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
     * You can easily test if your router is at fault by connecting your computer to a wifi hotspot through your smartphone. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
     * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
