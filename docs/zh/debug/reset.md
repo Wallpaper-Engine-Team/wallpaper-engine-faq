@@ -34,15 +34,15 @@
 
 ## 重置所有 Steam 创意工坊订阅
 
-如果您遇到与 Steam 下载壁纸相关的问题，您可以尝试完全重置 Steam 创意工坊订阅。 在极少数情况下，这有助于解决应用程序中不可见的损坏的创意工坊订阅。 如果您发现 Steam 不断重新下载您的所有壁纸，或者 Steam 不断下载过去已从 Steam 创意工坊中删除的壁纸，您可以尝试完全重置。
+如果您遇到与 Steam 下载壁纸相关的问题，您可以尝试完全重置 Steam 创意工坊订阅。 在极少数情况下，这有助于解决应用程序中不可见的损坏创意工坊订阅。 如果您发现 Steam 不断重新下载您的所有壁纸，或者 Steam 不断下载过去已从 Steam 创意工坊中删除的壁纸，您可以尝试完全重置。
 
 请遵照以下步骤操作：
 
-1. 关闭 Steam。 **可选操作：**先卸载 Wallpaper Engine。
+1. 关闭 Steam。 **可选：**先卸载 Wallpaper Engine。
 2. 打开 Wallpaper Engine Steam 创意工坊网站并登录您的 Steam 帐户：
 
 * [Wallpaper Engine 的 Steam 创意工坊](https://steamcommunity.com/app/431960/workshop/)
 
 3. 在右侧，将鼠标悬停在**您的文件**上，然后将鼠标悬停在**订阅的项目**上。
-4. 您将看到一个包含您的订阅的页面。 Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
-5. **Restart Steam**, your subscriptions are now reset.
+4. 您将看到一个包含您的订阅的页面。 单击右侧的**全部取消订阅**按钮，以清除您所有的创意工坊订阅（包括任何隐藏的损坏订阅）。
+5. **重新启动 Steam**，您的订阅现在已重置。
