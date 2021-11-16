@@ -46,11 +46,11 @@
 
 連線建立後，右上角的**行動裝置**按鈕轉變為綠色。
 
-您只需按一下右側的**傳送至行動裝置**按鈕，或是以滑鼠右鍵按一下任何相容的桌布，並選取**傳送至行動裝置**，然後從清單中選取您的裝置。
+您只需要按一下右側的**傳送至行動裝置**按鈕，或是以滑鼠右鍵按一下任何相容的桌布，並選取**傳送至行動裝置**，然後從清單中選取您的裝置。
 
 #### 場景桌布
 
-**場景**類型的動態及互動式桌布將為首批針對手機使用最佳化的桌布，確保與行動裝置的硬體相容。 此最佳化程序可能需要一些時間。 You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+**場景**類型的動態及互動式桌布將為首批針對手機使用而最佳化的桌布，確保與行動裝置的硬體相容。 此程序可能需要一些時間。 系統也將詢問您想使用哪種品質選項，尤其是高解析度桌布；如果您發現行動裝置出現效能問題，建議使用**平衡**選項。
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
@@ -58,7 +58,7 @@
 </video>
 
 ::: tip
-You can also transfer multiple wallpapers at the same time by clicking on multiple wallpapers while holding the CTRL key on your keyboard.
+您可以按住鍵盤上的 CTRL 鍵同時選取多張桌布，並一次傳輸。
 :::
 
 ## 解決行動裝置配對問題
@@ -69,7 +69,7 @@ You can also transfer multiple wallpapers at the same time by clicking on multip
 * 確認防火牆並未阻擋 Wallpaper Engine 與區域網路通訊。
 * 確認網路路由器並未阻擋裝置之間的通訊。
     * 確保路由器並未阻擋裝置之間的網路流量。
-    * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
+    * 在路由器設定中開啟 **UPnP** (**「Universal Plug and Play，通用隨插即用」**)。
 * 在電腦和行動裝置上停用任何可能干擾裝置通訊的 VPN 或代理軟體。
 * 再次確認 Windows 和行動版的 Wallpaper Engine 皆為最新版本且正常運作。
 
