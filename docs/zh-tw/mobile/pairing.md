@@ -40,9 +40,9 @@
 
 您一旦輸入 PIN 碼，行動應用程式的狀態列會變成綠色，顯示已連線的電腦。 在 Windows 應用程式中，**行動裝置**按鈕也會變成綠色，代表行動裝置已連線。
 
-By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+預設情況下，如果您同時在行動裝置和電腦上啟動 Wallpaper Engine，Wallpaper Engine 之後將自動連線至您的電腦。
 
-## 4. Transferring Wallpapers to Your Mobile Device
+## 4. 將桌布傳輸至行動裝置
 
 Once the connection has been established, the **Mobile** button in the upper right corner turns green.
 
