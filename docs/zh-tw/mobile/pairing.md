@@ -5,24 +5,24 @@
 由於技術和法律限制，Android 應用程式無法直接連線至工作坊，因此 Android 應用程式無法直接從工作坊下載桌布。
 
 ::: tip
-If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
+如果您無法配對，請參閱本頁面底部**備用解決方案**一節，了解如何建立行動桌布套件 (**.mpkg**) 以及如何在行動裝置上匯入。
 :::
 
 [[toc]]
 
-## 1. Install the free Wallpaper Engine Android Companion App
+## 1. 安裝免費的 Android 隨附應用程式
 
-Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
+請先確認安裝的是最新版的 Android 隨附應用程式。
 
 建議您透過官方應用程式商店下載，不過您也可以從我們的首頁直接下載最新的應用程式。 如需下載的連結或進一步了解詳情，請檢視我們的 Android 版本下載頁面：
 
 * [下載 Android 版 Wallpaper Engine](https://www.wallpaperengine.io/android/)
 
-For security reasons, we advise against installing the app from any sources not listed on our website.
+為了保障安全，建議不要從網站上任何未列出的來源安裝應用程式。
 
 ## 2. 在 Windows 上準備 Wallpaper Engine
 
-在 **Windows** 應用程式中，在使用者介面的右上角按一下**行動裝置**按鈕。 行動裝置的概覽將隨即開啟。 在裝置概覽的底部，按一下**連接新的行動裝置**按鈕。 Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+在 **Windows** 應用程式中，在使用者介面的右上角按一下**行動裝置**按鈕。 行動裝置的概覽將隨即開啟。 在裝置概覽的底部，按一下**連接新的行動裝置**按鈕。 Wallpaper Engine 將顯示 4 位數的 PIN 碼，下一步驟時可用來與一個行動裝置配對。
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
