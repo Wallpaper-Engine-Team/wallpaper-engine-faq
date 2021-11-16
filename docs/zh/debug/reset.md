@@ -5,11 +5,11 @@
 ::: danger
 如果您使用防病毒应用程序（Microsoft Defender 除外），请先阅读此内容
 
-A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
+我们处理的绝大多数问题都是由防病毒应用程序错误地阻止 Wallpaper Engine 或 Steam 引起的。 防病毒应用程序通常造成以下问题：
 
-* Wallpaper Engine crashes
-* Broken or empty Wallpaper Engine user interface
-* Wallpaper Engine failing to start at all without any error message
+* Wallpaper Engine 崩溃
+* Wallpaper Engine 用户界面损坏或空白
+* Wallpaper Engine 根本无法启动，但没有任何错误消息
 * Wallpaper Engine failing to install or update itself
 * Various other issues caused by broken or inaccessible files
 
