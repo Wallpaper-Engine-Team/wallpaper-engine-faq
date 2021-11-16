@@ -22,27 +22,27 @@
 
 要完全卸载 Wallpaper Engine 以清除所有损坏的文件，请执行以下操作：
 
-1. If you have enabled the automatic startup functionality: Open the Wallpaper Engine settings, turn off the automatic startup at the top of the **General** tab in the Wallpaper Engine settings.
-2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
-3. Navigate to the Wallpaper Engine installation directory and delete the remaining `wallpaper_engine` directory entirely. by default, it is located here:
+1. 如果您启用了自动启动功能： 打开 Wallpaper Engine 设置，然后关闭 Wallpaper Engine 设置中**常规**选项卡顶部的自动启动。
+2. 打开 Steam 并右键单击 Wallpaper Engine，然后单击**管理**，接着单击**卸载**。
+3. 导航到 Wallpaper Engine 安装目录并彻底删除剩余的 `wallpaper_engine` 目录。 默认情况下，它位于此处：
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-If you have installed Wallpaper Engine in a different directory, please look for the `wallpaper_engine` directory there. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+如果您将 Wallpaper Engine 安装在了其他目录中，请在其中查找 `wallpaper_engine` 目录。 确保完全删除该文件夹，以清除任何不可见的防病毒文件锁定或损坏的文件。
 
-You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+您现在可以重新安装 Wallpaper Engine。 如果您想从头开始，请参阅下一节来了解如何完全重置所有壁纸订阅，但在大多数情况下这不是必需的。
 
-## Resetting all Steam Workshop Subscriptions
+## 重置所有 Steam 创意工坊订阅
 
-If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+如果您遇到与 Steam 下载壁纸相关的问题，您可以尝试完全重置 Steam 创意工坊订阅。 在极少数情况下，这有助于解决应用程序中不可见的损坏的创意工坊订阅。 如果您发现 Steam 不断重新下载您的所有壁纸，或者 Steam 不断下载过去已从 Steam 创意工坊中删除的壁纸，您可以尝试完全重置。
 
 请遵照以下步骤操作：
 
-1. 关闭 Steam。 **Optional:** Uninstall Wallpaper Engine first.
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+1. 关闭 Steam。 **可选操作：**先卸载 Wallpaper Engine。
+2. 打开 Wallpaper Engine Steam 创意工坊网站并登录您的 Steam 帐户：
 
-* [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
+* [Wallpaper Engine 的 Steam 创意工坊](https://steamcommunity.com/app/431960/workshop/)
 
-3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
-4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
+3. 在右侧，将鼠标悬停在**您的文件**上，然后将鼠标悬停在**订阅的项目**上。
+4. 您将看到一个包含您的订阅的页面。 Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
 5. **Restart Steam**, your subscriptions are now reset.
