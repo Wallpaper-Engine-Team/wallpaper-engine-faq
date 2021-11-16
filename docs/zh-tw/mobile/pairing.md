@@ -44,11 +44,11 @@
 
 ## 4. 將桌布傳輸至行動裝置
 
-Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+連線建立後，右上角的**行動裝置**按鈕轉變為綠色。
 
-You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+您只需按一下右側的**傳送至行動裝置**按鈕，或是以滑鼠右鍵按一下任何相容的桌布，並選取**傳送至行動裝置**，然後從清單中選取您的裝置。
 
-#### Scene Wallpapers
+#### 場景桌布
 
 Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
 
