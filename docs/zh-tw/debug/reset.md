@@ -34,14 +34,14 @@
 
 ## 重設所有 Steam 工作坊訂閱
 
-If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+如果您遇到有關 Steam 下載桌布的問題，可以嘗試完全重設 Steam 工作坊訂閱。 在極少見的情況下，若是應用程式中工作坊訂閱出現了不可見的問題，此做法有助於解決問題。 如果您發現 Steam 不斷重新下載您所有桌布，或者 Steam 不斷下載已經從工作坊刪除的桌布，您即可嘗試完全重設。
 
 請依循以下步驟：
 
-1. 關閉 Steam。 **Optional:** Uninstall Wallpaper Engine first.
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+1. 關閉 Steam。 **選用：**先解除安裝 Wallpaper Engine。
+2. 開啟 Wallpaper Engine Steam 工作坊，並登入您的 Steam 帳戶：
 
-* [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
+* [Wallpaper Engine 的 Steam 工作坊](https://steamcommunity.com/app/431960/workshop/)
 
 3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
 4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
