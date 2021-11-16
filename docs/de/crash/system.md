@@ -23,4 +23,4 @@ Falls du einen Blue-Screen siehst, verwende eine Suchmaschine und suche den ange
 
 Jegliche Arten von Overlays und Aufnahmeprogrammen können ebenfalls Probleme auslösen. Dies beinhaltet Programme wie Nvidia GeForce Experience. Versuche alle Programme dieser Art zu entfernen.
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool_support.html).
+Probiere unser Scan-Tool, um zu überprüfen ob du ein bekanntes Programm verwendest, welches Konflikte mit Wallpaper Engine verursachen kann: [Hier klicken](/debug/scantool_support.html).
