@@ -32,7 +32,7 @@
 
 現在即可重新安裝 Wallpaper Engine。 如果您想從頭開始，請參閱下一節，了解如何完全重設所有桌布訂閱，不過在大多數情況下並非必要。
 
-## Resetting all Steam Workshop Subscriptions
+## 重設所有 Steam 工作坊訂閱
 
 If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
 
