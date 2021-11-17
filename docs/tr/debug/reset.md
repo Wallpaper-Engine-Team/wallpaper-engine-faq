@@ -14,7 +14,7 @@ Karşılaştığımız sorunların büyük çoğunluğu Wallpaper Engine'i veya 
 
 **Bir virüs koruma uygulaması kullanıyorsanız, bu sayfada özetlenen adımlara geçmeden önce `wallpaper_engine` uygulamanın yükleme dizinini yok saydığından emin olun. Klasörleri tamamen hariç tutmak yolu için virüsten koruma ayarlarınızı kontrol edin.**
 
-Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
+Çoğu virüs koruma uygulaması, Wallpaper Engine dosyalarını size haber vermeden engelleyebilir ve belirli Wallpaper Engine dosyaları kalıcı olarak engellenir.
 :::
 
 ## Fully Uninstalling Wallpaper Engine
