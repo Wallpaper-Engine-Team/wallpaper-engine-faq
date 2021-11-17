@@ -37,10 +37,10 @@ iCUE 4 ile başlayarak, önce iCUE ayarlarında yazılım kontrolünü manuel ol
 
 * iCUE'yi Aç.
 * Sağ üst köşedeki Ayarlar simgesine tıklayın.
-* Click **Software and Games** on the left menu of the settings window.
-* Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
+* Ayarlar penceresinin sol menüsündeki **Yazılım ve Oyunlar** seçeneğine tıklayın.
+* *yazılım entegrasyonları* seçeneklerinin etkinleştirildiğinden emin olun. Tüm donanım cihazlarınızın da bu tür RGB aydınlatması için etkinleştirildiğinden emin olmak için **Cihazlar** sekmesini kontrol edin.
 
-If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
+Corsair aydınlatma kurulumunuzla ilgili hâlâ sorun yaşıyorsanız, Corsair iCUE yazılımınızı tam olarak yeniden yüklemeyi deneyin, ardından bilgisayarınızı yeniden başlatın ve yeniden yükleyin. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
 
 iCUE'nin *özel kullanım modu*'nda kullanıldığını unutmayın. Bu demektir ki Wallpaper Engine, oyunlar gibi diğer iCUE uyumlu yazılımların önceliğini alacaktır. Oyunlarınızın klavyenize animasyon eklemesini istiyorsanız Wallpaper Engine ayarlarındaki **Performans** sekmesine gidin ve oyundayken duvar kâğıtlarını durdurmak için **Diğer uygulamalar tam ekranken** seçeneğini **Dur (boş bellek)** olarak ayarlayın. Alternatif olarak RGB eklentisini devre dışı bırakın veya ayrı duvar kâğıtlarındaki RGB seçeneğini devre dışı bırakın.
 
