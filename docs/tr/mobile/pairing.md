@@ -49,7 +49,7 @@ Artık sağ taraftaki **Mobil Cihaza Gönder** seçeneğine tıklayabilir veya u
 
 #### Sahne Duvar Kâğıtları
 
-Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. Özellikle yüksek çözünürlüklü duvar kağıtları için hangi kalite seçeneğini kullanmak istediğiniz de sorulacak, mobil cihazınızda performans sorunları fark ederseniz **Dengeli** seçeneğini denemenizi öneririz.
+**Sahne** türündeki dinamik ve interaktif duvar kağıtları, öncelikle cep telefonlarında kullanılması ve mobil donanımla uyumluluğunun sağlanması için optimize edilecektir. Bu işlem biraz zaman alabilir. Özellikle yüksek çözünürlüklü duvar kağıtları için hangi kalite seçeneğini kullanmak istediğiniz de sorulacak, mobil cihazınızda performans sorunları fark ederseniz **Dengeli** seçeneğini denemenizi öneririz.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
