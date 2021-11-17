@@ -28,13 +28,13 @@ Um Wallpaper Engine vollständig zu deinstallieren und jegliche defekte Dateien 
 
 * `C:\Programme (x86)\Steam\steamapps\common\wallpaper_engine`
 
-Wenn du Wallpaper Engine in einem anderen Verzeichnis installiert hast, suche nach dem `wallpaper_engine`-Verzeichnis dort. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+Wenn du Wallpaper Engine in einem anderen Verzeichnis installiert hast, suche nach dem `wallpaper_engine`-Verzeichnis dort. Stelle sicher, dass der Ordner vollständig gelöscht wurde um jegliche Dateien zu löschen, welche von einem Antivirenprogramm unsichtbar gesperrt oder beschädigt wurden.
 
-You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+Du kannst nun Wallpaper Engine neu installieren. Wenn du vollständig mit einer komplett sauberen Installation starten möchtest, lies bitte die folgende Sektion um zu erfahren, wie du alle deine Hintergrund-Abos zurücksetzen kannst - dies ist jedoch in den meisten Fällen nicht nötig.
 
-## Resetting all Steam Workshop Subscriptions
+## Alle Steam Workshop-Abos zurücksetzen
 
-If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+Falls du ein Problem mit dem Download von Hintergründen durch Steam hast, kannst du versuchen alle deine Abos aus dem Steam Workshop zurückzusetzen. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
 
 Folge diesen Schritten:
 
