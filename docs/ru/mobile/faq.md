@@ -5,7 +5,7 @@
 [[toc]]
 
 ::: tip
-If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
+Хотите подключить свое устройство Android к Windows, чтобы установить больше обоев? See our extensive Android pairing guide here:
 
 * [Pairing Mobile Device with Windows](/mobile/pairing.html)
 :::
