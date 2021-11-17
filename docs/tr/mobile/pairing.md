@@ -39,17 +39,17 @@ Wallpaper Engine mobil tamamlayıcı uygulamasında sağ alt köşede **Ekle**'y
 
 PIN'inizi girdikten sonra mobil uygulamadaki durum çubuğu yeşile döner ve hangi bilgisayara bağlandığını gösterir. Windows uygulamasında **Mobil** butonu da yeşile döner ve mobil bağlantının aktif olduğunu gösterir.
 
-By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+Wallpaper Engine'i mobil cihazınızda ve bilgisayarınızda aynı anda başlatırsanız, Wallpaper Engine artık her zaman bilgisayarınıza varsayılan olarak otomatik bağlanacaktır.
 
-## 4. Transferring Wallpapers to Your Mobile Device
+## 4. Duvar Kağıtlarını Mobil Cihazınıza Aktarma
 
-Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+Bağlantı kurulduktan sonra sağ üst köşedeki **Mobil** düğmesi yeşile döner.
 
-You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+Artık sağ taraftaki **Mobil Cihaza Gönder** seçeneğine tıklayabilir veya uyumlu herhangi bir duvar kağıdına sağ tıklayıp **Mobil Cihaza Gönder** seçeneğini seçebilir ve ardından listeden cihazınızı seçebilirsiniz.
 
-#### Scene Wallpapers
+#### Sahne Duvar Kâğıtları
 
-Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. Özellikle yüksek çözünürlüklü duvar kağıtları için hangi kalite seçeneğini kullanmak istediğiniz de sorulacak, mobil cihazınızda performans sorunları fark ederseniz **Dengeli** seçeneğini denemenizi öneririz.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
