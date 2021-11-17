@@ -6,7 +6,7 @@ Si tienes problemas técnicos con Wallpaper Engine y no puedes resolverlos tras 
 2. Elige la cuarta opción de Steam (*«Revisión de conflictos del sistema»*, abajo encontrarás un vídeo explicativo).
 3. Haz clic en **Save Full Log** y guárdalo en el escritorio (abajo encontrarás un vídeo explicativo).
 4. Envíales el archivo de registro a los desarrolladores:
-    * Send the log file to **logs@wallpaperengine.io**.
+    * Envía el archivo de registro a **logs@wallpaperengine.io**.
         * **IMPORTANTE:** Si nos escribes a esta dirección de correo, no te olvides de enviarnos el enlace al hilo del foro ni de decirnos tu nombre de usuario.
 5. *Opcional:* si el programa se cuelga, dirígete al directorio *wallpaper_engine* para comprobar si hay algún archivo **.mdmp** y envíanoslo por correo (**logs@wallpaperengine.io**) o súbelo a alguna página. Si hay muchos archivos .mdmp, mándanos solo los más recientes.
 
