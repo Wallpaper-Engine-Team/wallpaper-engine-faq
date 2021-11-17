@@ -44,9 +44,9 @@
 
 ## 4. Перенос обоев на мобильное устройство
 
-Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+После того как соединение будет установлено, кнопка **«Мобильные устройства»** в правом верхнем углу станет зеленой.
 
-You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+Теперь просто нажмите кнопку **«Отправить на мобильное устройство»** справа. Также вы можете щелкнуть правой кнопкой мыши по любым совместимым обоям, нажать **«Отправить на мобильное устройство»** и выбрать свое устройство из списка.
 
 #### Scene Wallpapers
 
