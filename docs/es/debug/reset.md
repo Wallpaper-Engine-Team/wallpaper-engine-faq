@@ -30,15 +30,15 @@ Cómo desinstalar Wallpaper Engine por completo para eliminar los archivos corru
 
 Si has instalado Wallpaper Engine en otro directorio, busca allí el directorio `wallpaper_engine`. Asegúrate de borrar la carpeta para eliminar cualquier archivo corrupto o que haya bloqueado el antivirus.
 
-Ya puedes volver a instalar Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+Ya puedes volver a instalar Wallpaper Engine. Si quieres empezar de cero, lee la sección siguiente sobre cómo reiniciar todas las suscripciones de fondos. Este paso no es necesario en la mayoría de los casos.
 
-## Resetting all Steam Workshop Subscriptions
+## Reiniciar todas las suscripciones de Steam Workshop
 
-If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+Si tienes problemas relacionados con las descargas de fondos de Steam, puedes reiniciar por completo todas tus suscripciones de Steam Workshop. En algunos casos, puede solucionar los problemas con las suscripciones defectuosas del Workshop que no son visibles desde el programa. Si ves que Steam descarga todos tus fondos o que descarga fondos que ya se habían eliminado de Steam Workshop, puedes intentar hacer un reinicio completo.
 
 Sigue los pasos siguientes:
 
-1. Cierra Steam. **Optional:** Uninstall Wallpaper Engine first.
+1. Cierra Steam. **Opcional:** desinstala Wallpaper Engine.
 2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
 
 * [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
