@@ -1,6 +1,6 @@
-# Fully Resetting Wallpaper Engine
+# Полный сброс Wallpaper Engine
 
-If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
+Если при использовании Wallpaper Engine вы сталкиваетесь с техническими проблемами, вам стоит полностью переустановить Wallpaper Engine. Следуйте этой инструкции, чтобы полностью сбросить Wallpaper Engine вместе с поврежденными подписками на обои.
 
 ::: danger
 Read this first if you use an antivirus app (except Microsoft Defender)
