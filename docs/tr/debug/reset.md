@@ -43,5 +43,5 @@ Steam'de duvar kağıdı indirmeyle ilgili sorunlar yaşıyorsanız, Steam Atöl
 * [Wallpaper Engine için Steam Atölyesi](https://steamcommunity.com/app/431960/workshop/)
 
 3. Sağ tarafta yer alan **Dosyalarınız** seçeneğine ve ardından **Abone Olunan Öğeler** seçeneğinin üzerine gelin.
-4. Önünüze boneliklerinizin yer aldığı bir sayfa açılacak. Tüm Atölye aboneliklerinizi (gizli bozuk abonelikler dahil) temizlemek için sağ taraftaki **Tüm Abonelikten Çık** butonuna tıklayın.
-5. **Steam'i yeniden başlatın**, abonelikleriniz artık sıfırlandı.
+4. Önünüze boneliklerinizin yer aldığı bir sayfa açılacak. Tüm Atölye aboneliklerinizi (gizli iptal edilmiş abonelikler dahil) temizlemek için sağ taraftaki **Tüm Abonelikten Çık** butonuna tıklayın.
+5. **Steam'i yeniden başlatın** ve abonelikleriniz artık sıfırlandı.
