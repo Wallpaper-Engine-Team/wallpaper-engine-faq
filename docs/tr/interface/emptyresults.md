@@ -14,7 +14,7 @@ Yukarıdaki bağlantıya tıkladığınızda **Tamam** yazan ve **yeşil onay i�
 
 Yukarıdaki test bağlantısını tıkladığınızda **Tamam** mesajını görürseniz:
 
-* Bu kesinlikle yalnızca Wallpaper Engine'in bilgisayarınızdaki bazı güvenlik yazılımları tarafından engellendiği anlamına gelir. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* Bu kesinlikle yalnızca Wallpaper Engine'in bilgisayarınızdaki bazı güvenlik yazılımları tarafından engellendiği anlamına gelir. Wallpaper Engine'i yok saymak için herhangi bir virüs koruma, güvenlik duvarı veya ağ hızlandırıcı uygulamasını, özellikle Wallpaper Engine'e ait **ui32.exe** işlemini yapılandırın.
 
 ### Tamam mesajını GÖREMİYORUM
 
@@ -23,4 +23,4 @@ Yukarıdaki test bağlantısına tıkladığınızda **Tamam** mesajını **gör
 * Bir virüs koruma, güvenlik duvarı veya ağ hızlandırma uygulaması, bilgisayarınızdaki tüm uygulamaların Steam görüntü sunucularıyla olan bağlantısını tamamen engelliyor.
 * Ağ yönlendiriciniz bir şekilde yanlış yapılandırılmış. Yönlendiricinizin güvenlik duvarı ayarlarını ve burada rol oynayabilecek diğer gelişmiş yönlendirici ayarlarını daha yakından inceleyin.
     * Bilgisayarınızı akıllı telefonunuz aracılığıyla bir wifi bağlantı noktasına bağlayarak yönlendiricinizin hatalı olup olmadığını kolayca test edebilirsiniz. Mobil wifi bağlantı noktasına bağlıyken ön izleme görüntülerini görmeye başlarsanız, sorun kesinlikle ağ yönlendiricinizde veya internet hizmet sağlayıcınızın ağındadır.
-    * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. Bu nadir olsa da gerçekleşme olasılığı vardır, daha sonra tekrar deneyin.
+    * İnternet hizmet sağlayıcınız da Steam görüntü sunucularını engelliyor olabilir veya geçici bir bağlantı sorunu yaşanıyor olabilir. Bu nadir olsa da gerçekleşme olasılığı vardır, daha sonra tekrar deneyin.
