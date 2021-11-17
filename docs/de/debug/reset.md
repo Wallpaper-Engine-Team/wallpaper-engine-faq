@@ -24,11 +24,11 @@ Um Wallpaper Engine vollständig zu deinstallieren und jegliche defekte Dateien 
 
 1. Falls du die Autostart-Funktionalität aktiviert hast: Öffne die Wallpaper Engine-Einstellungen und schalte den Autostart im oberen Bereich des Reiters **Allgemein** aus.
 2. Öffne Steam und rechtsklicke auf Wallpaper Engine, dann wähle **Verwalten**, gefolgt von **Deinstallieren** aus.
-3. Navigiere zum Installationspfad von Wallpaper Engine und lösche den verbliebenen `wallpaper_engine`-Ordner vollständig. by default, it is located here:
+3. Navigiere zum Installationspfad von Wallpaper Engine und lösche den verbliebenen `wallpaper_engine`-Ordner vollständig. Standardmäßig befindet sich dieser hier:
 
 * `C:\Programme (x86)\Steam\steamapps\common\wallpaper_engine`
 
-If you have installed Wallpaper Engine in a different directory, please look for the `wallpaper_engine` directory there. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+Wenn du Wallpaper Engine in einem anderen Verzeichnis installiert hast, suche nach dem `wallpaper_engine`-Verzeichnis dort. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
 
 You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
 
