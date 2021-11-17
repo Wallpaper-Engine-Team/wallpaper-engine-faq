@@ -48,9 +48,9 @@
 
 Теперь просто нажмите кнопку **«Отправить на мобильное устройство»** справа. Также вы можете щелкнуть правой кнопкой мыши по любым совместимым обоям, нажать **«Отправить на мобильное устройство»** и выбрать свое устройство из списка.
 
-#### Scene Wallpapers
+#### Сценические обои
 
-Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+Динамическим и интерактивным обоям типа **«сцена»** требуется предварительная оптимизация. Она позволяет использовать обои на мобильном устройстве и обеспечивает совместимость с аппаратным обеспечением устройства. Это займет некоторое время. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
