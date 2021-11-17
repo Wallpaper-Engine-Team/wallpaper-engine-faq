@@ -2,27 +2,27 @@
 
 Вы можете подключить свои мобильные устройства к компьютеру для беспроводной передачи коллекции обоев в мобильное приложение Wallpaper Engine.
 
-It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
+Приложение Android не может скачивать обои напрямую из Мастерской в связи с техническими и юридическими ограничениями, которые не позволяют ему подключаться непосредственно к Мастерской.
 
 ::: tip
-If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
+Если сопряжение вам не подходит, перейдите в раздел **«Решение для резервного копирования»** внизу этой страницы, чтобы узнать, как создавать пакеты обоев для мобильных устройств (**.mpkg**) и загружать их на свое устройство.
 :::
 
 [[toc]]
 
-## 1. Install the free Wallpaper Engine Android Companion App
+## 1. Установить бесплатное сопутствующее приложение Wallpaper Engine для Android
 
-Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
+Прежде чем продолжить, установите последнюю версию сопутствующего приложения Wallpaper Engine для Android.
 
 Рекомендуем установить приложение через официальный магазин приложений, но вы также можете напрямую загрузить последнюю версию с нашей домашней страницы. Ссылки для скачивания и дополнительную информацию можно найти на странице загрузки Android:
 
 * [Скачать Wallpaper Engine для Android](https://www.wallpaperengine.io/android/)
 
-For security reasons, we advise against installing the app from any sources not listed on our website.
+В целях безопасности настоятельно не рекомендуем скачивать это приложение из источников, не указанных на нашем сайте.
 
 ## 2. Подготовка Wallpaper Engine в Windows
 
-В приложении **Windows** нажмите кнопку **Мобильные устройства** в правом верхнем углу пользовательского интерфейса. Отобразится мобильное устройство. В нижней части окна нажмите кнопку **Подключить новое устройство**. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+В приложении **Windows** нажмите кнопку **Мобильные устройства** в правом верхнем углу пользовательского интерфейса. Отобразится мобильное устройство. В нижней части окна нажмите кнопку **Подключить новое устройство**. Далее Wallpaper Engine покажет вам четырехзначный PIN-код для сопряжения одного мобильного устройства.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
@@ -40,9 +40,9 @@ For security reasons, we advise against installing the app from any sources not 
 
 После ввода PIN-кода строка состояния в мобильном приложении станет зеленой и покажет, к какому компьютеру оно подключено. В приложении для Windows кнопка **Мобильные устройства** также станет зеленой, обозначая, что мобильное соединение активно.
 
-By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+По умолчанию Wallpaper Engine будет автоматически подключаться к вашему компьютеру при одновременном запуске приложения с мобильного устройства и компьютера.
 
-## 4. Transferring Wallpapers to Your Mobile Device
+## 4. Перенос обоев на мобильное устройство
 
 Once the connection has been established, the **Mobile** button in the upper right corner turns green.
 
