@@ -2,27 +2,26 @@
 
 Mobil cihazlarınızı bilgisayarınızla eşleştirerek duvar kâğıdı koleksiyonunuzu mobil cihazınızdaki Wallpaper Engine tamamlayıcı uygulamasına kablosuz olarak aktarabilirsiniz.
 
-It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
+Android uygulamasının doğrudan Atölye'ye bağlanmasını engelleyen teknik ve yasal sınırlamalar nedeniyle Android uygulamasının duvar kağıtlarını Atölye'den doğrudan indirmesi mümkün değildir.
 
-::: tip
-If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
+::: ipucu Eşleştirme işe yaramazsa, mobil duvar kağıdı paketlerinin (**.mpkg**) nasıl oluşturulacağını ve bunları mobil cihazınıza nasıl aktaracağınızı öğrenmek için bu sayfanın altındaki **Yedekleme Çözümü** bölümüne bakın.
 :::
 
 [[toc]]
 
-## 1. Install the free Wallpaper Engine Android Companion App
+## 1. Ücretsiz Wallpaper Engine Android Arkadaş Uygulaması'nı yükleyin
 
-Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
+Devam etmeden önce, Wallpaper Engine Android arkadaş uygulamasının en son sürümünü yüklediğinizden emin olun.
 
 Uygulumayı resmi uygulama mağazasından indirmenizi öneririz ancak direkt olarak ana sayfamızdan da indirebilirsiniz. İndirme bağlantıları ve daha fazla bilgi için lütfen Android indirme sayfamıza bakın:
 
 * [Android için Wallpaper Engine İndir](https://www.wallpaperengine.io/android/)
 
-For security reasons, we advise against installing the app from any sources not listed on our website.
+Güvenlik nedeniyle uygulamayı web sitemizde listelenmeyen herhangi bir kaynaktan yüklememenizi tavsiye ederiz.
 
 ## 2. Windows üzerinde Wallpaper Engine hazırlama
 
-**Windows** uygulamasında kullanıcı arayüzünün sağ üst köşesinden **Mobil** butonuna tıklayın. Mobil cihaz genel bakışı açılır. Cihaz genel bakışında alt tarafta **yeni Cihaz Bağla** butonuna tıkla. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+**Windows** uygulamasında kullanıcı arayüzünün sağ üst köşesinden **Mobil** butonuna tıklayın. Mobil cihaz genel bakışı açılır. Cihaz genel bakışında alt tarafta **yeni Cihaz Bağla** butonuna tıkla. Wallpaper Engine bir sonraki adımda size bir mobil cihaz eşlemek için kullanabileceğiniz 4 haneli bir PIN gösterecek.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
@@ -57,8 +56,7 @@ Dynamic and interactive wallpapers that are of the **Scene** type will first be 
   Tarayıcınız video etiketini desteklemiyor.
 </video>
 
-::: tip
-You can also transfer multiple wallpapers at the same time by clicking on multiple wallpapers while holding the CTRL key on your keyboard.
+::: ipucu Ayrıca, klavyenizdeki CTRL tuşuna basılı tutarken birden fazla duvar kağıdına tıklayarak birden fazla duvar kağıdını aynı anda aktarabilirsiniz.
 :::
 
 ## Mobil Eşleme Sorun Çözme
