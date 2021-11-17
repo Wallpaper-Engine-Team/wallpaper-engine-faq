@@ -1,6 +1,6 @@
 # Полный сброс Wallpaper Engine
 
-Если при использовании Wallpaper Engine вы сталкиваетесь с техническими проблемами, вам стоит полностью переустановить Wallpaper Engine. Следуйте этой инструкции, чтобы полностью сбросить Wallpaper Engine вместе с поврежденными подписками на обои.
+Если при использовании Wallpaper Engine вы сталкиваетесь с техническими проблемами, вам стоит полностью сбросить установку Wallpaper Engine. Следуйте этой инструкции, чтобы полностью сбросить Wallpaper Engine вместе с поврежденными подписками на обои.
 
 ::: danger
 Прочтите эту часть, если вы пользуетесь антивирусом (кроме Microsoft Defender)
@@ -15,22 +15,22 @@
 
 **Если вы пользуетесь антивирусным приложением, настройте его так, чтобы оно игнорировало каталог установки `wallpaper_engine`, прежде чем перейти к следующим этапам, описанным на этой странице. Проверьте, позволяют ли настройки вашего антивируса исключать целые папки.**
 
-Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
+Большинство антивирусных приложений могут блокировать файлы Wallpaper Engine без уведомления. При этом определенные файлы Wallpaper Engine блокируются без возможности восстановления.
 :::
 
-## Fully Uninstalling Wallpaper Engine
+## Полное удаление Wallpaper Engine
 
-To fully uninstall Wallpaper Engine to clear any corrupted files:
+Чтобы полностью удалить Wallpaper Engine и стереть все поврежденные файлы:
 
-1. If you have enabled the automatic startup functionality: Open the Wallpaper Engine settings, turn off the automatic startup at the top of the **General** tab in the Wallpaper Engine settings.
-2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
-3. Navigate to the Wallpaper Engine installation directory and delete the remaining `wallpaper_engine` directory entirely. by default, it is located here:
+1. Если вы включили автозапуск: Откройте настройки Wallpaper Engine и выключите автозапуск в верхней части вкладки **«Общее»** в настройках Wallpaper Engine.
+2. Откройте Steam и щелкните правой кнопкой мыши по Wallpaper Engine. Затем нажмите на **«Управление»** и **«Удалить с устройства»**.
+3. Перейдите в каталог установки Wallpaper Engine и удалите оставшийся каталог `wallpaper_engine` вручную. по умолчанию он расположен здесь:
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-If you have installed Wallpaper Engine in a different directory, please look for the `wallpaper_engine` directory there. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+Если вы установили Wallpaper Engine в другой каталог, перейдите в него, чтобы найти каталог `wallpaper_engine`. Убедитесь, что папка полностью удалена, чтобы стереть все поврежденные файлы и невидимые файлы, заблокированные антивирусом.
 
-You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+Теперь переустановите Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
 
 ## Resetting all Steam Workshop Subscriptions
 
