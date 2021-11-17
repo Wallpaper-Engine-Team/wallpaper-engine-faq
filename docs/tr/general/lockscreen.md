@@ -8,7 +8,7 @@ tags:
 
 Windows kilit ekranı, canlı ve dinamik duvar kağıtlarına izin vermeyen korumalı bir Windows alanıdır. Microsoft, bir güvenlik önlemi olarak kasıtlı olarak bunu bu şekilde oluşturmuştur.
 
-Ancak yine de Wallpaper Engine'i, geçerli canlı duvar kağıdınızın anlık görüntüsüyle statik kilit ekranı görüntüsünü geçersiz kılacak şekilde yapılandırabilirsiniz. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+Ancak yine de Wallpaper Engine'i, geçerli canlı duvar kağıdınızın anlık görüntüsüyle statik kilit ekranı görüntüsünü geçersiz kılacak şekilde yapılandırabilirsiniz. Bunu yapmak için, Wallpaper Engine ayarlarının **Genel** sekmesindeki **Kilit ekranı görüntüsünü geçersiz kıl** seçeneğini etkinleştirin.
 
 ## Ekran Koruyucu İşlevi
 
