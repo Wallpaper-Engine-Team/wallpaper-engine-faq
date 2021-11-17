@@ -1,9 +1,8 @@
 # Wallpaper Engine'i Tamamen Sıfırlama
 
-If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
+Wallpaper Engine ile ilgili teknik sorunlar yaşıyorsanız, Wallpaper Engine kurulumunuzu tamamen sıfırlamak isteyebilirsiniz. Bozuk duvar kağıdı abonelikleri de dahil olmak üzere Wallpaper Engine'i nasıl tamamen sıfırlayabileceğiniz hakkında bu rehberi takip edin.
 
-::: danger
-Read this first if you use an antivirus app (except Microsoft Defender)
+::: tehlike Virüs koruma uygulaması kullanıyorsanız önce burayo okuyun (Microsoft Defender hariç)
 
 A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
 
