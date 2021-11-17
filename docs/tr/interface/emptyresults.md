@@ -4,23 +4,23 @@ Wallpaper Engine'de kaldırılan duvar kağıtları için önizleme görüntüle
 
 ## Steam Görüntü Sunucularına Olan Bağlantınızı Test Edin
 
-Öncelikle, bilgisayarınızdan Steam görüntü sunucularıyla bağlantının mümkün olup olmadığını deneyin ve test edin. Open the following link in your web browser to test your connection:
+Öncelikle, bilgisayarınızdan Steam görüntü sunucularıyla bağlantının mümkün olup olmadığını deneyin ve test edin. Bağlantınızı test etmek için web tarayıcınızda aşağıdaki bağlantıyı açın:
 
-* [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+* [**STEAM GÖRÜNTÜ SUNUCULARINI TEST ETMEK İÇİN TIKLAYINIZ**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-You should see a message that says **OK** and shows a **green checkmark** when clicking on the link above.
+Yukarıdaki bağlantıya tıkladığınızda **Tamam** yazan ve **yeşil onay işareti** gösteren bir mesaj görmelisiniz.
 
-### I can see the OK message
+### Tamam mesajını görebiliyorum
 
-If you see the **OK** message when clicking the test link above:
+Yukarıdaki test bağlantısını tıkladığınızda **Tamam** mesajını görürseniz:
 
-* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* Bu kesinlikle yalnızca Wallpaper Engine'in bilgisayarınızdaki bazı güvenlik yazılımları tarafından engellendiği anlamına gelir. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
 
-### I can NOT see the OK message
+### Tamam mesajını GÖREMİYORUM
 
-If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
+Yukarıdaki test bağlantısına tıkladığınızda **Tamam** mesajını **görmediyseniz** bu, tüm bilgisayarınızın veya hatta tüm ağınızın Steam görüntü sunucularından gelen görüntüleri yükleyemediği anlamına gelir. Bunun nedenleri şunlar olabilir:
 
-* An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
-* Your network router is somehow misconfigured. Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
-    * You can easily test if your router is at fault by connecting your computer to a wifi hotspot through your smartphone. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
+* Bir virüs koruma, güvenlik duvarı veya ağ hızlandırma uygulaması, bilgisayarınızdaki tüm uygulamaların Steam görüntü sunucularıyla olan bağlantısını tamamen engelliyor.
+* Ağ yönlendiriciniz bir şekilde yanlış yapılandırılmış. Yönlendiricinizin güvenlik duvarı ayarlarını ve burada rol oynayabilecek diğer gelişmiş yönlendirici ayarlarını daha yakından inceleyin.
+    * Bilgisayarınızı akıllı telefonunuz aracılığıyla bir wifi bağlantı noktasına bağlayarak yönlendiricinizin hatalı olup olmadığını kolayca test edebilirsiniz. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
     * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
