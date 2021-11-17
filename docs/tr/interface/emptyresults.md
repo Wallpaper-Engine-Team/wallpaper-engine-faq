@@ -22,5 +22,5 @@ Yukarıdaki test bağlantısına tıkladığınızda **Tamam** mesajını **gör
 
 * Bir virüs koruma, güvenlik duvarı veya ağ hızlandırma uygulaması, bilgisayarınızdaki tüm uygulamaların Steam görüntü sunucularıyla olan bağlantısını tamamen engelliyor.
 * Ağ yönlendiriciniz bir şekilde yanlış yapılandırılmış. Yönlendiricinizin güvenlik duvarı ayarlarını ve burada rol oynayabilecek diğer gelişmiş yönlendirici ayarlarını daha yakından inceleyin.
-    * Bilgisayarınızı akıllı telefonunuz aracılığıyla bir wifi bağlantı noktasına bağlayarak yönlendiricinizin hatalı olup olmadığını kolayca test edebilirsiniz. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
-    * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
+    * Bilgisayarınızı akıllı telefonunuz aracılığıyla bir wifi bağlantı noktasına bağlayarak yönlendiricinizin hatalı olup olmadığını kolayca test edebilirsiniz. Mobil wifi bağlantı noktasına bağlıyken ön izleme görüntülerini görmeye başlarsanız, sorun kesinlikle ağ yönlendiricinizde veya internet hizmet sağlayıcınızın ağındadır.
+    * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. Bu nadir olsa da gerçekleşme olasılığı vardır, daha sonra tekrar deneyin.
