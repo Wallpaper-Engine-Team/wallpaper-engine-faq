@@ -3,17 +3,17 @@
 Если при использовании Wallpaper Engine вы сталкиваетесь с техническими проблемами, вам стоит полностью переустановить Wallpaper Engine. Следуйте этой инструкции, чтобы полностью сбросить Wallpaper Engine вместе с поврежденными подписками на обои.
 
 ::: danger
-Read this first if you use an antivirus app (except Microsoft Defender)
+Прочтите эту часть, если вы пользуетесь антивирусом (кроме Microsoft Defender)
 
-A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
+Многие из проблем, с которыми мы сталкиваемся, вызваны антивирусными приложениями, которые по ошибке блокируют Wallpaper Engine или Steam. Антивирусные приложения часто вызывают:
 
-* Wallpaper Engine crashes
-* Broken or empty Wallpaper Engine user interface
-* Wallpaper Engine failing to start at all without any error message
-* Wallpaper Engine failing to install or update itself
-* Various other issues caused by broken or inaccessible files
+* аварийное завершение работы Wallpaper Engine
+* повреждение или исчезновение пользовательского интерфейса Wallpaper Engine
+* проблемы с запуском Wallpaper Engine без сообщения об ошибке
+* проблемы с установкой или обновлением Wallpaper Engine
+* многие другие проблемы, вызванные поврежденными или недоступными файлами
 
-**If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
+**Если вы пользуетесь антивирусным приложением, настройте его так, чтобы оно игнорировало каталог установки `wallpaper_engine`, прежде чем перейти к следующим этапам, описанным на этой странице. Проверьте, позволяют ли настройки вашего антивируса исключать целые папки.**
 
 Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
 :::
