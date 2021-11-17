@@ -5,15 +5,15 @@ Falls du technische Probleme mit Wallpaper Engine hast, kannst du probieren, dei
 ::: danger
 Lies zuerst diese Sektion, wenn du ein Antivirenprogramm nutzt (außer Microsoft Defender)
 
-A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
+Ein Großteil der Probleme mit denen wir zu tun haben, wird durch Antivirenprogramme ausgelöst, welche Wallpaper Engine oder Steam fälschlicherweise blockieren. Antivirenprogramme verursachen häufig:
 
-* Wallpaper Engine crashes
-* Broken or empty Wallpaper Engine user interface
-* Wallpaper Engine failing to start at all without any error message
-* Wallpaper Engine failing to install or update itself
-* Various other issues caused by broken or inaccessible files
+* Wallpaper Engine Abstürze
+* Kaputte oder leere Benutzeroberfläche von Wallpaper Engine
+* Wallpaper Engine startet gar nicht ohne jegliche Fehlermeldung
+* Wallpaper Engine lässt sich nicht installieren oder updaten
+* Weitere Fehler, welche durch defekte und gesperrte Dateien verursacht werden
 
-**If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
+**Falls du ein Antivirenprogramm verwendest, stelle sicher, dass es dein `wallpaper_engine` Installationsverzeichnis ignoriert, bevor du mit den Schritten auf dieser Seite fortfährst. Check your antivirus settings for a way to exclude folders entirely.**
 
 Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
 :::
