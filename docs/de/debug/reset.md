@@ -1,9 +1,9 @@
-# Fully Resetting Wallpaper Engine
+# Wallpaper Engine vollständig zurücksetzen
 
-If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
+Falls du technische Probleme mit Wallpaper Engine hast, kannst du probieren, deine Installation von Wallpaper Engine vollständig zurückzusetzen. Folge dieser Anleitung, um Wallpaper Engine wieder auf den ursprünglichen Zustand zurückzusetzen, inklusive fehlerhafter Wallpaper-Abos.
 
 ::: danger
-Read this first if you use an antivirus app (except Microsoft Defender)
+Lies zuerst diese Sektion, wenn du ein Antivirenprogramm nutzt (außer Microsoft Defender)
 
 A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
 
