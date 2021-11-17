@@ -34,7 +34,7 @@ Du kannst nun Wallpaper Engine neu installieren. Wenn du vollständig mit einer 
 
 ## Alle Steam Workshop-Abos zurücksetzen
 
-Falls du ein Problem mit dem Download von Hintergründen durch Steam hast, kannst du versuchen alle deine Abos aus dem Steam Workshop zurückzusetzen. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+Falls du ein Problem mit dem Download von Hintergründen durch Steam hast, kannst du versuchen alle deine Abos aus dem Steam Workshop zurückzusetzen. In seltenen Fällen, kann dies auch mit kaputten Workshop-Abos helfen, welche nicht in der App sichtbar sind. Falls du feststellst, dass Steam immer wieder deine Hintergründe erneut herunterlädt oder dass Steam wiederholt Hintergründe herunterlädt, welche vom Steam Workshop entfernt wurden, kannst du eine volle Zurücksetzung probieren.
 
 Folge diesen Schritten:
 
