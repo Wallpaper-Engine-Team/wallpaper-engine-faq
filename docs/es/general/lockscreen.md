@@ -8,7 +8,7 @@ tags:
 
 La pantalla de bloqueo de Windows es un área protegida de Windows que no permite usar fondos dinámicos o animados. Microsoft la ha creado así a propósito como medida de seguridad.
 
-Sin embargo, puedes configurar Wallpaper Engine para que sustituya la imagen estática de la pantalla de bloqueo por una captura de pantalla de tu fondo de pantalla. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+Sin embargo, puedes configurar Wallpaper Engine para que sustituya la imagen estática de la pantalla de bloqueo por una captura de pantalla de tu fondo de pantalla. Solo tienes que activar la opción **Reemplazar imagen de la pantalla de bloqueo** en la pestaña **General** de la configuración de Wallpaper Engine.
 
 ## Funcionalidad del salvapantallas
 
