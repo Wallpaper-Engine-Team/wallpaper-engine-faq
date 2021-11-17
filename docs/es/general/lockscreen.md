@@ -6,9 +6,9 @@ tags:
 
 # Wallpaper Engine en la pantalla de bloqueo de Windows
 
-The Windows lock screen is a protected area of Windows which does not allow for live and dynamic wallpapers. Microsoft has purposefully built it this way as a security measure.
+La pantalla de bloqueo de Windows es un área protegida de Windows que no permite usar fondos dinámicos o animados. Microsoft la ha creado así a propósito como medida de seguridad.
 
-However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+Sin embargo, puedes configurar Wallpaper Engine para que sustituya la imagen estática de la pantalla de bloqueo por una captura de pantalla de tu fondo de pantalla. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
 
 ## Funcionalidad del salvapantallas
 
