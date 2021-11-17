@@ -13,18 +13,18 @@ Ein Großteil der Probleme mit denen wir zu tun haben, wird durch Antivirenprogr
 * Wallpaper Engine lässt sich nicht installieren oder updaten
 * Weitere Fehler, welche durch defekte und gesperrte Dateien verursacht werden
 
-**Falls du ein Antivirenprogramm verwendest, stelle sicher, dass es dein `wallpaper_engine` Installationsverzeichnis ignoriert, bevor du mit den Schritten auf dieser Seite fortfährst. Check your antivirus settings for a way to exclude folders entirely.**
+**Falls du ein Antivirenprogramm verwendest, stelle sicher, dass es dein `wallpaper_engine` Installationsverzeichnis ignoriert, bevor du mit den Schritten auf dieser Seite fortfährst. Überprüfe, ob dein Antivirenprogramm es ermöglicht, gesamte Verzeichnisse zu ignorieren.**
 
-Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
+Die meisten Antivirenprogramme können Dateien von Wallpaper Engine blockieren, ohne dich darüber zu informieren, einige Dateien von Wallpaper Engine können dabei permanent gesperrt werden.
 :::
 
-## Fully Uninstalling Wallpaper Engine
+## Wallpaper Engine vollständig deinstallieren
 
-To fully uninstall Wallpaper Engine to clear any corrupted files:
+Um Wallpaper Engine vollständig zu deinstallieren und jegliche defekte Dateien zu löschen:
 
-1. If you have enabled the automatic startup functionality: Open the Wallpaper Engine settings, turn off the automatic startup at the top of the **General** tab in the Wallpaper Engine settings.
-2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
-3. Navigate to the Wallpaper Engine installation directory and delete the remaining `wallpaper_engine` directory entirely. by default, it is located here:
+1. Falls du die Autostart-Funktionalität aktiviert hast: Öffne die Wallpaper Engine-Einstellungen und schalte den Autostart im oberen Bereich des Reiters **Allgemein** aus.
+2. Öffne Steam und rechtsklicke auf Wallpaper Engine, dann wähle **Verwalten**, gefolgt von **Deinstallieren** aus.
+3. Navigiere zum Installationspfad von Wallpaper Engine und lösche den verbliebenen `wallpaper_engine`-Ordner vollständig. by default, it is located here:
 
 * `C:\Programme (x86)\Steam\steamapps\common\wallpaper_engine`
 
