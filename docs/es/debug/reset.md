@@ -1,6 +1,6 @@
-# Reiniciar Wallpaper Engine por completo
+# Restablecer Wallpaper Engine por completo
 
-Si tienes problemas técnicos con Wallpaper Engine, es probable que quieras reiniciar la instalación del programa por completo. Sigue esta guía sobre cómo reiniciar Wallpaper Engine, en la que también se incluyen las suscripciones de fondos de pantalla corruptos.
+Si tienes problemas técnicos con Wallpaper Engine, es probable que quieras restablecer la instalación del programa por completo. Sigue esta guía sobre cómo restablecer Wallpaper Engine, en la que también se incluye la forma de eliminar suscripciones de fondos de pantalla corruptos.
 
 ::: danger
 Lee esto antes si utilizas un antivirus (no se aplica a Microsoft Defender).
@@ -22,27 +22,27 @@ La mayoría de los antivirus pueden bloquear los archivos de Wallpaper Engine si
 
 Cómo desinstalar Wallpaper Engine por completo para eliminar los archivos corruptos:
 
-1. Si has activado la función de inicio automático: Abre la configuración del Wallpaper Engine, desactiva el inicio automático en la parte superior de la pestaña **General** en la configuración.
+1. Si has activado la función de inicio automático: abre la configuración del Wallpaper Engine, desactiva el inicio automático en la parte superior de la pestaña **General** en la configuración.
 2. Abre Steam y haz clic derecho en Wallpaper Engine. Después, haz clic en **Administrar** y luego en **Desinstalar**.
 3. Abre el directorio de instalación de Wallpaper Engine y elimina todos los restos del directorio `wallpaper_engine`. Por defecto, se encuentra aquí:
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-Si has instalado Wallpaper Engine en otro directorio, busca allí el directorio `wallpaper_engine`. Asegúrate de borrar la carpeta para eliminar cualquier archivo corrupto o que haya bloqueado el antivirus.
+Si has instalado Wallpaper Engine en otro directorio, busca allí el directorio `wallpaper_engine`. Asegúrate de borrar la carpeta para eliminar cualquier archivo corrupto o que se encuentre bloqueado por el antivirus.
 
-Ya puedes volver a instalar Wallpaper Engine. Si quieres empezar de cero, lee la sección siguiente sobre cómo reiniciar todas las suscripciones de fondos. Este paso no es necesario en la mayoría de los casos.
+Ya puedes volver a instalar Wallpaper Engine. Si quieres empezar de cero, lee la sección siguiente sobre cómo restablecer todas las suscripciones de fondos. Este paso no es necesario en la mayoría de los casos.
 
-## Reiniciar todas las suscripciones de Steam Workshop
+## Restablecer todas las suscripciones de Steam Workshop
 
-Si tienes problemas relacionados con las descargas de fondos de Steam, puedes reiniciar por completo todas tus suscripciones de Steam Workshop. En algunos casos, puede solucionar los problemas con las suscripciones defectuosas del Workshop que no son visibles desde el programa. Si ves que Steam descarga todos tus fondos o que descarga fondos que ya se habían eliminado de Steam Workshop, puedes intentar hacer un reinicio completo.
+Si tienes problemas relacionados con las descargas de fondos de Steam, puedes restablecer por completo todas tus suscripciones de Steam Workshop. En algunos casos, esto sirve para solucionar los problemas con las suscripciones defectuosas de Workshop que no son visibles desde el programa. Si ves que Steam descarga todos tus fondos o que descarga fondos que ya se habían eliminado de Steam Workshop, puedes intentar hacer un reinicio completo.
 
 Sigue los pasos siguientes:
 
 1. Cierra Steam. **Opcional:** desinstala Wallpaper Engine.
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+2. Abre la página de Steam Workshop para Wallpaper Engine e inicia sesión con tu cuenta de Steam:
 
-* [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
+* [Steam Workshop para Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
 
-3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
-4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
-5. **Restart Steam**, your subscriptions are now reset.
+3. Coloca el cursor sobre **Tus archivos**, que se encuentra a la derecha, y luego haz clic en **Artículos suscritos**.
+4. Podrás ver una página con tus suscripciones. Haz clic en el botón **Anular todas las suscripciones** que se encuentra a la derecha para eliminar todas las suscripciones de Workshop (incluidas aquellas corruptas y ocultas).
+5. **Reinicia Steam** y verás que se han restablecido todas las suscripciones.
