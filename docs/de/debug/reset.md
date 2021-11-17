@@ -38,11 +38,11 @@ Falls du ein Problem mit dem Download von Hintergründen durch Steam hast, kanns
 
 Folge diesen Schritten:
 
-1. Schalte Steam vollständig aus. **Optional:** Uninstall Wallpaper Engine first.
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+1. Schalte Steam vollständig aus. **Optional:** Deinstalliere Wallpaper Engine zunächst.
+2. Öffne die Steam Workshop-Website von Wallpaper Engine und logge dich in dein Steam-Konto ein:
 
-* [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
+* [Steam Workshop für Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
 
-3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
-4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
-5. **Restart Steam**, your subscriptions are now reset.
+3. Bewege deinen Mauszeiger rechts über **Ihre Dateien** und dann **Abonnierte Objekte**.
+4. Du siehst nun eine Seite mit all deinen Workshop-Abos. Klicke rechts auf die Schaltfläche **Alle deabonnieren**, um alle deine Workshop-Abos zu löschen (inklusive jeglicher unsichtbaren und defekten Abos).
+5. **Starte Steam neu**, deine Abos sollten nun zurückgesetzt sein.
