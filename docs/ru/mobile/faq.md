@@ -5,9 +5,9 @@
 [[toc]]
 
 ::: tip
-Хотите подключить свое устройство Android к Windows, чтобы установить больше обоев? See our extensive Android pairing guide here:
+Хотите подключить свое устройство Android к Windows, чтобы установить больше обоев? Прочитайте наше полное руководство по сопряжению с Android:
 
-* [Pairing Mobile Device with Windows](/mobile/pairing.html)
+* [Мобильное устройство для сопряжения с Windows](/mobile/pairing.html)
 :::
 
 ## Невозможно установить живые обои на экран блокировки Android
