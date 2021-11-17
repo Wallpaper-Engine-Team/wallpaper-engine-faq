@@ -7,9 +7,9 @@ Si tienes problemas técnicos o alguna pregunta acerca de Wallpaper Engine, prob
 Busca una palabra clave en el buscador de la esquina superior derecha. Por ejemplo, si los fondos te aparecen negros, busca: «negro».
 :::
 
-## Android FAQ
+## Preguntas frecuentes de Android
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+Si necesitas ayuda con la aplicación de Android, asegúrate de consultar las preguntas más frecuentes relacionadas con dicho tema, además de la guía sobre cómo emparejar el ordenador con un dispositivo Android:
 
 * [Android: preguntas y problemas más frecuentes](mobile/faq.html)
 * [Emparejar un dispositivo móvil con Windows](mobile/pairing.html)
