@@ -8,17 +8,17 @@ Wenn die die Vorschaubilder von nicht installierten Hintergründen in Wallpaper 
 
 * [**KLICKE HIER, UM DIE BILD-SERVER VON STEAM ZU TESTEN**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-You should see a message that says **OK** and shows a **green checkmark** when clicking on the link above.
+Du solltest eine Nachricht sehen, auf der **OK** und ein **grünes Häkchen** zu sehen ist, wenn du den Link oben anklickst.
 
-### I can see the OK message
+### Ich kann die OK-Nachricht sehen
 
-If you see the **OK** message when clicking the test link above:
+Wenn du beim Klicken des Links die **OK**-Nachricht siehst:
 
-* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* Dies bedeutet definitiv, dass nur Wallpaper Engine von einer Art von Sicherheits-Software auf deinem Computer blockiert wird. Stelle jegliches Antivirenprogramm, jegliche Firewall und jeglichen Netzwerk-Optimierer so ein, dass diese Wallpaper Engine ignorieren, besonders den **ui32.exe**-Prozess, welcher zu Wallpaper Engine gehört.
 
-### I can NOT see the OK message
+### Ich kann die OK-Nachricht NICHT sehen
 
-If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
+Wenn du die **OK**-Nachricht **nicht** sehen kannst, wenn du den Link oben anklickst, bedeutet dies, dass dein gesamter Computer oder dein gesamtes Netzwerk nicht auf die Bild-Server von Steam zugreifen kann. Gründe für dies können sein:
 
 * An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
 * Your network router is somehow misconfigured. Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
