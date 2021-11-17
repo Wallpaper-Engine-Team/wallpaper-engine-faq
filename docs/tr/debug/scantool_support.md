@@ -6,8 +6,8 @@ Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'd
 2. Steam'deki 4. başlatma seçeneğini seçin (*"Sistem Çakışmalarını Denetle"*, aşağıdan konuyla alakalı kısa video izleyebilirsiniz).
 3. **Save Full Log** seçeneğini tıklayıp masaüstünüze kaydedin (aşağıda kısa bir video bulunmaktadır).
 4. Kayıt dosyasını geliştiricilerimizle paylaşın:
-    * Describe the problem you are having and send an email to **support@wallpaperengine.io**.
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email. Çok fazla .mdmp dosyası bulamazsanız lütfen en yenilerini gönderin.
+    * Karşılaştığınız sorunu açıklayarak **support@wallpaperengine.io** adresine e-posta gönderin.
+5. *İsteğe Bağlı:* Çökme sorunu yaşıyorsanız, lütfen *wallpaper_engine* dizininizde herhangi bir **.mdmp** dosyası olup olmadığını kontrol edin ve bunları bize e-posta yoluyla gönderin. Çok fazla .mdmp dosyası bulamazsanız lütfen en yenilerini gönderin.
 
 ::: tip
 Tarama aracı ilk bakışta herhangi bir sorun bildirmese bile, günlük dosyasının daha ayrıntılı bir incelemesiyle yaygın bilgisayar sorunları ortaya çıkar. Bu şekilde teknik sorunlarınızın çözümünde size daha hızlı yardımcı olabiliriz.
