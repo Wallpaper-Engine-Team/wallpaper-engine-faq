@@ -1,10 +1,10 @@
 # Ön izleme görüntüleri / arama sonuçları gösterilmiyor
 
-If you cannot see preview images for uninstalled wallpapers in Wallpaper Engine, this usually means that a firewall or security software is blocking Wallpaper Engine from accessing the Steam image servers.
+Wallpaper Engine'de kaldırılan duvar kağıtları için önizleme görüntülerini göremiyorsanız, bu genellikle bir güvenlik duvarı veya güvenlik yazılımının Wallpaper Engine'in Steam görüntü sunucularına erişmesini engellediği anlamına gelir.
 
-## Test Your Connection to the Steam Image Servers
+## Steam Görüntü Sunucularına Olan Bağlantınızı Test Edin
 
-First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
+Öncelikle, bilgisayarınızdan Steam görüntü sunucularıyla bağlantının mümkün olup olmadığını deneyin ve test edin. Open the following link in your web browser to test your connection:
 
 * [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
