@@ -1,4 +1,4 @@
-# Fully Resetting Wallpaper Engine
+# Reiniciar Wallpaper Engine por completo
 
 If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
 
