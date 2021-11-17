@@ -4,15 +4,15 @@ Wallpaper Engine ile ilgili teknik sorunlar yaşıyorsanız, Wallpaper Engine ku
 
 ::: tehlike Virüs koruma uygulaması kullanıyorsanız önce burayo okuyun (Microsoft Defender hariç)
 
-A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
+Karşılaştığımız sorunların büyük çoğunluğu Wallpaper Engine'i veya Steam'in çalışmasını yanlışlıkla engelleyen virüs koruma uygulamalarından kaynaklanır. Virüs koruma uygulamaları sıklıkla şunlara neden olur:
 
-* Wallpaper Engine crashes
-* Broken or empty Wallpaper Engine user interface
-* Wallpaper Engine failing to start at all without any error message
-* Wallpaper Engine failing to install or update itself
-* Various other issues caused by broken or inaccessible files
+* Wallpaper Engine'in çökmesi
+* Bozuk veya boş Wallpaper Engine kullanıcı arayüzü
+* Wallpaper Engine, herhangi bir hata mesajı olmaksızın başlatılamıyor
+* Wallpaper Engine kendi kendini yükleyemiyor veya güncelleyemiyor
+* Bozuk veya erişilemeyen dosyalardan kaynaklanan diğer farklı sorunlar
 
-**If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
+**Bir virüs koruma uygulaması kullanıyorsanız, bu sayfada özetlenen adımlara geçmeden önce `wallpaper_engine` uygulamanın yükleme dizinini yok saydığından emin olun. Klasörleri tamamen hariç tutmak yolu için virüsten koruma ayarlarınızı kontrol edin.**
 
 Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
 :::
@@ -43,5 +43,5 @@ If you are experiencing issues related to wallpaper downloads by Steam, you can 
 * [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
 
 3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
-4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
-5. **Restart Steam**, your subscriptions are now reset.
+4. You will be presented a page with your subscriptions. Tüm Atölye aboneliklerinizi (gizli bozuk abonelikler dahil) temizlemek için sağ taraftaki **Tüm Abonelikten Çık** butonuna tıklayın.
+5. **Steam'i yeniden başlatın**, abonelikleriniz artık sıfırlandı.
