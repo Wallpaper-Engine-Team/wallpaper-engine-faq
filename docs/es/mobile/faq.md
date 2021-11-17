@@ -5,9 +5,9 @@ Esta página contiene una lista de las preguntas y los problemas técnicos que s
 [[toc]]
 
 ::: tip
-If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
+¿Quieres conectar tu dispositivo Android con Windows para instalar más fondos? Consulta la guía de emparejamiento con Android aquí:
 
-* [Pairing Mobile Device with Windows](/mobile/pairing.html)
+* [Emparejar un dispositivo móvil con Windows](/mobile/pairing.html)
 :::
 
 ## No puedo ver fondos dinámicos en la pantalla de bloqueo de Android
