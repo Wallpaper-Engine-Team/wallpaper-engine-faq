@@ -1,12 +1,12 @@
 # Vorschaubilder / Suchergebnisse werden nicht angezeigt
 
-If you cannot see preview images for uninstalled wallpapers in Wallpaper Engine, this usually means that a firewall or security software is blocking Wallpaper Engine from accessing the Steam image servers.
+Wenn die die Vorschaubilder von nicht installierten Hintergründen in Wallpaper Engine nicht sehen kannst, so liegt dies normalerweise an einer Firewall oder Sicherheits-Software, welche Wallpaper Engine daran hindert, auf die Bild-Server von Steam zuzugreifen.
 
-## Test Your Connection to the Steam Image Servers
+## Teste deine Verbindung zu den Bild-Servern von Steam
 
-First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
+Überprüfe zunächst, ob eine Verbindung zu den Bild-Servern von Steam überhaupt von deinem Computer aus möglich ist. Öffne den folgenden Link in deinem Web-Browser, um deine Verbindung zu überprüfen:
 
-* [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+* [**KLICKE HIER, UM DIE BILD-SERVER VON STEAM ZU TESTEN**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
 You should see a message that says **OK** and shows a **green checkmark** when clicking on the link above.
 
