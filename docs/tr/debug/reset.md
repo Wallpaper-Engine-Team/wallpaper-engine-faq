@@ -17,30 +17,30 @@ Karşılaştığımız sorunların büyük çoğunluğu Wallpaper Engine'i veya 
 Çoğu virüs koruma uygulaması, Wallpaper Engine dosyalarını size haber vermeden engelleyebilir ve belirli Wallpaper Engine dosyaları kalıcı olarak engellenir.
 :::
 
-## Fully Uninstalling Wallpaper Engine
+## Wallpaper Engine'i Tamamen Kaldırma
 
-To fully uninstall Wallpaper Engine to clear any corrupted files:
+Bozuk dosyaları temizlemek üzere Wallpaper Engine'i tamamen kaldırmak için:
 
-1. If you have enabled the automatic startup functionality: Open the Wallpaper Engine settings, turn off the automatic startup at the top of the **General** tab in the Wallpaper Engine settings.
-2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
-3. Navigate to the Wallpaper Engine installation directory and delete the remaining `wallpaper_engine` directory entirely. by default, it is located here:
+1. Otomatik başlatma işlevini etkinleştirdiyseniz: Wallpaper Engine ayarlarını açın, Wallpaper Engine ayarlarındaki **Genel** sekmesinin üst kısmındaki otomatik başlatı kapatın.
+2. Steam'i açın ve Wallpaper Engine'e sağ tıklayın, ardından **Yönet** seçeneğine ve daha sonra **Kaldır** seçeneğine tıklayın.
+3. Wallpaper Engine kurulum dizinine gidin ve kalan `wallpaper_engine` dizinini tamamen silin. varsayılan olarak burada bulunur:
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-If you have installed Wallpaper Engine in a different directory, please look for the `wallpaper_engine` directory there. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+Wallpaper Engine'i farklı bir dizine yüklediyseniz, lütfen `wallpaper_engine` dizinini orada arayınız. Görünmez virüs koruma dosya kilitlerini veya bozuk dosyaları temizlemek için klasörün tamamen silindiğinden emin olun.
 
-You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+Artık Wallpaper Engine'i tekrardan yükleyebilirsiniz. Temiz bir sayfadan başlamak istiyorsanız, lütfen tüm duvar kağıdı aboneliklerinizi nasıl tamamen sıfırlayacağınıza yönelik olan sonraki bölümü okuyun - çoğu durumda bu gerekli değildir.
 
-## Resetting all Steam Workshop Subscriptions
+## Tüm Steam Atölyesi Aboneliklerini Sıfırlama
 
-If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+Steam'de duvar kağıdı indirmeyle ilgili sorunlar yaşıyorsanız, Steam Atölyesi aboneliklerinizi tamamen sıfırlamayı deneyebilirsiniz. Nadir durumlarda bu, uygulamada görünmeyen bozuk Atölye abonelikleri konusunda yardımcı olabilir. Steam'in tüm duvar kağıtlarınızı yeniden indirmeyi veya geçmişte Steam Atölyesinden silinen duvar kağıtlarını indirmeyi sürdürdüğünü fark ederseniz, tam sıfırlama yapmayı deneyebilirsiniz.
 
 Şu adımları takip edin:
 
-1. Steam'i kapatın. **Optional:** Uninstall Wallpaper Engine first.
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+1. Steam'i kapatın. **İsteğe bağlı:** Önce Wallpaper Engine'i kaldırın.
+2. Wallpaper Engine Steam Atölyesi web sitesini açın ve Steam hesabınıza giriş yapın:
 
-* [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
+* [Wallpaper Engine için Steam Atölyesi](https://steamcommunity.com/app/431960/workshop/)
 
 3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
 4. You will be presented a page with your subscriptions. Tüm Atölye aboneliklerinizi (gizli bozuk abonelikler dahil) temizlemek için sağ taraftaki **Tüm Abonelikten Çık** butonuna tıklayın.
