@@ -23,4 +23,4 @@ Si, por el contrario, el problema es una pantalla azul, busca el código del err
 
 Cualquier tipo de programa superpuesto o de grabación puede causar problemas, y eso incluye Geforce Experience, así que elimínalos.
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool_support.html).
+Usa la herramienta de escaneo que te notificará si está activo algún programa conflictivo conocido: [Haz clic aquí](/debug/scantool_support.html).
