@@ -7,9 +7,9 @@ Se está a ter problemas técnicos ou apenas deseja fazer uma pergunta acerca do
 Use a barra de p4esquisa no canto superior direito com palavras-chave individuais. Por exemplo, se os seus wallpapers aparecerem apenas como fundos pretos, experiemente procurar "preto".
 :::
 
-## Android FAQ
+## FAQ para Android
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+Se procura ajuda para a app para Android, não se esqueça de consultar o nosso resumo das perguntas mais frequentes relacionadas com Android e o nosso guia para emparelhar o seu computador com o seu dispositivo Android:
 
 * [Android - Perguntas e Problemas mais Frequentes](mobile/faq.html)
 * [Emparelhar um dispositivo móvel com o Windows](mobile/pairing.html)
