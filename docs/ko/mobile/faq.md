@@ -4,10 +4,9 @@
 
 [[toc]]
 
-::: tip
-If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
+::: 팁 Android 기기를 Windows에 연결해 더 많은 배경화면을 설치하고 싶으신가요? Android 페어링 상세 가이드를 확인하세요:
 
-* [Pairing Mobile Device with Windows](/mobile/pairing.html)
+* [모바일 기기와 Windows 페어링하기](/mobile/pairing.html)
 :::
 
 ## Android 잠금화면에 라이브 배경화면을 설정할 수 없습니다
