@@ -4,7 +4,8 @@
 
 [[toc]]
 
-::: ヒント AndroidデバイスをWindows PCに接続した上で壁紙をインストールしたい場合は？ こちらからAndroidのペアリングに関するガイドをご覧ください:
+::: tip
+AndroidデバイスをWindows PCに接続した上で壁紙をインストールしたい場合は？ こちらからAndroidのペアリングに関するガイドをご覧ください:
 
 * [モバイルデバイスとWindowsとのペアリング](/mobile/pairing.html)
 :::
