@@ -2,7 +2,7 @@
 
 자신의 모바일 기기와 컴퓨터를 무선으로 페어링하여 자신의 배경화면을 모바일 기기의 Wallpaper Engine 앱으로 전송할 수 있습니다.
 
-It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
+Android 앱은 기술적 및 법적 제한으로 인해 창작마당에 직접 연결할 수 없기 때문에, Android 앱으로 배경화면을 직접 다운로드할 수는 없습니다.
 
 ::: tip
 If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
