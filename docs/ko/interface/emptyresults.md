@@ -14,13 +14,13 @@ Wallpaper Engine에서 설치하지 않은 배경화면의 미리보기 이미�
 
 위의 테스트 링크를 클릭했을 때 **OK** 메시지가 보일 경우:
 
-* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* 이는 컴퓨터의 보안 소프트웨어가 Wallpaper Engine만 차단하고 있다는 뜻입니다. 바이러스 백신, 방화벽 또는 네트워크 가속 응용 프로그램이 Wallpaper Engine을 무시하도록 설정하세요. 특히 Wallpaper Engine에 속한 **ui32.exe** 프로세스는 반드시 무시하도록 해야 합니다.
 
-### I can NOT see the OK message
+### OK 메시지가 보이지 않습니다
 
-If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
+위의 테스트 링크를 클릭했을 때 **OK** 메시지가 보이지 **않을 경우**, 이는 귀하의 컴퓨터 전체 또는 네트워크 전체가 Steam 이미지 서버에서 이미지를 불러올 수 있다는 뜻입니다. 가능한 이유는 다음과 같습니다:
 
-* An antivirus, firewall or network accelerator app is entirely blocking the connection to the Steam image servers for all applications on your computer.
-* Your network router is somehow misconfigured. Take a closer look at the firewall settings of your router and other advanced router settings that may play a role here.
-    * You can easily test if your router is at fault by connecting your computer to a wifi hotspot through your smartphone. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
-    * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
+* 바이러스 백신, 방화벽 또는 네트워크 가속 응용 프로그램이 컴퓨터에 있는 모든 응용 프로그램의 Steam 이미지 서버 연결을 차단하고 있습니다.
+* 네트워크 라우터가 잘못 설정되었습니다. 영향을 미칠 수 있는 라우터의 방화벽 설정 또는 기타 고급 라우터 설정을 자세히 살펴보세요.
+    * 컴퓨터를 스마트폰 WiFi 핫스팟에 연결하면 라우터의 문제인지 손쉽게 확인할 수 있습니다. 모바일 WiFi 핫스팟에 연결했을 때 미리보기 이미지를 볼 수 있다면, 네트워크 라우터 또는 ISP의 네트워크 문제가 확실합니다.
+    * ISP가 Steam 이미지 서버를 차단하고 있거나, 일시적인 연결 문제가 발생했을 수도 있습니다. 흔치 않은 경우지만 그럴 수도 있으니, 나중에 다시 시도해보세요.
