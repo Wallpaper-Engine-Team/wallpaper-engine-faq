@@ -4,7 +4,8 @@ Esta página contém uma lista das perguntas e problemas técnicos mais frequent
 
 [[toc]]
 
-::: dica Se pretender ligar o seu dispositivo Android ao Windows para instalar mais wallpapers? Consulte o nosso guia completo de emparelhamento para Android, aqui:
+::: tip
+Se pretender ligar o seu dispositivo Android ao Windows para instalar mais wallpapers? Consulte o nosso guia completo de emparelhamento para Android, aqui:
 
 * [Emparelhar um dispositivo móvel com o Windows](/mobile/pairing.html)
 :::
