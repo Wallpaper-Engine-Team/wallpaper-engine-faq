@@ -4,7 +4,8 @@ Pode emparelhar os seus dispositivos móveis com o seu computador para transferi
 
 Não é possível que a app Android transfira wallpapers diretamente do Workshop devido a limitações técnicas e legais que impedem a app Android de se ligar diretamente ao Workshop.
 
-::: dica Se o emparelhamento não resultar para si, consulte a secção **Solução de recurso** no fundo desta página para saber como criar pacotes de wallpaper móveis (**.mpkg**) e como as importar para o seu dispositivo móvel.
+::: tip
+Se o emparelhamento não resultar para si, consulte a secção **Solução de recurso** no fundo desta página para saber como criar pacotes de wallpaper móveis (**.mpkg**) e como as importar para o seu dispositivo móvel.
 :::
 
 [[toc]]
@@ -56,7 +57,8 @@ Wallpapers dinâmicos e interativos que sejam do tipo **Cena** serão primeiro o
   O seu browser não suporta o tag vídeo.
 </video>
 
-::: dica Também pode transferir vários wallpapers ao mesmo tempo clicando em vários wallpapers enquanto mantém a tecla CTRL premida no seu teclado.
+::: tip
+Também pode transferir vários wallpapers ao mesmo tempo clicando em vários wallpapers enquanto mantém a tecla CTRL premida no seu teclado.
 :::
 
 ## Resolução de problemas de emparelhamento com dispositivos móveis
@@ -66,7 +68,7 @@ Se não consegue emparelhar o seu dispositivo móvel ao seu computador, é muito
 * Certifique-se de que o seu telefone e computador estão ligados à mesma rede local.
 * Certifique-se de que nenhuma firewall está a impedir o Wallpaper Engine de comunicar com a sua rede local.
 * Certifique-se de que o seu router de rede não está a impedir que os seus dispositivos comuniquem entre si.
-    * Certifique-se de que o seu router não está a bloquear o tréfego de rede entre dispositivos.
+    * Certifique-se de que o seu router não está a bloquear o tráfego de rede entre dispositivos.
     * Ligue **UPnP** (**"Universal Plug and Play"**) nas definições do seu router.
 * Desative qualquer tipo de VPN ou software de proxy no sue computador e no sue dispositivo móvel que possa interferir na comunicação entre os seus dispositivos.
 * Confirme que o Wallpaper Engine para Windows e o seu dispositivo móvel estão atualizados e ligados.
