@@ -4,7 +4,8 @@
 
 [[toc]]
 
-::: 팁 Android 기기를 Windows에 연결해 더 많은 배경화면을 설치하고 싶으신가요? Android 페어링 상세 가이드를 확인하세요:
+::: tip
+Android 기기를 Windows에 연결해 더 많은 배경화면을 설치하고 싶으신가요? Android 페어링 상세 가이드를 확인하세요:
 
 * [모바일 기기와 Windows 페어링하기](/mobile/pairing.html)
 :::
