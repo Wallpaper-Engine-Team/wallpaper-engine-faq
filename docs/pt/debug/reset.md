@@ -1,30 +1,29 @@
-# Fully Resetting Wallpaper Engine
+# Reiniciar completamente o Wallpaper Engine
 
-If you experience technical issues with Wallpaper Engine, you may want to do a full reset of your Wallpaper Engine installation. Follow this guide on how to reset Wallpaper Engine completely, including corrupted wallpaper subscriptions.
+Se ocorrerem problemas técnicos com o Wallpaper Engine, poderá querer reiniciar completamente a instalação do seu Wallpaper Engine. Siga estas instruções para reiniciar completamente o Wallpaper Engine, incluindo subscrições de wallpaper danificado.
 
-::: danger
-Read this first if you use an antivirus app (except Microsoft Defender)
+::: perigo Leia isto primeiro se utilizar uma app antivírus (exceto Microsoft Defender)
 
-A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
+Uma vasta maioria dos problemas com que lidamos são provocados por apps que bloqueiam o Wallpaper Engine ou o Steam por engano. As apps antivírus são frequentemente a causa de:
 
-* Wallpaper Engine crashes
-* Broken or empty Wallpaper Engine user interface
-* Wallpaper Engine failing to start at all without any error message
-* Wallpaper Engine failing to install or update itself
-* Various other issues caused by broken or inaccessible files
+* Bloqueios do Wallpaper Engine
+* Interface do utilizador do Wallpaper Engine danificado ou vazio
+* O Wallpaper Engine não é iniciado de todo, sem qualquer mensagem de erro
+* O Wallpaper Engine não instala ou não se atualiza
+* Diversos outros problemas provocados por ficheiros danificados ou inacessíveis
 
-**If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
+**Se utiliza uma app antivírus, certifique-se de que ela ignora o seu diretório de instalação `wallpaper_engine` antes de seguir as instruções nesta página. Procure nas definições do seu antivírus uma forma de excluir pastas inteiras.**
 
-Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
+A maior parte das apps antivírus pode bloquear ficheiros do Wallpaper Engine sem o informar e certos ficheiros do Wallpaper Engine serão bloqueados permanentemente.
 :::
 
-## Fully Uninstalling Wallpaper Engine
+## Desinstalar completamente o Wallpaper Engine
 
-To fully uninstall Wallpaper Engine to clear any corrupted files:
+Para desinstalar completamente o Wallpaper Engine, de forma a remover quaisquer ficheiros danificados:
 
-1. If you have enabled the automatic startup functionality: Open the Wallpaper Engine settings, turn off the automatic startup at the top of the **General** tab in the Wallpaper Engine settings.
-2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
-3. Navigate to the Wallpaper Engine installation directory and delete the remaining `wallpaper_engine` directory entirely. by default, it is located here:
+1. Se ativou a funcionalidade de arranque automático: Abra as definições do Wallpaper Engine e desative o arranque automático no topo do searador **Gerais** as definições do Wallpaper Engine.
+2. Abra o Steam e clique com o botão direito no Wallpaper Engine. Em seguida, clique em **Gerir**, seguido de **Desinstalar**.
+3. Navegue até ao diretório de instalação do Wallpaper Engine e apague o diretório restante `wallpaper_engine` completamente. Por predefinição, ele encontra-se aqui:
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
