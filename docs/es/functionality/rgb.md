@@ -37,10 +37,10 @@ A partir de iCUE 4, hace falta habilitar manualmente el control de software en l
 
 * Abre iCUE.
 * Haz clic en el icono de Configuración en la esquina superior derecha.
-* Click **Software and Games** on the left menu of the settings window.
-* Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
+* Haz clic en **Software y juegos** en el menú de la izquierda de la ventana de Configuración.
+* Asegúrate de que está habilitada la opción de *integración de software*. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
 
-If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
+Si todavía tienes problemas con la configuración de la iluminación de Corsair, vuelve a instalar Corsair iCUE, reinicia el ordenador e instala el programa de nuevo. Muchos de los problemas se pueden resolver si vuelves a instalar el paquete de software de Corsair y habilitas las opciones de integración del software de forma manual.
 
 Recuerda que iCUE se usa en *modo exclusivo*, por lo que Wallpaper Engine tendrá prioridad frente al software compatible con iCUE, como por ejemplo, los juegos. Si quieres que los juegos animen el teclado, ve a la pestaña **Rendimiento** de la configuración de Wallpaper Engine y cambia la opción **Otra aplicación en pantalla completa** a **Detener (liberar memoria)** para detener los fondos mientras juegas. Asimismo, puedes deshabilitar el complemento RGB o deshabilitar la opción RGB en fondos particulares.
 
