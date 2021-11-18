@@ -1,22 +1,22 @@
 # No aparecen las vistas previas / resultados de búsqueda
 
-If you cannot see preview images for uninstalled wallpapers in Wallpaper Engine, this usually means that a firewall or security software is blocking Wallpaper Engine from accessing the Steam image servers.
+Si no puedes ver la vista previa de los fondos sin instalar en Wallpaper Engine, es posible que un cortafuegos o un programa de seguridad impidan que Wallpaper Engine acceda a los servidores de imágenes de Steam.
 
-## Test Your Connection to the Steam Image Servers
+## Comprueba tu conexión con los servidores de imágenes de Steam
 
-First, try and test if any connection to the Steam image servers is possible from your computer. Open the following link in your web browser to test your connection:
+Primero, comprueba si puedes conectarte a los servidores de imágenes de Steam desde tu ordenador. Abre este enlace en tu navegador web para comprobar la conexión:
 
-* [**CLICK HERE TO TEST STEAM IMAGE SERVERS**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+* [**HAZ CLIC AQUÍ PARA COMPROBAR LOS SERVIDORES DE IMÁGENES DE STEAM**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-You should see a message that says **OK** and shows a **green checkmark** when clicking on the link above.
+Al hacer clic en el enlace, deberías ver un **OK** que muestra una **marca de verificación verde**.
 
-### I can see the OK message
+### Veo el OK
 
-If you see the **OK** message when clicking the test link above:
+Si ves el **OK** al hacer clic en el enlace anterior:
 
-* This definitely means that only Wallpaper Engine is being blocked by some security software on your computer. Configure any antivirus, firewall or network accelerator app to ignore Wallpaper Engine, especially the **ui32.exe** process that belongs to Wallpaper Engine.
+* Significa, sin duda alguna, que algún programa de seguridad de tu ordenador bloquea Wallpaper Engine. Configura cualquier antivirus, firewall o programa de aceleración de red para que ignore Wallpaper Engine, en especial el proceso **ui32.exe** que pertenece a Wallpaper Engine.
 
-### I can NOT see the OK message
+### No veo el OK
 
 If you did **not** see the **OK** message when clicking the test link above, this means your entire computer or even your entire network is not able to load images from the Steam image servers. Reasons for this can be:
 
