@@ -6,9 +6,9 @@ tags:
 
 # Windows 잠금 화면에서 Wallpaper Engine
 
-The Windows lock screen is a protected area of Windows which does not allow for live and dynamic wallpapers. Microsoft has purposefully built it this way as a security measure.
+Windows 잠금 화면은 라이브 및 동적 배경화면을 허용하지 않는 Windows의 보호받는 영역입니다. Microsoft가 보안을 위해 의도적으로 그렇게 설계했습니다.
 
-However, you can still configure Wallpaper Engine to override the static lock screen image with a snapshot of your current live wallpaper. To do this, enable the **Override lock screen image** option in the **General** tab of the Wallpaper Engine settings.
+하지만 Wallpaper Engine이 정적 잠금 화면 이미지를 자신의 현재 라이브 배경화면의 스냅샷으로 덮어쓰도록 설정할 수 있습니다. 그러려면 Wallpaper Engine 설정의 **일반** 탭에서 **잠금 화면 이미지 오버라이드** 옵션을 사용하세요.
 
 ## 화면 보호기 기능
 
