@@ -33,12 +33,12 @@ Además, también puedes usar la opción **Ralentizar carga de plugin** que se e
 
 ### Corsair
 
-A partir de iCUE 4, hace falta habilitar manualmente el control de software en la configuración de iCUE. Si no lo haces, Wallpaper Engine no podrá conectarse con iCUE. Si tienes problemas con la iluminación RGB en combinación con Corsair iCUE, asegúrate de comprobar la configuración de iCUE.
+A partir de iCUE 4, hace falta habilitar manualmente el control de software en la configuración de iCUE. Si no lo haces, Wallpaper Engine no podrá conectarse con iCUE. Si tienes problemas con la iluminación RGB en combinación con Corsair iCUE, comprueba la configuración de iCUE.
 
 * Abre iCUE.
 * Haz clic en el icono de Configuración en la esquina superior derecha.
 * Haz clic en **Software y juegos** en el menú de la izquierda de la ventana de Configuración.
-* Asegúrate de que está habilitada la opción de *integración de software*. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
+* Asegúrate de que está habilitada la opción de *integración de software*. Haz clic en la pestaña **Dispositivos** y comprueba que estén habilitados todos tus periféricos para este tipo de iluminación RGB.
 
 Si todavía tienes problemas con la configuración de la iluminación de Corsair, vuelve a instalar Corsair iCUE, reinicia el ordenador e instala el programa de nuevo. Muchos de los problemas se pueden resolver si vuelves a instalar el paquete de software de Corsair y habilitas las opciones de integración del software de forma manual.
 
