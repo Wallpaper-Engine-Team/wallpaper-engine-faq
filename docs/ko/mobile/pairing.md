@@ -4,25 +4,24 @@
 
 Android 앱은 기술적 및 법적 제한으로 인해 창작마당에 직접 연결할 수 없기 때문에, Android 앱으로 배경화면을 직접 다운로드할 수는 없습니다.
 
-::: tip
-If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
+::: 팁 페어링에 문제가 발생할 경우, 이 페이지 아래에 있는 **백업 해결책** 섹션에서 모바일 배경화면 패키지(**.mpkg**)를 만들고 모바일 기기로 가져오는 법에 대해 알아보세요.
 :::
 
 [[toc]]
 
-## 1. Install the free Wallpaper Engine Android Companion App
+## 1. 무료 Wallpaper Engine Android 앱을 설치하세요
 
-Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
+계속하기 전에 Wallpaper Engine Android 앱의 최신 버전이 설치되어 있는지 확인하세요.
 
 공식 앱스토어 릴리스를 통해 앱을 설치할 것을 권장하지만, 저희 홈페이지에서도 직접 최신 앱을 다운로드할 수 있습니다. 다운로드 링크 및 추가 정보는 저희 Android 다운로드 페이지에서 확인하세요:
 
 * [Android Wallpaper Engine 다운로드](https://www.wallpaperengine.io/android/)
 
-For security reasons, we advise against installing the app from any sources not listed on our website.
+보안 문제로 인해 저희 웹사이트에 명시되지 않은 출처에서 앱을 설치하는 것은 권장하지 않습니다.
 
 ## 2. Windows에서 Wallpaper Engine 준비
 
-**Windows** 앱에서 사용자 인터페이스 우측 상단의 **모바일** 버튼을 클릭하세요. 모바일 기기 개요가 표시됩니다. 기기 개요에서 가장 아래에 있는 **새로운 기기 연결** 버튼을 클릭하세요. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+**Windows** 앱에서 사용자 인터페이스 우측 상단의 **모바일** 버튼을 클릭하세요. 모바일 기기 개요가 표시됩니다. 기기 개요에서 가장 아래에 있는 **새로운 기기 연결** 버튼을 클릭하세요. 다음 단계에서는 모바일 기기와 페어링하기 위한 4자리 PIN이 표시됩니다.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
@@ -40,25 +39,24 @@ Wallpaper Engine 모바일 앱에서 화면 우측 하단의 **추가**를 누�
 
 PIN을 입력하고 나면 모바일 앱의 상태 바가 초록색으로 변하며, 어떤 컴퓨터와 연결되어 있는지 표시됩니다. Windows 앱에서는 **모바일** 버튼이 초록색으로 변하여 모바일 기기와 연결되었다는 것을 나타냅니다.
 
-By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+기본적으로 이제 모바일 기기와 컴퓨터에서 동시에 Wallpaper Engine을 실행할 경우 Wallpaper Engine이 항상 자동으로 컴퓨터와 연결할 것입니다.
 
-## 4. Transferring Wallpapers to Your Mobile Device
+## 4. 모바일 기기로 배경화면 전송
 
-Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+연결에 성공하면 우측 상단의 **모바일** 버튼이 초록색으로 변합니다.
 
-You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+이제 오른쪽의 **모바일 기기로 전송** 버튼을 누르거나, 호환되는 배경화면을 오른쪽 클릭한 후 **모바일 기기로 전송**을 선택하고 목록에서 자신의 기기를 선택하기만 하면 됩니다.
 
-#### Scene Wallpapers
+#### 장면 배경화면
 
-Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+**장면** 유형의 동적 및 상호작용 배경화면은 우선 모바일 하드웨어와 호환되도록 핸드폰 환경에 맞게 최적화될 것입니다. 이 절차는 다소 시간이 걸릴 수 있습니다. 또한 어떤 품질 옵션을 사용할지 묻는 창이 뜰 것입니다. 특히 고화질 배경화면을 사용할 때 모바일 기기에서 성능 문제가 발생할 경우, **중간** 옵션을 사용해보시는 것을 권장합니다.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
   브라우저가 비디오 태그를 지원하지 않습니다.
 </video>
 
-::: tip
-You can also transfer multiple wallpapers at the same time by clicking on multiple wallpapers while holding the CTRL key on your keyboard.
+::: 팁 또한 키보드에서 CTRL 키를 누른 상태로 다수의 배경화면을 클릭하면 한 번에 여러 개의 배경화면을 전송할 수 있습니다.
 :::
 
 ## 모바일 페어링 문제 해결
@@ -68,8 +66,8 @@ You can also transfer multiple wallpapers at the same time by clicking on multip
 * 핸드폰과 컴퓨터가 같은 로컬 네트워크에 연결되어 있는지 확인
 * 방화벽이 Wallpaper Engine이 로컬 네트워크와 통신하지 못하도록 막고 있는지 확인
 * 네트워크 공유기가 기기들이 서로 통신하지 못하도록 막고 있는지 확인
-    * Make sure your router is not blocking network traffic between devices.
-    * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
+    * 공유기가 기기 간의 통신을 차단하고 있는지 확인하세요.
+    * 라우터 설정에서 **UPnP**(**"Universal Plug and Play"**)를 활성화하세요.
 * 기기 간의 통신을 방해할 수 있는 컴퓨터와 모바일 기기의 모든 VPN 또는 프록시 소프트웨어를 비활성화하세요.
 * Windows 및 모바일 기기의 Wallpaper Engine이 최신 버전이며 실행 중인지 확인
 
