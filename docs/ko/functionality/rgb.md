@@ -37,10 +37,10 @@ iCUE 4부터는 우선 iCUE 설정에서 수동으로 소프트웨어 제어를 
 
 * iCUE를 여세요.
 * 우측 상단의 설정 아이콘을 클릭하세요.
-* Click **Software and Games** on the left menu of the settings window.
-* Make sure that the *software integrations* options are enabled. Check the **Devices** tab to make sure all your hardware devices are also enabled for this type of RGB lighting.
+* 설정 창 왼쪽 메뉴에서 **소프트웨어 및 게임**을 클릭하세요.
+* *소프트웨어 통합 허용* 옵션이 켜져 있는지 확인하세요. **장치** 탭에서 해당 RGB 조명 유형에 자신의 모든 하드웨어 장치가 활성화되어 있는지 확인하세요.
 
-If you still have issues with your Corsair lighting setup, try a full reinstallation of your Corsair iCUE software, then restart your computer and reinstall. Many issues can be resolved by reinstalling the Corsair software suite, followed by manually enabling the software integration options.
+여전히 Corsair 조명 설정과 관련하여 문제를 겪고 계시다면, Corsair iCUE 소프트웨어를 완전히 삭제하고, 컴퓨터를 재시작한 후 다시 설치해보세요. 다수의 문제는 Corsair 소프트웨어 제품군을 재설치한 후 수동으로 소프트웨어 통합 허용 옵션을 켜는 것으로 해결할 수 있습니다.
 
 iCUE는 *단독 모드*에서 사용되며, 즉 Wallpaper Engine이 게임과 같은 다른 iCUE 호환 소프트웨어보다 우선합니다. 게임에서 키보드에 애니메이션 효과를 주려면, Wallpaper Engine 설정의 **성능** 탭으로 이동하여 **타 응용프로그램 전체 화면** 옵션을 **중지 (여유 메모리 확보)** 로 설정하여 게임 중 배경화면을 중단합니다. 또는 RGB 플러그인을 비활성화하거나 개별 배경화면에서 RGB 옵션을 비활성화할 수도 있습니다.
 
