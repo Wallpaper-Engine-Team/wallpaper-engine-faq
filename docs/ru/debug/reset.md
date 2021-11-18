@@ -30,7 +30,7 @@
 
 Если вы установили Wallpaper Engine в другой каталог, перейдите в него, чтобы найти каталог `wallpaper_engine`. Убедитесь, что папка полностью удалена, чтобы стереть все поврежденные файлы и невидимые файлы, заблокированные антивирусом.
 
-Теперь переустановите Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+Теперь переустановите Wallpaper Engine. Если вы хотите начать с чистого листа, в следующем разделе можно узнать, как полностью сбросить подписки на обои. В большинстве случаев это не требуется.
 
 ## Сброс всех подписок в Мастерской Steam
 
