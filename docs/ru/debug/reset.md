@@ -34,7 +34,7 @@
 
 ## Сброс всех подписок в Мастерской Steam
 
-If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+Если у вас возникают проблемы при загрузке обоев из Steam, попробуйте полностью сбросить подписки в Мастерской Steam. В редких случаях это помогает избавиться от неработающих подписок из Мастерской, которые не видны в приложении. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
 
 Выполните эти шаги:
 
