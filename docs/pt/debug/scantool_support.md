@@ -6,8 +6,8 @@ Se está a ter problemas tcnicos com o Wallpaper Engine que não consegue resolv
 2. Escolha a 4. ª opção de lançamento no Steam (*"Check for System Conflicts"*, veja um breve vídeo mais abaixo).
 3. Clique em **Save Full Log** e guarde-o no seu ambiente de trabalho (veja um breve vídeo mais abaixo).
 4. Partilhe o ficheiro de registo com os nossos programadores:
-    * Describe the problem you are having and send an email to **support@wallpaperengine.io**.
-5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us either via email. Se encontrar muitos ficheiros .mdmp, envie apenas os mais recentes.
+    * Descreva o problema que está a ter e envie um email para **support@wallpaperengine.io**.
+5. *Opcional:* se estiver a sofrer bloqueios, consulte o seu diretório *wallpaper_engine*, procure quaisquer ficheiros **.mdmp** e envie-nos também esses ficheiros por email. Se encontrar muitos ficheiros .mdmp, envie apenas os mais recentes.
 
 ::: tip
 Mesmo que a ferramenta de varrimento não encontre quaisquer problemas à primeira vista, é frequente que uma investigação mais aprofundada do ficheiro de registo revele problemas informáticos comuns que nos ajudarão a aconselhá-lo mais rapidamente de forma a resolver os seus problemas técnicos.
