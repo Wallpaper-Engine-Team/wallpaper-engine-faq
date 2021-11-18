@@ -28,21 +28,21 @@ Microsoft Defender을 제외한 바이러스 백신 응용 프로그램을 사�
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-Wallpaper Engine을 다른 디렉터리에 설치한 경우, 그곳에서 `wallpaper_engine` 디렉터리를 찾아보세요. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+Wallpaper Engine을 다른 디렉터리에 설치한 경우, 그곳에서 `wallpaper_engine` 디렉터리를 찾아보세요. 바이러스 백신 프로그램의 보이지 않는 파일 잠금 또는 손상된 파일을 삭제하려면 폴더 전체를 삭제해야 합니다.
 
-You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+이제 Wallpaper Engine을 재설치할 수 있습니다. 완전히 새롭게 시작하려면, 다음 섹션에서 배경화면 구독을 전부 초기화하는 방법에 대해 읽으세요. 이 절차는 대부분의 경우 필요하지 않습니다.
 
-## Resetting all Steam Workshop Subscriptions
+## Steam 창작마당 구독 전부 초기화
 
-If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+Steam의 배경화면 다운로드와 관련하여 문제를 겪고 계실 경우, Steam 창작마당 구독을 완전히 초기화해보세요. 드물게 손상된 창작마당 구독이 프로그램 내에서 보이지 않을 수 있으며, 그 경우 이 절차가 도움이 될 수 있습니다. Steam이 계속해서 모든 배경화면을 다시 다운로드하거나, 이전에 Steam 창작마당에서 삭제된 배경화면을 다운로드할 경우 완전히 초기화해보세요.
 
 다음 단계를 따르세요:
 
-1. Steam을 끕니다. **Optional:** Uninstall Wallpaper Engine first.
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+1. Steam을 끕니다. **선택 사항:** 우선 Wallpaper Engine을 제거하세요.
+2. Wallpaper Engine Steam 창작마당 웹사이트를 연 후 Steam 계정으로 로그인하세요:
 
-* [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
+* [Wallpaper Engine Steam 창작마당](https://steamcommunity.com/app/431960/workshop/)
 
-3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
-4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
-5. **Restart Steam**, your subscriptions are now reset.
+3. 오른쪽에 있는 **내 파일**에 커서를 올린 후 **구독한 항목**을 클릭하세요.
+4. 자신의 구독 항목 페이지가 표시될 것입니다. 오른쪽에 있는 **전체 구독 취소** 버튼을 클릭하면 보이지 않는 손상된 구독을 포함하여 모든 창작마당 구독이 삭제됩니다.
+5. **Steam을 재시작**하면 구독이 초기화되어 있을 것입니다.
