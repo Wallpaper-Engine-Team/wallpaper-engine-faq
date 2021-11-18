@@ -49,15 +49,14 @@ Agora basta clicar no botão **Enviar para dispositivo móvel** no lado direito 
 
 #### Wallpapers de Cena
 
-Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+Wallpapers dinâmicos e interativos que sejam do tipo **Cena** serão primeiro otimizados para utiização em telemóveis e para garantir a compatibilidade com hardware móvel. Este processo pode demorar um pouco. Também lhe será perguntado quando a opção de qualidade que pretende utilizar, especialmente para wallpapers de alta resolução. Recomendamos que experimente a opção **Equilibrada** se preparar que ocorrem problemas de desempenho no seu dispositivo móvel.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
   O seu browser não suporta o tag vídeo.
 </video>
 
-::: tip
-You can also transfer multiple wallpapers at the same time by clicking on multiple wallpapers while holding the CTRL key on your keyboard.
+::: dica Também pode transferir vários wallpapers ao mesmo tempo clicando em vários wallpapers enquanto mantém a tecla CTRL premida no seu teclado.
 :::
 
 ## Resolução de problemas de emparelhamento com dispositivos móveis
@@ -67,8 +66,8 @@ Se não consegue emparelhar o seu dispositivo móvel ao seu computador, é muito
 * Certifique-se de que o seu telefone e computador estão ligados à mesma rede local.
 * Certifique-se de que nenhuma firewall está a impedir o Wallpaper Engine de comunicar com a sua rede local.
 * Certifique-se de que o seu router de rede não está a impedir que os seus dispositivos comuniquem entre si.
-    * Make sure your router is not blocking network traffic between devices.
-    * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
+    * Certifique-se de que o seu router não está a bloquear o tréfego de rede entre dispositivos.
+    * Ligue **UPnP** (**"Universal Plug and Play"**) nas definições do seu router.
 * Desative qualquer tipo de VPN ou software de proxy no sue computador e no sue dispositivo móvel que possa interferir na comunicação entre os seus dispositivos.
 * Confirme que o Wallpaper Engine para Windows e o seu dispositivo móvel estão atualizados e ligados.
 
