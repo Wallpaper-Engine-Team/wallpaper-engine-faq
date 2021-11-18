@@ -3,32 +3,32 @@
 Wallpaper Engine과 관련하여 기술적 문제가 발생한 경우, Wallpaper Engine 설치를 완전 초기화해보세요. 이 가이드를 통해 손상된 배경화면 구독 등 Wallpaper Engine을 완전히 초기화하는 법에 대해 알아보세요.
 
 ::: danger
-Read this first if you use an antivirus app (except Microsoft Defender)
+Microsoft Defender을 제외한 바이러스 백신 응용 프로그램을 사용할 경우 우선 여기를 확인하세요
 
-A vast majority of issues we deal with are caused by antivirus apps blocking Wallpaper Engine or Steam by mistake. Antivirus apps are frequently the cause of:
+저희가 처리하는 문제의 대부분은 의도치 않게 Wallpaper Engine 또는 Steam을 차단하는 바이러스 백신 응용 프로그램에 의해 발생합니다. 바이러스 백신 앱은 종종 다음과 같은 문제를 발생시킵니다:
 
-* Wallpaper Engine crashes
-* Broken or empty Wallpaper Engine user interface
-* Wallpaper Engine failing to start at all without any error message
-* Wallpaper Engine failing to install or update itself
-* Various other issues caused by broken or inaccessible files
+* Wallpaper Engine 작동 중단
+* Wallpaper Engine 사용자 인터페이스가 불완전하거나 표시되지 않음
+* Wallpaper Engine이 아무런 오류 메시지 없이 실행되지 않음
+* Wallpaper Engine 설치 또는 업데이트 실패
+* 이 외에 파일 손상 또는 접근 불가로 인한 다양한 문제
 
-**If you are using an antivirus app, make sure that it ignores your `wallpaper_engine` installation directory before you proceed with the steps outlined on this page. Check your antivirus settings for a way to exclude folders entirely.**
+**바이러스 백신 응용 프로그램을 사용하고 있으면, 이 페이지에 명시된 절차를 따르기 전에 해당 프로그램이 `wallpaper_engine` 설치 디렉터리를 무시하는지 확인하세요. 폴더 전체를 예외로 둘 수 있는지 바이러스 백신 설정을 확인하세요.**
 
-Most antivirus apps can block Wallpaper Engine files without informing you about it and certain Wallpaper Engine files will be permanently blocked.
+대부분의 바이러스 백신 응용 프로그램은 별다른 통지 없이도 Wallpaper Engine 파일을 차단할 수 있으며, 특정 Wallpaper Engine 파일이 영구적으로 차단될 것입니다.
 :::
 
-## Fully Uninstalling Wallpaper Engine
+## Wallpaper Engine을 완전히 제거하세요
 
-To fully uninstall Wallpaper Engine to clear any corrupted files:
+손상된 파일을 삭제하기 위해 Wallpaper Engine을 완전히 제거하는 법:
 
-1. If you have enabled the automatic startup functionality: Open the Wallpaper Engine settings, turn off the automatic startup at the top of the **General** tab in the Wallpaper Engine settings.
-2. Open Steam and right-click on Wallpaper Engine, then select click on **Manage**, followed by **Uninstall**.
-3. Navigate to the Wallpaper Engine installation directory and delete the remaining `wallpaper_engine` directory entirely. by default, it is located here:
+1. 자동 시장 기능을 사용 중일 경우: Wallpaper Engine 설정을 열어 **일반** 탭 맨 위에 있는 자동 시작 설정을 끄세요.
+2. Steam을 열어 Wallpaper Engine을 오른쪽 클릭하고, **관리**를 클릭한 다음 **제거**를 클릭하세요.
+3. Wallpaper Engine 디렉터리로 이동하여 남아있는 `wallpaper_engine` 디렉터리 전체를 삭제하세요. 기본 설치 디렉터리:
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-If you have installed Wallpaper Engine in a different directory, please look for the `wallpaper_engine` directory there. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+Wallpaper Engine을 다른 디렉터리에 설치한 경우, 그곳에서 `wallpaper_engine` 디렉터리를 찾아보세요. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
 
 You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
 
