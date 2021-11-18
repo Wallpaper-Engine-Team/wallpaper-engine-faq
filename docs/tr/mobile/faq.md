@@ -4,7 +4,8 @@ Bu sayfa en sık sorulan sorular ve kullanıcıların karşılaştığı teknik 
 
 [[toc]]
 
-::: ipucu Daha fazla duvar kağıdı yüklemek için Android cihazınızı Windows'a bağlamak mı istiyorsunuz? Kapsamlı Android eşleştirme kılavuzumuza buradan göz atın:
+::: tip
+Daha fazla duvar kağıdı yüklemek için Android cihazınızı Windows'a bağlamak mı istiyorsunuz? Kapsamlı Android eşleştirme kılavuzumuza buradan göz atın:
 
 * [Mobil Cihazı Windows ile Eşleştirme](/mobile/pairing.html)
 :::
