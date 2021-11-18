@@ -2,27 +2,26 @@
 
 Pode emparelhar os seus dispositivos móveis com o seu computador para transferir sem fios a sua coleção de wallpapers para a app complementar do wallpaper Engine no seu dispositivo móvel.
 
-It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
+Não é possível que a app Android transfira wallpapers diretamente do Workshop devido a limitações técnicas e legais que impedem a app Android de se ligar diretamente ao Workshop.
 
-::: tip
-If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
+::: dica Se o emparelhamento não resultar para si, consulte a secção **Solução de recurso** no fundo desta página para saber como criar pacotes de wallpaper móveis (**.mpkg**) e como as importar para o seu dispositivo móvel.
 :::
 
 [[toc]]
 
-## 1. Install the free Wallpaper Engine Android Companion App
+## 1. Instalar a app complementar gratuita do Wallpaper Engine para Android
 
-Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
+Antes de continuar, certifique-se de que instalou a versão mais recente da app complementar o Wallpaper Engine para Android.
 
 Recomendamos que instale a app através da versão oficial da app store, mas também pode transferir a app mais recente diretamente da nossa página na web. Para obter as ligações para transferência e mais informações, visite nossa página de transferências para Android:
 
 * [Transferir o Wallpaper Engine para Android](https://www.wallpaperengine.io/android/)
 
-For security reasons, we advise against installing the app from any sources not listed on our website.
+Por motivos de segurança, não aconselhamos a instalar a app a partir de quaisquer origens que não estejam indicadas no nosso website.
 
 ## 2. Preparar o Wallpaper Engine no Windows
 
-Na app **Windows**, clique no botão **Mobile** no canto superior direito do interface para o utilizador. Abrir-se-á a visão geral do dispositivo móvel. No fundo da visão geral do dispositivo, clique no botão **Ligar novo dispositivo**. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+Na app **Windows**, clique no botão **Mobile** no canto superior direito do interface para o utilizador. Abrir-se-á a visão geral do dispositivo móvel. No fundo da visão geral do dispositivo, clique no botão **Ligar novo dispositivo**. O Wallpaper Engine irá mostrar-lhe um PIN de 4 dígitos que pode usar para emparelhar um dispositivo móvel no passo seguinte.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
@@ -40,15 +39,15 @@ Na app complementar para mobile do Wallpaper Engine, clique em **Adicionar** no 
 
 Depois de introduzir o PIN, a barra de estado da app para mobile fica verde e mostra o computador a que está ligada. Na app para Windows, agora o botão **Mobile** também está verde para indicar que tem uma ligação mobile ativa.
 
-By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+Por predefinição, o Wallpaper Engine permite agora ligar automaticamente ao seu computador, se iniciar o Wallpaper Engine no seu dispositivo móvel e no seu computador ao mesmo tempo.
 
-## 4. Transferring Wallpapers to Your Mobile Device
+## 4. Transferir Wallpapers para o seu dispositivo móvel
 
-Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+Depois de estabelecer ligação, o botão **Mobile** no canto superior direito fica verde.
 
-You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+Agora basta clicar no botão **Enviar para dispositivo móvel** no lado direito ou clicar com o botão direito em qualquer wallpaper compatível e selecionar **Enviar para dispositivo móvel**, selecionando, em seguida, o seu dispositivo na lista.
 
-#### Scene Wallpapers
+#### Wallpapers de Cena
 
 Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
 
