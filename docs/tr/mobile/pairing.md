@@ -4,7 +4,7 @@ Mobil cihazlarınızı bilgisayarınızla eşleştirerek duvar kâğıdı koleks
 
 Android uygulamasının doğrudan Atölye'ye bağlanmasını engelleyen teknik ve yasal sınırlamalar nedeniyle Android uygulamasının duvar kağıtlarını Atölye'den doğrudan indirmesi mümkün değildir.
 
-::: ipucu Eşleştirme işe yaramazsa, mobil duvar kağıdı paketlerinin (**.mpkg**) nasıl oluşturulacağını ve bunları mobil cihazınıza nasıl aktaracağınızı öğrenmek için bu sayfanın altındaki **Yedekleme Çözümü** bölümüne bakın.
+::: tip Eşleştirme işe yaramazsa, mobil duvar kağıdı paketlerinin (**.mpkg**) nasıl oluşturulacağını ve bunları mobil cihazınıza nasıl aktaracağınızı öğrenmek için bu sayfanın altındaki **Yedekleme Çözümü** bölümüne bakın.
 :::
 
 [[toc]]
@@ -56,7 +56,8 @@ Artık sağ taraftaki **Mobil Cihaza Gönder** seçeneğine tıklayabilir veya u
   Tarayıcınız video etiketini desteklemiyor.
 </video>
 
-::: ipucu Ayrıca, klavyenizdeki CTRL tuşuna basılı tutarken birden fazla duvar kağıdına tıklayarak birden fazla duvar kağıdını aynı anda aktarabilirsiniz.
+::: tip
+Ayrıca, klavyenizdeki CTRL tuşuna basılı tutarken birden fazla duvar kağıdına tıklayarak birden fazla duvar kağıdını aynı anda aktarabilirsiniz.
 :::
 
 ## Mobil Eşleme Sorun Çözme
