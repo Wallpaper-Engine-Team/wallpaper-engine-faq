@@ -4,7 +4,8 @@ Vous pouvez appairer vos appareils mobiles avec votre ordinateur pour transfére
 
 L'application Android ne peut pas télécharger directement des fonds d'écran depuis Workshop en raison de limitations techniques et juridiques qui empêchent l'application Android de se connecter directement à Workshop.
 
-::: conseil Si l'appariement ne fonctionne pas pour vous, consultez la section **Solution de secours** au bas de cette page pour apprendre à créer des paquets de fonds d'écran mobiles (**.mpkg**) et à les importer sur votre appareil mobile.
+::: tip
+Si l'appariement ne fonctionne pas pour vous, consultez la section **Solution de secours** au bas de cette page pour apprendre à créer des paquets de fonds d'écran mobiles (**.mpkg**) et à les importer sur votre appareil mobile.
 :::
 
 [[toc]]
@@ -56,7 +57,8 @@ Les fonds d'écran dynamiques et interactifs de type **Scène** seront d'abord o
   Votre explorateur ne prend pas en charge le filtre vidéo.
 </video>
 
-::: conseil Vous pouvez également transférer plusieurs fonds d'écran en même temps en cliquant sur plusieurs fonds d'écran tout en maintenant la touche CTRL de votre clavier enfoncée.
+::: tip
+Vous pouvez également transférer plusieurs fonds d'écran en même temps en cliquant sur plusieurs fonds d'écran tout en maintenant la touche CTRL de votre clavier enfoncée.
 :::
 
 ## Résolution des problèmes d'appairage des appareils mobiles
