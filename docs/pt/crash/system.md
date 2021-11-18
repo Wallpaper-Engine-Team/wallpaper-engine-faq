@@ -23,4 +23,4 @@ Se obtiver um ecrã azul, faça uma pesquisa na web pelo código do erro. Haver�
 
 Qualquer tipo de programa de overlay e gravação pode provocar problemas, isso inclui a GeForce Experience, experimente remover isso tudo.
 
-Try the scan tool which will check if any well known and confirmed conflicting application is running: [Click here](/debug/scantool_support.html).
+Experimente a ferramenta de pesquisa, que irá verificar se alguma aplicação bem conhecida e de conflito confirmado está a ser executada: [Clique aqui](/debug/scantool_support.html).
