@@ -38,8 +38,8 @@
 
 Выполните эти шаги:
 
-1. Выключите Steam. **Optional:** Uninstall Wallpaper Engine first.
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+1. Выключите Steam. **Необязательно:** Сначала удалите Wallpaper Engine.
+2. Откройте страницу Wallpaper Engine в Мастерской Steam и войдите в свой аккаунт Steam:
 
 * [Мастерская Steam для Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
 
