@@ -27,21 +27,21 @@ Para desinstalar completamente o Wallpaper Engine, de forma a remover quaisquer 
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
-If you have installed Wallpaper Engine in a different directory, please look for the `wallpaper_engine` directory there. Make sure the folder is entirely deleted to clear any invisible antivirus file locks or corrupted files.
+Se instalou o installed Wallpaper Engine noutro diretório, procure o diretório `wallpaper_engine` nesse local. Certifique-se de que a pasta está completamente apagada, de forma a remover quaisquer bloqueios de ficheiro invisíveis do antivírus ou ficheiros danificados.
 
-You can now reinstall Wallpaper Engine. If you want to start from a clean slate, please read the next section on how to fully reset all your wallpaper subscriptions - this is not necessary in most cases.
+Agora pode reinstalar o Wallpaper Engine. Se desejar começar a partir do zero, leia a secção seguinte acerca de como reiniciar completamente as suas subscrições de wallpapers - na maior parte dos casos, isto não é necessário.
 
-## Resetting all Steam Workshop Subscriptions
+## Reiniciar todas as subscrições do Steam Workshop
 
-If you are experiencing issues related to wallpaper downloads by Steam, you can try to do a full reset of your Steam Workshop subscriptions. In rare cases, this can help with broken Workshop subscriptions that are not visible in the app. If you notice that Steam keeps redownloading all your wallpapers or that Steam keeps downloading wallpapers that have been deleted from the Steam Workshop in the past, you can attempt a full reset.
+Se estão a ocorrer problemas relacionados com transferências de wallpaper pelo Steam, pode tentar reiniciar completamente as suas subscrições o Steam Workshop. Em casos raros, isto pode ajudar com subscrições do Workshop danificadas que não estão visíveis na app. Se reparar que o Steam continua a voltar a trasnferir todos os seus wallpapers ou que o Steam continua a transferir wallpapers que foram anteriormente apagados do Steam Workshop, pode tentar efetuar um reiniciar completo.
 
 Siga estas instruções:
 
-1. Desligue o Steam. **Optional:** Uninstall Wallpaper Engine first.
-2. Open the Wallpaper Engine Steam Workshop website and log in to your Steam account:
+1. Desligue o Steam. **Opcional:** desinstale o Wallpaper Engine primeiro.
+2. Abra o website do Wallpaper Engine Steam Workshop e inicie sessão na sua conta Steam:
 
-* [Steam Workshop for Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
+* [Steam Workshop para o Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
 
-3. On the right-hand side, hover over **Your files** and then **Subscribed Items**.
-4. You will be presented a page with your subscriptions. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
+3. Do lado direito, passe o rato sobre **Os seus ficheiros** e, em seguida, **Artigos subscritos**.
+4. Ser-lhe-á apresentada uma página com as suas subscrições. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
 5. **Restart Steam**, your subscriptions are now reset.
