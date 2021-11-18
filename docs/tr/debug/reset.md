@@ -2,7 +2,8 @@
 
 Wallpaper Engine ile ilgili teknik sorunlar yaşıyorsanız, Wallpaper Engine kurulumunuzu tamamen sıfırlamak isteyebilirsiniz. Bozuk duvar kağıdı abonelikleri de dahil olmak üzere Wallpaper Engine'i nasıl tamamen sıfırlayabileceğiniz hakkında bu rehberi takip edin.
 
-::: tehlike Virüs koruma uygulaması kullanıyorsanız önce burayo okuyun (Microsoft Defender hariç)
+::: danger
+Virüs koruma uygulaması kullanıyorsanız önce burayo okuyun (Microsoft Defender hariç)
 
 Karşılaştığımız sorunların büyük çoğunluğu Wallpaper Engine'i veya Steam'in çalışmasını yanlışlıkla engelleyen virüs koruma uygulamalarından kaynaklanır. Virüs koruma uygulamaları sıklıkla şunlara neden olur:
 
