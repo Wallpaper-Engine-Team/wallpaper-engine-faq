@@ -9,7 +9,7 @@ Wallpaper Engine 관련 기술적 문제나 질문이 있다면, 여기서 답�
 
 ## Android FAQ
 
-If you are looking for help with the Android app, be sure to check out our summary of the most frequent Android-related questions and our guide on pairing your computer with your Android device:
+Android 앱과 관련하여 도움이 필요한 경우, 가장 많이 묻는 Android 관련 질문의 개요 또는 컴퓨터와 Android 기기를 페어링하는 가이드를 확인하세요:
 
 * [Android - 자주 묻는 질문 및 문제](mobile/faq.html)
 * [모바일 기기와 Windows 페어링하기](mobile/pairing.html)
