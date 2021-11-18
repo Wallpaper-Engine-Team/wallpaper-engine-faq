@@ -4,7 +4,8 @@ Cette page contient une liste des questions et des problèmes techniques les plu
 
 [[toc]]
 
-::: conseil Si vous voulez connecter votre appareil Android à Windows pour installer plus de fonds d'écran ? Consultez notre guide complet sur l'appairage Android ici :
+::: tip
+Si vous voulez connecter votre appareil Android à Windows pour installer plus de fonds d'écran ? Consultez notre guide complet sur l'appairage Android ici :
 
 * [Apparaige d'un appareil mobile avec Windows](/mobile/pairing.html)
 :::
