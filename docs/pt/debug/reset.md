@@ -2,7 +2,8 @@
 
 Se ocorrerem problemas técnicos com o Wallpaper Engine, poderá querer reiniciar completamente a instalação do seu Wallpaper Engine. Siga estas instruções para reiniciar completamente o Wallpaper Engine, incluindo subscrições de wallpaper danificado.
 
-::: perigo Leia isto primeiro se utilizar uma app antivírus (exceto Microsoft Defender)
+::: danger
+Leia isto primeiro se utilizar uma app antivírus (exceto Microsoft Defender)
 
 Uma vasta maioria dos problemas com que lidamos são provocados por apps que bloqueiam o Wallpaper Engine ou o Steam por engano. As apps antivírus são frequentemente a causa de:
 
@@ -21,7 +22,7 @@ A maior parte das apps antivírus pode bloquear ficheiros do Wallpaper Engine se
 
 Para desinstalar completamente o Wallpaper Engine, de forma a remover quaisquer ficheiros danificados:
 
-1. Se ativou a funcionalidade de arranque automático: Abra as definições do Wallpaper Engine e desative o arranque automático no topo do searador **Gerais** as definições do Wallpaper Engine.
+1. Se ativou a funcionalidade de arranque automático: Abra as definições do Wallpaper Engine e desative o arranque automático no topo do separador **Gerais** as definições do Wallpaper Engine.
 2. Abra o Steam e clique com o botão direito no Wallpaper Engine. Em seguida, clique em **Gerir**, seguido de **Desinstalar**.
 3. Navegue até ao diretório de instalação do Wallpaper Engine e apague o diretório restante `wallpaper_engine` completamente. Por predefinição, ele encontra-se aqui:
 
@@ -33,7 +34,7 @@ Agora pode reinstalar o Wallpaper Engine. Se desejar começar a partir do zero, 
 
 ## Reiniciar todas as subscrições do Steam Workshop
 
-Se estão a ocorrer problemas relacionados com transferências de wallpaper pelo Steam, pode tentar reiniciar completamente as suas subscrições o Steam Workshop. Em casos raros, isto pode ajudar com subscrições do Workshop danificadas que não estão visíveis na app. Se reparar que o Steam continua a voltar a trasnferir todos os seus wallpapers ou que o Steam continua a transferir wallpapers que foram anteriormente apagados do Steam Workshop, pode tentar efetuar um reiniciar completo.
+Se estão a ocorrer problemas relacionados com transferências de wallpaper pelo Steam, pode tentar reiniciar completamente as suas subscrições o Steam Workshop. Em casos raros, isto pode ajudar com subscrições do Workshop danificadas que não estão visíveis na app. Se reparar que o Steam continua a voltar a transferir todos os seus wallpapers ou que o Steam continua a transferir wallpapers que foram anteriormente apagados do Steam Workshop, pode tentar efetuar um reiniciar completo.
 
 Siga estas instruções:
 
@@ -43,5 +44,5 @@ Siga estas instruções:
 * [Steam Workshop para o Wallpaper Engine](https://steamcommunity.com/app/431960/workshop/)
 
 3. Do lado direito, passe o rato sobre **Os seus ficheiros** e, em seguida, **Artigos subscritos**.
-4. Ser-lhe-á apresentada uma página com as suas subscrições. Click the **Unsubscribe From All** button on the right-hand side to clear all your Workshop subscription (including any hidden broken subscriptions).
-5. **Restart Steam**, your subscriptions are now reset.
+4. Ser-lhe-á apresentada uma página com as suas subscrições. Clique no botão **Anular a subscrição de todos** do lado direito para remover todas as suas subscrições do Workshop (incluindo quaisquer subscrições danificadas que estejam ocultas).
+5. **Reinicie o Steam**, as suas subscrições foram agora reiniciadas.
