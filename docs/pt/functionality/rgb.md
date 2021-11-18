@@ -35,7 +35,7 @@ Além disto, também pode utilizar a opção **Atraso no carregamento dos plugin
 
 Começando com iCUE 4, primeiro deve ativar formalmente o controlo por software nas definições do iCUE, caso contrário o Wallpaper Engine não conseguirá estabelecer ligação ao iCUE. Caso tenha alguma dificuldade com a iluminação RGB em combinação com Corsair iCUE, certifique-se de que primeiro confirma as definições do iCUE.
 
-* Abrir iCUE.
+* Abra o iCUE.
 * Clique no ícone das Definições no canto superior direito.
 * Clique em **Software e Jogos** no menu à esquerda da janela de definições.
 * Certifique-se de que as opções de *integração com o software* estão ativadas. Consulte o separador **Dispositivos** para se certificar de que todos os seus dispositivos de hardware estão também ativados para este tipo de iluminação RGB.
