@@ -50,7 +50,7 @@ Du kannst nun rechts auf die Schaltfläche **An Mobilgerät senden** klicken ode
 
 #### Szene-Hintergründe
 
-Dynamische und interaktive Hintergründe, welche vom Typen **Szene** sind, werden zunächst für die Nutzung auf Mobilgeräten optimiert, sodass die Kompatibilität mit der Hardware von Mobilgeräten sichergestellt werden kann. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+Dynamische und interaktive Hintergründe, welche vom Typen **Szene** sind, werden zunächst für die Nutzung auf Mobilgeräten optimiert, sodass die Kompatibilität mit der Hardware von Mobilgeräten sichergestellt werden kann. Dieser Prozess kann ein etwas Zeit in Anspruch nehmen. Wallpaper Engine fragt außerdem, welche Qualität der Hintergrund auf deinem Mobilgerät haben soll. Besonders für Hintergründe mit höherer Auflösung empfehlen wir die Qualitätsstufe **Ausgewogen** zu nutzen, wenn du Leistungsprobleme auf deinem Mobilgerät feststellst.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
@@ -58,24 +58,24 @@ Dynamische und interaktive Hintergründe, welche vom Typen **Szene** sind, werde
 </video>
 
 ::: tip
-You can also transfer multiple wallpapers at the same time by clicking on multiple wallpapers while holding the CTRL key on your keyboard.
+Du kannst mehrere Hintergründe zur gleichen Zeit übertragen, indem du mehrere Hintergründe anklickst während du die STRG-Taste auf deiner Tastatur gedrückt hältst.
 :::
 
-## Mobile Pairing Problem Solving
+## Fehlerbehebung bei Verbindung mit Mobilgeräten
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+Falls du dein Mobilgerät nicht mit deinem Computer verbinden kannst, so ist oft eine Firewall oder eine Einstellung in deinem lokalen Netzwerk das Problem. Überprüfe die folgenden Problemquellen:
 
-* Ensure that your phone and computer are connected to the same local network.
-* Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
-* Ensure your network router is not blocking your devices from communicating with each other.
-    * Make sure your router is not blocking network traffic between devices.
-    * Turn on **UPnP** (**"Universal Plug and Play"**) in your router settings.
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
-* Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
+* Stelle sicher, dass dein Mobilgerät und Computer zum gleichen lokalen Netzwerk verbunden sind.
+* Stelle sicher, dass keine Firewall Wallpaper Engine daran hindert mit deinem lokalen Netzwerk zu kommunizieren.
+* Stelle sicher, dass dein Netzwerk-Router deine Geräte nicht daran hindert untereinander zu kommunizieren.
+    * Stelle sicher, dass dein Router keine Netzwerkverbindungen zwischen Geräten blockiert.
+    * Schalte **UPnP** (**"Univeral Plug and Play"**) in deinen Router-Einstellungen ein.
+* Schalte jegliche VPN- oder Proxy-Anwendungen auf deinem Computer und deinem Mobilgerät aus, welche gegebenenfalls die Verbindung zwischen deinen Geräten stören.
+* Überprüfe, dass das Wallpaper Engine auf Windows und Wallpaper Engine auf deinem Mobilgerät beide auf dem neuesten Stand sind und gleichzeitig laufen.
 
-### Backup solution: Manually importing a Wallpaper File (.mpkg)
+### Backup-Lösung: Manuelles Importieren einer Hintergrund-Datei (.mpkg)
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+Solltest du nicht in der Lage sein, die Verbindung zwischen deinem Computer und deinem Mobilgerät zu beheben, so kannst du trotzdem deine Hintergründe manuell auf dein Mobilgerät übertragen. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_export.mp4" type="video/mp4">
