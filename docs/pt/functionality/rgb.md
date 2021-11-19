@@ -33,11 +33,14 @@ Além disto, também pode utilizar a opção **Atraso no carregamento dos plugin
 
 ### Corsair
 
-Algum hardware, tal como a **memória do sistema (RAM) do Corsair tem controlos de software desativados por predefinição**, o que significa que os seus módulos do sistema não se iluminarão de acordo com o Wallpaper Engine a não ser que o permita nas definições do software iCUE. Certifique-se de que a opção "Enable full software control" (permitir controlo total pelo software) na secção de memória das definições do seu dispositivo iCUE está selecionada:
+Começando com iCUE 4, primeiro deve ativar formalmente o controlo por software nas definições do iCUE, caso contrário o Wallpaper Engine não conseguirá estabelecer ligação ao iCUE. Caso tenha alguma dificuldade com a iluminação RGB em combinação com Corsair iCUE, certifique-se de que primeiro confirma as definições do iCUE.
 
-!["Enable full software control" no iCUE](./icue.png)
+* Abra o iCUE.
+* Clique no ícone das Definições no canto superior direito.
+* Clique em **Software e Jogos** no menu à esquerda da janela de definições.
+* Certifique-se de que as opções de *integração com o software* estão ativadas. Consulte o separador **Dispositivos** para se certificar de que todos os seus dispositivos de hardware estão também ativados para este tipo de iluminação RGB.
 
-Confirme esta opção para quaisquer outros elementos de hardware que não estejam a funcionar corretamente.
+Caso ainda tenha problemas com a configuração da luz do seu Corsair, experimente uma instalação completa do seu software Corsair iCUE e, em seguida, reinicie o seu computador e reinstale. Muitos problemas podem ser resolvidos reinstalando a suite de software Corsair, seguida da ativação manual das opções de integração do software.
 
 Tenha em conta que o iCUE é usado em *modo exclusivo*, o que significa que o Wallpaper Engine terá prioridade sobre outro software compatível com iCUE, tal como jogos. Se quiser que os seus jogos animem o seu teclado, vá ao separador **Desempenho** das definições do Wallpaper Engine e defina a opção **Outra aplicação em ecrã completo** para **Parar (lib. memória)** para parar todos os wallpapers enquanto está dentro do jogo. Como alternativa, desative o plugin RGB ou desative a opção RGB em wallpapers individuais.
 
