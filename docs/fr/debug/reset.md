@@ -24,7 +24,7 @@ Désinstallez complètement Wallpaper Engine pour effacer tous les fichiers corr
 
 1. Si vous avez activé la fonctionnalité de démarrage automatique : Ouvrez les paramètres de Wallpaper Engine, désactivez le démarrage automatique en haut de l'onglet **Général** dans les paramètres de Wallpaper Engine.
 2. Ouvrez Steam et faites un clic droit sur Wallpaper Engine, puis cliquez sur **Gérer**, et **Désinstaller**.
-3. Accédez au répertoire d'installation de Wallpaper Engine et supprimez entièrement le répertoire `wallpaper_engine` restant. par défaut, celui-ci se trouve ici :
+3. Accédez au répertoire d'installation de Wallpaper Engine et supprimez entièrement le répertoire `wallpaper_engine` restant. Par défaut, celui-ci se trouve ici :
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 

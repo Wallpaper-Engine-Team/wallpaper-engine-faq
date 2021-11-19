@@ -24,7 +24,7 @@ Bozuk dosyaları temizlemek üzere Wallpaper Engine'i tamamen kaldırmak için:
 
 1. Otomatik başlatma işlevini etkinleştirdiyseniz: Wallpaper Engine ayarlarını açın, Wallpaper Engine ayarlarındaki **Genel** sekmesinin üst kısmındaki otomatik başlatı kapatın.
 2. Steam'i açın ve Wallpaper Engine'e sağ tıklayın, ardından **Yönet** seçeneğine ve daha sonra **Kaldır** seçeneğine tıklayın.
-3. Wallpaper Engine kurulum dizinine gidin ve kalan `wallpaper_engine` dizinini tamamen silin. varsayılan olarak burada bulunur:
+3. Wallpaper Engine kurulum dizinine gidin ve kalan `wallpaper_engine` dizinini tamamen silin. Varsayılan olarak burada bulunur:
 
 * `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine`
 
