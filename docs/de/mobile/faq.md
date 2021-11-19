@@ -11,7 +11,7 @@ Diese Seite beinhaltet die häufigsten Fragen und technische Probleme, welche Nu
 
 ## Setzen eines Live-Hintergrunds auf dem Android-Sperrbildschirm nicht möglich
 
-Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
+Je nach Gerätehersteller und Android-Launcher den du nutzt, kann es gegebenenfalls nicht möglich sein, einen Live-Hintergrund auf deinem Sperrbildschirm zu verwenden, manchmal ist es auch nur möglich, dass der Hintergrund gleich mit dem Home-Screen-Hintergrund ist.
 
 When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
 
