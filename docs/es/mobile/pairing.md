@@ -40,15 +40,15 @@ Pulsa el botón de **Añadir** que aparece en la esquina inferior derecha de la 
 
 Cuando hayas introducido el PIN, la barra de estado de la aplicación móvil se pondrá verde y mostrará a qué ordenador se ha conectado. Además, el botón **Dispositivo** del programa de Windows también aparecerá en verde para indicar que hay una conexión móvil activa.
 
-By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+Por defecto, Wallpaper Engine se conectará siempre automáticamente a tu ordenador si inicias Wallpaper Engine en el dispositivo móvil y en el ordenador al mismo tiempo.
 
-## 4. Transferring Wallpapers to Your Mobile Device
+## 4. Transferir fondos al dispositivo móvil
 
-Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+Cuando se establezca la conexión, el botón de **Dispositivo** que se encuentra en la esquina superior derecha se pondrá de color verde.
 
-You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+Ahora solo tienes que hacer clic en el botón **Enviar a dispositivo móvil** que se encuentra en el lado derecho o hacer clic con el botón derecho en cualquier fondo compatible y seleccionar **Enviar a dispositivo móvil**, para después seleccionar tu dispositivo en la lista.
 
-#### Scene Wallpapers
+#### Fondos de escena
 
 Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
 
