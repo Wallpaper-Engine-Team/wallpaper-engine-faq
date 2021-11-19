@@ -22,5 +22,5 @@ Wenn du die **OK**-Nachricht **nicht** sehen kannst, wenn du den Link oben ankli
 
 * Ein Antivirenprogramm, eine Firewall oder ein Netzwerkbeschleunigungsprogramm blockt die Verbindung zu den Bild-Servern von Steam auf deinem Computer.
 * Dein Netzwer-Router ist falsch konfiguriert. Schaue dir die Firewall-Einstellungen deines Routers und weitere erweiterte Router-Einstellungen an, welche hier gegebenenfalls eine Rolle spielen könnten.
-    * You can easily test if your router is at fault by connecting your computer to a wifi hotspot through your smartphone. If you start seeing preview images while connected to a mobile wifi hotspot, the problem is definitely in your network router or in the network of your internet service provider.
-    * Your internet service provider may also be blocking the Steam image servers or there is a temporary connection issue. This is very rare but it can happen, try again later.
+    * Du kannst relativ einfach testen, ob dein Router das Problem ist, indem du deinen Computer über einen WLAN-Hotspot deines Smartphones verbindest. Wenn du daraufhin die Vorschaubilder sehen kannst während du zum mobilen WLAN-Hotspot verbunden bist, dann liegt das Problem definitiv an deinem Router oder am Netzwerk deines Internetanbieters.
+    * Dein Internetanbieter könnte auch die Steam-Server blockieren oder es liegt ein vorübergehendes Verbindungsproblem vor. Dies passiert zwar nur sehr selten, aber es kommt dennoch vor, versuche es also später noch einmal.
