@@ -13,7 +13,7 @@ Diese Seite beinhaltet die häufigsten Fragen und technische Probleme, welche Nu
 
 Je nach Gerätehersteller und Android-Launcher den du nutzt, kann es gegebenenfalls nicht möglich sein, einen Live-Hintergrund auf deinem Sperrbildschirm zu verwenden, manchmal ist es auch nur möglich, dass der Hintergrund gleich mit dem Home-Screen-Hintergrund ist.
 
-When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a few seconds on the check-mark symbol in the upper right corner. This brings up the live wallpaper screen of your phone. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
+Während du die Vorschau eines Live-Hintergrunds in Wallpaper Engine auf deinem Mobilgerät anguckst, halte ein paar Sekunden auf das Häkchen-Symbol oben rechts gedrückt. Dies öffnet die Übersicht für Live-Hintergründe auf deinem Gerät. Depending on your manufacturer, you should now see the option to set the wallpaper on your lock-screen - if this option does not appear, your phone does not support live wallpapers on the lock-screen. The following phone manufacturers are known to not allow live wallpapers on the lock-screen on all or some of their devices:
 
 * Huawei
 * Xiaomi
