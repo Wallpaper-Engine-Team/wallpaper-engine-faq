@@ -6,7 +6,9 @@ tags:
 
 # Wallpaper Engine en la pantalla de bloqueo de Windows
 
-Nos suelen llegar preguntas sobre si es posible configurar un fondo de Wallpaper Engine en la pantalla de bloqueo de Windows. Por desgracia, no es posible debido a las limitaciones del propio Windows. La pantalla de bloqueo es una zona protegida que no se puede modificar sin hackear Windows, lo que actúa como un sistema de seguridad, pues las aplicaciones no deberían de poder añadir contenido malicioso a la pantalla de inicio. Es por eso que Wallpaper Engine no puede poner fondos en la pantalla de bloqueo y no podremos añadir dicha función en un futuro.
+La pantalla de bloqueo de Windows es un área protegida de Windows que no permite usar fondos dinámicos o animados. Microsoft la ha creado así a propósito como medida de seguridad.
+
+Sin embargo, puedes configurar Wallpaper Engine para que sustituya la imagen estática de la pantalla de bloqueo por una captura de pantalla de tu fondo de pantalla. Solo tienes que activar la opción **Reemplazar imagen de la pantalla de bloqueo** en la pestaña **General** de la configuración de Wallpaper Engine.
 
 ## Funcionalidad del salvapantallas
 
