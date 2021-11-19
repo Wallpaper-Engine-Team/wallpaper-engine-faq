@@ -23,4 +23,4 @@ Wallpaper Engine 需要電腦提供的功能包括：3D 加速、視訊加速、
 
 任何重疊與錄製程式也可能導致問題出現，包括 Geforce Experience，請移除這類程式。
 
-請使用這項掃描工具，檢查是否已有任何公認的已知衝突應用程式正在運作：[點選這裡](/debug/scantool_support.html)。
+請使用這項掃描工具，檢查是否有任何公認的衝突應用程式正在運作：[點選這裡](/debug/scantool_support.html)。
