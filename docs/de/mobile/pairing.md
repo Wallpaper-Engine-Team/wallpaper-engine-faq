@@ -38,7 +38,7 @@ In der mobilen Begleit-App für Wallpaper Engine, klicke unten rechts auf **Hinz
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
-Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+Sobald du die PIN korrekt eingegeben hast, färbt sich die Status-Leiste in der Anwendung grün und zeigt an zu welchem Computer die App verbunden ist. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
 
 By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
 
