@@ -6,7 +6,9 @@ tags:
 
 # Windows 锁屏上的 Wallpaper Engine
 
-经常有人询问我们是否可以在 Windows 锁屏上设置 Wallpaper Engine 壁纸。 很遗憾，由于 Windows 本身的限制，此操作不可行。 锁屏是 Windows 的受保护区域，除非 Windows 受到黑客攻击，否则无法对其进行修改。 由于应用程序不应该向登录窗口添加恶意内容，因此本功能可保障系统安全性。 因此，Wallpaper Engine 无法将壁纸添加到锁屏，将来我们也无法添加此功能。
+Windows 锁屏是 Windows 的受保护区域，不允许使用动态壁纸。 Microsoft 有意以这种方式进行构建，以作为一种安全措施。
+
+但是，您仍然可以配置 Wallpaper Engine 以使用当前动态墙纸的快照覆盖静态锁屏图像。 为此，请在 Wallpaper Engine 设置的**常规**选项卡中启用**覆盖锁屏图像**选项。
 
 ## 屏幕保护程序功能
 
