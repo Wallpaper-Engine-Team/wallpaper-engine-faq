@@ -1,6 +1,6 @@
-# Pairing Mobile Device with Windows
+# Verbinden eines Mobilgerätes mit Windows
 
-You can pair your mobile devices with your computer to wirelessly transfer your wallpaper collection to the Wallpaper Engine companion app on your mobile device.
+Du kannst dein Mobilgerät mit deinem Computer kabellos verbinden, um deine Sammlung an Hintergründe auf die Begleit-App von Wallpaper Engine auf deinem Mobilgerät zu laden.
 
 It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
 
