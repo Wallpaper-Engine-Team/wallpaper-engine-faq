@@ -31,7 +31,7 @@ In der **Windows**-App, klicke auf die Schaltfläche **Mobil** oben rechts in de
 
 ## 3. Mobilgerät verbinden
 
-In der mobilen Begleit-App für Wallpaper Engine, klicke unten rechts auf **Hinzufügen**, gefolgt von **Mit Computer verbinden**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above).
+In der mobilen Begleit-App für Wallpaper Engine, klicke unten rechts auf **Hinzufügen**, gefolgt von **Mit Computer verbinden**. Die Wallpaper Engine-App durchsucht nun dein lokales Netzwerk nach Wallpaper Engine auf Windows. Dein Computer sollte nach wenigen Sekunden in der Liste auftauchen, was es dir erlaubt dich zu diesem mit einem Klick zu verbinden. Wenn du dich zum ersten mal verbindest, wirst du nach dem vierstelligen PIN aus der Windows-Sektion oben gefragt.
 
 <video height="590px" style="display:block;margin:0 auto;" controls autoplay loop>
   <source src="/videos/mobile_connect.mp4" type="video/mp4">
