@@ -33,11 +33,14 @@ Ayrıca, Wallpaper Engine'in RGB donanımınıza bağlanmasını geciktirmek iç
 
 ### Corsair
 
-**Corsair sistem belleği (RAM) gibi donanımlar varsayılan olarak devre dışı bırakılmış yazılım kontrollerine sahiptir**. Yani bellek modülleriniz, buna iCUE yazılım ayarlarında izin vermediğiniz sürece Wallpaper Engine'e göre yanmayacaktır. Bellek bölümünde bulunan iCUE cihaz ayarlarınızdaki "Tam yazılım kontrolünü etkinleştir" seçeneğinin seçili olduğundan emin olun:
+iCUE 4 ile başlayarak, önce iCUE ayarlarında yazılım kontrolünü manuel olarak etkinleştirmeniz gerekir, aksi takdirde Wallpaper Engine iCUE'ye bağlanamaz. Corsair iCUE ile birlikte RGB aydınlatmayla ilgili herhangi bir sorunun yaşıyorsanız, önce iCUE ayarlarını kontrol ettiğinizden emin olun.
 
-![iCUE'de tam yazılım kontrolünü etkinleştirin](./icue.png)
+* iCUE'yi Aç.
+* Sağ üst köşedeki Ayarlar simgesine tıklayın.
+* Ayarlar penceresinin sol menüsündeki **Yazılım ve Oyunlar** seçeneğine tıklayın.
+* *yazılım entegrasyonları* seçeneklerinin etkinleştirildiğinden emin olun. Tüm donanım cihazlarınızın da bu tür RGB aydınlatması için etkinleştirildiğinden emin olmak için **Cihazlar** sekmesini kontrol edin.
 
-Düzgün çalışmayan diğer donanım parçaları için bu seçeneği iki kez kontrol edin.
+Corsair aydınlatma kurulumunuzla ilgili hâlâ sorun yaşıyorsanız, Corsair iCUE yazılımınızı tam olarak yeniden yüklemeyi deneyin, ardından bilgisayarınızı yeniden başlatın ve yeniden yükleyin. Corsair yazılım paketini yeniden yükleyip ardından yazılım entegrasyon seçeneklerinin manuel olarak etkinleştirilmesiyle birçok sorun çözülebilir.
 
 iCUE'nin *özel kullanım modu*'nda kullanıldığını unutmayın. Bu demektir ki Wallpaper Engine, oyunlar gibi diğer iCUE uyumlu yazılımların önceliğini alacaktır. Oyunlarınızın klavyenize animasyon eklemesini istiyorsanız Wallpaper Engine ayarlarındaki **Performans** sekmesine gidin ve oyundayken duvar kâğıtlarını durdurmak için **Diğer uygulamalar tam ekranken** seçeneğini **Dur (boş bellek)** olarak ayarlayın. Alternatif olarak RGB eklentisini devre dışı bırakın veya ayrı duvar kâğıtlarındaki RGB seçeneğini devre dışı bırakın.
 
