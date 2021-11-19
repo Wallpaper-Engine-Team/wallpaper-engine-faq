@@ -3,14 +3,11 @@
 Se está a ter problemas tcnicos com o Wallpaper Engine que não consegue resolver com a ajuda do FAQ, pode criar um ficheiro de registo do sistema que pode partilhar connosco quando nos contactar:
 
 1. Certifique-se de que o Wallpaper Engine está a ser executado (caso seja possível).
-2. Escolha a 4. ª opção de lançamento no Steam (*"Check for System Conflicts"*, veja um breve vídeo mais abaixo):
+2. Escolha a 4. ª opção de lançamento no Steam (*"Check for System Conflicts"*, veja um breve vídeo mais abaixo).
 3. Clique em **Save Full Log** e guarde-o no seu ambiente de trabalho (veja um breve vídeo mais abaixo).
 4. Partilhe o ficheiro de registo com os nossos programadores:
-    * **Falou connosco nos nossos fóruns ou noutro website das redes sociais?** Envie o ficheiro de registo para **logs@wallpaperengine.io**.
+    * Envie o ficheiro de registo para **logs@wallpaperengine.io**.
         * **IMPORTANTE:** Se utilizar este endereço de email, partilhe uma ligação para a nossa conversa e diga-nos o seu nome de utilizador.
-    * **Já falou connosco por email?** Basta responder ao email e anexar o ficheiro de registo.
-    * **É a primeira vez que fala connosco?** Crie um novo ticket enviando um email para **support@wallpaperengine.io**.
-
 5. *Opcional:* se estiver a sofrer bloqueios, consulte o seu diretório *wallpaper_engine*, procure quaisquer ficheiros **.mdmp** e envie-nos também esses ficheiros por email (**logs@wallpaperengine.io**) ou enviando-os para outro local. Se encontrar muitos ficheiros .mdmp, envie apenas os mais recentes.
 
 ::: tip
