@@ -38,11 +38,11 @@ In der mobilen Begleit-App für Wallpaper Engine, klicke unten rechts auf **Hinz
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
-Sobald du die PIN korrekt eingegeben hast, färbt sich die Status-Leiste in der Anwendung grün und zeigt an zu welchem Computer die App verbunden ist. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+Sobald du die PIN korrekt eingegeben hast, färbt sich die Status-Leiste in der Anwendung grün und zeigt an zu welchem Computer die App verbunden ist. In der Windows-App färbt sich gleichzeitig die Schaltfläche **Mobil** in grün, wodurch sichtbar wird, dass eine Verbindung zu einem Mobilgerät aktiv ist.
 
-By default, Wallpaper Engine will now always automatically connect to your computer if you start Wallpaper Engine on your mobile device and your computer at the same time.
+Standardmäßig wird Wallpaper Engine nun immer versuchen automatisch eine Verbindung zu deinem Computer aufzubauen, sobald du die Wallpaper Engine-App auf deinem Mobilgerät und deinem Computer startest.
 
-## 4. Transferring Wallpapers to Your Mobile Device
+## 4. Hintergründe auf dein Mobilgerät übertragen
 
 Once the connection has been established, the **Mobile** button in the upper right corner turns green.
 
