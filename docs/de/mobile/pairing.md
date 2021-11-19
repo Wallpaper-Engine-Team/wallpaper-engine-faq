@@ -44,13 +44,13 @@ Standardmäßig wird Wallpaper Engine nun immer versuchen automatisch eine Verbi
 
 ## 4. Hintergründe auf dein Mobilgerät übertragen
 
-Once the connection has been established, the **Mobile** button in the upper right corner turns green.
+Sobald die Verbindung besteht, färbt sich die **Mobil**-Schaltfläche oben rechts grün.
 
-You can now simply click on the **Send to Mobile Device** button on the right-hand side or right-click on any compatible wallpaper and select **Send to Mobile Device**, followed by selecting your device from the list.
+Du kannst nun rechts auf die Schaltfläche **An Mobilgerät senden** klicken oder bei jedem kompatiblen Hintergrund mit Rechtsklick auf **An Mobilgerät senden** klicken und dann dein Gerät aus der angezeigten Liste auswählen.
 
-#### Scene Wallpapers
+#### Szene-Hintergründe
 
-Dynamic and interactive wallpapers that are of the **Scene** type will first be optimized for use on mobile phones and to ensure compatibility with mobile hardware. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
+Dynamische und interaktive Hintergründe, welche vom Typen **Szene** sind, werden zunächst für die Nutzung auf Mobilgeräten optimiert, sodass die Kompatibilität mit der Hardware von Mobilgeräten sichergestellt werden kann. This process may take a short while. You will also be asked which quality option you would like to use, especially for high-resolution wallpapers, we recommend trying the **Balanced** option if you notice performance issues on your mobile device.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
