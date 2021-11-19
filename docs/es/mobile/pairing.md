@@ -2,27 +2,27 @@
 
 Puedes emparejar dispositivos móviles con el ordenador de forma inalámbrica para transferir tu colección de fondos a la aplicación de Wallpaper Engine.
 
-It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
+La aplicación de Android no puede descargar los fondos de Workshop directamente debido a las limitaciones técnicas y legales que impiden que la aplicación se conecte directamente a Workshop.
 
 ::: tip
-If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
+Si el emparejamiento no funciona, consulta la sección **Solución de emergencia** al final de esta página para aprender a crear paquetes de fondos para móviles (**.mpkg**) y a importarlos en un dispositivo móvil.
 :::
 
 [[toc]]
 
-## 1. Install the free Wallpaper Engine Android Companion App
+## 1. Instala la aplicación gratis de Android de Wallpaper Engine
 
-Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
+Antes de continuar, instala la versión más reciente de la aplicación de Wallpaper Engine para Android.
 
 Recomendamos instalar la aplicación desde la tienda oficial, pero también puedes descargártela directamente desde nuestra página web. Si quieres los enlaces de descarga o saber más, echa un vistazo a la página de descargas en Android:
 
 * [Descargar Wallpaper Engine para Android](https://www.wallpaperengine.io/android/)
 
-For security reasons, we advise against installing the app from any sources not listed on our website.
+Por razones de seguridad, te aconsejamos no instalar la aplicación desde fuentes que no aparezcan en el listado de nuestra página web.
 
 ## 2. Preparar Wallpaper Engine en Windows
 
-Haz clic en el botón de **Dispositivo** que se encuentra en la esquina superior derecha de la interfaz de usuario en el programa de **Windows**  para que aparezca la información general del dispositivo. Haz clic en el botón de **Conectar otro dispositivo** que aparece en la parte inferior. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+Haz clic en el botón de **Dispositivo** que se encuentra en la esquina superior derecha de la interfaz de usuario en el programa de **Windows**  para que aparezca la información general del dispositivo. Haz clic en el botón de **Conectar otro dispositivo** que aparece en la parte inferior. Wallpaper Engine te mostrará un PIN de 4 dígitos que te servirá para emparejar un dispositivo en el próximo paso.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
