@@ -1,11 +1,26 @@
 # Pré-visualização de imagens / resultados da pesquisa não são apresentados
 
-Se não conseguir pré-visualizar imagens de wallpapers, exceto dos instalados, há uma firewall ou software de segurança que impede o browser de aceder à Internet. Deve desativar isso ou adicionar uma exceção para 'ui32.exe'.
+Caso não consiga ver as imagens de pré-visualização de wallpapers não-instalados no Wallpaper Engine, isto significa habitualmente que uma firewall ou software de segurança está a impedir o Wallpaper Engine de aceder aos servidores de imagens do Steam.
 
-As imagens da pré-visualização são transferências diretas de imagens dos servidores do Steam. Se as imagens de pré-visulaização não carregarem, algo está a bloquear a ligação entre o Wallpaper Engine e os servidores do Steam. Alguns utilizadores tinham estes bloqueios no seu router de rede. Pode testar se isto é um problema do seu router ou do seu computador testando se as imagens de pré-visualização começam a aparecer quando o seu computador está ligado a um hotspot de wi-fi do seu smartphone.
+## Testar a sua ligação aos servidores de imagens do Steam
 
-Alguns utilizadores de *software acelerador* também têm problemas com o carregamento de pré-visualizações de imagens. Certifique-se de que nenhum tipo de software de aceleração de rede está a impedir o Wallpaper Engine de transferir ficheiros de imagem em segundo plano.
+Primeiro, experimente e teste se é possível qualquer ligação aos servidores de imagens do Steam a partir do seu computador. Abra a seguinte ligação no seu browser para testar a sua ligação:
 
-## Não aparece nenhum wallpaper ou muito poucos wallpapers
+* [**CLIQUE AQUI PARA TESTAR OS SERVIDORES DE IMAGENS DO STEAM**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-É provável que tenha filtros demasiado severos ativados. Experimente reiniciar todos os filtros clicando no botão "Reiniciar filtros" da barra lateral de filtros.
+Deverá ver uma imagem que diz **OK** e mostra uma **marca de verificação verde** quando clica na ligação acima.
+
+### Consigo ver a mensagem que diz OK
+
+Se conseguir ver a imagem que diz **OK** quando clica na ligação de teste supra:
+
+* Isto significa com toda a certeza que só o Wallpaper Engine está a ser bloqueado por algum software de segurança no seu computador. Configure qualquer antivírus, firewall ou app aceleradora de rede de forma a ignorar o Wallpaper Engine, especialmente o processo **ui32.exe** que pertence ao Wallpaper Engine.
+
+### NÃO consigo ver a imagem que diz OK
+
+Caso **não** veja a mensagem a dizer **OK** quando clica na ligação de teste supra, isto significa que o seu computador inteiro ou talvez até a sua rede inteira não é capaz de carregar imagens dos servidores de imagens do Steam. Razões possíveis para isto acontecer:
+
+* Um antivírus, firewall ou app aceleradora de rede está a bloquear a ligação aos servidores de imagens do Steam para todas as aplicações no seu computador.
+* O seu router de rede está, de alguma forma, mal configurado. Examine atentamente as definições de firewall do seu router e outras definições avançadas do router que possam ter aqui um papel importante.
+    * Pode facilmente testar se o seu router é responsável ligando o seu computador a um hotspot de wifi através do seu smartphone. Se começar a ver imagens de pré-visualização enquanto está ligado a um hotspot de wifi móvel, o problema está definitivamente no seu router de rede ou na rede do seu fornecedor de serviço de Internet (ISP).
+    * O seu fornecedor de serviço de Internet pode também estar a bloquear os servidores de imagens do Steam ou pode haver um problema temporário de ligação. Isto é muito raro, mas pode acontecer, tente novamente mais tarde.
