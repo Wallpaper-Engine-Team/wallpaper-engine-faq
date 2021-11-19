@@ -1,16 +1,15 @@
-# Android - Frequent Questions and Problems
+# Android - Problemlösungen & Häufige Fragen
 
-This page contains a list of the most frequent questions and technical issues that users run into.
+Diese Seite beinhaltet die häufigsten Fragen und technische Probleme, welche Nutzer der Android-App haben.
 
 [[toc]]
 
-::: tip
-If you want to connect your Android device to Windows to install more wallpapers? See our extensive Android pairing guide here:
+::: tip Möchtest du dein Android-Gerät mit Windows verbinden um mehr Hintergründe zu installieren? Dann schaue dir unsere ausführliche Verbindungsanleitung an:
 
-* [Pairing Mobile Device with Windows](/mobile/pairing.html)
+* [Mobilgeräte mit Windows verbinden](/mobile/pairing.html)
 :::
 
-## Cannot set live wallpaper on Android lock-screen
+## Setzen eines Live-Hintergrunds auf dem Android-Sperrbildschirm nicht möglich
 
 Depending on your device manufacturer and the Android launcher that you are using, it may not be possible for you to set a live wallpaper on your lock screen or to only set the same wallpaper as on your home screen.
 
