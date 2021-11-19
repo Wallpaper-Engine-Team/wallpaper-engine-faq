@@ -33,11 +33,14 @@ En outre, vous pouvez utiliser l'option **Chargement retardé des plug-ins** en 
 
 ### Corsair
 
-Certains matériels comme la **mémoire système (RAM) Corsair ont des commandes logicielles désactivées par défaut**. Cela signifie que Wallpaper Engine ne pourra pas allumer les modules de mémoire, sauf si vous l'y autorisez dans les paramètres iCUE. Assurez-vous que l'option "Activer le contrôle total du logiciel" est activée dans les paramètres de votre appareil iCUE :
+À partir de iCUE 4, vous devez d'abord activer manuellement le contrôle logiciel dans les paramètres iCUE, sinon Wallpaper Engine ne peut pas se connecter à iCUE. Si vous avez des problèmes avec l'éclairage RVB en combinaison avec Corsair iCUE, vérifiez d'abord les paramètres iCUE.
 
-![Activer le contrôle total du logiciel avec iCUE](./icue.png)
+* Ouvrez iCUE.
+* Cliquez sur l'icône Paramètres dans le coin supérieur droit.
+* Cliquez sur **Logiciels et jeux** dans le menu de gauche de la fenêtre des paramètres.
+* Assurez-vous que les options d'*intégrations logicielles* sont activées. Vérifiez l'onglet **Périphériques** afin de vous assurer que tous vos périphériques matériels sont également activés pour ce type d'éclairage RVB.
 
-Activer cette option pour tous les autres matériels qui ne fonctionnent pas correctement.
+Si vous rencontrez toujours des problèmes avec votre configuration d'éclairage Corsair, essayez une réinstallation complète de votre logiciel Corsair iCUE, puis redémarrez votre ordinateur et réinstallez. De nombreux problèmes peuvent être résolus en réinstallant la suite logicielle Corsair, puis en activant manuellement les options d'intégration logicielle.
 
 iCUE est utilisé en *mode exclusif*, cela veut dire que Wallpaper Engine aura la priorité sur les autres logiciels compatibles iCUE, comme des jeux par exemple. Si vous souhaitez que vos jeux interagissent avec votre clavier, allez dans l'onglet **Performances** des paramètres de Wallpaper Engine et choisissez **Arrêter (mémoire libre)** pour l'option **Autres applications en plein écran** afin d'arrêter les fonds d'écran pendant que vous jouez. Vous pouvez également désactiver le plug-in RGB ou désactiver l'option RGB d'un fond d'écran.
 

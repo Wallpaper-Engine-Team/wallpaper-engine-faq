@@ -7,6 +7,13 @@
 請使用右上角的搜尋列輸入單一關鍵字。 例如，如果您的桌布只顯示為黑色背景，請以「黑」為關鍵字執行搜尋。
 :::
 
+## Android 版常見問題集
+
+如果您在尋找有關 Android 應用程式的說明，務必檢視 Android 版常見問題集，以及 Android 行動裝置與電腦配對的指南：
+
+* [Android - 常見問題](mobile/faq.html)
+* [行動裝置與 Windows 配對](mobile/pairing.html)
+
 ## 熱門支援文章
 
 請優先檢視這份清單，了解清單中的問題描述是否符合您碰上的問題，否則請使用右上角的搜尋列，或檢視左方的清單以檢視更多文章：
@@ -18,3 +25,4 @@
 | 3. [視訊顏色錯誤/過亮或過暗/放大/像素化/視訊四周邊框](videos/artifacts.html) |
 | 4. [Wallpaper Engine 當機](crash/application.html)       |
 | 5. [將桌布匯出為 GIF/視訊檔案](functionality/export.html)        |
+

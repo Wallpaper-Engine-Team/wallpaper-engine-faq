@@ -1,8 +1,8 @@
-# Setting up Wallpaper Engine on Android
+# Wallpaper Engine auf Android installieren
 
-The free Wallpaper Engine companion app for Android devices requires **Android 8.1** or newer and supports phones and tablets.
+Die kostenlose Begleit-App für Wallpaper Engine setzt **Android 8.1** oder neuer voraus und kann auf Smartphones als auch Tablets genutzt werden.
 
-We recommend installing the app through the official app store release but you can also directly download the latest app directly from our homepage. For download links and more information, please view our Android download page:
+Wir empfehlen die App über den offiziellen App-Store-Link zu installieren, du kannst aber auch die neueste App-Version direkt von unserer Homepage herunterladen. Für Download-Links und weitere Informationen, schaue dir bitte unsere Android-Downloadseite an:
 
-* [Download Wallpaper Engine for Android](https://www.wallpaperengine.io/android/)
+* [Wallpaper Engine für Android herunterladen](https://www.wallpaperengine.io/android/)
 

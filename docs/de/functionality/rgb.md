@@ -33,11 +33,14 @@ Zudem kannst du noch die **Plugin-Lade-Verzögerung** am unteren Ende des Reiter
 
 ### Corsair
 
-Einige Hardware-Teile, wie **Corsairs Arbeitsspeicher (RAM) haben Software-Steuerung standardmäßig deaktiviert**, was bedeutet dass diese Speichermodule nicht dem Farbverlauf von Wallpaper Engine verfolgen, außer du konfigurierst diese explizit so in den Einstellungen. Stelle sicher, dass du die Option zur "vollen Software-Steuerung" in den Geräteeinstellungen deines Arbeitsspeichers in iCUE aktivierst:
+Seit iCUE 4 musst du die Software-Steuerung in den iCUE-Einstellungen zunächst aktivieren, ansonsten kann sich Wallpaper Engine nicht zu iCUE verbinden. Falls du Probleme mit der RGB-Beleuchtung in Kombination mit Corsair iCUE hast, überprüfe zunächst die iCUE-Einstellungen.
 
-![Volle Software-Kontrolle in iCUE aktivieren](./icue.png)
+* Öffne iCUE.
+* Klicke auf das Symbol für die Einstellungen oben rechts.
+* Klicke auf **Software und Spiele** im linken Menü des Einstellungsfensters.
+* Stelle sicher, dass die Optionen für *Software-Integrationen* aktiviert sind. Überprüfe den **Geräte**-Reiter und stelle sicher, dass deine Hardware-Geräte für diese Art von RGB-Beleuchtung freigegeben sind.
 
-Überprüfe alle Einstellungen dieser Art für andere Hardware-Teile, welche ebenfalls nicht richtig funktionieren.
+Falls du immer noch Probleme mit deiner Corsair-Beleuchtung hast, versuche eine vollständige Neuinstallation deiner Corsair iCUE-Software, dann starte deinen Computer neu und installiere es erneut. Die meisten Probleme können damit gelöst werden, dass die gesamte Corsair-Software neu installiert wird, gefolgt vom erneuten Aktivieren der Software-Integration wie oben beschrieben.
 
 Bitte beachte, dass iCUE im *exklusiven Modus* benutzt wird, dies bedeutet, dass Wallpaper Engine eine höhere Priorität hat als andere iCUE-kompatible Software hat, so wie zum Beispiel Spiele. Wenn du möchtest, dass deine Spiele die Kontrolle über deine RGB-Hardware haben, gehe zum Reiter **Leistung** in den Einstellungen von Wallpaper Engine und setze die Einstellung **Andere Anwendungen vollbild** auf **Stoppen (Speicher freigeben)** um die Hintergründe vollständig zu stoppen, wenn du in einem Spiel bist. Alternativ kannst du das RGB-Plugin auch vollständig deaktivieren oder die RGB-Option auf einzelnen Hintergründen ausschalten.
 

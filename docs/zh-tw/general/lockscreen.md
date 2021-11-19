@@ -6,7 +6,9 @@ tags:
 
 # Windows 鎖定畫面設定為 Wallpaper Engine 桌布
 
-經常有人詢問我們是否可將 Windows 鎖定畫面設定為 Wallpaper Engine 桌布。 很可惜，因為 Windows 本身限制，我們的桌布沒辦法設定為鎖定畫面。 鎖定畫面是 Windows 的受保護區域，除非駭進 Windows，否則無法修改。 應用程式不該向登入視窗加入惡意內容，此功能可保障系統安全。 因此，Wallpaper Engine 無法將桌布加入鎖定畫面，未來我們也無法新增此功能。
+Windows 鎖定畫面是 Windows 的受保護區域，不允許動態桌布執行。 Microsoft 如此設計是用以作為安全措施。
+
+然而，您仍可設定 Wallpaper Engine 以使用目前動態桌布的快照來覆寫靜態鎖定畫面圖像。 請至 Wallpaper Engine 設定的**一般**分頁啟用**覆寫鎖定畫面圖像**選項。
 
 ## 螢幕保護程式功能
 

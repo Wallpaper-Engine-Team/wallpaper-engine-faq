@@ -33,11 +33,14 @@ Además, también puedes usar la opción **Ralentizar carga de plugin** que se e
 
 ### Corsair
 
-Hay componentes como las **memorias RAM Corsair que tienen los controles de software deshabilitados por defecto**, lo que significa que sus módulos de memoria no se encenderán de acuerdo con Wallpaper Engine si no le concedes los permisos en la configuración de iCUE. Asegúrate de que has seleccionado la opción «Control de software completo» en la sección de memoria de la configuración de su dispositivo iCUE.
+A partir de iCUE 4, hace falta habilitar manualmente el control de software en la configuración de iCUE. Si no lo haces, Wallpaper Engine no podrá conectarse con iCUE. Si tienes problemas con la iluminación RGB en combinación con Corsair iCUE, comprueba la configuración de iCUE.
 
-![Habilitar control de software completo en iCUE](./icue.png)
+* Abre iCUE.
+* Haz clic en el icono de Configuración en la esquina superior derecha.
+* Haz clic en **Software y juegos** en el menú de la izquierda de la ventana de Configuración.
+* Asegúrate de que está habilitada la opción de *integración de software*. Haz clic en la pestaña **Dispositivos** y comprueba que estén habilitados todos tus periféricos para este tipo de iluminación RGB.
 
-Vuelve a comprobar la opción con las demás partes que no funcionen correctamente.
+Si todavía tienes problemas con la configuración de la iluminación de Corsair, vuelve a instalar Corsair iCUE, reinicia el ordenador e instala el programa de nuevo. Muchos de los problemas se pueden resolver si vuelves a instalar el paquete de software de Corsair y habilitas las opciones de integración del software de forma manual.
 
 Recuerda que iCUE se usa en *modo exclusivo*, por lo que Wallpaper Engine tendrá prioridad frente al software compatible con iCUE, como por ejemplo, los juegos. Si quieres que los juegos animen el teclado, ve a la pestaña **Rendimiento** de la configuración de Wallpaper Engine y cambia la opción **Otra aplicación en pantalla completa** a **Detener (liberar memoria)** para detener los fondos mientras juegas. Asimismo, puedes deshabilitar el complemento RGB o deshabilitar la opción RGB en fondos particulares.
 

@@ -7,6 +7,13 @@ Se está a ter problemas técnicos ou apenas deseja fazer uma pergunta acerca do
 Use a barra de p4esquisa no canto superior direito com palavras-chave individuais. Por exemplo, se os seus wallpapers aparecerem apenas como fundos pretos, experiemente procurar "preto".
 :::
 
+## FAQ para Android
+
+Se procura ajuda para a app para Android, não se esqueça de consultar o nosso resumo das perguntas mais frequentes relacionadas com Android e o nosso guia para emparelhar o seu computador com o seu dispositivo Android:
+
+* [Android - Perguntas e Problemas mais Frequentes](mobile/faq.html)
+* [Emparelhar um dispositivo móvel com o Windows](mobile/pairing.html)
+
 ## Artigos de assistência mais populares
 
 Consulte primeiro esta lista e veja se algum dos problemas descreve a sua dificuldade, caso contrário use a pesquisa no canto superior direito ou consulte a lista à esquerda para mais artigos:
@@ -18,3 +25,4 @@ Consulte primeiro esta lista e veja se algum dos problemas descreve a sua dificu
 | 3. [Vídeo com cores erradas / demasiado claros ou demasiado escuros / ampliados / pixelados / moldura em volta do vídeo](videos/artifacts.html) |
 | 4. [Wallpaper Engine bloqueia](crash/application.html)                                                                                          |
 | 5. [Exportar wallpapers como GIF / ficheiros de vídeo](functionality/export.html)                                                               |
+

@@ -2,6 +2,14 @@
 
 Esta página contém uma lista das perguntas e problemas técnicos mais frequentes que os utilizadores poderão encontrar.
 
+[[toc]]
+
+::: tip
+Se pretender ligar o seu dispositivo Android ao Windows para instalar mais wallpapers? Consulte o nosso guia completo de emparelhamento para Android, aqui:
+
+* [Emparelhar um dispositivo móvel com o Windows](/mobile/pairing.html)
+:::
+
 ## Não consigo definir um wallpaper animado no ecrã de bloqueio de Android
 
 Consoante o fabricante do seu dispositivo e o programa de lançamento do Android que está a utilizar, poderá não ser possível para si definir um wallpaper animado no seu ecrã de bloqueio ou definir o mesmo wallpaper que no seu ecrã inicial.

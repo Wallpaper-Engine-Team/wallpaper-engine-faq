@@ -6,7 +6,9 @@ tags:
 
 # Windows kilit ekranında Wallpaper Engine
 
-Windows kilit ekranına Wallpaper Engine duvar kağıdı ayarlamanın mümkün olup olmadığı sık sık soruluyor. Maalesef, Windows'un koyduğu sınırlamalar yüzünden bu mümkün değil. Kilit ekranı Windows'un korunan bir bölgesidir ve Windows hacklenmeden değişiklik yapılamaz. Bu, uygulamaların oturum açma penceresine kötü amaçlı içerik ekleyememesi için hizmet eden sistem güvenliğidir. Bu sebeple, Wallpaper Engine kilit ekranına duvar kâğıtları ekleyemez ve gelecekte de bu özelliği ekleyemeyiz.
+Windows kilit ekranı, canlı ve dinamik duvar kağıtlarına izin vermeyen korumalı bir Windows alanıdır. Microsoft, bir güvenlik önlemi olarak kasıtlı olarak bunu bu şekilde oluşturmuştur.
+
+Ancak yine de Wallpaper Engine'i, geçerli canlı duvar kağıdınızın anlık görüntüsüyle statik kilit ekranı görüntüsünü geçersiz kılacak şekilde yapılandırabilirsiniz. Bunu yapmak için, Wallpaper Engine ayarlarının **Genel** sekmesindeki **Kilit ekranı görüntüsünü geçersiz kıl** seçeneğini etkinleştirin.
 
 ## Ekran Koruyucu İşlevi
 

@@ -2,6 +2,14 @@
 
 Cette page contient une liste des questions et des problèmes techniques les plus fréquents que les utilisateurs rencontrent.
 
+[[toc]]
+
+::: tip
+Si vous voulez connecter votre appareil Android à Windows pour installer plus de fonds d'écran ? Consultez notre guide complet sur l'appairage Android ici :
+
+* [Apparaige d'un appareil mobile avec Windows](/mobile/pairing.html)
+:::
+
 ## Impossible de définir un fond d'écran personnalisable sur l'écran de verrouillage d'Android
 
 Selon le fabricant de votre appareil et le lanceur Android que vous utilisez, il est possible que vous ne puissiez pas définir un fond d'écran personnalisable sur votre écran de verrouillage ou que vous ne puissiez définir que le fond d'écran utilisé pour votre écran d'accueil.

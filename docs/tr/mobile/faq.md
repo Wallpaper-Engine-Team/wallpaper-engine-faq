@@ -2,6 +2,14 @@
 
 Bu sayfa en sık sorulan sorular ve kullanıcıların karşılaştığı teknik sorunların bir listesini içerir.
 
+[[toc]]
+
+::: tip
+Daha fazla duvar kağıdı yüklemek için Android cihazınızı Windows'a bağlamak mı istiyorsunuz? Kapsamlı Android eşleştirme kılavuzumuza buradan göz atın:
+
+* [Mobil Cihazı Windows ile Eşleştirme](/mobile/pairing.html)
+:::
+
 ## Android kilit ekranı için canlı duvar kâğıdı ayarlayamıyorum
 
 Cihazınızın üreticisine ve kullandığınız Android başlatıcısına bağlı olarak kilit ekranınıza canlı bir duvar kâğıdı koymanız mümkün olmayabilir ya da yalnızca ana ekranınızdaki duvar kâğıdını koymanız gerekebilir.

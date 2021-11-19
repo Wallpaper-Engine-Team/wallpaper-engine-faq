@@ -1,11 +1,26 @@
 # Ön izleme görüntüleri / arama sonuçları gösterilmiyor
 
-Yüklü olanlar dışındaki duvar kâğıtlarının ön izleme görüntülerini göremiyorsanız tarayıcının internete erişmesini engelleyen bir güvenlik duvarı veya güvenlik yazılımı vardır. Bunu devre dışı bırakmanız veya "ui32.exe" için bir istisna eklemeniz gerekir.
+Wallpaper Engine'de kaldırılan duvar kağıtları için önizleme görüntülerini göremiyorsanız, bu genellikle bir güvenlik duvarı veya güvenlik yazılımının Wallpaper Engine'in Steam görüntü sunucularına erişmesini engellediği anlamına gelir.
 
-Ön izleme görüntüleri, Steam sunucularından doğrudan indirilmiş görüntülerdir. Ön izleme görüntüleri yüklenmiyorsa Wallpaper Engine ile Steam sunucuları arasındaki bağlantıyı engelleyen bir şey vardır. Bazı kullanıcıların ağ yönlendiricilerinde bu engeller vardır. Bilgisayarınız, akıllı telefonunuzdaki bir wi-fi etkin noktasına bağlı olduğunda ön izleme görüntülerinin görünüp görünmediğini test ederek bunun yönlendiricinizle mi yoksa bilgisayarınızla mı ilgili bir sorun olduğunu anlayabilirsiniz.
+## Steam Görüntü Sunucularına Olan Bağlantınızı Test Edin
 
-*Hızlandırma yazılımı* kullanan bazı kişiler de resim ön izlemelerinin yüklenmesiyle ilgili sorunlar yaşamaktadır. Her türlü ağ hızlandırma yazılımının, Wallpaper Engine'in arka planda görüntü dosyalarını indirmesini engellemediğinden emin olun.
+Öncelikle, bilgisayarınızdan Steam görüntü sunucularıyla bağlantının mümkün olup olmadığını deneyin ve test edin. Bağlantınızı test etmek için web tarayıcınızda aşağıdaki bağlantıyı açın:
 
-## Duvar kâğıdı yok veya çok az duvar kâğıdı gösteriliyor
+* [**STEAM GÖRÜNTÜ SUNUCULARINI TEST ETMEK İÇİN TIKLAYINIZ**](https://steamuserimages-a.akamaihd.net/ugc/1796366854776537259/C541D485E7156010D92284B082D13A2377FD1F8F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
-Muhtemelen çok katı filtreleri etkinleştirdiniz. Filtre kenar çubuğundaki "Filtreleri sıfırla" tuşuna tıklayarak tüm filtreleri sıfırlamayı deneyin.
+Yukarıdaki bağlantıya tıkladığınızda **Tamam** yazan ve **yeşil onay işareti** gösteren bir mesaj görmelisiniz.
+
+### Tamam mesajını görebiliyorum
+
+Yukarıdaki test bağlantısını tıkladığınızda **Tamam** mesajını görürseniz:
+
+* Bu kesinlikle yalnızca Wallpaper Engine'in bilgisayarınızdaki bazı güvenlik yazılımları tarafından engellendiği anlamına gelir. Wallpaper Engine'i yok saymak için herhangi bir virüs koruma, güvenlik duvarı veya ağ hızlandırıcı uygulamasını, özellikle Wallpaper Engine'e ait **ui32.exe** işlemini yapılandırın.
+
+### Tamam mesajını GÖREMİYORUM
+
+Yukarıdaki test bağlantısına tıkladığınızda **Tamam** mesajını **görmediyseniz** bu, tüm bilgisayarınızın veya hatta tüm ağınızın Steam görüntü sunucularından gelen görüntüleri yükleyemediği anlamına gelir. Bunun nedenleri şunlar olabilir:
+
+* Bir virüs koruma, güvenlik duvarı veya ağ hızlandırma uygulaması, bilgisayarınızdaki tüm uygulamaların Steam görüntü sunucularıyla olan bağlantısını tamamen engelliyor.
+* Ağ yönlendiriciniz bir şekilde yanlış yapılandırılmış. Yönlendiricinizin güvenlik duvarı ayarlarını ve burada rol oynayabilecek diğer gelişmiş yönlendirici ayarlarını daha yakından inceleyin.
+    * Bilgisayarınızı akıllı telefonunuz aracılığıyla bir wifi bağlantı noktasına bağlayarak yönlendiricinizin hatalı olup olmadığını kolayca test edebilirsiniz. Mobil wifi bağlantı noktasına bağlıyken ön izleme görüntülerini görmeye başlarsanız, sorun kesinlikle ağ yönlendiricinizde veya internet hizmet sağlayıcınızın ağındadır.
+    * İnternet hizmet sağlayıcınız da Steam görüntü sunucularını engelliyor olabilir veya geçici bir bağlantı sorunu yaşanıyor olabilir. Bu nadir olsa da gerçekleşme olasılığı vardır, daha sonra tekrar deneyin.

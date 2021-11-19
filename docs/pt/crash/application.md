@@ -103,7 +103,8 @@ Estes tipos de bloqueios são causados pelo Razer Chroma, que faz parte do **Raz
 
 **Reinstalação limpa de todo o software Razer**
 
-::: aviso Certifique-se de que o Wallpaper Engine está desligado enquanto reinstala o Razer Synapse.
+::: warning
+Certifique-se de que o Wallpaper Engine está desligado enquanto reinstala o Razer Synapse.
 :::
 
 1. Desative completamente o Wallpaper Engine, caso esteja a ser executado (clique com o botão direito no ícone do tabuleiro do Windows e depois selecione **Sair**)

@@ -7,6 +7,13 @@ Wallpaper Engine 관련 기술적 문제나 질문이 있다면, 여기서 답�
 오른쪽 상단의 검색 바에 키워드를 입력하세요. 예를 들어 배경화면이 검은색으로 표시되면, "검은색"을 검색해 봅니다.
 :::
 
+## Android FAQ
+
+Android 앱과 관련하여 도움이 필요한 경우, 가장 많이 묻는 Android 관련 질문의 개요 또는 컴퓨터와 Android 기기를 페어링하는 가이드를 확인하세요:
+
+* [Android - 자주 묻는 질문 및 문제](mobile/faq.html)
+* [모바일 기기와 Windows 페어링하기](mobile/pairing.html)
+
 ## 많이 보는 지원 문서
 
 목록에서 문제를 설명한 항목이 있는지 살펴보거나, 오른쪽 상단의 검색 창을 이용하거나, 왼쪽 목록에서 더 많은 문서를 확인해 보세요:
@@ -18,3 +25,4 @@ Wallpaper Engine 관련 기술적 문제나 질문이 있다면, 여기서 답�
 | 3. [비디오 색상이 잘못되었습니다 / 너무 밝거나 너무 어둡습니다 / 확대되었습니다 / 픽셀화되었습니다 / 비디오 주변에 테두리가 있습니다](videos/artifacts.html) |
 | 4. [Wallpaper Engine 작동 중단](crash/application.html)                                                    |
 | 5. [배경화면 GIF / 비디오 파일로 내보내기](functionality/export.html)                                                |
+
