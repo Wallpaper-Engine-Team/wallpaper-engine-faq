@@ -1,22 +1,65 @@
 # Appairage d'un appareil mobile avec Windows
 
-Vous pouvez appairer vos appareils mobiles avec votre ordinateur pour transférer sans fil votre collection de fonds d'écran vers l'application compagnon Wallpaper Engine sur votre appareil mobile. Il n'est pas possible pour l'application Android de télécharger directement des fonds d'écran à partir du Workshop Steam, car seul Steam peut télécharger les fichiers de fonds d'écran.
+Vous pouvez appairer vos appareils mobiles avec votre ordinateur pour transférer sans fil votre collection de fonds d'écran vers l'application compagnon Wallpaper Engine sur votre appareil mobile.
 
-Si vous rencontrez des problèmes pour associer vos appareils mobiles, vous pouvez toujours importer des fonds d'écran en exportant manuellement le **.mpkg** que l'application mobile Wallpaper Engine utilise pour rendre les fonds d'écran.
+L'application Android ne peut pas télécharger directement des fonds d'écran depuis Workshop en raison de limitations techniques et juridiques qui empêchent l'application Android de se connecter directement à Workshop.
 
-### Préparation de Wallpaper Engine sur Windows
+::: tip
+Si l'appariement ne fonctionne pas pour vous, consultez la section **Solution de secours** au bas de cette page pour apprendre à créer des paquets de fonds d'écran mobiles (**.mpkg**) et à les importer sur votre appareil mobile.
+:::
 
-Dans l'application **Windows**, cliquez sur le bouton **Mobile** dans le coin supérieur droit de l'interface utilisateur. L'aperçu des appareils mobiles s'ouvre. Dans la partie inférieure de l'aperçu des appareils, cliquez sur le bouton **Connecter nouvel appareil**. Wallpaper Engine vous montrera un code PIN à 4 chiffres que vous pouvez utiliser pour appairer un appareil mobile.
+[[toc]]
 
-![PIN mobile](/img/faq/mobile_pin.gif)
+## 1. Installer l'application gratuite Wallpaper Engine pour Android
 
-### Connexion de votre appareil mobile
+Avant de continuer, veillez à installer la dernière version de l'application Wallpaper Engine pour Android.
 
-Dans l'application compagnon mobile Wallpaper Engine, cliquez sur **Ajouter** dans le coin inférieur droit, puis sur **Appairer avec ordinateur**. L'application Wallpaper Engine va rechercher dans votre réseau local les instances de Wallpaper Engine pour Windows en cours d'exécution. Votre ordinateur Windows devrait apparaître après quelques secondes, ce qui vous permettra de vous y connecter en cliquant dessus. Si vous vous connectez pour la première fois, il vous sera demandé de saisir le code PIN à 4 chiffres (voir la section Windows ci-dessus). Le code PIN est une mesure de sécurité supplémentaire pour s'assurer que les utilisateurs non autorisés ne peuvent pas se connecter à votre ordinateur sans votre autorisation.
+Nous vous recommandons d'installer l'application via la version officielle de l'App Store, mais vous pouvez également télécharger directement la dernière version de l'application depuis notre page d'accueil. Pour accéder aux liens de téléchargement et obtenir plus d'informations, veuillez consulter notre page de téléchargement Android :
+
+* [Télécharger Wallpaper Engine pour Android](https://www.wallpaperengine.io/android/)
+
+Pour des raisons de sécurité, nous vous déconseillons d'installer l'application à partir de sources non répertoriées sur notre site web.
+
+## 2. Préparation de Wallpaper Engine sur Windows
+
+Dans l'application **Windows**, cliquez sur le bouton **Mobile** dans le coin supérieur droit de l'interface utilisateur. L'aperçu des appareils mobiles s'ouvre. Dans la partie inférieure de l'aperçu des appareils, cliquez sur le bouton **Connecter nouvel appareil**. Lors de l'étape suivante, Wallpaper Engine vous montrera un code PIN à 4 chiffres que vous pouvez utiliser pour appairer un appareil mobile.
+
+<video width="100%" controls autoplay loop>
+  <source src="/videos/mobile_pin.mp4" type="video/mp4">
+  Votre explorateur ne prend pas en charge le filtre vidéo.
+</video>
+
+## 3. Connexion de votre appareil mobile
+
+Dans l'application compagnon mobile Wallpaper Engine, cliquez sur **Ajouter** dans le coin inférieur droit, puis sur **Appairer avec ordinateur**. L'application Wallpaper Engine va rechercher dans votre réseau local les instances de Wallpaper Engine pour Windows en cours d'exécution. Votre ordinateur Windows devrait apparaître après quelques secondes, ce qui vous permettra de vous y connecter en cliquant dessus. Si vous vous connectez pour la première fois, il vous sera demandé de saisir le code PIN à 4 chiffres (voir la section Windows ci-dessus).
+
+<video height="590px" style="display:block;margin:0 auto;" controls autoplay loop>
+  <source src="/videos/mobile_connect.mp4" type="video/mp4">
+  Votre explorateur ne prend pas en charge le filtre vidéo.
+</video>
 
 Une fois que vous avez saisi votre code PIN, la barre d'état de l'application mobile devient verte et indique l'ordinateur auquel elle est connectée. Dans l'application Windows, le bouton **Mobile** est également affiché en vert pour indiquer qu'une connexion mobile est active.
 
-![PIN mobile](/img/faq/mobile_pair.gif)
+Par défaut, Wallpaper Engine se connectera désormais toujours automatiquement à votre ordinateur si vous lancez Wallpaper Engine sur votre appareil mobile et votre ordinateur en même temps.
+
+## 4. Transférer des fonds d'écran sur votre appareil mobile
+
+Une fois la connexion établie, le bouton **Mobile** dans le coin supérieur droit devient vert.
+
+Vous pouvez maintenant simplement cliquer sur le bouton **Envoyer vers appareil mobile** sur le côté droit ou faire un clic droit sur n'importe quel fond d'écran compatible et sélectionner **Envoyer vers appareil mobile**, puis sélectionner votre appareil dans la liste.
+
+#### Fonds d'écran de scène
+
+Les fonds d'écran dynamiques et interactifs de type **Scène** seront d'abord optimisés pour être utilisés sur des téléphones mobiles et pour assurer la compatibilité avec le matériel mobile. Ce processus peut prendre un certain temps. Il vous sera également demandé quelle option de qualité vous souhaitez utiliser, notamment pour les fonds d'écran haute résolution, nous vous recommandons d'essayer l'option **Équilibré** si vous remarquez des problèmes de performance sur votre appareil mobile.
+
+<video width="100%" controls autoplay loop>
+  <source src="/videos/mobile_transfer.mp4" type="video/mp4">
+  Votre explorateur ne prend pas en charge le filtre vidéo.
+</video>
+
+::: tip
+Vous pouvez également transférer plusieurs fonds d'écran en même temps en cliquant sur plusieurs fonds d'écran tout en maintenant la touche CTRL de votre clavier enfoncée.
+:::
 
 ## Résolution des problèmes d'appairage des appareils mobiles
 
@@ -25,12 +68,19 @@ Si vous ne pouvez pas appairer votre appareil mobile avec votre ordinateur, il e
 * Assurez-vous que votre téléphone et votre ordinateur sont connectés au même réseau local.
 * Assurez-vous qu'aucun pare-feu ne bloque la communication de Wallpaper Engine avec votre réseau local.
 * Vérifiez que le routeur de votre réseau n'empêche pas vos appareils de communiquer entre eux.
+    * Assurez-vous que votre routeur ne bloque pas le trafic réseau entre les appareils.
+    * Activez **UPnP** (**"Universal Plug and Play"**) dans les paramètres de votre routeur.
 * Désactivez tout logiciel VPN ou proxy sur votre ordinateur et votre appareil mobile, qui peut interférer avec la communication entre vos appareils.
 * Vérifiez que Wallpaper Engine sur Windows et votre appareil mobile sont tous deux à jour et en cours d'exécution.
 
-## Solution de secours : Importation manuelle d'un fichier de fond d'écran (.mpkg)
+### Solution de secours : Importation manuelle d'un fichier de fond d'écran (.mpkg)
 
 Si vous ne parvenez pas à rétablir la connexion entre votre ordinateur et votre appareil mobile, vous pouvez toujours transférer manuellement vos fonds d'écran sur votre appareil mobile. Tout d'abord, sélectionnez les fonds d'écran que vous souhaitez exporter dans Wallpaper Engine, puis faites un clic droit dessus et sélectionnez **Envoyer vers appareil mobile**, suivi d'un clic sur **Exporter .mpkg**.
+
+<video width="100%" controls autoplay loop>
+  <source src="/videos/mobile_export.mp4" type="video/mp4">
+  Votre explorateur ne prend pas en charge le filtre vidéo.
+</video>
 
 Une fois que Wallpaper Engine a créé les fichiers .mpkg pour vos fonds d'écran, vous pouvez les transférer sur votre appareil mobile en déplaçant les fichiers sur votre appareil mobile via USB ou en copiant les fichiers sur une carte SD. Vous pouvez également utiliser n'importe quel service de partage de fichiers sur votre appareil mobile ou vous les envoyer à vous-même via un service de messagerie ou même par courrier électronique (si la taille du fichier ne pose pas de problème).
 
