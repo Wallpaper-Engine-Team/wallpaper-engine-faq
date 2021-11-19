@@ -6,7 +6,9 @@ tags:
 
 # Wallpaper Engine sur l'écran de verrouillage Windows
 
-On nous demande souvent s'il est possible de mettre un fond d'écran Wallpaper Engine sur l'écran de verrouillage Windows. Malheureusement, c'est impossible à cause des limitations de Windows. L'écran de verrouillage est une zone protégée de Windows qui ne peut pas être modifiée sans pirater Windows. Cela sert de sécurité au système, pour que les applications ne puissent pas ajouter de contenu indésirable dans l'écran de connexion. C'est pour cette raison que Wallpaper Engine ne peut pas ajouter de fond d'écran à l'écran de verrouillage et que nous ne pourrons pas non plus ajouter cette fonction à l'avenir.
+L'écran de verrouillage de Windows est une zone protégée de Windows qui n'autorise pas les fonds d'écran dynamiques. Microsoft l'a délibérément conçu de cette façon par mesure de sécurité.
+
+Cependant, vous pouvez toujours configurer Wallpaper Engine pour remplacer l'image statique de l'écran de verrouillage par un instantané de votre fond d'écran actuel. Pour ce faire, activez l'option **Remplacer l'image d'écran de verrouillage** dans l'onglet **Général** des paramètres de Wallpaper Engine.
 
 ## Fonctionnalité de l'économiseur d'écran
 
