@@ -2,36 +2,36 @@
 
 Du kannst dein Mobilgerät mit deinem Computer kabellos verbinden, um deine Sammlung an Hintergründe auf die Begleit-App von Wallpaper Engine auf deinem Mobilgerät zu laden.
 
-It's not possible for the Android app to directly download wallpapers from the Workshop due to technical and legal limitations that prevent the Android app from directly connecting to the Workshop.
+Aus technischen und rechtlichen Gründen ist es nicht möglich, dass die Android-App direkt Hintergründe aus dem Workshop lädt.
 
 ::: tip
-If pairing does not work for you, see the **Backup Solution** section at the bottom of this page to learn how to create mobile wallpaper packages (**.mpkg**) and how to import them on your mobile device.
+Wenn die Verbindung für dich nicht funktioniert, schaue dir die Sektion zur **Backup-Lösung** des Problems weiter unten auf dieser Seite an, um zu lernen, wie du mobile Wallpaper Pakete (**.mpkg**) erstellen und diese auf dein Mobilgerät übertragen kannst.
 :::
 
 [[toc]]
 
-## 1. Install the free Wallpaper Engine Android Companion App
+## 1. Installiere die kostenlose Begleit-App für Wallpaper Engine
 
-Before continuing, make sure to install the latest version of the Wallpaper Engine Android companion app.
+Bevor du fortfährst, stelle sicher, dass du die neueste Version der Begleit-App von Wallpaper Engine für Android installiert hast.
 
-We recommend installing the app through the official app store release but you can also directly download the latest app directly from our homepage. For download links and more information, please view our Android download page:
+Wir empfehlen die App über den offiziellen App-Store-Link zu installieren, du kannst aber auch die neueste App-Version direkt von unserer Homepage herunterladen. Für Download-Links und weitere Informationen, schaue dir bitte unsere Android-Downloadseite an:
 
-* [Download Wallpaper Engine for Android](https://www.wallpaperengine.io/android/)
+* [Wallpaper Engine für Android herunterladen](https://www.wallpaperengine.io/android/)
 
-For security reasons, we advise against installing the app from any sources not listed on our website.
+Aus Sicherheitsgründen, empfehlen wir nicht, die App von Quellen herunterzuladen, die nicht auf unserer Website gelistet sind.
 
-## 2. Preparing Wallpaper Engine on Windows
+## 2. Wallpaper Engine auf Windows vorbereiten
 
-In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device in the next step.
+In der **Windows**-App, klicke auf die Schaltfläche **Mobil** oben rechts in der Benutzeroberfläche. Die Übersicht für Mobilgeräte öffnet sich nun. Unten in der Übersicht, klicke auf die Schaltfläche **Neues Gerät verbinden**. Wallpaper Engine zeigt dir nun einen 4-stelligen PIN an, welchen du nutzen kannst, um dein Mobilgerät im nächsten Schritt zu verbinden.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
-## 3. Connecting Your Mobile Device
+## 3. Mobilgerät verbinden
 
-In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above).
+In der mobilen Begleit-App für Wallpaper Engine, klicke unten rechts auf **Hinzufügen**, gefolgt von **Mit Computer verbinden**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above).
 
 <video height="590px" style="display:block;margin:0 auto;" controls autoplay loop>
   <source src="/videos/mobile_connect.mp4" type="video/mp4">
