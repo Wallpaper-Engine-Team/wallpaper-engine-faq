@@ -2,6 +2,14 @@
 
 Esta página contiene una lista de las preguntas y los problemas técnicos que se encuentran los usuarios con más frecuencia.
 
+[[toc]]
+
+::: tip
+¿Quieres conectar tu dispositivo Android con Windows para instalar más fondos? Consulta la guía de emparejamiento con Android aquí:
+
+* [Emparejar un dispositivo móvil con Windows](/mobile/pairing.html)
+:::
+
 ## No puedo ver fondos dinámicos en la pantalla de bloqueo de Android
 
 Es posible que no puedas usar un fondo dinámico en la pantalla de bloqueo o que tengas que usar el mismo que en la pantalla de inicio dependiendo del fabricante del dispositivo o del lanzador de Android que utilices.
