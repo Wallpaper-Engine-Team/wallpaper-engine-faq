@@ -1,37 +1,87 @@
-# Pairing Mobile Device with Windows
+# Verbinden eines Mobilgerätes mit Windows
 
-You can pair your mobile devices with your computer to wirelessly transfer your wallpaper collection to the Wallpaper Engine companion app on your mobile device. It's not possible for the Android app to directly download wallpapers from the Steam Workshop because only Steam itself can download the wallpaper files.
+Du kannst dein Mobilgerät mit deinem Computer kabellos verbinden, um deine Sammlung an Hintergründe auf die Begleit-App von Wallpaper Engine auf deinem Mobilgerät zu laden.
 
-Should you run into any problems with pairing your mobile devices, you can still import wallpapers by manually exporting the **.mpkg** that the Wallpaper Engine mobile app uses to render wallpapers.
+Aus technischen und rechtlichen Gründen ist es nicht möglich, dass die Android-App direkt Hintergründe aus dem Workshop lädt.
 
-### Preparing Wallpaper Engine on Windows
+::: tip
+Wenn die Verbindung für dich nicht funktioniert, schaue dir die Sektion zur **Backup-Lösung** des Problems weiter unten auf dieser Seite an, um zu lernen, wie du mobile Wallpaper Pakete (**.mpkg**) erstellen und diese auf dein Mobilgerät übertragen kannst.
+:::
 
-In the **Windows** app, click on the **Mobile** button in the upper right corner of the user interface. The mobile device overview will open up. At the bottom device overview, click on the **Connect new Device** button. Wallpaper Engine will show you a 4-digit PIN that you can use to pair one mobile device.
+[[toc]]
 
-![Mobile PIN](/img/faq/mobile_pin.gif)
+## 1. Installiere die kostenlose Begleit-App für Wallpaper Engine
 
-### Connecting Your Mobile Device
+Bevor du fortfährst, stelle sicher, dass du die neueste Version der Begleit-App von Wallpaper Engine für Android installiert hast.
 
-In the Wallpaper Engine mobile companion app, click on **Add** in the lower right corner, followed by clicking on **Pair with Computer**. The Wallpaper Engine app will search your local network for running instances of Wallpaper Engine for Windows. Your Windows computer should appear after a few seconds, allowing you to connect to it by clicking on it. If you are connecting for the first time, you will be asked to enter the 4-digit PIN (see Windows section above). The PIN is an additional security measure to ensure unauthorized users cannot connect to your computer without your knowledge.
+Wir empfehlen die App über den offiziellen App-Store-Link zu installieren, du kannst aber auch die neueste App-Version direkt von unserer Homepage herunterladen. Für Download-Links und weitere Informationen, schaue dir bitte unsere Android-Downloadseite an:
 
-Once you have entered your PIN, the status bar in the mobile app turns green and shows which computer its connected to. On the Windows app, the **Mobile** button is also colored green now to indicate that a mobile connection is active.
+* [Wallpaper Engine für Android herunterladen](https://www.wallpaperengine.io/android/)
 
-![Mobile PIN](/img/faq/mobile_pair.gif)
+Aus Sicherheitsgründen, empfehlen wir nicht, die App von Quellen herunterzuladen, die nicht auf unserer Website gelistet sind.
 
-## Mobile Pairing Problem Solving
+## 2. Wallpaper Engine auf Windows vorbereiten
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+In der **Windows**-App, klicke auf die Schaltfläche **Mobil** oben rechts in der Benutzeroberfläche. Die Übersicht für Mobilgeräte öffnet sich nun. Unten in der Übersicht, klicke auf die Schaltfläche **Neues Gerät verbinden**. Wallpaper Engine zeigt dir nun einen 4-stelligen PIN an, welchen du nutzen kannst, um dein Mobilgerät im nächsten Schritt zu verbinden.
 
-* Ensure that your phone and computer are connected to the same local network.
-* Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.
-* Ensure your network router is not blocking your devices from communicating with each other.
-* Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.
-* Double-check that Wallpaper Engine on Windows and your mobile device are both up-to-date and running.
+<video width="100%" controls autoplay loop>
+  <source src="/videos/mobile_pin.mp4" type="video/mp4">
+  Dein Browser unterstützt das Video-Tag nicht.
+</video>
 
-## Backup solution: Manually importing a Wallpaper File (.mpkg)
+## 3. Mobilgerät verbinden
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+In der mobilen Begleit-App für Wallpaper Engine, klicke unten rechts auf **Hinzufügen**, gefolgt von **Mit Computer verbinden**. Die Wallpaper Engine-App durchsucht nun dein lokales Netzwerk nach Wallpaper Engine auf Windows. Dein Computer sollte nach wenigen Sekunden in der Liste auftauchen, was es dir erlaubt dich zu diesem mit einem Klick zu verbinden. Wenn du dich zum ersten mal verbindest, wirst du nach dem vierstelligen PIN aus der Windows-Sektion oben gefragt.
 
-Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+<video height="590px" style="display:block;margin:0 auto;" controls autoplay loop>
+  <source src="/videos/mobile_connect.mp4" type="video/mp4">
+  Dein Browser unterstützt das Video-Tag nicht.
+</video>
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+Sobald du die PIN korrekt eingegeben hast, färbt sich die Status-Leiste in der Anwendung grün und zeigt an zu welchem Computer die App verbunden ist. In der Windows-App färbt sich gleichzeitig die Schaltfläche **Mobil** in grün, wodurch sichtbar wird, dass eine Verbindung zu einem Mobilgerät aktiv ist.
+
+Standardmäßig wird Wallpaper Engine nun immer versuchen automatisch eine Verbindung zu deinem Computer aufzubauen, sobald du die Wallpaper Engine-App auf deinem Mobilgerät und deinem Computer startest.
+
+## 4. Hintergründe auf dein Mobilgerät übertragen
+
+Sobald die Verbindung besteht, färbt sich die **Mobil**-Schaltfläche oben rechts grün.
+
+Du kannst nun rechts auf die Schaltfläche **An Mobilgerät senden** klicken oder bei jedem kompatiblen Hintergrund mit Rechtsklick auf **An Mobilgerät senden** klicken und dann dein Gerät aus der angezeigten Liste auswählen.
+
+#### Szene-Hintergründe
+
+Dynamische und interaktive Hintergründe, welche vom Typen **Szene** sind, werden zunächst für die Nutzung auf Mobilgeräten optimiert, sodass die Kompatibilität mit der Hardware von Mobilgeräten sichergestellt werden kann. Dieser Prozess kann ein etwas Zeit in Anspruch nehmen. Wallpaper Engine fragt außerdem, welche Qualität der Hintergrund auf deinem Mobilgerät haben soll. Besonders für Hintergründe mit höherer Auflösung empfehlen wir die Qualitätsstufe **Ausgewogen** zu nutzen, wenn du Leistungsprobleme auf deinem Mobilgerät feststellst.
+
+<video width="100%" controls autoplay loop>
+  <source src="/videos/mobile_transfer.mp4" type="video/mp4">
+  Dein Browser unterstützt das Video-Tag nicht.
+</video>
+
+::: tip
+Du kannst mehrere Hintergründe zur gleichen Zeit übertragen, indem du mehrere Hintergründe anklickst während du die STRG-Taste auf deiner Tastatur gedrückt hältst.
+:::
+
+## Fehlerbehebung bei Verbindung mit Mobilgeräten
+
+Falls du dein Mobilgerät nicht mit deinem Computer verbinden kannst, so ist oft eine Firewall oder eine Einstellung in deinem lokalen Netzwerk das Problem. Überprüfe die folgenden Problemquellen:
+
+* Stelle sicher, dass dein Mobilgerät und Computer zum gleichen lokalen Netzwerk verbunden sind.
+* Stelle sicher, dass keine Firewall Wallpaper Engine daran hindert mit deinem lokalen Netzwerk zu kommunizieren.
+* Stelle sicher, dass dein Netzwerk-Router deine Geräte nicht daran hindert untereinander zu kommunizieren.
+    * Stelle sicher, dass dein Router keine Netzwerkverbindungen zwischen Geräten blockiert.
+    * Schalte **UPnP** (**"Univeral Plug and Play"**) in deinen Router-Einstellungen ein.
+* Schalte jegliche VPN- oder Proxy-Anwendungen auf deinem Computer und deinem Mobilgerät aus, welche gegebenenfalls die Verbindung zwischen deinen Geräten stören.
+* Überprüfe, dass das Wallpaper Engine auf Windows und Wallpaper Engine auf deinem Mobilgerät beide auf dem neuesten Stand sind und gleichzeitig laufen.
+
+### Backup-Lösung: Manuelles Importieren einer Hintergrund-Datei (.mpkg)
+
+Solltest du nicht in der Lage sein, die Verbindung zwischen deinem Computer und deinem Mobilgerät zu beheben, so kannst du trotzdem deine Hintergründe manuell auf dein Mobilgerät übertragen. Wähle zunächst die Hintergründe aus, welche du in Wallpaper Engine exportieren möchtest, dann klicke mit Rechtsklick auf diese und wähle **An Mobilgerät senden** aus, gefolgt von **.mpkg exportieren**.
+
+<video width="100%" controls autoplay loop>
+  <source src="/videos/mobile_export.mp4" type="video/mp4">
+  Dein Browser unterstützt das Video-Tag nicht.
+</video>
+
+Sobald Wallpaper Engine die .mpkg-Dateien für deine Hintergründe erstellt hat, kannst du diese entweder auf dein Mobilgerät übertragen, indem du die Dateien mit einem USB-Kabel übertragst oder auf eine SD-Karte speicherst. Alternativ kannst du auch jegliche andere Form von Datei-Upload-Dienst nutzen, um die Hintergründe auf dein Mobilgerät zu laden, du könntest dir die Dateien auch selbst über einen Nachrichten-Dienst oder per E-Mail senden (solange die Dateigröße kein Problem darstellt).
+
+Sobald die Dateien auf deinem Mobilgerät gespeichert sind, öffne Wallpaper Engine auf deinem Mobilgerät und nutze die **Datei importieren**-Funktionalität, um die .mpkg-Dateien direkt aus dem Verzeichnis einzulesen, in welchem du diese zuvor gespeichert hast.
