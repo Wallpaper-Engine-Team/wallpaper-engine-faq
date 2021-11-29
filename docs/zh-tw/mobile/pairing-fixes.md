@@ -2,13 +2,29 @@
 
 如果行動裝置無法與電腦配對，很可能是因為防火牆或區域網路設定出錯。 請確認以下可能的問題來源：
 
-* 確認手機與電腦連線至同一個區域網路。
-* 確認防火牆並未阻擋 Wallpaper Engine 與區域網路通訊。
-* 確認網路路由器並未阻擋裝置之間的通訊。
+* **確認手機與電腦連線至同一個區域網路。**
+  * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
+* **確認防火牆並未阻擋 Wallpaper Engine 與區域網路通訊。**
+  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+* **在電腦和行動裝置上停用任何可能干擾裝置通訊的 VPN 或代理軟體。**
+* **確認網路路由器並未阻擋裝置之間的通訊。**
     * 確保路由器並未阻擋裝置之間的網路流量。
     * 在路由器設定中開啟 **UPnP** (**「Universal Plug and Play，通用隨插即用」**)。
-* 在電腦和行動裝置上停用任何可能干擾裝置通訊的 VPN 或代理軟體。
-* 再次確認 Windows 和行動版的 Wallpaper Engine 皆為最新版本且正常運作。
+* **再次確認 Windows 和行動版的 Wallpaper Engine 皆為最新版本且正常運作。**
+
+## Windows Firewall
+
+Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+
+![Windows Firewall Permissions](/img/faq/windows_defender.png)
+
+Wallpaper Engine will automatically suggest firewall fixes if it detects any problems. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+
+If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+
+Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+
+**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
 
 ### 備用解決方案：手動匯入桌布檔案 (.mpkg)
 
