@@ -2,13 +2,29 @@
 
 모바일 기기를 컴퓨터에 페어링할 수 없다면 높은 확률로 방화벽 또는 로컬 네트워크 설정의 문제입니다. 다음 절차를 따라 가능한 문제 원인들을 확인하세요.
 
-* 핸드폰과 컴퓨터가 같은 로컬 네트워크에 연결되어 있는지 확인
-* 방화벽이 Wallpaper Engine이 로컬 네트워크와 통신하지 못하도록 막고 있는지 확인
-* 네트워크 공유기가 기기들이 서로 통신하지 못하도록 막고 있는지 확인
+* **핸드폰과 컴퓨터가 같은 로컬 네트워크에 연결되어 있는지 확인**
+  * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
+* **방화벽이 Wallpaper Engine이 로컬 네트워크와 통신하지 못하도록 막고 있는지 확인**
+  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+* **기기 간의 통신을 방해할 수 있는 컴퓨터와 모바일 기기의 모든 VPN 또는 프록시 소프트웨어를 비활성화하세요.**
+* **네트워크 공유기가 기기들이 서로 통신하지 못하도록 막고 있는지 확인**
     * 공유기가 기기 간의 통신을 차단하고 있는지 확인하세요.
     * 라우터 설정에서 **UPnP**(**"Universal Plug and Play"**)를 활성화하세요.
-* 기기 간의 통신을 방해할 수 있는 컴퓨터와 모바일 기기의 모든 VPN 또는 프록시 소프트웨어를 비활성화하세요.
-* Windows 및 모바일 기기의 Wallpaper Engine이 최신 버전이며 실행 중인지 확인
+* **Windows 및 모바일 기기의 Wallpaper Engine이 최신 버전이며 실행 중인지 확인**
+
+## Windows Firewall
+
+Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+
+![Windows Firewall Permissions](/img/faq/windows_defender.png)
+
+Wallpaper Engine will automatically suggest firewall fixes if it detects any problems. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+
+If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+
+Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+
+**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
 
 ### 백업 해결책: 직접 배경화면 파일(.mpkg) 불러오기
 
