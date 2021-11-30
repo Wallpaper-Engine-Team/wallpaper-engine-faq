@@ -22,13 +22,13 @@ Si votre appareil mobile peut trouver votre ordinateur mais ne parvient pas à s
 
 ![Windows Firewall Permissions](/img/faq/windows_defender.png)
 
-Wallpaper Engine will automatically suggest firewall fixes if it detects any problems. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+Wallpaper Engine proposera automatiquement des correctifs pour le pare-feu s'il détecte des problèmes. Ce processus est assez fiable, mais dans certains cas, vous devrez quand même effacer manuellement les blocs que vous avez pu créer par mégarde dans le passé.
 
-If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+Si vous n'avez pas accordé ces autorisations à Wallpaper Engine, le pare-feu de Windows bloquera automatiquement Wallpaper Engine. Ouvrez les paramètres du pare-feu Windows, puis cliquez sur **Autoriser une application ou une fonctionnalité via le pare-feu Windows**. Recherchez une entrée appelée **ui32** et supprimez-la ou assurez-vous que les deux coches de la colonne *Privé* et *Public* sont activées, puis confirmez vos modifications et redémarrez Wallpaper Engine.
 
-Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+Veillez à chercher **ui32** ou **Wallpaper Engine UI** - vous pouvez trouver des entrées appelées simplement **Wallpaper Engine** mais celles-ci ne sont pas pertinentes ici.
 
-**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
+**Remarque :** Cette section concerne uniquement le pare-feu intégré de Windows, si vous utilisez une autre application antivirus ou pare-feu, vous devez vous assurer que Wallpaper Engine n'est pas bloqué par ces derniers.
 
 ## Solution de secours : Importation manuelle d'un fichier de fond d'écran (.mpkg)
 
@@ -44,5 +44,5 @@ Une fois que Wallpaper Engine a créé les fichiers .mpkg pour vos fonds d'écra
 Une fois les fichiers sur votre appareil mobile, ouvrez Wallpaper Engine depuis votre appareil mobile et utilisez la fonctionnalité **Importer fichier** pour importer directement les fichiers .mpkg dans l'application en les sélectionnant dans le répertoire où vous les avez placés.
 
 ::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+Il est important de placer les fichiers .mpkg dans le dossier **Downloads** de l'appareil mobile. Android est très restrictif lorsqu'il s'agit de laisser les applications accéder aux fichiers. Si vous ne pouvez pas trouver ou ouvrir les fichiers .mpkg sur votre appareil, essayez de les placer dans un autre répertoire, généralement le dossier **Downloads** est le choix le plus fiable.
 :::
