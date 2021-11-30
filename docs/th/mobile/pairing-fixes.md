@@ -1,13 +1,13 @@
-# กำลังแก้ปัญหาการจับคู่มือถือ
+# การแก้ปัญหาการจับคู่มือถือ
 
 ::: tip
-Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
+หากการเชื่อมต่อยังคงไม่ทำงานหลังจากทำตามทั้งหมดนี้ ให้เลื่อนลงไปยังด้านล่างของหน้านี้เพื่อดูวิธีการสำรองเพื่อนำเข้าวอลเปเปอร์ด้วยตนเองผ่าน USB หรือวิธีการอื่น
 :::
 
 หากคุณไม่สามารถจับคู่อุปกรณ์มือถือกับคอมพิวเตอร์ได้ อาจเกิดจากความผิดพลาดของไฟร์วอลล์หรือการตั้งค่าเครือข่ายภายใน ตรวจสอบสาเหตุที่อาจทำให้เกิดปัญหาดังต่อไปนี้:
 
 * **ตรวจสอบให้แน่ใจว่าโทรศัพท์และคอมพิวเตอร์ของคุณเชื่อมต่อกับเครือข่ายภายในเดียวกัน**
-  * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
+  * คอมพิวเตอร์ของคุณไม่จำเป็นต้องใช้ WiFi การเชื่อมต่อผ่านสายเคเบิลก็นับว่าเป็นเครือข่ายเดียวกัน
 * **ตรวจสอบให้แน่ใจว่าไฟร์วอลล์ไม่ได้ป้องกันไม่ให้ Wallpaper Engine สื่อสารกับเครือข่ายภายในของคุณ**
   * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
 * **ปิดการใช้งาน VPN หรือซอฟต์แวร์พร็อกซีบนคอมพิวเตอร์และอุปกรณ์มือถือซึ่งอาจรบกวนการสื่อสารระหว่างอุปกรณ์ของคุณ**
