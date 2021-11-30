@@ -62,8 +62,8 @@ Ayrıca, klavyenizdeki CTRL tuşuna basılı tutarken birden fazla duvar kağıd
 
 ## Mobil Eşleme Sorun Çözme
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+Mobil cihazınızı bilgisayarınızla eşleştiremiyorsanız lütfen mobil eşleştirme sorun giderme rehberimizi okuyun:
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [Mobil Eşleme Sorun Çözme](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**Ayrıca rehber, yerleşik dışa aktarma işlevinin nasıl kullanılacağını ve duvar kâğıtlarınızı USB veya seçtiğiniz başka bir yöntemle uygulamaya manuel olarak nasıl aktaracağınızı açıklar.**
