@@ -1,7 +1,6 @@
 # モバイルのペアリングに関する問題の解決
 
-::: tip
-Connection still does not work after all of this? このページの最下部に、USBまたは別の方法で壁紙をインポートするための手動バックアップソリューションが記載されています。
+::: ヒント：依然として接続の問題が解消されない場合 このページの最下部に、USBまたは別の方法で壁紙をインポートするための手動バックアップソリューションが記載されています。
 :::
 
 モバイルデバイスをPCとペアリングできない場合は、ファイアーウォールまたはローカルネットワークの設定が原因である可能性がかなり高いです。 次の方法で、問題の原因の可能性を調べてください：
@@ -9,16 +8,16 @@ Connection still does not work after all of this? このページの最下部に
 * **スマートフォンとPCが同じローカルネットワークに接続されていることを確認します。**
   * お使いのPCにWi-Fi接続は必要なく、ネットワークケーブルで接続された状態でも同じネットワークになります。
 * **ファイアーウォールが、Wallpaper Engineのローカルネットワークとの通信をブロックしていないことを確認します。**
-  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+  * Wallpaper Engineではネットワークポート7884 (UDP) ならびに7889 (TCP) でマルチキャスト送信を行っています。これらのポートがファイアウォールでブロックされていないことを確認してください。
 * **デバイス間の通信を妨げる可能性のある、PCならびにモバイルデバイス上のあらゆるタイプのVPNまたはプロキシソフトウェアを無効にしてください。**
 * **ネットワークルーターが、デバイス同士の通信をブロックしていないことを確認します。**
     * ルーターがデバイス間のネットワークトラフィックを干渉していないかを確認してください。
     * ルーター側の設定で**UPnP** (**Universal Plug and Play**)を有効にしてください。
 * **Windows上とモバイルデバイス上のWallpaper Engineが、どちらも最新で起動していることを確認します。**
 
-### Windows Firewall
+### Windowsのファイアウォール
 
-Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+特にモバイルデバイス側でPCが検出されているにもかかわらず接続に失敗する場合は、PC側のファイアウォールが原因であることに間違いないでしょう。 Wallpaper Engineの初回起動時、ネットワークへのアクセスを許可するように求められます。 If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
 
 ![Windows Firewall Permissions](/img/faq/windows_defender.png)
 
