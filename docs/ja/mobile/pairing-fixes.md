@@ -23,11 +23,11 @@
 
 Wallpaper Engineは、問題が検出されると自動的にファイアウォールの修正を提案してくれます。 このプロセスによって多くの問題は解消されますが、場合によっては過去に誤って適用したブロックの消去を手動で行う必要もあります。
 
-これらの許可をWallpaper Engine側に与えていない場合、Wallpaper EngineはWindowsファイアウォールに自動的にブロックされてしまいます。 Windowsファイアウォールの設定画面を開き、**ファイアウォールによるアプリケーションの許可**をクリックしてください。 Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+これらの許可をWallpaper Engine側に与えていない場合、Wallpaper EngineはWindowsファイアウォールに自動的にブロックされてしまいます。 Windowsファイアウォールの設定画面を開き、**ファイアウォールによるアプリケーションの許可**をクリックしてください。 **ui32**という項目があるので、それを削除または*プライベート*ならびに*パブリック*両方にチェックを入れてください。続けて変更を確定させた後、Wallpaper Engineを再起動してください。
 
-Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+対象は**ui32**または**Wallpaper Engine UI**という項目です。**Wallpaper Engine**という項目が表示されている場合もありますが、これは関係ありません。
 
-**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
+**【ご注意】**この記事はWindows内蔵のファイアウォールを対象としています。他のウイルス対策ソフトやファイアウォールをご使用の場合は、Wallpaper Engineがそれら各ソフトによってブロックされていないことを別途ご確認ください。
 
 ## バックアップソリューション：壁紙ファイル（.mpkg）を手動でインポート
 
@@ -42,6 +42,5 @@ Wallpaper Engineによって指定の壁紙の.mpkgファイルが作成され�
 
 ファイルがモバイルデバイス側に保存されたら同デバイス上でWallpaper Engineを開き、**ファイルをインポート**を選択してください。ファイルが保存されているディレクトリから.mpkgファイルを選択することで、アプリに直接インポートすることができます。
 
-::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+::: 特記事項 .mpkgをモバイルデバイス側の**ダウンロード**フォルダ内に配置されていることを必ずご確認ください。 Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
 :::
