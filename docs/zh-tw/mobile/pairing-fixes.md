@@ -9,22 +9,22 @@
 * **確認手機與電腦連線至同一個區域網路。**
   * 您的電腦不需要連接 Wi-Fi，就算電腦是以網路線連接，也仍處於同一個網路。
 * **確認防火牆並未阻擋 Wallpaper Engine 與區域網路通訊。**
-  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+  * Wallpaper Engine 會在網路連接埠 7884 (UDP) 及 7889 (TCP) 傳送一個多播訊息，請確保防火牆不會阻擋。
 * **在電腦和行動裝置上停用任何可能干擾裝置通訊的 VPN 或代理軟體。**
 * **確認網路路由器並未阻擋裝置之間的通訊。**
     * 確保路由器並未阻擋裝置之間的網路流量。
     * 在路由器設定中開啟 **UPnP** (**「Universal Plug and Play，通用隨插即用」**)。
 * **再次確認 Windows 和行動版的 Wallpaper Engine 皆為最新版本且正常運作。**
 
-### Windows Firewall
+### Windows 防火牆
 
-Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+尤其如果您的行動裝置可以找到電腦，卻無法連線，幾乎可確定原因是電腦的防火牆。 如果您第一次啟動 Wallpaper Engine，該程式將提示您允許加入網路。 如果您關閉此視窗，或並未特別允許 **ui32.exe** 與您的網路開啟通訊，Windows 防火牆將阻擋 Wallpaper Engine。 請確保 **ui32.exe** 能如這張螢幕截圖一樣通訊。
 
 ![Windows Firewall Permissions](/img/faq/windows_defender.png)
 
-Wallpaper Engine will automatically suggest firewall fixes if it detects any problems. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+Wallpaper Engine 如偵測到任何問題，將自動建議修復防火牆。 此過程堪稱值得信賴，但部分情況下，您可能仍需要手動清除過去可能不經意產生的阻礙。
 
-If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+如果您尚未允許 Wallpaper Engine，Windows 防火牆會自動阻擋 Wallpaper Engine。 請開啟 Windows 防火牆設定，接著按一下**允許應用程式通過防火牆**。 Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
 
 Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
 
