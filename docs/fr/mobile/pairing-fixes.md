@@ -1,24 +1,24 @@
 # Résolution des problèmes d'appairage des appareils mobiles
 
 ::: tip
-Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
+La connexion ne fonctionne toujours pas malgré cela ? Faites défiler jusqu'au bas de cette page afin de voir la solution de sauvegarde manuelle pour importer des fonds d'écran via USB ou une autre méthode.
 :::
 
 Si vous ne pouvez pas appairer votre appareil mobile avec votre ordinateur, il est très probable qu'un pare-feu ou un paramètre du réseau local soit en cause. Vérifiez les sources de problèmes possibles suivantes :
 
 * **Assurez-vous que votre téléphone et votre ordinateur sont connectés au même réseau local.**
-  * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
+  * Votre ordinateur n'a pas besoin de Wi-Fi, le réseau est toujours même si l'ordinateur est connecté par un câble réseau.
 * **Assurez-vous qu'aucun pare-feu ne bloque la communication de Wallpaper Engine avec votre réseau local.**
-  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+  * Wallpaper Engine envoie une multidiffusion sur les ports réseau 7884 (UDP) et 7889 (TCP), assurez-vous qu'aucun pare-feu ne bloque cette diffusion.
 * **Désactivez tout logiciel VPN ou proxy sur votre ordinateur et votre appareil mobile, qui peut interférer avec la communication entre vos appareils.**
 * **Vérifiez que le routeur de votre réseau n'empêche pas vos appareils de communiquer entre eux.**
     * Assurez-vous que votre routeur ne bloque pas le trafic réseau entre les appareils.
     * Activez **UPnP** (**"Universal Plug and Play"**) dans les paramètres de votre routeur.
 * **Vérifiez que Wallpaper Engine sur Windows et votre appareil mobile sont tous deux à jour et en cours d'exécution.**
 
-### Windows Firewall
+### Pare-feu Windows
 
-Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+Si votre appareil mobile peut trouver votre ordinateur mais ne parvient pas à s'y connecter, le problème est presque certainement dû à un pare-feu sur votre ordinateur. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
 
 ![Windows Firewall Permissions](/img/faq/windows_defender.png)
 
