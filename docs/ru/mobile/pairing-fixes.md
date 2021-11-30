@@ -16,7 +16,7 @@ Connection still does not work after all of this? Scroll to the bottom of this p
     * Включите **UPnP** (**Universal Plug and Play**) в настройках маршрутизатора.
 * **Убедитесь, что приложение Wallpaper Engine в Windows и на вашем мобильном устройстве обновлено и работает.**
 
-### Windows Firewall
+### Брандмауэр Windows
 
 Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
 
