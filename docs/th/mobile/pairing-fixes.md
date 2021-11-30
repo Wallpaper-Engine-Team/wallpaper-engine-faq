@@ -9,22 +9,22 @@
 * **ตรวจสอบให้แน่ใจว่าโทรศัพท์และคอมพิวเตอร์ของคุณเชื่อมต่อกับเครือข่ายภายในเดียวกัน**
   * คอมพิวเตอร์ของคุณไม่จำเป็นต้องใช้ WiFi การเชื่อมต่อผ่านสายเคเบิลก็นับว่าเป็นเครือข่ายเดียวกัน
 * **ตรวจสอบให้แน่ใจว่าไฟร์วอลล์ไม่ได้ป้องกันไม่ให้ Wallpaper Engine สื่อสารกับเครือข่ายภายในของคุณ**
-  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+  * Wallpaper Engine ส่งมัลติคาสต์บนพอร์ตเครือข่าย 7884 (UDP) และ 7889 (TCP) ตรวจสอบให้แน่ใจว่าไม่มีไฟร์วอลล์ปิดกั้นสิ่งนี้
 * **ปิดการใช้งาน VPN หรือซอฟต์แวร์พร็อกซีบนคอมพิวเตอร์และอุปกรณ์มือถือซึ่งอาจรบกวนการสื่อสารระหว่างอุปกรณ์ของคุณ**
 * **ตรวจสอบให้แน่ใจว่าเราเตอร์เครือข่ายไม่ได้ปิดกั้นอุปกรณ์ของคุณไม่ให้สื่อสารกัน**
     * ตรวจสอบให้แน่ใจว่าเราเตอร์ของคุณไม่ได้ปิดกั้นการรับส่งข้อมูลเครือข่ายระหว่างอุปกรณ์
     * เปิด **UPnP** (**"Universal Plug and Play"**) ในการตั้งค่าเราเตอร์ของคุณ
 * **ตรวจสอบอีกครั้งว่า Wallpaper Engine บน Windows และอุปกรณ์มือถือของคุณเป็นรุ่นล่าสุดและกำลังทำงาน**
 
-### Windows Firewall
+### ไฟร์วอลล์ Windows
 
-Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+ในกรณีที่อุปกรณ์มือถือของคุณค้นพบคอมพิวเตอร์แต่ไม่สามารถเชื่อมต่อได้ มีโอกาสสูงมากที่จะเกิดจากไฟร์วอลล์ในคอมพิวเตอร์ของคุณ เมื่อเปิดใช้ Wallpaper Engine เป็นครั้งแรก ระบบจะแจ้งให้คุณให้สิทธิ์ใช้งานเครือข่าย หากคุณปิดหน้าต่างนี้หรือไม่ได้ให้สิทธิ์ **ui32.exe** ในการสื่อสารกับเครือข่ายของคุณโดยเฉพาะ ไฟร์วอลล์ Windows จะบล็อก Wallpaper Engine โปรดตรวจสอบให้แน่ใจว่าคุณได้ให้สิทธิ์ **ui32.exe** สื่อสารตามที่แสดงในภาพหน้าจอนี้:
 
 ![Windows Firewall Permissions](/img/faq/windows_defender.png)
 
-Wallpaper Engine will automatically suggest firewall fixes if it detects any problems. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+หากตรวจพบปัญหาใดๆ Wallpaper Engine จะแนะนำการแก้ไขไฟร์วอลล์โดยอัตโนมัติ ขั้นตอนนี้ค่อนข้างใช้ได้ผล แต่บางครั้งคุณอาจต้องล้างการปิดกั้นใดๆ ในอดีตที่คุณอาจสร้างขึ้นโดยไม่ได้ตั้งใจด้วยตนเอง
 
-If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+หากคุณไม่ได้ให้สิทธิ์เหล่านี้กับ Wallpaper Engine ไฟร์วอลล์ Windows จะปิดกั้น Wallpaper Engine โดยอัตโนมัติ เปิดการตั้งค่าไฟร์วอลล์ Windows จากนั้นคลิกที่ **Allow an app through firewall** (อนุญาตใช้แอปผ่านไฟร์วอลล์) Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
 
 Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
 
