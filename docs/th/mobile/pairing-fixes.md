@@ -24,7 +24,7 @@
 
 หากตรวจพบปัญหาใดๆ Wallpaper Engine จะแนะนำการแก้ไขไฟร์วอลล์โดยอัตโนมัติ ขั้นตอนนี้ค่อนข้างใช้ได้ผล แต่บางครั้งคุณอาจต้องล้างการปิดกั้นใดๆ ในอดีตที่คุณอาจสร้างขึ้นโดยไม่ได้ตั้งใจด้วยตนเอง
 
-หากคุณไม่ได้ให้สิทธิ์เหล่านี้กับ Wallpaper Engine ไฟร์วอลล์ Windows จะปิดกั้น Wallpaper Engine โดยอัตโนมัติ เปิดการตั้งค่าไฟร์วอลล์ Windows จากนั้นคลิกที่ **Allow an app through firewall** (อนุญาตใช้แอปผ่านไฟร์วอลล์) Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+หากคุณไม่ได้ให้สิทธิ์เหล่านี้กับ Wallpaper Engine ไฟร์วอลล์ Windows จะปิดกั้น Wallpaper Engine โดยอัตโนมัติ เปิดการตั้งค่าไฟร์วอลล์ Windows จากนั้นคลิกที่ **Allow an app through firewall** (อนุญาตใช้แอปผ่านไฟร์วอลล์) ค้นหารายการชื่อ **ui32** และลบหรือตรวจสอบให้แน่ใจว่าเครื่องหมายในคอลัมน์ *ส่วนตัว* และ *สาธารณะ* ทั้งสองถูกเปิดใช้งาน จากนั้นให้ยืนยันการเปลี่ยนแปลงของคุณ และรีสตาร์ท Wallpaper Engine
 
 Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
 
