@@ -62,8 +62,8 @@ PINを入力するとモバイルアプリのステータスバーが緑にな�
 
 ## モバイルのペアリングに関する問題の解決
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+モバイルデバイスとPCとのペアリングできない場合は、モバイルペアリングのトラブルシューティングガイドをお読みください。
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [モバイルのペアリングに関する問題解消](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**このガイドでは搭載されているエクスポート機能の使用方法、ならびにUSBまたはご希望の方法を使って壁紙をアプリに手動でインポートする方法も記載されています。**
