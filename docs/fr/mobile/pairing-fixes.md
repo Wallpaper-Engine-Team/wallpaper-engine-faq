@@ -20,7 +20,7 @@ Si vous ne pouvez pas appairer votre appareil mobile avec votre ordinateur, il e
 
 Si votre appareil mobile peut trouver votre ordinateur mais ne parvient pas à s'y connecter, le problème est presque certainement dû à un pare-feu sur votre ordinateur. Lorsque vous lancez Wallpaper Engine pour la première fois, vous êtres invité à accorder au logiciel l'application d'accéder à votre réseau. Si vous avez fermé cette fenêtre ou si vous n'avez pas spécifiquement autorisé **ui32.exe** à communiquer avec votre réseau, le pare-feu Windows bloquera Wallpaper Engine. Assurez-vous d'autoriser **ui32.exe** à communiquer comme indiqué dans cette capture d'écran :
 
-![Windows Firewall Permissions](/img/faq/windows_defender.png)
+![Autorisations du Pare-feu Windows](/img/faq/windows_defender.png)
 
 Wallpaper Engine proposera automatiquement des correctifs pour le pare-feu s'il détecte des problèmes. Ce processus est assez fiable, mais dans certains cas, vous devrez quand même effacer manuellement les blocs que vous avez pu créer par mégarde dans le passé.
 
