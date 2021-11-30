@@ -20,15 +20,15 @@
 
 尤其如果您的行動裝置可以找到電腦，卻無法連線，幾乎可確定原因是電腦的防火牆。 如果您第一次啟動 Wallpaper Engine，該程式將提示您允許加入網路。 如果您關閉此視窗，或並未特別允許 **ui32.exe** 與您的網路開啟通訊，Windows 防火牆將阻擋 Wallpaper Engine。 請確保 **ui32.exe** 能如這張螢幕截圖一樣通訊。
 
-![Windows Firewall Permissions](/img/faq/windows_defender.png)
+![允許通過 Windows 防火牆](/img/faq/windows_defender.png)
 
 Wallpaper Engine 如偵測到任何問題，將自動建議修復防火牆。 此過程堪稱值得信賴，但部分情況下，您可能仍需要手動清除過去可能不經意產生的阻礙。
 
-如果您尚未允許 Wallpaper Engine，Windows 防火牆會自動阻擋 Wallpaper Engine。 請開啟 Windows 防火牆設定，接著按一下**允許應用程式通過防火牆**。 Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+如果您尚未允許 Wallpaper Engine，Windows 防火牆會自動阻擋 Wallpaper Engine。 請開啟 Windows 防火牆設定，接著按一下**允許應用程式通過防火牆**。 搜尋名為 **ui32** 的項目，可將其刪除，或是確認*私人*和*公開*兩個欄位皆已啟用，接著確認變更，重新啟動 Wallpaper Engine。
 
-Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+請搜尋 **ui32** 或 **Wallpaper Engine UI**：您可能會找到僅名為 **Wallpaper Engine** 的項目，但與此問題無關。
 
-**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
+**請注意：**此節僅提及內建 Windows 防火牆，如果您使用任何其他的防毒應用程式或防火牆，您得自行確認 Wallpaper Engine 並未因此遭到阻擋。
 
 ## 備用解決方案：手動匯入桌布檔案 (.mpkg)
 
@@ -44,5 +44,5 @@ Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries
 檔案轉移到行動裝置上後，開啟行動裝置上的 Wallpaper Engine，利用**匯入檔案**功能從儲存檔案的目錄選擇檔案，直接將 .mpkg 檔案匯入行動裝置。
 
 ::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+您必須將 .mpkg 檔案存放在行動裝置的**下載**資料夾。 Android 在這方面很嚴謹，應用程式很難存取檔案。 如果您在裝置上找不到或無法開啟 .mpkg 檔案，請存放於其他目錄，通常**下載**資料夾是最不會出錯的位置。
 :::
