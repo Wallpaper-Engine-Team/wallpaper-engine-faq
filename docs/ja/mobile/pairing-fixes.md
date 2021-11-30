@@ -42,5 +42,5 @@ Wallpaper Engineによって指定の壁紙の.mpkgファイルが作成され�
 
 ファイルがモバイルデバイス側に保存されたら同デバイス上でWallpaper Engineを開き、**ファイルをインポート**を選択してください。ファイルが保存されているディレクトリから.mpkgファイルを選択することで、アプリに直接インポートすることができます。
 
-::: 特記事項 .mpkgをモバイルデバイス側の**ダウンロード**フォルダ内に配置されていることを必ずご確認ください。 Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+::: 特記事項 .mpkgをモバイルデバイス側の**ダウンロード**フォルダ内に配置されていることを必ずご確認ください。 Android では、アプリのファイルへのアクセス許可に関する制限が非常に厳しく設定されています。 デバイス側で.mpkgファイルが見つからない、または開くことができない場合は、別のディレクトリに配置してみてください。この場合、**ダウンロード**フォルダが最適とされています。
 :::
