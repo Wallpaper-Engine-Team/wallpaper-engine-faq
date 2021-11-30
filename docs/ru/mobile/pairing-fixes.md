@@ -1,6 +1,10 @@
-## Решение проблем при сопряжении мобильного устройства
+# Mobile Pairing Problem Solving
 
-Если вы не можете подключить мобильное устройство к компьютеру, скорее всего, произошла ошибка в настройках брандмауэра или локальной сети. Проверьте следующие возможные причины проблемы:
+::: tip
+Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
+:::
+
+If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
 
 * **Убедитесь, что ваш телефон и компьютер подключены к одной локальной сети.**
   * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
@@ -12,7 +16,7 @@
     * Включите **UPnP** (**Universal Plug and Play**) в настройках маршрутизатора.
 * **Убедитесь, что приложение Wallpaper Engine в Windows и на вашем мобильном устройстве обновлено и работает.**
 
-## Windows Firewall
+### Windows Firewall
 
 Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
 
@@ -26,15 +30,19 @@ Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries
 
 **Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
 
-### Решение для резервного копирования: вручную импортировать файл обоев (.mpkg)
+## Backup solution: Manually importing a Wallpaper File (.mpkg)
 
-Если вам не удается установить соединение между вашим компьютером и мобильным устройством, вы можете вручную перенести обои на мобильное устройство. Сначала выберите обои, которые вы хотите экспортировать в Wallpaper Engine, затем щелкните по ним правой кнопкой мыши и выберите **Отправить на мобильное устройство** и нажмите **Экспорт .mpkg**.
+Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_export.mp4" type="video/mp4">
   Ваш браузер не поддерживает воспроизведение видео.
 </video>
 
-После того, как Wallpaper Engine создаст файлы .mpkg для ваших обоев, вы можете либо перенести их на мобильное устройство через USB, либо скопировав файлы на SD-карту. Вы также можете использовать любое средство обмена файлами на своем мобильном устройстве, отправить их себе сообщением или даже по электронной почте (если размер файла позволяет).
+Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
 
-Как только файлы окажутся на вашем мобильном устройстве, откройте на нем Wallpaper Engine и используйте функцию **Импортировать файл**, чтобы напрямую импортировать файлы .mpkg в приложение, выбрав их из каталога, который вы их поместили.
+Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+
+::: danger
+It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+:::
