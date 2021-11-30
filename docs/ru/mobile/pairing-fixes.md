@@ -1,7 +1,7 @@
 # Решение проблем при сопряжении мобильного устройства
 
 ::: tip
-Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
+Проблема с подключением все еще не решена? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
 :::
 
 Если вы не можете подключить мобильное устройство к компьютеру, скорее всего, произошла ошибка в настройках брандмауэра или локальной сети. Проверьте следующие возможные причины проблемы:
