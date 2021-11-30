@@ -17,13 +17,13 @@
 
 ### Windowsのファイアウォール
 
-特にモバイルデバイス側でPCが検出されているにもかかわらず接続に失敗する場合は、PC側のファイアウォールが原因であることに間違いないでしょう。 Wallpaper Engineの初回起動時、ネットワークへのアクセスを許可するように求められます。 If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+特にモバイルデバイス側でPCが検出されているにもかかわらず接続に失敗する場合は、PC側のファイアウォールが原因であることに間違いないでしょう。 Wallpaper Engineの初回起動時、ネットワークへのアクセスを許可するように求められます。 このウィンドウを閉じたり、特に**ui32.exe**とネットワークとの通信を許可しなかった場合、Wallpaper EngineはWindowsファイアウォールによってブロックされてしまいます。 このスクリーンショットに示されているように、**ui32.exe**の通信が許可されていることを確認してください。
 
-![Windows Firewall Permissions](/img/faq/windows_defender.png)
+![Windowsファイアウォールの許可](/img/faq/windows_defender.png)
 
-Wallpaper Engine will automatically suggest firewall fixes if it detects any problems. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+Wallpaper Engineは、問題が検出されると自動的にファイアウォールの修正を提案してくれます。 このプロセスによって多くの問題は解消されますが、場合によっては過去に誤って適用したブロックの消去を手動で行う必要もあります。
 
-If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+これらの許可をWallpaper Engine側に与えていない場合、Wallpaper EngineはWindowsファイアウォールに自動的にブロックされてしまいます。 Windowsファイアウォールの設定画面を開き、**ファイアウォールによるアプリケーションの許可**をクリックしてください。 Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
 
 Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
 
