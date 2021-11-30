@@ -9,7 +9,7 @@
 * **Убедитесь, что ваш телефон и компьютер подключены к одной локальной сети.**
   * Вашему компьютеру не нужен Wi-Fi, это все та же сеть, даже при подключении через сетевой кабель.
 * **Убедитесь, что брандмауэр не блокирует связь Wallpaper Engine с вашей локальной сетью.**
-  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+  * Wallpaper Engine использует мультивещание в сетевых портах 7884 (UDP) и 7889 (TCP). Убедитесь, что оно не блокируется брандмауэром.
 * **Отключите на своем компьютере и мобильном устройстве любую программу VPN или прокси, которая может мешать обмену данными между вашими устройствами.**
 * **Убедитесь, что сетевой маршрутизатор не блокирует связь ваших устройств друг с другом.**
     * Убедитесь, что ваш маршрутизатор не блокирует сетевой трафик между устройствами.
@@ -18,13 +18,13 @@
 
 ### Брандмауэр Windows
 
-Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+Если ваше мобильное устройство может найти ваш компьютер, но не может к нему подключиться, эта проблема почти наверняка связана с брандмауэром на компьютере. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Убедитесь, что **ui32.exe** обменивается данными, как показано на скриншоте:
 
-![Windows Firewall Permissions](/img/faq/windows_defender.png)
+![Разрешения брандмауэра Windows](/img/faq/windows_defender.png)
 
-Wallpaper Engine will automatically suggest firewall fixes if it detects any problems. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+Wallpaper Engine автоматически предложит исправления брандмауэра, если обнаружит какие-либо проблемы. Этот процесс обычно надежен, но в некоторых случаях вам все же может потребоваться вручную очистить все блокировки, которые могли случайно появиться ранее.
 
-If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+Если вы не предоставили Wallpaper Engine эти разрешения, брандмауэр Windows автоматически заблокирует Wallpaper Engine. Откройте настройки брандмауэра Windows, затем нажмите **Разрешить работу с приложением через брандмауэр**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
 
 Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
 
