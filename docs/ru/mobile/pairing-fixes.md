@@ -18,17 +18,17 @@
 
 ### Брандмауэр Windows
 
-Если ваше мобильное устройство может найти ваш компьютер, но не может к нему подключиться, эта проблема почти наверняка связана с брандмауэром на компьютере. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Убедитесь, что **ui32.exe** обменивается данными, как показано на скриншоте:
+Если ваше мобильное устройство может найти ваш компьютер, но не может к нему подключиться, эта проблема почти наверняка связана с брандмауэром на компьютере. При первом запуске Wallpaper Engine вам будет предложено предоставить ему разрешение в вашей сети. Если вы закрыли это окно или не разрешите **ui32.exe** взаимодействовать с вашей сетью, брандмауэр Windows заблокирует Wallpaper Engine. Убедитесь, что **ui32.exe** обменивается данными, как показано на скриншоте:
 
 ![Разрешения брандмауэра Windows](/img/faq/windows_defender.png)
 
 Wallpaper Engine автоматически предложит исправления брандмауэра, если обнаружит какие-либо проблемы. Этот процесс обычно надежен, но в некоторых случаях вам все же может потребоваться вручную очистить все блокировки, которые могли случайно появиться ранее.
 
-Если вы не предоставили Wallpaper Engine эти разрешения, брандмауэр Windows автоматически заблокирует Wallpaper Engine. Откройте настройки брандмауэра Windows, затем нажмите **Разрешить работу с приложением через брандмауэр**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+Если вы не предоставили Wallpaper Engine эти разрешения, брандмауэр Windows автоматически заблокирует Wallpaper Engine. Откройте настройки брандмауэра Windows, затем нажмите **Разрешить работу с приложением через брандмауэр**. Найдите запись с именем **ui32** и либо удалите ее, либо убедитесь, что оба флажка в колонках *Приватное* и *Публичное* установлены, затем подтвердите свои изменения и перезапустите Wallpaper Engine.
 
-Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+Убедитесь, что вы нашли записи **ui32** или **Wallpaper Engine UI**. Вы можете найти записи с названием **Wallpaper Engine**, но здесь они не имеют значения.
 
-**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
+**Обратите внимание:** Этот раздел касается только встроенного брандмауэра Windows. Если вы используете какое-либо другое антивирусное приложение или брандмауэр, вам необходимо убедиться, что Wallpaper Engine не блокируется ими.
 
 ## Решение для резервного копирования: вручную импортировать файл обоев (.mpkg)
 
