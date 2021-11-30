@@ -63,8 +63,8 @@
 
 ## 解決行動裝置配對問題
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+如果您的行動裝置無法與電腦配對，請閱讀行動裝置配對疑難排解指南：
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [解決行動裝置配對問題](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**此指南也說明如何使用內建的匯出功能，手動透過 USB 或其他方式將桌布匯入該應用程式。**
