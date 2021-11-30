@@ -1,13 +1,13 @@
 # 解決行動裝置配對問題
 
 ::: tip
-Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
+經過這麼多步驟，仍然無法連線？ 向下捲動至頁面底部，檢視如何以手動備份透過 USB 或其他方式匯入桌布。
 :::
 
 如果行動裝置無法與電腦配對，很可能是因為防火牆或區域網路設定出錯。 請確認以下可能的問題來源：
 
 * **確認手機與電腦連線至同一個區域網路。**
-  * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
+  * 您的電腦不需要連接 Wi-Fi，就算電腦是以網路線連接，也仍處於同一個網路。
 * **確認防火牆並未阻擋 Wallpaper Engine 與區域網路通訊。**
   * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
 * **在電腦和行動裝置上停用任何可能干擾裝置通訊的 VPN 或代理軟體。**
