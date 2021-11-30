@@ -61,10 +61,10 @@
 คุณยังสามารถถ่ายโอนวอลเปเปอร์หลายภาพได้พร้อมกัน โดยคลิกวอลเปเปอร์หลายภาพขณะกดปุ่ม CTRL บนแป้นพิมพ์ค้างไว้
 :::
 
-## กำลังแก้ปัญหาการจับคู่มือถือ
+## การแก้ปัญหาการจับคู่มือถือ
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+หากคุณไม่สามารถจับคู่อุปกรณ์มือถือของคุณกับคอมพิวเตอร์ โปรดอ่านคู่มือการแก้ไขปัญหาการจับคู่มือถือของเรา:
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [การแก้ปัญหาการจับคู่มือถือ](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**คู่มือนี้ยังอธิบายการใช้งานฟังก์ชันการส่งออกในตัวและนำเข้าวอลเปเปอร์ด้วยตนเองไปยังแอปผ่าน USB หรือวิธีการอื่นที่คุณเลือก**
