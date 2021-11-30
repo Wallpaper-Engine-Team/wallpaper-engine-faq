@@ -20,15 +20,15 @@
 
 ในกรณีที่อุปกรณ์มือถือของคุณค้นพบคอมพิวเตอร์แต่ไม่สามารถเชื่อมต่อได้ มีโอกาสสูงมากที่จะเกิดจากไฟร์วอลล์ในคอมพิวเตอร์ของคุณ เมื่อเปิดใช้ Wallpaper Engine เป็นครั้งแรก ระบบจะแจ้งให้คุณให้สิทธิ์ใช้งานเครือข่าย หากคุณปิดหน้าต่างนี้หรือไม่ได้ให้สิทธิ์ **ui32.exe** ในการสื่อสารกับเครือข่ายของคุณโดยเฉพาะ ไฟร์วอลล์ Windows จะบล็อก Wallpaper Engine โปรดตรวจสอบให้แน่ใจว่าคุณได้ให้สิทธิ์ **ui32.exe** สื่อสารตามที่แสดงในภาพหน้าจอนี้:
 
-![Windows Firewall Permissions](/img/faq/windows_defender.png)
+![สิทธิ์ไฟร์วอลล์ Windows](/img/faq/windows_defender.png)
 
 หากตรวจพบปัญหาใดๆ Wallpaper Engine จะแนะนำการแก้ไขไฟร์วอลล์โดยอัตโนมัติ ขั้นตอนนี้ค่อนข้างใช้ได้ผล แต่บางครั้งคุณอาจต้องล้างการปิดกั้นใดๆ ในอดีตที่คุณอาจสร้างขึ้นโดยไม่ได้ตั้งใจด้วยตนเอง
 
 หากคุณไม่ได้ให้สิทธิ์เหล่านี้กับ Wallpaper Engine ไฟร์วอลล์ Windows จะปิดกั้น Wallpaper Engine โดยอัตโนมัติ เปิดการตั้งค่าไฟร์วอลล์ Windows จากนั้นคลิกที่ **Allow an app through firewall** (อนุญาตใช้แอปผ่านไฟร์วอลล์) ค้นหารายการชื่อ **ui32** และลบหรือตรวจสอบให้แน่ใจว่าเครื่องหมายในคอลัมน์ *ส่วนตัว* และ *สาธารณะ* ทั้งสองถูกเปิดใช้งาน จากนั้นให้ยืนยันการเปลี่ยนแปลงของคุณ และรีสตาร์ท Wallpaper Engine
 
-Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+โปรดมองหา **ui32** หรือ **Wallpaper Engine UI** คุณอาจพบรายการอื่นๆ ชื่อ **Wallpaper Engine** แต่รายการเหล่านั้นไม่เกี่ยวข้องกับขั้นตอน
 
-**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
+**โปรดทราบ:** ส่วนนี้มีไว้สำหรับไฟร์วอลล์ Windows ในตัวเท่านั้น หากคุณใช้แอปหรือไฟร์วอลล์ป้องกันไวรัสอื่นๆ คุณต้องตรวจสอบให้แน่ใจว่า Wallpaper Engine ไม่ได้ถูกปิดกั้นจากสิ่งเหล่านั้น
 
 ## วิธีแก้ปัญหาสำรอง: นำเข้าไฟล์วอลเปเปอร์ (.mpkg) ด้วยตนเอง
 
@@ -44,5 +44,5 @@ Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries
 เมื่อไฟล์อยู่ในอุปกรณ์มือถือของคุณแล้ว ให้เปิด Wallpaper Engine บนอุปกรณ์มือถือของคุณและใช้ฟังก์ชัน **นำเข้าไฟล์** เพื่อนำเข้าไฟล์ .mpkg จากไดเร็กทอรีที่คุณวางไว้เข้าสู่แอปโดยตรง
 
 ::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+คุณจำเป็นต้องวางไฟล์ .mpkg ไว้ในโฟลเดอร์ **ดาวน์โหลด** ในอุปกรณ์มือถือ Android มีข้อจำกัดอย่างมากในการให้สิทธิ์แอปเข้าถึงไฟล์ หากคุณไม่พบหรือไม่สามารถเปิดไฟล์ .mpkg ในอุปกรณ์ของคุณได้ ให้ลองวางไฟล์ในไดเรกทอรีอื่น โดยปกติแล้วตัวเลือกที่น่าเชื่อถือที่สุดคือโฟลเดอร์ **ดาวน์โหลด**
 :::
