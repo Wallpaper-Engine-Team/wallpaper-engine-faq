@@ -1,13 +1,13 @@
 # モバイルのペアリングに関する問題の解決
 
 ::: tip
-Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
+Connection still does not work after all of this? このページの最下部に、USBまたは別の方法で壁紙をインポートするための手動バックアップソリューションが記載されています。
 :::
 
 モバイルデバイスをPCとペアリングできない場合は、ファイアーウォールまたはローカルネットワークの設定が原因である可能性がかなり高いです。 次の方法で、問題の原因の可能性を調べてください：
 
 * **スマートフォンとPCが同じローカルネットワークに接続されていることを確認します。**
-  * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
+  * お使いのPCにWi-Fi接続は必要なく、ネットワークケーブルで接続された状態でも同じネットワークになります。
 * **ファイアーウォールが、Wallpaper Engineのローカルネットワークとの通信をブロックしていないことを確認します。**
   * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
 * **デバイス間の通信を妨げる可能性のある、PCならびにモバイルデバイス上のあらゆるタイプのVPNまたはプロキシソフトウェアを無効にしてください。**
