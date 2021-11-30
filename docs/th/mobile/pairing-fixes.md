@@ -1,10 +1,10 @@
-# Mobile Pairing Problem Solving
+# กำลังแก้ปัญหาการจับคู่มือถือ
 
 ::: tip
 Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
 :::
 
-If you cannot pair your mobile device to your computer, a firewall or local network setting is very likely at fault. Check the following possible problem sources:
+หากคุณไม่สามารถจับคู่อุปกรณ์มือถือกับคอมพิวเตอร์ได้ อาจเกิดจากความผิดพลาดของไฟร์วอลล์หรือการตั้งค่าเครือข่ายภายใน ตรวจสอบสาเหตุที่อาจทำให้เกิดปัญหาดังต่อไปนี้:
 
 * **ตรวจสอบให้แน่ใจว่าโทรศัพท์และคอมพิวเตอร์ของคุณเชื่อมต่อกับเครือข่ายภายในเดียวกัน**
   * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
@@ -30,18 +30,18 @@ Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries
 
 **Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
 
-## Backup solution: Manually importing a Wallpaper File (.mpkg)
+## วิธีแก้ปัญหาสำรอง: นำเข้าไฟล์วอลเปเปอร์ (.mpkg) ด้วยตนเอง
 
-Should you be able unable to fix the connection between your computer and your mobile device, you can still manually transfer your wallpapers onto your mobile device. First, select the wallpapers you want to export in Wallpaper Engine, then right-click on them and select **Send to Mobile Device**, followed by clicking on **Export .mpkg**.
+หากคุณแก้ไขปัญหาการเชื่อมต่อระหว่างคอมพิวเตอร์และอุปกรณ์มือถือไม่ได้ คุณยังสามารถโอนวอลเปเปอร์ไปยังอุปกรณ์มือถือได้ด้วยตนเอง ขั้นแรกให้เลือกวอลเปเปอร์ใน Wallpaper Engine ที่ต้องการส่งออก จากนั้นคลิกขวาที่วอลเปเปอร์เหล่านั้นแล้วเลือก **ส่งไปยังอุปกรณ์มือถือ** ตามด้วยคลิกที่ **ส่งออก .mpkg**
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_export.mp4" type="video/mp4">
   เบราว์เซอร์ของคุณไม่รองรับแท็กวิดีโอ
 </video>
 
-Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can either transfer them to your mobile device by moving the files onto your mobile device via USB or by copying the files onto an SD card. Alternatively you can also use any file sharing service on your mobile device or send them to yourself via a messaging service or even via email (if the file size is not a problem).
+เมื่อ Wallpaper Engine สร้างไฟล์ .mpkg สำหรับวอลเปเปอร์ของคุณแล้ว คุณสามารถถ่ายโอนไฟล์เหล่านั้นไปยังอุปกรณ์มือถือได้ได้โดยการย้ายไฟล์ผ่าน USB หรือคัดลอกไฟล์ไปยังการ์ด SD คุณยังสามารถใช้บริการ File Sharing บนอุปกรณ์มือถือ หรือส่งผ่านบริการส่งข้อความให้ตัวเอง หรือส่งทางอีเมลก็ได้เช่นกัน (หากขนาดไฟล์ไม่เกินที่กำหนด)
 
-Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
+เมื่อไฟล์อยู่ในอุปกรณ์มือถือของคุณแล้ว ให้เปิด Wallpaper Engine บนอุปกรณ์มือถือของคุณและใช้ฟังก์ชัน **นำเข้าไฟล์** เพื่อนำเข้าไฟล์ .mpkg จากไดเร็กทอรีที่คุณวางไว้เข้าสู่แอปโดยตรง
 
 ::: danger
 It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
