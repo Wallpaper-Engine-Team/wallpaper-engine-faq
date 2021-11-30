@@ -63,8 +63,8 @@
 
 ## Решение проблем при сопряжении мобильного устройства
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+Если вы не можете подключить мобильное устройство к компьютеру, прочтите руководство по устранению неполадок на мобильных устройствах:
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [Решение проблем при сопряжении мобильного устройства](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**В руководстве также объясняется, как использовать встроенную функцию экспорта и вручную импортировать обои в приложение через USB или любым другим способом.**
