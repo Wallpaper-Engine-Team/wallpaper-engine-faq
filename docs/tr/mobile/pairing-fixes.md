@@ -42,6 +42,5 @@ Wallpaper Engine, duvar kâğıtlarınız için .mpkg dosyalarını oluşturdukt
 
 Dosyaları mobil cihazınıza aldıktan sonra cihazınızdan Wallpaper Engine'i açın ve .mpkg dosyalarını yerleştirdiğiniz dizinden seçerek uygulamaya doğrudan aktarmak için **Dosyayı İçe Aktar** işlevini kullanın.
 
-::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+::: tehlike .mpkg dosyalarını, mobil cihazda **İndirilenler** klasörüne yerleştirmeniz önemlidir. Uygulamaların dosyalara erişmesine izin verme konusunda Android oldukça kısıtlayıcıdır. Cihazınızda .mpkg dosyalarını bulamıyor veya açamıyorsanız bunları başka bir dizine yerleştirmeyi deneyin; genellikle **İndirilenler** klasörü bunun için en güvenilir seçimdir.
 :::
