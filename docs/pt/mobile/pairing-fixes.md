@@ -1,6 +1,6 @@
 # Resolução de problemas de emparelhamento com dispositivos móveis
 
-::: dica Depois disto, a ligação continua a não funcionar? No fundo desta página encontará a solução de cópia de segurança manual para importar wallpapers através de USB ou outro método.
+::: dica Depois disto, a ligação continua a não funcionar? No fundo desta página encontrará a solução de cópia de segurança manual para importar wallpapers através de USB ou outro método.
 :::
 
 Se não consegue emparelhar o seu dispositivo móvel ao seu computador, é muito provável que a culpa seja de uma firewall ou de uma definição da rede local. Verifique as seguintes origens possíveis do problema:
@@ -17,17 +17,17 @@ Se não consegue emparelhar o seu dispositivo móvel ao seu computador, é muito
 
 ### Firewall do Windows
 
-Especialmente se o seu dispositivo móvel consegue encontrar o seu computador mas não consegue estabelecer ligação ao mesmo, a causa é quase certamente uma firewall no seu computador. Quando inicia o seu Wallpaper Engine pela primeira vez, ele irá pedir-lhe para conceder permissão à sua rede. Se fechou esta janela ou não permitiru espcificamente que **ui32.exe** comunique com a sua rede, a firewall do Windows irá bloquear o Wallpaper Engine. Certifique-se de que permite que **ui32.exe** comunique, tal como é ilustrado nesta captura de ecrã:
+Especialmente se o seu dispositivo móvel consegue encontrar o seu computador mas não consegue estabelecer ligação ao mesmo, a causa é quase certamente uma firewall no seu computador. Quando inicia o seu Wallpaper Engine pela primeira vez, ele irá pedir-lhe para conceder permissão à sua rede. Se fechou esta janela ou não permitiu especificamente que **ui32.exe** comunique com a sua rede, a firewall do Windows irá bloquear o Wallpaper Engine. Certifique-se de que permite que **ui32.exe** comunique, tal como é ilustrado nesta captura de ecrã:
 
 ![Permissões da firewall do Windows](/img/faq/windows_defender.png)
 
-Se detetar algum problema, o Wallpaper Engine irá sugerir automaticamente correções à firewall. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+Se detetar algum problema, o Wallpaper Engine irá sugerir automaticamente correções à firewall. Este processo é, até certo ponto, de confiança, mas em alguns casos continua a ser necessário remover manualmente quaisquer bloqueios que o utilizador possa ter criado anteriormente, por acidente.
 
-If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+Se não concedeu estas permissões ao Wallpaper Engine, a firewall do Windows bloqueará o Wallpaper Engine automaticamente. Abra as definições da firewall do Windows e, em seguida, clique em **Permitir uma aplicação através da firewall**. Procure uma entrada chamada **ui32** e apague-a ou certifique-se de que ambas as marcas de verificação na coluna *Privada* e *Pública* estão ativadas, confirmando depois as suas alterações e reiniciando o Wallpaper Engine.
 
-Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+Deve procurar **ui32** ou **Wallpaper Engine UI** - poderá encontrar entradas chamadas simplesmente **Wallpaper Engine** mas estas não são relevantes para aqui.
 
-**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
+**Atenção:** Esta secção é especificamente acerca apenas da firewall incorporada do Windows. se utiliza outra aplicação antivírus ou firewall, deve certificar-se de que o Wallpaper Engine não está a ser bloqueado por elas.
 
 ## Solução de recurso: importar manualmente um ficheiro de Wallpaper (.mpkg)
 
@@ -42,6 +42,5 @@ Depois do Wallpaper Engine criar os ficheiros .mpkg para os seus wallpapers, pod
 
 Quando os ficheiros estiverem no seu dispositivo móvel, abra o Wallpaper Engine no seu dispositivo móvel e utilize a funcionalidade **Importar ficheiro** para importar os ficheiros .mpkg diretamente para a aplicação selecionando-os a partir do diretório em que os colocou.
 
-::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+::: perigo É importante que coloque os ficheiros .mpkg na pasta **Transferências** (Downloads) do dispositivo móvel. Android é muito restritivo em relação a permitir que aplicações acedam aos ficheiros. Se não conseguir encontrar ou abrir os ficheiros .mpkg no seu dispositivo, experimente colocá-los noutro diretório, habitualmente a pasta **Transferências** (Downloads) é a escolha de maior confiança para o fazer.
 :::
