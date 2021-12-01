@@ -20,7 +20,7 @@
 
 特别是如果您的移动设备能找到但无法连接到您的计算机，则几乎可以肯定，该问题由计算机上的防火墙引起。 当您首次启动 Wallpaper Engine 时，它会提示您授予其访问您网络的权限。 如果您关闭此窗口或没有明确允许 **ui32.exe** 与您的网络通信，则 Windows 防火墙将阻止 Wallpaper Engine。 如下方屏幕截图所示，请确保允许 **ui32.exe** 进行通信：
 
-![Windows Firewall Permissions](/img/faq/windows_defender.png)
+![Windows 防火墙权限](/img/faq/windows_defender.png)
 
 如果 Wallpaper Engine 检测到任何问题，它会自动建议防火墙修复程序。 该过程在某种程度上可靠，但在某些情况下，您可能仍然需要手动清除过去意外创建的任何阻止。
 
@@ -44,5 +44,5 @@
 文件转移到移动设备上以后，在移动设备上打开 Wallpaper Engine，然后使用**导入文件**功能，从放置文件的目录选择文件，直接将 .mpkg 文件导入该应用程序。
 
 ::: danger
-请务必将 .mpkg 文件放入移动设备上的 **Downloads** 文件夹。 Android 在允许应用程序访问文件方面具有非常严格的限制。 If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+请务必将 .mpkg 文件放入移动设备上的 **Downloads** 文件夹。 Android 在允许应用程序访问文件方面具有非常严格的限制。 如果找不到或打不开设备上的 .mpkg 文件，请尝试将文件放入其他目录，通常 **Downloads** 文件夹是最可靠的选择。
 :::
