@@ -63,8 +63,8 @@ Puedes transferir varios fondos a la vez si haces clic en varios fondos mientras
 
 ## Solucionar problemas con el emparejamiento del dispositivo
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+Si no consigues emparejar el dispositivo con el ordenador, lee la guía de soluciones para el emparejamiento con dispositivos móviles:
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [Solucionar problemas con el emparejamiento del dispositivo](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**La guía también explica cómo utilizar la función de exportación incorporada y cómo importar manualmente tus fondos a la aplicación por medio de un USB u otro método de tu elección.**
