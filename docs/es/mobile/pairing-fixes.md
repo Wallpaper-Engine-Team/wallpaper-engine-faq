@@ -20,7 +20,7 @@ Si no puedes emparejar un dispositivo móvil con el ordenador, es posible que se
 
 Si tu dispositivo móvil encuentra tu ordenador pero no es capaz de conectarse a él, lo más seguro es que sea culpa del firewall o cortafuegos del ordenador. La primera vez que inicies Wallpaper Engine, te pedirá que le des permiso para acceder a tu red. En caso de que hayas cerrado la ventana o no hayas permitido específicamente que **ui32.exe ** pueda comunicarse con tu red, el firewall de Windows bloqueará Wallpaper Engine. Concédele permiso a **ui32.exe** para comunicarse con la red tal y como se muestra en esta captura de pantalla:
 
-![Windows Firewall Permissions](/img/faq/windows_defender.png)
+![Permisos del firewall de Windows](/img/faq/windows_defender.png)
 
 Wallpaper Engine sugerirá automáticamente correcciones del firewall si detecta algún problema. Este proceso suele ser fiable, pero en algunos casos es posible que tengas que borrar manualmente cualquier bloqueo que hayas creado por accidente en el pasado.
 
@@ -44,5 +44,5 @@ Cuando Wallpaper Engine cree los archivos .mpkg de los fondos, podrás transferi
 Cuando tengas los archivos en el dispositivo móvil, abre la aplicación de Wallpaper Engine y elige la opción **Importar archivo** para importar los archivos .mpkg en la aplicación desde el directorio en el que los tienes guardados.
 
 ::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+No te olvides de colocar los archivos .mpkg en la carpeta de **Descargas** del dispositivo móvil. Android es muy restrictivo a la hora de permitir que las aplicaciones accedan a los archivos. Si no encuentras o no puedes abrir los archivos .mpkg en tu dispositivo, colócalos en otro directorio; la carpeta **Descargas** suele ser la opción más segura en estos casos.
 :::
