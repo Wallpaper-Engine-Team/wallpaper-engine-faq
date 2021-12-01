@@ -24,11 +24,11 @@
 
 如果 Wallpaper Engine 检测到任何问题，它会自动建议防火墙修复程序。 该过程在某种程度上可靠，但在某些情况下，您可能仍然需要手动清除过去意外创建的任何阻止。
 
-如果您没有授予 Wallpaper Engine 这些权限，Windows 防火墙将自动阻止 Wallpaper Engine。 打开 Windows 防火墙设置，然后单击**允许应用通过防火墙**。 Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+如果您没有授予 Wallpaper Engine 这些权限，Windows 防火墙将自动阻止 Wallpaper Engine。 打开 Windows 防火墙设置，然后单击**允许应用通过防火墙**。 搜索名为 **ui32** 的条目，将其删除或确保在*专用*和*公用*两列中均启用了复选标记，然后确认您的更改，重新启动 Wallpaper Engine。
 
-Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+务必查找 **ui32** 或 **Wallpaper Engine UI**，您可能会找到仅名为 **Wallpaper Engine** 的条目，但这些条目在此处无关紧要。
 
-**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
+**请注意：**本节的内容专门针对内置 Windows 防火墙，如果您使用任何其他防病毒应用程序或防火墙，您需要确保它们没有阻止 Wallpaper Engine。
 
 ## 备用解决方案：手动导入壁纸文件 (.mpkg)
 
@@ -44,5 +44,5 @@ Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries
 文件转移到移动设备上以后，在移动设备上打开 Wallpaper Engine，然后使用**导入文件**功能，从放置文件的目录选择文件，直接将 .mpkg 文件导入该应用程序。
 
 ::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+请务必将 .mpkg 文件放入移动设备上的 **Downloads** 文件夹。 Android 在允许应用程序访问文件方面具有非常严格的限制。 If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
 :::
