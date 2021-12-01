@@ -24,11 +24,11 @@ Si tu dispositivo móvil encuentra tu ordenador pero no es capaz de conectarse a
 
 Wallpaper Engine sugerirá automáticamente correcciones del firewall si detecta algún problema. Este proceso suele ser fiable, pero en algunos casos es posible que tengas que borrar manualmente cualquier bloqueo que hayas creado por accidente en el pasado.
 
-Si no le has concedido estos permisos a Wallpaper Engine, el firewall de Windows bloqueará el programa automáticamente. Abre la configuración del firewall de Windows y haz clic en **Permitir que una aplicación o característica a través de Firewall de Windows Defender**. Busca una entrada llamada **ui32** y elimínala o comprueba que ambos símbolos de visto en la columna *Privada* y *Pública* están habilitadas. A continuación, confirma los cambios y reinicia Wallpaper Engine.
+Si no le has concedido estos permisos a Wallpaper Engine, el firewall de Windows bloqueará el programa automáticamente. Abre la configuración del firewall de Windows y haz clic en **Permitir que una aplicación o característica a través de Firewall de Windows Defender**. Busca una entrada llamada **ui32** y elimínala o comprueba que ambos símbolos de visto en la columna *Privada* y *Pública* están habilitados. A continuación, confirma los cambios y reinicia Wallpaper Engine.
 
 Busca **ui32** o **Wallpaper Engine UI**. Es posible que encuentres entradas con el nombre **Wallpaper Engine**, pero son completamente irrelevantes en este caso.
 
-**Aviso:** Esta sección solo se refiere al firewall integrado de Windows, si utilizas cualquier otro antivirus o firewall, tendrás que comprobar que ninguno de ellos está bloqueando Wallpaper Engine.
+**Aviso:** Esta sección solo se refiere al firewall integrado de Windows. Si utilizas cualquier otro antivirus o firewall, tendrás que comprobar que ninguno de ellos está bloqueando Wallpaper Engine.
 
 ## Solución de emergencia: Importar un archivo de forma manual (.mpkg)
 
