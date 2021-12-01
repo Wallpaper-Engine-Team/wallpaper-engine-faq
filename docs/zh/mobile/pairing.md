@@ -67,4 +67,4 @@
 
 * [移动设备配对问题解决](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**该指南还说明了如何使用内置导出功能，以及如何通过 USB 或您选择的其他方法将壁纸手动导入应用程序。**
