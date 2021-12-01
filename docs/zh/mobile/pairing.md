@@ -63,8 +63,8 @@
 
 ## 移动设备配对问题解决
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+如果您无法将移动设备与计算机配对，请阅读我们的移动设备配对故障排除指南：
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [移动设备配对问题解决](/mobile/pairing-fixes)
 
 **The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
