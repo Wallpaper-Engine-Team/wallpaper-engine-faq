@@ -18,7 +18,7 @@
 
 ### Windows 防火墙
 
-Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+特别是如果您的移动设备能找到但无法连接到您的计算机，则几乎可以肯定，该问题由计算机上的防火墙引起。 当您首次启动 Wallpaper Engine 时，它会提示您授予其访问您网络的权限。 如果您关闭此窗口或没有明确允许 **ui32.exe** 与您的网络通信，则 Windows 防火墙将阻止 Wallpaper Engine。 如下方屏幕截图所示，请确保允许 **ui32.exe** 进行通信：
 
 ![Windows Firewall Permissions](/img/faq/windows_defender.png)
 
