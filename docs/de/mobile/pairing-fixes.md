@@ -24,11 +24,11 @@ Besonders wenn dein Mobilgerät deinen Computer finden kann, die Verbindung jedo
 
 Wallpaper Engine wird automatisch versuchen, deine Firewall zu reparieren, wenn es Probleme erkennt. Dieser Prozess ist relativ verlässlich, in einigen Fällen musst du aber selbst die Blockierungen entfernen, die du gegebenenfalls in der Vergangenheit aus Versehen erstellt hast.
 
-If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+Wenn du Wallpaper Engine diese Zugriffsrechte nicht aktiv eingeräumt hast, wird die Windows-Firewall Wallpaper Engine automatisch blockieren. Öffne die Windows-Firewall-Einstellungen und klicke dann auf **Zugriff von App durch Firewall zulassen**. Suche nach einem Eintrag namens **ui32** und lösche diesen entweder oder stelle sicher, dass die Spalten *Privat* als auch *Öffentlich* mit einem Häkchen versehen sind, dann bestätige deine Auswahl und starte Wallpaper Engine neu.
 
-Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+Stelle sicher, dass du nach **ui32** oder **Wallpaper Engine UI** suchst - du könntest eine Anzahl an Einträgen namens **Wallpaper Engine** finden, diese sind jedoch irrelevant an dieser Stelle.
 
-**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
+**Bitte beachte:** Diese Sektion ist speziell nur über die eingebaute Windows-Firewall, wenn du weitere Antiviren- oder Firewall-Programme verwendest, musst du sicherstellen, dass Wallpaper Engine von diesen nicht blockiert wird.
 
 ## Backup-Lösung: Manuelles Importieren einer Hintergrund-Datei (.mpkg)
 
