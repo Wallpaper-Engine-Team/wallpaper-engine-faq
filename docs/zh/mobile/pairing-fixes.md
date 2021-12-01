@@ -22,9 +22,9 @@
 
 ![Windows Firewall Permissions](/img/faq/windows_defender.png)
 
-Wallpaper Engine will automatically suggest firewall fixes if it detects any problems. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+如果 Wallpaper Engine 检测到任何问题，它会自动建议防火墙修复程序。 该过程在某种程度上可靠，但在某些情况下，您可能仍然需要手动清除过去意外创建的任何阻止。
 
-If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+如果您没有授予 Wallpaper Engine 这些权限，Windows 防火墙将自动阻止 Wallpaper Engine。 打开 Windows 防火墙设置，然后单击**允许应用通过防火墙**。 Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
 
 Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
 
