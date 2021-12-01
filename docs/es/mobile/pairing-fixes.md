@@ -1,13 +1,13 @@
 # Solucionar problemas con el emparejamiento del dispositivo
 
 ::: tip
-Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
+¿La conexión no funciona después de hacer todo esto? Ve al final de esta página para ver la solución manual de emergencia para importar fondos por USB u otro método.
 :::
 
 Si no puedes emparejar un dispositivo móvil con el ordenador, es posible que sea culpa del firewall o de algún ajuste de la red local. En esta lista verás varios posibles orígenes del problema:
 
 * **Comprueba que el dispositivo y el ordenador estén conectados a la misma red local.**
-  * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
+  * El ordenador no tiene que estar conectado a la wifi, ya que estará en la misma red aunque esté conectado por medio de un cable de red.
 * **Comprueba que ningún firewall impida a Wallpaper Engine comunicarse con la red local.**
   * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
 * **Desactiva cualquier VPN o programa de proxy que tengas en el ordenador o en el dispositivo móvil que pueda interferir con la comunicación entre los dispositivos.**
