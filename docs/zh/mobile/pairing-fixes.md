@@ -1,22 +1,22 @@
 # 移动设备配对问题解决
 
 ::: tip
-Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
+连接终究无法正常工作？ 滚动到本页底部，查看通过 USB 或其他方法导入壁纸的手动备份解决方案。
 :::
 
 如果无法将移动设备与计算机配对，则防火墙或本地网络设置很可能出错了。 检查以下可能的问题来源：
 
 * **确保您的手机和计算机连接到同一本地网络。**
-  * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
+  * 您的计算机不需要使用 Wi-Fi，即使通过网络电缆连接，计算机仍连接到同一网络。
 * **确保防火墙没有阻止 Wallpaper Engine 与本地网络通信。**
-  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+  * Wallpaper Engine 可在网络端口 7884 (UDP) 和 7889 (TCP) 上发送组播，确保防火墙并未阻止其与本地网络通信。
 * **在计算机和移动设备上，禁用可能干扰设备间通信的任何类型的 VPN 或代理软件。**
 * **确保网络路由器没有阻止您的设备相互通信。**
     * 确保您的路由器没有阻止设备之间的网络流量。
     * 在您的路由器设置中打开 **UPnP**（**"通用即插即用"**）。
 * **仔细检查 Windows 上的 Wallpaper Engine 和移动设备是否均为最新版本且正常运行。**
 
-### Windows Firewall
+### Windows 防火墙
 
 Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
 
