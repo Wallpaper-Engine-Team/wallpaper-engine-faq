@@ -63,8 +63,8 @@ Vous pouvez également transférer plusieurs fonds d'écran en même temps en cl
 
 ## Résolution des problèmes d'appairage des appareils mobiles
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+Si vous ne parvenez pas à appairer votre appareil mobile avec votre ordinateur, veuillez lire notre guide de dépannage d'appairage mobile :
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [Résolution des problèmes d'appairage des appareils mobiles](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**Le guide explique également comment utiliser la fonction d'exportation intégrée et importer manuellement vos fonds d'écran dans l'application via un port USB ou une autre méthode de votre choix.**
