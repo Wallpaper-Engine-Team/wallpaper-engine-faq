@@ -22,13 +22,13 @@ Si tu dispositivo móvil encuentra tu ordenador pero no es capaz de conectarse a
 
 ![Windows Firewall Permissions](/img/faq/windows_defender.png)
 
-Wallpaper Engine sugerirá automáticamente correcciones del firewall si detecta algún problema. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+Wallpaper Engine sugerirá automáticamente correcciones del firewall si detecta algún problema. Este proceso suele ser fiable, pero en algunos casos es posible que tengas que borrar manualmente cualquier bloqueo que hayas creado por accidente en el pasado.
 
-If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+Si no le has concedido estos permisos a Wallpaper Engine, el firewall de Windows bloqueará el programa automáticamente. Abre la configuración del firewall de Windows y haz clic en **Permitir que una aplicación o característica a través de Firewall de Windows Defender**. Busca una entrada llamada **ui32** y elimínala o comprueba que ambos símbolos de visto en la columna *Privada* y *Pública* están habilitadas. A continuación, confirma los cambios y reinicia Wallpaper Engine.
 
-Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+Busca **ui32** o **Wallpaper Engine UI**. Es posible que encuentres entradas con el nombre **Wallpaper Engine**, pero son completamente irrelevantes en este caso.
 
-**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
+**Aviso:** Esta sección solo se refiere al firewall integrado de Windows, si utilizas cualquier otro antivirus o firewall, tendrás que comprobar que ninguno de ellos está bloqueando Wallpaper Engine.
 
 ## Solución de emergencia: Importar un archivo de forma manual (.mpkg)
 
