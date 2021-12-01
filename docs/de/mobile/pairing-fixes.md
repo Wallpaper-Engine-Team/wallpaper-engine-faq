@@ -9,20 +9,20 @@ Falls du dein Mobilgerät nicht mit deinem Computer verbinden kannst, so ist oft
 * **Stelle sicher, dass dein Mobilgerät und Computer zum gleichen lokalen Netzwerk verbunden sind.**
   * Dein Computer benötigt kein WLAN, im Normalfall bist du im gleichen Netzwerk auch wenn du ein LAN-Kabel verwendest.
 * **Stelle sicher, dass keine Firewall Wallpaper Engine daran hindert mit deinem lokalen Netzwerk zu kommunizieren.**
-  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+  * Wallpaper Engine sendet einen Multi-Cast auf den Netzwerk-Ports 7884 (UDP) und 7889 (TCP), stelle sicher, dass keine Firewall dies blockiert.
 * **Schalte jegliche VPN- oder Proxy-Anwendungen auf deinem Computer und deinem Mobilgerät aus, welche gegebenenfalls die Verbindung zwischen deinen Geräten stören.**
 * **Stelle sicher, dass dein Netzwerk-Router deine Geräte nicht daran hindert untereinander zu kommunizieren.**
     * Stelle sicher, dass dein Router keine Netzwerkverbindungen zwischen Geräten blockiert.
     * Schalte **UPnP** (**"Univeral Plug and Play"**) in deinen Router-Einstellungen ein.
 * **Überprüfe, dass das Wallpaper Engine auf Windows und Wallpaper Engine auf deinem Mobilgerät beide auf dem neuesten Stand sind und gleichzeitig laufen.**
 
-### Windows Firewall
+### Windows-Firewall
 
-Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+Besonders wenn dein Mobilgerät deinen Computer finden kann, die Verbindung jedoch fehlschlägt, so liegt dies fast immer an einer Firewall auf dem Computer. Wenn du Wallpaper Engine zum ersten mal startest, wirst du gefragt, ob du der Anwendung Zugriff auf dein Netzwerk erlauben möchtest. Wenn du das Fenster einfach geschlossen hast oder **ui32.exe** nicht die notwendigen Zugriffsrechte auf dein Netzwerk gegeben hast, dann wird die Windows-Firewall Wallpaper Engine blockieren. Stelle sicher, dass **ui32.exe** mit deinem Netzwerk kommunizieren kann, wie im folgenden Screenshot zu sehen ist:
 
-![Windows Firewall Permissions](/img/faq/windows_defender.png)
+![Windows Firewall-Zugriffsrechte](/img/faq/windows_defender.png)
 
-Wallpaper Engine will automatically suggest firewall fixes if it detects any problems. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+Wallpaper Engine wird automatisch versuchen, deine Firewall zu reparieren, wenn es Probleme erkennt. Dieser Prozess ist relativ verlässlich, in einigen Fällen musst du aber selbst die Blockierungen entfernen, die du gegebenenfalls in der Vergangenheit aus Versehen erstellt hast.
 
 If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
 
@@ -44,5 +44,5 @@ Sobald Wallpaper Engine die .mpkg-Dateien für deine Hintergründe erstellt hat,
 Sobald die Dateien auf deinem Mobilgerät gespeichert sind, öffne Wallpaper Engine auf deinem Mobilgerät und nutze die **Datei importieren**-Funktionalität, um die .mpkg-Dateien direkt aus dem Verzeichnis einzulesen, in welchem du diese zuvor gespeichert hast.
 
 ::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+Es ist wichtig, dass die .mpkg-Dateien im **Downloads**-Ordner deines Mobilgeräts platziert werden. Android ist sehr restriktiv, wenn es darum geht, dass Apps den Zugriff auf Dateien deines Geräts erhalten. Wenn die App dir keine .mpkg-Dateien auf deinem Gerät anzeigt oder diese sich nicht öffnen lassen, versuche sie im **Downloads**-Verzeichnis zu platzieren, dieses ist funktioniert relativ verlässlich.
 :::
