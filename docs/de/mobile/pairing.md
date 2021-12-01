@@ -63,8 +63,8 @@ Du kannst mehrere Hintergründe zur gleichen Zeit übertragen, indem du mehrere 
 
 ## Fehlerbehebung bei Verbindung mit Mobilgeräten
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+Falls du dein Mobilgerät nicht mit deinem Computer verbinden kannst, lies dir bitte unsere Problemlösungsvorschläge für mobile Verbindungen durch:
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [Fehlerbehebung bei Verbindung mit Mobilgeräten](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**Die Hilfeseite erklärt auch, wie du die eingebaute Export-Funktion nutzen kannst, um manuell deine Hintergründe über USB oder eine andere Übertragungsart deiner Wahl in die App zu importieren.**
