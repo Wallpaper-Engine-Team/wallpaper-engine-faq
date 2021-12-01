@@ -63,8 +63,8 @@ Também pode transferir vários wallpapers ao mesmo tempo clicando em vários wa
 
 ## Resolução de problemas de emparelhamento com dispositivos móveis
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+Se não consegue emparelhar o seu dispositivo móvel ao seu computador, leia o nosso guia de resolução de problemas de emparelhamento com dispositivos móveis:
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [Resolução de problemas de emparelhamento com dispositivos móveis](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**O guia também explica como utilizar a função incorporada de exportação e importação manuais dos seus wallpapers para a app através de USB ou outro método à sua escolha.**
