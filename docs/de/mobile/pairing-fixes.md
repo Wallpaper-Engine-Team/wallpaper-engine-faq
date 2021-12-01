@@ -1,13 +1,13 @@
 # Fehlerbehebung bei Verbindung mit Mobilgeräten
 
 ::: tip
-Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
+Verbindung schlägt nach allen nachfolgenden Schritten immer noch fehl? Schaue dir am Ende dieser Seite unsere Backup-Lösung an, mit der du Hintergründe über USB oder eine andere Methode deiner Wahl importieren kannst.
 :::
 
 Falls du dein Mobilgerät nicht mit deinem Computer verbinden kannst, so ist oft eine Firewall oder eine Einstellung in deinem lokalen Netzwerk das Problem. Überprüfe die folgenden Problemquellen:
 
 * **Stelle sicher, dass dein Mobilgerät und Computer zum gleichen lokalen Netzwerk verbunden sind.**
-  * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
+  * Dein Computer benötigt kein WLAN, im Normalfall bist du im gleichen Netzwerk auch wenn du ein LAN-Kabel verwendest.
 * **Stelle sicher, dass keine Firewall Wallpaper Engine daran hindert mit deinem lokalen Netzwerk zu kommunizieren.**
   * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
 * **Schalte jegliche VPN- oder Proxy-Anwendungen auf deinem Computer und deinem Mobilgerät aus, welche gegebenenfalls die Verbindung zwischen deinen Geräten stören.**
