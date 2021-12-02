@@ -18,17 +18,17 @@
 
 ### Windows 방화벽
 
-특히 모바일 기기가 컴퓨터를 인식하지만 연결할 수가 없다면, 컴퓨터의 방화벽으로 인한 문제일 가능성이 매우 높습니다. Wallpaper Engine을 처음 실행하면 네트워크 권한을 요청할 것입니다. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+특히 모바일 기기가 컴퓨터를 인식하지만 연결할 수가 없다면, 컴퓨터의 방화벽으로 인한 문제일 가능성이 매우 높습니다. Wallpaper Engine을 처음 실행하면 네트워크 권한을 요청할 것입니다. 해당 창을 껐거나 **ui23.exe** 프로그램에 네트워크 연결 권한을 내리지 않았다면, Windows 방화벽이 Wallpaper Engine을 차단할 것입니다. 다음 스크린샷에 나온 대로 **ui23.exe** 프로그램에 연결 권한을 부여해야 합니다.
 
-![Windows Firewall Permissions](/img/faq/windows_defender.png)
+![Windows 방화벽 권한](/img/faq/windows_defender.png)
 
-Wallpaper Engine will automatically suggest firewall fixes if it detects any problems. This process is somewhat reliable but in some cases you may still need to manually clear any blocks you may have created in the past by accident.
+Wallpaper Engine은 문제를 감지하면 자동으로 방화벽 설정 변경을 제안합니다. 이 절차는 안정적이지만, 과거에 우연히 생성했던 차단을 직접 제거해야 하는 경우도 있습니다.
 
-If you have not granted Wallpaper Engine these permissions, the Windows firewall will automatically block Wallpaper Engine. Open the Windows firewall settings, then click on **Allow an app through firewall**. Search for an entry called **ui32** and either delete it or make sure both check marks in the *Private* and *Public* column are enabled, then confirm your changes and restart Wallpaper Engine.
+Wallpaper에 해당 권한들을 부여하지 않았다면, Windows 방화벽이 자동으로 Wallpaper Engine을 차단할 것입니다. Windows 방화벽 설정을 열고 **방화벽에서 앱 허용**을 클릭하세요. **ui32**라는 항목을 찾은 다음 제거하거나 *개인* 및 *고용* 열 둘 다에 체크 표시가 되어 있는지 확인하세요. 그다음 변경 사항을 저장한 후 Wallpaper Engine을 재시작하세요.
 
-Make sure to look for **ui32** or **Wallpaper Engine UI** - you may find entries called just **Wallpaper Engine** but these are irrelevant here.
+**ui32** 혹은 **Wallpaper Engine UI**를 찾아보세요. **Wallpaper Engine**라고만 되어 있는 항목도 있을 수 있지만, 이 경우에는 해당 항목은 관계가 없습니다.
 
-**Please note:** This section is specifically only about the built-in Windows firewall, if you use any other antivirus app or firewall, you need to make sure Wallpaper Engine is not being blocked by them.
+**참고:** 이 섹션은 Windows 내장 방화벽에만 적용되므로, 기타 안티 바이러스 프로그램 또는 방화벽을 사용할 경우 해당 프로그램이 Wallpaper Engine을 차단하고 있지 않은지 확인해야 합니다.
 
 ## 백업 해결책: 직접 배경화면 파일(.mpkg) 불러오기
 
@@ -44,5 +44,5 @@ Wallpaper Engine이 배경화면의 .mpkg 파일을 생성하고 나면 해당 �
 파일을 모바일 기기로 옮긴 후, 모바일 기기에서 Wallpaper Engine을 실행하고 **파일 불러오기** 기능을 사용하세요. 파일을 넣은 디렉토리에서 .mpkg 파일을 선택하여 앱으로 직접 불러오세요.
 
 ::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+모바일 기기의 **다운로드** 폴더에 .mpkg 파일을 내려놓아야 합니다. Android는 앱의 파일 접근을 허용하는 데 매우 엄격합니다. 기기에서 .mpkg 파일을 찾거나 열 수 없을 경우 다른 디렉토리에 저장해보세요. 이 경우 **다운로드** 폴더가 가장 안전합니다.
 :::
