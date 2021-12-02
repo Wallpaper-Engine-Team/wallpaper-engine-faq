@@ -44,5 +44,5 @@ Wallpaper Engine 如偵測到任何問題，將自動建議修復防火牆。 �
 檔案轉移到行動裝置上後，開啟行動裝置上的 Wallpaper Engine，利用**匯入檔案**功能從儲存檔案的目錄選擇檔案，直接將 .mpkg 檔案匯入行動裝置。
 
 ::: danger
-您必須將 .mpkg 檔案存放在行動裝置的**下載**資料夾。 Android 在這方面很嚴謹，應用程式很難存取檔案。 如果您在裝置上找不到或無法開啟 .mpkg 檔案，請存放於其他目錄，通常**下載**資料夾是最不會出錯的位置。
+It is important that you place the .mpkg files in the **Downloads** folder on the mobile device. Android 在這方面很嚴謹，應用程式很難存取檔案。 如果您在裝置上找不到或無法開啟 .mpkg 檔案，請存放於其他目錄，通常**下載**資料夾是最不會出錯的位置。
 :::
