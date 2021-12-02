@@ -9,7 +9,7 @@
 * **確認手機與電腦連線至同一個區域網路。**
   * 您的電腦不需要連接 Wi-Fi，就算電腦是以網路線連接，也仍處於同一個網路。
 * **確認防火牆並未阻擋 Wallpaper Engine 與區域網路通訊。**
-  * Wallpaper Engine 會在網路連接埠 7884 (UDP) 及 7889 (TCP) 傳送一個多播訊息，請確保防火牆不會阻擋。
+  * Wallpaper Engine uses the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking them.
 * **在電腦和行動裝置上停用任何可能干擾裝置通訊的 VPN 或代理軟體。**
 * **確認網路路由器並未阻擋裝置之間的通訊。**
     * 確保路由器並未阻擋裝置之間的網路流量。
