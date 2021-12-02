@@ -1,6 +1,7 @@
 # Resolução de problemas de emparelhamento com dispositivos móveis
 
-::: dica Depois disto, a ligação continua a não funcionar? No fundo desta página encontrará a solução de cópia de segurança manual para importar wallpapers através de USB ou outro método.
+::: tip
+Depois disto, a ligação continua a não funcionar? No fundo desta página encontrará a solução de cópia de segurança manual para importar wallpapers através de USB ou outro método.
 :::
 
 Se não consegue emparelhar o seu dispositivo móvel ao seu computador, é muito provável que a culpa seja de uma firewall ou de uma definição da rede local. Verifique as seguintes origens possíveis do problema:
@@ -42,5 +43,6 @@ Depois do Wallpaper Engine criar os ficheiros .mpkg para os seus wallpapers, pod
 
 Quando os ficheiros estiverem no seu dispositivo móvel, abra o Wallpaper Engine no seu dispositivo móvel e utilize a funcionalidade **Importar ficheiro** para importar os ficheiros .mpkg diretamente para a aplicação selecionando-os a partir do diretório em que os colocou.
 
-::: perigo É importante que coloque os ficheiros .mpkg na pasta **Transferências** (Downloads) do dispositivo móvel. Android é muito restritivo em relação a permitir que aplicações acedam aos ficheiros. Se não conseguir encontrar ou abrir os ficheiros .mpkg no seu dispositivo, experimente colocá-los noutro diretório, habitualmente a pasta **Transferências** (Downloads) é a escolha de maior confiança para o fazer.
+::: danger
+É importante que coloque os ficheiros .mpkg na pasta **Transferências** (Downloads) do dispositivo móvel. Android é muito restritivo em relação a permitir que aplicações acedam aos ficheiros. Se não conseguir encontrar ou abrir os ficheiros .mpkg no seu dispositivo, experimente colocá-los noutro diretório, habitualmente a pasta **Transferências** (Downloads) é a escolha de maior confiança para o fazer.
 :::
