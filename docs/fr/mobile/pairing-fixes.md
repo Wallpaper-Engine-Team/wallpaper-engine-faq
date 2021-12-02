@@ -44,5 +44,5 @@ Une fois que Wallpaper Engine a créé les fichiers .mpkg pour vos fonds d'écra
 Une fois les fichiers sur votre appareil mobile, ouvrez Wallpaper Engine depuis votre appareil mobile et utilisez la fonctionnalité **Importer fichier** pour importer directement les fichiers .mpkg dans l'application en les sélectionnant dans le répertoire où vous les avez placés.
 
 ::: danger
-It is important that you place the .mpkg files in the **Downloads** folder on the mobile device. Android est très restrictif lorsqu'il s'agit de laisser les applications accéder aux fichiers. Si vous ne pouvez pas trouver ou ouvrir les fichiers .mpkg sur votre appareil, essayez de les placer dans un autre répertoire, généralement le dossier **Downloads** est le choix le plus fiable.
+Il est important de placer les fichiers .mpkg dans le dossier **Downloads** de l'appareil mobile. Android est très restrictif lorsqu'il s'agit de laisser les applications accéder aux fichiers. Si vous ne pouvez pas trouver ou ouvrir les fichiers .mpkg sur votre appareil, essayez de les placer dans un autre répertoire, généralement le dossier **Downloads** est le choix le plus fiable.
 :::
