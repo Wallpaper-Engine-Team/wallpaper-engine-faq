@@ -9,7 +9,7 @@ If you cannot pair your mobile device to your computer, a firewall or local netw
 * **Ensure that your phone and computer are connected to the same local network.**
   * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
 * **Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.**
-  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+  * Wallpaper Engine sends a multi-cast on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
 * **Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.**
 * **Ensure your network router is not blocking your devices from communicating with each other.**
     * Make sure your router is not blocking network traffic between devices.
@@ -44,5 +44,5 @@ Once Wallpaper Engine has created the .mpkg files for your wallpapers, you can e
 Once the files are on your mobile device, open up Wallpaper Engine on your mobile device and use the **Import File** functionality to directly import the .mpkg files into the app by selecting them from the directory that you have placed them in.
 
 ::: danger
-It is import that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
+It is important that you place the .mpkg files in the **Downloads** folder on the mobile device. Android is very restrictive when it comes to letting apps access files. If you cannot find or open the .mpkg files on your device, try placing them in another directory, usually the **Downloads** folder is the most reliable choice for this.
 :::
