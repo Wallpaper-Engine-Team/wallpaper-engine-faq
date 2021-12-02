@@ -9,7 +9,7 @@
 * **确保您的手机和计算机连接到同一本地网络。**
   * 您的计算机不需要使用 Wi-Fi，即使通过网络电缆连接，计算机仍连接到同一网络。
 * **确保防火墙没有阻止 Wallpaper Engine 与本地网络通信。**
-  * Wallpaper Engine 可在网络端口 7884 (UDP) 和 7889 (TCP) 上发送组播，确保防火墙并未阻止其与本地网络通信。
+  * Wallpaper Engine uses the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking them.
 * **在计算机和移动设备上，禁用可能干扰设备间通信的任何类型的 VPN 或代理软件。**
 * **确保网络路由器没有阻止您的设备相互通信。**
     * 确保您的路由器没有阻止设备之间的网络流量。
