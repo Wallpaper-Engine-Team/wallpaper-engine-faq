@@ -44,5 +44,5 @@
 文件转移到移动设备上以后，在移动设备上打开 Wallpaper Engine，然后使用**导入文件**功能，从放置文件的目录选择文件，直接将 .mpkg 文件导入该应用程序。
 
 ::: danger
-It is important that you place the .mpkg files in the **Downloads** folder on the mobile device. Android 在允许应用程序访问文件方面具有非常严格的限制。 如果找不到或打不开设备上的 .mpkg 文件，请尝试将文件放入其他目录，通常 **Downloads** 文件夹是最可靠的选择。
+请务必将 .mpkg 文件放入移动设备上的 **Downloads** 文件夹。 Android 在允许应用程序访问文件方面具有非常严格的限制。 如果找不到或打不开设备上的 .mpkg 文件，请尝试将文件放入其他目录，通常 **Downloads** 文件夹是最可靠的选择。
 :::
