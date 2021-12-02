@@ -9,7 +9,7 @@ If you cannot pair your mobile device to your computer, a firewall or local netw
 * **Ensure that your phone and computer are connected to the same local network.**
   * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
 * **Ensure no firewall is blocking Wallpaper Engine from communicating with your local network.**
-  * Wallpaper Engine sends a multi-cast on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+  * Wallpaper Engine uses the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking them.
 * **Disable any sort of VPN or proxy software on your computer and your mobile device which can interfere with the communication between your devices.**
 * **Ensure your network router is not blocking your devices from communicating with each other.**
     * Make sure your router is not blocking network traffic between devices.
