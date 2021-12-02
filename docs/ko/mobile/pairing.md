@@ -63,8 +63,8 @@ PIN을 입력하고 나면 모바일 앱의 상태 바가 초록색으로 변하
 
 ## 모바일 페어링 문제 해결
 
-If you cannot pair your mobile device to your computer, please read our mobile pairing troubleshooting guide:
+모바일 기기를 컴퓨터에 페어링할 수 없다면 모바일 페어링 문제 해결 가이드를 확인해주시기 바랍니다.
 
-* [Mobile Pairing Problem Solving](/mobile/pairing-fixes)
+* [모바일 페어링 문제 해결](/mobile/pairing-fixes)
 
-**The guide also explains how to use the built-in export function and manually import your wallpapers into the app via USB or another method of your choice.**
+**이 가이드에서는 내장된 내보내기 기능을 사용하고, USB 또는 기타 수단을 통해 수동으로 배경화면을 앱에 가져오는 법 역시 확인하실 수 있습니다.**
