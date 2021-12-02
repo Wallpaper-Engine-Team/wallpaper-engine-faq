@@ -1,24 +1,24 @@
 # 모바일 페어링 문제 해결
 
 ::: tip
-Connection still does not work after all of this? Scroll to the bottom of this page to see the manual backup solution to import wallpapers via USB or another method.
+위의 절차를 전부 따른 후에도 연결이 안 되나요? 페이지를 맨 아래까지 스크롤하면 USB 또는 기타 수단으로 배경화면을 가져오는 수동 백업 방법을 확인할 수 있습니다.
 :::
 
 모바일 기기를 컴퓨터에 페어링할 수 없다면 높은 확률로 방화벽 또는 로컬 네트워크 설정의 문제입니다. 다음 절차를 따라 가능한 문제 원인들을 확인하세요.
 
 * **핸드폰과 컴퓨터가 같은 로컬 네트워크에 연결되어 있는지 확인**
-  * Your computer does not need wifi, it is still the same network even if it is connected through a network cable.
+  * 네트워크 케이블로 연결되어 있어도 같은 네트워크라면 컴퓨터에 Wi-Fi가 필요하지 않습니다.
 * **방화벽이 Wallpaper Engine이 로컬 네트워크와 통신하지 못하도록 막고 있는지 확인**
-  * Wallpaper Engine sends a multi-casts on the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking this.
+  * Wallpaper Engine은 7884 (UDP)와 7889 (TCP) 네트워크 포트에 멀티캐스트를 보내기 때문에, 방화벽이 해당 포트를 차단하지 않는지 확인해야 합니다.
 * **기기 간의 통신을 방해할 수 있는 컴퓨터와 모바일 기기의 모든 VPN 또는 프록시 소프트웨어를 비활성화하세요.**
 * **네트워크 공유기가 기기들이 서로 통신하지 못하도록 막고 있는지 확인**
     * 공유기가 기기 간의 통신을 차단하고 있는지 확인하세요.
     * 라우터 설정에서 **UPnP**(**"Universal Plug and Play"**)를 활성화하세요.
 * **Windows 및 모바일 기기의 Wallpaper Engine이 최신 버전이며 실행 중인지 확인**
 
-### Windows Firewall
+### Windows 방화벽
 
-Especially if your mobile device can find your computer but fails to connect to it, it's almost definitely caused by a firewall on your computer. When you first launch Wallpaper Engine, it will prompt you to grant it permission to your network. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
+특히 모바일 기기가 컴퓨터를 인식하지만 연결할 수가 없다면, 컴퓨터의 방화벽으로 인한 문제일 가능성이 매우 높습니다. Wallpaper Engine을 처음 실행하면 네트워크 권한을 요청할 것입니다. If you closed this window or did not specifically allow **ui32.exe** to communicate with your network, the Windows firewall will block Wallpaper Engine. Make sure to allow **ui32.exe** to communicate as shown in this screenshot:
 
 ![Windows Firewall Permissions](/img/faq/windows_defender.png)
 
