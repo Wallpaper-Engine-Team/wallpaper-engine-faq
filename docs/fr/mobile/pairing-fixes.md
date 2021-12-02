@@ -9,7 +9,7 @@ Si vous ne pouvez pas appairer votre appareil mobile avec votre ordinateur, il e
 * **Assurez-vous que votre téléphone et votre ordinateur sont connectés au même réseau local.**
   * Votre ordinateur n'a pas besoin de Wi-Fi, le réseau est toujours même si l'ordinateur est connecté par un câble réseau.
 * **Assurez-vous qu'aucun pare-feu ne bloque la communication de Wallpaper Engine avec votre réseau local.**
-  * Wallpaper Engine envoie une multidiffusion sur les ports réseau 7884 (UDP) et 7889 (TCP), assurez-vous qu'aucun pare-feu ne bloque cette diffusion.
+  * Wallpaper Engine uses the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking them.
 * **Désactivez tout logiciel VPN ou proxy sur votre ordinateur et votre appareil mobile, qui peut interférer avec la communication entre vos appareils.**
 * **Vérifiez que le routeur de votre réseau n'empêche pas vos appareils de communiquer entre eux.**
     * Assurez-vous que votre routeur ne bloque pas le trafic réseau entre les appareils.
