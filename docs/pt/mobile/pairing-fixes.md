@@ -9,7 +9,7 @@ Se não consegue emparelhar o seu dispositivo móvel ao seu computador, é muito
 * **Certifique-se de que o seu telefone e computador estão ligados à mesma rede local.**
   * O seu computador não precisa de wifi, continua a ser a mesma rede, mesmo que esteja ligado através de um cabo de rede.
 * **Certifique-se de que nenhuma firewall está a impedir o Wallpaper Engine de comunicar com a sua rede local.**
-  * O Wallpaper Engine envia um multi-casts nas portas de rede 7884 (UDP) e 7889 (TCP), certifique-se de que nenhuma firewall bloqueia isto.
+  * Wallpaper Engine uses the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking them.
 * **Desative qualquer tipo de VPN ou software de proxy no sue computador e no sue dispositivo móvel que possa interferir na comunicação entre os seus dispositivos.**
 * **Certifique-se de que o seu router de rede não está a impedir que os seus dispositivos comuniquem entre si.**
     * Certifique-se de que o seu router não está a bloquear o tráfego de rede entre dispositivos.
