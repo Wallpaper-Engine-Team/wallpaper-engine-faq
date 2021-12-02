@@ -44,5 +44,5 @@ Sobald Wallpaper Engine die .mpkg-Dateien für deine Hintergründe erstellt hat,
 Sobald die Dateien auf deinem Mobilgerät gespeichert sind, öffne Wallpaper Engine auf deinem Mobilgerät und nutze die **Datei importieren**-Funktionalität, um die .mpkg-Dateien direkt aus dem Verzeichnis einzulesen, in welchem du diese zuvor gespeichert hast.
 
 ::: danger
-Es ist wichtig, dass die .mpkg-Dateien im **Downloads**-Ordner deines Mobilgeräts platziert werden. Android ist sehr restriktiv, wenn es darum geht, dass Apps den Zugriff auf Dateien deines Geräts erhalten. Wenn die App dir keine .mpkg-Dateien auf deinem Gerät anzeigt oder diese sich nicht öffnen lassen, versuche sie im **Downloads**-Verzeichnis zu platzieren, dieses ist funktioniert relativ verlässlich.
+It is important that you place the .mpkg files in the **Downloads** folder on the mobile device. Android ist sehr restriktiv, wenn es darum geht, dass Apps den Zugriff auf Dateien deines Geräts erhalten. Wenn die App dir keine .mpkg-Dateien auf deinem Gerät anzeigt oder diese sich nicht öffnen lassen, versuche sie im **Downloads**-Verzeichnis zu platzieren, dieses ist funktioniert relativ verlässlich.
 :::
