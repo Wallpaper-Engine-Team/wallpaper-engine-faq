@@ -1,6 +1,6 @@
 # Mobil Eşleme Sorun Çözme
 
-::: ipucu Tüm bunlardan sonra bağlantı yine de çalışmıyor mu? Duvar kâğıtlarını USB veya başka bir yöntemle içe aktarmak üzere manuel yedekleme çözümünü görmek için bu sayfanın en altına gidin.
+::: tip Tüm bunlardan sonra bağlantı yine de çalışmıyor mu? Duvar kâğıtlarını USB veya başka bir yöntemle içe aktarmak üzere manuel yedekleme çözümünü görmek için bu sayfanın en altına gidin.
 :::
 
 Eğer mobil cihazınızı bilgisayarınızla eşleştiremiyorsanız büyük ihtimalle sebebi bir güvenlik duvarı veya yerel ağdır. Şu muhtemel sorun kaynaklarını kontrol edin:
@@ -42,5 +42,6 @@ Wallpaper Engine, duvar kâğıtlarınız için .mpkg dosyalarını oluşturdukt
 
 Dosyaları mobil cihazınıza aldıktan sonra cihazınızdan Wallpaper Engine'i açın ve .mpkg dosyalarını yerleştirdiğiniz dizinden seçerek uygulamaya doğrudan aktarmak için **Dosyayı İçe Aktar** işlevini kullanın.
 
-::: tehlike .mpkg dosyalarını, mobil cihazda **İndirilenler** klasörüne yerleştirmeniz önemlidir. Uygulamaların dosyalara erişmesine izin verme konusunda Android oldukça kısıtlayıcıdır. Cihazınızda .mpkg dosyalarını bulamıyor veya açamıyorsanız bunları başka bir dizine yerleştirmeyi deneyin; genellikle **İndirilenler** klasörü bunun için en güvenilir seçimdir.
+::: danger
+.mpkg dosyalarını, mobil cihazda **İndirilenler** klasörüne yerleştirmeniz önemlidir. Uygulamaların dosyalara erişmesine izin verme konusunda Android oldukça kısıtlayıcıdır. Cihazınızda .mpkg dosyalarını bulamıyor veya açamıyorsanız bunları başka bir dizine yerleştirmeyi deneyin; genellikle **İndirilenler** klasörü bunun için en güvenilir seçimdir.
 :::
