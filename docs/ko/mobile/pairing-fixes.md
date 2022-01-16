@@ -15,6 +15,7 @@
     * 공유기가 기기 간의 통신을 차단하고 있는지 확인하세요.
     * 라우터 설정에서 **UPnP**(**"Universal Plug and Play"**)를 활성화하세요.
 * **Windows 및 모바일 기기의 Wallpaper Engine이 최신 버전이며 실행 중인지 확인**
+* **If the app does not even show your computer:** It could be that a firewall is blocking broadcasts, you can attempt to directly enter the IP address of your system. In the connection overview on your mobile device, click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address on your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a first connection is not possible.
 
 ### Windows 방화벽
 
