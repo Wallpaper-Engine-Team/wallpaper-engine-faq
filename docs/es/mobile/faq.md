@@ -19,9 +19,9 @@ Deja pulsado el símbolo de visto de la esquina superior derecha cuando previsua
 * Huawei
 * Xiaomi
 
-## Live wallpapers on Android do not play sounds
+## Live wallpapers on Android do not play any sound
 
-Wallpaper Engine for Android does not play any sounds on Android and there is no way to activate audio playback for mobile wallpapers.
+Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
 
 ## How to unset Wallpaper Engine wallpaper
 
