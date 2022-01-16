@@ -23,12 +23,12 @@ Telefonunuzda Wallpaper Engine'de bir canlı duvar kâğıdını görüntülerke
 
 Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
 
-## How to unset Wallpaper Engine wallpaper
+## Wallpaper Engine duvar kâğıdı kaldırma
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+Bir Wallpaper Engine duvar kâğıdı kullanmayı bırakmak istiyorsanız, Android ayarlarından yeni bir duvar kâğıdı ayarlamanız yeterlidir. Wallpaper Engine, Android için yalnızca bir duvar kâğıdıdır ve duvar kâğıtları kendilerini kaldıramaz.
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+Alternatif olarak Wallpaper Engine'ı tamamen silebilirsiniz, bu durumda telefonunuz varsayılan duvar kâğıdına döner.
 
-## Android wallpaper regularly disappears or crashes silently
+## Android duvar kâğıdı sürekli kayboluyor ya da çöküyor
 
-If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+Eğer Wallpaper Engine'ı bir duvar kâğıdı olarak kullanıyorsanız ancak duvar kâğıdı birkaç saat, gün ya da hafta sonra bir hata ya da mesaj olmadan kayboluyorsa, muhtemelen telefonunuzun güç tasarruf modu işlevi nedeniyle kapatılıyordur. Normal durumlarda Android canlı duvar kâğıtlarını güç tasarrufu amacıyla kaldırmamalıdır ancak bazı kullanıcılar bunun gerçekleştiğini söylemiştir. Bu büyük oranda cihazınızın üreticisine bağlıdır, eğer Wallpaper Engine düzenli olarak kayboluyorsa Android ayarlarından güç optimizasyonunu Wallpaper Engine için devre dışı bırakın. Bu, Android versiyonunuza ve cihazınıza göre değişiklik gösterir. Eğer emin değilseniz, kendi mobil cihazınızın modeliyle uygulamalar için güç optimizasyonunu nasıl devre dışı bırakacağınızı internette arayın.
