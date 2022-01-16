@@ -15,4 +15,9 @@ Um dieses Problem zu lösen, kannst du eines dieser drei Dinge tun:
 
 Ersetze "some.exe" aus dem Video oben mit .exe-Dateien die du im Task Manager finden kannst, bis du die verantwortliche .exe gefunden hast.
 
-* Sollten alle Versuche fehlschlagen, kannst du auch einfach die Einstellung "Andere Anwendung spielt Ton" auf "Weiter ausführen" stellen. Dies bedeutet jedoch, dass Wallpaper Engine sich nicht mehr automatisch stumm schalten wird, wenn du Musik hörst oder Videos guckst, die nicht im Vollbildmodus sind.
+Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+
+* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
+* **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
+
+Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
