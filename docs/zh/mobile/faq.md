@@ -19,12 +19,16 @@
 * 华为
 * 小米
 
-## 如何取消设置 Wallpaper Engine 壁纸
+## Live wallpapers on Android do not play sounds
 
-如果想要停止使用 Wallpaper Engine 壁纸，直接在 Android 设置中分配新的壁纸即可。 Wallpaper Engine 只是 Android 的另一张壁纸，壁纸无法自行取消设置。
+Wallpaper Engine for Android does not play any sounds on Android and there is no way to activate audio playback for mobile wallpapers.
 
-您也可以完全卸载 Wallpaper Engine，这将使手机恢复到默认壁纸。
+## How to unset Wallpaper Engine wallpaper
 
-## Android 壁纸定期消失或无声崩溃
+If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
 
-如果您将 Wallpaper Engine 用作壁纸，但壁纸在几小时、几天或几周后消失而没有任何错误消息，则很可能是由于手机的省电功能而遭到错误终止。 在正常情况下，Android 绝不应该出于省电目的而终止动态壁纸，但一些用户报告他们遇到了这种情况。 这在很大程度上取决于设置制造商，如果 Wallpaper Engine 定期消失，请在 Android 设置中禁用 Wallpaper Engine 的电源优化。 该操作取决于您的 Android 版本和设备，如果不确定，可在网上搜索在确切移动设备名称上禁用应用程序电源优化的方法。
+Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+
+## Android wallpaper regularly disappears or crashes silently
+
+If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
