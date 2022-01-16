@@ -20,4 +20,4 @@ Common processes that can cause intermittent audio playback by recording audio w
 * **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
 * **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
 
-Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
+最後，您也可以將「其他應用程式正在播放音訊」的選項改為「保持執行」。 不過如此一來，您聆聽音樂或觀看非全螢幕視訊時，Wallpaper Engine 就不會自動將音訊輸出靜音。
