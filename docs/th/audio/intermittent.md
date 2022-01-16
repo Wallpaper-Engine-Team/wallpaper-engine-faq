@@ -15,4 +15,9 @@ Windows ไม่สามารถแยกความแตกต่างร
 
 แทนที่ไฟล์ .exe บางตัวด้วยไฟล์ .exe ที่คุณสามารถหาได้ในตัวจัดการงานจนกว่าคุณจะจำกัดจำนวนไฟล์ให้เหลือไฟล์ .exe ที่จำเป็นต่อการใช้งาน
 
-* สุดท้ายนี้ คุณยังสามารถเปลี่ยนตัวเลือก "แอพพลิเคชันอื่นกำลังเล่นไฟล์เสียง" เป็น "ทำงานต่อไป" อย่างไรก็ตาม Wallpaper Engine จะไม่ปิดเสียงของวอลล์เปเปอร์โดยอัตโนมัติเมื่อคุณฟังเพลงหรือดูวิดีโอแบบไม่เต็มหน้าจอ
+Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+
+* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
+* **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
+
+Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
