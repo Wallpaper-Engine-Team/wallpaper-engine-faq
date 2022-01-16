@@ -15,4 +15,9 @@ Windows не различает записывающие устройства и
 
 В поле «Название приложения» выбирайте exe-файлы, которые видите в диспетчере задач, пока перебором не найдете файл, который вызывает проблемы.
 
-* Наконец, для параметра «Другое приложение воспроизводит аудио» можно установить значение «Продолжать работать». Однако в таком случае Wallpaper Engine не будет автоматически заглушать звуки обоев, когда вы слушаете музыку или смотрите видео не на полный экран.
+Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+
+* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
+* **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
+
+Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
