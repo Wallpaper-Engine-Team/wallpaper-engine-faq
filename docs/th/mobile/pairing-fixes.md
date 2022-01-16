@@ -15,6 +15,7 @@
     * ตรวจสอบให้แน่ใจว่าเราเตอร์ของคุณไม่ได้ปิดกั้นการรับส่งข้อมูลเครือข่ายระหว่างอุปกรณ์
     * เปิด **UPnP** (**"Universal Plug and Play"**) ในการตั้งค่าเราเตอร์ของคุณ
 * **ตรวจสอบอีกครั้งว่า Wallpaper Engine บน Windows และอุปกรณ์มือถือของคุณเป็นรุ่นล่าสุดและกำลังทำงาน**
+* **If the app does not even show your computer:** It could be that a firewall is blocking broadcasts, you can attempt to directly enter the IP address of your system. In the connection overview on your mobile device, click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address on your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a first connection is not possible.
 
 ### ไฟร์วอลล์ Windows
 
