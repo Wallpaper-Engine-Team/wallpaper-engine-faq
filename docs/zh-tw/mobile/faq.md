@@ -19,12 +19,16 @@
 * 華為
 * 小米
 
-## 如何取消設定 Wallpaper Engine 桌布
+## Live wallpapers on Android do not play sounds
 
-如果您不想再使用 Wallpaper Engine 的桌布，只要在 Android 設定中指派新的桌布即可。 Wallpaper Engine 只是 Android 的另一種桌布，桌布本身無法取消設定。
+Wallpaper Engine for Android does not play any sounds on Android and there is no way to activate audio playback for mobile wallpapers.
 
-不過，您可解除安裝 Wallpaper Engine，手機將回復成預設桌布。
+## How to unset Wallpaper Engine wallpaper
 
-## Android 桌布定期消失或突然無法運作
+If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
 
-如果您將 Wallpaper Engine 設為桌布，但桌布在數小時、數天或數週後消失，且未出現任何錯誤訊息，則很可能是因為手機的省電功能使其錯誤終止運作。 在正常情況下，Android 絕不會因為省電而終止動態桌布，但一些使用者卻回報了此狀況。 這大部分與裝置製造商有關，如果 Wallpaper Engine 固定消失，請在 Android 設定中停用 Wallpaper Engine 電源最佳化。 因 Android 版本與裝置的操作方法各不相同，如果您不確定，可上網搜尋方法，依據確切的行動裝置名稱，確認如何停用應用程式電源最佳化。
+Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+
+## Android wallpaper regularly disappears or crashes silently
+
+If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
