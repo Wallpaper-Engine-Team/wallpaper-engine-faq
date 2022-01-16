@@ -19,12 +19,16 @@ AndroidデバイスをWindows PCに接続した上で壁紙をインストール
 * Huawei
 * Xiaomi
 
-## Wallpaper Engineの壁紙の設定を解除するには
+## Live wallpapers on Android do not play sounds
 
-Wallpaper Engineの壁紙の使用をやめたい時は、Androidの設定で新しい壁紙を設定してください。 Wallpaper Engineは、Androidにとっては単に壁紙の一つにすぎないため、壁紙自体を解除することはできません。
+Wallpaper Engine for Android does not play any sounds on Android and there is no way to activate audio playback for mobile wallpapers.
 
-あるいは、Wallpaper Engineを完全にアンインストールすることもできます。それによって壁紙はデフォルトのものに戻ります。
+## How to unset Wallpaper Engine wallpaper
 
-## Androidの壁紙が定期的に消えたり、静かにクラッシュしたりする
+If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
 
-壁紙としてWallpaper Engineを使っていて、特にエラーメッセージもなく壁紙が数時間、数日、あるいは数週間後に消える場合は、スマートフォンの節電機能によって誤って終了している可能性があります。 通常の状態では、Androidが節電目的でライブ壁紙を終了させることはないはずですが、そういうことが起きたという報告がいくつか寄せられています。 これが起きるか起きないかは、デバイスのメーカーによるところが大きくなります。Wallpaper Engineが定期的に消える場合は、Androidの設定でWallpaper Engineのバッテリー使用の最適化を無効にしてください。 このオプションはAndroidのバージョンやデバイスによって違います。よく分からない場合は、お使いのモバイルデバイスの正確な名前でWeb検索をして、バッテリー使用の最適化を無効にする方法を探してください。
+Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+
+## Android wallpaper regularly disappears or crashes silently
+
+If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
