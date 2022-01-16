@@ -19,12 +19,16 @@ Android 기기를 Windows에 연결해 더 많은 배경화면을 설치하고 �
 * Huawei
 * Xiaomi
 
-## Wallpaper Engine 배경화면 설정 해제
+## Live wallpapers on Android do not play sounds
 
-Wallpaper Engine의 배경화면을 그만 사용하고 싶을 때에는 Android 설정에서 새로운 배경화면을 지정하면 됩니다. Android는 Wallpaper Engine을 일반 배경화면과 똑같이 간주하기 때문에 Wallpaper Engine을 통해서는 해제할 수 없습니다.
+Wallpaper Engine for Android does not play any sounds on Android and there is no way to activate audio playback for mobile wallpapers.
 
-또는 Wallpaper Engine 자체를 제거하면 핸드폰이 기본 배경화면으로 되돌아갑니다.
+## How to unset Wallpaper Engine wallpaper
 
-## Android 배경화면이 주기적으로 사라지거나 충돌합니다
+If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
 
-Wallpaper Engine을 배경화면으로 사용 중이지만 몇 시간, 며칠 또는 몇 주 후 배경화면이 오류 메시지 없이 사라진다면, 핸드폰의 배터리 절약 기능으로 인해 잘못 종료된 것일 가능성이 높습니다. 일반적인 상황에서는 Android가 전력을 절약하기 위해 라이브 배경화면을 종료하지 않지만, 일부 유저들이 이러한 현상을 경험했다고 보고했습니다. 이 문제는 주로 기기 제조사에 달려 있으며, Wallpaper Engine이 주기적으로 사라진다면 Android 설정에서 Wallpaper Engine의 배터리 최적화를 비활성화하십시오. 그 방법은 자신의 Android 버전과 기기에 따라 다르며, 확실하지 않다면 인터넷에서 자신의 정확한 모바일 기기에서 앱의 배터리 최적화를 비활성화하는 방법을 검색하십시오.
+Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+
+## Android wallpaper regularly disappears or crashes silently
+
+If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
