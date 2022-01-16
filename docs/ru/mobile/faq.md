@@ -23,12 +23,12 @@
 
 Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
 
-## How to unset Wallpaper Engine wallpaper
+## Как убрать обои Wallpaper Engine
 
-If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
+Если вы хотите сменить обои Wallpaper Engine, вы можете просто назначить новые обои в настройках Android. Wallpaper Engine — это просто еще один вариант обоев для Android, и они не могут сброситься сами по себе.
 
-Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+Вы также можете полностью удалить Wallpaper Engine, что приведет к тому, что обои на вашем телефоне установятся по умолчанию.
 
-## Android wallpaper regularly disappears or crashes silently
+## Обои Android регулярно пропадают или вылетают без уведомлений
 
-If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
+Если вы используете Wallpaper Engine в качестве обоев, но обои исчезают без каких-либо уведомлений об ошибках через несколько часов, дней или недель, скорее всего, они были случайно отключены из-за функции энергосбережения вашего телефона. Обычно Android никогда не отключает живые обои в целях энергосбережения, но некоторые пользователи сообщали об этом. Во многом это зависит от производителя вашего устройства. Если Wallpaper Engine исчезает регулярно, отключите оптимизацию энергопотребления для Wallpaper Engine в настройках Android. Это зависит от версии Android и устройства. Если вы не уверены, поищите в Интернете точное имя вашего мобильного устройства и способы отключения на нем оптимизации энергопотребления для приложений.
