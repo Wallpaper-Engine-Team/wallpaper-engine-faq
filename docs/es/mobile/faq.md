@@ -19,12 +19,16 @@ Deja pulsado el símbolo de visto de la esquina superior derecha cuando previsua
 * Huawei
 * Xiaomi
 
-## Cómo quitar un fondo de Wallpaper Engine
+## Live wallpapers on Android do not play sounds
 
-Si quieres quitar un fondo de Wallpaper Engine, solo tienes que poner cualquier otro fondo en los ajustes de Android. Wallpaper Engine funciona como un fondo normal y corriente, por lo que no puede eliminarse por sí solo.
+Wallpaper Engine for Android does not play any sounds on Android and there is no way to activate audio playback for mobile wallpapers.
 
-Si lo prefieres, puedes desinstalar Wallpaper Engine para que el dispositivo vuelva a tener el fondo por defecto.
+## How to unset Wallpaper Engine wallpaper
 
-## El fondo de Android desaparece o se cuelga
+If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
 
-Si usas Wallpaper Engine de fondo y este desaparece después de unas horas, días o semanas sin ningún tipo de mensaje, lo más probable es que lo esté cerrando la función de ahorro de energía de tu dispositivo. En circunstancias normales, Android no tendría por qué cerrar fondos dinámicos para ahorrar energía, pero hay algunos usuarios que nos han informado de que les ha pasado. Todo depende del fabricante del dispositivo. Si Wallpaper Engine desaparece muy a menudo, desactiva la optimización del rendimiento de la aplicación en los ajustes de Android. Esta opción puede variar en función del dispositivo por lo que, si tienes alguna duda, busca en internet cómo desactivar esta opción en tu dispositivo en concreto.
+Alternatively, you can uninstall Wallpaper Engine entirely which will cause your phone to revert to its default wallpaper.
+
+## Android wallpaper regularly disappears or crashes silently
+
+If you are using Wallpaper Engine as a wallpaper but the wallpaper disappears without any error messages after a few hours, days or weeks, it is likely being falsely terminated by your phone's power saving functionality. Under normal circumstances, Android should never terminate live wallpapers for power saving purposes but some users have reported this happening to them. This depends largely on your device manufacturer, if Wallpaper Engine disappears regularly, disable power optimization for Wallpaper Engine in your Android settings. This differs depending on your Android version and device, if you are unsure, search the web for ways to disable power optimization for apps on your exact mobile device name.
