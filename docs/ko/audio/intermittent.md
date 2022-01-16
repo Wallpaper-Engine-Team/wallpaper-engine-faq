@@ -15,4 +15,9 @@ Wallpaper Engine 설정의 "성능" 탭을 확인하세요. *"타 응용 프로�
 
 일부 .exe를 작업 관리자에서 찾을 수 있는 .exe 파일로 대체하여 문제가 되는 .exe를 찾을 때까지 범위를 좁힙니다.
 
-* 마지막으로 '타 응용 프로그램 오디오 재생'을 '계속 실행'으로 변경할 수도 있습니다. 그러나 이렇게 하면 음악을 듣거나 전체화면이 아닌 상태로 비디오를 시청할 때 Wallpaper Engine이 배경화면에서 오디오 출력을 자동으로 음소거할 수 없습니다.
+Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+
+* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
+* **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
+
+Lastly, you can also change the option 'other application playing audio' to 'keep running'. However, this means Wallpaper Engine will not automatically mute audio output from wallpapers when you listen to music or watch videos that are not full-screen.
