@@ -15,6 +15,7 @@ Si vous ne pouvez pas appairer votre appareil mobile avec votre ordinateur, il e
     * Assurez-vous que votre routeur ne bloque pas le trafic réseau entre les appareils.
     * Activez **UPnP** (**"Universal Plug and Play"**) dans les paramètres de votre routeur.
 * **Vérifiez que Wallpaper Engine sur Windows et votre appareil mobile sont tous deux à jour et en cours d'exécution.**
+* **If the app does not even show your computer:** It could be that a firewall is blocking broadcasts, you can attempt to directly enter the IP address of your system. In the connection overview on your mobile device, click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address on your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a first connection is not possible.
 
 ### Pare-feu Windows
 
