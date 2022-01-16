@@ -19,6 +19,10 @@ When previewing a live wallpaper in Wallpaper Engine on your phone, long-press a
 * Huawei
 * Xiaomi
 
+## Live wallpapers on Android do not play sounds
+
+Wallpaper Engine for Android does not play any sounds on Android and there is no way to activate audio playback for mobile wallpapers.
+
 ## How to unset Wallpaper Engine wallpaper
 
 If you wish to stop using a Wallpaper Engine wallpaper, you can simply assign a new wallpaper in your Android settings. Wallpaper Engine is just another wallpaper to Android and wallpapers cannot unset themselves.
