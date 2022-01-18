@@ -9,13 +9,13 @@
 * **スマートフォンとPCが同じローカルネットワークに接続されていることを確認します。**
   * お使いのPCにWi-Fi接続は必要なく、ネットワークケーブルで接続された状態でも同じネットワークになります。
 * **ファイアーウォールが、Wallpaper Engineのローカルネットワークとの通信をブロックしていないことを確認します。**
-  * Wallpaper Engine uses the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking them.
+  * Wallpaper Engineはネットワークポートの7884(UDP)ならびに7889(TCP)を使用します。ファイアウォールによってブロックされていないことをご確認ください。
 * **デバイス間の通信を妨げる可能性のある、PCならびにモバイルデバイス上のあらゆるタイプのVPNまたはプロキシソフトウェアを無効にしてください。**
 * **ネットワークルーターが、デバイス同士の通信をブロックしていないことを確認します。**
     * ルーターがデバイス間のネットワークトラフィックを干渉していないかを確認してください。
     * ルーター側の設定で**UPnP** (**Universal Plug and Play**)を有効にしてください。
 * **Windows上とモバイルデバイス上のWallpaper Engineが、どちらも最新で起動していることを確認します。**
-* **If your computer never even becomes visible in the Android app:** It could be that a firewall is only blocking the broadcasts used to discover your device, you can attempt to directly enter the IP address of your computer. Navigate to the connection overview on your mobile device and click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address of your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a connection is not possible.
+* ** Androidアプリ側でお使いのPCが表示されない場合:** ファイアウォールが端末を探知するために使われるブロードキャストのみをブロックしている可能性があります。PCのIPアドレスを直接入力してみてください。 Navigate to the connection overview on your mobile device and click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address of your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a connection is not possible.
 
 ### Windowsファイアウォール
 
