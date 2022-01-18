@@ -15,9 +15,9 @@ Wallpaper Engine の設定で「パフォーマンス」タブをチェックし
 
 原因となっている .exe ファイルが絞り込めるまで、タスクマネージャで見つかる .exe ファイルで .exe を置き換えます。
 
-Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+十分な知識がない状態で録音することで、再生時に音の一時停止的を引き起こす可能性のある一般的なプロセス:
 
-* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
+* **nvcontainer.exe**: 録音する可能性のあるNvidia GeForce Experienceの一部。 **Nvidia製のグラフィックカード使用時のみ関連があります。**
 * **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
 
 最後に、「オーディオを再生する他のアプリケーション」オプションを「再生を続ける」に変更することもできます。 しかし、これを行うと、全画面表示になっていない状態で音楽を聴いたり動画を見たりするときに、Wallpaper Engine が壁紙からのオーディオ出力を自動的にミュートしないことになります。
