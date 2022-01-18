@@ -15,7 +15,7 @@
     * ルーターがデバイス間のネットワークトラフィックを干渉していないかを確認してください。
     * ルーター側の設定で**UPnP** (**Universal Plug and Play**)を有効にしてください。
 * **Windows上とモバイルデバイス上のWallpaper Engineが、どちらも最新で起動していることを確認します。**
-* ** Androidアプリ側でお使いのPCが表示されない場合:** ファイアウォールが端末を探知するために使われるブロードキャストのみをブロックしている可能性があります。PCのIPアドレスを直接入力してみてください。 Navigate to the connection overview on your mobile device and click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address of your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a connection is not possible.
+* ** Androidアプリ側でお使いのPCが表示されない場合:** ファイアウォールが端末を探知するために使われるブロードキャストのみをブロックしている可能性があります。PCのIPアドレスを直接入力してみてください。 お持ちのモバイルデバイス上で接続の概要画面へと進み、右上にある3つの点をタップ後、**IPアドレスを手動で入力する**を選択してください。 お持ちのPCで使用しているIPアドレスを手動で入力してください。 PC上でWallpaper Engineが起動し、**新しいデバイスを接続**の画面が開かれている状態であることを確認してください。この状態でないと接続は実行されません。
 
 ### Windowsファイアウォール
 
