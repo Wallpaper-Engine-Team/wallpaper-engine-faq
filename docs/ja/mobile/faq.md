@@ -21,7 +21,7 @@ AndroidデバイスをWindows PCに接続した上で壁紙をインストール
 
 ## Androidのライブ壁紙では音は再生されません
 
-AndroidのWallpaper Engineでは壁紙のオーディオ再生はサポートされていません。Android端末ではすべての壁紙が自動で無音状態になります。
+AndroidのWallpaper Engineでは壁紙のオーディオ再生はサポートされていません。Android端末ではすべての壁紙が無条件で無音になります。
 
 ## Wallpaper Engineの壁紙の設定を解除するには
 
