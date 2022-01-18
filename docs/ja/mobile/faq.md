@@ -19,9 +19,9 @@ AndroidデバイスをWindows PCに接続した上で壁紙をインストール
 * Huawei
 * Xiaomi
 
-## Live wallpapers on Android do not play any sound
+## Androidのライブ壁紙では音は再生されません
 
-Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
+AndroidのWallpaper Engineでは壁紙のオーディオ再生はサポートされていません。Android端末ではすべての壁紙が自動で無音状態になります。
 
 ## Wallpaper Engineの壁紙の設定を解除するには
 
