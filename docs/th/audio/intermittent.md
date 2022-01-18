@@ -15,9 +15,9 @@ Windows ไม่สามารถแยกความแตกต่างร
 
 แทนที่ไฟล์ .exe บางตัวด้วยไฟล์ .exe ที่คุณสามารถหาได้ในตัวจัดการงานจนกว่าคุณจะจำกัดจำนวนไฟล์ให้เหลือไฟล์ .exe ที่จำเป็นต่อการใช้งาน
 
-Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+กระบวนการทั่วไปที่อาจทำให้เกิดการเล่นเสียงเป็นช่วงๆ เมื่อคุณบันทึกเสียงโดยไม่ทราบวิธีการทั้งหมด:
 
-* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
-* **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
+* **nvcontainer.exe**: ส่วนหนึ่งของ Nvidia GeForce Experience อาจบันทึกเสียง **เกี่ยวข้องต่อเมื่อคุณมีการ์ดจอ Nvidia**
+* **amdow.exe**: ส่วนหนึ่งของ AMD ReLive อาจบันทึกเสียง **เกี่ยวข้องต่อเมื่อคุณมีการ์ดจอ AMD**
 
 สุดท้ายนี้ คุณยังสามารถเปลี่ยนตัวเลือก "แอพพลิเคชันอื่นกำลังเล่นไฟล์เสียง" เป็น "ทำงานต่อไป" อย่างไรก็ตาม Wallpaper Engine จะไม่ปิดเสียงของวอลล์เปเปอร์โดยอัตโนมัติเมื่อคุณฟังเพลงหรือดูวิดีโอแบบไม่เต็มหน้าจอ
