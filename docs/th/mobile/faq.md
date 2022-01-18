@@ -19,9 +19,9 @@
 * Huawei
 * Xiaomi
 
-## Live wallpapers on Android do not play any sound
+## วอลเปเปอร์ภาพเคลื่อนไหวบน Android ไม่เล่นเสียง
 
-Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
+Wallpaper Engine สำหรับ Android ไม่รองรับการเล่นเสียงสำหรับวอลเปเปอร์ วอลเปเปอร์ทั้งหมดจะถูกปิดเสียงโดยอัตโนมัติบนอุปกรณ์ Android ของคุณ
 
 ## วิธียกเลิกการตั้งค่าวอลเปเปอร์ Wallpaper Engine
 
