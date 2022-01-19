@@ -14,7 +14,7 @@ Eğer mobil cihazınızı bilgisayarınızla eşleştiremiyorsanız büyük ihti
     * Yönlendiricinizin cihazlar arasındaki ağ trafiğini engellemediğinden emin olun.
     * Yönlendirici ayarlarınızda **UPnP**'ı (**"Evrensel Tak ve Çalıştır"**) açın.
 * **Hem Windows'daki hem de mobil cihazınızdaki Wallpaper Engine'ın güncel olduğunu ve çalışır durumda olup olmadığını kontrol edin.**
-* **If your computer never even becomes visible in the Android app:** It could be that a firewall is only blocking the broadcasts used to discover your device, you can attempt to directly enter the IP address of your computer. Navigate to the connection overview on your mobile device and click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address of your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a connection is not possible.
+* **Bilgisayarınız, Android uygulamasında görünür olmazsa:** Bir güvenlik duvarı cihazınızı bulmak için kullanılan yayınları engelliyor olabilir, bu durumda bilgisayarınızın IP adresini doğrudan girmeyi deneyebilirsiniz. Mobil cihazınızda bağlantı genel bakışına gidin ve sağ üst köşedeki üç noktayı tıklayın, ardından **IP'yi elle olarak girin**'i seçin. Artık bilgisayarınızın IP adresini el ile girmeyi deneyebilirsiniz. Wallpaper Engine'in bilgisayarınızda çalıştığından ve **Yeni Cihaz Bağla** seçeneğini açtığınızdan emin olun. Aksi durumda bağlantı kuramazsınız.
 
 ### Windows Güvenlik Duvarı
 
