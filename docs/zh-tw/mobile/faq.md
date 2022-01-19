@@ -19,9 +19,9 @@
 * 華為
 * 小米
 
-## Live wallpapers on Android do not play any sound
+## Android 上的動態桌布無法播放任何音訊
 
-Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
+Android 版 Wallpaper Engine 不支援桌布的音訊播放，所有桌布在 Android 裝置上皆自動靜音。
 
 ## 如何取消設定 Wallpaper Engine 桌布
 
