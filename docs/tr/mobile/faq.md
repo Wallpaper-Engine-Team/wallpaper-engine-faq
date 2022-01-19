@@ -19,9 +19,9 @@ Telefonunuzda Wallpaper Engine'de bir canlı duvar kâğıdını görüntülerke
 * Huawei
 * Xiaomi
 
-## Live wallpapers on Android do not play any sound
+## Android'deki canlı duvar kâğıtlarınden ses gelmiyor
 
-Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
+Android için Wallpaper Engine, duvar kâğıtlarında ses desteği vermez. Android cihazınızdaki tüm duvar kâğıtları otomatik olarak sessizdir.
 
 ## Wallpaper Engine duvar kâğıdı kaldırma
 
