@@ -15,7 +15,7 @@
     * 確保路由器並未阻擋裝置之間的網路流量。
     * 在路由器設定中開啟 **UPnP** (**「Universal Plug and Play，通用隨插即用」**)。
 * **再次確認 Windows 和行動版的 Wallpaper Engine 皆為最新版本且正常運作。**
-* **If your computer never even becomes visible in the Android app:** It could be that a firewall is only blocking the broadcasts used to discover your device, you can attempt to directly enter the IP address of your computer. Navigate to the connection overview on your mobile device and click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address of your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a connection is not possible.
+* **若您的電腦在 Android 應用程式一直無法顯示：**可能是防火牆封鎖了用於偵測您裝置的廣播，您可嘗試直接輸入電腦的 IP 位址。 瀏覽行動裝置的連線概覽，按一下右上角三個點，接著選取**手動輸入 IP **。 You can now try to manually input the IP address of your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a connection is not possible.
 
 ### Windows 防火牆
 
