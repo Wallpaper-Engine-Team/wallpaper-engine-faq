@@ -9,13 +9,13 @@
 * **Убедитесь, что ваш телефон и компьютер подключены к одной локальной сети.**
   * Вашему компьютеру не нужен Wi-Fi, это все та же сеть, даже при подключении через сетевой кабель.
 * **Убедитесь, что брандмауэр не блокирует связь Wallpaper Engine с вашей локальной сетью.**
-  * Wallpaper Engine uses the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking them.
+  * Wallpaper Engine использует мультивещание в сетевых портах 7884 (UDP) и 7889 (TCP). Убедитесь, что оно не блокируется брандмауэром.
 * **Отключите на своем компьютере и мобильном устройстве любую программу VPN или прокси, которая может мешать обмену данными между вашими устройствами.**
 * **Убедитесь, что сетевой маршрутизатор не блокирует связь ваших устройств друг с другом.**
     * Убедитесь, что ваш маршрутизатор не блокирует сетевой трафик между устройствами.
     * Включите **UPnP** (**Universal Plug and Play**) в настройках маршрутизатора.
 * **Убедитесь, что приложение Wallpaper Engine в Windows и на вашем мобильном устройстве обновлено и работает.**
-* **If your computer never even becomes visible in the Android app:** It could be that a firewall is only blocking the broadcasts used to discover your device, you can attempt to directly enter the IP address of your computer. Navigate to the connection overview on your mobile device and click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address of your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a connection is not possible.
+* **Если ваш компьютер не отображается в приложении Android:** возможно, брандмауэр блокирует только сети, используемые для обнаружения вашего устройства. Вы можете попытаться напрямую ввести IP-адрес вашего компьютера. Перейдите к обзору подключений на мобильном устройстве и нажмите на три точки в правом верхнем углу, затем выберите **Ввести IP вручную**. Теперь вы можете попробовать вручную ввести IP-адрес вашего компьютера. Убедитесь, что на вашем компьютере запущена программа Wallpaper Engine и что вы открыли вкладку **Подключить новое устройство**, в противном случае подключение невозможно.
 
 ### Брандмауэр Windows
 
