@@ -15,9 +15,9 @@ Bunu çözmek için şu üç şeyden birini yapın:
 
 Sorumlu .exe ile sınırlandırana kadar bazı .exe dosyalarını görev yöneticisinde bulabileceğiniz .exe dosyalarıyla değiştirin.
 
-Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+Tam bilginiz olmadan ses kaydı yaparak sesin aralıklı olarak çalınmasına neden olabilen sık karşılaşılan işlemler:
 
-* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
-* **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
+* **nvcontainer.exe**: Ses kaydı yapabilen Nvidia GeForce Experience'ın bir parçası. **Nvidia grafik kartınız varsa geçerlidir.**
+* **amdow.exe**: Ses kaydı yapabilen AMD ReLive'ın bir parçasıdır. **AMD grafik kartına sahipseniz geçerlidir.**
 
 Son olarak da "diğer uygulamadan ses çalarken" seçeneğini "çalıştırmaya devam et" olarak değiştirebilirsiniz. Ancak bu demektir ki müzik dinlerken veya tam ekran olmayan videoları izlerken Wallpaper Engine duvar kâğıtlarındaki ses çıkışını otomatik olarak susturmaz.
