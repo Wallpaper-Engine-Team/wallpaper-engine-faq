@@ -17,7 +17,7 @@ Windows 並不會分辨音訊錄製與播放，因此會在錄製電腦的音訊
 
 Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
 
-* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
+* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **僅 Nvidia 顯示卡使用者適用。**
 * **amdow.exe**：AMD ReLive 的一部分，可能會錄製音訊。 **僅 AMD 顯示卡使用者適用。**
 
 最後，您也可以將「其他應用程式正在播放音訊」的選項改為「保持執行」。 不過如此一來，您聆聽音樂或觀看非全螢幕視訊時，Wallpaper Engine 就不會自動將音訊輸出靜音。
