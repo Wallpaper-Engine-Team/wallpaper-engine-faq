@@ -15,7 +15,7 @@ Windows 並不會分辨音訊錄製與播放，因此會在錄製電腦的音訊
 
 持續將部分 .exe 檔案取代成工作管理員中找到的 .exe 檔案，縮小範圍，找到造成問題的 .exe 檔案。
 
-Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+在您不完全知情的情況下錄製音訊，可能造成音訊播放斷斷續續，常見過程為：
 
 * **nvcontainer.exe**：Nvidia GeForce 的一部分，可能會錄製音訊。 **僅 Nvidia 顯示卡使用者適用。**
 * **amdow.exe**：AMD ReLive 的一部分，可能會錄製音訊。 **僅 AMD 顯示卡使用者適用。**
