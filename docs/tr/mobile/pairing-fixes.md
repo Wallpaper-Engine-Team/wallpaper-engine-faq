@@ -8,7 +8,7 @@ Eğer mobil cihazınızı bilgisayarınızla eşleştiremiyorsanız büyük ihti
 * **Telefonunuzun ve bilgisayarınızın aynı yerel ağa bağlandığından emin olun.**
   * Bilgisayarınızın WIFI bağlantısına ihtiyacı yoktur, ağ kablosu ile bağlansa bile yine aynı ağ üzerindedir.
 * **Hiçbir güvenlik duvarının Wallpaper Engine'ın yerel ağınızla iletişime geçmesine engel olmadığından emin olun.**
-  * Wallpaper Engine uses the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking them.
+  * Wallpaper Engine, 7884 (UDP) ve 7889 (TCP) ağ bağlantı noktalarını kullanır, hiçbir güvenlik duvarının bunu engellemediğinden emin olun.
 * **Bilgisayarınızdaki ve mobil cihazınızdaki, cihazlarınız arasındaki iletişimi engelleyebilecek her türlü VPN veya proxy yazılımını devre dışı bırakın.**
 * **Ağ yönlendiricinizin cihazlarınızın birbirleriye iletişime geçmesini engellemediğinden emin olun.**
     * Yönlendiricinizin cihazlar arasındaki ağ trafiğini engellemediğinden emin olun.
