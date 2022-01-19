@@ -15,9 +15,9 @@ Windows не различает записывающие устройства и
 
 В поле «Название приложения» выбирайте exe-файлы, которые видите в диспетчере задач, пока перебором не найдете файл, который вызывает проблемы.
 
-Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+Частые процессы, которые могут привести к прерывистому воспроизведению звука из-за записи звука без вашего ведома:
 
-* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
-* **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
+* **nvcontainer.exe**: Часть Nvidia GeForce Experience, которая может записывать звук. **Актуально только если у вас видеокарта Nvidia.**
+* **amdow.exe**: Часть AMD ReLive, которая может записывать звук. **Актуально только если у вас видеокарта AMD.**
 
 Наконец, для параметра «Другое приложение воспроизводит аудио» можно установить значение «Продолжать работать». Однако в таком случае Wallpaper Engine не будет автоматически заглушать звуки обоев, когда вы слушаете музыку или смотрите видео не на полный экран.
