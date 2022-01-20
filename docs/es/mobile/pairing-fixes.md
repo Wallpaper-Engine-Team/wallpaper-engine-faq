@@ -15,7 +15,7 @@ Si no puedes emparejar un dispositivo móvil con el ordenador, es posible que se
     * Comprueba que el router no bloquee el tráfico de red entre dispositivos.
     * Activa la opción **UPnP** (**Universal Plug and Play**) en la configuración del router.
 * **Comprueba que tanto el Wallpaper Engine de Windows como el del dispositivo móvil estén actualizados y en funcionamiento.**
-* **If your computer never even becomes visible in the Android app:** It could be that a firewall is only blocking the broadcasts used to discover your device, you can attempt to directly enter the IP address of your computer. Navigate to the connection overview on your mobile device and click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address of your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a connection is not possible.
+* **Si tu ordenador no aparece visible en la aplicación de Android,** es posible que un firewall esté bloqueando las transmisiones utilizadas para descubrir el dispositivo, puedes intentar introducir directamente la dirección IP de tu ordenador. Navigate to the connection overview on your mobile device and click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address of your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a connection is not possible.
 
 ### Firewall de Windows
 
