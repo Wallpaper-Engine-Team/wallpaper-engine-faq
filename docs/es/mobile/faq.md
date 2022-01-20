@@ -19,7 +19,7 @@ Deja pulsado el símbolo de visto de la esquina superior derecha cuando previsua
 * Huawei
 * Xiaomi
 
-## Live wallpapers on Android do not play any sound
+## Los fondos dinámicos no reproducen ningún sonido en Android
 
 Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
 
