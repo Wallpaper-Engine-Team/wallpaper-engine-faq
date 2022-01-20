@@ -21,7 +21,7 @@
 
 ## Android 上的动态壁纸不播放任何声音
 
-Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
+Android 版 Wallpaper Engine 不支持壁纸的音频播放，所有壁纸在 Android 设备上均自动静音。
 
 ## 如何取消设置 Wallpaper Engine 壁纸
 
