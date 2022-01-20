@@ -19,7 +19,7 @@
 * 华为
 * 小米
 
-## Live wallpapers on Android do not play any sound
+## Android 上的动态壁纸不播放任何声音
 
 Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
 
