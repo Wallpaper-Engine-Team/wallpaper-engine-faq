@@ -17,7 +17,7 @@ Windows 无法区分音频录制和音频播放的音量，因此，Windows 会�
 
 在您不完全了解的情况下录制音频可能导致音频间歇性播放的常见进程：
 
-* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
-* **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
+* **nvcontainer.exe**：Nvidia GeForce Experience 的一部分，可能会录制音频。 **仅当您有 Nvidia 显卡时才相关。**
+* **amdow.exe**：AMD ReLive 的一部分，可能会录制音频。 **仅当您有 AMD 显卡时才相关。**
 
 最后，您还可以将“其他应用程序播放音频时”选项更改为“保持运行”。 但这意味着，当您听音乐或观看非全屏视频时，Wallpaper Engine 不会自动将壁纸的音频输出静音。
