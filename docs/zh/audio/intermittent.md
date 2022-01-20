@@ -15,7 +15,7 @@ Windows 无法区分音频录制和音频播放的音量，因此，Windows 会�
 
 用可在任务管理器中找到的 .exe 文件替换某些 .exe，直到将范围缩小到应为问题负责的 .exe。
 
-Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+在您不完全了解的情况下录制音频可能导致音频间歇性播放的常见进程：
 
 * **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
 * **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
