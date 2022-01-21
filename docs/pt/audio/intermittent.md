@@ -15,9 +15,9 @@ Para resolver isto, faça qualquer destas três coisas:
 
 Substitua alguns .exe por ficheiros .exe que encontre no gestor de tarefas até ter reduzido as possibilidades ao .exe responsável.
 
-Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+Processos comuns que podem provocar uma reprodução intermitente de áudio gravando áudio sem o seu conhecimento:
 
-* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
-* **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
+* **nvcontainer.exe**: Parte da Nvidia GeForce Experience que pode gravar áudio. **Só é relevante se tiver uma placa gráfica Nvidia.**
+* **amdow.exe**: Parte do AMD ReLive, que pode gavar áudio. **Só é relevante caso possua uma placa gráfica AMD.**
 
 Por fim, também pode mudar a opção 'Outra aplicação a reproduzir áudio' para 'continuar execução'. No entanto, isto significa que o Wallpaper Engine não irá silenciar a reprodução de áudio automaticamente a partir dos wallpapers quando ouve música ou vê vídeos que não sejam em ecrã completo.
