@@ -19,9 +19,9 @@ Android 기기를 Windows에 연결해 더 많은 배경화면을 설치하고 �
 * Huawei
 * Xiaomi
 
-## Live wallpapers on Android do not play any sound
+## Android에서 라이브 배경화면의 사운드가 재생되지 않습니다
 
-Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
+Wallpaper Engine의 Android 버전은 배경화면의 오디오 재생을 지원하지 않으며, Android 기기에서는 모든 배경화면이 자동으로 음소거됩니다.
 
 ## Wallpaper Engine 배경화면 설정 해제
 
