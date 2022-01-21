@@ -19,9 +19,9 @@ Lorsque vous prévisualisez un papier peint personnalisable dans Wallpaper Engin
 * Huawei
 * Xiaomi
 
-## Live wallpapers on Android do not play any sound
+## Les fonds d'écran personnalisable sur Android ne génèrent pas de son
 
-Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
+Wallpaper Engine for Android ne prend pas en charge la lecture audio des fonds d'écran. Tous les fonds d'écran sont automatiquement silencieux sur votre appareil Android.
 
 ## Comment désactiver le fond d'écran de Wallpaper Engine
 
