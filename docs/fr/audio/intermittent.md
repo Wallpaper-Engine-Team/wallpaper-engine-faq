@@ -15,9 +15,9 @@ Pour régler ce problème, voilà trois choses à faire :
 
 Remplacez certains fichiers .exe par des fichiers .exe que vous pouvez trouver dans le gestionnaire de tâches jusqu'à ce que vous trouviez le coupable.
 
-Common processes that can cause intermittent audio playback by recording audio without your full knowledge:
+Les processus courants qui peuvent causer une lecture audio intermittente en enregistrant de l'audio à votre insu :
 
-* **nvcontainer.exe**: Part of Nvidia GeForce Experience which may record audio. **Only relevant if you have an Nvidia graphics card.**
-* **amdow.exe**: Part of AMD ReLive which may record audio. **Only relevant if you have an AMD graphics card.**
+* **nvcontainer.exe** : élément de Nvidia GeForce Experience qui peut enregistrer de l'audio. **Uniquement pertinent si vous avez une carte graphique Nvidia.**
+* **amdow.exe** : élément de AMD ReLive qui peut enregistrer de l'audio. **Uniquement pertinent si vous avez une carte graphique AMD.**
 
 Vous pouvez également paramétrer l'option "Autre application lisant un fichier audio" sur "Continuer d’exécuter". Cependant, cela signifie que Wallpaper Engine ne coupera pas automatiquement le son de votre fond d'écran lorsque vous écouterez de la musique ou regarderez des vidéos qui ne sont pas en plein écran.
