@@ -9,13 +9,13 @@ Se não consegue emparelhar o seu dispositivo móvel ao seu computador, é muito
 * **Certifique-se de que o seu telefone e computador estão ligados à mesma rede local.**
   * O seu computador não precisa de wifi, continua a ser a mesma rede, mesmo que esteja ligado através de um cabo de rede.
 * **Certifique-se de que nenhuma firewall está a impedir o Wallpaper Engine de comunicar com a sua rede local.**
-  * Wallpaper Engine uses the network ports 7884 (UDP) and 7889 (TCP), make sure no firewall is blocking them.
+  * O Wallpaper Engine utiliza as portas de rede 7884 (UDP) e 7889 (TCP). Certifique-se de que nenhuma firewall as bloqueia.
 * **Desative qualquer tipo de VPN ou software de proxy no sue computador e no sue dispositivo móvel que possa interferir na comunicação entre os seus dispositivos.**
 * **Certifique-se de que o seu router de rede não está a impedir que os seus dispositivos comuniquem entre si.**
     * Certifique-se de que o seu router não está a bloquear o tráfego de rede entre dispositivos.
     * Ligue **UPnP** (**"Universal Plug and Play"**) nas definições do seu router.
 * **Confirme que o Wallpaper Engine para Windows e o seu dispositivo móvel estão atualizados e ligados.**
-* **If your computer never even becomes visible in the Android app:** It could be that a firewall is only blocking the broadcasts used to discover your device, you can attempt to directly enter the IP address of your computer. Navigate to the connection overview on your mobile device and click on the three dots in the upper right corner, then select **Enter IP manually**. You can now try to manually input the IP address of your computer. Make sure Wallpaper Engine is running on your computer and that you have opened the **Connect New Device** overview, otherwise a connection is not possible.
+* **Se o seu computador nem sequer fica visível na app para Android:** É possível que uma firewall só esteja a bloquear as transmissões utilizadas para descobrir o seu dispositivo. Pode tentar introduzir o endereço IP do seu computador diretamente. Navegue até à visão geral das ligações no seu dispositivo móvel e clique nos três pontos que estão no canto superior direito e, em seguida, selecione **Introduzir IP manualmente**. Agora pode tentar introduzir manualmente o endereço IP do seu computador. Certifique-se de que o Wallpaper Engine está em execução no seu computador e de que abriu a visão geral **Ligar novo dispositivo**, caso contrário a ligação não é possível.
 
 ### Firewall do Windows
 
