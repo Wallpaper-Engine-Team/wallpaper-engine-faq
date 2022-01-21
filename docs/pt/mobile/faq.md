@@ -19,9 +19,9 @@ Quando pré-visualiza um wallpaper animado no Wallpaper Engine no seu telefone, 
 * Huawei
 * Xiaomi
 
-## Live wallpapers on Android do not play any sound
+## Os wallpapers animados em Android não reproduzem qualquer som
 
-Wallpaper Engine for Android does not support audio playback for wallpapers, all wallpapers are automatically silent on your Android device.
+O Wallpaper Engine para Android não suporta a reprodução de áudio para wallpapers. Todos os wallpapers são automaticamente silenciosos no seu dispositivo Android.
 
 ## Como remover um wallpaper do Wallpaper Engine
 
