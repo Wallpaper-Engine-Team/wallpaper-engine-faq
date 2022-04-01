@@ -19,6 +19,10 @@
 * 华为
 * 小米
 
+## Android 上的动态壁纸不播放任何声音
+
+Android 版 Wallpaper Engine 不支持壁纸的音频播放，所有壁纸在 Android 设备上均自动静音。
+
 ## 如何取消设置 Wallpaper Engine 壁纸
 
 如果想要停止使用 Wallpaper Engine 壁纸，直接在 Android 设置中分配新的壁纸即可。 Wallpaper Engine 只是 Android 的另一张壁纸，壁纸无法自行取消设置。

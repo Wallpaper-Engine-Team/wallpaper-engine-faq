@@ -15,4 +15,9 @@ Puedes hacer tres cosas para solucionarlo:
 
 Cambia algunos .exe por archivos .exe que veas en el administrador de tareas hasta que encuentres al .exe responsable.
 
-* Por último, también puedes cambiar la opción «Otra aplicación reproduciendo audio» a «Seguir ejecutándose». Sin embargo, esto implica que Wallpaper Engine no podrá silenciar de forma automática las salidas de audio de los fondos de pantalla cuando escuches audios o veas vídeos que no estén en pantalla completa.
+Procesos comunes que pueden grabar sonido sin tu conocimiento y así provocar que se reproduzca el sonido de forma intermitente:
+
+* **nvcontainer.exe**: parte de Nvidia GeForce Experience que puede grabar sonido. **Solo es relevante si tienes una gráfica Nvidia.**
+* **amdow.exe**: parte de AMD ReLive que puede grabar sonido. **Solo es relevante si tienes una gráfica AMD.**
+
+Por último, también puedes cambiar la opción «Otra aplicación reproduciendo audio» a «Seguir ejecutándose». Sin embargo, esto implica que Wallpaper Engine no podrá silenciar de forma automática las salidas de audio de los fondos de pantalla cuando escuches audios o veas vídeos que no estén en pantalla completa.

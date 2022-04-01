@@ -19,6 +19,10 @@ Telefonunuzda Wallpaper Engine'de bir canlı duvar kâğıdını görüntülerke
 * Huawei
 * Xiaomi
 
+## Android'deki canlı duvar kâğıtlarınden ses gelmiyor
+
+Android için Wallpaper Engine, duvar kâğıtlarında ses desteği vermez. Android cihazınızdaki tüm duvar kâğıtları otomatik olarak sessizdir.
+
 ## Wallpaper Engine duvar kâğıdı kaldırma
 
 Bir Wallpaper Engine duvar kâğıdı kullanmayı bırakmak istiyorsanız, Android ayarlarından yeni bir duvar kâğıdı ayarlamanız yeterlidir. Wallpaper Engine, Android için yalnızca bir duvar kâğıdıdır ve duvar kâğıtları kendilerini kaldıramaz.

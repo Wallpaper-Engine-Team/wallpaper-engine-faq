@@ -18,6 +18,10 @@ Während du die Vorschau eines Live-Hintergrunds in Wallpaper Engine auf deinem 
 * Huawei
 * Xiaomi
 
+## Live-Hintergründe spielen auf Android keinen Ton ab
+
+Wallpaper Engine auf Android erlaubt eine Wiedergabe von Ton durch die Hintergründe nicht, alle Hintergründe werden automatisch stumm geschaltet auf deinem Android-Gerät.
+
 ## Wallpaper Engine-Hintergrund entfernen
 
 Wenn du keinen Hintergrund von Wallpaper Engine mehr nutzen möchtest, kannst du einfach einen neuen Hintergrund in deinen Android-Einstellungen auswählen. Wallpaper Engine ist einfach nur ein weiterer neuer Hintergrund aus der Sicht von Android und Hintergründe können sich nicht selbst entfernen.

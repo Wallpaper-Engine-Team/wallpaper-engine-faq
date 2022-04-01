@@ -19,6 +19,10 @@
 * 華為
 * 小米
 
+## Android 上的動態桌布無法播放任何音訊
+
+Android 版 Wallpaper Engine 不支援桌布的音訊播放，所有桌布在 Android 裝置上皆自動靜音。
+
 ## 如何取消設定 Wallpaper Engine 桌布
 
 如果您不想再使用 Wallpaper Engine 的桌布，只要在 Android 設定中指派新的桌布即可。 Wallpaper Engine 只是 Android 的另一種桌布，桌布本身無法取消設定。

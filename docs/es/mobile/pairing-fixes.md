@@ -9,12 +9,13 @@ Si no puedes emparejar un dispositivo móvil con el ordenador, es posible que se
 * **Comprueba que el dispositivo y el ordenador estén conectados a la misma red local.**
   * El ordenador no tiene que estar conectado a la wifi, ya que estará en la misma red aunque esté conectado por medio de un cable de red.
 * **Comprueba que ningún firewall impida a Wallpaper Engine comunicarse con la red local.**
-  * Wallpaper Engine envía una multidifusión en los puertos de red 7884 (UDP) y 7889 (TCP), así que comprueba que no lo bloquea ningún firewall.
+  * Wallpaper Engine utiliza los puertos de red 7884 (UDP) y 7889 (TCP), así que comprueba que no los bloquea ningún firewall.
 * **Desactiva cualquier VPN o programa de proxy que tengas en el ordenador o en el dispositivo móvil que pueda interferir con la comunicación entre los dispositivos.**
 * **Comprueba que el enrutador de red no impida a los dispositivos comunicarse entre ellos.**
     * Comprueba que el router no bloquee el tráfico de red entre dispositivos.
     * Activa la opción **UPnP** (**Universal Plug and Play**) en la configuración del router.
 * **Comprueba que tanto el Wallpaper Engine de Windows como el del dispositivo móvil estén actualizados y en funcionamiento.**
+* **Si tu ordenador no aparece visible en la aplicación de Android,** es posible que un firewall esté bloqueando las transmisiones utilizadas para descubrir el dispositivo, puedes intentar introducir directamente la dirección IP de tu ordenador. Ve a la vista general de la conexión en tu dispositivo móvil y haz clic en los tres puntos de la esquina superior derecha. Selecciona **Introducir IP manualmente**. Ahora puedes introducir la dirección IP de tu ordenador de forma manual. Asegúrate de que Wallpaper Engine se está ejecutando en tu ordenador y de que has abierto la vista general de **Conectar nuevo dispositivo**, o no será posible establecer la conexión.
 
 ### Firewall de Windows
 

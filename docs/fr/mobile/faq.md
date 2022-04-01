@@ -19,6 +19,10 @@ Lorsque vous prévisualisez un papier peint personnalisable dans Wallpaper Engin
 * Huawei
 * Xiaomi
 
+## Les fonds d'écran personnalisable sur Android ne génèrent pas de son
+
+Wallpaper Engine for Android ne prend pas en charge la lecture audio des fonds d'écran. Tous les fonds d'écran sont automatiquement silencieux sur votre appareil Android.
+
 ## Comment désactiver le fond d'écran de Wallpaper Engine
 
 Si vous souhaitez ne plus utiliser un fond d'écran Wallpaper Engine, vous pouvez simplement attribuer un nouveau fond d'écran via vos paramètres Android. Wallpaper Engine est simplement un autre fond d'écran pour Android, et les fonds d'écran ne peuvent pas se désactiver tout seuls.

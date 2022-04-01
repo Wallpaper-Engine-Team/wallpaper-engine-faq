@@ -19,6 +19,10 @@ AndroidデバイスをWindows PCに接続した上で壁紙をインストール
 * Huawei
 * Xiaomi
 
+## Androidのライブ壁紙では音は再生されません
+
+AndroidのWallpaper Engineでは壁紙のオーディオ再生はサポートされていません。Android端末ではすべての壁紙が無条件で無音になります。
+
 ## Wallpaper Engineの壁紙の設定を解除するには
 
 Wallpaper Engineの壁紙の使用をやめたい時は、Androidの設定で新しい壁紙を設定してください。 Wallpaper Engineは、Androidにとっては単に壁紙の一つにすぎないため、壁紙自体を解除することはできません。

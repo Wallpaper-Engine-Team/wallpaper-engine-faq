@@ -9,12 +9,13 @@ Falls du dein Mobilgerät nicht mit deinem Computer verbinden kannst, so ist oft
 * **Stelle sicher, dass dein Mobilgerät und Computer zum gleichen lokalen Netzwerk verbunden sind.**
   * Dein Computer benötigt kein WLAN, im Normalfall bist du im gleichen Netzwerk auch wenn du ein LAN-Kabel verwendest.
 * **Stelle sicher, dass keine Firewall Wallpaper Engine daran hindert mit deinem lokalen Netzwerk zu kommunizieren.**
-  * Wallpaper Engine sendet einen Multi-Cast auf den Netzwerk-Ports 7884 (UDP) und 7889 (TCP), stelle sicher, dass keine Firewall dies blockiert.
+  * Wallpaper Enginge nutzt die Netzwerk-Ports 7884 (UDP) und 7889 (TCP). Stelle sicher, dass deine Firewall diese nicht blockiert.
 * **Schalte jegliche VPN- oder Proxy-Anwendungen auf deinem Computer und deinem Mobilgerät aus, welche gegebenenfalls die Verbindung zwischen deinen Geräten stören.**
 * **Stelle sicher, dass dein Netzwerk-Router deine Geräte nicht daran hindert untereinander zu kommunizieren.**
     * Stelle sicher, dass dein Router keine Netzwerkverbindungen zwischen Geräten blockiert.
     * Schalte **UPnP** (**"Univeral Plug and Play"**) in deinen Router-Einstellungen ein.
 * **Überprüfe, dass das Wallpaper Engine auf Windows und Wallpaper Engine auf deinem Mobilgerät beide auf dem neuesten Stand sind und gleichzeitig laufen.**
+* **Falls dein Computer nie sichtbar wird in der Android-App:** Es könnte sein, dass eine Firewall die Broadcasts blockiert, welche genutzten werden um die Geräte untereinander zu finden, in diesem Fall kannst du direkt die IP-Adresse deines Computers eingeben. Navigiere zur Verbindungsübersicht auf deinem Mobilgerät und klicke auf die drei Punkte oben rechts in der Ecke, dann klicke auf **IP-Adresse eingeben**. Du kannst nun von Hand die IP-Adresse deines Computers eingeben. Stelle sicher, dass Wallpaper Engine auf deinem Computer läuft und dass die Übersichtseite **Neues Gerät Verbinden** sichtbar ist, anonsten ist ein Verbindungsaufbau nicht möglich.
 
 ### Windows-Firewall
 

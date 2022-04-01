@@ -38,7 +38,7 @@
 
 请遵照以下步骤操作：
 
-1. 关闭 Steam。 **可选：**先卸载 Wallpaper Engine。
+1. 关闭 Steam。 **可选：** 先卸载 Wallpaper Engine。
 2. 打开 Wallpaper Engine Steam 创意工坊网站并登录您的 Steam 帐户：
 
 * [Wallpaper Engine 的 Steam 创意工坊](https://steamcommunity.com/app/431960/workshop/)

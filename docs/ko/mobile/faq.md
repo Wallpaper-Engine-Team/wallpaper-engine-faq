@@ -19,6 +19,10 @@ Android 기기를 Windows에 연결해 더 많은 배경화면을 설치하고 �
 * Huawei
 * Xiaomi
 
+## Android에서 라이브 배경화면의 사운드가 재생되지 않습니다
+
+Wallpaper Engine의 Android 버전은 배경화면의 오디오 재생을 지원하지 않으며, Android 기기에서는 모든 배경화면이 자동으로 음소거됩니다.
+
 ## Wallpaper Engine 배경화면 설정 해제
 
 Wallpaper Engine의 배경화면을 그만 사용하고 싶을 때에는 Android 설정에서 새로운 배경화면을 지정하면 됩니다. Android는 Wallpaper Engine을 일반 배경화면과 똑같이 간주하기 때문에 Wallpaper Engine을 통해서는 해제할 수 없습니다.

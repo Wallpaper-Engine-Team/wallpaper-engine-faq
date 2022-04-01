@@ -15,4 +15,9 @@ Bunu çözmek için şu üç şeyden birini yapın:
 
 Sorumlu .exe ile sınırlandırana kadar bazı .exe dosyalarını görev yöneticisinde bulabileceğiniz .exe dosyalarıyla değiştirin.
 
-* Son olarak da "diğer uygulamadan ses çalarken" seçeneğini "çalıştırmaya devam et" olarak değiştirebilirsiniz. Ancak bu demektir ki müzik dinlerken veya tam ekran olmayan videoları izlerken Wallpaper Engine duvar kâğıtlarındaki ses çıkışını otomatik olarak susturmaz.
+Tam bilginiz olmadan ses kaydı yaparak sesin aralıklı olarak çalınmasına neden olabilen sık karşılaşılan işlemler:
+
+* **nvcontainer.exe**: Ses kaydı yapabilen Nvidia GeForce Experience'ın bir parçası. **Nvidia grafik kartınız varsa geçerlidir.**
+* **amdow.exe**: Ses kaydı yapabilen AMD ReLive'ın bir parçasıdır. **AMD grafik kartına sahipseniz geçerlidir.**
+
+Son olarak da "diğer uygulamadan ses çalarken" seçeneğini "çalıştırmaya devam et" olarak değiştirebilirsiniz. Ancak bu demektir ki müzik dinlerken veya tam ekran olmayan videoları izlerken Wallpaper Engine duvar kâğıtlarındaki ses çıkışını otomatik olarak susturmaz.

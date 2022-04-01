@@ -9,12 +9,13 @@ Si vous ne pouvez pas appairer votre appareil mobile avec votre ordinateur, il e
 * **Assurez-vous que votre téléphone et votre ordinateur sont connectés au même réseau local.**
   * Votre ordinateur n'a pas besoin de Wi-Fi, le réseau est toujours même si l'ordinateur est connecté par un câble réseau.
 * **Assurez-vous qu'aucun pare-feu ne bloque la communication de Wallpaper Engine avec votre réseau local.**
-  * Wallpaper Engine envoie une multidiffusion sur les ports réseau 7884 (UDP) et 7889 (TCP), assurez-vous qu'aucun pare-feu ne bloque cette diffusion.
+  * Wallpaper Engine utilise les ports réseau 7884 (UDP) et 7889 (TCP), assurez-vous qu'aucun pare-feu ne les bloque.
 * **Désactivez tout logiciel VPN ou proxy sur votre ordinateur et votre appareil mobile, qui peut interférer avec la communication entre vos appareils.**
 * **Vérifiez que le routeur de votre réseau n'empêche pas vos appareils de communiquer entre eux.**
     * Assurez-vous que votre routeur ne bloque pas le trafic réseau entre les appareils.
     * Activez **UPnP** (**"Universal Plug and Play"**) dans les paramètres de votre routeur.
 * **Vérifiez que Wallpaper Engine sur Windows et votre appareil mobile sont tous deux à jour et en cours d'exécution.**
+* **Si votre ordinateur ne devient jamais visible dans l'application Android :** Il est possible qu'un pare-feu bloque les diffusions utilisées pour découvrir votre appareil, vous pouvez alors tenter de saisir directement l'adresse IP de votre ordinateur. Accédez à l'aperçu de la connexion sur votre appareil mobile et cliquez sur les trois points dans le coin supérieur droit, puis sélectionnez **Entrer IP manuellement**. Vous pouvez maintenant essayer de saisir manuellement l'adresse IP de votre ordinateur. Assurez-vous que Wallpaper Engine est en cours d'exécution sur votre ordinateur et que vous avez ouvert l'aperçu **Connecter nouvel appareil**, sinon une connexion n'est pas possible.
 
 ### Pare-feu Windows
 

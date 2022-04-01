@@ -19,6 +19,10 @@ Quando pré-visualiza um wallpaper animado no Wallpaper Engine no seu telefone, 
 * Huawei
 * Xiaomi
 
+## Os wallpapers animados em Android não reproduzem qualquer som
+
+O Wallpaper Engine para Android não suporta a reprodução de áudio para wallpapers. Todos os wallpapers são automaticamente silenciosos no seu dispositivo Android.
+
 ## Como remover um wallpaper do Wallpaper Engine
 
 Se desejar parar de utilizar um wallpaper do Wallpaper Engine, pode simplesmente atribuir um novo wallpaper nas definições do seu aparelho Android. Para o Android, o Wallpaper Engine é apenas mais um wallpaper e os wallpapers não podem remover-se a si próprios.

@@ -8,12 +8,13 @@ Eğer mobil cihazınızı bilgisayarınızla eşleştiremiyorsanız büyük ihti
 * **Telefonunuzun ve bilgisayarınızın aynı yerel ağa bağlandığından emin olun.**
   * Bilgisayarınızın WIFI bağlantısına ihtiyacı yoktur, ağ kablosu ile bağlansa bile yine aynı ağ üzerindedir.
 * **Hiçbir güvenlik duvarının Wallpaper Engine'ın yerel ağınızla iletişime geçmesine engel olmadığından emin olun.**
-  * Wallpaper Engine, 7884 (UDP) ve 7889 (TCP) ağ bağlantı noktalarına çoklu yayın gönderir, hiçbir güvenlik duvarının bunu engellemediğinden emin olun.
+  * Wallpaper Engine, 7884 (UDP) ve 7889 (TCP) ağ bağlantı noktalarını kullanır, hiçbir güvenlik duvarının bunu engellemediğinden emin olun.
 * **Bilgisayarınızdaki ve mobil cihazınızdaki, cihazlarınız arasındaki iletişimi engelleyebilecek her türlü VPN veya proxy yazılımını devre dışı bırakın.**
 * **Ağ yönlendiricinizin cihazlarınızın birbirleriye iletişime geçmesini engellemediğinden emin olun.**
     * Yönlendiricinizin cihazlar arasındaki ağ trafiğini engellemediğinden emin olun.
     * Yönlendirici ayarlarınızda **UPnP**'ı (**"Evrensel Tak ve Çalıştır"**) açın.
 * **Hem Windows'daki hem de mobil cihazınızdaki Wallpaper Engine'ın güncel olduğunu ve çalışır durumda olup olmadığını kontrol edin.**
+* **Bilgisayarınız, Android uygulamasında görünür olmazsa:** Bir güvenlik duvarı cihazınızı bulmak için kullanılan yayınları engelliyor olabilir, bu durumda bilgisayarınızın IP adresini doğrudan girmeyi deneyebilirsiniz. Mobil cihazınızda bağlantı genel bakışına gidin ve sağ üst köşedeki üç noktayı tıklayın, ardından **IP'yi elle olarak girin**'i seçin. Artık bilgisayarınızın IP adresini el ile girmeyi deneyebilirsiniz. Wallpaper Engine'in bilgisayarınızda çalıştığından ve **Yeni Cihaz Bağla** seçeneğini açtığınızdan emin olun. Aksi durumda bağlantı kuramazsınız.
 
 ### Windows Güvenlik Duvarı
 

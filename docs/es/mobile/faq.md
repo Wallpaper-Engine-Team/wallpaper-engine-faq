@@ -19,6 +19,10 @@ Deja pulsado el símbolo de visto de la esquina superior derecha cuando previsua
 * Huawei
 * Xiaomi
 
+## Los fondos dinámicos no reproducen ningún sonido en Android
+
+Wallpaper Engine para Android no es compatible con la reproducción de sonidos en los fondos de pantalla, por lo que todos ellos se envían silenciados a tu dispositivo Android.
+
 ## Cómo quitar un fondo de Wallpaper Engine
 
 Si quieres quitar un fondo de Wallpaper Engine, solo tienes que poner cualquier otro fondo en los ajustes de Android. Wallpaper Engine funciona como un fondo normal y corriente, por lo que no puede eliminarse por sí solo.

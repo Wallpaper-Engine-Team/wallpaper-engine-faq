@@ -15,4 +15,9 @@ Um dieses Problem zu lösen, kannst du eines dieser drei Dinge tun:
 
 Ersetze "some.exe" aus dem Video oben mit .exe-Dateien die du im Task Manager finden kannst, bis du die verantwortliche .exe gefunden hast.
 
-* Sollten alle Versuche fehlschlagen, kannst du auch einfach die Einstellung "Andere Anwendung spielt Ton" auf "Weiter ausführen" stellen. Dies bedeutet jedoch, dass Wallpaper Engine sich nicht mehr automatisch stumm schalten wird, wenn du Musik hörst oder Videos guckst, die nicht im Vollbildmodus sind.
+Die folgenden Prozesse sind oft für eine stockende Audio-Wiedergabe verantwortlich, da sie den Ton deines Computers ohne dein volles Wissen im Hintergrund aufzeichnen:
+
+* **nvcontainer.exe**: Teil von Nvidia GeForce Experience, welcher gegebenenfalls Ton aufzeichnet. **Nur relevant, wenn du eine Nvidia-Grafikkarte hast.**
+* **amdow.exe** Teil von AMD ReLive, welcher gegebenfalls Ton aufzeichnet. **Nur relevant, wenn du eine AMD-Grafikkarte hast.**
+
+Sollten alle Versuche fehlschlagen, kannst du auch einfach die Einstellung "Andere Anwendung spielt Ton" auf "Weiter ausführen" stellen. Dies bedeutet jedoch, dass Wallpaper Engine sich nicht mehr automatisch stumm schalten wird, wenn du Musik hörst oder Videos guckst, die nicht im Vollbildmodus sind.
