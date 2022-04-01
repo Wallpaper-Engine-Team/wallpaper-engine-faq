@@ -1,7 +1,8 @@
 # Resolução de problemas de emparelhamento com dispositivos móveis
 
 ::: tip
-Depois disto, a ligação continua a não funcionar? No fundo desta página encontrará a solução de cópia de segurança manual para importar wallpapers através de USB ou outro método.
+Depois disto, a ligação continua a não funcionar?
+No fundo desta página encontrará a solução de cópia de segurança manual para importar wallpapers através de USB ou outro método.
 :::
 
 Se não consegue emparelhar o seu dispositivo móvel ao seu computador, é muito provável que a culpa seja de uma firewall ou de uma definição da rede local. Verifique as seguintes origens possíveis do problema:
