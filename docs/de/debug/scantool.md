@@ -11,7 +11,8 @@ Falls du technische Probleme mit Wallpaper Engine hast, welche du nicht mit der 
 5. *Optional:* Falls die Anwendung abstürzt, überprüfe dein *wallpaper_engine*-Verzeichnis auf **.mdmp**-Dateien und sende uns diese via E-Mail (**logs@wallpaperengine.io**) oder lade sie irgendwo hoch und teile sie mit uns. Falls du sehr viele .mdmp-Dateien findest, sende uns bitte einfach nur die neueste Datei.
 
 ::: tip
-Tipp Auch wenn das Scan-Tool anscheinend keine Fehler meldet, so kann ein tieferer Einblick in die Log-Datei oft häufige Computer-Probleme zum Vorschein bringen, welche uns helfen dir schnell einen Lösungsvorschlag für deine technischen Probleme mitzuteilen.
+Tipp
+Auch wenn das Scan-Tool anscheinend keine Fehler meldet, so kann ein tieferer Einblick in die Log-Datei oft häufige Computer-Probleme zum Vorschein bringen, welche uns helfen dir schnell einen Lösungsvorschlag für deine technischen Probleme mitzuteilen.
 :::
 
 #### Weitere Video-Hilfe
