@@ -4,7 +4,8 @@ Devido à forma como o áudio funciona no Windows, não é possível que o Wallp
 
 Tenha em conta que não oferecemos suporte para dispositivos de áudio falsos e não garantimos que isto funcione - esta é uma configuração muito avançada que ultrapassa largamente o que o Wallpaper Engine oferece. Oferecemos este guia unicamente como ajuda para utilizadores que queiram ir mais longe na personalização do seu sistema.
 
-::: aviso Atenção Este guia só funciona em versões atualizadas do Windows 10. Versões mais antigas do Windows poderão não dispor de algumas funcionalidades que tornam impossível seguir este guia.
+::: aviso Atenção
+Este guia só funciona em versões atualizadas do Windows 10. Versões mais antigas do Windows poderão não dispor de algumas funcionalidades que tornam impossível seguir este guia. 
 :::
 
 ### Instalar um dispositivo de áudio falso
