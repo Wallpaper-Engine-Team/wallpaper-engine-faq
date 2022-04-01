@@ -26,7 +26,8 @@ Du benötigst trotzdem noch eine valide project.json-Datei. Du kannst eine solch
 
 Wenn du einen Hintergrund erneut bearbeiten willst, du jedoch die Projektdateien verloren hast, schaue dir die Sektion *Ein eigenes verlorenes Projekt aktualisieren* weiter unten an für weitere Informationen über Änderungen die du an der project.json machen musst, sodass du ein Update für deinen existierenden Hintergrund machen kannst.
 
-::: Bitte beachte Wir bieten keine offizielle Unterstützung für dieses Tool an und können nicht garantieren, dass es korrekt funktioniert. Falls du Probleme mit oder Fragen über den Unpacker hast, kontaktiere bitte die Autoren des Tools.
+::: Bitte beachte
+Wir bieten keine offizielle Unterstützung für dieses Tool an und können nicht garantieren, dass es korrekt funktioniert. Falls du Probleme mit oder Fragen über den Unpacker hast, kontaktiere bitte die Autoren des Tools.
 :::
 
 ### Web-Hintergründe
