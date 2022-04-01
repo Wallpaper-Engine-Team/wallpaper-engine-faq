@@ -9,7 +9,8 @@ Sauf si vous utilisez des fonds d'écran extrêmement lourds, nous vous conseill
 Vous pouvez également opter pour la version 64 bits si le système vidéo de votre PC ne supporte pas les programmes 32 bits. Si vous avez déjà installé des packs de codecs, ils peuvent avoir endommagé de manière permanente le système vidéo 32 bits de Windows dont Wallpaper Engine a besoin. Si le système 64 bits n'est pas affecté, vous pourrez en profiter en utilisant la version 64 bits de Wallpaper Engine et vous éviterez ainsi d'avoir à corriger des problèmes.
 
 ::: warning
-Attention Les fonds d'écran Web sont tous en 32 bits (webwallpaper32.exe). Pareil pour l'interface utilisateur (ui32.exe). La version 64 bits n'est que pour les scènes ou les vidéos.
+Attention
+Les fonds d'écran Web sont tous en 32 bits (webwallpaper32.exe). Pareil pour l'interface utilisateur (ui32.exe). La version 64 bits n'est que pour les scènes ou les vidéos.
 :::
 
 ## Comment configurer Wallpaper Engine pour que la version 32 bits ou 64 bits s'exécute automatiquement au démarrage de Windows?
