@@ -1,7 +1,8 @@
 # Fehlerbehebung bei Verbindung mit Mobilgeräten
 
 ::: tip
-Verbindung schlägt nach allen nachfolgenden Schritten immer noch fehl? Schaue dir am Ende dieser Seite unsere Backup-Lösung an, mit der du Hintergründe über USB oder eine andere Methode deiner Wahl importieren kannst.
+Verbindung schlägt nach allen nachfolgenden Schritten immer noch fehl?
+Schaue dir am Ende dieser Seite unsere Backup-Lösung an, mit der du Hintergründe über USB oder eine andere Methode deiner Wahl importieren kannst.
 :::
 
 Falls du dein Mobilgerät nicht mit deinem Computer verbinden kannst, so ist oft eine Firewall oder eine Einstellung in deinem lokalen Netzwerk das Problem. Überprüfe die folgenden Problemquellen:
