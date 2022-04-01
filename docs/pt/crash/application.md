@@ -78,7 +78,8 @@ Este bloqueio acontece habitualmente devido a um problema no próprio Windows. E
 * [AMD Radeon](https://www.amd.com/support)
 
 ::: tip
-Atenção! Certifique-se de que seleciona a caixa de verificação "Efetuar reinstalação limpa" durante a configuração ou primeiro desinstale os seus controladores atuais. Se os seus controladores atuais estiverem danificados, é importante primeiro removê-los completamente.
+Atenção!
+Certifique-se de que seleciona a caixa de verificação "Efetuar reinstalação limpa" durante a configuração ou primeiro desinstale os seus controladores atuais. Se os seus controladores atuais estiverem danificados, é importante primeiro removê-los completamente.
 :::
 
 ### nvwgf2umx.dll / nvwgf2um.dll
@@ -88,7 +89,8 @@ Os controladores Nvidia do seu sistema estão a bloquear. Vá ao website da Nvid
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
 ::: tip
-Atenção! Certifique-se de que seleciona a caixa de verificação "Efetuar reinstalação limpa" durante a configuração ou primeiro desinstale os seus controladores atuais. Se os seus controladores atuais estiverem danificados, é importante primeiro removê-los completamente.
+Atenção!
+Certifique-se de que seleciona a caixa de verificação "Efetuar reinstalação limpa" durante a configuração ou primeiro desinstale os seus controladores atuais. Se os seus controladores atuais estiverem danificados, é importante primeiro removê-los completamente.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
