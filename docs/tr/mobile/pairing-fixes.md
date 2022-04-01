@@ -1,6 +1,7 @@
 # Mobil Eşleme Sorun Çözme
 
-::: tip Tüm bunlardan sonra bağlantı yine de çalışmıyor mu? Duvar kâğıtlarını USB veya başka bir yöntemle içe aktarmak üzere manuel yedekleme çözümünü görmek için bu sayfanın en altına gidin.
+::: tip Tüm bunlardan sonra bağlantı yine de çalışmıyor mu?
+Duvar kâğıtlarını USB veya başka bir yöntemle içe aktarmak üzere manuel yedekleme çözümünü görmek için bu sayfanın en altına gidin.
 :::
 
 Eğer mobil cihazınızı bilgisayarınızla eşleştiremiyorsanız büyük ihtimalle sebebi bir güvenlik duvarı veya yerel ağdır. Şu muhtemel sorun kaynaklarını kontrol edin:
