@@ -1,7 +1,8 @@
 # Solucionar problemas con el emparejamiento del dispositivo
 
 ::: tip
-¿La conexión no funciona después de hacer todo esto? Ve al final de esta página para ver la solución manual de emergencia para importar fondos por USB u otro método.
+¿La conexión no funciona después de hacer todo esto?
+Ve al final de esta página para ver la solución manual de emergencia para importar fondos por USB u otro método.
 :::
 
 Si no puedes emparejar un dispositivo móvil con el ordenador, es posible que sea culpa del firewall o de algún ajuste de la red local. En esta lista verás varios posibles orígenes del problema:
