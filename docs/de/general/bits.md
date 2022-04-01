@@ -9,7 +9,8 @@ Wir empfehlen das Nutzen der 32-Bit-Version, außer für den Fall dass du wirkli
 Du kannst außerdem die 64-Bit-Version verwenden, wenn du sehr spezielle Probleme mit dem Video-System deines Computers hast, welche nur 32-Bit-Anwendungen betreffen. Solltest du jemals Codec-Packs oder ähnliches installiert haben, so können diese in seltenen Fällen Schäden am 32-Bit-Videosystem verursacht haben, welches Wallpaper Engine nutzt. Wenn in diesen Fällen das 64-Bit-System nicht defekt ist, kannst du dieses nutzen indem du auf die 64-Bit-Version von Wallpaper Engine wechselst und somit das Reparieren der 32-Bit-Version unnötig machst.
 
 ::: warning
-Bitte beachte Bitte beachte, dass Hintergründe vom Typ "Web" immer mit einer 32-Bit-Anwendung ausgeführt werden (webwallpaper32.exe). Das gleiche trifft auf die Benutzeroberfläche zu (ui32.exe). 64-Bit ist nur relevant, wenn du Hintergründe vom Typ "Szene" oder "Video" nutzt.
+Bitte beachte
+Bitte beachte, dass Hintergründe vom Typ "Web" immer mit einer 32-Bit-Anwendung ausgeführt werden (webwallpaper32.exe). Das gleiche trifft auf die Benutzeroberfläche zu (ui32.exe). 64-Bit ist nur relevant, wenn du Hintergründe vom Typ "Szene" oder "Video" nutzt.
 :::
 
 ## Einstellen des Autostarts von Wallpaper Engine mit entweder 32- oder 64-Bit beim Start von Windows.
