@@ -10,7 +10,8 @@ Si vous rencontrez des problèmes avec Wallpaper Engine que vous ne parvenez pas
         * **ATTENTION :** si vous utilisez cette adresse e-mail, n'oubliez pas de joindre un lien vers notre précédente conversation et précisez également votre pseudo.
 5. *Facultatif :* si vous avec un problème de crash, veuillez vérifier dans le répertoire *wallpaper_engine* les fichiers **.mdmp** et nous les envoyer par e-mail (**logs@wallpaperengine.io**) ou par un autre moyen qui vous convient. Si vous trouvez beaucoup de fichiers .mdmp, envoyez-nous les plus récents.
 
-::: tip Même si l'outil d'analyse ne signale aucun problème à première vue, une analyse plus approfondie du rapport peut nous indiquer des problèmes courants qui nous permettront de vous conseiller rapidement.
+::: tip
+Même si l'outil d'analyse ne signale aucun problème à première vue, une analyse plus approfondie du rapport peut nous indiquer des problèmes courants qui nous permettront de vous conseiller rapidement.
 :::
 
 #### Tutoriels vidéo
