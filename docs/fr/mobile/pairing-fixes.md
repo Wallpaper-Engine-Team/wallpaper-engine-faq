@@ -1,7 +1,8 @@
 # Résolution des problèmes d'appairage des appareils mobiles
 
 ::: tip
-La connexion ne fonctionne toujours pas malgré cela ? Faites défiler jusqu'au bas de cette page afin de voir la solution de sauvegarde manuelle pour importer des fonds d'écran via USB ou une autre méthode.
+La connexion ne fonctionne toujours pas malgré cela ?
+Faites défiler jusqu'au bas de cette page afin de voir la solution de sauvegarde manuelle pour importer des fonds d'écran via USB ou une autre méthode.
 :::
 
 Si vous ne pouvez pas appairer votre appareil mobile avec votre ordinateur, il est très probable qu'un pare-feu ou un paramètre du réseau local soit en cause. Vérifiez les sources de problèmes possibles suivantes :

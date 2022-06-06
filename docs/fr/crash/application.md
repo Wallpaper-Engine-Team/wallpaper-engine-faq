@@ -78,7 +78,8 @@ Ce crash est généralement dû à Windows lui-même. Essayez de réinstaller la
 * [AMD Radeon](https://www.amd.com/support)
 
 ::: tip
-Attention N'oubliez pas de sélectionner "Effectuer une réinstallation propre" ou désinstaller manuellement vos pilotes. Si vos pilotes actuels sont corrompus, il faut les éliminer en premier.
+Attention
+N'oubliez pas de sélectionner "Effectuer une réinstallation propre" ou désinstaller manuellement vos pilotes. Si vos pilotes actuels sont corrompus, il faut les éliminer en premier.
 :::
 
 ### nvwgf2umx.dll / nvwgf2um.dll
@@ -88,7 +89,8 @@ Les pilotes Nvidia de votre système ont un problème. Rendez-vous sur le site N
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
 ::: tip
-Attention N'oubliez pas de sélectionner "Effectuer une réinstallation propre" ou désinstaller manuellement vos pilotes. Si vos pilotes actuels sont corrompus, il faut les éliminer en premier.
+Attention
+N'oubliez pas de sélectionner "Effectuer une réinstallation propre" ou désinstaller manuellement vos pilotes. Si vos pilotes actuels sont corrompus, il faut les éliminer en premier.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
@@ -103,7 +105,8 @@ Ces types de plantages sont causés par Razer Chroma qui fait partie de **Razer 
 
 **Réinstallation propre de tous les logiciels de Razer**
 
-::: avertissement Veillez à ce que Wallpaper Engine soit désactivé pendant la réinstallation de Razer Synapse.
+::: avertissement
+Veillez à ce que Wallpaper Engine soit désactivé pendant la réinstallation de Razer Synapse.
 :::
 
 1. Désactivez complètement Wallpaper Engine lorsque l'application est en cours d'exécution (faites un clic droit sur l'icône de la barre d'état de Windows, puis sélectionnez **Quitter**)

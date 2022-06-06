@@ -5,7 +5,8 @@ Debido al funcionamiento del sonido en Windows, a Wallpaper Engine le resulta im
 Ten en cuenta que no ofrecemos asistencia para los dispositivos de audio falsos y no podemos garantizar que el método vaya a funcionar: es un proceso muy avanzado que va mucho más allá de lo que ofrece Wallpaper Engine. Hemos hecho esta guía únicamente para ayudar a aquellos usuarios que quieren ir un paso más allá a la hora de personalizar sus equipos.
 
 ::: warning
-¡Aviso! Esta guía solo funciona con las versiones actualizadas de Windows 10. Es posible que las versiones antiguas no cuenten con algunas de las funciones, por lo que sería imposible seguirla.
+¡Aviso!
+Esta guía solo funciona con las versiones actualizadas de Windows 10. Es posible que las versiones antiguas no cuenten con algunas de las funciones, por lo que sería imposible seguirla. 
 :::
 
 ### Instalar un dispositivo de audio falso
