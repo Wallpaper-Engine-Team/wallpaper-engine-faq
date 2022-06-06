@@ -2,7 +2,8 @@
 
 É possível ocultar o ícone de tabuleiro do Wallpaper Engine manualmente criando uma chave de registo que diz ao Wallpaper Engine para ocultar o ícone de tabuleiro ao lado do relógio do Windows.
 
-::: warning Não recomendamos que faça isto, a não ser que tenha a certeza absoluta de que o ícone de tabuleiro o está a irritar tanto que está disposto a aceitar as desvantagens de ocultar o ícone de tabuleiro.
+::: warning
+Não recomendamos que faça isto, a não ser que tenha a certeza absoluta de que o ícone de tabuleiro o está a irritar tanto que está disposto a aceitar as desvantagens de ocultar o ícone de tabuleiro.
 :::
 
 Quando o ícone de tabuleiro estiver oculto, a única forma de desativar o Wallpaper Engine será encerrando-o através do Gestor de Tarefas do Windows. Só poderá abrir o interface para o utilizador através do Steam ou dos ficheiros .exe, o que é bastante inconveniente e confuso.
