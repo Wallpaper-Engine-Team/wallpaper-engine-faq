@@ -78,7 +78,8 @@ Este caso suele darse por un problema de Windows. Vuelve a instalar la versión 
 * [AMD Radeon](https://www.amd.com/support)
 
 ::: tip
-¡Aviso! Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
+¡Aviso!
+Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
 :::
 
 ### nvwgf2umx.dll / nvwgf2um.dll
@@ -88,7 +89,8 @@ Los controladores de Nvidia de tu sistema se cuelgan. Dirígete a la página web
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
 ::: tip
-¡Aviso! Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
+¡Aviso!
+Asegúrate de que has seleccionado la casilla «Realizar instalación limpia» durante la instalación o desinstala todos los controladores primero. Es primordial que te deshagas de los controladores que tienes si están dañados.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
