@@ -5,7 +5,8 @@ Durch grundlegende Beschränkungen in der Art, Audio-Wiedergabe in Windows funkt
 An dieser Stelle ein kurzer Hinweis dazu, dass wir keine Unterstützung für virtuelle Audio-Geräte anbieten und nicht garantieren können, dass diese Anleitung funktionieren wird. Es handelt sich hierbei um eine sehr erweiterte Vorgehensweise, die den normalen Nutzungsrahmen von Wallpaper Engine sprengt. Wir bieten diese Anleitung nur als freundlich-gemeinte Hilfe für Nutzer an, welche besonders weit mit der Konfiguration ihres Systems gehen wollen.
 
 ::: warning
-Achtung Diese Anleitung funktioniert nur auf aktuellen Versionen von Windows 10. Älteren Windows-Versionen können einige Features fehlen, was es unmöglich macht dieser Anleitung zu folgen.
+Achtung
+Diese Anleitung funktioniert nur auf aktuellen Versionen von Windows 10. Älteren Windows-Versionen können einige Features fehlen, was es unmöglich macht dieser Anleitung zu folgen. 
 :::
 
 ### Installation eines virtuellen Audio-Geräts
