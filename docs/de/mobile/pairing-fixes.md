@@ -10,7 +10,7 @@ Falls du dein Mobilgerät nicht mit deinem Computer verbinden kannst, so ist oft
 * **Stelle sicher, dass dein Mobilgerät und Computer zum gleichen lokalen Netzwerk verbunden sind.**
   * Dein Computer benötigt kein WLAN, im Normalfall bist du im gleichen Netzwerk auch wenn du ein LAN-Kabel verwendest.
 * **Stelle sicher, dass keine Firewall Wallpaper Engine daran hindert mit deinem lokalen Netzwerk zu kommunizieren.**
-  * Wallpaper Enginge nutzt die Netzwerk-Ports 7884 (UDP) und 7889 (TCP). Stelle sicher, dass deine Firewall diese nicht blockiert.
+  * Wallpaper Engine nutzt die Netzwerk-Ports 7884 (UDP) und 7889 (TCP). Stelle sicher, dass deine Firewall diese nicht blockiert.
 * **Schalte jegliche VPN- oder Proxy-Anwendungen auf deinem Computer und deinem Mobilgerät aus, welche gegebenenfalls die Verbindung zwischen deinen Geräten stören.**
 * **Stelle sicher, dass dein Netzwerk-Router deine Geräte nicht daran hindert untereinander zu kommunizieren.**
     * Stelle sicher, dass dein Router keine Netzwerkverbindungen zwischen Geräten blockiert.
