@@ -4,7 +4,8 @@ Sesin Windows'taki çalışma şeklinden dolayı Wallpaper Engine'in ses görsel
 
 Herhangi bir sahte ses cihazı için destek sunmadığımızı ve bunun işe yarayacağını garanti etmediğimizi unutmayın. Bu, Wallpaper Engine'in sunduklarının çok ötesine geçen oldukça gelişmiş bir kurulumdur. Bu rehberi yalnızca sistemlerini özelleştirmek için elinden geleni yapmak etmek isteyen kullanıcılara dostça bir yardım olarak sunuyoruz.
 
-::: warning Lütfen unutmayın Bu rehber yalnızca Windows 10'un güncellenmiş sürümlerinde çalışır. Daha eski Windows sürümlerinde bazı özellikler eksik olabilir ve bu durum da rehbere uyulmasını imkânsız kılar.
+::: warning Lütfen unutmayın
+Bu rehber yalnızca Windows 10'un güncellenmiş sürümlerinde çalışır. Daha eski Windows sürümlerinde bazı özellikler eksik olabilir ve bu durum da rehbere uyulmasını imkânsız kılar. 
 :::
 
 ### Sahte bir ses cihazı kurma
