@@ -78,7 +78,8 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 * [AMD Radeon](https://www.amd.com/support)
 
 ::: tip
-請注意 請確保在設定過程中選取「執行全新安裝」，或先手動解除安裝目前的驅動程式。 如果您目前的驅動程式已損壞，務必先將其完全清除。
+請注意
+請確保在設定過程中選取「執行全新安裝」，或先手動解除安裝目前的驅動程式。 如果您目前的驅動程式已損壞，務必先將其完全清除。
 :::
 
 ### nvwgf2umx.dll / nvwgf2um.dll
@@ -88,7 +89,8 @@ Wallpaper Engine 是發展成熟且經充分測試的軟體，使用者達數百
 * [Nvidia GeForce](https://www.nvidia.com/Download/index.aspx)
 
 ::: tip
-請注意 請確保在設定過程中選取「執行全新安裝」，或先手動解除安裝目前的驅動程式。 如果您目前的驅動程式已損壞，務必先將其完全清除。
+請注意
+請確保在設定過程中選取「執行全新安裝」，或先手動解除安裝目前的驅動程式。 如果您目前的驅動程式已損壞，務必先將其完全清除。
 :::
 
 ### igdumd64.dll/igd10umd64.dll/igdumdx32.dll/igd10umd32.dll
