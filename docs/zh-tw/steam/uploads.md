@@ -6,6 +6,8 @@
 
 這個問題一直都是某種網路的問題，您需要找出阻擋 Steam 正常與 Steam 伺服器通訊的原因。
 
+Also make sure that your router or a firewall is not blocking the IP address range of the Steam servers, make sure that direct IP connections are possible. Exclude the following IP address range from any block list: `208.64.200.0` - `208.64.203.255`.
+
 ::: tip
-這個網路問題也可能是網路路由器中的防火牆所造成。 請避免網路路由器阻擋 Steam 上傳。 請嘗試切換為行動 Wi-Fi 熱點後，看看能否繼續上傳，若可行，則可能是路由器出了問題，和電腦上的任何軟體無關。
+This network issue can also be caused by a firewall in your network router. Make sure that no network router is blocking Steam's upload. Try If  uploads work through a mobile wi-fi hotspot - in that case your router is likely at fault and not any software on your computer.
 :::
