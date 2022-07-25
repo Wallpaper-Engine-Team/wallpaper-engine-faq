@@ -6,6 +6,8 @@
 
 Эта проблема всегда вызвана какими-то проблемами в сети, поэтому вам необходимо выяснить, что именно блокирует сообщение между Steam на вашем компьютере и серверами Steam.
 
+Also make sure that your router or a firewall is not blocking the IP address range of the Steam servers, make sure that direct IP connections are possible. Exclude the following IP address range from any block list: `208.64.200.0` - `208.64.203.255`.
+
 ::: tip
-Подобную сетевую проблему также могут вызывать брандмауэры сетевых маршрутизаторов. Удостоверьтесь, что маршрутизаторы не блокируют загрузки в Steam. Попробуйте загрузить файлы через мобильную сеть на смартфоне. Если у вас получится — проблема скорее всего вызвана маршрутизатором и не имеет отношения к программному обеспечению на вашем компьютере.
+This network issue can also be caused by a firewall in your network router. Make sure that no network router is blocking Steam's upload. Try If  uploads work through a mobile wi-fi hotspot - in that case your router is likely at fault and not any software on your computer.
 :::
