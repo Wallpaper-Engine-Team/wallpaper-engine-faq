@@ -6,6 +6,8 @@ Steam은 사실상 업로드 진행률 45%에서 Steam 서버로 파일 업로�
 
 이것은 항상 네트워크 문제로, Steam과 Steam 서버의 온전한 소통을 차단하는 원인을 조사해야 합니다.
 
+Also make sure that your router or a firewall is not blocking the IP address range of the Steam servers, make sure that direct IP connections are possible. Exclude the following IP address range from any block list: `208.64.200.0` - `208.64.203.255`.
+
 ::: tip
-이 네트워크 문제는 네트워크 라우터의 방화벽 때문에 발생할 수도 있습니다. 네트워크 라우터가 Steam의 업로드를 차단하는지 확인하세요. 모바일 와이파이 핫스팟을 통해 업로드가 가능한 경우, 컴퓨터의 소프트웨어가 아니라 라우터의 문제입니다.
+This network issue can also be caused by a firewall in your network router. Make sure that no network router is blocking Steam's upload. Try If  uploads work through a mobile wi-fi hotspot - in that case your router is likely at fault and not any software on your computer.
 :::
