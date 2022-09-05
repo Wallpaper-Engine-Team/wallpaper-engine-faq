@@ -185,3 +185,14 @@ Masaüstü simgelerini gösterir.
 -control showIcons
 ```
 
+### Get Current Wallpaper
+
+This will output the primary wallpaper path as a string to the current standard output, you can also specify a monitor to get the wallpaper path for. This function is useful if you want to integrate Wallpaper Engine in other tools that need to react to the current wallpaper in some way.
+
+``` powershell
+-control getWallpaper [-location <string>] [-monitor <number>]
+```
+
+* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
+* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
+* **RETURNS:** File path to active wallpaper.
