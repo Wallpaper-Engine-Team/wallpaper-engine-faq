@@ -1,4 +1,4 @@
-# 使用 Wallpaper Engine 扫描工具创建调试日志
+# Use the Wallpaper Engine analysis tool to create a debug log
 
 如果 Wallpaper Engine 遇到技术问题，而您无法借助常见问题解答予以解决，则您可以创建系统日志文件，并在与我们联系时分享给我们：
 
@@ -11,7 +11,7 @@
 5. *可选：* 如果遇到崩溃问题，请检查 *wallpaper_engine* 目录中是否存在任何 **.mdmp** 文件，然后通过电子邮件 (**logs@wallpaperengine.io**) 将这些文件发送给我们，或者将其上传至某处。 如果能找到许多个 .mdmp 文件，请仅发送最新的 .mdmp 文件。
 
 ::: tip
-即使扫描工具起初没有报告任何问题，更深入的日志文件研究也经常能发现常见的计算机问题，这有助于我们快速为您提供有关如何解决技术问题的建议。
+Even if the analysis tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### 其他视频帮助
