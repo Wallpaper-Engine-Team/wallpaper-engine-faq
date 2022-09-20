@@ -1,4 +1,4 @@
-# Verwende das Scan-Tool von Wallpaper Engine um einen Analyse-Bericht zu erstellen
+# Use the Wallpaper Engine analysis tool to create a debug log
 
 Falls du technische Probleme mit Wallpaper Engine hast, welche du nicht mit der Hilfe des FAQs lösen kannst, kannst du einen Analyse-Bericht deines Systems erstellen und mit uns teilen, wenn du mit uns in Kontakt trittst:
 
@@ -11,8 +11,7 @@ Falls du technische Probleme mit Wallpaper Engine hast, welche du nicht mit der 
 5. *Optional:* Falls die Anwendung abstürzt, überprüfe dein *wallpaper_engine*-Verzeichnis auf **.mdmp**-Dateien und sende uns diese via E-Mail (**logs@wallpaperengine.io**) oder lade sie irgendwo hoch und teile sie mit uns. Falls du sehr viele .mdmp-Dateien findest, sende uns bitte einfach nur die neueste Datei.
 
 ::: tip
-Tipp
-Auch wenn das Scan-Tool anscheinend keine Fehler meldet, so kann ein tieferer Einblick in die Log-Datei oft häufige Computer-Probleme zum Vorschein bringen, welche uns helfen dir schnell einen Lösungsvorschlag für deine technischen Probleme mitzuteilen.
+Even if the analysis tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### Weitere Video-Hilfe
