@@ -1,4 +1,4 @@
-# Создание лог-файла отладки с помощью инструмента сканирования Wallpaper Engine
+# Use the Wallpaper Engine analysis tool to create a debug log
 
 Если при использовании Wallpaper Engine у вас возникли технические проблемы, решений которых в списке часто задаваемых вопросов вы не нашли, создайте системный лог-файл и приложите его к письму в техподдержку:
 
@@ -10,7 +10,7 @@
 5. *Дополнительно:* если программа аварийно завершает работу, проверьте, есть ли в каталоге *wallpaper_engine* файлы в формате **.mdmp**, и приложите их к письму. Если файлов .mdmp много, пожалуйста, пришлите самые новые.
 
 ::: tip
-Даже если на первый взгляд инструмент сканирования не обнаружил никаких ошибок, при тщательном изучении лог-файла часто обнаруживаются распространенные проблемы. Такая информация поможет нам быстрее дать вам совет по решению проблемы.
+Even if the analysis tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### Дополнительные видеоинструкции
