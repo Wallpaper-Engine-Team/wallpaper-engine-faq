@@ -321,6 +321,7 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 			title: audioGroup,
 			collapsable: false,
 			children: [
+				locale + 'audio/mediaintegration',
 				locale + 'audio/audiodetection',
 				locale + 'audio/noaudio',
 				locale + 'audio/intermittent',

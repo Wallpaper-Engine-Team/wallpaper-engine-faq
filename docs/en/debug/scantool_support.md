@@ -1,4 +1,4 @@
-# Use the Wallpaper Engine scan tool to create a debug log
+# Use the Wallpaper Engine analysis tool to create a debug log
 
 If you are having technical issues with Wallpaper Engine that you are unable to solve with the help of the FAQ, you can create a system log file which you can share with us when contacting us:
 
@@ -10,7 +10,7 @@ If you are having technical issues with Wallpaper Engine that you are unable to 
 5. *Optional:* If you are experiencing crashes, please check your *wallpaper_engine* directory for any **.mdmp** files and also send them to us via email. If you can find a lot of .mdmp files, please just send the newest ones.
 
 ::: tip
-Even if the scan tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
+Even if the analysis tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### Additional video help
