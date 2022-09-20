@@ -1,4 +1,4 @@
-# Utiliser l'outil d'analyse de Wallpaper Engine pour créer un rapport de bug
+# Use the Wallpaper Engine analysis tool to create a debug log
 
 Si vous rencontrez des problèmes avec Wallpaper Engine que vous ne parvenez pas résoudre à l'aide de la FAQ, vous pouvez créer un rapport pour votre système que vous pourrez par la suite nous envoyer :
 
@@ -10,7 +10,7 @@ Si vous rencontrez des problèmes avec Wallpaper Engine que vous ne parvenez pas
 5. *Facultatif :* si vous avec un problème de crash, veuillez vérifier dans le répertoire *wallpaper_engine* les fichiers **.mdmp** et nous les envoyer par e-mail. Si vous trouvez beaucoup de fichiers .mdmp, envoyez-nous les plus récents.
 
 ::: tip
-Même si l'outil d'analyse ne signale aucun problème à première vue, une analyse plus approfondie du rapport peut nous indiquer des problèmes courants qui nous permettront de vous conseiller rapidement.
+Even if the analysis tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### Tutoriels vidéo
