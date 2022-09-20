@@ -1,4 +1,4 @@
-# Wallpaper Engine 스캔 도구를 사용하여 디버그 로그 생성하기
+# Use the Wallpaper Engine analysis tool to create a debug log
 
 Wallpaper Engine에 FAQ의 도움으로 해결할 수 없는 기술적 문제가 발생하면, 저희에게 공유할 시스템 로그 파일을 만들 수 있습니다.
 
@@ -11,7 +11,7 @@ Wallpaper Engine에 FAQ의 도움으로 해결할 수 없는 기술적 문제가
 5. *선택 사항:* 작동 중단이 발생하면 *wallpaper_engine* 디렉터리에 있는 **.mdmp** 파일들을 이메일(**logs@wallpaperengine.io**)로 보내거나 어딘가에 업로드하여 저희와 공유해주세요. 그리고 다수의 .mdmp 파일을 찾으면, 가장 최신 파일을 보내주세요.
 
 ::: tip
-처음에는 스캔 도구가 보고하는 문제가 없더라도, 로그 파일을 자세히 조사하면 저희가 기술적 문제의 해결 방법을 빠르게 조언하는 데 도움이 될 일반적인 컴퓨터 문제를 찾을 수 있는 경우가 종종 있습니다.
+Even if the analysis tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### 추가 비디오 도움말
