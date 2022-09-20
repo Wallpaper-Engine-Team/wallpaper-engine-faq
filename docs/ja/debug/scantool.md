@@ -1,4 +1,4 @@
-# Wallpaper Engine スキャンツールを使ってデバッグログを作成する
+# Use the Wallpaper Engine analysis tool to create a debug log
 
 Wallpaper Engineで技術的な問題が発生し、FAQを見ても解決できない場合、システムログファイルを作成し、お問い合わせの際に添付していただくことができます。
 
@@ -11,7 +11,7 @@ Wallpaper Engineで技術的な問題が発生し、FAQを見ても解決でき�
 5. *オプション：* クラッシュが起きた場合は、*wallpaper_engine*ディレクトリの中で **.mdmp** ファイルを探し、それもメールでお送りいただくか（**logs@wallpaperengine.io**）、 どこかにアップロードしてリンクをお送りください。 .mdmpファイルがたくさんある場合は、最新のものをお送りください。
 
 ::: tip
-最初の1回でスキャンツールが問題を報告しない場合でも、ログファイルを詳しく調べると、よくあるコンピュータの問題が発見され、技術的問題の解決に向けたアドバイスを差し上げられることがよくあります。
+Even if the analysis tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### 追加の動画ヘルプ
