@@ -1,4 +1,4 @@
-# สร้าง Log การดีบักโดยใช้เครื่องมือสแกนของ Wallpaper Engine
+# Use the Wallpaper Engine analysis tool to create a debug log
 
 หากคุณพบปัญหาทางเทคนิคกับ Wallpaper Engine ที่คุณไม่สามารถแก้ไขได้ด้วยความช่วยเหลือของคำถามที่พบบ่อย คุณสามารถสร้างไฟล์ Log สำหรับระบบซึ่งคุณสามารถแบ่งปันกับเราได้เมื่อคุณติดต่อเรา:
 
@@ -10,7 +10,7 @@
 5. *ตัวเลือกเสริม: * หากคุณพบข้อผิดพลาด โปรดตรวจสอบไดเรกทอรี *wallpaper_engine* ของคุณเพื่อหาไฟล์ **.mdmp** ใด ๆ และส่งให้เราทางอีเมล หากคุณพบไฟล์ .mdmp จำนวนมาก โปรดส่งเฉพาะไฟล์ .mdmp ล่าสุดเท่านั้น
 
 ::: tip
-แม้ว่าเครื่องมือสแกนจะไม่รายงานปัญหาใด ๆ ในตอนแรก การตรวจสอบไฟล์ Log เชิงลึกเพิ่มเติมมักจะพบปัญหาคอมพิวเตอร์ทั่วไปซึ่งช่วยให้เราสามารถให้คำแนะนำถึงวิธีแก้ไขปัญหาด้านเทคนิคได้อย่างรวดเร็ว
+Even if the analysis tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### วิดีโอช่วยเหลือเพิ่มเติม
