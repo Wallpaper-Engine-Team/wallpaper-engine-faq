@@ -2,33 +2,39 @@
 
 Wallpaper Engine, duvar kâğıtlarınızı ekran koruyucu olarak kullanmanıza olanak sağlar. Geleneksel olarak, ekranları kalıcı görüntü yanmasından korumak için ekran koruyucular kullanılırdı. Ancak çoğu modern ekran teknolojisi artık bu tür ekran hasarlarından etkilenmez ve bu yüzden estetik amaçlar için herhangi bir duvar kâğıdını ekran koruyucu olarak güvenle kullanabilirsiniz. Yanıklara karşı hassas olan bir CRT, Plazma, OLED veya benzeri ekran teknolojisi kullanıyorsanız, ekran koruyucu olarak duvar kâğıtlarından oluşan bir oynatma listesi veya düzenli hareketli bir duvar kâğıdı kullanmanızı öneririz.
 
+[[toc]]
+
 ## Ekran Koruyucu Kurulumu
 
-Wallpaper Engin'i ekran koruyucu olarak kullanmaya başlamak için Wallpaper Engine penceresindeki **Yüklü** sekmesinin üzerine gelin ve **Ekran Koruyucuyu Yapılandır** öğesini seçin. Wallpaper Engine, şimdi Windows'a Wallpaper Engin ekran koruyucu yükleyip yüklemediğinizi kontrol edecek. Ekran koruyucuyu henüz yüklemediyseniz, yüklemeniz istenecek. Windows kullanıcınızın yönetici haklarına sahip olduğuna ve hiçbir antivirüs programının Wallpaper Engin'in ekran koruyucuyu kurmasını engellemediğinden emin olun.
+In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
 
-İlk yükleme sonrasında Windows ekran koruyucu ayarları otomatik olarak açılır, alternatif olarak **Ayarlar & Ön izleme** düğmesi veya Windows üzerinden ekran koruyucu ayarlarına doğrudan erişebilirsiniz.
+After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
 
 ## Ekran koruyucu Yapılandırması
 
 ### Windows Yapılandırması
 
-Wallpaper Engine ekran koruyucunun çalışması için ilk önce **Windows ayarlarından** Wallpaper Engine'i etkin ekran koruyucunuz olarak seçmelisiniz. Windows ekran koruyucu ayarlarını, Windows kontrol paneli üzerinden veya Wallpaper Engine ekran koruyucu modundayken **Ayarlar & Ön izleme** seçeneklerine tıklayarak açabilirsin. Gerekli adımlar için aşağıdaki videoyu izleyin:
+In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
   Tarayıcınız video etiketini desteklemiyor.
 </video>
 
-Windows ayarlarında, ekran koruyucu belirene kadar geçecek süreyi ve bilgisayarınıza döndüğünüzde size Windows kilit ekranının gösterilip gösterilmeyeceğini kontrol edebilirsiniz. Bu ayarlar tamamen Windows tarafından yönetilir, Wallpaper Engine ekran zaman aşımı ve benzeri şeyleri kontrol edemez.
+In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
 
 ### Wallpaper Engine Yapılandırması
 
-Windows'ta ekran koruyucuyu kurduktan sonra, Wallpaper Engine ekran koruyucusunu yapılandırmaya başlayabilirsiniz. Duvar Kağıdı Motorunda **Yüklenenler** sekmesinin üzerine gelin ve **Ekran Koruyucuyu Yapılandır**'ı seçin. Wallpaper Engine artık duvar kâğıtları yerine ekran koruyucularınızı ön izleyecek. Ekran koruyucu modundan çıktığınızda duvar kâğıdı yapılandırmanıza geri döneceksiniz.
+Once you have set up the screensaver in Windows, you can start configuring the Wallpaper Engine screensaver. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
 
-Wallpaper Engine, varsayılan durumunda ekran koruyucularınızın aktif olarak çalışan duvar kâğıtlarınızla tamamen aynı olan en temel kurulumu kullanır. Üstteki **Ekran Koruyucu** seçeneğini **Ayrı olarak yapılandırılmış** olarak değiştirerek bunu değiştirebilirsiniz. Bu seçenek etkinleştirildiğinde, ekran koruyucu olarak kullanılacak her ekran için bir duvar kâğıdı seçebilir veya ekran koruyucu kurulumunuz için tamamen farklı bir ekran profili veya oynatma listesi kullanabilirsiniz. Sol üst köşedeki kırmızı **Çıkış** düğmesini tıklayarak duvar kâğıdı yapılandırmasına istediğiniz zaman dönebilirsiniz.
+In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
 
 ## Ekran koruyucu Sorun Çözme
 
-Wallpaper Engine ekran koruyucu Windows üzerinden etkinleştirilir, ekran koruyucu düzgün çalışmıyorsa, varsayılan Windows ekran koruyucularından herhangi birinin sizin için doğru çalışıp çalışmadığını görmek için lütfen iki kez kontrol edin. Ekran koruyucunuzun beklediğiniz doğru zaman aşımı ile yapılandırıldığından ve Wallpaper Engine'in etkin ekran koruyucunuz olarak ayarlandığından emin olmak için Windows ekran koruyucu ayarlarını ve Windows enerji ayarlarınızı kontrol edin.
+The Wallpaper Engine screensaver is activated through Windows itself, if the screensaver is not working correctly, please double-check to see if any of the default Windows screensavers work correctly for you. Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
 
-Ekran koruyucu `C:\Windows\System32\wpxscreensaver64.scr` dizinine yüklenecek, hiçbir antivirüs uygulamasının bu dosyayı yanlışlıkla silmediğinden veya yüklenmesini engellemediğinden emin olun. Bu dosyayı silerek ekran koruyucuyu manuel olarak kaldırabilirsini ama bunu yaparken `System32` dizininden önemli Windows dosyalarını silmediğinizden emin olun.
+The screensaver will be installed in `C:\Windows\System32\wpxscreensaver64.scr`, make sure no antivirus app is deleting this file by mistake or preventing it from being installed. You can also manually uninstall the screensaver by deleting that specific file, but be sure to not delete any other important Windows files in the `System32` directory when doing so.
+
+## Turning off the Wallpaper Engine screensaver
+
+If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
