@@ -1,4 +1,4 @@
-# Usar la herramienta de escaneo de Wallpaper Engine para crear un registro de depuración
+# Use the Wallpaper Engine analysis tool to create a debug log
 
 Si tienes problemas técnicos con Wallpaper Engine y no puedes resolverlos tras leer las preguntas frecuentes, puedes crear un registro de depuración y enviárnoslo cuando contactes con nosotros:
 
@@ -11,7 +11,7 @@ Si tienes problemas técnicos con Wallpaper Engine y no puedes resolverlos tras 
 5. *Opcional:* si el programa se cuelga, dirígete al directorio *wallpaper_engine* para comprobar si hay algún archivo **.mdmp** y envíanoslo por correo (**logs@wallpaperengine.io**) o súbelo a alguna página. Si hay muchos archivos .mdmp, mándanos solo los más recientes.
 
 ::: tip
-Si la herramienta de escaneo no encuentra ningún problema a primera vista, a nosotros nos sirve investigar a fondo el archivo de registro, pues suele revelar problemas comunes del ordenador que nos vendrán bien para decirte cómo arreglar los problemas técnicos.
+Even if the analysis tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### Vídeo de ayuda
