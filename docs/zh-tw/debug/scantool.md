@@ -1,4 +1,4 @@
-# 使用 Wallpaper Engine 掃描工具建立偵錯記錄
+# Use the Wallpaper Engine analysis tool to create a debug log
 
 如果您使用 Wallpaper Engine 遇到技術問題，但常見問題集的說明無法解決，請您建立系統記錄檔後提供給我們：
 
@@ -11,7 +11,7 @@
 5. *另可選擇：* 如果遇到當機，請檢查 *wallpaper_engine* 目錄中是否存在任何 **.mdmp** 檔案，並利用電子郵件 (**logs@wallpaperengine.io**) 傳送或上傳至某處以提供給我們。 如果您找到許多 .mdmp 檔案，請傳送最新的即可。
 
 ::: tip
-即使掃描工具起初並未回報任何問題，若更深入研究記錄檔，也通常能發現常見的電腦問題，有助我們快速為您提供解決方式。
+Even if the analysis tool does not report any issues at first glance, a deeper investigation of the log file often reveals common computer issues which help us to quickly provide advice to you how to fix your technical issues.
 :::
 
 #### 其他視訊說明
