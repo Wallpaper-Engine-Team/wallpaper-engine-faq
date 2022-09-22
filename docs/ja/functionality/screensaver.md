@@ -6,34 +6,34 @@ Wallpaper Engineを使えば、自分の壁紙をスクリーンセーバーと�
 
 ## 初期スクリーンセーバー設定
 
-In order to get started with using Wallpaper Engine as a screensaver, hover over the **Installed** tab in the Wallpaper Engine window and select **Configure Screensaver**. Wallpaper Engine will now check if you have already installed the Wallpaper Engine screensaver for Windows. If the screensaver has not yet been installed yet, you will be asked to install it. Make sure your Windows user has administrative rights and that no antivirus app is blocking Wallpaper Engine from installing the screensaver.
+Wallpaper Engineをスクリーンセーバーとして使用する際は、Wallpaper Engineのウィンドウの **インストール済み**タブにカーソルを合わせ、**スクリーンセーバー設定**を選択してください。 Wallpaper Engineが、Windows用のWallpaper Engineスクリーンセーバーのインストールが完了しているかの確認を開始します。 スクリーンセーバーがまだインストールされていない場合は、インストールを実行するように求められます。 お使いのWindowsユーザーに管理者権限があり、Wallpaper Engineのスクリーンセーバーのインストールをアンチウイルスソフトがブロックしていないことを確認してください。
 
-After the initial installation, the Windows screensaver settings should open automatically, alternatively you can open the settings manually using the **Settings & Preview** button or by directly accessing the screensaver settings via Windows.
+初回インストール後、Windowsの「スクリーンセーバーの設定」画面が自動で開きます。また、同画面には**設定 & プレビュー**ボタンをクリックすることでもアクセスでき、Windowsの「個人用設定」から直接開くこともできます。
 
 ## スクリーンセーバー設定
 
 ### Windows設定
 
-In order for the Wallpaper Engine screensaver to work, you need to first select Wallpaper Engine as your active screensaver in the **Windows settings**. You can open the Windows screensaver settings through the Windows control panel or by clicking on **Settings & Preview** while in screensaver mode in Wallpaper Engine. See the video below for the necessary steps:
+Wallpaper Engineのスクリーンセーバーを有効にするには、まず **Windows設定**でWallpaper Engineをアクティブなスクリーンセーバーとして指定する必要があります。 Windowsの「スクリーンセーバーの設定」画面はコントロールパネルから開くことができます。また、スクリーンセーバーモード状態のWallpaper Engineの**設定 & プレビュー** をクリックすることでアクセスすることも可能です。 手順に関しては下記の動画を参照してください。
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/screensaver_setup.mp4" type="video/mp4">
   お使いのブラウザは動画タグをサポートしていません。
 </video>
 
-In the Windows settings, you can control the time it takes until the screensaver appears and whether or not you will be presented with the Windows lock-screen when you return to your computer. These settings are entirely handled by Windows, Wallpaper Engine itself does not control the screen timeout or similar.
+Windows側の設定ではスクリーンセーバーが表示されるまでの時間と、再開時にWindowsのロック画面に戻るかどうかの設定をすることができます。 これらの設定はすべてWindows側で行われ、Wallpaper Engine側で画面タイムアウトなどの制御は行っていません。
 
 ### Wallpaper Engine設定
 
-Once you have set up the screensaver in Windows, you can start configuring the Wallpaper Engine screensaver. Hover over the **Installed** tab in Wallpaper Engine and select **Configure Screensaver**. Wallpaper Engine will now preview your screensavers instead of your wallpapers - once you exit screensaver mode, you will return back to your wallpaper configuration.
+Windows側でスクリーンセーバーを設定すれば、Wallpaper Engine側のスクリーンセーバー設定が可能となります。 Wallpaper Engineの**インストール済み**タブにカーソルを合わせ、**スクリーンセーバー設定**を選択してください。 Wallpaper Engineは、壁紙ではなくスクリーンセーバーをプレビュー表示します。スクリーンセーバーモードを終了すると壁紙設定に戻ります。
 
-In its default state, Wallpaper Engine will use the most basic setup where your screensavers are exactly the same as your actively running wallpapers. You can change this by changing the **Screensaver is** option to **Configured separately** at the top. With that option enabled, you can choose a wallpaper for each screen which is to be used as a screensaver or even use a completely different display profile or playlists for your screensaver setup. You can always return to the wallpaper configuration by clicking on the red **Quit** button in the upper left corner.
+デフォルト状態のWallpaper Engineには最も基本的な設定が採用され、現在アクティブとなっている壁紙と同じものがスクリーンセーバーとして使用されます。 これを変更するには、画面上部の**スクリーンセーバーは**の選択を**個別に設定**に変更してください。 この選択が有効になると、スクリーンセーバーとして各画面に使用する壁紙の選択、ならびにスクリーンセーバーの設定とはまったく異なるディスプレイプロファイルまたはプレイリストの使用が可能になります。 画面左上にある赤色の**終了**ボタンをクリックすれば、壁紙の設定画面に戻ることができます。
 
 ## スクリーンセーバーの問題解消
 
-The Wallpaper Engine screensaver is activated through Windows itself, if the screensaver is not working correctly, please double-check to see if any of the default Windows screensavers work correctly for you. Check the Windows screensaver settings and your Windows energy settings to make sure that your screensaver is configured with the correct timeout that you expect and that Wallpaper Engine is set as your active screensaver.
+Wallpaper EngineのスクリーンセーバーはWindows側の設定でアクティベートされます。スクリーンセーバーが正しく作動しない場合は、Windows側でデフォルトのスクリーンセーバーが正しく作動しているかを確認してください。 Windows側のスクリーンセーバーならびに電源の設定で、スクリーンセーバーのタイムアウトが正しく設定されていること、さらにWallpaper Engineがアクティブなスクリーンセーバーとして指定されていることを確認してください。
 
-The screensaver will be installed in `C:\Windows\System32\wpxscreensaver64.scr`, make sure no antivirus app is deleting this file by mistake or preventing it from being installed. You can also manually uninstall the screensaver by deleting that specific file, but be sure to not delete any other important Windows files in the `System32` directory when doing so.
+スクリーンセーバーは `C:\Windows\System32\wpxscreensaver64.scr`にインストールされます。アンチウイルスソフトが誤ってこのファイルを削除したりインストールをブロックしたりしないよう、注意を払ってください。 このファイルを削除することでスクリーンセーバーを手動でアンインストールすることもできますが、その際は`System32`ディレクトリ内にある他の重要なWindowsファイルを削除しないように気をつけてください。
 
 ## Turning off the Wallpaper Engine screensaver
 
