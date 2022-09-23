@@ -3,32 +3,31 @@
 Wallpaper Engineでは、壁紙作成者が自作壁紙に特殊なエレメントを追加できるようになりました。これにより、壁紙でアルバムカバー、曲名、アルバム名などが使用可能になります。 本ガイドはこの機能で発生しがちな問題の解決方法について説明します。
 
 【注意】  
-この記事には、アルバムカバーと曲の情報に関する特定の壁紙機能についてのみ書かれています。 If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
+この記事には、アルバムカバーと曲の情報に関する特定の壁紙機能についてのみ書かれています。 オーディオビジュアライザに問題が発生している場合や、メディアプレイヤーでオーディオビジュアライザを制限したい場合などは、該当記事を参照してください。
 
-* [Limiting audio visualizers to music players](/audio/limittomusicplayer)
-* [Audio visualizers do not work / no sound detected](/audio/audiodetection)
-:::
+* [音楽プレイヤーへのオーディオビジュアライザーの限定](/audio/limittomusicplayer)
+* [オーディオビジュアライザーが機能しません / サウンドが検知されません](/audio/audiodetection)
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/media_controls.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  お使いのブラウザは動画タグをサポートしていません。
 </video>
 
-*Wallpaper Engine takes the album cover and song data from the Windows media overlay, shown in the upper left corner.*
+*Wallpaper EngineはWindowsメディアオーバーレイからアルバムカバーや曲のデータを利用します。左上部をご確認ください。*
 
-## Enabling Album Cover & Media Data Feature
+## アルバムカバーの有効化&メディアデータ機能
 
-In order for this feature to work, you need to make sure that these conditions are met:
+この機能を利用するためには、以下の条件を満たしている必要があります。
 
-1. You are using Windows 10 or newer.
-2. You have enabled the **Media integration support** option in the **General** tab of the Wallpaper Engine settings.
-3. Your media player provides media data to the Windows media overlay (depicted above). More details below.
-4. Your audio files contain album covers and media data (song title, artist name, album name, etc.)
+1. Windows 10以降のバージョンを使用している。
+2. Wallpaper Engineの設定の**一般**タブから**メディア統合サポート**オプションを有効にしている。
+3. メディアプレイヤーがWindowsメディアオーバーレイにデータを提供可能（上記参照）。 詳細は以下を確認。
+4. オーディオファイルにアルバムカバーとメディアデータ（曲名、アーティスト名、アルバム名など）が含まれている。
 
-### Configuring your Media Player
+### メディアプレイヤーの設定
 
-Most modern media players support the Windows media overlay that is needed for this feature to function. Sometimes you need to enable it first. Open the settings of your media player and look for the appropriate option (sometimes also hidden away in the advanced settings). The option usually mentions a *"media overlay"* or *"media hotkeys"*. If you are unsure, do a web search including the name of your media player and words like *"media overlay"*.
+最新のメディアプレイヤーは、本機能を利用するのに必要なWindowsメディアオーバーレイに対応しています。 場合によっては、まず最初にそのオーバーレイを有効にしないといけません。 メディアプレイヤーの設定を開き、適当なオプションを探してください。オプションは高度な設定の中に埋もれている可能性もあります。 通常、該当オプションは「*メディアオーバーレイ*」や「*ショートカットキー*」などと記されています。 よく分からない場合は、ネットで検索をしてください。メディアプレイヤー名と「メディアオーバーレイ」などの文言を一緒に検索するとよいでしょう。
 
-## Excluding Apps like Web Browsers from Album Cover Feature
+## アルバムカバー機能からウェブブラウザなどのアプリを除外する
 
-If you notice that your web browser or another app on your system starts interfering with the album cover feature, you can add it to the media blocklist. Open the **General** tab of the Wallpaper Engine settings, navigate to the **Windows** section and click on the **Edit** button next to the **Media blocklist** option. Make sure the app in question is interfering with the album cover feature, it should now appear as a suggestion in the blocklist. Click on the **Block** button next to the app, it should now stop interfering with the album cover feature.
+システム上にあるウェブブラウザや別のアプリがアルバムカバー機能に干渉している場合、それらをメディアブロックリストに追加することが可能です。 Wallpaper Engine の設定で、**「一般」**タブから「**Windows**」セクションを開き、「**メディアブロックリスト**」のとなりにある「**編集**」ボタンをクリックしてください。 問題のアプリがアルバムカバー機能に干渉していることを確認してください。干渉しているのであれば、ブロックリストに表示されているはずです。 アプリの隣にある「**ブロック**」ボタンをクリックしてください。これで該当アプリがアルバムカバー機能に干渉することはなるでしょう。
