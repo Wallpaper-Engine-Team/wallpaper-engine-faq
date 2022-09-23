@@ -1,10 +1,9 @@
-# Album Cover & Media Data Feature
+# アルバムカバー&メディアデータ機能
 
-Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
+Wallpaper Engineでは、壁紙作成者が自作壁紙に特殊なエレメントを追加できるようになりました。これにより、壁紙でアルバムカバー、曲名、アルバム名などが使用可能になります。 本ガイドはこの機能で発生しがちな問題の解決方法について説明します。
 
-::: warning
-Please note
-This article is about a specific wallpaper feature for album covers and song information. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
+【注意】  
+この記事には、アルバムカバーと曲の情報に関する特定の壁紙機能についてのみ書かれています。 If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
 
 * [Limiting audio visualizers to music players](/audio/limittomusicplayer)
 * [Audio visualizers do not work / no sound detected](/audio/audiodetection)
