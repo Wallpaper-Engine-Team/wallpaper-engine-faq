@@ -185,14 +185,14 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control showIcons
 ```
 
-### Get Current Wallpaper
+### รับวอลเปเปอร์ปัจจุบัน
 
-This will output the primary wallpaper path as a string to the current standard output, you can also specify a monitor to get the wallpaper path for. This function is useful if you want to integrate Wallpaper Engine in other tools that need to react to the current wallpaper in some way.
+วิธีนี้จะส่งออกพาธวอลเปเปอร์หลักเป็นคำสั่งไปยังเอาต์พุตมาตรฐานในปัจจุบัน คุณยังสามารถระบุจอแสดงผลที่รับพาธวอลเปเปอร์ได้ ฟังก์ชันนี้มีประโยชน์หากคุณต้องการรวม Wallpaper Engine เข้าในเครื่องมืออื่นๆ ที่จำเป็นต้องมีการตอบสนองต่อวอลเปเปอร์ปัจจุบันในทางใดทางหนึ่ง
 
 ``` powershell
 -control getWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
-* **RETURNS:** File path to active wallpaper.
+* **location *(ไม่บังคับ)*:** ตัวระบุภายในของจอแสดงผลหรือชื่อหน้าต่างที่คุณระบุ
+* **monitor *(ไม่บังคับ)*:** ดัชนีของจอแสดงผลเพื่ออัพเดทคุณสมบัติ ขึ้นต้นด้วย 0
+* **RETURNS:** พาธไฟล์ไปยังวอลเปเปอร์ที่ทำงาน
