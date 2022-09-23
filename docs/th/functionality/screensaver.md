@@ -35,6 +35,6 @@ Wallpaper Engine ให้คุณใช้วอลเปเปอร์เป
 
 สกรีนเซฟเวอร์จะถูกติดตั้งใน `C:\Windows\System32\wpxscreensaver64.scr` โปรดตรวจสอบให้แน่ใจว่าไม่มีแอพพลิเคชันป้องกันไวรัสลบไฟล์นี้หรือป้องกันไม่ให้ติดตั้งโดยไม่ได้ตั้งใจ คุณยังสามารถถอนการติดตั้งสกรีนเซฟเวอร์ได้ด้วยตนเองโดยการลบไฟล์ดังกล่าว โปรดระวังอย่าลบไฟล์ Windows สำคัญอื่น ๆ ในไดเร็กทอรี `System32`
 
-## Turning off the Wallpaper Engine screensaver
+## การปิดสกรีนเซฟเวอร์ Wallpaper Engine
 
-If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
+หากคุณไม่ต้องการให้วอลเปเปอร์ปรากฏเป็นสกรีนเซฟเวอร์เต็มหน้าจอหลังหยุดใช้งานคอมพิวเตอร์เป็นเวลาสองสามนาที คุณสามารถปิดฟังก์ชันสกรีนเวฟเวอร์ Wallpaper Engine ได้ เพียงเปิด **การตั้งค่าสกรีนเซฟเวอร์ Windows** และตั้งค่าสกรีนเซฟเวอร์เป็น **ไม่มี** (None) เพียงเท่านี้ก็เสร็จสิ้น คุณสามารถเปิดใช้งานฟังก์ชันสกรีนเซฟเวอร์อีกครั้งได้ในอนาคตโดยทำตามขั้นตอนที่ด้านบนของบทความนี้
