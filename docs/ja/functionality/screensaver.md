@@ -35,6 +35,6 @@ Wallpaper EngineのスクリーンセーバーはWindows側の設定でアクテ
 
 スクリーンセーバーは `C:\Windows\System32\wpxscreensaver64.scr`にインストールされます。アンチウイルスソフトが誤ってこのファイルを削除したりインストールをブロックしたりしないよう、注意を払ってください。 このファイルを削除することでスクリーンセーバーを手動でアンインストールすることもできますが、その際は`System32`ディレクトリ内にある他の重要なWindowsファイルを削除しないように気をつけてください。
 
-## Turning off the Wallpaper Engine screensaver
+## Wallpaper Engineのスクリーンセーバーをオフにする
 
-If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
+数分間操作がなかった際に、壁紙をフルスクリーンのスクリーンセーバーとして表示したくない場合、Wallpaper Engineのスクリーンセーバー機能をオフにすることができます。 「**Windowsスクリーンセーバー設定**」を開き、スクリーンセーバーを「**なし**」に設定するだけです。 これ以上の設定は必要ありません。再びスクリーンセーバー機能をオンにしたいときは、本記事上部に書かれているステップを参照してください。
