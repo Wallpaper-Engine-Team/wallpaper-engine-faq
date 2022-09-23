@@ -185,14 +185,14 @@ pause または stop しているすべての壁紙を再開します。
 -control showIcons
 ```
 
-### Get Current Wallpaper
+### 現在の壁紙を入手する
 
-This will output the primary wallpaper path as a string to the current standard output, you can also specify a monitor to get the wallpaper path for. This function is useful if you want to integrate Wallpaper Engine in other tools that need to react to the current wallpaper in some way.
+この機能を使うと、主要な壁紙のパスを文字列として現在の標準出力に出力します。また、壁紙のパスを入手するモニターを指定することも可能です。 この機能はWallpaper Engineを別のツールと統合したいときに役立つでしょう。特にそのツールを現在の壁紙に何らかの方法で反応させたいときなどに最適です。
 
 ``` powershell
 -control getWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
-* **RETURNS:** File path to active wallpaper.
+* **location *（オプション）*：** モニターの内部識別子または自分で指定したウィンドウ名です。
+* **monitor *（オプション）*：** プロパティを更新するモニターのインデックスで、0から始まります。
+* **RETURNS：**壁紙を有効にするファイルパス
