@@ -1,35 +1,35 @@
-# Album Cover & Media Data Feature
+# ปกอัลบั้ม & ฟีเจอร์ข้อมูลสื่อ
 
-Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
+Wallpaper Engine ให้ผู้สร้างวอลเปเปอร์เพิ่มองค์ประกอบพิเศษลงในวอลเปเปอร์ของตนได้ ซึ่งจะใช้ปกอัลบั้ม ชื่อเพลง ชื่ออัลบั้ม และอื่นๆ ได้ในวอลเปเปอร์ คู่มือนี้จะอธิบายวิธีแก้ปัญหาทั่วไปเกี่ยวกับฟีเจอร์นี้
 
 ::: warning
-Please note
-This article is about a specific wallpaper feature for album covers and song information. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
+โปรดทราบว่า
+บทความนี้เกี่ยวกับฟีเจอร์วอลเปเปอร์เฉพาะสำหรับปกอัลบั้มและข้อมูลเพลงเท่านั้น หากคุณมีปัญหาเกี่ยวกับ Visualizer เสียงหรือต้องการจำกัด Visualizer เสียงในโปรแกรมเล่นสื่อของคุณ โปรดอ่านบทความที่เกี่ยวข้องแทน:
 
-* [Limiting audio visualizers to music players](/audio/limittomusicplayer)
-* [Audio visualizers do not work / no sound detected](/audio/audiodetection)
+* [การจำกัด Visualizer เสียงให้กับเครื่องเล่นเพลง](/audio/limittomusicplayer)
+* [Visualizer เสียงไม่ทำงาน / ตรวจไม่พบเสียง](/audio/audiodetection)
 :::
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/media_controls.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  เบราว์เซอร์ของคุณไม่รองรับแท็กวิดีโอ
 </video>
 
-*Wallpaper Engine takes the album cover and song data from the Windows media overlay, shown in the upper left corner.*
+*Wallpaper Engine นำปกอัลบั้มและข้อมูลเพลงมาจากโอเวอร์เลย์ของ Windows Media ที่แสดงอยู่ทางมุมซ้ายบน*
 
-## Enabling Album Cover & Media Data Feature
+## เปิดใช้งานปกอัลบั้ม & ฟีเจอร์ข้อมูลสื่อ
 
-In order for this feature to work, you need to make sure that these conditions are met:
+เพื่อให้ฟีเจอร์นี้ทำงานได้ คุณต้องตรวจสอบให้แน่ใจว่าเป็นไปตามเงื่อนไขเหล่านี้:
 
-1. You are using Windows 10 or newer.
-2. You have enabled the **Media integration support** option in the **General** tab of the Wallpaper Engine settings.
-3. Your media player provides media data to the Windows media overlay (depicted above). More details below.
-4. Your audio files contain album covers and media data (song title, artist name, album name, etc.)
+1. คุณใช้ Windows 10 ขึ้นไป
+2. คุณได้เปิดใช้งานตัวเลือก**รองรับการรวมสื่อ**ในแท็บ**ทั่วไป** ของการตั้งค่า Wallpaper Engine
+3. โปรแกรมเล่นสื่อของคุณให้ข้อมูลสื่อแก่โอเวอร์เลย์ของ Windows Media (ดังภาพด้านบน) รายละเอียดเพิ่มเติมด้านล่าง
+4. ไฟล์เสียงของคุณมีปกอัลบั้มและข้อมูลสื่อ (ชื่อเพลง ชื่อศิลปิน ชื่ออัลบั้ม ฯลฯ)
 
-### Configuring your Media Player
+### การกำหนดค่าเครื่องเล่นสื่อของคุณ
 
-Most modern media players support the Windows media overlay that is needed for this feature to function. Sometimes you need to enable it first. Open the settings of your media player and look for the appropriate option (sometimes also hidden away in the advanced settings). The option usually mentions a *"media overlay"* or *"media hotkeys"*. If you are unsure, do a web search including the name of your media player and words like *"media overlay"*.
+โปรแกรมเล่นสื่อสมัยใหม่โดยมากจะรองรับการโอเวอร์เลร์ของ Windows Media ซึ่งจำเป็นต่อการทำงานของฟีเจอร์นี้ บางครั้งคุณต้องเปิดใช้งานสิ่งนี้ก่อน เปิดการตั้งค่าของโปรแกรมเล่นสื่อของคุณแล้วมองหาตัวเลือกที่เหมาะสม (บางครั้งอาจซ่อนอยู่ในการตั้งค่าขั้นสูง) ตัวเลือกมักกล่าวถึง*"media overlay"* (โอเวอร์เลย์สื่อ) หรือ *"media hotkeys"* (ฮอตคีย์สื่อ) หากไม่แน่ใจ ให้ลองค้นหาเว็บโดยระบุชื่อโปรแกรมเล่นสื่อของคุณและคำต่างๆ เช่น *"media overlay"*
 
-## Excluding Apps like Web Browsers from Album Cover Feature
+## นำแอปอย่างเว็บเบราว์เซอร์ออกจากฟีเจอร์ปกอัลบั้ม
 
-If you notice that your web browser or another app on your system starts interfering with the album cover feature, you can add it to the media blocklist. Open the **General** tab of the Wallpaper Engine settings, navigate to the **Windows** section and click on the **Edit** button next to the **Media blocklist** option. Make sure the app in question is interfering with the album cover feature, it should now appear as a suggestion in the blocklist. Click on the **Block** button next to the app, it should now stop interfering with the album cover feature.
+หากคุณเห็นว่าเว็บเบราว์เซอร์หรือแอปอื่นในระบบของคุณเริ่มรบกวนฟีเจอร์ปกอัลบั้ม คุณสามารถเพิ่มชื่อลงในรายการปิดกั้นสื่อได้ เปิดแท็บ**ทั่วไป**ของการตั้งค่า Wallpaper Engine แล้วไปที่ส่วน **Windows** จากนั้นคลิกที่ปุ่ม**แก้ไข**ถัดจากตัวเลือก**รายการปิดกั้นสื่อ** ตรวจสอบให้แน่ใจว่าตอนนี้แอปที่คิดว่าเป็นปัญหาต่อฟีเจอร์หน้าปกอัลบั้มปรากฏเป็นคำแนะนำในรายการปิดกั้น คลิกที่ปุ่ม**ปิดกั้น**ข้างแอป ตอนนี้ควรหยุดการรบกวนฟีเจอร์ปกอัลบั้มแล้ว
