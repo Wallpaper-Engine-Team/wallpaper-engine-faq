@@ -35,6 +35,6 @@ Wallpaper Engine ekran koruyucu Windows üzerinden etkinleştirilir, ekran koruy
 
 Ekran koruyucu `C:\Windows\System32\wpxscreensaver64.scr` dizinine yüklenecek, hiçbir antivirüs uygulamasının bu dosyayı yanlışlıkla silmediğinden veya yüklenmesini engellemediğinden emin olun. Bu dosyayı silerek ekran koruyucuyu manuel olarak kaldırabilirsini ama bunu yaparken `System32` dizininden önemli Windows dosyalarını silmediğinizden emin olun.
 
-## Turning off the Wallpaper Engine screensaver
+## Wallpaper Engine ekran koruyucu kapatılıyor
 
 If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
