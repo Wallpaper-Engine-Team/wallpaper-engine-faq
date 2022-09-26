@@ -31,4 +31,4 @@ Wallpaper Engine 允许壁纸创建者向其壁纸添加特殊元素，这些元
 
 ## 从专辑封面功能中排除 Web 浏览器等应用程序
 
-如果您注意到您的 Web 浏览器或系统上的其他应用程序开始干扰专辑封面功能，您可以将其添加到媒体阻止列表中。 Open the **General** tab of the Wallpaper Engine settings, navigate to the **Windows** section and click on the **Edit** button next to the **Media blocklist** option. Make sure the app in question is interfering with the album cover feature, it should now appear as a suggestion in the blocklist. Click on the **Block** button next to the app, it should now stop interfering with the album cover feature.
+如果您注意到您的 Web 浏览器或系统上的其他应用程序开始干扰专辑封面功能，您可以将其添加到媒体阻止列表中。 打开 Wallpaper Engine 设置的**常规** 标签，导航到 **Windows** 部分并单击<strong x **媒体阻止列表**选项旁边的 **编辑**按钮。 确保有问题的应用程序干扰了专辑封面功能，它现在应该作为建议出现在阻止列表中。 单击应用程序旁边的**阻止**按钮，它现在应该停止干扰专辑封面功能。
