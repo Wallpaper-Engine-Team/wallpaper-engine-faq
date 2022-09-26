@@ -1,23 +1,23 @@
 # 專輯封面和媒體資料功能
 
-Wallpaper Engine 讓桌布建立者得以為桌布增加特別元素，創作時將能善用專輯封面、歌曲名稱、專輯名稱等妝點桌布。 This guide will explain how to solve common problems around this feature.
+Wallpaper Engine 供桌布建立者得以為桌布增加特別元素，創作時將能善用桌布的專輯封面、歌曲名稱、專輯名稱等。 本指南將解釋如何解決與此功能有關的常見問題。
 
 ::: warning
-Please note
-This article is about a specific wallpaper feature for album covers and song information. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
+請注意
+本文將說明的是有關專輯封面和歌曲資訊的特定桌布功能。 若您使用音訊可視化工具時出現問題，或您想將音訊可視化工具限制至您的媒體播放器，請參見以下文章：
 
-* [Limiting audio visualizers to music players](/audio/limittomusicplayer)
-* [Audio visualizers do not work / no sound detected](/audio/audiodetection)
+* [將音訊可視化工具限制至音樂播放器](/audio/limittomusicplayer)
+* [音訊可視化工具無法運作/未偵測到音訊](/audio/audiodetection)
 :::
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/media_controls.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的瀏覽器不支援視訊標籤。
 </video>
 
-*Wallpaper Engine takes the album cover and song data from the Windows media overlay, shown in the upper left corner.*
+*Wallpaper Engine 從左上角顯示的 Windows 媒體覆蓋取得專輯封面和歌曲資料。*
 
-## Enabling Album Cover & Media Data Feature
+## 啟用專輯封面和媒體資料功能
 
 In order for this feature to work, you need to make sure that these conditions are met:
 
