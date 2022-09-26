@@ -1,6 +1,6 @@
-# Album Cover & Media Data Feature
+# 專輯封面和媒體資料功能
 
-Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
+Wallpaper Engine 讓桌布建立者得以為桌布增加特別元素，創作時將能善用專輯封面、歌曲名稱、專輯名稱等妝點桌布。 This guide will explain how to solve common problems around this feature.
 
 ::: warning
 Please note
