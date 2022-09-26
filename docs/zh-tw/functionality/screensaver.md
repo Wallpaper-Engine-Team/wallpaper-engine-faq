@@ -35,6 +35,6 @@ Wallpaper Engine 螢幕保護程式是透過 Windows 本身啟動，若螢幕保
 
 螢幕保護程式將安裝於 `C:\Windows\System32\wpxscreensaver64.scr`，請確保防毒應用程式不會意外刪除此檔案或阻擋該程式安裝。 您可手動刪除該特定檔案以解除安裝螢幕保護程式，但操作時請注意，勿刪除 `System32` 目錄下其他重要的 Windows 檔案。
 
-## Turning off the Wallpaper Engine screensaver
+## 關閉 Wallpaper Engine 螢幕保護程式
 
-If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
+電腦數分鐘後未使用，桌布會以全螢幕的螢幕保護程式顯示，如果您不希望如此，可關閉 Wallpaper Engine 螢幕保護程式功能。 您只要開啟 **Windows 螢幕保護程式設定**並將螢幕保護程式設定為**無**即可。 關閉此功能就是這麼簡單，未來如果您要重新開啟螢幕保護程式功能，只要遵循本文上述步驟即可。
