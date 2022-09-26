@@ -1,10 +1,10 @@
 # 專輯封面和媒體資料功能
 
-Wallpaper Engine 供桌布建立者得以為桌布增加特別元素，創作時將能善用桌布的專輯封面、歌曲名稱、專輯名稱等。 本指南將解釋如何解決與此功能有關的常見問題。
+Wallpaper Engine 供桌布建立者為桌布增加特別元素，創作時將能善用桌布的專輯封面、歌曲名稱、專輯名稱等。 本指南將說明如何解決有關此功能的常見問題。
 
 ::: warning
 請注意
-本文將說明的是有關專輯封面和歌曲資訊的特定桌布功能。 若您使用音訊可視化工具時出現問題，或您想將音訊可視化工具限制至您的媒體播放器，請參見以下文章：
+本文將說明的是有關專輯封面和歌曲資訊的特定桌布功能。 若您使用音訊可視化工具時出現問題，或您想將音訊可視化工具限制至您的媒體播放器，請參見相關文章：
 
 * [將音訊可視化工具限制至音樂播放器](/audio/limittomusicplayer)
 * [音訊可視化工具無法運作/未偵測到音訊](/audio/audiodetection)
@@ -15,21 +15,21 @@ Wallpaper Engine 供桌布建立者得以為桌布增加特別元素，創作時
   您的瀏覽器不支援視訊標籤。
 </video>
 
-*Wallpaper Engine 從左上角顯示的 Windows 媒體覆蓋取得專輯封面和歌曲資料。*
+*Wallpaper Engine 從左上角顯示的 Windows 媒體重疊取得專輯封面和歌曲資料。*
 
 ## 啟用專輯封面和媒體資料功能
 
-In order for this feature to work, you need to make sure that these conditions are met:
+為了使此功能運作，您需要確保符合以下條件：
 
-1. You are using Windows 10 or newer.
-2. You have enabled the **Media integration support** option in the **General** tab of the Wallpaper Engine settings.
-3. Your media player provides media data to the Windows media overlay (depicted above). More details below.
-4. Your audio files contain album covers and media data (song title, artist name, album name, etc.)
+1. 使用的是 Windows 10 或更新版本。
+2. 已在 Wallpaper Engine 設定的**一般**分頁啟用**媒體整合支援**選項。
+3. 媒體播放器將媒體資料提供給 Windows 媒體重疊 (如上所述)。 詳情如下。
+4. 音訊檔案包含專輯封面和媒體資料 (歌曲名稱、藝人名稱、專輯名稱等)。
 
-### Configuring your Media Player
+### 設定媒體播放器
 
-Most modern media players support the Windows media overlay that is needed for this feature to function. Sometimes you need to enable it first. Open the settings of your media player and look for the appropriate option (sometimes also hidden away in the advanced settings). The option usually mentions a *"media overlay"* or *"media hotkeys"*. If you are unsure, do a web search including the name of your media player and words like *"media overlay"*.
+大多數媒體播放器都支援使此功能得以運作的 Windows 媒體重疊。 有時候您必須先自行啟用。 開啟媒體播放器的設定，尋找適合的選項 (有時候藏在進階設定裡)。 該選項通常會提到「*媒體重疊*」或「*媒體快速鍵*」。 若您不確定，請上網搜尋，可從您的媒體播放器名稱或「*媒體重疊*」(media overlay) 等詞彙開始搜尋。
 
-## Excluding Apps like Web Browsers from Album Cover Feature
+## 從專輯封面功能中排除網頁瀏覽器等應用程式
 
-If you notice that your web browser or another app on your system starts interfering with the album cover feature, you can add it to the media blocklist. Open the **General** tab of the Wallpaper Engine settings, navigate to the **Windows** section and click on the **Edit** button next to the **Media blocklist** option. Make sure the app in question is interfering with the album cover feature, it should now appear as a suggestion in the blocklist. Click on the **Block** button next to the app, it should now stop interfering with the album cover feature.
+如果您注意到網頁瀏覽器或系統上其他應用程式開始干擾專輯封面功能，您可將其新增至媒體封鎖清單。 開啟 Wallpaper Engine 設定的**一般**分頁，前往 **Windows** 區段，按一下**媒體封鎖清單**選項旁邊的**編輯**按鈕。 若確定該應用程式正在干擾專輯封面功能，現在應該也會出現將該應用程式列至封鎖清單的建議。 按一下應用程式旁的**封鎖**按鈕，現在就應該不會再干擾專輯封面功能了。
