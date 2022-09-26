@@ -1,35 +1,35 @@
-# Album Cover & Media Data Feature
+# 앨범 커버 및 미디어 데이터 기능
 
-Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
+Wallpaper Engine은 배경화면 제작자가 자신의 배경화면에 앨범 커버, 곡명, 앨범명 등을 활용하는 특수한 요소를 추가할 수 있게 해줍니다. 이 가이드에서는 해당 기능과 관련하여 흔히 발생하는 문제의 해결법을 확인할 수 있습니다.
 
 ::: warning
-Please note
-This article is about a specific wallpaper feature for album covers and song information. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
+주의
+앨범 커버 및 곡 정보와 관련된 특정 배경화면 기능에 대한 항목입니다. 오디오 시각화와 관련된 문제를 겪고 있거나 오디오 시각화를 자신의 미디어 플레이어로 제한하고 싶을 경우, 다음 문서를 확인해주세요:
 
-* [Limiting audio visualizers to music players](/audio/limittomusicplayer)
-* [Audio visualizers do not work / no sound detected](/audio/audiodetection)
+* [오디오 시각화 도우미를 음악 플레이어에 제한](/audio/limittomusicplayer)
+* [오디오 시각화 도우미가 작동하지 않습니다 / 사운드가 검색되지 않습니다](/audio/audiodetection)
 :::
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/media_controls.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  브라우저가 비디오 태그를 지원하지 않습니다.
 </video>
 
-*Wallpaper Engine takes the album cover and song data from the Windows media overlay, shown in the upper left corner.*
+*Wallpaper Engine은 화면 좌측 상단에 표시된 Windows 미디어 오버레이에서 앨범 커버와 곡 정보를 가져옵니다.*
 
-## Enabling Album Cover & Media Data Feature
+## 앨범 커버 및 미디어 데이터 기능 활성화하기
 
-In order for this feature to work, you need to make sure that these conditions are met:
+이 기능이 제대로 작동하려면, 다음과 같은 조건을 충족하여야 합니다.
 
-1. You are using Windows 10 or newer.
-2. You have enabled the **Media integration support** option in the **General** tab of the Wallpaper Engine settings.
-3. Your media player provides media data to the Windows media overlay (depicted above). More details below.
-4. Your audio files contain album covers and media data (song title, artist name, album name, etc.)
+1. Windows 10 또는 그 이후 버전을 사용 중이어야 합니다.
+2. Wallpaper Engine 설정의 **일반** 탭에서 **미디어 통합 지원** 옵션을 활성화해야 합니다.
+3. 사용 중인 미디어 플레이어가 위에 묘사된 Windows 미디어 오버레이에 미디어 정보를 제공해야 합니다. 더 자세한 내용은 아래에서 확인하세요.
+4. 오디오 파일에 앨범 커버 및 미디어 정보(곡명, 아티스트명, 앨범명 등)가 포함되어 있어야 합니다.
 
-### Configuring your Media Player
+### 미디어 플레이어 설정하기
 
-Most modern media players support the Windows media overlay that is needed for this feature to function. Sometimes you need to enable it first. Open the settings of your media player and look for the appropriate option (sometimes also hidden away in the advanced settings). The option usually mentions a *"media overlay"* or *"media hotkeys"*. If you are unsure, do a web search including the name of your media player and words like *"media overlay"*.
+오늘날 사용되는 대부분의 미디어 플레이어는 이 기능이 작동하는 데 필요한 Windows 미디어 오버레이를 지원합니다. 우선 활성화해야 하는 경우도 있습니다. 미디어 플레이어의 설정을 연 후 해당하는 옵션을 찾아 보십시오. 고급 설정에 숨겨져 있을 수도 있습니다. 해당 옵션은 주로 *"미디어 오버레이"* 또는 *"미디어 단축키"*를 언급합니다. 확실하지 않을 경우 인터넷에서 미디어 플레이어의 이름과 *"미디어 오버레이"*와 같은 단어를 조합하여 검색하세요.
 
-## Excluding Apps like Web Browsers from Album Cover Feature
+## 앨범 커버 기능에서 웹 브라우저와 같은 앱 제외
 
-If you notice that your web browser or another app on your system starts interfering with the album cover feature, you can add it to the media blocklist. Open the **General** tab of the Wallpaper Engine settings, navigate to the **Windows** section and click on the **Edit** button next to the **Media blocklist** option. Make sure the app in question is interfering with the album cover feature, it should now appear as a suggestion in the blocklist. Click on the **Block** button next to the app, it should now stop interfering with the album cover feature.
+시스템에 있는 웹 브라우저 또는 기타 앱이 앨범 커버 기능에 간섭할 경우, 해당 프로그램을 미디어 차단 목록에 추가할 수 있습니다. Wallpaper Engine 설정에서 **일반** 탭을 열고 **Windows** 섹션의 **미디어 차단 목록** 옵션 옆에 있는 **편집** 버튼을 클릭하세요. 해당 앱이 앨범 커버에 간섭하는 경우 차단 목록에 추천 항목으로 표시될 것입니다. 해당 앱 옆의 **차단** 버튼을 누르면 더는 앨범 커버 기능에 간섭하지 않을 것입니다.
