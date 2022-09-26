@@ -35,6 +35,6 @@ Wallpaper Engine 屏幕保护程序通过 Windows 本身激活，如果屏幕保
 
 屏幕保护程序将安装在 `C:\Windows\System32\wpxscreensaver64.scr` 中，请确保防病毒应用程序不会错误地删除此文件或阻止其安装。 您还可以通过删除该特定文件来手动卸载屏幕保护程序，但在执行此操作时，务必确保不要删除 `System32` 目录中的任何其他重要 Windows 文件。
 
-## Turning off the Wallpaper Engine screensaver
+## 关闭 Wallpaper Engine 屏幕保护程序
 
-If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
+如果您不希望您的壁纸在几分钟不活动后显示为全屏屏幕保护程序，您可以关闭 Wallpaper Engine 屏幕保护程序功能。 只需打开 **Windows 屏幕保护程序设置**，然后将屏幕保护程序设置为 **无**。 无需更多操作，您可以在以后按照本文章顶部的步骤重新启用屏幕保护程序功能。
