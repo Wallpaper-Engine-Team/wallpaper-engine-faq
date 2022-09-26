@@ -35,6 +35,6 @@ Wallpaper Engine 화면 보호기는 Windows 자체를 통해 활성화되며, �
 
 화면 보호기는 `C:\Windows\System32\wpxscreensaver64.scr`에 저장되며, 백신 프로그램이 해당 파일을 실수로 삭제하거나 설치를 방해하는지 확인하세요. 또한 해당 파일을 삭제하여 화면 보호기를 삭제할 수 있지만, 그러면서 `System32` 디렉토리의 다른 중요 Windows 파일을 삭제하지 않도록 주의하세요.
 
-## Turning off the Wallpaper Engine screensaver
+## Wallpaper Engine 화면 보호기 끄기
 
-If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
+몇 분간 활동이 없을 시 배경화면이 전체화면 화면 보호기로 표시되는 것을 원치 않을 경우, Wallpaper Engine 화면 보호기 기능을 끌 수 있습니다. **Windows 화면 보호기 설정**을 열고 화면 보호기를 **없음**으로 설정하면 됩니다. 이 외의 조치는 필요하지 않으며, 추후 본 문서 최상단에 있는 절차를 따르면 화면 보호기 기능을 다시 활성화할 수 있습니다.
