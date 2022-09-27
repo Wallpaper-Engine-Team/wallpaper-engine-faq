@@ -185,14 +185,14 @@ Affiche les icônes du bureau.
 -control showIcons
 ```
 
-### Get Current Wallpaper
+### Obtenir le fond d'écran actuel
 
-This will output the primary wallpaper path as a string to the current standard output, you can also specify a monitor to get the wallpaper path for. This function is useful if you want to integrate Wallpaper Engine in other tools that need to react to the current wallpaper in some way.
+Cette commande affiche le chemin du fond d'écran principal sous forme de chaîne sur la sortie standard actuelle. Vous pouvez également spécifier un moniteur pour lequel vous souhaitez obtenir le chemin du papier peint. Cette fonction est utile si vous souhaitez intégrer Wallpaper Engine dans d'autres outils qui doivent réagir d'une manière ou d'une autre au fond d'écran actuel.
 
 ``` powershell
 -control getWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
-* **RETURNS:** File path to active wallpaper.
+* **location *(facultatif)* :** Identificateur interne du nom de la fenêtre ou du moniteur que vous avez indiqué.
+* **monitor *(facultatif)* :** Index du moniteur sur lequel mettre à jouer les propriétés, commence par 0.
+* **RETURNS:** Chemin du fichier vers le fond d'écran actif.
