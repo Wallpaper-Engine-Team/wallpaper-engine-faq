@@ -185,14 +185,14 @@ Mostra os ícones do desktop.
 -control showIcons
 ```
 
-### Get Current Wallpaper
+### Obter Wallpaper atual
 
-This will output the primary wallpaper path as a string to the current standard output, you can also specify a monitor to get the wallpaper path for. This function is useful if you want to integrate Wallpaper Engine in other tools that need to react to the current wallpaper in some way.
+Isto produzirá o caminho do wallpaper principal como uma cadeia para a atual saída. Também pode especificar um monitor para o qual obter o caminho do wallpaper. Esta funcionalidade é útil se pretender integrar o Wallpaper Engine noutras ferramentas que precisem de reagir de alguma forma ao wallpaper atual.
 
 ``` powershell
 -control getWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
-* **RETURNS:** File path to active wallpaper.
+* **location *(opcional)*:** Identificador interno do monitor ou nome da janela que especificou.
+* **monitor *(opcional)*:** Index do monitor no qual atualizar as propriedades, começa por 0.
+* **DEVOLVE:** Caminho do ficheiro para o wallpaper ativo.
