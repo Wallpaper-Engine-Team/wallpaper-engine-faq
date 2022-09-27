@@ -35,6 +35,6 @@ Windows se encarga de activar el salvapantallas de Wallpaper Engine, así que, e
 
 El salvapantallas se instalará en `C:\Windows\System32\wpxscreensaver64.scr`, así que comprueba que el antivirus no borre ese archivo por error o impida que lo instales. Puedes desinstalar el salvapantallas si borras ese archivo, pero asegúrate de que no borrar ningún otro archivo importante del directorio `System32` de Windows.
 
-## Turning off the Wallpaper Engine screensaver
+## Desactivar salvapantallas de Wallpaper Engine
 
-If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
+Si no quieres que los fondos de pantalla aparezcan como salvapantallas en pantalla completa tras unos minutos de inactividad, puedes desactivar la función de salvapantallas de Wallpaper Engine. Abre los **Ajustes del salvapantallas de Windows** y elige la opción **Ninguno**. No hace falta hacer nada más y podrás volver a activar la función más adelante si sigues los pasos señalados al principio del artículo.
