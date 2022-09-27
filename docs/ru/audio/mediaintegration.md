@@ -1,4 +1,4 @@
-# Album Cover & Media Data Feature
+# Обложка альбома и функция медиа
 
 Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
 
