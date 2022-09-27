@@ -1,13 +1,13 @@
 # Обложка альбома и функция медиа
 
-Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
+Wallpaper Engine дает возможность добавлять различные элементы на обои, которые используются как обложка альбома, название песни, название альбома и пр. В этом руководстве вы найдете решения типичных проблем, связанных с данной функцией.
 
 ::: warning
-Please note
-This article is about a specific wallpaper feature for album covers and song information. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
+Обратите внимание
+Данная статья рассказывает о конкретной функции, которая нужна при создании обложек альбомов и прочего, связанного с песнями. Если у вас есть проблемы с визуализаторами аудио или вы хотите ограничить визуализацию звука, обратите внимание на соответствующие статьи:
 
-* [Limiting audio visualizers to music players](/audio/limittomusicplayer)
-* [Audio visualizers do not work / no sound detected](/audio/audiodetection)
+* [Ограничить визуализацию звука только проигрывателями музыки](/audio/limittomusicplayer)
+* [Не работают визуализаторы аудио / звук не обнаружен](/audio/audiodetection)
 :::
 
 <video width="100%" controls autoplay loop>
