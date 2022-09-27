@@ -1,35 +1,34 @@
-# Album Cover & Media Data Feature
+# Albüm Kapağı & Medya Veri Özelliği
 
-Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
+Wallpaper Engine, duvar kağıdı yaratıcılarının duvar kağıtlarına; duvar kağıdındaki albüm kapağını, şarkı adını, albüm adını ve daha fazlasını kullanacak özel öğeler eklemesine olanak tanır. Bu rehber, bu özellikteki genel sorunları nasıl çözeceğinizi anlatır.
 
-::: warning
-Please note
-This article is about a specific wallpaper feature for album covers and song information. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
+::: warning Lütfen unutmayın
+Bu makale, albüm kapakları ve şarkı bilgileri için belirli bir duvar kağıdı özelliği ile ilgilidir. Ses görselleştiricilerle ilgili sorun yaşıyorsanız veya sesli görselleştiricileri medya yürütücünüzle sınırlamak istiyorsanız, lütfen bunun yerine uygun makaleleri kullanın:
 
-* [Limiting audio visualizers to music players](/audio/limittomusicplayer)
-* [Audio visualizers do not work / no sound detected](/audio/audiodetection)
+* [Ses görselleştiricilerini müzik çalarlarla sınırlama](/audio/limittomusicplayer)
+* [Ses görselleştiricileri çalışmıyor / ses algılanmıyor](/audio/audiodetection)
 :::
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/media_controls.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Tarayıcınız video etiketini desteklemiyor.
 </video>
 
-*Wallpaper Engine takes the album cover and song data from the Windows media overlay, shown in the upper left corner.*
+*Wallpaper Engine, sol üst köşede gösterilen Windows medya katmanından albüm kapağı ve şarkı verilerini alır.*
 
-## Enabling Album Cover & Media Data Feature
+## Albüm Kapağı & Medya Veri Özelliği Etkinleştiriliyor
 
-In order for this feature to work, you need to make sure that these conditions are met:
+Bu özelliğin çalışması için aşağıdaki koşulların karşılandığından emin olmanız gerekir:
 
-1. You are using Windows 10 or newer.
-2. You have enabled the **Media integration support** option in the **General** tab of the Wallpaper Engine settings.
-3. Your media player provides media data to the Windows media overlay (depicted above). More details below.
-4. Your audio files contain album covers and media data (song title, artist name, album name, etc.)
+1. Windows 10 veya daha yeni sürümünü kullanıyorsunuz.
+2. Wallpaper Engine ayarlarının **Genel** sekmesinde **Medya entegrasyonu desteği** seçeneğini etkinleştirdiniz.
+3. Medya yürütücünüz, Windows medya katmanına medya verileri sağlar (yukarıda gösterilmiştir). Aşağıda daha fazla bilgi bulabilirsiniz.
+4. Ses dosyalarınız, albüm kapaklarını ve medya verilerini (şarkı adı, sanatçı adı, albüm adı vb.) içerir.
 
-### Configuring your Media Player
+### Medya Oynatıcınız Yapılandırılıyor
 
-Most modern media players support the Windows media overlay that is needed for this feature to function. Sometimes you need to enable it first. Open the settings of your media player and look for the appropriate option (sometimes also hidden away in the advanced settings). The option usually mentions a *"media overlay"* or *"media hotkeys"*. If you are unsure, do a web search including the name of your media player and words like *"media overlay"*.
+Çoğu modern medya oynatıcılar bu özelliğin çalışması için gerekli olan Windows medya yerleşimini destekler. Bazen önce etkinleştirmeniz gerekir. Medya yürütücünüzün ayarlarını açın ve uygun seçeneği arayın (bazen gelişmiş ayarlarda da gizlenir). Seçenek genellikle bir *"medya yerleşimi"* veya *"medya kısayol tuşlarından"* bahseder. Emin değilseniz, medya yürütücünüzün adını ve *"medya yerleşimi"* gibi sözcükleri içeren bir web araması yapın.
 
-## Excluding Apps like Web Browsers from Album Cover Feature
+## Web Tarayıcıları gibi Uygulamaları Albüm Kapağı Özelliğinden Hariç Tutma
 
-If you notice that your web browser or another app on your system starts interfering with the album cover feature, you can add it to the media blocklist. Open the **General** tab of the Wallpaper Engine settings, navigate to the **Windows** section and click on the **Edit** button next to the **Media blocklist** option. Make sure the app in question is interfering with the album cover feature, it should now appear as a suggestion in the blocklist. Click on the **Block** button next to the app, it should now stop interfering with the album cover feature.
+Web tarayıcınızın veya sisteminizdeki başka bir uygulamanın albüm kapağı özelliğini engellemeye başladığını fark ederseniz, bunu engellenen medya listesine ekleyebilirsiniz. Wallpaper Engine ayarlarının **Genel** sekmesini açın, **Windows** bölümüne gidin ve **Medya engel listesi** seçeneğinin yanındaki **Düzenle** düğmesine tıklayın. Söz konusu uygulamanın albüm kapağı özelliğine müdahale ettiğinden emin olduktan sonra artık engellenenler listesinde öneri olarak görünür. Uygulamanın yanındaki **Engelle** düğmesine tıklayın, artık albüm kapağı özelliğine müdahale etmeyi bırakmalıdır.
