@@ -35,6 +35,6 @@ A proteção de ecrã do Wallpaper Engine é ativada através do próprio Window
 
 A proteção de ecrã será instalada em `C:\Windows\System32\wpxscreensaver64.scr`, pelo que deve certificar-se de que nenhuma aplicação antivírus está a apagar este ficheiro por engano ou a impedir que ele seja instalado. Também pode desinstalar a proteção de ecrã manualmente apagando esse ficheiro específico, mas certifique-se de que não apaga qualquer outros ficheiros importantes do Windows na pasta `System32`.
 
-## Turning off the Wallpaper Engine screensaver
+## Desativar a proteção de ecrã do Wallpaper Engine
 
-If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
+Caso não queira que os seus wallpapers apareçam como proteções de ecrã em ecrã completo após alguns minutos de inatividade, pode desativar a funcionalidade de proteção de ecrã do Wallpaper Engine. Basta abrir as **definições de proteção de ecrã do Windows** e definir a proteção de ecrã como **Nenhuma**. Não são necessárias mais ações. No futuro pode reativar a funcionalidade de proteção de ecrã seguindo as instruções no topo este artigo.
