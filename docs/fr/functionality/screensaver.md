@@ -35,6 +35,6 @@ L'écran de veille de Wallpaper Engine est activé par Windows. Si l'écran de v
 
 L'écran de veille sera installé dans `C:\Windows\System32\wpxscreensaver64.scr`, veillez qu'aucune application antivirus ne supprime ce fichier par erreur ou n'empêche son installation. Vous pouvez également désinstaller manuellement l'écran de veille en supprimant ce fichier spécifique, mais veillez à ne pas supprimer d'autres fichiers Windows importants dans le répertoire `System32`.
 
-## Turning off the Wallpaper Engine screensaver
+## Désactiver l'économiseur d'écran Wallpaper Engine
 
-If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
+Si vous ne souhaitez pas que vos fonds d'écran apparaissent en tant qu'économiseur d'écran plein écran après quelques minutes d'inactivité, vous pouvez désactiver la fonctionnalité d'économiseur d'écran de Wallpaper Engine. Ouvrez simplement les **paramètres de l'économiseur d'écran de Windows** et réglez l'économiseur d'écran sur **Aucun**. Aucune autre action n'est nécessaire, vous pouvez réactiver la fonctionnalité d'économiseur d'écran à l'avenir en suivant les étapes en haut de cet article.
