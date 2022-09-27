@@ -1,35 +1,34 @@
-# Album Cover & Media Data Feature
+# Funcionalidade de Capa de Álbum e Dados Multimédia
 
-Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
+O Wallpaper Engine permite que os criadores de wallpapers adicionem elementos especiais aos seus wallpapers que utilizem a capa do álbum, o título da canção, o nome do álbum e muito mais no wallpaper. Este guia explicará como resolver problemas comuns relacionados com esta funcionalidade.
 
-::: warning
-Please note
-This article is about a specific wallpaper feature for album covers and song information. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
+::: aviso Atenção
+Este artigo é sobre uma funcionalidade específica para wallpapers, para capas de álbuns e informações acerca de canções. Se está a ter dificuldades com visualizadores de áudio ou se pretende limitar os visualizadores de áudio ao seu media player, leia, em vez disso, os artigos apropriados:
 
-* [Limiting audio visualizers to music players](/audio/limittomusicplayer)
-* [Audio visualizers do not work / no sound detected](/audio/audiodetection)
+* [Limitar visualizadores de áudio a media players](/audio/limittomusicplayer)
+* [Visualizadores de áudio não funcionam / nenhum som detetado](/audio/audiodetection)
 :::
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/media_controls.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  O seu browser não suporta o tag vídeo.
 </video>
 
-*Wallpaper Engine takes the album cover and song data from the Windows media overlay, shown in the upper left corner.*
+*O Wallpaper Engine vai buscar a capa do álbum e os dados de canções ao media overlay do Windows, mostrado no canto superior esquerdo.*
 
-## Enabling Album Cover & Media Data Feature
+## Ativar a funcionalidade de Capa de Álbum e Dados Multimédia
 
-In order for this feature to work, you need to make sure that these conditions are met:
+Para que esta funcionalidade funcione, deve certificar-se de que estas condições são satisfeitas:
 
-1. You are using Windows 10 or newer.
-2. You have enabled the **Media integration support** option in the **General** tab of the Wallpaper Engine settings.
-3. Your media player provides media data to the Windows media overlay (depicted above). More details below.
-4. Your audio files contain album covers and media data (song title, artist name, album name, etc.)
+1. Está a utilizar o Windows 10 ou mais recente.
+2. Ativou a opção **Suporte para integração de multimédia** no separador **Gerais** das definições do Wallpaper Engine.
+3. O seu media player proporciona dados de multimédia ao Windows media overlay (ilustrado acima). Mais detalhes abaixo.
+4. Os seus ficheiros de áudio contêm capas de álbum e dados de multimédia (título da canção, nome dos artistas, nome do álbum, etc.)
 
-### Configuring your Media Player
+### Configurar o seu Media Player
 
-Most modern media players support the Windows media overlay that is needed for this feature to function. Sometimes you need to enable it first. Open the settings of your media player and look for the appropriate option (sometimes also hidden away in the advanced settings). The option usually mentions a *"media overlay"* or *"media hotkeys"*. If you are unsure, do a web search including the name of your media player and words like *"media overlay"*.
+A maior parte dos media players suportam o Windows media overlay que é necessário para que esta funcionalidade funcione. Por vezes é necessário ativá-lo primeiro. Abra as definições do seu media player e procure a opção apropriada (por vezes, também está escondida nas definições avançadas). A opção costuma mencionar um *"media overlay"* ou *"atalhos para multimédia"*. Caso não tenha a certeza, faça uma pesquisa na web que inclua o nome do seu media player e palavras como *"media overlay"*.
 
-## Excluding Apps like Web Browsers from Album Cover Feature
+## Excluir apps como Web Browsers da Funcionalidade de Capa do Álbum
 
-If you notice that your web browser or another app on your system starts interfering with the album cover feature, you can add it to the media blocklist. Open the **General** tab of the Wallpaper Engine settings, navigate to the **Windows** section and click on the **Edit** button next to the **Media blocklist** option. Make sure the app in question is interfering with the album cover feature, it should now appear as a suggestion in the blocklist. Click on the **Block** button next to the app, it should now stop interfering with the album cover feature.
+Se reparar que o seu browser ou outra app do seu sistema começam a interferir com a funcionalidade de capa de álbum, pode adicioná-los à lista de bloqueio de multimédia. Abra o separador **Gerais** das definições do Wallpaper Engine, navegue para a secção **Windows** e clique no botão **Editar** ao lado da opção **Lista de bloqueio de multimédia**. Certifique-se de que a app em questão está a inteferir com a funcionalidade de capa de álbum. Ela agora deve aparecer como sugestão na lista de bloqueios. Clique no botão **Bloquear** ao lado da app. Ela deverá agora parar de interferir na funcionalidade de capa do álbum.
