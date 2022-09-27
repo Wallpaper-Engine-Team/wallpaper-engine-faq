@@ -185,14 +185,14 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control hideIcons
 ```
 
-### Get Current Wallpaper
+### Найти путь к файлу обоев
 
-This will output the primary wallpaper path as a string to the current standard output, you can also specify a monitor to get the wallpaper path for. This function is useful if you want to integrate Wallpaper Engine in other tools that need to react to the current wallpaper in some way.
+Помогает найти путь к обоям и выводит его строкой на устройство вывода по умолчанию. Вы также можете указать, на какой монитор нужно вывести путь к обоям. Функция будет полезна, если вы хотите включить Wallpaper Engine в другие инструменты, которые каким-либо образом будут взаимодействовать с активными сейчас обоями.
 
 ``` powershell
 -control getWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
-* **RETURNS:** File path to active wallpaper.
+* **location *(необязательно)*:** Внутренний идентификатор монитора или указанное вами имя окна.
+* **monitor *(необязательно)*:** Индекс монитора, на котором нужно обновить свойства, начинается с 0.
+* **RETURNS:** Путь к файлу активных обоев.
