@@ -1,35 +1,35 @@
-# Album Cover & Media Data Feature
+# Función de carátulas de álbumes y archivos multimedia
 
-Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
+Wallpaper Engine permite a los creadores de fondos añadir elementos especiales a los fondos que utilizarán la carátula y el título del álbum, el título de la canción, etc. En esta guía se explicará cómo resolver problemas típicos que pueden darse debido a esta función.
 
 ::: warning
-Please note
-This article is about a specific wallpaper feature for album covers and song information. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
+Aviso
+Este artículo trata de una función específica de los fondos que usa carátulas de álbumes e información de las canciones. Si tienes problemas con los visualizadores de audio o si quieres limitar los visualizadores de audio a tu reproductor multimedia, lee los artículos siguientes:
 
-* [Limiting audio visualizers to music players](/audio/limittomusicplayer)
-* [Audio visualizers do not work / no sound detected](/audio/audiodetection)
+* [Limitar visualizadores de audio a los reproductores de música](/audio/limittomusicplayer)
+* [Los visualizadores de audio no funcionan / No se detecta sonido](/audio/audiodetection)
 :::
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/media_controls.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Tu navegador no admite la etiqueta de vídeo.
 </video>
 
-*Wallpaper Engine takes the album cover and song data from the Windows media overlay, shown in the upper left corner.*
+*Wallpaper Engine usa la carátula del álbum y los datos de la canción de la superposición multimedia de Windows, que aparece en la esquina superior izquierda.*
 
-## Enabling Album Cover & Media Data Feature
+## Activar la función de carátulas de álbumes y archivos multimedia
 
-In order for this feature to work, you need to make sure that these conditions are met:
+Para poder usar esta función, han de cumplirse estas condiciones:
 
-1. You are using Windows 10 or newer.
-2. You have enabled the **Media integration support** option in the **General** tab of the Wallpaper Engine settings.
-3. Your media player provides media data to the Windows media overlay (depicted above). More details below.
-4. Your audio files contain album covers and media data (song title, artist name, album name, etc.)
+1. Tienes Windows 10 o superior.
+2. Has activado la opción **Compatibilidad de integración multimedia** en la pestaña **General** de los ajustes de Wallpaper Engine.
+3. Tu reproductor multimedia le proporciona datos a la superposición multimedia de Windows (aparece arriba). Más detalles a continuación.
+4. Tus archivos de sonido contienen carátulas de los álbumes e información multimedia (título de la canción, nombre de artista, nombre del álbum, etc.).
 
-### Configuring your Media Player
+### Configurar el reproductor multimedia
 
-Most modern media players support the Windows media overlay that is needed for this feature to function. Sometimes you need to enable it first. Open the settings of your media player and look for the appropriate option (sometimes also hidden away in the advanced settings). The option usually mentions a *"media overlay"* or *"media hotkeys"*. If you are unsure, do a web search including the name of your media player and words like *"media overlay"*.
+La mayoría de reproductores multimedia modernos son compatibles con la superposición de Windows que se necesita para usar esta función. En ocasiones, tendrás que activarla antes. Abre los ajustes de tu reproductor multimedia y busca la opción pertinente (a veces, podría encontrarse oculta en los ajustes avanzados). La opción suele mencionar la *superposición multimedia* o los *atajos multimedia*. Si tienes alguna duda, busca *«Superposición multimedia»* y el nombre de tu reproductor en internet.
 
-## Excluding Apps like Web Browsers from Album Cover Feature
+## Excluir aplicaciones como navegadores web de la función de carátulas de álbumes
 
-If you notice that your web browser or another app on your system starts interfering with the album cover feature, you can add it to the media blocklist. Open the **General** tab of the Wallpaper Engine settings, navigate to the **Windows** section and click on the **Edit** button next to the **Media blocklist** option. Make sure the app in question is interfering with the album cover feature, it should now appear as a suggestion in the blocklist. Click on the **Block** button next to the app, it should now stop interfering with the album cover feature.
+Si notas que tu navegador web u otra aplicación del sistema empieza a interferir con la función de carátulas de álbumes, puedes añadirla a la lista de bloqueados. Abre la pestaña **General** de los ajustes de Wallpaper Engine, ve a la sección **Windows** y haz clic en el botón **Editar** junto a la opción **Lista de bloqueados**. Asegúrate de que la aplicación en cuestión interfiere con la función de carátulas de álbumes: debería de aparecer como sugerencia en la lista de bloqueados. Haz clic en el botón **Bloquear** junto a la aplicación y ya no tendría que interferir con la función.
