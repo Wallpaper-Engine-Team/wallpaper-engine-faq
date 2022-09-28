@@ -185,7 +185,7 @@ Zeigt die Desktop-Symbole wieder an.
 -control showIcons
 ```
 
-### Get Current Wallpaper
+### Derzeitigen Hintergrund erhalten
 
 This will output the primary wallpaper path as a string to the current standard output, you can also specify a monitor to get the wallpaper path for. This function is useful if you want to integrate Wallpaper Engine in other tools that need to react to the current wallpaper in some way.
 
