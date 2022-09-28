@@ -2,7 +2,8 @@
 
 O Wallpaper Engine permite que os criadores de wallpapers adicionem elementos especiais aos seus wallpapers que utilizem a capa do álbum, o título da canção, o nome do álbum e muito mais no wallpaper. Este guia explicará como resolver problemas comuns relacionados com esta funcionalidade.
 
-::: aviso Atenção
+::: warning
+Atenção
 Este artigo é sobre uma funcionalidade específica para wallpapers, para capas de álbuns e informações acerca de canções. Se está a ter dificuldades com visualizadores de áudio ou se pretende limitar os visualizadores de áudio ao seu media player, leia, em vez disso, os artigos apropriados:
 
 * [Limitar visualizadores de áudio a media players](/audio/limittomusicplayer)
