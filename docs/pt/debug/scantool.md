@@ -10,7 +10,7 @@ Se está a ter problemas tcnicos com o Wallpaper Engine que não consegue resolv
         * **IMPORTANTE:** Se utilizar este endereço de email, partilhe uma ligação para a nossa conversa e diga-nos o seu nome de utilizador.
 5. *Opcional:* se estiver a sofrer bloqueios, consulte o seu diretório *wallpaper_engine*, procure quaisquer ficheiros **.mdmp** e envie-nos também esses ficheiros por email (**logs@wallpaperengine.io**) ou enviando-os para outro local. Se encontrar muitos ficheiros .mdmp, envie apenas os mais recentes.
 
-::: dica
+::: tip
 Mesmo que a ferramenta de análise não encontre quaisquer problemas à primeira vista, é frequente que uma investigação mais aprofundada do ficheiro de registo revele problemas informáticos comuns que nos ajudarão a aconselhá-lo mais rapidamente, de forma a resolver os seus problemas técnicos.
 :::
 
