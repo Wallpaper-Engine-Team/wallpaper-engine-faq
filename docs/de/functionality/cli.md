@@ -187,12 +187,12 @@ Zeigt die Desktop-Symbole wieder an.
 
 ### Derzeitigen Hintergrund erhalten
 
-This will output the primary wallpaper path as a string to the current standard output, you can also specify a monitor to get the wallpaper path for. This function is useful if you want to integrate Wallpaper Engine in other tools that need to react to the current wallpaper in some way.
+Dieser Befehl gibt den Pfad zum Haupt-Hintergrund als String aus, du kannst außerdem einen Bildschirm angeben, für welchen der Pfad bestimmt werden soll. Diese Funktion ist nützlich, wenn du Wallpaper Engine in andere Tools einbinden möchtest, die in irgendeiner Form mit dem derzeitigen Hintergrund interagieren sollen.
 
 ``` powershell
 -control getWallpaper [-location <string>] [-monitor <number>]
 ```
 
-* **location *(optional)*:** Internal identifier of the monitor or the window name you specified.
-* **monitor *(optional)*:** Index of the monitor to update the properties on, begins with 0.
-* **RETURNS:** File path to active wallpaper.
+* **location *(optional)*:** Interne ID des Bildschirms oder des Fensternamens, welchen du zuvor angegeben hast.
+* **monitor *(optional)*:** Index des Bildschirms, welchen du aktualisieren möchtest, beginnt bei 0.
+* **RÜCKGABEWERT:** Dateipfad zum aktiven Hintergrund.
