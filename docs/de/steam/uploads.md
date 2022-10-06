@@ -6,8 +6,8 @@ Beim Hochladen von Hintergründen startet Steam bei 45% mit dem tatsächlichen S
 
 Bei diesem Problem handelt es sich immer um eine Art von Netzwerkproblem, du musst an dieser Stelle herausfinden, was die Kommunikation zu den Steam-Servern verhindert.
 
-Also make sure that your router or a firewall is not blocking the IP address range of the Steam servers, make sure that direct IP connections are possible. Exclude the following IP address range from any block list: `208.64.200.0` - `208.64.203.255`.
+Stelle außerdem sicher, dass dein Router oder eine Firewall nicht die IP-Adressen der Steam-Server blockieren und dass direkte IP-Verbindungen möglich sind. Stelle sicher, dass die folgenden IP-Adressbereiche von jeglichen Block-Listen ausgeschlossen sind: `208.64.200.0` - `208.64.203.255`.
 
 ::: tip
-This network issue can also be caused by a firewall in your network router. Make sure that no network router is blocking Steam's upload. Try If  uploads work through a mobile wi-fi hotspot - in that case your router is likely at fault and not any software on your computer.
+Dieses Netzwerkproblem kann auch durch eine Firewall direkt im Netzwerk-Router verursacht werden. Stelle sicher, dass kein Netzwerk-Router den Upload an Steam blockiert. Probiere ob Uploads funktionieren, wenn du einen mobilen WLAN-Hotspot verwendest - in diesem Fall liegt das Problem höchstwahrscheinlich an deinem Router und nicht an Software, welche auf deinem Computer installiert ist.
 :::
