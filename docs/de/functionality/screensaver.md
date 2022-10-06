@@ -37,4 +37,4 @@ Der Bildschirmschoner wird in `C:\Windows\System32\wpxscreensaver64.scr` install
 
 ## Bildschirmschoner von Wallpaper Engine ausschalten
 
-Wenn du nicht mehr willst, dass deine Hintergründe nach einigen Minuten Inaktivität als Vollbild-Bildschirmschoner erscheinen, kannst du die Bildschirmschoner-Funktionalität von Wallpaper Engine deaktivieren. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
+Wenn du nicht mehr willst, dass deine Hintergründe nach einigen Minuten Inaktivität als Vollbild-Bildschirmschoner erscheinen, kannst du die Bildschirmschoner-Funktionalität von Wallpaper Engine deaktivieren. Öffne die **Bildschirmschoner-Einstellungen von Windows** und setze den Bildschirmschoner auf **Kein**. Ansonsten musst du nichts tun, du kannst den Bildschirmschoner in Zukunft wieder aktivieren, indem du die Schritte oben auf dieser Seite erneut befolgst.
