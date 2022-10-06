@@ -35,6 +35,6 @@ Der Wallpaper Engine-Bildschirmschoner wird durch Windows selbst aktiviert, wenn
 
 Der Bildschirmschoner wird in `C:\Windows\System32\wpxscreensaver64.scr` installiert, stelle sicher, dass kein Antivirenprogramm diese Datei fälschlicherweise löscht oder Wallpaper Engine daran hindert, diese Datei zu installieren. Du kannst den Bildschirmschoner auch von Hand löschen, indem du speziell diese Datei löschst, achte aber darauf, dass du keine weiteren wichtigen Windows-Dateien im `System32`-Verzeichnis löschst, wenn du dies machst.
 
-## Turning off the Wallpaper Engine screensaver
+## Bildschirmschoner von Wallpaper Engine ausschalten
 
-If you do not want your wallpapers to appear as fullscreen screensavers after a few minutes of inactivity, you can turn off the Wallpaper Engine screensaver functionality. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
+Wenn du nicht mehr willst, dass deine Hintergründe nach einigen Minuten Inaktivität als Vollbild-Bildschirmschoner erscheinen, kannst du die Bildschirmschoner-Funktionalität von Wallpaper Engine deaktivieren. Simply open the **Windows screensaver settings** and set the screensaver to **None**. No more actions are needed, you can re-enabled the screensaver functionality in the future by following the steps at the top of this article.
