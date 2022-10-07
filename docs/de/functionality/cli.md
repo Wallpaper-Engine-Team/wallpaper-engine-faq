@@ -185,3 +185,14 @@ Zeigt die Desktop-Symbole wieder an.
 -control showIcons
 ```
 
+### Derzeitigen Hintergrund erhalten
+
+Dieser Befehl gibt den Pfad zum Haupt-Hintergrund als String aus, du kannst außerdem einen Bildschirm angeben, für welchen der Pfad bestimmt werden soll. Diese Funktion ist nützlich, wenn du Wallpaper Engine in andere Tools einbinden möchtest, die in irgendeiner Form mit dem derzeitigen Hintergrund interagieren sollen.
+
+``` powershell
+-control getWallpaper [-location <string>] [-monitor <number>]
+```
+
+* **location *(optional)*:** Interne ID des Bildschirms oder des Fensternamens, welchen du zuvor angegeben hast.
+* **monitor *(optional)*:** Index des Bildschirms, welchen du aktualisieren möchtest, beginnt bei 0.
+* **RÜCKGABEWERT:** Dateipfad zum aktiven Hintergrund.

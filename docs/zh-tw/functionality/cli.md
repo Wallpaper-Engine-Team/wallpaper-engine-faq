@@ -185,3 +185,14 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control showIcons
 ```
 
+### 取得目前桌布
+
+此功能將輸出主要桌布路徑，當作目前標準輸出的路徑，您也可以指定一台顯示器以取得桌布路徑。 如果您想將 Wallpaper Engine 整合至其他需要以某種方式對目前桌布做出反應的工具，此功能相當實用。
+
+``` powershell
+-control getWallpaper [-location <string>] [-monitor <number>]
+```
+
+* **location *(選用)*：** 顯示器內部識別碼或您指定的視窗名稱。
+* **monitor *(選用)*：** 欲更新屬性的顯示器索引，以 0 開頭。
+* **RETURNS:** 使用中桌布的檔案路徑。

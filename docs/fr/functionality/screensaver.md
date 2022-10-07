@@ -2,6 +2,8 @@
 
 Wallpaper Engine vous permet d'utiliser vos fonds d'écran comme écrans de veille. Traditionnellement, les écrans de veille étaient utilisés pour protéger les écrans contre les brûlures d'image permanentes. Cependant, la plupart des technologies d'affichage modernes ne sont plus susceptibles de subir ce type de dommages. Par conséquent, vous pouvez utiliser en toute sécurité n'importe quel type de fond d'écran comme écran de veille à des fins esthétiques. Si vous utilisez un écran CRT, Plasma, OLED ou une technologie d'écran similaire qui est susceptible d'être brûlée, nous vous recommandons d'utiliser une playlist de fonds d'écran comme écrans de veille ou fond d'écran avec un mouvement régulier.
 
+[[toc]]
+
 ## Configuration initiale de l'écran de veille
 
 Afin de commencer à utiliser Wallpaper Engine comme écrans de veille, survolez l'onglet **Installés** dans la fenêtre de Wallpaper Engine et sélectionnez **Configurer écran de veille**. Wallpaper Engine va maintenant vérifier si vous avez déjà installé économiseur d'écran Wallpaper Engine pour Windows. Si écrans de veille n'a pas encore été installé, vous serez invité à l'installer. Assurez-vous que votre utilisateur Windows dispose des droits d'administration et qu'aucune application antivirus n'empêche Wallpaper Engine d'installer l'écran de veille.
@@ -32,3 +34,7 @@ Dans son état par défaut, Wallpaper Engine utilisera la configuration la plus 
 L'écran de veille de Wallpaper Engine est activé par Windows. Si l'écran de veille ne fonctionne pas correctement, vérifiez si l'un des économiseurs d'écran par défaut de Windows fonctionne correctement pour vous. Vérifiez les paramètres de l'écran de veille de Windows et vos paramètres d'énergie Windows pour vous assurer que votre écran de veille est configuré avec le délai d'attente correct que vous attendez et que Wallpaper Engine est défini comme votre économiseur d'écran actif.
 
 L'écran de veille sera installé dans `C:\Windows\System32\wpxscreensaver64.scr`, veillez qu'aucune application antivirus ne supprime ce fichier par erreur ou n'empêche son installation. Vous pouvez également désinstaller manuellement l'écran de veille en supprimant ce fichier spécifique, mais veillez à ne pas supprimer d'autres fichiers Windows importants dans le répertoire `System32`.
+
+## Désactiver l'économiseur d'écran Wallpaper Engine
+
+Si vous ne souhaitez pas que vos fonds d'écran apparaissent en tant qu'économiseur d'écran plein écran après quelques minutes d'inactivité, vous pouvez désactiver la fonctionnalité d'économiseur d'écran de Wallpaper Engine. Ouvrez simplement les **paramètres de l'économiseur d'écran de Windows** et réglez l'économiseur d'écran sur **Aucun**. Aucune autre action n'est nécessaire, vous pouvez réactiver la fonctionnalité d'économiseur d'écran à l'avenir en suivant les étapes en haut de cet article.

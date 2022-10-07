@@ -185,3 +185,14 @@ Muestra los iconos del escritorio.
 -control showIcons
 ```
 
+### Obtener fondo actual
+
+Esto mostrará la ruta del fondo de pantalla principal como un enlace que da a la salida actual. También es posible especificar el monitor para el que quieres obtener la ruta del fondo. Esta función es útil si quieres integrar Wallpaper Engine con otras herramientas que necesitan reaccionar con el fondo actual de algún modo.
+
+``` powershell
+-control getWallpaper [-location <string>] [-monitor <number>]
+```
+
+* **location *(opcional)*:** Identificador interno del nombre del monitor o la ventana que hayas elegido.
+* **monitor *(opcional)*:** Índice del monitor en el que quieres actualizar las propiedades. Empieza por 0.
+* **RETURNS:** Ruta de acceso del fondo activo.

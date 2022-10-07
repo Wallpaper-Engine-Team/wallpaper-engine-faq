@@ -2,6 +2,8 @@
 
 O Wallpaper Engine permite-lhe utilizar os seus wallpapers como proteções de ecrã. Tradicionalmente, as proteções de ecrã eram usadas para impedir que os ecrãs sofressem queimaduras permanentes. No entanto, a maior parte das tecnologias de ecrã modernas não são suscetíveis a estes tipos de danos ao ecrã e pode utilizar em segurança qualquer tipo de wallpaper como proteção de ecrã para efeitos estéticos. Se utilizar um ecrã de CRT, Plasma, OLED ou semelhante que seja suscetível a queimaduras, recomendamos que utilize uma lista de reprodução de wallpapers como proteção de ecrã ou um wallpaper com movimento regular.
 
+[[toc]]
+
 ## Configuração inicial da proteção de ecrã
 
 Para começar a utilizar o Wallpaper Engine como proteção de ecrã, passe o rato sobre o separador **Instalado** na janela do Wallpaper Engine e selecione **Configurar proteção de ecrã**. Agora o Wallpaper Engine irá verificar se já tem a proteção de ecrã Wallpaper Engine para Windows instalada. Se a proteção de ecrã ainda não tiver sido instalada, ser-lhe-á pedido que a instale. Certifique-se de que o seu Windows tem direitos de administrador e que nenhuma aplicação antivírus está a impedir o Wallpaper Engine de instalar a proteção de ecrã.
@@ -32,3 +34,7 @@ No seu estado natural, o Wallpaper Engine utilizará a configuração mais bási
 A proteção de ecrã do Wallpaper Engine é ativada através do próprio Windows. Se a proteção de ecrã não estiver a funcionar corretamente, confirme se alguma das proteções de ecrã predefinidas do Windows funciona corretamente para si. Verifique as definições da proteção de ecrã do Windows e as definições de energia do Windows para se certificar de que a sua proteção de ecrã está configurada com o tempo de espera correto e esperado, e que o Wallpaper Engine está configurado como sua proteção de ecrã ativa.
 
 A proteção de ecrã será instalada em `C:\Windows\System32\wpxscreensaver64.scr`, pelo que deve certificar-se de que nenhuma aplicação antivírus está a apagar este ficheiro por engano ou a impedir que ele seja instalado. Também pode desinstalar a proteção de ecrã manualmente apagando esse ficheiro específico, mas certifique-se de que não apaga qualquer outros ficheiros importantes do Windows na pasta `System32`.
+
+## Desativar a proteção de ecrã do Wallpaper Engine
+
+Caso não queira que os seus wallpapers apareçam como proteções de ecrã em ecrã completo após alguns minutos de inatividade, pode desativar a funcionalidade de proteção de ecrã do Wallpaper Engine. Basta abrir as **definições de proteção de ecrã do Windows** e definir a proteção de ecrã como **Nenhuma**. Não são necessárias mais ações. No futuro pode reativar a funcionalidade de proteção de ecrã seguindo as instruções no topo este artigo.

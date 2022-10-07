@@ -2,6 +2,8 @@
 
 Wallpaper Engine, duvar kâğıtlarınızı ekran koruyucu olarak kullanmanıza olanak sağlar. Geleneksel olarak, ekranları kalıcı görüntü yanmasından korumak için ekran koruyucular kullanılırdı. Ancak çoğu modern ekran teknolojisi artık bu tür ekran hasarlarından etkilenmez ve bu yüzden estetik amaçlar için herhangi bir duvar kâğıdını ekran koruyucu olarak güvenle kullanabilirsiniz. Yanıklara karşı hassas olan bir CRT, Plazma, OLED veya benzeri ekran teknolojisi kullanıyorsanız, ekran koruyucu olarak duvar kâğıtlarından oluşan bir oynatma listesi veya düzenli hareketli bir duvar kâğıdı kullanmanızı öneririz.
 
+[[toc]]
+
 ## Ekran Koruyucu Kurulumu
 
 Wallpaper Engin'i ekran koruyucu olarak kullanmaya başlamak için Wallpaper Engine penceresindeki **Yüklü** sekmesinin üzerine gelin ve **Ekran Koruyucuyu Yapılandır** öğesini seçin. Wallpaper Engine, şimdi Windows'a Wallpaper Engin ekran koruyucu yükleyip yüklemediğinizi kontrol edecek. Ekran koruyucuyu henüz yüklemediyseniz, yüklemeniz istenecek. Windows kullanıcınızın yönetici haklarına sahip olduğuna ve hiçbir antivirüs programının Wallpaper Engin'in ekran koruyucuyu kurmasını engellemediğinden emin olun.
@@ -32,3 +34,7 @@ Wallpaper Engine, varsayılan durumunda ekran koruyucularınızın aktif olarak 
 Wallpaper Engine ekran koruyucu Windows üzerinden etkinleştirilir, ekran koruyucu düzgün çalışmıyorsa, varsayılan Windows ekran koruyucularından herhangi birinin sizin için doğru çalışıp çalışmadığını görmek için lütfen iki kez kontrol edin. Ekran koruyucunuzun beklediğiniz doğru zaman aşımı ile yapılandırıldığından ve Wallpaper Engine'in etkin ekran koruyucunuz olarak ayarlandığından emin olmak için Windows ekran koruyucu ayarlarını ve Windows enerji ayarlarınızı kontrol edin.
 
 Ekran koruyucu `C:\Windows\System32\wpxscreensaver64.scr` dizinine yüklenecek, hiçbir antivirüs uygulamasının bu dosyayı yanlışlıkla silmediğinden veya yüklenmesini engellemediğinden emin olun. Bu dosyayı silerek ekran koruyucuyu manuel olarak kaldırabilirsini ama bunu yaparken `System32` dizininden önemli Windows dosyalarını silmediğinizden emin olun.
+
+## Wallpaper Engine ekran koruyucu kapatılıyor
+
+Duvar kâğıtlarınızın birkaç dakikalık hareketsizlikten sonra tam ekran ekran koruyucu olarak görünmesini istemiyorsanız, Wallpaper Engine ekran koruyucu işlevini kapatabilirsiniz. **Windows ekran koruyucu ayarlarını** açın ve ekran koruyucuyu **Yok** olarak ayarlayın. Daha fazla eyleme gerek yok, gelecekte bu makalenin başındaki adımları izleyerek ekran koruyucu işlevini yeniden etkinleştirebilirsiniz.

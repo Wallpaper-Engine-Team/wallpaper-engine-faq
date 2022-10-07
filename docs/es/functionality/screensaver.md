@@ -2,6 +2,8 @@
 
 Wallpaper Engine te permise usar tus fondos de salvapantallas. Antes, los salvapantallas se usaban para evitar que se quemaran las pantallas por el uso excesivo, pero la mayoría de monitores modernos no sufren ese tipo de daños, por lo que puedes usar cualquier fondo que quieras como salvapantallas para que quede bonito. Si usas una pantalla TRC, de plasma, OLED o con alguna tecnología que sí que sea susceptible a los quemados, te recomendamos usar de salvapantallas una lista de reproducción de fondos o un fondo con movimiento normal.
 
+[[toc]]
+
 ## Instalación del salvapantallas
 
 Para empezar a usar Wallpaper Engine de salvapantallas, pasa el cursor sobre la pestaña **Instalados** en la ventana de Wallpaper Engine y selecciona **Configurar salvapantallas**. Wallpaper Engine comprobará si tienes instalado el salvapantallas de Wallpaper Engine para Windows. Si no lo has instalado todavía, el programa te pedirá que lo hagas. Asegúrate de que el usuario de Windows tiene derechos de administrador y de que no haya ningún antivirus que le impida a Wallpaper Engine instalar el salvapantallas.
@@ -32,3 +34,7 @@ En el modo normal, Wallpaper Engine usará la configuración más básica en la 
 Windows se encarga de activar el salvapantallas de Wallpaper Engine, así que, en caso de que no funcione correctamente, comprueba si puedes usar los salvapantallas por defecto de Windows. Echa un vistazo a las opciones de energía en la configuración del salvapantallas de Windows y asegúrate de que el salvapantallas esté configurado con el tiempo de espera que quieres y de que has elegido Wallpaper Engine como el salvapantallas activo.
 
 El salvapantallas se instalará en `C:\Windows\System32\wpxscreensaver64.scr`, así que comprueba que el antivirus no borre ese archivo por error o impida que lo instales. Puedes desinstalar el salvapantallas si borras ese archivo, pero asegúrate de que no borrar ningún otro archivo importante del directorio `System32` de Windows.
+
+## Desactivar salvapantallas de Wallpaper Engine
+
+Si no quieres que los fondos de pantalla aparezcan como salvapantallas en pantalla completa tras unos minutos de inactividad, puedes desactivar la función de salvapantallas de Wallpaper Engine. Abre los **Ajustes del salvapantallas de Windows** y elige la opción **Ninguno**. No hace falta hacer nada más y podrás volver a activar la función más adelante si sigues los pasos señalados al principio del artículo.

@@ -6,6 +6,8 @@ Steam, yükleme işleminin %45'inde Steam sunucularına dosya yüklemeye başlay
 
 Bu sorun her zaman bir tür ağ sorunudur. Steam sunucularıyla düzgün bir şekilde iletişim kurma konusunda Steam'inizi neyin engellediğini araştırmanız gerekir.
 
+Ayrıca yönlendiricinizin veya bir güvenlik duvarının Steam sunucularının IP adresi aralığını engellemediğinden emin olun. Doğrudan IP bağlantılarının mümkün olduğundan emin olun. Şu IP adresi aralığını herhangi bir blok listesinden hariç tutun: `208.64.200.0` - `208.64.203.255`.
+
 ::: tip
-Bu ağ sorununa ağ yönlendiricinizdeki bir güvenlik duvarı da neden olabilir. Hiçbir ağ yönlendiricisinin, Steam yüklemesini engellemediğinden emin olun. Yüklemeler, bir mobil wi-fi etkin noktasına bağlıyken çalışıyorsa bu durumda bilgisayarınızdaki herhangi bir yazılım değil, büyük olasılıkla yönlendiriciniz arızalıdır.
+Bu ağ sorununa ağ yönlendiricinizdeki bir güvenlik duvarı da neden olabilir. Hiçbir ağ yönlendiricisinin, Steam yüklemesini engellemediğinden emin olun. Yüklemeler, bir mobil wi-fi hotspot'a bağlıyken çalışıyorsa bu durumda bilgisayarınızdaki herhangi bir yazılım değil, büyük olasılıkla yönlendiriciniz arızalıdır.
 :::

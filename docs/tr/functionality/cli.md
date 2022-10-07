@@ -185,3 +185,14 @@ Masaüstü simgelerini gösterir.
 -control showIcons
 ```
 
+### Mevcut Duvar Kâğıdını Al
+
+Bu, birincil duvar kağıdı yolunu mevcut standart çıktıya bir dize olarak çıkarır. Ayrıca duvar kağıdı yolunu almak için bir monitör belirtebilirsiniz. Bu işlev, geçerli duvar kağıdına tepki vermesi gereken diğer araçlara Wallpaper Engine'i entegre etmek istiyorsanız kullanışlıdır.
+
+``` powershell
+-control getWallpaper [-location <string>] [-monitor <number>]
+```
+
+* **location *(isteğe bağlı)*:** Monitörün dahili tanımlayıcısı veya belirttiğiniz pencere adı.
+* **monitor *(isteğe bağlı)*:** Özellikleri güncellemek için monitörün dizini 0 ile başlar.
+* **ŞURAYA DÖNER:** Duvar kâğıdını etkinleştirmeye yarayan yol.
