@@ -4,7 +4,7 @@ Wallpaper Engine ให้ผู้สร้างวอลเปเปอร์
 
 ::: warning
 โปรดทราบว่า
-บทความนี้เกี่ยวกับฟีเจอร์วอลเปเปอร์เฉพาะสำหรับปกอัลบั้มและข้อมูลเพลงเท่านั้น หากคุณมีปัญหาเกี่ยวกับ Visualizer เสียงหรือต้องการจำกัด Visualizer เสียงในโปรแกรมเล่นสื่อของคุณ โปรดอ่านบทความที่เกี่ยวข้องแทน:
+บทความนี้เกี่ยวกับฟีเจอร์วอลเปเปอร์เฉพาะสำหรับปกอัลบั้มและข้อมูลเพลงเท่านั้น If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please see the appropriate articles instead:
 
 * [การจำกัด Visualizer เสียงให้กับเครื่องเล่นเพลง](/audio/limittomusicplayer)
 * [Visualizer เสียงไม่ทำงาน / ตรวจไม่พบเสียง](/audio/audiodetection)
