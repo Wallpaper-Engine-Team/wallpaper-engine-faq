@@ -1,4 +1,4 @@
-# Utiliser l'outil d'analyse de Wallpaper Engine pour créer un rapport de bug
+# Utiliser l'outil de scan de Wallpaper Engine pour créer un rapport de bug
 
 Si vous rencontrez des problèmes avec Wallpaper Engine que vous ne parvenez pas résoudre à l'aide de la FAQ, vous pouvez créer un rapport pour votre système que vous pourrez par la suite nous envoyer :
 
