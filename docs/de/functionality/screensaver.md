@@ -2,6 +2,8 @@
 
 Wallpaper Engine erlaubt es dir, deine Hintergründe auch als Bildschirmschoner zu verwenden. Ursprünglich hat man Bildschirmschoner genutzt, um Bildschirme vor dem Einbrennen von Standbildern zu bewahren. Heutzutage ist dies bei den meisten Bildschirmtechnologien jedoch nicht mehr nötig, da diese keinen dauerhaften Schaden von Standbildern erhalten können, sodass du sicher jeden Hintergrund auch als Bildschirmschoner einsetzen kannst aus ästhetischen Gründen. Wenn du einen CRT-, Plasma- oder OLED-Bildschirm nutzt, welcher unter Umständen noch zum Einbrennen von Standbildern neigen kann, so empfehlen wir das Nutzen einer Wiedergabeliste an Hintergründen oder das Verwenden eines Hintergrunds mit regelmäßigen Bewegungsabläufen.
 
+[[toc]]
+
 ## Einrichten des Bildschirmschoners
 
 Um mit dem Einrichten eines Bildschirmschoners mit Wallpaper Engine zu starten, bewege deine Maus über den Reiter **Installiert** in Wallpaper Engine-Fenster und wähle **Bildschirmschoner einstellen** aus. Wallpaper Engine überprüft nun, ob du den Bildschirmschoner von Wallpaper Engine bereits installiert hast. Wenn der Bildschirmschoner noch nicht installiert wurde, wirst du gefragt, diesen zu installieren. Stelle sicher, dass dein Windows-Nutzer über Administrator-Rechte verfügt und dass kein Antivirenprogramm Wallpaper Engine daran hindert, den Bildschirmschoner zu installieren.
@@ -32,3 +34,7 @@ Standardmäßig nutzt Wallpaper Engine für deinen Bildschirmschoner deine aktiv
 Der Wallpaper Engine-Bildschirmschoner wird durch Windows selbst aktiviert, wenn der Bildschirmschoner nicht korrekt funktioniert, überprüfe bitte ob einer der vorinstallierten Windows-Bildschirmschoner für dich funktionieren. Überprüfe die Windows-Bildschirmschoner-Einstellungen und die Windows-Energie-Einstellungen, um sicher zu stellen, dass dein Bildschirmschoner mit der von dir erwarteten Wartezeit konfiguriert ist und dass Wallpaper Engine als Bildschirmschoner in Windows eingestellt wurde.
 
 Der Bildschirmschoner wird in `C:\Windows\System32\wpxscreensaver64.scr` installiert, stelle sicher, dass kein Antivirenprogramm diese Datei fälschlicherweise löscht oder Wallpaper Engine daran hindert, diese Datei zu installieren. Du kannst den Bildschirmschoner auch von Hand löschen, indem du speziell diese Datei löschst, achte aber darauf, dass du keine weiteren wichtigen Windows-Dateien im `System32`-Verzeichnis löschst, wenn du dies machst.
+
+## Bildschirmschoner von Wallpaper Engine ausschalten
+
+Wenn du nicht mehr willst, dass deine Hintergründe nach einigen Minuten Inaktivität als Vollbild-Bildschirmschoner erscheinen, kannst du die Bildschirmschoner-Funktionalität von Wallpaper Engine deaktivieren. Öffne die **Bildschirmschoner-Einstellungen von Windows** und setze den Bildschirmschoner auf **Kein**. Ansonsten musst du nichts tun, du kannst den Bildschirmschoner in Zukunft wieder aktivieren, indem du die Schritte oben auf dieser Seite erneut befolgst.
