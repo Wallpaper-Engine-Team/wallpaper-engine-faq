@@ -3,7 +3,7 @@
 Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
 
 ::: warning Please note
-This article is about a specific wallpaper feature for album covers and song information. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please the appropriate articles instead:
+This article is about a specific wallpaper feature for album covers and song information. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please see the appropriate articles instead:
 
 * [Limiting audio visualizers to music players](/audio/limittomusicplayer)
 * [Audio visualizers do not work / no sound detected](/audio/audiodetection)
