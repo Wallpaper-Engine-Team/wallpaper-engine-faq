@@ -1,4 +1,4 @@
-# Hata ayıklama günlüğü oluşturmak için Wallpaper Engine tarama aracını kullanın
+# Hata ayıklama günlüğü oluşturmak için Wallpaper Engine analiz aracını kullanın
 
 Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'de bulamıyorsanız bir sistem günlüğü dosyası oluşturabilir ve bizimle paylaşabilirsiniz:
 
@@ -11,7 +11,7 @@ Wallpaper Engine'de teknik sorunlar yaşıyor ve sorununuzun çözümünü SSS'd
 5. *İsteğe bağlı:* Çökme sorunu yaşıyorsanız lütfen *wallpaper_engine* dizininizdeki **.mdmp** dosyalarını kontrol edin ve o dosyaları bize **logs@wallpaperengine.io** e-posta adresinden ya da bir yere yükleyerek gönderin. Çok fazla .mdmp dosyası bulamazsanız lütfen en yenilerini gönderin.
 
 ::: tip
-Tarama aracı ilk bakışta herhangi bir sorun bildirmese bile, günlük dosyasının daha ayrıntılı bir incelemesiyle yaygın bilgisayar sorunları ortaya çıkar. Bu şekilde teknik sorunlarınızın çözümünde size daha hızlı yardımcı olabiliriz.
+Analiz aracı ilk bakışta herhangi bir sorun bildirmese bile, günlük dosyasının daha ayrıntılı bir incelemesiyle yaygın bilgisayar sorunları ortaya çıkar. Bu şekilde teknik sorunlarınızın çözümünde size daha hızlı yardımcı olabiliriz.
 :::
 
 #### Ek video yardımı
