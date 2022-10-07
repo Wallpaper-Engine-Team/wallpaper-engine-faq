@@ -4,7 +4,7 @@ Wallpaper Engine 允许壁纸创建者向其壁纸添加特殊元素，这些元
 
 ::: warning
 请注意
-本文是关于专辑封面和歌曲信息的特定壁纸功能。 如果您在使用音频可视化工具时遇到问题，或者您想将音频可视化工具限制在您的媒体播放器中，请参阅相应的文章：
+本文是关于专辑封面和歌曲信息的特定壁纸功能。 If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please see the appropriate articles instead:
 
 * [将音频可视化工具限制为音乐播放器](/audio/limittomusicplayer)
 * [音频可视化工具不工作/未检测到声音](/audio/audiodetection)
