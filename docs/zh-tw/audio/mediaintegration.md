@@ -4,7 +4,7 @@ Wallpaper Engine 供桌布建立者為桌布增加特別元素，創作時將能
 
 ::: warning
 請注意
-本文將說明的是有關專輯封面和歌曲資訊的特定桌布功能。 若您使用音訊可視化工具時出現問題，或您想將音訊可視化工具限制至您的媒體播放器，請參見相關文章：
+本文將說明的是有關專輯封面和歌曲資訊的特定桌布功能。 If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please see the appropriate articles instead:
 
 * [將音訊可視化工具限制至音樂播放器](/audio/limittomusicplayer)
 * [音訊可視化工具無法運作/未偵測到音訊](/audio/audiodetection)
