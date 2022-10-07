@@ -4,7 +4,7 @@ Wallpaper Engine permet aux créateurs de papiers peints d'ajouter des élément
 
 ::: warning
 Veuillez noter
-Cet article concerne une fonction spécifique de fond d'écran pour les couvertures d'album et les informations sur les chansons. Si vous rencontrez des problèmes avec les visualiseurs audio ou si vous souhaitez limiter les visualiseurs audio à votre lecteur multimédia, veuillez plutôt consulter les articles appropriés :
+Cet article concerne une fonction spécifique de fond d'écran pour les couvertures d'album et les informations sur les chansons. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please see the appropriate articles instead:
 
 * [Limiter les visualiseurs audio aux lecteurs de musique](/audio/limittomusicplayer)
 * [Les visualiseurs audio ne fonctionnent pas / aucun son n'est détecté](/audio/audiodetection)
