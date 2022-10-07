@@ -4,7 +4,7 @@ Wallpaper Engine erlaubt es Erstellern von Hintergründen spezielle Elemente in 
 
 ::: warning
 Bitte beachte
-Dieser Artikel handelt speziell das Hintergrund-Feature für Alben-Cover und weiteren Song-Informationen. Falls du Probleme mit Audio-Visualisierungen hast oder falls du Audio-Visualisierungen auf bestimmte Musik-Wiedergabeprogramme beschränken willst, schau dir stattdessen bitte die jeweiligen Artikel zu diesen Themen an:
+Dieser Artikel handelt speziell das Hintergrund-Feature für Alben-Cover und weiteren Song-Informationen. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please see the appropriate articles instead:
 
 * [Audio-Visualisierer auf Musik-Programme beschränken](/audio/limittomusicplayer)
 * [Audio-Visualisierer funktionieren nicht / Kein Ton erkannt](/audio/audiodetection)
