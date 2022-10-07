@@ -4,7 +4,7 @@ Wallpaper Engineでは、壁紙作成者が自作壁紙に特殊なエレメン�
 
 ::: warning
 注意
-この記事には、アルバムカバーと曲の情報に関する特定の壁紙機能についてのみ書かれています オーディオビジュアライザに問題が発生している場合や、メディアプレイヤーでオーディオビジュアライザを制限したい場合などは、該当記事を参照してください。
+この記事には、アルバムカバーと曲の情報に関する特定の壁紙機能についてのみ書かれています If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please see the appropriate articles instead:
 
 * [音楽プレイヤーへのオーディオビジュアライザーの限定](/audio/limittomusicplayer)
 * [オーディオビジュアライザーが機能しません / サウンドが検知されません](/audio/audiodetection)
