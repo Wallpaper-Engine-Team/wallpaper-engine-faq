@@ -185,3 +185,14 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 -control showIcons
 ```
 
+### 현재 배경화면 받기
+
+이 기능은 현재 기본 출력에 주 배경화면 경로를 스트링으로 출력하며, 어떤 모니터에 맞춰 배경화면 경로를 받을 것인지 지정할 수도 있습니다. 이 기능은 어떤 식으로든 현재 배경화면에 반응해야 하는 타 도구에 Wallpaper Engine을 통합하고자 할 때 유용합니다.
+
+``` powershell
+-control getWallpaper [-location <string>] [-monitor <number>]
+```
+
+* **location *(선택 사항)*:** 지정한 모니터 혹은 창 이름의 내부 식별자.
+* **monitor *(선택 사항)*:** 속성을 업데이트할 모니터의 인덱스. 0에서부터 시작합니다.
+* **RETURNS:** 현재 배경화면의 파일 경로.
