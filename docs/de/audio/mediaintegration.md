@@ -1,6 +1,6 @@
 # Integration von Alben-Covern & Medien-Daten
 
-Wallpaper Engine allows wallpaper creators to add special elements to their wallpapers that will utilize the album cover, song title, album name and more in the wallpaper. This guide will explain how to solve common problems around this feature.
+Wallpaper Engine erlaubt es Erstellern von Hintergründen spezielle Elemente in die Hintergründe einzufügen, welche Alben-Cover, Song-Titel, Alben-Namen und weitere Song-Informationen im Hintergrund anzeigen. This guide will explain how to solve common problems around this feature.
 
 ::: warning
 Please note
