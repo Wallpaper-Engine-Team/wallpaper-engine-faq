@@ -98,11 +98,13 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(選用)*：** 顯示器內部識別碼。 這些由您的電腦生成，您可在 config.json 檔案中找到。
 * **monitor *(選用)*：** 欲載入桌布顯示器的索引，以 0 開頭。
 * **preset *(選用)*：** 欲載入本機的名稱；必須已事先建立本機預設並儲存。
-* **playInWindow *(選用)*：** 如果您想在一視窗內開啟/控制多個桌布，則為該視窗名稱。
+* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window. The default window name is "Wallpaper Pop-out".
   * **width *(選用)*：** 視窗寬度。
   * **height *(選用)*：** 視窗高度。
   * **x *(選用)*：** 視窗的水平位置。
   * **y *(選用)*：** 視窗的垂直位置。
+  * **activate *(optional)*:** Bring window into the foreground.
+  * **borderless *(optional)*:** Open the window without a window border.
 
 ### 下一個桌布
 
