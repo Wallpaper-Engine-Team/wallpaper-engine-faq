@@ -98,11 +98,13 @@ pause または stop しているすべての壁紙を再開します。
 * **location *（オプション）*：** モニターの内部識別子です。 お使いのPCによって生成され、config.json に書かれています。
 * **monitor *（オプション）*：** 壁紙をロードするモニターのインデックスで、0から始まります。
 * **preset *（オプション）*：** ロードするローカルプリセットの名前です。ローカルプリセットは事前に作成し、保存しておく必要があります。
-* **playInWindow *（オプション）*：** 一つのウィンドウの中で複数の壁紙を開いたりコントロールしたりする場合の、ウィンドウの名前です。
+* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window. The default window name is "Wallpaper Pop-out".
   * **width *（オプション）*：** ウィンドウの幅です。
   * **height *（オプション）*：** ウィンドウの高さです。
   * **x *（オプション）*：** ウィンドウの水平位置です。
   * **y *（オプション）*：** ウィンドウの垂直位置です。
+  * **activate *(optional)*:** Bring window into the foreground.
+  * **borderless *(optional)*:** Open the window without a window border.
 
 ### 次の壁紙
 
