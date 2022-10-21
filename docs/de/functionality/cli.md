@@ -98,11 +98,13 @@ Lädt einen neuen Hintergrund für einen angegebenen Bildschirm (oder den ersten
 * **location *(optional)*:** Interne ID des Bildschirms. Du kannst diese in der config.json finden, diese sind jeweils speziell von deinem PC generiert.
 * **monitor *(optional)*:** Index des Bildschirms auf dem das Hintergrundbild geladen werden soll, startet bei 0.
 * **preset *(optional)*:** Name einer Hintergrund-Vorkonfigurations. Die Vorkonfiguration muss zuvor von dir in der Anwendung angelegt und gespeichert werden.
-* **playInWindow *(optional)*:** Name des Fensters für den Fall, dass mehrere Hintergründe in mehreren Fenstern geöffnet werden sollen.
+* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window. The default window name is "Wallpaper Pop-out".
   * **width *(optional)*:** Breite des Fensters.
   * **height *(optional)*:** Höhe des Fensters.
   * **x *(optional)*:** Horizontale Position des Fensters.
   * **y *(optional)*:** Vertikale Postion des Fensters.
+  * **activate *(optional)*:** Bring window into the foreground.
+  * **borderless *(optional)*:** Open the window without a window border.
 
 ### Nächster Hintergrund
 
