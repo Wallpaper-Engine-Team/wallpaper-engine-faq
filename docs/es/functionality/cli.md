@@ -98,11 +98,13 @@ Carga un fondo nuevo para el monitor seleccionado o para el principal si no se e
 * **location *(opcional)*:** Identificador interno del monitor. Lo encontrarás en el archivo config.json que genera el propio ordenador.
 * **monitor *(opcional)*:** Índice del monitor en el que quieres cargar el fondo. Empieza por 0.
 * **preset *(opcional)*:** Nombre del valor predeterminado local que quieres cargar. Tienes que haberlo creado y guardado tú de antemano.
-* **playInWindow *(opcional)*:** Nombre de la ventana si quieres abrir o controlar varios fondos en una sola ventana.
+* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window. The default window name is "Wallpaper Pop-out".
   * **width *(opcional)*:** Ancho de la ventana.
   * **height *(opcional)*:** Altura de la ventana.
   * **x *(opcional)*:** Posición horizontal de la ventana.
   * **y *(opcional)*:** Posición vertical de la ventana.
+  * **activate *(optional)*:** Bring window into the foreground.
+  * **borderless *(optional)*:** Open the window without a window border.
 
 ### Siguiente fondo
 
