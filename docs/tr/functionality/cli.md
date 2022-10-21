@@ -98,11 +98,13 @@ Belirtilmemişse, belirli bir monitör veya ilk monitör için yeni bir duvar ka
 * **location *(isteğe bağlı)*:** Monitörün dahili tanımlayıcısı. Bunları config.json dosyasında bulabilirsiniz ve bu dosya bilgisayarınız tarafından oluşturulurlar.
 * **monitor *(isteğe bağlı)*:** Duvar kağıdının yükleneceği monitör dizini 0 ile başlar.
 * **preset *(isteğe bağlı)*:** Yüklenecek yerel ön ayarın adı ve yerel ön ayar sizin tarafınızdan önceden oluşturulmuş ve kaydedilmiş olmalıdır.
-* **playInWindow *(isteğe bağlı)*:** Bir pencerede birden fazla duvar kağıdını açmak / kontrol etmek istiyorsanız, pencerenin adı.
+* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window. The default window name is "Wallpaper Pop-out".
   * **width *(isteğe bağlı)*:** Pencere genişliği.
   * **height *(isteğe bağlı)*:** Pencere yüksekliği.
   * **x *(isteğe bağlı)*:** Pencerenin yatay konumu.
   * **y *(isteğe bağlı)*:** Pencerenin dikey konumu.
+  * **activate *(optional)*:** Bring window into the foreground.
+  * **borderless *(optional)*:** Open the window without a window border.
 
 ### Sonraki Duvar Kâğıdı
 
