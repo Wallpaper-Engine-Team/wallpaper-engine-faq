@@ -15,12 +15,12 @@ Yeni duvar kâğıtları aramak için her zaman uygulamadaki Atölye sekmesini k
 
 ## Excluding mature content
 
-Steam Atölyesi, çıplaklık gibi belirli derecedeki yetişkin içeriğe izin verir. There are two layers of filtering age rating content, both of which you need to configure:
+Steam Atölyesi, çıplaklık gibi belirli derecedeki yetişkin içeriğe izin verir. There are two layers of filtering age-restricted content, both of which you need to configure:
 
-1. Steam account content preferences
-2. Wallpaper Engine content preferences
+1. Steam account mature content preferences
+2. Wallpaper Engine search filters
 
-### 1. Steam Age Rating Preferences
+### 1. Steam Account Preferences
 
 First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
 
