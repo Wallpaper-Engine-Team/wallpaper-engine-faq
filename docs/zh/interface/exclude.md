@@ -6,11 +6,51 @@ tags:
   - 类别
   - M 级
   - 成人
+  - R18
 ---
 
 # 从搜索中排除某些壁纸
 
 始终使用应用程序中的“创意工坊”选项卡搜索新壁纸。 Steam 创意工坊网站不具备与该应用程序相同的筛选功能，而且会显示过多您不感兴趣的内容。
+
+## Excluding mature content
+
+Steam 创意工坊允许一定程度的成人内容，例如裸体。 There are two layers of filtering age rating content, both of which you need to configure:
+
+1. Steam account content preferences
+2. Wallpaper Engine content preferences
+
+### 1. Steam Age Rating Preferences
+
+First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+
+* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+
+You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+
+::: warning
+Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
+
+Steam detects your location based on your IP address or purchase history. If you live in a region where you should be able to access these content options but are not presented with them, please contact Steam Support for further assistance.
+:::
+
+<video width="100%" autoplay loop>
+  <source src="/videos/steam_filterage.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
+
+Make sure to restart the Wallpaper Engine user interface when making changes to your Steam content preferences, otherwise your changes may not have an immediate effect
+
+### 2. Wallpaper Engine Age Rating Filter
+
+Once you have set up your Steam content preferences in Steam, you can use the Wallpaper Engine age filters to filter content on-the-fly. Click on the **Filter results** button in the upper left corner in the app, then navigate to the **age rating** section and enable or disable the filters according to your preferences:
+
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
+
+由于大多数内容均标记正确，这将筛选掉大部分成人内容。 如果您仍然遇到具有“所有人”年龄分级的成人内容，请使用应用程序中的举报功能。 该内容将在审核后重新分类或封禁。
 
 ## 排除某些样式（例如动漫）
 
@@ -22,17 +62,6 @@ tags:
   <source src="/videos/filtercontent.mp4" type="video/mp4">
   您的浏览器不支持视频标签。
 </video>
-
-## 排除某些年龄分级
-
-Steam 创意工坊允许一定程度的成人内容，例如裸体。 如果不想看到此类内容，您只需在筛选器中启用“所有人”年龄分级：
-
-<video width="100%" autoplay loop>
-  <source src="/videos/filterage.mp4" type="video/mp4">
-  您的浏览器不支持视频标签。
-</video>
-
-由于大多数内容均标记正确，这将筛选掉大部分成人内容。 如果您仍然遇到具有“所有人”年龄分级的成人内容，请使用应用程序中的举报功能。 该内容将在审核后重新分类或封禁。
 
 ## 举报违规内容
 
