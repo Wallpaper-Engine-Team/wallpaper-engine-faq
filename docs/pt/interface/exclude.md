@@ -6,11 +6,51 @@ tags:
   - categories
   - mature
   - adult
+  - R18
 ---
 
 # Excluir certos wallpapers da pesquisa
 
 Utilize sempre o separador Oficina na aplicação para procurar novos wallpapers. O website Steam Workshop não tem as mesmas capacidades de filtragem da aplicação e irá mostrar-lhe demasiado conteúdo em que não está interessado.
+
+## Excluding mature content
+
+A Steam Workshop permite uma certa quantidade de conteúdo adulto, tal como nudez. There are two layers of filtering age rating content, both of which you need to configure:
+
+1. Steam account content preferences
+2. Wallpaper Engine content preferences
+
+### 1. Steam Age Rating Preferences
+
+First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+
+* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+
+You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+
+::: warning
+Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
+
+Steam detects your location based on your IP address or purchase history. If you live in a region where you should be able to access these content options but are not presented with them, please contact Steam Support for further assistance.
+:::
+
+<video width="100%" autoplay loop>
+  <source src="/videos/steam_filterage.mp4" type="video/mp4">
+  O seu browser não suporta o tag vídeo.
+</video>
+
+Make sure to restart the Wallpaper Engine user interface when making changes to your Steam content preferences, otherwise your changes may not have an immediate effect
+
+### 2. Wallpaper Engine Age Rating Filter
+
+Once you have set up your Steam content preferences in Steam, you can use the Wallpaper Engine age filters to filter content on-the-fly. Click on the **Filter results** button in the upper left corner in the app, then navigate to the **age rating** section and enable or disable the filters according to your preferences:
+
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  O seu browser não suporta o tag vídeo.
+</video>
+
+A maior parte do conteúdo está tagado corretamente, permitindo excluir a grande maioria do conteúdo para adultos. Se mesmo assim deparar com conteúdo para adultos que tenha sido classificado "Para todos", utilize a funcionalidade de denúncia da aplicação. Depois de ser analisado, o conteúdo poderá ser reclassificado ou banido.
 
 ## Excluir certos géneros (por exemplo, anime)
 
@@ -22,17 +62,6 @@ Também pode usar o botão **Definições do filtro** e depois clicar em **Ocult
   <source src="/videos/filtercontent.mp4" type="video/mp4">
   O seu browser não suporta o tag vídeo.
 </video>
-
-## Excluir certas classificações etárias
-
-A Steam Workshop permite uma certa quantidade de conteúdo adulto, tal como nudez. Senão quiser ver este tipo de conteúdo, ative apenas a classificação etária "Para todos" nos filtros:
-
-<video width="100%" autoplay loop>
-  <source src="/videos/filterage.mp4" type="video/mp4">
-  O seu browser não suporta o tag vídeo.
-</video>
-
-A maior parte do conteúdo está tagado corretamente, permitindo excluir a grande maioria do conteúdo para adultos. Se mesmo assim deparar com conteúdo para adultos que tenha sido classificado "Para todos", utilize a funcionalidade de denúncia da aplicação. Depois de ser analisado, o conteúdo poderá ser reclassificado ou banido.
 
 ## Denunciar conteúdo que infringe as regras
 
