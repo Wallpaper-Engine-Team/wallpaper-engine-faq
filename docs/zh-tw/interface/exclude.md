@@ -15,12 +15,12 @@ tags:
 
 ## Excluding mature content
 
-Steam 工作坊允許一定程度的成人內容，例如裸體。 There are two layers of filtering age rating content, both of which you need to configure:
+Steam 工作坊允許一定程度的成人內容，例如裸體。 There are two layers of filtering age-restricted content, both of which you need to configure:
 
-1. Steam account content preferences
-2. Wallpaper Engine content preferences
+1. Steam account mature content preferences
+2. Wallpaper Engine search filters
 
-### 1. Steam Age Rating Preferences
+### 1. Steam Account Preferences
 
 First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
 
