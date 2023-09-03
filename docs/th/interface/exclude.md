@@ -6,11 +6,51 @@ tags:
   - หมวดหมู่
   - ผู้ใหญ่
   - ผู้ใหญ่
+  - R18
 ---
 
 # ยกเว้นวอลเปเปอร์บางส่วนจากการค้นหา
 
 ใช้แท็บเวิร์กชอปในแอพพลิเคชันเพื่อค้นหาวอลเปเปอร์ใหม่เสมอ เว็บไซต์ Steam Workshop ไม่มีความสามารถในการกรองเหมือนกับในแอพพลิเคชันและจะแสดงเนื้อหาที่คุณไม่สนใจ
+
+## Excluding mature content
+
+Steam Workshop อนุญาตให้มีเนื้อหาสำหรับผู้ใหญ่ในระดับหนึ่ง เช่น ภาพเปลือย There are two layers of filtering age rating content, both of which you need to configure:
+
+1. Steam account content preferences
+2. Wallpaper Engine content preferences
+
+### 1. Steam Age Rating Preferences
+
+First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+
+* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+
+You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+
+::: warning
+Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
+
+Steam detects your location based on your IP address or purchase history. If you live in a region where you should be able to access these content options but are not presented with them, please contact Steam Support for further assistance.
+:::
+
+<video width="100%" autoplay loop>
+  <source src="/videos/steam_filterage.mp4" type="video/mp4">
+  เบราว์เซอร์ของคุณไม่รองรับแท็กวิดีโอ
+</video>
+
+Make sure to restart the Wallpaper Engine user interface when making changes to your Steam content preferences, otherwise your changes may not have an immediate effect
+
+### 2. Wallpaper Engine Age Rating Filter
+
+Once you have set up your Steam content preferences in Steam, you can use the Wallpaper Engine age filters to filter content on-the-fly. Click on the **Filter results** button in the upper left corner in the app, then navigate to the **age rating** section and enable or disable the filters according to your preferences:
+
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  เบราว์เซอร์ของคุณไม่รองรับแท็กวิดีโอ
+</video>
+
+เนื่องจากมีการแท็กเนื้อหาส่วนใหญ่อย่างถูกต้อง สิ่งนี้จะกรองเนื้อหาสำหรับผู้ใหญ่ส่วนมาก หากคุณยังคงพบกับเนื้อหาสำหรับผู้ใหญ่ที่ได้รับการจัดอันดับสำหรับ "ทุกคน" โปรดใช้ฟังก์ชันรายงานในแอพพลิเคชัน เนื้อหานี้จะถูกจัดประเภทใหม่หรือถูกแบนหลังจากตรวจสอบแล้ว
 
 ## ยกเว้นวอลเปเปอร์บางประเภท (เช่น อนิเมะ)
 
@@ -22,17 +62,6 @@ tags:
   <source src="/videos/filtercontent.mp4" type="video/mp4">
   เบราว์เซอร์ของคุณไม่รองรับแท็กวิดีโอ
 </video>
-
-## ยกเว้นการจัดระดับความเหมาะสมตามอายุ
-
-Steam Workshop อนุญาตให้มีเนื้อหาสำหรับผู้ใหญ่ในระดับหนึ่ง เช่น ภาพเปลือย หากคุณไม่ต้องการเห็นเนื้อหาประเภทนี้ ให้เปิดใช้งานการจัดอันดับอายุโดยเลือก "ทุกคน" ในตัวกรองเท่านั้น:
-
-<video width="100%" autoplay loop>
-  <source src="/videos/filterage.mp4" type="video/mp4">
-  เบราว์เซอร์ของคุณไม่รองรับแท็กวิดีโอ
-</video>
-
-เนื่องจากมีการแท็กเนื้อหาส่วนใหญ่อย่างถูกต้อง สิ่งนี้จะกรองเนื้อหาสำหรับผู้ใหญ่ส่วนมาก หากคุณยังคงพบกับเนื้อหาสำหรับผู้ใหญ่ที่ได้รับการจัดอันดับสำหรับ "ทุกคน" โปรดใช้ฟังก์ชันรายงานในแอพพลิเคชัน เนื้อหานี้จะถูกจัดประเภทใหม่หรือถูกแบนหลังจากตรวจสอบแล้ว
 
 ## การรายงานเนื้อหาที่ละเมิดกฎ
 
