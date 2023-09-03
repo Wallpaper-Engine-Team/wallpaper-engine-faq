@@ -15,12 +15,12 @@ Always use the Workshop tab in the application to search for new wallpapers. The
 
 ## Excluding mature content
 
-The Steam Workshop permits a certain degree of adult content, such as nudity. There are two layers of filtering age rating content, both of which you need to configure:
+The Steam Workshop permits a certain degree of adult content, such as nudity. There are two layers of filtering age-restricted content, both of which you need to configure:
 
-1. Steam account content preferences
-2. Wallpaper Engine content preferences
+1. Steam account mature content preferences
+2. Wallpaper Engine search filters
 
-### 1. Steam Age Rating Preferences
+### 1. Steam Account Preferences
 
 First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
 
