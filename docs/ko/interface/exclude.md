@@ -6,11 +6,51 @@ tags:
   - 범주
   - 성인
   - 어른
+  - R18
 ---
 
 # 검색에서 특정 배경화면이 제외됩니다
 
 언제든지 응응 프로그램의 창작마당 탭을 사용하여 새로운 배경화면을 검색할 수 있습니다. Steam 창작마당 웹사이트는 앱과 동일한 필터 기능이 없으며, 관심이 없는 콘텐츠까지 너무 많이 보여줍니다.
+
+## Excluding mature content
+
+Steam 창작마당은 노출과 같은 일정 수준의 성인 콘텐츠를 허용합니다. There are two layers of filtering age rating content, both of which you need to configure:
+
+1. Steam account content preferences
+2. Wallpaper Engine content preferences
+
+### 1. Steam Age Rating Preferences
+
+First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+
+* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+
+You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+
+::: warning
+Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
+
+Steam detects your location based on your IP address or purchase history. If you live in a region where you should be able to access these content options but are not presented with them, please contact Steam Support for further assistance.
+:::
+
+<video width="100%" autoplay loop>
+  <source src="/videos/steam_filterage.mp4" type="video/mp4">
+  브라우저가 비디오 태그를 지원하지 않습니다.
+</video>
+
+Make sure to restart the Wallpaper Engine user interface when making changes to your Steam content preferences, otherwise your changes may not have an immediate effect
+
+### 2. Wallpaper Engine Age Rating Filter
+
+Once you have set up your Steam content preferences in Steam, you can use the Wallpaper Engine age filters to filter content on-the-fly. Click on the **Filter results** button in the upper left corner in the app, then navigate to the **age rating** section and enable or disable the filters according to your preferences:
+
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  브라우저가 비디오 태그를 지원하지 않습니다.
+</video>
+
+대부분의 콘텐츠는 정확히 태그되므로, 성인 콘텐츠 대다수를 필터링합니다. 그러나 "모두" 등급의 성인 콘텐츠가 계속 나온다면, 앱에서 신고하기 기능을 사용해 주세요. 해당 콘텐츠는 다시 분류되거나 검토 후 금지됩니다.
 
 ## 특정 장르 제외 (예: 아니메)
 
@@ -22,17 +62,6 @@ tags:
   <source src="/videos/filtercontent.mp4" type="video/mp4">
   브라우저가 비디오 태그를 지원하지 않습니다.
 </video>
-
-## 특정 나이 등급 제외
-
-Steam 창작마당은 노출과 같은 일정 수준의 성인 콘텐츠를 허용합니다. 이런 콘텐츠를 보고 싶지 않으면, 필터에서 "모두" 나이 등급만 활성화하세요.
-
-<video width="100%" autoplay loop>
-  <source src="/videos/filterage.mp4" type="video/mp4">
-  브라우저가 비디오 태그를 지원하지 않습니다.
-</video>
-
-대부분의 콘텐츠는 정확히 태그되므로, 성인 콘텐츠 대다수를 필터링합니다. 그러나 "모두" 등급의 성인 콘텐츠가 계속 나온다면, 앱에서 신고하기 기능을 사용해 주세요. 해당 콘텐츠는 다시 분류되거나 검토 후 금지됩니다.
 
 ## 규정 위반 콘텐츠 신고
 
