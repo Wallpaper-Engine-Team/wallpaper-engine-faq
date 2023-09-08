@@ -22,16 +22,15 @@ Steam 创意工坊允许一定程度的成人内容，例如裸体。 有两层�
 
 ### 1. Steam账号偏好
 
-首先，确保对Steam社区内容过滤器进行正确配置。 打开Steam，点击位于右上角的您的用户名，然后选择**保存偏好**。 Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+首先，确保对Steam社区内容过滤器进行正确配置。 打开Steam，点击位于右上角的您的用户名，然后选择**保存偏好**。 或者，点击以下链接，从您的网页浏览器进入您的Steam账号偏好（请确保您登入了正确的Steam账号）：
 
-* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+* [点击这里以查看您的Steam内容偏好](https://store.steampowered.com/account/preferences/)
 
-You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+您将看到一个成人内容选项列表。 请确保从用于创意工坊内容的**社区**栏中选择您的喜好。 请观看下方视频以了解设置步骤。
 
-::: warning
-Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
+区域限制:::warning **请注意，由于Steam遵守的当地法律不同，有些成人内容偏好在不同国家和地区不可用。**
 
-Steam detects your location based on your IP address or purchase history. If you live in a region where you should be able to access these content options but are not presented with them, please contact Steam Support for further assistance.
+Steam根据您的IP地址或购买记录来检测您的位置。 如果您所在区域允许您访问这些内容选项，然后这些选项却不可见，请联系Steam客服以寻求进一步帮助。
 :::
 
 <video width="100%" autoplay loop>
@@ -39,11 +38,11 @@ Steam detects your location based on your IP address or purchase history. If you
   您的浏览器不支持视频标签。
 </video>
 
-Make sure to restart the Wallpaper Engine user interface when making changes to your Steam content preferences, otherwise your changes may not have an immediate effect
+对您的Steam内容偏好做出变更后，请重启壁纸引擎用户界面，否则您的变更可能无法立即生效
 
-### 2. Wallpaper Engine Age Rating Filter
+### 2. 壁纸引擎年龄评级过滤器
 
-Once you have set up your Steam content preferences in Steam, you can use the Wallpaper Engine age filters to filter content on-the-fly. Click on the **Filter results** button in the upper left corner in the app, then navigate to the **age rating** section and enable or disable the filters according to your preferences:
+当您完成在Steam上的Steam内容偏好设置后，您可以使用壁纸引擎年龄过滤器来即时过滤内容。 点击app中左上角的**过滤结果**按钮，然后浏览**年龄评级**部分，并根据您的喜好启用或禁用过滤器：
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
