@@ -13,25 +13,25 @@ tags:
 
 新しい壁紙を検索するときは、常にアプリケーションのワークショップタブを使用してください。 Steamワークショップサイトのフィルター機能はアプリケーションのものとは違い、興味のないコンテンツが大量に表示されます。
 
-## Excluding mature content
+## 成人向けコンテンツの除外
 
-Steamワークショップでは、裸体など、ある程度のアダルトコンテンツが許可されています。 There are two layers of filtering age-restricted content, both of which you need to configure:
+Steamワークショップでは、裸体など、ある程度のアダルトコンテンツが許可されています。 年齢制限付きコンテンツのフィルターは2種類存在し、その両方を設定する必要がございます。
 
-1. Steam account mature content preferences
-2. Wallpaper Engine search filters
+1. Steamアカウントの成人向けコンテンツの個人設定
+2. Wallpaper Engineの検索フィルター
 
-### 1. Steam Account Preferences
+### 1. Steamアカウントの個人設定
 
-First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+まずはSteamコミュニティのコンテンツフィルターを正しく設定しているかご確認ください。 Steamを開き、画面右上端にあるユーザーネームをクリックしてください。その後、**ストアの個人設定**をクリックしてください。 または、下記のリンクをウェブブラウザで開いて、Steamアカウントの個人設定にアクセスしてください（設定を変更したいSteamアカウントにログインしていることをご確認ください）：
 
-* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+* [Steamのコンテンツの個人設定を開くにはこちらをクリック](https://store.steampowered.com/account/preferences/)
 
-You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+すると、除外できる成人向けコンテンツの一覧が表示されます。 ワークショップのコンテンツを除外するためには、かならず**コミュニティ**欄のチェックボックスを選択していることをご確認ください。 設定の手順は、下記の動画でご視聴いただけます。
 
 ::: warning
-Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
+地域制限 **一部の成人向けコンテンツの個人設定は、さまざまな国と地域において、Steamが現地の法的規制に遵守するために利用できない場合がございます。ご注意ください。**
 
-Steam detects your location based on your IP address or purchase history. If you live in a region where you should be able to access these content options but are not presented with them, please contact Steam Support for further assistance.
+Steamはあなたの居住地域を、IPアドレスと購入履歴から検知いたします。 当該のコンテンツのオプションにアクセスできる地域に居住しているにもかかわらず表示されていない場合は、問題解決手段をSteamサポートへお問い合わせください。
 :::
 
 <video width="100%" autoplay loop>
@@ -39,11 +39,11 @@ Steam detects your location based on your IP address or purchase history. If you
   お使いのブラウザが動画タグをサポートしていません。
 </video>
 
-Make sure to restart the Wallpaper Engine user interface when making changes to your Steam content preferences, otherwise your changes may not have an immediate effect
+Steamのコンテンツの個人設定を変更した際には、かならずWallpaper EngineのUIを再起動してください。変更が即座に反映されない可能性がございます。
 
-### 2. Wallpaper Engine Age Rating Filter
+### 2. Wallpaper Engineの年齢制限フィルター
 
-Once you have set up your Steam content preferences in Steam, you can use the Wallpaper Engine age filters to filter content on-the-fly. Click on the **Filter results** button in the upper left corner in the app, then navigate to the **age rating** section and enable or disable the filters according to your preferences:
+SteamにてSteamのコンテンツの個人設定が完了できましたら、すぐにWallpaper Engineの年齢制限フィルターを利用し、コンテンツをフィルターできます。 アプリを開き、画面左上端にある**結果をフィルター**ボタンをクリックしてください。そして**年齢制限**の項目を開き、希望するフィルターを有効化、無効化してください：
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
