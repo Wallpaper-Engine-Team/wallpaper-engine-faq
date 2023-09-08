@@ -13,16 +13,16 @@ tags:
 
 始终使用应用程序中的“创意工坊”选项卡搜索新壁纸。 Steam 创意工坊网站不具备与该应用程序相同的筛选功能，而且会显示过多您不感兴趣的内容。
 
-## Excluding mature content
+## 不包括成人内容
 
-Steam 创意工坊允许一定程度的成人内容，例如裸体。 There are two layers of filtering age-restricted content, both of which you need to configure:
+Steam 创意工坊允许一定程度的成人内容，例如裸体。 有两层过滤年龄限制内容的机制，您都需要进行配置：
 
-1. Steam account mature content preferences
-2. Wallpaper Engine search filters
+1. Steam账号成人内容偏好
+2. 壁纸引擎搜索过滤器
 
-### 1. Steam Account Preferences
+### 1. Steam账号偏好
 
-First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+首先，确保对Steam社区内容过滤器进行正确配置。 打开Steam，点击位于右上角的您的用户名，然后选择**保存偏好**。 Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
 
 * [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
 
