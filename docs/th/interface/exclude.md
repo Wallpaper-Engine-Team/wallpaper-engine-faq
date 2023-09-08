@@ -13,20 +13,20 @@ tags:
 
 ใช้แท็บเวิร์กชอปในแอพพลิเคชันเพื่อค้นหาวอลเปเปอร์ใหม่เสมอ เว็บไซต์ Steam Workshop ไม่มีความสามารถในการกรองเหมือนกับในแอพพลิเคชันและจะแสดงเนื้อหาที่คุณไม่สนใจ
 
-## Excluding mature content
+## ไม่รวมเนื้อหาสำหรับผู้ใหญ่
 
-Steam Workshop อนุญาตให้มีเนื้อหาสำหรับผู้ใหญ่ในระดับหนึ่ง เช่น ภาพเปลือย There are two layers of filtering age-restricted content, both of which you need to configure:
+Steam Workshop อนุญาตให้มีเนื้อหาสำหรับผู้ใหญ่ในระดับหนึ่ง เช่น ภาพเปลือย มีการกรองเนื้อหาที่มีการจำกัดอายุอยู่ 2 ชั้น โดยคุณต้องทำการกำหนดค่าทั้งสอง:
 
-1. Steam account mature content preferences
-2. Wallpaper Engine search filters
+1. การตั้งค่าเนื้อหาสำหรับผู้ใหญ่ของบัญชี Steam
+2. ตัวกรองการค้นหาของ Wallpaper Engine
 
-### 1. Steam Account Preferences
+### 1. การตั้งค่าบัญชี Steam
 
-First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+ก่อนอื่นให้ตรวจสอบว่าได้มีการกำหนดค่าตัวกรองเนื้อหาชุมชน Steam ของคุณอย่างถูกต้อง เปิด Steam แล้วคลิกที่ชื่อผู้ใช้ของคุณที่มุมขวาบน และเลือก**การตั้งค่าร้านค้า** หรือคลิกลิงก์ต่อไปนี้เพื่อเข้าถึงการตั้งค่าบัญชี Steam จากเบราว์เซอร์ของคุณ (โปรดตรวจสอบให้แน่ใจว่าคุณได้ลงชื่อเข้าใช้บัญชี Steam ที่ถูกต้อง):
 
-* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+* [คลิกที่นี่เพื่อดูการตั้งค่าเนื้อหา Steam ของคุณ](https://store.steampowered.com/account/preferences/)
 
-You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+คุณจะพบรายการตัวเลือกเนื้อหาสำหรับผู้ใหญ่ ให้ตรวจสอบว่าคุณได้เลือกการตั้งค่าที่ต้องการในคอลัมน์**ชุมชน**ซึ่งใช้สำหรับเนื้อหาเวิร์กชอป ดูขั้นตอนการตั้งค่าได้จากวิดีโอด้านล่าง
 
 ::: warning
 Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
