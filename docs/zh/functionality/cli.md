@@ -98,13 +98,13 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location* （可选） *：** 显示器内部标识符。 它们由您的 PC 生成，可在 config.json 文件中找到。
 * **monitor* （可选） *：** 要加载壁纸的显示器的索引，以 0 开头。
 * **preset* （可选） *：** 要加载的本地预设的名称，您必须已经事先创建并保存该本地预设。
-* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window. The default window name is "Wallpaper Pop-out".
+* **playInWindow *（可选）*：**如果您想在一个窗口中打开/控制多个壁纸，请输入窗口名称。 默认窗口名称为“Wallpaper Pop-out”。
   * **width* （可选） *：** 窗口宽度。
   * **height* （可选） *：** 窗口高度。
   * **x* （可选） *：** 窗口的水平位置。
   * **y* （可选） *：** 窗口的垂直位置。
-  * **activate *(optional)*:** Bring window into the foreground.
-  * **borderless *(optional)*:** Open the window without a window border.
+  * **激活*（可选）*：**将窗口移至前景。
+  * **无边框*（可选）*：**打开无边框窗口。
 
 ### 下一张壁纸
 
