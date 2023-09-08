@@ -6,32 +6,31 @@ tags:
   - 類別
   - 成人
   - 成年人
-  - R18
+  - 18禁
 ---
 
 # 從搜尋結果中排除特定桌布
 
 務必使用應用程式的「工作坊」分頁來搜尋新的桌布。 Steam 工作坊網站不具備與此應用程式相同的篩選功能，也會顯示過多您不感興趣的內容。
 
-## Excluding mature content
+## 排除成人內容
 
-Steam 工作坊允許一定程度的成人內容，例如裸體。 There are two layers of filtering age-restricted content, both of which you need to configure:
+Steam 工作坊允許一定程度的成人內容，例如裸體。 共有兩層成人限制內容篩選機制，你兩層都必須設定：
 
-1. Steam account mature content preferences
-2. Wallpaper Engine search filters
+1. Steam 帳號成人內容偏好設定
+2. Wallpaper Engine 搜尋篩選機制
 
-### 1. Steam Account Preferences
+### 1. Steam 帳號偏好設定
 
-First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+首先，請確定你是否已經正確地設定 Steam 社群內容的篩選機制。 開啟 Steam，然後點擊右上角的使用者名稱，並選擇**商店偏好設定**。 或者，你也可點擊下列連結，透過網頁瀏覽器調整 Steam 帳號的偏好設定（請確認你登入的是正確的 Steam 帳號）：
 
-* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+* [點擊此處檢視你的 Steam 內容偏好設定](https://store.steampowered.com/account/preferences/)
 
-You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+你將看到成人內容選項列表。 請確認你是否已經在工坊內容的**社群**欄位中選擇偏好設定。 請觀看下方影片，了解設定的流程。
 
-::: warning
-Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
+::: 警告：區域限制 **請注意：基於 Steam 的當地規範，部分成人內容偏好設定在多個國家與區域並不適用。**
 
-Steam detects your location based on your IP address or purchase history. If you live in a region where you should be able to access these content options but are not presented with them, please contact Steam Support for further assistance.
+Steam 會根據你的 IP 位址或購買紀錄自動偵測你的所在位置。 如果你生活的地區應該要能夠使用相關的內容選項，但卻沒有看見這樣的選項，請聯絡 Steam 客服尋求進一步協助。
 :::
 
 <video width="100%" autoplay loop>
@@ -39,11 +38,11 @@ Steam detects your location based on your IP address or purchase history. If you
   您的瀏覽器不支援影片標籤。
 </video>
 
-Make sure to restart the Wallpaper Engine user interface when making changes to your Steam content preferences, otherwise your changes may not have an immediate effect
+在變更 Steam 內容偏好設定後，請確認你是否有重新啟動 Wallpaper Engine 的使用者介面，否則你的變更可能無法立刻生效。
 
-### 2. Wallpaper Engine Age Rating Filter
+### 2. Wallpaper Engine 年齡分級篩選
 
-Once you have set up your Steam content preferences in Steam, you can use the Wallpaper Engine age filters to filter content on-the-fly. Click on the **Filter results** button in the upper left corner in the app, then navigate to the **age rating** section and enable or disable the filters according to your preferences:
+在你設定好 Steam 內容偏好設定後，你可使用 Wallpaper Engine 年齡篩選機制隨時隨地篩選內容。 在應用程式左上角點擊**篩選結果**按鈕，然後前往**年齡分級**區塊，並根據你的偏好紹定啟用或停用篩選機制：
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
