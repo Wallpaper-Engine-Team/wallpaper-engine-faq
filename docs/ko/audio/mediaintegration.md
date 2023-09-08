@@ -4,7 +4,7 @@ Wallpaper Engine은 배경화면 제작자가 자신의 배경화면에 앨범 �
 
 ::: warning
 주의
-앨범 커버 및 곡 정보와 관련된 특정 배경화면 기능에 대한 항목입니다. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please see the appropriate articles instead:
+앨범 커버 및 곡 정보와 관련된 특정 배경화면 기능에 대한 항목입니다. 오디오 시각화와 관련된 문제를 겪고 있거나 오디오 시각화를 자신의 미디어 플레이어로 제한하고 싶을 경우, 다음 문서를 확인해주세요:
 
 * [오디오 시각화 도우미를 음악 플레이어에 제한](/audio/limittomusicplayer)
 * [오디오 시각화 도우미가 작동하지 않습니다 / 사운드가 검색되지 않습니다](/audio/audiodetection)
