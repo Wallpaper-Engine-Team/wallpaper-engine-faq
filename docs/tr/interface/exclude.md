@@ -13,7 +13,7 @@ tags:
 
 Yeni duvar kâğıtları aramak için her zaman uygulamadaki Atölye sekmesini kullanın. Steam Atölyesi web sitesi, uygulama ile aynı filtreleme özelliklerine sahip değildir ve ilginizi çekmeyen birçok içeriği size gösterecektir.
 
-## Excluding mature content
+## Erişkinlere yönelik içerik hariç
 
 Steam Atölyesi, çıplaklık gibi belirli derecedeki yetişkin içeriğe izin verir. There are two layers of filtering age-restricted content, both of which you need to configure:
 
