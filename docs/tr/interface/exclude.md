@@ -15,23 +15,22 @@ Yeni duvar kâğıtları aramak için her zaman uygulamadaki Atölye sekmesini k
 
 ## Erişkinlere yönelik içerik hariç
 
-Steam Atölyesi, çıplaklık gibi belirli derecedeki yetişkin içeriğe izin verir. There are two layers of filtering age-restricted content, both of which you need to configure:
+Steam Atölyesi, çıplaklık gibi belirli derecedeki yetişkin içeriğe izin verir. Yaş kısıtlamalı içeriği filtrelemenin iki katmanı vardır, her ikisini de yapılandırmanız gerekir:
 
-1. Steam account mature content preferences
-2. Wallpaper Engine search filters
+1. Steam hesabı yetişkin içerik tercihleri
+2. Walpaper Engine arama filtreleri
 
-### 1. Steam Account Preferences
+### 1. Steam Hesabı Tercihleri
 
-First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+İlk olarak Steam Community içerik filtrelerini doğru yapılandırdığınızdan emin olun. Steam'i açın, ardından sağ üst köşedeki kullanıcı adınıza tıklayın ve **Mağaza Tercihlerini** seçin. Alternatif olarak aşağıdaki bağlantıya tıklayın ve web tarayıcınızdan Steam hesabı tercihlerinize erişin (doğru Steam hesabında oturum açtığınızdan emin olun):
 
-* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+* [Steam içerik tercihlerinizi görüntülemek için buraya tıklayın](https://store.steampowered.com/account/preferences/)
 
-You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+Yetişkinlere yönelik içerik seçeneklerinin bir listesi sunulur. Atölye içeriği için kullanılan **Topluluk** sütunu için tercihlerinizi seçtiğinizden emin olun. Kurulum sürecini görmek için aşağıdaki videoyu izleyin.
 
-::: warning
-Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
+::: uyarı Bölgesel Kısıtlamalar **Steam tarafından uygulanan yerel yasalar nedeniyle bazı yetişkinlere yönelik içerik tercihlerinin çeşitli ülke ve bölgelerde kullanılamadığını unutmayın.**
 
-Steam detects your location based on your IP address or purchase history. If you live in a region where you should be able to access these content options but are not presented with them, please contact Steam Support for further assistance.
+Steam, konumunuzu IP adresinize veya satın alma geçmişinize göre algılar. Bu içerik seçeneklerine erişebilmeniz gereken ancak bu seçenekler sunulmayan bir bölgede yaşıyorsanız daha fazla yardım için lütfen Steam Destek ile iletişime geçin.
 :::
 
 <video width="100%" autoplay loop>
@@ -39,11 +38,11 @@ Steam detects your location based on your IP address or purchase history. If you
   Tarayıcınız video etiketini desteklemiyor.
 </video>
 
-Make sure to restart the Wallpaper Engine user interface when making changes to your Steam content preferences, otherwise your changes may not have an immediate effect
+Steam içerik tercihlerinizde değişiklik yaparken Wallpaper Engine kullanıcı arayüzünü yeniden başlattığınızdan emin olun, aksi takdirde değişiklikleriniz anında etkili olmayabilir
 
-### 2. Wallpaper Engine Age Rating Filter
+### 2. Wallpaper Engine Yaş Derecelendirme Filtresi
 
-Once you have set up your Steam content preferences in Steam, you can use the Wallpaper Engine age filters to filter content on-the-fly. Click on the **Filter results** button in the upper left corner in the app, then navigate to the **age rating** section and enable or disable the filters according to your preferences:
+Steam'de Steam içerik tercihlerinizi ayarladıktan sonra içeriği anında filtrelemek için Wallpaper Engine yaş filtrelerini kullanabilirsiniz. Uygulamanın sol üst köşesindeki **Sonuçları filtrele** düğmesini tıklayın, ardından **yaş derecelendirmesi** bölümüne gidin ve filtreleri tercihlerinize göre etkinleştirin veya devre dışı bırakın:
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
