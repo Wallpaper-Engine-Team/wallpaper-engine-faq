@@ -13,25 +13,25 @@ tags:
 
 Utilisez l'onglet Workshop pour chercher de nouveaux fonds d'écran. Le site web du Workshop Steam n'a pas les mêmes capacités de filtrage que l'application et vous montrera beaucoup trop de contenu.
 
-## Excluding mature content
+## Exclusion du contenu adulte
 
-Le Workshop de Steam permet de charger également du contenu pour adulte, comme de la nudité. There are two layers of filtering age-restricted content, both of which you need to configure:
+Le Workshop de Steam permet de charger également du contenu pour adulte, comme de la nudité. Vous devez configurer deux niveaux de filtrage des contenus limités par l'âge :
 
-1. Steam account mature content preferences
-2. Wallpaper Engine search filters
+1. Préférences de contenu adulte du compte Steam
+2. Filtres de recherche de Wallpaper Engine
 
-### 1. Steam Account Preferences
+### 1. Préférences du compte Steam
 
-First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+Tout d'abord, veillez à configurer correctement vos filtres de contenu de la communauté Steam. Ouvrez Steam, puis cliquez sur votre nom d'utilisateur dans le coin supérieur droit et sélectionnez **Préférences du magasin**. Vous pouvez également cliquer sur le lien suivant et accéder aux préférences de votre compte Steam à partir de votre navigateur web (vérifiez que vous êtes connecté au bon compte Steam) :
 
-* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+* [Cliquez ici pour afficher vos préférences de contenu Steam](https://store.steampowered.com/account/preferences/)
 
-You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+Une liste d'options de contenu adulte vous sera présentée. Veillez à sélectionner vos préférences pour la colonne **Communauté** qui est utilisée dans le cadre du contenu Workshop. Visionnez la vidéo ci-dessous pour découvrir la procédure d'installation.
 
 ::: warning
-Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
+Restrictions régionales **N'oubliez pas que certaines préférences relatives au contenu pour adulte ne sont pas disponibles dans certains pays et régions en raison des lois locales appliquées par Steam.**
 
-Steam detects your location based on your IP address or purchase history. If you live in a region where you should be able to access these content options but are not presented with them, please contact Steam Support for further assistance.
+Steam détecte votre pays de résidence en fonction de votre adresse IP ou de votre historique d'achat. Si vous habitez dans une région où vous devriez pouvoir accéder à ces options de contenu mais qu'elles ne vous sont pas proposées, veuillez contacter l'assistance Steam pour obtenir de l'aide.
 :::
 
 <video width="100%" autoplay loop>
