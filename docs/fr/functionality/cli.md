@@ -98,13 +98,13 @@ Charge une nouveau fond d'écran pour un moniteur bien précis ou pour le premie
 * **location *(facultatif)* :** Identificateur interne du moniteur. Vous trouverez ces informations dans le fichier config.json (ces infos sont générées par votre PC).
 * **monitor *(facultatif)* :** Index du moniteur sur lequel charger le fond d'écran, commence par 0.
 * trong x-id="1">preset *(facultatif)* :</strong> nom du préréglage local à charger. Vous devez avoir créé et sauvegardé celui-ci.
-* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window. The default window name is "Wallpaper Pop-out".
+* **playInWindow *(facultatif)* :** nom de la fenêtre dans laquelle vous voulez ouvrir/contrôler plusieurs fonds d'écran dans une fenêtre. Le nom de la fenêtre par défaut est "Wallpaper Pop-out".
   * **width *(facultatif)* :** largeur de la fenêtre.
   * **height *(facultatif)* :** hauteur de la fenêtre.
   * **x *(facultatif)*:** emplacement horizontal de la fenêtre.
   * **y *(facultatif)* :** emplacement vertical de la fenêtre.
-  * **activate *(optional)*:** Bring window into the foreground.
-  * **borderless *(optional)*:** Open the window without a window border.
+  * **activer *(facultatif)*:** mettre la fenêtre au premier plan.
+  * **sans bordure *(optionnel)*:** ouvrir la fenêtre sans bordure.
 
 ### Fond d'écran suivant
 
