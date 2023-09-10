@@ -39,11 +39,11 @@ Steam détecte votre pays de résidence en fonction de votre adresse IP ou de vo
   Votre explorateur ne prend pas en charge le filtre vidéo.
 </video>
 
-Make sure to restart the Wallpaper Engine user interface when making changes to your Steam content preferences, otherwise your changes may not have an immediate effect
+Pensez à redémarrer l'interface utilisateur de Wallpaper Engine lorsque vous modifiez vos préférences de contenu Steam, sinon vos modifications risquent de ne pas être appliquées immédiatement
 
-### 2. Wallpaper Engine Age Rating Filter
+### 2. Filtre d'évaluation de l'âge de Wallpaper Engine
 
-Once you have set up your Steam content preferences in Steam, you can use the Wallpaper Engine age filters to filter content on-the-fly. Click on the **Filter results** button in the upper left corner in the app, then navigate to the **age rating** section and enable or disable the filters according to your preferences:
+Une fois que vous avez configuré vos préférences de contenu dans Steam, vous pouvez utiliser les filtres d'âge de Wallpaper Engine pour filtrer le contenu à la volée. Cliquez sur le bouton **Filtrer les résultats** dans le coin supérieur gauche de l'application, puis accédez à la section de **évaluation de l'âge** et activez ou désactivez les filtres selon vos préférences :
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
