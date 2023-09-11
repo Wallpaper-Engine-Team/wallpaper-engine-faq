@@ -98,7 +98,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(선택 사항)*:** 모니터의 내부 식별자. PC가 생성한 식별자이며 config.json에서 찾을 수 있습니다.
 * **monitor *(선택 사항)*:** 배경화면을 불러올 모니터의 인덱스. 0에서부터 시작합니다.
 * **preset *(선택 사항)*:** 불러올 사전 설정의 이름. 이전에 생성하고 저장한 사전 설정이 있어야 사용할 수 있습니다.
-* **playInWindow *(선택 사항)*:** 다수의 배경화면을 창에서 열고 싶을 때 창의 이름. 기본 창 이름은 "Wallpaper Pop-out"입니다.
+* **playInWindow *(선택 사항)*:** 다수의 배경화면을 창에서 열거나 제어하고 싶을 때 창의 이름. 기본 창 이름은 "Wallpaper Pop-out"입니다.
   * **width *(선택 사항)*:** 창의 너비.
   * **height *(선택 사항)*:** 창의 높이.
   * **x *(선택 사항)*:** 창의 수평 위치.
