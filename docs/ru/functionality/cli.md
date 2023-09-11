@@ -98,13 +98,13 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 * **location *(необязательно)*:** Внутренний идентификатор монитора. Вы можете найти его в файле config.json, который генерируется вашим компьютером.
 * **monitor *(необязательно)*:** Индекс монитора, на который будут загружены обои, начинается с 0.
 * **preset *(необязательно)*:** Имя локальных предустановок для загрузки, локальные предустановки должны быть созданы и сохранены вами ранее.
-* **playInWindow *(optional)*:** Name of the window if you want to open/control multiple wallpapers in a window. The default window name is "Wallpaper Pop-out".
+* **playInWindow *(дополнительно)*:** Название окна, если вы хотите открывать/использовать сразу с несколько обоев. Название окна по умолчанию: "Wallpaper Pop-out".
   * **width *(необязательно)*:** Ширина окна.
   * **height *(необязательно)*:** Высота окна.
   * **x *(необязательно)*:** Горизонтальное положение окна.
   * **y *(необязательно)*:** Вертикальное положение окна.
-  * **activate *(optional)*:** Bring window into the foreground.
-  * **borderless *(optional)*:** Open the window without a window border.
+  * **activate *(дополнительно)*:** Вывести окно на передний план.
+  * **borderless *(дополнительно)*:** Открыть окно без границ.
 
 ### Следующие обои
 
