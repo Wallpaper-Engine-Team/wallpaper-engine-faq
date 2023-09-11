@@ -13,25 +13,25 @@ tags:
 
 Всегда ищите новые обои на вкладке программы «Workshop». На сайте Мастерской Steam нет аналогичных механизмов для фильтрации результатов поиска, вы будете видеть слишком много не интересных вам изображений.
 
-## Excluding mature content
+## Исключение контента для взрослых
 
-В Мастерской Steam публикуются некоторые типы контента для взрослых, например, изображения обнаженного тела. There are two layers of filtering age-restricted content, both of which you need to configure:
+В Мастерской Steam публикуются некоторые типы контента для взрослых, например, изображения обнаженного тела. Есть два способа фильтровать контент, имеющий возрастные ограничения. Оба способа требуют настройки:
 
-1. Steam account mature content preferences
-2. Wallpaper Engine search filters
+1. Настройки контента для взрослых в аккаунте Steam
+2. Поисковые фильтры Wallpaper Engine
 
-### 1. Steam Account Preferences
+### 1. Настройки в аккаунте Steam
 
-First, make sure to properly configure your Steam Community content filters. Open Steam, then click on your user name in the upper right corner and select **Store Preferences**. Alternatively, click on the following link and access your Steam account preferences from your web browser (make sure you are logged into the correct Steam account):
+Сначала убедитесь, что вы верно настроили фильтры контента от сообщества Steam. Откройте Steam, затем нажмите на имя пользователя в правом верхнем углу, затем выберите **Настройки магазина**. Либо нажмите на ссылку ниже и войдите в аккаунт Steam, чтобы посмотреть настройки контента для взрослых на вашем аккаунте через браузер (убедитесь, что вы вошли в нужный аккаунт):
 
-* [Click here to view your Steam content preferences](https://store.steampowered.com/account/preferences/)
+* [Нажмите, чтобы посмотреть настройки контента для взрослых](https://store.steampowered.com/account/preferences/)
 
-You will be presented with a list of mature content options. Make sure to select your preferences for the **Community** column which is used for Workshop content. Watch the video below to see the setup process.
+Вы увидите список фильтров контента для взрослых. Убедитесь, что вы выставили настройки контента от **сообщества**, используются для контента Мастерской. Весь процесс показан на видео ниже.
 
 ::: warning
-Regional Restrictions **Keep in mind that some adult content preferences are not available in various countries and regions due to local laws enforced by Steam.**
+Региональные ограничения **Помните, что некоторые настройки контента для взрослых недоступны в разных странах и регионах в соответствии с местными законами, действующими в Steam.**
 
-Steam detects your location based on your IP address or purchase history. If you live in a region where you should be able to access these content options but are not presented with them, please contact Steam Support for further assistance.
+Steam определяет ваше местоположение по IP-адресу или истории покупок. Если вы находитесь в регионе, где доступ к подобным настройкам контента разрешен, но у вас его все равно нет, обратитесь за помощью в службу поддержки Steam.
 :::
 
 <video width="100%" autoplay loop>
@@ -39,11 +39,11 @@ Steam detects your location based on your IP address or purchase history. If you
   Ваш браузер не поддерживает воспроизведение видео.
 </video>
 
-Make sure to restart the Wallpaper Engine user interface when making changes to your Steam content preferences, otherwise your changes may not have an immediate effect
+Не забудьте перезапустить пользовательский интерфейс Wallpaper Engine после того, как внесете изменения в настройки контента в Steam. В противном случае изменения могут появиться не сразу.
 
-### 2. Wallpaper Engine Age Rating Filter
+### 2. Возрастной фильтр Wallpaper Engine
 
-Once you have set up your Steam content preferences in Steam, you can use the Wallpaper Engine age filters to filter content on-the-fly. Click on the **Filter results** button in the upper left corner in the app, then navigate to the **age rating** section and enable or disable the filters according to your preferences:
+После завершения настройки контента в Steam вы можете дополнительно влиять на контент с помощью возрастных фильтров в Wallpaper Engine. Нажмите на кнопку **Фильтры** в левом верхнем углу приложения, затем перейдите в раздел **Возрастной рейтинг** и настройте фильтры на свое усмотрение:
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
