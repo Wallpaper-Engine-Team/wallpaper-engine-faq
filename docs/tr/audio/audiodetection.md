@@ -11,11 +11,11 @@ Ses görselleştiricilerinin çalışmamasının birden çok nedeni olabilir. Bi
 ## 1. Ses cihazı kurulumu
 Wallpaper Engine ayarlarına ve sonrasında "Genel" sekmesine gidin. Merkeze doğru **ses kayıt cihazını** seçebileceğiniz "Medya" bölümünü bulabilirsiniz. Doğru cihazın seçili olduğundan emin olun. Hangi cihazın doğru olduğundan emin değilseniz ses görselleştiriciler çalışmaya başlayana kadar müzik dinleyerek tüm olası cihazları deneyin.
 
-Doğru ses cihazı seçiliyse ancak yine de ses duyamıyorsanız veya ses görselleştiricileriniz çalışmıyorsa, Wallpaper Engine'in sesini Windows ses karıştırıcısında kapatmadığınızdan veya çok düşük bir sese ayarlamadığınızdan emin olun. Windows, ses kaydı ve ses çalma için sesler arasında ayrım gözetmez. Yani Windows'ta düşük bir ses seviyesi ayarladıysanız ses kaydı da çalışmayacaktır:
+Doğru ses cihazı seçiliyse ancak yine de ses duyamıyorsanız veya ses görselleştiricileriniz çalışmıyorsa Wallpaper Engine'in sesini Windows ses karıştırıcısında kapatmadığınızdan veya çok düşük bir sese ayarlamadığınızdan emin olun. Windows, ses kaydı ve ses çalma için sesler arasında ayrım gözetmez. Yani Windows'ta düşük bir ses seviyesi ayarladıysanız ses kaydı da çalışmayacaktır:
 
-![Windows ses karıştırıcısında sesi artırın ve Wallpaper Engine'in sesini açın](./audiomixer.png)
+![Windows ses karıştırıcısında sesi yükseltin ve Wallpaper Engine'in sesini açın](./audiomixer.png)
 
-Ses algılandıysa ancak çok azsa uygulama ses düzeyinin (müzik çalarınızın, web tarayıcınızın vb.), sesin ne kadar iyi tespit edildiğini etkilediğini aklınızda bulundurun. Uygulamanın ses düzeyini artırmak istemiyorsanız Wallpaper Engine ayarlarındaki "Genel" sekmesinden ses algılamayı artırabilirsiniz (varsayılan kayıt ses değeri 50'dir).
+Ses algılandıysa ancak çok azsa uygulama ses düzeyinin (müzik çalarınızın, web tarayıcınızın vb.), sesin ne kadar iyi tespit edildiğini etkilediğini unutmayın. Uygulamanın ses düzeyini artırmak istemiyorsanız Wallpaper Engine ayarlarındaki "Genel" sekmesinden ses algılamayı artırabilirsiniz (varsayılan kayıt ses değeri 50'dir).
 
 ## 2. Donanımla ilgili sorunlar
 
