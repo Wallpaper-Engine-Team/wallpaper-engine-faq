@@ -15,7 +15,7 @@ Usa siempre la pestaña Workshop para buscar fondos nuevos. Steam Workshop no cu
 
 ## Excluir contenido para adultos
 
-Steam Workshop admite contenido adulto hasta cierto grado como, por ejemplo, desnudez. Hay dos capas de filtros de contenido restringido por edad, las cuales se deben configurar:
+Steam Workshop admite contenido adulto hasta cierto grado como, por ejemplo, desnudez. Hay dos capas de filtros de contenido restringido por edad que puedes configurar:
 
 1. Preferencias de contenido para adultos de la cuenta de Steam
 2. Filtros de búsquedas de Wallpaper Engine
@@ -26,7 +26,7 @@ Primero, asegúrate de configurar correctamente tus filtros de contenido de la c
 
 * [Haz clic aquí para ver tus preferencias de contenido en Steam](https://store.steampowered.com/account/preferences/)
 
-Se te presentará una lista de opciones de contenido para adultos. Asegúrate de seleccionar tus preferencias en la columna de **Comunidad**, que son las que se usan para el contenido del Workshop. Puedes ver el siguiente vídeo para ver el proceso de configuración.
+Se te presentará una lista de opciones de contenido para adultos. Asegúrate de seleccionar tus preferencias en la columna de **Comunidad**, que son las que se usan para el contenido del Workshop. Aquí tienes el siguiente vídeo para ver el proceso de configuración.
 
 ::: warning
 Restricciones regionales **Ten en cuenta que algunas preferencias del contenido para adultos no están disponibles en varios países y regiones debido a las leyes locales que debe cumplir Steam.**
