@@ -30,7 +30,7 @@ Ser-lhe-á apresentada uma lista de opções de conteúdo para adultos. Escolha 
 
 ::: aviso Restrições regionais **Tenha em conta que certas preferências de conteúdo para adultos não estão disponíveis em diversos países e regiões devido a legislações locais respeitadas pelo Steam.**
 
-O Steam deteta o seu local com base no seu endereço IP ou histórico de compras. Se viver numa região na qual deveria poder aceder a estas opções de conteúdo, mas estas não lhe são apresentadas, contacte a Assistência do Cliente do Steam.
+O Steam deteta o seu local com base no seu endereço IP ou histórico de compras. Se viver numa região na qual deveria poder aceder a estas opções de conteúdo, mas estas não lhe são apresentadas, contacte o Suporte do Steam.
 :::
 
 <video width="100%" autoplay loop>
@@ -38,7 +38,7 @@ O Steam deteta o seu local com base no seu endereço IP ou histórico de compras
   O seu browser não suporta o tag vídeo.
 </video>
 
-Reinicie o interface para o utilizador do Wallpaper Engine quando fizer alterações às suas preferências de conteúdo do Steam, caso contrário as suas alterações poderão não ser implementadas imediatamente
+Reinicie a interface do utilizador do Wallpaper Engine quando fizer alterações às suas preferências de conteúdo do Steam, caso contrário as suas alterações poderão não ser implementadas imediatamente
 
 ### 2. Filtro de Classificação Etária do Wallpaper Engine
 
