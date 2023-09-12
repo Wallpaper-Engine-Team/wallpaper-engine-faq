@@ -15,14 +15,14 @@ tags:
 
 ## 排除成人内容
 
-Steam 创意工坊允许一定程度的成人内容，例如裸体。 有两层过滤年龄限制内容的机制，您都需要进行配置：
+Steam 创意工坊允许一定程度的成人内容，例如裸体。 有两层成人限制内容的筛选机制，您都需要进行配置：
 
 1. Steam 帐户成人内容偏好设置
 2. Wallpaper Engine 搜索过滤器
 
-### 1. Steam 帐号偏好设置
+### 1. Steam 帐户偏好设置
 
-首先，确保对 Steam 社区成人内容筛选进行正确配置。 打开 Steam，点击位于右上角的您的用户名，然后选择**商店偏好**。 或者，点击以下链接，从您的网页浏览器进入您的 Steam 帐号偏好（请确保您登入了正确的 Steam 帐号）：
+首先，确保对 Steam 社区成人内容筛选器进行正确配置。 打开 Steam，点击位于右上角的您的用户名，然后选择**商店偏好**。 或者，点击以下链接，从您的网页浏览器进入您的 Steam 帐户偏好（请确保您登入了正确的 Steam 帐户）：
 
 * [点击这里以查看您的 Steam 内容偏好](https://store.steampowered.com/account/preferences/)
 
@@ -40,9 +40,9 @@ Steam 根据您的 IP 地址或商店和消费历史记录来检测您的位置�
 
 对您的 Steam 内容偏好做出变更后，请重启 Wallpaper Engine 用户界面，否则您的变更可能无法立即生效
 
-### 2.  Wallpaper Engine 年龄分级过滤器
+### 2. Wallpaper Engine 年龄分级筛选器
 
-当您完成在 Steam 上的 Steam 内容偏好设置后，您可以使用 Wallpaper Engine 年龄过滤器来即时过滤内容。 点击 app 中左上角的**筛选结果**按钮，然后浏览**年龄分级**部分，并根据您的喜好启用或禁用过滤器：
+当您完成在 Steam 上的 Steam 内容偏好设置后，您可以使用 Wallpaper Engine 年龄筛选器来即时过滤内容。 点击 app 中左上角的**筛选结果**按钮，然后浏览**年龄分级**部分，并根据您的喜好启用或禁用筛选器：
 
 <video width="100%" autoplay loop>
   <source src="/videos/filterage.mp4" type="video/mp4">
