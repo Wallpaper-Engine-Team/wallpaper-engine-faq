@@ -22,7 +22,7 @@ A Steam Workshop permite uma certa quantidade de conteúdo adulto, tal como nude
 
 ### 1. Preferências da conta Steam
 
-Primeiro, certifique-se de que configura corretamente os seus filtros de conteúdo da Comunidade Steam. Abra o Steam e, em seguida, clique no seu nome de utilizador no canto superior e selecione **Preferências da loja**. Como alternativa, clique na seguinte ligação e aceda às preferências da sua conta Steam a partir do seu browser (deve estar ligado à conta Steam correta):
+Primeiro, certifique-se de que configura corretamente os seus filtros de conteúdo da Comunidade Steam. Abra o Steam e, em seguida, clique no seu nome de utilizador no canto superior direito e selecione **Preferências da loja**. Como alternativa, clique na seguinte ligação e aceda às preferências da sua conta Steam a partir do seu browser (deve estar ligado à conta Steam correta):
 
 * [Clique aqui para ver as suas preferências de conteúdo do Steam](https://store.steampowered.com/account/preferences/)
 
