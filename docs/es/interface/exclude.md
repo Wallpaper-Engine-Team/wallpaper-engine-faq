@@ -22,7 +22,7 @@ Steam Workshop admite contenido adulto hasta cierto grado como, por ejemplo, des
 
 ### 1. Preferencias de la cuenta de Steam
 
-Primero, asegúrate de configurar correctamente tus filtros de contenido de la comunidad de Steam. Abre Steam, luego haz clic en tu nombre de usuario en la esquina superior derecha y selecciona **Preferencias de la tienda**. También puedes hacer clic en en el siguiente enlace y acceder a las preferencias de tu cuenta de Steam en tu navegador web (asegúrate de haber iniciado sesión en la cuenta de Steam pertinente):
+Primero, asegúrate de configurar correctamente tus filtros de contenido de la comunidad de Steam. Abre Steam, luego haz clic en tu nombre de usuario en la esquina superior derecha y selecciona **Preferencias de la tienda**. También puedes hacer clic en en el siguiente enlace y acceder a las preferencias de tu cuenta de Steam en el navegador web (asegúrate de haber iniciado sesión en la cuenta de Steam pertinente):
 
 * [Haz clic aquí para ver tus preferencias de contenido en Steam](https://store.steampowered.com/account/preferences/)
 
@@ -39,7 +39,7 @@ Steam detecta tu ubicación de acuerdo con tu dirección IP o tu historial de co
   Tu navegador no admite la etiqueta de vídeo.
 </video>
 
-Asegúrate de reiniciar la interfaz de usuario de Wallpaper Engine al hacer cambios en tus preferencias de contenido de Steam, de lo contrario puede que tus cambios no surtan efecto de inmediato
+Asegúrate de reiniciar la interfaz de usuario de Wallpaper Engine al hacer cambios en tus preferencias de contenido de Steam; de lo contrario, puede que tus cambios no surtan efecto de inmediato.
 
 ### 2. Filtro de clasificación por edades de Wallpaper Engine
 
