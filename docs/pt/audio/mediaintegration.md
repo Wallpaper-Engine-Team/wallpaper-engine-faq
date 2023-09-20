@@ -4,7 +4,7 @@ O Wallpaper Engine permite que os criadores de wallpapers adicionem elementos es
 
 ::: warning
 Atenção
-Este artigo é sobre uma funcionalidade específica para wallpapers, para capas de álbuns e informações acerca de canções. If you are having issues with audio visualizers or if you want to limit audio visualizers to your media player, please see the appropriate articles instead:
+Este artigo é sobre uma funcionalidade específica para wallpapers, para capas de álbuns e informações acerca de canções. Se está a ter dificuldades com visualizadores de áudio ou se pretende limitar os visualizadores de áudio ao seu media player, consulte, em vez disso, os artigos apropriados:
 
 * [Limitar visualizadores de áudio a media players](/audio/limittomusicplayer)
 * [Visualizadores de áudio não funcionam / nenhum som detetado](/audio/audiodetection)
