@@ -11,7 +11,7 @@ Bunu çözmek için şu üç şeyden birini yapın:
     * Buna hangi uygulamanın neden olduğunu bilmiyorsanız Windows ses karıştırıcınızı kontrol edin ve şu anda sesinize hangi uygulamaların eriştiğine bakın, bu da size yardımcı olabilir. Alternatif olarak mümkün olduğunca programı kapatın ve Windows görev yöneticisi işlem listesinden belirli .exe dosyalarına sınırlandırın.
 * Arka plan ses kaydı kasıtlıysa veya kapatmanın bir yolunu bulamıyorsanız Wallpaper Engine ayarlarındaki "Performans" sekmesinde bir *uygulama kuralı* belirleyebilirsiniz. "Koşul"u "Ses oynatıyor olarak ve "Duvar kâğıdı oynatma"yı "Çalıştırmaya Devam Et" olarak ayarlayın:
 
-![Uygulama Kurallarına Wallpaper Engine ayarlarındaki "Performans" sekmesinden ulaşabilirsiniz](./applicationrule.png)
+![Uygulama Kuralları, Wallpaper Engine ayarlarındaki "Performans" sekmesinde bulunabilir](./applicationrule.png)
 
 Sorumlu .exe ile sınırlandırana kadar bazı .exe dosyalarını görev yöneticisinde bulabileceğiniz .exe dosyalarıyla değiştirin.
 
@@ -20,4 +20,4 @@ Tam bilginiz olmadan ses kaydı yaparak sesin aralıklı olarak çalınmasına n
 * **nvcontainer.exe**: Ses kaydı yapabilen Nvidia GeForce Experience'ın bir parçası. **Nvidia grafik kartınız varsa geçerlidir.**
 * **amdow.exe**: Ses kaydı yapabilen AMD ReLive'ın bir parçasıdır. **AMD grafik kartına sahipseniz geçerlidir.**
 
-Son olarak da "diğer uygulamadan ses çalarken" seçeneğini "çalıştırmaya devam et" olarak değiştirebilirsiniz. Ancak bu demektir ki müzik dinlerken veya tam ekran olmayan videoları izlerken Wallpaper Engine duvar kâğıtlarındaki ses çıkışını otomatik olarak susturmaz.
+Son olarak da "diğer uygulamadan ses çalarken" seçeneğini "çalıştırmaya devam et" olarak değiştirebilirsiniz. Ancak bu, müzik dinlerken veya tam ekran olmayan videoları izlerken Wallpaper Engine'in duvar kâğıtlarındaki ses çıkışını otomatik olarak susturmayacağı anlamına gelmez.
