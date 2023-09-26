@@ -28,7 +28,8 @@ Steam Atölyesi, çıplaklık gibi belirli derecedeki yetişkin içeriğe izin v
 
 Yetişkinlere yönelik içerik seçeneklerinin bir listesi sunulur. Atölye içeriği için kullanılan **Topluluk** sütunu için tercihlerinizi seçtiğinizden emin olun. Kurulum sürecini görmek için aşağıdaki videoyu izleyin.
 
-::: uyarı Bölgesel Kısıtlamalar **Steam tarafından uygulanan yerel yasalar nedeniyle bazı yetişkinlere yönelik içerik tercihlerinin çeşitli ülke ve bölgelerde kullanılamadığını unutmayın.**
+::: warning
+**Steam tarafından uygulanan yerel yasalar nedeniyle bazı yetişkinlere yönelik içerik tercihlerinin çeşitli ülke ve bölgelerde kullanılamadığını unutmayın.**
 
 Steam, konumunuzu IP adresinize veya satın alma geçmişinize göre algılar. Bu içerik seçeneklerine erişebilmeniz gereken ancak bu seçenekler sunulmayan bir bölgede yaşıyorsanız daha fazla yardım için lütfen Steam Destek ile iletişime geçin.
 :::

@@ -29,7 +29,7 @@ Stelle zunächst sicher, dass du die Inhaltsfilter für die Steam Community nach
 Du siehst an dieser Stelle dann Einstellungen für nicht jugendfreie Inhalte. Stelle sicher, dass du die Auswahl in der **Community**-Spalte anpasst, da diese für Workshop-Inhalte genutzt wird. Schaue das folgende Video an, um die benötigten Schritte zu sehen.
 
 ::: warning
-Regionale Einstellungen **Beachte, dass einige Jugendschutz-Einstellungen in einigen Ländern und Regionen auf Grund lokaler Gesetze nicht verfügbar sind.**
+**Beachte, dass einige Jugendschutz-Einstellungen in einigen Ländern und Regionen auf Grund lokaler Gesetze nicht verfügbar sind.**
 
 Steam erkennt deinen Aufenthaltsort anhand deiner IP-Adresse oder anhand deiner vergangenen Käufe. Wenn du in einer Region lebst, in der alle Jugendschutz-Filter verfügbar sein sollten, du diese aber nicht sehen kannst, kannst du den Steam-Support kontaktieren für weitere Hilfe.
 :::

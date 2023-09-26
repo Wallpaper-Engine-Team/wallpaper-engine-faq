@@ -29,7 +29,7 @@ Primero, asegúrate de configurar correctamente tus filtros de contenido de la c
 Se te presentará una lista de opciones de contenido para adultos. Asegúrate de seleccionar tus preferencias en la columna de **Comunidad**, que son las que se usan para el contenido del Workshop. Aquí tienes el siguiente vídeo para ver el proceso de configuración.
 
 ::: warning
-Restricciones regionales **Ten en cuenta que algunas preferencias del contenido para adultos no están disponibles en varios países y regiones debido a las leyes locales que debe cumplir Steam.**
+**Ten en cuenta que algunas preferencias del contenido para adultos no están disponibles en varios países y regiones debido a las leyes locales que debe cumplir Steam.**
 
 Steam detecta tu ubicación de acuerdo con tu dirección IP o tu historial de compras. Si vives en una región donde deberías tener acceso a estas opciones de contenido, pero no se te muestran, contacta con el soporte de Steam para recibir más ayuda.
 :::

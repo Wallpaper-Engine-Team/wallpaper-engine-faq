@@ -28,7 +28,8 @@ Primeiro, certifique-se de que configura corretamente os seus filtros de conteú
 
 Ser-lhe-á apresentada uma lista de opções de conteúdo para adultos. Escolha as suas preferências para a **Comunidade** na coluna usada para o conteúdo da Workshop. Veja o vídeo abaixo para ver o processo de configuração.
 
-::: aviso Restrições regionais **Tenha em conta que certas preferências de conteúdo para adultos não estão disponíveis em diversos países e regiões devido a legislações locais respeitadas pelo Steam.**
+::: warning
+**Tenha em conta que certas preferências de conteúdo para adultos não estão disponíveis em diversos países e regiões devido a legislações locais respeitadas pelo Steam.**
 
 O Steam deteta o seu local com base no seu endereço IP ou histórico de compras. Se viver numa região na qual deveria poder aceder a estas opções de conteúdo, mas estas não lhe são apresentadas, contacte o Suporte do Steam.
 :::
