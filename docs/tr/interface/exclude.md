@@ -6,11 +6,50 @@ tags:
   - kategoriler
   - olgun
   - yetişkin
+  - R18
 ---
 
 # Belirli duvar kâğıtlarını aramanın dışında tutma
 
 Yeni duvar kâğıtları aramak için her zaman uygulamadaki Atölye sekmesini kullanın. Steam Atölyesi web sitesi, uygulama ile aynı filtreleme özelliklerine sahip değildir ve ilginizi çekmeyen birçok içeriği size gösterecektir.
+
+## Erişkinlere yönelik içerik hariç
+
+Steam Atölyesi, çıplaklık gibi belirli derecedeki yetişkin içeriğe izin verir. Yaş kısıtlamalı içeriği filtrelemenin iki katmanı vardır, her ikisini de yapılandırmanız gerekir:
+
+1. Steam hesabı yetişkin içerik tercihleri
+2. Walpaper Engine arama filtreleri
+
+### 1. Steam Hesabı Tercihleri
+
+İlk olarak Steam Community içerik filtrelerini doğru yapılandırdığınızdan emin olun. Steam'i açın, ardından sağ üst köşedeki kullanıcı adınıza tıklayın ve **Mağaza Tercihlerini** seçin. Alternatif olarak aşağıdaki bağlantıya tıklayın ve web tarayıcınızdan Steam hesabı tercihlerinize erişin (doğru Steam hesabında oturum açtığınızdan emin olun):
+
+* [Steam içerik tercihlerinizi görüntülemek için buraya tıklayın](https://store.steampowered.com/account/preferences/)
+
+Yetişkinlere yönelik içerik seçeneklerinin bir listesi sunulur. Atölye içeriği için kullanılan **Topluluk** sütunu için tercihlerinizi seçtiğinizden emin olun. Kurulum sürecini görmek için aşağıdaki videoyu izleyin.
+
+::: uyarı Bölgesel Kısıtlamalar **Steam tarafından uygulanan yerel yasalar nedeniyle bazı yetişkinlere yönelik içerik tercihlerinin çeşitli ülke ve bölgelerde kullanılamadığını unutmayın.**
+
+Steam, konumunuzu IP adresinize veya satın alma geçmişinize göre algılar. Bu içerik seçeneklerine erişebilmeniz gereken ancak bu seçenekler sunulmayan bir bölgede yaşıyorsanız daha fazla yardım için lütfen Steam Destek ile iletişime geçin.
+:::
+
+<video width="100%" autoplay loop>
+  <source src="/videos/steam_filterage.mp4" type="video/mp4">
+  Tarayıcınız video etiketini desteklemiyor.
+</video>
+
+Steam içerik tercihlerinizde değişiklik yaparken Wallpaper Engine kullanıcı arayüzünü yeniden başlattığınızdan emin olun, aksi takdirde değişiklikleriniz anında etkili olmayabilir
+
+### 2. Wallpaper Engine Yaş Derecelendirme Filtresi
+
+Steam'de Steam içerik tercihlerinizi ayarladıktan sonra içeriği anında filtrelemek için Wallpaper Engine yaş filtrelerini kullanabilirsiniz. Uygulamanın sol üst köşesindeki **Sonuçları filtrele** düğmesini tıklayın, ardından **yaş derecelendirmesi** bölümüne gidin ve filtreleri tercihlerinize göre etkinleştirin veya devre dışı bırakın:
+
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Tarayıcınız video etiketini desteklemiyor.
+</video>
+
+Çoğu içerik doğru şekilde etiketlenmiştir ve bu işlem yetişkinlere uygun içeriğin büyük çoğunluğunu filtreleyecektir. Hâlâ "Herkes" olarak sınırlandırılmış, yetişkinlere uygun içeriklerle karşılaşıyorsanız lütfen uygulamadaki bildir seçeneğini kullanın. İçerik, incelendikten sonra yeniden sınıflandırılacak veya yasaklanacaktır.
 
 ## Belirli türleri hariç tutma (örneğin anime)
 
@@ -22,17 +61,6 @@ Ayrıca en çok anime türü içerik barındıran kategorileri otomatik olarak g
   <source src="/videos/filtercontent.mp4" type="video/mp4">
   Tarayıcınız video etiketini desteklemiyor.
 </video>
-
-## Belirli yaş sınırlarını hariç tutma
-
-Steam Atölyesi, çıplaklık gibi belirli derecedeki yetişkin içeriğe izin verir. Bu tür içerikleri görmek istemiyorsanız yalnızca filtrelerdeki "Herkes" yaş sınırını etkinleştirin:
-
-<video width="100%" autoplay loop>
-  <source src="/videos/filterage.mp4" type="video/mp4">
-  Tarayıcınız video etiketini desteklemiyor.
-</video>
-
-Çoğu içerik doğru şekilde etiketlenmiştir ve bu işlem yetişkinlere uygun içeriğin büyük çoğunluğunu filtreleyecektir. Hâlâ "Herkes" olarak sınırlandırılmış, yetişkinlere uygun içeriklerle karşılaşıyorsanız lütfen uygulamadaki bildir seçeneğini kullanın. İçerik, incelendikten sonra yeniden sınıflandırılacak veya yasaklanacaktır.
 
 ## Kurallara aykırı içerik bildirme
 
