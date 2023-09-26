@@ -29,7 +29,7 @@ Tout d'abord, veillez à configurer correctement vos filtres de contenu de la co
 Une liste d'options de contenu adulte vous sera présentée. Veillez à sélectionner vos préférences pour la colonne **Communauté** qui est utilisée dans le cadre du contenu Workshop. Visionnez la vidéo ci-dessous pour découvrir la procédure d'installation.
 
 ::: warning
-Restrictions régionales **N'oubliez pas que certaines préférences relatives au contenu pour adulte ne sont pas disponibles dans certains pays et régions en raison des lois locales appliquées par Steam.**
+**N'oubliez pas que certaines préférences relatives au contenu pour adulte ne sont pas disponibles dans certains pays et régions en raison des lois locales appliquées par Steam.**
 
 Steam détecte votre pays de résidence en fonction de votre adresse IP ou de votre historique d'achat. Si vous habitez dans une région où vous devriez pouvoir accéder à ces options de contenu mais qu'elles ne vous sont pas proposées, veuillez contacter l'assistance Steam pour obtenir de l'aide.
 :::
