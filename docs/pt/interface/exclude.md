@@ -6,11 +6,50 @@ tags:
   - categories
   - mature
   - adult
+  - R18
 ---
 
 # Excluir certos wallpapers da pesquisa
 
 Utilize sempre o separador Oficina na aplicação para procurar novos wallpapers. O website Steam Workshop não tem as mesmas capacidades de filtragem da aplicação e irá mostrar-lhe demasiado conteúdo em que não está interessado.
+
+## Excluindo conteúdo para adultos
+
+A Steam Workshop permite uma certa quantidade de conteúdo adulto, tal como nudez. Há duas camadas de filtragem de conteúdo com restrições etárias, e ambas devem ser configuradas:
+
+1. Preferências de conteúdo para adultos da conta Steam
+2. Filtros de pesquisa do Wallpaper Engine
+
+### 1. Preferências da conta Steam
+
+Primeiro, certifique-se de que configura corretamente os seus filtros de conteúdo da Comunidade Steam. Abra o Steam e, em seguida, clique no seu nome de utilizador no canto superior direito e selecione **Preferências da loja**. Como alternativa, clique na seguinte ligação e aceda às preferências da sua conta Steam a partir do seu browser (deve estar ligado à conta Steam correta):
+
+* [Clique aqui para ver as suas preferências de conteúdo do Steam](https://store.steampowered.com/account/preferences/)
+
+Ser-lhe-á apresentada uma lista de opções de conteúdo para adultos. Escolha as suas preferências para a **Comunidade** na coluna usada para o conteúdo da Workshop. Veja o vídeo abaixo para ver o processo de configuração.
+
+::: aviso Restrições regionais **Tenha em conta que certas preferências de conteúdo para adultos não estão disponíveis em diversos países e regiões devido a legislações locais respeitadas pelo Steam.**
+
+O Steam deteta o seu local com base no seu endereço IP ou histórico de compras. Se viver numa região na qual deveria poder aceder a estas opções de conteúdo, mas estas não lhe são apresentadas, contacte o Suporte do Steam.
+:::
+
+<video width="100%" autoplay loop>
+  <source src="/videos/steam_filterage.mp4" type="video/mp4">
+  O seu browser não suporta o tag vídeo.
+</video>
+
+Reinicie a interface do utilizador do Wallpaper Engine quando fizer alterações às suas preferências de conteúdo do Steam, caso contrário as suas alterações poderão não ser implementadas imediatamente
+
+### 2. Filtro de Classificação Etária do Wallpaper Engine
+
+Depois de definir as suas preferências de conteúdo no Steam, pode usar os filtros etários do Wallpaper Engine para filtrar conteúdo de forma dinâmica. Clique no botão **Filtrar resultados** no canto superior esquerdo da app e, em seguida, navegue até à secção **classificação etária** e ative ou desative os filtros de acordo com as suas preferências:
+
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  O seu browser não suporta o tag vídeo.
+</video>
+
+A maior parte do conteúdo está tagado corretamente, permitindo excluir a grande maioria do conteúdo para adultos. Se mesmo assim deparar com conteúdo para adultos que tenha sido classificado "Para todos", utilize a funcionalidade de denúncia da aplicação. Depois de ser analisado, o conteúdo poderá ser reclassificado ou banido.
 
 ## Excluir certos géneros (por exemplo, anime)
 
@@ -22,17 +61,6 @@ Também pode usar o botão **Definições do filtro** e depois clicar em **Ocult
   <source src="/videos/filtercontent.mp4" type="video/mp4">
   O seu browser não suporta o tag vídeo.
 </video>
-
-## Excluir certas classificações etárias
-
-A Steam Workshop permite uma certa quantidade de conteúdo adulto, tal como nudez. Senão quiser ver este tipo de conteúdo, ative apenas a classificação etária "Para todos" nos filtros:
-
-<video width="100%" autoplay loop>
-  <source src="/videos/filterage.mp4" type="video/mp4">
-  O seu browser não suporta o tag vídeo.
-</video>
-
-A maior parte do conteúdo está tagado corretamente, permitindo excluir a grande maioria do conteúdo para adultos. Se mesmo assim deparar com conteúdo para adultos que tenha sido classificado "Para todos", utilize a funcionalidade de denúncia da aplicação. Depois de ser analisado, o conteúdo poderá ser reclassificado ou banido.
 
 ## Denunciar conteúdo que infringe as regras
 
