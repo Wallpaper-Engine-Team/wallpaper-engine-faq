@@ -3,7 +3,7 @@
 Wallpaper Engine, duvar kağıdı yaratıcılarının duvar kağıtlarına; duvar kağıdındaki albüm kapağını, şarkı adını, albüm adını ve daha fazlasını kullanacak özel öğeler eklemesine olanak tanır. Bu rehber, bu özellikteki genel sorunları nasıl çözeceğinizi anlatır.
 
 ::: warning Lütfen unutmayın
-Bu makale, albüm kapakları ve şarkı bilgileri için belirli bir duvar kağıdı özelliği ile ilgilidir. Ses görselleştiricilerle ilgili sorun yaşıyorsanız veya sesli görselleştiricileri medya yürütücünüzle sınırlamak istiyorsanız, lütfen bunun yerine uygun makaleleri kullanın:
+Bu makale, albüm kapakları ve şarkı bilgileri için belirli bir duvar kağıdı özelliği ile ilgilidir. Ses görselleştiricileriyle ilgili sorunlar yaşıyorsanız veya ses görselleştiricilerini medya oynatıcınızla sınırlamak istiyorsanız lütfen bunun yerine uygun makalelere bakın:
 
 * [Ses görselleştiricilerini müzik çalarlarla sınırlama](/audio/limittomusicplayer)
 * [Ses görselleştiricileri çalışmıyor / ses algılanmıyor](/audio/audiodetection)
