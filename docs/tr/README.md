@@ -12,7 +12,7 @@ Sağ üst köşedeki arama çubuğuna anahtar kelimeler girin. Örneğin, duvar 
 Android uygulamasıyla ilgili yardım arıyorsanız Android ile ilgili en sık sorulan soruların özetine ve bilgisayarınızı Android cihazınızla eşleştirme konusundaki kılavuzumuza göz atmayı unutmayın:
 
 * [Android - Sık Sorular ve Sorunlar](mobile/faq.html)
-* [Mobil Cihazı Windows ile eşleştirme](mobile/pairing.html)
+* [Mobil Cihazı Windows ile Eşleştirme](mobile/pairing.html)
 
 ## En popüler destek makaleleri
 
