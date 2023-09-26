@@ -98,11 +98,13 @@ Carrega um novo wallpaper para um dado monitor ou para o primeiro monitor, caso 
 * **location *(opcional)*:** Identificador interno do monitor. Pode encontrá-los no ficheiro config.json e são gerados pelo seu PC.
 * **monitor *(opcional)*:** Index do monitor no qual carregar o wallpaper, começa por 0.
 * **preset *(opcional)*:** Nome do programa local a carregar, o programa local deve ter sido criado e guardado anteriormente por si.
-* **playInWindow *(opcional)*:** Nome da janela se pretende abrir/controlar vários wallpapers numa janela.
+* **playInWindow *(opcional)*:** Nome da janela se pretende abrir/controlar vários wallpapers numa janela. O nome predefinido da janela é "Wallpaper Pop-out".
   * **width *(opcional)*:** largura da janela.
   * **height *(opcional)*:** Altura da janela.
   * **x *(opcional)*:** Posição horizontal da janela.
   * **y *(opcional)*:** Posição vertical da janela.
+  * **activate *(opcional)*:** Trazer a janela para o primeiro plano.
+  * **borderless *(opcional)*:** Abrir a janela sem moldura.
 
 ### Wallpaper seguinte
 
