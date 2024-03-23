@@ -6,7 +6,9 @@ tags:
 
 # Windows kilit ekranında Wallpaper Engine
 
-Windows kilit ekranı, canlı ve dinamik duvar kağıtlarına izin vermeyen korumalı bir Windows alanıdır. Microsoft, bir güvenlik önlemi olarak kasıtlı olarak bunu bu şekilde oluşturmuştur.
+The login screen is very secure and not accessible by normal means. Only dangerous Windows hacks may accomplish this by patching or hooking into the login screen process. Due to this, you could get permanently locked out of your PC when an error occurs or a Windows update changes the lockscreen structure in an unexpected way.
+
+If a safe method is made public or reverse-engineered by us, we will implement this feature. Currently there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lockscreen.
 
 Ancak yine de Wallpaper Engine'i, geçerli canlı duvar kağıdınızın anlık görüntüsüyle statik kilit ekranı görüntüsünü geçersiz kılacak şekilde yapılandırabilirsiniz. Bunu yapmak için, Wallpaper Engine ayarlarının **Genel** sekmesindeki **Kilit ekranı görüntüsünü geçersiz kıl** seçeneğini etkinleştirin.
 
