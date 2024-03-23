@@ -6,7 +6,9 @@ tags:
 
 # Windowsのロック画面でのWallpaper Engine
 
-Windowsのロック画面はWindows側で制御されており、ライブまたはダイナミック壁紙を適用させることはできません。 Microsoftはセキュリティー対策の一環として、このような仕様を意図的に構築しています。
+The login screen is very secure and not accessible by normal means. Only dangerous Windows hacks may accomplish this by patching or hooking into the login screen process. Due to this, you could get permanently locked out of your PC when an error occurs or a Windows update changes the lockscreen structure in an unexpected way.
+
+If a safe method is made public or reverse-engineered by us, we will implement this feature. Currently there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lockscreen.
 
 しかし、Wallpaper Engineの設定を変更すれば、現在のライブ壁紙の一部分を利用してロック画面の静止画を上書きすることも可能です。 これを実行するには、Wallpaper Engine側の設定画面の**一般**タブから**ロック画面画像の上書き**を有効にしてください。
 

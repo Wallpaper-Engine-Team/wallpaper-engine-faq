@@ -6,7 +6,9 @@ tags:
 
 # Windows 鎖定畫面設定為 Wallpaper Engine 桌布
 
-Windows 鎖定畫面是 Windows 的受保護區域，不允許動態桌布執行。 Microsoft 如此設計是用以作為安全措施。
+The login screen is very secure and not accessible by normal means. Only dangerous Windows hacks may accomplish this by patching or hooking into the login screen process. Due to this, you could get permanently locked out of your PC when an error occurs or a Windows update changes the lockscreen structure in an unexpected way.
+
+If a safe method is made public or reverse-engineered by us, we will implement this feature. Currently there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lockscreen.
 
 然而，您仍可設定 Wallpaper Engine 以使用目前動態桌布的快照來覆寫靜態鎖定畫面圖像。 請至 Wallpaper Engine 設定的**一般**分頁啟用**覆寫鎖定畫面圖像**選項。
 

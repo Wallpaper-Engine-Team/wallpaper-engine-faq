@@ -6,7 +6,9 @@ tags:
 
 # Wallpaper Engine บนหน้าจอล็อกของ Windows
 
-หน้าจอล็อกของ Windows เป็นพื้นที่ป้องกันของ Windows ซึ่งไม่อนุญาตให้ใช้วอลเปเปอร์ภาพเคลื่อนไหวและแบบเคลื่อนไหว Microsoft ตั้งใจสร้างด้วยวิธีนี้เพื่อเป็นมาตรการรักษาความปลอดภัย
+The login screen is very secure and not accessible by normal means. Only dangerous Windows hacks may accomplish this by patching or hooking into the login screen process. Due to this, you could get permanently locked out of your PC when an error occurs or a Windows update changes the lockscreen structure in an unexpected way.
+
+If a safe method is made public or reverse-engineered by us, we will implement this feature. Currently there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lockscreen.
 
 แต่คุณยังสามารถกำหนดค่า Wallpaper Engine เพื่อแทนที่รูปภาพหน้าจอล็อกแบบภาพนิ่งด้วยภาพบันทึกวอลเปเปอร์ภาพเคลื่อนไหวปัจจุบันของคุณได้ โดยเปิดใช้งานตัวเลือก**แทนที่รูปภาพหน้าจอล็อก**ในแท็บ**ทั่วไป** ของการตั้งค่า Wallpaper Engine
 

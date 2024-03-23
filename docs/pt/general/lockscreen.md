@@ -6,7 +6,9 @@ tags:
 
 # Wallpaper Engine no ecrã de bloqueio do Windows
 
-O ecrã de bloqueio do Windows é uma área protegida do Windows que não permite wallpapers animados e dinâmicos. A Microsoft desenvolveu-o deliberadamente desta forma como medida de segurança.
+The login screen is very secure and not accessible by normal means. Only dangerous Windows hacks may accomplish this by patching or hooking into the login screen process. Due to this, you could get permanently locked out of your PC when an error occurs or a Windows update changes the lockscreen structure in an unexpected way.
+
+If a safe method is made public or reverse-engineered by us, we will implement this feature. Currently there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lockscreen.
 
 No entanto, continua a poder configurar o Wallpaper Engine de forma a substituir a imagem estática do ecrã de bloqueio por uma imagem do seu wallpaper animado atual. Para o fazer, ative a opção **Substituir imagem do ecrã de bloqueio** no separador **Gerais** das definições do Wallpaper Engine.
 

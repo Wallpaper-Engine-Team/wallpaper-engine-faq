@@ -6,7 +6,9 @@ tags:
 
 # Wallpaper Engine auf dem Login-Bildschirm
 
-Der Windows-Login-Bildschirm ist ein geschützter Bereich von Windows und erlaubt keine dynamischen Hintergründe. Microsoft hat diesen so absichtlich aus Sicherheitsgründen gebaut.
+The login screen is very secure and not accessible by normal means. Only dangerous Windows hacks may accomplish this by patching or hooking into the login screen process. Due to this, you could get permanently locked out of your PC when an error occurs or a Windows update changes the lockscreen structure in an unexpected way.
+
+If a safe method is made public or reverse-engineered by us, we will implement this feature. Currently there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lockscreen.
 
 Du kannst Wallpaper Engine trotzdem konfigurieren, dass es das statische Bild vom Login-Bildschirm an deinen Live-Hintergrund anpasst. Um dies zu tun, aktiviere die Option **Sperrbildschirm-Hintergrund überschreiben** im Reiter **Allgemein** in den Einstellungen von Wallpaper Engine.
 
