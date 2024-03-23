@@ -6,11 +6,51 @@ tags:
   - categorías
   - maduro
   - adulto
+  - +18
 ---
 
 # Excluir ciertos fondos de la búsqueda
 
 Usa siempre la pestaña Workshop para buscar fondos nuevos. Steam Workshop no cuenta con la misma capacidad de filtrado que el programa, por lo que le mostrará más contenido que no te interesa.
+
+## Excluir contenido para adultos
+
+Steam Workshop admite contenido adulto hasta cierto grado como, por ejemplo, desnudez. Hay dos capas de filtros de contenido restringido por edad que puedes configurar:
+
+1. Preferencias de contenido para adultos de la cuenta de Steam
+2. Filtros de búsquedas de Wallpaper Engine
+
+### 1. Preferencias de la cuenta de Steam
+
+Primero, asegúrate de configurar correctamente tus filtros de contenido de la comunidad de Steam. Abre Steam, luego haz clic en tu nombre de usuario en la esquina superior derecha y selecciona **Preferencias de la tienda**. También puedes hacer clic en en el siguiente enlace y acceder a las preferencias de tu cuenta de Steam en el navegador web (asegúrate de haber iniciado sesión en la cuenta de Steam pertinente):
+
+* [Haz clic aquí para ver tus preferencias de contenido en Steam](https://store.steampowered.com/account/preferences/)
+
+Se te presentará una lista de opciones de contenido para adultos. Asegúrate de seleccionar tus preferencias en la columna de **Comunidad**, que son las que se usan para el contenido del Workshop. Aquí tienes el siguiente vídeo para ver el proceso de configuración.
+
+::: warning
+**Ten en cuenta que algunas preferencias del contenido para adultos no están disponibles en varios países y regiones debido a las leyes locales que debe cumplir Steam.**
+
+Steam detecta tu ubicación de acuerdo con tu dirección IP o tu historial de compras. Si vives en una región donde deberías tener acceso a estas opciones de contenido, pero no se te muestran, contacta con el soporte de Steam para recibir más ayuda.
+:::
+
+<video width="100%" autoplay loop>
+  <source src="/videos/steam_filterage.mp4" type="video/mp4">
+  Tu navegador no admite la etiqueta de vídeo.
+</video>
+
+Asegúrate de reiniciar la interfaz de usuario de Wallpaper Engine al hacer cambios en tus preferencias de contenido de Steam; de lo contrario, puede que tus cambios no surtan efecto de inmediato.
+
+### 2. Filtro de clasificación por edades de Wallpaper Engine
+
+Una vez que hayas configurado tus preferencias de contenido de Steam, puedes usar los filtros por edad de Wallpaper Engine para filtrar contenido sobre la marcha. Haz clic en el botón de **Filtrar resultados** en la esquina superior izquierda de la aplicación, luego navega hasta la sección de **clasificación por edades** y activa o desactiva los filtros según tus preferencias:
+
+<video width="100%" autoplay loop>
+  <source src="/videos/filterage.mp4" type="video/mp4">
+  Tu navegador no admite la etiqueta de vídeo.
+</video>
+
+La mayoría del contenido está bien clasificado y así se excluirá la gran mayoría de contenido adulto. Si llegas a encontrarte con ese tipo de contenido porque se ha clasificado «Para todas las edades», usa la función de Informar del programa. Tras inspeccionarlo, el contenido se clasificará correctamente o se eliminará.
 
 ## Excluir géneros concretos (por ejemplo, anime)
 
@@ -22,17 +62,6 @@ Usa el botón **Opciones de filtrado** y haz clic en **Ocultar Anime** para desa
   <source src="/videos/filtercontent.mp4" type="video/mp4">
   Tu navegador no admite la etiqueta de vídeo.
 </video>
-
-## Excluir clasificaciones por edades
-
-Steam Workshop admite contenido adulto hasta cierto grado como, por ejemplo, desnudez. Si no quieres ver este tipo de contenido, selecciona solo «Para todas las edades» en los filtros de clasificación por edades:
-
-<video width="100%" autoplay loop>
-  <source src="/videos/filterage.mp4" type="video/mp4">
-  Tu navegador no admite la etiqueta de vídeo.
-</video>
-
-La mayoría del contenido está bien clasificado y así se excluirá la gran mayoría de contenido adulto. Si llegas a encontrarte con ese tipo de contenido porque se ha clasificado «Para todas las edades», usa la función de Informar del programa. Tras inspeccionarlo, el contenido se clasificará correctamente o se eliminará.
 
 ## Informar de contenido que inflige las reglas
 

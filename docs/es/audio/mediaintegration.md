@@ -4,7 +4,7 @@ Wallpaper Engine permite a los creadores de fondos añadir elementos especiales 
 
 ::: warning
 Aviso
-Este artículo trata de una función específica de los fondos que usa carátulas de álbumes e información de las canciones. Si tienes problemas con los visualizadores de audio o si quieres limitar los visualizadores de audio a tu reproductor multimedia, lee los artículos siguientes:
+Este artículo trata de una función específica de los fondos que usa carátulas de álbumes e información de las canciones. Si tienes problemas con los visualizadores de audio o si quieres limitar los visualizadores de audio a tu reproductor multimedia, consulta los artículos siguientes:
 
 * [Limitar visualizadores de audio a los reproductores de música](/audio/limittomusicplayer)
 * [Los visualizadores de audio no funcionan / No se detecta sonido](/audio/audiodetection)
