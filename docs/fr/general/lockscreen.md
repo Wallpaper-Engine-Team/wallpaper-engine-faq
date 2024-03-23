@@ -6,9 +6,11 @@ tags:
 
 # Wallpaper Engine sur l'écran de verrouillage Windows
 
-The login screen is very secure and not accessible by normal means. Only dangerous Windows hacks may accomplish this by patching or hooking into the login screen process. Due to this, you could get permanently locked out of your PC when an error occurs or a Windows update changes the lockscreen structure in an unexpected way.
+The Windows login screen is not meant to be modified as a design decision by Microsoft. Making changes to it essentially requires hacking Windows in an unsafe and unstable manner. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
 
-If a safe method is made public or reverse-engineered by us, we will implement this feature. Currently there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lockscreen.
+If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
+
+## Setting a static wallpaper
 
 Cependant, vous pouvez toujours configurer Wallpaper Engine pour remplacer l'image statique de l'écran de verrouillage par un instantané de votre fond d'écran actuel. Pour ce faire, activez l'option **Remplacer l'image d'écran de verrouillage** dans l'onglet **Général** des paramètres de Wallpaper Engine.
 
