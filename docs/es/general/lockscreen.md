@@ -6,7 +6,9 @@ tags:
 
 # Wallpaper Engine en la pantalla de bloqueo de Windows
 
-La pantalla de bloqueo de Windows es un área protegida de Windows que no permite usar fondos dinámicos o animados. Microsoft la ha creado así a propósito como medida de seguridad.
+The login screen is very secure and not accessible by normal means. Only dangerous Windows hacks may accomplish this by patching or hooking into the login screen process. Due to this, you could get permanently locked out of your PC when an error occurs or a Windows update changes the lockscreen structure in an unexpected way.
+
+If a safe method is made public or reverse-engineered by us, we will implement this feature. Currently there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lockscreen.
 
 Sin embargo, puedes configurar Wallpaper Engine para que sustituya la imagen estática de la pantalla de bloqueo por una captura de pantalla de tu fondo de pantalla. Solo tienes que activar la opción **Reemplazar imagen de la pantalla de bloqueo** en la pestaña **General** de la configuración de Wallpaper Engine.
 
