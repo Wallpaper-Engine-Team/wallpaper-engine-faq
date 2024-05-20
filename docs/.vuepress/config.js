@@ -252,6 +252,7 @@ function getTopLevelSidebar(locale, windowsGroup, crashGroup, videoGroup, debugG
 				locale + 'general/aero',
 				locale + 'general/lockscreen',
 				locale + 'videos/windows-n',
+				locale + 'general/deprecated',
 			]
 		},
 		{
