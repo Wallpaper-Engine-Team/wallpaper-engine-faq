@@ -23,7 +23,7 @@ La vidéo ci-dessous décrit toutes les étapes du début à la fin sur une vers
 1. Lancez de la musique grâce au logiciel que vous voudrez utiliser plus tard avec Wallpaper Engine
 2. Faites un clic droit sur l'icône d'audio près de l'horloge dans la barre des tâches Windows puis sélectionnez **Ouvrir les paramètres de son**.
 3. Défilez jusqu'en bas de la page qui s'ouvre et cliquez sur **Préférences de volumes des applications et des appareils**.
-4. Une liste de toutes les applications qui émettent du son s'affiche. Trouvez votre lecteur de musique et dans la colonne **Sortie**, changez l'option de **Par défaut** à **CABLE Input (VB-Audio Virtual Cable)**. Le son de votre lecteur audio devrait immédiatement se couper. C'est normal.
+4. Une liste de toutes les applications qui émettent du son s'affiche. Trouvez votre lecteur de musique et dans la colonne **Sortie**, changez l'option de **Par défaut** à **CABLE Input (VB-Audio Virtual Cable)**. Le son de votre lecteur audio devrait immédiatement se couper.
 5. Revenez sur la page principale des paramètres de son Windows, et dans le coin supérieur droit, sélectionnez **Panneau de configuration Son**.
 6. Une petite fenêtre apparaîtra. Sélectionnez l'onglet **Enregistrement**, puis faites un clic droit sur l'appareil audio **CABLE Output** et sélectionnez **Propriétés**.
 7. Une autre fenêtre s'ouvre. Cliquez sur l'onglet **Écouter** et cochez **Écouter ce périphérique**. Cliquez sur **Appliquer** puis **OK** et la musique de votre lecteur de musique devrait revenir.
