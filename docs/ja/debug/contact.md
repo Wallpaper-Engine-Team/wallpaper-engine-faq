@@ -9,7 +9,7 @@ tags:
 
 Wallpaper Engine について技術的な問題が発生した場合、まず「よくある質問」を読んで解決を試みてください。 送られてくる技術サポートチケットのほとんどは、「よくある質問」で解決できるものです。
 
-また、私たちの Steam Discussion ボードで質問や検索をすることもできます。普通は私たちがすべての質問に答えようと努めますし、ほとんどの質問は既に以前行われています。
+また、私たちの Steam Discussion ボードで質問や検索をすることもできます。 普通は私たちがすべての質問に答えようと努めますし、ほとんどの質問は既に以前行われています。
 
 * [Wallpaper Engine Steam Discussions](https://steamcommunity.com/app/431960/discussions/)
 
