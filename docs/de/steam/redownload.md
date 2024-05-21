@@ -8,7 +8,7 @@ tags:
 
 # Steam lädt Hintergründe erneut runter
 
-Steams Download-Cache ist fehlerhaft geworden und Steam lädt nun alle Dateien erneut runter (ohne erkennbaren Grund oder da Steam abgestürzt ist und nicht korrekt beendet wurde). Dies wird nicht von Wallpaper Engine verursacht, deswegen kann dieses Problem auch nicht von Wallpaper Engine behoben werden, alle Workshop-Anwendungen auf Steam können von diesem Steam-Problem betroffen werden. Wenn du häufig dieses Problem hast, gibt es mehrere Abhilfen:
+Steams Download-Cache ist fehlerhaft geworden und Steam lädt nun alle Dateien erneut runter (ohne erkennbaren Grund oder da Steam abgestürzt ist und nicht korrekt beendet wurde). da Steam abgestürzt ist und nicht korrekt beendet wurde). Dies wird nicht von Wallpaper Engine verursacht, deswegen kann dieses Problem auch nicht von Wallpaper Engine behoben werden, alle Workshop-Anwendungen auf Steam können von diesem Steam-Problem betroffen werden. Wenn du häufig dieses Problem hast, gibt es mehrere Abhilfen:
 
 ## Steam automatisch reparieren
 Wir haben eine automatische Anwendungen zum Reparieren von Steam erstellt, welche du nutzen kannst um dieses Problem (hoffentlich) zu lösen indem es Steam unterbindet, alle Dateien erneut herunterzuladen. Folge diesen Schritten:
