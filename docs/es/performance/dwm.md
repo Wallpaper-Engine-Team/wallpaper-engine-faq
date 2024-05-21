@@ -4,7 +4,7 @@ Si has habilitado la GPU integrada en la BIOS del ordenador de sobremesa a pesar
 
 Sin la tecnología Nvidia Optimus o similares, Windows se verá obligado a copiar la imagen del fondo de una GPU a la otra, una operación un tanto tediosa. De hecho, cualquier acción compartida entre las GPU lo sufrirá, ya que es como mover una ventana de juego entre ambos monitores.
 
-Nvidia Optimus o SLI/Crossfire no tienen ese problema, ya que están fabricados para sistemas con varias GPU y tienen una solución física para que funcione sin problemas.
+Nvidia Optimus o SLI/Crossfire no tienen ese problema, ya que están fabricados para sistemas con varias GPU y tienen una solución física para que funcione sin problemas. y tienen una solución física para que funcione sin problemas.
 
 ## Bajo rendimiento al usar GPU secundaria en un sobremesa sin Nvidia SLI / Nvidia Optimus / AMD CrossFire
 
