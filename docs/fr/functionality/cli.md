@@ -76,7 +76,7 @@ Désactive le son de tous les fonds d'écran.
 -control mute
 ```
 
-### Réactiver le son
+### Désactiver le son
 
 Réactive le son de tous les fonds d'écran.
 
@@ -155,7 +155,7 @@ Applique à la volée les propriétés de fond d'écran à un fond d'écran bien
 -control applyProperties -properties <JSON> [-location <string>] [-monitor <number>]
 ```
 
-* **properties :** Propriétés définies comme chaîne **JSON** à appliquer. Il faut interrompre la chaîne à l'aide de `RAW~(` et `)~END` comme délimiteurs. Consultez les exemples ci-dessous !
+* **properties :** Propriétés définies comme chaîne **JSON** à appliquer. Il faut interrompre la chaîne à l'aide de `RAW~(` et `)~END` comme délimiteurs.
 * **location *(facultatif)* :** Identificateur interne du nom de la fenêtre ou du moniteur que vous avez indiqué.
 * **monitor *(facultatif)* :** Index du moniteur sur lequel mettre à jouer les propriétés, commence par 0.
 
