@@ -28,7 +28,7 @@ wallpaper32.exe -control openWallpaper -file "C:\Program Files (x86)\Steam\steam
 
 ![Wallpaper Engine 바로 가기 속성](/img/faq/target.gif)
 
-그러면 **바로 가기** 탭에 **대상**이라는 항목이 보일 것입니다. 해당 시점에서는 Wallpaper Engine이 대상으로 지정되어 있을 것이며, 이제 아래 예시와 같이 배경화면의 전체 경로, `openWallpaper` 명령어 그리고 `playInWindow` 매개변수를 추가해야 합니다(복사하여 붙여넣은 후 필요한 대로 조정하십시오):
+그러면 **바로 가기** 탭에 **대상**이라는 항목이 보일 것입니다. 해당 시점에서는 Wallpaper Engine이 대상으로 지정되어 있을 것이며, 해당 시점에서는 Wallpaper Engine이 대상으로 지정되어 있을 것이며, 이제 아래 예시와 같이 배경화면의 전체 경로, `openWallpaper` 명령어 그리고 `playInWindow` 매개변수를 추가해야 합니다(복사하여 붙여넣은 후 필요한 대로 조정하십시오):
 
 ```bash
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" -control openWallpaper -file "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\123456789\scene.pkg" -playInWindow "Wallpaper #1" -width 1920 -height 1080
