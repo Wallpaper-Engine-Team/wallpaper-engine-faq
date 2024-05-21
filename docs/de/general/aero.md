@@ -1,8 +1,8 @@
 # Windows 7: Aero kann nicht aktiviert werden
 
-Aero ist ein Feature von Windows und Teil der minimalen Systemanforderungen von Wallpaper Engine - wenn es deaktiviert ist, ist es unmöglich einen dynamischen Hintergrund zu setzen. Wenn es nicht automatisch aktiviert werden kann, so liegt ein Problem mit deinem System vor oder es erfüllt nicht die minimalen Systemanforderungen um Aero auf Windows 7 zu aktivieren.
+Wenn es nicht automatisch aktiviert werden kann, so liegt ein Problem mit deinem System vor oder es erfüllt nicht die minimalen Systemanforderungen um Aero auf Windows 7 zu aktivieren. Aero ist ein Feature von Windows und Teil der minimalen Systemanforderungen von Wallpaper Engine - wenn es deaktiviert ist, ist es unmöglich einen dynamischen Hintergrund zu setzen.
 
-Windows Aero sorgt für den Transparenzeffekt in der Taskleiste und oberhalb von Fenstern in Windows. Wenn deine Taskleiste nicht transparent ist (und hellblau erscheint), dann ist Aero deaktiviert. Du kannst Aero in den Desgin-Einstellungen von Windows 7 aktivieren. Dein Windows 7 sollte wie folgt aussehen, nachdem Aero in den Design-Einstellungen aktiviert wurde (beachte die durchsichtige Taskleiste und das Startmenü):
+Du kannst Aero in den Desgin-Einstellungen von Windows 7 aktivieren. Windows Aero sorgt für den Transparenzeffekt in der Taskleiste und oberhalb von Fenstern in Windows. Wenn deine Taskleiste nicht transparent ist (und hellblau erscheint), dann ist Aero deaktiviert. Dein Windows 7 sollte wie folgt aussehen, nachdem Aero in den Design-Einstellungen aktiviert wurde (beachte die durchsichtige Taskleiste und das Startmenü):
 
 ![Windows 7 mit Aero](./w7.png)
 
