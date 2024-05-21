@@ -1,6 +1,6 @@
 # Salvapantallas con Wallpaper Engine
 
-Wallpaper Engine te permise usar tus fondos de salvapantallas. Antes, los salvapantallas se usaban para evitar que se quemaran las pantallas por el uso excesivo, pero la mayoría de monitores modernos no sufren ese tipo de daños, por lo que puedes usar cualquier fondo que quieras como salvapantallas para que quede bonito. Si usas una pantalla TRC, de plasma, OLED o con alguna tecnología que sí que sea susceptible a los quemados, te recomendamos usar de salvapantallas una lista de reproducción de fondos o un fondo con movimiento normal.
+Wallpaper Engine te permise usar tus fondos de salvapantallas. Si usas una pantalla TRC, de plasma, OLED o con alguna tecnología que sí que sea susceptible a los quemados, te recomendamos usar de salvapantallas una lista de reproducción de fondos o un fondo con movimiento normal. Antes, los salvapantallas se usaban para evitar que se quemaran las pantallas por el uso excesivo, pero la mayoría de monitores modernos no sufren ese tipo de daños, por lo que puedes usar cualquier fondo que quieras como salvapantallas para que quede bonito.
 
 [[toc]]
 
