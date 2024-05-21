@@ -6,7 +6,7 @@ Il est aussi possible que Steam décide soudainement de télécharger de nouveau
 
 # Créer une sauvegarde
 
-Le guide va partir du principe que Steam et Wallpaper Engine sont installés dans "C:\Program Files (x86)\Steam\". Si vous avez choisi une autre destinaton, adaptez ce guide en conséquence.
+Le guide va partir du principe que Steam et Wallpaper Engine sont installés dans "C:\Program Files (x86)\Steam\".
 
 ::: tip
 **431960** est l'ID de Wallpaper Engine. Steam utilise donc ce répertoire pour tous les téléchargements de Wallpaper Engine.
