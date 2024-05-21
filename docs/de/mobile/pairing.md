@@ -50,7 +50,7 @@ Du kannst nun rechts auf die Schaltfläche **An Mobilgerät senden** klicken ode
 
 #### Szene-Hintergründe
 
-Dynamische und interaktive Hintergründe, welche vom Typen **Szene** sind, werden zunächst für die Nutzung auf Mobilgeräten optimiert, sodass die Kompatibilität mit der Hardware von Mobilgeräten sichergestellt werden kann. Dieser Prozess kann ein etwas Zeit in Anspruch nehmen. Wallpaper Engine fragt außerdem, welche Qualität der Hintergrund auf deinem Mobilgerät haben soll. Besonders für Hintergründe mit höherer Auflösung empfehlen wir die Qualitätsstufe **Ausgewogen** zu nutzen, wenn du Leistungsprobleme auf deinem Mobilgerät feststellst.
+Dynamische und interaktive Hintergründe, welche vom Typen **Szene** sind, werden zunächst für die Nutzung auf Mobilgeräten optimiert, sodass die Kompatibilität mit der Hardware von Mobilgeräten sichergestellt werden kann. Dieser Prozess kann ein etwas Zeit in Anspruch nehmen. Besonders für Hintergründe mit höherer Auflösung empfehlen wir die Qualitätsstufe **Ausgewogen** zu nutzen, wenn du Leistungsprobleme auf deinem Mobilgerät feststellst.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
