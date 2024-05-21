@@ -34,10 +34,10 @@ Wallpaper Engineは、ほとんどのデスクトップ変更アプリケーシ�
 
 基本的に、Wallpaper Engineは*Fences*と一緒に問題なく動作します。 しかし、**Fencesをインストールしていて無効にしている場合**、それがWallpaper Engineから壁紙を隠します。 有効にするか、完全にアンインストールするか、どちらかにする必要があります。
 
-Fencesを使用していてWallpaper Engineの壁紙が表示されない場合は、Wallpaper Engineとの互換性の問題がある可能性があります。バージョンが**Fences 3.13以降**であることを確認してください。 Fences 3.13以降にはWallpaper Engineとの互換性に関する重要な修正が実装されています。最新バージョンをお使いいただくようお願いします。
+Fencesを使用していてWallpaper Engineの壁紙が表示されない場合は、Wallpaper Engineとの互換性の問題がある可能性があります。 バージョンが**Fences 3.13以降**であることを確認してください。 Fences 3.13以降にはWallpaper Engineとの互換性に関する重要な修正が実装されています。
 
 ## Windowsで壁紙が灰色になったり、テクスチャが表示されなかったりする
 
-Windows 7のアップデート**KB2533623**がインストールされていることを確認してください。 リンクから手動でインストールするか、Windows Updateが正常に動いていて、そこからインストールしていることを確認してください。 Microsoftのサイトから手動でダウンロードすることができます。その後システムを再起動すると問題は解消するはずです。
+Windows 7のアップデート**KB2533623**がインストールされていることを確認してください。 リンクから手動でインストールするか、Windows Updateが正常に動いていて、そこからインストールしていることを確認してください。 Microsoftのサイトから手動でダウンロードすることができます。 その後システムを再起動すると問題は解消するはずです。
 
 * [KB2533623](https://support.microsoft.com/ja-jp/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot)
