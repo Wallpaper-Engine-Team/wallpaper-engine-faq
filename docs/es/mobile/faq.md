@@ -14,7 +14,7 @@ Esta página contiene una lista de las preguntas y los problemas técnicos que s
 
 Es posible que no puedas usar un fondo dinámico en la pantalla de bloqueo o que tengas que usar el mismo que en la pantalla de inicio dependiendo del fabricante del dispositivo o del lanzador de Android que utilices.
 
-Deja pulsado el símbolo de visto de la esquina superior derecha cuando previsualices un fondo dinámico en la aplicación de Wallpaper Engine para abrir la pantalla de fondos dinámicos del dispositivo. Dependiendo del fabricante, tendría que aparecerte una opción para poner el fondo en la pantalla de bloqueo. En caso de que no aparezca, no podrás poner fondos dinámicos en la pantalla de bloqueo. Aquí tienes una lista de fabricantes que tienen algunos dispositivos que no son compatibles con los fondos dinámicos en la pantalla de bloqueo:
+Deja pulsado el símbolo de visto de la esquina superior derecha cuando previsualices un fondo dinámico en la aplicación de Wallpaper Engine para abrir la pantalla de fondos dinámicos del dispositivo. para abrir la pantalla de fondos dinámicos del dispositivo. Dependiendo del fabricante, tendría que aparecerte una opción para poner el fondo en la pantalla de bloqueo. En caso de que no aparezca, no podrás poner fondos dinámicos en la pantalla de bloqueo. Aquí tienes una lista de fabricantes que tienen algunos dispositivos que no son compatibles con los fondos dinámicos en la pantalla de bloqueo:
 
 * Huawei
 * Xiaomi
