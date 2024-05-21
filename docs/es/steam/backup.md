@@ -19,5 +19,5 @@ Esta guía da por supuesto que Steam y Wallpaper Engine están instalados en «C
 5. Reinicia el buscador de fondos y podrás ver las copias de seguridad de los fondos. Ahora puedes quitar la suscripción de los duplicados de Steam y usar únicamente la copia personal.
 
 ::: warning
-**No** borres la carpeta de Steam Workshop `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` de forma manual, ya que esto confundiría a Steam y volvería a descargar todos los fondos. Desuscríbete de los fondos y deja que Steam se encargue de borrar los duplicados.
+**No** borres la carpeta de Steam Workshop `C:\Program Files (x86)\Steam\steamapps\workshop\content\431960` de forma manual, ya que esto confundiría a Steam y volvería a descargar todos los fondos. ya que esto confundiría a Steam y volvería a descargar todos los fondos. Desuscríbete de los fondos y deja que Steam se encargue de borrar los duplicados.
 :::
