@@ -4,7 +4,7 @@ sidebarDepth: 2
 
 # Controles con líneas de comando
 
-Puedes controlar Wallpaper Engine con líneas de comando, lo que te permitirá acceder a la mayoría de funciones del programa con atajos, macros o cualquier otro tipo de código de tu elección. Podrías, por ejemplo, pausar o detener todos los fondos, cambiarlos o incluso cambiar los ajustes de los fondos que tienes en uso.
+Puedes controlar Wallpaper Engine con líneas de comando, lo que te permitirá acceder a la mayoría de funciones del programa con atajos, macros o cualquier otro tipo de código de tu elección. lo que te permitirá acceder a la mayoría de funciones del programa con atajos, macros o cualquier otro tipo de código de tu elección. Podrías, por ejemplo, pausar o detener todos los fondos, cambiarlos o incluso cambiar los ajustes de los fondos que tienes en uso.
 
 Comprueba que Wallpaper Engine esté abierto y abre el proceso del programa *wallpaper32.exe* (o *wallpaper64.exe* si usas la versión 64 Bit) para enviarle un comando con cualquiera de los argumentos de comando que aparecen en esta guía. Encontrarás los ejecutables en el directorio de instalación `wallpaper_engine`.
 
