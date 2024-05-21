@@ -1,5 +1,5 @@
 # No se reproducen sonidos / Problemas con la salida de audio
-Esta guía te servirá para solucionar cualquier problema con la reproducción de sonido de los fondos. Antes de nada, prueba otros fondos para asegurarte del que estás usando sí que tiene sonido, porque hay muchísimos que son silenciosos. Si tienes claro que sí que tiene sonido, sigue leyendo la guía.
+Esta guía te servirá para solucionar cualquier problema con la reproducción de sonido de los fondos. Antes de nada, prueba otros fondos para asegurarte del que estás usando sí que tiene sonido, porque hay muchísimos que son silenciosos. porque hay muchísimos que son silenciosos. Si tienes claro que sí que tiene sonido, sigue leyendo la guía.
 
 ::: warning
 Aviso Si el sonido se apaga y se enciende de forma intermitente, echa un vistazo a esta otra guía:
