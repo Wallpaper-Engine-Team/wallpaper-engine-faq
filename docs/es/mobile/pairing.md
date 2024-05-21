@@ -22,7 +22,7 @@ Por razones de seguridad, te aconsejamos no instalar la aplicación desde fuente
 
 ## 2. Preparar Wallpaper Engine en Windows
 
-Haz clic en el botón de **Dispositivo** que se encuentra en la esquina superior derecha de la interfaz de usuario en el programa de **Windows**  para que aparezca la información general del dispositivo. Haz clic en el botón de **Conectar otro dispositivo** que aparece en la parte inferior. Wallpaper Engine te mostrará un PIN de 4 dígitos que te servirá para emparejar un dispositivo en el próximo paso.
+Haz clic en el botón de **Dispositivo** que se encuentra en la esquina superior derecha de la interfaz de usuario en el programa de **Windows**  para que aparezca la información general del dispositivo. para que aparezca la información general del dispositivo. Haz clic en el botón de **Conectar otro dispositivo** que aparece en la parte inferior. Wallpaper Engine te mostrará un PIN de 4 dígitos que te servirá para emparejar un dispositivo en el próximo paso.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_pin.mp4" type="video/mp4">
@@ -50,7 +50,7 @@ Ahora solo tienes que hacer clic en el botón **Enviar a dispositivo móvil** qu
 
 #### Fondos de escena
 
-Los fondos dinámicos e interactivos del tipo **Escena** se optimizarán para su uso en dispositivos móviles para garantizar la compatibilidad con el hardware. Este proceso podría llevar un tiempo. Tendrás que elegir qué calidad deseas utilizar, sobre todo de cara a usar fondos de alta resolución. Te recomendamos probar la opción **Equilibrada** si tienes algún problema de rendimiento en tu dispositivo móvil.
+Los fondos dinámicos e interactivos del tipo **Escena** se optimizarán para su uso en dispositivos móviles para garantizar la compatibilidad con el hardware. Este proceso podría llevar un tiempo. Te recomendamos probar la opción **Equilibrada** si tienes algún problema de rendimiento en tu dispositivo móvil.
 
 <video width="100%" controls autoplay loop>
   <source src="/videos/mobile_transfer.mp4" type="video/mp4">
