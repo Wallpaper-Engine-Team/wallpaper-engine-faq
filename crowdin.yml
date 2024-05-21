@@ -3,5 +3,6 @@ files:
     translation: /docs/%two_letters_code%/**/%original_file_name%
     translation_replace:
       docs/en: ''
+    type: md17
   - source: /app_strings/en.json
     translation: /app_strings/%two_letters_code%.json
