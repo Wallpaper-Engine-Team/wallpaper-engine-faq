@@ -15,7 +15,7 @@ tags:
 
 # Los fondos de vídeo se ven mal
 
-Wallpaper Engine, al contrario que la mayoría de reproductores de vídeo, usa la aceleración de hardware con los vídeos para tener el máximo rendimiento, por lo que los controladores de la tarjeta gráfica podrían afectar al aspecto de los vídeos.
+Wallpaper Engine, al contrario que la mayoría de reproductores de vídeo, usa la aceleración de hardware con los vídeos para tener el máximo rendimiento, por lo que los controladores de la tarjeta gráfica podrían afectar al aspecto de los vídeos. por lo que los controladores de la tarjeta gráfica podrían afectar al aspecto de los vídeos.
 
 **Si los fondos muestran colores incorrectos, son muy claros o muy oscuros, aparecen enfocados, pixelados o hay un borde alrededor del fondo**, puedes restablecer las opciones de vídeo en el panel de control de gráficos de la tarjeta gráfica Nvidia, AMD o Intel. Si tienes un ordenador con varias GPU (por ejemplo, una tarjeta principal de Nvidia y una secundaria de Intel), restablece las de todas ellas.
 
