@@ -16,7 +16,7 @@ Wenn du Probleme mit defekten Video-Codecs hast oder weitere Video-Formate auf d
 
 Aus rechtlichen Gründen dürfen wir LAV nicht mit Wallpaper Engine ausliefern, was bedeutet, dass du es selbst herunterladen und installieren musst. Nachdem du LAV installiert hast, musst du Wallpaper Engine konfigurieren, sodass es DirectShow nutzt:
 
-## 1. LAV installieren
+## 2. Aktiviere DirectShow
 * Lade die x86- **UND** x64-Version der LAV-Filter herunter:
   * Mirror #1: [Github](https://github.com/Nevcairiel/LAVFilters/releases)
   * Mirror #2: [Fosshub](https://www.fosshub.com/LAV-Filters.html)
