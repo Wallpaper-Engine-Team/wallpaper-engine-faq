@@ -18,7 +18,7 @@ Eine Liste von optionalen Funktionen wird nun angezeigt, suche nach **Media Feat
 
 **Stelle sicher, dass du die x64 und x86-Versionen installierst.**
 
-Wenn es weiterhin den gleichen Fehler anzeigt, **hast du die falsche Version installiert**, versuche erneut die richtige Version zu installieren und starte deinen PC neu. Sollte all dies nicht funktionieren und die Medien-Features fehlen weiterhin, so sind wichtige System-Dateien wahrscheinlich defekt. Versuche das System auf einen vorherigen Zustand zurückzusetzen oder installiere Windows neu.
+Wenn es weiterhin den gleichen Fehler anzeigt, **hast du die falsche Version installiert**, versuche erneut die richtige Version zu installieren und starte deinen PC neu. Versuche das System auf einen vorherigen Zustand zurückzusetzen oder installiere Windows neu.
 
 ::: warning
 Achtung Mit jedem größeren Windows 10 Update musst du das Media Feature Pack gegebenenfalls erneut installieren. Wenn du dies nicht willst, solltest du überlegen auf eine normale Version von Windows zu wechseln, da diese immer mit diesen Features ausgeliefert werden!
