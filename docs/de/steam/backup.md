@@ -6,7 +6,7 @@ Es gibt darüber hinaus auch ein Steam-Problem, bei welchem es alle Workshop-Dat
 
 # Erstellen eines Backups
 
-Die folgende Anleitung erwartet, dass Steam und Wallpaper Engine im folgenden Verzeichnis installiert wurden: `C:\Programme (x86)\Steam\`. Sollten Steam und / oder Wallpaper Engine woanders installiert sein, stelle sicher, dass du die korrekten Verzeichnisse verwendest.
+Die folgende Anleitung erwartet, dass Steam und Wallpaper Engine im folgenden Verzeichnis installiert wurden: `C:\Programme (x86)\Steam\`.
 
 ::: tip
 **431960** ist die Steam-ID von Wallpaper Engine, Steam nutzt dieses Verzeichnis für alle Downloads für Wallpaper Engine.
