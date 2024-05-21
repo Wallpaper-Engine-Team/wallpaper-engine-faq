@@ -3,8 +3,7 @@
 Wallpaper Engine erlaubt es Erstellern von Hintergründen spezielle Elemente in die Hintergründe einzufügen, welche Alben-Cover, Song-Titel, Alben-Namen und weitere Song-Informationen im Hintergrund anzeigen. Diese Seite erklärt, wie du häufige Probleme mit diesem Feature lösen kannst.
 
 ::: warning
-Bitte beachte
-Dieser Artikel handelt speziell das Hintergrund-Feature für Alben-Cover und weiteren Song-Informationen. Falls du Probleme mit Audio-Visualisierungen hast oder falls du Audio-Visualisierungen auf bestimmte Musik-Wiedergabeprogramme beschränken willst, schau dir stattdessen bitte die jeweiligen Artikel zu diesen Themen an:
+Bitte beachte Dieser Artikel handelt speziell das Hintergrund-Feature für Alben-Cover und weiteren Song-Informationen. Falls du Probleme mit Audio-Visualisierungen hast oder falls du Audio-Visualisierungen auf bestimmte Musik-Wiedergabeprogramme beschränken willst, schau dir stattdessen bitte die jeweiligen Artikel zu diesen Themen an:
 
 * [Audio-Visualisierer auf Musik-Programme beschränken](/audio/limittomusicplayer)
 * [Audio-Visualisierer funktionieren nicht / Kein Ton erkannt](/audio/audiodetection)
