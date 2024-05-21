@@ -10,7 +10,7 @@ Falls du dein Mobilgerät nicht mit deinem Computer verbinden kannst, so ist oft
 * **Stelle sicher, dass dein Mobilgerät und Computer zum gleichen lokalen Netzwerk verbunden sind.**
   * Dein Computer benötigt kein WLAN, im Normalfall bist du im gleichen Netzwerk auch wenn du ein LAN-Kabel verwendest.
 * **Stelle sicher, dass keine Firewall Wallpaper Engine daran hindert mit deinem lokalen Netzwerk zu kommunizieren.**
-  * Wallpaper Engine nutzt die Netzwerk-Ports 7884 (UDP) und 7889 (TCP). Stelle sicher, dass deine Firewall diese nicht blockiert.
+  * Wallpaper Engine nutzt die Netzwerk-Ports 7884 (UDP) und 7889 (TCP).
 * **Schalte jegliche VPN- oder Proxy-Anwendungen auf deinem Computer und deinem Mobilgerät aus, welche gegebenenfalls die Verbindung zwischen deinen Geräten stören.**
 * **Stelle sicher, dass dein Netzwerk-Router deine Geräte nicht daran hindert untereinander zu kommunizieren.**
     * Stelle sicher, dass dein Router keine Netzwerkverbindungen zwischen Geräten blockiert.
@@ -45,6 +45,5 @@ Sobald Wallpaper Engine die .mpkg-Dateien für deine Hintergründe erstellt hat,
 
 Sobald die Dateien auf deinem Mobilgerät gespeichert sind, öffne Wallpaper Engine auf deinem Mobilgerät und nutze die **Datei importieren**-Funktionalität, um die .mpkg-Dateien direkt aus dem Verzeichnis einzulesen, in welchem du diese zuvor gespeichert hast.
 
-::: danger
-Es ist wichtig, dass die .mpkg-Dateien im **Downloads**-Ordner deines Mobilgeräts platziert werden. Android ist sehr restriktiv, wenn es darum geht, dass Apps den Zugriff auf Dateien deines Geräts erhalten. Wenn die App dir keine .mpkg-Dateien auf deinem Gerät anzeigt oder diese sich nicht öffnen lassen, versuche sie im **Downloads**-Verzeichnis zu platzieren, dieses ist funktioniert relativ verlässlich.
+Wenn die App dir keine .mpkg-Dateien auf deinem Gerät anzeigt oder diese sich nicht öffnen lassen, versuche sie im **Downloads**-Verzeichnis zu platzieren, dieses ist funktioniert relativ verlässlich. ::: danger Es ist wichtig, dass die .mpkg-Dateien im **Downloads**-Ordner deines Mobilgeräts platziert werden. Android ist sehr restriktiv, wenn es darum geht, dass Apps den Zugriff auf Dateien deines Geräts erhalten.
 :::
