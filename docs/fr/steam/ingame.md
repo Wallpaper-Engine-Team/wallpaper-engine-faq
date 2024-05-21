@@ -3,7 +3,7 @@ Wallpaper Engine est uniquement censé s'afficher sur Steam lors de l'accès aux
 
 Si vous rencontrez régulièrement ce problème, vous pouvez le contourner en ne lançant pas le programme avec Steam, mais directement depuis le dossier d'installation de wallpaper_engine. Par défaut, il se trouve ici : `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe`. Si Wallpaper Engine est déjà en cours d'exécution, quittez l'application et lancez-la de nouveau à partir du dossier. Vous pouvez également désactiver et réactiver le démarrage automatique dans les paramètres de Wallpaper Engine.
 
-Chaque fois que Steam se reconnecte à Internet, il peut devenir un peu fou et ne sait plus si vous jouez ou non, ce qui peut provoquer des problèmes de ce genre. Comme mentionné ci-dessus, démarrez le programme directement ou avec la fonctionnalité de démarrage automatique pour éviter de passer par Steam. Cela réglera probablement le problème.
+Chaque fois que Steam se reconnecte à Internet, il peut devenir un peu fou et ne sait plus si vous jouez ou non, ce qui peut provoquer des problèmes de ce genre. Comme mentionné ci-dessus, démarrez le programme directement ou avec la fonctionnalité de démarrage automatique pour éviter de passer par Steam.
 
 ## Désactiver l'intégration du Workshop / Steam
 Vous pouvez désactiver l'intégration de Steam en créant un fichier texte vide nommé `nosteam.txt` et en le plaçant dans le répertoire `wallpaper_engine/bin` (par défaut : `C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin`). Vous ne pourrez plus télécharger de fonds d'écran, mais vous aurez toujours accès au contenu que vous avez téléchargé précédemment. 
