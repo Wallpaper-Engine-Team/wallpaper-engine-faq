@@ -108,6 +108,7 @@ Windows のハイバネーション後に Wallpaper Engine がクラッシュす
 ::: warning
 Razer Synapse の再インストール中は、Wallpaper Engine を必ず終了させておいてください。
 :::
+:::
 
 1. Wallpaper Engine が起動している場合は、完全に終了させます（Windows のタスクトレイでアイコンを右クリックし、**終了**を選択）
 2. Windows 経由で Razer ソフトウェアをコンピューターからアンインストールします
@@ -119,9 +120,9 @@ Razer Synapse の再インストール中は、Wallpaper Engine を必ず終了�
 
 **再インストールしても問題が解決しない場合**
 
-Razer Synapse を再インストールしても問題が解決しない場合は、Razer Synapse 自体に問題がある可能性があります。過去には、Razer Synapse がうまくアップデートされていないことによってこの問題が起きたことがありました。 将来の Razer Synapse アップデートによってこの問題が解決されるまでは、Wallpaper Engine 設定の**プラグイン**タブで LED プラグイン（*"iCUE & Chroma SDK"*）をオフにしておいてください。
+Razer Synapse を再インストールしても問題が解決しない場合は、Razer Synapse 自体に問題がある可能性があります。 過去には、Razer Synapse がうまくアップデートされていないことによってこの問題が起きたことがありました。 将来の Razer Synapse アップデートによってこの問題が解決されるまでは、Wallpaper Engine 設定の**プラグイン**タブで LED プラグイン（*"iCUE & Chroma SDK"*）をオフにしておいてください。
 
-Razer Synapse をクリーン再インストールしてもクラッシュが起きる場合は、Razer のサポートに直接ご連絡いただき、クラッシュのことを報告してください。 Razer が解決できない場合、当社の技術サポートにご連絡ください。このクラッシュの問題を調べ、わかったことを Razer Synapse の開発チームに伝えます。ただしいずれにしても、この特定のクラッシュに関する主要な連絡先は Razer になります。
+Razer Synapse をクリーン再インストールしてもクラッシュが起きる場合は、Razer のサポートに直接ご連絡いただき、クラッシュのことを報告してください。 Razer が解決できない場合、当社の技術サポートにご連絡ください。 このクラッシュの問題を調べ、わかったことを Razer Synapse の開発チームに伝えます。 ただしいずれにしても、この特定のクラッシュに関する主要な連絡先は Razer になります。
 
 ### MMDEvAPI.dll
 
@@ -133,11 +134,11 @@ Razer Synapse をクリーン再インストールしてもクラッシュが起
 
 ## エラー 0xc000007b のクラッシュ
 
-システム上の何かによって Windows モジュールが破損しています。通常はこの場合、DirectX そのものが壊れています。 次のファイルを手動で削除してください。
+システム上の何かによって Windows モジュールが破損しています。 通常はこの場合、DirectX そのものが壊れています。 次のファイルを手動で削除してください。
 
 * C:\Windows\SysWOW64\d3dx9_43.dll
 * C:\Windows\System32\d3dx9_43.dll
 
 次に、これらを DirectX 9 インストーラーでもう一度インストールします： *C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\_CommonRedist\DirectX\Jun2010\dxsetup.exe* （正確な場所は、wallpaper_engine インストールディレクトリの場所によって異なります）。
 
-それでもエラーが出る場合は、類似した他の DirectX モジュールが何かによって破損しています。 これは通常、Windows のインストールについてより大きな問題が存在することを示しています。Wallpaper Engine を起動する前に修正する必要があります。
+それでもエラーが出る場合は、類似した他の DirectX モジュールが何かによって破損しています。 これは通常、Windows のインストールについてより大きな問題が存在することを示しています。 Wallpaper Engine を起動する前に修正する必要があります。
