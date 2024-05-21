@@ -3,8 +3,7 @@
 Wallpaper Engine permite a los creadores de fondos añadir elementos especiales a los fondos que utilizarán la carátula y el título del álbum, el título de la canción, etc. En esta guía se explicará cómo resolver problemas típicos que pueden darse debido a esta función.
 
 ::: warning
-Aviso
-Este artículo trata de una función específica de los fondos que usa carátulas de álbumes e información de las canciones. Si tienes problemas con los visualizadores de audio o si quieres limitar los visualizadores de audio a tu reproductor multimedia, consulta los artículos siguientes:
+Aviso Este artículo trata de una función específica de los fondos que usa carátulas de álbumes e información de las canciones. Si tienes problemas con los visualizadores de audio o si quieres limitar los visualizadores de audio a tu reproductor multimedia, consulta los artículos siguientes:
 
 * [Limitar visualizadores de audio a los reproductores de música](/audio/limittomusicplayer)
 * [Los visualizadores de audio no funcionan / No se detecta sonido](/audio/audiodetection)
