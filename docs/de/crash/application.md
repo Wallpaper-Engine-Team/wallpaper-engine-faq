@@ -15,7 +15,7 @@ Fast alle Abstürze die wir von unseren Anwendern erhalten können auf entweder 
 
 ## Wallpaper Engine - Schneller Lösungsversuch von Abstürzen
 
-Falls du dir nicht sicher bist, was die Abstürze von Wallpaper Engine verursachen könnte, führe bitte eine saubere Neuinstallation deiner Grafikkartentreiber durch. Dies bedeutet, dass du zunächst deine Grafikkartentreiber deinstallieren und dann die neuesten Treiber erneut installieren musst, nachdem die alten Treiber vollständig entfernt wurden. Eine Treiber bieten eine Option zur "sauberen Neuinstallation" in den erweiterten Installationseinstellungen an. Stelle sicher, dass du diese Option aktivierst um jegliche Überbleibsel von defekten Treibern zu entfernen. Du kannst die neuesten Grafikkartentreiber von allen Herstellern hier herunterladen:
+Falls du dir nicht sicher bist, was die Abstürze von Wallpaper Engine verursachen könnte, führe bitte eine saubere Neuinstallation deiner Grafikkartentreiber durch. Dies bedeutet, dass du zunächst deine Grafikkartentreiber deinstallieren und dann die neuesten Treiber erneut installieren musst, nachdem die alten Treiber vollständig entfernt wurden. Eine Treiber bieten eine Option zur "sauberen Neuinstallation" in den erweiterten Installationseinstellungen an. Du kannst die neuesten Grafikkartentreiber von allen Herstellern hier herunterladen:
 
 * [Nvidia GeForce](https://www.nvidia.de/Download/index.aspx)
 * [AMD Radeon](https://www.amd.com/support)
@@ -79,7 +79,7 @@ Dieser Fehler tritt im Normalfall durch ein Fehler in Windows selbst auf. Versuc
 
 ::: tip
 Bitte beachten
-Während der Installation sollte die Auswahl "Eine saubere Neuinstallation durchführen" ausgewählt werden. Alternativ kannst du auch deine derzeitigen Treiber erst deinstallieren bevor du die neuen Treiber installierst. Falls deine derzeitigen Treiber defekt sind, ist es wichtig dass diese zuerst vollständig entfernt werden.
+Während der Installation sollte die Auswahl "Eine saubere Neuinstallation durchführen" ausgewählt werden. Falls deine derzeitigen Treiber defekt sind, ist es wichtig dass diese zuerst vollständig entfernt werden.
 :::
 
 ### nvwgf2umx.dll / nvwgf2um.dll
@@ -90,7 +90,7 @@ Die Nvidia-Treiber auf deinem System stürzen ab. Gehe zur Nvidia-Website, lade 
 
 ::: tip
 Bitte beachten
-Während der Installation sollte die Auswahl "Eine saubere Neuinstallation durchführen" ausgewählt werden. Alternativ kannst du auch deine derzeitigen Treiber erst deinstallieren bevor du die neuen Treiber installierst. Falls deine derzeitigen Treiber defekt sind, ist es wichtig dass diese zuerst vollständig entfernt werden.
+Während der Installation sollte die Auswahl "Eine saubere Neuinstallation durchführen" ausgewählt werden. Falls deine derzeitigen Treiber defekt sind, ist es wichtig dass diese zuerst vollständig entfernt werden.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
@@ -121,7 +121,7 @@ Stelle sicher, dass Wallpaper Engine ausgeschaltet ist während Razer Synapse ne
 
 Falls das Problem nicht durch eine Neuinstallation von Razer Synapse gelöst werden kann, liegt wahrscheinlich ein Problem in Razer Synapse selbst vor. In der Vergangenheit wurde dies beispielsweise durch fehlerhafte Razer Synapse-Updates verursacht. Versuche das LED-Plugin (*"iCUE & Chroma SDK"*) im Reiter **Plugins** in den Wallpaper Engine-Einstellungen abzuschalten, bis das Problem in einem Razer Synapse-Update behoben wurde.
 
-Falls die Abstürze selbst nach einer sauberen Neuinstallation von Razer Synapse fortbestehen, kontaktiere bitte den Kundendienst von Razer direkt und informiere sie über die Abstürze. Falls sie dir nicht mit deinem Problem helfen können, kannst du uns natürlich trotzdem gerne kontaktieren. Wir können das Problem von unserer Seite aus angucken und unsere Analyse an das Razer Synapse-Team weiterleiten. Trotzdem sollte Razer der erste Ansprechpartner sein bei Abstürzen dieser Art.
+Falls die Abstürze selbst nach einer sauberen Neuinstallation von Razer Synapse fortbestehen, kontaktiere bitte den Kundendienst von Razer direkt und informiere sie über die Abstürze. Wir können das Problem von unserer Seite aus angucken und unsere Analyse an das Razer Synapse-Team weiterleiten. Trotzdem sollte Razer der erste Ansprechpartner sein bei Abstürzen dieser Art.
 
 ### MMDEvAPI.dll
 
