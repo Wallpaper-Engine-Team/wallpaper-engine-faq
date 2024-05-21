@@ -11,7 +11,7 @@ Wallpaper Engine unterstützt [**Razer Chroma**](https://www.razer.com/chroma) u
 
 Im Reiter "Plugins" in den Einstellungen von Wallpaper Engine, kannst du das Plugin namens **iCUE & Chroma SDK** finden. Du kannst dieses RGB-Plugin aktivieren oder deaktivieren, indem du das Kontrollkästchen links jeweils nach belieben einstellst. Du kannst auch auf das Zahnrad-Symbol klicken, um weitere Detail-Einstellungen vorzunehmen.
 
-Darüber hinaus kannst du auch die Unterstützung für RGB-Hardware für jeden Hintergrund einzeln einstellen. Am oberen Ende der Einstellungen jedes Hintergrundes kannst du die Option **LED-Effekte aktivieren** finden, wenn das Plugin aktiviert ist. Dies erlaubt es dir festzulegen, ob ein einzelner Hintergrund deine RGB-Lichter steuern darf.
+In seltenen Fällen kann der Ruhemodus von Windows Probleme mit RGB-Hardware verursachen, sodass diese gar nicht oder nur beschränkt in Verbindung mit Wallpaper Engine funktioniert. Wenn ein Teil oder deine gesamte RGB-Hardware nach dem Aufwachen aus dem Standby nicht mehr funktioniert, versuche die Option **Sicherer Start nach Ruhemodus** im Reiter **Allgemein** der Einstellungen von Wallpaper Engine zu aktivieren, dies behebt Probleme dieser Art für die meisten betroffenen Nutzer.
 
 ## Die RGB-Hardware wirkt zu hell
 
@@ -27,7 +27,7 @@ Wenn die *Plugin*-Sektion in den Einstellungen von Wallpaper Engine gar nicht f�
 
 ## Probleme mit RGB-Hardware nach Standby
 
-In seltenen Fällen kann der Ruhemodus von Windows Probleme mit RGB-Hardware verursachen, sodass diese gar nicht oder nur beschränkt in Verbindung mit Wallpaper Engine funktioniert. Wenn ein Teil oder deine gesamte RGB-Hardware nach dem Aufwachen aus dem Standby nicht mehr funktioniert, versuche die Option **Sicherer Start nach Ruhemodus** im Reiter **Allgemein** der Einstellungen von Wallpaper Engine zu aktivieren, dies behebt Probleme dieser Art für die meisten betroffenen Nutzer.
+In seltenen Fällen kann der Ruhemodus von Windows Probleme mit RGB-Hardware verursachen, sodass diese gar nicht oder nur beschränkt in Verbindung mit Wallpaper Engine funktioniert. Am oberen Ende der Einstellungen jedes Hintergrundes kannst du die Option **LED-Effekte aktivieren** finden, wenn das Plugin aktiviert ist. Dies erlaubt es dir festzulegen, ob ein einzelner Hintergrund deine RGB-Lichter steuern darf.
 
 Zudem kannst du noch die **Plugin-Lade-Verzögerung** am unteren Ende des Reiters **Plugins** in den Wallpaper Engine-Einstellungen benutzen, um die Verbindung zwischen deiner RGB-Hardware und Wallpaper Engine leicht zu verzögern. Du kannst beispielsweise einen Wert von **30 Sekunden** ausprobieren und schauen, ob dies dein Problem löst.
 
