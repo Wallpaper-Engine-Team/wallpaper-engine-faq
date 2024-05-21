@@ -1,6 +1,6 @@
 # Wallpaper Engine no aparece en la biblioteca de Steam
 
-Si has comprado Wallpaper Engine en Steam y no lo encuentras en la biblioteca, es posible que sea porque tienes Steam configurado para que muestre solo los **juegos**. Wallpaper Engine no es un juego, por lo que tendrás que habilitar el filtro de **Software** en las opciones de filtrado de la biblioteca. El filtro se encuentra en la parte superior de la pestaña de la biblioteca, tal y como puedes ver aquí:
+Si has comprado Wallpaper Engine en Steam y no lo encuentras en la biblioteca, es posible que sea porque tienes Steam configurado para que muestre solo los **juegos**. Wallpaper Engine no es un juego, por lo que tendrás que habilitar el filtro de **Software** en las opciones de filtrado de la biblioteca.
 
 ![Filtro de software en Steam](/img/faq/gamesandsoftware.gif)
 
