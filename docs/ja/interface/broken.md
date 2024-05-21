@@ -14,16 +14,17 @@ Wallpaper Engineブラウズウィンドウが正しく動作しない場合、�
 ::: warning
 注意 このセクションは、Wallpaper Engineの**インターフェース**が黒くなっていたり壊れていたりする場合の説明です。 **壁紙が黒い**場合はこちらをご覧ください：[画面が黒い / ビデオが再生されない](/noshow/notplaying.html)。
 :::
+:::
 
 ## Wallpaper Engineブラウザが黒または白になっている
 
-ほとんどの場合、これはWallpaper Engineのユーザーインターフェースが誤ってアンチウイルスアプリケーションにブロックされていることによって起こります。 アンチウイルスアプリケーションがWallpaper Engineを無視するように例外設定を行ってください。特にwallpaper_engineインストールディレクトリの実行可能ファイルすべて、中でも**wallpaper_engine/bin/ui32.exe**は例外にしてください。
+アンチウイルスアプリケーションがWallpaper Engineの重要なファイルを永久的にロックしている場合もあります。 このときは、あとでWallpaper Engineファイルを検証したり、Wallpaper Engineを再インストールしたりする必要があります。
 
 アンチウイルスアプリケーションがWallpaper Engineの重要なファイルを永久的にロックしている場合もあります。このときは、あとでWallpaper Engineファイルを検証したり、Wallpaper Engineを再インストールしたりする必要があります。
 
 * [Steam サポート：アプリケーションファイルの整合性確認](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 
-アンチウイルスアプリケーションの設定後、Steamによる確認で問題が解決しない場合は、SteamからWallpaper Engineを再インストールしてみてください。 アンチウイルスが暴走した場合は、Wallpaper Engineが使用するファイルパスを永久的にブロックしてしまっていることがあります。 その場合はまずアンチウイルスをアンインストールしてから、Wallpaper Engineを別のディレクトリにインストールしてください。ディレクトリはSteamで新しいSteamゲームライブラリを作ると変更できます。
+アンチウイルスアプリケーションの設定後、Steamによる確認で問題が解決しない場合は、SteamからWallpaper Engineを再インストールしてみてください。 アンチウイルスが暴走した場合は、Wallpaper Engineが使用するファイルパスを永久的にブロックしてしまっていることがあります。 その場合はまずアンチウイルスをアンインストールしてから、Wallpaper Engineを別のディレクトリにインストールしてください。 ディレクトリはSteamで新しいSteamゲームライブラリを作ると変更できます。
 
 それでも問題が解消しない場合はWallpaper Engineを終了します。 その後、Steamで「セーフモードのユーザーインターフェース」と書かれた3番目の起動オプションを使ってWallpaper Engineを再起動します。
 
@@ -37,7 +38,7 @@ Wallpaper Engineブラウズウィンドウが正しく動作しない場合、�
 
 **Wallpaper Engineのユーザーインターフェースに白い線が入る場合**：**Nvidiaの画面のシャープ化**がすべてのアプリケーションに対してオンになっています。 Nvidiaドライバでそれをオフにするか、現在のバージョンをまずアンインストールしたあとで、Nvidiaドライバをクリーン再インストールしてください。
 
-![Nvidiaの画面のシャープ化に関する問題](./imagesharpening.png) *間違ってWallpaper Engineに対してNvidiaの画面のシャープ化がオンになっている場合、アプリケーションウィンドウの全体に白い線が入ります。*
+![Nvidiaの画面のシャープ化に関する問題](./imagesharpening.png) *間違ってWallpaper Engineに対してNvidiaの画面のシャープ化がオンになっている場合、アプリケーションウィンドウの全体に白い線が入ります。 *
 
 ### 珍しいSteamオーバーレイバグによってWallpaper Engineユーザーインターフェースが破損している
 
