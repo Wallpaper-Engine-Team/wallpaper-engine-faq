@@ -86,7 +86,7 @@ Schaltet die Tonwiedergabe aller Hintergründe wieder an.
 
 ### Hintergrund öffnen
 
-Lädt einen neuen Hintergrund für einen angegebenen Bildschirm (oder den ersten Bildschirm wenn keiner angegeben wurde). Du kannst entweder jeweils die Parameter `location` oder `monitor` verwenden, um zu entscheiden auf welchem Bildschirm der Hintergrund erscheinen soll. Alternative kannst du den Hintergrund auch in einem Fenster mit dem Parameter `playInWindow` öffnen.
+Lädt einen neuen Hintergrund für einen angegebenen Bildschirm (oder den ersten Bildschirm wenn keiner angegeben wurde). Du kannst entweder jeweils die Parameter location oder monitor verwenden, um zu entscheiden auf welchem Bildschirm der Hintergrund erscheinen soll.
 
 ``` powershell
 -control openWallpaper -file <string> [-location <string>] [-monitor <number>]
@@ -127,7 +127,7 @@ Entfernt einen Hintergrund von einem angegebenen Bildschirm oder Fenster, entfer
 
 ### Wiedergabeliste öffnen
 
-Lädt einen neuen Hintergrund für einen angegebenen Bildschirm (oder den ersten Bildschirm wenn keiner angegeben wurde). Du kannst entweder jeweils die Parameter location oder monitor verwenden, um zu entscheiden auf welchem Bildschirm der Hintergrund erscheinen soll.
+Lädt einen neuen Hintergrund für einen angegebenen Bildschirm (oder den ersten Bildschirm wenn keiner angegeben wurde). Du kannst entweder jeweils die Parameter `location` oder `monitor` verwenden, um zu entscheiden auf welchem Bildschirm der Hintergrund erscheinen soll.
 
 ``` powershell
 -control openPlaylist -playlist <string> [-location <string>] [-monitor <number>]
