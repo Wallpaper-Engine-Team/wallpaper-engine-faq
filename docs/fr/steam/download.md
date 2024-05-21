@@ -10,7 +10,7 @@ tags:
 
 # Problèmes de téléchargement des fonds d'écran sur Steam
 
-Les téléchargements passent tous par **la plateforme de Steam**. Wallpaper Engine n'affiche que l'état de téléchargement de Steam. Tous les problèmes de téléchargement sont liés à Steam et ne sont pas à Wallpaper Engine. Ce guide contient une sélection des problèmes les plus courants. Dans de nombreux cas, la cause initiale de ces problèmes est une application antivirus trop zélée ou des ports réseau bloqués.
+Les téléchargements passent tous par **la plateforme de Steam**. Wallpaper Engine n'affiche que l'état de téléchargement de Steam. Tous les problèmes de téléchargement sont liés à Steam et ne sont pas à Wallpaper Engine. Dans de nombreux cas, la cause initiale de ces problèmes est une application antivirus trop zélée ou des ports réseau bloqués.
 
 Si vous rencontrez des problèmes de téléchargement avec Steam, assurez-vous qu'aucun antivirus ou pare-feu ne bloque Steam , y compris les pare-feu de vos routeurs.
 
