@@ -7,7 +7,7 @@ tags:
 
 # Contacto
 
-Si tienes algún problema técnico con Wallpaper Engine, intenta leer las preguntas frecuentes antes, ya que la mayoría de preguntas que recibimos se pueden solucionar al leerlas.
+Si tienes algún problema técnico con Wallpaper Engine, intenta leer las preguntas frecuentes antes, ya que la mayoría de preguntas que recibimos se pueden solucionar al leerlas. ya que la mayoría de preguntas que recibimos se pueden solucionar al leerlas.
 
 También puedes consultar nuestro foro de discusiones de Steam, pues intentamos contestar a todo el mundo y casi todas las preguntas se han resuelto ahí:
 
