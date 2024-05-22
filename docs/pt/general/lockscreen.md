@@ -6,11 +6,11 @@ tags:
 
 # Wallpaper Engine no ecrã de bloqueio do Windows
 
-The Windows login screen is not meant to be modified as a design decision by Microsoft. Making changes to it essentially requires hacking Windows in an unsafe and unstable manner. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
+O ecrã de início de sessão do Windows não pode ser modificado por decisão de design da Microsoft. Fazer alterações no mesmo implica essencialmente "hackear" o Windows, tornando-o inseguro e instável. Isto significa que, se uma atualização do Windows modificar o ecrã de bloqueio ou se a aplicação bloquear, poderás ver-te impedido de iniciar sessão no teu computador por completo. A funcionalidade poderia potencialmente deixar de funcionar a qualquer altura, com efeitos secundários imprevisíveis.
 
-If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
+Se a Microsoft tornar isto possível oficialmente ou se descobrirmos uma forma segura de adicionar wallpapers animados ao ecrã de bloqueio do Windows, nesse caso implementaremos esta funcionalidade. De momento, não existe nenhuma forma segura de fazê-lo, e é por isso que os wallpapers animados não podem ser atribuídos ao ecrã de bloqueio pelo Wallpaper Engine.
 
-## Setting a static wallpaper
+## Definir um wallpaper estático
 
 No entanto, continua a poder configurar o Wallpaper Engine de forma a substituir a imagem estática do ecrã de bloqueio por uma imagem do seu wallpaper animado atual. Para o fazer, ative a opção **Substituir imagem do ecrã de bloqueio** no separador **Gerais** das definições do Wallpaper Engine.
 
