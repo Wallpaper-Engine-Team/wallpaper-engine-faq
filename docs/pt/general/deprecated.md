@@ -1,20 +1,20 @@
-# Reverting to an older version of Wallpaper Engine
+# Reverter para uma versão mais antiga do Wallpaper Engine
 
-With the release of Wallpaper Engine 2.5, support for Windows 7 and Windows 8 has ended. Additionally, some older editor projects can also only be fully edited with older versions of Wallpaper Engine.
+Com o lançamento do Wallpaper Engine 2.5, o suporte para o Windows 7 e o Windows 8 chegou ao fim. Além disso, alguns projetos do editor mais antigos também só poderão ser editados por completo em versões mais antigas do Wallpaper Engine.
 
-You can still access an outdated version of Wallpaper Engine via Steam to regain access to these features.
+Ainda é possível aceder a uma versão desatualizada do Wallpaper Engine através do Steam para recuperar o acesso a estas funcionalidades.
 
-## Opting into the older compatibility branch
+## Aceder ao ramo de compatibilidade mais antigo
 
-To revert back to Wallpaper Engine 2.4, follow these steps:
+Segue estes passos para reverter para o Wallpaper Engine 2.4:
 
-1. Right-click on Wallpaper Engine in Steam and select **Properties**.
-2. In the new window that appears, click on the **Betas** tab.
-3. For the **Beta participation** option, select the version labelled `Windows 7 support`.
-4. Close the settings window. Steam will now automatically download Wallpaper Engine 2.4.
+1. Clica com o botão direito do rato no Wallpaper Engine no Steam e escolhe **Propriedades**.
+2. Na nova janela que vai surgir, clica no separador **Betas**.
+3. Para a opção **Participação na beta**, seleciona a versão `Windows 7 support`.
+4. Fecha a janela das definições. Agora, o Steam irá transferir automaticamente o Wallpaper Engine 2.4.
 
-![Steam Beta Settings](/img/faq/windows7support.jpg)
+![Definições beta do Steam](/img/faq/windows7support.jpg)
 
-## Reverting back to the latest version
+## Regressar à versão mais recente
 
-To revert back to the latest version of the app, follow the steps in the previous section. However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
+Para regressar à versão mais recente da aplidação, segue os passos na secção anterior. However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
