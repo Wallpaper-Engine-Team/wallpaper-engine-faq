@@ -1,20 +1,20 @@
-# Reverting to an older version of Wallpaper Engine
+# 恢复到较早版本的 Wallpaper Engine
 
-With the release of Wallpaper Engine 2.5, support for Windows 7 and Windows 8 has ended. Additionally, some older editor projects can also only be fully edited with older versions of Wallpaper Engine.
+随着 Wallpaper Engine 2.5 的发布，后续版本将不再支持 Windows 7 和 Windows 8。 此外，一些较早的编辑器项目也只能通过较早版本的 Wallpaper Engine 才能进行完全编辑。
 
-You can still access an outdated version of Wallpaper Engine via Steam to regain access to these features.
+您仍然可以通过 Steam 访问过期版本的 Wallpaper Engine，从而再次获得这些功能的使用权限。
 
-## Opting into the older compatibility branch
+## 选择使用较早的兼容性分支
 
-To revert back to Wallpaper Engine 2.4, follow these steps:
+要恢复到 Wallpaper Engine 2.4，请按以下步骤操作：
 
-1. Right-click on Wallpaper Engine in Steam and select **Properties**.
-2. In the new window that appears, click on the **Betas** tab.
-3. For the **Beta participation** option, select the version labelled `Windows 7 support`.
-4. Close the settings window. Steam will now automatically download Wallpaper Engine 2.4.
+1. 在 Steam 中右键单击 Wallpaper Engine，然后选择**属性**。
+2. 在出现的新窗口中点击 **Betas** 选项卡。
+3. 在**参与 Beta** 选项中，选择标记为 `Windows 7 support` 的版本。
+4. 关闭设置窗口。 Steam 现在将自动下载 Wallpaper Engine 2.4。
 
-![Steam Beta Settings](/img/faq/windows7support.jpg)
+![Steam Beta 设置](/img/faq/windows7support.jpg)
 
-## Reverting back to the latest version
+## 恢复到最新版本
 
-To revert back to the latest version of the app, follow the steps in the previous section. However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
+要恢复回本应用的最新版本，请按照上一部分列举的步骤进行操作。 However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
