@@ -1,20 +1,20 @@
-# Reverting to an older version of Wallpaper Engine
+# 旧バージョンのWallpaper Engineに戻す
 
-With the release of Wallpaper Engine 2.5, support for Windows 7 and Windows 8 has ended. Additionally, some older editor projects can also only be fully edited with older versions of Wallpaper Engine.
+Wallpaper Engine 2.5のリリースに伴い、Windows 7およびWindows 8のサポートは終了しました。  さらに、古いエディタプロジェクトの完全な編集が可能なのは、旧バージョンのWallpaper Engineのみとなります。
 
-You can still access an outdated version of Wallpaper Engine via Steam to regain access to these features.
+ただし、Steamから旧バージョンのWallpaper Engineにアクセスし、これらの機能を使用することは可能です。
 
-## Opting into the older compatibility branch
+## 古い互換性ブランチを使用する
 
-To revert back to Wallpaper Engine 2.4, follow these steps:
+Wallpaper Engine 2.4に戻すには、次の手順に従ってください。
 
-1. Right-click on Wallpaper Engine in Steam and select **Properties**.
-2. In the new window that appears, click on the **Betas** tab.
-3. For the **Beta participation** option, select the version labelled `Windows 7 support`.
-4. Close the settings window. Steam will now automatically download Wallpaper Engine 2.4.
+1. SteamでWallpaper Engineを右クリックし、**プロパティ**を選択します。
+2. 新しく表示された画面で**ベータ**タブをクリックします。
+3. **ベータへの参加**のオプションで、`Windows 7 support`と書かれたバージョンを選択します。
+4. 設定画面を閉じます。 Steamが自動的にWallpaper Engine 2.4をダウンロードします。
 
-![Steam Beta Settings](/img/faq/windows7support.jpg)
+![Steamのベータ設定](/img/faq/windows7support.jpg)
 
-## Reverting back to the latest version
+## 最新バージョンに戻す
 
-To revert back to the latest version of the app, follow the steps in the previous section. However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
+アプリを最新バージョンに戻すには、前のセクションの手順に従ってください。 ただし、`Windows 7 support`のバージョンではなく、ベータの参加リストから**None**を選択してください。
