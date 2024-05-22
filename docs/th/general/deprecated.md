@@ -1,20 +1,20 @@
-# Reverting to an older version of Wallpaper Engine
+# การเปลี่ยนกลับไปใช้ Wallpaper Engine เวอร์ชันเก่า
 
-With the release of Wallpaper Engine 2.5, support for Windows 7 and Windows 8 has ended. Additionally, some older editor projects can also only be fully edited with older versions of Wallpaper Engine.
+เนื่องจาก Wallpaper Engine 2.5 ได้ทำการเปิดตัว การรองรับ Windows 7 และ Windows 8 จึงได้สิ้นสุดลงแล้ว นอกจากนี้ โปรเจกต์ตัวแก้ไขรุ่นเก่าบางอย่างยังแก้ไขได้อย่างสมบูรณ์ได้บน Wallpaper Engine เวอร์ชันเก่าเท่านั้น
 
-You can still access an outdated version of Wallpaper Engine via Steam to regain access to these features.
+คุณยังคงเข้าถึง Wallpaper Engine เวอร์ชันเก่าผ่าน Steam เพื่อเข้าถึงคุณสมบัติเหล่านี้อีกครั้งได้
 
-## Opting into the older compatibility branch
+## การเลือกแขนงความเข้ากันได้แบบเก่า
 
-To revert back to Wallpaper Engine 2.4, follow these steps:
+ทำตามขั้นตอนเหล่านี้เพื่อเปลี่ยนกลับเป็น Wallpaper Engine 2.4:
 
-1. Right-click on Wallpaper Engine in Steam and select **Properties**.
-2. In the new window that appears, click on the **Betas** tab.
-3. For the **Beta participation** option, select the version labelled `Windows 7 support`.
-4. Close the settings window. Steam will now automatically download Wallpaper Engine 2.4.
+1. คลิกขวาที่ Wallpaper Engine ใน Steam แล้วเลือก**คุณสมบัติ**
+2. หน้าต่างใหม่จะปรากฏขึ้น ให้คลิกแท็บ**เบต้า**
+3. สำหรับตัวเลือก**การเข้าร่วมเบต้า** ให้เลือกเวอร์ชันที่มีการกำกับว่า`รองรับ Windows 7`
+4. ปิดหน้าต่างการตั้งค่า ตอนนี้ Steam จะดาวน์โหลด Wallpaper Engine 2.4 โดยอัตโนมัติ
 
-![Steam Beta Settings](/img/faq/windows7support.jpg)
+![การตั้งค่า Steam เบต้า](/img/faq/windows7support.jpg)
 
-## Reverting back to the latest version
+## เปลี่ยนกลับเป็นเวอร์ชันล่าสุด
 
-To revert back to the latest version of the app, follow the steps in the previous section. However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
+ในการเปลี่ยนกลับเป็นแอปเวอร์ชันล่าสุด ให้ทำตามขั้นตอนในส่วนก่อนหน้า แต่แทนที่จะเลือกเวอร์ชัน`รองรับ Windows 7` ให้เลือก**ไม่มี**จากรายการการเข้าร่วมเบต้า
