@@ -17,4 +17,4 @@
 
 ## 恢复到最新版本
 
-要恢复回本应用的最新版本，请按照上一部分列举的步骤进行操作。 However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
+要恢复回本应用的最新版本，请按照上一部分列举的步骤进行操作。 不过请在参与 Beta 列表中选择**无**，不要选择 `Windows 7 support` 。
