@@ -1,6 +1,6 @@
 # Wallpaper Engine'in eski bir sürümüne geri dönme
 
-Wallpaper Engine 2.5'in yayınlanmasıyla Windows 7 ve Windows 8 desteği sona ermiş bulunmaktadır. Ayrıca bazı eski editör projeleri de yalnızca eski Wallpaper Engine sürümleriyle tamamen düzenlenebilir.
+Wallpaper Engine 2.5'in yayınlanmasıyla Windows 7 ve Windows 8 desteği sona ermiş bulunmaktadır. Ayrıca bazı eski düzenleyici projeleri de yalnızca eski Wallpaper Engine sürümleriyle tamamen düzenlenebilir.
 
 Bu özelliklere tekrar ulaşmak için Steam üzerinden eski Wallpaper Engine sürümlerine erişebilirsiniz.
 
