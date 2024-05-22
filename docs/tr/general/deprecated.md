@@ -1,20 +1,20 @@
-# Reverting to an older version of Wallpaper Engine
+# Wallpaper Engine'in eski bir sürümüne geri dönme
 
-With the release of Wallpaper Engine 2.5, support for Windows 7 and Windows 8 has ended. Additionally, some older editor projects can also only be fully edited with older versions of Wallpaper Engine.
+Wallpaper Engine 2.5'in yayınlanmasıyla Windows 7 ve Windows 8 desteği sona ermiş bulunmaktadır. Ayrıca bazı eski editör projeleri de yalnızca eski Wallpaper Engine sürümleriyle tamamen düzenlenebilir.
 
-You can still access an outdated version of Wallpaper Engine via Steam to regain access to these features.
+Bu özelliklere tekrar ulaşmak için Steam üzerinden eski Wallpaper Engine sürümlerine erişebilirsiniz.
 
-## Opting into the older compatibility branch
+## Eski uyumluluk sürümünü seçme
 
-To revert back to Wallpaper Engine 2.4, follow these steps:
+Wallpaper Engine 2.4'e geri dönmek için şu adımları takip edin:
 
-1. Right-click on Wallpaper Engine in Steam and select **Properties**.
-2. In the new window that appears, click on the **Betas** tab.
-3. For the **Beta participation** option, select the version labelled `Windows 7 support`.
-4. Close the settings window. Steam will now automatically download Wallpaper Engine 2.4.
+1. Steam'de Wallpaper Engine'in üzerine sağ tıklayıp **Özellikler**i seçin.
+2. Açılan pencerede **Betalar** sekmesine tıklayın.
+3. **Beta katılımı** seçeneği için `Windows 7 support` etiketli sürümü seçin.
+4. Ayarlar penceresini kapatın. Steam otomatik olarak Wallpaper Engine 2.4'ü indirecektir.
 
-![Steam Beta Settings](/img/faq/windows7support.jpg)
+![Steam Beta Ayarları](/img/faq/windows7support.jpg)
 
-## Reverting back to the latest version
+## Son sürüme geri dönme
 
-To revert back to the latest version of the app, follow the steps in the previous section. However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
+Uygulamanın son sürümüne geri dönmek için önceki kısımdaki adımları takip edin. However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
