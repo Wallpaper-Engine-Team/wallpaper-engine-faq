@@ -17,4 +17,4 @@ Wallpaper Engine 2.4'e geri dönmek için şu adımları takip edin:
 
 ## Son sürüme geri dönme
 
-Uygulamanın son sürümüne geri dönmek için önceki kısımdaki adımları takip edin. However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
+Uygulamanın son sürümüne geri dönmek için önceki kısımdaki adımları takip edin. Ancak `Windows 7 support` sürümü yerine, beta katılım listesinden **Hiçbiri** seçeneğini seçin.
