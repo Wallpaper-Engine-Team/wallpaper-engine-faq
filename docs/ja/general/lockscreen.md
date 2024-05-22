@@ -6,11 +6,11 @@ tags:
 
 # Windowsのロック画面でのWallpaper Engine
 
-The Windows login screen is not meant to be modified as a design decision by Microsoft. Making changes to it essentially requires hacking Windows in an unsafe and unstable manner. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
+Windowsのログイン画面はMicrosoftにより決定されたデザインのため、編集できません。 編集は実質的に、Windowsに対する危険で不安定なハッキング行為となります。 つまり、Windowsのアップデートがロック画面を編集、またはアプリがクラッシュした場合、コンピュータへ完全にログインできなくなる場合があるということです。 この機能はいついかなる時も動作を停止し、予期できない副作用を引き起こす場合があります。
 
-If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
+Microsoftが正式にこれを可能にするか、弊社がWindowsのロック画面にライブ壁紙を安全に追加する方法を発見した場合は、本機能を実装します。 これを安全に実現可能な方法は知られていないため、Wallpaper Engineでロック画面にライブ壁紙を設定することはできません。
 
-## Setting a static wallpaper
+## 静止画の壁紙を設定する
 
 しかし、Wallpaper Engineの設定を変更すれば、現在のライブ壁紙の一部分を利用してロック画面の静止画を上書きすることも可能です。 これを実行するには、Wallpaper Engine側の設定画面の**一般**タブから**ロック画面画像の上書き**を有効にしてください。
 
