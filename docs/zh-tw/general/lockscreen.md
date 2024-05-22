@@ -6,11 +6,11 @@ tags:
 
 # Windows 鎖定畫面設定為 Wallpaper Engine 桌布
 
-The Windows login screen is not meant to be modified as a design decision by Microsoft. Making changes to it essentially requires hacking Windows in an unsafe and unstable manner. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
+作為 Microsoft 的一項設計決定，Windows 登入畫面是不可修改的。 如要對其進行修改，基本上需要以不安全、不穩定的方式入侵 Windows。 這表示，如果 Windows 更新修改了鎖定畫面或應用程式發生當機，你將完全無法登入電腦。 該功能有可能隨時停止運作，造成無法預知的副作用。
 
-If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
+如果 Microsoft 正式允許實現該功能，或者我們發現了在 Windows 鎖定畫面中新增動態桌布的安全方法，我們將會實施該功能。 目前，還沒有已知的安全方法來實現這一功能，因此 Wallpaper Engine 無法在鎖定畫面上設定動態桌布。
 
-## Setting a static wallpaper
+## 設定靜態桌布
 
 然而，您仍可設定 Wallpaper Engine 以使用目前動態桌布的快照來覆寫靜態鎖定畫面圖像。 請至 Wallpaper Engine 設定的**一般**分頁啟用**覆寫鎖定畫面圖像**選項。
 
