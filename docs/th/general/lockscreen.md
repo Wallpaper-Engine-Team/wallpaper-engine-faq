@@ -6,11 +6,11 @@ tags:
 
 # Wallpaper Engine บนหน้าจอล็อกของ Windows
 
-The Windows login screen is not meant to be modified as a design decision by Microsoft. Making changes to it essentially requires hacking Windows in an unsafe and unstable manner. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
+หน้าจอเข้าสู่ระบบ Windows ไม่ได้มีไว้เพื่อแก้ไขตามการตัดสินใจออกแบบของ Microsoft การเปลี่ยนแปลงนั้นจำเป็นต้องทำการ "แฮ็ก" Windows ซึ่งทำให้เกิดความไม่ปลอดภัยและไม่เสถียร ซึ่งหมายความว่าหากการอัปเดต Windows แก้ไขหน้าจอล็อกหรือหากแอปขัดข้อง คุณจะไม่สามารถเข้าสู่ระบบคอมพิวเตอร์ทั้งหมดของคุณได้ คุณลักษณะนี้อาจหยุดทำงานเมื่อใดก็ได้ โดยทำให้เกิดผลข้างเคียงที่ไม่อาจคาดเดาได้
 
-If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
+หาก Microsoft อนุญาตให้กระทำการนี้ได้อย่างเป็นทางการ หรือหากเราพบวิธีการเพิ่มวอลเปเปอร์เคลื่อนไหวที่ปลอดภัยให้กับหน้าจอล็อกของ Windows ได้ เราจะนำคุณสมบัตินี้มาใช้ ขณะนี้การกระทำดังกล่าวยังไม่มีวิธีการที่ปลอดภัย ซึ่งนั่นคือสาเหตุที่ Wallpaper Engine ไม่สามารถติดตั้งวอลเปเปอร์ภาพเคลื่อนไหวให้กับหน้าจอล็อกได้
 
-## Setting a static wallpaper
+## การติดตั้งวอลเปเปอร์แบบภาพนิ่ง
 
 แต่คุณยังสามารถกำหนดค่า Wallpaper Engine เพื่อแทนที่รูปภาพหน้าจอล็อกแบบภาพนิ่งด้วยภาพบันทึกวอลเปเปอร์ภาพเคลื่อนไหวปัจจุบันของคุณได้ โดยเปิดใช้งานตัวเลือก**แทนที่รูปภาพหน้าจอล็อก**ในแท็บ**ทั่วไป** ของการตั้งค่า Wallpaper Engine
 
