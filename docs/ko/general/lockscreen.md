@@ -6,11 +6,11 @@ tags:
 
 # Windows 잠금 화면에서 Wallpaper Engine
 
-The Windows login screen is not meant to be modified as a design decision by Microsoft. Making changes to it essentially requires hacking Windows in an unsafe and unstable manner. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
+Windows 로그인 화면은 Microsoft의 결정에 따라 수정할 수 없게 되어 있습니다. 로그인 화면을 바꾸려면 안전하지 않고 불안정한 방식으로 Windows를 해킹해야 합니다. Windows 업데이트로 잠금 화면이 변경되거나 앱 작동이 중단되면 컴퓨터에 접속 자체가 불가능하게 된다는 뜻입니다. 이 기능은 언제든 작동이 중단되어 예측할 수 없는 부작용을 일으킬 수 있습니다.
 
-If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
+Microsoft가 공식으로 변경을 허용하거나 Windows 잠금 화면에 라이브 배경화면을 안전하게 추가하는 방법을 찾게 되면 해당 기능을 구현할 예정입니다. 현재는 해당 기능을 구현할 수 있는 안전한 방법이 알려진 바가 없기 때문에 잠금 화면에 Wallpaper Engine의 라이브 배경화면을 설정할 수 없습니다.
 
-## Setting a static wallpaper
+## 정적 배경화면 설정
 
 하지만 Wallpaper Engine이 정적 잠금 화면 이미지를 자신의 현재 라이브 배경화면의 스냅샷으로 덮어쓰도록 설정할 수 있습니다. 그러려면 Wallpaper Engine 설정의 **일반** 탭에서 **잠금 화면 이미지 오버라이드** 옵션을 사용하세요.
 
