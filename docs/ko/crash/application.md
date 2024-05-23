@@ -117,7 +117,7 @@ Razer Synapse를 재설치하는 동안 반드시 Wallpaper Engine이 꺼져있�
 
 **재설치로 문제가 해결되지 않을 시**
 
-Razer Synapse를 재설치해도 문제가 해결되지 않았다면, Razer Synapse 자체에 근본적으로 문제가 있을지도 모릅니다. 과거 잘못된 Razer Synapse 업데이트로 인해 발생한 사례가 있습니다. Razer Synapse 업데이트로 해당 문제가 고쳐질 때까지 Wallpaper Engine 설정 메뉴의 **플러그인** 탭에서 LED 플러그인(*"iCUE & Chroma SDK"*)을 비활성화한 후 시도해보십시오.
+Razer Synapse를 재설치해도 문제가 해결되지 않았다면, Razer Synapse 자체에 근본적으로 문제가 있을지도 모릅니다. 과거 잘못된 Razer Synapse 업데이트로 인해 발생한 사례가 있습니다. Razer Synapse 업데이트로 해당 문제가 고쳐질 때까지 Wallpaper Engine 설정 메뉴의 **플러그인** 탭에서 LED 플러그인(*"iCUE & Chroma SDK"*)을 비활성화한 후 시도해 보십시오.
 
 Razer Synapse를 완전히 재설치해도 작동 중단이 계속된다면, Razer 고객지원에 직접 연락하여 문제를 보고하십시오. Razer 측에서 해결하지 못했다면, 저희에게 연락하십시오. 이 작동 중단의 경우 Razer에게 문의하셔야 하지만, 저희 측에서 해당 작동 중단을 조사한 후 결과를 Razer Synapse 개발진 측에 전달할 수는 있습니다.
 
