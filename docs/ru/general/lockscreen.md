@@ -6,11 +6,11 @@ tags:
 
 # Wallpaper Engine на экране блокировки Windows
 
-The Windows login screen is not meant to be modified as a design decision by Microsoft. Making changes to it essentially requires hacking Windows in an unsafe and unstable manner. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
+Microsoft запрещает изменять дизайн экрана входа в Windows. Making changes to it essentially requires hacking Windows in an unsafe and unstable manner. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
 
 If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
 
-## Setting a static wallpaper
+## Установка статических обоев
 
 Однако вы можете настроить Wallpaper Engine таким образом, чтобы скриншот с вашими живыми обоями перекрывал статическое изображение на экране блокировки. Чтобы это сделать, включите опцию **«Перекрывать изображение на экране блокировки»** на вкладке **«Общее»** в настройках Wallpaper Engine.
 
