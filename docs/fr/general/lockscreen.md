@@ -6,9 +6,9 @@ tags:
 
 # Wallpaper Engine sur l'écran de verrouillage Windows
 
-The Windows login screen is not meant to be modified as a design decision by Microsoft. Making changes to it essentially requires hacking Windows in an unsafe and unstable manner. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
+L'écran de connexion de Windows n'est pas destiné à être modifié, car il s'agit d'une décision de conception de Microsoft. Pour y apporter des modifications, il faudrait modifier Windows d'une manière instable et dangereuse. Cela signifie que si une mise à jour de Windows modifie l'écran de verrouillage ou si l'application ne fonctionne plus, vous ne pourrez plus vous connecter à votre ordinateur. La fonction pourrait potentiellement cesser de fonctionner à tout moment, entraînant des effets secondaires imprévisibles.
 
-If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
+Si Microsoft rend officiellement cela possible ou si nous découvrons un moyen sûr d'ajouter des fonds d'écran vivants à l'écran de verrouillage de Windows, nous mettrons en œuvre cette fonctionnalité. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
 
 ## Setting a static wallpaper
 
