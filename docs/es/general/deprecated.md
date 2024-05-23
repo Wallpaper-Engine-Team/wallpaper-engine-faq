@@ -1,20 +1,20 @@
-# Reverting to an older version of Wallpaper Engine
+# Volver a una versión antigua de Wallpaper Engine
 
-With the release of Wallpaper Engine 2.5, support for Windows 7 and Windows 8 has ended. Additionally, some older editor projects can also only be fully edited with older versions of Wallpaper Engine.
+Con el lanzamiento de Wallpaper Engine 2.5, el programa ya no es compatible con Windows 7 y Windows 8. Además, algunos proyectos de editores anteriores solo se pueden editar con versiones antiguas de Wallpaper Engine.
 
-You can still access an outdated version of Wallpaper Engine via Steam to regain access to these features.
+Aún puedes acceder a una versión desactualizada de Wallpaper Engine en Steam, que tiene acceso a todas estas funciones.
 
-## Opting into the older compatibility branch
+## Optar por la gama de compatibilidad más antigua
 
-To revert back to Wallpaper Engine 2.4, follow these steps:
+Para volver a Wallpaper Engine 2.4, sigue estos pasos:
 
-1. Right-click on Wallpaper Engine in Steam and select **Properties**.
-2. In the new window that appears, click on the **Betas** tab.
-3. For the **Beta participation** option, select the version labelled `Windows 7 support`.
-4. Close the settings window. Steam will now automatically download Wallpaper Engine 2.4.
+1. Haz clic derecho en Wallpaper Engine dentro de Steam y selecciona **Propiedades**.
+2. En la ventana nueva que aparece, haz clic en la pestaña **Betas**.
+3. Para la opción **Participar en la Beta**, selecciona la versión llamada `Windows 7 support`.
+4. Cierra la ventana de agustes. Steam descargará automáticamente Wallpaper Engine 2.4.
 
-![Steam Beta Settings](/img/faq/windows7support.jpg)
+![Ajustes de las betas de Steam](/img/faq/windows7support.jpg)
 
-## Reverting back to the latest version
+## Volver a la última versión
 
-To revert back to the latest version of the app, follow the steps in the previous section. However, instead of the `Windows 7 support` version, select **None** from the beta participation list.
+Para volver a la última versión de la aplicación, sigue los pasos de la sección anterior. Sin embargo, en vez de la versión `Windows 7 support`, selecciona **None** en la lista de participaciones beta.
