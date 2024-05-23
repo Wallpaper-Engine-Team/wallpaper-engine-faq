@@ -1,4 +1,4 @@
-# Reverting to an older version of Wallpaper Engine
+# Wallpaper Engine 구형 버전으로 돌아가기
 
 With the release of Wallpaper Engine 2.5, support for Windows 7 and Windows 8 has ended. Additionally, some older editor projects can also only be fully edited with older versions of Wallpaper Engine.
 
