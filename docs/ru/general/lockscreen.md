@@ -6,9 +6,9 @@ tags:
 
 # Wallpaper Engine на экране блокировки Windows
 
-Microsoft запрещает изменять дизайн экрана входа в Windows. Для внесения в него изменений, по сути, требуется взлом Windows, что может привести к нарушению безопасности и нестабильной работе. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
+Microsoft запрещает изменять дизайн экрана входа в Windows. Для внесения в него изменений, по сути, требуется взлом Windows, что может привести к нарушению безопасности и нестабильной работе. Это значит, что если обновление Windows изменит экран блокировки или произойдет сбой приложения, вы не сможете нормально войти в свой компьютер. Эта функция также может перестать работать в любой момент, что приведет к непредсказуемым последствиям.
 
-If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
+Если Microsoft официально разрешит это или если мы найдем безопасный способ добавления живых обоев на экран блокировки Windows, мы добавим эту функцию. Сейчас у нас нет известных безопасных способов сделать это, поэтому с помощью Wallpaper Engine невозможно установить живые обои на экран блокировки.
 
 ## Установка статических обоев
 
