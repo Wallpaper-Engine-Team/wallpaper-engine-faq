@@ -6,11 +6,11 @@ tags:
 
 # Wallpaper Engine en la pantalla de bloqueo de Windows
 
-The Windows login screen is not meant to be modified as a design decision by Microsoft. Making changes to it essentially requires hacking Windows in an unsafe and unstable manner. This means that if a Windows update modifies the lock screen or if the app crashes, you would be unable to login to your computer entirely. The feature could potentially stop working at any time, causing unpredictable side effects.
+La pantalla de inicio de sesión de Windows no se puede modificar por decisión de diseño de Microsoft. Implementar cambios requiere hackear Windows de una forma poco segura e inestable. Esto significa que, si una actualización de Windows modifica la pantalla de bloqueo o si la aplicación se cierra sola, no podrás iniciar sesión en tu ordenador de ninguna manera. La función podría dejar de funcionar en cualquier momento, provocando efectos secundarios impredecibles.
 
-If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
+Si Microsoft hace esto posible se forma oficial o si descubrimos una forma segura de incorporar fondos animados a la pantalla de bloqueo de Windows, lo implementaremos. En estos momentos no hay ninguna forma segura de realizarlo, por eso Wallpaper Engine no puede establecer los fondos en la pantalla de bloqueo.
 
-## Setting a static wallpaper
+## Establecer un fondo estático
 
 Sin embargo, puedes configurar Wallpaper Engine para que sustituya la imagen estática de la pantalla de bloqueo por una captura de pantalla de tu fondo de pantalla. Solo tienes que activar la opción **Reemplazar imagen de la pantalla de bloqueo** en la pestaña **General** de la configuración de Wallpaper Engine.
 
