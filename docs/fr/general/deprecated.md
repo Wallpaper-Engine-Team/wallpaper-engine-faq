@@ -17,4 +17,4 @@ Pour revenir à Wallpaper Engine 2.4, procédez comme suit :
 
 ## Revenir à la version la plus récente
 
-Pour revenir à la version la plus récente de l'application, suivez les étapes de la section précédente. Cependant, au lieu de la version de support de `Windows 7 support`, sélectionnez **None** dans la liste de participation à la version bêta.
+Pour revenir à la version la plus récente de l'application, suivez les étapes de la section précédente. Cependant, au lieu de la version de `Windows 7 support`, sélectionnez **None** dans la liste de participation à la version bêta.
