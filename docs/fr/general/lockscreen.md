@@ -6,7 +6,11 @@ tags:
 
 # Wallpaper Engine sur l'écran de verrouillage Windows
 
-L'écran de verrouillage de Windows est une zone protégée de Windows qui n'autorise pas les fonds d'écran dynamiques. Microsoft l'a délibérément conçu de cette façon par mesure de sécurité.
+L'écran de connexion de Windows n'est pas destiné à être modifié, car il s'agit d'une décision de conception de Microsoft. Pour y apporter des modifications, il faudrait modifier Windows d'une manière instable et dangereuse. Cela signifie que si une mise à jour de Windows modifie l'écran de verrouillage ou si l'application ne fonctionne plus, vous ne pourrez plus vous connecter à votre ordinateur. La fonction pourrait potentiellement cesser de fonctionner à tout moment, entraînant des effets secondaires imprévisibles.
+
+Si Microsoft rend officiellement cela possible ou si nous découvrons un moyen sûr d'ajouter des fonds d'écran animés à l'écran de verrouillage de Windows, nous mettrons en œuvre cette fonctionnalité. À l'heure actuelle, il n'existe aucun moyen sûr d'y parvenir. C'est pourquoi Wallpaper Engine ne permet pas de définir des fonds d'écran animés sur l'écran de verrouillage.
+
+## Création d'un fond d'écran statique
 
 Cependant, vous pouvez toujours configurer Wallpaper Engine pour remplacer l'image statique de l'écran de verrouillage par un instantané de votre fond d'écran actuel. Pour ce faire, activez l'option **Remplacer l'image d'écran de verrouillage** dans l'onglet **Général** des paramètres de Wallpaper Engine.
 
