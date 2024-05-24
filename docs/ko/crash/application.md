@@ -77,8 +77,8 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 * [AMD Radeon](https://www.amd.com/support)
 
-::: 팁
-설정 중 "새로 설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. 기존 드라이버가 손상되었으면, 우선 완전히 제거하는 것이 중요합니다.
+::: tip
+주의: 설정 중 "새로 설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. 기존 드라이버가 손상되었으면, 우선 완전히 제거하는 것이 중요합니다.
 :::
 
 ### nvwgf2umx.dll / nvwgf2um.dll
@@ -87,8 +87,8 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 * [Nvidia GeForc](https://www.nvidia.com/Download/index.aspx)
 
-::: 팁
-설정 중 "새로 설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. 기존 드라이버가 손상되었으면, 우선 완전히 제거하는 것이 중요합니다.
+::: tip
+주의: 설정 중 "새로 설치 실행" 체크박스를 선택하거나, 일단 수동으로 기존 드라이버를 제거하세요. 기존 드라이버가 손상되었으면, 우선 완전히 제거하는 것이 중요합니다.
 :::
 
 ### igdumd64.dll / igd10umd64.dll / igdumdx32.dll / igd10umd32.dll
@@ -103,7 +103,7 @@ Windows 미디어 파운데이션의 작동 중단으로, 손상된 그래픽 �
 
 **모든 Razer 소프트웨어 완전히 새로 설치하기**
 
-::: 경고
+::: warning
 Razer Synapse를 재설치하는 동안 반드시 Wallpaper Engine이 꺼져있는지 확인하십시오.
 :::
 
@@ -117,7 +117,7 @@ Razer Synapse를 재설치하는 동안 반드시 Wallpaper Engine이 꺼져있�
 
 **재설치로 문제가 해결되지 않을 시**
 
-Razer Synapse를 재설치해도 문제가 해결되지 않았다면, Razer Synapse 자체에 근본적으로 문제가 있을지도 모릅니다. 과거 잘못된 Razer Synapse 업데이트로 인해 발생한 사례가 있습니다. Razer Synapse 업데이트로 해당 문제가 고쳐질 때까지 Wallpaper Engine 설정 메뉴의 **플러그인** 탭에서 LED 플러그인(*"iCUE & Chroma SDK"*)을 비활성화한 후 시도해보십시오.
+Razer Synapse를 재설치해도 문제가 해결되지 않았다면, Razer Synapse 자체에 근본적으로 문제가 있을지도 모릅니다. 과거 잘못된 Razer Synapse 업데이트로 인해 발생한 사례가 있습니다. Razer Synapse 업데이트로 해당 문제가 고쳐질 때까지 Wallpaper Engine 설정 메뉴의 **플러그인** 탭에서 LED 플러그인(*"iCUE & Chroma SDK"*)을 비활성화한 후 시도해 보십시오.
 
 Razer Synapse를 완전히 재설치해도 작동 중단이 계속된다면, Razer 고객지원에 직접 연락하여 문제를 보고하십시오. Razer 측에서 해결하지 못했다면, 저희에게 연락하십시오. 이 작동 중단의 경우 Razer에게 문의하셔야 하지만, 저희 측에서 해당 작동 중단을 조사한 후 결과를 Razer Synapse 개발진 측에 전달할 수는 있습니다.
 

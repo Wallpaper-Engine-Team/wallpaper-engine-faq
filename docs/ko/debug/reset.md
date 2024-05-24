@@ -22,7 +22,7 @@ Microsoft Defender을 제외한 바이러스 백신 응용 프로그램을 사�
 
 손상된 파일을 삭제하기 위해 Wallpaper Engine을 완전히 제거하는 법:
 
-1. 자동 시장 기능을 사용 중일 경우: Wallpaper Engine 설정을 열어 **일반** 탭 맨 위에 있는 자동 시작 설정을 끄세요.
+1. 자동 시작 기능을 사용 중일 경우: Wallpaper Engine 설정을 열어 **일반** 탭 맨 위에 있는 자동 시작 설정을 끄세요.
 2. Steam을 열어 Wallpaper Engine을 오른쪽 클릭하고, **관리**를 클릭한 다음 **제거**를 클릭하세요.
 3. Wallpaper Engine 디렉터리로 이동하여 남아있는 `wallpaper_engine` 디렉터리 전체를 삭제하세요. 기본 설치 디렉터리:
 

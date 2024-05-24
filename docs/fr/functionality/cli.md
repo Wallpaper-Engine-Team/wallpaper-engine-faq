@@ -97,7 +97,7 @@ Charge une nouveau fond d'écran pour un moniteur bien précis ou pour le premie
 * **file :** Chemin vers le project.json du fond d'écran que vous voulez ouvrir ou chemin direct menant au fichier du fond d'écran (.mp4, etc.).
 * **location *(facultatif)* :** Identificateur interne du moniteur. Vous trouverez ces informations dans le fichier config.json (ces infos sont générées par votre PC).
 * **monitor *(facultatif)* :** Index du moniteur sur lequel charger le fond d'écran, commence par 0.
-* trong x-id="1">preset *(facultatif)* :</strong> nom du préréglage local à charger. Vous devez avoir créé et sauvegardé celui-ci.
+* **preset *(facultatif)* :** nom du préréglage local à charger. Vous devez avoir créé et sauvegardé celui-ci.
 * **playInWindow *(facultatif)* :** nom de la fenêtre dans laquelle vous voulez ouvrir/contrôler plusieurs fonds d'écran dans une fenêtre. Le nom de la fenêtre par défaut est "Wallpaper Pop-out".
   * **width *(facultatif)* :** largeur de la fenêtre.
   * **height *(facultatif)* :** hauteur de la fenêtre.
