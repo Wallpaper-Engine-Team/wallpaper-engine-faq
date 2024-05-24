@@ -6,11 +6,11 @@ tags:
 
 # Wallpaper Engine auf dem Login-Bildschirm
 
-Der Windows-Login-Bildschirm ist auf Grund von Design-Entscheidungen durch Microsoft nicht veränderbar. Diesen zu verändern setzt im Grunde voraus, dass man Windows in einer instabilen und unsicheren Art und Weise "hacken" muss. Dies bedeutet, dass wenn ein Windows-Update Änderungen am Login-Bildschirm machen würde oder wenn die App abstürzt, dass ein Login unter Umständen gar nicht mehr möglich wäre. The feature could potentially stop working at any time, causing unpredictable side effects.
+Der Windows-Login-Bildschirm ist auf Grund von Design-Entscheidungen durch Microsoft nicht veränderbar. Diesen zu verändern setzt im Grunde voraus, dass man Windows in einer instabilen und unsicheren Art und Weise "hacken" muss. Dies bedeutet, dass wenn ein Windows-Update Änderungen am Login-Bildschirm machen würde oder wenn die App abstürzt, dass ein Login unter Umständen gar nicht mehr möglich wäre. Das Feature könnte daher jederzeit und plötzlich nicht mehr funktionieren und unvorhersehbare Probleme verursachen.
 
-If Microsoft officially makes this possible or if we discover a safe way to add live wallpapers to the Windows lock screen, we will implement this feature. Currently, there are no known safe ways to accomplish this, which is why live wallpapers cannot be set on the lock screen by Wallpaper Engine.
+Falls Microsoft es je möglich machen sollte oder falls wir einen sicheren Weg entdecken, um animierte Hintergründe auf dem Windows-Login-Bildschirm anzuzeigen, werden wir dieses Feature in die App integrieren. Derzeit gibt es keine bekannten sicheren Methoden, die dies ermöglichen würden. Daher kann Wallpaper Engine keine animierten Hintergründe auf dem Login-Bildschirm setzen.
 
-## Setting a static wallpaper
+## Setzen eines statischen Hintergrunds
 
 Du kannst Wallpaper Engine trotzdem konfigurieren, dass es das statische Bild vom Login-Bildschirm an deinen Live-Hintergrund anpasst. Um dies zu tun, aktiviere die Option **Sperrbildschirm-Hintergrund überschreiben** im Reiter **Allgemein** in den Einstellungen von Wallpaper Engine.
 
