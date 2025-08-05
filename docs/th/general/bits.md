@@ -4,10 +4,7 @@ We recommend using the 64-bit version of Wallpaper Engine since the 64-bit versi
 
 In rare cases, switching to the 32-bit version may help you resolve issues with broken 64-bit Windows components, drivers, video codec packs and other app incompatibilities. This may help you fix specific Wallpaper Engine problems without resolving the underlying issue on your system.
 
-::: warning
-คำเตือน
-โปรดทราบว่าวอลเปเปอร์ประเภท "เว็บ" จะถูกเรียกใช้งานโดยการดำเนินการแบบ 32-Bit เสมอ (webwallpaper32.exe) เช่นเดียวกับส่วนต่อประสานกับผู้ใช้ (ui32.exe) การดำเนินการแบบ 64-Bit จะใช้งานได้เฉพาะเมื่อมีการเลือกวอลเปเปอร์ประเภท "ฉาก" หรือ "วิดีโอ"
-:::
+**Please Note:** *"Web"*-type wallpapers will always be executed with a 32-bit executable *(webwallpaper32.exe)*. The same applies to the user interface of Wallpaper Engine *(ui32.exe)*. The 64-bit option only applies when selecting wallpapers of the type *"Scene"* or *"Video"*.
 
 ## วิธีการตั้งค่า Wallpaper Engine ให้เริ่มต้นโดยอัตโนมัติในเวอร์ชัน 32 Bit หรือ 64 Bit เมื่อ Windows เริ่มทำงาน
 
