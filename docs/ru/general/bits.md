@@ -1,20 +1,13 @@
 # 32- и 64-разрядная версии
 
-64-разрядная версия позволяет работать с более «тяжелыми» файлами (больше 2 ГБ), но она всегда потребляет больше памяти, вне зависимости от размера обоев. Например, при работе со стандартными видео обоями, 64-разрядная версия будет потреблять примерно на 50 МБ больше ОЗУ в сравнении с 32-разрядной. В остальном в работе версий нет никаких различий.
+We recommend using the 64-bit version of Wallpaper Engine since the 64-bit version can handle larger files (more than 2GB). Other than that, the two versions are the same and also deliver the same level of visual fidelity and performance.
 
-::: tip
-Мы рекомендуем использовать 32-разрядную версию, если только вы не используете очень большие обои, которые в этой версии программы приводят к сбоям. Большинство пользователей никогда не сталкиваются с этой проблемой.
-:::
+In rare cases, switching to the 32-bit version may help you resolve issues with broken 64-bit Windows components, drivers, video codec packs and other app incompatibilities. This may help you fix specific Wallpaper Engine problems without resolving the underlying issue on your system.
 
-Также на 64-разрядную версию имеет смысл переключиться, если видеосистема вашего ПК работает с ошибками, которые затрагивают только 32-разрядные версии программ. Если вы когда-либо устанавливали пакеты кодеков и другие подобные инструменты, они могли безвозвратно повредить 32-разрядную версию видеосистемы Windows, которая необходима для работы Wallpaper Engine. Если проблемы не затронули 64-разрядную версию системы, вы можете использовать 64-разрядную версию Wallpaper Engine — так вам не придется тратить время на исправление ошибок.
-
-::: warning
-Обратите внимание
-Обои типа «веб» всегда будут запускаться через 32-разрядный исполняемый файл (webwallpaper32.exe). То же касается и пользовательского интерфейса (ui32.exe). 64-разрядная версия используется только при выборе или обоев типа «сцена» и «видео».
-:::
+**Please Note:** *"Web"*-type wallpapers will always be executed with a 32-bit executable *(webwallpaper32.exe)*. The same applies to the user interface of Wallpaper Engine *(ui32.exe)*. The 64-bit option only applies when selecting wallpapers of the type *"Scene"* or *"Video"*.
 
 ## Как настроить 32- или 64-разрядную версии Wallpaper Engine так, чтобы они запускались вместе с Windows?
 
-Первым делом полностью выключите Wallpaper Engine с помощью значка на панели задач (нажмите правой кнопкой мыши на значок Wallpaper Engine в панели задач -> «Выход»). Важно закрыть программу именно так, поскольку иначе Steam не запустит Wallpaper Engine заново, а просто выведет на экран уже открытую версию программы.
+First, completely turn off Wallpaper Engine via the tray icon (right-click on the Wallpaper Engine icon in the Windows tray, then select "Quit"). Do not skip this step, as Steam will otherwise not restart Wallpaper Engine and only bring the already running version to the foreground.
 
-После того, как Wallpaper Engine будет выключена, зайдите в Steam и запустите 32-разрядную или 64-разрядную версии программы: в зависимости от того, для какой версии вы хотите установить автозапуск. Откройте настройки Wallpaper Engine и включите автозапуск — это первая опция на вкладке «Общее». Если автозапуск уже включен, выключите его и затем включите заново. Это сохранит открытую версию Wallpaper Engine в качестве программы, которая будет автоматически загружаться вместе с Windows. 
+Once Wallpaper Engine is turned off, go to Steam and start either the 32-bit or 64-bit version, depending on which version you want to automatically start. Next, go to the Wallpaper Engine settings and at the top of the "General" tab, enable the automatic startup functionality. Если автозапуск уже включен, выключите его и затем включите заново. Это сохранит открытую версию Wallpaper Engine в качестве программы, которая будет автоматически загружаться вместе с Windows.
