@@ -2,12 +2,12 @@
 
 我们建议使用 64 位版本的 Wallpaper Engine，因为 64 位版本可以处理较大的文档（超过 2GB）。 除此之外，这两个版本是一样的，也提供了相同的视觉保真度和性能。
 
-In rare cases, switching to the 32-bit version may help you resolve issues with broken 64-bit Windows components, drivers, video codec packs and other app incompatibilities. This may help you fix specific Wallpaper Engine problems without resolving the underlying issue on your system.
+在极少数情况下，切换到 32 位版本可能会帮助你解决 64 位 Windows 组件、驱动程序、视频编解码器包和其他应用程序不兼容的问题。 这可能会帮助您修复特定的 Wallpaper Engine 问题，但不会解决系统的根本问题。
 
-**Please Note:** *"Web"*-type wallpapers will always be executed with a 32-bit executable *(webwallpaper32.exe)*. The same applies to the user interface of Wallpaper Engine *(ui32.exe)*. The 64-bit option only applies when selecting wallpapers of the type *"Scene"* or *"Video"*.
+**请注意：** *“网页”*类型的壁纸将始终使用 32 位可执行文件 *（webwallpaper32.exe）*来执行。 Wallpaper Engine *（ui32.exe）*的用户界面也是如此。 仅当选择了*“场景”*或*“视频”*类型的壁纸时，才适用 64 位选项。
 
 ## 如何将 Wallpaper Engine 设置为在 Windows 启动时以 32 位或 64 位版本自动启动？
 
-First, completely turn off Wallpaper Engine via the tray icon (right-click on the Wallpaper Engine icon in the Windows tray, then select "Quit"). Do not skip this step, as Steam will otherwise not restart Wallpaper Engine and only bring the already running version to the foreground.
+首先，通过托盘图标完全关闭 Wallpaper Engine（右键单击 Windows 托盘中的 Wallpaper Engine 图标，然后选择“退出”）。 请勿跳过此步骤，否则 Steam 不会重启 Wallpaper Engine，而只会将已经运行的版本置于前台。
 
-Once Wallpaper Engine is turned off, go to Steam and start either the 32-bit or 64-bit version, depending on which version you want to automatically start. Next, go to the Wallpaper Engine settings and at the top of the "General" tab, enable the automatic startup functionality. 如果已启用该功能，则将其完全关闭，然后再重新打开。 这会将当前版本注册为要随 Windows 自动启动的版本。
+关闭 Wallpaper Engine 以后，转到 Steam 并启动 32 位或 64 位版本，具体取决于您要自动启动的版本。 接下来，转到 Wallpaper Engine 设置，然后在“常规”选项卡顶部启用自动启动功能。 如果已启用该功能，则将其完全关闭，然后再重新打开。 这会将当前版本注册为要随 Windows 自动启动的版本。
