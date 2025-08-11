@@ -1,13 +1,13 @@
 # 32- и 64-разрядная версии
 
-We recommend using the 64-bit version of Wallpaper Engine since the 64-bit version can handle larger files (more than 2GB). Other than that, the two versions are the same and also deliver the same level of visual fidelity and performance.
+Советуем использовать 64-разрядную версию Wallpaper Engine, поскольку она позволяет загружать крупные файлы (от 2 Гб). В остальном обе версии одинаковы и не различаются в плане визуального качества и производительности.
 
-In rare cases, switching to the 32-bit version may help you resolve issues with broken 64-bit Windows components, drivers, video codec packs and other app incompatibilities. This may help you fix specific Wallpaper Engine problems without resolving the underlying issue on your system.
+В редких случаях переход на 32-разрядную версию помогает решить проблемы, связанные с неисправностью компонентов, драйверов и видеокодеков 64-разрядной Windows, а также с прочими несовместимостями. Это может помочь вам исправить определенные проблемы в Wallpaper Engine, не устраняя корень проблем в своей системе.
 
-**Please Note:** *"Web"*-type wallpapers will always be executed with a 32-bit executable *(webwallpaper32.exe)*. The same applies to the user interface of Wallpaper Engine *(ui32.exe)*. The 64-bit option only applies when selecting wallpapers of the type *"Scene"* or *"Video"*.
+**Обратите внимание:**Обои типа *«веб»* всегда будут запускаться через 32-разрядный исполняемый файл *(webwallpaper32.exe)*. То же касается пользовательского интерфейса Wallpaper Engine *(ui32.exe)*. 64-разрядная версия используется только при выборе обоев типа *«сцена»* и *«видео»*.
 
 ## Как настроить 32- или 64-разрядную версии Wallpaper Engine так, чтобы они запускались вместе с Windows?
 
-First, completely turn off Wallpaper Engine via the tray icon (right-click on the Wallpaper Engine icon in the Windows tray, then select "Quit"). Do not skip this step, as Steam will otherwise not restart Wallpaper Engine and only bring the already running version to the foreground.
+Первым делом полностью выключите Wallpaper Engine с помощью значка на панели задач (нажмите правой кнопкой мыши на значок Wallpaper Engine в панели задач, а затем нажмите «Выход»). Не пропускайте этот шаг, иначе Steam не запустит Wallpaper Engine заново, а просто выведет на экран уже открытую версию программы.
 
-Once Wallpaper Engine is turned off, go to Steam and start either the 32-bit or 64-bit version, depending on which version you want to automatically start. Next, go to the Wallpaper Engine settings and at the top of the "General" tab, enable the automatic startup functionality. Если автозапуск уже включен, выключите его и затем включите заново. Это сохранит открытую версию Wallpaper Engine в качестве программы, которая будет автоматически загружаться вместе с Windows.
+После того, как Wallpaper Engine будет выключена, зайдите в Steam и запустите 32-разрядную или 64-разрядную версии программы: в зависимости от того, для какой версии вы хотите установить автозапуск. Затем откройте настройки Wallpaper Engine и включите автозапуск — это первая опция на вкладке «Общее». Если автозапуск уже включен, выключите его и затем включите заново. Это сохранит открытую версию Wallpaper Engine в качестве программы, которая будет автоматически загружаться вместе с Windows.
