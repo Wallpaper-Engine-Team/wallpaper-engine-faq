@@ -2,9 +2,9 @@
 
 我們建議使用 64 位元版本的 Wallpaper Engine，因為 64 位元版本可處理容量更大的檔案（超過 2GB）。 除此之外，兩個版本皆相同，也能提供相同等級的視覺逼真度與性能。
 
-In rare cases, switching to the 32-bit version may help you resolve issues with broken 64-bit Windows components, drivers, video codec packs and other app incompatibilities. This may help you fix specific Wallpaper Engine problems without resolving the underlying issue on your system.
+在少數的情況下，切換至 32 位元版本，就能解決 64 位元版本 Windows 的元件損壞、驅動程式、視訊轉碼器套件及其他應用程式無法相容的問題。 這麼做也許能協助修復特定的 Wallpaper Engine 問題，不過無法解決系統的潛在問題。
 
-**Please Note:** *"Web"*-type wallpapers will always be executed with a 32-bit executable *(webwallpaper32.exe)*. The same applies to the user interface of Wallpaper Engine *(ui32.exe)*. The 64-bit option only applies when selecting wallpapers of the type *"Scene"* or *"Video"*.
+**請注意：** *「網頁」*類型的桌布必須以 32 位元的可執行檔*（webwallpaper32.exe）*執行。 相同的情況適用於 Wallpaper Engine 的使用者介面*（ui32.exe）*。 The 64-bit option only applies when selecting wallpapers of the type *"Scene"* or *"Video"*.
 
 ## 如何將 Wallpaper Engine 設定為在 Windows 啟動時以 32 位元或 64 位元版本自動啟動？
 
