@@ -8,6 +8,6 @@ Wallpaper Engine 64비트 버전 사용을 권장합니다. 64비트 버전은 2
 
 ## Windows 실행과 함께 32 또는 64비트 버전의 Wallpaper Engine 자동 시작 설정 방법
 
-먼저 트레이 아이콘을 통해 Wallpaper Engine을 완전히 종료합니다(Windows 트레이에서 Wallpaper Engine 아이콘 오른쪽 클릭 후 "종료" 선택). Do not skip this step, as Steam will otherwise not restart Wallpaper Engine and only bring the already running version to the foreground.
+먼저 트레이 아이콘을 통해 Wallpaper Engine을 완전히 종료합니다(Windows 트레이에서 Wallpaper Engine 아이콘 오른쪽 클릭 후 "종료" 선택). 이 단계를 건너뛰지 마세요. 이 단계를 건너뛰면 Steam이 Wallpaper Engine을 재시작하지 않고 이미 실행 중인 버전만 전경으로 불러옵니다.
 
-Once Wallpaper Engine is turned off, go to Steam and start either the 32-bit or 64-bit version, depending on which version you want to automatically start. Next, go to the Wallpaper Engine settings and at the top of the "General" tab, enable the automatic startup functionality. 이미 활성화되었다면, 완전히 끈 다음 다시 켭니다. 그러면 현재 버전이 Windows와 함께 자동으로 시작되는 버전으로 등록됩니다.
+Wallpaper Engine이 꺼지면 Steam으로 가 32비트 또는 64비트 버전 중 자동으로 시작하고 싶은 버전을 실행합니다. 그런 다음 Wallpaper Engine 설정으로 이동해 "일반" 탭 상단에서 자동 시작 기능을 활성화합니다. 이미 활성화되었다면, 완전히 끈 다음 다시 켭니다. 그러면 현재 버전이 Windows와 함께 자동으로 시작되는 버전으로 등록됩니다.
