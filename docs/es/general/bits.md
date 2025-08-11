@@ -1,13 +1,13 @@
 # Versiones 32-Bit y 64-Bit
 
-We recommend using the 64-bit version of Wallpaper Engine since the 64-bit version can handle larger files (more than 2GB). Other than that, the two versions are the same and also deliver the same level of visual fidelity and performance.
+Recomendamos usar la versión de 64 bits de Wallpaper Engine, ya que la versión de 64 bits es capaz de soportar archivos más grandes (de más de 2 Gb). Al margen de eso, las dos versiones son idénticas y también proporcionan el mismo nivel de fidelidad visual y de rendimiento.
 
-In rare cases, switching to the 32-bit version may help you resolve issues with broken 64-bit Windows components, drivers, video codec packs and other app incompatibilities. This may help you fix specific Wallpaper Engine problems without resolving the underlying issue on your system.
+En raras ocasiones, cambiar a la versión de 32 bits podría ayudarte a resolver problemas con componentes rotos de Windows de 64 bits, controladores, paquetes de codecs y otras incompatibilidades de la aplicación. También podría ayudarte a solucionar problemas específicos de Wallpaper Engine sin resolver el problema subyacente de tu sistema.
 
-**Please Note:** *"Web"*-type wallpapers will always be executed with a 32-bit executable *(webwallpaper32.exe)*. The same applies to the user interface of Wallpaper Engine *(ui32.exe)*. The 64-bit option only applies when selecting wallpapers of the type *"Scene"* or *"Video"*.
+**Aviso:** Los fondos de tipo *"web"* siempre se ejecutarán con un ejecutable de 32 bits *(webwallpaper32.exe)*. Lo mismo se aplica a la interfaz de usuario de Wallpaper Engine *(ui32.exe)*. La opción de 64 bits solo se aplica al seleccionar fondos del tipo *"escena"* o *"vídeo"*.
 
-## ¿Cómo configuro Wallpaper Engine para iniciarse automáticamente con las versiones 32 o 64-bit al arrancar Windows?
+## ¿Cómo configuro Wallpaper Engine para que se inicie automáticamente con las versiones de 32 o 64 bits al arrancar Windows?
 
-First, completely turn off Wallpaper Engine via the tray icon (right-click on the Wallpaper Engine icon in the Windows tray, then select "Quit"). Do not skip this step, as Steam will otherwise not restart Wallpaper Engine and only bring the already running version to the foreground.
+Primero, cierra Wallpaper Engine desde el icono de la bandeja (haz clic derecho en el icono de Wallpaper Engine en la bandeja de Windows y después seleccióna "Salir"). No te saltes este paso porque, si no, Steam no reiniciará Wallpaper Engine, sino que abrirá la versión que ya se está ejecutando en segundo plano.
 
-Once Wallpaper Engine is turned off, go to Steam and start either the 32-bit or 64-bit version, depending on which version you want to automatically start. Next, go to the Wallpaper Engine settings and at the top of the "General" tab, enable the automatic startup functionality. Si ya está activada, desmárcala y vuelve a marcarla. Así se registrará la versión actual como la que tiene que iniciarse automáticamente a la vez que Windows.
+Una vez que hayas cerrado Wallpaper Engine, dirígete a Steam y abre la versión de 32 o 64 bits, dependiendo de cuál quieras que se inicie de forma automática. Luego ve a la configuración de Wallpaper Engine y activa la opción de inicio automático en la parte superior de la pestaña "General". Si ya está activada, desmárcala y vuelve a marcarla. Así se registrará la versión actual como la que tiene que iniciarse automáticamente a la vez que Windows.
