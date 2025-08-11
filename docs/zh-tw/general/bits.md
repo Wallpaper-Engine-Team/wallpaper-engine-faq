@@ -1,6 +1,6 @@
 # 32 位元與 64 位元版本
 
-We recommend using the 64-bit version of Wallpaper Engine since the 64-bit version can handle larger files (more than 2GB). Other than that, the two versions are the same and also deliver the same level of visual fidelity and performance.
+我們建議使用 64 位元版本的 Wallpaper Engine，因為 64 位元版本可處理容量更大的檔案（超過 2GB）。 除此之外，兩個版本皆相同，也能提供相同等級的視覺逼真度與性能。
 
 In rare cases, switching to the 32-bit version may help you resolve issues with broken 64-bit Windows components, drivers, video codec packs and other app incompatibilities. This may help you fix specific Wallpaper Engine problems without resolving the underlying issue on your system.
 
