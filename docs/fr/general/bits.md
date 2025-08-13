@@ -1,4 +1,4 @@
-# Version 32 bits & 64 bits
+# 32-Bit & 64-Bit Version
 
 Nous recommandons d'utiliser la version 64 bits de Wallpaper Engine, car elle peut gérer des fichiers plus volumineux (plus de 2 Go). Hormis cela, les deux versions sont identiques et offrent le même niveau de fidélité visuelle et de performance.
 
